@@ -1,0 +1,464 @@
+```json
+[
+  {
+    "age": "0-1",
+    "Population": {
+      "Persons": 175786,
+      "Males": 85577,
+      "Females": 90209
+    },
+    "Unmarried": {
+      "Persons": 174225,
+      "Males": 85051,
+      "Females": 89174
+    },
+    "Married": {
+      "Persons": 1467,
+      "Males": 509,
+      "Females": 958
+    },
+    "Widowed": {
+      "Persons": 94,
+      "Males": 17,
+      "Females": 77
+    }
+  },
+  {
+    "age": "1-2",
+    "Population": {
+      "Persons": 236893,
+      "Males": 115495,
+      "Females": 121398
+    },
+    "Unmarried": {
+      "Persons": 235271,
+      "Males": 114699,
+      "Females": 120572
+    },
+    "Married": {
+      "Persons": 1490,
+      "Males": 763,
+      "Females": 727
+    },
+    "Widowed": {
+      "Persons": 132,
+      "Males": 33,
+      "Females": 99
+    }
+  },
+  {
+    "age": "2-3",
+    "Population": {
+      "Persons": 323459,
+      "Males": 155863,
+      "Females": 167596
+    },
+    "Unmarried": {
+      "Persons": 318976,
+      "Males": 154163,
+      "Females": 164813
+    },
+    "Married": {
+      "Persons": 4218,
+      "Males": 1630,
+      "Females": 2588
+    },
+    "Widowed": {
+      "Persons": 265,
+      "Males": 70,
+      "Females": 195
+    }
+  },
+  {
+    "age": "3-4",
+    "Population": {
+      "Persons": 286702,
+      "Males": 136803,
+      "Females": 149899
+    },
+    "Unmarried": {
+      "Persons": 280506,
+      "Males": 134746,
+      "Females": 145760
+    },
+    "Married": {
+      "Persons": 5868,
+      "Males": 1982,
+      "Females": 3886
+    },
+    "Widowed": {
+      "Persons": 328,
+      "Males": 75,
+      "Females": 253
+    }
+  },
+  {
+    "age": "4-5",
+    "Population": {
+      "Persons": 332827,
+      "Males": 165119,
+      "Females": 167708
+    },
+    "Unmarried": {
+      "Persons": 322903,
+      "Males": 162116,
+      "Females": 160787
+    },
+    "Married": {
+      "Persons": 9101,
+      "Males": 2821,
+      "Females": 6280
+    },
+    "Widowed": {
+      "Persons": 823,
+      "Males": 182,
+      "Females": 641
+    }
+  },
+  {
+    "age": "Total 0-5",
+    "Population": {
+      "Persons": 1355667,
+      "Males": 658857,
+      "Females": 696810
+    },
+    "Unmarried": {
+      "Persons": 1331881,
+      "Males": 650775,
+      "Females": 681106
+    },
+    "Married": {
+      "Persons": 22144,
+      "Males": 7705,
+      "Females": 14439
+    },
+    "Widowed": {
+      "Persons": 1642,
+      "Males": 377,
+      "Females": 1265
+    }
+  },
+  {
+    "age": "5-10",
+    "Population": {
+      "Persons": 1452854,
+      "Males": 755963,
+      "Females": 696891
+    },
+    "Unmarried": {
+      "Persons": 1289714,
+      "Males": 725092,
+      "Females": 564622
+    },
+    "Married": {
+      "Persons": 153161,
+      "Males": 28691,
+      "Females": 124470
+    },
+    "Widowed": {
+      "Persons": 9979,
+      "Males": 2180,
+      "Females": 7799
+    }
+  },
+  {
+    "age": "10-15",
+    "Population": {
+      "Persons": 1350321,
+      "Males": 739509,
+      "Females": 610812
+    },
+    "Unmarried": {
+      "Persons": 879907,
+      "Males": 633738,
+      "Females": 246169
+    },
+    "Married": {
+      "Persons": 443034,
+      "Males": 98576,
+      "Females": 344458
+    },
+    "Widowed": {
+      "Persons": 27380,
+      "Males": 7195,
+      "Females": 20185
+    }
+  },
+  {
+    "age": "15-20",
+    "Population": {
+      "Persons": 852389,
+      "Males": 428409,
+      "Females": 423980
+    },
+    "Unmarried": {
+      "Persons": 319500,
+      "Males": 270156,
+      "Females": 49344
+    },
+    "Married": {
+      "Persons": 502285,
+      "Males": 150145,
+      "Females": 352140
+    },
+    "Widowed": {
+      "Persons": 30604,
+      "Males": 8108,
+      "Females": 22496
+    }
+  },
+  {
+    "age": "20-25",
+    "Population": {
+      "Persons": 894027,
+      "Males": 405798,
+      "Females": 488229
+    },
+    "Unmarried": {
+      "Persons": 161074,
+      "Males": 134285,
+      "Females": 26789
+    },
+    "Married": {
+      "Persons": 682340,
+      "Males": 259674,
+      "Females": 422666
+    },
+    "Widowed": {
+      "Persons": 50613,
+      "Males": 11839,
+      "Females": 38774
+    }
+  },
+  {
+    "age": "25-30",
+    "Population": {
+      "Persons": 1051503,
+      "Males": 523613,
+      "Females": 527890
+    },
+    "Unmarried": {
+      "Persons": 127057,
+      "Males": 76542,
+      "Females": 50515
+    },
+    "Married": {
+      "Persons": 844478,
+      "Males": 425666,
+      "Females": 418812
+    },
+    "Widowed": {
+      "Persons": 79968,
+      "Males": 21405,
+      "Females": 58563
+    }
+  },
+  {
+    "age": "30-35",
+    "Population": {
+      "Persons": 1072226,
+      "Males": 538818,
+      "Females": 533408
+    },
+    "Unmarried": {
+      "Persons": 77341,
+      "Males": 40330,
+      "Females": 37011
+    },
+    "Married": {
+      "Persons": 869499,
+      "Males": 470506,
+      "Females": 398993
+    },
+    "Widowed": {
+      "Persons": 125386,
+      "Males": 27982,
+      "Females": 97404
+    }
+  },
+  {
+    "age": "35-40",
+    "Population": {
+      "Persons": 628589,
+      "Males": 342613,
+      "Females": 285976
+    },
+    "Unmarried": {
+      "Persons": 39074,
+      "Males": 19244,
+      "Females": 19830
+    },
+    "Married": {
+      "Persons": 491882,
+      "Males": 301284,
+      "Females": 190598
+    },
+    "Widowed": {
+      "Persons": 97633,
+      "Males": 22085,
+      "Females": 75548
+    }
+  },
+  {
+    "age": "40-45",
+    "Population": {
+      "Persons": 818675,
+      "Males": 425753,
+      "Females": 392922
+    },
+    "Unmarried": {
+      "Persons": 33616,
+      "Males": 20963,
+      "Females": 12653
+    },
+    "Married": {
+      "Persons": 579819,
+      "Males": 366990,
+      "Females": 212829
+    },
+    "Widowed": {
+      "Persons": 205240,
+      "Males": 37800,
+      "Females": 167440
+    }
+  },
+  {
+    "age": "45-50",
+    "Population": {
+      "Persons": 357058,
+      "Males": 200814,
+      "Females": 156244
+    },
+    "Unmarried": {
+      "Persons": 13097,
+      "Males": 8461,
+      "Females": 4636
+    },
+    "Married": {
+      "Persons": 246293,
+      "Males": 169334,
+      "Females": 76959
+    },
+    "Widowed": {
+      "Persons": 97668,
+      "Males": 23019,
+      "Females": 74649
+    }
+  },
+  {
+    "age": "50-55",
+    "Population": {
+      "Persons": 568550,
+      "Males": 289341,
+      "Females": 279209
+    },
+    "Unmarried": {
+      "Persons": 16361,
+      "Males": 10586,
+      "Females": 5775
+    },
+    "Married": {
+      "Persons": 328319,
+      "Males": 233902,
+      "Females": 94417
+    },
+    "Widowed": {
+      "Persons": 223870,
+      "Males": 44853,
+      "Females": 179017
+    }
+  },
+  {
+    "age": "55-60",
+    "Population": {
+      "Persons": 168158,
+      "Males": 93094,
+      "Females": 75064
+    },
+    "Unmarried": {
+      "Persons": 6938,
+      "Males": 4499,
+      "Females": 2439
+    },
+    "Married": {
+      "Persons": 97359,
+      "Males": 69913,
+      "Females": 27446
+    },
+    "Widowed": {
+      "Persons": 63861,
+      "Males": 18682,
+      "Females": 45179
+    }
+  },
+  {
+    "age": "60 & over",
+    "Population": {
+      "Persons": 570951,
+      "Males": 271002,
+      "Females": 299949
+    },
+    "Unmarried": {
+      "Persons": 15862,
+      "Males": 9748,
+      "Females": 6114
+    },
+    "Married": {
+      "Persons": 241694,
+      "Males": 190386,
+      "Females": 51308
+    },
+    "Widowed": {
+      "Persons": 313395,
+      "Males": 70868,
+      "Females": 242527
+    }
+  },
+  {
+    "age": "Age not stated",
+    "Population": {
+      "Persons": 174,
+      "Males": 45,
+      "Females": 129
+    },
+    "Unmarried": {
+      "Persons": 103,
+      "Males": 20,
+      "Females": 83
+    },
+    "Married": {
+      "Persons": 60,
+      "Males": 23,
+      "Females": 37
+    },
+    "Widowed": {
+      "Persons": 11,
+      "Males": 2,
+      "Females": 9
+    }
+  },
+  {
+    "age": "Total",
+    "Population": {
+      "Persons": 11141142,
+      "Males": 5673629,
+      "Females": 5467513
+    },
+    "Unmarried": {
+      "Persons": 4311525,
+      "Males": 2604439,
+      "Females": 1707086
+    },
+    "Married": {
+      "Persons": 5502367,
+      "Males": 2772795,
+      "Females": 2729572
+    },
+    "Widowed": {
+      "Persons": 1327250,
+      "Males": 296395,
+      "Females": 1030855
+    }
+  }
+]
+```

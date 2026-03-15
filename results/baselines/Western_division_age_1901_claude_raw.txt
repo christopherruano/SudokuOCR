@@ -1,0 +1,23 @@
+```json
+[
+  {"age": "..", "Persons": null, "Males": null, "Females": null, "Persons_widowed": null, "Males_widowed": null, "Females_widowed": null},
+  {"age": "..", "Persons": null, "Males": null, "Females": null, "Persons_widowed": null, "Males_widowed": null, "Females_widowed": null},
+  {"age": "..", "Persons": null, "Males": null, "Females": null, "Persons_widowed": null, "Males_widowed": null, "Females_widowed": null},
+  {"age": "4", "Persons": null, "Males": null, "Females": 4, "Persons_widowed": null, "Males_widowed": null, "Females_widowed": null},
+  {"age": "7", "Persons": null, "Males": null, "Females": 7, "Persons_widowed": null, "Males_widowed": null, "Females_widowed": null},
+  {"age": "11", "Persons": null, "Males": null, "Females": 11, "Persons_widowed": null, "Males_widowed": null, "Females_widowed": null},
+  {"age": "558", "Persons": 97, "Males": 459, "Females": null, "Persons_widowed": 73, "Males_widowed": 32, "Females_widowed": 41},
+  {"age": "7928", "Persons": 830, "Males": 7098, "Females": null, "Persons_widowed": 425, "Males_widowed": 112, "Females_widowed": 313},
+  {"age": "49359", "Persons": 7237, "Males": 42122, "Females": null, "Persons_widowed": 2184, "Males_widowed": 460, "Females_widowed": 1724},
+  {"age": "90671", "Persons": 27696, "Males": 62975, "Females": null, "Persons_widowed": 6179, "Males_widowed": 1790, "Females_widowed": 4389},
+  {"age": "127086", "Persons": 56659, "Males": 70427, "Females": null, "Persons_widowed": 11208, "Males_widowed": 3458, "Females_widowed": 7750},
+  {"age": "106760", "Persons": 54975, "Males": 51805, "Females": null, "Persons_widowed": 13766, "Males_widowed": 4088, "Females_widowed": 9678},
+  {"age": "101116", "Persons": 59201, "Males": 41915, "Females": null, "Persons_widowed": 15644, "Males_widowed": 4179, "Females_widowed": 11465},
+  {"age": "71930", "Persons": 44642, "Males": 27288, "Females": null, "Persons_widowed": 20065, "Males_widowed": 4413, "Females_widowed": 15652},
+  {"age": "52949", "Persons": 35150, "Males": 17799, "Females": null, "Persons_widowed": 18226, "Males_widowed": 3922, "Females_widowed": 14304},
+  {"age": "37206", "Persons": 26030, "Males": 11176, "Females": null, "Persons_widowed": 23031, "Males_widowed": 4641, "Females_widowed": 18390},
+  {"age": "21043", "Persons": 15767, "Males": 5276, "Females": null, "Persons_widowed": 14733, "Males_widowed": 3261, "Females_widowed": 11472},
+  {"age": "28120", "Persons": 23042, "Males": 5078, "Females": null, "Persons_widowed": 43537, "Males_widowed": 10283, "Females_widowed": 33254},
+  {"age": "694658", "Persons": 351386, "Males": 343267, "Females": null, "Persons_widowed": 168069, "Males_widowed": 40637, "Females_widowed": 127432}
+]
+```

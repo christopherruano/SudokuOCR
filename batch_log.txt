@@ -1,0 +1,59 @@
+=== Starting remaining provinces batch ===
+Sat Feb 28 10:57:25 EST 2026
+=== Assam 1891 ===
+  Mysore/1891: 11 pages (7/11 new)
+
+Total pages to process: 7
+
+[1/7] Mysore/1891/Mysore_age_1891-05.png  (0.0 pages/min, ETA: 0 min)
+  Done in 137.5s (2 API calls, 220 checks, 0 failures)
+
+[2/7] Mysore/1891/Mysore_age_1891-06.png  (0.4 pages/min, ETA: 14 min)
+  Done in 124.7s (2 API calls, 264 checks, 0 failures)
+
+[3/7] Mysore/1891/Mysore_age_1891-07.png  (0.5 pages/min, ETA: 11 min)
+  Done in 174.0s (3 API calls, 253 checks, 33 failures)
+
+[4/7] Mysore/1891/Mysore_age_1891-08.png  (0.4 pages/min, ETA: 10 min)
+  Done in 172.6s (3 API calls, 250 checks, 15 failures)
+
+[5/7] Mysore/1891/Mysore_age_1891-09.png  (0.4 pages/min, ETA: 8 min)
+  Done in 181.6s (3 API calls, 200 checks, 9 failures)
+
+[6/7] Mysore/1891/Mysore_age_1891-10.png  (0.4 pages/min, ETA: 5 min)
+  Done in 191.1s (3 API calls, 400 checks, 13 failures)
+
+[7/7] Mysore/1891/Mysore_age_1891-11.png  (0.4 pages/min, ETA: 3 min)
+  Done in 242.5s (3 API calls, 300 checks, 21 failures)
+
+============================================================
+BATCH COMPLETE: 7 succeeded, 0 failed
+Total time: 20.4 minutes
+Average: 175s per page
+  Assam/1891: 6 pages (6/6 new)
+
+Total pages to process: 6
+
+[1/6] Assam/1891/Assam_age_1891-1.png  (0.0 pages/min, ETA: 0 min)
+  FAILED: TIMEOUT
+
+[2/6] Assam/1891/Assam_age_1891-2.png  (0.1 pages/min, ETA: 50 min)
+  FAILED: TIMEOUT
+
+[3/6] Assam/1891/Assam_age_1891-3.png  (0.1 pages/min, ETA: 40 min)
+  Done in 156.0s (2 API calls, 504 checks, 0 failures)
+
+[4/6] Assam/1891/Assam_age_1891-4.png  (0.1 pages/min, ETA: 23 min)
+  Done in 133.8s (2 API calls, 504 checks, 0 failures)
+
+[5/6] Assam/1891/Assam_age_1891-5.png  (0.2 pages/min, ETA: 12 min)
+  Done in 306.7s (3 API calls, 558 checks, 53 failures)
+
+[6/6] Assam/1891/Assam_age_1891-6.png  (0.2 pages/min, ETA: 6 min)
+  Done in 136.5s (2 API calls, 504 checks, 0 failures)
+
+============================================================
+BATCH COMPLETE: 4 succeeded, 2 failed
+Total time: 32.3 minutes
+Average: 323s per page
+=== Burma 1891 ===

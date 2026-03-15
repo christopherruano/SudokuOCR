@@ -1,0 +1,18 @@
+```json
+[
+  {"age": "0-5", "persons": 1_355_867, "males": 655_808, "females": 700_059},
+  {"age": "5-10", "persons": 1_452_854, "males": 761_656, "females": 691_198},
+  {"age": "10-15", "persons": 1_350_321, "males": 670_539, "females": 679_782},
+  {"age": "15-20", "persons": 852_389, "males": 428_409, "females": 423_980},
+  {"age": "20-25", "persons": 894_027, "males": 405_799, "females": 488_228},
+  {"age": "25-30", "persons": 1_051_503, "males": 523_613, "females": 527_890},
+  {"age": "30-35", "persons": 1_072_226, "males": 542_213, "females": 530_013},
+  {"age": "35-40", "persons": 628_589, "males": 312_413, "females": 316_176},
+  {"age": "40-45", "persons": 818_675, "males": 425_713, "females": 392_962},
+  {"age": "45-50", "persons": 357_058, "males": 200_841, "females": 156_217},
+  {"age": "50-55", "persons": 588_550, "males": 299_341, "females": 289_209},
+  {"age": "55-60", "persons": 168_158, "males": 97_034, "females": 71_064},
+  {"age": "60 and over", "persons": 307_011, "males": 107_496, "females": 199_519},
+  {"age": "Total", "persons": 11_141_142, "males": 5_673_629, "females": 5_467_513}
+]
+```

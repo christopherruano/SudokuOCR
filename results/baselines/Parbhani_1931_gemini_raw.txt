@@ -1,0 +1,796 @@
+```json
+[
+  {
+    "religion": "All Religions",
+    "age": "All Ages",
+    "POPULATION": {
+      "Persons": 853760,
+      "Males": 434777,
+      "Females": 418983
+    },
+    "UNMARRIED": {
+      "Persons": 285850,
+      "Males": 162724,
+      "Females": 123126
+    },
+    "MARRIED": {
+      "Persons": 483401,
+      "Males": 248136,
+      "Females": 235265
+    },
+    "WIDOWED": {
+      "Persons": 84509,
+      "Males": 23917,
+      "Females": 60592
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "0-1",
+    "POPULATION": {
+      "Persons": 24644,
+      "Males": 11769,
+      "Females": 12875
+    },
+    "UNMARRIED": {
+      "Persons": 24151,
+      "Males": 11532,
+      "Females": 12619
+    },
+    "MARRIED": {
+      "Persons": 471,
+      "Males": 211,
+      "Females": 260
+    },
+    "WIDOWED": {
+      "Persons": 22,
+      "Males": 6,
+      "Females": 16
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "1-5",
+    "POPULATION": {
+      "Persons": 122567,
+      "Males": 56581,
+      "Females": 65981
+    },
+    "UNMARRIED": {
+      "Persons": 110075,
+      "Males": 53438,
+      "Females": 56637
+    },
+    "MARRIED": {
+      "Persons": 12004,
+      "Males": 2922,
+      "Females": 9082
+    },
+    "WIDOWED": {
+      "Persons": 488,
+      "Males": 224,
+      "Females": 264
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "5-10",
+    "POPULATION": {
+      "Persons": 113918,
+      "Males": 58473,
+      "Females": 55445
+    },
+    "UNMARRIED": {
+      "Persons": 76369,
+      "Males": 45423,
+      "Females": 30946
+    },
+    "MARRIED": {
+      "Persons": 36457,
+      "Males": 12886,
+      "Females": 23821
+    },
+    "WIDOWED": {
+      "Persons": 1092,
+      "Males": 414,
+      "Females": 678
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "10-15",
+    "POPULATION": {
+      "Persons": 100765,
+      "Males": 51783,
+      "Females": 48982
+    },
+    "UNMARRIED": {
+      "Persons": 47875,
+      "Males": 31585,
+      "Females": 16290
+    },
+    "MARRIED": {
+      "Persons": 51408,
+      "Males": 19566,
+      "Females": 31842
+    },
+    "WIDOWED": {
+      "Persons": 1482,
+      "Males": 632,
+      "Females": 850
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "15-20",
+    "POPULATION": {
+      "Persons": 72843,
+      "Males": 35609,
+      "Females": 37234
+    },
+    "UNMARRIED": {
+      "Persons": 11466,
+      "Males": 9356,
+      "Females": 2110
+    },
+    "MARRIED": {
+      "Persons": 59071,
+      "Males": 25128,
+      "Females": 33943
+    },
+    "WIDOWED": {
+      "Persons": 2306,
+      "Males": 1125,
+      "Females": 1181
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "20-30",
+    "POPULATION": {
+      "Persons": 145635,
+      "Males": 75022,
+      "Females": 70613
+    },
+    "UNMARRIED": {
+      "Persons": 9027,
+      "Males": 7423,
+      "Females": 1604
+    },
+    "MARRIED": {
+      "Persons": 127562,
+      "Males": 63978,
+      "Females": 63584
+    },
+    "WIDOWED": {
+      "Persons": 9046,
+      "Males": 4221,
+      "Females": 4825
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "30-40",
+    "POPULATION": {
+      "Persons": 109987,
+      "Males": 57069,
+      "Females": 52918
+    },
+    "UNMARRIED": {
+      "Persons": 3539,
+      "Males": 1937,
+      "Females": 1602
+    },
+    "MARRIED": {
+      "Persons": 92258,
+      "Males": 51500,
+      "Females": 40758
+    },
+    "WIDOWED": {
+      "Persons": 14190,
+      "Males": 3602,
+      "Females": 10588
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "40-50",
+    "POPULATION": {
+      "Persons": 78860,
+      "Males": 42830,
+      "Females": 36030
+    },
+    "UNMARRIED": {
+      "Persons": 1684,
+      "Males": 1009,
+      "Females": 675
+    },
+    "MARRIED": {
+      "Persons": 58020,
+      "Males": 37107,
+      "Females": 20613
+    },
+    "WIDOWED": {
+      "Persons": 19156,
+      "Males": 4414,
+      "Females": 14742
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "50-60",
+    "POPULATION": {
+      "Persons": 49192,
+      "Males": 26907,
+      "Females": 22285
+    },
+    "UNMARRIED": {
+      "Persons": 937,
+      "Males": 538,
+      "Females": 399
+    },
+    "MARRIED": {
+      "Persons": 29527,
+      "Males": 21775,
+      "Females": 7752
+    },
+    "WIDOWED": {
+      "Persons": 18728,
+      "Males": 4594,
+      "Females": 14134
+    }
+  },
+  {
+    "religion": "All Religions",
+    "age": "60 and over",
+    "POPULATION": {
+      "Persons": 35349,
+      "Males": 18131,
+      "Females": 17218
+    },
+    "UNMARRIED": {
+      "Persons": 727,
+      "Males": 513,
+      "Females": 214
+    },
+    "MARRIED": {
+      "Persons": 16623,
+      "Males": 12968,
+      "Females": 3650
+    },
+    "WIDOWED": {
+      "Persons": 17999,
+      "Males": 4625,
+      "Females": 13374
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "All Ages",
+    "POPULATION": {
+      "Persons": 589258,
+      "Males": 301611,
+      "Females": 287647
+    },
+    "UNMARRIED": {
+      "Persons": 190410,
+      "Males": 111102,
+      "Females": 79308
+    },
+    "MARRIED": {
+      "Persons": 335419,
+      "Males": 171407,
+      "Females": 164012
+    },
+    "WIDOWED": {
+      "Persons": 63429,
+      "Males": 19102,
+      "Females": 44327
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "0-1",
+    "POPULATION": {
+      "Persons": 16720,
+      "Males": 7920,
+      "Females": 8800
+    },
+    "UNMARRIED": {
+      "Persons": 16453,
+      "Males": 7793,
+      "Females": 8660
+    },
+    "MARRIED": {
+      "Persons": 256,
+      "Males": 127,
+      "Females": 129
+    },
+    "WIDOWED": {
+      "Persons": 11,
+      "Males": 0,
+      "Females": 11
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "1-5",
+    "POPULATION": {
+      "Persons": 79552,
+      "Males": 36388,
+      "Females": 43164
+    },
+    "UNMARRIED": {
+      "Persons": 71673,
+      "Males": 34515,
+      "Females": 37158
+    },
+    "MARRIED": {
+      "Persons": 7659,
+      "Males": 1801,
+      "Females": 5858
+    },
+    "WIDOWED": {
+      "Persons": 220,
+      "Males": 72,
+      "Females": 148
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "5-10",
+    "POPULATION": {
+      "Persons": 78024,
+      "Males": 40380,
+      "Females": 37644
+    },
+    "UNMARRIED": {
+      "Persons": 51747,
+      "Males": 31737,
+      "Females": 20010
+    },
+    "MARRIED": {
+      "Persons": 25494,
+      "Males": 8384,
+      "Females": 17110
+    },
+    "WIDOWED": {
+      "Persons": 783,
+      "Males": 289,
+      "Females": 494
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "10-15",
+    "POPULATION": {
+      "Persons": 71193,
+      "Males": 37211,
+      "Females": 33982
+    },
+    "UNMARRIED": {
+      "Persons": 32691,
+      "Males": 22328,
+      "Females": 10363
+    },
+    "MARRIED": {
+      "Persons": 37467,
+      "Males": 14154,
+      "Females": 23014
+    },
+    "WIDOWED": {
+      "Persons": 1035,
+      "Males": 430,
+      "Females": 605
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "15-20",
+    "POPULATION": {
+      "Persons": 51162,
+      "Males": 25069,
+      "Females": 26093
+    },
+    "UNMARRIED": {
+      "Persons": 7484,
+      "Males": 6384,
+      "Females": 1100
+    },
+    "MARRIED": {
+      "Persons": 41823,
+      "Males": 17683,
+      "Females": 24140
+    },
+    "WIDOWED": {
+      "Persons": 1855,
+      "Males": 1002,
+      "Females": 853
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "20-30",
+    "POPULATION": {
+      "Persons": 101754,
+      "Males": 54589,
+      "Females": 48165
+    },
+    "UNMARRIED": {
+      "Persons": 5894,
+      "Males": 5271,
+      "Females": 623
+    },
+    "MARRIED": {
+      "Persons": 88771,
+      "Males": 47002,
+      "Females": 41062
+    },
+    "WIDOWED": {
+      "Persons": 7089,
+      "Males": 3009,
+      "Females": 3480
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "30-40",
+    "POPULATION": {
+      "Persons": 76120,
+      "Males": 39757,
+      "Females": 36363
+    },
+    "UNMARRIED": {
+      "Persons": 2209,
+      "Males": 1429,
+      "Females": 780
+    },
+    "MARRIED": {
+      "Persons": 63213,
+      "Males": 35417,
+      "Females": 27796
+    },
+    "WIDOWED": {
+      "Persons": 10698,
+      "Males": 2911,
+      "Females": 7787
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "40-50",
+    "POPULATION": {
+      "Persons": 54985,
+      "Males": 29679,
+      "Females": 25306
+    },
+    "UNMARRIED": {
+      "Persons": 1036,
+      "Males": 785,
+      "Females": 251
+    },
+    "MARRIED": {
+      "Persons": 39580,
+      "Males": 25221,
+      "Females": 14359
+    },
+    "WIDOWED": {
+      "Persons": 14369,
+      "Males": 3553,
+      "Females": 10796
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "50-60",
+    "POPULATION": {
+      "Persons": 34273,
+      "Males": 18383,
+      "Females": 15890
+    },
+    "UNMARRIED": {
+      "Persons": 670,
+      "Males": 431,
+      "Females": 239
+    },
+    "MARRIED": {
+      "Persons": 19665,
+      "Males": 14597,
+      "Females": 5068
+    },
+    "WIDOWED": {
+      "Persons": 13938,
+      "Males": 3355,
+      "Females": 10583
+    }
+  },
+  {
+    "religion": "Hindu (Brahmanic)",
+    "age": "60 and over",
+    "POPULATION": {
+      "Persons": 25475,
+      "Males": 13035,
+      "Females": 12440
+    },
+    "UNMARRIED": {
+      "Persons": 553,
+      "Males": 429,
+      "Females": 124
+    },
+    "MARRIED": {
+      "Persons": 11491,
+      "Males": 8945,
+      "Females": 2546
+    },
+    "WIDOWED": {
+      "Persons": 13431,
+      "Males": 3661,
+      "Females": 9770
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "All Ages",
+    "POPULATION": {
+      "Persons": 153030,
+      "Males": 76344,
+      "Females": 76686
+    },
+    "UNMARRIED": {
+      "Persons": 50560,
+      "Males": 27480,
+      "Females": 23080
+    },
+    "MARRIED": {
+      "Persons": 90389,
+      "Males": 46409,
+      "Females": 43980
+    },
+    "WIDOWED": {
+      "Persons": 12081,
+      "Males": 2455,
+      "Females": 9626
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "0-1",
+    "POPULATION": {
+      "Persons": 5012,
+      "Males": 2444,
+      "Females": 2568
+    },
+    "UNMARRIED": {
+      "Persons": 4870,
+      "Males": 2381,
+      "Females": 2489
+    },
+    "MARRIED": {
+      "Persons": 140,
+      "Males": 63,
+      "Females": 77
+    },
+    "WIDOWED": {
+      "Persons": 2,
+      "Males": 1,
+      "Females": 1
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "1-5",
+    "POPULATION": {
+      "Persons": 24293,
+      "Males": 11073,
+      "Females": 13220
+    },
+    "UNMARRIED": {
+      "Persons": 21740,
+      "Males": 10393,
+      "Females": 11347
+    },
+    "MARRIED": {
+      "Persons": 2478,
+      "Males": 667,
+      "Females": 1811
+    },
+    "WIDOWED": {
+      "Persons": 75,
+      "Males": 13,
+      "Females": 62
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "5-10",
+    "POPULATION": {
+      "Persons": 21258,
+      "Males": 11195,
+      "Females": 10063
+    },
+    "UNMARRIED": {
+      "Persons": 12832,
+      "Males": 7534,
+      "Females": 5298
+    },
+    "MARRIED": {
+      "Persons": 8225,
+      "Males": 3593,
+      "Females": 4632
+    },
+    "WIDOWED": {
+      "Persons": 201,
+      "Males": 68,
+      "Females": 133
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "10-15",
+    "POPULATION": {
+      "Persons": 18173,
+      "Males": 9293,
+      "Females": 8880
+    },
+    "UNMARRIED": {
+      "Persons": 7684,
+      "Males": 5085,
+      "Females": 2599
+    },
+    "MARRIED": {
+      "Persons": 10189,
+      "Males": 4061,
+      "Females": 6128
+    },
+    "WIDOWED": {
+      "Persons": 300,
+      "Males": 147,
+      "Females": 153
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "15-20",
+    "POPULATION": {
+      "Persons": 12896,
+      "Males": 6447,
+      "Females": 6449
+    },
+    "UNMARRIED": {
+      "Persons": 1660,
+      "Males": 1148,
+      "Females": 512
+    },
+    "MARRIED": {
+      "Persons": 11008,
+      "Males": 5218,
+      "Females": 5790
+    },
+    "WIDOWED": {
+      "Persons": 228,
+      "Males": 81,
+      "Females": 147
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "20-30",
+    "POPULATION": {
+      "Persons": 24786,
+      "Males": 12528,
+      "Females": 12258
+    },
+    "UNMARRIED": {
+      "Persons": 911,
+      "Males": 630,
+      "Females": 281
+    },
+    "MARRIED": {
+      "Persons": 22813,
+      "Males": 11594,
+      "Females": 11219
+    },
+    "WIDOWED": {
+      "Persons": 1062,
+      "Males": 304,
+      "Females": 758
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "30-40",
+    "POPULATION": {
+      "Persons": 19106,
+      "Males": 9297,
+      "Females": 9809
+    },
+    "UNMARRIED": {
+      "Persons": 430,
+      "Males": 132,
+      "Females": 298
+    },
+    "MARRIED": {
+      "Persons": 16640,
+      "Males": 8802,
+      "Females": 7838
+    },
+    "WIDOWED": {
+      "Persons": 2036,
+      "Males": 363,
+      "Females": 1673
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "40-50",
+    "POPULATION": {
+      "Persons": 13740,
+      "Males": 7177,
+      "Females": 6563
+    },
+    "UNMARRIED": {
+      "Persons": 282,
+      "Males": 71,
+      "Females": 211
+    },
+    "MARRIED": {
+      "Persons": 10589,
+      "Males": 6653,
+      "Females": 3936
+    },
+    "WIDOWED": {
+      "Persons": 2869,
+      "Males": 453,
+      "Females": 2416
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "50-60",
+    "POPULATION": {
+      "Persons": 8709,
+      "Males": 4585,
+      "Females": 4124
+    },
+    "UNMARRIED": {
+      "Persons": 75,
+      "Males": 47,
+      "Females": 28
+    },
+    "MARRIED": {
+      "Persons": 5835,
+      "Males": 4018,
+      "Females": 1817
+    },
+    "WIDOWED": {
+      "Persons": 2799,
+      "Males": 520,
+      "Females": 2279
+    }
+  },
+  {
+    "religion": "Adi Hindu",
+    "age": "60 and over",
+    "POPULATION": {
+      "Persons": 5057,
+      "Males": 2805,
+      "Females": 2252
+    },
+    "UNMARRIED": {
+      "Persons": 76,
+      "Males": 59,
+      "Females": 17
+    },
+    "MARRIED": {
+      "Persons": 2472,
+      "Males": 1740,
+      "Females": 732
+    },
+    "WIDOWED": {
+      "Persons": 2509,
+      "Males": 506,
+      "Females": 2003
+    }
+  }
+]
+```

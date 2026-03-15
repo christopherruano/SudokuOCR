@@ -1,0 +1,223 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Travancore/1901/Eastern_division_age_1901.png",
+  "discovery": {
+    "title": "Age, Sex and Civil Condition.\u2014Eastern Division. A\u2014Total Population.",
+    "region": "Eastern Division",
+    "year": 0,
+    "data_type": "absolute",
+    "denominator": 0,
+    "has_persons_column": true,
+    "multi_year": false,
+    "years_present": [],
+    "target_columns": {
+      "name": "POPULATION",
+      "sub_columns": [
+        "Persons",
+        "Males",
+        "Females"
+      ],
+      "left_frac": 0.21,
+      "right_frac": 0.6
+    },
+    "subtotal_hierarchy": {
+      "Total 0-5": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "Total": [
+        "Total 0-5",
+        "5-10",
+        "10-15",
+        "15-20",
+        "20-25",
+        "25-30",
+        "30-35",
+        "35-40",
+        "40-45",
+        "45-50",
+        "50-55",
+        "55-60",
+        "60 and over"
+      ]
+    },
+    "row_labels": [
+      "0\u20141",
+      "1\u20142",
+      "2\u20143",
+      "3\u20144",
+      "4\u20145",
+      "Total 0\u20145",
+      "5\u201410",
+      "10\u201415",
+      "15\u201420",
+      "20\u201425",
+      "25\u201430",
+      "30\u201435",
+      "35\u201440",
+      "40\u201445",
+      "45\u201450",
+      "50\u201455",
+      "55\u201460",
+      "60 and over",
+      "Total ...",
+      "Total"
+    ]
+  },
+  "pipeline_config": {
+    "preprocessing": {
+      "crop": {
+        "right_frac": 0.7
+      }
+    },
+    "prompt_type": "subtotals",
+    "constraint_groups": {
+      "0-5": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "total": [
+        "0-5",
+        "5-10",
+        "10-15",
+        "15-20",
+        "20-25",
+        "25-30",
+        "30-35",
+        "35-40",
+        "40-45",
+        "45-50",
+        "50-55",
+        "55-60",
+        "60andover"
+      ]
+    },
+    "known_totals": null
+  },
+  "results": {
+    "rows": [
+      {
+        "age": "0-1",
+        "persons": 32217,
+        "males": 14919,
+        "females": 17298
+      },
+      {
+        "age": "1-2",
+        "persons": 30401,
+        "males": 14637,
+        "females": 15764
+      },
+      {
+        "age": "2-3",
+        "persons": 34733,
+        "males": 16711,
+        "females": 18022
+      },
+      {
+        "age": "3-4",
+        "persons": 38158,
+        "males": 18347,
+        "females": 19811
+      },
+      {
+        "age": "4-5",
+        "persons": 34000,
+        "males": 16610,
+        "females": 17390
+      },
+      {
+        "age": "Total 0-5",
+        "persons": 169509,
+        "males": 81224,
+        "females": 88285
+      },
+      {
+        "age": "5-10",
+        "persons": 166745,
+        "males": 83669,
+        "females": 83076
+      },
+      {
+        "age": "10-15",
+        "persons": 150630,
+        "males": 79166,
+        "females": 71464
+      },
+      {
+        "age": "15-20",
+        "persons": 116595,
+        "males": 57993,
+        "females": 58602
+      },
+      {
+        "age": "20-25",
+        "persons": 111950,
+        "males": 53002,
+        "females": 58948
+      },
+      {
+        "age": "25-30",
+        "persons": 120076,
+        "males": 59814,
+        "females": 60262
+      },
+      {
+        "age": "30-35",
+        "persons": 95124,
+        "males": 49257,
+        "females": 45867
+      },
+      {
+        "age": "35-40",
+        "persons": 85869,
+        "males": 47873,
+        "females": 37996
+      },
+      {
+        "age": "40-45",
+        "persons": 66459,
+        "males": 36018,
+        "females": 30441
+      },
+      {
+        "age": "45-50",
+        "persons": 53330,
+        "males": 29353,
+        "females": 23977
+      },
+      {
+        "age": "50-55",
+        "persons": 45019,
+        "males": 23755,
+        "females": 21264
+      },
+      {
+        "age": "55-60",
+        "persons": 26926,
+        "males": 14278,
+        "females": 12648
+      },
+      {
+        "age": "60 and over",
+        "persons": 53324,
+        "males": 25693,
+        "females": 27631
+      },
+      {
+        "age": "Total",
+        "persons": 1261556,
+        "males": 641095,
+        "females": 620461
+      }
+    ],
+    "n_rows": 19,
+    "constraints_passed": true,
+    "constraint_failures": []
+  }
+}

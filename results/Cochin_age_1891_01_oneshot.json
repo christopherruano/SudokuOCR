@@ -1,0 +1,277 @@
+{
+  "source_image": "age_tables/Cochin/1901/Cochin_age_1891_01.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 138.9,
+  "metadata": {
+    "title": "SUBSIDIARY TABLE II. Age distribution of 10,000 of each sex in 1901 and 1891.",
+    "region": "",
+    "year": 1901,
+    "data_type": "proportional",
+    "column_groups": [
+      "1901",
+      "1891"
+    ]
+  },
+  "data": [
+    {
+      "name": "SUBSIDIARY TABLE II. Age distribution of 10,000 of each sex in 1901 and 1891.",
+      "rows": [
+        {
+          "age": "0 - 5",
+          "1901": {
+            "persons": 1385,
+            "males": 1366,
+            "females": 1403
+          },
+          "1891": {
+            "persons": 1427,
+            "males": 1376,
+            "females": 1477
+          }
+        },
+        {
+          "age": "5 - 10",
+          "1901": {
+            "persons": 1363,
+            "males": 1386,
+            "females": 1340
+          },
+          "1891": {
+            "persons": 1332,
+            "males": 1352,
+            "females": 1311
+          }
+        },
+        {
+          "age": "10 - 15",
+          "1901": {
+            "persons": 1274,
+            "males": 1322,
+            "females": 1226
+          },
+          "1891": {
+            "persons": 1208,
+            "males": 1268,
+            "females": 1148
+          }
+        },
+        {
+          "age": "Total 0 - 15",
+          "1901": {
+            "persons": 4021,
+            "males": 4074,
+            "females": 3969
+          },
+          "1891": {
+            "persons": 3966,
+            "males": 3996,
+            "females": 3936
+          }
+        },
+        {
+          "age": "15 - 20",
+          "1901": {
+            "persons": 975,
+            "males": 970,
+            "females": 979
+          },
+          "1891": {
+            "persons": 945,
+            "males": 944,
+            "females": 946
+          }
+        },
+        {
+          "age": "20 - 25",
+          "1901": {
+            "persons": 930,
+            "males": 886,
+            "females": 975
+          },
+          "1891": {
+            "persons": 881,
+            "males": 824,
+            "females": 938
+          }
+        },
+        {
+          "age": "25 - 30",
+          "1901": {
+            "persons": 888,
+            "males": 865,
+            "females": 910
+          },
+          "1891": {
+            "persons": 909,
+            "males": 875,
+            "females": 944
+          }
+        },
+        {
+          "age": "30 - 35",
+          "1901": {
+            "persons": 733,
+            "males": 747,
+            "females": 719
+          },
+          "1891": {
+            "persons": 778,
+            "males": 781,
+            "females": 775
+          }
+        },
+        {
+          "age": "35 - 40",
+          "1901": {
+            "persons": 597,
+            "males": 639,
+            "females": 555
+          },
+          "1891": {
+            "persons": 634,
+            "males": 688,
+            "females": 581
+          }
+        },
+        {
+          "age": "Total 15 - 40",
+          "1901": {
+            "persons": 4123,
+            "males": 4107,
+            "females": 4138
+          },
+          "1891": {
+            "persons": 4148,
+            "males": 4111,
+            "females": 4184
+          }
+        },
+        {
+          "age": "40 - 45",
+          "1901": {
+            "persons": 541,
+            "males": 549,
+            "females": 533
+          },
+          "1891": {
+            "persons": 562,
+            "males": 584,
+            "females": 541
+          }
+        },
+        {
+          "age": "45 - 50",
+          "1901": {
+            "persons": 354,
+            "males": 364,
+            "females": 345
+          },
+          "1891": {
+            "persons": 355,
+            "males": 380,
+            "females": 330
+          }
+        },
+        {
+          "age": "50 - 55",
+          "1901": {
+            "persons": 354,
+            "males": 338,
+            "females": 370
+          },
+          "1891": {
+            "persons": 356,
+            "males": 348,
+            "females": 364
+          }
+        },
+        {
+          "age": "55 - 60",
+          "1901": {
+            "persons": 188,
+            "males": 193,
+            "females": 184
+          },
+          "1891": {
+            "persons": 180,
+            "males": 186,
+            "females": 174
+          }
+        },
+        {
+          "age": "Total 40 - 60",
+          "1901": {
+            "persons": 1438,
+            "males": 1444,
+            "females": 1431
+          },
+          "1891": {
+            "persons": 1454,
+            "males": 1498,
+            "females": 1408
+          }
+        },
+        {
+          "age": "60 and over",
+          "1901": {
+            "persons": 417,
+            "males": 373,
+            "females": 461
+          },
+          "1891": {
+            "persons": 430,
+            "males": 392,
+            "females": 470
+          }
+        },
+        {
+          "age": "Not Stated",
+          "1901": {
+            "persons": 1,
+            "males": 1,
+            "females": 1
+          },
+          "1891": {
+            "persons": 2,
+            "males": 2,
+            "females": 2
+          }
+        },
+        {
+          "age": "Total",
+          "1901": {
+            "persons": 10000,
+            "males": 10000,
+            "females": 10000
+          },
+          "1891": {
+            "persons": 10000,
+            "males": 10000,
+            "females": 10000
+          }
+        },
+        {
+          "age": "Mean age",
+          "1901": {
+            "persons": 23,
+            "males": 23,
+            "females": 23
+          },
+          "1891": {
+            "persons": 23,
+            "males": 23,
+            "females": 23
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 144,
+    "passed": 144,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

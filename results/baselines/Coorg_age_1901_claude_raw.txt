@@ -1,0 +1,27 @@
+```json
+[
+  {"age": "0-1", "1901_Males": 39, "1901_Females": 35, "1891_Males": 22, "1891_Females": 20, "1881_Males": 20, "1881_Females": 28},
+  {"age": "1-2", "1901_Males": 8, "1901_Females": 10, "1891_Males": 15, "1891_Females": 20, "1881_Males": 13, "1881_Females": 17},
+  {"age": "2-3", "1901_Males": 20, "1901_Females": 36, "1891_Males": 25, "1891_Females": 33, "1881_Males": 14, "1881_Females": 19},
+  {"age": "3-4", "1901_Males": 18, "1901_Females": 25, "1891_Males": 26, "1891_Females": 35, "1881_Males": 18, "1881_Females": 25},
+  {"age": "4-5", "1901_Males": 21, "1901_Females": 27, "1891_Males": 23, "1891_Females": 20, "1881_Males": 19, "1881_Females": 24},
+  {"age": "TOTAL 0-5", "1901_Males": 95, "1901_Females": 133, "1891_Males": 111, "1891_Females": 148, "1881_Males": 84, "1881_Females": 113},
+  {"age": "5-10", "1901_Males": 118, "1901_Females": 139, "1891_Males": 115, "1891_Females": 136, "1881_Males": 111, "1881_Females": 142},
+  {"age": "10-15", "1901_Males": 119, "1901_Females": 129, "1891_Males": 94, "1891_Females": 99, "1881_Males": 113, "1881_Females": 117},
+  {"age": "TOTAL 0-15", "1901_Males": 326, "1901_Females": 391, "1891_Males": 320, "1891_Females": 384, "1881_Males": 308, "1881_Females": 372},
+  {"age": "15-20", "1901_Males": 97, "1901_Females": 96, "1891_Males": 99, "1891_Females": 103, "1881_Males": 115, "1881_Females": 110},
+  {"age": "20-25", "1901_Males": 101, "1901_Females": 104, "1891_Males": 108, "1891_Females": 112, "1881_Males": 114, "1881_Females": 116},
+  {"age": "25-30", "1901_Males": 132, "1901_Females": 109, "1891_Males": 125, "1891_Females": 110, "1881_Males": 131, "1881_Females": 118},
+  {"age": "30-35", "1901_Males": 107, "1901_Females": 84, "1891_Males": 103, "1891_Females": 82, "1881_Males": 108, "1881_Females": 85},
+  {"age": "35-40", "1901_Males": 76, "1901_Females": 54, "1891_Males": 77, "1891_Females": 54, "1881_Males": 76, "1881_Females": 54},
+  {"age": "TOTAL 15-40", "1901_Males": 506, "1901_Females": 447, "1891_Males": 516, "1891_Females": 461, "1881_Males": 540, "1881_Females": 488},
+  {"age": "40-45", "1901_Males": 64, "1901_Females": 59, "1891_Males": 61, "1891_Females": 58, "1881_Males": 68, "1881_Females": 48},
+  {"age": "45-50", "1901_Males": 35, "1901_Females": 38, "1891_Males": 35, "1891_Females": 27, "1881_Males": 31, "1881_Females": 26},
+  {"age": "50-55", "1901_Males": 32, "1901_Females": 35, "1891_Males": 31, "1891_Females": 38, "1881_Males": 28, "1881_Females": 22},
+  {"age": "55-60", "1901_Males": 13, "1901_Females": 18, "1891_Males": 13, "1891_Females": 11, "1881_Males": 10, "1881_Females": 19},
+  {"age": "TOTAL 40-60", "1901_Males": 144, "1901_Females": 150, "1891_Males": 141, "1891_Females": 134, "1881_Males": 137, "1881_Females": 115},
+  {"age": "60 and over", "1901_Males": 24, "1901_Females": 33, "1891_Males": 23, "1891_Females": 31, "1881_Males": 19, "1881_Females": 30},
+  {"age": "TOTAL", "1901_Males": 1000, "1901_Females": 1000, "1891_Males": 1000, "1891_Females": 1000, "1881_Males": 1000, "1881_Females": 1000},
+  {"age": "Mean Age", "1901_Males": 25, "1901_Females": 23, "1891_Males": 24, "1891_Females": 23, "1881_Males": 24, "1881_Females": 23}
+]
+```

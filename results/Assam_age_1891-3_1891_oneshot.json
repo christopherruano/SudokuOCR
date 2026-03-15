@@ -1,0 +1,719 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Assam/1891/Assam_age_1891-3.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 156.0,
+  "metadata": {
+    "title": "TABLE VIII. CIVIL CONDITION BY RELIGION AND AGE. PART A. ALL RELIGIONS. (a) MARRIED.",
+    "region": "Assam Province",
+    "year": 1891,
+    "data_type": "absolute",
+    "column_groups": [
+      "TOTAL MARRIED.",
+      "0-4.",
+      "5-9.",
+      "10-14.",
+      "15-19.",
+      "20-24.",
+      "25-29."
+    ]
+  },
+  "data": [
+    {
+      "name": "CIVIL CONDITION BY RELIGION AND AGE. (a) MARRIED.",
+      "rows": [
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 161848,
+            "males": 84100,
+            "females": 77748
+          },
+          "0-4.": {
+            "persons": 124,
+            "males": 27,
+            "females": 97
+          },
+          "5-9.": {
+            "persons": 462,
+            "males": 135,
+            "females": 327
+          },
+          "10-14.": {
+            "persons": 6148,
+            "males": 686,
+            "females": 5462
+          },
+          "15-19.": {
+            "persons": 9361,
+            "males": 2286,
+            "females": 7075
+          },
+          "20-24.": {
+            "persons": 22442,
+            "males": 7330,
+            "females": 15112
+          },
+          "25-29.": {
+            "persons": 29245,
+            "males": 14001,
+            "females": 15244
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 860754,
+            "males": 423779,
+            "females": 436975
+          },
+          "0-4.": {
+            "persons": 68,
+            "males": 11,
+            "females": 57
+          },
+          "5-9.": {
+            "persons": 5688,
+            "males": 327,
+            "females": 5361
+          },
+          "10-14.": {
+            "persons": 53758,
+            "males": 2338,
+            "females": 51420
+          },
+          "15-19.": {
+            "persons": 91461,
+            "males": 11286,
+            "females": 80175
+          },
+          "20-24.": {
+            "persons": 122789,
+            "males": 34287,
+            "females": 88502
+          },
+          "25-29.": {
+            "persons": 145081,
+            "males": 66193,
+            "females": 78888
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 1022602,
+            "males": 507879,
+            "females": 514723
+          },
+          "0-4.": {
+            "persons": 192,
+            "males": 38,
+            "females": 154
+          },
+          "5-9.": {
+            "persons": 6150,
+            "males": 462,
+            "females": 5688
+          },
+          "10-14.": {
+            "persons": 59906,
+            "males": 3024,
+            "females": 56882
+          },
+          "15-19.": {
+            "persons": 100822,
+            "males": 13572,
+            "females": 87250
+          },
+          "20-24.": {
+            "persons": 145231,
+            "males": 41617,
+            "females": 103614
+          },
+          "25-29.": {
+            "persons": 174326,
+            "males": 80194,
+            "females": 94132
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 195346,
+            "males": 103366,
+            "females": 91980
+          },
+          "0-4.": {
+            "persons": 49,
+            "males": 11,
+            "females": 38
+          },
+          "5-9.": {
+            "persons": 2560,
+            "males": 130,
+            "females": 2430
+          },
+          "10-14.": {
+            "persons": 11555,
+            "males": 1391,
+            "females": 10164
+          },
+          "15-19.": {
+            "persons": 16750,
+            "males": 4215,
+            "females": 12535
+          },
+          "20-24.": {
+            "persons": 24587,
+            "males": 8918,
+            "females": 15669
+          },
+          "25-29.": {
+            "persons": 31872,
+            "males": 16027,
+            "females": 15845
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 250748,
+            "males": 125567,
+            "females": 125181
+          },
+          "0-4.": {
+            "persons": 94,
+            "males": 31,
+            "females": 63
+          },
+          "5-9.": {
+            "persons": 1118,
+            "males": 188,
+            "females": 930
+          },
+          "10-14.": {
+            "persons": 8192,
+            "males": 1117,
+            "females": 7075
+          },
+          "15-19.": {
+            "persons": 20607,
+            "males": 3674,
+            "females": 16933
+          },
+          "20-24.": {
+            "persons": 33426,
+            "males": 10195,
+            "females": 23231
+          },
+          "25-29.": {
+            "persons": 42388,
+            "males": 18779,
+            "females": 23609
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 127419,
+            "males": 65517,
+            "females": 61902
+          },
+          "0-4.": {
+            "persons": 39,
+            "males": 19,
+            "females": 20
+          },
+          "5-9.": {
+            "persons": 443,
+            "males": 100,
+            "females": 343
+          },
+          "10-14.": {
+            "persons": 2892,
+            "males": 554,
+            "females": 2338
+          },
+          "15-19.": {
+            "persons": 8102,
+            "males": 1595,
+            "females": 6507
+          },
+          "20-24.": {
+            "persons": 16649,
+            "males": 5301,
+            "females": 11348
+          },
+          "25-29.": {
+            "persons": 20848,
+            "males": 9203,
+            "females": 11645
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 129696,
+            "males": 65426,
+            "females": 64270
+          },
+          "0-4.": {
+            "persons": 31,
+            "males": 15,
+            "females": 16
+          },
+          "5-9.": {
+            "persons": 159,
+            "males": 55,
+            "females": 104
+          },
+          "10-14.": {
+            "persons": 1554,
+            "males": 284,
+            "females": 1270
+          },
+          "15-19.": {
+            "persons": 7301,
+            "males": 1352,
+            "females": 5949
+          },
+          "20-24.": {
+            "persons": 16223,
+            "males": 4582,
+            "females": 11641
+          },
+          "25-29.": {
+            "persons": 20627,
+            "males": 8374,
+            "females": 12253
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 179162,
+            "males": 90819,
+            "females": 88343
+          },
+          "0-4.": {
+            "persons": 26,
+            "males": 7,
+            "females": 19
+          },
+          "5-9.": {
+            "persons": 286,
+            "males": 75,
+            "females": 211
+          },
+          "10-14.": {
+            "persons": 2296,
+            "males": 415,
+            "females": 1881
+          },
+          "15-19.": {
+            "persons": 10158,
+            "males": 1622,
+            "females": 8536
+          },
+          "20-24.": {
+            "persons": 26256,
+            "males": 7374,
+            "females": 18882
+          },
+          "25-29.": {
+            "persons": 31641,
+            "males": 13429,
+            "females": 18212
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 104776,
+            "males": 54822,
+            "females": 49954
+          },
+          "0-4.": {
+            "persons": 8,
+            "males": 3,
+            "females": 5
+          },
+          "5-9.": {
+            "persons": 108,
+            "males": 25,
+            "females": 83
+          },
+          "10-14.": {
+            "persons": 1381,
+            "males": 249,
+            "females": 1132
+          },
+          "15-19.": {
+            "persons": 6261,
+            "males": 1249,
+            "females": 5012
+          },
+          "20-24.": {
+            "persons": 15562,
+            "males": 5012,
+            "females": 10550
+          },
+          "25-29.": {
+            "persons": 21886,
+            "males": 10095,
+            "females": 11791
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 987147,
+            "males": 505517,
+            "females": 481630
+          },
+          "0-4.": {
+            "persons": 247,
+            "males": 86,
+            "females": 161
+          },
+          "5-9.": {
+            "persons": 4674,
+            "males": 573,
+            "females": 4101
+          },
+          "10-14.": {
+            "persons": 27870,
+            "males": 4010,
+            "females": 23860
+          },
+          "15-19.": {
+            "persons": 69179,
+            "males": 13707,
+            "females": 55472
+          },
+          "20-24.": {
+            "persons": 132703,
+            "males": 41382,
+            "females": 91321
+          },
+          "25-29.": {
+            "persons": 169262,
+            "males": 75907,
+            "females": 93355
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 2009749,
+            "males": 1013396,
+            "females": 996353
+          },
+          "0-4.": {
+            "persons": 439,
+            "males": 124,
+            "females": 315
+          },
+          "5-9.": {
+            "persons": 10824,
+            "males": 1035,
+            "females": 9789
+          },
+          "10-14.": {
+            "persons": 87776,
+            "males": 7034,
+            "females": 80742
+          },
+          "15-19.": {
+            "persons": 170001,
+            "males": 27279,
+            "females": 142722
+          },
+          "20-24.": {
+            "persons": 277983,
+            "males": 83048,
+            "females": 194935
+          },
+          "25-29.": {
+            "persons": 343588,
+            "males": 156101,
+            "females": 187487
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 6888,
+            "males": 3499,
+            "females": 3389
+          },
+          "0-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9.": {
+            "persons": 28,
+            "males": 2,
+            "females": 26
+          },
+          "10-14.": {
+            "persons": 40,
+            "males": 10,
+            "females": 30
+          },
+          "15-19.": {
+            "persons": 399,
+            "males": 51,
+            "females": 348
+          },
+          "20-24.": {
+            "persons": 818,
+            "males": 239,
+            "females": 579
+          },
+          "25-29.": {
+            "persons": 1281,
+            "males": 516,
+            "females": 765
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 54762,
+            "males": 27501,
+            "females": 27261
+          },
+          "0-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9.": {
+            "persons": 74,
+            "males": 52,
+            "females": 22
+          },
+          "10-14.": {
+            "persons": 621,
+            "males": 95,
+            "females": 526
+          },
+          "15-19.": {
+            "persons": 3111,
+            "males": 583,
+            "females": 2528
+          },
+          "20-24.": {
+            "persons": 5594,
+            "males": 1765,
+            "females": 3829
+          },
+          "25-29.": {
+            "persons": 9424,
+            "males": 4049,
+            "females": 5375
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 78478,
+            "males": 37638,
+            "females": 40840
+          },
+          "0-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9.": {
+            "persons": 94,
+            "males": 61,
+            "females": 33
+          },
+          "10-14.": {
+            "persons": 960,
+            "males": 192,
+            "females": 768
+          },
+          "15-19.": {
+            "persons": 6189,
+            "males": 1565,
+            "females": 4624
+          },
+          "20-24.": {
+            "persons": 10928,
+            "males": 3954,
+            "females": 6974
+          },
+          "25-29.": {
+            "persons": 12666,
+            "males": 5576,
+            "females": 7090
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 57028,
+            "males": 27570,
+            "females": 29458
+          },
+          "0-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9.": {
+            "persons": 363,
+            "males": 332,
+            "females": 31
+          },
+          "10-14.": {
+            "persons": 1879,
+            "males": 263,
+            "females": 1616
+          },
+          "15-19.": {
+            "persons": 4634,
+            "males": 1043,
+            "females": 3591
+          },
+          "20-24.": {
+            "persons": 6772,
+            "males": 2169,
+            "females": 4603
+          },
+          "25-29.": {
+            "persons": 9680,
+            "males": 4176,
+            "females": 5504
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 921,
+            "males": 921,
+            "females": 0
+          },
+          "0-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "15-19.": {
+            "persons": 25,
+            "males": 25,
+            "females": 0
+          },
+          "20-24.": {
+            "persons": 143,
+            "males": 143,
+            "females": 0
+          },
+          "25-29.": {
+            "persons": 269,
+            "males": 269,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 198077,
+            "males": 97129,
+            "females": 100948
+          },
+          "0-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9.": {
+            "persons": 559,
+            "males": 447,
+            "females": 112
+          },
+          "10-14.": {
+            "persons": 3500,
+            "males": 560,
+            "females": 2940
+          },
+          "15-19.": {
+            "persons": 14358,
+            "males": 3267,
+            "females": 11091
+          },
+          "20-24.": {
+            "persons": 24255,
+            "males": 8270,
+            "females": 15985
+          },
+          "25-29.": {
+            "persons": 33320,
+            "males": 14586,
+            "females": 18734
+          }
+        },
+        {
+          "district": null,
+          "TOTAL MARRIED.": {
+            "persons": 2207826,
+            "males": 1110525,
+            "females": 1097301
+          },
+          "0-4.": {
+            "persons": 439,
+            "males": 124,
+            "females": 315
+          },
+          "5-9.": {
+            "persons": 11383,
+            "males": 1482,
+            "females": 9901
+          },
+          "10-14.": {
+            "persons": 91276,
+            "males": 7594,
+            "females": 83682
+          },
+          "15-19.": {
+            "persons": 184359,
+            "males": 30546,
+            "females": 153813
+          },
+          "20-24.": {
+            "persons": 302238,
+            "males": 91318,
+            "females": 210920
+          },
+          "25-29.": {
+            "persons": 376908,
+            "males": 170687,
+            "females": 206221
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 504,
+    "passed": 504,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

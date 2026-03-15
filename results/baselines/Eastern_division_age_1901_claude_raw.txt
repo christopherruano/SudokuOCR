@@ -1,0 +1,23 @@
+```json
+[
+  {"age": "0-1", "Persons": 32217, "Males": 14919, "Females": 17298, "Persons_unmarried": 32217, "Males_unmarried": 14919, "Females_unmarried": 17298},
+  {"age": "1-2", "Persons": 30401, "Males": 14637, "Females": 15764, "Persons_unmarried": 30401, "Males_unmarried": 14637, "Females_unmarried": 15764},
+  {"age": "2-3", "Persons": 34733, "Males": 16711, "Females": 18022, "Persons_unmarried": 34733, "Males_unmarried": 16711, "Females_unmarried": 18022},
+  {"age": "3-4", "Persons": 38156, "Males": 18347, "Females": 19811, "Persons_unmarried": 38156, "Males_unmarried": 18347, "Females_unmarried": 19809},
+  {"age": "4-5", "Persons": 34000, "Males": 16610, "Females": 17390, "Persons_unmarried": 33993, "Males_unmarried": 16610, "Females_unmarried": 17383},
+  {"age": "Total 0-5", "Persons": 169509, "Males": 81224, "Females": 88285, "Persons_unmarried": 169500, "Males_unmarried": 81224, "Females_unmarried": 88276},
+  {"age": "5-10", "Persons": 166745, "Males": 83669, "Females": 83076, "Persons_unmarried": 166056, "Males_unmarried": 83520, "Females_unmarried": 82535},
+  {"age": "10-15", "Persons": 150630, "Males": 79166, "Females": 71464, "Persons_unmarried": 141016, "Males_unmarried": 77724, "Females_unmarried": 63292},
+  {"age": "15-20", "Persons": 116595, "Males": 57903, "Females": 58602, "Persons_unmarried": 67163, "Males_unmarried": 45926, "Females_unmarried": 21237},
+  {"age": "20-25", "Persons": 111950, "Males": 53062, "Females": 58948, "Persons_unmarried": 37336, "Males_unmarried": 21500, "Females_unmarried": 5736},
+  {"age": "25-30", "Persons": 120076, "Males": 59814, "Females": 60262, "Persons_unmarried": 12127, "Males_unmarried": 9684, "Females_unmarried": 2443},
+  {"age": "30-35", "Persons": 95124, "Males": 49257, "Females": 45867, "Persons_unmarried": 3554, "Males_unmarried": 2604, "Females_unmarried": 950},
+  {"age": "35-40", "Persons": 85869, "Males": 47873, "Females": 37996, "Persons_unmarried": 1855, "Males_unmarried": 1219, "Females_unmarried": 636},
+  {"age": "40-45", "Persons": 66459, "Males": 36018, "Females": 30441, "Persons_unmarried": 1111, "Males_unmarried": 625, "Females_unmarried": 486},
+  {"age": "45-50", "Persons": 53330, "Males": 29353, "Females": 23977, "Persons_unmarried": 672, "Males_unmarried": 342, "Females_unmarried": 330},
+  {"age": "50-55", "Persons": 45019, "Males": 23755, "Females": 21264, "Persons_unmarried": 585, "Males_unmarried": 281, "Females_unmarried": 304},
+  {"age": "55-60", "Persons": 26928, "Males": 14278, "Females": 12648, "Persons_unmarried": 295, "Males_unmarried": 159, "Females_unmarried": 136},
+  {"age": "60 and over", "Persons": 53324, "Males": 25693, "Females": 27631, "Persons_unmarried": 675, "Males_unmarried": 263, "Females_unmarried": 412},
+  {"age": "Total", "Persons": 1261558, "Males": 641095, "Females": 620461, "Persons_unmarried": 591944, "Males_unmarried": 325071, "Females_unmarried": 266773}
+]
+```

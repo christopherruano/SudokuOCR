@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "age": "40-44",
+    "Males": 683,
+    "Females": 1414,
+    "Persons": 2097
+  },
+  {
+    "age": "45-49",
+    "Males": 310,
+    "Females": 822,
+    "Persons": 1132
+  },
+  {
+    "age": "50-54",
+    "Males": 278,
+    "Females": 868,
+    "Persons": 1146
+  },
+  {
+    "age": "55-59",
+    "Males": 142,
+    "Females": 512,
+    "Persons": 654
+  },
+  {
+    "age": "60 and over",
+    "Males": 97,
+    "Females": 153,
+    "Persons": 250
+  },
+  {
+    "age": "Age not stated",
+    "Males": 1,
+    "Females": 6,
+    "Persons": 7
+  },
+  {
+    "age": "Total",
+    "Males": 1876,
+    "Females": 4179,
+    "Persons": 6055
+  }
+]
+```

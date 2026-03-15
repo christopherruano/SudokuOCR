@@ -1,0 +1,719 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Assam/1891/Assam_age_1891-4.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 133.8,
+  "metadata": {
+    "title": "TABLE VIII.\u2014CIVIL CONDITION BY RELIGION AND AGE. PART A.\u2014ALL RELIGIONS\u2014continued. (a) MARRIED.",
+    "region": "Province of Assam",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "30\u201434",
+      "35\u201439",
+      "40\u201444",
+      "45\u201449",
+      "50\u201454",
+      "55\u201459",
+      "60 and over."
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VIII.\u2014CIVIL CONDITION BY RELIGION AND AGE. PART A.\u2014ALL RELIGIONS\u2014continued. (a) MARRIED.",
+      "rows": [
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 28473,
+            "males": 15991,
+            "females": 12482
+          },
+          "35\u201439": {
+            "persons": 20094,
+            "males": 13377,
+            "females": 6717
+          },
+          "40\u201444": {
+            "persons": 16083,
+            "males": 10913,
+            "females": 5170
+          },
+          "45\u201449": {
+            "persons": 7716,
+            "males": 6067,
+            "females": 1649
+          },
+          "50\u201454": {
+            "persons": 7530,
+            "males": 5793,
+            "females": 1737
+          },
+          "55\u201459": {
+            "persons": 2261,
+            "males": 1872,
+            "females": 389
+          },
+          "60 and over.": {
+            "persons": 6531,
+            "males": 5622,
+            "females": 909
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 133682,
+            "males": 75510,
+            "females": 58172
+          },
+          "35\u201439": {
+            "persons": 89195,
+            "males": 62058,
+            "females": 27137
+          },
+          "40\u201444": {
+            "persons": 77825,
+            "males": 55462,
+            "females": 22363
+          },
+          "45\u201449": {
+            "persons": 38286,
+            "males": 31332,
+            "females": 6954
+          },
+          "50\u201454": {
+            "persons": 40345,
+            "males": 33260,
+            "females": 7085
+          },
+          "55\u201459": {
+            "persons": 11486,
+            "males": 10283,
+            "females": 1203
+          },
+          "60 and over.": {
+            "persons": 44861,
+            "males": 41346,
+            "females": 3515
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 162155,
+            "males": 91501,
+            "females": 70654
+          },
+          "35\u201439": {
+            "persons": 109289,
+            "males": 75435,
+            "females": 33854
+          },
+          "40\u201444": {
+            "persons": 93908,
+            "males": 66375,
+            "females": 27533
+          },
+          "45\u201449": {
+            "persons": 46002,
+            "males": 37399,
+            "females": 8603
+          },
+          "50\u201454": {
+            "persons": 47875,
+            "males": 39053,
+            "females": 8822
+          },
+          "55\u201459": {
+            "persons": 13747,
+            "males": 12155,
+            "females": 1592
+          },
+          "60 and over.": {
+            "persons": 51392,
+            "males": 46968,
+            "females": 4424
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 29391,
+            "males": 16932,
+            "females": 12459
+          },
+          "35\u201439": {
+            "persons": 21262,
+            "males": 14591,
+            "females": 6671
+          },
+          "40\u201444": {
+            "persons": 19732,
+            "males": 13650,
+            "females": 6082
+          },
+          "45\u201449": {
+            "persons": 8758,
+            "males": 6699,
+            "females": 2059
+          },
+          "50\u201454": {
+            "persons": 10583,
+            "males": 8166,
+            "females": 2417
+          },
+          "55\u201459": {
+            "persons": 3508,
+            "males": 2749,
+            "females": 759
+          },
+          "60 and over.": {
+            "persons": 11739,
+            "males": 9887,
+            "females": 1852
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 42564,
+            "males": 21318,
+            "females": 21246
+          },
+          "35\u201439": {
+            "persons": 27108,
+            "males": 16104,
+            "females": 11004
+          },
+          "40\u201444": {
+            "persons": 29426,
+            "males": 18675,
+            "females": 10751
+          },
+          "45\u201449": {
+            "persons": 11692,
+            "males": 8522,
+            "females": 3170
+          },
+          "50\u201454": {
+            "persons": 16785,
+            "males": 12704,
+            "females": 4081
+          },
+          "55\u201459": {
+            "persons": 5689,
+            "males": 4555,
+            "females": 1134
+          },
+          "60 and over.": {
+            "persons": 11659,
+            "males": 9705,
+            "females": 1954
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 24372,
+            "males": 12434,
+            "females": 11938
+          },
+          "35\u201439": {
+            "persons": 16232,
+            "males": 9707,
+            "females": 6525
+          },
+          "40\u201444": {
+            "persons": 15933,
+            "males": 10066,
+            "females": 5867
+          },
+          "45\u201449": {
+            "persons": 6537,
+            "males": 4617,
+            "females": 1920
+          },
+          "50\u201454": {
+            "persons": 8163,
+            "males": 6041,
+            "females": 2122
+          },
+          "55\u201459": {
+            "persons": 2809,
+            "males": 2185,
+            "females": 624
+          },
+          "60 and over.": {
+            "persons": 4399,
+            "males": 3695,
+            "females": 704
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 22607,
+            "males": 10995,
+            "females": 11612
+          },
+          "35\u201439": {
+            "persons": 15663,
+            "males": 8991,
+            "females": 6672
+          },
+          "40\u201444": {
+            "persons": 16405,
+            "males": 9895,
+            "females": 6510
+          },
+          "45\u201449": {
+            "persons": 7386,
+            "males": 4927,
+            "females": 2459
+          },
+          "50\u201454": {
+            "persons": 9581,
+            "males": 6733,
+            "females": 2848
+          },
+          "55\u201459": {
+            "persons": 3508,
+            "males": 2571,
+            "females": 937
+          },
+          "60 and over.": {
+            "persons": 8651,
+            "males": 6652,
+            "females": 1999
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 34640,
+            "males": 18007,
+            "females": 16633
+          },
+          "35\u201439": {
+            "persons": 23027,
+            "males": 14233,
+            "females": 8794
+          },
+          "40\u201444": {
+            "persons": 21040,
+            "males": 13275,
+            "females": 7765
+          },
+          "45\u201449": {
+            "persons": 8695,
+            "males": 6062,
+            "females": 2633
+          },
+          "50\u201454": {
+            "persons": 11060,
+            "males": 8091,
+            "females": 2969
+          },
+          "55\u201459": {
+            "persons": 3894,
+            "males": 3050,
+            "females": 844
+          },
+          "60 and over.": {
+            "persons": 6143,
+            "males": 5179,
+            "females": 964
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 20219,
+            "males": 11310,
+            "females": 8909
+          },
+          "35\u201439": {
+            "persons": 13667,
+            "males": 8975,
+            "females": 4692
+          },
+          "40\u201444": {
+            "persons": 10858,
+            "males": 7125,
+            "females": 3733
+          },
+          "45\u201449": {
+            "persons": 4631,
+            "males": 3140,
+            "females": 1491
+          },
+          "50\u201454": {
+            "persons": 5310,
+            "males": 3808,
+            "females": 1502
+          },
+          "55\u201459": {
+            "persons": 1789,
+            "males": 1312,
+            "females": 477
+          },
+          "60 and over.": {
+            "persons": 3047,
+            "males": 2470,
+            "females": 577
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 173793,
+            "males": 90996,
+            "females": 82797
+          },
+          "35\u201439": {
+            "persons": 116959,
+            "males": 72601,
+            "females": 44358
+          },
+          "40\u201444": {
+            "persons": 113394,
+            "males": 72686,
+            "females": 40708
+          },
+          "45\u201449": {
+            "persons": 47699,
+            "males": 33967,
+            "females": 13732
+          },
+          "50\u201454": {
+            "persons": 61483,
+            "males": 45543,
+            "females": 15940
+          },
+          "55\u201459": {
+            "persons": 21197,
+            "males": 16422,
+            "females": 4775
+          },
+          "60 and over.": {
+            "persons": 45638,
+            "males": 37588,
+            "females": 8050
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 335948,
+            "males": 182497,
+            "females": 153451
+          },
+          "35\u201439": {
+            "persons": 226248,
+            "males": 148036,
+            "females": 78212
+          },
+          "40\u201444": {
+            "persons": 207302,
+            "males": 139061,
+            "females": 68241
+          },
+          "45\u201449": {
+            "persons": 93701,
+            "males": 71366,
+            "females": 22335
+          },
+          "50\u201454": {
+            "persons": 109358,
+            "males": 84596,
+            "females": 24762
+          },
+          "55\u201459": {
+            "persons": 34944,
+            "males": 28577,
+            "females": 6367
+          },
+          "60 and over.": {
+            "persons": 97030,
+            "males": 84556,
+            "females": 12474
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 1344,
+            "males": 736,
+            "females": 608
+          },
+          "35\u201439": {
+            "persons": 769,
+            "males": 463,
+            "females": 306
+          },
+          "40\u201444": {
+            "persons": 804,
+            "males": 492,
+            "females": 312
+          },
+          "45\u201449": {
+            "persons": 333,
+            "males": 210,
+            "females": 123
+          },
+          "50\u201454": {
+            "persons": 427,
+            "males": 303,
+            "females": 124
+          },
+          "55\u201459": {
+            "persons": 121,
+            "males": 85,
+            "females": 36
+          },
+          "60 and over.": {
+            "persons": 549,
+            "males": 393,
+            "females": 156
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 10229,
+            "males": 5068,
+            "females": 5161
+          },
+          "35\u201439": {
+            "persons": 9635,
+            "males": 5788,
+            "females": 3847
+          },
+          "40\u201444": {
+            "persons": 6817,
+            "males": 3836,
+            "females": 2981
+          },
+          "45\u201449": {
+            "persons": 3026,
+            "males": 2044,
+            "females": 982
+          },
+          "50\u201454": {
+            "persons": 3054,
+            "males": 1986,
+            "females": 1068
+          },
+          "55\u201459": {
+            "persons": 868,
+            "males": 584,
+            "females": 284
+          },
+          "60 and over.": {
+            "persons": 2264,
+            "males": 1662,
+            "females": 602
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 11997,
+            "males": 5920,
+            "females": 6077
+          },
+          "35\u201439": {
+            "persons": 9606,
+            "males": 5210,
+            "females": 4396
+          },
+          "40\u201444": {
+            "persons": 8627,
+            "males": 4550,
+            "females": 4077
+          },
+          "45\u201449": {
+            "persons": 4997,
+            "males": 2893,
+            "females": 2104
+          },
+          "50\u201454": {
+            "persons": 4950,
+            "males": 2920,
+            "females": 2030
+          },
+          "55\u201459": {
+            "persons": 1834,
+            "males": 1152,
+            "females": 682
+          },
+          "60 and over.": {
+            "persons": 5598,
+            "males": 3663,
+            "females": 1935
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 9608,
+            "males": 4892,
+            "females": 4716
+          },
+          "35\u201439": {
+            "persons": 7099,
+            "males": 4403,
+            "females": 2696
+          },
+          "40\u201444": {
+            "persons": 6362,
+            "males": 3684,
+            "females": 2678
+          },
+          "45\u201449": {
+            "persons": 2855,
+            "males": 1813,
+            "females": 1042
+          },
+          "50\u201454": {
+            "persons": 3005,
+            "males": 1909,
+            "females": 1096
+          },
+          "55\u201459": {
+            "persons": 1208,
+            "males": 781,
+            "females": 427
+          },
+          "60 and over.": {
+            "persons": 3539,
+            "males": 2401,
+            "females": 1138
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 225,
+            "males": 225,
+            "females": 0
+          },
+          "35\u201439": {
+            "persons": 134,
+            "males": 134,
+            "females": 0
+          },
+          "40\u201444": {
+            "persons": 68,
+            "males": 68,
+            "females": 0
+          },
+          "45\u201449": {
+            "persons": 31,
+            "males": 31,
+            "females": 0
+          },
+          "50\u201454": {
+            "persons": 22,
+            "males": 22,
+            "females": 0
+          },
+          "55\u201459": {
+            "persons": 3,
+            "males": 3,
+            "females": 0
+          },
+          "60 and over.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 33403,
+            "males": 16841,
+            "females": 16562
+          },
+          "35\u201439": {
+            "persons": 27243,
+            "males": 15998,
+            "females": 11245
+          },
+          "40\u201444": {
+            "persons": 22678,
+            "males": 12630,
+            "females": 10048
+          },
+          "45\u201449": {
+            "persons": 11242,
+            "males": 6991,
+            "females": 4251
+          },
+          "50\u201454": {
+            "persons": 11458,
+            "males": 7140,
+            "females": 4318
+          },
+          "55\u201459": {
+            "persons": 4034,
+            "males": 2605,
+            "females": 1429
+          },
+          "60 and over.": {
+            "persons": 11951,
+            "males": 8120,
+            "females": 3831
+          }
+        },
+        {
+          "location": null,
+          "30\u201434": {
+            "persons": 369351,
+            "males": 199338,
+            "females": 170013
+          },
+          "35\u201439": {
+            "persons": 253491,
+            "males": 164034,
+            "females": 89457
+          },
+          "40\u201444": {
+            "persons": 229980,
+            "males": 151691,
+            "females": 78289
+          },
+          "45\u201449": {
+            "persons": 104943,
+            "males": 78357,
+            "females": 26586
+          },
+          "50\u201454": {
+            "persons": 120816,
+            "males": 91736,
+            "females": 29080
+          },
+          "55\u201459": {
+            "persons": 38978,
+            "males": 31182,
+            "females": 7796
+          },
+          "60 and over.": {
+            "persons": 108981,
+            "males": 92676,
+            "females": 16305
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 504,
+    "passed": 504,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

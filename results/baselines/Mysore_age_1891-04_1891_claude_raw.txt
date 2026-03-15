@@ -1,0 +1,16 @@
+```json
+[
+  {"age": "0-", "Total": 31357, "Males": 16246, "Females": 15111, "Males_0_4": 7, "Females_0_4": 60, "Males_5_9": 106, "Females_5_9": 2983, "Males_10_14": 793, "Females_10_14": 10761},
+  {"age": "1", "Total": 25279, "Males": 13349, "Females": 12430, "Males_0_4": 4, "Females_0_4": 14, "Males_5_9": 129, "Females_5_9": 3141, "Males_10_14": 627, "Females_10_14": 8129},
+  {"age": "2", "Total": 29260, "Males": 17332, "Females": 12138, "Males_0_4": 3, "Females_0_4": 38, "Males_5_9": 37, "Females_5_9": 2715, "Males_10_14": 523, "Females_10_14": 7765},
+  {"age": "3", "Total": 59778, "Males": 25407, "Females": 20740, "Males_0_4": 6, "Females_0_4": 18, "Males_5_9": 207, "Females_5_9": 3066, "Males_10_14": 2013, "Females_10_14": 20601},
+  {"age": "4", "Total": 20015, "Males": 10074, "Females": 10041, "Males_0_4": 5, "Females_0_4": 7, "Males_5_9": 35, "Females_5_9": 461, "Males_10_14": 335, "Females_10_14": 4660},
+  {"age": "5", "Total": 20811, "Males": 6457, "Females": 9741, "Males_0_4": 5, "Females_0_4": 15, "Males_5_9": 15, "Females_5_9": 1118, "Males_10_14": 568, "Females_10_14": 7581},
+  {"age": "6", "Total": 18799, "Males": 8830, "Females": 32240, "Males_0_4": 0, "Females_0_4": 24, "Males_5_9": 15, "Females_5_9": 1447, "Males_10_14": 138, "Females_10_14": 3107},
+  {"age": "7", "Total": 18659, "Males": 1690, "Females": 82376, "Males_0_4": 0, "Females_0_4": 0, "Males_5_9": 71, "Females_5_9": 596, "Males_10_14": 321, "Females_10_14": 4512},
+  {"age": "8", "Total": 0, "Males": 0, "Females": 0, "Males_0_4": 0, "Females_0_4": 0, "Males_5_9": 0, "Females_5_9": 0, "Males_10_14": 0, "Females_10_14": 0},
+  {"age": "Total", "Total": 2062418, "Males": 1927948, "Females": 1045359, "Males_0_4": 30, "Females_0_4": 572, "Males_5_9": 14700, "Females_5_9": 14700, "Males_10_14": 56225, "Females_10_14": 67357},
+  {"age": "Civil Military Station", "Total": 40726, "Males": 19534, "Females": 20865, "Males_0_4": 6, "Females_0_4": 13, "Males_5_9": 8, "Females_5_9": 88, "Males_10_14": 56, "Females_10_14": 132},
+  {"age": "Cantonment", "Total": 2672407, "Males": 1927948, "Females": 0, "Males_0_4": 36, "Females_0_4": 355, "Males_5_9": 683, "Females_5_9": 17738, "Males_10_14": 5749, "Females_10_14": 67357}
+]
+```

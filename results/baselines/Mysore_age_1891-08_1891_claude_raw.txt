@@ -1,0 +1,15 @@
+```json
+[
+  {"age": "0-1", "Males": 1001, "Females": 1304, "Persons": 697, "Males2": 3147, "Females2": 2147, "Persons2": 73809},
+  {"age": "1-5", "Males": 1121, "Females": 1333, "Persons": 612, "Males2": 2261, "Females2": 2072, "Persons2": 74906},
+  {"age": "5-10", "Males": 1138, "Females": 1472, "Persons": 637, "Males2": 2072, "Females2": 183, "Persons2": 0},
+  {"age": "10-15", "Males": 1260, "Females": 1418, "Persons": 751, "Males2": 2364, "Females2": 0, "Persons2": 0},
+  {"age": "15-20", "Males": 846, "Females": 945, "Persons": 1003, "Males2": 1309, "Females2": 0, "Persons2": 0},
+  {"age": "20-25", "Males": 1409, "Females": 1514, "Persons": 871, "Males2": 2893, "Females2": 0, "Persons2": 0},
+  {"age": "25-30", "Males": 869, "Females": 1018, "Persons": 462, "Males2": 1112, "Females2": 0, "Persons2": 0},
+  {"age": "30-40", "Males": 797, "Females": 880, "Persons": 501, "Males2": 1269, "Females2": 0, "Persons2": 0},
+  {"age": "40+", "Males": 0, "Females": 0, "Persons": 0, "Males2": 1067, "Females2": 0, "Persons2": 0},
+  {"age": "Total", "Males": 49531, "Females": 48153, "Persons": 21930, "Males2": 73809, "Females2": 0, "Persons2": 0},
+  {"age": "Grand Total", "Males": 50270, "Females": 47785, "Persons": 20040, "Males2": 74906, "Females2": 0, "Persons2": 0}
+]
+```

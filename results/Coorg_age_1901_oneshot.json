@@ -1,0 +1,445 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Coorg/1901/Coorg_age_1901.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 139.4,
+  "metadata": {
+    "title": "SUBSIDIARY TABLE 1. - Age distribution of 1,000 of each sex at each of the last three censuses.",
+    "region": null,
+    "year": 1901,
+    "data_type": "proportional",
+    "column_groups": [
+      "1901",
+      "1891",
+      "1881"
+    ]
+  },
+  "data": [
+    {
+      "name": "SUBSIDIARY TABLE 1. - Age distribution of 1,000 of each sex at each of the last three censuses.",
+      "rows": [
+        {
+          "age": "0-1",
+          "1901": {
+            "persons": null,
+            "males": 28,
+            "females": 35
+          },
+          "1891": {
+            "persons": null,
+            "males": 22,
+            "females": 29
+          },
+          "1881": {
+            "persons": null,
+            "males": 20,
+            "females": 28
+          }
+        },
+        {
+          "age": "1-2",
+          "1901": {
+            "persons": null,
+            "males": 8,
+            "females": 10
+          },
+          "1891": {
+            "persons": null,
+            "males": 15,
+            "females": 20
+          },
+          "1881": {
+            "persons": null,
+            "males": 13,
+            "females": 17
+          }
+        },
+        {
+          "age": "2-3",
+          "1901": {
+            "persons": null,
+            "males": 20,
+            "females": 26
+          },
+          "1891": {
+            "persons": null,
+            "males": 25,
+            "females": 33
+          },
+          "1881": {
+            "persons": null,
+            "males": 14,
+            "females": 19
+          }
+        },
+        {
+          "age": "3-4",
+          "1901": {
+            "persons": null,
+            "males": 18,
+            "females": 25
+          },
+          "1891": {
+            "persons": null,
+            "males": 26,
+            "females": 35
+          },
+          "1881": {
+            "persons": null,
+            "males": 18,
+            "females": 25
+          }
+        },
+        {
+          "age": "4-5",
+          "1901": {
+            "persons": null,
+            "males": 21,
+            "females": 27
+          },
+          "1891": {
+            "persons": null,
+            "males": 23,
+            "females": 29
+          },
+          "1881": {
+            "persons": null,
+            "males": 19,
+            "females": 24
+          }
+        },
+        {
+          "age": "TOTAL 0-5",
+          "1901": {
+            "persons": null,
+            "males": 95,
+            "females": 123
+          },
+          "1891": {
+            "persons": null,
+            "males": 111,
+            "females": 146
+          },
+          "1881": {
+            "persons": null,
+            "males": 84,
+            "females": 113
+          }
+        },
+        {
+          "age": "5-10",
+          "1901": {
+            "persons": null,
+            "males": 112,
+            "females": 139
+          },
+          "1891": {
+            "persons": null,
+            "males": 115,
+            "females": 139
+          },
+          "1881": {
+            "persons": null,
+            "males": 111,
+            "females": 142
+          }
+        },
+        {
+          "age": "10-15",
+          "1901": {
+            "persons": null,
+            "males": 119,
+            "females": 129
+          },
+          "1891": {
+            "persons": null,
+            "males": 94,
+            "females": 99
+          },
+          "1881": {
+            "persons": null,
+            "males": 113,
+            "females": 117
+          }
+        },
+        {
+          "age": "TOTAL 0-15",
+          "1901": {
+            "persons": null,
+            "males": 326,
+            "females": 391
+          },
+          "1891": {
+            "persons": null,
+            "males": 320,
+            "females": 384
+          },
+          "1881": {
+            "persons": null,
+            "males": 308,
+            "females": 372
+          }
+        },
+        {
+          "age": "15-20",
+          "1901": {
+            "persons": null,
+            "males": 97,
+            "females": 96
+          },
+          "1891": {
+            "persons": null,
+            "males": 99,
+            "females": 103
+          },
+          "1881": {
+            "persons": null,
+            "males": 115,
+            "females": 110
+          }
+        },
+        {
+          "age": "20-25",
+          "1901": {
+            "persons": null,
+            "males": 101,
+            "females": 104
+          },
+          "1891": {
+            "persons": null,
+            "males": 109,
+            "females": 112
+          },
+          "1881": {
+            "persons": null,
+            "males": 114,
+            "females": 118
+          }
+        },
+        {
+          "age": "25-30",
+          "1901": {
+            "persons": null,
+            "males": 122,
+            "females": 109
+          },
+          "1891": {
+            "persons": null,
+            "males": 128,
+            "females": 110
+          },
+          "1881": {
+            "persons": null,
+            "males": 131,
+            "females": 118
+          }
+        },
+        {
+          "age": "30-35",
+          "1901": {
+            "persons": null,
+            "males": 107,
+            "females": 84
+          },
+          "1891": {
+            "persons": null,
+            "males": 103,
+            "females": 82
+          },
+          "1881": {
+            "persons": null,
+            "males": 108,
+            "females": 85
+          }
+        },
+        {
+          "age": "35-40",
+          "1901": {
+            "persons": null,
+            "males": 79,
+            "females": 54
+          },
+          "1891": {
+            "persons": null,
+            "males": 77,
+            "females": 54
+          },
+          "1881": {
+            "persons": null,
+            "males": 78,
+            "females": 54
+          }
+        },
+        {
+          "age": "TOTAL 15-40",
+          "1901": {
+            "persons": null,
+            "males": 506,
+            "females": 447
+          },
+          "1891": {
+            "persons": null,
+            "males": 516,
+            "females": 461
+          },
+          "1881": {
+            "persons": null,
+            "males": 546,
+            "females": 485
+          }
+        },
+        {
+          "age": "40-45",
+          "1901": {
+            "persons": null,
+            "males": 64,
+            "females": 53
+          },
+          "1891": {
+            "persons": null,
+            "males": 61,
+            "females": 53
+          },
+          "1881": {
+            "persons": null,
+            "males": 58,
+            "females": 48
+          }
+        },
+        {
+          "age": "45-50",
+          "1901": {
+            "persons": null,
+            "males": 35,
+            "females": 28
+          },
+          "1891": {
+            "persons": null,
+            "males": 36,
+            "females": 27
+          },
+          "1881": {
+            "persons": null,
+            "males": 31,
+            "females": 26
+          }
+        },
+        {
+          "age": "50-55",
+          "1901": {
+            "persons": null,
+            "males": 32,
+            "females": 35
+          },
+          "1891": {
+            "persons": null,
+            "males": 31,
+            "females": 33
+          },
+          "1881": {
+            "persons": null,
+            "males": 28,
+            "females": 29
+          }
+        },
+        {
+          "age": "55-60",
+          "1901": {
+            "persons": null,
+            "males": 13,
+            "females": 13
+          },
+          "1891": {
+            "persons": null,
+            "males": 13,
+            "females": 11
+          },
+          "1881": {
+            "persons": null,
+            "males": 10,
+            "females": 10
+          }
+        },
+        {
+          "age": "TOTAL 40-60",
+          "1901": {
+            "persons": null,
+            "males": 144,
+            "females": 129
+          },
+          "1891": {
+            "persons": null,
+            "males": 141,
+            "females": 124
+          },
+          "1881": {
+            "persons": null,
+            "males": 127,
+            "females": 113
+          }
+        },
+        {
+          "age": "60 and over",
+          "1901": {
+            "persons": null,
+            "males": 24,
+            "females": 33
+          },
+          "1891": {
+            "persons": null,
+            "males": 23,
+            "females": 31
+          },
+          "1881": {
+            "persons": null,
+            "males": 19,
+            "females": 30
+          }
+        },
+        {
+          "age": "TOTAL",
+          "1901": {
+            "persons": null,
+            "males": 1000,
+            "females": 1000
+          },
+          "1891": {
+            "persons": null,
+            "males": 1000,
+            "females": 1000
+          },
+          "1881": {
+            "persons": null,
+            "males": 1000,
+            "females": 1000
+          }
+        },
+        {
+          "age": "Mean Age",
+          "1901": {
+            "persons": null,
+            "males": 25,
+            "females": 23
+          },
+          "1891": {
+            "persons": null,
+            "males": 24,
+            "females": 23
+          },
+          "1881": {
+            "persons": null,
+            "males": 24,
+            "females": 23
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 174,
+    "passed": 174,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

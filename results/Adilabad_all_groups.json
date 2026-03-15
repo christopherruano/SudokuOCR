@@ -1,0 +1,1043 @@
+{
+  "source_image": "age_tables/Hyderabad/1941/Adilabad.png",
+  "discovery": {
+    "title": "POPULATION UNMARRIED MARRIED WIDOWED DIVORCED",
+    "region": "",
+    "year": 0,
+    "data_type": "absolute",
+    "denominator": 0,
+    "column_groups": [
+      "POPULATION",
+      "UNMARRIED",
+      "MARRIED",
+      "WIDOWED",
+      "DIVORCED"
+    ],
+    "sections": [
+      "1. ALL COMMUNITIES.",
+      "2. Brahmanic Hindus.",
+      "3. Other Hindus"
+    ],
+    "cross_group_constraints": {
+      "POPULATION": [
+        "UNMARRIED",
+        "MARRIED",
+        "WIDOWED",
+        "DIVORCED"
+      ]
+    }
+  },
+  "sections": {
+    "1. ALL COMMUNITIES.": {
+      "POPULATION": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 28785,
+            "males": 13661,
+            "females": 15124
+          },
+          {
+            "age": "1-5",
+            "persons": 109003,
+            "males": 49712,
+            "females": 59291
+          },
+          {
+            "age": "5-10",
+            "persons": 94692,
+            "males": 52525,
+            "females": 42167
+          },
+          {
+            "age": "10-15",
+            "persons": 84217,
+            "males": 44726,
+            "females": 39491
+          },
+          {
+            "age": "15-20",
+            "persons": 67686,
+            "males": 33046,
+            "females": 34640
+          },
+          {
+            "age": "20-30",
+            "persons": 154493,
+            "males": 81404,
+            "females": 73089
+          },
+          {
+            "age": "30-40",
+            "persons": 110303,
+            "males": 58940,
+            "females": 51363
+          },
+          {
+            "age": "40-50",
+            "persons": 78174,
+            "males": 43045,
+            "females": 35129
+          },
+          {
+            "age": "50-60",
+            "persons": 57438,
+            "males": 24718,
+            "females": 32720
+          },
+          {
+            "age": "60 & over",
+            "persons": 38831,
+            "males": 15186,
+            "females": 23645
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "UNMARRIED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 28480,
+            "males": 13534,
+            "females": 14946
+          },
+          {
+            "age": "1-5",
+            "persons": 102530,
+            "males": 47678,
+            "females": 54852
+          },
+          {
+            "age": "5-10",
+            "persons": 74204,
+            "males": 44027,
+            "females": 30177
+          },
+          {
+            "age": "10-15",
+            "persons": 44364,
+            "males": 28456,
+            "females": 15908
+          },
+          {
+            "age": "15-20",
+            "persons": 17657,
+            "males": 12812,
+            "females": 4845
+          },
+          {
+            "age": "20-30",
+            "persons": 12655,
+            "males": 10587,
+            "females": 2068
+          },
+          {
+            "age": "30-40",
+            "persons": 4649,
+            "males": 3693,
+            "females": 956
+          },
+          {
+            "age": "40-50",
+            "persons": 2945,
+            "males": 2562,
+            "females": 383
+          },
+          {
+            "age": "50-60",
+            "persons": 1346,
+            "males": 1083,
+            "females": 263
+          },
+          {
+            "age": "60 & over",
+            "persons": 818,
+            "males": 617,
+            "females": 201
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "MARRIED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 279,
+            "males": 122,
+            "females": 157
+          },
+          {
+            "age": "1-5",
+            "persons": 6018,
+            "males": 1848,
+            "females": 4170
+          },
+          {
+            "age": "5-10",
+            "persons": 19843,
+            "males": 8307,
+            "females": 11536
+          },
+          {
+            "age": "10-15",
+            "persons": 38502,
+            "males": 15948,
+            "females": 22554
+          },
+          {
+            "age": "15-20",
+            "persons": 47744,
+            "males": 19874,
+            "females": 27870
+          },
+          {
+            "age": "20-30",
+            "persons": 133521,
+            "males": 68106,
+            "females": 65415
+          },
+          {
+            "age": "30-40",
+            "persons": 94421,
+            "males": 51963,
+            "females": 42458
+          },
+          {
+            "age": "40-50",
+            "persons": 61729,
+            "males": 36328,
+            "females": 25401
+          },
+          {
+            "age": "50-60",
+            "persons": 35830,
+            "males": 19248,
+            "females": 16582
+          },
+          {
+            "age": "60 & over",
+            "persons": 16839,
+            "males": 10224,
+            "females": 6615
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "WIDOWED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 26,
+            "males": 5,
+            "females": 21
+          },
+          {
+            "age": "1-5",
+            "persons": 453,
+            "males": 185,
+            "females": 268
+          },
+          {
+            "age": "5-10",
+            "persons": 627,
+            "males": 189,
+            "females": 438
+          },
+          {
+            "age": "10-15",
+            "persons": 1236,
+            "males": 293,
+            "females": 943
+          },
+          {
+            "age": "15-20",
+            "persons": 2018,
+            "males": 288,
+            "females": 1730
+          },
+          {
+            "age": "20-30",
+            "persons": 7356,
+            "males": 2296,
+            "females": 5060
+          },
+          {
+            "age": "30-40",
+            "persons": 10172,
+            "males": 2875,
+            "females": 7297
+          },
+          {
+            "age": "40-50",
+            "persons": 12277,
+            "males": 3666,
+            "females": 8611
+          },
+          {
+            "age": "50-60",
+            "persons": 19278,
+            "males": 4016,
+            "females": 15262
+          },
+          {
+            "age": "60 & over",
+            "persons": 20406,
+            "males": 4126,
+            "females": 16280
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "DIVORCED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          {
+            "age": "1-5",
+            "persons": 2,
+            "males": 1,
+            "females": 1
+          },
+          {
+            "age": "5-10",
+            "persons": 18,
+            "males": 2,
+            "females": 16
+          },
+          {
+            "age": "10-15",
+            "persons": 115,
+            "males": 29,
+            "females": 86
+          },
+          {
+            "age": "15-20",
+            "persons": 267,
+            "males": 72,
+            "females": 195
+          },
+          {
+            "age": "20-30",
+            "persons": 961,
+            "males": 415,
+            "females": 546
+          },
+          {
+            "age": "30-40",
+            "persons": 1061,
+            "males": 409,
+            "females": 652
+          },
+          {
+            "age": "40-50",
+            "persons": 1223,
+            "males": 489,
+            "females": 734
+          },
+          {
+            "age": "50-60",
+            "persons": 984,
+            "males": 371,
+            "females": 613
+          },
+          {
+            "age": "60 & over",
+            "persons": 768,
+            "males": 219,
+            "females": 549
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      }
+    },
+    "2. Brahmanic Hindus.": {
+      "POPULATION": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 519,
+            "males": 244,
+            "females": 275
+          },
+          {
+            "age": "1-5",
+            "persons": 1886,
+            "males": 866,
+            "females": 1020
+          },
+          {
+            "age": "5-10",
+            "persons": 1726,
+            "males": 660,
+            "females": 1066
+          },
+          {
+            "age": "10-15",
+            "persons": 1711,
+            "males": 599,
+            "females": 1112
+          },
+          {
+            "age": "15-20",
+            "persons": 1265,
+            "males": 489,
+            "females": 776
+          },
+          {
+            "age": "20-30",
+            "persons": 2497,
+            "males": 1373,
+            "females": 1124
+          },
+          {
+            "age": "30-40",
+            "persons": 1602,
+            "males": 832,
+            "females": 770
+          },
+          {
+            "age": "40-50",
+            "persons": 834,
+            "males": 481,
+            "females": 353
+          },
+          {
+            "age": "50-60",
+            "persons": 443,
+            "males": 221,
+            "females": 222
+          },
+          {
+            "age": "60 & over",
+            "persons": 325,
+            "males": 152,
+            "females": 173
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "UNMARRIED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 517,
+            "males": 243,
+            "females": 274
+          },
+          {
+            "age": "1-5",
+            "persons": 1857,
+            "males": 860,
+            "females": 997
+          },
+          {
+            "age": "5-10",
+            "persons": 1551,
+            "males": 640,
+            "females": 911
+          },
+          {
+            "age": "10-15",
+            "persons": 1188,
+            "males": 516,
+            "females": 672
+          },
+          {
+            "age": "15-20",
+            "persons": 610,
+            "males": 349,
+            "females": 261
+          },
+          {
+            "age": "20-30",
+            "persons": 238,
+            "males": 207,
+            "females": 31
+          },
+          {
+            "age": "30-40",
+            "persons": 31,
+            "males": 29,
+            "females": 2
+          },
+          {
+            "age": "40-50",
+            "persons": 18,
+            "males": 17,
+            "females": 1
+          },
+          {
+            "age": "50-60",
+            "persons": 11,
+            "males": 11,
+            "females": 0
+          },
+          {
+            "age": "60 & over",
+            "persons": 5,
+            "males": 5,
+            "females": 0
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "MARRIED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 2,
+            "males": 1,
+            "females": 1
+          },
+          {
+            "age": "1-5",
+            "persons": 27,
+            "males": 6,
+            "females": 21
+          },
+          {
+            "age": "5-10",
+            "persons": 172,
+            "males": 20,
+            "females": 152
+          },
+          {
+            "age": "10-15",
+            "persons": 515,
+            "males": 82,
+            "females": 433
+          },
+          {
+            "age": "15-20",
+            "persons": 639,
+            "males": 140,
+            "females": 499
+          },
+          {
+            "age": "20-30",
+            "persons": 2155,
+            "males": 1155,
+            "females": 1000
+          },
+          {
+            "age": "30-40",
+            "persons": 1408,
+            "males": 780,
+            "females": 628
+          },
+          {
+            "age": "40-50",
+            "persons": 633,
+            "males": 431,
+            "females": 202
+          },
+          {
+            "age": "50-60",
+            "persons": 272,
+            "males": 179,
+            "females": 93
+          },
+          {
+            "age": "60 & over",
+            "persons": 163,
+            "males": 119,
+            "females": 44
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "WIDOWED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          {
+            "age": "1-5",
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          },
+          {
+            "age": "5-10",
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          },
+          {
+            "age": "10-15",
+            "persons": 7,
+            "males": 1,
+            "females": 6
+          },
+          {
+            "age": "15-20",
+            "persons": 16,
+            "males": 0,
+            "females": 16
+          },
+          {
+            "age": "20-30",
+            "persons": 101,
+            "males": 9,
+            "females": 92
+          },
+          {
+            "age": "30-40",
+            "persons": 158,
+            "males": 20,
+            "females": 138
+          },
+          {
+            "age": "40-50",
+            "persons": 182,
+            "males": 32,
+            "females": 150
+          },
+          {
+            "age": "50-60",
+            "persons": 155,
+            "males": 30,
+            "females": 125
+          },
+          {
+            "age": "60 & over",
+            "persons": 150,
+            "males": 23,
+            "females": 127
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "DIVORCED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          {
+            "age": "1-5",
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          {
+            "age": "5-10",
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          },
+          {
+            "age": "10-15",
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          },
+          {
+            "age": "15-20",
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          {
+            "age": "20-30",
+            "persons": 3,
+            "males": 2,
+            "females": 1
+          },
+          {
+            "age": "30-40",
+            "persons": 5,
+            "males": 3,
+            "females": 2
+          },
+          {
+            "age": "40-50",
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          {
+            "age": "50-60",
+            "persons": 5,
+            "males": 1,
+            "females": 4
+          },
+          {
+            "age": "60 & over",
+            "persons": 7,
+            "males": 5,
+            "females": 2
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      }
+    },
+    "3. Other Hindus": {
+      "POPULATION": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 14192,
+            "males": 7370,
+            "females": 6822
+          },
+          {
+            "age": "1-5",
+            "persons": 52674,
+            "males": 23525,
+            "females": 29149
+          },
+          {
+            "age": "5-10",
+            "persons": 49312,
+            "males": 30223,
+            "females": 19089
+          },
+          {
+            "age": "10-15",
+            "persons": 44426,
+            "males": 24079,
+            "females": 20347
+          },
+          {
+            "age": "15-20",
+            "persons": 32835,
+            "males": 15021,
+            "females": 17814
+          },
+          {
+            "age": "20-30",
+            "persons": 83500,
+            "males": 43467,
+            "females": 40033
+          },
+          {
+            "age": "30-40",
+            "persons": 55109,
+            "males": 29079,
+            "females": 26030
+          },
+          {
+            "age": "40-50",
+            "persons": 37457,
+            "males": 20901,
+            "females": 16556
+          },
+          {
+            "age": "50-60",
+            "persons": 29104,
+            "males": 11681,
+            "females": 17423
+          },
+          {
+            "age": "60 & over",
+            "persons": 20090,
+            "males": 7150,
+            "females": 12940
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "UNMARRIED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 14084,
+            "males": 7322,
+            "females": 6762
+          },
+          {
+            "age": "1-5",
+            "persons": 49305,
+            "males": 22701,
+            "females": 26604
+          },
+          {
+            "age": "5-10",
+            "persons": 37054,
+            "males": 24822,
+            "females": 12232
+          },
+          {
+            "age": "10-15",
+            "persons": 19398,
+            "males": 13463,
+            "females": 5935
+          },
+          {
+            "age": "15-20",
+            "persons": 6910,
+            "males": 4224,
+            "females": 2686
+          },
+          {
+            "age": "20-30",
+            "persons": 5433,
+            "males": 4623,
+            "females": 810
+          },
+          {
+            "age": "30-40",
+            "persons": 2761,
+            "males": 2346,
+            "females": 415
+          },
+          {
+            "age": "40-50",
+            "persons": 1804,
+            "males": 1660,
+            "females": 144
+          },
+          {
+            "age": "50-60",
+            "persons": 627,
+            "males": 547,
+            "females": 80
+          },
+          {
+            "age": "60 & over",
+            "persons": 360,
+            "males": 326,
+            "females": 34
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "MARRIED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 108,
+            "males": 48,
+            "females": 60
+          },
+          {
+            "age": "1-5",
+            "persons": 3082,
+            "males": 700,
+            "females": 2382
+          },
+          {
+            "age": "5-10",
+            "persons": 11856,
+            "males": 5271,
+            "females": 6585
+          },
+          {
+            "age": "10-15",
+            "persons": 24159,
+            "males": 10418,
+            "females": 13741
+          },
+          {
+            "age": "15-20",
+            "persons": 24633,
+            "males": 10629,
+            "females": 14004
+          },
+          {
+            "age": "20-30",
+            "persons": 74340,
+            "males": 37937,
+            "females": 36403
+          },
+          {
+            "age": "30-40",
+            "persons": 46885,
+            "males": 25593,
+            "females": 21292
+          },
+          {
+            "age": "40-50",
+            "persons": 30191,
+            "males": 17898,
+            "females": 12293
+          },
+          {
+            "age": "50-60",
+            "persons": 19559,
+            "males": 9879,
+            "females": 9680
+          },
+          {
+            "age": "60 & over",
+            "persons": 8821,
+            "males": 5444,
+            "females": 3377
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "WIDOWED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          {
+            "age": "1-5",
+            "persons": 286,
+            "males": 123,
+            "females": 163
+          },
+          {
+            "age": "5-10",
+            "persons": 389,
+            "males": 128,
+            "females": 261
+          },
+          {
+            "age": "10-15",
+            "persons": 814,
+            "males": 186,
+            "females": 628
+          },
+          {
+            "age": "15-20",
+            "persons": 1149,
+            "males": 131,
+            "females": 1018
+          },
+          {
+            "age": "20-30",
+            "persons": 3341,
+            "males": 783,
+            "females": 2558
+          },
+          {
+            "age": "30-40",
+            "persons": 5114,
+            "males": 1021,
+            "females": 4093
+          },
+          {
+            "age": "40-50",
+            "persons": 5194,
+            "males": 1233,
+            "females": 3961
+          },
+          {
+            "age": "50-60",
+            "persons": 8711,
+            "males": 1144,
+            "females": 7567
+          },
+          {
+            "age": "60 & over",
+            "persons": 10735,
+            "males": 1308,
+            "females": 9427
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      },
+      "DIVORCED": {
+        "rows": [
+          {
+            "age": "0-1",
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          {
+            "age": "1-5",
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          {
+            "age": "5-10",
+            "persons": 13,
+            "males": 2,
+            "females": 11
+          },
+          {
+            "age": "10-15",
+            "persons": 55,
+            "males": 12,
+            "females": 43
+          },
+          {
+            "age": "15-20",
+            "persons": 143,
+            "males": 37,
+            "females": 106
+          },
+          {
+            "age": "20-30",
+            "persons": 386,
+            "males": 124,
+            "females": 262
+          },
+          {
+            "age": "30-40",
+            "persons": 349,
+            "males": 119,
+            "females": 230
+          },
+          {
+            "age": "40-50",
+            "persons": 268,
+            "males": 110,
+            "females": 158
+          },
+          {
+            "age": "50-60",
+            "persons": 207,
+            "males": 111,
+            "females": 96
+          },
+          {
+            "age": "60 & over",
+            "persons": 174,
+            "males": 72,
+            "females": 102
+          }
+        ],
+        "n_rows": 10,
+        "constraints_passed": true,
+        "constraint_failures": []
+      }
+    }
+  }
+}

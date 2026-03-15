@@ -1,0 +1,156 @@
+{
+  "image": "/Users/chrisruano/Research/HEB_91r/age_tables/Coorg/1901/Coorg_age_1901.png",
+  "label": "Coorg 1901",
+  "discovery_time_s": 24.8,
+  "schema": {
+    "title": "SUBSIDIARY TABLE 1.\u2014Age distribution of 1,000 of each sex at each of the last three censuses.",
+    "region": "",
+    "year": 1901,
+    "data_type": "per_mille",
+    "column_groups": [
+      {
+        "name": "1901",
+        "sub_columns": [
+          "Males",
+          "Females"
+        ],
+        "left_frac": 0.4,
+        "right_frac": 0.57
+      },
+      {
+        "name": "1891",
+        "sub_columns": [
+          "Males",
+          "Females"
+        ],
+        "left_frac": 0.58,
+        "right_frac": 0.75
+      },
+      {
+        "name": "1881",
+        "sub_columns": [
+          "Males",
+          "Females"
+        ],
+        "left_frac": 0.76,
+        "right_frac": 0.93
+      }
+    ],
+    "target_group_index": 0,
+    "row_labels": [
+      "0-1",
+      "1-2",
+      "2-3",
+      "3-4",
+      "4-5",
+      "TOTAL 0-5",
+      "5-10",
+      "10-15",
+      "TOTAL 0-15",
+      "15-20",
+      "20-25",
+      "25-30",
+      "30-35",
+      "35-40",
+      "TOTAL 15-40",
+      "40-45",
+      "45-50",
+      "50-55",
+      "55-60",
+      "TOTAL 40-60",
+      "60 and over",
+      "TOTAL",
+      "Mean Age"
+    ],
+    "subtotal_hierarchy": {
+      "TOTAL 0-5": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "TOTAL 0-15": [
+        "TOTAL 0-5",
+        "5-10",
+        "10-15"
+      ],
+      "TOTAL 15-40": [
+        "15-20",
+        "20-25",
+        "25-30",
+        "30-35",
+        "35-40"
+      ],
+      "TOTAL 40-60": [
+        "40-45",
+        "45-50",
+        "50-55",
+        "55-60"
+      ],
+      "TOTAL": [
+        "TOTAL 0-15",
+        "TOTAL 15-40",
+        "TOTAL 40-60",
+        "60 and over"
+      ]
+    },
+    "has_persons_column": false,
+    "known_totals": {},
+    "multi_year": true,
+    "years_present": [
+      1901,
+      1891,
+      1881
+    ],
+    "multi_region": false
+  },
+  "config": {
+    "preprocessing": {
+      "crop": {
+        "right_frac": 0.62
+      }
+    },
+    "prompt_type": "subtotals",
+    "constraint_groups": {
+      "0-5": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "0-15": [
+        "0-5",
+        "5-10",
+        "10-15"
+      ],
+      "15-40": [
+        "15-20",
+        "20-25",
+        "25-30",
+        "30-35",
+        "35-40"
+      ],
+      "40-60": [
+        "40-45",
+        "45-50",
+        "50-55",
+        "55-60"
+      ],
+      "total": [
+        "0-15",
+        "15-40",
+        "40-60",
+        "60andover"
+      ]
+    },
+    "known_totals": {
+      "total": {
+        "males": 1000,
+        "females": 1000
+      }
+    }
+  },
+  "custom_prompt": "You are an expert at reading historical census tables. This is a scanned page from an Indian census report.\n\nThis table has Males and Females columns but no Persons column. Compute Persons = Males + Females for each row.\n\nThe table contains these rows (in order):\n  - 0-1\n  - 1-2\n  - 2-3\n  - 3-4\n  - 4-5\n  - TOTAL 0-5\n  - 5-10\n  - 10-15\n  - TOTAL 0-15\n  - 15-20\n  - 20-25\n  - 25-30\n  - 30-35\n  - 35-40\n  - TOTAL 15-40\n  - 40-45\n  - 45-50\n  - 50-55\n  - 55-60\n  - TOTAL 40-60\n  - 60 and over\n  - TOTAL\n  - Mean Age\n\nThis table has subtotal rows. The following relationships hold:\n  - TOTAL 0-5 = 0-1 + 1-2 + 2-3 + 3-4 + 4-5\n  - TOTAL 0-15 = TOTAL 0-5 + 5-10 + 10-15\n  - TOTAL 15-40 = 15-20 + 20-25 + 25-30 + 30-35 + 35-40\n  - TOTAL 40-60 = 40-45 + 45-50 + 50-55 + 55-60\n  - TOTAL = TOTAL 0-15 + TOTAL 15-40 + TOTAL 40-60 + 60 and over\n\nUse these relationships to verify your readings. If a subtotal doesn't match the sum of its components, re-examine the ambiguous digits.\n\nIMPORTANT: This table shows proportions per 1,000 (per mille), NOT absolute population counts. The Total row should equal exactly 1000 for both Males and Females. Values are small integers (typically 1-300). Use this constraint to verify your readings.\n\nCRITICAL: Read each digit extremely carefully. Common OCR errors on old typefaces:\n- The digit 3 has angular notches/points at its curves; 8 has smooth continuous curves. These look very similar \u2014 examine closely.\n- Also watch for: 6 vs 5, 0 vs 9, 1 vs 7\n- Verify by checking: Persons should equal Males + Females for each row\n- If a digit is ambiguous, use the M+F=Persons constraint to determine the correct reading\n\nReturn ONLY a JSON array. Each object: {\"age\": \"...\", \"persons\": N, \"males\": N, \"females\": N}\nFor subtotal rows, use the label as-is (e.g. \"Total 0-5\", \"Total 15-40\", \"Total\").\nAll values are integers, no commas. Return ONLY valid JSON."
+}

@@ -1,0 +1,154 @@
+{
+  "source_image": "age_tables/Hyderabad/1941/Adilabad.png",
+  "discovery": {
+    "title": "POPULATION UNMARRIED MARRIED WIDOWED DIVORCED",
+    "region": "",
+    "year": 0,
+    "data_type": "absolute",
+    "denominator": 0,
+    "has_persons_column": true,
+    "multi_year": false,
+    "years_present": [],
+    "target_columns": {
+      "name": "POPULATION",
+      "sub_columns": [
+        "Persons",
+        "Males",
+        "Females"
+      ],
+      "left_frac": 0.24,
+      "right_frac": 0.45
+    },
+    "subtotal_hierarchy": {},
+    "row_labels": [
+      "1. ALL COMMUNITIES.",
+      "0\u2014 1",
+      "1\u2014 5",
+      "5\u201410",
+      "10\u201415",
+      "15\u201420",
+      "20\u201430",
+      "30\u201440",
+      "40\u201450",
+      "50\u201460",
+      "60 & over",
+      "2. Brahmanic Hindus.",
+      "3. Other Hindus",
+      "1. ALL COMMUNITIES",
+      "2. Brahmanic Hindus"
+    ]
+  },
+  "pipeline_config": {
+    "preprocessing": {
+      "crop": {
+        "right_frac": 0.55
+      }
+    },
+    "prompt_type": "full",
+    "constraint_groups": null,
+    "known_totals": null
+  },
+  "results": {
+    "rows": [
+      {
+        "age": "ALL COMMUNITIES",
+        "persons": 823622,
+        "males": 416963,
+        "females": 406659
+      },
+      {
+        "age": "0\u2014 1",
+        "persons": 28785,
+        "males": 13661,
+        "females": 15124
+      },
+      {
+        "age": "1\u2014 5",
+        "persons": 109003,
+        "males": 49712,
+        "females": 59291
+      },
+      {
+        "age": "5\u201410",
+        "persons": 94692,
+        "males": 52525,
+        "females": 42167
+      },
+      {
+        "age": "10\u201415",
+        "persons": 84217,
+        "males": 44726,
+        "females": 39491
+      },
+      {
+        "age": "15\u201420",
+        "persons": 67686,
+        "males": 33046,
+        "females": 34640
+      },
+      {
+        "age": "20\u201430",
+        "persons": 154493,
+        "males": 81404,
+        "females": 73089
+      },
+      {
+        "age": "30\u201440",
+        "persons": 110303,
+        "males": 58940,
+        "females": 51363
+      },
+      {
+        "age": "40\u201450",
+        "persons": 78174,
+        "males": 43045,
+        "females": 35129
+      },
+      {
+        "age": "50\u201460",
+        "persons": 57438,
+        "males": 24718,
+        "females": 32720
+      },
+      {
+        "age": "60 & over",
+        "persons": 38831,
+        "males": 15186,
+        "females": 23645
+      },
+      {
+        "age": "Brahmanic Hindus",
+        "persons": 12808,
+        "males": 5917,
+        "females": 6891
+      },
+      {
+        "age": "Other Hindus",
+        "persons": 418699,
+        "males": 212496,
+        "females": 206203
+      },
+      {
+        "age": "1. ALL COMMUNITIES.",
+        "persons": 823622,
+        "males": 416963,
+        "females": 406659
+      },
+      {
+        "age": "2. Brahmanic Hindus.",
+        "persons": 12808,
+        "males": 5917,
+        "females": 6891
+      },
+      {
+        "age": "3. Other Hindus",
+        "persons": 418699,
+        "males": 212496,
+        "females": 206203
+      }
+    ],
+    "n_rows": 16,
+    "constraints_passed": true,
+    "constraint_failures": []
+  }
+}

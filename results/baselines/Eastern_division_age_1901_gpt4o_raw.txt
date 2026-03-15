@@ -1,0 +1,174 @@
+```json
+[
+  {
+    "age": "0-1",
+    "Persons": 34217,
+    "Males": 14919,
+    "Females": 17298,
+    "Unmarried Persons": 34217,
+    "Unmarried Males": 14919,
+    "Unmarried Females": 17298
+  },
+  {
+    "age": "1-2",
+    "Persons": 30401,
+    "Males": 14637,
+    "Females": 15764,
+    "Unmarried Persons": 30401,
+    "Unmarried Males": 14637,
+    "Unmarried Females": 15764
+  },
+  {
+    "age": "2-3",
+    "Persons": 34733,
+    "Males": 16711,
+    "Females": 18022,
+    "Unmarried Persons": 34733,
+    "Unmarried Males": 16711,
+    "Unmarried Females": 18022
+  },
+  {
+    "age": "3-4",
+    "Persons": 38158,
+    "Males": 18347,
+    "Females": 19811,
+    "Unmarried Persons": 38156,
+    "Unmarried Males": 18347,
+    "Unmarried Females": 19809
+  },
+  {
+    "age": "4-5",
+    "Persons": 34000,
+    "Males": 16610,
+    "Females": 17390,
+    "Unmarried Persons": 33993,
+    "Unmarried Males": 16610,
+    "Unmarried Females": 17383
+  },
+  {
+    "age": "Total 0-5",
+    "Persons": 169509,
+    "Males": 81234,
+    "Females": 88285,
+    "Unmarried Persons": 169500,
+    "Unmarried Males": 81224,
+    "Unmarried Females": 88276
+  },
+  {
+    "age": "5-10",
+    "Persons": 166745,
+    "Males": 83669,
+    "Females": 83076,
+    "Unmarried Persons": 166055,
+    "Unmarried Males": 83520,
+    "Unmarried Females": 82535
+  },
+  {
+    "age": "10-15",
+    "Persons": 150630,
+    "Males": 79166,
+    "Females": 71464,
+    "Unmarried Persons": 141016,
+    "Unmarried Males": 77724,
+    "Unmarried Females": 63292
+  },
+  {
+    "age": "15-20",
+    "Persons": 116595,
+    "Males": 57993,
+    "Females": 58602,
+    "Unmarried Persons": 67163,
+    "Unmarried Males": 45926,
+    "Unmarried Females": 21237
+  },
+  {
+    "age": "20-25",
+    "Persons": 111950,
+    "Males": 53002,
+    "Females": 58948,
+    "Unmarried Persons": 27236,
+    "Unmarried Males": 21500,
+    "Unmarried Females": 5736
+  },
+  {
+    "age": "25-30",
+    "Persons": 120076,
+    "Males": 59814,
+    "Females": 60262,
+    "Unmarried Persons": 12127,
+    "Unmarried Males": 9684,
+    "Unmarried Females": 2443
+  },
+  {
+    "age": "30-35",
+    "Persons": 95124,
+    "Males": 49257,
+    "Females": 46867,
+    "Unmarried Persons": 3554,
+    "Unmarried Males": 2604,
+    "Unmarried Females": 950
+  },
+  {
+    "age": "35-40",
+    "Persons": 85869,
+    "Males": 47873,
+    "Females": 37996,
+    "Unmarried Persons": 1855,
+    "Unmarried Males": 1219,
+    "Unmarried Females": 636
+  },
+  {
+    "age": "40-45",
+    "Persons": 66459,
+    "Males": 36018,
+    "Females": 30441,
+    "Unmarried Persons": 1111,
+    "Unmarried Males": 625,
+    "Unmarried Females": 486
+  },
+  {
+    "age": "45-50",
+    "Persons": 53330,
+    "Males": 29353,
+    "Females": 23977,
+    "Unmarried Persons": 672,
+    "Unmarried Males": 342,
+    "Unmarried Females": 330
+  },
+  {
+    "age": "50-55",
+    "Persons": 45019,
+    "Males": 23255,
+    "Females": 21264,
+    "Unmarried Persons": 585,
+    "Unmarried Males": 281,
+    "Unmarried Females": 304
+  },
+  {
+    "age": "55-60",
+    "Persons": 26926,
+    "Males": 14278,
+    "Females": 12648,
+    "Unmarried Persons": 159,
+    "Unmarried Males": 85,
+    "Unmarried Females": 74
+  },
+  {
+    "age": "60 and over",
+    "Persons": 53324,
+    "Males": 25993,
+    "Females": 27331,
+    "Unmarried Persons": 675,
+    "Unmarried Males": 263,
+    "Unmarried Females": 412
+  },
+  {
+    "age": "Total",
+    "Persons": 1261586,
+    "Males": 641095,
+    "Females": 620491,
+    "Unmarried Persons": 591844,
+    "Unmarried Males": 325071,
+    "Unmarried Females": 266773
+  }
+]

@@ -1,0 +1,204 @@
+=== Re-running failed tables with gemini-3.1-pro-preview ===
+Sat Feb 28 18:25:56 EST 2026
+
+--- Re-running: Atraf-i-balda_1941_oneshot.json ---
+  Source: age_tables/Hyderabad/1941/Atraf-i-balda.png
+/Users/chrisruano/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+__main__: Cross-section: partial coverage (0/15 match) — not an error, sections may not be exhaustive
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+__main__: Cross-section: partial coverage (0/15 match) — not an error, sections may not be exhaustive
+__main__: Cross-section: partial coverage (0/15 match) — not an error, sections may not be exhaustive
+__main__: Cross-section: partial coverage (0/15 match) — not an error, sections may not be exhaustive
+
+======================================================================
+One-Shot Extraction: Atraf-i-balda.png
+======================================================================
+
+Step 1a: Schema discovery (Call 1)
+  Schema discovered in 10.5s:
+    Data type: absolute
+    Groups: ['POPULATION', 'UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED']
+    Rows: 10
+    Has persons: True
+    Cross-group: POPULATION = UNMARRIED + MARRIED + WIDOWED + DIVORCED
+
+Step 1b: Per-section extraction (3 sections)
+  [1/3] Section: 1. ALL COMMUNITIES.
+    Extracted: 11 rows
+  [2/3] Section: 2. Brahmanic Hindus.
+    Extracted: 11 rows
+  [3/3] Section: 3. Other Hindus.
+    Extracted: 8 rows
+  Per-section extraction: 259.2s
+
+Step 2: Parse response
+  Parsed: 3 sections, 5 groups, 30 rows
+  Title: VII.-PART II-AGE AND CIVIL CONDITION BY DISTRICTS.-ATRAF-I-BALDA DISTRICT.
+  Region: ATRAF-I-BALDA DISTRICT, Year: 0
+  Groups: ['POPULATION', 'UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED']
+
+Step 3: Derive constraints
+  L1 (P=M+F): 150 checks
+  L2 (vertical sum): 45 checks
+  L3 (cross-group): active — POPULATION = sum(UNMARRIED, MARRIED, WIDOWED, DIVORCED)
+  L4 (cross-section): not detected
+  L5 (non-negative): 450 checks
+
+Step 4: Verify all constraints
+  Total checks: 735
+  Passed: 716
+  Failed: 19
+
+  FAILURES (19):
+    [L2] 3. Other Hindus./ POPULATION persons: Total=353795 != sum(rows)=265275
+    [L2] 3. Other Hindus./ POPULATION males: Total=178536 != sum(rows)=135935
+    [L2] 3. Other Hindus./ POPULATION females: Total=175259 != sum(rows)=129340
+    [L2] 3. Other Hindus./ UNMARRIED persons: Total=142933 != sum(rows)=141538
+    [L2] 3. Other Hindus./ UNMARRIED males: Total=83845 != sum(rows)=82850
+    [L2] 3. Other Hindus./ UNMARRIED females: Total=59088 != sum(rows)=58688
+    [L2] 3. Other Hindus./ MARRIED persons: Total=167527 != sum(rows)=110607
+    [L2] 3. Other Hindus./ MARRIED males: Total=85243 != sum(rows)=50556
+    [L2] 3. Other Hindus./ MARRIED females: Total=82284 != sum(rows)=60051
+    [L2] 3. Other Hindus./ WIDOWED persons: Total=41645 != sum(rows)=12411
+    [L2] 3. Other Hindus./ WIDOWED males: Total=8738 != sum(rows)=2263
+    [L2] 3. Other Hindus./ WIDOWED females: Total=32907 != sum(rows)=10148
+    [L2] 3. Other Hindus./ DIVORCED persons: Total=1690 != sum(rows)=719
+    [L2] 3. Other Hindus./ DIVORCED males: Total=710 != sum(rows)=266
+    [L2] 3. Other Hindus./ DIVORCED females: Total=980 != sum(rows)=453
+    [L3] 1. ALL COMMUNITIES./20-30  persons: POPULATION.persons=103801 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED'])=103901
+    [L3] 1. ALL COMMUNITIES./20-30  females: POPULATION.females=52447 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED'])=52547
+    [L3] 1. ALL COMMUNITIES./30-40  persons: POPULATION.persons=82939 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED'])=82839
+    [L3] 1. ALL COMMUNITIES./30-40  females: POPULATION.females=41145 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED'])=41045
+
+  Step 4b: Targeted re-check — Call 3 (140 suspicious cells)
+  After recheck: 716/735 passed
+
+Step 5: Export
+  CSV: /Users/chrisruano/Research/HEB_91r/results/Atraf-i-balda_1941_oneshot.csv (150 rows)
+
+Multi-group Excel exported to /Users/chrisruano/Research/HEB_91r/results/Atraf-i-balda_1941_oneshot.xlsx
+  JSON: /Users/chrisruano/Research/HEB_91r/results/Atraf-i-balda_1941_oneshot.json
+
+Done in 299.2s (5 API calls, 735 checks, 19 failures)
+  Result: 716/735 FAIL
+
+--- Re-running: Aurangabad_1941_oneshot.json ---
+  Source: age_tables/Hyderabad/1941/Aurangabad.png
+/Users/chrisruano/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+google_genai.models: AFC is enabled with max remote calls: 10.
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+__main__: Cross-section: partial coverage (0/15 match) — not an error, sections may not be exhaustive
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+__main__: Cross-section: partial coverage (0/15 match) — not an error, sections may not be exhaustive
+__main__: Cross-section: partial coverage (0/15 match) — not an error, sections may not be exhaustive
+__main__: Cross-section: partial coverage (0/15 match) — not an error, sections may not be exhaustive
+
+======================================================================
+One-Shot Extraction: Aurangabad.png
+======================================================================
+
+Step 1a: Schema discovery (Call 1)
+  Schema discovered in 14.8s:
+    Data type: absolute
+    Groups: ['POPULATION', 'UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED']
+    Rows: 11
+    Has persons: True
+    Subtotal hierarchy: 1 groups
+    Cross-group: POPULATION = UNMARRIED + MARRIED + WIDOWED + DIVORCED
+
+Step 1b: Per-section extraction (3 sections)
+  [1/3] Section: 1. ALL COMMUNITIES.
+    Extracted: 11 rows
+  [2/3] Section: 2. Brahmanic Hindus.
+    Attempt 1 failed: The read operation timed out
+    Retrying in 1s...
+    Extracted: 11 rows
+  [3/3] Section: 3. Other Hindus
+    Extracted: 11 rows
+  Per-section extraction: 544.9s
+
+Step 2: Parse response
+  Parsed: 3 sections, 5 groups, 33 rows
+  Title: VII.-PART II-AGE AND CIVIL CONDITION BY DISTRICTS.-AURANGABAD DISTRICT.
+  Region: AURANGABAD DISTRICT, Year: 0
+  Groups: ['POPULATION', 'UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED']
+
+Step 3: Derive constraints
+  L1 (P=M+F): 165 checks
+  L2 (vertical sum): 45 checks + 45 subtotal checks
+  L3 (cross-group): active — POPULATION = sum(UNMARRIED, MARRIED, WIDOWED, DIVORCED)
+  L4 (cross-section): not detected
+  L5 (non-negative): 495 checks
+
+Step 4: Verify all constraints
+  Total checks: 804
+  Passed: 800
+  Failed: 4
+
+  FAILURES (4):
+    [L2] 3. Other Hindus/ UNMARRIED males: Total=128427 != sum(rows)=128377
+    [L2] 3. Other Hindus/ UNMARRIED females: Total=90124 != sum(rows)=90174
+    [L3] 3. Other Hindus/60 & over  males: POPULATION.males=15492 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED'])=15442
+    [L3] 3. Other Hindus/60 & over  females: POPULATION.females=16552 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED', 'DIVORCED'])=16602
+
+  Step 4b: Targeted re-check — Call 3 (32 suspicious cells)
+  After recheck: 800/804 passed
+
+Step 5: Export
+  CSV: /Users/chrisruano/Research/HEB_91r/results/Aurangabad_1941_oneshot.csv (165 rows)
+
+Multi-group Excel exported to /Users/chrisruano/Research/HEB_91r/results/Aurangabad_1941_oneshot.xlsx
+  JSON: /Users/chrisruano/Research/HEB_91r/results/Aurangabad_1941_oneshot.json
+
+Done in 580.2s (5 API calls, 804 checks, 4 failures)
+  Result: 800/804 FAIL
+
+--- Re-running: Burma_age_1891-01_1891_oneshot.json ---
+  Source: age_tables/Burma/1891/Burma_age_1891-01.png
+/Users/chrisruano/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 200 OK"
+google_genai.types: Warning: there are non-text parts in the response: ['thought_signature'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 500 Internal Server Error"
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 500 Internal Server Error"
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent "HTTP/1.1 500 Internal Server Error"
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 504 Gateway Timeout"
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 504 Gateway Timeout"
+google_genai.models: AFC is enabled with max remote calls: 10.
+httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent "HTTP/1.1 504 Gateway Timeout"
+google_genai.models: AFC is enabled with max remote calls: 10.

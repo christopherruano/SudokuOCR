@@ -1,0 +1,15 @@
+```json
+[
+  {"age": "0-1", "Males": 21, "Females": 16, "Persons": 37},
+  {"age": "1-5", "Males": 51, "Females": 34, "Persons": 85},
+  {"age": "5-10", "Males": 24, "Females": 31, "Persons": 55},
+  {"age": "10-15", "Males": 21, "Females": 8, "Persons": 29},
+  {"age": "15-20", "Males": 11, "Females": 6, "Persons": 17},
+  {"age": "20-25", "Males": 21, "Females": 31, "Persons": 52},
+  {"age": "25-30", "Males": 7, "Females": 4, "Persons": 11},
+  {"age": "30-40", "Males": 7, "Females": 1, "Persons": 8},
+  {"age": "40-60", "Males": 15, "Females": 1, "Persons": 16},
+  {"age": "60+", "Males": 7, "Females": 1, "Persons": 8},
+  {"age": "Total", "Males": 185, "Females": 133, "Persons": 318}
+]
+```

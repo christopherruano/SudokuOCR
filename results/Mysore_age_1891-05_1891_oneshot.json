@@ -1,0 +1,341 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Mysore/1891/Mysore_age_1891-05.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 137.5,
+  "metadata": {
+    "title": "TABLE VIII. Civil Condition by Religion and Age. (2) Married.",
+    "region": "Mysore State",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "15\u201419",
+      "20\u201424",
+      "25\u201429",
+      "30\u201434",
+      "35\u201439"
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VIII. Civil Condition by Religion and Age. (2) Married. Age-Periods.",
+      "rows": [
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 26697,
+            "males": 4317,
+            "females": 22380
+          },
+          "20\u201424": {
+            "persons": 42461,
+            "males": 12459,
+            "females": 30002
+          },
+          "25\u201429": {
+            "persons": 49985,
+            "males": 22305,
+            "females": 27680
+          },
+          "30\u201434": {
+            "persons": 47579,
+            "males": 24096,
+            "females": 23483
+          },
+          "35\u201439": {
+            "persons": 37161,
+            "males": 21872,
+            "females": 15289
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 21541,
+            "males": 3006,
+            "females": 18535
+          },
+          "20\u201424": {
+            "persons": 35640,
+            "males": 9656,
+            "females": 25984
+          },
+          "25\u201429": {
+            "persons": 39283,
+            "males": 17264,
+            "females": 22019
+          },
+          "30\u201434": {
+            "persons": 39584,
+            "males": 21291,
+            "females": 18293
+          },
+          "35\u201439": {
+            "persons": 29008,
+            "males": 17809,
+            "females": 11199
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 22215,
+            "males": 3075,
+            "females": 19140
+          },
+          "20\u201424": {
+            "persons": 35020,
+            "males": 9351,
+            "females": 25669
+          },
+          "25\u201429": {
+            "persons": 39899,
+            "males": 17842,
+            "females": 22057
+          },
+          "30\u201434": {
+            "persons": 36336,
+            "males": 19666,
+            "females": 16670
+          },
+          "35\u201439": {
+            "persons": 29087,
+            "males": 18379,
+            "females": 10708
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 50134,
+            "males": 10717,
+            "females": 39417
+          },
+          "20\u201424": {
+            "persons": 70970,
+            "males": 23351,
+            "females": 47619
+          },
+          "25\u201429": {
+            "persons": 83297,
+            "males": 37292,
+            "females": 46005
+          },
+          "30\u201434": {
+            "persons": 74999,
+            "males": 38708,
+            "females": 36291
+          },
+          "35\u201439": {
+            "persons": 61181,
+            "males": 34985,
+            "females": 26196
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 20196,
+            "males": 2754,
+            "females": 17442
+          },
+          "20\u201424": {
+            "persons": 29720,
+            "males": 8239,
+            "females": 21481
+          },
+          "25\u201429": {
+            "persons": 34651,
+            "males": 15016,
+            "females": 19635
+          },
+          "30\u201434": {
+            "persons": 32264,
+            "males": 17036,
+            "females": 15228
+          },
+          "35\u201439": {
+            "persons": 25566,
+            "males": 14899,
+            "females": 10667
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 18894,
+            "males": 3729,
+            "females": 15165
+          },
+          "20\u201424": {
+            "persons": 28267,
+            "males": 9232,
+            "females": 19035
+          },
+          "25\u201429": {
+            "persons": 33328,
+            "males": 16510,
+            "females": 16818
+          },
+          "30\u201434": {
+            "persons": 31203,
+            "males": 17822,
+            "females": 13381
+          },
+          "35\u201439": {
+            "persons": 24396,
+            "males": 15400,
+            "females": 8996
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 11619,
+            "males": 2052,
+            "females": 9567
+          },
+          "20\u201424": {
+            "persons": 18658,
+            "males": 5818,
+            "females": 12840
+          },
+          "25\u201429": {
+            "persons": 23134,
+            "males": 11248,
+            "females": 11886
+          },
+          "30\u201434": {
+            "persons": 21762,
+            "males": 12573,
+            "females": 9189
+          },
+          "35\u201439": {
+            "persons": 16390,
+            "males": 10769,
+            "females": 5621
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 15133,
+            "males": 2256,
+            "females": 12877
+          },
+          "20\u201424": {
+            "persons": 25076,
+            "males": 6865,
+            "females": 18211
+          },
+          "25\u201429": {
+            "persons": 28287,
+            "males": 12965,
+            "females": 15322
+          },
+          "30\u201434": {
+            "persons": 25559,
+            "males": 14011,
+            "females": 11548
+          },
+          "35\u201439": {
+            "persons": 20580,
+            "males": 12511,
+            "females": 8069
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 186429,
+            "males": 31906,
+            "females": 154523
+          },
+          "20\u201424": {
+            "persons": 285812,
+            "males": 84971,
+            "females": 200841
+          },
+          "25\u201429": {
+            "persons": 331864,
+            "males": 150442,
+            "females": 181422
+          },
+          "30\u201434": {
+            "persons": 309286,
+            "males": 165203,
+            "females": 144083
+          },
+          "35\u201439": {
+            "persons": 243369,
+            "males": 146624,
+            "females": 96745
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 3764,
+            "males": 419,
+            "females": 3345
+          },
+          "20\u201424": {
+            "persons": 5868,
+            "males": 1762,
+            "females": 4106
+          },
+          "25\u201429": {
+            "persons": 6533,
+            "males": 3035,
+            "females": 3498
+          },
+          "30\u201434": {
+            "persons": 6237,
+            "males": 3207,
+            "females": 3030
+          },
+          "35\u201439": {
+            "persons": 4221,
+            "males": 2487,
+            "females": 1734
+          }
+        },
+        {
+          "district": null,
+          "15\u201419": {
+            "persons": 190253,
+            "males": 32385,
+            "females": 157868
+          },
+          "20\u201424": {
+            "persons": 291680,
+            "males": 86733,
+            "females": 204947
+          },
+          "25\u201429": {
+            "persons": 338397,
+            "males": 153477,
+            "females": 184920
+          },
+          "30\u201434": {
+            "persons": 315523,
+            "males": 168410,
+            "females": 147113
+          },
+          "35\u201439": {
+            "persons": 247590,
+            "males": 149111,
+            "females": 98479
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 220,
+    "passed": 220,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

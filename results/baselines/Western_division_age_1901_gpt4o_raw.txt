@@ -1,0 +1,122 @@
+```json
+[
+  {
+    "age": 11,
+    "Persons": 556,
+    "Males": 97,
+    "Females": 459,
+    "Widowed.Persons": 73,
+    "Widowed.Males": 32,
+    "Widowed.Females": 41
+  },
+  {
+    "age": 7,
+    "Persons": 7926,
+    "Males": 890,
+    "Females": 7036,
+    "Widowed.Persons": 425,
+    "Widowed.Males": 112,
+    "Widowed.Females": 313
+  },
+  {
+    "age": 49359,
+    "Persons": 7237,
+    "Males": 42122,
+    "Females": 2184,
+    "Widowed.Persons": 460,
+    "Widowed.Males": 1724,
+    "Widowed.Females": null
+  },
+  {
+    "age": 90671,
+    "Persons": 27696,
+    "Males": 62975,
+    "Females": 6179,
+    "Widowed.Persons": 1790,
+    "Widowed.Males": 4389,
+    "Widowed.Females": null
+  },
+  {
+    "age": 127086,
+    "Persons": 56659,
+    "Males": 70427,
+    "Females": 11208,
+    "Widowed.Persons": 3456,
+    "Widowed.Males": 7750,
+    "Widowed.Females": null
+  },
+  {
+    "age": 106780,
+    "Persons": 54975,
+    "Males": 51805,
+    "Females": 13766,
+    "Widowed.Persons": 4088,
+    "Widowed.Males": 9678,
+    "Widowed.Females": null
+  },
+  {
+    "age": 101116,
+    "Persons": 59201,
+    "Males": 41915,
+    "Females": 15641,
+    "Widowed.Persons": 4179,
+    "Widowed.Males": 11465,
+    "Widowed.Females": null
+  },
+  {
+    "age": 71930,
+    "Persons": 44612,
+    "Males": 27288,
+    "Females": 20065,
+    "Widowed.Persons": 4413,
+    "Widowed.Males": 15652,
+    "Widowed.Females": null
+  },
+  {
+    "age": 52949,
+    "Persons": 35150,
+    "Males": 17699,
+    "Females": 18226,
+    "Widowed.Persons": 3922,
+    "Widowed.Males": 14304,
+    "Widowed.Females": null
+  },
+  {
+    "age": 37206,
+    "Persons": 26030,
+    "Males": 11176,
+    "Females": 23031,
+    "Widowed.Persons": 4641,
+    "Widowed.Males": 18390,
+    "Widowed.Females": null
+  },
+  {
+    "age": 21043,
+    "Persons": 15767,
+    "Males": 5276,
+    "Females": 14733,
+    "Widowed.Persons": 3261,
+    "Widowed.Males": 11472,
+    "Widowed.Females": null
+  },
+  {
+    "age": 28120,
+    "Persons": 23042,
+    "Males": 5078,
+    "Females": 42537,
+    "Widowed.Persons": 10283,
+    "Widowed.Males": 32254,
+    "Widowed.Females": null
+  },
+  {
+    "age": 694653,
+    "Persons": 351386,
+    "Males": 343267,
+    "Females": 168069,
+    "Widowed.Persons": 40637,
+    "Widowed.Males": 127432,
+    "Widowed.Females": null
+  }
+]
+```
+(Note: Some rows in the table do not have clear age values, and some columns are not labeled with age. The above extraction is based on the visible numeric data and the structure of the table. If you need the data in a different structure or with corrections, please specify.)

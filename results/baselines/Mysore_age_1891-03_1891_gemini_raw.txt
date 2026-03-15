@@ -1,0 +1,400 @@
+```json
+[
+  {
+    "District": "Bangalore",
+    "age": "40-44",
+    "Males": 988,
+    "Females": 372
+  },
+  {
+    "District": "Bangalore",
+    "age": "45-49",
+    "Males": 487,
+    "Females": 306
+  },
+  {
+    "District": "Bangalore",
+    "age": "50-54",
+    "Males": 410,
+    "Females": 124
+  },
+  {
+    "District": "Bangalore",
+    "age": "55-59",
+    "Males": 162,
+    "Females": 44
+  },
+  {
+    "District": "Bangalore",
+    "age": "60 and over",
+    "Males": 400,
+    "Females": 149
+  },
+  {
+    "District": "Bangalore",
+    "age": "Age not stated",
+    "Males": 49,
+    "Females": 36
+  },
+  {
+    "District": "Kolar",
+    "age": "40-44",
+    "Males": 1447,
+    "Females": 664
+  },
+  {
+    "District": "Kolar",
+    "age": "45-49",
+    "Males": 699,
+    "Females": 405
+  },
+  {
+    "District": "Kolar",
+    "age": "50-54",
+    "Males": 583,
+    "Females": 117
+  },
+  {
+    "District": "Kolar",
+    "age": "55-59",
+    "Males": 223,
+    "Females": 66
+  },
+  {
+    "District": "Kolar",
+    "age": "60 and over",
+    "Males": 460,
+    "Females": 118
+  },
+  {
+    "District": "Kolar",
+    "age": "Age not stated",
+    "Males": 33,
+    "Females": 29
+  },
+  {
+    "District": "Tumkur",
+    "age": "40-44",
+    "Males": 1181,
+    "Females": 691
+  },
+  {
+    "District": "Tumkur",
+    "age": "45-49",
+    "Males": 473,
+    "Females": 322
+  },
+  {
+    "District": "Tumkur",
+    "age": "50-54",
+    "Males": 362,
+    "Females": 193
+  },
+  {
+    "District": "Tumkur",
+    "age": "55-59",
+    "Males": 155,
+    "Females": 65
+  },
+  {
+    "District": "Tumkur",
+    "age": "60 and over",
+    "Males": 294,
+    "Females": 217
+  },
+  {
+    "District": "Tumkur",
+    "age": "Age not stated",
+    "Males": 54,
+    "Females": 23
+  },
+  {
+    "District": "Mysore",
+    "age": "40-44",
+    "Males": 1271,
+    "Females": 785
+  },
+  {
+    "District": "Mysore",
+    "age": "45-49",
+    "Males": 653,
+    "Females": 415
+  },
+  {
+    "District": "Mysore",
+    "age": "50-54",
+    "Males": 512,
+    "Females": 333
+  },
+  {
+    "District": "Mysore",
+    "age": "55-59",
+    "Males": 235,
+    "Females": 150
+  },
+  {
+    "District": "Mysore",
+    "age": "60 and over",
+    "Males": 460,
+    "Females": 288
+  },
+  {
+    "District": "Mysore",
+    "age": "Age not stated",
+    "Males": 53,
+    "Females": 65
+  },
+  {
+    "District": "Hassan",
+    "age": "40-44",
+    "Males": 549,
+    "Females": 190
+  },
+  {
+    "District": "Hassan",
+    "age": "45-49",
+    "Males": 262,
+    "Females": 114
+  },
+  {
+    "District": "Hassan",
+    "age": "50-54",
+    "Males": 229,
+    "Females": 106
+  },
+  {
+    "District": "Hassan",
+    "age": "55-59",
+    "Males": 63,
+    "Females": 54
+  },
+  {
+    "District": "Hassan",
+    "age": "60 and over",
+    "Males": 141,
+    "Females": 75
+  },
+  {
+    "District": "Hassan",
+    "age": "Age not stated",
+    "Males": 20,
+    "Females": 19
+  },
+  {
+    "District": "Shimoga",
+    "age": "40-44",
+    "Males": 1414,
+    "Females": 785
+  },
+  {
+    "District": "Shimoga",
+    "age": "45-49",
+    "Males": 822,
+    "Females": 467
+  },
+  {
+    "District": "Shimoga",
+    "age": "50-54",
+    "Males": 668,
+    "Females": 467
+  },
+  {
+    "District": "Shimoga",
+    "age": "55-59",
+    "Males": 419,
+    "Females": 220
+  },
+  {
+    "District": "Shimoga",
+    "age": "60 and over",
+    "Males": 413,
+    "Females": 343
+  },
+  {
+    "District": "Shimoga",
+    "age": "Age not stated",
+    "Males": 6,
+    "Females": 8
+  },
+  {
+    "District": "Kadur",
+    "age": "40-44",
+    "Males": 613,
+    "Females": 168
+  },
+  {
+    "District": "Kadur",
+    "age": "45-49",
+    "Males": 334,
+    "Females": 192
+  },
+  {
+    "District": "Kadur",
+    "age": "50-54",
+    "Males": 243,
+    "Females": 227
+  },
+  {
+    "District": "Kadur",
+    "age": "55-59",
+    "Males": 76,
+    "Females": 53
+  },
+  {
+    "District": "Kadur",
+    "age": "60 and over",
+    "Males": 94,
+    "Females": 97
+  },
+  {
+    "District": "Kadur",
+    "age": "Age not stated",
+    "Males": 0,
+    "Females": 1
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "40-44",
+    "Males": 658,
+    "Females": 323
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "45-49",
+    "Males": 310,
+    "Females": 194
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "50-54",
+    "Males": 278,
+    "Females": 199
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "55-59",
+    "Males": 124,
+    "Females": 90
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "60 and over",
+    "Males": 219,
+    "Females": 167
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "Age not stated",
+    "Males": 10,
+    "Females": 11
+  },
+  {
+    "District": "Total",
+    "age": "40-44",
+    "Males": 8121,
+    "Females": 3923
+  },
+  {
+    "District": "Total",
+    "age": "45-49",
+    "Males": 4040,
+    "Females": 1676
+  },
+  {
+    "District": "Total",
+    "age": "50-54",
+    "Males": 3305,
+    "Females": 1759
+  },
+  {
+    "District": "Total",
+    "age": "55-59",
+    "Males": 1457,
+    "Females": 742
+  },
+  {
+    "District": "Total",
+    "age": "60 and over",
+    "Males": 2501,
+    "Females": 1454
+  },
+  {
+    "District": "Total",
+    "age": "Age not stated",
+    "Males": 225,
+    "Females": 197
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "40-44",
+    "Males": 129,
+    "Females": 68
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "45-49",
+    "Males": 54,
+    "Females": 27
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "50-54",
+    "Males": 65,
+    "Females": 30
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "55-59",
+    "Males": 15,
+    "Females": 17
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "60 and over",
+    "Males": 65,
+    "Females": 27
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "Age not stated",
+    "Males": 6,
+    "Females": 7
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "40-44",
+    "Males": 8250,
+    "Females": 3991
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "45-49",
+    "Males": 4094,
+    "Females": 1703
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "50-54",
+    "Males": 3370,
+    "Females": 1789
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "55-59",
+    "Males": 1472,
+    "Females": 759
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "60 and over",
+    "Males": 2566,
+    "Females": 1481
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "Age not stated",
+    "Males": 231,
+    "Females": 204
+  }
+]
+```

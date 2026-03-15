@@ -1,0 +1,1059 @@
+{
+  "source_image": "age_tables/Hyderabad/1931/Aurangabad.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 5,
+  "elapsed_seconds": 539.6,
+  "metadata": {
+    "title": "TABLE VII. Age, Sex and Civil Condition Part II.\u2014Districts.",
+    "region": "Aurangabad",
+    "year": 0,
+    "data_type": "absolute",
+    "column_groups": [
+      "POPULATION",
+      "UNMARRIED",
+      "MARRIED",
+      "WIDOWED"
+    ]
+  },
+  "data": [
+    {
+      "name": "All Religions",
+      "rows": [
+        {
+          "age": "0-1",
+          "POPULATION": {
+            "persons": 28555,
+            "males": 13941,
+            "females": 14614
+          },
+          "UNMARRIED": {
+            "persons": 27813,
+            "males": 13632,
+            "females": 14181
+          },
+          "MARRIED": {
+            "persons": 713,
+            "males": 306,
+            "females": 407
+          },
+          "WIDOWED": {
+            "persons": 29,
+            "males": 3,
+            "females": 26
+          }
+        },
+        {
+          "age": "1-5",
+          "POPULATION": {
+            "persons": 126367,
+            "males": 64182,
+            "females": 62185
+          },
+          "UNMARRIED": {
+            "persons": 115759,
+            "males": 59052,
+            "females": 56707
+          },
+          "MARRIED": {
+            "persons": 10474,
+            "males": 5081,
+            "females": 5393
+          },
+          "WIDOWED": {
+            "persons": 134,
+            "males": 49,
+            "females": 85
+          }
+        },
+        {
+          "age": "5-10",
+          "POPULATION": {
+            "persons": 120491,
+            "males": 62636,
+            "females": 57855
+          },
+          "UNMARRIED": {
+            "persons": 88021,
+            "males": 49922,
+            "females": 38099
+          },
+          "MARRIED": {
+            "persons": 31911,
+            "males": 12517,
+            "females": 19394
+          },
+          "WIDOWED": {
+            "persons": 559,
+            "males": 197,
+            "females": 362
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION": {
+            "persons": 106672,
+            "males": 54727,
+            "females": 51945
+          },
+          "UNMARRIED": {
+            "persons": 58521,
+            "males": 37127,
+            "females": 21394
+          },
+          "MARRIED": {
+            "persons": 47135,
+            "males": 17302,
+            "females": 29833
+          },
+          "WIDOWED": {
+            "persons": 1016,
+            "males": 298,
+            "females": 718
+          }
+        },
+        {
+          "age": "15-20",
+          "POPULATION": {
+            "persons": 87004,
+            "males": 41359,
+            "females": 45645
+          },
+          "UNMARRIED": {
+            "persons": 18697,
+            "males": 15027,
+            "females": 3670
+          },
+          "MARRIED": {
+            "persons": 66556,
+            "males": 25943,
+            "females": 40613
+          },
+          "WIDOWED": {
+            "persons": 1751,
+            "males": 389,
+            "females": 1362
+          }
+        },
+        {
+          "age": "20-30",
+          "POPULATION": {
+            "persons": 171411,
+            "males": 85906,
+            "females": 85505
+          },
+          "UNMARRIED": {
+            "persons": 17829,
+            "males": 13965,
+            "females": 3864
+          },
+          "MARRIED": {
+            "persons": 146845,
+            "males": 70129,
+            "females": 76716
+          },
+          "WIDOWED": {
+            "persons": 6737,
+            "males": 1812,
+            "females": 4925
+          }
+        },
+        {
+          "age": "30-40",
+          "POPULATION": {
+            "persons": 127118,
+            "males": 66141,
+            "females": 60977
+          },
+          "UNMARRIED": {
+            "persons": 4542,
+            "males": 3185,
+            "females": 1357
+          },
+          "MARRIED": {
+            "persons": 108674,
+            "males": 59451,
+            "females": 49223
+          },
+          "WIDOWED": {
+            "persons": 13902,
+            "males": 3505,
+            "females": 10397
+          }
+        },
+        {
+          "age": "40-50",
+          "POPULATION": {
+            "persons": 86284,
+            "males": 45686,
+            "females": 40598
+          },
+          "UNMARRIED": {
+            "persons": 2468,
+            "males": 1445,
+            "females": 1023
+          },
+          "MARRIED": {
+            "persons": 64465,
+            "males": 39478,
+            "females": 24987
+          },
+          "WIDOWED": {
+            "persons": 19351,
+            "males": 4763,
+            "females": 14588
+          }
+        },
+        {
+          "age": "50-60",
+          "POPULATION": {
+            "persons": 52714,
+            "males": 27162,
+            "females": 25552
+          },
+          "UNMARRIED": {
+            "persons": 955,
+            "males": 600,
+            "females": 355
+          },
+          "MARRIED": {
+            "persons": 33827,
+            "males": 22361,
+            "females": 11466
+          },
+          "WIDOWED": {
+            "persons": 17932,
+            "males": 4201,
+            "females": 13731
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION": {
+            "persons": 38177,
+            "males": 18758,
+            "females": 19419
+          },
+          "UNMARRIED": {
+            "persons": 970,
+            "males": 624,
+            "females": 346
+          },
+          "MARRIED": {
+            "persons": 20471,
+            "males": 14086,
+            "females": 6385
+          },
+          "WIDOWED": {
+            "persons": 16736,
+            "males": 4048,
+            "females": 12688
+          }
+        },
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 944793,
+            "males": 480498,
+            "females": 464295
+          },
+          "UNMARRIED": {
+            "persons": 335575,
+            "males": 194579,
+            "females": 140996
+          },
+          "MARRIED": {
+            "persons": 531071,
+            "males": 266654,
+            "females": 264417
+          },
+          "WIDOWED": {
+            "persons": 78147,
+            "males": 19265,
+            "females": 58882
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hindu (Brahmanic)",
+      "rows": [
+        {
+          "age": "0-1",
+          "POPULATION": {
+            "persons": 19199,
+            "males": 9420,
+            "females": 9779
+          },
+          "UNMARRIED": {
+            "persons": 18701,
+            "males": 9193,
+            "females": 9508
+          },
+          "MARRIED": {
+            "persons": 471,
+            "males": 225,
+            "females": 246
+          },
+          "WIDOWED": {
+            "persons": 27,
+            "males": 2,
+            "females": 25
+          }
+        },
+        {
+          "age": "1-5",
+          "POPULATION": {
+            "persons": 83903,
+            "males": 43090,
+            "females": 40813
+          },
+          "UNMARRIED": {
+            "persons": 76860,
+            "males": 39846,
+            "females": 37014
+          },
+          "MARRIED": {
+            "persons": 6956,
+            "males": 3218,
+            "females": 3738
+          },
+          "WIDOWED": {
+            "persons": 87,
+            "males": 26,
+            "females": 61
+          }
+        },
+        {
+          "age": "5-10",
+          "POPULATION": {
+            "persons": 80346,
+            "males": 41519,
+            "females": 38827
+          },
+          "UNMARRIED": {
+            "persons": 56677,
+            "males": 32800,
+            "females": 23877
+          },
+          "MARRIED": {
+            "persons": 23241,
+            "males": 8570,
+            "females": 14671
+          },
+          "WIDOWED": {
+            "persons": 428,
+            "males": 149,
+            "females": 279
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION": {
+            "persons": 71054,
+            "males": 36795,
+            "females": 34259
+          },
+          "UNMARRIED": {
+            "persons": 37353,
+            "males": 24833,
+            "females": 12520
+          },
+          "MARRIED": {
+            "persons": 32878,
+            "males": 11718,
+            "females": 21160
+          },
+          "WIDOWED": {
+            "persons": 823,
+            "males": 244,
+            "females": 579
+          }
+        },
+        {
+          "age": "15-20",
+          "POPULATION": {
+            "persons": 58810,
+            "males": 27681,
+            "females": 31129
+          },
+          "UNMARRIED": {
+            "persons": 11490,
+            "males": 9538,
+            "females": 1952
+          },
+          "MARRIED": {
+            "persons": 46054,
+            "males": 17843,
+            "females": 28211
+          },
+          "WIDOWED": {
+            "persons": 1266,
+            "males": 300,
+            "females": 966
+          }
+        },
+        {
+          "age": "20-30",
+          "POPULATION": {
+            "persons": 118152,
+            "males": 59347,
+            "females": 58805
+          },
+          "UNMARRIED": {
+            "persons": 11474,
+            "males": 8983,
+            "females": 2491
+          },
+          "MARRIED": {
+            "persons": 101614,
+            "males": 49073,
+            "females": 52541
+          },
+          "WIDOWED": {
+            "persons": 5064,
+            "males": 1291,
+            "females": 3773
+          }
+        },
+        {
+          "age": "30-40",
+          "POPULATION": {
+            "persons": 87099,
+            "males": 44706,
+            "females": 42393
+          },
+          "UNMARRIED": {
+            "persons": 2803,
+            "males": 1800,
+            "females": 1003
+          },
+          "MARRIED": {
+            "persons": 74328,
+            "males": 40583,
+            "females": 33745
+          },
+          "WIDOWED": {
+            "persons": 9968,
+            "males": 2323,
+            "females": 7645
+          }
+        },
+        {
+          "age": "40-50",
+          "POPULATION": {
+            "persons": 60234,
+            "males": 31554,
+            "females": 28680
+          },
+          "UNMARRIED": {
+            "persons": 1575,
+            "males": 900,
+            "females": 675
+          },
+          "MARRIED": {
+            "persons": 44476,
+            "males": 27068,
+            "females": 17408
+          },
+          "WIDOWED": {
+            "persons": 14183,
+            "males": 3586,
+            "females": 10597
+          }
+        },
+        {
+          "age": "50-60",
+          "POPULATION": {
+            "persons": 36835,
+            "males": 18510,
+            "females": 18325
+          },
+          "UNMARRIED": {
+            "persons": 608,
+            "males": 378,
+            "females": 230
+          },
+          "MARRIED": {
+            "persons": 23338,
+            "males": 15075,
+            "females": 8263
+          },
+          "WIDOWED": {
+            "persons": 12889,
+            "males": 3057,
+            "females": 9832
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION": {
+            "persons": 25582,
+            "males": 12635,
+            "females": 12947
+          },
+          "UNMARRIED": {
+            "persons": 543,
+            "males": 424,
+            "females": 119
+          },
+          "MARRIED": {
+            "persons": 13143,
+            "males": 9247,
+            "females": 3896
+          },
+          "WIDOWED": {
+            "persons": 11896,
+            "males": 2964,
+            "females": 8932
+          }
+        },
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 641214,
+            "males": 325257,
+            "females": 315957
+          },
+          "UNMARRIED": {
+            "persons": 218084,
+            "males": 128695,
+            "females": 89389
+          },
+          "MARRIED": {
+            "persons": 366499,
+            "males": 182620,
+            "females": 183879
+          },
+          "WIDOWED": {
+            "persons": 56631,
+            "males": 13942,
+            "females": 42689
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adi Hindu",
+      "rows": [
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 140336,
+            "males": 70323,
+            "females": 70013
+          },
+          "UNMARRIED": {
+            "persons": 49538,
+            "males": 26560,
+            "females": 22978
+          },
+          "MARRIED": {
+            "persons": 81177,
+            "males": 41299,
+            "females": 39878
+          },
+          "WIDOWED": {
+            "persons": 9621,
+            "males": 2464,
+            "females": 7157
+          }
+        },
+        {
+          "age": "0-1",
+          "POPULATION": {
+            "persons": 4507,
+            "males": 2205,
+            "females": 2302
+          },
+          "UNMARRIED": {
+            "persons": 4360,
+            "males": 2172,
+            "females": 2188
+          },
+          "MARRIED": {
+            "persons": 146,
+            "males": 32,
+            "females": 114
+          },
+          "WIDOWED": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          }
+        },
+        {
+          "age": "1-5",
+          "POPULATION": {
+            "persons": 20120,
+            "males": 10056,
+            "females": 10064
+          },
+          "UNMARRIED": {
+            "persons": 18625,
+            "males": 9314,
+            "females": 9311
+          },
+          "MARRIED": {
+            "persons": 1472,
+            "males": 727,
+            "females": 745
+          },
+          "WIDOWED": {
+            "persons": 23,
+            "males": 15,
+            "females": 8
+          }
+        },
+        {
+          "age": "5-10",
+          "POPULATION": {
+            "persons": 17600,
+            "males": 8768,
+            "females": 8832
+          },
+          "UNMARRIED": {
+            "persons": 13532,
+            "males": 7246,
+            "females": 6286
+          },
+          "MARRIED": {
+            "persons": 3991,
+            "males": 1492,
+            "females": 2499
+          },
+          "WIDOWED": {
+            "persons": 77,
+            "males": 30,
+            "females": 47
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION": {
+            "persons": 15906,
+            "males": 7676,
+            "females": 8230
+          },
+          "UNMARRIED": {
+            "persons": 8359,
+            "males": 5000,
+            "females": 3359
+          },
+          "MARRIED": {
+            "persons": 7450,
+            "males": 2648,
+            "females": 4802
+          },
+          "WIDOWED": {
+            "persons": 97,
+            "males": 28,
+            "females": 69
+          }
+        },
+        {
+          "age": "15-20",
+          "POPULATION": {
+            "persons": 12344,
+            "males": 5511,
+            "females": 6833
+          },
+          "UNMARRIED": {
+            "persons": 2186,
+            "males": 1464,
+            "females": 722
+          },
+          "MARRIED": {
+            "persons": 10000,
+            "males": 4007,
+            "females": 5993
+          },
+          "WIDOWED": {
+            "persons": 158,
+            "males": 40,
+            "females": 118
+          }
+        },
+        {
+          "age": "20-30",
+          "POPULATION": {
+            "persons": 24218,
+            "males": 12116,
+            "females": 12102
+          },
+          "UNMARRIED": {
+            "persons": 1524,
+            "males": 831,
+            "females": 693
+          },
+          "MARRIED": {
+            "persons": 21944,
+            "males": 11066,
+            "females": 10878
+          },
+          "WIDOWED": {
+            "persons": 750,
+            "males": 219,
+            "females": 531
+          }
+        },
+        {
+          "age": "30-40",
+          "POPULATION": {
+            "persons": 19428,
+            "males": 10186,
+            "females": 9242
+          },
+          "UNMARRIED": {
+            "persons": 377,
+            "males": 237,
+            "females": 140
+          },
+          "MARRIED": {
+            "persons": 17089,
+            "males": 9347,
+            "females": 7742
+          },
+          "WIDOWED": {
+            "persons": 1962,
+            "males": 602,
+            "females": 1360
+          }
+        },
+        {
+          "age": "40-50",
+          "POPULATION": {
+            "persons": 12995,
+            "males": 6830,
+            "females": 6165
+          },
+          "UNMARRIED": {
+            "persons": 334,
+            "males": 181,
+            "females": 153
+          },
+          "MARRIED": {
+            "persons": 10167,
+            "males": 6044,
+            "females": 4123
+          },
+          "WIDOWED": {
+            "persons": 2494,
+            "males": 605,
+            "females": 1889
+          }
+        },
+        {
+          "age": "50-60",
+          "POPULATION": {
+            "persons": 7684,
+            "males": 4102,
+            "females": 3582
+          },
+          "UNMARRIED": {
+            "persons": 120,
+            "males": 45,
+            "females": 75
+          },
+          "MARRIED": {
+            "persons": 5387,
+            "males": 3526,
+            "females": 1861
+          },
+          "WIDOWED": {
+            "persons": 2177,
+            "males": 531,
+            "females": 1646
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION": {
+            "persons": 5534,
+            "males": 2873,
+            "females": 2661
+          },
+          "UNMARRIED": {
+            "persons": 121,
+            "males": 70,
+            "females": 51
+          },
+          "MARRIED": {
+            "persons": 3531,
+            "males": 2410,
+            "females": 1121
+          },
+          "WIDOWED": {
+            "persons": 1882,
+            "males": 393,
+            "females": 1489
+          }
+        }
+      ]
+    },
+    {
+      "name": "Muslim",
+      "rows": [
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 124441,
+            "males": 65065,
+            "females": 59376
+          },
+          "UNMARRIED": {
+            "persons": 52487,
+            "males": 30642,
+            "females": 21845
+          },
+          "MARRIED": {
+            "persons": 62642,
+            "males": 32216,
+            "females": 30426
+          },
+          "WIDOWED": {
+            "persons": 9312,
+            "males": 2207,
+            "females": 7105
+          }
+        },
+        {
+          "age": "0-1",
+          "POPULATION": {
+            "persons": 3602,
+            "males": 1755,
+            "females": 1847
+          },
+          "UNMARRIED": {
+            "persons": 3540,
+            "males": 1722,
+            "females": 1818
+          },
+          "MARRIED": {
+            "persons": 61,
+            "males": 33,
+            "females": 28
+          },
+          "WIDOWED": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          }
+        },
+        {
+          "age": "1-5",
+          "POPULATION": {
+            "persons": 16402,
+            "males": 8431,
+            "females": 7971
+          },
+          "UNMARRIED": {
+            "persons": 14972,
+            "males": 7586,
+            "females": 7386
+          },
+          "MARRIED": {
+            "persons": 1415,
+            "males": 842,
+            "females": 573
+          },
+          "WIDOWED": {
+            "persons": 15,
+            "males": 3,
+            "females": 12
+          }
+        },
+        {
+          "age": "5-10",
+          "POPULATION": {
+            "persons": 17219,
+            "males": 9462,
+            "females": 7757
+          },
+          "UNMARRIED": {
+            "persons": 13688,
+            "males": 7450,
+            "females": 6238
+          },
+          "MARRIED": {
+            "persons": 3497,
+            "males": 2001,
+            "females": 1496
+          },
+          "WIDOWED": {
+            "persons": 34,
+            "males": 11,
+            "females": 23
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION": {
+            "persons": 15214,
+            "males": 7845,
+            "females": 7369
+          },
+          "UNMARRIED": {
+            "persons": 10256,
+            "males": 5636,
+            "females": 4620
+          },
+          "MARRIED": {
+            "persons": 4883,
+            "males": 2191,
+            "females": 2692
+          },
+          "WIDOWED": {
+            "persons": 75,
+            "males": 18,
+            "females": 57
+          }
+        },
+        {
+          "age": "15-20",
+          "POPULATION": {
+            "persons": 12225,
+            "males": 6345,
+            "females": 5880
+          },
+          "UNMARRIED": {
+            "persons": 4122,
+            "males": 3281,
+            "females": 841
+          },
+          "MARRIED": {
+            "persons": 7827,
+            "males": 3029,
+            "females": 4798
+          },
+          "WIDOWED": {
+            "persons": 276,
+            "males": 35,
+            "females": 241
+          }
+        },
+        {
+          "age": "20-30",
+          "POPULATION": {
+            "persons": 22214,
+            "males": 10897,
+            "females": 11317
+          },
+          "UNMARRIED": {
+            "persons": 3984,
+            "males": 3467,
+            "females": 517
+          },
+          "MARRIED": {
+            "persons": 17511,
+            "males": 7182,
+            "females": 10329
+          },
+          "WIDOWED": {
+            "persons": 719,
+            "males": 248,
+            "females": 471
+          }
+        },
+        {
+          "age": "30-40",
+          "POPULATION": {
+            "persons": 15612,
+            "males": 8564,
+            "females": 7048
+          },
+          "UNMARRIED": {
+            "persons": 1127,
+            "males": 949,
+            "females": 178
+          },
+          "MARRIED": {
+            "persons": 12924,
+            "males": 7173,
+            "females": 5751
+          },
+          "WIDOWED": {
+            "persons": 1561,
+            "males": 442,
+            "females": 1119
+          }
+        },
+        {
+          "age": "40-50",
+          "POPULATION": {
+            "persons": 9977,
+            "males": 5670,
+            "females": 4307
+          },
+          "UNMARRIED": {
+            "persons": 371,
+            "males": 292,
+            "females": 79
+          },
+          "MARRIED": {
+            "persons": 7519,
+            "males": 4929,
+            "females": 2590
+          },
+          "WIDOWED": {
+            "persons": 2087,
+            "males": 449,
+            "females": 1638
+          }
+        },
+        {
+          "age": "50-60",
+          "POPULATION": {
+            "persons": 6352,
+            "males": 3535,
+            "females": 2817
+          },
+          "UNMARRIED": {
+            "persons": 187,
+            "males": 144,
+            "females": 43
+          },
+          "MARRIED": {
+            "persons": 3957,
+            "males": 2942,
+            "females": 1015
+          },
+          "WIDOWED": {
+            "persons": 2208,
+            "males": 449,
+            "females": 1759
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION": {
+            "persons": 5624,
+            "males": 2561,
+            "females": 3063
+          },
+          "UNMARRIED": {
+            "persons": 240,
+            "males": 115,
+            "females": 125
+          },
+          "MARRIED": {
+            "persons": 3048,
+            "males": 1894,
+            "females": 1154
+          },
+          "WIDOWED": {
+            "persons": 2336,
+            "males": 552,
+            "females": 1784
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 884,
+    "passed": 884,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

@@ -1,0 +1,64 @@
+```json
+[
+  {
+    "age": "Under 15",
+    "Persons": 1905,
+    "Males": 1952,
+    "Females": 1743
+  },
+  {
+    "age": "15-20",
+    "Persons": 1736,
+    "Males": 1739,
+    "Females": 1370
+  },
+  {
+    "age": "20-25",
+    "Persons": 1979,
+    "Males": 1437,
+    "Females": 1137
+  },
+  {
+    "age": "25-30",
+    "Persons": 110,
+    "Males": 57461,
+    "Females": 53686
+  },
+  {
+    "age": "30-40",
+    "Persons": 2433,
+    "Males": 2514,
+    "Females": 2214
+  },
+  {
+    "age": "40-50",
+    "Persons": 2151,
+    "Males": 2154,
+    "Females": 2051
+  },
+  {
+    "age": "50-60",
+    "Persons": 1633,
+    "Males": 1650,
+    "Females": 1479
+  },
+  {
+    "age": "60 and above",
+    "Persons": 1149,
+    "Males": 1475,
+    "Females": 1332
+  },
+  {
+    "age": "Age not stated",
+    "Persons": 38,
+    "Males": 11,
+    "Females": 11
+  },
+  {
+    "age": "Total",
+    "Persons": 70684,
+    "Males": 38298,
+    "Females": 38183
+  }
+]
+```

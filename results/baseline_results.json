@@ -1,0 +1,359 @@
+{
+  "openai": {
+    "exact_match_rate": 0.8717948717948718,
+    "total_cells": 39,
+    "exact_matches": 34,
+    "mean_absolute_error": 56.15384615384615,
+    "mean_relative_error": 0.0008810711670449185,
+    "per_row": [
+      {
+        "age": "Total 0-5",
+        "cells": {
+          "persons": {
+            "pred": 169509,
+            "gt": 169509,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 81234,
+            "gt": 81224,
+            "exact": false,
+            "abs_err": 10,
+            "rel_err": 0.000123
+          },
+          "females": {
+            "pred": 88285,
+            "gt": 88285,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "5-10",
+        "cells": {
+          "persons": {
+            "pred": 166745,
+            "gt": 166745,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 83669,
+            "gt": 83669,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 83076,
+            "gt": 83076,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "10-15",
+        "cells": {
+          "persons": {
+            "pred": 150630,
+            "gt": 150630,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 79166,
+            "gt": 79166,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 71464,
+            "gt": 71464,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "15-20",
+        "cells": {
+          "persons": {
+            "pred": 116595,
+            "gt": 116595,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 57993,
+            "gt": 57993,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 58602,
+            "gt": 58602,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "20-25",
+        "cells": {
+          "persons": {
+            "pred": 111950,
+            "gt": 112040,
+            "exact": false,
+            "abs_err": 90,
+            "rel_err": 0.000803
+          },
+          "males": {
+            "pred": 53002,
+            "gt": 53092,
+            "exact": false,
+            "abs_err": 90,
+            "rel_err": 0.001695
+          },
+          "females": {
+            "pred": 58948,
+            "gt": 58948,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "25-30",
+        "cells": {
+          "persons": {
+            "pred": 120076,
+            "gt": 120076,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 59814,
+            "gt": 59814,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 60262,
+            "gt": 60262,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "30-35",
+        "cells": {
+          "persons": {
+            "pred": 95124,
+            "gt": 96124,
+            "exact": false,
+            "abs_err": 1000,
+            "rel_err": 0.010403
+          },
+          "males": {
+            "pred": 49257,
+            "gt": 49257,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 45867,
+            "gt": 46867,
+            "exact": false,
+            "abs_err": 1000,
+            "rel_err": 0.021337
+          }
+        }
+      },
+      {
+        "age": "35-40",
+        "cells": {
+          "persons": {
+            "pred": 85869,
+            "gt": 85869,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 47873,
+            "gt": 47873,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 37996,
+            "gt": 37996,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "40-45",
+        "cells": {
+          "persons": {
+            "pred": 66459,
+            "gt": 66459,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 36018,
+            "gt": 36018,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 30441,
+            "gt": 30441,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "45-50",
+        "cells": {
+          "persons": {
+            "pred": 53330,
+            "gt": 53330,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 29353,
+            "gt": 29353,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 23977,
+            "gt": 23977,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "50-55",
+        "cells": {
+          "persons": {
+            "pred": 45019,
+            "gt": 45019,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 23755,
+            "gt": 23755,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 21264,
+            "gt": 21264,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "55-60",
+        "cells": {
+          "persons": {
+            "pred": 26926,
+            "gt": 26926,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 14278,
+            "gt": 14278,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 12648,
+            "gt": 12648,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "60 and over",
+        "cells": {
+          "persons": {
+            "pred": 53324,
+            "gt": 53324,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "males": {
+            "pred": 25693,
+            "gt": 25693,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          },
+          "females": {
+            "pred": 27631,
+            "gt": 27631,
+            "exact": true,
+            "abs_err": 0,
+            "rel_err": 0.0
+          }
+        }
+      },
+      {
+        "age": "Total",
+        "status": "no_match"
+      }
+    ]
+  },
+  "gemini": {
+    "error": "400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]"
+  },
+  "claude": {
+    "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CYRHEZx3CZvFBSbExf14Y'}"
+  }
+}

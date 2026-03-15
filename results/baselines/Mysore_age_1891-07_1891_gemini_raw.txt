@@ -1,0 +1,334 @@
+```json
+[
+  {
+    "District": "Bangalore",
+    "Total Widowed": {
+      "Total": 91768,
+      "Males": 17175,
+      "Females": 74593
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 0,
+        "Females": 1
+      },
+      {
+        "age": "5-9",
+        "Males": 3,
+        "Females": 34
+      },
+      {
+        "age": "10-14",
+        "Males": 15,
+        "Females": 179
+      },
+      {
+        "age": "15-19",
+        "Males": 79,
+        "Females": 666
+      }
+    ]
+  },
+  {
+    "District": "Kolar",
+    "Total Widowed": {
+      "Total": 86283,
+      "Males": 17177,
+      "Females": 69106
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 0,
+        "Females": 3
+      },
+      {
+        "age": "5-9",
+        "Males": 5,
+        "Females": 46
+      },
+      {
+        "age": "10-14",
+        "Males": 8,
+        "Females": 230
+      },
+      {
+        "age": "15-19",
+        "Males": 51,
+        "Females": 750
+      }
+    ]
+  },
+  {
+    "District": "Tumkur",
+    "Total Widowed": {
+      "Total": 81838,
+      "Males": 15477,
+      "Females": 66361
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 2,
+        "Females": 0
+      },
+      {
+        "age": "5-9",
+        "Males": 1,
+        "Females": 33
+      },
+      {
+        "age": "10-14",
+        "Males": 18,
+        "Females": 141
+      },
+      {
+        "age": "15-19",
+        "Males": 36,
+        "Females": 688
+      }
+    ]
+  },
+  {
+    "District": "Mysore",
+    "Total Widowed": {
+      "Total": 112428,
+      "Males": 19724,
+      "Females": 92704
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 0,
+        "Females": 1
+      },
+      {
+        "age": "5-9",
+        "Males": 8,
+        "Females": 74
+      },
+      {
+        "age": "10-14",
+        "Males": 33,
+        "Females": 443
+      },
+      {
+        "age": "15-19",
+        "Males": 116,
+        "Females": 1302
+      }
+    ]
+  },
+  {
+    "District": "Hassan",
+    "Total Widowed": {
+      "Total": 62843,
+      "Males": 10328,
+      "Females": 52515
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 0,
+        "Females": 0
+      },
+      {
+        "age": "5-9",
+        "Males": 1,
+        "Females": 8
+      },
+      {
+        "age": "10-14",
+        "Males": 18,
+        "Females": 104
+      },
+      {
+        "age": "15-19",
+        "Males": 49,
+        "Females": 522
+      }
+    ]
+  },
+  {
+    "District": "Shimoga",
+    "Total Widowed": {
+      "Total": 70684,
+      "Males": 16435,
+      "Females": 54249
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 0,
+        "Females": 0
+      },
+      {
+        "age": "5-9",
+        "Males": 0,
+        "Females": 29
+      },
+      {
+        "age": "10-14",
+        "Males": 11,
+        "Females": 290
+      },
+      {
+        "age": "15-19",
+        "Males": 83,
+        "Females": 1141
+      }
+    ]
+  },
+  {
+    "District": "Kadur",
+    "Total Widowed": {
+      "Total": 39929,
+      "Males": 8412,
+      "Females": 31517
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 0,
+        "Females": 0
+      },
+      {
+        "age": "5-9",
+        "Males": 2,
+        "Females": 12
+      },
+      {
+        "age": "10-14",
+        "Males": 4,
+        "Females": 121
+      },
+      {
+        "age": "15-19",
+        "Males": 26,
+        "Females": 500
+      }
+    ]
+  },
+  {
+    "District": "Chitaldurg",
+    "Total Widowed": {
+      "Total": 50814,
+      "Males": 10764,
+      "Females": 40050
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 0,
+        "Females": 1
+      },
+      {
+        "age": "5-9",
+        "Males": 1,
+        "Females": 14
+      },
+      {
+        "age": "10-14",
+        "Males": 10,
+        "Females": 111
+      },
+      {
+        "age": "15-19",
+        "Males": 27,
+        "Females": 415
+      }
+    ]
+  },
+  {
+    "District": "Total",
+    "Total Widowed": {
+      "Total": 626587,
+      "Males": 115492,
+      "Females": 511095
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 2,
+        "Females": 7
+      },
+      {
+        "age": "5-9",
+        "Males": 21,
+        "Females": 250
+      },
+      {
+        "age": "10-14",
+        "Males": 117,
+        "Females": 1619
+      },
+      {
+        "age": "15-19",
+        "Males": 467,
+        "Females": 5984
+      }
+    ]
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "Total Widowed": {
+      "Total": 11093,
+      "Males": 1871,
+      "Females": 9222
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 0,
+        "Females": 4
+      },
+      {
+        "age": "5-9",
+        "Males": 6,
+        "Females": 3
+      },
+      {
+        "age": "10-14",
+        "Males": 4,
+        "Females": 14
+      },
+      {
+        "age": "15-19",
+        "Males": 7,
+        "Females": 116
+      }
+    ]
+  },
+  {
+    "District": "GRAND TOTAL",
+    "Total Widowed": {
+      "Total": 637680,
+      "Males": 117363,
+      "Females": 520317
+    },
+    "Age-Periods": [
+      {
+        "age": "0-4",
+        "Males": 2,
+        "Females": 11
+      },
+      {
+        "age": "5-9",
+        "Males": 27,
+        "Females": 253
+      },
+      {
+        "age": "10-14",
+        "Males": 121,
+        "Females": 1633
+      },
+      {
+        "age": "15-19",
+        "Males": 474,
+        "Females": 6100
+      }
+    ]
+  }
+]
+```

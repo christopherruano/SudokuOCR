@@ -1,0 +1,509 @@
+{
+  "source_image": "age_tables/Mysore/1891/Mysore_age_1891-10.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 3,
+  "elapsed_seconds": 325.0,
+  "metadata": {
+    "title": "TABLE VIII. PART A. Not Stated.",
+    "region": "Mysore",
+    "year": 1901,
+    "data_type": "absolute",
+    "column_groups": [
+      "Total. Civil Condition not stated.",
+      "0-4",
+      "5-9",
+      "10-14",
+      "15-19",
+      "20-24",
+      "25-29",
+      "30-34"
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VIII. PART A. Not Stated.",
+      "rows": [
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 46,
+            "males": 21,
+            "females": 25
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          },
+          "10-14": {
+            "persons": 6,
+            "males": 4,
+            "females": 2
+          },
+          "15-19": {
+            "persons": 6,
+            "males": 6,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 4,
+            "males": 4,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 2,
+            "males": 1,
+            "females": 1
+          },
+          "30-34": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "15-19": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "30-34": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 39,
+            "males": 13,
+            "females": 26
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "15-19": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "30-34": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 9,
+            "males": 1,
+            "females": 8
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "15-19": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "30-34": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 28,
+            "males": 24,
+            "females": 4
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "15-19": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "30-34": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "15-19": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "30-34": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 23,
+            "males": 4,
+            "females": 19
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "15-19": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "30-34": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "15-19": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "30-34": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 146,
+            "males": 64,
+            "females": 82
+          },
+          "0-4": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          },
+          "10-14": {
+            "persons": 6,
+            "males": 4,
+            "females": 2
+          },
+          "15-19": {
+            "persons": 6,
+            "males": 6,
+            "females": 0
+          },
+          "20-24": {
+            "persons": 4,
+            "males": 4,
+            "females": 0
+          },
+          "25-29": {
+            "persons": 2,
+            "males": 1,
+            "females": 1
+          },
+          "30-34": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 34,
+            "males": 19,
+            "females": 15
+          },
+          "0-4": {
+            "persons": 6,
+            "males": 1,
+            "females": 5
+          },
+          "5-9": {
+            "persons": 5,
+            "males": 4,
+            "females": 1
+          },
+          "10-14": {
+            "persons": 3,
+            "males": 1,
+            "females": 2
+          },
+          "15-19": {
+            "persons": 3,
+            "males": 2,
+            "females": 1
+          },
+          "20-24": {
+            "persons": 4,
+            "males": 1,
+            "females": 3
+          },
+          "25-29": {
+            "persons": 2,
+            "males": 2,
+            "females": 0
+          },
+          "30-34": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          }
+        },
+        {
+          "district": null,
+          "Total. Civil Condition not stated.": {
+            "persons": 180,
+            "males": 83,
+            "females": 97
+          },
+          "0-4": {
+            "persons": 6,
+            "males": 1,
+            "females": 5
+          },
+          "5-9": {
+            "persons": 6,
+            "males": 4,
+            "females": 2
+          },
+          "10-14": {
+            "persons": 9,
+            "males": 5,
+            "females": 4
+          },
+          "15-19": {
+            "persons": 9,
+            "males": 8,
+            "females": 1
+          },
+          "20-24": {
+            "persons": 8,
+            "males": 5,
+            "females": 3
+          },
+          "25-29": {
+            "persons": 4,
+            "males": 3,
+            "females": 1
+          },
+          "30-34": {
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 352,
+    "passed": 352,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

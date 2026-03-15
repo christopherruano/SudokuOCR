@@ -1,0 +1,93 @@
+```json
+[
+  {
+    "District": "Bangalore",
+    "age": "20-45",
+    "Males": 21539,
+    "Females": 11622,
+    "age_45_49": "Males: 14203, Females: 6484",
+    "age_50": "Males: 13120, Females: 4927"
+  },
+  {
+    "District": "Kolar",
+    "age": "20-45", 
+    "Males": 18534,
+    "Females": 9109,
+    "age_45_49": "Males: 11494, Females: 4007",
+    "age_50": "Males: 10398, Females: 3584"
+  },
+  {
+    "District": "Tumkur",
+    "age": "20-45",
+    "Males": 16627,
+    "Females": 7283,
+    "age_45_49": "Males: 11028, Females: 3685",
+    "age_50": "Males: 9035, Females: 2822"
+  },
+  {
+    "District": "Mysore", 
+    "age": "20-45",
+    "Males": 32979,
+    "Females": 18742,
+    "age_45_49": "Males: 22533, Females: 11125",
+    "age_50": "Males: 20654, Females: 8302"
+  },
+  {
+    "District": "Hassan",
+    "age": "20-45",
+    "Males": 13700,
+    "Females": 6013,
+    "age_45_49": "Males: 9004, Females: 3832",
+    "age_50": "Males: 8064, Females: 2540"
+  },
+  {
+    "District": "Shimoga",
+    "age": "20-45", 
+    "Males": 13944,
+    "Females": 4526,
+    "age_45_49": "Males: 8293, Females: 3011",
+    "age_50": "Males: 8216, Females: 2240"
+  },
+  {
+    "District": "Kadur",
+    "age": "20-45",
+    "Males": 9097,
+    "Females": 3403,
+    "age_45_49": "Males: 5730, Females: 2448",
+    "age_50": "Males: 5057, Females: 1197"
+  },
+  {
+    "District": "Chitaldrug", 
+    "age": "20-45",
+    "Males": 10354,
+    "Females": 4911,
+    "age_45_49": "Males: 7278, Females: 2569",
+    "age_50": "Males: 6055, Females: 1949"
+  },
+  {
+    "District": "Total",
+    "age": "20-45",
+    "Males": 136874,
+    "Females": 67631,
+    "age_45_49": "Males: 89094, Females: 38072", 
+    "age_50": "Males: 81558, Females: 27321"
+  },
+  {
+    "District": "Civil and Military Stations, Bangalore",
+    "age": "20-45",
+    "Males": 2688,
+    "Females": 1831,
+    "age_45_49": "Males: 1375, Females: 739",
+    "age_50": "Males: 1327, Females: 806"
+  },
+  {
+    "District": "Grand Total",
+    "age": "20-45", 
+    "Males": 139562,
+    "Females": 69782,
+    "age_45_49": "Males: 92409, Females: 38803",
+    "age_50": "Males": 82885,
+    "Females": 28527
+  }
+]
+```

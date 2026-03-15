@@ -1,0 +1,121 @@
+{
+  "source_image": "age_tables/Mysore/1891/Mysore_age_1891-09.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 3,
+  "elapsed_seconds": 4236.9,
+  "metadata": {
+    "title": "TABLE VIII. PART A.-Concluded.",
+    "region": "",
+    "year": 0,
+    "data_type": "absolute",
+    "column_groups": [
+      "45-49.",
+      "50-54.",
+      "55-59.",
+      "60 and over.",
+      "Age not stated."
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VIII. PART A.-Concluded.",
+      "rows": [
+        {
+          "age": "1 Bangalore",
+          "50-54.": {
+            "persons": 13698,
+            "males": 2433,
+            "females": 11265
+          }
+        },
+        {
+          "age": "2 Kolar",
+          "50-54.": {
+            "persons": 12496,
+            "males": 2516,
+            "females": 9980
+          }
+        },
+        {
+          "age": "3 Tumkur",
+          "50-54.": {
+            "persons": 11686,
+            "males": 2214,
+            "females": 9472
+          }
+        },
+        {
+          "age": "4 Mysore",
+          "50-54.": {
+            "persons": 22651,
+            "males": 2853,
+            "females": 19798
+          }
+        },
+        {
+          "age": "5 Hassan",
+          "50-54.": {
+            "persons": 9765,
+            "males": 1490,
+            "females": 8275
+          }
+        },
+        {
+          "age": "6 Shimoga",
+          "50-54.": {
+            "persons": 10521,
+            "males": 2651,
+            "females": 7870
+          }
+        },
+        {
+          "age": "7 Kadur",
+          "50-54.": {
+            "persons": 6074,
+            "males": 1279,
+            "females": 4795
+          }
+        },
+        {
+          "age": "8 Chitaldurg",
+          "50-54.": {
+            "persons": 6907,
+            "males": 1478,
+            "females": 5429
+          }
+        },
+        {
+          "age": "The Civil and Military Station, Bangalore...",
+          "50-54.": {
+            "persons": 1780,
+            "males": 271,
+            "females": 1509
+          }
+        },
+        {
+          "age": "GRAND TOTAL..",
+          "50-54.": {
+            "persons": 95578,
+            "males": 17185,
+            "females": 78393
+          }
+        },
+        {
+          "age": "Total",
+          "50-54.": {
+            "persons": 93798,
+            "males": 16914,
+            "females": 76884
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 50,
+    "passed": 50,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

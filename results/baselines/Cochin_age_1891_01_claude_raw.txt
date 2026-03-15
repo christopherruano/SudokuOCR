@@ -1,0 +1,23 @@
+```json
+[
+  {"age": "0-5", "1901_Persons": 1854, "1901_Males": 966, "1901_Females": 1093, "1891_Persons": 1429, "1891_Males": 1976, "1891_Females": 1476},
+  {"age": "5-10", "1901_Persons": 1362, "1901_Males": 1385, "1901_Females": 1359, "1891_Persons": 1931, "1891_Males": 1352, "1891_Females": 1511},
+  {"age": "10-15", "1901_Persons": 1273, "1901_Males": 1321, "1901_Females": 1225, "1891_Persons": 1207, "1891_Males": 1267, "1891_Females": 1145},
+  {"age": "Total 0-15", "1901_Persons": 4021, "1901_Males": 4979, "1901_Females": 3068, "1891_Persons": 3966, "1891_Males": 3996, "1891_Females": 3985},
+  {"age": "15-20", "1901_Persons": 974, "1901_Males": 970, "1901_Females": 979, "1891_Persons": 945, "1891_Males": 944, "1891_Females": 946},
+  {"age": "20-25", "1901_Persons": 892, "1901_Males": 884, "1901_Females": 973, "1891_Persons": 891, "1891_Males": 824, "1891_Females": 938},
+  {"age": "25-30", "1901_Persons": 887, "1901_Males": 865, "1901_Females": 909, "1891_Persons": 909, "1891_Males": 874, "1891_Females": 949},
+  {"age": "30-35", "1901_Persons": 753, "1901_Males": 747, "1901_Females": 719, "1891_Persons": 778, "1891_Males": 781, "1891_Females": 775},
+  {"age": "35-40", "1901_Persons": 697, "1901_Males": 659, "1901_Females": 555, "1891_Persons": 634, "1891_Males": 687, "1891_Females": 580},
+  {"age": "Total 15-40", "1901_Persons": 4122, "1901_Males": 4107, "1901_Females": 4138, "1891_Persons": 4148, "1891_Males": 4111, "1891_Females": 4184},
+  {"age": "40-45", "1901_Persons": 541, "1901_Males": 519, "1901_Females": 533, "1891_Persons": 569, "1891_Males": 589, "1891_Females": 549},
+  {"age": "45-50", "1901_Persons": 353, "1901_Males": 334, "1901_Females": 344, "1891_Persons": 352, "1891_Males": 380, "1891_Females": 329},
+  {"age": "50-55", "1901_Persons": 358, "1901_Males": 388, "1901_Females": 369, "1891_Persons": 356, "1891_Males": 348, "1891_Females": 364},
+  {"age": "55-60", "1901_Persons": 189, "1901_Males": 199, "1901_Females": 189, "1891_Persons": 179, "1891_Males": 185, "1891_Females": 173},
+  {"age": "Total 40-60", "1901_Persons": 1497, "1901_Males": 1441, "1901_Females": 1430, "1891_Persons": 1453, "1891_Males": 1497, "1891_Females": 1408},
+  {"age": "60 and over", "1901_Persons": 477, "1901_Males": 373, "1901_Females": 460, "1891_Persons": 429, "1891_Males": 392, "1891_Females": 469},
+  {"age": "Not Stated", "1901_Persons": 12, "1901_Males": 11, "1901_Females": 13, "1891_Persons": 19, "1891_Males": 20, "1891_Females": 19},
+  {"age": "Total", "1901_Persons": 10000, "1901_Males": 10000, "1901_Females": 10000, "1891_Persons": 10000, "1891_Males": 10000, "1891_Females": 10000},
+  {"age": "Mean age", "1901_Persons": 236, "1901_Males": 232, "1901_Females": 234, "1891_Persons": 2306, "1891_Males": 2308, "1891_Females": 2305}
+]
+```

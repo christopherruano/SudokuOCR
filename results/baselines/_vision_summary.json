@@ -1,0 +1,423 @@
+{
+  "total_matched": 11776,
+  "total_cells": 16428,
+  "overall_accuracy": 71.68,
+  "per_table": [
+    {
+      "name": "Adilabad_1931",
+      "matched": 290,
+      "total": 396,
+      "accuracy": 73.2,
+      "elapsed": 1.4,
+      "status": "ok"
+    },
+    {
+      "name": "Adilabad_1941",
+      "matched": 478,
+      "total": 495,
+      "accuracy": 96.6,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Assam_age_1891-3_1891",
+      "matched": 272,
+      "total": 378,
+      "accuracy": 72.0,
+      "elapsed": 2.0,
+      "status": "ok"
+    },
+    {
+      "name": "Assam_age_1891-4_1891",
+      "matched": 258,
+      "total": 378,
+      "accuracy": 68.3,
+      "elapsed": 1.6,
+      "status": "ok"
+    },
+    {
+      "name": "Assam_age_1891-6_1891",
+      "matched": 252,
+      "total": 378,
+      "accuracy": 66.7,
+      "elapsed": 1.6,
+      "status": "ok"
+    },
+    {
+      "name": "Atraf-i-Balda_1931",
+      "matched": 272,
+      "total": 396,
+      "accuracy": 68.7,
+      "elapsed": 1.0,
+      "status": "ok"
+    },
+    {
+      "name": "Atraf-i-balda_1941",
+      "matched": 421,
+      "total": 450,
+      "accuracy": 93.6,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Aurangabad_1931",
+      "matched": 340,
+      "total": 528,
+      "accuracy": 64.4,
+      "elapsed": 1.3,
+      "status": "ok"
+    },
+    {
+      "name": "Aurangabad_1941",
+      "matched": 153,
+      "total": 165,
+      "accuracy": 92.7,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Baghat_1941",
+      "matched": 0,
+      "total": 495,
+      "accuracy": 0,
+      "elapsed": 0.6,
+      "status": "error: 403 This API method requires billing to be enabled. Please enable billing on project #efishentmarket"
+    },
+    {
+      "name": "Bidar_1931",
+      "matched": 352,
+      "total": 396,
+      "accuracy": 88.9,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Bidar_1941",
+      "matched": 461,
+      "total": 495,
+      "accuracy": 93.1,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Bir_1931",
+      "matched": 147,
+      "total": 264,
+      "accuracy": 55.7,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Bir_1941",
+      "matched": 466,
+      "total": 495,
+      "accuracy": 94.1,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Cochin_age_1891_01",
+      "matched": 62,
+      "total": 114,
+      "accuracy": 54.4,
+      "elapsed": 0.5,
+      "status": "ok"
+    },
+    {
+      "name": "Coorg_age_1901",
+      "matched": 126,
+      "total": 138,
+      "accuracy": 91.3,
+      "elapsed": 0.6,
+      "status": "ok"
+    },
+    {
+      "name": "Eastern_division_age_1901",
+      "matched": 113,
+      "total": 114,
+      "accuracy": 99.1,
+      "elapsed": 0.6,
+      "status": "ok"
+    },
+    {
+      "name": "Gulbarga_1931",
+      "matched": 322,
+      "total": 528,
+      "accuracy": 61.0,
+      "elapsed": 1.3,
+      "status": "ok"
+    },
+    {
+      "name": "Gulbarga_1941",
+      "matched": 466,
+      "total": 495,
+      "accuracy": 94.1,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Hyderabad_state_summary_age_1901",
+      "matched": 209,
+      "total": 240,
+      "accuracy": 87.1,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Karimnagar_1931",
+      "matched": 0,
+      "total": 396,
+      "accuracy": 0,
+      "elapsed": 0.5,
+      "status": "error: 403 This API method requires billing to be enabled. Please enable billing on project #efishentmarket"
+    },
+    {
+      "name": "Karimnagar_1941",
+      "matched": 467,
+      "total": 495,
+      "accuracy": 94.3,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Mahbubnagar_1931",
+      "matched": 343,
+      "total": 396,
+      "accuracy": 86.6,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Mahbubnagar_1941",
+      "matched": 466,
+      "total": 495,
+      "accuracy": 94.1,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Medak_1931",
+      "matched": 171,
+      "total": 264,
+      "accuracy": 64.8,
+      "elapsed": 1.0,
+      "status": "ok"
+    },
+    {
+      "name": "Medak_1941",
+      "matched": 479,
+      "total": 495,
+      "accuracy": 96.8,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-01_1891",
+      "matched": 74,
+      "total": 132,
+      "accuracy": 56.1,
+      "elapsed": 1.9,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-02_1891",
+      "matched": 97,
+      "total": 165,
+      "accuracy": 58.8,
+      "elapsed": 1.7,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-03_1891",
+      "matched": 118,
+      "total": 198,
+      "accuracy": 59.6,
+      "elapsed": 1.9,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-04_1891",
+      "matched": 101,
+      "total": 132,
+      "accuracy": 76.5,
+      "elapsed": 1.7,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-05_1891",
+      "matched": 100,
+      "total": 165,
+      "accuracy": 60.6,
+      "elapsed": 1.9,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-06_1891",
+      "matched": 135,
+      "total": 198,
+      "accuracy": 68.2,
+      "elapsed": 1.7,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-07_1891",
+      "matched": 0,
+      "total": 33,
+      "accuracy": 0,
+      "elapsed": 1.3,
+      "status": "error: 403 This API method requires billing to be enabled. Please enable billing on project #efishentmarket"
+    },
+    {
+      "name": "Mysore_age_1891-08_1891",
+      "matched": 0,
+      "total": 165,
+      "accuracy": 0,
+      "elapsed": 1.3,
+      "status": "error: 403 This API method requires billing to be enabled. Please enable billing on project #efishentmarket"
+    },
+    {
+      "name": "Mysore_age_1891-09_1891",
+      "matched": 10,
+      "total": 33,
+      "accuracy": 30.3,
+      "elapsed": 1.7,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-10_1891",
+      "matched": 66,
+      "total": 264,
+      "accuracy": 25.0,
+      "elapsed": 1.5,
+      "status": "ok"
+    },
+    {
+      "name": "Mysore_age_1891-11_1891",
+      "matched": 31,
+      "total": 198,
+      "accuracy": 15.7,
+      "elapsed": 1.8,
+      "status": "ok"
+    },
+    {
+      "name": "Nalgonda_1931",
+      "matched": 287,
+      "total": 396,
+      "accuracy": 72.5,
+      "elapsed": 1.0,
+      "status": "ok"
+    },
+    {
+      "name": "Nalgonda_1941",
+      "matched": 153,
+      "total": 165,
+      "accuracy": 92.7,
+      "elapsed": 1.0,
+      "status": "ok"
+    },
+    {
+      "name": "Nander_1931",
+      "matched": 80,
+      "total": 132,
+      "accuracy": 60.6,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Nander_1941",
+      "matched": 150,
+      "total": 165,
+      "accuracy": 90.9,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Nizamabad_1931",
+      "matched": 0,
+      "total": 396,
+      "accuracy": 0,
+      "elapsed": 0.5,
+      "status": "error: 403 This API method requires billing to be enabled. Please enable billing on project #efishentmarket"
+    },
+    {
+      "name": "Nizamabad_1941",
+      "matched": 305,
+      "total": 330,
+      "accuracy": 92.4,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Osmanabad_1931",
+      "matched": 247,
+      "total": 396,
+      "accuracy": 62.4,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Osmanabad_1941",
+      "matched": 475,
+      "total": 495,
+      "accuracy": 96.0,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Parbhani_1931",
+      "matched": 213,
+      "total": 396,
+      "accuracy": 53.8,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Parbhani_1941",
+      "matched": 470,
+      "total": 495,
+      "accuracy": 94.9,
+      "elapsed": 1.4,
+      "status": "ok"
+    },
+    {
+      "name": "Raichur_1931",
+      "matched": 71,
+      "total": 132,
+      "accuracy": 53.8,
+      "elapsed": 1.2,
+      "status": "ok"
+    },
+    {
+      "name": "Raichur_1941",
+      "matched": 465,
+      "total": 495,
+      "accuracy": 93.9,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Warangal_1931",
+      "matched": 192,
+      "total": 264,
+      "accuracy": 72.7,
+      "elapsed": 1.0,
+      "status": "ok"
+    },
+    {
+      "name": "Warangal_1941",
+      "matched": 469,
+      "total": 495,
+      "accuracy": 94.7,
+      "elapsed": 1.1,
+      "status": "ok"
+    },
+    {
+      "name": "Western_division_age_1901",
+      "matched": 81,
+      "total": 114,
+      "accuracy": 71.1,
+      "elapsed": 0.5,
+      "status": "ok"
+    }
+  ]
+}

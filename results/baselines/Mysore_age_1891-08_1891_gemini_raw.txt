@@ -1,0 +1,257 @@
+```json
+[
+  {
+    "age": "Bangalore",
+    "20-24": {
+      "Males": 241,
+      "Females": 1888
+    },
+    "25-29": {
+      "Males": 607,
+      "Females": 3778
+    },
+    "30-34": {
+      "Males": 1091,
+      "Females": 6591
+    },
+    "35-39": {
+      "Males": 1304,
+      "Females": 9426
+    },
+    "40-44": {
+      "Males": 2147,
+      "Females": 10366
+    }
+  },
+  {
+    "age": "Kolar",
+    "20-24": {
+      "Males": 240,
+      "Females": 2428
+    },
+    "25-29": {
+      "Males": 612,
+      "Females": 3987
+    },
+    "30-34": {
+      "Males": 1121,
+      "Females": 7043
+    },
+    "35-39": {
+      "Males": 1333,
+      "Females": 5980
+    },
+    "40-44": {
+      "Males": 2261,
+      "Females": 9295
+    }
+  },
+  {
+    "age": "Tumkur",
+    "20-24": {
+      "Males": 223,
+      "Females": 2283
+    },
+    "25-29": {
+      "Males": 647,
+      "Females": 4286
+    },
+    "30-34": {
+      "Males": 1138,
+      "Females": 7185
+    },
+    "35-39": {
+      "Males": 1472,
+      "Females": 7154
+    },
+    "40-44": {
+      "Males": 2072,
+      "Females": 9975
+    }
+  },
+  {
+    "age": "Mysore",
+    "20-24": {
+      "Males": 320,
+      "Females": 3210
+    },
+    "25-29": {
+      "Males": 731,
+      "Females": 5917
+    },
+    "30-34": {
+      "Males": 1260,
+      "Females": 9812
+    },
+    "35-39": {
+      "Males": 1413,
+      "Females": 10526
+    },
+    "40-44": {
+      "Males": 2384,
+      "Females": 17380
+    }
+  },
+  {
+    "age": "Hassan",
+    "20-24": {
+      "Males": 178,
+      "Females": 1582
+    },
+    "25-29": {
+      "Males": 503,
+      "Females": 2912
+    },
+    "30-34": {
+      "Males": 826,
+      "Females": 5011
+    },
+    "35-39": {
+      "Males": 945,
+      "Females": 5001
+    },
+    "40-44": {
+      "Males": 1309,
+      "Females": 8028
+    }
+  },
+  {
+    "age": "Shimoga",
+    "20-24": {
+      "Males": 270,
+      "Females": 2156
+    },
+    "25-29": {
+      "Males": 811,
+      "Females": 4975
+    },
+    "30-34": {
+      "Males": 1409,
+      "Females": 8796
+    },
+    "35-39": {
+      "Males": 1614,
+      "Females": 5395
+    },
+    "40-44": {
+      "Males": 2393,
+      "Females": 8001
+    }
+  },
+  {
+    "age": "Kadur",
+    "20-24": {
+      "Males": 140,
+      "Females": 1253
+    },
+    "25-29": {
+      "Males": 481,
+      "Females": 2881
+    },
+    "30-34": {
+      "Males": 859,
+      "Females": 3829
+    },
+    "35-39": {
+      "Males": 928,
+      "Females": 3565
+    },
+    "40-44": {
+      "Males": 1212,
+      "Females": 4989
+    }
+  },
+  {
+    "age": "Chitaldrug",
+    "20-24": {
+      "Males": 190,
+      "Females": 1267
+    },
+    "25-29": {
+      "Males": 512,
+      "Females": 2744
+    },
+    "30-34": {
+      "Males": 787,
+      "Females": 4456
+    },
+    "35-39": {
+      "Males": 889,
+      "Females": 1506
+    },
+    "40-44": {
+      "Males": 1293,
+      "Females": 5661
+    }
+  },
+  {
+    "age": "Total",
+    "20-24": {
+      "Males": 1802,
+      "Females": 16357
+    },
+    "25-29": {
+      "Males": 4904,
+      "Females": 29980
+    },
+    "30-34": {
+      "Males": 8491,
+      "Females": 49531
+    },
+    "35-39": {
+      "Males": 9898,
+      "Females": 48153
+    },
+    "40-44": {
+      "Males": 15071,
+      "Females": 73605
+    }
+  },
+  {
+    "age": "The Civil and Military Station, Bangalore",
+    "20-24": {
+      "Males": 42,
+      "Females": 276
+    },
+    "25-29": {
+      "Males": 86,
+      "Females": 430
+    },
+    "30-34": {
+      "Males": 121,
+      "Females": 739
+    },
+    "35-39": {
+      "Males": 123,
+      "Females": 632
+    },
+    "40-44": {
+      "Males": 183,
+      "Females": 1301
+    }
+  },
+  {
+    "age": "Grand Total",
+    "20-24": {
+      "Males": 1844,
+      "Females": 16633
+    },
+    "25-29": {
+      "Males": 4990,
+      "Females": 30410
+    },
+    "30-34": {
+      "Males": 8612,
+      "Females": 50270
+    },
+    "35-39": {
+      "Males": 10021,
+      "Females": 48785
+    },
+    "40-44": {
+      "Males": 15254,
+      "Females": 74906
+    }
+  }
+]
+```

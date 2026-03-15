@@ -1,0 +1,285 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Mysore/1891/Mysore_age_1891-04.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 103.2,
+  "metadata": {
+    "title": "TABLE VIII. Civil Condition by Religion and Age. All Religions.",
+    "region": "Mysore",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "Total Married",
+      "0\u20144",
+      "5\u20149",
+      "10\u201414"
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VIII. Civil Condition by Religion and Age. All Religions.",
+      "rows": [
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 315375,
+            "males": 154346,
+            "females": 161029
+          },
+          "0\u20144": {
+            "persons": 7,
+            "males": 7,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 172,
+            "males": 66,
+            "females": 106
+          },
+          "10\u201414": {
+            "persons": 3655,
+            "males": 793,
+            "females": 2862
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 255279,
+            "males": 126849,
+            "females": 128430
+          },
+          "0\u20144": {
+            "persons": 4,
+            "males": 4,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 223,
+            "males": 94,
+            "females": 129
+          },
+          "10\u201414": {
+            "persons": 3768,
+            "males": 627,
+            "females": 3141
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 239530,
+            "males": 117932,
+            "females": 121598
+          },
+          "0\u20144": {
+            "persons": 3,
+            "males": 3,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 95,
+            "males": 58,
+            "females": 37
+          },
+          "10\u201414": {
+            "persons": 3238,
+            "males": 523,
+            "females": 2715
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 520776,
+            "males": 254027,
+            "females": 266749
+          },
+          "0\u20144": {
+            "persons": 6,
+            "males": 6,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 305,
+            "males": 98,
+            "females": 207
+          },
+          "10\u201414": {
+            "persons": 7019,
+            "males": 2013,
+            "females": 5006
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 204015,
+            "males": 100004,
+            "females": 104011
+          },
+          "0\u20144": {
+            "persons": 5,
+            "males": 5,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 42,
+            "males": 7,
+            "females": 35
+          },
+          "10\u201414": {
+            "persons": 796,
+            "males": 335,
+            "females": 461
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 202011,
+            "males": 104567,
+            "females": 97444
+          },
+          "0\u20144": {
+            "persons": 5,
+            "males": 5,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 90,
+            "males": 15,
+            "females": 75
+          },
+          "10\u201414": {
+            "persons": 1736,
+            "males": 593,
+            "females": 1143
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 130529,
+            "males": 68299,
+            "females": 62230
+          },
+          "0\u20144": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 15,
+            "males": 0,
+            "females": 15
+          },
+          "10\u201414": {
+            "persons": 1665,
+            "males": 188,
+            "females": 1477
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 164663,
+            "males": 81690,
+            "females": 82973
+          },
+          "0\u20144": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 105,
+            "males": 34,
+            "females": 71
+          },
+          "10\u201414": {
+            "persons": 1216,
+            "males": 321,
+            "females": 895
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 2032178,
+            "males": 1007714,
+            "females": 1024464
+          },
+          "0\u20144": {
+            "persons": 30,
+            "males": 30,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 1047,
+            "males": 372,
+            "females": 675
+          },
+          "10\u201414": {
+            "persons": 23093,
+            "males": 5393,
+            "females": 17700
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 40729,
+            "males": 19834,
+            "females": 20895
+          },
+          "0\u20144": {
+            "persons": 6,
+            "males": 6,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 21,
+            "males": 13,
+            "females": 8
+          },
+          "10\u201414": {
+            "persons": 144,
+            "males": 56,
+            "females": 88
+          }
+        },
+        {
+          "name": null,
+          "Total Married": {
+            "persons": 2072907,
+            "males": 1027548,
+            "females": 1045359
+          },
+          "0\u20144": {
+            "persons": 36,
+            "males": 36,
+            "females": 0
+          },
+          "5\u20149": {
+            "persons": 1068,
+            "males": 385,
+            "females": 683
+          },
+          "10\u201414": {
+            "persons": 23237,
+            "males": 5449,
+            "females": 17788
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 176,
+    "passed": 176,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

@@ -1,0 +1,106 @@
+```json
+[
+  {
+    "age": "0-4",
+    "Persons": 161849,
+    "Males": 80844,
+    "Females": 81005
+  },
+  {
+    "age": "5-9",
+    "Persons": 182369,
+    "Males": 91425,
+    "Females": 90944
+  },
+  {
+    "age": "10-14",
+    "Persons": 192868,
+    "Males": 96988,
+    "Females": 95880
+  },
+  {
+    "age": "15-19",
+    "Persons": 192949,
+    "Males": 97329,
+    "Females": 95520
+  },
+  {
+    "age": "20-24",
+    "Persons": 192476,
+    "Males": 97348,
+    "Females": 95128
+  },
+  {
+    "age": "25-29",
+    "Persons": 182948,
+    "Males": 92747,
+    "Females": 90201
+  },
+  {
+    "age": "30-34",
+    "Persons": 162487,
+    "Males": 82370,
+    "Females": 80117
+  },
+  {
+    "age": "35-39",
+    "Persons": 140687,
+    "Males": 70789,
+    "Females": 69998
+  },
+  {
+    "age": "40-44",
+    "Persons": 120686,
+    "Males": 60587,
+    "Females": 60199
+  },
+  {
+    "age": "45-49",
+    "Persons": 104879,
+    "Males": 52529,
+    "Females": 52350
+  },
+  {
+    "age": "50-54",
+    "Persons": 88147,
+    "Males": 44190,
+    "Females": 43957
+  },
+  {
+    "age": "55-59",
+    "Persons": 60517,
+    "Males": 30551,
+    "Females": 29966
+  },
+  {
+    "age": "60-64",
+    "Persons": 42090,
+    "Males": 21096,
+    "Females": 20994
+  },
+  {
+    "age": "65-69",
+    "Persons": 19688,
+    "Males": 9888,
+    "Females": 9800
+  },
+  {
+    "age": "70 and over",
+    "Persons": 10094,
+    "Males": 5147,
+    "Females": 4947
+  },
+  {
+    "age": "Unspecified",
+    "Persons": 485,
+    "Males": 241,
+    "Females": 244
+  },
+  {
+    "age": "Total",
+    "Persons": 2907988,
+    "Males": 1470921,
+    "Females": 1437067
+  }
+]
+```

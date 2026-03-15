@@ -1,0 +1,397 @@
+{
+  "source_image": "age_tables/Mysore/1891/Mysore_age_1891-11.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 96.7,
+  "metadata": {
+    "title": "TABLE VIII. PART A.\u2014Concluded. Civil Condition by Age\u2014Periods. All Religions.",
+    "region": "Mysore Districts and C. & M. Station, Bangalore",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "35-39",
+      "40-44",
+      "45-49",
+      "50-59",
+      "60 and over",
+      "Age not stated"
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VIII. PART A.\u2014Concluded. Civil Condition by Age\u2014Periods. All Religions.",
+      "rows": [
+        {
+          "age": "1 Bangalore",
+          "35-39": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 3,
+            "males": 2,
+            "females": 1
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 4,
+            "males": 2,
+            "females": 2
+          },
+          "Age not stated": {
+            "persons": 63,
+            "males": 31,
+            "females": 32
+          }
+        },
+        {
+          "age": "2 Kolar",
+          "35-39": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "Age not stated": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "age": "3 Tumkur",
+          "35-39": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "Age not stated": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          }
+        },
+        {
+          "age": "4 Mysore",
+          "35-39": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "Age not stated": {
+            "persons": 27,
+            "males": 1,
+            "females": 26
+          }
+        },
+        {
+          "age": "5 Hassan",
+          "35-39": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "Age not stated": {
+            "persons": 10,
+            "males": 2,
+            "females": 8
+          }
+        },
+        {
+          "age": "6 Shimoga",
+          "35-39": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "Age not stated": {
+            "persons": 4,
+            "males": 0,
+            "females": 4
+          }
+        },
+        {
+          "age": "7 Kadur",
+          "35-39": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "Age not stated": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "age": "8 Chitaldurg",
+          "35-39": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "Age not stated": {
+            "persons": 14,
+            "males": 4,
+            "females": 10
+          }
+        },
+        {
+          "age": "Total",
+          "35-39": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 3,
+            "males": 2,
+            "females": 1
+          },
+          "45-49": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "50-59": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 5,
+            "males": 3,
+            "females": 2
+          },
+          "Age not stated": {
+            "persons": 119,
+            "males": 38,
+            "females": 81
+          }
+        },
+        {
+          "age": "The Civil and Military Station, Bangalore",
+          "35-39": {
+            "persons": 2,
+            "males": 1,
+            "females": 1
+          },
+          "40-44": {
+            "persons": 3,
+            "males": 1,
+            "females": 2
+          },
+          "45-49": {
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          },
+          "50-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 9,
+            "males": 3,
+            "females": 6
+          },
+          "Age not stated": {
+            "persons": 22,
+            "males": 12,
+            "females": 10
+          }
+        },
+        {
+          "age": "GRAND TOTAL",
+          "35-39": {
+            "persons": 3,
+            "males": 2,
+            "females": 1
+          },
+          "40-44": {
+            "persons": 6,
+            "males": 3,
+            "females": 3
+          },
+          "45-49": {
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          },
+          "50-59": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 14,
+            "males": 6,
+            "females": 8
+          },
+          "Age not stated": {
+            "persons": 141,
+            "males": 50,
+            "females": 91
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 318,
+    "passed": 318,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

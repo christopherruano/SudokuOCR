@@ -1,0 +1,251 @@
+```json
+[
+  {
+    "age": "Row 1",
+    "MARRIED": {
+      "Persons": 0,
+      "Males": 0,
+      "Females": 0
+    },
+    "WIDOWED": {
+      "Persons": 0,
+      "Males": 0,
+      "Females": 0
+    }
+  },
+  {
+    "age": "Row 2",
+    "MARRIED": {
+      "Persons": 0,
+      "Males": 0,
+      "Females": 0
+    },
+    "WIDOWED": {
+      "Persons": 0,
+      "Males": 0,
+      "Females": 0
+    }
+  },
+  {
+    "age": "Row 3",
+    "MARRIED": {
+      "Persons": 0,
+      "Males": 0,
+      "Females": 0
+    },
+    "WIDOWED": {
+      "Persons": 0,
+      "Males": 0,
+      "Females": 0
+    }
+  },
+  {
+    "age": "Row 4",
+    "MARRIED": {
+      "Persons": 4,
+      "Males": 0,
+      "Females": 4
+    },
+    "WIDOWED": {
+      "Persons": 0,
+      "Males": 0,
+      "Females": 0
+    }
+  },
+  {
+    "age": "Row 5",
+    "MARRIED": {
+      "Persons": 7,
+      "Males": 0,
+      "Females": 7
+    },
+    "WIDOWED": {
+      "Persons": 0,
+      "Males": 0,
+      "Females": 0
+    }
+  },
+  {
+    "age": "Sub-total",
+    "MARRIED": {
+      "Persons": 11,
+      "Males": null,
+      "Females": 11
+    },
+    "WIDOWED": {
+      "Persons": null,
+      "Males": null,
+      "Females": null
+    }
+  },
+  {
+    "age": "Row 6",
+    "MARRIED": {
+      "Persons": 556,
+      "Males": 97,
+      "Females": 459
+    },
+    "WIDOWED": {
+      "Persons": 73,
+      "Males": 32,
+      "Females": 41
+    }
+  },
+  {
+    "age": "Row 7",
+    "MARRIED": {
+      "Persons": 7926,
+      "Males": 890,
+      "Females": 7036
+    },
+    "WIDOWED": {
+      "Persons": 425,
+      "Males": 112,
+      "Females": 313
+    }
+  },
+  {
+    "age": "Row 8",
+    "MARRIED": {
+      "Persons": 49359,
+      "Males": 7237,
+      "Females": 42122
+    },
+    "WIDOWED": {
+      "Persons": 2184,
+      "Males": 460,
+      "Females": 1724
+    }
+  },
+  {
+    "age": "Row 9",
+    "MARRIED": {
+      "Persons": 90671,
+      "Males": 27696,
+      "Females": 62975
+    },
+    "WIDOWED": {
+      "Persons": 6179,
+      "Males": 1790,
+      "Females": 4389
+    }
+  },
+  {
+    "age": "Row 10",
+    "MARRIED": {
+      "Persons": 127086,
+      "Males": 56659,
+      "Females": 70427
+    },
+    "WIDOWED": {
+      "Persons": 11206,
+      "Males": 3456,
+      "Females": 7750
+    }
+  },
+  {
+    "age": "Row 11",
+    "MARRIED": {
+      "Persons": 106780,
+      "Males": 54975,
+      "Females": 51805
+    },
+    "WIDOWED": {
+      "Persons": 13766,
+      "Males": 4088,
+      "Females": 9678
+    }
+  },
+  {
+    "age": "Row 12",
+    "MARRIED": {
+      "Persons": 101116,
+      "Males": 59201,
+      "Females": 41915
+    },
+    "WIDOWED": {
+      "Persons": 15644,
+      "Males": 4179,
+      "Females": 11465
+    }
+  },
+  {
+    "age": "Row 13",
+    "MARRIED": {
+      "Persons": 71930,
+      "Males": 44642,
+      "Females": 27288
+    },
+    "WIDOWED": {
+      "Persons": 20065,
+      "Males": 4413,
+      "Females": 15652
+    }
+  },
+  {
+    "age": "Row 14",
+    "MARRIED": {
+      "Persons": 52849,
+      "Males": 35150,
+      "Females": 17699
+    },
+    "WIDOWED": {
+      "Persons": 18226,
+      "Males": 3922,
+      "Females": 14304
+    }
+  },
+  {
+    "age": "Row 15",
+    "MARRIED": {
+      "Persons": 37206,
+      "Males": 26030,
+      "Females": 11176
+    },
+    "WIDOWED": {
+      "Persons": 23031,
+      "Males": 4641,
+      "Females": 18390
+    }
+  },
+  {
+    "age": "Row 16",
+    "MARRIED": {
+      "Persons": 21043,
+      "Males": 15767,
+      "Females": 5276
+    },
+    "WIDOWED": {
+      "Persons": 14733,
+      "Males": 3261,
+      "Females": 11472
+    }
+  },
+  {
+    "age": "Row 17",
+    "MARRIED": {
+      "Persons": 28120,
+      "Males": 23042,
+      "Females": 5078
+    },
+    "WIDOWED": {
+      "Persons": 42537,
+      "Males": 10283,
+      "Females": 32254
+    }
+  },
+  {
+    "age": "Total",
+    "MARRIED": {
+      "Persons": 694653,
+      "Males": 351386,
+      "Females": 343267
+    },
+    "WIDOWED": {
+      "Persons": 168069,
+      "Males": 40637,
+      "Females": 127432
+    }
+  }
+]
+```

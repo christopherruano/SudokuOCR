@@ -1,0 +1,251 @@
+```json
+[
+  {
+    "age": "0 - 5",
+    "1901": {
+      "Persons": 1384,
+      "Males": 1366,
+      "Females": 1403
+    },
+    "1891": {
+      "Persons": 1426,
+      "Males": 1376,
+      "Females": 1476
+    }
+  },
+  {
+    "age": "5 - 10",
+    "1901": {
+      "Persons": 1362,
+      "Males": 1385,
+      "Females": 1339
+    },
+    "1891": {
+      "Persons": 1331,
+      "Males": 1352,
+      "Females": 1311
+    }
+  },
+  {
+    "age": "10 - 15",
+    "1901": {
+      "Persons": 1273,
+      "Males": 1321,
+      "Females": 1225
+    },
+    "1891": {
+      "Persons": 1207,
+      "Males": 1267,
+      "Females": 1147
+    }
+  },
+  {
+    "age": "Total 0 - 15",
+    "1901": {
+      "Persons": 4021,
+      "Males": 4073,
+      "Females": 3968
+    },
+    "1891": {
+      "Persons": 3966,
+      "Males": 3996,
+      "Females": 3935
+    }
+  },
+  {
+    "age": "15 - 20",
+    "1901": {
+      "Persons": 974,
+      "Males": 970,
+      "Females": 979
+    },
+    "1891": {
+      "Persons": 945,
+      "Males": 944,
+      "Females": 946
+    }
+  },
+  {
+    "age": "20 - 25",
+    "1901": {
+      "Persons": 930,
+      "Males": 885,
+      "Females": 974
+    },
+    "1891": {
+      "Persons": 881,
+      "Males": 824,
+      "Females": 938
+    }
+  },
+  {
+    "age": "25 - 30",
+    "1901": {
+      "Persons": 887,
+      "Males": 865,
+      "Females": 909
+    },
+    "1891": {
+      "Persons": 909,
+      "Males": 874,
+      "Females": 943
+    }
+  },
+  {
+    "age": "30 - 35",
+    "1901": {
+      "Persons": 733,
+      "Males": 747,
+      "Females": 719
+    },
+    "1891": {
+      "Persons": 778,
+      "Males": 781,
+      "Females": 775
+    }
+  },
+  {
+    "age": "35 - 40",
+    "1901": {
+      "Persons": 597,
+      "Males": 639,
+      "Females": 555
+    },
+    "1891": {
+      "Persons": 634,
+      "Males": 687,
+      "Females": 580
+    }
+  },
+  {
+    "age": "Total 15 - 40",
+    "1901": {
+      "Persons": 4122,
+      "Males": 4107,
+      "Females": 4138
+    },
+    "1891": {
+      "Persons": 4148,
+      "Males": 4111,
+      "Females": 4184
+    }
+  },
+  {
+    "age": "40 - 45",
+    "1901": {
+      "Persons": 541,
+      "Males": 549,
+      "Females": 533
+    },
+    "1891": {
+      "Persons": 562,
+      "Males": 583,
+      "Females": 540
+    }
+  },
+  {
+    "age": "45 - 50",
+    "1901": {
+      "Persons": 354,
+      "Males": 363,
+      "Females": 344
+    },
+    "1891": {
+      "Persons": 355,
+      "Males": 380,
+      "Females": 329
+    }
+  },
+  {
+    "age": "50 - 55",
+    "1901": {
+      "Persons": 353,
+      "Males": 338,
+      "Females": 369
+    },
+    "1891": {
+      "Persons": 356,
+      "Males": 348,
+      "Females": 364
+    }
+  },
+  {
+    "age": "55 - 60",
+    "1901": {
+      "Persons": 188,
+      "Males": 193,
+      "Females": 183
+    },
+    "1891": {
+      "Persons": 179,
+      "Males": 185,
+      "Females": 173
+    }
+  },
+  {
+    "age": "Total 40 - 60",
+    "1901": {
+      "Persons": 1437,
+      "Males": 1444,
+      "Females": 1430
+    },
+    "1891": {
+      "Persons": 1453,
+      "Males": 1497,
+      "Females": 1408
+    }
+  },
+  {
+    "age": "60 and over",
+    "1901": {
+      "Persons": 417,
+      "Males": 373,
+      "Females": 460
+    },
+    "1891": {
+      "Persons": 429,
+      "Males": 392,
+      "Females": 469
+    }
+  },
+  {
+    "age": "Not Stated",
+    "1901": {
+      "Persons": 1,
+      "Males": 1,
+      "Females": 1
+    },
+    "1891": {
+      "Persons": 1,
+      "Males": 2,
+      "Females": 1
+    }
+  },
+  {
+    "age": "Total",
+    "1901": {
+      "Persons": 10000,
+      "Males": 10000,
+      "Females": 10000
+    },
+    "1891": {
+      "Persons": 10000,
+      "Males": 10000,
+      "Females": 10000
+    }
+  },
+  {
+    "age": "Mean age",
+    "1901": {
+      "Persons": 23,
+      "Males": 23,
+      "Females": 23
+    },
+    "1891": {
+      "Persons": 23,
+      "Males": 23,
+      "Females": 23
+    }
+  }
+]
+```

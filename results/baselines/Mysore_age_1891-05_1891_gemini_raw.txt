@@ -1,0 +1,334 @@
+```json
+[
+  {
+    "District": "Bangalore",
+    "age": "15-19",
+    "Males": 4317,
+    "Females": 22380
+  },
+  {
+    "District": "Bangalore",
+    "age": "20-24",
+    "Males": 12459,
+    "Females": 30002
+  },
+  {
+    "District": "Bangalore",
+    "age": "25-29",
+    "Males": 22305,
+    "Females": 27680
+  },
+  {
+    "District": "Bangalore",
+    "age": "30-34",
+    "Males": 24096,
+    "Females": 23483
+  },
+  {
+    "District": "Bangalore",
+    "age": "35-39",
+    "Males": 21872,
+    "Females": 15289
+  },
+  {
+    "District": "Kolar",
+    "age": "15-19",
+    "Males": 3009,
+    "Females": 18585
+  },
+  {
+    "District": "Kolar",
+    "age": "20-24",
+    "Males": 9656,
+    "Females": 25584
+  },
+  {
+    "District": "Kolar",
+    "age": "25-29",
+    "Males": 17264,
+    "Females": 22019
+  },
+  {
+    "District": "Kolar",
+    "age": "30-34",
+    "Males": 21291,
+    "Females": 18293
+  },
+  {
+    "District": "Kolar",
+    "age": "35-39",
+    "Males": 17809,
+    "Females": 11199
+  },
+  {
+    "District": "Tumkur",
+    "age": "15-19",
+    "Males": 3075,
+    "Females": 19140
+  },
+  {
+    "District": "Tumkur",
+    "age": "20-24",
+    "Males": 9351,
+    "Females": 25669
+  },
+  {
+    "District": "Tumkur",
+    "age": "25-29",
+    "Males": 17842,
+    "Females": 22057
+  },
+  {
+    "District": "Tumkur",
+    "age": "30-34",
+    "Males": 19666,
+    "Females": 16670
+  },
+  {
+    "District": "Tumkur",
+    "age": "35-39",
+    "Males": 18379,
+    "Females": 10708
+  },
+  {
+    "District": "Mysore",
+    "age": "15-19",
+    "Males": 10717,
+    "Females": 39417
+  },
+  {
+    "District": "Mysore",
+    "age": "20-24",
+    "Males": 23351,
+    "Females": 47619
+  },
+  {
+    "District": "Mysore",
+    "age": "25-29",
+    "Males": 37292,
+    "Females": 46005
+  },
+  {
+    "District": "Mysore",
+    "age": "30-34",
+    "Males": 38708,
+    "Females": 36291
+  },
+  {
+    "District": "Mysore",
+    "age": "35-39",
+    "Males": 34985,
+    "Females": 26196
+  },
+  {
+    "District": "Hassan",
+    "age": "15-19",
+    "Males": 2754,
+    "Females": 15165
+  },
+  {
+    "District": "Hassan",
+    "age": "20-24",
+    "Males": 8239,
+    "Females": 21481
+  },
+  {
+    "District": "Hassan",
+    "age": "25-29",
+    "Males": 15016,
+    "Females": 19635
+  },
+  {
+    "District": "Hassan",
+    "age": "30-34",
+    "Males": 17036,
+    "Females": 15228
+  },
+  {
+    "District": "Hassan",
+    "age": "35-39",
+    "Males": 14899,
+    "Females": 10667
+  },
+  {
+    "District": "Shimoga",
+    "age": "15-19",
+    "Males": 3789,
+    "Females": 17442
+  },
+  {
+    "District": "Shimoga",
+    "age": "20-24",
+    "Males": 9232,
+    "Females": 19055
+  },
+  {
+    "District": "Shimoga",
+    "age": "25-29",
+    "Males": 16510,
+    "Females": 16818
+  },
+  {
+    "District": "Shimoga",
+    "age": "30-34",
+    "Males": 17822,
+    "Females": 13881
+  },
+  {
+    "District": "Shimoga",
+    "age": "35-39",
+    "Males": 15400,
+    "Females": 8996
+  },
+  {
+    "District": "Kadur",
+    "age": "15-19",
+    "Males": 2052,
+    "Females": 9567
+  },
+  {
+    "District": "Kadur",
+    "age": "20-24",
+    "Males": 5818,
+    "Females": 12840
+  },
+  {
+    "District": "Kadur",
+    "age": "25-29",
+    "Males": 11248,
+    "Females": 11886
+  },
+  {
+    "District": "Kadur",
+    "age": "30-34",
+    "Males": 12573,
+    "Females": 9189
+  },
+  {
+    "District": "Kadur",
+    "age": "35-39",
+    "Males": 10769,
+    "Females": 5621
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "15-19",
+    "Males": 2256,
+    "Females": 12877
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "20-24",
+    "Males": 6855,
+    "Females": 18211
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "25-29",
+    "Males": 12965,
+    "Females": 15322
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "30-34",
+    "Males": 14011,
+    "Females": 11548
+  },
+  {
+    "District": "Chitaldurg",
+    "age": "35-39",
+    "Males": 12511,
+    "Females": 8069
+  },
+  {
+    "District": "Total",
+    "age": "15-19",
+    "Males": 31990,
+    "Females": 154523
+  },
+  {
+    "District": "Total",
+    "age": "20-24",
+    "Males": 84971,
+    "Females": 200841
+  },
+  {
+    "District": "Total",
+    "age": "25-29",
+    "Males": 150442,
+    "Females": 181422
+  },
+  {
+    "District": "Total",
+    "age": "30-34",
+    "Males": 165203,
+    "Females": 144083
+  },
+  {
+    "District": "Total",
+    "age": "35-39",
+    "Males": 146624,
+    "Females": 96745
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "15-19",
+    "Males": 419,
+    "Females": 3345
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "20-24",
+    "Males": 1762,
+    "Females": 4106
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "25-29",
+    "Males": 3035,
+    "Females": 3498
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "30-34",
+    "Males": 3207,
+    "Females": 3030
+  },
+  {
+    "District": "The Civil and Military Station, Bangalore",
+    "age": "35-39",
+    "Males": 2487,
+    "Females": 1734
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "15-19",
+    "Males": 32385,
+    "Females": 157868
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "20-24",
+    "Males": 86733,
+    "Females": 204947
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "25-29",
+    "Males": 153477,
+    "Females": 184920
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "30-34",
+    "Males": 168410,
+    "Females": 147113
+  },
+  {
+    "District": "GRAND TOTAL",
+    "age": "35-39",
+    "Males": 149111,
+    "Females": 98479
+  }
+]
+```

@@ -1,0 +1,341 @@
+{
+  "source_image": "age_tables/Mysore/1891/Mysore_age_1891-08.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 3,
+  "elapsed_seconds": 482.6,
+  "metadata": {
+    "title": "TABLE VIII PART A - Continued",
+    "region": "Mysore",
+    "year": 1911,
+    "data_type": "absolute",
+    "column_groups": [
+      "20-24",
+      "25-29",
+      "30-34",
+      "35-39",
+      "40-44"
+    ]
+  },
+  "data": [
+    {
+      "name": "(3) Widowed.",
+      "rows": [
+        {
+          "age": "1 Bangalore",
+          "20-24": {
+            "persons": 2129,
+            "males": 241,
+            "females": 1888
+          },
+          "25-29": {
+            "persons": 4385,
+            "males": 607,
+            "females": 3778
+          },
+          "30-34": {
+            "persons": 7685,
+            "males": 1091,
+            "females": 6594
+          },
+          "35-39": {
+            "persons": 7730,
+            "males": 1304,
+            "females": 6426
+          },
+          "40-44": {
+            "persons": 12513,
+            "males": 2147,
+            "females": 10366
+          }
+        },
+        {
+          "age": "2 Kolar",
+          "20-24": {
+            "persons": 2668,
+            "males": 240,
+            "females": 2428
+          },
+          "25-29": {
+            "persons": 4599,
+            "males": 612,
+            "females": 3987
+          },
+          "30-34": {
+            "persons": 8166,
+            "males": 1121,
+            "females": 7045
+          },
+          "35-39": {
+            "persons": 7313,
+            "males": 1333,
+            "females": 5980
+          },
+          "40-44": {
+            "persons": 11466,
+            "males": 2261,
+            "females": 9205
+          }
+        },
+        {
+          "age": "3 Tumkur",
+          "20-24": {
+            "persons": 2506,
+            "males": 223,
+            "females": 2283
+          },
+          "25-29": {
+            "persons": 4933,
+            "males": 647,
+            "females": 4286
+          },
+          "30-34": {
+            "persons": 8323,
+            "males": 1138,
+            "females": 7185
+          },
+          "35-39": {
+            "persons": 8626,
+            "males": 1472,
+            "females": 7154
+          },
+          "40-44": {
+            "persons": 12047,
+            "males": 2072,
+            "females": 9975
+          }
+        },
+        {
+          "age": "4 Mysore",
+          "20-24": {
+            "persons": 3530,
+            "males": 320,
+            "females": 3210
+          },
+          "25-29": {
+            "persons": 6708,
+            "males": 791,
+            "females": 5917
+          },
+          "30-34": {
+            "persons": 11072,
+            "males": 1260,
+            "females": 9812
+          },
+          "35-39": {
+            "persons": 11939,
+            "males": 1413,
+            "females": 10526
+          },
+          "40-44": {
+            "persons": 19764,
+            "males": 2384,
+            "females": 17380
+          }
+        },
+        {
+          "age": "5 Hassan",
+          "20-24": {
+            "persons": 1760,
+            "males": 178,
+            "females": 1582
+          },
+          "25-29": {
+            "persons": 3415,
+            "males": 503,
+            "females": 2912
+          },
+          "30-34": {
+            "persons": 5837,
+            "males": 826,
+            "females": 5011
+          },
+          "35-39": {
+            "persons": 5946,
+            "males": 945,
+            "females": 5001
+          },
+          "40-44": {
+            "persons": 9337,
+            "males": 1309,
+            "females": 8028
+          }
+        },
+        {
+          "age": "6 Shimoga",
+          "20-24": {
+            "persons": 2726,
+            "males": 270,
+            "females": 2456
+          },
+          "25-29": {
+            "persons": 4786,
+            "males": 811,
+            "females": 3975
+          },
+          "30-34": {
+            "persons": 7208,
+            "males": 1409,
+            "females": 5799
+          },
+          "35-39": {
+            "persons": 7009,
+            "males": 1614,
+            "females": 5395
+          },
+          "40-44": {
+            "persons": 10394,
+            "males": 2393,
+            "females": 8001
+          }
+        },
+        {
+          "age": "7 Kadur",
+          "20-24": {
+            "persons": 1383,
+            "males": 140,
+            "females": 1243
+          },
+          "25-29": {
+            "persons": 2862,
+            "males": 481,
+            "females": 2381
+          },
+          "30-34": {
+            "persons": 4488,
+            "males": 859,
+            "females": 3629
+          },
+          "35-39": {
+            "persons": 4293,
+            "males": 928,
+            "females": 3365
+          },
+          "40-44": {
+            "persons": 6201,
+            "males": 1212,
+            "females": 4989
+          }
+        },
+        {
+          "age": "8 Chitaldrug",
+          "20-24": {
+            "persons": 1457,
+            "males": 190,
+            "females": 1267
+          },
+          "25-29": {
+            "persons": 3256,
+            "males": 512,
+            "females": 2744
+          },
+          "30-34": {
+            "persons": 5243,
+            "males": 787,
+            "females": 4456
+          },
+          "35-39": {
+            "persons": 5195,
+            "males": 889,
+            "females": 4306
+          },
+          "40-44": {
+            "persons": 6954,
+            "males": 1293,
+            "females": 5661
+          }
+        },
+        {
+          "age": "Total",
+          "20-24": {
+            "persons": 18159,
+            "males": 1802,
+            "females": 16357
+          },
+          "25-29": {
+            "persons": 34944,
+            "males": 4964,
+            "females": 29980
+          },
+          "30-34": {
+            "persons": 58022,
+            "males": 8491,
+            "females": 49531
+          },
+          "35-39": {
+            "persons": 58051,
+            "males": 9898,
+            "females": 48153
+          },
+          "40-44": {
+            "persons": 88676,
+            "males": 15071,
+            "females": 73605
+          }
+        },
+        {
+          "age": "The Civil and Military Station, Bangalore",
+          "20-24": {
+            "persons": 317,
+            "males": 41,
+            "females": 276
+          },
+          "25-29": {
+            "persons": 516,
+            "males": 86,
+            "females": 430
+          },
+          "30-34": {
+            "persons": 860,
+            "males": 121,
+            "females": 739
+          },
+          "35-39": {
+            "persons": 755,
+            "males": 123,
+            "females": 632
+          },
+          "40-44": {
+            "persons": 1484,
+            "males": 183,
+            "females": 1301
+          }
+        },
+        {
+          "age": "GRAND TOTAL",
+          "20-24": {
+            "persons": 18476,
+            "males": 1843,
+            "females": 16633
+          },
+          "25-29": {
+            "persons": 35460,
+            "males": 5050,
+            "females": 30410
+          },
+          "30-34": {
+            "persons": 58882,
+            "males": 8612,
+            "females": 50270
+          },
+          "35-39": {
+            "persons": 58806,
+            "males": 10021,
+            "females": 48785
+          },
+          "40-44": {
+            "persons": 90160,
+            "males": 15254,
+            "females": 74906
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 265,
+    "passed": 265,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

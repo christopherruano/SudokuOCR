@@ -1,0 +1,211 @@
+```json
+[
+  {
+    "age": "0-1",
+    "1901 Males": 28,
+    "1901 Females": 35,
+    "1891 Males": 22,
+    "1891 Females": 20,
+    "1881 Males": 20,
+    "1881 Females": 28
+  },
+  {
+    "age": "1-2",
+    "1901 Males": 9,
+    "1901 Females": 10,
+    "1891 Males": 15,
+    "1891 Females": 20,
+    "1881 Males": 13,
+    "1881 Females": 17
+  },
+  {
+    "age": "2-3",
+    "1901 Males": 29,
+    "1901 Females": 26,
+    "1891 Males": 25,
+    "1891 Females": 33,
+    "1881 Males": 14,
+    "1881 Females": 19
+  },
+  {
+    "age": "3-4",
+    "1901 Males": 18,
+    "1901 Females": 25,
+    "1891 Males": 20,
+    "1891 Females": 35,
+    "1881 Males": 18,
+    "1881 Females": 22
+  },
+  {
+    "age": "4-5",
+    "1901 Males": 21,
+    "1901 Females": 27,
+    "1891 Males": 23,
+    "1891 Females": 20,
+    "1881 Males": 19,
+    "1881 Females": 24
+  },
+  {
+    "age": "Total 0-5",
+    "1901 Males": 95,
+    "1901 Females": 133,
+    "1891 Males": 111,
+    "1891 Females": 146,
+    "1881 Males": 84,
+    "1881 Females": 113
+  },
+  {
+    "age": "5-10",
+    "1901 Males": 118,
+    "1901 Females": 139,
+    "1891 Males": 115,
+    "1891 Females": 130,
+    "1881 Males": 111,
+    "1881 Females": 142
+  },
+  {
+    "age": "10-15",
+    "1901 Males": 112,
+    "1901 Females": 129,
+    "1891 Males": 94,
+    "1891 Females": 99,
+    "1881 Males": 113,
+    "1881 Females": 117
+  },
+  {
+    "age": "Total 0-15",
+    "1901 Males": 328,
+    "1901 Females": 391,
+    "1891 Males": 320,
+    "1891 Females": 384,
+    "1881 Males": 308,
+    "1881 Females": 372
+  },
+  {
+    "age": "15-20",
+    "1901 Males": 97,
+    "1901 Females": 96,
+    "1891 Males": 99,
+    "1891 Females": 103,
+    "1881 Males": 115,
+    "1881 Females": 110
+  },
+  {
+    "age": "20-25",
+    "1901 Males": 101,
+    "1901 Females": 104,
+    "1891 Males": 109,
+    "1891 Females": 112,
+    "1881 Males": 114,
+    "1881 Females": 118
+  },
+  {
+    "age": "25-30",
+    "1901 Males": 122,
+    "1901 Females": 109,
+    "1891 Males": 129,
+    "1891 Females": 110,
+    "1881 Males": 131,
+    "1881 Females": 118
+  },
+  {
+    "age": "30-35",
+    "1901 Males": 107,
+    "1901 Females": 84,
+    "1891 Males": 103,
+    "1891 Females": 82,
+    "1881 Males": 108,
+    "1881 Females": 85
+  },
+  {
+    "age": "35-40",
+    "1901 Males": 79,
+    "1901 Females": 54,
+    "1891 Males": 76,
+    "1891 Females": 54,
+    "1881 Males": 78,
+    "1881 Females": 54
+  },
+  {
+    "age": "Total 15-40",
+    "1901 Males": 506,
+    "1901 Females": 447,
+    "1891 Males": 516,
+    "1891 Females": 461,
+    "1881 Males": 546,
+    "1881 Females": 485
+  },
+  {
+    "age": "40-45",
+    "1901 Males": 64,
+    "1901 Females": 58,
+    "1891 Males": 61,
+    "1891 Females": 53,
+    "1881 Males": 58,
+    "1881 Females": 48
+  },
+  {
+    "age": "45-50",
+    "1901 Males": 35,
+    "1901 Females": 36,
+    "1891 Males": 36,
+    "1891 Females": 36,
+    "1881 Males": 31,
+    "1881 Females": 26
+  },
+  {
+    "age": "50-55",
+    "1901 Males": 32,
+    "1901 Females": 35,
+    "1891 Males": 31,
+    "1891 Females": 33,
+    "1881 Males": 28,
+    "1881 Females": 29
+  },
+  {
+    "age": "55-60",
+    "1901 Males": 13,
+    "1901 Females": 13,
+    "1891 Males": 13,
+    "1891 Females": 11,
+    "1881 Males": 10,
+    "1881 Females": 10
+  },
+  {
+    "age": "Total 40-60",
+    "1901 Males": 144,
+    "1901 Females": 142,
+    "1891 Males": 141,
+    "1891 Females": 134,
+    "1881 Males": 127,
+    "1881 Females": 113
+  },
+  {
+    "age": "60 and over",
+    "1901 Males": 24,
+    "1901 Females": 38,
+    "1891 Males": 23,
+    "1891 Females": 31,
+    "1881 Males": 19,
+    "1881 Females": 30
+  },
+  {
+    "age": "Total",
+    "1901 Males": 1000,
+    "1901 Females": 1000,
+    "1891 Males": 1000,
+    "1891 Females": 1000,
+    "1881 Males": 1000,
+    "1881 Females": 1000
+  },
+  {
+    "age": "Mean Age",
+    "1901 Males": 25,
+    "1901 Females": 23,
+    "1891 Males": 24,
+    "1891 Females": 23,
+    "1881 Males": 24,
+    "1881 Females": 23
+  }
+]
+```

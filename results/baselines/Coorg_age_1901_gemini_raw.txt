@@ -1,0 +1,349 @@
+```json
+[
+  {
+    "age": "0-1",
+    "1901": {
+      "Males": 28,
+      "Females": 35
+    },
+    "1891": {
+      "Males": 22,
+      "Females": 29
+    },
+    "1881": {
+      "Males": 20,
+      "Females": 28
+    }
+  },
+  {
+    "age": "1-2",
+    "1901": {
+      "Males": 8,
+      "Females": 10
+    },
+    "1891": {
+      "Males": 15,
+      "Females": 20
+    },
+    "1881": {
+      "Males": 13,
+      "Females": 17
+    }
+  },
+  {
+    "age": "2-3",
+    "1901": {
+      "Males": 20,
+      "Females": 26
+    },
+    "1891": {
+      "Males": 25,
+      "Females": 33
+    },
+    "1881": {
+      "Males": 14,
+      "Females": 19
+    }
+  },
+  {
+    "age": "3-4",
+    "1901": {
+      "Males": 18,
+      "Females": 25
+    },
+    "1891": {
+      "Males": 26,
+      "Females": 35
+    },
+    "1881": {
+      "Males": 18,
+      "Females": 25
+    }
+  },
+  {
+    "age": "4-5",
+    "1901": {
+      "Males": 21,
+      "Females": 27
+    },
+    "1891": {
+      "Males": 23,
+      "Females": 29
+    },
+    "1881": {
+      "Males": 19,
+      "Females": 24
+    }
+  },
+  {
+    "age": "TOTAL 0-5",
+    "1901": {
+      "Males": 95,
+      "Females": 123
+    },
+    "1891": {
+      "Males": 111,
+      "Females": 146
+    },
+    "1881": {
+      "Males": 84,
+      "Females": 113
+    }
+  },
+  {
+    "age": "5-10",
+    "1901": {
+      "Males": 112,
+      "Females": 139
+    },
+    "1891": {
+      "Males": 115,
+      "Females": 139
+    },
+    "1881": {
+      "Males": 111,
+      "Females": 142
+    }
+  },
+  {
+    "age": "10-15",
+    "1901": {
+      "Males": 119,
+      "Females": 129
+    },
+    "1891": {
+      "Males": 94,
+      "Females": 99
+    },
+    "1881": {
+      "Males": 113,
+      "Females": 117
+    }
+  },
+  {
+    "age": "TOTAL 0-15",
+    "1901": {
+      "Males": 326,
+      "Females": 391
+    },
+    "1891": {
+      "Males": 320,
+      "Females": 384
+    },
+    "1881": {
+      "Males": 308,
+      "Females": 372
+    }
+  },
+  {
+    "age": "15-20",
+    "1901": {
+      "Males": 97,
+      "Females": 96
+    },
+    "1891": {
+      "Males": 99,
+      "Females": 103
+    },
+    "1881": {
+      "Males": 115,
+      "Females": 110
+    }
+  },
+  {
+    "age": "20-25",
+    "1901": {
+      "Males": 101,
+      "Females": 104
+    },
+    "1891": {
+      "Males": 109,
+      "Females": 112
+    },
+    "1881": {
+      "Males": 114,
+      "Females": 118
+    }
+  },
+  {
+    "age": "25-30",
+    "1901": {
+      "Males": 122,
+      "Females": 109
+    },
+    "1891": {
+      "Males": 128,
+      "Females": 110
+    },
+    "1881": {
+      "Males": 131,
+      "Females": 118
+    }
+  },
+  {
+    "age": "30-35",
+    "1901": {
+      "Males": 107,
+      "Females": 84
+    },
+    "1891": {
+      "Males": 103,
+      "Females": 82
+    },
+    "1881": {
+      "Males": 108,
+      "Females": 85
+    }
+  },
+  {
+    "age": "35-40",
+    "1901": {
+      "Males": 79,
+      "Females": 54
+    },
+    "1891": {
+      "Males": 77,
+      "Females": 54
+    },
+    "1881": {
+      "Males": 78,
+      "Females": 54
+    }
+  },
+  {
+    "age": "TOTAL 15-40",
+    "1901": {
+      "Males": 506,
+      "Females": 447
+    },
+    "1891": {
+      "Males": 516,
+      "Females": 461
+    },
+    "1881": {
+      "Males": 546,
+      "Females": 485
+    }
+  },
+  {
+    "age": "40-45",
+    "1901": {
+      "Males": 64,
+      "Females": 53
+    },
+    "1891": {
+      "Males": 61,
+      "Females": 53
+    },
+    "1881": {
+      "Males": 58,
+      "Females": 48
+    }
+  },
+  {
+    "age": "45-50",
+    "1901": {
+      "Males": 35,
+      "Females": 28
+    },
+    "1891": {
+      "Males": 36,
+      "Females": 27
+    },
+    "1881": {
+      "Males": 31,
+      "Females": 26
+    }
+  },
+  {
+    "age": "50-55",
+    "1901": {
+      "Males": 32,
+      "Females": 35
+    },
+    "1891": {
+      "Males": 31,
+      "Females": 33
+    },
+    "1881": {
+      "Males": 28,
+      "Females": 29
+    }
+  },
+  {
+    "age": "55-60",
+    "1901": {
+      "Males": 13,
+      "Females": 13
+    },
+    "1891": {
+      "Males": 13,
+      "Females": 11
+    },
+    "1881": {
+      "Males": 10,
+      "Females": 10
+    }
+  },
+  {
+    "age": "TOTAL 40-60",
+    "1901": {
+      "Males": 144,
+      "Females": 129
+    },
+    "1891": {
+      "Males": 141,
+      "Females": 124
+    },
+    "1881": {
+      "Males": 127,
+      "Females": 113
+    }
+  },
+  {
+    "age": "60 and over",
+    "1901": {
+      "Males": 24,
+      "Females": 33
+    },
+    "1891": {
+      "Males": 23,
+      "Females": 31
+    },
+    "1881": {
+      "Males": 19,
+      "Females": 30
+    }
+  },
+  {
+    "age": "TOTAL",
+    "1901": {
+      "Males": 1000,
+      "Females": 1000
+    },
+    "1891": {
+      "Males": 1000,
+      "Females": 1000
+    },
+    "1881": {
+      "Males": 1000,
+      "Females": 1000
+    }
+  },
+  {
+    "age": "Mean Age",
+    "1901": {
+      "Males": 25,
+      "Females": 23
+    },
+    "1891": {
+      "Males": 24,
+      "Females": 23
+    },
+    "1881": {
+      "Males": 24,
+      "Females": 23
+    }
+  }
+]
+```

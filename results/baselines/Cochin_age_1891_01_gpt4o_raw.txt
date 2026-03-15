@@ -1,0 +1,175 @@
+```json
+[
+  {
+    "age": "0-5",
+    "Persons_1901": 1884,
+    "Males_1901": 1906,
+    "Females_1901": 1803,
+    "Persons_1891": 1426,
+    "Males_1891": 1376,
+    "Females_1891": 1476
+  },
+  {
+    "age": "5-10",
+    "Persons_1901": 1362,
+    "Males_1901": 1386,
+    "Females_1901": 1339,
+    "Persons_1891": 1392,
+    "Males_1891": 1352,
+    "Females_1891": 1311
+  },
+  {
+    "age": "10-15",
+    "Persons_1901": 1273,
+    "Males_1901": 1321,
+    "Females_1901": 1225,
+    "Persons_1891": 1207,
+    "Males_1891": 1267,
+    "Females_1891": 1147
+  },
+  {
+    "age": "Total 0-15",
+    "Persons_1901": 4021,
+    "Males_1901": 4037,
+    "Females_1901": 3968,
+    "Persons_1891": 3966,
+    "Males_1891": 3996,
+    "Females_1891": 3935
+  },
+  {
+    "age": "15-20",
+    "Persons_1901": 974,
+    "Males_1901": 970,
+    "Females_1901": 979,
+    "Persons_1891": 945,
+    "Males_1891": 944,
+    "Females_1891": 916
+  },
+  {
+    "age": "20-25",
+    "Persons_1901": 930,
+    "Males_1901": 885,
+    "Females_1901": 974,
+    "Persons_1891": 881,
+    "Males_1891": 824,
+    "Females_1891": 938
+  },
+  {
+    "age": "25-30",
+    "Persons_1901": 887,
+    "Males_1901": 865,
+    "Females_1901": 909,
+    "Persons_1891": 909,
+    "Males_1891": 874,
+    "Females_1891": 943
+  },
+  {
+    "age": "30-35",
+    "Persons_1901": 733,
+    "Males_1901": 747,
+    "Females_1901": 719,
+    "Persons_1891": 778,
+    "Males_1891": 781,
+    "Females_1891": 775
+  },
+  {
+    "age": "35-40",
+    "Persons_1901": 597,
+    "Males_1901": 639,
+    "Females_1901": 555,
+    "Persons_1891": 634,
+    "Males_1891": 687,
+    "Females_1891": 580
+  },
+  {
+    "age": "Total 15-40",
+    "Persons_1901": 4122,
+    "Males_1901": 4107,
+    "Females_1901": 4138,
+    "Persons_1891": 4148,
+    "Males_1891": 4111,
+    "Females_1891": 4184
+  },
+  {
+    "age": "40-45",
+    "Persons_1901": 541,
+    "Males_1901": 519,
+    "Females_1901": 533,
+    "Persons_1891": 562,
+    "Males_1891": 583,
+    "Females_1891": 540
+  },
+  {
+    "age": "45-50",
+    "Persons_1901": 384,
+    "Males_1901": 368,
+    "Females_1901": 344,
+    "Persons_1891": 355,
+    "Males_1891": 380,
+    "Females_1891": 329
+  },
+  {
+    "age": "50-55",
+    "Persons_1901": 338,
+    "Males_1901": 338,
+    "Females_1901": 309,
+    "Persons_1891": 305,
+    "Males_1891": 361,
+    "Females_1891": 246
+  },
+  {
+    "age": "55-60",
+    "Persons_1901": 188,
+    "Males_1901": 193,
+    "Females_1901": 183,
+    "Persons_1891": 178,
+    "Males_1891": 185,
+    "Females_1891": 173
+  },
+  {
+    "age": "Total 40-60",
+    "Persons_1901": 1437,
+    "Males_1901": 1441,
+    "Females_1901": 1430,
+    "Persons_1891": 1453,
+    "Males_1891": 1497,
+    "Females_1891": 1408
+  },
+  {
+    "age": "60 and over",
+    "Persons_1901": 417,
+    "Males_1901": 373,
+    "Females_1901": 460,
+    "Persons_1891": 429,
+    "Males_1891": 392,
+    "Females_1891": 469
+  },
+  {
+    "age": "Not Stated",
+    "Persons_1901": 1,
+    "Males_1901": 1,
+    "Females_1901": 1,
+    "Persons_1891": 1,
+    "Males_1891": 0,
+    "Females_1891": 1
+  },
+  {
+    "age": "Total",
+    "Persons_1901": 10000,
+    "Males_1901": 10000,
+    "Females_1901": 10000,
+    "Persons_1891": 10000,
+    "Males_1891": 10000,
+    "Females_1891": 10000
+  },
+  {
+    "age": "Mean age",
+    "Persons_1901": 29,
+    "Males_1901": 29,
+    "Females_1901": 23,
+    "Persons_1891": 23,
+    "Males_1891": 23,
+    "Females_1891": 23
+  }
+]
+```

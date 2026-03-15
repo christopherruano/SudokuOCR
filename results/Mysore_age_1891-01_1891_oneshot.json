@@ -1,0 +1,285 @@
+{
+  "source_image": "age_tables/Mysore/1891/Mysore_age_1891-01.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 133.7,
+  "metadata": {
+    "title": "TABLE VIII. PART A. Civil Condition by Religion and Age.\u2014Total Population.",
+    "region": "Mysore",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "Total Unmarried",
+      "0\u20144",
+      "5\u20149",
+      "10\u201414"
+    ]
+  },
+  "data": [
+    {
+      "name": "Civil Condition by Religion and Age.\u2014Total Population.",
+      "rows": [
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 295721,
+            "males": 177755,
+            "females": 117966
+          },
+          "0\u20144": {
+            "persons": 98584,
+            "males": 47672,
+            "females": 50912
+          },
+          "5\u20149": {
+            "persons": 95941,
+            "males": 48997,
+            "females": 46944
+          },
+          "10\u201414": {
+            "persons": 43554,
+            "males": 28554,
+            "females": 15000
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 249167,
+            "males": 153628,
+            "females": 95539
+          },
+          "0\u20144": {
+            "persons": 82621,
+            "males": 39905,
+            "females": 42716
+          },
+          "5\u20149": {
+            "persons": 75467,
+            "males": 38436,
+            "females": 37031
+          },
+          "10\u201414": {
+            "persons": 32827,
+            "males": 21515,
+            "females": 11312
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 259379,
+            "males": 157711,
+            "females": 101668
+          },
+          "0\u20144": {
+            "persons": 89328,
+            "males": 43327,
+            "females": 46001
+          },
+          "5\u20149": {
+            "persons": 76563,
+            "males": 38697,
+            "females": 37866
+          },
+          "10\u201414": {
+            "persons": 31303,
+            "males": 19995,
+            "females": 11308
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 318601,
+            "males": 206985,
+            "females": 111616
+          },
+          "0\u20144": {
+            "persons": 169682,
+            "males": 83199,
+            "females": 86483
+          },
+          "5\u20149": {
+            "persons": 156863,
+            "males": 80452,
+            "females": 76411
+          },
+          "10\u201414": {
+            "persons": 91377,
+            "males": 58491,
+            "females": 32886
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 248066,
+            "males": 144688,
+            "females": 103378
+          },
+          "0\u20144": {
+            "persons": 74781,
+            "males": 36551,
+            "females": 38230
+          },
+          "5\u20149": {
+            "persons": 72849,
+            "males": 36191,
+            "females": 36658
+          },
+          "10\u201414": {
+            "persons": 45790,
+            "males": 25737,
+            "females": 20053
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 255286,
+            "males": 154882,
+            "females": 100404
+          },
+          "0\u20144": {
+            "persons": 67858,
+            "males": 32117,
+            "females": 35741
+          },
+          "5\u20149": {
+            "persons": 70785,
+            "males": 35620,
+            "females": 35165
+          },
+          "10\u201414": {
+            "persons": 50104,
+            "males": 30284,
+            "females": 19820
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 159582,
+            "males": 97207,
+            "females": 62375
+          },
+          "0\u20144": {
+            "persons": 42868,
+            "males": 21102,
+            "females": 21766
+          },
+          "5\u20149": {
+            "persons": 44782,
+            "males": 22075,
+            "females": 22707
+          },
+          "10\u201414": {
+            "persons": 29321,
+            "males": 17280,
+            "females": 12041
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 198507,
+            "males": 117136,
+            "females": 81371
+          },
+          "0\u20144": {
+            "persons": 67650,
+            "males": 32915,
+            "females": 34735
+          },
+          "5\u20149": {
+            "persons": 61207,
+            "males": 30794,
+            "females": 30413
+          },
+          "10\u201414": {
+            "persons": 26872,
+            "males": 16290,
+            "females": 10582
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 2184612,
+            "males": 1309992,
+            "females": 874620
+          },
+          "0\u20144": {
+            "persons": 693441,
+            "males": 336788,
+            "females": 356653
+          },
+          "5\u20149": {
+            "persons": 677812,
+            "males": 354617,
+            "females": 323195
+          },
+          "10\u201414": {
+            "persons": 350847,
+            "males": 218146,
+            "females": 132701
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 48225,
+            "males": 28465,
+            "females": 19760
+          },
+          "0\u20144": {
+            "persons": 13704,
+            "males": 6759,
+            "females": 6945
+          },
+          "5\u20149": {
+            "persons": 13424,
+            "males": 6801,
+            "females": 6623
+          },
+          "10\u201414": {
+            "persons": 8857,
+            "males": 5061,
+            "females": 3796
+          }
+        },
+        {
+          "location": null,
+          "Total Unmarried": {
+            "persons": 2232837,
+            "males": 1338457,
+            "females": 894380
+          },
+          "0\u20144": {
+            "persons": 707145,
+            "males": 343547,
+            "females": 363598
+          },
+          "5\u20149": {
+            "persons": 691380,
+            "males": 361562,
+            "females": 329818
+          },
+          "10\u201414": {
+            "persons": 359704,
+            "males": 223207,
+            "females": 136497
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 176,
+    "passed": 176,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

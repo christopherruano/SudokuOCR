@@ -1,0 +1,121 @@
+{
+  "source_image": "age_tables/Mysore/1891/Mysore_age_1891-07.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 3,
+  "elapsed_seconds": 3833.3,
+  "metadata": {
+    "title": "TABLE VIII. PART A.-Continued.",
+    "region": "",
+    "year": 0,
+    "data_type": "absolute",
+    "column_groups": [
+      "Total Widowed.",
+      "0-4.",
+      "5-9.",
+      "10-14.",
+      "15-19."
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VIII. PART A.-Continued.",
+      "rows": [
+        {
+          "age": "1 Bangalore",
+          "Total Widowed.": {
+            "persons": 91768,
+            "males": 17175,
+            "females": 74593
+          }
+        },
+        {
+          "age": "2 Kolar",
+          "Total Widowed.": {
+            "persons": 86283,
+            "males": 17177,
+            "females": 69106
+          }
+        },
+        {
+          "age": "3 Tumkur",
+          "Total Widowed.": {
+            "persons": 81838,
+            "males": 15477,
+            "females": 66361
+          }
+        },
+        {
+          "age": "4 Mysore",
+          "Total Widowed.": {
+            "persons": 142428,
+            "males": 19724,
+            "females": 122704
+          }
+        },
+        {
+          "age": "5 Hassan",
+          "Total Widowed.": {
+            "persons": 62843,
+            "males": 10328,
+            "females": 52515
+          }
+        },
+        {
+          "age": "6 Shimoga",
+          "Total Widowed.": {
+            "persons": 70684,
+            "males": 16435,
+            "females": 54249
+          }
+        },
+        {
+          "age": "7 Kadur",
+          "Total Widowed.": {
+            "persons": 39929,
+            "males": 8412,
+            "females": 31517
+          }
+        },
+        {
+          "age": "8 Chitaldurg",
+          "Total Widowed.": {
+            "persons": 50814,
+            "males": 10764,
+            "females": 40050
+          }
+        },
+        {
+          "age": "The Civil and Military Station, Bangalore...",
+          "Total Widowed.": {
+            "persons": 11093,
+            "males": 1871,
+            "females": 9222
+          }
+        },
+        {
+          "age": "GRAND TOTAL...",
+          "Total Widowed.": {
+            "persons": 637680,
+            "males": 117363,
+            "females": 520317
+          }
+        },
+        {
+          "age": "Total",
+          "Total Widowed.": {
+            "persons": 626587,
+            "males": 115492,
+            "females": 511095
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 50,
+    "passed": 50,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

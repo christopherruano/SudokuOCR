@@ -1,0 +1,475 @@
+{
+  "total_matched": 6462,
+  "total_cells": 16428,
+  "overall_accuracy": 39.34,
+  "per_table": [
+    {
+      "name": "Adilabad_1931",
+      "matched": 109,
+      "total": 396,
+      "accuracy": 27.5,
+      "elapsed": 13.0,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Adilabad_1941",
+      "matched": 385,
+      "total": 495,
+      "accuracy": 77.8,
+      "elapsed": 2.5,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Assam_age_1891-3_1891",
+      "matched": 32,
+      "total": 378,
+      "accuracy": 8.5,
+      "elapsed": 3.7,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Assam_age_1891-4_1891",
+      "matched": 11,
+      "total": 378,
+      "accuracy": 2.9,
+      "elapsed": 3.2,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Assam_age_1891-6_1891",
+      "matched": 0,
+      "total": 378,
+      "accuracy": 0.0,
+      "elapsed": 2.9,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Atraf-i-Balda_1931",
+      "matched": 84,
+      "total": 396,
+      "accuracy": 21.2,
+      "elapsed": 2.1,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Atraf-i-balda_1941",
+      "matched": 366,
+      "total": 450,
+      "accuracy": 81.3,
+      "elapsed": 1.9,
+      "status": "ok",
+      "tables_detected": 3
+    },
+    {
+      "name": "Aurangabad_1931",
+      "matched": 112,
+      "total": 528,
+      "accuracy": 21.2,
+      "elapsed": 2.8,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Aurangabad_1941",
+      "matched": 108,
+      "total": 165,
+      "accuracy": 65.5,
+      "elapsed": 2.9,
+      "status": "ok",
+      "tables_detected": 3
+    },
+    {
+      "name": "Baghat_1941",
+      "matched": 333,
+      "total": 495,
+      "accuracy": 67.3,
+      "elapsed": 1.7,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Bidar_1931",
+      "matched": 136,
+      "total": 396,
+      "accuracy": 34.3,
+      "elapsed": 2.1,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Bidar_1941",
+      "matched": 342,
+      "total": 495,
+      "accuracy": 69.1,
+      "elapsed": 2.6,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Bir_1931",
+      "matched": 53,
+      "total": 264,
+      "accuracy": 20.1,
+      "elapsed": 2.0,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Bir_1941",
+      "matched": 0,
+      "total": 495,
+      "accuracy": 0.0,
+      "elapsed": 0.1,
+      "status": "ok",
+      "tables_detected": 0
+    },
+    {
+      "name": "Cochin_age_1891_01",
+      "matched": 28,
+      "total": 114,
+      "accuracy": 24.6,
+      "elapsed": 0.8,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Coorg_age_1901",
+      "matched": 75,
+      "total": 138,
+      "accuracy": 54.3,
+      "elapsed": 0.9,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Eastern_division_age_1901",
+      "matched": 0,
+      "total": 114,
+      "accuracy": 0.0,
+      "elapsed": 1.0,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Gulbarga_1931",
+      "matched": 102,
+      "total": 528,
+      "accuracy": 19.3,
+      "elapsed": 3.4,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Gulbarga_1941",
+      "matched": 317,
+      "total": 495,
+      "accuracy": 64.0,
+      "elapsed": 1.8,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Hyderabad_state_summary_age_1901",
+      "matched": 131,
+      "total": 240,
+      "accuracy": 54.6,
+      "elapsed": 1.9,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Karimnagar_1931",
+      "matched": 99,
+      "total": 396,
+      "accuracy": 25.0,
+      "elapsed": 2.3,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Karimnagar_1941",
+      "matched": 326,
+      "total": 495,
+      "accuracy": 65.9,
+      "elapsed": 2.3,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Mahbubnagar_1931",
+      "matched": 142,
+      "total": 396,
+      "accuracy": 35.9,
+      "elapsed": 2.3,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Mahbubnagar_1941",
+      "matched": 312,
+      "total": 495,
+      "accuracy": 63.0,
+      "elapsed": 2.7,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Medak_1931",
+      "matched": 69,
+      "total": 264,
+      "accuracy": 26.1,
+      "elapsed": 2.0,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Medak_1941",
+      "matched": 286,
+      "total": 495,
+      "accuracy": 57.8,
+      "elapsed": 2.2,
+      "status": "ok",
+      "tables_detected": 3
+    },
+    {
+      "name": "Mysore_age_1891-01_1891",
+      "matched": 0,
+      "total": 132,
+      "accuracy": 0.0,
+      "elapsed": 3.3,
+      "status": "ok",
+      "tables_detected": 4
+    },
+    {
+      "name": "Mysore_age_1891-02_1891",
+      "matched": 0,
+      "total": 165,
+      "accuracy": 0.0,
+      "elapsed": 2.0,
+      "status": "ok",
+      "tables_detected": 5
+    },
+    {
+      "name": "Mysore_age_1891-03_1891",
+      "matched": 2,
+      "total": 198,
+      "accuracy": 1.0,
+      "elapsed": 2.4,
+      "status": "ok",
+      "tables_detected": 5
+    },
+    {
+      "name": "Mysore_age_1891-04_1891",
+      "matched": 16,
+      "total": 132,
+      "accuracy": 12.1,
+      "elapsed": 12.4,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Mysore_age_1891-05_1891",
+      "matched": 0,
+      "total": 165,
+      "accuracy": 0.0,
+      "elapsed": 9.0,
+      "status": "ok",
+      "tables_detected": 3
+    },
+    {
+      "name": "Mysore_age_1891-06_1891",
+      "matched": 0,
+      "total": 198,
+      "accuracy": 0.0,
+      "elapsed": 7.4,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Mysore_age_1891-07_1891",
+      "matched": 0,
+      "total": 33,
+      "accuracy": 0.0,
+      "elapsed": 2.8,
+      "status": "ok",
+      "tables_detected": 3
+    },
+    {
+      "name": "Mysore_age_1891-08_1891",
+      "matched": 0,
+      "total": 165,
+      "accuracy": 0.0,
+      "elapsed": 3.0,
+      "status": "ok",
+      "tables_detected": 7
+    },
+    {
+      "name": "Mysore_age_1891-09_1891",
+      "matched": 0,
+      "total": 33,
+      "accuracy": 0.0,
+      "elapsed": 3.5,
+      "status": "ok",
+      "tables_detected": 6
+    },
+    {
+      "name": "Mysore_age_1891-10_1891",
+      "matched": 53,
+      "total": 264,
+      "accuracy": 20.1,
+      "elapsed": 7.1,
+      "status": "ok",
+      "tables_detected": 8
+    },
+    {
+      "name": "Mysore_age_1891-11_1891",
+      "matched": 156,
+      "total": 198,
+      "accuracy": 78.8,
+      "elapsed": 9.2,
+      "status": "ok",
+      "tables_detected": 4
+    },
+    {
+      "name": "Nalgonda_1931",
+      "matched": 97,
+      "total": 396,
+      "accuracy": 24.5,
+      "elapsed": 3.1,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Nalgonda_1941",
+      "matched": 107,
+      "total": 165,
+      "accuracy": 64.8,
+      "elapsed": 3.5,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Nander_1931",
+      "matched": 25,
+      "total": 132,
+      "accuracy": 18.9,
+      "elapsed": 4.7,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Nander_1941",
+      "matched": 121,
+      "total": 165,
+      "accuracy": 73.3,
+      "elapsed": 2.9,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Nizamabad_1931",
+      "matched": 78,
+      "total": 396,
+      "accuracy": 19.7,
+      "elapsed": 4.0,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Nizamabad_1941",
+      "matched": 198,
+      "total": 330,
+      "accuracy": 60.0,
+      "elapsed": 2.6,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Osmanabad_1931",
+      "matched": 80,
+      "total": 396,
+      "accuracy": 20.2,
+      "elapsed": 2.3,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Osmanabad_1941",
+      "matched": 331,
+      "total": 495,
+      "accuracy": 66.9,
+      "elapsed": 3.4,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Parbhani_1931",
+      "matched": 66,
+      "total": 396,
+      "accuracy": 16.7,
+      "elapsed": 3.7,
+      "status": "ok",
+      "tables_detected": 1
+    },
+    {
+      "name": "Parbhani_1941",
+      "matched": 323,
+      "total": 495,
+      "accuracy": 65.3,
+      "elapsed": 3.2,
+      "status": "ok",
+      "tables_detected": 3
+    },
+    {
+      "name": "Raichur_1931",
+      "matched": 32,
+      "total": 132,
+      "accuracy": 24.2,
+      "elapsed": 4.2,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Raichur_1941",
+      "matched": 342,
+      "total": 495,
+      "accuracy": 69.1,
+      "elapsed": 3.9,
+      "status": "ok",
+      "tables_detected": 3
+    },
+    {
+      "name": "Warangal_1931",
+      "matched": 70,
+      "total": 264,
+      "accuracy": 26.5,
+      "elapsed": 3.2,
+      "status": "ok",
+      "tables_detected": 2
+    },
+    {
+      "name": "Warangal_1941",
+      "matched": 333,
+      "total": 495,
+      "accuracy": 67.3,
+      "elapsed": 2.9,
+      "status": "ok",
+      "tables_detected": 3
+    },
+    {
+      "name": "Western_division_age_1901",
+      "matched": 74,
+      "total": 114,
+      "accuracy": 64.9,
+      "elapsed": 1.0,
+      "status": "ok",
+      "tables_detected": 1
+    }
+  ]
+}

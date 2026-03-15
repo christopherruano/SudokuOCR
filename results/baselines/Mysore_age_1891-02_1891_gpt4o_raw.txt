@@ -1,0 +1,70 @@
+```json
+[
+  {
+    "age": "15-19",
+    "Males": 13376,
+    "Females": 9317,
+    "Persons": 22693
+  },
+  {
+    "age": "20-24",
+    "Males": 15007,
+    "Females": 10582,
+    "Persons": 25589
+  },
+  {
+    "age": "25-29",
+    "Males": 7907,
+    "Females": 5815,
+    "Persons": 13722
+  },
+  {
+    "age": "30-34",
+    "Males": 2777,
+    "Females": 1900,
+    "Persons": 4677
+  },
+  {
+    "age": "35-39",
+    "Males": 1400,
+    "Females": 962,
+    "Persons": 2362
+  },
+  {
+    "age": "40-44",
+    "Males": 964,
+    "Females": 836,
+    "Persons": 1800
+  },
+  {
+    "age": "45-49",
+    "Males": 765,
+    "Females": 625,
+    "Persons": 1390
+  },
+  {
+    "age": "50-54",
+    "Males": 526,
+    "Females": 314,
+    "Persons": 840
+  },
+  {
+    "age": "55-59",
+    "Males": 344,
+    "Females": 192,
+    "Persons": 536
+  },
+  {
+    "age": "60 and over",
+    "Males": 792,
+    "Females": 326,
+    "Persons": 1118
+  },
+  {
+    "age": "Total",
+    "Males": 46800,
+    "Females": 30946,
+    "Persons": 77746
+  }
+]
+```

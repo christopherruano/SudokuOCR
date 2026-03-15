@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "age": "40-44",
+    "Persons": 6,
+    "Males": 2,
+    "Females": 4
+  },
+  {
+    "age": "45-49",
+    "Persons": 7,
+    "Males": 3,
+    "Females": 4
+  },
+  {
+    "age": "50-54",
+    "Persons": 7,
+    "Males": 3,
+    "Females": 4
+  },
+  {
+    "age": "55-59",
+    "Persons": 6,
+    "Males": 2,
+    "Females": 4
+  },
+  {
+    "age": "60 and upwards",
+    "Persons": 10,
+    "Males": 3,
+    "Females": 7
+  }
+]
+```

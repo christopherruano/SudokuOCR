@@ -1,0 +1,141 @@
+{
+  "image": "/Users/chrisruano/Research/HEB_91r/age_tables/Hyderabad/Hyderabad_state_summary_age_1901.png",
+  "label": "Hyderabad State Summary 1901",
+  "discovery_time_s": 34.8,
+  "schema": {
+    "title": "TABLE VII. AGE, SEX AND CIVIL CONDITION. A\u2014All Religions.",
+    "region": null,
+    "year": 0,
+    "data_type": "absolute",
+    "column_groups": [
+      {
+        "name": "POPULATION.",
+        "sub_columns": [
+          "Persons.",
+          "Males.",
+          "Females."
+        ],
+        "left_frac": 0.12,
+        "right_frac": 0.35
+      },
+      {
+        "name": "UNMARRIED.",
+        "sub_columns": [
+          "Persons.",
+          "Males.",
+          "Females."
+        ],
+        "left_frac": 0.35,
+        "right_frac": 0.56
+      },
+      {
+        "name": "MARRIED.",
+        "sub_columns": [
+          "Persons.",
+          "Males.",
+          "Females."
+        ],
+        "left_frac": 0.56,
+        "right_frac": 0.78
+      },
+      {
+        "name": "WIDOWED.",
+        "sub_columns": [
+          "Persons.",
+          "Males.",
+          "Females."
+        ],
+        "left_frac": 0.78,
+        "right_frac": 1.0
+      }
+    ],
+    "target_group_index": 0,
+    "row_labels": [
+      "0-1",
+      "1-2",
+      "2-3",
+      "3-4",
+      "4-5",
+      "Total 0-5",
+      "5-10",
+      "10-15",
+      "15-20",
+      "20-25",
+      "25-30",
+      "30-35",
+      "35-40",
+      "40-45",
+      "45-50",
+      "50-55",
+      "55-60",
+      "60 & over",
+      "Age not stated",
+      "Total"
+    ],
+    "subtotal_hierarchy": {
+      "Total 0-5": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "Total": [
+        "Total 0-5",
+        "5-10",
+        "10-15",
+        "15-20",
+        "20-25",
+        "25-30",
+        "30-35",
+        "35-40",
+        "40-45",
+        "45-50",
+        "50-55",
+        "55-60",
+        "60 & over",
+        "Age not stated"
+      ]
+    },
+    "has_persons_column": true,
+    "known_totals": {},
+    "multi_year": false,
+    "years_present": [],
+    "multi_region": false
+  },
+  "config": {
+    "preprocessing": {
+      "crop": {
+        "right_frac": 0.39999999999999997
+      }
+    },
+    "prompt_type": "subtotals",
+    "constraint_groups": {
+      "0-5": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "total": [
+        "0-5",
+        "5-10",
+        "10-15",
+        "15-20",
+        "20-25",
+        "25-30",
+        "30-35",
+        "35-40",
+        "40-45",
+        "45-50",
+        "50-55",
+        "55-60",
+        "60&over",
+        "agenotstated"
+      ]
+    },
+    "known_totals": null
+  },
+  "custom_prompt": "You are an expert at reading historical census tables. This is a scanned page from an Indian census report.\n\nExtract the Persons, Males, and Females columns.\n\nThe table contains these rows (in order):\n  - 0-1\n  - 1-2\n  - 2-3\n  - 3-4\n  - 4-5\n  - Total 0-5\n  - 5-10\n  - 10-15\n  - 15-20\n  - 20-25\n  - 25-30\n  - 30-35\n  - 35-40\n  - 40-45\n  - 45-50\n  - 50-55\n  - 55-60\n  - 60 & over\n  - Age not stated\n  - Total\n\nThis table has subtotal rows. The following relationships hold:\n  - Total 0-5 = 0-1 + 1-2 + 2-3 + 3-4 + 4-5\n  - Total = Total 0-5 + 5-10 + 10-15 + 15-20 + 20-25 + 25-30 + 30-35 + 35-40 + 40-45 + 45-50 + 50-55 + 55-60 + 60 & over + Age not stated\n\nUse these relationships to verify your readings. If a subtotal doesn't match the sum of its components, re-examine the ambiguous digits.\n\nCRITICAL: Read each digit extremely carefully. Common OCR errors on old typefaces:\n- The digit 3 has angular notches/points at its curves; 8 has smooth continuous curves. These look very similar \u2014 examine closely.\n- Also watch for: 6 vs 5, 0 vs 9, 1 vs 7\n- Verify by checking: Persons should equal Males + Females for each row\n- If a digit is ambiguous, use the M+F=Persons constraint to determine the correct reading\n\nReturn ONLY a JSON array. Each object: {\"age\": \"...\", \"persons\": N, \"males\": N, \"females\": N}\nFor subtotal rows, use the label as-is (e.g. \"Total 0-5\", \"Total 15-40\", \"Total\").\nAll values are integers, no commas. Return ONLY valid JSON."
+}

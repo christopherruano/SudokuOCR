@@ -1,0 +1,277 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Travancore/1901/Eastern_division_age_1901.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 83.9,
+  "metadata": {
+    "title": "Age, Sex and Civil Condition. - Eastern Division.",
+    "region": "Eastern Division",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "POPULATION.",
+      "UNMARRIED."
+    ]
+  },
+  "data": [
+    {
+      "name": "A - Total Population.",
+      "rows": [
+        {
+          "age": "0-1",
+          "POPULATION.": {
+            "persons": 32217,
+            "males": 14919,
+            "females": 17298
+          },
+          "UNMARRIED.": {
+            "persons": 32217,
+            "males": 14919,
+            "females": 17298
+          }
+        },
+        {
+          "age": "1-2",
+          "POPULATION.": {
+            "persons": 30401,
+            "males": 14637,
+            "females": 15764
+          },
+          "UNMARRIED.": {
+            "persons": 30401,
+            "males": 14637,
+            "females": 15764
+          }
+        },
+        {
+          "age": "2-3",
+          "POPULATION.": {
+            "persons": 34733,
+            "males": 16711,
+            "females": 18022
+          },
+          "UNMARRIED.": {
+            "persons": 34733,
+            "males": 16711,
+            "females": 18022
+          }
+        },
+        {
+          "age": "3-4",
+          "POPULATION.": {
+            "persons": 38158,
+            "males": 18347,
+            "females": 19811
+          },
+          "UNMARRIED.": {
+            "persons": 38156,
+            "males": 18347,
+            "females": 19809
+          }
+        },
+        {
+          "age": "4-5",
+          "POPULATION.": {
+            "persons": 34000,
+            "males": 16610,
+            "females": 17390
+          },
+          "UNMARRIED.": {
+            "persons": 33993,
+            "males": 16610,
+            "females": 17383
+          }
+        },
+        {
+          "age": "Total 0-5",
+          "POPULATION.": {
+            "persons": 169509,
+            "males": 81224,
+            "females": 88285
+          },
+          "UNMARRIED.": {
+            "persons": 169500,
+            "males": 81224,
+            "females": 88276
+          }
+        },
+        {
+          "age": "5-10",
+          "POPULATION.": {
+            "persons": 166745,
+            "males": 83669,
+            "females": 83076
+          },
+          "UNMARRIED.": {
+            "persons": 166055,
+            "males": 83520,
+            "females": 82535
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION.": {
+            "persons": 150630,
+            "males": 79166,
+            "females": 71464
+          },
+          "UNMARRIED.": {
+            "persons": 141016,
+            "males": 77724,
+            "females": 63292
+          }
+        },
+        {
+          "age": "15-20",
+          "POPULATION.": {
+            "persons": 116595,
+            "males": 57993,
+            "females": 58602
+          },
+          "UNMARRIED.": {
+            "persons": 67163,
+            "males": 45926,
+            "females": 21237
+          }
+        },
+        {
+          "age": "20-25",
+          "POPULATION.": {
+            "persons": 111950,
+            "males": 53002,
+            "females": 58948
+          },
+          "UNMARRIED.": {
+            "persons": 27236,
+            "males": 21500,
+            "females": 5736
+          }
+        },
+        {
+          "age": "25-30",
+          "POPULATION.": {
+            "persons": 120076,
+            "males": 59814,
+            "females": 60262
+          },
+          "UNMARRIED.": {
+            "persons": 12127,
+            "males": 9684,
+            "females": 2443
+          }
+        },
+        {
+          "age": "30-35",
+          "POPULATION.": {
+            "persons": 95124,
+            "males": 49257,
+            "females": 45867
+          },
+          "UNMARRIED.": {
+            "persons": 3554,
+            "males": 2604,
+            "females": 950
+          }
+        },
+        {
+          "age": "35-40",
+          "POPULATION.": {
+            "persons": 85869,
+            "males": 47873,
+            "females": 37996
+          },
+          "UNMARRIED.": {
+            "persons": 1855,
+            "males": 1219,
+            "females": 636
+          }
+        },
+        {
+          "age": "40-45",
+          "POPULATION.": {
+            "persons": 66459,
+            "males": 36018,
+            "females": 30441
+          },
+          "UNMARRIED.": {
+            "persons": 1111,
+            "males": 625,
+            "females": 486
+          }
+        },
+        {
+          "age": "45-50",
+          "POPULATION.": {
+            "persons": 53330,
+            "males": 29353,
+            "females": 23977
+          },
+          "UNMARRIED.": {
+            "persons": 672,
+            "males": 342,
+            "females": 330
+          }
+        },
+        {
+          "age": "50-55",
+          "POPULATION.": {
+            "persons": 45019,
+            "males": 23755,
+            "females": 21264
+          },
+          "UNMARRIED.": {
+            "persons": 585,
+            "males": 281,
+            "females": 304
+          }
+        },
+        {
+          "age": "55-60",
+          "POPULATION.": {
+            "persons": 26926,
+            "males": 14278,
+            "females": 12648
+          },
+          "UNMARRIED.": {
+            "persons": 295,
+            "males": 159,
+            "females": 136
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION.": {
+            "persons": 53324,
+            "males": 25693,
+            "females": 27631
+          },
+          "UNMARRIED.": {
+            "persons": 675,
+            "males": 263,
+            "females": 412
+          }
+        },
+        {
+          "age": "Total",
+          "POPULATION.": {
+            "persons": 1261556,
+            "males": 641095,
+            "females": 620461
+          },
+          "UNMARRIED.": {
+            "persons": 591844,
+            "males": 325071,
+            "females": 266773
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 164,
+    "passed": 164,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

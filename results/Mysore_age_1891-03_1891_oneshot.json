@@ -1,0 +1,397 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Mysore/1891/Mysore_age_1891-03.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 118.0,
+  "metadata": {
+    "title": "TABLE VIII. PART A.\u2014Continued. Civil Condition by Religion and Age. All Religions. (1) Unmarried.",
+    "region": "Mysore State",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "40-44",
+      "45-49",
+      "50-54",
+      "55-59",
+      "60 and over",
+      "Age not stated"
+    ]
+  },
+  "data": [
+    {
+      "name": "Civil Condition by Religion and Age. All Religions. (1) Unmarried.",
+      "rows": [
+        {
+          "district": null,
+          "40-44": {
+            "persons": 1360,
+            "males": 988,
+            "females": 372
+          },
+          "45-49": {
+            "persons": 696,
+            "males": 487,
+            "females": 209
+          },
+          "50-54": {
+            "persons": 534,
+            "males": 410,
+            "females": 124
+          },
+          "55-59": {
+            "persons": 206,
+            "males": 162,
+            "females": 44
+          },
+          "60 and over": {
+            "persons": 549,
+            "males": 400,
+            "females": 149
+          },
+          "Age not stated": {
+            "persons": 85,
+            "males": 49,
+            "females": 36
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 1925,
+            "males": 1447,
+            "females": 478
+          },
+          "45-49": {
+            "persons": 905,
+            "males": 699,
+            "females": 206
+          },
+          "50-54": {
+            "persons": 700,
+            "males": 583,
+            "females": 117
+          },
+          "55-59": {
+            "persons": 289,
+            "males": 223,
+            "females": 66
+          },
+          "60 and over": {
+            "persons": 578,
+            "males": 460,
+            "females": 118
+          },
+          "Age not stated": {
+            "persons": 62,
+            "males": 33,
+            "females": 29
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 1872,
+            "males": 1181,
+            "females": 691
+          },
+          "45-49": {
+            "persons": 826,
+            "males": 473,
+            "females": 353
+          },
+          "50-54": {
+            "persons": 555,
+            "males": 362,
+            "females": 193
+          },
+          "55-59": {
+            "persons": 220,
+            "males": 155,
+            "females": 65
+          },
+          "60 and over": {
+            "persons": 511,
+            "males": 294,
+            "females": 217
+          },
+          "Age not stated": {
+            "persons": 77,
+            "males": 54,
+            "females": 23
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 1935,
+            "males": 1271,
+            "females": 664
+          },
+          "45-49": {
+            "persons": 965,
+            "males": 653,
+            "females": 312
+          },
+          "50-54": {
+            "persons": 845,
+            "males": 512,
+            "females": 333
+          },
+          "55-59": {
+            "persons": 385,
+            "males": 235,
+            "females": 150
+          },
+          "60 and over": {
+            "persons": 748,
+            "males": 460,
+            "females": 288
+          },
+          "Age not stated": {
+            "persons": 118,
+            "males": 53,
+            "females": 65
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 719,
+            "males": 549,
+            "females": 170
+          },
+          "45-49": {
+            "persons": 376,
+            "males": 262,
+            "females": 114
+          },
+          "50-54": {
+            "persons": 335,
+            "males": 229,
+            "females": 106
+          },
+          "55-59": {
+            "persons": 117,
+            "males": 63,
+            "females": 54
+          },
+          "60 and over": {
+            "persons": 216,
+            "males": 141,
+            "females": 75
+          },
+          "Age not stated": {
+            "persons": 39,
+            "males": 20,
+            "females": 19
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 2199,
+            "males": 1414,
+            "females": 785
+          },
+          "45-49": {
+            "persons": 1289,
+            "males": 822,
+            "females": 467
+          },
+          "50-54": {
+            "persons": 1135,
+            "males": 668,
+            "females": 467
+          },
+          "55-59": {
+            "persons": 639,
+            "males": 419,
+            "females": 220
+          },
+          "60 and over": {
+            "persons": 886,
+            "males": 543,
+            "females": 343
+          },
+          "Age not stated": {
+            "persons": 14,
+            "males": 6,
+            "females": 8
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 781,
+            "males": 613,
+            "females": 168
+          },
+          "45-49": {
+            "persons": 526,
+            "males": 334,
+            "females": 192
+          },
+          "50-54": {
+            "persons": 470,
+            "males": 243,
+            "females": 227
+          },
+          "55-59": {
+            "persons": 129,
+            "males": 76,
+            "females": 53
+          },
+          "60 and over": {
+            "persons": 181,
+            "males": 84,
+            "females": 97
+          },
+          "Age not stated": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 981,
+            "males": 658,
+            "females": 323
+          },
+          "45-49": {
+            "persons": 504,
+            "males": 310,
+            "females": 194
+          },
+          "50-54": {
+            "persons": 470,
+            "males": 278,
+            "females": 192
+          },
+          "55-59": {
+            "persons": 214,
+            "males": 124,
+            "females": 90
+          },
+          "60 and over": {
+            "persons": 386,
+            "males": 219,
+            "females": 167
+          },
+          "Age not stated": {
+            "persons": 21,
+            "males": 10,
+            "females": 11
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 11744,
+            "males": 8121,
+            "females": 3623
+          },
+          "45-49": {
+            "persons": 5716,
+            "males": 4040,
+            "females": 1676
+          },
+          "50-54": {
+            "persons": 5064,
+            "males": 3305,
+            "females": 1759
+          },
+          "55-59": {
+            "persons": 2199,
+            "males": 1457,
+            "females": 742
+          },
+          "60 and over": {
+            "persons": 4055,
+            "males": 2601,
+            "females": 1454
+          },
+          "Age not stated": {
+            "persons": 422,
+            "males": 225,
+            "females": 197
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 197,
+            "males": 129,
+            "females": 68
+          },
+          "45-49": {
+            "persons": 81,
+            "males": 54,
+            "females": 27
+          },
+          "50-54": {
+            "persons": 95,
+            "males": 65,
+            "females": 30
+          },
+          "55-59": {
+            "persons": 32,
+            "males": 15,
+            "females": 17
+          },
+          "60 and over": {
+            "persons": 92,
+            "males": 65,
+            "females": 27
+          },
+          "Age not stated": {
+            "persons": 13,
+            "males": 6,
+            "females": 7
+          }
+        },
+        {
+          "district": null,
+          "40-44": {
+            "persons": 11941,
+            "males": 8250,
+            "females": 3691
+          },
+          "45-49": {
+            "persons": 5797,
+            "males": 4094,
+            "females": 1703
+          },
+          "50-54": {
+            "persons": 5159,
+            "males": 3370,
+            "females": 1789
+          },
+          "55-59": {
+            "persons": 2231,
+            "males": 1472,
+            "females": 759
+          },
+          "60 and over": {
+            "persons": 4147,
+            "males": 2666,
+            "females": 1481
+          },
+          "Age not stated": {
+            "persons": 435,
+            "males": 231,
+            "females": 204
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 264,
+    "passed": 264,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

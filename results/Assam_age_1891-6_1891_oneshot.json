@@ -1,0 +1,719 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Assam/1891/Assam_age_1891-6.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 2,
+  "elapsed_seconds": 136.4,
+  "metadata": {
+    "title": "TABLE VIII.\u2014CIVIL CONDITION BY RELIGION AND AGE. PART A.\u2014ALL RELIGIONS\u2014concluded. (3) WIDOWED.",
+    "region": "Assam Province",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "30-34",
+      "35-39",
+      "40-44",
+      "45-49",
+      "50-54",
+      "55-59",
+      "60 and over"
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VIII.\u2014CIVIL CONDITION BY RELIGION AND AGE. PART A.\u2014ALL RELIGIONS\u2014concluded. (3) WIDOWED.",
+      "rows": [
+        {
+          "district": null,
+          "30-34": {
+            "persons": 3515,
+            "males": 771,
+            "females": 2744
+          },
+          "35-39": {
+            "persons": 3401,
+            "males": 776,
+            "females": 2625
+          },
+          "40-44": {
+            "persons": 4615,
+            "males": 909,
+            "females": 3706
+          },
+          "45-49": {
+            "persons": 2955,
+            "males": 637,
+            "females": 2318
+          },
+          "50-54": {
+            "persons": 4475,
+            "males": 846,
+            "females": 3629
+          },
+          "55-59": {
+            "persons": 1409,
+            "males": 293,
+            "females": 1116
+          },
+          "60 and over": {
+            "persons": 7337,
+            "males": 1468,
+            "females": 5869
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 26897,
+            "males": 3243,
+            "females": 23654
+          },
+          "35-39": {
+            "persons": 23990,
+            "males": 3130,
+            "females": 20860
+          },
+          "40-44": {
+            "persons": 36180,
+            "males": 4256,
+            "females": 31924
+          },
+          "45-49": {
+            "persons": 21125,
+            "males": 3069,
+            "females": 18056
+          },
+          "50-54": {
+            "persons": 33374,
+            "males": 4479,
+            "females": 28895
+          },
+          "55-59": {
+            "persons": 9467,
+            "males": 1666,
+            "females": 7801
+          },
+          "60 and over": {
+            "persons": 63265,
+            "males": 11792,
+            "females": 51473
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 30412,
+            "males": 4014,
+            "females": 26398
+          },
+          "35-39": {
+            "persons": 27391,
+            "males": 3906,
+            "females": 23485
+          },
+          "40-44": {
+            "persons": 40795,
+            "males": 5165,
+            "females": 35630
+          },
+          "45-49": {
+            "persons": 24080,
+            "males": 3706,
+            "females": 20374
+          },
+          "50-54": {
+            "persons": 37849,
+            "males": 5325,
+            "females": 32524
+          },
+          "55-59": {
+            "persons": 10876,
+            "males": 1959,
+            "females": 8917
+          },
+          "60 and over": {
+            "persons": 70602,
+            "males": 13260,
+            "females": 57342
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 4521,
+            "males": 764,
+            "females": 3757
+          },
+          "35-39": {
+            "persons": 4532,
+            "males": 834,
+            "females": 3698
+          },
+          "40-44": {
+            "persons": 6585,
+            "males": 1059,
+            "females": 5526
+          },
+          "45-49": {
+            "persons": 3538,
+            "males": 678,
+            "females": 2860
+          },
+          "50-54": {
+            "persons": 6235,
+            "males": 960,
+            "females": 5275
+          },
+          "55-59": {
+            "persons": 2450,
+            "males": 447,
+            "females": 2003
+          },
+          "60 and over": {
+            "persons": 14303,
+            "males": 2528,
+            "females": 11775
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 6897,
+            "males": 1372,
+            "females": 5525
+          },
+          "35-39": {
+            "persons": 5944,
+            "males": 1257,
+            "females": 4687
+          },
+          "40-44": {
+            "persons": 10933,
+            "males": 2046,
+            "females": 8887
+          },
+          "45-49": {
+            "persons": 5216,
+            "males": 1183,
+            "females": 4033
+          },
+          "50-54": {
+            "persons": 10487,
+            "males": 2221,
+            "females": 8266
+          },
+          "55-59": {
+            "persons": 4031,
+            "males": 982,
+            "females": 3049
+          },
+          "60 and over": {
+            "persons": 16796,
+            "males": 3638,
+            "females": 13158
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 3066,
+            "males": 979,
+            "females": 2087
+          },
+          "35-39": {
+            "persons": 2997,
+            "males": 1112,
+            "females": 1885
+          },
+          "40-44": {
+            "persons": 4866,
+            "males": 1427,
+            "females": 3439
+          },
+          "45-49": {
+            "persons": 2498,
+            "males": 778,
+            "females": 1720
+          },
+          "50-54": {
+            "persons": 4838,
+            "males": 1379,
+            "females": 3459
+          },
+          "55-59": {
+            "persons": 2100,
+            "males": 590,
+            "females": 1510
+          },
+          "60 and over": {
+            "persons": 5735,
+            "males": 1537,
+            "females": 4198
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 4044,
+            "males": 2294,
+            "females": 1750
+          },
+          "35-39": {
+            "persons": 2603,
+            "males": 861,
+            "females": 1742
+          },
+          "40-44": {
+            "persons": 4212,
+            "males": 1173,
+            "females": 3039
+          },
+          "45-49": {
+            "persons": 2412,
+            "males": 720,
+            "females": 1692
+          },
+          "50-54": {
+            "persons": 4540,
+            "males": 1117,
+            "females": 3423
+          },
+          "55-59": {
+            "persons": 1842,
+            "males": 544,
+            "females": 1298
+          },
+          "60 and over": {
+            "persons": 8506,
+            "males": 2174,
+            "females": 6332
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 3898,
+            "males": 1290,
+            "females": 2608
+          },
+          "35-39": {
+            "persons": 4431,
+            "males": 1853,
+            "females": 2578
+          },
+          "40-44": {
+            "persons": 6666,
+            "males": 2345,
+            "females": 4321
+          },
+          "45-49": {
+            "persons": 3512,
+            "males": 1168,
+            "females": 2344
+          },
+          "50-54": {
+            "persons": 6473,
+            "males": 1885,
+            "females": 4588
+          },
+          "55-59": {
+            "persons": 2624,
+            "males": 847,
+            "females": 1777
+          },
+          "60 and over": {
+            "persons": 7634,
+            "males": 2202,
+            "females": 5432
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 2766,
+            "males": 1277,
+            "females": 1489
+          },
+          "35-39": {
+            "persons": 2523,
+            "males": 1154,
+            "females": 1369
+          },
+          "40-44": {
+            "persons": 3293,
+            "males": 1183,
+            "females": 2110
+          },
+          "45-49": {
+            "persons": 1729,
+            "males": 602,
+            "females": 1127
+          },
+          "50-54": {
+            "persons": 2891,
+            "males": 866,
+            "females": 2025
+          },
+          "55-59": {
+            "persons": 1203,
+            "males": 344,
+            "females": 859
+          },
+          "60 and over": {
+            "persons": 3392,
+            "males": 966,
+            "females": 2426
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 25192,
+            "males": 7976,
+            "females": 17216
+          },
+          "35-39": {
+            "persons": 23030,
+            "males": 7071,
+            "females": 15959
+          },
+          "40-44": {
+            "persons": 36555,
+            "males": 9233,
+            "females": 27322
+          },
+          "45-49": {
+            "persons": 18905,
+            "males": 5129,
+            "females": 13776
+          },
+          "50-54": {
+            "persons": 35171,
+            "males": 8428,
+            "females": 26743
+          },
+          "55-59": {
+            "persons": 14250,
+            "males": 3754,
+            "females": 10496
+          },
+          "60 and over": {
+            "persons": 56366,
+            "males": 13045,
+            "females": 43321
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 55604,
+            "males": 11990,
+            "females": 43614
+          },
+          "35-39": {
+            "persons": 50421,
+            "males": 10977,
+            "females": 39444
+          },
+          "40-44": {
+            "persons": 77350,
+            "males": 14398,
+            "females": 62952
+          },
+          "45-49": {
+            "persons": 42985,
+            "males": 8835,
+            "females": 34150
+          },
+          "50-54": {
+            "persons": 73020,
+            "males": 13753,
+            "females": 59267
+          },
+          "55-59": {
+            "persons": 25126,
+            "males": 5713,
+            "females": 19413
+          },
+          "60 and over": {
+            "persons": 126968,
+            "males": 26305,
+            "females": 100663
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 231,
+            "males": 50,
+            "females": 181
+          },
+          "35-39": {
+            "persons": 133,
+            "males": 27,
+            "females": 106
+          },
+          "40-44": {
+            "persons": 253,
+            "males": 41,
+            "females": 212
+          },
+          "45-49": {
+            "persons": 136,
+            "males": 26,
+            "females": 110
+          },
+          "50-54": {
+            "persons": 229,
+            "males": 42,
+            "females": 187
+          },
+          "55-59": {
+            "persons": 77,
+            "males": 22,
+            "females": 55
+          },
+          "60 and over": {
+            "persons": 431,
+            "males": 109,
+            "females": 322
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 1298,
+            "males": 432,
+            "females": 866
+          },
+          "35-39": {
+            "persons": 1699,
+            "males": 628,
+            "females": 1071
+          },
+          "40-44": {
+            "persons": 1879,
+            "males": 560,
+            "females": 1319
+          },
+          "45-49": {
+            "persons": 1175,
+            "males": 353,
+            "females": 822
+          },
+          "50-54": {
+            "persons": 1371,
+            "males": 354,
+            "females": 1017
+          },
+          "55-59": {
+            "persons": 462,
+            "males": 152,
+            "females": 310
+          },
+          "60 and over": {
+            "persons": 2032,
+            "males": 543,
+            "females": 1489
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 1532,
+            "males": 368,
+            "females": 1164
+          },
+          "35-39": {
+            "persons": 1481,
+            "males": 345,
+            "females": 1136
+          },
+          "40-44": {
+            "persons": 2099,
+            "males": 401,
+            "females": 1698
+          },
+          "45-49": {
+            "persons": 1543,
+            "males": 305,
+            "females": 1238
+          },
+          "50-54": {
+            "persons": 1727,
+            "males": 385,
+            "females": 1342
+          },
+          "55-59": {
+            "persons": 902,
+            "males": 165,
+            "females": 737
+          },
+          "60 and over": {
+            "persons": 5239,
+            "males": 1028,
+            "females": 4211
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 669,
+            "males": 167,
+            "females": 502
+          },
+          "35-39": {
+            "persons": 518,
+            "males": 160,
+            "females": 358
+          },
+          "40-44": {
+            "persons": 882,
+            "males": 175,
+            "females": 707
+          },
+          "45-49": {
+            "persons": 517,
+            "males": 95,
+            "females": 422
+          },
+          "50-54": {
+            "persons": 736,
+            "males": 157,
+            "females": 579
+          },
+          "55-59": {
+            "persons": 294,
+            "males": 54,
+            "females": 240
+          },
+          "60 and over": {
+            "persons": 1778,
+            "males": 415,
+            "females": 1363
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 14,
+            "males": 14,
+            "females": 0
+          },
+          "35-39": {
+            "persons": 7,
+            "males": 7,
+            "females": 0
+          },
+          "40-44": {
+            "persons": 4,
+            "males": 4,
+            "females": 0
+          },
+          "45-49": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "50-54": {
+            "persons": 2,
+            "males": 2,
+            "females": 0
+          },
+          "55-59": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 3744,
+            "males": 1031,
+            "females": 2713
+          },
+          "35-39": {
+            "persons": 3838,
+            "males": 1167,
+            "females": 2671
+          },
+          "40-44": {
+            "persons": 5117,
+            "males": 1181,
+            "females": 3936
+          },
+          "45-49": {
+            "persons": 3372,
+            "males": 780,
+            "females": 2592
+          },
+          "50-54": {
+            "persons": 4065,
+            "males": 940,
+            "females": 3125
+          },
+          "55-59": {
+            "persons": 1735,
+            "males": 393,
+            "females": 1342
+          },
+          "60 and over": {
+            "persons": 9481,
+            "males": 2096,
+            "females": 7385
+          }
+        },
+        {
+          "district": null,
+          "30-34": {
+            "persons": 59348,
+            "males": 13021,
+            "females": 46327
+          },
+          "35-39": {
+            "persons": 54259,
+            "males": 12144,
+            "females": 42115
+          },
+          "40-44": {
+            "persons": 82467,
+            "males": 15579,
+            "females": 66888
+          },
+          "45-49": {
+            "persons": 46357,
+            "males": 9615,
+            "females": 36742
+          },
+          "50-54": {
+            "persons": 77085,
+            "males": 14693,
+            "females": 62392
+          },
+          "55-59": {
+            "persons": 26861,
+            "males": 6106,
+            "females": 20755
+          },
+          "60 and over": {
+            "persons": 136449,
+            "males": 28401,
+            "females": 108048
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 504,
+    "passed": 504,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "source_image": "age_tables/Travancore/1901/Western_division_age_1901.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 4,
+  "elapsed_seconds": 1171.2,
+  "metadata": {
+    "title": "Age, Sex and Civil Condition. - Western Division. A - Total Population.",
+    "region": "Western Division",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "MARRIED.",
+      "WIDOWED."
+    ]
+  },
+  "data": [
+    {
+      "name": "Age, Sex and Civil Condition. - Western Division. A - Total Population.",
+      "rows": [
+        {
+          "age": "0-1",
+          "MARRIED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "WIDOWED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "age": "1-2",
+          "MARRIED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "WIDOWED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "age": "2-3",
+          "MARRIED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "WIDOWED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "age": "3-4",
+          "MARRIED.": {
+            "persons": 4,
+            "males": 0,
+            "females": 4
+          },
+          "WIDOWED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "age": "4-5",
+          "MARRIED.": {
+            "persons": 7,
+            "males": 0,
+            "females": 7
+          },
+          "WIDOWED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "age": "0-5",
+          "MARRIED.": {
+            "persons": 11,
+            "males": 0,
+            "females": 11
+          },
+          "WIDOWED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "age": "5-10",
+          "MARRIED.": {
+            "persons": 556,
+            "males": 97,
+            "females": 459
+          },
+          "WIDOWED.": {
+            "persons": 73,
+            "males": 32,
+            "females": 41
+          }
+        },
+        {
+          "age": "10-15",
+          "MARRIED.": {
+            "persons": 7926,
+            "males": 890,
+            "females": 7036
+          },
+          "WIDOWED.": {
+            "persons": 425,
+            "males": 112,
+            "females": 313
+          }
+        },
+        {
+          "age": "15-20",
+          "MARRIED.": {
+            "persons": 49359,
+            "males": 7237,
+            "females": 42122
+          },
+          "WIDOWED.": {
+            "persons": 2184,
+            "males": 460,
+            "females": 1724
+          }
+        },
+        {
+          "age": "20-25",
+          "MARRIED.": {
+            "persons": 90671,
+            "males": 27696,
+            "females": 62975
+          },
+          "WIDOWED.": {
+            "persons": 6179,
+            "males": 1790,
+            "females": 4389
+          }
+        },
+        {
+          "age": "25-30",
+          "MARRIED.": {
+            "persons": 127086,
+            "males": 56659,
+            "females": 70427
+          },
+          "WIDOWED.": {
+            "persons": 11206,
+            "males": 3456,
+            "females": 7750
+          }
+        },
+        {
+          "age": "30-35",
+          "MARRIED.": {
+            "persons": 106780,
+            "males": 54975,
+            "females": 51805
+          },
+          "WIDOWED.": {
+            "persons": 13766,
+            "males": 4088,
+            "females": 9678
+          }
+        },
+        {
+          "age": "35-40",
+          "MARRIED.": {
+            "persons": 101116,
+            "males": 59201,
+            "females": 41915
+          },
+          "WIDOWED.": {
+            "persons": 15644,
+            "males": 4179,
+            "females": 11465
+          }
+        },
+        {
+          "age": "40-45",
+          "MARRIED.": {
+            "persons": 71930,
+            "males": 44642,
+            "females": 27288
+          },
+          "WIDOWED.": {
+            "persons": 20065,
+            "males": 4413,
+            "females": 15652
+          }
+        },
+        {
+          "age": "45-50",
+          "MARRIED.": {
+            "persons": 52849,
+            "males": 35150,
+            "females": 17699
+          },
+          "WIDOWED.": {
+            "persons": 18226,
+            "males": 3922,
+            "females": 14304
+          }
+        },
+        {
+          "age": "50-55",
+          "MARRIED.": {
+            "persons": 37206,
+            "males": 26030,
+            "females": 11176
+          },
+          "WIDOWED.": {
+            "persons": 23031,
+            "males": 4641,
+            "females": 18390
+          }
+        },
+        {
+          "age": "55-60",
+          "MARRIED.": {
+            "persons": 21043,
+            "males": 15767,
+            "females": 5276
+          },
+          "WIDOWED.": {
+            "persons": 14733,
+            "males": 3261,
+            "females": 11472
+          }
+        },
+        {
+          "age": "60 and over",
+          "MARRIED.": {
+            "persons": 28120,
+            "males": 23042,
+            "females": 5078
+          },
+          "WIDOWED.": {
+            "persons": 42537,
+            "males": 10283,
+            "females": 32254
+          }
+        },
+        {
+          "age": "Total",
+          "MARRIED.": {
+            "persons": 694653,
+            "males": 351386,
+            "females": 343267
+          },
+          "WIDOWED.": {
+            "persons": 168069,
+            "males": 40637,
+            "females": 127432
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 164,
+    "passed": 164,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  }
+}

@@ -1,0 +1,142 @@
+```json
+[
+  {
+    "age": "0-1",
+    "persons": null,
+    "males": 28,
+    "females": 35
+  },
+  {
+    "age": "1-2",
+    "persons": null,
+    "males": 8,
+    "females": 10
+  },
+  {
+    "age": "2-3",
+    "persons": null,
+    "males": 20,
+    "females": 26
+  },
+  {
+    "age": "3-4",
+    "persons": null,
+    "males": 18,
+    "females": 25
+  },
+  {
+    "age": "4-5",
+    "persons": null,
+    "males": 21,
+    "females": 27
+  },
+  {
+    "age": "TOTAL 0-5",
+    "persons": null,
+    "males": 95,
+    "females": 123
+  },
+  {
+    "age": "5-10",
+    "persons": null,
+    "males": 112,
+    "females": 139
+  },
+  {
+    "age": "10-15",
+    "persons": null,
+    "males": 119,
+    "females": 129
+  },
+  {
+    "age": "TOTAL 0-15",
+    "persons": null,
+    "males": 326,
+    "females": 391
+  },
+  {
+    "age": "15-20",
+    "persons": null,
+    "males": 97,
+    "females": 96
+  },
+  {
+    "age": "20-25",
+    "persons": null,
+    "males": 101,
+    "females": 104
+  },
+  {
+    "age": "25-30",
+    "persons": null,
+    "males": 122,
+    "females": 109
+  },
+  {
+    "age": "30-35",
+    "persons": null,
+    "males": 107,
+    "females": 84
+  },
+  {
+    "age": "35-40",
+    "persons": null,
+    "males": 79,
+    "females": 54
+  },
+  {
+    "age": "TOTAL 15-40",
+    "persons": null,
+    "males": 506,
+    "females": 447
+  },
+  {
+    "age": "40-45",
+    "persons": null,
+    "males": 64,
+    "females": 53
+  },
+  {
+    "age": "45-50",
+    "persons": null,
+    "males": 35,
+    "females": 28
+  },
+  {
+    "age": "50-55",
+    "persons": null,
+    "males": 32,
+    "females": 35
+  },
+  {
+    "age": "55-60",
+    "persons": null,
+    "males": 13,
+    "females": 13
+  },
+  {
+    "age": "TOTAL 40-60",
+    "persons": null,
+    "males": 144,
+    "females": 129
+  },
+  {
+    "age": "60 and over",
+    "persons": null,
+    "males": 24,
+    "females": 33
+  },
+  {
+    "age": "TOTAL",
+    "persons": null,
+    "males": 1000,
+    "females": 1000
+  },
+  {
+    "age": "Mean Age",
+    "persons": null,
+    "males": 25,
+    "females": 23
+  }
+]
+```

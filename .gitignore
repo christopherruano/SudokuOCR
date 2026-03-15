@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Large data files
+age_tables/
+age_tables.tar.gz
+Data.zip
+
+# OS junk
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude Code
+.claude/

@@ -1,0 +1,18 @@
+```json
+[
+  {"age": "0-5", "persons": 1350967, "males": 658857, "females": 696810},
+  {"age": "5-10", "persons": 1452854, "males": 755963, "females": 696891},
+  {"age": "10-15", "persons": 1350921, "males": 733509, "females": 616812},
+  {"age": "15-20", "persons": 852369, "males": 428402, "females": 423980},
+  {"age": "20-25", "persons": 894027, "males": 405798, "females": 488223},
+  {"age": "25-30", "persons": 1051503, "males": 523613, "females": 527890},
+  {"age": "30-35", "persons": 1072226, "males": 538818, "females": 533408},
+  {"age": "35-40", "persons": 628589, "males": 342613, "females": 285976},
+  {"age": "40-45", "persons": 618575, "males": 425753, "females": 392322},
+  {"age": "45-50", "persons": 357058, "males": 200814, "females": 156244},
+  {"age": "50-55", "persons": 668550, "males": 289341, "females": 379209},
+  {"age": "55-60", "persons": 168159, "males": 93094, "females": 75064},
+  {"age": "60 and over", "persons": 570951, "males": 271692, "females": 299340},
+  {"age": "Total", "persons": 11141142, "males": 5673629, "females": 5467513}
+]
+```

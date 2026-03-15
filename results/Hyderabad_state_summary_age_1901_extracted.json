@@ -1,0 +1,231 @@
+{
+  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Hyderabad/Hyderabad_state_summary_age_1901.png",
+  "discovery": {
+    "title": "TABLE VII. AGE, SEX AND CIVIL CONDITION. A\u2014All Religions.",
+    "region": "",
+    "year": 0,
+    "data_type": "absolute",
+    "denominator": 0,
+    "has_persons_column": true,
+    "multi_year": false,
+    "years_present": [],
+    "target_columns": {
+      "name": "POPULATION",
+      "sub_columns": [
+        "Persons",
+        "Males",
+        "Females"
+      ],
+      "left_frac": 0.15,
+      "right_frac": 0.38
+    },
+    "subtotal_hierarchy": {
+      "Total 0-5": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "Total": [
+        "Total 0\u20145",
+        "5\u201410",
+        "10\u201415",
+        "15\u201420",
+        "20\u201425",
+        "25\u201430",
+        "30\u201435",
+        "35\u201440",
+        "40\u201445",
+        "45\u201450",
+        "50\u201455",
+        "55\u201460",
+        "60 & over",
+        "Age not stated"
+      ]
+    },
+    "row_labels": [
+      "0\u20141",
+      "1\u20142",
+      "2\u20143",
+      "3\u20144",
+      "4\u20145",
+      "Total 0\u20145",
+      "5\u201410",
+      "10\u201415",
+      "15\u201420",
+      "20\u201425",
+      "25\u201430",
+      "30\u201435",
+      "35\u201440",
+      "40\u201445",
+      "45\u201450",
+      "50\u201455",
+      "55\u201460",
+      "60 & over",
+      "Age not stated",
+      "Total"
+    ]
+  },
+  "pipeline_config": {
+    "preprocessing": {
+      "crop": {
+        "right_frac": 0.48
+      }
+    },
+    "prompt_type": "subtotals",
+    "constraint_groups": {
+      "0-5": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "total": [
+        "0-5",
+        "5-10",
+        "10-15",
+        "15-20",
+        "20-25",
+        "25-30",
+        "30-35",
+        "35-40",
+        "40-45",
+        "45-50",
+        "50-55",
+        "55-60",
+        "60&over",
+        "agenotstated"
+      ]
+    },
+    "known_totals": null
+  },
+  "results": {
+    "rows": [
+      {
+        "age": "0\u20141",
+        "persons": 175786,
+        "males": 85577,
+        "females": 90209
+      },
+      {
+        "age": "1\u20142",
+        "persons": 236893,
+        "males": 115495,
+        "females": 121398
+      },
+      {
+        "age": "2\u20143",
+        "persons": 323459,
+        "males": 155863,
+        "females": 167596
+      },
+      {
+        "age": "3\u20144",
+        "persons": 286702,
+        "males": 136803,
+        "females": 149899
+      },
+      {
+        "age": "4\u20145",
+        "persons": 332827,
+        "males": 165119,
+        "females": 167708
+      },
+      {
+        "age": "Total 0\u20145",
+        "persons": 1355667,
+        "males": 658857,
+        "females": 696810
+      },
+      {
+        "age": "5\u201410",
+        "persons": 1452854,
+        "males": 755963,
+        "females": 696891
+      },
+      {
+        "age": "10\u201415",
+        "persons": 1350321,
+        "males": 739509,
+        "females": 610812
+      },
+      {
+        "age": "15\u201420",
+        "persons": 852389,
+        "males": 428409,
+        "females": 423980
+      },
+      {
+        "age": "20\u201425",
+        "persons": 894027,
+        "males": 405798,
+        "females": 488229
+      },
+      {
+        "age": "25\u201430",
+        "persons": 1051503,
+        "males": 523613,
+        "females": 527890
+      },
+      {
+        "age": "30\u201435",
+        "persons": 1072226,
+        "males": 538818,
+        "females": 533408
+      },
+      {
+        "age": "35\u201440",
+        "persons": 628589,
+        "males": 342613,
+        "females": 285976
+      },
+      {
+        "age": "40\u201445",
+        "persons": 818675,
+        "males": 425753,
+        "females": 392922
+      },
+      {
+        "age": "45\u201450",
+        "persons": 357058,
+        "males": 200814,
+        "females": 156244
+      },
+      {
+        "age": "50\u201455",
+        "persons": 568550,
+        "males": 289341,
+        "females": 279209
+      },
+      {
+        "age": "55\u201460",
+        "persons": 168158,
+        "males": 93094,
+        "females": 75064
+      },
+      {
+        "age": "60 & over",
+        "persons": 570951,
+        "males": 271002,
+        "females": 299949
+      },
+      {
+        "age": "Age not stated",
+        "persons": 174,
+        "males": 45,
+        "females": 129
+      },
+      {
+        "age": "Total",
+        "persons": 11141142,
+        "males": 5673629,
+        "females": 5467513
+      }
+    ],
+    "n_rows": 20,
+    "constraints_passed": true,
+    "constraint_failures": []
+  }
+}

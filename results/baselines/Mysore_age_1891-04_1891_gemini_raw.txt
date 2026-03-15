@@ -1,0 +1,279 @@
+```json
+[
+  {
+    "age": "Total Married",
+    "District": "Bangalore",
+    "Total": 315375,
+    "Males": 154346,
+    "Females": 161029
+  },
+  {
+    "age": "0-4",
+    "District": "Bangalore",
+    "Males": 7,
+    "Females": 66
+  },
+  {
+    "age": "5-9",
+    "District": "Bangalore",
+    "Males": 106,
+    "Females": 2862
+  },
+  {
+    "age": "10-14",
+    "District": "Bangalore",
+    "Males": 793,
+    "Females": 10671
+  },
+  {
+    "age": "Total Married",
+    "District": "Kolar",
+    "Total": 255279,
+    "Males": 126849,
+    "Females": 128430
+  },
+  {
+    "age": "0-4",
+    "District": "Kolar",
+    "Males": 4,
+    "Females": 94
+  },
+  {
+    "age": "5-9",
+    "District": "Kolar",
+    "Males": 129,
+    "Females": 3141
+  },
+  {
+    "age": "10-14",
+    "District": "Kolar",
+    "Males": 627,
+    "Females": 8529
+  },
+  {
+    "age": "Total Married",
+    "District": "Tumkur",
+    "Total": 239530,
+    "Males": 117932,
+    "Females": 121598
+  },
+  {
+    "age": "0-4",
+    "District": "Tumkur",
+    "Males": 3,
+    "Females": 58
+  },
+  {
+    "age": "5-9",
+    "District": "Tumkur",
+    "Males": 37,
+    "Females": 2715
+  },
+  {
+    "age": "10-14",
+    "District": "Tumkur",
+    "Males": 523,
+    "Females": 7755
+  },
+  {
+    "age": "Total Married",
+    "District": "Mysore",
+    "Total": 520776,
+    "Males": 254027,
+    "Females": 266749
+  },
+  {
+    "age": "0-4",
+    "District": "Mysore",
+    "Males": 6,
+    "Females": 98
+  },
+  {
+    "age": "5-9",
+    "District": "Mysore",
+    "Males": 207,
+    "Females": 5006
+  },
+  {
+    "age": "10-14",
+    "District": "Mysore",
+    "Males": 2013,
+    "Females": 20001
+  },
+  {
+    "age": "Total Married",
+    "District": "Hassan",
+    "Total": 204015,
+    "Males": 100004,
+    "Females": 104011
+  },
+  {
+    "age": "0-4",
+    "District": "Hassan",
+    "Males": 5,
+    "Females": 7
+  },
+  {
+    "age": "5-9",
+    "District": "Hassan",
+    "Males": 35,
+    "Females": 461
+  },
+  {
+    "age": "10-14",
+    "District": "Hassan",
+    "Males": 335,
+    "Females": 4459
+  },
+  {
+    "age": "Total Married",
+    "District": "Shimoga",
+    "Total": 202011,
+    "Males": 104567,
+    "Females": 97444
+  },
+  {
+    "age": "0-4",
+    "District": "Shimoga",
+    "Males": 5,
+    "Females": 15
+  },
+  {
+    "age": "5-9",
+    "District": "Shimoga",
+    "Males": 75,
+    "Females": 1143
+  },
+  {
+    "age": "10-14",
+    "District": "Shimoga",
+    "Males": 593,
+    "Females": 7481
+  },
+  {
+    "age": "Total Married",
+    "District": "Kadur",
+    "Total": 130529,
+    "Males": 68299,
+    "Females": 62230
+  },
+  {
+    "age": "0-4",
+    "District": "Kadur",
+    "Males": 0,
+    "Females": 0
+  },
+  {
+    "age": "5-9",
+    "District": "Kadur",
+    "Males": 15,
+    "Females": 1477
+  },
+  {
+    "age": "10-14",
+    "District": "Kadur",
+    "Males": 188,
+    "Females": 3017
+  },
+  {
+    "age": "Total Married",
+    "District": "Chitaldurg",
+    "Total": 164663,
+    "Males": 81690,
+    "Females": 82973
+  },
+  {
+    "age": "0-4",
+    "District": "Chitaldurg",
+    "Males": 0,
+    "Females": 34
+  },
+  {
+    "age": "5-9",
+    "District": "Chitaldurg",
+    "Males": 71,
+    "Females": 895
+  },
+  {
+    "age": "10-14",
+    "District": "Chitaldurg",
+    "Males": 321,
+    "Females": 4312
+  },
+  {
+    "age": "Total Married",
+    "District": "Total",
+    "Total": 2032178,
+    "Males": 1007714,
+    "Females": 1024464
+  },
+  {
+    "age": "0-4",
+    "District": "Total",
+    "Males": 30,
+    "Females": 372
+  },
+  {
+    "age": "5-9",
+    "District": "Total",
+    "Males": 675,
+    "Females": 17700
+  },
+  {
+    "age": "10-14",
+    "District": "Total",
+    "Males": 5393,
+    "Females": 66225
+  },
+  {
+    "age": "Total Married",
+    "District": "The Civil and Military Station, Bangalore",
+    "Total": 40729,
+    "Males": 19834,
+    "Females": 20895
+  },
+  {
+    "age": "0-4",
+    "District": "The Civil and Military Station, Bangalore",
+    "Males": 6,
+    "Females": 13
+  },
+  {
+    "age": "5-9",
+    "District": "The Civil and Military Station, Bangalore",
+    "Males": 8,
+    "Females": 88
+  },
+  {
+    "age": "10-14",
+    "District": "The Civil and Military Station, Bangalore",
+    "Males": 56,
+    "Females": 1132
+  },
+  {
+    "age": "Total Married",
+    "District": "GRAND TOTAL",
+    "Total": 2072907,
+    "Males": 1027548,
+    "Females": 1045359
+  },
+  {
+    "age": "0-4",
+    "District": "GRAND TOTAL",
+    "Males": 36,
+    "Females": 385
+  },
+  {
+    "age": "5-9",
+    "District": "GRAND TOTAL",
+    "Males": 683,
+    "Females": 17788
+  },
+  {
+    "age": "10-14",
+    "District": "GRAND TOTAL",
+    "Males": 5449,
+    "Females": 67357
+  }
+]
+```

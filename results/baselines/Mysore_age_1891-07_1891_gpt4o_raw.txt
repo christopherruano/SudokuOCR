@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "age": "0-4",
+    "Persons": 250,
+    "Males": 139,
+    "Females": 111
+  },
+  {
+    "age": "5-9",
+    "Persons": 253,
+    "Males": 136,
+    "Females": 117
+  },
+  {
+    "age": "10-14",
+    "Persons": 1833,
+    "Males": 819,
+    "Females": 1014
+  },
+  {
+    "age": "15-19",
+    "Persons": 6100,
+    "Males": 5984,
+    "Females": 116
+  }
+]
+```
