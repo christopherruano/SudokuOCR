@@ -1,0 +1,763 @@
+{
+  "source_image": "age_tables/Berar/1901/Berar_age_1901-1.png",
+  "extraction_method": "mistral+partial_repair",
+  "mistral_calls": 1,
+  "gemini_calls": 0,
+  "api_calls": 1,
+  "cost_estimate": 0.002,
+  "elapsed_seconds": 10.1,
+  "metadata": {
+    "column_groups": [
+      "6-10",
+      "10-15",
+      "15-20",
+      "20-40",
+      "40-60",
+      "60 AND OVER",
+      "5-10",
+      "10-15"
+    ],
+    "data_type": "absolute"
+  },
+  "data": [
+    {
+      "name": "Ambati",
+      "rows": [
+        {
+          "age": "Total",
+          "6-10": {
+            "persons": 208933,
+            "males": 129402,
+            "females": 70471
+          },
+          "10-15": {
+            "persons": 716,
+            "males": 1067,
+            "females": 9298
+          },
+          "15-20": {
+            "persons": 32387,
+            "males": 33142,
+            "females": 12234
+          },
+          "20-40": {
+            "persons": 13240,
+            "males": 1618,
+            "females": 13534
+          },
+          "40-60": {
+            "persons": 1600,
+            "males": 1961,
+            "females": 341
+          },
+          "60 AND OVER": {
+            "persons": 371,
+            "males": 60,
+            "females": 340596
+          },
+          "5-10": {
+            "persons": 171742,
+            "males": 168854,
+            "females": 306
+          }
+        }
+      ]
+    },
+    {
+      "name": "Akela",
+      "rows": [
+        {
+          "age": "Total",
+          "6-10": {
+            "persons": 171113,
+            "males": 106513,
+            "females": 64600
+          },
+          "10-15": {
+            "persons": 915,
+            "males": 1024,
+            "females": 12269
+          },
+          "15-20": {
+            "persons": 24725,
+            "males": 25115,
+            "females": 6810
+          },
+          "20-40": {
+            "persons": 7788,
+            "males": 962,
+            "females": 8549
+          },
+          "40-60": {
+            "persons": 1190,
+            "males": 1341,
+            "females": 290
+          },
+          "60 AND OVER": {
+            "persons": 246,
+            "males": 54,
+            "females": 339341
+          },
+          "5-10": {
+            "persons": 169940,
+            "males": 168401,
+            "females": 265
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ellichpur",
+      "rows": [
+        {
+          "age": "Total",
+          "6-10": {
+            "persons": 102827,
+            "males": 62366,
+            "females": 40461
+          },
+          "10-15": {
+            "persons": 289,
+            "males": 431,
+            "females": 3425
+          },
+          "15-20": {
+            "persons": 16179,
+            "males": 15791,
+            "females": 6241
+          },
+          "20-40": {
+            "persons": 6141,
+            "males": 1209,
+            "females": 6432
+          },
+          "40-60": {
+            "persons": 977,
+            "males": 998,
+            "females": 198
+          },
+          "60 AND OVER": {
+            "persons": 162,
+            "males": 48,
+            "females": 158672
+          },
+          "5-10": {
+            "persons": 78248,
+            "males": 78424,
+            "females": 169
+          }
+        }
+      ]
+    },
+    {
+      "name": "Suldana",
+      "rows": [
+        {
+          "age": "Total",
+          "6-10": {
+            "persons": 131623,
+            "males": 81952,
+            "females": 49671
+          },
+          "10-15": {
+            "persons": 509,
+            "males": 961,
+            "females": 8283
+          },
+          "15-20": {
+            "persons": 21131,
+            "males": 22125,
+            "females": 5594
+          },
+          "20-40": {
+            "persons": 6525,
+            "males": 582,
+            "females": 5056
+          },
+          "40-60": {
+            "persons": 613,
+            "males": 643,
+            "females": 140
+          },
+          "60 AND OVER": {
+            "persons": 125,
+            "males": 32,
+            "females": 237800
+          },
+          "5-10": {
+            "persons": 117422,
+            "males": 120387,
+            "females": 219
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wan",
+      "rows": [
+        {
+          "age": "Total",
+          "6-10": {
+            "persons": 165952,
+            "males": 99645,
+            "females": 66307
+          },
+          "10-15": {
+            "persons": 665,
+            "males": 1314,
+            "females": 6868
+          },
+          "15-20": {
+            "persons": 24208,
+            "males": 25600,
+            "females": 11575
+          },
+          "20-40": {
+            "persons": 9158,
+            "males": 1718,
+            "females": 9253
+          },
+          "40-60": {
+            "persons": 1236,
+            "males": 977,
+            "females": 241
+          },
+          "60 AND OVER": {
+            "persons": 184,
+            "males": 60,
+            "females": 245355
+          },
+          "5-10": {
+            "persons": 122170,
+            "males": 123185,
+            "females": 230
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basim",
+      "rows": [
+        {
+          "age": "Total",
+          "6-10": {
+            "persons": 117481,
+            "males": 72391,
+            "females": 45090
+          },
+          "10-15": {
+            "persons": 615,
+            "males": 1180,
+            "females": 6903
+          },
+          "15-20": {
+            "persons": 18094,
+            "males": 19220,
+            "females": 6491
+          },
+          "20-40": {
+            "persons": 5173,
+            "males": 634,
+            "females": 5785
+          },
+          "40-60": {
+            "persons": 718,
+            "males": 720,
+            "females": 162
+          },
+          "60 AND OVER": {
+            "persons": 117,
+            "males": 46,
+            "females": 188681
+          },
+          "5-10": {
+            "persons": 93224,
+            "males": 95457,
+            "females": 202
+          }
+        },
+        {
+          "age": "Total Berar ...",
+          "6-10": {
+            "persons": 897929,
+            "males": 552329,
+            "females": 345600
+          },
+          "10-15": {
+            "persons": 3709,
+            "males": 6487,
+            "females": 46046
+          },
+          "15-20": {
+            "persons": 136724,
+            "males": 141063,
+            "females": 48951
+          },
+          "20-40": {
+            "persons": 48023,
+            "males": 6723,
+            "females": 48609
+          },
+          "40-60": {
+            "persons": 6304,
+            "males": 6603,
+            "females": 1377
+          },
+          "60 AND OVER": {
+            "persons": 1205,
+            "males": 300,
+            "females": 1508454
+          },
+          "5-10": {
+            "persons": 752746,
+            "males": 755708,
+            "females": 1481
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 224,
+    "passed": 174,
+    "failed": 50,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L1",
+        "section": "Ambati",
+        "age": "Total",
+        "group": "6-10",
+        "detail": "P=208933 != M=129402+F=70471=199873",
+        "diff": 9060
+      },
+      {
+        "level": "L1",
+        "section": "Ambati",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=716 != M=1067+F=9298=10365",
+        "diff": -9649
+      },
+      {
+        "level": "L1",
+        "section": "Ambati",
+        "age": "Total",
+        "group": "15-20",
+        "detail": "P=32387 != M=33142+F=12234=45376",
+        "diff": -12989
+      },
+      {
+        "level": "L1",
+        "section": "Ambati",
+        "age": "Total",
+        "group": "20-40",
+        "detail": "P=13240 != M=1618+F=13534=15152",
+        "diff": -1912
+      },
+      {
+        "level": "L1",
+        "section": "Ambati",
+        "age": "Total",
+        "group": "40-60",
+        "detail": "P=1600 != M=1961+F=341=2302",
+        "diff": -702
+      },
+      {
+        "level": "L1",
+        "section": "Ambati",
+        "age": "Total",
+        "group": "60 AND OVER",
+        "detail": "P=371 != M=60+F=340596=340656",
+        "diff": -340285
+      },
+      {
+        "level": "L1",
+        "section": "Ambati",
+        "age": "Total",
+        "group": "5-10",
+        "detail": "P=171742 != M=168854+F=306=169160",
+        "diff": 2582
+      },
+      {
+        "level": "L1",
+        "section": "Ambati",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=716 != M=1067+F=9298=10365",
+        "diff": -9649
+      },
+      {
+        "level": "L1",
+        "section": "Akela",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=915 != M=1024+F=12269=13293",
+        "diff": -12378
+      },
+      {
+        "level": "L1",
+        "section": "Akela",
+        "age": "Total",
+        "group": "15-20",
+        "detail": "P=24725 != M=25115+F=6810=31925",
+        "diff": -7200
+      },
+      {
+        "level": "L1",
+        "section": "Akela",
+        "age": "Total",
+        "group": "20-40",
+        "detail": "P=7788 != M=962+F=8549=9511",
+        "diff": -1723
+      },
+      {
+        "level": "L1",
+        "section": "Akela",
+        "age": "Total",
+        "group": "40-60",
+        "detail": "P=1190 != M=1341+F=290=1631",
+        "diff": -441
+      },
+      {
+        "level": "L1",
+        "section": "Akela",
+        "age": "Total",
+        "group": "60 AND OVER",
+        "detail": "P=246 != M=54+F=339341=339395",
+        "diff": -339149
+      },
+      {
+        "level": "L1",
+        "section": "Akela",
+        "age": "Total",
+        "group": "5-10",
+        "detail": "P=169940 != M=168401+F=265=168666",
+        "diff": 1274
+      },
+      {
+        "level": "L1",
+        "section": "Akela",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=915 != M=1024+F=12269=13293",
+        "diff": -12378
+      },
+      {
+        "level": "L1",
+        "section": "Ellichpur",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=289 != M=431+F=3425=3856",
+        "diff": -3567
+      },
+      {
+        "level": "L1",
+        "section": "Ellichpur",
+        "age": "Total",
+        "group": "15-20",
+        "detail": "P=16179 != M=15791+F=6241=22032",
+        "diff": -5853
+      },
+      {
+        "level": "L1",
+        "section": "Ellichpur",
+        "age": "Total",
+        "group": "20-40",
+        "detail": "P=6141 != M=1209+F=6432=7641",
+        "diff": -1500
+      },
+      {
+        "level": "L1",
+        "section": "Ellichpur",
+        "age": "Total",
+        "group": "40-60",
+        "detail": "P=977 != M=998+F=198=1196",
+        "diff": -219
+      },
+      {
+        "level": "L1",
+        "section": "Ellichpur",
+        "age": "Total",
+        "group": "60 AND OVER",
+        "detail": "P=162 != M=48+F=158672=158720",
+        "diff": -158558
+      },
+      {
+        "level": "L1",
+        "section": "Ellichpur",
+        "age": "Total",
+        "group": "5-10",
+        "detail": "P=78248 != M=78424+F=169=78593",
+        "diff": -345
+      },
+      {
+        "level": "L1",
+        "section": "Ellichpur",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=289 != M=431+F=3425=3856",
+        "diff": -3567
+      },
+      {
+        "level": "L1",
+        "section": "Suldana",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=509 != M=961+F=8283=9244",
+        "diff": -8735
+      },
+      {
+        "level": "L1",
+        "section": "Suldana",
+        "age": "Total",
+        "group": "15-20",
+        "detail": "P=21131 != M=22125+F=5594=27719",
+        "diff": -6588
+      },
+      {
+        "level": "L1",
+        "section": "Suldana",
+        "age": "Total",
+        "group": "20-40",
+        "detail": "P=6525 != M=582+F=5056=5638",
+        "diff": 887
+      },
+      {
+        "level": "L1",
+        "section": "Suldana",
+        "age": "Total",
+        "group": "40-60",
+        "detail": "P=613 != M=643+F=140=783",
+        "diff": -170
+      },
+      {
+        "level": "L1",
+        "section": "Suldana",
+        "age": "Total",
+        "group": "60 AND OVER",
+        "detail": "P=125 != M=32+F=237800=237832",
+        "diff": -237707
+      },
+      {
+        "level": "L1",
+        "section": "Suldana",
+        "age": "Total",
+        "group": "5-10",
+        "detail": "P=117422 != M=120387+F=219=120606",
+        "diff": -3184
+      },
+      {
+        "level": "L1",
+        "section": "Suldana",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=509 != M=961+F=8283=9244",
+        "diff": -8735
+      },
+      {
+        "level": "L1",
+        "section": "Wan",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=665 != M=1314+F=6868=8182",
+        "diff": -7517
+      },
+      {
+        "level": "L1",
+        "section": "Wan",
+        "age": "Total",
+        "group": "15-20",
+        "detail": "P=24208 != M=25600+F=11575=37175",
+        "diff": -12967
+      },
+      {
+        "level": "L1",
+        "section": "Wan",
+        "age": "Total",
+        "group": "20-40",
+        "detail": "P=9158 != M=1718+F=9253=10971",
+        "diff": -1813
+      },
+      {
+        "level": "L1",
+        "section": "Wan",
+        "age": "Total",
+        "group": "40-60",
+        "detail": "P=1236 != M=977+F=241=1218",
+        "diff": 18
+      },
+      {
+        "level": "L1",
+        "section": "Wan",
+        "age": "Total",
+        "group": "60 AND OVER",
+        "detail": "P=184 != M=60+F=245355=245415",
+        "diff": -245231
+      },
+      {
+        "level": "L1",
+        "section": "Wan",
+        "age": "Total",
+        "group": "5-10",
+        "detail": "P=122170 != M=123185+F=230=123415",
+        "diff": -1245
+      },
+      {
+        "level": "L1",
+        "section": "Wan",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=665 != M=1314+F=6868=8182",
+        "diff": -7517
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=615 != M=1180+F=6903=8083",
+        "diff": -7468
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total",
+        "group": "15-20",
+        "detail": "P=18094 != M=19220+F=6491=25711",
+        "diff": -7617
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total",
+        "group": "20-40",
+        "detail": "P=5173 != M=634+F=5785=6419",
+        "diff": -1246
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total",
+        "group": "40-60",
+        "detail": "P=718 != M=720+F=162=882",
+        "diff": -164
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total",
+        "group": "60 AND OVER",
+        "detail": "P=117 != M=46+F=188681=188727",
+        "diff": -188610
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total",
+        "group": "5-10",
+        "detail": "P=93224 != M=95457+F=202=95659",
+        "diff": -2435
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total",
+        "group": "10-15",
+        "detail": "P=615 != M=1180+F=6903=8083",
+        "diff": -7468
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total Berar ...",
+        "group": "10-15",
+        "detail": "P=3709 != M=6487+F=46046=52533",
+        "diff": -48824
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total Berar ...",
+        "group": "15-20",
+        "detail": "P=136724 != M=141063+F=48951=190014",
+        "diff": -53290
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total Berar ...",
+        "group": "20-40",
+        "detail": "P=48023 != M=6723+F=48609=55332",
+        "diff": -7309
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total Berar ...",
+        "group": "40-60",
+        "detail": "P=6304 != M=6603+F=1377=7980",
+        "diff": -1676
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total Berar ...",
+        "group": "60 AND OVER",
+        "detail": "P=1205 != M=300+F=1508454=1508754",
+        "diff": -1507549
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total Berar ...",
+        "group": "5-10",
+        "detail": "P=752746 != M=755708+F=1481=757189",
+        "diff": -4443
+      },
+      {
+        "level": "L1",
+        "section": "Basim",
+        "age": "Total Berar ...",
+        "group": "10-15",
+        "detail": "P=3709 != M=6487+F=46046=52533",
+        "diff": -48824
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_mistral_hybrid",
+    "policy": "mistral_hybrid",
+    "decision": "rejected_constraints_failed",
+    "next_step": "escalate_expensive",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 1,
+      "initial_failures": 50,
+      "initial_total_checks": 224,
+      "final_failures": 50,
+      "age_warning_count": 0,
+      "extraction_mode": "mistral_markdown",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 3,
+      "repair_api_calls": 0,
+      "repair_phases_used": [
+        "A/B"
+      ],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 0,
+      "mistral_calls": 1,
+      "gemini_calls": 0,
+      "method": "mistral+partial_repair",
+      "inherited_acceptance": null
+    }
+  }
+}

@@ -1,0 +1,1299 @@
+{
+  "source_image": "age_tables/Gwalior/1901/Gwalior_age_1901-3.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 22,
+  "elapsed_seconds": 1924.7,
+  "metadata": {
+    "title": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+    "region": "All Religions.",
+    "year": 0,
+    "data_type": "absolute",
+    "row_axis_type": "district_rows",
+    "row_label_name": "DISTRICTS.",
+    "column_groups": [
+      "TOTAL UNMARRIED.",
+      "0-1.",
+      "1-2.",
+      "2-3.",
+      "3-4.",
+      "4-5.",
+      "Total 0-5.",
+      "5-10.",
+      "10-15."
+    ]
+  },
+  "data": [
+    {
+      "name": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+      "rows": [
+        {
+          "age": "Gwalior Prant-Gwalior",
+          "TOTAL UNMARRIED.": {
+            "persons": 108116,
+            "males": 72156,
+            "females": 35960
+          },
+          "0-1.": {
+            "persons": 6063,
+            "males": 3430,
+            "females": 2633
+          },
+          "1-2.": {
+            "persons": 5306,
+            "males": 2903,
+            "females": 2403
+          },
+          "2-3.": {
+            "persons": 7152,
+            "males": 3814,
+            "females": 3338
+          },
+          "3-4.": {
+            "persons": 4538,
+            "males": 1743,
+            "females": 2795
+          },
+          "4-5.": {
+            "persons": 5773,
+            "males": 2923,
+            "females": 2850
+          },
+          "Total 0-5.": {
+            "persons": 28832,
+            "males": 14813,
+            "females": 14019
+          },
+          "5-10.": {
+            "persons": 31419,
+            "males": 18224,
+            "females": 13195
+          },
+          "10-15.": {
+            "persons": 21258,
+            "males": 15133,
+            "females": 6125
+          }
+        },
+        {
+          "age": "Susera",
+          "TOTAL UNMARRIED.": {
+            "persons": 1361,
+            "males": 886,
+            "females": 475
+          },
+          "0-1.": {
+            "persons": 70,
+            "males": 42,
+            "females": 28
+          },
+          "1-2.": {
+            "persons": 86,
+            "males": 40,
+            "females": 46
+          },
+          "2-3.": {
+            "persons": 101,
+            "males": 59,
+            "females": 42
+          },
+          "3-4.": {
+            "persons": 70,
+            "males": 27,
+            "females": 43
+          },
+          "4-5.": {
+            "persons": 73,
+            "males": 46,
+            "females": 27
+          },
+          "Total 0-5.": {
+            "persons": 400,
+            "males": 214,
+            "females": 186
+          },
+          "5-10.": {
+            "persons": 424,
+            "males": 215,
+            "females": 209
+          },
+          "10-15.": {
+            "persons": 280,
+            "males": 210,
+            "females": 70
+          }
+        },
+        {
+          "age": "Sikarwari",
+          "TOTAL UNMARRIED.": {
+            "persons": 74377,
+            "males": 50001,
+            "females": 24376
+          },
+          "0-1.": {
+            "persons": 3632,
+            "males": 2008,
+            "females": 1624
+          },
+          "1-2.": {
+            "persons": 4366,
+            "males": 2314,
+            "females": 2052
+          },
+          "2-3.": {
+            "persons": 4523,
+            "males": 2236,
+            "females": 2287
+          },
+          "3-4.": {
+            "persons": 3308,
+            "males": 1591,
+            "females": 1717
+          },
+          "4-5.": {
+            "persons": 4174,
+            "males": 2396,
+            "females": 1778
+          },
+          "Total 0-5.": {
+            "persons": 20003,
+            "males": 10545,
+            "females": 9458
+          },
+          "5-10.": {
+            "persons": 22013,
+            "males": 12367,
+            "females": 9646
+          },
+          "10-15.": {
+            "persons": 15924,
+            "males": 11764,
+            "females": 4160
+          }
+        },
+        {
+          "age": "Sabalgarh",
+          "TOTAL UNMARRIED.": {
+            "persons": 52604,
+            "males": 33665,
+            "females": 18939
+          },
+          "0-1.": {
+            "persons": 2115,
+            "males": 1183,
+            "females": 932
+          },
+          "1-2.": {
+            "persons": 2082,
+            "males": 1067,
+            "females": 1015
+          },
+          "2-3.": {
+            "persons": 3318,
+            "males": 1831,
+            "females": 1487
+          },
+          "3-4.": {
+            "persons": 2638,
+            "males": 1443,
+            "females": 1195
+          },
+          "4-5.": {
+            "persons": 3227,
+            "males": 1516,
+            "females": 1711
+          },
+          "Total 0-5.": {
+            "persons": 13380,
+            "males": 7040,
+            "females": 6340
+          },
+          "5-10.": {
+            "persons": 18422,
+            "males": 8340,
+            "females": 10082
+          },
+          "10-15.": {
+            "persons": 8087,
+            "males": 6323,
+            "females": 1764
+          }
+        },
+        {
+          "age": "Tawarghar",
+          "TOTAL UNMARRIED.": {
+            "persons": 69081,
+            "males": 47313,
+            "females": 21768
+          },
+          "0-1.": {
+            "persons": 2690,
+            "males": 1576,
+            "females": 1114
+          },
+          "1-2.": {
+            "persons": 4968,
+            "males": 2561,
+            "females": 2407
+          },
+          "2-3.": {
+            "persons": 4455,
+            "males": 2176,
+            "females": 2279
+          },
+          "3-4.": {
+            "persons": 3442,
+            "males": 1751,
+            "females": 1691
+          },
+          "4-5.": {
+            "persons": 4364,
+            "males": 2434,
+            "females": 1930
+          },
+          "Total 0-5.": {
+            "persons": 19919,
+            "males": 10498,
+            "females": 9421
+          },
+          "5-10.": {
+            "persons": 21159,
+            "males": 12088,
+            "females": 9071
+          },
+          "10-15.": {
+            "persons": 13237,
+            "males": 10734,
+            "females": 2503
+          }
+        },
+        {
+          "age": "Bhind",
+          "TOTAL UNMARRIED.": {
+            "persons": 89182,
+            "males": 60249,
+            "females": 28933
+          },
+          "0-1.": {
+            "persons": 4947,
+            "males": 3145,
+            "females": 1802
+          },
+          "1-2.": {
+            "persons": 4717,
+            "males": 2807,
+            "females": 1910
+          },
+          "2-3.": {
+            "persons": 5233,
+            "males": 3156,
+            "females": 2077
+          },
+          "3-4.": {
+            "persons": 5233,
+            "males": 2893,
+            "females": 2340
+          },
+          "4-5.": {
+            "persons": 5777,
+            "males": 2562,
+            "females": 3215
+          },
+          "Total 0-5.": {
+            "persons": 25907,
+            "males": 14563,
+            "females": 11344
+          },
+          "5-10.": {
+            "persons": 28197,
+            "males": 15323,
+            "females": 12874
+          },
+          "10-15.": {
+            "persons": 11593,
+            "males": 9010,
+            "females": 2583
+          }
+        },
+        {
+          "age": "Bhander",
+          "TOTAL UNMARRIED.": {
+            "persons": 62207,
+            "males": 40505,
+            "females": 21702
+          },
+          "0-1.": {
+            "persons": 3319,
+            "males": 1762,
+            "females": 1557
+          },
+          "1-2.": {
+            "persons": 4018,
+            "males": 2096,
+            "females": 1922
+          },
+          "2-3.": {
+            "persons": 3391,
+            "males": 1285,
+            "females": 2106
+          },
+          "3-4.": {
+            "persons": 3541,
+            "males": 1808,
+            "females": 1733
+          },
+          "4-5.": {
+            "persons": 3901,
+            "males": 1971,
+            "females": 1930
+          },
+          "Total 0-5.": {
+            "persons": 18170,
+            "males": 8922,
+            "females": 9248
+          },
+          "5-10.": {
+            "persons": 18950,
+            "males": 10284,
+            "females": 8666
+          },
+          "10-15.": {
+            "persons": 11361,
+            "males": 8426,
+            "females": 2935
+          }
+        },
+        {
+          "age": "Isagarh Prant-Isagarh",
+          "TOTAL UNMARRIED.": {
+            "persons": 68020,
+            "males": 37735,
+            "females": 30285
+          },
+          "0-1.": {
+            "persons": 2347,
+            "males": 1402,
+            "females": 945
+          },
+          "1-2.": {
+            "persons": 2797,
+            "males": 2314,
+            "females": 483
+          },
+          "2-3.": {
+            "persons": 3519,
+            "males": 2473,
+            "females": 1046
+          },
+          "3-4.": {
+            "persons": 2143,
+            "males": 1593,
+            "females": 550
+          },
+          "4-5.": {
+            "persons": 2167,
+            "males": 1725,
+            "females": 442
+          },
+          "Total 0-5.": {
+            "persons": 12973,
+            "males": 9507,
+            "females": 3466
+          },
+          "5-10.": {
+            "persons": 10963,
+            "males": 9829,
+            "females": 1134
+          },
+          "10-15.": {
+            "persons": 10065,
+            "males": 9109,
+            "females": 956
+          }
+        },
+        {
+          "age": "Pichhor",
+          "TOTAL UNMARRIED.": {
+            "persons": 102964,
+            "males": 61213,
+            "females": 41751
+          },
+          "0-1.": {
+            "persons": 2722,
+            "males": 2339,
+            "females": 383
+          },
+          "1-2.": {
+            "persons": 2645,
+            "males": 1748,
+            "females": 897
+          },
+          "2-3.": {
+            "persons": 3955,
+            "males": 2756,
+            "females": 1199
+          },
+          "3-4.": {
+            "persons": 1899,
+            "males": 1374,
+            "females": 525
+          },
+          "4-5.": {
+            "persons": 2961,
+            "males": 2502,
+            "females": 459
+          },
+          "Total 0-5.": {
+            "persons": 14182,
+            "males": 10719,
+            "females": 3463
+          },
+          "5-10.": {
+            "persons": 16333,
+            "males": 13771,
+            "females": 2562
+          },
+          "10-15.": {
+            "persons": 14739,
+            "males": 12959,
+            "females": 1780
+          }
+        },
+        {
+          "age": "Bajrangarh",
+          "TOTAL UNMARRIED.": {
+            "persons": 45065,
+            "males": 29641,
+            "females": 15424
+          },
+          "0-1.": {
+            "persons": 1595,
+            "males": 806,
+            "females": 789
+          },
+          "1-2.": {
+            "persons": 2521,
+            "males": 1351,
+            "females": 1170
+          },
+          "2-3.": {
+            "persons": 2765,
+            "males": 1562,
+            "females": 1203
+          },
+          "3-4.": {
+            "persons": 2357,
+            "males": 1312,
+            "females": 1045
+          },
+          "4-5.": {
+            "persons": 2465,
+            "males": 1298,
+            "females": 1167
+          },
+          "Total 0-5.": {
+            "persons": 11703,
+            "males": 6329,
+            "females": 5374
+          },
+          "5-10.": {
+            "persons": 14419,
+            "males": 8519,
+            "females": 5900
+          },
+          "10-15.": {
+            "persons": 9828,
+            "males": 7009,
+            "females": 2819
+          }
+        },
+        {
+          "age": "Bhilsa",
+          "TOTAL UNMARRIED.": {
+            "persons": 46076,
+            "males": 28132,
+            "females": 17944
+          },
+          "0-1.": {
+            "persons": 1809,
+            "males": 1011,
+            "females": 798
+          },
+          "1-2.": {
+            "persons": 2402,
+            "males": 1177,
+            "females": 1225
+          },
+          "2-3.": {
+            "persons": 2961,
+            "males": 1541,
+            "females": 1420
+          },
+          "3-4.": {
+            "persons": 2543,
+            "males": 1341,
+            "females": 1202
+          },
+          "4-5.": {
+            "persons": 2525,
+            "males": 1174,
+            "females": 1351
+          },
+          "Total 0-5.": {
+            "persons": 12240,
+            "males": 6244,
+            "females": 5996
+          },
+          "5-10.": {
+            "persons": 14323,
+            "males": 7231,
+            "females": 7092
+          },
+          "10-15.": {
+            "persons": 10384,
+            "males": 6880,
+            "females": 3504
+          }
+        },
+        {
+          "age": "Narwar",
+          "TOTAL UNMARRIED.": {
+            "persons": 67908,
+            "males": 37461,
+            "females": 30447
+          },
+          "0-1.": {
+            "persons": 2044,
+            "males": 1463,
+            "females": 581
+          },
+          "1-2.": {
+            "persons": 2371,
+            "males": 1669,
+            "females": 702
+          },
+          "2-3.": {
+            "persons": 1976,
+            "males": 851,
+            "females": 1125
+          },
+          "3-4.": {
+            "persons": 1891,
+            "males": 890,
+            "females": 1001
+          },
+          "4-5.": {
+            "persons": 3380,
+            "males": 1948,
+            "females": 1432
+          },
+          "Total 0-5.": {
+            "persons": 11632,
+            "males": 6791,
+            "females": 4841
+          },
+          "5-10.": {
+            "persons": 14566,
+            "males": 10773,
+            "females": 3793
+          },
+          "10-15.": {
+            "persons": 11280,
+            "males": 9466,
+            "females": 1814
+          }
+        },
+        {
+          "age": "Sheopur",
+          "TOTAL UNMARRIED.": {
+            "persons": 35558,
+            "males": 24075,
+            "females": 11483
+          },
+          "0-1.": {
+            "persons": 1495,
+            "males": 849,
+            "females": 646
+          },
+          "1-2.": {
+            "persons": 946,
+            "males": 620,
+            "females": 326
+          },
+          "2-3.": {
+            "persons": 1683,
+            "males": 1018,
+            "females": 665
+          },
+          "3-4.": {
+            "persons": 1899,
+            "males": 966,
+            "females": 933
+          },
+          "4-5.": {
+            "persons": 2100,
+            "males": 1174,
+            "females": 926
+          },
+          "Total 0-5.": {
+            "persons": 8153,
+            "males": 4657,
+            "females": 3496
+          },
+          "5-10.": {
+            "persons": 9578,
+            "males": 6384,
+            "females": 3194
+          },
+          "10-15.": {
+            "persons": 8270,
+            "males": 5653,
+            "females": 2617
+          }
+        },
+        {
+          "age": "Malwa Prant-Nimach",
+          "TOTAL UNMARRIED.": {
+            "persons": 32183,
+            "males": 20746,
+            "females": 11437
+          },
+          "0-1.": {
+            "persons": 1141,
+            "males": 897,
+            "females": 244
+          },
+          "1-2.": {
+            "persons": 1316,
+            "males": 992,
+            "females": 324
+          },
+          "2-3.": {
+            "persons": 1709,
+            "males": 1183,
+            "females": 526
+          },
+          "3-4.": {
+            "persons": 1804,
+            "males": 1142,
+            "females": 662
+          },
+          "4-5.": {
+            "persons": 1812,
+            "males": 1086,
+            "females": 726
+          },
+          "Total 0-5.": {
+            "persons": 7782,
+            "males": 5300,
+            "females": 2482
+          },
+          "5-10.": {
+            "persons": 9581,
+            "males": 4737,
+            "females": 4844
+          },
+          "10-15.": {
+            "persons": 7488,
+            "males": 4476,
+            "females": 3012
+          }
+        },
+        {
+          "age": "Ujjain",
+          "TOTAL UNMARRIED.": {
+            "persons": 70615,
+            "males": 44820,
+            "females": 25795
+          },
+          "0-1.": {
+            "persons": 2877,
+            "males": 1471,
+            "females": 1406
+          },
+          "1-2.": {
+            "persons": 2831,
+            "males": 1326,
+            "females": 1505
+          },
+          "2-3.": {
+            "persons": 3589,
+            "males": 1753,
+            "females": 1836
+          },
+          "3-4.": {
+            "persons": 3802,
+            "males": 1818,
+            "females": 1984
+          },
+          "4-5.": {
+            "persons": 4048,
+            "males": 2136,
+            "females": 1912
+          },
+          "Total 0-5.": {
+            "persons": 17147,
+            "males": 8504,
+            "females": 8643
+          },
+          "5-10.": {
+            "persons": 22378,
+            "males": 11824,
+            "females": 10554
+          },
+          "10-15.": {
+            "persons": 14616,
+            "males": 10192,
+            "females": 4424
+          }
+        },
+        {
+          "age": "Mandsaur",
+          "TOTAL UNMARRIED.": {
+            "persons": 32183,
+            "males": 21957,
+            "females": 10226
+          },
+          "0-1.": {
+            "persons": 992,
+            "males": 507,
+            "females": 485
+          },
+          "1-2.": {
+            "persons": 1074,
+            "males": 517,
+            "females": 557
+          },
+          "2-3.": {
+            "persons": 1607,
+            "males": 854,
+            "females": 753
+          },
+          "3-4.": {
+            "persons": 1601,
+            "males": 795,
+            "females": 806
+          },
+          "4-5.": {
+            "persons": 1951,
+            "males": 988,
+            "females": 963
+          },
+          "Total 0-5.": {
+            "persons": 7225,
+            "males": 3661,
+            "females": 3564
+          },
+          "5-10.": {
+            "persons": 8660,
+            "males": 5638,
+            "females": 3022
+          },
+          "10-15.": {
+            "persons": 7805,
+            "males": 5195,
+            "females": 2610
+          }
+        },
+        {
+          "age": "Agar",
+          "TOTAL UNMARRIED.": {
+            "persons": 85782,
+            "males": 53199,
+            "females": 32583
+          },
+          "0-1.": {
+            "persons": 3514,
+            "males": 1804,
+            "females": 1710
+          },
+          "1-2.": {
+            "persons": 3162,
+            "males": 1657,
+            "females": 1505
+          },
+          "2-3.": {
+            "persons": 4506,
+            "males": 2166,
+            "females": 2340
+          },
+          "3-4.": {
+            "persons": 4332,
+            "males": 2090,
+            "females": 2242
+          },
+          "4-5.": {
+            "persons": 4936,
+            "males": 2482,
+            "females": 2454
+          },
+          "Total 0-5.": {
+            "persons": 20450,
+            "males": 10199,
+            "females": 10251
+          },
+          "5-10.": {
+            "persons": 28091,
+            "males": 13939,
+            "females": 14152
+          },
+          "10-15.": {
+            "persons": 18473,
+            "males": 12764,
+            "females": 5709
+          }
+        },
+        {
+          "age": "Shajapur",
+          "TOTAL UNMARRIED.": {
+            "persons": 48873,
+            "males": 31412,
+            "females": 17461
+          },
+          "0-1.": {
+            "persons": 1107,
+            "males": 529,
+            "females": 578
+          },
+          "1-2.": {
+            "persons": 1587,
+            "males": 742,
+            "females": 845
+          },
+          "2-3.": {
+            "persons": 2122,
+            "males": 1047,
+            "females": 1075
+          },
+          "3-4.": {
+            "persons": 2248,
+            "males": 1073,
+            "females": 1175
+          },
+          "4-5.": {
+            "persons": 3361,
+            "males": 1392,
+            "females": 1969
+          },
+          "Total 0-5.": {
+            "persons": 10425,
+            "males": 4783,
+            "females": 5642
+          },
+          "5-10.": {
+            "persons": 15053,
+            "males": 7978,
+            "females": 7075
+          },
+          "10-15.": {
+            "persons": 10643,
+            "males": 7405,
+            "females": 3238
+          }
+        },
+        {
+          "age": "Amjhera",
+          "TOTAL UNMARRIED.": {
+            "persons": 36030,
+            "males": 21122,
+            "females": 14908
+          },
+          "0-1.": {
+            "persons": 1481,
+            "males": 711,
+            "females": 770
+          },
+          "1-2.": {
+            "persons": 1574,
+            "males": 612,
+            "females": 962
+          },
+          "2-3.": {
+            "persons": 4492,
+            "males": 857,
+            "females": 3635
+          },
+          "3-4.": {
+            "persons": 2471,
+            "males": 1005,
+            "females": 1466
+          },
+          "4-5.": {
+            "persons": 2389,
+            "males": 1182,
+            "females": 1207
+          },
+          "Total 0-5.": {
+            "persons": 12407,
+            "males": 4367,
+            "females": 8040
+          },
+          "5-10.": {
+            "persons": 7688,
+            "males": 5285,
+            "females": 2403
+          },
+          "10-15.": {
+            "persons": 6539,
+            "males": 4603,
+            "females": 1936
+          }
+        },
+        {
+          "age": "Total",
+          "TOTAL UNMARRIED.": {
+            "persons": 1128185,
+            "males": 716288,
+            "females": 411897
+          },
+          "0-1.": {
+            "persons": 11112,
+            "males": 5919,
+            "females": 5193
+          },
+          "1-2.": {
+            "persons": 11544,
+            "males": 5846,
+            "females": 5698
+          },
+          "2-3.": {
+            "persons": 18025,
+            "males": 7860,
+            "females": 10165
+          },
+          "3-4.": {
+            "persons": 16258,
+            "males": 7923,
+            "females": 8335
+          },
+          "4-5.": {
+            "persons": 18497,
+            "males": 9266,
+            "females": 9231
+          },
+          "Total 0-5.": {
+            "persons": 75436,
+            "males": 36814,
+            "females": 38622
+          },
+          "5-10.": {
+            "persons": 91451,
+            "males": 49401,
+            "females": 42050
+          },
+          "10-15.": {
+            "persons": 65564,
+            "males": 44635,
+            "females": 20929
+          }
+        },
+        {
+          "age": "Grand Total",
+          "TOTAL UNMARRIED.": {
+            "persons": 1128185,
+            "males": 716288,
+            "females": 411897
+          },
+          "0-1.": {
+            "persons": 45960,
+            "males": 26935,
+            "females": 19025
+          },
+          "1-2.": {
+            "persons": 50769,
+            "males": 28513,
+            "females": 22256
+          },
+          "2-3.": {
+            "persons": 63057,
+            "males": 32618,
+            "females": 30439
+          },
+          "3-4.": {
+            "persons": 51760,
+            "males": 26655,
+            "females": 25105
+          },
+          "4-5.": {
+            "persons": 61384,
+            "males": 32935,
+            "females": 28449
+          },
+          "Total 0-5.": {
+            "persons": 272930,
+            "males": 147656,
+            "females": 125274
+          },
+          "5-10.": {
+            "persons": 312217,
+            "males": 182749,
+            "females": 129468
+          },
+          "10-15.": {
+            "persons": 211870,
+            "males": 157311,
+            "females": 54559
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 846,
+    "passed": 818,
+    "failed": 28,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "0-1.",
+        "col": "persons",
+        "detail": "Total=11112 != sum(rows)=45960",
+        "diff": -34848
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "0-1.",
+        "col": "males",
+        "detail": "Total=5919 != sum(rows)=26935",
+        "diff": -21016
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "0-1.",
+        "col": "females",
+        "detail": "Total=5193 != sum(rows)=19025",
+        "diff": -13832
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "1-2.",
+        "col": "persons",
+        "detail": "Total=11544 != sum(rows)=50769",
+        "diff": -39225
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "1-2.",
+        "col": "males",
+        "detail": "Total=5846 != sum(rows)=28513",
+        "diff": -22667
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "1-2.",
+        "col": "females",
+        "detail": "Total=5698 != sum(rows)=22256",
+        "diff": -16558
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "2-3.",
+        "col": "persons",
+        "detail": "Total=18025 != sum(rows)=63057",
+        "diff": -45032
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "2-3.",
+        "col": "males",
+        "detail": "Total=7860 != sum(rows)=32618",
+        "diff": -24758
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "2-3.",
+        "col": "females",
+        "detail": "Total=10165 != sum(rows)=30439",
+        "diff": -20274
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "3-4.",
+        "col": "persons",
+        "detail": "Total=16258 != sum(rows)=51760",
+        "diff": -35502
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "3-4.",
+        "col": "males",
+        "detail": "Total=7923 != sum(rows)=26655",
+        "diff": -18732
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "3-4.",
+        "col": "females",
+        "detail": "Total=8335 != sum(rows)=25105",
+        "diff": -16770
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "4-5.",
+        "col": "persons",
+        "detail": "Total=18497 != sum(rows)=61384",
+        "diff": -42887
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "4-5.",
+        "col": "males",
+        "detail": "Total=9266 != sum(rows)=32935",
+        "diff": -23669
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "4-5.",
+        "col": "females",
+        "detail": "Total=9231 != sum(rows)=28449",
+        "diff": -19218
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "Total 0-5.",
+        "col": "persons",
+        "detail": "Total=75436 != sum(rows)=272930",
+        "diff": -197494
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "Total 0-5.",
+        "col": "males",
+        "detail": "Total=36814 != sum(rows)=147656",
+        "diff": -110842
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "Total 0-5.",
+        "col": "females",
+        "detail": "Total=38622 != sum(rows)=125274",
+        "diff": -86652
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "5-10.",
+        "col": "persons",
+        "detail": "Total=91451 != sum(rows)=312217",
+        "diff": -220766
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "5-10.",
+        "col": "males",
+        "detail": "Total=49401 != sum(rows)=182749",
+        "diff": -133348
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "5-10.",
+        "col": "females",
+        "detail": "Total=42050 != sum(rows)=129468",
+        "diff": -87418
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "10-15.",
+        "col": "persons",
+        "detail": "Total=65564 != sum(rows)=211870",
+        "diff": -146306
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "10-15.",
+        "col": "males",
+        "detail": "Total=44635 != sum(rows)=157311",
+        "diff": -112676
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "group": "10-15.",
+        "col": "females",
+        "detail": "Total=20929 != sum(rows)=54559",
+        "diff": -33630
+      },
+      {
+        "level": "L3",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "age": "Narwar",
+        "col": "persons",
+        "detail": "Total 0-5..persons=11632 != sum(['0-1.', '1-2.', '2-3.', '3-4.', '4-5.'])=11662",
+        "diff": -30
+      },
+      {
+        "level": "L3",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "age": "Narwar",
+        "col": "males",
+        "detail": "Total 0-5..males=6791 != sum(['0-1.', '1-2.', '2-3.', '3-4.', '4-5.'])=6821",
+        "diff": -30
+      },
+      {
+        "level": "L3",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "age": "Sheopur",
+        "col": "persons",
+        "detail": "Total 0-5..persons=8153 != sum(['0-1.', '1-2.', '2-3.', '3-4.', '4-5.'])=8123",
+        "diff": 30
+      },
+      {
+        "level": "L3",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition.",
+        "age": "Sheopur",
+        "col": "males",
+        "detail": "Total 0-5..males=4657 != sum(['0-1.', '1-2.', '2-3.', '3-4.', '4-5.'])=4627",
+        "diff": 30
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v2_oneshot",
+    "decision": "rejected_constraints_failed",
+    "next_step": "review_or_escalate",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 22,
+      "initial_failures": 31,
+      "initial_total_checks": 846,
+      "final_failures": 28,
+      "age_warning_count": 0,
+      "extraction_mode": "per_group",
+      "extraction_attempt_failures": 1,
+      "targeted_recheck_used": true,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 10,
+      "repair_phases_used": [],
+      "cross_group_active": true,
+      "cross_section_active": false,
+      "subtotal_checks": 108
+    }
+  }
+}

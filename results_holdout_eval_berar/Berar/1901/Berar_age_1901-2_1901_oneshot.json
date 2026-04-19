@@ -1,0 +1,511 @@
+{
+  "source_image": "age_tables/Berar/1901/Berar_age_1901-2.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 3,
+  "elapsed_seconds": 189.1,
+  "metadata": {
+    "title": "MARRIED-(contd.) AND WIDOWED.",
+    "region": "Berar",
+    "year": 1901,
+    "data_type": "absolute",
+    "column_groups": [
+      "MARRIED-(contd.) AGE PERIOD. 15-20.",
+      "MARRIED-(contd.) AGE PERIOD. 20-40.",
+      "MARRIED-(contd.) AGE PERIOD. 40-60.",
+      "MARRIED-(contd.) AGE PERIOD. 60 and over.",
+      "WIDOWED. TOTAL WIDOWED.",
+      "WIDOWED. AGE PERIOD. 0-5.",
+      "WIDOWED. AGE PERIOD. 5-10.",
+      "WIDOWED. AGE PERIOD. 10-15.",
+      "WIDOWED. AGE PERIOD. 15-20.",
+      "WIDOWED. AGE PERIOD. 20-40.",
+      "WIDOWED. AGE PERIOD. 40-60.",
+      "WIDOWED. AGE PERIOD. 60 and over."
+    ]
+  },
+  "data": [
+    {
+      "name": "MARRIED-(contd.) AND WIDOWED.",
+      "rows": [
+        {
+          "district": null,
+          "MARRIED-(contd.) AGE PERIOD. 15-20.": {
+            "persons": 32343,
+            "males": 10982,
+            "females": 21361
+          },
+          "MARRIED-(contd.) AGE PERIOD. 20-40.": {
+            "persons": 181009,
+            "males": 90448,
+            "females": 90561
+          },
+          "MARRIED-(contd.) AGE PERIOD. 40-60.": {
+            "persons": 75785,
+            "males": 52036,
+            "females": 23749
+          },
+          "MARRIED-(contd.) AGE PERIOD. 60 and over.": {
+            "persons": 11757,
+            "males": 10056,
+            "females": 1701
+          },
+          "WIDOWED. TOTAL WIDOWED.": {
+            "persons": 80589,
+            "males": 21720,
+            "females": 58869
+          },
+          "WIDOWED. AGE PERIOD. 0-5.": {
+            "persons": 42,
+            "males": 15,
+            "females": 27
+          },
+          "WIDOWED. AGE PERIOD. 5-10.": {
+            "persons": 308,
+            "males": 66,
+            "females": 242
+          },
+          "WIDOWED. AGE PERIOD. 10-15.": {
+            "persons": 1253,
+            "males": 317,
+            "females": 936
+          },
+          "WIDOWED. AGE PERIOD. 15-20.": {
+            "persons": 1456,
+            "males": 424,
+            "females": 1032
+          },
+          "WIDOWED. AGE PERIOD. 20-40.": {
+            "persons": 21318,
+            "males": 6777,
+            "females": 14541
+          },
+          "WIDOWED. AGE PERIOD. 40-60.": {
+            "persons": 37781,
+            "males": 9632,
+            "females": 28149
+          },
+          "WIDOWED. AGE PERIOD. 60 and over.": {
+            "persons": 18431,
+            "males": 4489,
+            "females": 13942
+          }
+        },
+        {
+          "district": null,
+          "MARRIED-(contd.) AGE PERIOD. 15-20.": {
+            "persons": 33175,
+            "males": 12759,
+            "females": 20416
+          },
+          "MARRIED-(contd.) AGE PERIOD. 20-40.": {
+            "persons": 175692,
+            "males": 89574,
+            "females": 86118
+          },
+          "MARRIED-(contd.) AGE PERIOD. 40-60.": {
+            "persons": 69971,
+            "males": 46498,
+            "females": 23473
+          },
+          "MARRIED-(contd.) AGE PERIOD. 60 and over.": {
+            "persons": 11374,
+            "males": 9242,
+            "females": 2132
+          },
+          "WIDOWED. TOTAL WIDOWED.": {
+            "persons": 72086,
+            "males": 19464,
+            "females": 52622
+          },
+          "WIDOWED. AGE PERIOD. 0-5.": {
+            "persons": 36,
+            "males": 6,
+            "females": 30
+          },
+          "WIDOWED. AGE PERIOD. 5-10.": {
+            "persons": 448,
+            "males": 106,
+            "females": 342
+          },
+          "WIDOWED. AGE PERIOD. 10-15.": {
+            "persons": 1550,
+            "males": 513,
+            "females": 1037
+          },
+          "WIDOWED. AGE PERIOD. 15-20.": {
+            "persons": 1446,
+            "males": 578,
+            "females": 868
+          },
+          "WIDOWED. AGE PERIOD. 20-40.": {
+            "persons": 19024,
+            "males": 6836,
+            "females": 12188
+          },
+          "WIDOWED. AGE PERIOD. 40-60.": {
+            "persons": 33492,
+            "males": 7832,
+            "females": 25660
+          },
+          "WIDOWED. AGE PERIOD. 60 and over.": {
+            "persons": 16090,
+            "males": 3593,
+            "females": 12497
+          }
+        },
+        {
+          "district": null,
+          "MARRIED-(contd.) AGE PERIOD. 15-20.": {
+            "persons": 15031,
+            "males": 4904,
+            "females": 10127
+          },
+          "MARRIED-(contd.) AGE PERIOD. 20-40.": {
+            "persons": 85551,
+            "males": 42529,
+            "females": 43022
+          },
+          "MARRIED-(contd.) AGE PERIOD. 40-60.": {
+            "persons": 33518,
+            "males": 22743,
+            "females": 10775
+          },
+          "MARRIED-(contd.) AGE PERIOD. 60 and over.": {
+            "persons": 5351,
+            "males": 4497,
+            "females": 854
+          },
+          "WIDOWED. TOTAL WIDOWED.": {
+            "persons": 37904,
+            "males": 10206,
+            "females": 27698
+          },
+          "WIDOWED. AGE PERIOD. 0-5.": {
+            "persons": 15,
+            "males": 3,
+            "females": 12
+          },
+          "WIDOWED. AGE PERIOD. 5-10.": {
+            "persons": 88,
+            "males": 16,
+            "females": 72
+          },
+          "WIDOWED. AGE PERIOD. 10-15.": {
+            "persons": 454,
+            "males": 116,
+            "females": 338
+          },
+          "WIDOWED. AGE PERIOD. 15-20.": {
+            "persons": 674,
+            "males": 170,
+            "females": 504
+          },
+          "WIDOWED. AGE PERIOD. 20-40.": {
+            "persons": 9778,
+            "males": 3271,
+            "females": 6507
+          },
+          "WIDOWED. AGE PERIOD. 40-60.": {
+            "persons": 17859,
+            "males": 4457,
+            "females": 13402
+          },
+          "WIDOWED. AGE PERIOD. 60 and over.": {
+            "persons": 9036,
+            "males": 2173,
+            "females": 6863
+          }
+        },
+        {
+          "district": null,
+          "MARRIED-(contd.) AGE PERIOD. 15-20.": {
+            "persons": 26153,
+            "males": 10019,
+            "females": 16134
+          },
+          "MARRIED-(contd.) AGE PERIOD. 20-40.": {
+            "persons": 124135,
+            "males": 64134,
+            "females": 60001
+          },
+          "MARRIED-(contd.) AGE PERIOD. 40-60.": {
+            "persons": 43106,
+            "males": 28930,
+            "females": 14176
+          },
+          "MARRIED-(contd.) AGE PERIOD. 60 and over.": {
+            "persons": 6912,
+            "males": 5872,
+            "females": 1040
+          },
+          "WIDOWED. TOTAL WIDOWED.": {
+            "persons": 54184,
+            "males": 12365,
+            "females": 41819
+          },
+          "WIDOWED. AGE PERIOD. 0-5.": {
+            "persons": 25,
+            "males": 2,
+            "females": 23
+          },
+          "WIDOWED. AGE PERIOD. 5-10.": {
+            "persons": 372,
+            "males": 59,
+            "females": 313
+          },
+          "WIDOWED. AGE PERIOD. 10-15.": {
+            "persons": 1563,
+            "males": 469,
+            "females": 1094
+          },
+          "WIDOWED. AGE PERIOD. 15-20.": {
+            "persons": 1513,
+            "males": 564,
+            "females": 949
+          },
+          "WIDOWED. AGE PERIOD. 20-40.": {
+            "persons": 15988,
+            "males": 4578,
+            "females": 11410
+          },
+          "WIDOWED. AGE PERIOD. 40-60.": {
+            "persons": 23780,
+            "males": 4466,
+            "females": 19314
+          },
+          "WIDOWED. AGE PERIOD. 60 and over.": {
+            "persons": 10943,
+            "males": 2227,
+            "females": 8716
+          }
+        },
+        {
+          "district": null,
+          "MARRIED-(contd.) AGE PERIOD. 15-20.": {
+            "persons": 22283,
+            "males": 7717,
+            "females": 14566
+          },
+          "MARRIED-(contd.) AGE PERIOD. 20-40.": {
+            "persons": 130606,
+            "males": 63502,
+            "females": 67104
+          },
+          "MARRIED-(contd.) AGE PERIOD. 40-60.": {
+            "persons": 51994,
+            "males": 35507,
+            "females": 16487
+          },
+          "MARRIED-(contd.) AGE PERIOD. 60 and over.": {
+            "persons": 8530,
+            "males": 7174,
+            "females": 1356
+          },
+          "WIDOWED. TOTAL WIDOWED.": {
+            "persons": 55622,
+            "males": 13823,
+            "females": 41799
+          },
+          "WIDOWED. AGE PERIOD. 0-5.": {
+            "persons": 32,
+            "males": 3,
+            "females": 29
+          },
+          "WIDOWED. AGE PERIOD. 5-10.": {
+            "persons": 409,
+            "males": 81,
+            "females": 328
+          },
+          "WIDOWED. AGE PERIOD. 10-15.": {
+            "persons": 1278,
+            "males": 414,
+            "females": 864
+          },
+          "WIDOWED. AGE PERIOD. 15-20.": {
+            "persons": 1129,
+            "males": 374,
+            "females": 755
+          },
+          "WIDOWED. AGE PERIOD. 20-40.": {
+            "persons": 14626,
+            "males": 4427,
+            "females": 10199
+          },
+          "WIDOWED. AGE PERIOD. 40-60.": {
+            "persons": 24854,
+            "males": 5535,
+            "females": 19319
+          },
+          "WIDOWED. AGE PERIOD. 60 and over.": {
+            "persons": 13294,
+            "males": 2989,
+            "females": 10305
+          }
+        },
+        {
+          "district": null,
+          "MARRIED-(contd.) AGE PERIOD. 15-20.": {
+            "persons": 18102,
+            "males": 6616,
+            "females": 11486
+          },
+          "MARRIED-(contd.) AGE PERIOD. 20-40.": {
+            "persons": 99394,
+            "males": 50175,
+            "females": 49219
+          },
+          "MARRIED-(contd.) AGE PERIOD. 40-60.": {
+            "persons": 35561,
+            "males": 24277,
+            "females": 11284
+          },
+          "MARRIED-(contd.) AGE PERIOD. 60 and over.": {
+            "persons": 5322,
+            "males": 4449,
+            "females": 873
+          },
+          "WIDOWED. TOTAL WIDOWED.": {
+            "persons": 47248,
+            "males": 11647,
+            "females": 35601
+          },
+          "WIDOWED. AGE PERIOD. 0-5.": {
+            "persons": 37,
+            "males": 5,
+            "females": 32
+          },
+          "WIDOWED. AGE PERIOD. 5-10.": {
+            "persons": 483,
+            "males": 115,
+            "females": 368
+          },
+          "WIDOWED. AGE PERIOD. 10-15.": {
+            "persons": 1631,
+            "males": 606,
+            "females": 1025
+          },
+          "WIDOWED. AGE PERIOD. 15-20.": {
+            "persons": 1262,
+            "males": 520,
+            "females": 742
+          },
+          "WIDOWED. AGE PERIOD. 20-40.": {
+            "persons": 14446,
+            "males": 4508,
+            "females": 9938
+          },
+          "WIDOWED. AGE PERIOD. 40-60.": {
+            "persons": 20381,
+            "males": 4114,
+            "females": 16267
+          },
+          "WIDOWED. AGE PERIOD. 60 and over.": {
+            "persons": 9008,
+            "males": 1779,
+            "females": 7229
+          }
+        },
+        {
+          "district": null,
+          "MARRIED-(contd.) AGE PERIOD. 15-20.": {
+            "persons": 147087,
+            "males": 52997,
+            "females": 94090
+          },
+          "MARRIED-(contd.) AGE PERIOD. 20-40.": {
+            "persons": 796387,
+            "males": 400362,
+            "females": 396025
+          },
+          "MARRIED-(contd.) AGE PERIOD. 40-60.": {
+            "persons": 309935,
+            "males": 209991,
+            "females": 99944
+          },
+          "MARRIED-(contd.) AGE PERIOD. 60 and over.": {
+            "persons": 49246,
+            "males": 41290,
+            "females": 7956
+          },
+          "WIDOWED. TOTAL WIDOWED.": {
+            "persons": 347633,
+            "males": 89225,
+            "females": 258408
+          },
+          "WIDOWED. AGE PERIOD. 0-5.": {
+            "persons": 187,
+            "males": 34,
+            "females": 153
+          },
+          "WIDOWED. AGE PERIOD. 5-10.": {
+            "persons": 2108,
+            "males": 443,
+            "females": 1665
+          },
+          "WIDOWED. AGE PERIOD. 10-15.": {
+            "persons": 7729,
+            "males": 2435,
+            "females": 5294
+          },
+          "WIDOWED. AGE PERIOD. 15-20.": {
+            "persons": 7480,
+            "males": 2630,
+            "females": 4850
+          },
+          "WIDOWED. AGE PERIOD. 20-40.": {
+            "persons": 95180,
+            "males": 30397,
+            "females": 64783
+          },
+          "WIDOWED. AGE PERIOD. 40-60.": {
+            "persons": 158147,
+            "males": 36036,
+            "females": 122111
+          },
+          "WIDOWED. AGE PERIOD. 60 and over.": {
+            "persons": 76802,
+            "males": 17250,
+            "females": 59552
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 357,
+    "passed": 357,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_oneshot",
+    "policy": "oneshot",
+    "decision": "accepted_with_risk",
+    "next_step": "review_or_escalate",
+    "trust_score": 80,
+    "reasons": [
+      "schema_rotation_applied",
+      "more_than_two_api_calls"
+    ],
+    "signals": {
+      "api_calls": 3,
+      "initial_failures": 0,
+      "initial_total_checks": 357,
+      "final_failures": 0,
+      "age_warning_count": 0,
+      "extraction_mode": "single_call",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": true,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [],
+      "cross_group_active": true,
+      "cross_section_active": false,
+      "subtotal_checks": 36
+    }
+  }
+}

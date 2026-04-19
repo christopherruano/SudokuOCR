@@ -1,0 +1,701 @@
+{
+  "source_image": "age_tables/Assam/1891/Assam_age_1891-1.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 4,
+  "elapsed_seconds": 193.3,
+  "metadata": {
+    "title": "TABLE VIII. CIVIL CONDITION BY RELIGION AND AGE. PART A.-ALL RELIGIONS. (1) UNMARRIED.",
+    "region": "Assam",
+    "year": 1891,
+    "data_type": "absolute",
+    "column_groups": [
+      "TOTAL UNMARRIED.",
+      "0-4.",
+      "5-9.",
+      "10-14.",
+      "15-19.",
+      "20-24."
+    ],
+    "row_axis_type": "district_rows",
+    "row_label_name": "DISTRICT."
+  },
+  "data": [
+    {
+      "name": "TABLE VIII. CIVIL CONDITION BY RELIGION AND AGE. PART A.-ALL RELIGIONS. (1) UNMARRIED.",
+      "rows": [
+        {
+          "DISTRICT.": "Cachar Plains",
+          "TOTAL UNMARRIED.": {
+            "persons": 173707,
+            "males": 103737,
+            "females": 69970
+          },
+          "0-4.": {
+            "persons": 55255,
+            "males": 27063,
+            "females": 28192
+          },
+          "5-9.": {
+            "persons": 55667,
+            "males": 28330,
+            "females": 27337
+          },
+          "10-14.": {
+            "persons": 31848,
+            "males": 20891,
+            "females": 10957
+          },
+          "15-19.": {
+            "persons": 13679,
+            "males": 11399,
+            "females": 2280
+          },
+          "20-24.": {
+            "persons": 8441,
+            "males": 7860,
+            "females": 581
+          },
+          "district": "Cachar Plains",
+          "age": "Cachar Plains"
+        },
+        {
+          "DISTRICT.": "Sylhet",
+          "TOTAL UNMARRIED.": {
+            "persons": 1041092,
+            "males": 642083,
+            "females": 399009
+          },
+          "0-4.": {
+            "persons": 330023,
+            "males": 161033,
+            "females": 168990
+          },
+          "5-9.": {
+            "persons": 341692,
+            "males": 173683,
+            "females": 168009
+          },
+          "10-14.": {
+            "persons": 188825,
+            "males": 135272,
+            "females": 53553
+          },
+          "15-19.": {
+            "persons": 80367,
+            "males": 75420,
+            "females": 4947
+          },
+          "20-24.": {
+            "persons": 49129,
+            "males": 47843,
+            "females": 1286
+          },
+          "district": "Sylhet",
+          "age": "Sylhet"
+        },
+        {
+          "DISTRICT.": "Total Surma Valley",
+          "TOTAL UNMARRIED.": {
+            "persons": 1214799,
+            "males": 745820,
+            "females": 468979
+          },
+          "0-4.": {
+            "persons": 385278,
+            "males": 188096,
+            "females": 197182
+          },
+          "5-9.": {
+            "persons": 397359,
+            "males": 202013,
+            "females": 195346
+          },
+          "10-14.": {
+            "persons": 220673,
+            "males": 156163,
+            "females": 64510
+          },
+          "15-19.": {
+            "persons": 94046,
+            "males": 86819,
+            "females": 7227
+          },
+          "20-24.": {
+            "persons": 57570,
+            "males": 55703,
+            "females": 1867
+          },
+          "district": "Total Surma Valley",
+          "age": "Total"
+        },
+        {
+          "DISTRICT.": "Goalpara",
+          "TOTAL UNMARRIED.": {
+            "persons": 207816,
+            "males": 125036,
+            "females": 82780
+          },
+          "0-4.": {
+            "persons": 76146,
+            "males": 36901,
+            "females": 39245
+          },
+          "5-9.": {
+            "persons": 65873,
+            "males": 35104,
+            "females": 30769
+          },
+          "10-14.": {
+            "persons": 32380,
+            "males": 23161,
+            "females": 9219
+          },
+          "15-19.": {
+            "persons": 14642,
+            "males": 12619,
+            "females": 2023
+          },
+          "20-24.": {
+            "persons": 8249,
+            "males": 7620,
+            "females": 629
+          },
+          "district": "Goalpara",
+          "age": "Goalpara"
+        },
+        {
+          "DISTRICT.": "Kamrup",
+          "TOTAL UNMARRIED.": {
+            "persons": 314277,
+            "males": 180426,
+            "females": 133851
+          },
+          "0-4.": {
+            "persons": 105030,
+            "males": 50882,
+            "females": 54148
+          },
+          "5-9.": {
+            "persons": 97027,
+            "males": 49891,
+            "females": 47136
+          },
+          "10-14.": {
+            "persons": 59484,
+            "males": 36592,
+            "females": 22892
+          },
+          "15-19.": {
+            "persons": 25549,
+            "males": 19796,
+            "females": 5753
+          },
+          "20-24.": {
+            "persons": 13276,
+            "males": 11645,
+            "females": 1631
+          },
+          "district": "Kamrup",
+          "age": "Kamrup"
+        },
+        {
+          "DISTRICT.": "Darrang",
+          "TOTAL UNMARRIED.": {
+            "persons": 150496,
+            "males": 86395,
+            "females": 64101
+          },
+          "0-4.": {
+            "persons": 48202,
+            "males": 23762,
+            "females": 24440
+          },
+          "5-9.": {
+            "persons": 44025,
+            "males": 22588,
+            "females": 21437
+          },
+          "10-14.": {
+            "persons": 26419,
+            "males": 15702,
+            "females": 10717
+          },
+          "15-19.": {
+            "persons": 12431,
+            "males": 8899,
+            "females": 3532
+          },
+          "20-24.": {
+            "persons": 7985,
+            "males": 6547,
+            "females": 1438
+          },
+          "district": "Darrang",
+          "age": "Darrang"
+        },
+        {
+          "DISTRICT.": "Nowgong",
+          "TOTAL UNMARRIED.": {
+            "persons": 184524,
+            "males": 103606,
+            "females": 80918
+          },
+          "0-4.": {
+            "persons": 60846,
+            "males": 29711,
+            "females": 31135
+          },
+          "5-9.": {
+            "persons": 52199,
+            "males": 26727,
+            "females": 25472
+          },
+          "10-14.": {
+            "persons": 30856,
+            "males": 17632,
+            "females": 13224
+          },
+          "15-19.": {
+            "persons": 17273,
+            "males": 10879,
+            "females": 6394
+          },
+          "20-24.": {
+            "persons": 10787,
+            "males": 8341,
+            "females": 2446
+          },
+          "district": "Nowgong",
+          "age": "Nowgong"
+        },
+        {
+          "DISTRICT.": "Sibsagar",
+          "TOTAL UNMARRIED.": {
+            "persons": 236809,
+            "males": 135128,
+            "females": 101681
+          },
+          "0-4.": {
+            "persons": 73674,
+            "males": 36156,
+            "females": 37518
+          },
+          "5-9.": {
+            "persons": 66960,
+            "males": 33862,
+            "females": 33098
+          },
+          "10-14.": {
+            "persons": 44145,
+            "males": 25176,
+            "females": 18969
+          },
+          "15-19.": {
+            "persons": 24448,
+            "males": 16286,
+            "females": 8162
+          },
+          "20-24.": {
+            "persons": 14395,
+            "males": 12201,
+            "females": 2194
+          },
+          "district": "Sibsagar",
+          "age": "Sibsagar"
+        },
+        {
+          "DISTRICT.": "Lakhimpur",
+          "TOTAL UNMARRIED.": {
+            "persons": 128104,
+            "males": 73739,
+            "females": 54365
+          },
+          "0-4.": {
+            "persons": 38780,
+            "males": 19372,
+            "females": 19408
+          },
+          "5-9.": {
+            "persons": 36073,
+            "males": 18398,
+            "females": 17675
+          },
+          "10-14.": {
+            "persons": 23279,
+            "males": 13371,
+            "females": 9908
+          },
+          "15-19.": {
+            "persons": 12918,
+            "males": 8246,
+            "females": 4672
+          },
+          "20-24.": {
+            "persons": 8013,
+            "males": 6550,
+            "females": 1463
+          },
+          "district": "Lakhimpur",
+          "age": "Lakhimpur"
+        },
+        {
+          "DISTRICT.": "Total Brahmaputra Valley",
+          "TOTAL UNMARRIED.": {
+            "persons": 1222026,
+            "males": 704330,
+            "females": 517696
+          },
+          "0-4.": {
+            "persons": 402978,
+            "males": 196784,
+            "females": 206194
+          },
+          "5-9.": {
+            "persons": 362157,
+            "males": 186570,
+            "females": 175587
+          },
+          "10-14.": {
+            "persons": 216563,
+            "males": 131634,
+            "females": 84929
+          },
+          "15-19.": {
+            "persons": 107261,
+            "males": 76725,
+            "females": 30536
+          },
+          "20-24.": {
+            "persons": 62705,
+            "males": 52904,
+            "females": 9801
+          },
+          "district": "Total Brahmaputra Valley",
+          "age": "Total"
+        },
+        {
+          "DISTRICT.": "Total Plains",
+          "TOTAL UNMARRIED.": {
+            "persons": 2436825,
+            "males": 1450150,
+            "females": 986675
+          },
+          "0-4.": {
+            "persons": 788256,
+            "males": 384880,
+            "females": 403376
+          },
+          "5-9.": {
+            "persons": 759516,
+            "males": 388583,
+            "females": 370933
+          },
+          "10-14.": {
+            "persons": 437236,
+            "males": 287797,
+            "females": 149439
+          },
+          "15-19.": {
+            "persons": 201307,
+            "males": 163544,
+            "females": 37763
+          },
+          "20-24.": {
+            "persons": 120275,
+            "males": 108607,
+            "females": 11668
+          },
+          "district": "Total Plains",
+          "age": "Total"
+        },
+        {
+          "DISTRICT.": "North Cachar",
+          "TOTAL UNMARRIED.": {
+            "persons": 10348,
+            "males": 5460,
+            "females": 4888
+          },
+          "0-4.": {
+            "persons": 3196,
+            "males": 1601,
+            "females": 1595
+          },
+          "5-9.": {
+            "persons": 2818,
+            "males": 1406,
+            "females": 1412
+          },
+          "10-14.": {
+            "persons": 1857,
+            "males": 939,
+            "females": 918
+          },
+          "15-19.": {
+            "persons": 1301,
+            "males": 675,
+            "females": 626
+          },
+          "20-24.": {
+            "persons": 670,
+            "males": 451,
+            "females": 219
+          },
+          "district": "North Cachar",
+          "age": "North Cachar"
+        },
+        {
+          "DISTRICT.": "Naga Hills",
+          "TOTAL UNMARRIED.": {
+            "persons": 56754,
+            "males": 31297,
+            "females": 25457
+          },
+          "0-4.": {
+            "persons": 20148,
+            "males": 9890,
+            "females": 10258
+          },
+          "5-9.": {
+            "persons": 15712,
+            "males": 8363,
+            "females": 7349
+          },
+          "10-14.": {
+            "persons": 9477,
+            "males": 5177,
+            "females": 4300
+          },
+          "15-19.": {
+            "persons": 4946,
+            "males": 2979,
+            "females": 1967
+          },
+          "20-24.": {
+            "persons": 2901,
+            "males": 2157,
+            "females": 744
+          },
+          "district": "Naga Hills",
+          "age": "Naga Hills"
+        },
+        {
+          "DISTRICT.": "Khasi and Jaintia Hills",
+          "TOTAL UNMARRIED.": {
+            "persons": 101504,
+            "males": 53336,
+            "females": 48168
+          },
+          "0-4.": {
+            "persons": 34030,
+            "males": 16712,
+            "females": 17318
+          },
+          "5-9.": {
+            "persons": 26331,
+            "males": 13147,
+            "females": 13184
+          },
+          "10-14.": {
+            "persons": 20318,
+            "males": 10640,
+            "females": 9678
+          },
+          "15-19.": {
+            "persons": 11358,
+            "males": 6578,
+            "females": 4780
+          },
+          "20-24.": {
+            "persons": 4746,
+            "males": 3283,
+            "females": 1463
+          },
+          "district": "Khasi and Jaintia Hills",
+          "age": "Khasi and Jaintia Hills"
+        },
+        {
+          "DISTRICT.": "Garo Hills",
+          "TOTAL UNMARRIED.": {
+            "persons": 57983,
+            "males": 32216,
+            "females": 25767
+          },
+          "0-4.": {
+            "persons": 21819,
+            "males": 10996,
+            "females": 10823
+          },
+          "5-9.": {
+            "persons": 17051,
+            "males": 8812,
+            "females": 8239
+          },
+          "10-14.": {
+            "persons": 10385,
+            "males": 6134,
+            "females": 4251
+          },
+          "15-19.": {
+            "persons": 4656,
+            "males": 3130,
+            "females": 1526
+          },
+          "20-24.": {
+            "persons": 2031,
+            "males": 1546,
+            "females": 485
+          },
+          "district": "Garo Hills",
+          "age": "Garo Hills"
+        },
+        {
+          "DISTRICT.": "North Lushai (Civil and Military).",
+          "TOTAL UNMARRIED.": {
+            "persons": 1080,
+            "males": 1080,
+            "females": 0
+          },
+          "0-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-9.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "10-14.": {
+            "persons": 6,
+            "males": 6,
+            "females": 0
+          },
+          "15-19.": {
+            "persons": 137,
+            "males": 137,
+            "females": 0
+          },
+          "20-24.": {
+            "persons": 439,
+            "males": 439,
+            "females": 0
+          },
+          "district": "North Lushai (Civil and Military).",
+          "age": "North Lushai (Civil and Military)."
+        },
+        {
+          "DISTRICT.": "Total Hill Districts",
+          "TOTAL UNMARRIED.": {
+            "persons": 227669,
+            "males": 123389,
+            "females": 104280
+          },
+          "0-4.": {
+            "persons": 79193,
+            "males": 39199,
+            "females": 39994
+          },
+          "5-9.": {
+            "persons": 61912,
+            "males": 31728,
+            "females": 30184
+          },
+          "10-14.": {
+            "persons": 42043,
+            "males": 22896,
+            "females": 19147
+          },
+          "15-19.": {
+            "persons": 22398,
+            "males": 13499,
+            "females": 8899
+          },
+          "20-24.": {
+            "persons": 10787,
+            "males": 7876,
+            "females": 2911
+          },
+          "district": "Total Hill Districts",
+          "age": "Total"
+        },
+        {
+          "DISTRICT.": "Total for the Province",
+          "TOTAL UNMARRIED.": {
+            "persons": 2664494,
+            "males": 1573539,
+            "females": 1090955
+          },
+          "0-4.": {
+            "persons": 867149,
+            "males": 424079,
+            "females": 443070
+          },
+          "5-9.": {
+            "persons": 821428,
+            "males": 420311,
+            "females": 401117
+          },
+          "10-14.": {
+            "persons": 479279,
+            "males": 310693,
+            "females": 168586
+          },
+          "15-19.": {
+            "persons": 223705,
+            "males": 177043,
+            "females": 46662
+          },
+          "20-24.": {
+            "persons": 131062,
+            "males": 116483,
+            "females": 14579
+          },
+          "district": "Total for the Province",
+          "age": "Total"
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 330,
+    "passed": 330,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_oneshot",
+    "policy": "oneshot",
+    "decision": "accepted_with_risk",
+    "next_step": "review_or_escalate",
+    "trust_score": 5,
+    "reasons": [
+      "initial_constraint_failures",
+      "targeted_recheck_used",
+      "repair_cascade_used",
+      "schema_rotation_applied",
+      "more_than_two_api_calls"
+    ],
+    "signals": {
+      "api_calls": 4,
+      "initial_failures": 2,
+      "initial_total_checks": 330,
+      "final_failures": 0,
+      "age_warning_count": 0,
+      "extraction_mode": "single_call",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": true,
+      "targeted_recheck_used": true,
+      "l1_repair_count": 0,
+      "repair_entries_count": 2,
+      "repair_api_calls": 0,
+      "repair_phases_used": [
+        "B"
+      ],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 90
+    }
+  }
+}

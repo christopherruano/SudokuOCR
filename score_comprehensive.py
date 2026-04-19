@@ -17,6 +17,7 @@ from collections import defaultdict
 
 sys.path.insert(0, str(Path(__file__).parent))
 from pipeline import normalize_age
+from review_annotations import apply_review_override
 
 PROJECT_ROOT = Path(__file__).parent
 RESULTS_DIR = PROJECT_ROOT / "results"
@@ -185,9 +186,11 @@ def load_page_results(province, year):
     # Also try without underscore variants
     files = sorted(RESULTS_DIR.glob(pattern))
     if not files:
+        files = sorted(RESULTS_DIR.rglob(pattern))
+    if not files:
         # Try case-insensitive
         pattern2 = f"{prefix.lower()}_age_{year}-*_oneshot.json"
-        for f in RESULTS_DIR.glob("*_oneshot.json"):
+        for f in RESULTS_DIR.rglob("*_oneshot.json"):
             if f.name.lower().startswith(prefix.lower()):
                 if f"_{year}-" in f.name or f"_{year}_" in f.name:
                     files.append(f)
@@ -197,6 +200,7 @@ def load_page_results(province, year):
     for f in files:
         with open(f) as fp:
             data = json.load(fp)
+        data, review_override = apply_review_override(data)
         metadata = data.get("metadata", {})
         column_groups = metadata.get("column_groups", [])
         constraints = data.get("constraints", {})
@@ -248,6 +252,7 @@ def load_page_results(province, year):
             "age_groups": age_groups,
             "districts_ordered": districts_ordered,
             "constraints": constraints,
+            "review_override": bool(review_override),
         })
 
     # Post-process: infer civil condition for ambiguous pages using sequence

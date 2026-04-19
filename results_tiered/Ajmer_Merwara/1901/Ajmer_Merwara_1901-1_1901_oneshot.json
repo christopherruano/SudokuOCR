@@ -1,0 +1,88 @@
+{
+  "source_image": "age_tables/Ajmer_Merwara/1901/Ajmer_Merwara_1901-1.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 5,
+  "elapsed_seconds": 1005.9,
+  "metadata": {
+    "title": "TABLE VII. Age, Sex and Civil Condition.",
+    "region": "Ajmer-Merwara",
+    "year": 0,
+    "data_type": "absolute",
+    "row_axis_type": "age_rows",
+    "row_label_name": "AGE.",
+    "column_groups": [
+      "POPULATION.",
+      "UNMARRIED.",
+      "MARRIED.",
+      "WIDOWED."
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VII. Age, Sex and Civil Condition.",
+      "rows": [
+        {
+          "age": "",
+          "POPULATION.": {
+            "persons": 476912,
+            "males": 251026,
+            "females": 225886
+          },
+          "UNMARRIED.": {
+            "persons": 176338,
+            "males": 113943,
+            "females": 62395
+          },
+          "MARRIED.": {
+            "persons": 232920,
+            "males": 116469,
+            "females": 116451
+          },
+          "WIDOWED.": {
+            "persons": 67654,
+            "males": 20614,
+            "females": 47040
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 19,
+    "passed": 19,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_oneshot",
+    "policy": "oneshot",
+    "decision": "accepted_with_risk",
+    "next_step": "review_or_escalate",
+    "trust_score": 65,
+    "reasons": [
+      "per_group_extraction_fallback",
+      "top_level_retry_needed",
+      "more_than_two_api_calls"
+    ],
+    "signals": {
+      "api_calls": 5,
+      "initial_failures": 0,
+      "initial_total_checks": 19,
+      "final_failures": 0,
+      "age_warning_count": 0,
+      "extraction_mode": "per_group",
+      "extraction_attempt_failures": 3,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [],
+      "cross_group_active": true,
+      "cross_section_active": false,
+      "subtotal_checks": 12
+    }
+  }
+}

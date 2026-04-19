@@ -1,0 +1,435 @@
+{
+  "source_image": "age_tables/Assam/1901/Assam_age_1901-13.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 4,
+  "elapsed_seconds": 3179.7,
+  "metadata": {
+    "title": "TABLE VII. AGE, SEX AND CIVIL CONDITION.",
+    "region": "",
+    "year": 0,
+    "data_type": "absolute",
+    "column_groups": [
+      "POPULATION.",
+      "UNMARRIED.",
+      "MARRIED.",
+      "WIDOWED."
+    ]
+  },
+  "data": [
+    {
+      "name": "Lushai Hills contd. - Animistic",
+      "rows": [
+        {
+          "AGE": "0-5",
+          "POPULATION.": {
+            "persons": 12483,
+            "males": 5975,
+            "females": 6508
+          },
+          "UNMARRIED.": {
+            "persons": 12483,
+            "males": 5975,
+            "females": 6508
+          },
+          "MARRIED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "WIDOWED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "AGE": "5-10",
+          "POPULATION.": {
+            "persons": 10254,
+            "males": 4838,
+            "females": 5416
+          },
+          "UNMARRIED.": {
+            "persons": 10215,
+            "males": 4821,
+            "females": 5394
+          },
+          "MARRIED.": {
+            "persons": 36,
+            "males": 17,
+            "females": 19
+          },
+          "WIDOWED.": {
+            "persons": 3,
+            "males": 0,
+            "females": 3
+          }
+        },
+        {
+          "AGE": "10-15",
+          "POPULATION.": {
+            "persons": 7996,
+            "males": 3886,
+            "females": 4110
+          },
+          "UNMARRIED.": {
+            "persons": 7848,
+            "males": 3831,
+            "females": 4017
+          },
+          "MARRIED.": {
+            "persons": 138,
+            "males": 54,
+            "females": 84
+          },
+          "WIDOWED.": {
+            "persons": 10,
+            "males": 1,
+            "females": 9
+          }
+        },
+        {
+          "AGE": "15-20",
+          "POPULATION.": {
+            "persons": 7167,
+            "males": 3117,
+            "females": 4050
+          },
+          "UNMARRIED.": {
+            "persons": 5966,
+            "males": 2860,
+            "females": 3106
+          },
+          "MARRIED.": {
+            "persons": 1051,
+            "males": 234,
+            "females": 817
+          },
+          "WIDOWED.": {
+            "persons": 150,
+            "males": 23,
+            "females": 127
+          }
+        },
+        {
+          "AGE": "20-40",
+          "POPULATION.": {
+            "persons": 24624,
+            "males": 10826,
+            "females": 13798
+          },
+          "UNMARRIED.": {
+            "persons": 4950,
+            "males": 2917,
+            "females": 2033
+          },
+          "MARRIED.": {
+            "persons": 16950,
+            "males": 7339,
+            "females": 9611
+          },
+          "WIDOWED.": {
+            "persons": 2724,
+            "males": 570,
+            "females": 2154
+          }
+        },
+        {
+          "AGE": "40-60",
+          "POPULATION.": {
+            "persons": 12079,
+            "males": 5722,
+            "females": 6357
+          },
+          "UNMARRIED.": {
+            "persons": 534,
+            "males": 171,
+            "females": 363
+          },
+          "MARRIED.": {
+            "persons": 8449,
+            "males": 5197,
+            "females": 3252
+          },
+          "WIDOWED.": {
+            "persons": 3096,
+            "males": 354,
+            "females": 2742
+          }
+        },
+        {
+          "AGE": "60 and over",
+          "POPULATION.": {
+            "persons": 4054,
+            "males": 1674,
+            "females": 2380
+          },
+          "UNMARRIED.": {
+            "persons": 273,
+            "males": 49,
+            "females": 224
+          },
+          "MARRIED.": {
+            "persons": 1894,
+            "males": 1401,
+            "females": 493
+          },
+          "WIDOWED.": {
+            "persons": 1887,
+            "males": 224,
+            "females": 1663
+          }
+        },
+        {
+          "AGE": "Total",
+          "POPULATION.": {
+            "persons": 78657,
+            "males": 36038,
+            "females": 42619
+          },
+          "UNMARRIED.": {
+            "persons": 42269,
+            "males": 20624,
+            "females": 21645
+          },
+          "MARRIED.": {
+            "persons": 28518,
+            "males": 14242,
+            "females": 14276
+          },
+          "WIDOWED.": {
+            "persons": 7870,
+            "males": 1172,
+            "females": 6698
+          }
+        }
+      ]
+    },
+    {
+      "name": "North Cachar - All Religions.",
+      "rows": [
+        {
+          "AGE": "0-5",
+          "POPULATION.": {
+            "persons": 3889,
+            "males": 1907,
+            "females": 1982
+          },
+          "UNMARRIED.": {
+            "persons": 3889,
+            "males": 1907,
+            "females": 1982
+          },
+          "MARRIED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "WIDOWED.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        },
+        {
+          "AGE": "5-10",
+          "POPULATION.": {
+            "persons": 3398,
+            "males": 1780,
+            "females": 1618
+          },
+          "UNMARRIED.": {
+            "persons": 3352,
+            "males": 1766,
+            "females": 1586
+          },
+          "MARRIED.": {
+            "persons": 36,
+            "males": 11,
+            "females": 25
+          },
+          "WIDOWED.": {
+            "persons": 10,
+            "males": 3,
+            "females": 7
+          }
+        },
+        {
+          "AGE": "10-15",
+          "POPULATION.": {
+            "persons": 2923,
+            "males": 1662,
+            "females": 1261
+          },
+          "UNMARRIED.": {
+            "persons": 2647,
+            "males": 1553,
+            "females": 1094
+          },
+          "MARRIED.": {
+            "persons": 254,
+            "males": 99,
+            "females": 155
+          },
+          "WIDOWED.": {
+            "persons": 22,
+            "males": 10,
+            "females": 12
+          }
+        },
+        {
+          "AGE": "15-20",
+          "POPULATION.": {
+            "persons": 3556,
+            "males": 2035,
+            "females": 1521
+          },
+          "UNMARRIED.": {
+            "persons": 2294,
+            "males": 1572,
+            "females": 722
+          },
+          "MARRIED.": {
+            "persons": 1176,
+            "males": 440,
+            "females": 736
+          },
+          "WIDOWED.": {
+            "persons": 86,
+            "males": 23,
+            "females": 63
+          }
+        },
+        {
+          "AGE": "20-40",
+          "POPULATION.": {
+            "persons": 20528,
+            "males": 15446,
+            "females": 5082
+          },
+          "UNMARRIED.": {
+            "persons": 4545,
+            "males": 4194,
+            "females": 351
+          },
+          "MARRIED.": {
+            "persons": 14507,
+            "males": 10572,
+            "females": 3935
+          },
+          "WIDOWED.": {
+            "persons": 1476,
+            "males": 680,
+            "females": 796
+          }
+        },
+        {
+          "AGE": "40-60",
+          "POPULATION.": {
+            "persons": 5490,
+            "males": 3924,
+            "females": 1566
+          },
+          "UNMARRIED.": {
+            "persons": 319,
+            "males": 267,
+            "females": 52
+          },
+          "MARRIED.": {
+            "persons": 4033,
+            "males": 3302,
+            "females": 731
+          },
+          "WIDOWED.": {
+            "persons": 1138,
+            "males": 355,
+            "females": 783
+          }
+        },
+        {
+          "AGE": "60 and over",
+          "POPULATION.": {
+            "persons": 1028,
+            "males": 601,
+            "females": 427
+          },
+          "UNMARRIED.": {
+            "persons": 28,
+            "males": 22,
+            "females": 6
+          },
+          "MARRIED.": {
+            "persons": 534,
+            "males": 440,
+            "females": 94
+          },
+          "WIDOWED.": {
+            "persons": 466,
+            "males": 139,
+            "females": 327
+          }
+        },
+        {
+          "AGE": "Total",
+          "POPULATION.": {
+            "persons": 40812,
+            "males": 27355,
+            "females": 13457
+          },
+          "UNMARRIED.": {
+            "persons": 17074,
+            "males": 11281,
+            "females": 5793
+          },
+          "MARRIED.": {
+            "persons": 20540,
+            "males": 14864,
+            "females": 5676
+          },
+          "WIDOWED.": {
+            "persons": 3198,
+            "males": 1210,
+            "females": 1988
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 48,
+    "passed": 48,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_oneshot",
+    "policy": "oneshot",
+    "decision": "accepted_with_risk",
+    "next_step": "review_or_escalate",
+    "trust_score": 80,
+    "reasons": [
+      "schema_rotation_applied",
+      "more_than_two_api_calls"
+    ],
+    "signals": {
+      "api_calls": 4,
+      "initial_failures": 0,
+      "initial_total_checks": 48,
+      "final_failures": 0,
+      "age_warning_count": 0,
+      "extraction_mode": "per_section",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": true,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [],
+      "cross_group_active": true,
+      "cross_section_active": false,
+      "subtotal_checks": 0
+    }
+  }
+}

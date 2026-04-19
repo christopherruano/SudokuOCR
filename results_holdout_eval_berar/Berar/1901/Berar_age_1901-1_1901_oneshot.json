@@ -1,0 +1,511 @@
+{
+  "source_image": "age_tables/Berar/1901/Berar_age_1901-1.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 3,
+  "elapsed_seconds": 622.4,
+  "metadata": {
+    "title": "TABLE VII.\u2014Age, sex and civil condition, Part B (1).\u2014Total Population by Districts.",
+    "region": "Berar",
+    "year": null,
+    "data_type": "absolute",
+    "column_groups": [
+      "TOTAL UNMARRIED.",
+      "UNMARRIED. AGE PERIOD. 0-5.",
+      "UNMARRIED. AGE PERIOD. 5-10.",
+      "UNMARRIED. AGE PERIOD. 10-15.",
+      "UNMARRIED. AGE PERIOD. 15-20.",
+      "UNMARRIED. AGE PERIOD. 20-40.",
+      "UNMARRIED. AGE PERIOD. 40-60.",
+      "UNMARRIED. AGE PERIOD. 60 and over.",
+      "TOTAL MARRIED.",
+      "MARRIED. AGE PERIOD. 0-5.",
+      "MARRIED. AGE PERIOD. 5-10.",
+      "MARRIED. AGE PERIOD. 10-15."
+    ]
+  },
+  "data": [
+    {
+      "name": "TABLE VII.\u2014Age, sex and civil condition, Part B (1).\u2014Total Population by Districts.",
+      "rows": [
+        {
+          "district": null,
+          "TOTAL UNMARRIED.": {
+            "persons": 208933,
+            "males": 129462,
+            "females": 79471
+          },
+          "UNMARRIED. AGE PERIOD. 0-5.": {
+            "persons": 60762,
+            "males": 29591,
+            "females": 31171
+          },
+          "UNMARRIED. AGE PERIOD. 5-10.": {
+            "persons": 70010,
+            "males": 37623,
+            "females": 32387
+          },
+          "UNMARRIED. AGE PERIOD. 10-15.": {
+            "persons": 45376,
+            "males": 33142,
+            "females": 12234
+          },
+          "UNMARRIED. AGE PERIOD. 15-20.": {
+            "persons": 14858,
+            "males": 13240,
+            "females": 1618
+          },
+          "UNMARRIED. AGE PERIOD. 20-40.": {
+            "persons": 15194,
+            "males": 13534,
+            "females": 1660
+          },
+          "UNMARRIED. AGE PERIOD. 40-60.": {
+            "persons": 2302,
+            "males": 1961,
+            "females": 341
+          },
+          "UNMARRIED. AGE PERIOD. 60 and over.": {
+            "persons": 431,
+            "males": 371,
+            "females": 60
+          },
+          "TOTAL MARRIED.": {
+            "persons": 340596,
+            "males": 171742,
+            "females": 168854
+          },
+          "MARRIED. AGE PERIOD. 0-5.": {
+            "persons": 1022,
+            "males": 306,
+            "females": 716
+          },
+          "MARRIED. AGE PERIOD. 5-10.": {
+            "persons": 9365,
+            "males": 1067,
+            "females": 8298
+          },
+          "MARRIED. AGE PERIOD. 10-15.": {
+            "persons": 29315,
+            "males": 6847,
+            "females": 22468
+          }
+        },
+        {
+          "district": null,
+          "TOTAL UNMARRIED.": {
+            "persons": 171113,
+            "males": 106513,
+            "females": 64600
+          },
+          "UNMARRIED. AGE PERIOD. 0-5.": {
+            "persons": 59296,
+            "males": 28738,
+            "females": 30558
+          },
+          "UNMARRIED. AGE PERIOD. 5-10.": {
+            "persons": 59458,
+            "males": 34733,
+            "females": 24725
+          },
+          "UNMARRIED. AGE PERIOD. 10-15.": {
+            "persons": 31931,
+            "males": 25115,
+            "females": 6816
+          },
+          "UNMARRIED. AGE PERIOD. 15-20.": {
+            "persons": 8750,
+            "males": 7788,
+            "females": 962
+          },
+          "UNMARRIED. AGE PERIOD. 20-40.": {
+            "persons": 9739,
+            "males": 8549,
+            "females": 1190
+          },
+          "UNMARRIED. AGE PERIOD. 40-60.": {
+            "persons": 1639,
+            "males": 1344,
+            "females": 295
+          },
+          "UNMARRIED. AGE PERIOD. 60 and over.": {
+            "persons": 300,
+            "males": 246,
+            "females": 54
+          },
+          "TOTAL MARRIED.": {
+            "persons": 339341,
+            "males": 169940,
+            "females": 169401
+          },
+          "MARRIED. AGE PERIOD. 0-5.": {
+            "persons": 1280,
+            "males": 365,
+            "females": 915
+          },
+          "MARRIED. AGE PERIOD. 5-10.": {
+            "persons": 13803,
+            "males": 1534,
+            "females": 12269
+          },
+          "MARRIED. AGE PERIOD. 10-15.": {
+            "persons": 34046,
+            "males": 9968,
+            "females": 24078
+          }
+        },
+        {
+          "district": null,
+          "TOTAL UNMARRIED.": {
+            "persons": 102827,
+            "males": 62366,
+            "females": 40461
+          },
+          "UNMARRIED. AGE PERIOD. 0-5.": {
+            "persons": 30532,
+            "males": 14923,
+            "females": 15609
+          },
+          "UNMARRIED. AGE PERIOD. 5-10.": {
+            "persons": 34138,
+            "males": 17959,
+            "females": 16179
+          },
+          "UNMARRIED. AGE PERIOD. 10-15.": {
+            "persons": 22032,
+            "males": 15791,
+            "females": 6241
+          },
+          "UNMARRIED. AGE PERIOD. 15-20.": {
+            "persons": 7350,
+            "males": 6141,
+            "females": 1209
+          },
+          "UNMARRIED. AGE PERIOD. 20-40.": {
+            "persons": 7409,
+            "males": 6432,
+            "females": 977
+          },
+          "UNMARRIED. AGE PERIOD. 40-60.": {
+            "persons": 1156,
+            "males": 958,
+            "females": 198
+          },
+          "UNMARRIED. AGE PERIOD. 60 and over.": {
+            "persons": 210,
+            "males": 162,
+            "females": 48
+          },
+          "TOTAL MARRIED.": {
+            "persons": 156672,
+            "males": 78248,
+            "females": 78424
+          },
+          "MARRIED. AGE PERIOD. 0-5.": {
+            "persons": 458,
+            "males": 169,
+            "females": 289
+          },
+          "MARRIED. AGE PERIOD. 5-10.": {
+            "persons": 3856,
+            "males": 431,
+            "females": 3425
+          },
+          "MARRIED. AGE PERIOD. 10-15.": {
+            "persons": 12907,
+            "males": 2975,
+            "females": 9932
+          }
+        },
+        {
+          "district": null,
+          "TOTAL UNMARRIED.": {
+            "persons": 131623,
+            "males": 81952,
+            "females": 49671
+          },
+          "UNMARRIED. AGE PERIOD. 0-5.": {
+            "persons": 41993,
+            "males": 20414,
+            "females": 21579
+          },
+          "UNMARRIED. AGE PERIOD. 5-10.": {
+            "persons": 48185,
+            "males": 27054,
+            "females": 21131
+          },
+          "UNMARRIED. AGE PERIOD. 10-15.": {
+            "persons": 27729,
+            "males": 22135,
+            "females": 5594
+          },
+          "UNMARRIED. AGE PERIOD. 15-20.": {
+            "persons": 7107,
+            "males": 6525,
+            "females": 582
+          },
+          "UNMARRIED. AGE PERIOD. 20-40.": {
+            "persons": 5669,
+            "males": 5056,
+            "females": 613
+          },
+          "UNMARRIED. AGE PERIOD. 40-60.": {
+            "persons": 783,
+            "males": 643,
+            "females": 140
+          },
+          "UNMARRIED. AGE PERIOD. 60 and over.": {
+            "persons": 157,
+            "males": 125,
+            "females": 32
+          },
+          "TOTAL MARRIED.": {
+            "persons": 237809,
+            "males": 117422,
+            "females": 120387
+          },
+          "MARRIED. AGE PERIOD. 0-5.": {
+            "persons": 728,
+            "males": 219,
+            "females": 509
+          },
+          "MARRIED. AGE PERIOD. 5-10.": {
+            "persons": 9244,
+            "males": 961,
+            "females": 8283
+          },
+          "MARRIED. AGE PERIOD. 10-15.": {
+            "persons": 27531,
+            "males": 7287,
+            "females": 20244
+          }
+        },
+        {
+          "district": null,
+          "TOTAL UNMARRIED.": {
+            "persons": 165952,
+            "males": 99645,
+            "females": 66307
+          },
+          "UNMARRIED. AGE PERIOD. 0-5.": {
+            "persons": 52905,
+            "males": 25636,
+            "females": 27269
+          },
+          "UNMARRIED. AGE PERIOD. 5-10.": {
+            "persons": 52987,
+            "males": 28779,
+            "females": 24208
+          },
+          "UNMARRIED. AGE PERIOD. 10-15.": {
+            "persons": 37235,
+            "males": 25660,
+            "females": 11575
+          },
+          "UNMARRIED. AGE PERIOD. 15-20.": {
+            "persons": 10874,
+            "males": 9156,
+            "females": 1718
+          },
+          "UNMARRIED. AGE PERIOD. 20-40.": {
+            "persons": 10489,
+            "males": 9253,
+            "females": 1236
+          },
+          "UNMARRIED. AGE PERIOD. 40-60.": {
+            "persons": 1218,
+            "males": 977,
+            "females": 241
+          },
+          "UNMARRIED. AGE PERIOD. 60 and over.": {
+            "persons": 244,
+            "males": 184,
+            "females": 60
+          },
+          "TOTAL MARRIED.": {
+            "persons": 245355,
+            "males": 122170,
+            "females": 123185
+          },
+          "MARRIED. AGE PERIOD. 0-5.": {
+            "persons": 895,
+            "males": 230,
+            "females": 665
+          },
+          "MARRIED. AGE PERIOD. 5-10.": {
+            "persons": 8182,
+            "males": 1314,
+            "females": 6868
+          },
+          "MARRIED. AGE PERIOD. 10-15.": {
+            "persons": 22865,
+            "males": 6726,
+            "females": 16139
+          }
+        },
+        {
+          "district": null,
+          "TOTAL UNMARRIED.": {
+            "persons": 117481,
+            "males": 72391,
+            "females": 45090
+          },
+          "UNMARRIED. AGE PERIOD. 0-5.": {
+            "persons": 37111,
+            "males": 18166,
+            "females": 18945
+          },
+          "UNMARRIED. AGE PERIOD. 5-10.": {
+            "persons": 41304,
+            "males": 23210,
+            "females": 18094
+          },
+          "UNMARRIED. AGE PERIOD. 10-15.": {
+            "persons": 25711,
+            "males": 19220,
+            "females": 6491
+          },
+          "UNMARRIED. AGE PERIOD. 15-20.": {
+            "persons": 5807,
+            "males": 5173,
+            "females": 634
+          },
+          "UNMARRIED. AGE PERIOD. 20-40.": {
+            "persons": 6503,
+            "males": 5785,
+            "females": 718
+          },
+          "UNMARRIED. AGE PERIOD. 40-60.": {
+            "persons": 882,
+            "males": 720,
+            "females": 162
+          },
+          "UNMARRIED. AGE PERIOD. 60 and over.": {
+            "persons": 163,
+            "males": 117,
+            "females": 46
+          },
+          "TOTAL MARRIED.": {
+            "persons": 188681,
+            "males": 93224,
+            "females": 95457
+          },
+          "MARRIED. AGE PERIOD. 0-5.": {
+            "persons": 817,
+            "males": 202,
+            "females": 615
+          },
+          "MARRIED. AGE PERIOD. 5-10.": {
+            "persons": 8083,
+            "males": 1180,
+            "females": 6903
+          },
+          "MARRIED. AGE PERIOD. 10-15.": {
+            "persons": 21402,
+            "males": 6325,
+            "females": 15077
+          }
+        },
+        {
+          "district": null,
+          "TOTAL UNMARRIED.": {
+            "persons": 897929,
+            "males": 552329,
+            "females": 345600
+          },
+          "UNMARRIED. AGE PERIOD. 0-5.": {
+            "persons": 282599,
+            "males": 137468,
+            "females": 145131
+          },
+          "UNMARRIED. AGE PERIOD. 5-10.": {
+            "persons": 306082,
+            "males": 169358,
+            "females": 136724
+          },
+          "UNMARRIED. AGE PERIOD. 10-15.": {
+            "persons": 190014,
+            "males": 141063,
+            "females": 48951
+          },
+          "UNMARRIED. AGE PERIOD. 15-20.": {
+            "persons": 54746,
+            "males": 48023,
+            "females": 6723
+          },
+          "UNMARRIED. AGE PERIOD. 20-40.": {
+            "persons": 55003,
+            "males": 48609,
+            "females": 6394
+          },
+          "UNMARRIED. AGE PERIOD. 40-60.": {
+            "persons": 7980,
+            "males": 6603,
+            "females": 1377
+          },
+          "UNMARRIED. AGE PERIOD. 60 and over.": {
+            "persons": 1505,
+            "males": 1205,
+            "females": 300
+          },
+          "TOTAL MARRIED.": {
+            "persons": 1508454,
+            "males": 752746,
+            "females": 755708
+          },
+          "MARRIED. AGE PERIOD. 0-5.": {
+            "persons": 5200,
+            "males": 1491,
+            "females": 3709
+          },
+          "MARRIED. AGE PERIOD. 5-10.": {
+            "persons": 52533,
+            "males": 6487,
+            "females": 46046
+          },
+          "MARRIED. AGE PERIOD. 10-15.": {
+            "persons": 148066,
+            "males": 40128,
+            "females": 107938
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 357,
+    "passed": 357,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_oneshot",
+    "policy": "oneshot",
+    "decision": "accepted_with_risk",
+    "next_step": "review_or_escalate",
+    "trust_score": 80,
+    "reasons": [
+      "schema_rotation_applied",
+      "more_than_two_api_calls"
+    ],
+    "signals": {
+      "api_calls": 3,
+      "initial_failures": 0,
+      "initial_total_checks": 357,
+      "final_failures": 0,
+      "age_warning_count": 0,
+      "extraction_mode": "single_call",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": true,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [],
+      "cross_group_active": true,
+      "cross_section_active": false,
+      "subtotal_checks": 36
+    }
+  }
+}

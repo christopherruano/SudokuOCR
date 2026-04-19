@@ -36,8 +36,75 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from pipeline import (call_gemini, encode_image, parse_json_response,
                        normalize_age, export_multigroup_to_excel,
                        export_multigroup_to_json)
+from acceptance import build_acceptance_assessment
 from schema_discovery import (TableSchema, SCHEMA_DISCOVERY_PROMPT,
                                _parse_schema_json, _dict_to_schema)
+
+
+TEXTUAL_ROW_FIELDS = {
+    "age", "district", "location", "religion", "community", "row_label"
+}
+
+
+def _schema_row_axis_type(schema):
+    return getattr(schema, "row_axis_type", "age_rows") if schema else "age_rows"
+
+
+def _schema_row_label_name(schema):
+    if schema and getattr(schema, "row_label_name", None):
+        return schema.row_label_name
+    if _schema_row_axis_type(schema) == "district_rows":
+        return "district"
+    return "age"
+
+
+def _row_label_value(row, schema=None, row_label_name=None):
+    preferred = row_label_name or _schema_row_label_name(schema)
+    for key in (preferred, "district", "age", "location", "religion", "community", "row_label"):
+        value = row.get(key)
+        if value is None:
+            continue
+        text = str(value).strip()
+        if text and text.lower() not in ("none", "null"):
+            return text
+    return ""
+
+
+def _row_key(label, schema=None):
+    axis = _schema_row_axis_type(schema)
+    if axis == "age_rows":
+        return normalize_age(label)
+    text = " ".join(str(label or "").strip().lower().split())
+    if not text:
+        return ""
+    if text.startswith("grand total"):
+        return "grandtotal"
+    if text == "total" or text.startswith("total "):
+        return "total"
+    return text
+
+
+def _ensure_row_aliases(row, schema=None):
+    """Preserve the true row label and backfill compatibility aliases."""
+    preferred = _schema_row_label_name(schema)
+    axis = _schema_row_axis_type(schema)
+    label = _row_label_value(row, schema)
+    if preferred not in row and label:
+        row[preferred] = label
+    if axis == "district_rows":
+        if label and "district" not in row:
+            row["district"] = label
+        if label and not row.get("age"):
+            lowered = label.lower()
+            if lowered.startswith("grand total"):
+                row["age"] = "Grand Total"
+            elif lowered == "total" or lowered.startswith("total "):
+                row["age"] = "Total"
+            else:
+                row["age"] = label
+    elif label and preferred == "age" and not row.get("age"):
+        row["age"] = label
+    return row
 
 
 # ---------------------------------------------------------------------------
@@ -88,6 +155,8 @@ def build_oneshot_extraction_prompt(schema, persons_independent=False,
             Used when all-at-once extraction fails (e.g. large output).
     """
     import re as _re
+    row_label_name = _schema_row_label_name(schema)
+    row_noun = "age-group" if row_label_name == "age" else row_label_name
 
     # --- Column groups ---
     all_group_names = [cg.get("name", f"Group_{i}")
@@ -129,11 +198,11 @@ def build_oneshot_extraction_prompt(schema, persons_independent=False,
     if schema.row_labels:
         clean_labels = [_clean_label(l) for l in schema.row_labels]
         row_list = "\n".join(f"  - {l}" for l in clean_labels)
-        row_instruction = f"The table contains these rows (in order):\n{row_list}"
+        row_instruction = f"The table contains these {row_noun} rows (in order):\n{row_list}"
     else:
         row_instruction = (
-            "Extract all age-group rows visible in the table, including "
-            "any subtotal rows and the grand Total row."
+            f"Extract all {row_noun} rows visible in the table, including "
+            "any printed Total row."
         )
 
     # --- Subtotal hierarchy ---
@@ -227,10 +296,10 @@ Return a JSON object with this structure:
   "sections": [
     {{
       "name": "...",
-      "rows": [
-        {{"age": "0-1", {example_group_data}}},
+        "rows": [
+        {{"{row_label_name}": "{schema.row_labels[0] if schema.row_labels else ('0-1' if row_label_name == 'age' else 'Example')}", {example_group_data}}},
         ...
-        {{"age": "Total", {example_group_data}}}
+        {{"{row_label_name}": "Total", {example_group_data}}}
       ]
     }}
   ]
@@ -240,7 +309,7 @@ RULES:
 1. All values as integers — NO commas, NO spaces in numbers
 2. ".." or "." in the table means 0
 3. Use null for truly illegible/missing values
-4. Include ALL age rows AND the Total row for each section
+4. Include ALL {row_noun} rows and the printed Total row for each section
 5. If there is only one section, use the table title as the section name
 6. Be extremely careful with similar digits: 3 vs 8, 5 vs 6, 0 vs 9
 
@@ -312,11 +381,14 @@ def parse_response(raw_text, schema=None, persons_independent=False):
         else:
             return None
 
+    row_text_fields = set(TEXTUAL_ROW_FIELDS)
+    row_text_fields.add(_schema_row_label_name(schema))
+
     # Normalize all numeric values in sections
     for section in parsed["sections"]:
         for row in section.get("rows", []):
             for key, val in row.items():
-                if key == "age":
+                if key in row_text_fields:
                     continue
                 if isinstance(val, dict):
                     # Column group dict: {"persons": N, "males": N, "females": N}
@@ -325,6 +397,11 @@ def parse_response(raw_text, schema=None, persons_independent=False):
                             val[col] = _normalize_value(val[col])
                 elif isinstance(val, (int, float, str)):
                     row[key] = _normalize_value(val)
+            _ensure_row_aliases(row, schema)
+
+    meta = parsed.setdefault("metadata", {})
+    meta.setdefault("row_axis_type", _schema_row_axis_type(schema))
+    meta.setdefault("row_label_name", _schema_row_label_name(schema))
 
     # If schema says no persons column AND persons are not independent,
     # compute persons = males + females.  For "of each sex" tables
@@ -403,7 +480,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
     if not groups and sections:
         first_row = sections[0].get("rows", [{}])[0]
         groups = [k for k in first_row.keys()
-                  if k != "age" and isinstance(first_row.get(k), dict)]
+                  if k not in TEXTUAL_ROW_FIELDS and isinstance(first_row.get(k), dict)]
 
     # Track whether the table is proportional (rounding tolerance for L2 checks)
     is_proportional = (schema is not None and schema.data_type == "proportional")
@@ -416,6 +493,8 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         if "of each sex" in title_lower or "each sex" in title_lower:
             persons_independent = True
 
+    row_label_name = _schema_row_label_name(schema) if schema else "age"
+
     constraints = {
         "L1_row": [],
         "L2_vertical": [],
@@ -426,6 +505,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         "L5_non_negative": [],
         "known_totals": None,
         "column_groups": groups,
+        "row_label_name": row_label_name,
     }
 
     for si, section in enumerate(sections):
@@ -433,7 +513,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         rows = section.get("rows", [])
 
         for row in rows:
-            age = row.get("age", "")
+            age = _row_label_value(row, schema)
             for group in groups:
                 gdata = row.get(group)
                 if not isinstance(gdata, dict):
@@ -466,19 +546,19 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         # become "0-15", "40-60" which look like leaf rows but aren't.
         _intermediate_subtotal_keys = set()
         for row in rows:
-            raw = row.get("age", "")
+            raw = _row_label_value(row, schema)
             import re as _re2
             if _re2.match(r'(?i)^total\s+\S', raw):
                 # "Total 0-15" → normalize → "0-15"; mark as subtotal
-                _intermediate_subtotal_keys.add(normalize_age(raw))
+                _intermediate_subtotal_keys.add(_row_key(raw, schema))
 
         # Detect range-based subtotals: "0-5" after "0-1","1-2","2-3","3-4","4-5"
         # A row is a range subtotal if its numeric range exactly spans
         # the union of 2+ contiguous preceding rows' ranges.
         _ordered_ranges = []  # (norm_age, (start, end) or None)
         for row in rows:
-            raw = row.get("age", "")
-            age_norm = normalize_age(raw)
+            raw = _row_label_value(row, schema)
+            age_norm = _row_key(raw, schema)
             if age_norm in ("total", "grandtotal") or age_norm in _NON_AGE_KEYS:
                 _ordered_ranges.append((age_norm, None))
                 continue
@@ -537,7 +617,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         post_total_keys = []
         seen_total = False
         for row in rows:
-            age_norm = normalize_age(row.get("age", ""))
+            age_norm = _row_key(_row_label_value(row, schema), schema)
             if age_norm == "total":
                 total_row = row
                 seen_total = True
@@ -586,7 +666,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
                 # try removing trailing pre_total rows until sum == Total
                 rmap = {}
                 for row in rows:
-                    rmap[normalize_age(row.get("age", ""))] = row
+                    rmap[_row_key(_row_label_value(row, schema), schema)] = row
                 detected = False
                 for group in groups:
                     if detected:
@@ -641,7 +721,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         for section in sections:
             total_row = None
             for row in section.get("rows", []):
-                if normalize_age(row.get("age", "")) == "total":
+                if _row_key(_row_label_value(row, schema), schema) == "total":
                     total_row = row
                     break
             if not total_row:
@@ -689,7 +769,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
             for section in sections:
                 sec_name = section.get("name", "")
                 for row in section.get("rows", []):
-                    age = row.get("age", "")
+                    age = _row_label_value(row, schema)
                     for col in ("persons", "males", "females"):
                         fg_data = row.get(first_group, {})
                         if isinstance(fg_data, dict) and fg_data.get(col) is not None:
@@ -709,7 +789,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         # Build total row lookups
         def _get_total(sec):
             for row in sec.get("rows", []):
-                if normalize_age(row.get("age", "")) == "total":
+                if _row_key(_row_label_value(row, schema), schema) == "total":
                     return row
             return None
 
@@ -752,7 +832,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
                     and xs_match >= xs_check * 0.75):
                 xs_cells = []
                 for row in first_sec.get("rows", []):
-                    age = row.get("age", "")
+                    age = _row_label_value(row, schema)
                     for group in groups:
                         for col in ("persons", "males", "females"):
                             gdata = row.get(group, {})
@@ -817,7 +897,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
                 for section in sections:
                     sec_name = section.get("name", "")
                     for row in section.get("rows", []):
-                        age = row.get("age", "")
+                        age = _row_label_value(row, schema)
                         for col in ("persons", "males", "females"):
                             fg_data = row.get(total_g, {})
                             if isinstance(fg_data, dict) and fg_data.get(col) is not None:
@@ -849,12 +929,14 @@ def verify_all_constraints(parsed, constraints):
     total_checks = 0
 
     # Build lookup: sec_name -> {norm_age -> row}
+    row_label_name = constraints.get("row_label_name", "age")
     sec_lookup = {}
     for section in sections:
         sec_name = section.get("name", "")
         rmap = {}
         for row in section.get("rows", []):
-            age_norm = normalize_age(row.get("age", ""))
+            label = _row_label_value(row, row_label_name=row_label_name)
+            age_norm = normalize_age(label)
             rmap[age_norm] = row
         sec_lookup[sec_name] = rmap
 
@@ -934,9 +1016,9 @@ def verify_all_constraints(parsed, constraints):
                     break
                 comp_sum += val
         else:
-            # Fallback: sum all rows except total, subtotals, non-age
+            # Fallback: sum all rows except total, grandtotal, subtotals, non-age
             for age_norm, row in rmap.items():
-                if age_norm == "total":
+                if age_norm in ("total", "grandtotal"):
                     continue
                 # Skip intermediate subtotals to avoid double-counting
                 if age_norm in subtotal_keys:
@@ -1389,13 +1471,14 @@ def targeted_recheck(image_path, parsed, suspicious_cells):
 
     prompt = RECHECK_PROMPT.format(cells_list="\n".join(cells_desc))
 
-    # Make the API call
+    # Make the API call (2 attempts only — if API is healthy 2 is enough;
+    # if it's timing out consistently, fail fast rather than burning 14 minutes)
     b64 = encode_image(str(image_path))
     try:
-        raw = call_gemini(b64, prompt)
+        raw = call_gemini(b64, prompt, max_attempts=2)
     except Exception as e:
         print(f"    Recheck API call failed: {e}")
-        return parsed
+        return parsed, False
 
     # Parse the response
     text = raw.strip()
@@ -1414,10 +1497,10 @@ def targeted_recheck(image_path, parsed, suspicious_cells):
                 recheck_data = json.loads(text[start:end])
             except json.JSONDecodeError:
                 print("    Could not parse recheck response")
-                return parsed
+                return parsed, True  # API worked, parse failed — not an API outage
         else:
             print("    Could not parse recheck response")
-            return parsed
+            return parsed, True  # API worked, parse failed — not an API outage
 
     if not isinstance(recheck_data, list):
         recheck_data = [recheck_data]
@@ -1485,7 +1568,7 @@ def targeted_recheck(image_path, parsed, suspicious_cells):
             for col in ("persons", "males", "females"):
                 gdata[col] = orig[col]
 
-    return parsed
+    return parsed, True
 
 
 # ---------------------------------------------------------------------------
@@ -3476,7 +3559,7 @@ def _upscale_reextract(image_path, parsed, schema, constraints,
 
 
 def constraint_repair(image_path, parsed, schema, constraints,
-                      persons_independent):
+                      persons_independent, max_api_calls=0):
     """Constraint-driven repair cascade (Step 4c).
 
     Runs repair phases in order of cost:
@@ -3490,10 +3573,19 @@ def constraint_repair(image_path, parsed, schema, constraints,
     Each phase re-verifies constraints after fixes. The cascade loops up to
     3 rounds, breaking early if all constraints pass or no progress is made.
 
+    Args:
+        max_api_calls: Hard cap on API calls within this repair cascade
+            (0 = no limit). Free phases (A, B) always run.
+
     Returns (parsed, repair_log, api_calls_used).
     """
     repair_log = []
     api_calls = 0
+
+    def _budget_left():
+        if max_api_calls <= 0:
+            return float('inf')
+        return max_api_calls - api_calls
 
     for round_num in range(3):
         report = verify_all_constraints(parsed, constraints)
@@ -3529,6 +3621,12 @@ def constraint_repair(image_path, parsed, schema, constraints,
             if report["all_passed"]:
                 break
 
+        # Budget gate: phases C-F require API calls
+        if _budget_left() <= 0:
+            logger.info("  API budget exhausted (%d calls used) — "
+                        "skipping phases C-F", api_calls)
+            break
+
         # Phase C: Truncated section fill (API calls)
         parsed, log_c, calls_c = _repair_truncated(
             image_path, parsed, schema, constraints, persons_independent)
@@ -3542,6 +3640,10 @@ def constraint_repair(image_path, parsed, schema, constraints,
                         len(log_c), report["failed"])
             if report["all_passed"]:
                 break
+
+        if _budget_left() <= 0:
+            logger.info("  API budget exhausted after phase C")
+            break
 
         # Phase D: Structural re-extract (API calls)
         parsed, log_d, calls_d = _repair_structural(
@@ -3557,6 +3659,10 @@ def constraint_repair(image_path, parsed, schema, constraints,
             if report["all_passed"]:
                 break
 
+        if _budget_left() <= 0:
+            logger.info("  API budget exhausted after phase D")
+            break
+
         # Phase E: Multi-reading vote (API calls)
         parsed, log_e, calls_e = _multi_reading_repair(
             image_path, parsed, schema, constraints, persons_independent)
@@ -3570,6 +3676,10 @@ def constraint_repair(image_path, parsed, schema, constraints,
                         len(log_e), report["failed"])
             if report["all_passed"]:
                 break
+
+        if _budget_left() <= 0:
+            logger.info("  API budget exhausted after phase E")
+            break
 
         # Phase F: Upscale + targeted re-extract (API calls, last resort)
         parsed, log_f, calls_f = _upscale_reextract(
@@ -3600,28 +3710,35 @@ def constraint_repair(image_path, parsed, schema, constraints,
 def to_tidy_dataframe(parsed):
     """Convert parsed extraction to a tidy pandas DataFrame.
 
-    One row per (section, age, group) observation:
-        section | age | group | persons | males | females
+    One row per (section, row_label, group) observation.
     """
     import pandas as pd
 
+    meta = parsed.get("metadata", {})
+    row_label_name = meta.get("row_label_name", "age")
     records = []
     for section in parsed.get("sections", []):
         sec_name = section.get("name", "")
         for row in section.get("rows", []):
-            age = row.get("age", "")
+            row_label = _row_label_value(row, row_label_name=row_label_name)
             for key, val in row.items():
-                if key == "age":
+                if key in TEXTUAL_ROW_FIELDS:
                     continue
                 if isinstance(val, dict):
-                    records.append({
+                    record = {
                         "section": sec_name,
-                        "age": age,
+                        "row_label": row_label,
+                        "row_label_type": row_label_name,
+                        "age": row.get("age", "") if row_label_name == "age" else "",
+                        "district": row.get("district", "") if row_label_name == "district" else "",
                         "group": key,
                         "persons": val.get("persons"),
                         "males": val.get("males"),
                         "females": val.get("females"),
-                    })
+                    }
+                    if row_label_name not in ("age", "district"):
+                        record[row_label_name] = row_label
+                    records.append(record)
 
     return pd.DataFrame(records)
 
@@ -3647,6 +3764,8 @@ def to_legacy_format(parsed):
         region=meta.get("region", ""),
         year=meta.get("year", 0),
         data_type=meta.get("data_type", "absolute"),
+        row_axis_type=meta.get("row_axis_type", "age_rows"),
+        row_label_name=meta.get("row_label_name", "age"),
         column_groups=[{"name": g} for g in groups],
         sections=[{"name": s.get("name", "")} for s in sections],
     )
@@ -3672,6 +3791,7 @@ def to_legacy_format(parsed):
                     continue
                 rows.append({
                     "age": row.get("age", ""),
+                    "district": row.get("district"),
                     "persons": gdata.get("persons"),
                     "males": gdata.get("males"),
                     "females": gdata.get("females"),
@@ -3694,6 +3814,8 @@ def validate_age_ordering(parsed):
     Returns list of warning strings, empty if ordering looks correct.
     """
     warnings = []
+    if parsed.get("metadata", {}).get("row_axis_type") not in (None, "", "age_rows"):
+        return warnings
     for section in parsed.get("sections", []):
         sec_name = section.get("name", "")
         numeric_ages = []
@@ -3701,6 +3823,10 @@ def validate_age_ordering(parsed):
             age = row.get("age", "")
             age_norm = normalize_age(age)
             if age_norm in ("total", "grandtotal"):
+                continue
+            # Intermediate subtotal rows such as "Total 0-5" legitimately
+            # appear after their component ages; they are not row-order errors.
+            if str(age).strip().lower().startswith("total "):
                 continue
             if any(kw in age_norm for kw in ("mean", "median", "average")):
                 continue
@@ -3719,7 +3845,7 @@ def validate_age_ordering(parsed):
 
 
 def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
-                       output_dir=None):
+                       output_dir=None, max_api_calls=0):
     """Main orchestrator: 3-call max pipeline.
 
     Call 1: Schema discovery (Gemini) — understand table structure
@@ -3731,6 +3857,9 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
         retry_on_fail: If True, retry once with slightly different prompt.
         fallback: If True, fall back to MoE pipeline on constraint failure.
         output_dir: Directory for output files. If None, uses default RESULTS_DIR.
+        max_api_calls: Hard cap on total API calls per image (0 = no limit).
+            When the cap is reached, the pipeline stops making further API calls
+            and returns whatever results it has so far.
 
     Returns:
         dict with keys: parsed, schema, constraints, report, df, output_paths, elapsed
@@ -3756,6 +3885,25 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
     print(f"{'='*70}")
 
     t0 = time.time()
+    extraction_mode = "single_call"
+    extraction_attempt_failures = 0
+    schema_rotation_applied = False
+    targeted_recheck_used = False
+    l1_repair_count = 0
+    repair_cascade_log = []
+    repair_calls = 0
+    initial_report = None
+
+    def _budget_remaining():
+        """Return how many API calls remain, or float('inf') if uncapped."""
+        if max_api_calls <= 0:
+            return float('inf')
+        return max_api_calls - api_calls
+
+    def _over_budget():
+        if max_api_calls <= 0:
+            return False
+        return api_calls >= max_api_calls
 
     # Step 1a: Structure discovery (Call 1)
     print("\nStep 1a: Schema discovery (Call 1)")
@@ -3773,6 +3921,7 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
     if schema.rotation in (90, 180, 270):
         from PIL import Image as PILImage
         rot_deg = schema.rotation
+        schema_rotation_applied = True
         print(f"  Image needs {rot_deg}° clockwise rotation — rotating and "
               "re-running schema discovery")
         img = PILImage.open(str(image_path))
@@ -3819,6 +3968,7 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
     use_per_section = n_sections > 1
 
     if use_per_section:
+        extraction_mode = "per_section"
         # Per-section extraction: one call per section
         sec_names = [s.get("name", "?") for s in schema.sections]
         print(f"\nStep 1b: Per-section extraction ({n_sections} sections)")
@@ -3837,6 +3987,7 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
                     raw = call_gemini(b64, extraction_prompt)
                     break
                 except Exception as e:
+                    extraction_attempt_failures += 1
                     wait = 2 ** attempt
                     print(f"    Attempt {attempt+1} failed: {e}")
                     if attempt < 2:
@@ -3882,19 +4033,28 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
             schema, persons_independent=persons_independent)
 
         raw = None
+        _SERVER_ERR_SIGNALS = ('504', '503', '500', 'DEADLINE', 'UNAVAILABLE',
+                               'timeout', 'Timeout', 'exceeded', 'timed out')
         for attempt in range(3):
             try:
                 raw = call_gemini(b64, extraction_prompt)
                 break
             except Exception as e:
+                extraction_attempt_failures += 1
+                err_str = str(e)
+                print(f"  Attempt {attempt+1} failed: {err_str[:100]}")
+                # Don't retry server errors/timeouts — they indicate the
+                # all-at-once prompt is too heavy; fall through to per-group
+                if any(sig in err_str for sig in _SERVER_ERR_SIGNALS):
+                    break
                 wait = 2 ** attempt
-                print(f"  Attempt {attempt+1} failed: {e}")
                 if attempt < 2:
                     print(f"  Retrying in {wait}s...")
                     time.sleep(wait)
 
         if raw is None and len(schema.column_groups) > 1:
             # All-at-once failed — fall back to per-group extraction
+            extraction_mode = "per_group"
             all_group_names = [cg.get("name", f"Group_{i}")
                                for i, cg in enumerate(schema.column_groups)]
             print(f"  All-at-once failed; switching to per-group extraction "
@@ -3911,6 +4071,7 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
                         g_raw = call_gemini(b64, gp)
                         break
                     except Exception as e:
+                        extraction_attempt_failures += 1
                         wait = 2 ** attempt
                         print(f"    Attempt {attempt+1} failed: {e}")
                         if attempt < 2:
@@ -3971,6 +4132,8 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
 
             meta = {"title": schema.title, "region": schema.region,
                     "year": schema.year, "data_type": schema.data_type,
+                    "row_axis_type": _schema_row_axis_type(schema),
+                    "row_label_name": _schema_row_label_name(schema),
                     "column_groups": [cg.get("name", "?")
                                       for cg in schema.column_groups]}
             sec_name = schema.title or "Section 1"
@@ -4033,6 +4196,7 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
     # Step 4: Verify
     print("\nStep 4: Verify all constraints")
     report = verify_all_constraints(parsed, constraints)
+    initial_report = report
     print(f"  Total checks: {report['total_checks']}")
     print(f"  Passed: {report['passed']}")
     print(f"  Failed: {report['failed']}")
@@ -4050,6 +4214,7 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
         if l1_failures:
             print(f"\n  Attempting repair of {len(l1_failures)} L1 failures...")
             parsed, repair_log = attempt_repair(parsed, report["failures"])
+            l1_repair_count = len(repair_log)
             for r in repair_log:
                 print(f"    FIX {r['section']}/{r['age']} {r['group']}.{r['col']}: "
                       f"{r['old']} -> {r['new']} (diff={r['diff']})")
@@ -4063,24 +4228,34 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
                 print("  ALL CONSTRAINTS NOW PASS")
 
         # Step 4b: Targeted re-check of suspicious cells (Call 3, optional)
-        if not report["all_passed"]:
+        recheck_api_ok = True
+        if not report["all_passed"] and not _over_budget():
             suspicious = identify_suspicious_cells(parsed, report["failures"])
             if suspicious:
                 print(f"\n  Step 4b: Targeted re-check — Call 3 ({len(suspicious)} suspicious cells)")
                 api_calls += 1
-                parsed = targeted_recheck(image_path, parsed, suspicious)
-                constraints = derive_constraints(parsed, schema=schema,
-                                                 persons_independent=persons_independent)
-                report = verify_all_constraints(parsed, constraints)
-                print(f"  After recheck: {report['passed']}/{report['total_checks']} passed")
-                if report["all_passed"]:
-                    print("  ALL CONSTRAINTS NOW PASS")
+                targeted_recheck_used = True
+                parsed, recheck_api_ok = targeted_recheck(image_path, parsed, suspicious)
+                if not recheck_api_ok:
+                    print("  Recheck API unavailable — skipping repair cascade")
+                else:
+                    constraints = derive_constraints(parsed, schema=schema,
+                                                     persons_independent=persons_independent)
+                    report = verify_all_constraints(parsed, constraints)
+                    print(f"  After recheck: {report['passed']}/{report['total_checks']} passed")
+                    if report["all_passed"]:
+                        print("  ALL CONSTRAINTS NOW PASS")
+        elif _over_budget() and not report["all_passed"]:
+            print(f"\n  API call budget exhausted ({api_calls}/{max_api_calls}) — skipping recheck")
 
         # Step 4c: Constraint-driven repair cascade
-        if not report["all_passed"]:
-            print(f"\n  Step 4c: Constraint-driven repair ({report['failed']} failures)")
+        if not report["all_passed"] and recheck_api_ok and not _over_budget():
+            budget_for_repair = int(_budget_remaining()) if max_api_calls > 0 else 0
+            print(f"\n  Step 4c: Constraint-driven repair ({report['failed']} failures)"
+                  + (f" [budget: {budget_for_repair} calls]" if max_api_calls > 0 else ""))
             parsed, repair_cascade_log, repair_calls = constraint_repair(
-                image_path, parsed, schema, constraints, persons_independent)
+                image_path, parsed, schema, constraints, persons_independent,
+                max_api_calls=budget_for_repair)
             api_calls += repair_calls
             constraints = derive_constraints(
                 parsed, schema=schema, persons_independent=persons_independent)
@@ -4134,6 +4309,32 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
     # Step 5: Export
     print("\nStep 5: Export")
     output_paths = {}
+    acceptance = build_acceptance_assessment(
+        report,
+        age_warnings,
+        {
+            "api_calls": api_calls,
+            "initial_failures": initial_report["failed"] if initial_report else report["failed"],
+            "initial_total_checks": initial_report["total_checks"] if initial_report else report["total_checks"],
+            "final_failures": report["failed"],
+            "age_warning_count": len(age_warnings),
+            "extraction_mode": extraction_mode,
+            "extraction_attempt_failures": extraction_attempt_failures,
+            "targeted_recheck_used": targeted_recheck_used,
+            "l1_repair_count": l1_repair_count,
+            "repair_entries_count": len(repair_cascade_log),
+            "repair_api_calls": repair_calls,
+            "repair_phases_used": sorted({entry.get("phase", "?")
+                                           for entry in repair_cascade_log}),
+            "cross_group_active": bool(constraints.get("L3_cross_group")),
+            "cross_section_active": bool(constraints.get("L4_cross_section")),
+            "subtotal_checks": len(constraints.get("L2_subtotal", [])),
+        },
+    )
+    print(f"  Acceptance: {acceptance['decision']} "
+          f"(trust={acceptance['trust_score']})")
+    if acceptance["reasons"]:
+        print(f"  Acceptance reasons: {', '.join(acceptance['reasons'])}")
 
     # Tidy CSV
     df = to_tidy_dataframe(parsed)
@@ -4165,6 +4366,7 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
             "failures": report["failures"],
         },
         "age_ordering_warnings": age_warnings,
+        "acceptance": acceptance,
     }
     with open(json_path, "w") as f:
         json.dump(json_output, f, indent=2)
@@ -4194,6 +4396,7 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
         "output_paths": output_paths,
         "elapsed": total_elapsed,
         "age_ordering_warnings": age_warnings,
+        "acceptance": acceptance,
     }
 
 
@@ -4222,8 +4425,12 @@ def _fallback_to_moe(image_path):
 def batch_extract(directory, parquet=False):
     """Process all PNG images in a directory.
 
-    Returns list of result dicts.
+    Streams results to CSV incrementally to avoid accumulating all
+    DataFrames in memory.  Returns a lightweight summary list (no
+    DataFrames retained).
     """
+    import pandas as pd
+
     directory = Path(directory)
     images = sorted(directory.glob("*.png"))
     if not images:
@@ -4231,43 +4438,46 @@ def batch_extract(directory, parquet=False):
         images = sorted(directory.rglob("*.png"))
 
     print(f"\nBatch: {len(images)} images in {directory}")
-    results = []
-    all_dfs = []
+    csv_path = RESULTS_DIR / f"{directory.name}_batch.csv"
+    header_written = False
+    succeeded = 0
+    all_passed_count = 0
+    total_rows = 0
 
     for i, img in enumerate(images):
         print(f"\n[{i+1}/{len(images)}] {img.name}")
         result = extract_and_verify(img)
         if result and "df" in result:
-            results.append(result)
+            succeeded += 1
+            if result.get("report", {}).get("all_passed", False):
+                all_passed_count += 1
             df = result["df"]
             df["source_image"] = img.name
-            all_dfs.append(df)
+            total_rows += len(df)
+            # Append to CSV incrementally
+            df.to_csv(csv_path, mode="a", index=False,
+                      header=not header_written)
+            header_written = True
+            # Don't keep the DataFrame or full result in memory
+            del df, result
 
-    # Combined exports
-    if all_dfs:
-        import pandas as pd
-        combined = pd.concat(all_dfs, ignore_index=True)
+    print(f"\nCombined CSV: {csv_path} ({total_rows} rows)")
 
-        csv_path = RESULTS_DIR / f"{directory.name}_batch.csv"
-        combined.to_csv(csv_path, index=False)
-        print(f"\nCombined CSV: {csv_path} ({len(combined)} rows)")
-
-        if parquet:
-            pq_path = RESULTS_DIR / f"{directory.name}_batch.parquet"
-            combined.to_parquet(pq_path, index=False)
-            print(f"Combined Parquet: {pq_path}")
+    if parquet and header_written:
+        # Read back the CSV to write parquet (avoids keeping all in memory)
+        pq_path = RESULTS_DIR / f"{directory.name}_batch.parquet"
+        pd.read_csv(csv_path).to_parquet(pq_path, index=False)
+        print(f"Combined Parquet: {pq_path}")
 
     # Summary
     total = len(images)
-    succeeded = len(results)
-    all_passed = sum(1 for r in results
-                     if r.get("report", {}).get("all_passed", False))
     print(f"\n{'='*70}")
     print(f"Batch Summary: {succeeded}/{total} extracted, "
-          f"{all_passed}/{succeeded} all constraints passed")
+          f"{all_passed_count}/{succeeded} all constraints passed")
     print(f"{'='*70}")
 
-    return results
+    return {"total": total, "succeeded": succeeded,
+            "all_passed": all_passed_count, "csv_path": str(csv_path)}
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,439 @@
+{
+  "source_image": "age_tables/Berar/1901/Berar_age_1901-2.png",
+  "extraction_method": "mistral_only",
+  "mistral_calls": 1,
+  "gemini_calls": 0,
+  "api_calls": 1,
+  "cost_estimate": 0.002,
+  "elapsed_seconds": 7.9,
+  "metadata": {
+    "column_groups": [
+      "15-20",
+      "20-40",
+      "40-60",
+      "60 AND OVER",
+      "WIDOWED",
+      "GROUP_6",
+      "GROUP_7",
+      "GROUP_8",
+      "GROUP_9",
+      "GROUP_10",
+      "GROUP_11"
+    ],
+    "data_type": "absolute"
+  },
+  "data": [
+    {
+      "name": "Amaroti",
+      "rows": [
+        {
+          "age": "Total",
+          "15-20": {
+            "males": 10982,
+            "females": 21361
+          },
+          "20-40": {
+            "males": 20448,
+            "females": 20261
+          },
+          "40-60": {
+            "males": 52036,
+            "females": 23749
+          },
+          "60 AND OVER": {
+            "males": 10056,
+            "females": 1701
+          },
+          "WIDOWED": {
+            "males": 80589,
+            "females": 21720
+          },
+          "GROUP_6": {
+            "males": 58869,
+            "females": 15
+          },
+          "GROUP_7": {
+            "males": 27,
+            "females": 66
+          },
+          "GROUP_8": {
+            "males": 242,
+            "females": 317
+          },
+          "GROUP_9": {
+            "males": 926,
+            "females": 424
+          },
+          "GROUP_10": {
+            "males": 1032,
+            "females": 6777
+          },
+          "GROUP_11": {
+            "males": 14541,
+            "females": 9632
+          }
+        }
+      ]
+    },
+    {
+      "name": "Akola",
+      "rows": [
+        {
+          "age": "Total",
+          "15-20": {
+            "males": 13759,
+            "females": 20416
+          },
+          "20-40": {
+            "males": 89574,
+            "females": 86118
+          },
+          "40-60": {
+            "males": 46498,
+            "females": 23473
+          },
+          "60 AND OVER": {
+            "males": 9242,
+            "females": 2132
+          },
+          "WIDOWED": {
+            "males": 72086,
+            "females": 19464
+          },
+          "GROUP_6": {
+            "males": 52622,
+            "females": 6
+          },
+          "GROUP_7": {
+            "males": 30,
+            "females": 106
+          },
+          "GROUP_8": {
+            "males": 342,
+            "females": 513
+          },
+          "GROUP_9": {
+            "males": 1037,
+            "females": 578
+          },
+          "GROUP_10": {
+            "males": 868,
+            "females": 6835
+          },
+          "GROUP_11": {
+            "males": 12188,
+            "females": 7532
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bilubpur",
+      "rows": [
+        {
+          "age": "Total",
+          "15-20": {
+            "males": 4904,
+            "females": 10127
+          },
+          "20-40": {
+            "males": 42529,
+            "females": 43022
+          },
+          "40-60": {
+            "males": 22743,
+            "females": 10775
+          },
+          "60 AND OVER": {
+            "males": 4497,
+            "females": 854
+          },
+          "WIDOWED": {
+            "males": 37904,
+            "females": 10206
+          },
+          "GROUP_6": {
+            "males": 27698,
+            "females": 3
+          },
+          "GROUP_7": {
+            "males": 12,
+            "females": 16
+          },
+          "GROUP_8": {
+            "males": 72,
+            "females": 116
+          },
+          "GROUP_9": {
+            "males": 328,
+            "females": 170
+          },
+          "GROUP_10": {
+            "males": 504,
+            "females": 3271
+          },
+          "GROUP_11": {
+            "males": 6507,
+            "females": 4457
+          }
+        }
+      ]
+    },
+    {
+      "name": "Buldana",
+      "rows": [
+        {
+          "age": "Total",
+          "15-20": {
+            "males": 10019,
+            "females": 16134
+          },
+          "20-40": {
+            "males": 64134,
+            "females": 60001
+          },
+          "40-60": {
+            "males": 28930,
+            "females": 14176
+          },
+          "60 AND OVER": {
+            "males": 5872,
+            "females": 1040
+          },
+          "WIDOWED": {
+            "males": 54184,
+            "females": 12365
+          },
+          "GROUP_6": {
+            "males": 41819,
+            "females": 2
+          },
+          "GROUP_7": {
+            "males": 23,
+            "females": 59
+          },
+          "GROUP_8": {
+            "males": 313,
+            "females": 469
+          },
+          "GROUP_9": {
+            "males": 1094,
+            "females": 564
+          },
+          "GROUP_10": {
+            "males": 949,
+            "females": 4578
+          },
+          "GROUP_11": {
+            "males": 11410,
+            "females": 4460
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wun",
+      "rows": [
+        {
+          "age": "Total",
+          "15-20": {
+            "males": 7717,
+            "females": 14568
+          },
+          "20-40": {
+            "males": 63502,
+            "females": 67104
+          },
+          "40-60": {
+            "males": 35507,
+            "females": 16487
+          },
+          "60 AND OVER": {
+            "males": 7174,
+            "females": 1356
+          },
+          "WIDOWED": {
+            "males": 55622,
+            "females": 13823
+          },
+          "GROUP_6": {
+            "males": 41799,
+            "females": 3
+          },
+          "GROUP_7": {
+            "males": 29,
+            "females": 81
+          },
+          "GROUP_8": {
+            "males": 328,
+            "females": 414
+          },
+          "GROUP_9": {
+            "males": 864,
+            "females": 374
+          },
+          "GROUP_10": {
+            "males": 755,
+            "females": 4427
+          },
+          "GROUP_11": {
+            "males": 10199,
+            "females": 5525
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basim",
+      "rows": [
+        {
+          "age": "Total",
+          "15-20": {
+            "males": 6616,
+            "females": 11486
+          },
+          "20-40": {
+            "males": 60175,
+            "females": 49219
+          },
+          "40-60": {
+            "males": 24277,
+            "females": 11284
+          },
+          "60 AND OVER": {
+            "males": 4449,
+            "females": 873
+          },
+          "WIDOWED": {
+            "males": 47246,
+            "females": 11647
+          },
+          "GROUP_6": {
+            "males": 35601,
+            "females": 5
+          },
+          "GROUP_7": {
+            "males": 32,
+            "females": 115
+          },
+          "GROUP_8": {
+            "males": 368,
+            "females": 606
+          },
+          "GROUP_9": {
+            "males": 1025,
+            "females": 520
+          },
+          "GROUP_10": {
+            "males": 742,
+            "females": 4508
+          },
+          "GROUP_11": {
+            "males": 9938,
+            "females": 4114
+          }
+        },
+        {
+          "age": "Total Berar",
+          "15-20": {
+            "males": 52997,
+            "females": 94090,
+            "persons": 147087
+          },
+          "20-40": {
+            "males": 400362,
+            "females": 396025,
+            "persons": 796387
+          },
+          "40-60": {
+            "males": 209991,
+            "females": 99944,
+            "persons": 309935
+          },
+          "60 AND OVER": {
+            "males": 41290,
+            "females": 7956,
+            "persons": 49246
+          },
+          "WIDOWED": {
+            "males": 347633,
+            "females": 89225,
+            "persons": 436858
+          },
+          "GROUP_6": {
+            "males": 258408,
+            "females": 34,
+            "persons": 258442
+          },
+          "GROUP_7": {
+            "males": 153,
+            "females": 443,
+            "persons": 596
+          },
+          "GROUP_8": {
+            "males": 1685,
+            "females": 2435,
+            "persons": 4120
+          },
+          "GROUP_9": {
+            "males": 5294,
+            "females": 2630,
+            "persons": 7924
+          },
+          "GROUP_10": {
+            "males": 4850,
+            "females": 30397,
+            "persons": 35247
+          },
+          "GROUP_11": {
+            "males": 64783,
+            "females": 36036,
+            "persons": 100819
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 176,
+    "passed": 176,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_mistral_hybrid",
+    "policy": "mistral_hybrid",
+    "decision": "accepted_with_risk",
+    "next_step": "escalate_expensive",
+    "trust_score": 80,
+    "reasons": [
+      "cheap_first_pass_requires_verification"
+    ],
+    "signals": {
+      "api_calls": 1,
+      "initial_failures": 0,
+      "initial_total_checks": 176,
+      "final_failures": 0,
+      "age_warning_count": 0,
+      "extraction_mode": "mistral_markdown",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [
+        ""
+      ],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 0,
+      "mistral_calls": 1,
+      "gemini_calls": 0,
+      "method": "mistral_only",
+      "inherited_acceptance": null
+    }
+  }
+}

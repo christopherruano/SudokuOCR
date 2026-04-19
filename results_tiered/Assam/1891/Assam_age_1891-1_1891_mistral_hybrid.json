@@ -1,0 +1,927 @@
+{
+  "source_image": "age_tables/Assam/1891/Assam_age_1891-1.png",
+  "extraction_method": "mistral+partial_repair",
+  "mistral_calls": 1,
+  "gemini_calls": 0,
+  "api_calls": 1,
+  "cost_estimate": 0.002,
+  "elapsed_seconds": 11.6,
+  "metadata": {
+    "column_groups": [
+      "10-14",
+      "15-19",
+      "20-24",
+      "GROUP_4"
+    ],
+    "data_type": "absolute"
+  },
+  "data": [
+    {
+      "name": "Cachar Plains",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 173707,
+            "males": 103737,
+            "females": 69970
+          },
+          "15-19": {
+            "persons": 27065,
+            "males": 28192,
+            "females": 28330
+          },
+          "20-24": {
+            "persons": 27337,
+            "males": 20891,
+            "females": 10957
+          },
+          "GROUP_4": {
+            "persons": 11399,
+            "males": 2280,
+            "females": 7860
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sylhet",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 1041092,
+            "males": 642083,
+            "females": 399009
+          },
+          "15-19": {
+            "persons": 161033,
+            "males": 168990,
+            "females": 173683
+          },
+          "20-24": {
+            "persons": 168009,
+            "males": 135272,
+            "females": 53553
+          },
+          "GROUP_4": {
+            "persons": 75420,
+            "males": 4947,
+            "females": 47843
+          }
+        },
+        {
+          "age": "Total Surma Valley",
+          "10-14": {
+            "persons": 1214799,
+            "males": 745820,
+            "females": 468979
+          },
+          "15-19": {
+            "persons": 188096,
+            "males": 197182,
+            "females": 202013
+          },
+          "20-24": {
+            "persons": 195346,
+            "males": 156163,
+            "females": 64510
+          },
+          "GROUP_4": {
+            "persons": 86819,
+            "males": 7227,
+            "females": 55703
+          }
+        }
+      ]
+    },
+    {
+      "name": "Goalpara",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 207816,
+            "males": 125036,
+            "females": 82780
+          },
+          "15-19": {
+            "persons": 36901,
+            "males": 39245,
+            "females": 35104
+          },
+          "20-24": {
+            "persons": 30769,
+            "males": 23161,
+            "females": 9219
+          },
+          "GROUP_4": {
+            "persons": 12619,
+            "males": 2023,
+            "females": 7620
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kamrup",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 314277,
+            "males": 180426,
+            "females": 133851
+          },
+          "15-19": {
+            "persons": 50882,
+            "males": 54148,
+            "females": 49891
+          },
+          "20-24": {
+            "persons": 47136,
+            "males": 36592,
+            "females": 22892
+          },
+          "GROUP_4": {
+            "persons": 19796,
+            "males": 5753,
+            "females": 11645
+          }
+        }
+      ]
+    },
+    {
+      "name": "Darrang",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 150496,
+            "males": 86395,
+            "females": 64101
+          },
+          "15-19": {
+            "persons": 23762,
+            "males": 24440,
+            "females": 22588
+          },
+          "20-24": {
+            "persons": 21437,
+            "males": 15702,
+            "females": 10717
+          },
+          "GROUP_4": {
+            "persons": 8899,
+            "males": 3532,
+            "females": 6547
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nowgong",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 184524,
+            "males": 103606,
+            "females": 80918
+          },
+          "15-19": {
+            "persons": 29711,
+            "males": 31135,
+            "females": 26727
+          },
+          "20-24": {
+            "persons": 25472,
+            "males": 17632,
+            "females": 13224
+          },
+          "GROUP_4": {
+            "persons": 10879,
+            "males": 6394,
+            "females": 8341
+          }
+        }
+      ]
+    },
+    {
+      "name": "Siboagar",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 236809,
+            "males": 135128,
+            "females": 101681
+          },
+          "15-19": {
+            "persons": 36156,
+            "males": 37518,
+            "females": 33862
+          },
+          "20-24": {
+            "persons": 33098,
+            "males": 25176,
+            "females": 18969
+          },
+          "GROUP_4": {
+            "persons": 16286,
+            "males": 8162,
+            "females": 12201
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lakhimpur",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 128104,
+            "males": 73739,
+            "females": 54365
+          },
+          "15-19": {
+            "persons": 19372,
+            "males": 19408,
+            "females": 18398
+          },
+          "20-24": {
+            "persons": 17675,
+            "males": 13371,
+            "females": 9908
+          },
+          "GROUP_4": {
+            "persons": 8246,
+            "males": 4672,
+            "females": 6550
+          }
+        },
+        {
+          "age": "Total Brahmaputra Valley",
+          "10-14": {
+            "persons": 1222026,
+            "males": 704330,
+            "females": 517696
+          },
+          "15-19": {
+            "persons": 196784,
+            "males": 206194,
+            "females": 186570
+          },
+          "20-24": {
+            "persons": 175587,
+            "males": 131634,
+            "females": 84929
+          },
+          "GROUP_4": {
+            "persons": 76725,
+            "males": 30536,
+            "females": 52904
+          }
+        },
+        {
+          "age": "Total Plains",
+          "10-14": {
+            "persons": 2436825,
+            "males": 1450150,
+            "females": 986675
+          },
+          "15-19": {
+            "persons": 384880,
+            "males": 403376,
+            "females": 388583
+          },
+          "20-24": {
+            "persons": 370933,
+            "males": 287797,
+            "females": 149439
+          },
+          "GROUP_4": {
+            "persons": 163544,
+            "males": 37763,
+            "females": 108607
+          }
+        }
+      ]
+    },
+    {
+      "name": "North Cachar",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 10348,
+            "males": 5460,
+            "females": 4888
+          },
+          "15-19": {
+            "persons": 1601,
+            "males": 1595,
+            "females": 1406
+          },
+          "20-24": {
+            "persons": 1412,
+            "males": 939,
+            "females": 918
+          },
+          "GROUP_4": {
+            "persons": 675,
+            "males": 626,
+            "females": 451
+          }
+        }
+      ]
+    },
+    {
+      "name": "Naga Hills",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 56754,
+            "males": 31297,
+            "females": 25457
+          },
+          "15-19": {
+            "persons": 9890,
+            "males": 10258,
+            "females": 8363
+          },
+          "20-24": {
+            "persons": 7349,
+            "males": 5177,
+            "females": 4300
+          },
+          "GROUP_4": {
+            "persons": 2979,
+            "males": 1967,
+            "females": 2157
+          }
+        }
+      ]
+    },
+    {
+      "name": "Khasi and Jaintia Hills",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 101504,
+            "males": 53336,
+            "females": 48168
+          },
+          "15-19": {
+            "persons": 16712,
+            "males": 17318,
+            "females": 13147
+          },
+          "20-24": {
+            "persons": 13184,
+            "males": 10640,
+            "females": 9678
+          },
+          "GROUP_4": {
+            "persons": 6578,
+            "males": 4780,
+            "females": 3283
+          }
+        }
+      ]
+    },
+    {
+      "name": "Garo Hills",
+      "rows": [
+        {
+          "age": "Total",
+          "10-14": {
+            "persons": 57983,
+            "males": 32216,
+            "females": 25767
+          },
+          "15-19": {
+            "persons": 10996,
+            "males": 10823,
+            "females": 8812
+          },
+          "20-24": {
+            "persons": 8239,
+            "males": 6134,
+            "females": 4251
+          },
+          "GROUP_4": {
+            "persons": 3130,
+            "males": 1526,
+            "females": 1546
+          }
+        }
+      ]
+    },
+    {
+      "name": "North Lushai (Civil and Military) 1,080 1,080 ... ... ... ... ... 6 ... 137 ... 439 ...",
+      "rows": [
+        {
+          "age": "Total Hill Districts",
+          "10-14": {
+            "persons": 227669,
+            "males": 123389,
+            "females": 104280
+          },
+          "15-19": {
+            "persons": 39199,
+            "males": 39994,
+            "females": 31728
+          },
+          "20-24": {
+            "persons": 30184,
+            "males": 22896,
+            "females": 19147
+          },
+          "GROUP_4": {
+            "persons": 13499,
+            "males": 8899,
+            "females": 7876
+          }
+        },
+        {
+          "age": "Total for the Province",
+          "10-14": {
+            "persons": 2664494,
+            "males": 1573539,
+            "females": 1090955
+          },
+          "15-19": {
+            "persons": 424079,
+            "males": 443370,
+            "females": 420311
+          },
+          "20-24": {
+            "persons": 401117,
+            "males": 310693,
+            "females": 168586
+          },
+          "GROUP_4": {
+            "persons": 177043,
+            "males": 46662,
+            "females": 116483
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 272,
+    "passed": 221,
+    "failed": 51,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L1",
+        "section": "Cachar Plains",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=27065 != M=28192+F=28330=56522",
+        "diff": -29457
+      },
+      {
+        "level": "L1",
+        "section": "Cachar Plains",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=27337 != M=20891+F=10957=31848",
+        "diff": -4511
+      },
+      {
+        "level": "L1",
+        "section": "Cachar Plains",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=11399 != M=2280+F=7860=10140",
+        "diff": 1259
+      },
+      {
+        "level": "L1",
+        "section": "Sylhet",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=161033 != M=168990+F=173683=342673",
+        "diff": -181640
+      },
+      {
+        "level": "L1",
+        "section": "Sylhet",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=168009 != M=135272+F=53553=188825",
+        "diff": -20816
+      },
+      {
+        "level": "L1",
+        "section": "Sylhet",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=75420 != M=4947+F=47843=52790",
+        "diff": 22630
+      },
+      {
+        "level": "L1",
+        "section": "Sylhet",
+        "age": "Total Surma Valley",
+        "group": "15-19",
+        "detail": "P=188096 != M=197182+F=202013=399195",
+        "diff": -211099
+      },
+      {
+        "level": "L1",
+        "section": "Sylhet",
+        "age": "Total Surma Valley",
+        "group": "20-24",
+        "detail": "P=195346 != M=156163+F=64510=220673",
+        "diff": -25327
+      },
+      {
+        "level": "L1",
+        "section": "Sylhet",
+        "age": "Total Surma Valley",
+        "group": "GROUP_4",
+        "detail": "P=86819 != M=7227+F=55703=62930",
+        "diff": 23889
+      },
+      {
+        "level": "L1",
+        "section": "Goalpara",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=36901 != M=39245+F=35104=74349",
+        "diff": -37448
+      },
+      {
+        "level": "L1",
+        "section": "Goalpara",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=30769 != M=23161+F=9219=32380",
+        "diff": -1611
+      },
+      {
+        "level": "L1",
+        "section": "Goalpara",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=12619 != M=2023+F=7620=9643",
+        "diff": 2976
+      },
+      {
+        "level": "L1",
+        "section": "Kamrup",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=50882 != M=54148+F=49891=104039",
+        "diff": -53157
+      },
+      {
+        "level": "L1",
+        "section": "Kamrup",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=47136 != M=36592+F=22892=59484",
+        "diff": -12348
+      },
+      {
+        "level": "L1",
+        "section": "Kamrup",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=19796 != M=5753+F=11645=17398",
+        "diff": 2398
+      },
+      {
+        "level": "L1",
+        "section": "Darrang",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=23762 != M=24440+F=22588=47028",
+        "diff": -23266
+      },
+      {
+        "level": "L1",
+        "section": "Darrang",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=21437 != M=15702+F=10717=26419",
+        "diff": -4982
+      },
+      {
+        "level": "L1",
+        "section": "Darrang",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=8899 != M=3532+F=6547=10079",
+        "diff": -1180
+      },
+      {
+        "level": "L1",
+        "section": "Nowgong",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=29711 != M=31135+F=26727=57862",
+        "diff": -28151
+      },
+      {
+        "level": "L1",
+        "section": "Nowgong",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=25472 != M=17632+F=13224=30856",
+        "diff": -5384
+      },
+      {
+        "level": "L1",
+        "section": "Nowgong",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=10879 != M=6394+F=8341=14735",
+        "diff": -3856
+      },
+      {
+        "level": "L1",
+        "section": "Siboagar",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=36156 != M=37518+F=33862=71380",
+        "diff": -35224
+      },
+      {
+        "level": "L1",
+        "section": "Siboagar",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=33098 != M=25176+F=18969=44145",
+        "diff": -11047
+      },
+      {
+        "level": "L1",
+        "section": "Siboagar",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=16286 != M=8162+F=12201=20363",
+        "diff": -4077
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=19372 != M=19408+F=18398=37806",
+        "diff": -18434
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=17675 != M=13371+F=9908=23279",
+        "diff": -5604
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=8246 != M=4672+F=6550=11222",
+        "diff": -2976
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total Brahmaputra Valley",
+        "group": "15-19",
+        "detail": "P=196784 != M=206194+F=186570=392764",
+        "diff": -195980
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total Brahmaputra Valley",
+        "group": "20-24",
+        "detail": "P=175587 != M=131634+F=84929=216563",
+        "diff": -40976
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total Brahmaputra Valley",
+        "group": "GROUP_4",
+        "detail": "P=76725 != M=30536+F=52904=83440",
+        "diff": -6715
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total Plains",
+        "group": "15-19",
+        "detail": "P=384880 != M=403376+F=388583=791959",
+        "diff": -407079
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total Plains",
+        "group": "20-24",
+        "detail": "P=370933 != M=287797+F=149439=437236",
+        "diff": -66303
+      },
+      {
+        "level": "L1",
+        "section": "Lakhimpur",
+        "age": "Total Plains",
+        "group": "GROUP_4",
+        "detail": "P=163544 != M=37763+F=108607=146370",
+        "diff": 17174
+      },
+      {
+        "level": "L1",
+        "section": "North Cachar",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=1601 != M=1595+F=1406=3001",
+        "diff": -1400
+      },
+      {
+        "level": "L1",
+        "section": "North Cachar",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=1412 != M=939+F=918=1857",
+        "diff": -445
+      },
+      {
+        "level": "L1",
+        "section": "North Cachar",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=675 != M=626+F=451=1077",
+        "diff": -402
+      },
+      {
+        "level": "L1",
+        "section": "Naga Hills",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=9890 != M=10258+F=8363=18621",
+        "diff": -8731
+      },
+      {
+        "level": "L1",
+        "section": "Naga Hills",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=7349 != M=5177+F=4300=9477",
+        "diff": -2128
+      },
+      {
+        "level": "L1",
+        "section": "Naga Hills",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=2979 != M=1967+F=2157=4124",
+        "diff": -1145
+      },
+      {
+        "level": "L1",
+        "section": "Khasi and Jaintia Hills",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=16712 != M=17318+F=13147=30465",
+        "diff": -13753
+      },
+      {
+        "level": "L1",
+        "section": "Khasi and Jaintia Hills",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=13184 != M=10640+F=9678=20318",
+        "diff": -7134
+      },
+      {
+        "level": "L1",
+        "section": "Khasi and Jaintia Hills",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=6578 != M=4780+F=3283=8063",
+        "diff": -1485
+      },
+      {
+        "level": "L1",
+        "section": "Garo Hills",
+        "age": "Total",
+        "group": "15-19",
+        "detail": "P=10996 != M=10823+F=8812=19635",
+        "diff": -8639
+      },
+      {
+        "level": "L1",
+        "section": "Garo Hills",
+        "age": "Total",
+        "group": "20-24",
+        "detail": "P=8239 != M=6134+F=4251=10385",
+        "diff": -2146
+      },
+      {
+        "level": "L1",
+        "section": "Garo Hills",
+        "age": "Total",
+        "group": "GROUP_4",
+        "detail": "P=3130 != M=1526+F=1546=3072",
+        "diff": 58
+      },
+      {
+        "level": "L1",
+        "section": "North Lushai (Civil and Military) 1,080 1,080 ... ... ... ... ... 6 ... 137 ... 439 ...",
+        "age": "Total Hill Districts",
+        "group": "15-19",
+        "detail": "P=39199 != M=39994+F=31728=71722",
+        "diff": -32523
+      },
+      {
+        "level": "L1",
+        "section": "North Lushai (Civil and Military) 1,080 1,080 ... ... ... ... ... 6 ... 137 ... 439 ...",
+        "age": "Total Hill Districts",
+        "group": "20-24",
+        "detail": "P=30184 != M=22896+F=19147=42043",
+        "diff": -11859
+      },
+      {
+        "level": "L1",
+        "section": "North Lushai (Civil and Military) 1,080 1,080 ... ... ... ... ... 6 ... 137 ... 439 ...",
+        "age": "Total Hill Districts",
+        "group": "GROUP_4",
+        "detail": "P=13499 != M=8899+F=7876=16775",
+        "diff": -3276
+      },
+      {
+        "level": "L1",
+        "section": "North Lushai (Civil and Military) 1,080 1,080 ... ... ... ... ... 6 ... 137 ... 439 ...",
+        "age": "Total for the Province",
+        "group": "15-19",
+        "detail": "P=424079 != M=443370+F=420311=863681",
+        "diff": -439602
+      },
+      {
+        "level": "L1",
+        "section": "North Lushai (Civil and Military) 1,080 1,080 ... ... ... ... ... 6 ... 137 ... 439 ...",
+        "age": "Total for the Province",
+        "group": "20-24",
+        "detail": "P=401117 != M=310693+F=168586=479279",
+        "diff": -78162
+      },
+      {
+        "level": "L1",
+        "section": "North Lushai (Civil and Military) 1,080 1,080 ... ... ... ... ... 6 ... 137 ... 439 ...",
+        "age": "Total for the Province",
+        "group": "GROUP_4",
+        "detail": "P=177043 != M=46662+F=116483=163145",
+        "diff": 13898
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_mistral_hybrid",
+    "policy": "mistral_hybrid",
+    "decision": "rejected_constraints_failed",
+    "next_step": "escalate_expensive",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 1,
+      "initial_failures": 51,
+      "initial_total_checks": 272,
+      "final_failures": 51,
+      "age_warning_count": 0,
+      "extraction_mode": "mistral_markdown",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [
+        ""
+      ],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 0,
+      "mistral_calls": 1,
+      "gemini_calls": 0,
+      "method": "mistral+partial_repair",
+      "inherited_acceptance": null
+    }
+  }
+}

@@ -277,20 +277,33 @@ _gemini_client_key = None
 _last_gemini_call = 0.0
 
 def _get_gemini_client():
-    """Return a cached Gemini client, creating one if needed."""
+    """Return a cached Gemini client, creating one if needed.
+
+    Checks HARVARD_GEMINI_API_KEY / HARVARD_GEMINI_BASE_URL first,
+    falls back to GEMINI_API_KEY (direct Google).
+    """
     global _gemini_client, _gemini_client_key
     from google import genai
-    api_key = os.environ["GEMINI_API_KEY"]
-    if _gemini_client is None or _gemini_client_key != api_key:
+    api_key = os.environ.get("HARVARD_GEMINI_API_KEY") or os.environ["GEMINI_API_KEY"]
+    base_url = os.environ.get("HARVARD_GEMINI_BASE_URL") or os.environ.get("GEMINI_BASE_URL")
+    cache_key = (api_key, base_url)
+    if _gemini_client is None or _gemini_client_key != cache_key:
+        # Harvard proxy is slower — give it 5 min timeout vs 2 min for Google direct
+        timeout_ms = 300_000 if base_url and "harvard" in base_url else 120_000
+        http_opts = {"timeout": timeout_ms}
+        if base_url:
+            http_opts["base_url"] = base_url
         _gemini_client = genai.Client(
             api_key=api_key,
-            http_options=genai.types.HttpOptions(timeout=120_000),
+            http_options=genai.types.HttpOptions(**http_opts),
         )
-        _gemini_client_key = api_key
+        _gemini_client_key = cache_key
+        label = "Harvard HUIT" if "harvard" in (base_url or "") else "Google direct"
+        print(f"  Gemini client: {label}")
     return _gemini_client
 
 
-def call_gemini(b64_image, prompt, mime="image/png"):
+def call_gemini(b64_image, prompt, mime="image/png", max_attempts=None):
     global _last_gemini_call
     import time as _time
     from google import genai
@@ -314,7 +327,8 @@ def call_gemini(b64_image, prompt, mime="image/png"):
     config = genai.types.GenerateContentConfig(temperature=0.1)
 
     # Retry primary model with exponential backoff
-    max_attempts = 5
+    if max_attempts is None:
+        max_attempts = 5
     for attempt in range(max_attempts):
         _last_gemini_call = _time.time()
         try:
@@ -1132,19 +1146,23 @@ def export_multigroup_to_excel(all_results, schema, output_path):
 
     # Check if this table has a persons column
     has_persons = getattr(schema, 'has_persons_column', True)
+    row_label_field = getattr(schema, "row_label_name", "age") or "age"
 
     def _compute_total_row(rows):
         """Find the explicit TOTAL row if present, otherwise sum leaf age rows."""
         # Look for an explicit Total row in the data
         for r in rows:
-            age = normalize_age(r.get("age", ""))
+            age = normalize_age(r.get("age", "") or r.get(row_label_field, ""))
             if age and age.lower() == "total":
-                tr = {"age": "Total"}
+                tr = {
+                    "age": r.get("age", "Total"),
+                    row_label_field: r.get(row_label_field, r.get("age", "Total")),
+                }
                 for key in ("persons", "males", "females"):
                     tr[key] = r.get(key)
                 return tr
         # Fallback: sum all rows (but skip subtotals and Mean Age)
-        total = {"age": "Total", "persons": 0, "males": 0, "females": 0}
+        total = {"age": "Total", row_label_field: "Total", "persons": 0, "males": 0, "females": 0}
         for r in rows:
             total["persons"] += r.get("persons", 0) or 0
             total["males"] += r.get("males", 0) or 0
@@ -1237,8 +1255,9 @@ def export_multigroup_to_excel(all_results, schema, output_path):
         cell.border = thick_bottom
         cell.alignment = Alignment(horizontal="center")
 
-        # Age header
-        ws.cell(row=header_row, column=1, value="Age").font = header_font
+        # Row-label header
+        row_label_header = getattr(schema, "row_label_name", "age") or "age"
+        ws.cell(row=header_row, column=1, value=row_label_header.title()).font = header_font
         ws.cell(row=sub_header_row, column=1, value="").border = thick_bottom
 
         cur_row = sub_header_row + 1
@@ -1248,7 +1267,7 @@ def export_multigroup_to_excel(all_results, schema, output_path):
         for gname in group_names:
             rmap = {}
             for row in groups[gname].get("rows", []):
-                age_norm = normalize_age(row.get("age", ""))
+                age_norm = normalize_age(row.get("age", "") or row.get(row_label_field, ""))
                 if age_norm:
                     rmap[age_norm] = row
             group_row_maps[gname] = rmap
@@ -1257,9 +1276,9 @@ def export_multigroup_to_excel(all_results, schema, output_path):
         first_group = group_names[0]
         age_keys = []
         for row in groups[first_group].get("rows", []):
-            age_norm = normalize_age(row.get("age", ""))
+            age_norm = normalize_age(row.get("age", "") or row.get(row_label_field, ""))
             if age_norm:
-                age_keys.append((age_norm, row.get("age", "")))
+                age_keys.append((age_norm, row.get(row_label_field, row.get("age", ""))))
 
         # Compute total rows per group
         total_rows = {}

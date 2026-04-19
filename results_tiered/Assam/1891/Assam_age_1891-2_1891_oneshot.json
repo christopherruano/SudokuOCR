@@ -1,0 +1,878 @@
+{
+  "source_image": "age_tables/Assam/1891/Assam_age_1891-2.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 3,
+  "elapsed_seconds": 172.5,
+  "metadata": {
+    "title": "TABLE VIII.\u2014CIVIL CONDITION BY RELIGION AND AGE. PART A.\u2014ALL RELIGIONS\u2014continued. (1) UNMARRIED.",
+    "region": "Assam",
+    "year": 1891,
+    "data_type": "absolute",
+    "column_groups": [
+      "25\u201429.",
+      "30\u201434.",
+      "35\u201439.",
+      "40\u201444.",
+      "45\u201449.",
+      "50\u201454.",
+      "55\u201459.",
+      "60 and over."
+    ],
+    "row_axis_type": "district_rows",
+    "row_label_name": "DISTRICT."
+  },
+  "data": [
+    {
+      "name": "TABLE VIII.\u2014CIVIL CONDITION BY RELIGION AND AGE. PART A.\u2014ALL RELIGIONS\u2014continued. (1) UNMARRIED.",
+      "rows": [
+        {
+          "DISTRICT.": "Cachar Plains",
+          "25\u201429.": {
+            "persons": 4943,
+            "males": 4669,
+            "females": 274
+          },
+          "30\u201434.": {
+            "persons": 2022,
+            "males": 1876,
+            "females": 146
+          },
+          "35\u201439.": {
+            "persons": 870,
+            "males": 802,
+            "females": 68
+          },
+          "40\u201444.": {
+            "persons": 489,
+            "males": 439,
+            "females": 50
+          },
+          "45\u201449.": {
+            "persons": 182,
+            "males": 165,
+            "females": 17
+          },
+          "50\u201454.": {
+            "persons": 146,
+            "males": 120,
+            "females": 26
+          },
+          "55\u201459.": {
+            "persons": 30,
+            "males": 27,
+            "females": 3
+          },
+          "60 and over.": {
+            "persons": 135,
+            "males": 96,
+            "females": 39
+          },
+          "district": "Cachar Plains",
+          "age": "Cachar Plains"
+        },
+        {
+          "DISTRICT.": "Sylhet",
+          "25\u201429.": {
+            "persons": 27908,
+            "males": 27170,
+            "females": 738
+          },
+          "30\u201434.": {
+            "persons": 11391,
+            "males": 10889,
+            "females": 502
+          },
+          "35\u201439.": {
+            "persons": 4609,
+            "males": 4345,
+            "females": 264
+          },
+          "40\u201444.": {
+            "persons": 2697,
+            "males": 2447,
+            "females": 250
+          },
+          "45\u201449.": {
+            "persons": 1210,
+            "males": 1110,
+            "females": 100
+          },
+          "50\u201454.": {
+            "persons": 1187,
+            "males": 1053,
+            "females": 134
+          },
+          "55\u201459.": {
+            "persons": 402,
+            "males": 376,
+            "females": 26
+          },
+          "60 and over.": {
+            "persons": 1652,
+            "males": 1442,
+            "females": 210
+          },
+          "district": "Sylhet",
+          "age": "Sylhet"
+        },
+        {
+          "DISTRICT.": "Total Surma Valley",
+          "25\u201429.": {
+            "persons": 32851,
+            "males": 31839,
+            "females": 1012
+          },
+          "30\u201434.": {
+            "persons": 13413,
+            "males": 12765,
+            "females": 648
+          },
+          "35\u201439.": {
+            "persons": 5479,
+            "males": 5147,
+            "females": 332
+          },
+          "40\u201444.": {
+            "persons": 3186,
+            "males": 2886,
+            "females": 300
+          },
+          "45\u201449.": {
+            "persons": 1392,
+            "males": 1275,
+            "females": 117
+          },
+          "50\u201454.": {
+            "persons": 1333,
+            "males": 1173,
+            "females": 160
+          },
+          "55\u201459.": {
+            "persons": 432,
+            "males": 403,
+            "females": 29
+          },
+          "60 and over.": {
+            "persons": 1787,
+            "males": 1538,
+            "females": 249
+          },
+          "district": "Total Surma Valley",
+          "age": "Total"
+        },
+        {
+          "DISTRICT.": "Goalpara",
+          "25\u201429.": {
+            "persons": 5627,
+            "males": 5294,
+            "females": 333
+          },
+          "30\u201434.": {
+            "persons": 2497,
+            "males": 2314,
+            "females": 183
+          },
+          "35\u201439.": {
+            "persons": 1010,
+            "males": 908,
+            "females": 102
+          },
+          "40\u201444.": {
+            "persons": 600,
+            "males": 507,
+            "females": 93
+          },
+          "45\u201449.": {
+            "persons": 229,
+            "males": 191,
+            "females": 38
+          },
+          "50\u201454.": {
+            "persons": 249,
+            "males": 188,
+            "females": 61
+          },
+          "55\u201459.": {
+            "persons": 72,
+            "males": 58,
+            "females": 14
+          },
+          "60 and over.": {
+            "persons": 242,
+            "males": 171,
+            "females": 71
+          },
+          "district": "Goalpara",
+          "age": "Goalpara"
+        },
+        {
+          "DISTRICT.": "Kamrup",
+          "25\u201429.": {
+            "persons": 7250,
+            "males": 6478,
+            "females": 772
+          },
+          "30\u201434.": {
+            "persons": 3117,
+            "males": 2659,
+            "females": 458
+          },
+          "35\u201439.": {
+            "persons": 1208,
+            "males": 988,
+            "females": 220
+          },
+          "40\u201444.": {
+            "persons": 928,
+            "males": 684,
+            "females": 244
+          },
+          "45\u201449.": {
+            "persons": 298,
+            "males": 228,
+            "females": 70
+          },
+          "50\u201454.": {
+            "persons": 387,
+            "males": 288,
+            "females": 99
+          },
+          "55\u201459.": {
+            "persons": 129,
+            "males": 89,
+            "females": 40
+          },
+          "60 and over.": {
+            "persons": 294,
+            "males": 206,
+            "females": 88
+          },
+          "district": "Kamrup",
+          "age": "Kamrup"
+        },
+        {
+          "DISTRICT.": "Darrang",
+          "25\u201429.": {
+            "persons": 5712,
+            "males": 4177,
+            "females": 1535
+          },
+          "30\u201434.": {
+            "persons": 2847,
+            "males": 2404,
+            "females": 443
+          },
+          "35\u201439.": {
+            "persons": 1165,
+            "males": 1001,
+            "females": 164
+          },
+          "40\u201444.": {
+            "persons": 863,
+            "males": 666,
+            "females": 197
+          },
+          "45\u201449.": {
+            "persons": 305,
+            "males": 250,
+            "females": 55
+          },
+          "50\u201454.": {
+            "persons": 288,
+            "males": 219,
+            "females": 69
+          },
+          "55\u201459.": {
+            "persons": 83,
+            "males": 54,
+            "females": 29
+          },
+          "60 and over.": {
+            "persons": 171,
+            "males": 126,
+            "females": 45
+          },
+          "district": "Darrang",
+          "age": "Darrang"
+        },
+        {
+          "DISTRICT.": "Nowgong",
+          "25\u201429.": {
+            "persons": 6191,
+            "males": 5186,
+            "females": 1005
+          },
+          "30\u201434.": {
+            "persons": 3026,
+            "males": 2506,
+            "females": 520
+          },
+          "35\u201439.": {
+            "persons": 1306,
+            "males": 1090,
+            "females": 216
+          },
+          "40\u201444.": {
+            "persons": 955,
+            "males": 744,
+            "females": 211
+          },
+          "45\u201449.": {
+            "persons": 354,
+            "males": 268,
+            "females": 86
+          },
+          "50\u201454.": {
+            "persons": 373,
+            "males": 264,
+            "females": 109
+          },
+          "55\u201459.": {
+            "persons": 115,
+            "males": 80,
+            "females": 35
+          },
+          "60 and over.": {
+            "persons": 243,
+            "males": 178,
+            "females": 65
+          },
+          "district": "Nowgong",
+          "age": "Nowgong"
+        },
+        {
+          "DISTRICT.": "Sibsagar",
+          "25\u201429.": {
+            "persons": 6628,
+            "males": 5840,
+            "females": 788
+          },
+          "30\u201434.": {
+            "persons": 3489,
+            "males": 3067,
+            "females": 422
+          },
+          "35\u201439.": {
+            "persons": 1308,
+            "males": 1108,
+            "females": 200
+          },
+          "40\u201444.": {
+            "persons": 853,
+            "males": 697,
+            "females": 156
+          },
+          "45\u201449.": {
+            "persons": 309,
+            "males": 250,
+            "females": 59
+          },
+          "50\u201454.": {
+            "persons": 334,
+            "males": 274,
+            "females": 60
+          },
+          "55\u201459.": {
+            "persons": 85,
+            "males": 72,
+            "females": 13
+          },
+          "60 and over.": {
+            "persons": 181,
+            "males": 139,
+            "females": 42
+          },
+          "district": "Sibsagar",
+          "age": "Sibsagar"
+        },
+        {
+          "DISTRICT.": "Lakhimpur",
+          "25\u201429.": {
+            "persons": 4684,
+            "males": 4085,
+            "females": 599
+          },
+          "30\u201434.": {
+            "persons": 2334,
+            "males": 2047,
+            "females": 287
+          },
+          "35\u201439.": {
+            "persons": 935,
+            "males": 812,
+            "females": 123
+          },
+          "40\u201444.": {
+            "persons": 538,
+            "males": 451,
+            "females": 87
+          },
+          "45\u201449.": {
+            "persons": 204,
+            "males": 156,
+            "females": 48
+          },
+          "50\u201454.": {
+            "persons": 192,
+            "males": 142,
+            "females": 50
+          },
+          "55\u201459.": {
+            "persons": 51,
+            "males": 36,
+            "females": 15
+          },
+          "60 and over.": {
+            "persons": 103,
+            "males": 73,
+            "females": 30
+          },
+          "district": "Lakhimpur",
+          "age": "Lakhimpur"
+        },
+        {
+          "DISTRICT.": "Total Brahmaputra Valley",
+          "25\u201429.": {
+            "persons": 36092,
+            "males": 31060,
+            "females": 5032
+          },
+          "30\u201434.": {
+            "persons": 17310,
+            "males": 14997,
+            "females": 2313
+          },
+          "35\u201439.": {
+            "persons": 6932,
+            "males": 5907,
+            "females": 1025
+          },
+          "40\u201444.": {
+            "persons": 4737,
+            "males": 3749,
+            "females": 988
+          },
+          "45\u201449.": {
+            "persons": 1699,
+            "males": 1343,
+            "females": 356
+          },
+          "50\u201454.": {
+            "persons": 1823,
+            "males": 1375,
+            "females": 448
+          },
+          "55\u201459.": {
+            "persons": 535,
+            "males": 389,
+            "females": 146
+          },
+          "60 and over.": {
+            "persons": 1234,
+            "males": 893,
+            "females": 341
+          },
+          "district": "Total Brahmaputra Valley",
+          "age": "Total"
+        },
+        {
+          "DISTRICT.": "Total Plains",
+          "25\u201429.": {
+            "persons": 68943,
+            "males": 62899,
+            "females": 6044
+          },
+          "30\u201434.": {
+            "persons": 30723,
+            "males": 27762,
+            "females": 2961
+          },
+          "35\u201439.": {
+            "persons": 12411,
+            "males": 11054,
+            "females": 1357
+          },
+          "40\u201444.": {
+            "persons": 7923,
+            "males": 6635,
+            "females": 1288
+          },
+          "45\u201449.": {
+            "persons": 3091,
+            "males": 2618,
+            "females": 473
+          },
+          "50\u201454.": {
+            "persons": 3156,
+            "males": 2548,
+            "females": 608
+          },
+          "55\u201459.": {
+            "persons": 967,
+            "males": 792,
+            "females": 175
+          },
+          "60 and over.": {
+            "persons": 3021,
+            "males": 2431,
+            "females": 590
+          },
+          "district": "Total Plains",
+          "age": "Total"
+        },
+        {
+          "DISTRICT.": "North Cachar",
+          "25\u201429.": {
+            "persons": 296,
+            "males": 231,
+            "females": 65
+          },
+          "30\u201434.": {
+            "persons": 114,
+            "males": 89,
+            "females": 25
+          },
+          "35\u201439.": {
+            "persons": 40,
+            "males": 32,
+            "females": 8
+          },
+          "40\u201444.": {
+            "persons": 28,
+            "males": 18,
+            "females": 10
+          },
+          "45\u201449.": {
+            "persons": 6,
+            "males": 5,
+            "females": 1
+          },
+          "50\u201454.": {
+            "persons": 5,
+            "males": 5,
+            "females": 0
+          },
+          "55\u201459.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "60 and over.": {
+            "persons": 16,
+            "males": 7,
+            "females": 9
+          },
+          "district": "North Cachar",
+          "age": "North Cachar"
+        },
+        {
+          "DISTRICT.": "Naga Hills",
+          "25\u201429.": {
+            "persons": 1893,
+            "males": 1530,
+            "females": 363
+          },
+          "30\u201434.": {
+            "persons": 889,
+            "males": 677,
+            "females": 212
+          },
+          "35\u201439.": {
+            "persons": 431,
+            "males": 329,
+            "females": 102
+          },
+          "40\u201444.": {
+            "persons": 168,
+            "males": 102,
+            "females": 66
+          },
+          "45\u201449.": {
+            "persons": 50,
+            "males": 28,
+            "females": 22
+          },
+          "50\u201454.": {
+            "persons": 64,
+            "males": 39,
+            "females": 25
+          },
+          "55\u201459.": {
+            "persons": 11,
+            "males": 5,
+            "females": 6
+          },
+          "60 and over.": {
+            "persons": 64,
+            "males": 21,
+            "females": 43
+          },
+          "district": "Naga Hills",
+          "age": "Naga Hills"
+        },
+        {
+          "DISTRICT.": "Khasi and Jaintia Hills",
+          "25\u201429.": {
+            "persons": 2182,
+            "males": 1538,
+            "females": 644
+          },
+          "30\u201434.": {
+            "persons": 1100,
+            "males": 703,
+            "females": 397
+          },
+          "35\u201439.": {
+            "persons": 478,
+            "males": 283,
+            "females": 195
+          },
+          "40\u201444.": {
+            "persons": 361,
+            "males": 183,
+            "females": 178
+          },
+          "45\u201449.": {
+            "persons": 143,
+            "males": 66,
+            "females": 77
+          },
+          "50\u201454.": {
+            "persons": 165,
+            "males": 80,
+            "females": 85
+          },
+          "55\u201459.": {
+            "persons": 55,
+            "males": 23,
+            "females": 32
+          },
+          "60 and over.": {
+            "persons": 237,
+            "males": 100,
+            "females": 137
+          },
+          "district": "Khasi and Jaintia Hills",
+          "age": "Khasi and Jaintia Hills"
+        },
+        {
+          "DISTRICT.": "Garo Hills",
+          "25\u201429.": {
+            "persons": 1208,
+            "males": 996,
+            "females": 212
+          },
+          "30\u201434.": {
+            "persons": 446,
+            "males": 351,
+            "females": 95
+          },
+          "35\u201439.": {
+            "persons": 157,
+            "males": 120,
+            "females": 37
+          },
+          "40\u201444.": {
+            "persons": 88,
+            "males": 58,
+            "females": 30
+          },
+          "45\u201449.": {
+            "persons": 34,
+            "males": 22,
+            "females": 12
+          },
+          "50\u201454.": {
+            "persons": 41,
+            "males": 22,
+            "females": 19
+          },
+          "55\u201459.": {
+            "persons": 16,
+            "males": 8,
+            "females": 8
+          },
+          "60 and over.": {
+            "persons": 51,
+            "males": 21,
+            "females": 30
+          },
+          "district": "Garo Hills",
+          "age": "Garo Hills"
+        },
+        {
+          "DISTRICT.": "North Lushai (Civil and Military)",
+          "25\u201429.": {
+            "persons": 375,
+            "males": 375,
+            "females": 0
+          },
+          "30\u201434.": {
+            "persons": 97,
+            "males": 97,
+            "females": 0
+          },
+          "35\u201439.": {
+            "persons": 18,
+            "males": 18,
+            "females": 0
+          },
+          "40\u201444.": {
+            "persons": 6,
+            "males": 6,
+            "females": 0
+          },
+          "45\u201449.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "50\u201454.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "55\u201459.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "60 and over.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "district": "North Lushai (Civil and Military)",
+          "age": "North Lushai (Civil and Military)"
+        },
+        {
+          "DISTRICT.": "Total Hill Districts",
+          "25\u201429.": {
+            "persons": 5954,
+            "males": 4670,
+            "females": 1284
+          },
+          "30\u201434.": {
+            "persons": 2646,
+            "males": 1917,
+            "females": 729
+          },
+          "35\u201439.": {
+            "persons": 1124,
+            "males": 782,
+            "females": 342
+          },
+          "40\u201444.": {
+            "persons": 651,
+            "males": 367,
+            "females": 284
+          },
+          "45\u201449.": {
+            "persons": 234,
+            "males": 122,
+            "females": 112
+          },
+          "50\u201454.": {
+            "persons": 275,
+            "males": 146,
+            "females": 129
+          },
+          "55\u201459.": {
+            "persons": 83,
+            "males": 37,
+            "females": 46
+          },
+          "60 and over.": {
+            "persons": 369,
+            "males": 150,
+            "females": 219
+          },
+          "district": "Total Hill Districts",
+          "age": "Total"
+        },
+        {
+          "DISTRICT.": "Total for the Province",
+          "25\u201429.": {
+            "persons": 74897,
+            "males": 67569,
+            "females": 7328
+          },
+          "30\u201434.": {
+            "persons": 33369,
+            "males": 29679,
+            "females": 3690
+          },
+          "35\u201439.": {
+            "persons": 13535,
+            "males": 11836,
+            "females": 1699
+          },
+          "40\u201444.": {
+            "persons": 8574,
+            "males": 7002,
+            "females": 1572
+          },
+          "45\u201449.": {
+            "persons": 3325,
+            "males": 2740,
+            "females": 585
+          },
+          "50\u201454.": {
+            "persons": 3431,
+            "males": 2694,
+            "females": 737
+          },
+          "55\u201459.": {
+            "persons": 1050,
+            "males": 829,
+            "females": 221
+          },
+          "60 and over.": {
+            "persons": 3390,
+            "males": 2581,
+            "females": 809
+          },
+          "district": "Total for the Province",
+          "age": "Total"
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 440,
+    "passed": 440,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_oneshot",
+    "policy": "oneshot",
+    "decision": "accepted_with_risk",
+    "next_step": "review_or_escalate",
+    "trust_score": 80,
+    "reasons": [
+      "schema_rotation_applied",
+      "more_than_two_api_calls"
+    ],
+    "signals": {
+      "api_calls": 3,
+      "initial_failures": 0,
+      "initial_total_checks": 440,
+      "final_failures": 0,
+      "age_warning_count": 0,
+      "extraction_mode": "single_call",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": true,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 120
+    }
+  }
+}

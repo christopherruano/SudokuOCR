@@ -1,0 +1,260 @@
+{
+  "source_image": "age_tables/Gwalior/1901/Gwalior_age_1901-2.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 4,
+  "elapsed_seconds": 69341.2,
+  "metadata": {
+    "title": "AGE PERIODS",
+    "region": "",
+    "year": 0,
+    "data_type": "absolute",
+    "row_axis_type": "district_rows",
+    "row_label_name": "district",
+    "column_groups": [
+      "15-20",
+      "20-25",
+      "25-30",
+      "30-35",
+      "35-40",
+      "40-45",
+      "45-50",
+      "50-55",
+      "55-60",
+      "60 and over"
+    ]
+  },
+  "data": [
+    {
+      "name": "AGE PERIODS",
+      "rows": [
+        {
+          "age": "Gwalior Prant\u2014Gwalior",
+          "30-35": {
+            "persons": 30231,
+            "males": 16570,
+            "females": 13661
+          }
+        },
+        {
+          "age": "Susera",
+          "30-35": {
+            "persons": 423,
+            "males": 227,
+            "females": 196
+          }
+        },
+        {
+          "age": "Sikarwari",
+          "30-35": {
+            "persons": 16655,
+            "males": 9462,
+            "females": 7193
+          }
+        },
+        {
+          "age": "Sabalgarh",
+          "30-35": {
+            "persons": 10401,
+            "males": 5587,
+            "females": 4814
+          }
+        },
+        {
+          "age": "Tawarghar",
+          "30-35": {
+            "persons": 16882,
+            "males": 9751,
+            "females": 7131
+          }
+        },
+        {
+          "age": "Bhind",
+          "30-35": {
+            "persons": 19355,
+            "males": 10770,
+            "females": 8585
+          }
+        },
+        {
+          "age": "Bhander",
+          "30-35": {
+            "persons": 16263,
+            "males": 9313,
+            "females": 6950
+          }
+        },
+        {
+          "age": "Isagarh Prant\u2014Isagarh",
+          "30-35": {
+            "persons": 17519,
+            "males": 5426,
+            "females": 12093
+          }
+        },
+        {
+          "age": "Pichhor",
+          "30-35": {
+            "persons": 27815,
+            "males": 12222,
+            "females": 15593
+          }
+        },
+        {
+          "age": "Bajrangarh",
+          "30-35": {
+            "persons": 12366,
+            "males": 6434,
+            "females": 5932
+          }
+        },
+        {
+          "age": "Bhilsa",
+          "30-35": {
+            "persons": 9878,
+            "males": 5692,
+            "females": 4186
+          }
+        },
+        {
+          "age": "Narwar",
+          "30-35": {
+            "persons": 18600,
+            "males": 8586,
+            "females": 10014
+          }
+        },
+        {
+          "age": "Sheopur",
+          "30-35": {
+            "persons": 8940,
+            "males": 4579,
+            "females": 4361
+          }
+        },
+        {
+          "age": "Malwa Prant\u2014Nimach",
+          "30-35": {
+            "persons": 9873,
+            "males": 4987,
+            "females": 4886
+          }
+        },
+        {
+          "age": "Ujjain",
+          "30-35": {
+            "persons": 25264,
+            "males": 12537,
+            "females": 12727
+          }
+        },
+        {
+          "age": "Mandsaur",
+          "30-35": {
+            "persons": 8502,
+            "males": 5692,
+            "females": 2810
+          }
+        },
+        {
+          "age": "Agar",
+          "30-35": {
+            "persons": 12358,
+            "males": 7593,
+            "females": 4765
+          }
+        },
+        {
+          "age": "Shajapur",
+          "30-35": {
+            "persons": 23179,
+            "males": 12231,
+            "females": 10948
+          }
+        },
+        {
+          "age": "Amjhera",
+          "30-35": {
+            "persons": 8093,
+            "males": 5196,
+            "females": 2897
+          }
+        },
+        {
+          "age": "Total",
+          "30-35": {
+            "persons": 87269,
+            "males": 48236,
+            "females": 39033
+          }
+        },
+        {
+          "age": "Grand Total",
+          "30-35": {
+            "persons": 292597,
+            "males": 152855,
+            "females": 139742
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 87,
+    "passed": 84,
+    "failed": 3,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L2",
+        "section": "AGE PERIODS",
+        "group": "30-35",
+        "col": "persons",
+        "detail": "Total=87269 != sum(rows)=292597",
+        "diff": -205328
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS",
+        "group": "30-35",
+        "col": "males",
+        "detail": "Total=48236 != sum(rows)=152855",
+        "diff": -104619
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS",
+        "group": "30-35",
+        "col": "females",
+        "detail": "Total=39033 != sum(rows)=139742",
+        "diff": -100709
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v2_oneshot",
+    "decision": "rejected_constraints_failed",
+    "next_step": "review_or_escalate",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 4,
+      "initial_failures": 3,
+      "initial_total_checks": 87,
+      "final_failures": 3,
+      "age_warning_count": 0,
+      "extraction_mode": "per_group",
+      "extraction_attempt_failures": 32,
+      "targeted_recheck_used": true,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 0
+    }
+  }
+}

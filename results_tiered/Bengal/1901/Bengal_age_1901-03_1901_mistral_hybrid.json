@@ -1,0 +1,4373 @@
+{
+  "source_image": "age_tables/Bengal/1901/Bengal_age_1901-03.png",
+  "extraction_method": "mistral+partial_repair",
+  "mistral_calls": 1,
+  "gemini_calls": 0,
+  "api_calls": 1,
+  "cost_estimate": 0.002,
+  "elapsed_seconds": 24.0,
+  "metadata": {
+    "column_groups": [
+      "MONTH",
+      "POPULATION",
+      "UNMARRIED"
+    ],
+    "data_type": "absolute"
+  },
+  "data": [
+    {
+      "name": "HINDU ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 672544,
+            "males": 349260,
+            "females": 323284
+          },
+          "POPULATION": {
+            "persons": 164019,
+            "males": 54012,
+            "females": 172039
+          },
+          "UNMARRIED": {
+            "persons": 149271,
+            "males": 13202,
+            "females": 30001
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 52105,
+            "males": 35925,
+            "females": 47240
+          },
+          "POPULATION": {
+            "persons": 39702,
+            "males": 42165,
+            "females": 52
+          },
+          "UNMARRIED": {
+            "persons": 103,
+            "males": 4,
+            "females": 11
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 66857,
+            "males": 42409,
+            "females": 47220
+          },
+          "POPULATION": {
+            "persons": 43465,
+            "males": 36525,
+            "females": 126
+          },
+          "UNMARRIED": {
+            "persons": 6115,
+            "males": 9,
+            "females": 122
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 74880,
+            "males": 42163,
+            "females": 35723
+          },
+          "POPULATION": {
+            "persons": 36909,
+            "males": 4021,
+            "females": 7285
+          },
+          "UNMARRIED": {
+            "persons": 26142,
+            "males": 40,
+            "females": 1225
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 87400,
+            "males": 35899,
+            "females": 26903
+          },
+          "POPULATION": {
+            "persons": 29099,
+            "males": 323,
+            "females": 10469
+          },
+          "UNMARRIED": {
+            "persons": 28596,
+            "males": 105,
+            "females": 2825
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 217107,
+            "males": 118155,
+            "females": 98071
+          },
+          "POPULATION": {
+            "persons": 18107,
+            "males": 182,
+            "females": 99733
+          },
+          "UNMARRIED": {
+            "persons": 73145,
+            "males": 3578,
+            "females": 37745
+          }
+        }
+      ]
+    },
+    {
+      "name": "40-60 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 107422,
+            "males": 55190,
+            "females": 52073
+          },
+          "POPULATION": {
+            "persons": 1468,
+            "males": 49,
+            "females": 48987
+          },
+          "UNMARRIED": {
+            "persons": 15738,
+            "males": 3308,
+            "females": 37145
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 58070,
+            "males": 15544,
+            "females": 21125
+          },
+          "POPULATION": {
+            "persons": 249,
+            "males": 9,
+            "females": 11146
+          },
+          "UNMARRIED": {
+            "persons": 1872,
+            "males": 4047,
+            "females": 18254
+          }
+        }
+      ]
+    },
+    {
+      "name": "MUSALMAN ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 173123,
+            "males": 88499,
+            "females": 86624
+          },
+          "POPULATION": {
+            "persons": 43259,
+            "males": 26329,
+            "females": 43072
+          },
+          "UNMARRIED": {
+            "persons": 42782,
+            "males": 2163,
+            "females": 17480
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 22704,
+            "males": 11002,
+            "females": 11619
+          },
+          "POPULATION": {
+            "persons": 11569,
+            "males": 11000,
+            "females": 16
+          },
+          "UNMARRIED": {
+            "persons": 17,
+            "males": 1,
+            "females": 2
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 20320,
+            "males": 12901,
+            "females": 12220
+          },
+          "POPULATION": {
+            "persons": 15745,
+            "males": 11240,
+            "females": 155
+          },
+          "UNMARRIED": {
+            "persons": 103,
+            "males": 1,
+            "females": 15
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 20022,
+            "males": 11363,
+            "females": 9029
+          },
+          "POPULATION": {
+            "persons": 10969,
+            "males": 2121,
+            "females": 105
+          },
+          "UNMARRIED": {
+            "persons": 2303,
+            "males": 14,
+            "females": 230
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 16810,
+            "males": 7783,
+            "females": 8041
+          },
+          "POPULATION": {
+            "persons": 5044,
+            "males": 142,
+            "females": 2047
+          },
+          "UNMARRIED": {
+            "persons": 6461,
+            "males": 76,
+            "females": 305
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 55785,
+            "males": 28077,
+            "females": 27209
+          },
+          "POPULATION": {
+            "persons": 5111,
+            "males": 116,
+            "females": 24245
+          },
+          "UNMARRIED": {
+            "persons": 23462,
+            "males": 721,
+            "females": 4595
+          }
+        }
+      ]
+    },
+    {
+      "name": "40-60 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 28605,
+            "males": 18009,
+            "females": 12585
+          },
+          "POPULATION": {
+            "persons": 186,
+            "males": 11,
+            "females": 11095
+          },
+          "UNMARRIED": {
+            "persons": 4959,
+            "males": 749,
+            "females": 7715
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 6607,
+            "males": 3884,
+            "females": 4603
+          },
+          "POPULATION": {
+            "persons": 136,
+            "males": 6,
+            "females": 2127
+          },
+          "UNMARRIED": {
+            "persons": 468,
+            "males": 661,
+            "females": 4355
+          }
+        }
+      ]
+    },
+    {
+      "name": "1929 ALL RELIGIONS",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 2078329,
+            "males": 1092916,
+            "females": 983443
+          },
+          "POPULATION": {
+            "persons": 501144,
+            "males": 273898,
+            "females": 522397
+          },
+          "UNMARRIED": {
+            "persons": 483663,
+            "males": 39175,
+            "females": 325852
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 202600,
+            "males": 120340,
+            "females": 146350
+          },
+          "POPULATION": {
+            "persons": 138984,
+            "males": 144758,
+            "females": 946
+          },
+          "UNMARRIED": {
+            "persons": 1461,
+            "males": 10,
+            "females": 131
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 206538,
+            "males": 146747,
+            "females": 126239
+          },
+          "POPULATION": {
+            "persons": 142450,
+            "males": 168146,
+            "females": 2229
+          },
+          "UNMARRIED": {
+            "persons": 23874,
+            "males": 71,
+            "females": 1169
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 220458,
+            "males": 157356,
+            "females": 16254
+          },
+          "POPULATION": {
+            "persons": 114226,
+            "males": 17732,
+            "females": 11931
+          },
+          "UNMARRIED": {
+            "persons": 71716,
+            "males": 231,
+            "females": 2032
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 163542,
+            "males": 95178,
+            "females": 98934
+          },
+          "POPULATION": {
+            "persons": 52909,
+            "males": 2608,
+            "females": 36401
+          },
+          "UNMARRIED": {
+            "persons": 87145,
+            "males": 126,
+            "females": 8471
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 653360,
+            "males": 382465,
+            "females": 303244
+          },
+          "POPULATION": {
+            "persons": 40002,
+            "males": 2841,
+            "females": 382604
+          },
+          "UNMARRIED": {
+            "persons": 132100,
+            "males": 10034,
+            "females": 60146
+          }
+        }
+      ]
+    },
+    {
+      "name": "40-60 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 325812,
+            "males": 171987,
+            "females": 124925
+          },
+          "POPULATION": {
+            "persons": 3972,
+            "males": 370,
+            "females": 131804
+          },
+          "UNMARRIED": {
+            "persons": 58071,
+            "males": 16501,
+            "females": 50464
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 114243,
+            "males": 67109,
+            "females": 54163
+          },
+          "POPULATION": {
+            "persons": 828,
+            "males": 122,
+            "females": 47103
+          },
+          "UNMARRIED": {
+            "persons": 7655,
+            "males": 11309,
+            "females": 47225
+          }
+        }
+      ]
+    },
+    {
+      "name": "HINDU ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 1310121,
+            "males": 690728,
+            "females": 619423
+          },
+          "POPULATION": {
+            "persons": 316416,
+            "males": 167031,
+            "females": 343503
+          },
+          "UNMARRIED": {
+            "persons": 292886,
+            "males": 28809,
+            "females": 139486
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 176740,
+            "males": 83603,
+            "females": 93727
+          },
+          "POPULATION": {
+            "persons": 84854,
+            "males": 96961,
+            "females": 182
+          },
+          "UNMARRIED": {
+            "persons": 688,
+            "males": 7,
+            "females": 58
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 168832,
+            "males": 80782,
+            "females": 90155
+          },
+          "POPULATION": {
+            "persons": 84357,
+            "males": 92906,
+            "females": 1143
+          },
+          "UNMARRIED": {
+            "persons": 15837,
+            "males": 22,
+            "females": 857
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 134655,
+            "males": 77978,
+            "females": 56820
+          },
+          "POPULATION": {
+            "persons": 76828,
+            "males": 10091,
+            "females": 6749
+          },
+          "UNMARRIED": {
+            "persons": 42032,
+            "males": 281,
+            "females": 2246
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 122048,
+            "males": 61029,
+            "females": 60125
+          },
+          "POPULATION": {
+            "persons": 25245,
+            "males": 1004,
+            "females": 12112
+          },
+          "UNMARRIED": {
+            "persons": 13257,
+            "males": 485,
+            "females": 6275
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 413631,
+            "males": 223282,
+            "females": 198446
+          },
+          "POPULATION": {
+            "persons": 28209,
+            "males": 1308,
+            "females": 187642
+          },
+          "UNMARRIED": {
+            "persons": 137867,
+            "males": 7044,
+            "females": 31531
+          }
+        }
+      ]
+    },
+    {
+      "name": "40-60 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 214769,
+            "males": 110709,
+            "females": 104046
+          },
+          "POPULATION": {
+            "persons": 2086,
+            "males": 226,
+            "females": 66123
+          },
+          "UNMARRIED": {
+            "persons": 57852,
+            "males": 12729,
+            "females": 60953
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 77992,
+            "males": 41925,
+            "females": 36029
+          },
+          "POPULATION": {
+            "persons": 541,
+            "males": 86,
+            "females": 25872
+          },
+          "UNMARRIED": {
+            "persons": 4720,
+            "males": 6320,
+            "females": 37253
+          }
+        }
+      ]
+    },
+    {
+      "name": "1929 MUSALMAN ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 123260,
+            "males": 393792,
+            "females": 359468
+          },
+          "POPULATION": {
+            "persons": 179624,
+            "males": 103996,
+            "females": 204032
+          },
+          "UNMARRIED": {
+            "persons": 187992,
+            "males": 10136,
+            "females": 63477
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 103637,
+            "males": 58246,
+            "females": 52801
+          },
+          "POPULATION": {
+            "persons": 56178,
+            "males": 52778,
+            "females": 164
+          },
+          "UNMARRIED": {
+            "persons": 761,
+            "males": 3,
+            "females": 24
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 112807,
+            "males": 58902,
+            "females": 54804
+          },
+          "POPULATION": {
+            "persons": 57757,
+            "males": 43712,
+            "females": 1077
+          },
+          "UNMARRIED": {
+            "persons": 18035,
+            "males": 29,
+            "females": 703
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 84209,
+            "males": 48244,
+            "females": 35962
+          },
+          "POPULATION": {
+            "persons": 44877,
+            "males": 2125,
+            "females": 1112
+          },
+          "UNMARRIED": {
+            "persons": 27775,
+            "males": 84,
+            "females": 703
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 70260,
+            "males": 32501,
+            "females": 37825
+          },
+          "POPULATION": {
+            "persons": 18232,
+            "males": 1806,
+            "females": 14219
+          },
+          "UNMARRIED": {
+            "persons": 34406,
+            "males": 210,
+            "females": 1671
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 236742,
+            "males": 125443,
+            "females": 111206
+          },
+          "POPULATION": {
+            "persons": 9067,
+            "males": 714,
+            "females": 112469
+          },
+          "UNMARRIED": {
+            "persons": 96775,
+            "males": 3915,
+            "females": 27075
+          }
+        }
+      ]
+    },
+    {
+      "name": "40-60 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 108246,
+            "males": 50153,
+            "females": 46006
+          },
+          "POPULATION": {
+            "persons": 508,
+            "males": 119,
+            "females": 58469
+          },
+          "UNMARRIED": {
+            "persons": 18849,
+            "males": 2863,
+            "females": 26155
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 35881,
+            "males": 17943,
+            "females": 17898
+          },
+          "POPULATION": {
+            "persons": 252,
+            "males": 31,
+            "females": 14672
+          },
+          "UNMARRIED": {
+            "persons": 3284,
+            "males": 2063,
+            "females": 16362
+          }
+        }
+      ]
+    },
+    {
+      "name": "ALL RELIGIONS",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 847796,
+            "males": 562596,
+            "females": 285200
+          },
+          "POPULATION": {
+            "persons": 179562,
+            "males": 73366,
+            "females": 358336
+          },
+          "UNMARRIED": {
+            "persons": 131816,
+            "males": 24698,
+            "females": 80019
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 60355,
+            "males": 31404,
+            "females": 28961
+          },
+          "POPULATION": {
+            "persons": 31562,
+            "males": 28675,
+            "females": 100
+          },
+          "UNMARRIED": {
+            "persons": 211,
+            "males": 1,
+            "females": 25
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 60123,
+            "males": 31717,
+            "females": 28406
+          },
+          "POPULATION": {
+            "persons": 30630,
+            "males": 28247,
+            "females": 760
+          },
+          "UNMARRIED": {
+            "persons": 7983,
+            "males": 69,
+            "females": 178
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 64802,
+            "males": 30265,
+            "females": 24301
+          },
+          "POPULATION": {
+            "persons": 25844,
+            "males": 25671,
+            "females": 1016
+          },
+          "UNMARRIED": {
+            "persons": 12065,
+            "males": 239,
+            "females": 788
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 76536,
+            "males": 31964,
+            "females": 26574
+          },
+          "POPULATION": {
+            "persons": 31035,
+            "males": 8796,
+            "females": 19305
+          },
+          "UNMARRIED": {
+            "persons": 21486,
+            "males": 718,
+            "females": 8241
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 371961,
+            "males": 271855,
+            "females": 188125
+          },
+          "POPULATION": {
+            "persons": 44929,
+            "males": 2696,
+            "females": 218026
+          },
+          "UNMARRIED": {
+            "persons": 71082,
+            "males": 6103,
+            "females": 21537
+          }
+        }
+      ]
+    },
+    {
+      "name": "40-60 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 166285,
+            "males": 112069,
+            "females": 87186
+          },
+          "POPULATION": {
+            "persons": 4915,
+            "males": 916,
+            "females": 98546
+          },
+          "UNMARRIED": {
+            "persons": 21290,
+            "males": 18628,
+            "females": 24678
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 62612,
+            "males": 30872,
+            "females": 16740
+          },
+          "POPULATION": {
+            "persons": 781,
+            "males": 275,
+            "females": 17409
+          },
+          "UNMARRIED": {
+            "persons": 3665,
+            "males": 4602,
+            "females": 16469
+          }
+        }
+      ]
+    },
+    {
+      "name": "1929 HINDU ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 551462,
+            "males": 361176,
+            "females": 190286
+          },
+          "POPULATION": {
+            "persons": 112827,
+            "males": 43695,
+            "females": 231871
+          },
+          "UNMARRIED": {
+            "persons": 83246,
+            "males": 16448,
+            "females": 61342
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 40123,
+            "males": 21014,
+            "females": 18114
+          },
+          "POPULATION": {
+            "persons": 28003,
+            "males": 18069,
+            "females": 113
+          },
+          "UNMARRIED": {
+            "persons": 127,
+            "males": 1,
+            "females": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 36916,
+            "males": 20644,
+            "females": 18274
+          },
+          "POPULATION": {
+            "persons": 26050,
+            "males": 18705,
+            "females": 854
+          },
+          "UNMARRIED": {
+            "persons": 7428,
+            "males": 40,
+            "females": 158
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 40699,
+            "males": 25884,
+            "females": 16182
+          },
+          "POPULATION": {
+            "persons": 21995,
+            "males": 4865,
+            "females": 3570
+          },
+          "UNMARRIED": {
+            "persons": 6809,
+            "males": 120,
+            "females": 618
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 63641,
+            "males": 33225,
+            "females": 17813
+          },
+          "POPULATION": {
+            "persons": 26215,
+            "males": 869,
+            "females": 12290
+          },
+          "UNMARRIED": {
+            "persons": 19904,
+            "males": 313,
+            "females": 6546
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 242005,
+            "males": 178845,
+            "females": 98969
+          },
+          "POPULATION": {
+            "persons": 48119,
+            "males": 1542,
+            "females": 146361
+          },
+          "UNMARRIED": {
+            "persons": 44412,
+            "males": 8366,
+            "females": 21004
+          }
+        }
+      ]
+    },
+    {
+      "name": "40-60 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 112283,
+            "males": 75241,
+            "females": 50803
+          },
+          "POPULATION": {
+            "persons": 5241,
+            "males": 554,
+            "females": 25675
+          },
+          "UNMARRIED": {
+            "persons": 13917,
+            "males": 7428,
+            "females": 26401
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 26062,
+            "males": 13461,
+            "females": 13182
+          },
+          "POPULATION": {
+            "persons": 435,
+            "males": 178,
+            "females": 10032
+          },
+          "UNMARRIED": {
+            "persons": 1688,
+            "males": 2821,
+            "females": 11215
+          }
+        }
+      ]
+    },
+    {
+      "name": "MUSALMAN ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 249939,
+            "males": 174117,
+            "females": 75822
+          },
+          "POPULATION": {
+            "persons": 51366,
+            "males": 20276,
+            "females": 115783
+          },
+          "UNMARRIED": {
+            "persons": 39629,
+            "males": 6968,
+            "females": 15917
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 16428,
+            "males": 8563,
+            "females": 7583
+          },
+          "POPULATION": {
+            "persons": 8465,
+            "males": 7783,
+            "females": 78
+          },
+          "UNMARRIED": {
+            "persons": 65,
+            "males": 1,
+            "females": 10
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 17310,
+            "males": 9034,
+            "females": 8532
+          },
+          "POPULATION": {
+            "persons": 6909,
+            "males": 7469,
+            "females": 356
+          },
+          "UNMARRIED": {
+            "persons": 546,
+            "males": 20,
+            "females": 35
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 16950,
+            "males": 12914,
+            "females": 6936
+          },
+          "POPULATION": {
+            "persons": 10818,
+            "males": 2822,
+            "females": 1818
+          },
+          "UNMARRIED": {
+            "persons": 2985,
+            "males": 75,
+            "females": 145
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 22973,
+            "males": 16761,
+            "females": 6782
+          },
+          "POPULATION": {
+            "persons": 8517,
+            "males": 480,
+            "females": 8304
+          },
+          "UNMARRIED": {
+            "persons": 5871,
+            "males": 218,
+            "females": 421
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 110560,
+            "males": 84064,
+            "females": 58582
+          },
+          "POPULATION": {
+            "persons": 13342,
+            "males": 561,
+            "females": 68902
+          },
+          "UNMARRIED": {
+            "persons": 23325,
+            "males": 2650,
+            "females": 2015
+          }
+        },
+        {
+          "age": "40 and over",
+          "MONTH": {
+            "persons": 40953,
+            "males": 34718,
+            "females": 14143
+          },
+          "POPULATION": {
+            "persons": 951,
+            "males": 133,
+            "females": 31227
+          },
+          "UNMARRIED": {
+            "persons": 6783,
+            "males": 2531,
+            "females": 7327
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 13953,
+            "males": 8405,
+            "females": 5548
+          },
+          "POPULATION": {
+            "persons": 338,
+            "males": 33,
+            "females": 6730
+          },
+          "UNMARRIED": {
+            "persons": 1064,
+            "males": 1439,
+            "females": 4462
+          }
+        }
+      ]
+    },
+    {
+      "name": "1929 CHRISTIAN ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 37922,
+            "males": 21532,
+            "females": 16390
+          },
+          "POPULATION": {
+            "persons": 12912,
+            "males": 8220,
+            "females": 7532
+          },
+          "UNMARRIED": {
+            "persons": 5726,
+            "males": 1062,
+            "females": 2414
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 3106,
+            "males": 1616,
+            "females": 1295
+          },
+          "POPULATION": {
+            "persons": 1618,
+            "males": 1566,
+            "females": 0
+          },
+          "UNMARRIED": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 3306,
+            "males": 1816,
+            "females": 1757
+          },
+          "POPULATION": {
+            "persons": 1518,
+            "males": 1782,
+            "females": 0
+          },
+          "UNMARRIED": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 3976,
+            "males": 1794,
+            "females": 1862
+          },
+          "POPULATION": {
+            "persons": 1796,
+            "males": 1827,
+            "females": 0
+          },
+          "UNMARRIED": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "15-20 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 3776,
+            "males": 1817,
+            "females": 1869
+          },
+          "POPULATION": {
+            "persons": 1710,
+            "males": 1839,
+            "females": 0
+          },
+          "UNMARRIED": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 15606,
+            "males": 9349,
+            "females": 6749
+          },
+          "POPULATION": {
+            "persons": 8556,
+            "males": 1401,
+            "females": 4134
+          },
+          "UNMARRIED": {
+            "persons": 3653,
+            "males": 256,
+            "females": 407
+          }
+        }
+      ]
+    },
+    {
+      "name": "40-60 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 6521,
+            "males": 3848,
+            "females": 2633
+          },
+          "POPULATION": {
+            "persons": 389,
+            "males": 234,
+            "females": 2729
+          },
+          "UNMARRIED": {
+            "persons": 1205,
+            "males": 506,
+            "females": 1094
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 1701,
+            "males": 860,
+            "females": 981
+          },
+          "POPULATION": {
+            "persons": 98,
+            "males": 63,
+            "females": 359
+          },
+          "UNMARRIED": {
+            "persons": 237,
+            "males": 240,
+            "females": 831
+          }
+        }
+      ]
+    },
+    {
+      "name": "ALL RELIGIONS",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 1687491,
+            "males": 827509,
+            "females": 839588
+          },
+          "POPULATION": {
+            "persons": 433894,
+            "males": 238017,
+            "females": 382849
+          },
+          "UNMARRIED": {
+            "persons": 383003,
+            "males": 28766,
+            "females": 229363
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 230651,
+            "males": 118842,
+            "females": 117508
+          },
+          "POPULATION": {
+            "persons": 113467,
+            "males": 117314,
+            "females": 105
+          },
+          "UNMARRIED": {
+            "persons": 855,
+            "males": 11,
+            "females": 20
+          }
+        }
+      ]
+    },
+    {
+      "name": "5-10 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 241182,
+            "males": 128346,
+            "females": 116009
+          },
+          "POPULATION": {
+            "persons": 104467,
+            "males": 97529,
+            "females": 715
+          },
+          "UNMARRIED": {
+            "persons": 77646,
+            "males": 47,
+            "females": 718
+          }
+        }
+      ]
+    },
+    {
+      "name": "10-15 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 194505,
+            "males": 108927,
+            "females": 94578
+          },
+          "POPULATION": {
+            "persons": 102784,
+            "males": 16435,
+            "females": 4116
+          },
+          "UNMARRIED": {
+            "persons": 63570,
+            "males": 197,
+            "females": 2537
+          }
+        }
+      ]
+    },
+    {
+      "name": "20-40 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "MONTH": {
+            "persons": 139495,
+            "males": 66604,
+            "females": 76587
+          },
+          "POPULATION": {
+            "persons": 52502,
+            "males": 878,
+            "females": 11118
+          },
+          "UNMARRIED": {
+            "persons": 10805,
+            "males": 303,
+            "females": 6103
+          }
+        },
+        {
+          "age": "40 and over",
+          "MONTH": {
+            "persons": 404555,
+            "males": 238317,
+            "females": 236238
+          },
+          "POPULATION": {
+            "persons": 37609,
+            "males": 1594,
+            "females": 205377
+          },
+          "UNMARRIED": {
+            "persons": 182717,
+            "males": 8951,
+            "females": 67187
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 272415,
+            "males": 152313,
+            "females": 130269
+          },
+          "POPULATION": {
+            "persons": 3069,
+            "males": 371,
+            "females": 117109
+          },
+          "UNMARRIED": {
+            "persons": 38888,
+            "males": 18943,
+            "females": 90046
+          }
+        },
+        {
+          "age": "60 and over",
+          "MONTH": {
+            "persons": 94716,
+            "males": 38488,
+            "females": 55083
+          },
+          "POPULATION": {
+            "persons": 781,
+            "males": 78,
+            "females": 20156
+          },
+          "UNMARRIED": {
+            "persons": 4485,
+            "males": 9519,
+            "females": 56758
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 1050,
+    "passed": 733,
+    "failed": 317,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L1",
+        "section": "HINDU ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=1310121 != M=690728+F=619423=1310151",
+        "diff": -30
+      },
+      {
+        "level": "L1",
+        "section": "HINDU ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=316416 != M=167031+F=343503=510534",
+        "diff": -194118
+      },
+      {
+        "level": "L1",
+        "section": "HINDU ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=292886 != M=28809+F=139486=168295",
+        "diff": 124591
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=6521 != M=3848+F=2633=6481",
+        "diff": 40
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=389 != M=234+F=2729=2963",
+        "diff": -2574
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=1205 != M=506+F=1094=1600",
+        "diff": -395
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=1701 != M=860+F=981=1841",
+        "diff": -140
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=98 != M=63+F=359=422",
+        "diff": -324
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=237 != M=240+F=831=1071",
+        "diff": -834
+      },
+      {
+        "level": "L1",
+        "section": "MUSALMAN ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=51366 != M=20276+F=115783=136059",
+        "diff": -84693
+      },
+      {
+        "level": "L1",
+        "section": "MUSALMAN ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=39629 != M=6968+F=15917=22885",
+        "diff": 16744
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=6521 != M=3848+F=2633=6481",
+        "diff": 40
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=389 != M=234+F=2729=2963",
+        "diff": -2574
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=1205 != M=506+F=1094=1600",
+        "diff": -395
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=1701 != M=860+F=981=1841",
+        "diff": -140
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=98 != M=63+F=359=422",
+        "diff": -324
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=237 != M=240+F=831=1071",
+        "diff": -834
+      },
+      {
+        "level": "L1",
+        "section": "1929 ALL RELIGIONS",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=2078329 != M=1092916+F=983443=2076359",
+        "diff": 1970
+      },
+      {
+        "level": "L1",
+        "section": "1929 ALL RELIGIONS",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=501144 != M=273898+F=522397=796295",
+        "diff": -295151
+      },
+      {
+        "level": "L1",
+        "section": "1929 ALL RELIGIONS",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=483663 != M=39175+F=325852=365027",
+        "diff": 118636
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=6521 != M=3848+F=2633=6481",
+        "diff": 40
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=389 != M=234+F=2729=2963",
+        "diff": -2574
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=1205 != M=506+F=1094=1600",
+        "diff": -395
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=1701 != M=860+F=981=1841",
+        "diff": -140
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=98 != M=63+F=359=422",
+        "diff": -324
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=237 != M=240+F=831=1071",
+        "diff": -834
+      },
+      {
+        "level": "L1",
+        "section": "HINDU ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=1310121 != M=690728+F=619423=1310151",
+        "diff": -30
+      },
+      {
+        "level": "L1",
+        "section": "HINDU ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=316416 != M=167031+F=343503=510534",
+        "diff": -194118
+      },
+      {
+        "level": "L1",
+        "section": "HINDU ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=292886 != M=28809+F=139486=168295",
+        "diff": 124591
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=6521 != M=3848+F=2633=6481",
+        "diff": 40
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=389 != M=234+F=2729=2963",
+        "diff": -2574
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=1205 != M=506+F=1094=1600",
+        "diff": -395
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=1701 != M=860+F=981=1841",
+        "diff": -140
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=98 != M=63+F=359=422",
+        "diff": -324
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=237 != M=240+F=831=1071",
+        "diff": -834
+      },
+      {
+        "level": "L1",
+        "section": "1929 MUSALMAN ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=123260 != M=393792+F=359468=753260",
+        "diff": -630000
+      },
+      {
+        "level": "L1",
+        "section": "1929 MUSALMAN ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=179624 != M=103996+F=204032=308028",
+        "diff": -128404
+      },
+      {
+        "level": "L1",
+        "section": "1929 MUSALMAN ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=187992 != M=10136+F=63477=73613",
+        "diff": 114379
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=6521 != M=3848+F=2633=6481",
+        "diff": 40
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=389 != M=234+F=2729=2963",
+        "diff": -2574
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=1205 != M=506+F=1094=1600",
+        "diff": -395
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=1701 != M=860+F=981=1841",
+        "diff": -140
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=98 != M=63+F=359=422",
+        "diff": -324
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=237 != M=240+F=831=1071",
+        "diff": -834
+      },
+      {
+        "level": "L1",
+        "section": "ALL RELIGIONS",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=1687491 != M=827509+F=839588=1667097",
+        "diff": 20394
+      },
+      {
+        "level": "L1",
+        "section": "ALL RELIGIONS",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=433894 != M=238017+F=382849=620866",
+        "diff": -186972
+      },
+      {
+        "level": "L1",
+        "section": "ALL RELIGIONS",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=383003 != M=28766+F=229363=258129",
+        "diff": 124874
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=6521 != M=3848+F=2633=6481",
+        "diff": 40
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=389 != M=234+F=2729=2963",
+        "diff": -2574
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=1205 != M=506+F=1094=1600",
+        "diff": -395
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=1701 != M=860+F=981=1841",
+        "diff": -140
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=98 != M=63+F=359=422",
+        "diff": -324
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=237 != M=240+F=831=1071",
+        "diff": -834
+      },
+      {
+        "level": "L1",
+        "section": "1929 HINDU ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=112827 != M=43695+F=231871=275566",
+        "diff": -162739
+      },
+      {
+        "level": "L1",
+        "section": "1929 HINDU ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=83246 != M=16448+F=61342=77790",
+        "diff": 5456
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=6521 != M=3848+F=2633=6481",
+        "diff": 40
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=389 != M=234+F=2729=2963",
+        "diff": -2574
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=1205 != M=506+F=1094=1600",
+        "diff": -395
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=1701 != M=860+F=981=1841",
+        "diff": -140
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=98 != M=63+F=359=422",
+        "diff": -324
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=237 != M=240+F=831=1071",
+        "diff": -834
+      },
+      {
+        "level": "L1",
+        "section": "MUSALMAN ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=51366 != M=20276+F=115783=136059",
+        "diff": -84693
+      },
+      {
+        "level": "L1",
+        "section": "MUSALMAN ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=39629 != M=6968+F=15917=22885",
+        "diff": 16744
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "40 and over",
+        "group": "MONTH",
+        "detail": "P=404555 != M=238317+F=236238=474555",
+        "diff": -70000
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "40 and over",
+        "group": "POPULATION",
+        "detail": "P=37609 != M=1594+F=205377=206971",
+        "diff": -169362
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "40 and over",
+        "group": "UNMARRIED",
+        "detail": "P=182717 != M=8951+F=67187=76138",
+        "diff": 106579
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=94716 != M=38488+F=55083=93571",
+        "diff": 1145
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=781 != M=78+F=20156=20234",
+        "diff": -19453
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=4485 != M=9519+F=56758=66277",
+        "diff": -61792
+      },
+      {
+        "level": "L1",
+        "section": "1929 CHRISTIAN ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=12912 != M=8220+F=7532=15752",
+        "diff": -2840
+      },
+      {
+        "level": "L1",
+        "section": "1929 CHRISTIAN ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=5726 != M=1062+F=2414=3476",
+        "diff": 2250
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=3776 != M=1817+F=1869=3686",
+        "diff": 90
+      },
+      {
+        "level": "L1",
+        "section": "15-20 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=1710 != M=1839+F=0=1839",
+        "diff": -129
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=6521 != M=3848+F=2633=6481",
+        "diff": 40
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=389 != M=234+F=2729=2963",
+        "diff": -2574
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=1205 != M=506+F=1094=1600",
+        "diff": -395
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=1701 != M=860+F=981=1841",
+        "diff": -140
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=98 != M=63+F=359=422",
+        "diff": -324
+      },
+      {
+        "level": "L1",
+        "section": "40-60 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=237 != M=240+F=831=1071",
+        "diff": -834
+      },
+      {
+        "level": "L1",
+        "section": "ALL RELIGIONS",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=1687491 != M=827509+F=839588=1667097",
+        "diff": 20394
+      },
+      {
+        "level": "L1",
+        "section": "ALL RELIGIONS",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=433894 != M=238017+F=382849=620866",
+        "diff": -186972
+      },
+      {
+        "level": "L1",
+        "section": "ALL RELIGIONS",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=383003 != M=28766+F=229363=258129",
+        "diff": 124874
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=230651 != M=118842+F=117508=236350",
+        "diff": -5699
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=113467 != M=117314+F=105=117419",
+        "diff": -3952
+      },
+      {
+        "level": "L1",
+        "section": "0-5 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=855 != M=11+F=20=31",
+        "diff": 824
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=241182 != M=128346+F=116009=244355",
+        "diff": -3173
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=104467 != M=97529+F=715=98244",
+        "diff": 6223
+      },
+      {
+        "level": "L1",
+        "section": "5-10 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=77646 != M=47+F=718=765",
+        "diff": 76881
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=194505 != M=108927+F=94578=203505",
+        "diff": -9000
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=102784 != M=16435+F=4116=20551",
+        "diff": 82233
+      },
+      {
+        "level": "L1",
+        "section": "10-15 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=63570 != M=197+F=2537=2734",
+        "diff": 60836
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "MONTH",
+        "detail": "P=139495 != M=66604+F=76587=143191",
+        "diff": -3696
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "POPULATION",
+        "detail": "P=52502 != M=878+F=11118=11996",
+        "diff": 40506
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "Total",
+        "group": "UNMARRIED",
+        "detail": "P=10805 != M=303+F=6103=6406",
+        "diff": 4399
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "40 and over",
+        "group": "MONTH",
+        "detail": "P=404555 != M=238317+F=236238=474555",
+        "diff": -70000
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "40 and over",
+        "group": "POPULATION",
+        "detail": "P=37609 != M=1594+F=205377=206971",
+        "diff": -169362
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "40 and over",
+        "group": "UNMARRIED",
+        "detail": "P=182717 != M=8951+F=67187=76138",
+        "diff": 106579
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=94716 != M=38488+F=55083=93571",
+        "diff": 1145
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=781 != M=78+F=20156=20234",
+        "diff": -19453
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=4485 != M=9519+F=56758=66277",
+        "diff": -61792
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "MONTH",
+        "detail": "P=94716 != M=38488+F=55083=93571",
+        "diff": 1145
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "POPULATION",
+        "detail": "P=781 != M=78+F=20156=20234",
+        "diff": -19453
+      },
+      {
+        "level": "L1",
+        "section": "20-40 ...",
+        "age": "60 and over",
+        "group": "UNMARRIED",
+        "detail": "P=4485 != M=9519+F=56758=66277",
+        "diff": -61792
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=6521 != sum(rows)=1701",
+        "diff": 4820
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=3848 != sum(rows)=860",
+        "diff": 2988
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=2633 != sum(rows)=981",
+        "diff": 1652
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=389 != sum(rows)=98",
+        "diff": 291
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=234 != sum(rows)=63",
+        "diff": 171
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=2729 != sum(rows)=359",
+        "diff": 2370
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=1205 != sum(rows)=237",
+        "diff": 968
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=506 != sum(rows)=240",
+        "diff": 266
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=1094 != sum(rows)=831",
+        "diff": 263
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=6521 != sum(rows)=1701",
+        "diff": 4820
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=3848 != sum(rows)=860",
+        "diff": 2988
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=2633 != sum(rows)=981",
+        "diff": 1652
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=389 != sum(rows)=98",
+        "diff": 291
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=234 != sum(rows)=63",
+        "diff": 171
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=2729 != sum(rows)=359",
+        "diff": 2370
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=1205 != sum(rows)=237",
+        "diff": 968
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=506 != sum(rows)=240",
+        "diff": 266
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=1094 != sum(rows)=831",
+        "diff": 263
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=6521 != sum(rows)=1701",
+        "diff": 4820
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=3848 != sum(rows)=860",
+        "diff": 2988
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=2633 != sum(rows)=981",
+        "diff": 1652
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=389 != sum(rows)=98",
+        "diff": 291
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=234 != sum(rows)=63",
+        "diff": 171
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=2729 != sum(rows)=359",
+        "diff": 2370
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=1205 != sum(rows)=237",
+        "diff": 968
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=506 != sum(rows)=240",
+        "diff": 266
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=1094 != sum(rows)=831",
+        "diff": 263
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=6521 != sum(rows)=1701",
+        "diff": 4820
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=3848 != sum(rows)=860",
+        "diff": 2988
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=2633 != sum(rows)=981",
+        "diff": 1652
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=389 != sum(rows)=98",
+        "diff": 291
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=234 != sum(rows)=63",
+        "diff": 171
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=2729 != sum(rows)=359",
+        "diff": 2370
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=1205 != sum(rows)=237",
+        "diff": 968
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=506 != sum(rows)=240",
+        "diff": 266
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=1094 != sum(rows)=831",
+        "diff": 263
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=6521 != sum(rows)=1701",
+        "diff": 4820
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=3848 != sum(rows)=860",
+        "diff": 2988
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=2633 != sum(rows)=981",
+        "diff": 1652
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=389 != sum(rows)=98",
+        "diff": 291
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=234 != sum(rows)=63",
+        "diff": 171
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=2729 != sum(rows)=359",
+        "diff": 2370
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=1205 != sum(rows)=237",
+        "diff": 968
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=506 != sum(rows)=240",
+        "diff": 266
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=1094 != sum(rows)=831",
+        "diff": 263
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=6521 != sum(rows)=1701",
+        "diff": 4820
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=3848 != sum(rows)=860",
+        "diff": 2988
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=2633 != sum(rows)=981",
+        "diff": 1652
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=389 != sum(rows)=98",
+        "diff": 291
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=234 != sum(rows)=63",
+        "diff": 171
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=2729 != sum(rows)=359",
+        "diff": 2370
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=1205 != sum(rows)=237",
+        "diff": 968
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=506 != sum(rows)=240",
+        "diff": 266
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=1094 != sum(rows)=831",
+        "diff": 263
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=6521 != sum(rows)=1701",
+        "diff": 4820
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=3848 != sum(rows)=860",
+        "diff": 2988
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=2633 != sum(rows)=981",
+        "diff": 1652
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=389 != sum(rows)=98",
+        "diff": 291
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=234 != sum(rows)=63",
+        "diff": 171
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=2729 != sum(rows)=359",
+        "diff": 2370
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=1205 != sum(rows)=237",
+        "diff": 968
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=506 != sum(rows)=240",
+        "diff": 266
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=1094 != sum(rows)=831",
+        "diff": 263
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=139495 != sum(rows)=499271",
+        "diff": -359776
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=66604 != sum(rows)=276805",
+        "diff": -210201
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=76587 != sum(rows)=291321",
+        "diff": -214734
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=52502 != sum(rows)=38390",
+        "diff": 14112
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=878 != sum(rows)=1672",
+        "diff": -794
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=11118 != sum(rows)=225533",
+        "diff": -214415
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=10805 != sum(rows)=187202",
+        "diff": -176397
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=303 != sum(rows)=18470",
+        "diff": -18167
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=6103 != sum(rows)=123945",
+        "diff": -117842
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=6521 != sum(rows)=1701",
+        "diff": 4820
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=3848 != sum(rows)=860",
+        "diff": 2988
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=2633 != sum(rows)=981",
+        "diff": 1652
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=389 != sum(rows)=98",
+        "diff": 291
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=234 != sum(rows)=63",
+        "diff": 171
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=2729 != sum(rows)=359",
+        "diff": 2370
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=1205 != sum(rows)=237",
+        "diff": 968
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=506 != sum(rows)=240",
+        "diff": 266
+      },
+      {
+        "level": "L2",
+        "section": "40-60 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=1094 != sum(rows)=831",
+        "diff": 263
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "MONTH",
+        "col": "persons",
+        "detail": "Total=139495 != sum(rows)=499271",
+        "diff": -359776
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "MONTH",
+        "col": "males",
+        "detail": "Total=66604 != sum(rows)=276805",
+        "diff": -210201
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "MONTH",
+        "col": "females",
+        "detail": "Total=76587 != sum(rows)=291321",
+        "diff": -214734
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=52502 != sum(rows)=38390",
+        "diff": 14112
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=878 != sum(rows)=1672",
+        "diff": -794
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=11118 != sum(rows)=225533",
+        "diff": -214415
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=10805 != sum(rows)=187202",
+        "diff": -176397
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=303 != sum(rows)=18470",
+        "diff": -18167
+      },
+      {
+        "level": "L2",
+        "section": "20-40 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=6103 != sum(rows)=123945",
+        "diff": -117842
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_mistral_hybrid",
+    "policy": "mistral_hybrid",
+    "decision": "rejected_constraints_failed",
+    "next_step": "escalate_expensive",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 1,
+      "initial_failures": 317,
+      "initial_total_checks": 1050,
+      "final_failures": 317,
+      "age_warning_count": 0,
+      "extraction_mode": "mistral_markdown",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 1,
+      "repair_api_calls": 0,
+      "repair_phases_used": [
+        "A/B"
+      ],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 0,
+      "mistral_calls": 1,
+      "gemini_calls": 0,
+      "method": "mistral+partial_repair",
+      "inherited_acceptance": null
+    }
+  }
+}

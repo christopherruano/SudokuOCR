@@ -1,0 +1,898 @@
+{
+  "source_image": "age_tables/Gwalior/1901/Gwalior_age_1901-7.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 25,
+  "elapsed_seconds": 2094.4,
+  "metadata": {
+    "title": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+    "region": "Gwalior",
+    "year": 0,
+    "data_type": "absolute",
+    "row_axis_type": "district_rows",
+    "row_label_name": "DISTRICTS.",
+    "column_groups": [
+      "TOTAL WIDOWED.",
+      "0-1.",
+      "1-2.",
+      "2-3.",
+      "3-4.",
+      "4-5.",
+      "Total 0-5.",
+      "5-10.",
+      "10-15."
+    ]
+  },
+  "data": [
+    {
+      "name": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+      "rows": [
+        {
+          "age": "Gwalior Prant-Gwalior",
+          "2-3.": {
+            "persons": 26,
+            "males": 1,
+            "females": 25
+          },
+          "3-4.": {
+            "persons": 21,
+            "males": 1,
+            "females": 20
+          },
+          "4-5.": {
+            "persons": 29,
+            "males": 9,
+            "females": 20
+          },
+          "Total 0-5.": {
+            "persons": 116,
+            "males": 20,
+            "females": 96
+          },
+          "5-10.": {
+            "persons": 175,
+            "males": 27,
+            "females": 148
+          },
+          "10-15.": {
+            "persons": 488,
+            "males": 138,
+            "females": 350
+          }
+        },
+        {
+          "age": "Susera",
+          "2-3.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "4-5.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "Total 0-5.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-10.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "10-15.": {
+            "persons": 16,
+            "males": 2,
+            "females": 14
+          }
+        },
+        {
+          "age": "Sikarwari",
+          "2-3.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 2,
+            "males": 1,
+            "females": 1
+          },
+          "4-5.": {
+            "persons": 3,
+            "males": 1,
+            "females": 2
+          },
+          "Total 0-5.": {
+            "persons": 5,
+            "males": 2,
+            "females": 3
+          },
+          "5-10.": {
+            "persons": 37,
+            "males": 21,
+            "females": 16
+          },
+          "10-15.": {
+            "persons": 159,
+            "males": 92,
+            "females": 67
+          }
+        },
+        {
+          "age": "Sabalgarh",
+          "2-3.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "4-5.": {
+            "persons": 5,
+            "males": 5,
+            "females": 0
+          },
+          "Total 0-5.": {
+            "persons": 5,
+            "males": 5,
+            "females": 0
+          },
+          "5-10.": {
+            "persons": 21,
+            "males": 14,
+            "females": 7
+          },
+          "10-15.": {
+            "persons": 115,
+            "males": 48,
+            "females": 67
+          }
+        },
+        {
+          "age": "Tawarghar",
+          "2-3.": {
+            "persons": 10,
+            "males": 2,
+            "females": 8
+          },
+          "3-4.": {
+            "persons": 4,
+            "males": 3,
+            "females": 1
+          },
+          "4-5.": {
+            "persons": 23,
+            "males": 5,
+            "females": 18
+          },
+          "Total 0-5.": {
+            "persons": 67,
+            "males": 10,
+            "females": 57
+          },
+          "5-10.": {
+            "persons": 53,
+            "males": 13,
+            "females": 40
+          },
+          "10-15.": {
+            "persons": 236,
+            "males": 95,
+            "females": 141
+          }
+        },
+        {
+          "age": "Bhind",
+          "2-3.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          },
+          "4-5.": {
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          },
+          "Total 0-5.": {
+            "persons": 3,
+            "males": 0,
+            "females": 3
+          },
+          "5-10.": {
+            "persons": 54,
+            "males": 15,
+            "females": 39
+          },
+          "10-15.": {
+            "persons": 196,
+            "males": 54,
+            "females": 142
+          }
+        },
+        {
+          "age": "Bhander",
+          "2-3.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "4-5.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "Total 0-5.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "5-10.": {
+            "persons": 17,
+            "males": 8,
+            "females": 9
+          },
+          "10-15.": {
+            "persons": 190,
+            "males": 100,
+            "females": 90
+          }
+        },
+        {
+          "age": "Isagarh Prant-Isagarh",
+          "2-3.": {
+            "persons": 21,
+            "males": 0,
+            "females": 21
+          },
+          "3-4.": {
+            "persons": 15,
+            "males": 0,
+            "females": 15
+          },
+          "4-5.": {
+            "persons": 20,
+            "males": 2,
+            "females": 18
+          },
+          "Total 0-5.": {
+            "persons": 80,
+            "males": 2,
+            "females": 78
+          },
+          "5-10.": {
+            "persons": 153,
+            "males": 13,
+            "females": 140
+          },
+          "10-15.": {
+            "persons": 328,
+            "males": 109,
+            "females": 219
+          }
+        },
+        {
+          "age": "Pichhor",
+          "2-3.": {
+            "persons": 3,
+            "males": 3,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 2,
+            "males": 2,
+            "females": 0
+          },
+          "4-5.": {
+            "persons": 5,
+            "males": 2,
+            "females": 3
+          },
+          "Total 0-5.": {
+            "persons": 10,
+            "males": 7,
+            "females": 3
+          },
+          "5-10.": {
+            "persons": 132,
+            "males": 25,
+            "females": 107
+          },
+          "10-15.": {
+            "persons": 381,
+            "males": 61,
+            "females": 320
+          }
+        },
+        {
+          "age": "Bajrangarh",
+          "2-3.": {
+            "persons": 5,
+            "males": 4,
+            "females": 1
+          },
+          "3-4.": {
+            "persons": 2,
+            "males": 1,
+            "females": 1
+          },
+          "4-5.": {
+            "persons": 28,
+            "males": 12,
+            "females": 16
+          },
+          "Total 0-5.": {
+            "persons": 39,
+            "males": 18,
+            "females": 21
+          },
+          "5-10.": {
+            "persons": 90,
+            "males": 47,
+            "females": 43
+          },
+          "10-15.": {
+            "persons": 370,
+            "males": 207,
+            "females": 163
+          }
+        },
+        {
+          "age": "Bhilsa",
+          "2-3.": {
+            "persons": 6,
+            "males": 2,
+            "females": 4
+          },
+          "3-4.": {
+            "persons": 5,
+            "males": 5,
+            "females": 0
+          },
+          "4-5.": {
+            "persons": 13,
+            "males": 3,
+            "females": 10
+          },
+          "Total 0-5.": {
+            "persons": 24,
+            "males": 10,
+            "females": 14
+          },
+          "5-10.": {
+            "persons": 126,
+            "males": 34,
+            "females": 92
+          },
+          "10-15.": {
+            "persons": 581,
+            "males": 168,
+            "females": 413
+          }
+        },
+        {
+          "age": "Narwar",
+          "2-3.": {
+            "persons": 2,
+            "males": 1,
+            "females": 1
+          },
+          "3-4.": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          },
+          "4-5.": {
+            "persons": 5,
+            "males": 2,
+            "females": 3
+          },
+          "Total 0-5.": {
+            "persons": 8,
+            "males": 3,
+            "females": 5
+          },
+          "5-10.": {
+            "persons": 101,
+            "males": 27,
+            "females": 74
+          },
+          "10-15.": {
+            "persons": 264,
+            "males": 70,
+            "females": 194
+          }
+        },
+        {
+          "age": "Sheopur",
+          "2-3.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 3,
+            "males": 2,
+            "females": 1
+          },
+          "4-5.": {
+            "persons": 14,
+            "males": 9,
+            "females": 5
+          },
+          "Total 0-5.": {
+            "persons": 17,
+            "males": 11,
+            "females": 6
+          },
+          "5-10.": {
+            "persons": 38,
+            "males": 14,
+            "females": 24
+          },
+          "10-15.": {
+            "persons": 185,
+            "males": 85,
+            "females": 100
+          }
+        },
+        {
+          "age": "Malwa Prant-Nimach",
+          "2-3.": {
+            "persons": 4,
+            "males": 1,
+            "females": 3
+          },
+          "3-4.": {
+            "persons": 27,
+            "males": 7,
+            "females": 20
+          },
+          "4-5.": {
+            "persons": 15,
+            "males": 9,
+            "females": 6
+          },
+          "Total 0-5.": {
+            "persons": 47,
+            "males": 17,
+            "females": 30
+          },
+          "5-10.": {
+            "persons": 192,
+            "males": 118,
+            "females": 74
+          },
+          "10-15.": {
+            "persons": 566,
+            "males": 252,
+            "females": 314
+          }
+        },
+        {
+          "age": "Ujjain",
+          "2-3.": {
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          },
+          "3-4.": {
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          },
+          "4-5.": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          },
+          "Total 0-5.": {
+            "persons": 6,
+            "males": 0,
+            "females": 6
+          },
+          "5-10.": {
+            "persons": 140,
+            "males": 68,
+            "females": 72
+          },
+          "10-15.": {
+            "persons": 737,
+            "males": 248,
+            "females": 489
+          }
+        },
+        {
+          "age": "Mandsaur",
+          "2-3.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "4-5.": {
+            "persons": 7,
+            "males": 2,
+            "females": 5
+          },
+          "Total 0-5.": {
+            "persons": 7,
+            "males": 2,
+            "females": 5
+          },
+          "5-10.": {
+            "persons": 176,
+            "males": 52,
+            "females": 124
+          },
+          "10-15.": {
+            "persons": 776,
+            "males": 145,
+            "females": 631
+          }
+        },
+        {
+          "age": "Agar",
+          "2-3.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "3-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "4-5.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "Total 0-5.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "5-10.": {
+            "persons": 66,
+            "males": 4,
+            "females": 62
+          },
+          "10-15.": {
+            "persons": 641,
+            "males": 238,
+            "females": 403
+          }
+        },
+        {
+          "age": "Shajapur",
+          "2-3.": {
+            "persons": 6,
+            "males": 0,
+            "females": 6
+          },
+          "3-4.": {
+            "persons": 0,
+            "males": 0,
+            "females": 0
+          },
+          "4-5.": {
+            "persons": 3,
+            "males": 0,
+            "females": 3
+          },
+          "Total 0-5.": {
+            "persons": 15,
+            "males": 1,
+            "females": 14
+          },
+          "5-10.": {
+            "persons": 126,
+            "males": 60,
+            "females": 66
+          },
+          "10-15.": {
+            "persons": 658,
+            "males": 307,
+            "females": 351
+          }
+        },
+        {
+          "age": "Amjhera",
+          "2-3.": {
+            "persons": 3,
+            "males": 0,
+            "females": 3
+          },
+          "3-4.": {
+            "persons": 2,
+            "males": 0,
+            "females": 2
+          },
+          "4-5.": {
+            "persons": 1,
+            "males": 0,
+            "females": 1
+          },
+          "Total 0-5.": {
+            "persons": 9,
+            "males": 0,
+            "females": 9
+          },
+          "5-10.": {
+            "persons": 37,
+            "males": 10,
+            "females": 27
+          },
+          "10-15.": {
+            "persons": 107,
+            "males": 65,
+            "females": 42
+          }
+        },
+        {
+          "age": "Total",
+          "2-3.": {
+            "persons": 75,
+            "males": 1,
+            "females": 74
+          },
+          "3-4.": {
+            "persons": 31,
+            "males": 7,
+            "females": 24
+          },
+          "4-5.": {
+            "persons": 27,
+            "males": 11,
+            "females": 16
+          },
+          "Total 0-5.": {
+            "persons": 84,
+            "males": 20,
+            "females": 64
+          },
+          "5-10.": {
+            "persons": 737,
+            "males": 312,
+            "females": 425
+          },
+          "10-15.": {
+            "persons": 3485,
+            "males": 1255,
+            "females": 2230
+          }
+        },
+        {
+          "age": "Grand Total",
+          "2-3.": {
+            "persons": 88,
+            "males": 14,
+            "females": 74
+          },
+          "3-4.": {
+            "persons": 87,
+            "males": 22,
+            "females": 65
+          },
+          "4-5.": {
+            "persons": 175,
+            "males": 62,
+            "females": 113
+          },
+          "Total 0-5.": {
+            "persons": 459,
+            "males": 109,
+            "females": 350
+          },
+          "5-10.": {
+            "persons": 1735,
+            "males": 571,
+            "females": 1164
+          },
+          "10-15.": {
+            "persons": 6994,
+            "males": 2484,
+            "females": 4510
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 522,
+    "passed": 505,
+    "failed": 17,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "2-3.",
+        "col": "persons",
+        "detail": "Total=75 != sum(rows)=88",
+        "diff": -13
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "2-3.",
+        "col": "males",
+        "detail": "Total=1 != sum(rows)=14",
+        "diff": -13
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "3-4.",
+        "col": "persons",
+        "detail": "Total=31 != sum(rows)=87",
+        "diff": -56
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "3-4.",
+        "col": "males",
+        "detail": "Total=7 != sum(rows)=22",
+        "diff": -15
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "3-4.",
+        "col": "females",
+        "detail": "Total=24 != sum(rows)=65",
+        "diff": -41
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "4-5.",
+        "col": "persons",
+        "detail": "Total=27 != sum(rows)=175",
+        "diff": -148
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "4-5.",
+        "col": "males",
+        "detail": "Total=11 != sum(rows)=62",
+        "diff": -51
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "4-5.",
+        "col": "females",
+        "detail": "Total=16 != sum(rows)=113",
+        "diff": -97
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "Total 0-5.",
+        "col": "persons",
+        "detail": "Total=84 != sum(rows)=459",
+        "diff": -375
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "Total 0-5.",
+        "col": "males",
+        "detail": "Total=20 != sum(rows)=109",
+        "diff": -89
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "Total 0-5.",
+        "col": "females",
+        "detail": "Total=64 != sum(rows)=350",
+        "diff": -286
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "5-10.",
+        "col": "persons",
+        "detail": "Total=737 != sum(rows)=1735",
+        "diff": -998
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "5-10.",
+        "col": "males",
+        "detail": "Total=312 != sum(rows)=571",
+        "diff": -259
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "5-10.",
+        "col": "females",
+        "detail": "Total=425 != sum(rows)=1164",
+        "diff": -739
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "10-15.",
+        "col": "persons",
+        "detail": "Total=3485 != sum(rows)=6994",
+        "diff": -3509
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "10-15.",
+        "col": "males",
+        "detail": "Total=1255 != sum(rows)=2484",
+        "diff": -1229
+      },
+      {
+        "level": "L2",
+        "section": "Imperial Table No. VII. Age, Sex and Civil Condition. All Religions.",
+        "group": "10-15.",
+        "col": "females",
+        "detail": "Total=2230 != sum(rows)=4510",
+        "diff": -2280
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v2_oneshot",
+    "decision": "rejected_constraints_failed",
+    "next_step": "review_or_escalate",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 25,
+      "initial_failures": 18,
+      "initial_total_checks": 522,
+      "final_failures": 17,
+      "age_warning_count": 0,
+      "extraction_mode": "per_group",
+      "extraction_attempt_failures": 11,
+      "targeted_recheck_used": true,
+      "l1_repair_count": 0,
+      "repair_entries_count": 2,
+      "repair_api_calls": 16,
+      "repair_phases_used": [
+        "B"
+      ],
+      "cross_group_active": true,
+      "cross_section_active": false,
+      "subtotal_checks": 108
+    }
+  }
+}

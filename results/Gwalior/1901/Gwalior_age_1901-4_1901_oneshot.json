@@ -1,0 +1,1332 @@
+{
+  "source_image": "age_tables/Gwalior/1901/Gwalior_age_1901-4.png",
+  "extraction_method": "oneshot_3call",
+  "api_calls": 24,
+  "elapsed_seconds": 1499.4,
+  "metadata": {
+    "title": "AGE PERIODS.",
+    "region": "",
+    "year": 0,
+    "data_type": "absolute",
+    "row_axis_type": "district_rows",
+    "row_label_name": "DISTRICTS",
+    "column_groups": [
+      "15-20.",
+      "20-25.",
+      "25-30.",
+      "30-35.",
+      "35-40.",
+      "40-45.",
+      "45-50.",
+      "50-55.",
+      "55-60.",
+      "60 an over."
+    ]
+  },
+  "data": [
+    {
+      "name": "AGE PERIODS.",
+      "rows": [
+        {
+          "age": "Gwalior Prant-Gwalior",
+          "15-20.": {
+            "persons": 9511,
+            "males": 8599,
+            "females": 912
+          },
+          "20-25.": {
+            "persons": 5959,
+            "males": 5563,
+            "females": 396
+          },
+          "25-30.": {
+            "persons": 3453,
+            "males": 3145,
+            "females": 308
+          },
+          "30-35.": {
+            "persons": 2429,
+            "males": 2175,
+            "females": 254
+          },
+          "35-40.": {
+            "persons": 1169,
+            "males": 1000,
+            "females": 169
+          },
+          "40-45.": {
+            "persons": 1915,
+            "males": 1712,
+            "females": 203
+          },
+          "45-50.": {
+            "persons": 763,
+            "males": 698,
+            "females": 65
+          },
+          "50-55.": {
+            "persons": 634,
+            "males": 540,
+            "females": 94
+          },
+          "55-60.": {
+            "persons": 179,
+            "males": 159,
+            "females": 20
+          },
+          "60 an over.": {
+            "persons": 595,
+            "males": 395,
+            "females": 200
+          }
+        },
+        {
+          "age": "Susera",
+          "15-20.": {
+            "persons": 105,
+            "males": 100,
+            "females": 5
+          },
+          "20-25.": {
+            "persons": 63,
+            "males": 63,
+            "females": 0
+          },
+          "25-30.": {
+            "persons": 34,
+            "males": 33,
+            "females": 1
+          },
+          "30-35.": {
+            "persons": 15,
+            "males": 15,
+            "females": 0
+          },
+          "35-40.": {
+            "persons": 11,
+            "males": 9,
+            "females": 2
+          },
+          "40-45.": {
+            "persons": 15,
+            "males": 13,
+            "females": 2
+          },
+          "45-50.": {
+            "persons": 3,
+            "males": 3,
+            "females": 0
+          },
+          "50-55.": {
+            "persons": 4,
+            "males": 4,
+            "females": 0
+          },
+          "55-60.": {
+            "persons": 1,
+            "males": 1,
+            "females": 0
+          },
+          "60 an over.": {
+            "persons": 6,
+            "males": 6,
+            "females": 0
+          }
+        },
+        {
+          "age": "Sikarwari",
+          "15-20.": {
+            "persons": 5778,
+            "males": 5323,
+            "females": 455
+          },
+          "20-25.": {
+            "persons": 3792,
+            "males": 3591,
+            "females": 201
+          },
+          "25-30.": {
+            "persons": 2145,
+            "males": 2019,
+            "females": 126
+          },
+          "30-35.": {
+            "persons": 1637,
+            "males": 1527,
+            "females": 110
+          },
+          "35-40.": {
+            "persons": 641,
+            "males": 600,
+            "females": 41
+          },
+          "40-45.": {
+            "persons": 970,
+            "males": 892,
+            "females": 78
+          },
+          "45-50.": {
+            "persons": 285,
+            "males": 265,
+            "females": 20
+          },
+          "50-55.": {
+            "persons": 428,
+            "males": 402,
+            "females": 26
+          },
+          "55-60.": {
+            "persons": 87,
+            "males": 82,
+            "females": 5
+          },
+          "60 an over.": {
+            "persons": 674,
+            "males": 624,
+            "females": 50
+          }
+        },
+        {
+          "age": "Sabalgarh",
+          "15-20.": {
+            "persons": 3371,
+            "males": 3081,
+            "females": 290
+          },
+          "20-25.": {
+            "persons": 2067,
+            "males": 1919,
+            "females": 148
+          },
+          "25-30.": {
+            "persons": 1173,
+            "males": 1088,
+            "females": 85
+          },
+          "30-35.": {
+            "persons": 764,
+            "males": 680,
+            "females": 84
+          },
+          "35-40.": {
+            "persons": 526,
+            "males": 487,
+            "females": 39
+          },
+          "40-45.": {
+            "persons": 456,
+            "males": 415,
+            "females": 41
+          },
+          "45-50.": {
+            "persons": 189,
+            "males": 162,
+            "females": 27
+          },
+          "50-55.": {
+            "persons": 203,
+            "males": 182,
+            "females": 21
+          },
+          "55-60.": {
+            "persons": 663,
+            "males": 655,
+            "females": 8
+          },
+          "60 an over.": {
+            "persons": 3303,
+            "males": 3293,
+            "females": 10
+          }
+        },
+        {
+          "age": "Tawarghar",
+          "15-20.": {
+            "persons": 4455,
+            "males": 4297,
+            "females": 158
+          },
+          "20-25.": {
+            "persons": 3116,
+            "males": 2935,
+            "females": 181
+          },
+          "25-30.": {
+            "persons": 2288,
+            "males": 2185,
+            "females": 103
+          },
+          "30-35.": {
+            "persons": 1570,
+            "males": 1474,
+            "females": 96
+          },
+          "35-40.": {
+            "persons": 834,
+            "males": 800,
+            "females": 34
+          },
+          "40-45.": {
+            "persons": 993,
+            "males": 917,
+            "females": 76
+          },
+          "45-50.": {
+            "persons": 481,
+            "males": 456,
+            "females": 25
+          },
+          "50-55.": {
+            "persons": 548,
+            "males": 498,
+            "females": 50
+          },
+          "55-60.": {
+            "persons": 133,
+            "males": 111,
+            "females": 22
+          },
+          "60 an over.": {
+            "persons": 348,
+            "males": 320,
+            "females": 28
+          }
+        },
+        {
+          "age": "Bhind",
+          "15-20.": {
+            "persons": 6241,
+            "males": 5518,
+            "females": 723
+          },
+          "20-25.": {
+            "persons": 5750,
+            "males": 4949,
+            "females": 801
+          },
+          "25-30.": {
+            "persons": 2985,
+            "males": 2789,
+            "females": 196
+          },
+          "30-35.": {
+            "persons": 2621,
+            "males": 2503,
+            "females": 118
+          },
+          "35-40.": {
+            "persons": 1910,
+            "males": 1866,
+            "females": 44
+          },
+          "40-45.": {
+            "persons": 1497,
+            "males": 1351,
+            "females": 146
+          },
+          "45-50.": {
+            "persons": 741,
+            "males": 724,
+            "females": 17
+          },
+          "50-55.": {
+            "persons": 1187,
+            "males": 1152,
+            "females": 35
+          },
+          "55-60.": {
+            "persons": 285,
+            "males": 273,
+            "females": 12
+          },
+          "60 an over.": {
+            "persons": 268,
+            "males": 228,
+            "females": 40
+          }
+        },
+        {
+          "age": "Bhander",
+          "15-20.": {
+            "persons": 4429,
+            "males": 4160,
+            "females": 269
+          },
+          "20-25.": {
+            "persons": 2343,
+            "males": 2208,
+            "females": 135
+          },
+          "25-30.": {
+            "persons": 1485,
+            "males": 1379,
+            "females": 106
+          },
+          "30-35.": {
+            "persons": 2480,
+            "males": 2380,
+            "females": 100
+          },
+          "35-40.": {
+            "persons": 1084,
+            "males": 1046,
+            "females": 38
+          },
+          "40-45.": {
+            "persons": 584,
+            "males": 532,
+            "females": 52
+          },
+          "45-50.": {
+            "persons": 296,
+            "males": 280,
+            "females": 16
+          },
+          "50-55.": {
+            "persons": 222,
+            "males": 196,
+            "females": 26
+          },
+          "55-60.": {
+            "persons": 288,
+            "males": 205,
+            "females": 83
+          },
+          "60 an over.": {
+            "persons": 515,
+            "males": 487,
+            "females": 28
+          }
+        },
+        {
+          "age": "Isagarh Prant-Isagarh",
+          "15-20.": {
+            "persons": 3356,
+            "males": 2471,
+            "females": 885
+          },
+          "20-25.": {
+            "persons": 9555,
+            "males": 3248,
+            "females": 6307
+          },
+          "25-30.": {
+            "persons": 6377,
+            "males": 1137,
+            "females": 5240
+          },
+          "30-35.": {
+            "persons": 7154,
+            "males": 1011,
+            "females": 6143
+          },
+          "35-40.": {
+            "persons": 5619,
+            "males": 535,
+            "females": 5084
+          },
+          "40-45.": {
+            "persons": 1421,
+            "males": 484,
+            "females": 937
+          },
+          "45-50.": {
+            "persons": 211,
+            "males": 172,
+            "females": 39
+          },
+          "50-55.": {
+            "persons": 151,
+            "males": 122,
+            "females": 29
+          },
+          "60 an over.": {
+            "persons": 131,
+            "males": 78,
+            "females": 53
+          }
+        },
+        {
+          "age": "Pichhor",
+          "15-20.": {
+            "persons": 7076,
+            "males": 6391,
+            "females": 685
+          },
+          "20-25.": {
+            "persons": 12982,
+            "males": 4732,
+            "females": 8250
+          },
+          "25-30.": {
+            "persons": 11017,
+            "males": 2770,
+            "females": 8247
+          },
+          "30-35.": {
+            "persons": 10550,
+            "males": 2382,
+            "females": 8168
+          },
+          "35-40.": {
+            "persons": 10384,
+            "males": 2288,
+            "females": 8096
+          },
+          "40-45.": {
+            "persons": 1461,
+            "males": 1069,
+            "females": 392
+          },
+          "45-50.": {
+            "persons": 465,
+            "males": 424,
+            "females": 41
+          },
+          "50-55.": {
+            "persons": 610,
+            "males": 575,
+            "females": 35
+          },
+          "60 an over.": {
+            "persons": 1675,
+            "males": 1653,
+            "females": 22
+          }
+        },
+        {
+          "age": "Bajrangarh",
+          "15-20.": {
+            "persons": 3993,
+            "males": 3466,
+            "females": 527
+          },
+          "20-25.": {
+            "persons": 2099,
+            "males": 1815,
+            "females": 284
+          },
+          "25-30.": {
+            "persons": 1206,
+            "males": 1037,
+            "females": 169
+          },
+          "30-35.": {
+            "persons": 670,
+            "males": 589,
+            "females": 81
+          },
+          "35-40.": {
+            "persons": 345,
+            "males": 259,
+            "females": 86
+          },
+          "40-45.": {
+            "persons": 252,
+            "males": 204,
+            "females": 48
+          },
+          "45-50.": {
+            "persons": 171,
+            "males": 123,
+            "females": 48
+          },
+          "50-55.": {
+            "persons": 172,
+            "males": 130,
+            "females": 42
+          },
+          "60 an over.": {
+            "persons": 108,
+            "males": 74,
+            "females": 34
+          }
+        },
+        {
+          "age": "Bhilsa",
+          "15-20.": {
+            "persons": 4020,
+            "males": 3402,
+            "females": 618
+          },
+          "20-25.": {
+            "persons": 2175,
+            "males": 1941,
+            "females": 234
+          },
+          "25-30.": {
+            "persons": 1228,
+            "males": 1057,
+            "females": 171
+          },
+          "30-35.": {
+            "persons": 698,
+            "males": 570,
+            "females": 128
+          },
+          "35-40.": {
+            "persons": 335,
+            "males": 278,
+            "females": 57
+          },
+          "40-45.": {
+            "persons": 279,
+            "males": 225,
+            "females": 54
+          },
+          "45-50.": {
+            "persons": 97,
+            "males": 79,
+            "females": 18
+          },
+          "50-55.": {
+            "persons": 138,
+            "males": 109,
+            "females": 29
+          },
+          "60 an over.": {
+            "persons": 106,
+            "males": 73,
+            "females": 33
+          }
+        },
+        {
+          "age": "Narwar",
+          "15-20.": {
+            "persons": 5246,
+            "males": 4233,
+            "females": 1013
+          },
+          "20-25.": {
+            "persons": 7105,
+            "males": 1942,
+            "females": 5163
+          },
+          "25-30.": {
+            "persons": 6888,
+            "males": 1784,
+            "females": 5104
+          },
+          "30-35.": {
+            "persons": 3988,
+            "males": 897,
+            "females": 3091
+          },
+          "35-40.": {
+            "persons": 5457,
+            "males": 429,
+            "females": 5028
+          },
+          "40-45.": {
+            "persons": 471,
+            "males": 439,
+            "females": 32
+          },
+          "45-50.": {
+            "persons": 705,
+            "males": 196,
+            "females": 509
+          },
+          "50-55.": {
+            "persons": 350,
+            "males": 331,
+            "females": 19
+          },
+          "60 an over.": {
+            "persons": 140,
+            "males": 108,
+            "females": 32
+          }
+        },
+        {
+          "age": "Sheopur",
+          "15-20.": {
+            "persons": 3982,
+            "males": 2890,
+            "females": 1092
+          },
+          "20-25.": {
+            "persons": 1962,
+            "males": 1826,
+            "females": 136
+          },
+          "25-30.": {
+            "persons": 1333,
+            "males": 1072,
+            "females": 261
+          },
+          "30-35.": {
+            "persons": 931,
+            "males": 612,
+            "females": 319
+          },
+          "35-40.": {
+            "persons": 320,
+            "males": 260,
+            "females": 60
+          },
+          "40-45.": {
+            "persons": 498,
+            "males": 383,
+            "females": 115
+          },
+          "45-50.": {
+            "persons": 143,
+            "males": 118,
+            "females": 25
+          },
+          "50-55.": {
+            "persons": 216,
+            "males": 193,
+            "females": 23
+          },
+          "60 an over.": {
+            "persons": 113,
+            "males": 62,
+            "females": 51
+          }
+        },
+        {
+          "age": "Malwa Prant-Nimach",
+          "15-20.": {
+            "persons": 2986,
+            "males": 2353,
+            "females": 633
+          },
+          "20-25.": {
+            "persons": 1572,
+            "males": 1398,
+            "females": 174
+          },
+          "25-30.": {
+            "persons": 914,
+            "males": 841,
+            "females": 73
+          },
+          "30-35.": {
+            "persons": 659,
+            "males": 582,
+            "females": 77
+          },
+          "35-40.": {
+            "persons": 445,
+            "males": 410,
+            "females": 35
+          },
+          "40-45.": {
+            "persons": 279,
+            "males": 238,
+            "females": 41
+          },
+          "45-50.": {
+            "persons": 135,
+            "males": 117,
+            "females": 18
+          },
+          "50-55.": {
+            "persons": 170,
+            "males": 145,
+            "females": 25
+          },
+          "60 an over.": {
+            "persons": 111,
+            "males": 94,
+            "females": 17
+          }
+        },
+        {
+          "age": "Ujjain",
+          "15-20.": {
+            "persons": 6745,
+            "males": 5900,
+            "females": 845
+          },
+          "20-25.": {
+            "persons": 3857,
+            "males": 3484,
+            "females": 373
+          },
+          "25-30.": {
+            "persons": 1845,
+            "males": 1584,
+            "females": 261
+          },
+          "30-35.": {
+            "persons": 1533,
+            "males": 1347,
+            "females": 186
+          },
+          "35-40.": {
+            "persons": 749,
+            "males": 561,
+            "females": 188
+          },
+          "40-45.": {
+            "persons": 741,
+            "males": 590,
+            "females": 151
+          },
+          "45-50.": {
+            "persons": 239,
+            "males": 202,
+            "females": 37
+          },
+          "50-55.": {
+            "persons": 401,
+            "males": 312,
+            "females": 89
+          },
+          "60 an over.": {
+            "persons": 256,
+            "males": 222,
+            "females": 34
+          }
+        },
+        {
+          "age": "Mandsaur",
+          "15-20.": {
+            "persons": 3590,
+            "males": 3144,
+            "females": 446
+          },
+          "20-25.": {
+            "persons": 1923,
+            "males": 1684,
+            "females": 239
+          },
+          "25-30.": {
+            "persons": 824,
+            "males": 728,
+            "females": 96
+          },
+          "30-35.": {
+            "persons": 912,
+            "males": 812,
+            "females": 100
+          },
+          "35-40.": {
+            "persons": 520,
+            "males": 475,
+            "females": 45
+          },
+          "40-45.": {
+            "persons": 356,
+            "males": 300,
+            "females": 56
+          },
+          "45-50.": {
+            "persons": 96,
+            "males": 88,
+            "females": 8
+          },
+          "50-55.": {
+            "persons": 144,
+            "males": 130,
+            "females": 14
+          },
+          "60 an over.": {
+            "persons": 119,
+            "males": 93,
+            "females": 26
+          }
+        },
+        {
+          "age": "Agar",
+          "15-20.": {
+            "persons": 4809,
+            "males": 4418,
+            "females": 391
+          },
+          "20-25.": {
+            "persons": 3330,
+            "males": 3008,
+            "females": 322
+          },
+          "25-30.": {
+            "persons": 1545,
+            "males": 1319,
+            "females": 226
+          },
+          "30-35.": {
+            "persons": 1078,
+            "males": 971,
+            "females": 107
+          },
+          "35-40.": {
+            "persons": 555,
+            "males": 502,
+            "females": 53
+          },
+          "40-45.": {
+            "persons": 555,
+            "males": 482,
+            "females": 73
+          },
+          "45-50.": {
+            "persons": 246,
+            "males": 182,
+            "females": 64
+          },
+          "50-55.": {
+            "persons": 281,
+            "males": 202,
+            "females": 79
+          },
+          "60 an over.": {
+            "persons": 251,
+            "males": 123,
+            "females": 128
+          }
+        },
+        {
+          "age": "Shajapur",
+          "15-20.": {
+            "persons": 7361,
+            "males": 6519,
+            "females": 842
+          },
+          "20-25.": {
+            "persons": 4807,
+            "males": 4421,
+            "females": 386
+          },
+          "25-30.": {
+            "persons": 2484,
+            "males": 2187,
+            "females": 297
+          },
+          "30-35.": {
+            "persons": 2009,
+            "males": 1405,
+            "females": 604
+          },
+          "35-40.": {
+            "persons": 653,
+            "males": 536,
+            "females": 117
+          },
+          "40-45.": {
+            "persons": 617,
+            "males": 533,
+            "females": 84
+          },
+          "45-50.": {
+            "persons": 229,
+            "males": 187,
+            "females": 42
+          },
+          "50-55.": {
+            "persons": 296,
+            "males": 260,
+            "females": 36
+          },
+          "60 an over.": {
+            "persons": 222,
+            "males": 179,
+            "females": 43
+          }
+        },
+        {
+          "age": "Amjhera",
+          "15-20.": {
+            "persons": 3819,
+            "males": 2995,
+            "females": 824
+          },
+          "20-25.": {
+            "persons": 2399,
+            "males": 1855,
+            "females": 544
+          },
+          "25-30.": {
+            "persons": 1045,
+            "males": 783,
+            "females": 262
+          },
+          "30-35.": {
+            "persons": 754,
+            "males": 549,
+            "females": 205
+          },
+          "35-40.": {
+            "persons": 575,
+            "males": 224,
+            "females": 351
+          },
+          "40-45.": {
+            "persons": 343,
+            "males": 240,
+            "females": 103
+          },
+          "45-50.": {
+            "persons": 169,
+            "males": 69,
+            "females": 100
+          },
+          "50-55.": {
+            "persons": 150,
+            "males": 80,
+            "females": 70
+          },
+          "60 an over.": {
+            "persons": 74,
+            "males": 43,
+            "females": 31
+          }
+        },
+        {
+          "age": "Total",
+          "15-20.": {
+            "persons": 29310,
+            "males": 25329,
+            "females": 3981
+          },
+          "20-25.": {
+            "persons": 17888,
+            "males": 15850,
+            "females": 2038
+          },
+          "25-30.": {
+            "persons": 8657,
+            "males": 7442,
+            "females": 1215
+          },
+          "30-35.": {
+            "persons": 6945,
+            "males": 5666,
+            "females": 1279
+          },
+          "35-40.": {
+            "persons": 3497,
+            "males": 2708,
+            "females": 789
+          },
+          "40-45.": {
+            "persons": 2891,
+            "males": 2383,
+            "females": 508
+          },
+          "45-50.": {
+            "persons": 1114,
+            "males": 845,
+            "females": 269
+          },
+          "50-55.": {
+            "persons": 1442,
+            "males": 1129,
+            "females": 313
+          },
+          "55-60.": {
+            "persons": 1636,
+            "males": 1486,
+            "females": 150
+          },
+          "60 an over.": {
+            "persons": 1041,
+            "males": 754,
+            "females": 287
+          }
+        },
+        {
+          "age": "Grand Total",
+          "15-20.": {
+            "persons": 90873,
+            "males": 79260,
+            "females": 11613
+          },
+          "20-25.": {
+            "persons": 76856,
+            "males": 52582,
+            "females": 24274
+          },
+          "25-30.": {
+            "persons": 50269,
+            "males": 28937,
+            "females": 21332
+          },
+          "30-35.": {
+            "persons": 42455,
+            "males": 22481,
+            "females": 19974
+          },
+          "35-40.": {
+            "persons": 32132,
+            "males": 12565,
+            "females": 19567
+          },
+          "40-45.": {
+            "persons": 13703,
+            "males": 11019,
+            "females": 2684
+          },
+          "45-50.": {
+            "persons": 5664,
+            "males": 4545,
+            "females": 1119
+          },
+          "50-55.": {
+            "persons": 6305,
+            "males": 5563,
+            "females": 742
+          },
+          "60 an over.": {
+            "persons": 9023,
+            "males": 8155,
+            "females": 868
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 815,
+    "passed": 788,
+    "failed": 27,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "15-20.",
+        "col": "persons",
+        "detail": "grandtotal=90873 != sum(['total', 'amjhera'])=33129",
+        "diff": 57744
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "15-20.",
+        "col": "males",
+        "detail": "grandtotal=79260 != sum(['total', 'amjhera'])=28324",
+        "diff": 50936
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "15-20.",
+        "col": "females",
+        "detail": "grandtotal=11613 != sum(['total', 'amjhera'])=4805",
+        "diff": 6808
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "20-25.",
+        "col": "persons",
+        "detail": "grandtotal=76856 != sum(['total', 'amjhera'])=20287",
+        "diff": 56569
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "20-25.",
+        "col": "males",
+        "detail": "grandtotal=52582 != sum(['total', 'amjhera'])=17705",
+        "diff": 34877
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "20-25.",
+        "col": "females",
+        "detail": "grandtotal=24274 != sum(['total', 'amjhera'])=2582",
+        "diff": 21692
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "25-30.",
+        "col": "persons",
+        "detail": "grandtotal=50269 != sum(['total', 'amjhera'])=9702",
+        "diff": 40567
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "25-30.",
+        "col": "males",
+        "detail": "grandtotal=28937 != sum(['total', 'amjhera'])=8225",
+        "diff": 20712
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "25-30.",
+        "col": "females",
+        "detail": "grandtotal=21332 != sum(['total', 'amjhera'])=1477",
+        "diff": 19855
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "30-35.",
+        "col": "persons",
+        "detail": "grandtotal=42455 != sum(['total', 'amjhera'])=7699",
+        "diff": 34756
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "30-35.",
+        "col": "males",
+        "detail": "grandtotal=22481 != sum(['total', 'amjhera'])=6215",
+        "diff": 16266
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "30-35.",
+        "col": "females",
+        "detail": "grandtotal=19974 != sum(['total', 'amjhera'])=1484",
+        "diff": 18490
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "35-40.",
+        "col": "persons",
+        "detail": "grandtotal=32132 != sum(['total', 'amjhera'])=4072",
+        "diff": 28060
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "35-40.",
+        "col": "males",
+        "detail": "grandtotal=12565 != sum(['total', 'amjhera'])=2932",
+        "diff": 9633
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "35-40.",
+        "col": "females",
+        "detail": "grandtotal=19567 != sum(['total', 'amjhera'])=1140",
+        "diff": 18427
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "40-45.",
+        "col": "persons",
+        "detail": "grandtotal=13703 != sum(['total', 'amjhera'])=3234",
+        "diff": 10469
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "40-45.",
+        "col": "males",
+        "detail": "grandtotal=11019 != sum(['total', 'amjhera'])=2623",
+        "diff": 8396
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "40-45.",
+        "col": "females",
+        "detail": "grandtotal=2684 != sum(['total', 'amjhera'])=611",
+        "diff": 2073
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "45-50.",
+        "col": "persons",
+        "detail": "grandtotal=5664 != sum(['total', 'amjhera'])=1283",
+        "diff": 4381
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "45-50.",
+        "col": "males",
+        "detail": "grandtotal=4545 != sum(['total', 'amjhera'])=914",
+        "diff": 3631
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "45-50.",
+        "col": "females",
+        "detail": "grandtotal=1119 != sum(['total', 'amjhera'])=369",
+        "diff": 750
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "50-55.",
+        "col": "persons",
+        "detail": "grandtotal=6305 != sum(['total', 'amjhera'])=1592",
+        "diff": 4713
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "50-55.",
+        "col": "males",
+        "detail": "grandtotal=5563 != sum(['total', 'amjhera'])=1209",
+        "diff": 4354
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "50-55.",
+        "col": "females",
+        "detail": "grandtotal=742 != sum(['total', 'amjhera'])=383",
+        "diff": 359
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "60 an over.",
+        "col": "persons",
+        "detail": "grandtotal=9023 != sum(['total', 'amjhera'])=1115",
+        "diff": 7908
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "60 an over.",
+        "col": "males",
+        "detail": "grandtotal=8155 != sum(['total', 'amjhera'])=797",
+        "diff": 7358
+      },
+      {
+        "level": "L2",
+        "section": "AGE PERIODS.",
+        "group": "60 an over.",
+        "col": "females",
+        "detail": "grandtotal=868 != sum(['total', 'amjhera'])=318",
+        "diff": 550
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v2_oneshot",
+    "decision": "rejected_constraints_failed",
+    "next_step": "review_or_escalate",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 24,
+      "initial_failures": 27,
+      "initial_total_checks": 815,
+      "final_failures": 27,
+      "age_warning_count": 0,
+      "extraction_mode": "per_group",
+      "extraction_attempt_failures": 1,
+      "targeted_recheck_used": true,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 11,
+      "repair_phases_used": [],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 30
+    }
+  }
+}

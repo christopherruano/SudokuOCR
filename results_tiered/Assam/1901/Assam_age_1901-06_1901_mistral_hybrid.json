@@ -1,0 +1,654 @@
+{
+  "source_image": "age_tables/Assam/1901/Assam_age_1901-06.png",
+  "extraction_method": "mistral+partial_repair",
+  "mistral_calls": 1,
+  "gemini_calls": 0,
+  "api_calls": 1,
+  "cost_estimate": 0.002,
+  "elapsed_seconds": 11.3,
+  "metadata": {
+    "column_groups": [
+      "POPULATION",
+      "UNMARRIED",
+      "MARRIED",
+      "WIDOWED"
+    ],
+    "data_type": "absolute"
+  },
+  "data": [
+    {
+      "name": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 9,
+            "males": null,
+            "females": null
+          },
+          "UNMARRIED": {
+            "persons": null,
+            "males": null,
+            "females": null
+          },
+          "MARRIED": {
+            "persons": null,
+            "males": null,
+            "females": null
+          },
+          "WIDOWED": {
+            "persons": null,
+            "males": null,
+            "females": null
+          }
+        },
+        {
+          "age": "5-10",
+          "POPULATION": {
+            "persons": 97031,
+            "males": 49666,
+            "females": 47365
+          },
+          "UNMARRIED": {
+            "persons": 95522,
+            "males": 49335,
+            "females": 46187
+          },
+          "MARRIED": {
+            "persons": 1424,
+            "males": 320,
+            "females": 1104
+          },
+          "WIDOWED": {
+            "persons": 85,
+            "males": 11,
+            "females": 74
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION": {
+            "persons": 60372,
+            "males": 33346,
+            "females": 27026
+          },
+          "UNMARRIED": {
+            "persons": 53301,
+            "males": 32284,
+            "females": 21017
+          },
+          "MARRIED": {
+            "persons": 6769,
+            "males": 1008,
+            "females": 5761
+          },
+          "WIDOWED": {
+            "persons": 302,
+            "males": 54,
+            "females": 248
+          }
+        },
+        {
+          "age": "15-20",
+          "POPULATION": {
+            "persons": 41021,
+            "males": 19751,
+            "females": 21270
+          },
+          "UNMARRIED": {
+            "persons": 22127,
+            "males": 16890,
+            "females": 5237
+          },
+          "MARRIED": {
+            "persons": 17882,
+            "males": 2705,
+            "females": 15177
+          },
+          "WIDOWED": {
+            "persons": 1012,
+            "males": 156,
+            "females": 856
+          }
+        },
+        {
+          "age": "20-40",
+          "POPULATION": {
+            "persons": 179676,
+            "males": 84975,
+            "females": 94701
+          },
+          "UNMARRIED": {
+            "persons": 23620,
+            "males": 20923,
+            "females": 2697
+          },
+          "MARRIED": {
+            "persons": 136731,
+            "males": 60144,
+            "females": 76587
+          },
+          "WIDOWED": {
+            "persons": 19325,
+            "males": 3908,
+            "females": 15417
+          }
+        },
+        {
+          "age": "40-60",
+          "POPULATION": {
+            "persons": 87427,
+            "males": 45413,
+            "females": 42014
+          },
+          "UNMARRIED": {
+            "persons": 2235,
+            "males": 1614,
+            "females": 621
+          },
+          "MARRIED": {
+            "persons": 53488,
+            "males": 37782,
+            "females": 15706
+          },
+          "WIDOWED": {
+            "persons": 31704,
+            "males": 6017,
+            "females": 25687
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION": {
+            "persons": 22701,
+            "males": 10265,
+            "females": 12436
+          },
+          "UNMARRIED": {
+            "persons": 303,
+            "males": 211,
+            "females": 92
+          },
+          "MARRIED": {
+            "persons": 7898,
+            "males": 6894,
+            "females": 1004
+          },
+          "WIDOWED": {
+            "persons": 14500,
+            "males": 3160,
+            "females": 11340
+          }
+        },
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 589187,
+            "males": 292869,
+            "females": 296318
+          },
+          "UNMARRIED": {
+            "persons": 297997,
+            "males": 170692,
+            "females": 127305
+          },
+          "MARRIED": {
+            "persons": 224253,
+            "males": 108871,
+            "females": 115352
+          },
+          "WIDOWED": {
+            "persons": 66937,
+            "males": 13306,
+            "females": 53631
+          }
+        }
+      ]
+    },
+    {
+      "name": "0-5 65,374 32,248 33,126 65,319 32,242 33,077 46 6 40 9 ...",
+      "rows": [
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 9,
+            "males": null,
+            "females": null
+          },
+          "UNMARRIED": {
+            "persons": null,
+            "males": null,
+            "females": null
+          },
+          "MARRIED": {
+            "persons": null,
+            "males": null,
+            "females": null
+          },
+          "WIDOWED": {
+            "persons": null,
+            "males": null,
+            "females": null
+          }
+        },
+        {
+          "age": "5-10",
+          "POPULATION": {
+            "persons": 65887,
+            "males": 33774,
+            "females": 32113
+          },
+          "UNMARRIED": {
+            "persons": 64758,
+            "males": 33551,
+            "females": 31207
+          },
+          "MARRIED": {
+            "persons": 1064,
+            "males": 218,
+            "females": 846
+          },
+          "WIDOWED": {
+            "persons": 65,
+            "males": 5,
+            "females": 60
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION": {
+            "persons": 42480,
+            "males": 23846,
+            "females": 18634
+          },
+          "UNMARRIED": {
+            "persons": 37469,
+            "males": 23288,
+            "females": 14181
+          },
+          "MARRIED": {
+            "persons": 4777,
+            "males": 528,
+            "females": 4249
+          },
+          "WIDOWED": {
+            "persons": 234,
+            "males": 30,
+            "females": 204
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hindu Hindu 15-20",
+      "rows": [
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 28974,
+            "males": 14540,
+            "females": 14434
+          },
+          "UNMARRIED": {
+            "persons": 16288,
+            "males": 13000,
+            "females": 3288
+          },
+          "MARRIED": {
+            "persons": 11937,
+            "males": 1439,
+            "females": 10498
+          },
+          "WIDOWED": {
+            "persons": 749,
+            "males": 101,
+            "females": 648
+          }
+        },
+        {
+          "age": "20-40",
+          "POPULATION": {
+            "persons": 125702,
+            "males": 60030,
+            "females": 65672
+          },
+          "UNMARRIED": {
+            "persons": 18291,
+            "males": 16675,
+            "females": 1616
+          },
+          "MARRIED": {
+            "persons": 92327,
+            "males": 40584,
+            "females": 51743
+          },
+          "WIDOWED": {
+            "persons": 15084,
+            "males": 2771,
+            "females": 12313
+          }
+        },
+        {
+          "age": "40-60",
+          "POPULATION": {
+            "persons": 62242,
+            "males": 32017,
+            "females": 30225
+          },
+          "UNMARRIED": {
+            "persons": 1788,
+            "males": 1317,
+            "females": 471
+          },
+          "MARRIED": {
+            "persons": 36126,
+            "males": 26240,
+            "females": 9886
+          },
+          "WIDOWED": {
+            "persons": 24328,
+            "males": 4460,
+            "females": 19868
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION": {
+            "persons": 16704,
+            "males": 7499,
+            "females": 9205
+          },
+          "UNMARRIED": {
+            "persons": 193,
+            "males": 130,
+            "females": 63
+          },
+          "MARRIED": {
+            "persons": 5562,
+            "males": 4942,
+            "females": 620
+          },
+          "WIDOWED": {
+            "persons": 10949,
+            "males": 2427,
+            "females": 8522
+          }
+        },
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 407363,
+            "males": 203954,
+            "females": 203409
+          },
+          "UNMARRIED": {
+            "persons": 204106,
+            "males": 120203,
+            "females": 83903
+          },
+          "MARRIED": {
+            "persons": 151839,
+            "males": 73957,
+            "females": 77882
+          },
+          "WIDOWED": {
+            "persons": 51418,
+            "males": 9794,
+            "females": 41624
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 293,
+    "passed": 267,
+    "failed": 26,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L1",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "age": "Total",
+        "group": "MARRIED",
+        "detail": "P=224253 != M=108871+F=115352=224223",
+        "diff": 30
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=589187 != sum(rows)=488228",
+        "diff": 100959
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=292869 != sum(rows)=243416",
+        "diff": 49453
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=296318 != sum(rows)=244812",
+        "diff": 51506
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=297997 != sum(rows)=197108",
+        "diff": 100889
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=170692 != sum(rows)=121257",
+        "diff": 49435
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=127305 != sum(rows)=75851",
+        "diff": 51454
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "MARRIED",
+        "col": "persons",
+        "detail": "Total=224253 != sum(rows)=224192",
+        "diff": 61
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "MARRIED",
+        "col": "males",
+        "detail": "Total=108871 != sum(rows)=108853",
+        "diff": 18
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "MARRIED",
+        "col": "females",
+        "detail": "Total=115352 != sum(rows)=115339",
+        "diff": 13
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "WIDOWED",
+        "col": "persons",
+        "detail": "Total=66937 != sum(rows)=66928",
+        "diff": 9
+      },
+      {
+        "level": "L2",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "group": "WIDOWED",
+        "col": "females",
+        "detail": "Total=53631 != sum(rows)=53622",
+        "diff": 9
+      },
+      {
+        "level": "L2",
+        "section": "0-5 65,374 32,248 33,126 65,319 32,242 33,077 46 6 40 9 ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=9 != sum(rows)=108367",
+        "diff": -108358
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=407363 != sum(rows)=204648",
+        "diff": 202715
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=203954 != sum(rows)=99546",
+        "diff": 104408
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=203409 != sum(rows)=105102",
+        "diff": 98307
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=204106 != sum(rows)=20272",
+        "diff": 183834
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=120203 != sum(rows)=18122",
+        "diff": 102081
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=83903 != sum(rows)=2150",
+        "diff": 81753
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "MARRIED",
+        "col": "persons",
+        "detail": "Total=151839 != sum(rows)=134015",
+        "diff": 17824
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "MARRIED",
+        "col": "males",
+        "detail": "Total=73957 != sum(rows)=71766",
+        "diff": 2191
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "MARRIED",
+        "col": "females",
+        "detail": "Total=77882 != sum(rows)=62249",
+        "diff": 15633
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "WIDOWED",
+        "col": "persons",
+        "detail": "Total=51418 != sum(rows)=50361",
+        "diff": 1057
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "WIDOWED",
+        "col": "males",
+        "detail": "Total=9794 != sum(rows)=9658",
+        "diff": 136
+      },
+      {
+        "level": "L2",
+        "section": "Hindu Hindu 15-20",
+        "group": "WIDOWED",
+        "col": "females",
+        "detail": "Total=41624 != sum(rows)=40703",
+        "diff": 921
+      },
+      {
+        "level": "L3",
+        "section": "Kamrup All Religions. 0-5 100,959 49,453 51,506 100,889 49,435 51,454 61 18 43 9 ...",
+        "age": "Total",
+        "col": "females",
+        "detail": "POPULATION.females=296318 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=296288",
+        "diff": 30
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_mistral_hybrid",
+    "policy": "mistral_hybrid",
+    "decision": "rejected_constraints_failed",
+    "next_step": "escalate_expensive",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 1,
+      "initial_failures": 26,
+      "initial_total_checks": 293,
+      "final_failures": 26,
+      "age_warning_count": 0,
+      "extraction_mode": "mistral_markdown",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 2,
+      "repair_api_calls": 0,
+      "repair_phases_used": [
+        "A/B"
+      ],
+      "cross_group_active": true,
+      "cross_section_active": false,
+      "subtotal_checks": 0,
+      "mistral_calls": 1,
+      "gemini_calls": 0,
+      "method": "mistral+partial_repair",
+      "inherited_acceptance": null
+    }
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "source_image": "/Users/chrisruano/Research/HEB_91r/age_tables/Hyderabad/Hyderabad_state_summary_age_1901.png",
+  "source_image": "age_tables/Hyderabad/Hyderabad_state_summary_age_1901.png",
   "extraction_method": "oneshot_3call",
-  "api_calls": 5,
-  "elapsed_seconds": 575.2,
+  "api_calls": 2,
+  "elapsed_seconds": 271.7,
   "metadata": {
-    "title": "TABLE VII. AGE, SEX AND CIVIL CONDITION. A-All Religions.",
-    "region": "",
-    "year": 0,
+    "title": "TABLE VII. AGE, SEX AND CIVIL CONDITION. A\u2014All Religions.",
+    "region": null,
+    "year": null,
     "data_type": "absolute",
     "column_groups": [
       "POPULATION.",
@@ -17,7 +17,7 @@
   },
   "data": [
     {
-      "name": "TABLE VII. AGE, SEX AND CIVIL CONDITION. A-All Religions.",
+      "name": "A\u2014All Religions.",
       "rows": [
         {
           "age": "0-1",
@@ -488,5 +488,6 @@
     "failed": 0,
     "all_passed": true,
     "failures": []
-  }
+  },
+  "age_ordering_warnings": []
 }

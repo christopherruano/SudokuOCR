@@ -1,0 +1,692 @@
+{
+  "source_image": "age_tables/Assam/1891/Assam_age_1891-4.png",
+  "extraction_method": "mistral_only",
+  "mistral_calls": 1,
+  "gemini_calls": 0,
+  "api_calls": 1,
+  "cost_estimate": 0.002,
+  "elapsed_seconds": 9.5,
+  "metadata": {
+    "column_groups": [
+      "30-34",
+      "35-39",
+      "40-44",
+      "45-49",
+      "50-54",
+      "55-59",
+      "60 AND OVER"
+    ],
+    "data_type": "absolute"
+  },
+  "data": [
+    {
+      "name": "Cachar Plains",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 15991,
+            "females": 12482
+          },
+          "35-39": {
+            "males": 13377,
+            "females": 6717
+          },
+          "40-44": {
+            "males": 10913,
+            "females": 5170
+          },
+          "45-49": {
+            "males": 6067,
+            "females": 1649
+          },
+          "50-54": {
+            "males": 5793,
+            "females": 1737
+          },
+          "55-59": {
+            "males": 1872,
+            "females": 389
+          },
+          "60 AND OVER": {
+            "males": 5622,
+            "females": 909
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sylhet",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 75510,
+            "females": 58172
+          },
+          "35-39": {
+            "males": 62058,
+            "females": 27137
+          },
+          "40-44": {
+            "males": 55462,
+            "females": 22363
+          },
+          "45-49": {
+            "males": 31332,
+            "females": 6954
+          },
+          "50-54": {
+            "males": 33260,
+            "females": 7085
+          },
+          "55-59": {
+            "males": 10283,
+            "females": 1203
+          },
+          "60 AND OVER": {
+            "males": 41346,
+            "females": 3515
+          }
+        },
+        {
+          "age": "Total Surma Valley",
+          "30-34": {
+            "males": 91501,
+            "females": 70654,
+            "persons": 162155
+          },
+          "35-39": {
+            "males": 75435,
+            "females": 33854,
+            "persons": 109289
+          },
+          "40-44": {
+            "males": 66375,
+            "females": 27533,
+            "persons": 93908
+          },
+          "45-49": {
+            "males": 37399,
+            "females": 8603,
+            "persons": 46002
+          },
+          "50-54": {
+            "males": 39053,
+            "females": 8822,
+            "persons": 47875
+          },
+          "55-59": {
+            "males": 12155,
+            "females": 1592,
+            "persons": 13747
+          },
+          "60 AND OVER": {
+            "males": 46968,
+            "females": 4424,
+            "persons": 51392
+          }
+        }
+      ]
+    },
+    {
+      "name": "Goalpara",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 16932,
+            "females": 12459
+          },
+          "35-39": {
+            "males": 14591,
+            "females": 6671
+          },
+          "40-44": {
+            "males": 13650,
+            "females": 6082
+          },
+          "45-49": {
+            "males": 6699,
+            "females": 2059
+          },
+          "50-54": {
+            "males": 8166,
+            "females": 2417
+          },
+          "55-59": {
+            "males": 2749,
+            "females": 759
+          },
+          "60 AND OVER": {
+            "males": 9887,
+            "females": 1852
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kamrup",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 21318,
+            "females": 21246
+          },
+          "35-39": {
+            "males": 16104,
+            "females": 11004
+          },
+          "40-44": {
+            "males": 18675,
+            "females": 10751
+          },
+          "45-49": {
+            "males": 8522,
+            "females": 3170
+          },
+          "50-54": {
+            "males": 12704,
+            "females": 4081
+          },
+          "55-59": {
+            "males": 4555,
+            "females": 1134
+          },
+          "60 AND OVER": {
+            "males": 9705,
+            "females": 1954
+          }
+        }
+      ]
+    },
+    {
+      "name": "Darrang",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 12434,
+            "females": 11938
+          },
+          "35-39": {
+            "males": 9707,
+            "females": 6525
+          },
+          "40-44": {
+            "males": 10066,
+            "females": 5867
+          },
+          "45-49": {
+            "males": 4617,
+            "females": 1920
+          },
+          "50-54": {
+            "males": 6041,
+            "females": 2123
+          },
+          "55-59": {
+            "males": 2185,
+            "females": 624
+          },
+          "60 AND OVER": {
+            "males": 3695,
+            "females": 704
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nowgang",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 10995,
+            "females": 11612
+          },
+          "35-39": {
+            "males": 8991,
+            "females": 6672
+          },
+          "40-44": {
+            "males": 9895,
+            "females": 6510
+          },
+          "45-49": {
+            "males": 4927,
+            "females": 2459
+          },
+          "50-54": {
+            "males": 6733,
+            "females": 2848
+          },
+          "55-59": {
+            "males": 2871,
+            "females": 937
+          },
+          "60 AND OVER": {
+            "males": 6652,
+            "females": 1999
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sibeagar",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 18007,
+            "females": 16633
+          },
+          "35-39": {
+            "males": 14233,
+            "females": 8794
+          },
+          "40-44": {
+            "males": 13275,
+            "females": 7765
+          },
+          "45-49": {
+            "males": 6062,
+            "females": 2633
+          },
+          "50-54": {
+            "males": 8091,
+            "females": 2969
+          },
+          "55-59": {
+            "males": 3050,
+            "females": 844
+          },
+          "60 AND OVER": {
+            "males": 5179,
+            "females": 964
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lakhimpur 11,310 -8,909",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 8975,
+            "females": 4692
+          },
+          "35-39": {
+            "males": 7125,
+            "females": 3733
+          },
+          "40-44": {
+            "males": 3140,
+            "females": 1491
+          },
+          "45-49": {
+            "males": 3808,
+            "females": 1502
+          },
+          "50-54": {
+            "males": 1312,
+            "females": 477
+          },
+          "55-59": {
+            "males": 2470,
+            "females": 577
+          },
+          "60 AND OVER": {
+            "males": null,
+            "females": null
+          }
+        },
+        {
+          "age": "Total Brahmaputra Valley",
+          "30-34": {
+            "males": 90996,
+            "females": 82797,
+            "persons": 173793
+          },
+          "35-39": {
+            "males": 72601,
+            "females": 44358,
+            "persons": 116959
+          },
+          "40-44": {
+            "males": 72686,
+            "females": 40708,
+            "persons": 113394
+          },
+          "45-49": {
+            "males": 33967,
+            "females": 13732,
+            "persons": 47699
+          },
+          "50-54": {
+            "males": 45543,
+            "females": 15940,
+            "persons": 61483
+          },
+          "55-59": {
+            "males": 16422,
+            "females": 4775,
+            "persons": 21197
+          },
+          "60 AND OVER": {
+            "males": 37588,
+            "females": 8050,
+            "persons": 45638
+          }
+        },
+        {
+          "age": "Total Plains",
+          "30-34": {
+            "males": 182497,
+            "females": 153451,
+            "persons": 335948
+          },
+          "35-39": {
+            "males": 148036,
+            "females": 78212,
+            "persons": 226248
+          },
+          "40-44": {
+            "males": 139061,
+            "females": 68241,
+            "persons": 207302
+          },
+          "45-49": {
+            "males": 71366,
+            "females": 22335,
+            "persons": 93701
+          },
+          "50-54": {
+            "males": 84596,
+            "females": 24762,
+            "persons": 109358
+          },
+          "55-59": {
+            "males": 28577,
+            "females": 6367,
+            "persons": 34944
+          },
+          "60 AND OVER": {
+            "males": 84556,
+            "females": 12474,
+            "persons": 97030
+          }
+        }
+      ]
+    },
+    {
+      "name": "North Cachar",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 736,
+            "females": 608
+          },
+          "35-39": {
+            "males": 463,
+            "females": 306
+          },
+          "40-44": {
+            "males": 492,
+            "females": 312
+          },
+          "45-49": {
+            "males": 210,
+            "females": 123
+          },
+          "50-54": {
+            "males": 303,
+            "females": 124
+          },
+          "55-59": {
+            "males": 85,
+            "females": 36
+          },
+          "60 AND OVER": {
+            "males": 393,
+            "females": 156
+          }
+        }
+      ]
+    },
+    {
+      "name": "Naga Hills",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 5068,
+            "females": 5161
+          },
+          "35-39": {
+            "males": 5788,
+            "females": 3847
+          },
+          "40-44": {
+            "males": 3836,
+            "females": 2981
+          },
+          "45-49": {
+            "males": 2044,
+            "females": 982
+          },
+          "50-54": {
+            "males": 1986,
+            "females": 1068
+          },
+          "55-59": {
+            "males": 584,
+            "females": 284
+          },
+          "60 AND OVER": {
+            "males": 1662,
+            "females": 602
+          }
+        }
+      ]
+    },
+    {
+      "name": "Khasi and Jaintia Hills",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 5920,
+            "females": 6077
+          },
+          "35-39": {
+            "males": 5210,
+            "females": 4396
+          },
+          "40-44": {
+            "males": 4550,
+            "females": 4077
+          },
+          "45-49": {
+            "males": 2893,
+            "females": 2104
+          },
+          "50-54": {
+            "males": 2920,
+            "females": 2030
+          },
+          "55-59": {
+            "males": 1152,
+            "females": 682
+          },
+          "60 AND OVER": {
+            "males": 3663,
+            "females": 1935
+          }
+        }
+      ]
+    },
+    {
+      "name": "Garo Hills",
+      "rows": [
+        {
+          "age": "Total",
+          "30-34": {
+            "males": 4892,
+            "females": 4716
+          },
+          "35-39": {
+            "males": 4403,
+            "females": 2696
+          },
+          "40-44": {
+            "males": 3684,
+            "females": 2678
+          },
+          "45-49": {
+            "males": 1813,
+            "females": 1042
+          },
+          "50-54": {
+            "males": 1909,
+            "females": 1096
+          },
+          "55-59": {
+            "males": 781,
+            "females": 427
+          },
+          "60 AND OVER": {
+            "males": 2401,
+            "females": 1138
+          }
+        }
+      ]
+    },
+    {
+      "name": "North Leshai (Civil and Military) 225 ... 134 ... 68 ... 31 ... 22 ... 3 ... 1 ...",
+      "rows": [
+        {
+          "age": "Total Hill Districts",
+          "30-34": {
+            "males": 16841,
+            "females": 16562,
+            "persons": 33403
+          },
+          "35-39": {
+            "males": 15998,
+            "females": 11245,
+            "persons": 27243
+          },
+          "40-44": {
+            "males": 12630,
+            "females": 10048,
+            "persons": 22678
+          },
+          "45-49": {
+            "males": 6991,
+            "females": 4251,
+            "persons": 11242
+          },
+          "50-54": {
+            "males": 7140,
+            "females": 4318,
+            "persons": 11458
+          },
+          "55-59": {
+            "males": 2605,
+            "females": 1429,
+            "persons": 4034
+          },
+          "60 AND OVER": {
+            "males": 8120,
+            "females": 3831,
+            "persons": 11951
+          }
+        },
+        {
+          "age": "Total for the Province",
+          "30-34": {
+            "males": 199338,
+            "females": 170013,
+            "persons": 369351
+          },
+          "35-39": {
+            "males": 164034,
+            "females": 89457,
+            "persons": 253491
+          },
+          "40-44": {
+            "males": 151691,
+            "females": 78289,
+            "persons": 229980
+          },
+          "45-49": {
+            "males": 78357,
+            "females": 26586,
+            "persons": 104943
+          },
+          "50-54": {
+            "males": 91736,
+            "females": 29080,
+            "persons": 120816
+          },
+          "55-59": {
+            "males": 31182,
+            "females": 7796,
+            "persons": 38978
+          },
+          "60 AND OVER": {
+            "males": 92676,
+            "females": 16305,
+            "persons": 108981
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 306,
+    "passed": 306,
+    "failed": 0,
+    "all_passed": true,
+    "failures": []
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_mistral_hybrid",
+    "policy": "mistral_hybrid",
+    "decision": "accepted_with_risk",
+    "next_step": "escalate_expensive",
+    "trust_score": 80,
+    "reasons": [
+      "cheap_first_pass_requires_verification"
+    ],
+    "signals": {
+      "api_calls": 1,
+      "initial_failures": 0,
+      "initial_total_checks": 306,
+      "final_failures": 0,
+      "age_warning_count": 0,
+      "extraction_mode": "mistral_markdown",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": false,
+      "l1_repair_count": 0,
+      "repair_entries_count": 0,
+      "repair_api_calls": 0,
+      "repair_phases_used": [
+        ""
+      ],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 0,
+      "mistral_calls": 1,
+      "gemini_calls": 0,
+      "method": "mistral_only",
+      "inherited_acceptance": null
+    }
+  }
+}

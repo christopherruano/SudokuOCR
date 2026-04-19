@@ -9,6 +9,7 @@ Data.zip
 # OS junk
 .DS_Store
 __MACOSX/
+~$*
 
 # Python
 __pycache__/
@@ -16,3 +17,10 @@ __pycache__/
 
 # Claude Code
 .claude/
+
+# Production results (large, machine-generated)
+results_debug_*/
+results_flash_test/
+
+# R history
+.Rhistory

@@ -1,0 +1,457 @@
+{
+  "source_image": "age_tables/Coorg/1901/Coorg_age_1901.png",
+  "extraction_method": "mistral+gemini_partial",
+  "mistral_calls": 1,
+  "gemini_calls": 1,
+  "api_calls": 2,
+  "cost_estimate": 0.032,
+  "elapsed_seconds": 31.2,
+  "metadata": {
+    "column_groups": [
+      "1901",
+      "1891",
+      "1881"
+    ],
+    "data_type": "proportional",
+    "denominator": 1000,
+    "title": "SUBSIDIARY TABLE 1.\u2014Age distribution of 1,000 of each sex at each of the last three censuses."
+  },
+  "data": [
+    {
+      "name": "All",
+      "rows": [
+        {
+          "age": "TOTAL 0-5",
+          "1901": {
+            "males": 95,
+            "females": 123,
+            "persons": 218
+          },
+          "1891": {
+            "males": 111,
+            "females": 146,
+            "persons": 257
+          },
+          "1881": {
+            "males": 84,
+            "females": 113,
+            "persons": 197
+          }
+        },
+        {
+          "age": "5-10",
+          "1901": {
+            "males": 112,
+            "females": 139,
+            "persons": 251
+          },
+          "1891": {
+            "males": 115,
+            "females": 139,
+            "persons": 254
+          },
+          "1881": {
+            "males": 171,
+            "females": 142,
+            "persons": 253
+          }
+        },
+        {
+          "age": "10-15",
+          "1901": {
+            "males": 119,
+            "females": 129,
+            "persons": 248
+          },
+          "1891": {
+            "males": 94,
+            "females": 99,
+            "persons": 403
+          },
+          "1881": {
+            "males": 113,
+            "females": 117,
+            "persons": 380
+          }
+        },
+        {
+          "age": "TOTAL 0-15",
+          "1901": {
+            "males": 326,
+            "females": 391,
+            "persons": 717
+          },
+          "1891": {
+            "males": 320,
+            "females": 384,
+            "persons": 704
+          },
+          "1881": {
+            "males": 308,
+            "females": 372,
+            "persons": 680
+          }
+        },
+        {
+          "age": "15-20",
+          "1901": {
+            "males": 97,
+            "females": 96,
+            "persons": 193
+          },
+          "1891": {
+            "males": 99,
+            "females": 103,
+            "persons": 202
+          },
+          "1881": {
+            "males": 115,
+            "females": 110,
+            "persons": 225
+          }
+        },
+        {
+          "age": "20-25",
+          "1901": {
+            "males": 101,
+            "females": 104,
+            "persons": 205
+          },
+          "1891": {
+            "males": 196,
+            "females": 112,
+            "persons": 221
+          },
+          "1881": {
+            "males": 114,
+            "females": 118,
+            "persons": 232
+          }
+        },
+        {
+          "age": "25-30",
+          "1901": {
+            "males": 122,
+            "females": 109,
+            "persons": 231
+          },
+          "1891": {
+            "males": 128,
+            "females": 110,
+            "persons": 238
+          },
+          "1881": {
+            "males": 131,
+            "females": 118,
+            "persons": 249
+          }
+        },
+        {
+          "age": "30-35",
+          "1901": {
+            "males": 107,
+            "females": 84,
+            "persons": 191
+          },
+          "1891": {
+            "males": 103,
+            "females": 82,
+            "persons": 185
+          },
+          "1881": {
+            "males": 108,
+            "females": 85,
+            "persons": 193
+          }
+        },
+        {
+          "age": "35-40",
+          "1901": {
+            "males": 79,
+            "females": 54,
+            "persons": 133
+          },
+          "1891": {
+            "males": 77,
+            "females": 54,
+            "persons": 131
+          },
+          "1881": {
+            "males": 78,
+            "females": 54,
+            "persons": 132
+          }
+        },
+        {
+          "age": "TOTAL 15-40",
+          "1901": {
+            "males": 506,
+            "females": 447,
+            "persons": 953
+          },
+          "1891": {
+            "males": 516,
+            "females": 461,
+            "persons": 977
+          },
+          "1881": {
+            "males": 546,
+            "females": 485,
+            "persons": 1031
+          }
+        },
+        {
+          "age": "40-45",
+          "1901": {
+            "males": 64,
+            "females": 53,
+            "persons": 117
+          },
+          "1891": {
+            "males": 61,
+            "females": 53,
+            "persons": 114
+          },
+          "1881": {
+            "males": 58,
+            "females": 48,
+            "persons": 106
+          }
+        },
+        {
+          "age": "45-50",
+          "1901": {
+            "males": 35,
+            "females": 28,
+            "persons": 63
+          },
+          "1891": {
+            "males": 36,
+            "females": 27,
+            "persons": 63
+          },
+          "1881": {
+            "males": 31,
+            "females": 26,
+            "persons": 57
+          }
+        },
+        {
+          "age": "50-55",
+          "1901": {
+            "males": 32,
+            "females": 35,
+            "persons": 67
+          },
+          "1891": {
+            "males": 31,
+            "females": 33,
+            "persons": 64
+          },
+          "1881": {
+            "males": 28,
+            "females": 29,
+            "persons": 57
+          }
+        },
+        {
+          "age": "55-60",
+          "1901": {
+            "males": 13,
+            "females": 13,
+            "persons": 26
+          },
+          "1891": {
+            "males": 13,
+            "females": 11,
+            "persons": 24
+          },
+          "1881": {
+            "males": 10,
+            "females": 10,
+            "persons": 20
+          }
+        },
+        {
+          "age": "TOTAL 40-60",
+          "1901": {
+            "males": 144,
+            "females": 129,
+            "persons": 273
+          },
+          "1891": {
+            "males": 141,
+            "females": 124,
+            "persons": 265
+          },
+          "1881": {
+            "males": 127,
+            "females": 113,
+            "persons": 240
+          }
+        },
+        {
+          "age": "60 and over",
+          "1901": {
+            "males": 24,
+            "females": 33,
+            "persons": 57
+          },
+          "1891": {
+            "males": 23,
+            "females": 31,
+            "persons": 54
+          },
+          "1881": {
+            "males": 19,
+            "females": 30,
+            "persons": 49
+          }
+        },
+        {
+          "age": "TOTAL",
+          "1901": {
+            "males": 1000,
+            "females": 1000,
+            "persons": 2000
+          },
+          "1891": {
+            "males": 1000,
+            "females": 1000,
+            "persons": 2000
+          },
+          "1881": {
+            "males": 1000,
+            "females": 1000,
+            "persons": 2000
+          }
+        },
+        {
+          "age": "Mean Age",
+          "1901": {
+            "males": 25,
+            "females": 23,
+            "persons": 48
+          },
+          "1891": {
+            "males": 24,
+            "females": 23,
+            "persons": 47
+          },
+          "1881": {
+            "males": 24,
+            "females": 23,
+            "persons": 47
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 180,
+    "passed": 172,
+    "failed": 8,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L2",
+        "section": "All",
+        "group": "1901",
+        "col": "persons",
+        "detail": "Total=2000 != sum(rows)=1830",
+        "diff": 170
+      },
+      {
+        "level": "L2",
+        "section": "All",
+        "group": "1901",
+        "col": "males",
+        "detail": "Total=1000 != sum(rows)=930",
+        "diff": 70
+      },
+      {
+        "level": "L2",
+        "section": "All",
+        "group": "1901",
+        "col": "females",
+        "detail": "Total=1000 != sum(rows)=900",
+        "diff": 100
+      },
+      {
+        "level": "L2",
+        "section": "All",
+        "group": "1891",
+        "col": "females",
+        "detail": "Total=1000 != sum(rows)=877",
+        "diff": 123
+      },
+      {
+        "level": "L2",
+        "section": "All",
+        "group": "1881",
+        "col": "females",
+        "detail": "Total=1000 != sum(rows)=910",
+        "diff": 90
+      },
+      {
+        "level": "L2",
+        "section": "All",
+        "group": "1901",
+        "col": "persons",
+        "detail": "Known total total.persons: expected=1000, got=2000",
+        "diff": 1000
+      },
+      {
+        "level": "L2",
+        "section": "All",
+        "group": "1891",
+        "col": "persons",
+        "detail": "Known total total.persons: expected=1000, got=2000",
+        "diff": 1000
+      },
+      {
+        "level": "L2",
+        "section": "All",
+        "group": "1881",
+        "col": "persons",
+        "detail": "Known total total.persons: expected=1000, got=2000",
+        "diff": 1000
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_mistral_hybrid",
+    "policy": "mistral_hybrid",
+    "decision": "rejected_constraints_failed",
+    "next_step": "escalate_expensive",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 2,
+      "initial_failures": 8,
+      "initial_total_checks": 180,
+      "final_failures": 8,
+      "age_warning_count": 0,
+      "extraction_mode": "mistral_markdown",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": true,
+      "l1_repair_count": 0,
+      "repair_entries_count": 6,
+      "repair_api_calls": 1,
+      "repair_phases_used": [
+        "A/B"
+      ],
+      "cross_group_active": false,
+      "cross_section_active": false,
+      "subtotal_checks": 0,
+      "mistral_calls": 1,
+      "gemini_calls": 1,
+      "method": "mistral+gemini_partial",
+      "inherited_acceptance": null
+    }
+  }
+}

@@ -38,6 +38,9 @@ class TableSchema:
     column_groups: list = field(default_factory=list)
     # Each: {"name": str, "sub_columns": list[str], "left_frac": float, "right_frac": float}
     target_group_index: int = 0
+    row_axis_type: str = "age_rows"
+    # "age_rows" | "district_rows" | "generic_rows"
+    row_label_name: str = "age"
     row_labels: list = field(default_factory=list)
     subtotal_hierarchy: dict = field(default_factory=dict)
     # e.g. {"Total 0-5": ["0-1","1-2","2-3","3-4","4-5"], ...}
@@ -76,18 +79,22 @@ Analyze the image and return a JSON object with these fields:
    - "left_frac": Approximate left edge as a fraction of total image width (0.0 to 1.0)
    - "right_frac": Approximate right edge as a fraction of total image width (0.0 to 1.0)
 6. "target_group_index": Which column_group (0-indexed) contains the PRIMARY population data to extract. Usually the first group with Persons/Males/Females columns, or the group matching the census year.
-7. "row_labels": Array of ALL row labels visible in the age column, exactly as printed. Include individual ages (e.g. "0-1", "1-2"), summary groups (e.g. "0-5", "5-10"), subtotal rows (e.g. "Total 0-5", "Total 0-15"), and the grand "Total" row.
-8. "subtotal_hierarchy": Object mapping subtotal row labels to arrays of their component row labels. Build the COMPLETE hierarchy:
+7. "row_axis_type": "age_rows" if the left-most row labels are age buckets, "district_rows" if the rows are districts/places, or "generic_rows" otherwise.
+8. "row_label_name": Name of the left-most row label field, e.g. "age", "district", "religion", "community". Use "age" unless the table clearly uses another row label type.
+9. "row_labels": Array of ALL row labels visible in the left-most row-label column, exactly as printed and in order.
+   - For age tables, include individual ages (e.g. "0-1", "1-2"), summary groups (e.g. "0-5", "5-10"), subtotal rows (e.g. "Total 0-5", "Total 0-15"), and the grand "Total" row.
+   - For district tables, include district names and any printed Total row label.
+10. "subtotal_hierarchy": Object mapping subtotal row labels to arrays of their component row labels. Build the COMPLETE hierarchy when the row axis is age-based:
    - Individual subtotals: e.g. {"Total 0-5": ["0-1", "1-2", "2-3", "3-4", "4-5"]}
    - Intermediate subtotals: e.g. {"Total 0-15": ["Total 0-5", "5-10", "10-15"]}
    - Grand total: e.g. {"Total": ["Total 0-15", "Total 15-40", "Total 40-60", "60 and over"]}
    IMPORTANT: If there is a grand "Total" row AND intermediate subtotal rows, the Total should map to its direct children (the intermediate subtotals + any ungrouped rows like "60 and over"), NOT to all individual rows.
-   Only include subtotals that are explicitly visible as rows in the table. If there are no subtotal rows, return an empty object {}.
-9. "has_persons_column": Boolean — true if there is an explicit "Persons" (or "Total"/"Both sexes") column, false if only Males and Females columns are present.
-10. "multi_year": Boolean — true if the table shows data for multiple census years side by side.
-11. "years_present": Array of census years visible in the table (e.g. [1891, 1901]).
-12. "multi_region": Boolean — true if the table shows data for multiple regions/districts.
-13. "sections": Array of section objects. Many census tables have multiple numbered sections on the same page, each with its own set of age rows. For example:
+   Only include subtotals that are explicitly visible as rows in the table. If there are no subtotal rows or the table uses district rows, return an empty object {}.
+11. "has_persons_column": Boolean — true if there is an explicit "Persons" (or "Total"/"Both sexes") column, false if only Males and Females columns are present.
+12. "multi_year": Boolean — true if the table shows data for multiple census years side by side.
+13. "years_present": Array of census years visible in the table (e.g. [1891, 1901]).
+14. "multi_region": Boolean — true if the table shows data for multiple regions/districts.
+15. "sections": Array of section objects. Many census tables have multiple numbered sections on the same page, each with its own set of row labels. For example:
    - "1. ALL COMMUNITIES" with age rows 0-1, 1-2, ..., Total
    - "2. Brahmanic Hindus" with its own age rows 0-1, 1-2, ..., Total
    - "3. Other Hindus" with its own age rows
@@ -97,8 +104,8 @@ Analyze the image and return a JSON object with these fields:
    - "subtotal_hierarchy": Subtotal hierarchy for this section (same format as top-level)
    If the table has only ONE section (no numbered sub-tables), return an empty array [] and use the top-level row_labels and subtotal_hierarchy as before.
    If the table HAS multiple sections, the top-level row_labels and subtotal_hierarchy should describe the FIRST section, and each section should be listed in the sections array.
-14. "cross_group_constraints": Object mapping a total column group name to an array of its component group names, IF one column group represents the sum of others. For example, if a table has "Population", "Unmarried", "Married", "Widowed", and "Divorced" column groups where Population = Unmarried + Married + Widowed + Divorced, return: {"Population": ["Unmarried", "Married", "Widowed", "Divorced"]}. Similarly for religion breakdowns: {"Total": ["Hindu", "Muslim", "Christian"]}. Return an empty object {} if no such relationship exists.
-15. "rotation": Integer — how many degrees CLOCKWISE the image must be rotated so that the text reads normally left-to-right. Return 0 if the image is already upright. Return 90 if the text currently reads bottom-to-top (image needs 90° clockwise rotation). Return 270 if the text reads top-to-bottom. Return 180 if the image is upside-down. Most scanned pages will be 0.
+16. "cross_group_constraints": Object mapping a total column group name to an array of its component group names, IF one column group represents the sum of others. For example, if a table has "Population", "Unmarried", "Married", "Widowed", and "Divorced" column groups where Population = Unmarried + Married + Widowed + Divorced, return: {"Population": ["Unmarried", "Married", "Widowed", "Divorced"]}. Similarly for religion breakdowns: {"Total": ["Hindu", "Muslim", "Christian"]}. Return an empty object {} if no such relationship exists.
+17. "rotation": Integer — how many degrees CLOCKWISE the image must be rotated so that the text reads normally left-to-right. Return 0 if the image is already upright. Return 90 if the text currently reads bottom-to-top (image needs 90° clockwise rotation). Return 270 if the text reads top-to-bottom. Return 180 if the image is upside-down. Most scanned pages will be 0.
 
 IMPORTANT:
 - For column positions (left_frac, right_frac), estimate carefully by looking at where column headers and data begin/end relative to the full image width.
@@ -268,6 +275,12 @@ def _merge_schemas(model_schemas, preferred="gemini"):
 
     # --- Multi-region: majority vote ---
     merged.multi_region = _majority([s.multi_region for s in schemas], prefer_idx)
+    merged.row_axis_type = _majority(
+        [getattr(s, "row_axis_type", "age_rows") for s in schemas],
+        prefer_idx)
+    merged.row_label_name = _majority(
+        [getattr(s, "row_label_name", "age") for s in schemas],
+        prefer_idx)
 
     # --- Preferred model schema (used as base for several fields) ---
     pref_schema = model_schemas.get(preferred, schemas[0])
@@ -286,16 +299,29 @@ def _merge_schemas(model_schemas, preferred="gemini"):
     # --- Row labels: union, preserving order from first appearance ---
     seen = set()
     ordered_labels = []
+    def _row_label_key(label):
+        if merged.row_axis_type == "age_rows":
+            return _clean_age_key(normalize_age(label)) or normalize_age(label)
+        if label is None:
+            return None
+        text = " ".join(str(label).strip().lower().split())
+        if not text:
+            return None
+        if text.startswith("grand total"):
+            return "grandtotal"
+        if text == "total" or text.startswith("total "):
+            return "total"
+        return text
     # Process preferred model first to establish base ordering
     for label in pref_schema.row_labels:
-        norm = normalize_age(label)
+        norm = _row_label_key(label)
         if norm and norm not in seen:
             seen.add(norm)
             ordered_labels.append(label)
     # Then add any labels found only by other models
     for s in schemas:
         for label in s.row_labels:
-            norm = normalize_age(label)
+            norm = _row_label_key(label)
             if norm and norm not in seen:
                 seen.add(norm)
                 ordered_labels.append(label)
@@ -368,6 +394,7 @@ def _merge_schemas(model_schemas, preferred="gemini"):
         if len(vals) == 1:
             agree_count += 1
     print(f"    Structural consensus: {agree_count}/{total_fields} fields unanimous")
+    print(f"    Row axis: {merged.row_axis_type} ({merged.row_label_name})")
     print(f"    Row labels: {len(merged.row_labels)} (union of all models)")
     print(f"    Hierarchy groups: {len(merged.subtotal_hierarchy)}")
     if target_rights:
@@ -420,6 +447,9 @@ def _dict_to_schema(d):
         schema.denominator = 1000  # default assumption
     schema.column_groups = d.get("column_groups", [])
     schema.target_group_index = d.get("target_group_index", 0)
+    schema.row_axis_type = d.get("row_axis_type") or _infer_row_axis_type(d)
+    schema.row_label_name = d.get("row_label_name") or (
+        "district" if schema.row_axis_type == "district_rows" else "age")
     schema.row_labels = d.get("row_labels", [])
     schema.subtotal_hierarchy = d.get("subtotal_hierarchy", {})
     schema.has_persons_column = d.get("has_persons_column", True)
@@ -432,6 +462,24 @@ def _dict_to_schema(d):
     rot = d.get("rotation", 0)
     schema.rotation = rot if rot in (0, 90, 180, 270) else 0
     return schema
+
+
+def _infer_row_axis_type(d):
+    """Best-effort inference for older schema responses without row axis metadata."""
+    title = str(d.get("title", "")).lower()
+    row_labels = d.get("row_labels", []) or []
+    if "by district" in title or "by districts" in title:
+        return "district_rows"
+    if d.get("multi_region") and row_labels:
+        from pipeline import normalize_age
+        age_like = 0
+        for label in row_labels[:10]:
+            norm = normalize_age(label)
+            if re.match(r"^\d", norm) or norm in ("total", "grandtotal", "60andover"):
+                age_like += 1
+        if age_like <= max(1, len(row_labels[:10]) // 3):
+            return "district_rows"
+    return "age_rows"
 
 
 # ---------------------------------------------------------------------------
@@ -602,6 +650,9 @@ def build_extraction_prompt(schema):
             "Compute Persons = Males + Females for each row."
         )
 
+    row_label_name = getattr(schema, "row_label_name", "age") or "age"
+    row_noun = "age-group" if row_label_name == "age" else row_label_name
+
     # Build row label list — clean up degenerate labels
     if schema.row_labels:
         clean_labels = []
@@ -612,11 +663,11 @@ def build_extraction_prompt(schema):
             else:
                 clean_labels.append(label)
         row_list = "\n".join(f"  - {label}" for label in clean_labels)
-        row_instruction = f"The table contains these rows (in order):\n{row_list}"
+        row_instruction = f"The table contains these {row_noun} rows (in order):\n{row_list}"
     else:
         row_instruction = (
-            "Extract all age-group rows visible in the table, including "
-            "any subtotal rows and the grand Total row."
+            f"Extract all {row_noun} rows visible in the table, including "
+            "any printed Total row."
         )
 
     # Build subtotal instruction — clean up degenerate labels
@@ -665,8 +716,8 @@ CRITICAL: Read each digit extremely carefully. Common OCR errors on old typeface
 - Verify by checking: Persons should equal Males + Females for each row
 - If a digit is ambiguous, use the M+F=Persons constraint to determine the correct reading
 
-Return ONLY a JSON array. Each object: {{"age": "...", "persons": N, "males": N, "females": N}}
-For subtotal rows, use the label as-is (e.g. "Total 0-5", "Total 15-40", "Total").
+Return ONLY a JSON array. Each object: {{"{row_label_name}": "...", "persons": N, "males": N, "females": N}}
+For subtotal or Total rows, use the printed label as-is.
 All values are integers, no commas. Return ONLY valid JSON."""
 
     return prompt
@@ -687,6 +738,8 @@ def build_extraction_prompt_for_group(schema, group_name, section_name=None,
         subtotal_hierarchy: Override hierarchy (for section-specific hierarchy).
     """
     has_persons = schema.has_persons_column
+    row_label_name = getattr(schema, "row_label_name", "age") or "age"
+    row_noun = "age-group" if row_label_name == "age" else row_label_name
     use_row_labels = row_labels if row_labels is not None else schema.row_labels
     use_hierarchy = subtotal_hierarchy if subtotal_hierarchy is not None else schema.subtotal_hierarchy
     has_subtotals = bool(use_hierarchy)
@@ -721,11 +774,11 @@ def build_extraction_prompt_for_group(schema, group_name, section_name=None,
             else:
                 clean_labels.append(label)
         row_list = "\n".join(f"  - {label}" for label in clean_labels)
-        row_instruction = f"The table contains these rows (in order):\n{row_list}"
+        row_instruction = f"The table contains these {row_noun} rows (in order):\n{row_list}"
     else:
         row_instruction = (
-            "Extract all age-group rows visible in the table, including "
-            "any subtotal rows and the grand Total row."
+            f"Extract all {row_noun} rows visible in the table, including "
+            "any printed Total row."
         )
 
     # Build subtotal instruction
@@ -774,8 +827,8 @@ CRITICAL: Read each digit extremely carefully. Common OCR errors on old typeface
 - Verify by checking: Persons should equal Males + Females for each row
 - If a digit is ambiguous, use the M+F=Persons constraint to determine the correct reading
 
-Return ONLY a JSON array. Each object: {{"age": "...", "persons": N, "males": N, "females": N}}
-For subtotal rows, use the label as-is (e.g. "Total 0-5", "Total 15-40", "Total").
+Return ONLY a JSON array. Each object: {{"{row_label_name}": "...", "persons": N, "males": N, "females": N}}
+For subtotal or Total rows, use the printed label as-is.
 All values are integers, no commas. Return ONLY valid JSON."""
 
     return prompt

@@ -1,0 +1,555 @@
+{
+  "source_image": "age_tables/Assam/1901/Assam_age_1901-17.png",
+  "extraction_method": "mistral+gemini_partial",
+  "mistral_calls": 1,
+  "gemini_calls": 1,
+  "api_calls": 2,
+  "cost_estimate": 0.032,
+  "elapsed_seconds": 57.8,
+  "metadata": {
+    "column_groups": [
+      "POPULATION",
+      "UNMARRIED",
+      "MARRIED",
+      "WIDOWED"
+    ],
+    "data_type": "absolute"
+  },
+  "data": [
+    {
+      "name": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+      "rows": [
+        {
+          "age": "5-10",
+          "POPULATION": {
+            "persons": 22303,
+            "males": 11494,
+            "females": 10809
+          },
+          "UNMARRIED": {
+            "persons": 21685,
+            "males": 11415,
+            "females": 10270
+          },
+          "MARRIED": {
+            "persons": 602,
+            "males": 76,
+            "females": 526
+          },
+          "WIDOWED": {
+            "persons": 19,
+            "males": 3,
+            "females": 16
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION": {
+            "persons": 14911,
+            "males": 7731,
+            "females": 7180
+          },
+          "UNMARRIED": {
+            "persons": 12131,
+            "males": 7257,
+            "females": 4874
+          },
+          "MARRIED": {
+            "persons": 2706,
+            "males": 466,
+            "females": 2240
+          },
+          "WIDOWED": {
+            "persons": 80,
+            "males": 14,
+            "females": 66
+          }
+        },
+        {
+          "age": "15-20",
+          "POPULATION": {
+            "persons": 12714,
+            "males": 5367,
+            "females": 7347
+          },
+          "UNMARRIED": {
+            "persons": 5365,
+            "males": 3665,
+            "females": 1700
+          },
+          "MARRIED": {
+            "persons": 7081,
+            "males": 1657,
+            "females": 5424
+          },
+          "WIDOWED": {
+            "persons": 268,
+            "males": 45,
+            "females": 223
+          }
+        },
+        {
+          "age": "20-40",
+          "POPULATION": {
+            "persons": 41704,
+            "males": 20561,
+            "females": 21143
+          },
+          "UNMARRIED": {
+            "persons": 3736,
+            "males": 2974,
+            "females": 762
+          },
+          "MARRIED": {
+            "persons": 35851,
+            "males": 17058,
+            "females": 18793
+          },
+          "WIDOWED": {
+            "persons": 2117,
+            "males": 529,
+            "females": 1588
+          }
+        },
+        {
+          "age": "40-60",
+          "POPULATION": {
+            "persons": 16854,
+            "males": 9463,
+            "females": 7391
+          },
+          "UNMARRIED": {
+            "persons": 339,
+            "males": 199,
+            "females": 140
+          },
+          "MARRIED": {
+            "persons": 14146,
+            "males": 8734,
+            "females": 5412
+          },
+          "WIDOWED": {
+            "persons": 2369,
+            "males": 530,
+            "females": 1839
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION": {
+            "persons": 5835,
+            "males": 3311,
+            "females": 2524
+          },
+          "UNMARRIED": {
+            "persons": 125,
+            "males": 75,
+            "females": 50
+          },
+          "MARRIED": {
+            "persons": 4113,
+            "males": 2821,
+            "females": 1292
+          },
+          "WIDOWED": {
+            "persons": 1597,
+            "males": 415,
+            "females": 1182
+          }
+        },
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 138274,
+            "males": 70035,
+            "females": 68239
+          },
+          "UNMARRIED": {
+            "persons": 67325,
+            "males": 37687,
+            "females": 29638
+          },
+          "MARRIED": {
+            "persons": 64499,
+            "males": 30812,
+            "females": 33687
+          },
+          "WIDOWED": {
+            "persons": 6450,
+            "males": 1536,
+            "females": 4914
+          }
+        }
+      ]
+    },
+    {
+      "name": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+      "rows": [
+        {
+          "age": "5-10",
+          "POPULATION": {
+            "persons": 18279,
+            "males": 9449,
+            "females": 8830
+          },
+          "UNMARRIED": {
+            "persons": 17765,
+            "males": 9389,
+            "females": 8376
+          },
+          "MARRIED": {
+            "persons": 502,
+            "males": 58,
+            "females": 444
+          },
+          "WIDOWED": {
+            "persons": 12,
+            "males": 2,
+            "females": 10
+          }
+        },
+        {
+          "age": "10-15",
+          "POPULATION": {
+            "persons": 12238,
+            "males": 6230,
+            "females": 6008
+          },
+          "UNMARRIED": {
+            "persons": 9932,
+            "males": 5806,
+            "females": 4126
+          },
+          "MARRIED": {
+            "persons": 2247,
+            "males": 412,
+            "females": 1835
+          },
+          "WIDOWED": {
+            "persons": 59,
+            "males": 12,
+            "females": 47
+          }
+        },
+        {
+          "age": "15-20",
+          "POPULATION": {
+            "persons": 10518,
+            "males": 4353,
+            "females": 6165
+          },
+          "UNMARRIED": {
+            "persons": 4296,
+            "males": 2816,
+            "females": 1480
+          },
+          "MARRIED": {
+            "persons": 6025,
+            "males": 1497,
+            "females": 4528
+          },
+          "WIDOWED": {
+            "persons": 197,
+            "males": 40,
+            "females": 157
+          }
+        },
+        {
+          "age": "20-40",
+          "POPULATION": {
+            "persons": 33407,
+            "males": 15868,
+            "females": 17539
+          },
+          "UNMARRIED": {
+            "persons": 2469,
+            "males": 1817,
+            "females": 652
+          },
+          "MARRIED": {
+            "persons": 29629,
+            "males": 13739,
+            "females": 15890
+          },
+          "WIDOWED": {
+            "persons": 1309,
+            "males": 312,
+            "females": 997
+          }
+        },
+        {
+          "age": "40-60",
+          "POPULATION": {
+            "persons": 13846,
+            "males": 7618,
+            "females": 6228
+          },
+          "UNMARRIED": {
+            "persons": 261,
+            "males": 144,
+            "females": 117
+          },
+          "MARRIED": {
+            "persons": 12106,
+            "males": 7136,
+            "females": 4970
+          },
+          "WIDOWED": {
+            "persons": 1485,
+            "males": 344,
+            "females": 1141
+          }
+        },
+        {
+          "age": "60 and over",
+          "POPULATION": {
+            "persons": 4845,
+            "males": 2813,
+            "females": 2032
+          },
+          "UNMARRIED": {
+            "persons": 107,
+            "males": 62,
+            "females": 45
+          },
+          "MARRIED": {
+            "persons": 3693,
+            "males": 2458,
+            "females": 1235
+          },
+          "WIDOWED": {
+            "persons": 1047,
+            "males": 293,
+            "females": 754
+          }
+        },
+        {
+          "age": "Total",
+          "POPULATION": {
+            "persons": 113274,
+            "males": 56542,
+            "females": 56732
+          },
+          "UNMARRIED": {
+            "persons": 54963,
+            "males": 30239,
+            "females": 24724
+          },
+          "MARRIED": {
+            "persons": 54202,
+            "males": 25300,
+            "females": 28902
+          },
+          "WIDOWED": {
+            "persons": 4109,
+            "males": 1003,
+            "females": 3106
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "total_checks": 290,
+    "passed": 270,
+    "failed": 20,
+    "all_passed": false,
+    "failures": [
+      {
+        "level": "L2",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=138274 != sum(rows)=114321",
+        "diff": 23953
+      },
+      {
+        "level": "L2",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=70035 != sum(rows)=57927",
+        "diff": 12108
+      },
+      {
+        "level": "L2",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=68239 != sum(rows)=56394",
+        "diff": 11845
+      },
+      {
+        "level": "L2",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=67325 != sum(rows)=43381",
+        "diff": 23944
+      },
+      {
+        "level": "L2",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=37687 != sum(rows)=25585",
+        "diff": 12102
+      },
+      {
+        "level": "L2",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=29638 != sum(rows)=17796",
+        "diff": 11842
+      },
+      {
+        "level": "L2",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "group": "POPULATION",
+        "col": "persons",
+        "detail": "Total=113274 != sum(rows)=93133",
+        "diff": 20141
+      },
+      {
+        "level": "L2",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "group": "POPULATION",
+        "col": "males",
+        "detail": "Total=56542 != sum(rows)=46331",
+        "diff": 10211
+      },
+      {
+        "level": "L2",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "group": "POPULATION",
+        "col": "females",
+        "detail": "Total=56732 != sum(rows)=46802",
+        "diff": 9930
+      },
+      {
+        "level": "L2",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "group": "UNMARRIED",
+        "col": "persons",
+        "detail": "Total=54963 != sum(rows)=34830",
+        "diff": 20133
+      },
+      {
+        "level": "L2",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "group": "UNMARRIED",
+        "col": "males",
+        "detail": "Total=30239 != sum(rows)=20034",
+        "diff": 10205
+      },
+      {
+        "level": "L2",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "group": "UNMARRIED",
+        "col": "females",
+        "detail": "Total=24724 != sum(rows)=14796",
+        "diff": 9928
+      },
+      {
+        "level": "L3",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "age": "5-10",
+        "col": "persons",
+        "detail": "POPULATION.persons=22303 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=22306",
+        "diff": -3
+      },
+      {
+        "level": "L3",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "age": "5-10",
+        "col": "females",
+        "detail": "POPULATION.females=10809 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=10812",
+        "diff": -3
+      },
+      {
+        "level": "L3",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "age": "10-15",
+        "col": "persons",
+        "detail": "POPULATION.persons=14911 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=14917",
+        "diff": -6
+      },
+      {
+        "level": "L3",
+        "section": "Garo Hills. All Religions. 0\u20145 23,953 12,108 11,845 23,944 12,102 11,842 9 6 3 ... ... ...",
+        "age": "10-15",
+        "col": "males",
+        "detail": "POPULATION.males=7731 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=7737",
+        "diff": -6
+      },
+      {
+        "level": "L3",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "age": "40-60",
+        "col": "persons",
+        "detail": "POPULATION.persons=13846 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=13852",
+        "diff": -6
+      },
+      {
+        "level": "L3",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "age": "40-60",
+        "col": "males",
+        "detail": "POPULATION.males=7618 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=7624",
+        "diff": -6
+      },
+      {
+        "level": "L3",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "age": "60 and over",
+        "col": "persons",
+        "detail": "POPULATION.persons=4845 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=4847",
+        "diff": -2
+      },
+      {
+        "level": "L3",
+        "section": "Animistics. 0\u20145 20,141 10,211 9,930 20,133 10,205 9,928 8 6 2 ... ... ...",
+        "age": "60 and over",
+        "col": "females",
+        "detail": "POPULATION.females=2032 != sum(['UNMARRIED', 'MARRIED', 'WIDOWED'])=2034",
+        "diff": -2
+      }
+    ]
+  },
+  "age_ordering_warnings": [],
+  "acceptance": {
+    "version": "v1_strict_mistral_hybrid",
+    "policy": "mistral_hybrid",
+    "decision": "rejected_constraints_failed",
+    "next_step": "escalate_expensive",
+    "trust_score": 0,
+    "reasons": [
+      "constraints_failed"
+    ],
+    "signals": {
+      "api_calls": 2,
+      "initial_failures": 20,
+      "initial_total_checks": 290,
+      "final_failures": 20,
+      "age_warning_count": 0,
+      "extraction_mode": "mistral_markdown",
+      "extraction_attempt_failures": 0,
+      "schema_rotation_applied": false,
+      "targeted_recheck_used": true,
+      "l1_repair_count": 0,
+      "repair_entries_count": 11,
+      "repair_api_calls": 1,
+      "repair_phases_used": [
+        "A/B"
+      ],
+      "cross_group_active": true,
+      "cross_section_active": false,
+      "subtotal_checks": 0,
+      "mistral_calls": 1,
+      "gemini_calls": 1,
+      "method": "mistral+gemini_partial",
+      "inherited_acceptance": null
+    }
+  }
+}

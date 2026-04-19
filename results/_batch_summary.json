@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-03-23T18:14:33.818789",
+  "total_images": 8,
+  "processed": 6,
+  "skipped_existing_high_confidence": 0,
+  "existing_accepted_with_risk": 0,
+  "skipped_existing_failures": 2,
+  "accepted_high_confidence": 0,
+  "accepted_with_risk": 0,
+  "has_failures": 6,
+  "extraction_failed": 0,
+  "errors": 0,
+  "timeouts": 0,
+  "elapsed_seconds": 10616.7,
+  "elapsed_minutes": 176.9,
+  "batch_log": "results/_batch_log.jsonl",
+  "seconds_per_image": 1769.4,
+  "images_with_failures": [
+    {
+      "image": "age_tables/Gwalior/1901/Gwalior_age_1901-3.png",
+      "failures": 28
+    },
+    {
+      "image": "age_tables/Gwalior/1901/Gwalior_age_1901-4.png",
+      "failures": 27
+    },
+    {
+      "image": "age_tables/Gwalior/1901/Gwalior_age_1901-5.png",
+      "failures": 24
+    },
+    {
+      "image": "age_tables/Gwalior/1901/Gwalior_age_1901-6.png",
+      "failures": 27
+    },
+    {
+      "image": "age_tables/Gwalior/1901/Gwalior_age_1901-7.png",
+      "failures": 17
+    },
+    {
+      "image": "age_tables/Gwalior/1901/Gwalior_age_1901-8.png",
+      "failures": 9
+    }
+  ]
+}
