@@ -110,6 +110,77 @@ def load_meta():
     return m
 
 
+_DOC = _re.compile(r"([0-9a-f]{16})_t\d+_")
+_GENERIC_PLACE = {
+    "", "/", "∅", "province", "provincial", "provincial total", "provincial summary",
+    "provincial total of", "town", "country", "unknown", "state", "district", "city",
+    "the state", "whole province", "state summary", "state total", "total", "native states",
+    "province (districts)", "british territory", "british districts", "country.", "provinces",
+    "hilly", "provincial and urban", "nat. states", "subsidiary", "the totals", "general/sample",
+}
+_PROVINCE_TYPES = {"british_province", "princely_state", "modern_state"}
+_VAGUE_TYPES = {"unresolved", "unspecified", "", "not_geography", "native_states_agg"}
+
+
+def _dochash(tid):
+    m = _DOC.search(tid or "")
+    return m.group(1) if m else ""
+
+
+def resolve_geographies(meta, geo):
+    """Every table is from one provincial census volume, so tables sharing a source
+    document share a province. Resolve generic/unresolved geography by propagating the
+    document's 'home' province (modal province-level sibling) down to its vague tables."""
+    def base(tid):
+        gn = meta.get(tid, {}).get("geo_name", "")
+        g = geo.get(gn, {})
+        return {"canonical_name": g.get("canonical_name") or gn, "entity_type": g.get("entity_type", ""),
+                "parent_geo": g.get("parent", ""), "broad_region": g.get("broad_region", ""),
+                "geo_level": meta.get(tid, {}).get("geo_level", ""), "geo_source": "direct"}
+
+    docs = defaultdict(list)
+    for tid in meta:
+        docs[_dochash(tid)].append(tid)
+    home = {}
+    for d, tids in docs.items():
+        if not d:
+            continue
+        prov, rep = Counter(), {}
+        for tid in tids:
+            b = base(tid)
+            if b["entity_type"] in _PROVINCE_TYPES and (b["canonical_name"] or "").lower() not in _GENERIC_PLACE:
+                prov[b["canonical_name"]] += 1; rep[b["canonical_name"]] = b
+        if prov:
+            home[d] = rep[prov.most_common(1)[0][0]]
+        else:  # fallback 1: modal parent province of district siblings
+            par = Counter(base(t)["parent_geo"] for t in tids if base(t)["parent_geo"]
+                          and base(t)["parent_geo"] not in ("British India", "Native States"))
+            if par:
+                hp = par.most_common(1)[0][0]
+                reg = next((base(t)["broad_region"] for t in tids if base(t)["broad_region"]), "")
+                home[d] = {"canonical_name": hp, "entity_type": "british_province", "parent_geo": "British India",
+                           "broad_region": reg, "geo_level": "province", "geo_source": "direct"}
+            else:  # fallback 2: an all-India volume (only India-level siblings, e.g. 1881 imperial tables)
+                ai = next((base(t) for t in tids if base(t)["entity_type"] == "all_india"), None)
+                if ai:
+                    home[d] = ai
+
+    out = {}
+    for tid in meta:
+        b = base(tid)
+        h = home.get(_dochash(tid))
+        generic = (b["canonical_name"] or "").lower() in _GENERIC_PLACE
+        vague = b["entity_type"] in _VAGUE_TYPES
+        if h and (generic or vague):
+            out[tid] = {**h, "geo_source": "doc_propagated"}          # replace fully with volume's province
+        elif h and not b["broad_region"]:
+            out[tid] = {**b, "broad_region": h["broad_region"],
+                        "parent_geo": b["parent_geo"] or h["canonical_name"], "geo_source": "region_propagated"}
+        else:
+            out[tid] = b
+    return out
+
+
 def status_map():
     """table_id -> pipeline status for the catalog."""
     st = {}
@@ -149,6 +220,7 @@ def clean_synth_persons(facts):
 def main():
     geo = load_geo()
     meta = load_meta()
+    geores = resolve_geographies(meta, geo)   # doc-propagated geography (every table tied to its volume's province)
     status = status_map()
     ovp = os.path.join(V1, "manual_overrides.json")
     ov = __import__("json").load(open(ovp)) if os.path.exists(ovp) else {"title": {}, "note": {}, "status": {}}
@@ -196,8 +268,7 @@ def main():
     # 3) emit unified facts
     def denorm(t):
         m = meta.get(t, {})
-        gn = m.get("geo_name", "")
-        g = geo.get(gn, {})
+        gx = geores.get(t, {})
         yr = m.get("year", "")
         dec = (yr[:3] + "0s") if yr[:3].isdigit() else ""
         stt = ov["status"].get(t) or status.get(t, "confirmed_sent" if t in confirmed_tables else "recovered")
@@ -206,9 +277,9 @@ def main():
         return {
             "subject": subject, "measure_class": measure_class, "additive": additive,
             "year": yr, "decade": dec,
-            "canonical_name": g.get("canonical_name", "") or gn,
-            "entity_type": g.get("entity_type", ""), "parent_geo": g.get("parent", ""),
-            "broad_region": g.get("broad_region", ""), "geo_level": m.get("geo_level", ""),
+            "canonical_name": gx.get("canonical_name", ""),
+            "entity_type": gx.get("entity_type", ""), "parent_geo": gx.get("parent_geo", ""),
+            "broad_region": gx.get("broad_region", ""), "geo_level": gx.get("geo_level", ""),
             "canonical_topic": m.get("canonical_topic", ""), "table_family": m.get("table_family", ""),
             "measure_category": m.get("measure_category", ""),
             "source_image": m.get("source_image", ""),
@@ -265,8 +336,7 @@ def main():
         w.writeheader()
         for t in sorted(all_tids):
             m = meta.get(t, {})
-            gn = m.get("geo_name", "")
-            g = geo.get(gn, {})
+            gx = geores.get(t, {})
             yr = m.get("year", "")
             dp, ac = dims_present.get(t, ("", ""))
             ttl = ov["title"].get(t) or m.get("title", "")
@@ -276,9 +346,9 @@ def main():
                 "subject": subj, "measure_class": meas, "additive": addv,
                 "review_note": ov["note"].get(t, ""),
                 "year": yr, "decade": (yr[:3] + "0s") if yr[:3].isdigit() else "",
-                "canonical_name": g.get("canonical_name", "") or gn,
-                "entity_type": g.get("entity_type", ""), "parent_geo": g.get("parent", ""),
-                "broad_region": g.get("broad_region", ""), "geo_level": m.get("geo_level", ""),
+                "canonical_name": gx.get("canonical_name", ""),
+                "entity_type": gx.get("entity_type", ""), "parent_geo": gx.get("parent_geo", ""),
+                "broad_region": gx.get("broad_region", ""), "geo_level": gx.get("geo_level", ""),
                 "canonical_topic": m.get("canonical_topic", ""), "table_family": m.get("table_family", ""),
                 "measure_category": m.get("measure_category", ""), "dims_present": dp,
                 "age_coverage": ac, "n_facts": fcount.get(t, 0),

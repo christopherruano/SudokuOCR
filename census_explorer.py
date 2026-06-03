@@ -352,47 +352,8 @@ def build_table_csv(t, matrices):
     return out.getvalue()
 
 
-TREE_PAGE = """
-<!doctype html><html><head><meta charset=utf-8><title>Census — browse the tree</title>
-<style>
- body{font:14px/1.55 system-ui,sans-serif;margin:0;color:#1a1a1a}
- header{background:#2c3e50;color:#fff;padding:12px 22px} header a{color:#9cf;margin-right:14px}
- .bar{padding:10px 22px;background:#f4f6f8;border-bottom:1px solid #dde}
- .wrap{padding:14px 26px}
- details{margin:2px 0} summary{cursor:pointer;padding:2px 0;outline:none}
- .r>summary{font-weight:700;font-size:15px;color:#1f3a52}
- .s>summary{font-weight:600;color:#2c5d82}
- .p>summary{color:#345}
- details details{margin-left:18px;border-left:1px solid #e0e6ea;padding-left:12px}
- .cnt{color:#789;font-weight:400;font-size:12px}
- .pill{display:inline-block;background:#e8eef3;border-radius:9px;padding:0 7px;font-size:11px;color:#456;margin-left:4px}
- a.dl{font-size:11px;background:#27ae60;color:#fff;padding:1px 7px;border-radius:4px;text-decoration:none;margin-left:6px}
- a.tbl{text-decoration:none;color:#1a6} a.tbl:hover{text-decoration:underline}
- .yr{color:#a60;font-weight:600;margin-right:6px} .ttl{color:#333}
- select{padding:5px;border:1px solid #cce;border-radius:4px}
-</style></head><body>
-<header><b>Census — browse the tree</b>
- <a href="/tree">🌳 Tree</a><a href="/search">🔎 Find a table</a>
- <span class=cnt>region → province / state → district → year → table (click 🔍 for the matrix + scan)</span></header>
-<form class=bar method=get>
- Subject: <select name=subject onchange="this.form.submit()">
-   {% for s in subjects %}<option value="{{s}}" {{'selected' if s==subject else ''}}>{{s}}</option>{% endfor %}
- </select>
- Measure: <select name=measure_class onchange="this.form.submit()">
-   <option value="">(any)</option>
-   {% for m in measures %}<option value="{{m}}" {{'selected' if m==mc else ''}}>{{m}}</option>{% endfor %}
- </select>
- <span class=cnt>showing {{ '{:,}'.format(n_tables) }} tables. Click 🔍 to see a table's matrix beside its scan. ⬇ xlsx = download every table in that branch as formatted Excel.</span>
-</form>
-<div class=wrap>{{ tree_html|safe }}</div>
-</body></html>
-"""
-
-
-@app.route("/tree")
-def tree():
-    subject = request.args.get("subject", "population")
-    mc = request.args.get("measure_class", "count" if subject in ("population", "civil_condition", "religion") else "")
+def nav_data(subject, mc):
+    """Build the region -> province/state -> place -> tables hierarchy for navigation."""
     d = db()
     where = ["status IN ('confirmed_sent','recovered')", "subject=?"]
     params = [subject]
@@ -402,52 +363,175 @@ def tree():
         f"SELECT table_id, broad_region, parent_geo, canonical_name, entity_type, year, "
         f"n_facts, measure_class, title FROM tables WHERE {' AND '.join(where)} "
         f"ORDER BY broad_region, canonical_name, year", params).fetchall()
-
-    # region -> state/province -> place -> [tables]
     DISTRICTISH = {"district", "sub_district", "urban", "division"}
     tree = {}
     for r in rows:
-        reg = r["broad_region"] or "(unspecified region)"
-        state = (r["parent_geo"] if r["entity_type"] in DISTRICTISH and r["parent_geo"] else r["canonical_name"]) or "(unknown)"
-        place = r["canonical_name"] or "(unknown)"
-        tree.setdefault(reg, {}).setdefault(state, {}).setdefault(place, []).append(r)
+        reg = r["broad_region"] or "(unspecified)"
+        prov = (r["parent_geo"] if r["entity_type"] in DISTRICTISH and r["parent_geo"] else r["canonical_name"]) or "(unknown)"
+        node = tree.setdefault(reg, {}).setdefault(prov, {"etype": "province", "places": {}})
+        if r["canonical_name"] == prov and r["entity_type"]:
+            node["etype"] = r["entity_type"]
+        node["places"].setdefault(r["canonical_name"] or "(unknown)", []).append(r)
+    def lastsort(name):  # push "(unspecified)" / "(unknown)" to the bottom
+        return (name.startswith("("), name)
+    regions = []
+    for reg in sorted(tree, key=lastsort):
+        provs = []
+        for prov in sorted(tree[reg], key=lastsort):
+            node = tree[reg][prov]
+            places = []
+            for place in sorted(node["places"], key=lastsort):
+                tabs = sorted(node["places"][place], key=lambda r: str(r["year"]))
+                places.append({"name": place, "tables": [
+                    {"tid": t["table_id"], "year": str(t["year"] or ""), "measure": t["measure_class"],
+                     "title": (t["title"] or "")[:90], "n": t["n_facts"]} for t in tabs]})
+            provs.append({"name": prov, "etype": node["etype"],
+                          "n": sum(len(p["tables"]) for p in places), "places": places})
+        regions.append({"name": reg, "n": sum(p["n"] for p in provs), "provinces": provs})
+    return {"regions": regions, "n_tables": len(rows)}
 
-    def facts_of(rs):
-        return sum((x["n_facts"] or 0) for x in rs)
 
-    qsfx = f"&subject={subject}" + (f"&measure_class={mc}" if mc else "")
-    html = []
-    for reg in sorted(tree):
-        states = tree[reg]
-        rtabs = sum(len(v2) for v1 in states.values() for v2 in v1.values())
-        rfac = sum(facts_of(v2) for v1 in states.values() for v2 in v1.values())
-        html.append(f'<details class=r><summary>{reg} <span class=cnt>· {rtabs} tables</span> '
-                     f'<a class=dl href="/matrices.zip?region={up(reg)}{qsfx}" title="download all as Excel">⬇ xlsx</a></summary>')
-        for state in sorted(states):
-            places = states[state]
-            stabs = sum(len(v) for v in places.values())
-            etype = next(iter(places.values()))[0]["entity_type"] if places else ""
-            html.append(f'<details class=s><summary>{state} <span class=pill>{etype}</span> '
-                         f'<span class=cnt>· {stabs} tables</span> '
-                         f'<a class=dl href="/matrices.zip?subtree={up(state)}{qsfx}" title="download all as Excel">⬇ xlsx</a></summary>')
-            for place in sorted(places):
-                tabs = sorted(places[place], key=lambda x: str(x["year"]))
-                html.append(f'<details class=p><summary>{place} <span class=cnt>· {len(tabs)} tables</span> '
-                            f'<a class=dl href="/matrices.zip?geography={up(place)}{qsfx}" title="download all as Excel">⬇ xlsx</a></summary>')
-                for t in tabs:
-                    html.append(f'<div><span class=yr>{t["year"]}</span><span class=pill>{t["measure_class"]}</span> '
-                                f'<a class=tbl href="/table?tid={up(t["table_id"])}" target=_blank>🔍 '
-                                f'<span class=ttl>{(t["title"] or "")[:72]}</span></a> '
-                                f'<span class=cnt>({t["n_facts"]} facts)</span></div>')
-                html.append('</details>')
-            html.append('</details>')
-        html.append('</details>')
+MILLER_PAGE = """
+<!doctype html><html><head><meta charset=utf-8><title>Census — browse</title>
+<style>
+ *{box-sizing:border-box} body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a}
+ header{background:#2c3e50;color:#fff;padding:10px 20px} header a{color:#9cf;margin-right:14px;text-decoration:none}
+ .bar{padding:8px 20px;background:#f4f6f8;border-bottom:1px solid #dde;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+ select{padding:5px;border:1px solid #cce;border-radius:4px}
+ #crumb{padding:6px 20px;color:#456;font-size:13px;background:#fafbfc;border-bottom:1px solid #eee}
+ #cols{display:flex;height:calc(100vh - 134px);overflow-x:auto}
+ .col{width:250px;border-right:1px solid #e3e7ea;overflow-y:auto;flex:0 0 auto}
+ .colh{position:sticky;top:0;background:#eef3f7;padding:6px 10px;font-weight:600;font-size:11px;color:#456;text-transform:uppercase;letter-spacing:.4px;border-bottom:1px solid #dde;display:flex;justify-content:space-between;align-items:center;gap:6px}
+ .dl{font-size:10px;background:#1d6f42;color:#fff;padding:1px 6px;border-radius:4px;text-decoration:none;white-space:nowrap}
+ .item{padding:5px 10px;cursor:pointer;display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid #f2f4f6}
+ .item:hover{background:#f0f6ff} .item.sel{background:#dcebff}
+ .item .n{color:#8aa;font-size:11px;font-weight:400;white-space:nowrap} .chev{color:#9ab}
+ .pill{display:inline-block;background:#e8eef3;border-radius:8px;padding:0 6px;font-size:10px;color:#456}
+ .tbl{padding:6px 10px;border-bottom:1px solid #f2f4f6;text-decoration:none;color:#163;display:block}
+ .tbl:hover{background:#eafff1} .tbl .yr{color:#a60;font-weight:700;margin-right:5px}
+ .tbl .m{background:#e8eef3;border-radius:8px;padding:0 6px;font-size:10px;color:#456} .tbl .t{color:#333;font-size:12.5px}
+</style></head><body>
+<header><b>Census — browse</b> <a href="/tree">🗂 Columns</a><a href="/map">🗺 Map</a><a href="/search">🔎 Find</a>
+ <span style="opacity:.7;font-size:12px">region ▸ province/state ▸ place ▸ table — click across the columns</span></header>
+<div class=bar>
+ Subject <select id=subject onchange="reload()">__SUBJ__</select>
+ Measure <select id=measure onchange="reload()">__MEAS__</select>
+ <span style="color:#789;font-size:12px">🔍 a table opens its matrix beside the scan · ⬇ xlsx downloads that whole branch</span>
+</div>
+<div id=crumb></div>
+<div id=cols></div>
+<script>
+const DATA=__DATA__, SUBJECT=__SUBJECT__, MC=__MC__;
+const cols=document.getElementById('cols'), crumb=document.getElementById('crumb');
+let path=[];
+function sfx(){return '&subject='+encodeURIComponent(SUBJECT)+(MC?'&measure_class='+encodeURIComponent(MC):'');}
+function reload(){location.href='/tree?subject='+encodeURIComponent(subject.value)+'&measure_class='+encodeURIComponent(measure.value);}
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');}
+function dl(kind,name){const k={region:'region',province:'subtree',place:'geography'}[kind];
+ return '<a class=dl title="download all as Excel" href="/matrices.zip?'+k+'='+encodeURIComponent(name)+sfx()+'">⬇ xlsx</a>';}
+function clearFrom(i){while(cols.children.length>i)cols.removeChild(cols.lastChild);path=path.slice(0,i);drawCrumb();}
+function drawCrumb(){crumb.innerHTML='All India'+path.map(p=>' › <b>'+esc(p)+'</b>').join('');}
+function sel(col,el){[...col.querySelectorAll('.item')].forEach(x=>x.classList.remove('sel'));el.classList.add('sel');}
+function col(headHtml){const c=document.createElement('div');c.className='col';c.innerHTML='<div class=colh>'+headHtml+'</div>';return c;}
+function row(label,countHtml,onclick){const el=document.createElement('div');el.className='item';
+ el.innerHTML='<span>'+label+'</span><span class=n>'+countHtml+'</span>';el.onclick=()=>onclick(el);return el;}
 
+function showRegions(){
+ const c=col('Region');
+ DATA.regions.forEach(r=>c.appendChild(row(esc(r.name),r.n+' <span class=chev>▸</span>',el=>{
+   clearFrom(1);sel(c,el);path=[r.name];drawCrumb();cols.appendChild(showProvinces(r));})));
+ cols.appendChild(c);
+}
+function showProvinces(r){
+ const c=col('Province / State '+dl('region',r.name));
+ r.provinces.forEach(p=>c.appendChild(row(esc(p.name)+' <span class=pill>'+esc(p.etype)+'</span>',p.n+' <span class=chev>▸</span>',el=>{
+   clearFrom(2);sel(c,el);path=[r.name,p.name];drawCrumb();cols.appendChild(showPlaces(p));})));
+ return c;
+}
+function showPlaces(p){
+ const c=col('Place '+dl('province',p.name));
+ p.places.forEach(pl=>c.appendChild(row(esc(pl.name),pl.tables.length+' <span class=chev>▸</span>',el=>{
+   clearFrom(3);sel(c,el);path=path.slice(0,2).concat([pl.name]);drawCrumb();cols.appendChild(showTables(pl));})));
+ return c;
+}
+function showTables(pl){
+ const c=document.createElement('div');c.className='col';c.style.width='360px';
+ c.innerHTML='<div class=colh>Tables '+dl('place',pl.name)+'</div>';
+ pl.tables.forEach(t=>{const a=document.createElement('a');a.className='tbl';a.target='_blank';
+   a.href='/table?tid='+encodeURIComponent(t.tid);
+   a.innerHTML='<span class=yr>'+t.year+'</span><span class=m>'+t.measure+'</span> <span class=t>'+esc(t.title)+'</span>';
+   c.appendChild(a);});
+ return c;
+}
+drawCrumb();showRegions();
+const openReg=new URLSearchParams(location.search).get('open');
+if(openReg){const r=DATA.regions.find(x=>x.name===openReg);if(r){[...cols.children[0].querySelectorAll('.item')].find(e=>e.textContent.startsWith(r.name))?.click();}}
+</script></body></html>
+"""
+
+
+@app.route("/tree")
+def tree():
+    subject = request.args.get("subject", "population")
+    mc = request.args.get("measure_class", "count" if subject in ("population", "civil_condition", "religion") else "")
+    d = db()
+    data = nav_data(subject, mc)
     subjects = [r["v"] for r in d.execute("SELECT DISTINCT subject v FROM tables WHERE subject!='' ORDER BY 1")]
     measures = [r["v"] for r in d.execute("SELECT DISTINCT measure_class v FROM tables WHERE measure_class!='' ORDER BY 1")]
-    return render_template_string(TREE_PAGE, tree_html="".join(html), subject=subject, mc=mc,
-                                  subjects=subjects, measures=measures,
-                                  n_tables=len(rows), n_facts=sum((r["n_facts"] or 0) for r in rows))
+    subj_opts = "".join(f'<option {"selected" if s == subject else ""}>{s}</option>' for s in subjects)
+    meas_opts = '<option value="">(any)</option>' + "".join(
+        f'<option {"selected" if m == mc else ""}>{m}</option>' for m in measures)
+    import json as _json
+    html = (MILLER_PAGE.replace("__DATA__", _json.dumps(data)).replace("__SUBJECT__", _json.dumps(subject))
+            .replace("__MC__", _json.dumps(mc)).replace("__SUBJ__", subj_opts).replace("__MEAS__", meas_opts))
+    return Response(html, mimetype="text/html")
+
+
+MAP_POS = {  # rough geographic placement of broad_regions (top%, left%)
+    "Northwest Frontier": (7, 6), "North India": (8, 33), "Northeast India": (12, 73),
+    "Rajputana": (28, 17), "East India": (38, 66), "Central India": (40, 43),
+    "West India": (53, 19), "Burma": (44, 86), "South India": (70, 41),
+    "Andaman & Nicobar": (84, 80), "(unspecified)": (90, 8),
+}
+MAP_PAGE = """
+<!doctype html><html><head><meta charset=utf-8><title>Census — map</title>
+<style>
+ body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a}
+ header{background:#2c3e50;color:#fff;padding:10px 20px} header a{color:#9cf;margin-right:14px;text-decoration:none}
+ .map{position:relative;width:720px;height:760px;margin:18px auto;background:linear-gradient(#eaf2f8,#f6fafd);border:1px solid #dde;border-radius:10px}
+ .reg{position:absolute;width:150px;transform:translate(-50%,-50%);background:#fff;border:2px solid #2980b9;border-radius:10px;
+      padding:8px 10px;text-align:center;cursor:pointer;text-decoration:none;color:#1f3a52;box-shadow:0 1px 4px rgba(0,0,0,.12);transition:.12s}
+ .reg:hover{background:#2980b9;color:#fff;transform:translate(-50%,-50%) scale(1.06)}
+ .reg b{display:block;font-size:14px} .reg span{font-size:11px;opacity:.8}
+ .all{display:block;width:max-content;margin:0 auto 6px;background:#1f3a52;color:#fff;padding:7px 16px;border-radius:8px;text-decoration:none}
+ h2{text-align:center;margin:14px 0 0;color:#234}
+</style></head><body>
+<header><b>Census — map</b> <a href="/tree">🗂 Columns</a><a href="/map">🗺 Map</a><a href="/search">🔎 Find</a>
+ <span style="opacity:.7;font-size:12px">click a region → drills into the columns</span></header>
+<h2>British India & the Princely States — by region</h2>
+__ALL__
+<div class=map>__BOXES__</div>
+</body></html>
+"""
+
+
+@app.route("/map")
+def census_map():
+    d = db()
+    rows = d.execute("SELECT broad_region, COUNT(*) n FROM tables WHERE status IN "
+                     "('confirmed_sent','recovered') AND broad_region!='' GROUP BY broad_region").fetchall()
+    counts = {r["broad_region"]: r["n"] for r in rows}
+    boxes = []
+    for reg, (top, left) in MAP_POS.items():
+        if reg == "(unspecified)" or reg not in counts:
+            if reg != "All-India":
+                continue
+        n = counts.get(reg, 0)
+        boxes.append(f'<a class=reg style="top:{top}%;left:{left}%" href="/tree?open={up(reg)}">'
+                     f'<b>{reg}</b><span>{n} tables</span></a>')
+    alln = counts.get("All-India", 0)
+    allbox = f'<a class=all href="/tree?open=All-India">🇮🇳 All-India tables · {alln}</a>'
+    return Response(MAP_PAGE.replace("__BOXES__", "".join(boxes)).replace("__ALL__", allbox), mimetype="text/html")
 
 
 @app.route("/table")
