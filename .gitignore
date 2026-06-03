@@ -39,3 +39,7 @@ organized_results/
 
 # Map source geojsons (large; regions_svg.json is the small rendered output we keep)
 mapdata/*.geojson
+
+# Static site export (1.4GB; regenerate with build_static_site.py)
+census_site/
+mapdata/*.geojson
