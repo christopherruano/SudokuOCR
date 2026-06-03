@@ -137,6 +137,83 @@ def discover_schema_single(image_path):
     return None
 
 
+def _schema_prompt_text(schema, attr, default=""):
+    value = getattr(schema, attr, default) if schema else default
+    if value is None:
+        return default
+    if isinstance(value, (list, dict)):
+        return json.dumps(value, ensure_ascii=False)
+    return str(value)
+
+
+def _format_specific_sanity_guidance(schema):
+    """Prompt text that keeps extraction scale-aware before numbers are emitted."""
+    title = _schema_prompt_text(schema, "title").lower()
+    data_type = _schema_prompt_text(schema, "data_type").lower()
+    denominator = getattr(schema, "denominator", 0) if schema else 0
+    row_axis = _schema_prompt_text(schema, "row_axis_type").lower()
+    column_groups = " ".join(
+        str(cg.get("name", "")) + " " + " ".join(map(str, cg.get("sub_columns", [])))
+        for cg in (getattr(schema, "column_groups", []) or [])
+        if isinstance(cg, dict)
+    ).lower()
+    context = " ".join([title, data_type, row_axis, column_groups])
+
+    inferred_lines = []
+    if data_type == "proportional" and denominator:
+        inferred_lines.append(
+            f"- Schema discovery says this is a normalized/proportional table per {denominator:,}; "
+            "do NOT read these cells as raw population counts."
+        )
+    if any(token in context for token in ("per 1,000", "per 1000", "per mille", "per-mille", "of 1,000", "of 1000")):
+        inferred_lines.append(
+            "- If this is a distribution/proportion per 1,000, each bounded cell should be between 0 and 1,000. "
+            "A value like 10,000 or 12,345 is almost certainly a scale/alignment/decimal error unless the header clearly says it is a raw count or a sex-ratio/rate that can exceed 1,000."
+        )
+    if any(token in context for token in ("per 10,000", "per 10000", "of 10,000", "of 10000")):
+        inferred_lines.append(
+            "- If this is a distribution per 10,000, each bounded cell should be between 0 and 10,000. "
+            "Do not output larger values unless the source explicitly switches to raw counts."
+        )
+    if any(token in context for token in ("percent", "per cent", "percentage", "%")):
+        inferred_lines.append(
+            "- If this is a percent/per-cent table, values should normally be between 0 and 100; re-check any larger value. Preserve printed decimal points and decimal values, for example 0.25 or 12.34."
+        )
+    if any(token in context for token in ("mortality", "death", "deaths", "birth", "births")):
+        inferred_lines.append(
+            "- For mortality/birth/death tables, first decide whether the printed cells are raw events, rates, percentages, or ratios. Preserve decimal points, decimal values, and units; do not convert rates into counts."
+        )
+    if any(token in context for token in ("female per", "females per", "sex ratio", "per 1,000 males", "per 1000 males")):
+        inferred_lines.append(
+            "- Sex-ratio columns such as females per 1,000 males are ratios, not additive count columns. Values near or above 1,000 can be possible, but a 10,000-scale value should trigger re-reading."
+        )
+
+    if not inferred_lines:
+        inferred_lines.append(
+            "- Infer the unit from the printed title and headers before reading numbers: raw counts, per-1,000 distributions, per-10,000 distributions, percentages, rates, ratios, and indexes have different valid ranges."
+        )
+
+    return (
+        "\n\nFORMAT-SPECIFIC SANITY CHECKS:\n"
+        + "\n".join(inferred_lines)
+        + "\n- Before returning JSON, scan for impossible scale errors: bounded per-1,000 cells should not look like 10,000-scale counts, percent cells should not look like counts, and raw counts should not be forced to sum like rates.\n"
+        + "- If a value violates the table's scale, re-read the source cell, decimal point, row alignment, and column alignment. Correct the reading before output; do not add explanatory fields to the JSON."
+    )
+
+
+def _multi_table_page_instruction(target_section=None, target_group=None):
+    if target_section or target_group:
+        return ""
+    return (
+        "\n\nMULTIPLE PRINTED TABLES ON ONE IMAGE:\n"
+        "- If the page contains more than one printed table, statement, panel, or subtable, extract ALL of them.\n"
+        "- Keep each printed table separate as its own section with the exact printed title/statement/table number in the section name.\n"
+        "- Do NOT merge numbers across unrelated printed tables. Each section must preserve its own unit/base, row axis, column headers, and total/subtotal logic.\n"
+        "- If two visible subtables use different formats (for example percentage vs females-per-100-males, counts vs per-1,000, deaths vs death rates), keep them as separate sections rather than forcing them into one shared schema.\n"
+        "- If one printed table is a continuation of the same title/unit/columns, append it to the same logical section; otherwise split it."
+    )
+
+
 def build_oneshot_extraction_prompt(schema, persons_independent=False,
                                     target_section=None, target_group=None):
     """Generate a schema-tailored prompt for full multi-group extraction (Call 2).
@@ -184,10 +261,12 @@ def build_oneshot_extraction_prompt(schema, persons_independent=False,
         pmf_keys = '"persons": N, "males": N, "females": N'
     else:
         pmf_instruction = (
-            'Each group has sub-columns: "males", "females" (no Persons column in the image).\n'
-            "Compute persons = males + females for each row and include it in your output."
+            'Each group has sub-columns: "males", "females" (the printed table has NO Persons column).\n'
+            "Do NOT add or compute a Persons column — output only the printed males and females. "
+            "For rate/ratio/percentage tables a Persons figure is meaningless (you cannot add rates), "
+            "so never synthesize one."
         )
-        pmf_keys = '"persons": N, "males": N, "females": N'
+        pmf_keys = '"males": N, "females": N'
 
     # --- Row labels ---
     def _clean_label(label):
@@ -225,12 +304,26 @@ def build_oneshot_extraction_prompt(schema, persons_independent=False,
         denom = schema.denominator
         data_instruction = (
             f"\n\nIMPORTANT: This table shows proportions per {denom:,}, "
-            f"NOT absolute population counts. The Total row should equal exactly "
-            f"{denom:,} for Males and Females. "
-            "Use this constraint to verify your readings."
+            "rates, or another normalized quantity, NOT absolute population counts. "
+            "Read the title and headers to identify the base: the denominator may apply "
+            "across age rows, across civil-condition/religion columns, or within each "
+            "printed sex/year/section. Use that base to verify scale and relevant sums; "
+            "do not blindly force the Total row to equal the denominator."
         )
     else:
         data_instruction = ""
+    sanity_instruction = _format_specific_sanity_guidance(schema)
+
+    reading_guidance = (
+        "\n\nHOW TO READ EVERY TABLE TYPE (identify the unit from the title/headers first):\n"
+        "- Raw counts: integers; printed component rows and the two sexes add up.\n"
+        "- Per-1,000 / per-10,000 distributions: values are bounded by the base and sum to the base ONLY along the printed distribution axis; keep decimals.\n"
+        "- Percentages: values are 0-100; keep decimals.\n"
+        "- Rates (per mille, death/birth rates) and ratios (e.g. females per 1,000 males): keep decimals, do NOT add or sum across sexes, and there is NO persons figure.\n"
+        "- DECIMALS: preserve every printed decimal point exactly where it sits in the cell. A dot in the MIDDLE of a number is a decimal point, not dirt — 12.5 is 12.5, never 125; 0.84 is 0.84, never 84.\n"
+        "- ROTATION: if the table is printed sideways/rotated (often 90 degrees), read it in its correct upright orientation, mapping rows and columns as the printed table intends.\n"
+        "- PERSONS: include a Persons column ONLY if one is actually printed; never invent or compute one."
+    )
 
     # --- Cross-group constraints (skip when extracting a single group) ---
     cross_group_instruction = ""
@@ -259,6 +352,7 @@ def build_oneshot_extraction_prompt(schema, persons_independent=False,
         )
     else:
         section_instruction = ""
+    multi_table_instruction = _multi_table_page_instruction(target_section, target_group)
 
     # --- Target group (per-group extraction) ---
     group_instruction = ""
@@ -282,7 +376,7 @@ Extract ALL data from this table into structured JSON.
 Column groups in this table: [{groups_str}]
 {pmf_instruction}
 
-{row_instruction}{subtotal_instruction}{data_instruction}{cross_group_instruction}{section_instruction}{group_instruction}
+{row_instruction}{subtotal_instruction}{data_instruction}{sanity_instruction}{reading_guidance}{multi_table_instruction}{cross_group_instruction}{section_instruction}{group_instruction}
 
 Return a JSON object with this structure:
 {{
@@ -306,17 +400,22 @@ Return a JSON object with this structure:
 }}
 
 RULES:
-1. All values as integers — NO commas, NO spaces in numbers
-2. ".." or "." in the table means 0
-3. Use null for truly illegible/missing values
-4. Include ALL {row_noun} rows and the printed Total row for each section
-5. If there is only one section, use the table title as the section name
-6. Be extremely careful with similar digits: 3 vs 8, 5 vs 6, 0 vs 9
+1. Return numeric cells as JSON numbers with NO commas and NO spaces.
+2. For raw count cells, use integers. For rates, percentages, ratios, averages, and other decimal-bearing cells, preserve the printed decimal point and numeric decimal value; do NOT round to an integer.
+3. If a column consistently shows two decimal places, keep the decimal value for every non-integer cell, e.g. 0.25, 1.50, 12.34. JSON may render 1.50 as 1.5, but do not convert it to 15 or 150.
+4. ".." or "." by itself in the table means 0. A leading decimal such as ".25" means 0.25, not 0.
+5. Use null for truly illegible/missing values
+6. Include ALL {row_noun} rows and the printed Total row for each section
+7. If there is only one section, use the table title as the section name
+8. Be extremely careful with similar digits and punctuation: 3 vs 8, 5 vs 6, 0 vs 9, decimal point vs dust/print speck
+9. If multiple printed tables are visible, extract every printed table separately; never drop a secondary printed table just because another one was easier to parse.
 
 VERIFY YOUR WORK before returning:
-{f"- Each row: Persons, Males, Females are INDEPENDENT — do NOT cross-check them" if persons_independent else "- Each row: Persons MUST equal Males + Females"}
-- Each section: Total row MUST equal the sum of all age rows below it
-- Cross-group sums must hold if applicable
+- First determine the table unit/base from the printed title and headers.
+{f"- Each row: Persons, Males, Females are INDEPENDENT — do NOT cross-check them" if persons_independent else "- For raw comparable count cells only: Persons MUST equal Males + Females"}
+- For raw count tables only: printed Total rows should equal the sum of their printed component rows.
+- For per-1,000/per-10,000/percentage/rate/ratio tables: verify scale and only enforce sums where the printed table defines that exact distribution base.
+- Cross-group sums must hold only where the printed headers define additive component groups.
 Re-examine any digits involved in a failed check.
 
 Return ONLY valid JSON. No explanation."""
@@ -403,42 +502,87 @@ def parse_response(raw_text, schema=None, persons_independent=False):
     meta.setdefault("row_axis_type", _schema_row_axis_type(schema))
     meta.setdefault("row_label_name", _schema_row_label_name(schema))
 
-    # If schema says no persons column AND persons are not independent,
-    # compute persons = males + females.  For "of each sex" tables
-    # (persons_independent=True), P is its own per-N distribution ≠ M+F.
-    if schema is not None and not schema.has_persons_column and not persons_independent:
-        for section in parsed["sections"]:
-            for row in section.get("rows", []):
-                for key, val in row.items():
-                    if key == "age":
-                        continue
-                    if isinstance(val, dict):
-                        m = val.get("males")
-                        f = val.get("females")
-                        if m is not None and f is not None:
-                            if val.get("persons") is None:
-                                val["persons"] = m + f
+    # NOTE: we deliberately do NOT synthesize persons = males + females when the
+    # printed table has no Persons column. Inventing persons was wrong for the
+    # many rate/ratio/percentage tables (you cannot add rates) and produced a
+    # spurious column reviewers kept asking to delete. If Persons isn't printed,
+    # the output keeps only the printed males/females; the P=M+F constraint then
+    # simply doesn't apply (it's only derived when a persons cell exists).
 
     return parsed
 
 
 def _normalize_value(val):
-    """Normalize a single cell value to int, 0, or None."""
+    """Normalize a single cell value to int, float, 0, or None."""
     if val is None:
         return None
     if isinstance(val, int):
         return val
     if isinstance(val, float):
-        return int(round(val))
+        return val
     s = str(val).strip()
     if s in ("..", ".", "-", "—", ""):
         return 0
+    if s.startswith(".") and len(s) > 1 and s[1].isdigit():
+        s = "0" + s
+    if s.startswith("-.") and len(s) > 2 and s[2].isdigit():
+        s = "-0" + s[1:]
     # Remove commas and spaces
-    s = s.replace(",", "").replace(" ", "")
+    s = s.replace(",", "").replace(" ", "").replace("·", ".")
+    if re.fullmatch(r"-?\d+", s):
+        return int(s)
+    if re.fullmatch(r"-?(?:\d+\.\d*|\d*\.\d+)", s):
+        try:
+            return float(s)
+        except ValueError:
+            return None
     try:
         return int(s)
     except ValueError:
         return None
+
+
+_VALID_TABLE_KINDS = {"count", "distribution", "percentage", "rate", "ratio", "index"}
+
+
+def infer_table_kind(schema=None, meta=None):
+    """Decide how a table's numbers must be verified.
+
+    Returns one of: count | distribution | percentage | rate | ratio | index.
+    Prefers the AI-declared schema.table_kind; otherwise infers from
+    data_type / denominator / title. Unknown proportional tables default to
+    "distribution" (keeps the existing sum-to-base behavior — no regression).
+    """
+    meta = meta or {}
+    declared = ((getattr(schema, "table_kind", "") if schema else "") or "").strip().lower()
+    aliases = {"absolute": "count", "counts": "count", "raw": "count",
+               "per_n": "distribution", "per_1000": "distribution",
+               "per_10000": "distribution", "proportional": "distribution",
+               "percent": "percentage"}
+    declared = aliases.get(declared, declared)
+    if declared in _VALID_TABLE_KINDS:
+        return declared
+
+    dtype = ((getattr(schema, "data_type", "") if schema else "") or meta.get("data_type", "")).lower()
+    denom = (getattr(schema, "denominator", 0) if schema else 0) or 0
+    title = ((getattr(schema, "title", "") if schema else "") or meta.get("title", "")).lower()
+
+    if dtype != "proportional" and denom == 0:
+        return "count"
+    # proportional family — disambiguate by title/headers
+    if denom == 100 or any(k in title for k in ("per cent", "per-cent", "percent", "percentage", "%")):
+        return "percentage"
+    if any(k in title for k in ("females per", "female per", "males per", "per 1,000 males",
+                                "per 1000 males", "per 100 males", "to 100 males", "sex ratio",
+                                "ratio of", " ratio")):
+        return "ratio"
+    if any(k in title for k in ("death rate", "birth rate", "death-rate", "birth-rate",
+                                "per mille", "mortality rate", "rate per", "rate of", "vital rate")):
+        return "rate"
+    if any(k in title for k in ("index",)):
+        return "index"
+    # default proportional -> distribution (cells sum to base along an axis)
+    return "distribution"
 
 
 # ---------------------------------------------------------------------------
@@ -493,6 +637,16 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         if "of each sex" in title_lower or "each sex" in title_lower:
             persons_independent = True
 
+    # Decide how this table must be verified (AI-declared, else inferred).
+    kind = infer_table_kind(schema, meta)
+    # Only raw-count tables obey Persons = Males + Females.
+    enforce_pmf = (kind == "count")
+    # Signed change/variation figures (e.g. "percentage of variation, increase
+    # or decrease") can be negative — skip non-negativity/bounds for those.
+    _title_l = ((meta.get("title") or "") or (getattr(schema, "title", "") if schema else "")).lower()
+    allow_negative = any(w in _title_l for w in
+                         ("variation", "increase", "decrease", "change", "growth", "gain", "loss"))
+
     row_label_name = _schema_row_label_name(schema) if schema else "age"
 
     constraints = {
@@ -500,6 +654,8 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
         "L2_vertical": [],
         "L2_subtotal": [],
         "is_proportional": is_proportional,
+        "table_kind": kind,
+        "bounds": None,
         "L3_cross_group": None,
         "L4_cross_section": None,
         "L5_non_negative": [],
@@ -519,20 +675,23 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
                 if not isinstance(gdata, dict):
                     continue
 
-                # L1: P = M + F (skip for independent-column tables)
-                if not persons_independent:
+                # L1: P = M + F — only for raw COUNT tables. Rates, ratios,
+                # percentages and per-N distributions do not obey P=M+F (and
+                # "of each sex" distributions are persons_independent).
+                if enforce_pmf and not persons_independent:
                     p = gdata.get("persons")
                     m = gdata.get("males")
                     f = gdata.get("females")
                     if p is not None and m is not None and f is not None:
                         constraints["L1_row"].append((sec_name, age, group))
 
-                # L5: Non-negativity
-                for col in ("persons", "males", "females"):
-                    v = gdata.get(col)
-                    if v is not None:
-                        constraints["L5_non_negative"].append(
-                            (sec_name, age, group, col))
+                # L5: Non-negativity (skip for signed change/variation tables)
+                if not allow_negative:
+                    for col in ("persons", "males", "females"):
+                        v = gdata.get(col)
+                        if v is not None:
+                            constraints["L5_non_negative"].append(
+                                (sec_name, age, group, col))
 
         # L2: Vertical sum — find Total row
         # Exclude non-age rows like "Mean Age" from summation
@@ -877,17 +1036,20 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
                                 constraints["L2_subtotal"].append(
                                     (sec_name, group, col, norm_sub, norm_comps))
 
-        # Known totals for proportional tables
-        if schema.data_type == "proportional" and schema.denominator > 0:
-            denom = schema.denominator
-            if persons_independent:
-                # "of each sex" tables: P, M, F each independently sum to denom
-                kt = {"total": {"persons": denom, "males": denom, "females": denom}}
-            else:
-                kt = {"total": {"males": denom, "females": denom}}
-                if schema.has_persons_column:
-                    kt["total"]["persons"] = denom
-            constraints["known_totals"] = kt
+        # RELAXED, plausibility-first. Proportional tables get NO manufactured
+        # sum: a percentage need not total 100 (it may be a standalone figure),
+        # and a per-N base is often a guess we shouldn't hard-enforce. We only
+        # apply sane, denominator-INDEPENDENT bounds so the reading stays
+        # plausible without inventing failures. Counts keep their full sums above.
+        if kind == "percentage":
+            # ordinary proportions sit in 0-100; signed change/variation percentages
+            # can be negative or exceed 100, so leave those unbounded.
+            constraints["bounds"] = None if allow_negative else {"min": 0, "max": 100}
+        elif kind in ("distribution", "rate", "ratio", "index"):
+            # non-negativity only — no denominator-dependent upper bound and no
+            # forced sum (avoids false failures when the base/denominator is uncertain).
+            constraints["bounds"] = {"min": 0, "max": None}
+        # known_totals intentionally stays None for all proportional kinds.
 
         # Cross-group constraints from schema (if auto-detection missed)
         if schema.cross_group_constraints and constraints["L3_cross_group"] is None:
@@ -964,6 +1126,35 @@ def verify_all_constraints(parsed, constraints):
                     "detail": f"P={p} != M={m}+F={f}={m+f}",
                     "diff": p - (m + f),
                 })
+
+    # BOUNDS: per-type plausibility (percentages 0-100, per-1,000 cells <= base,
+    # rates/ratios non-negative). Catches dropped decimals that inflate scale.
+    bounds = constraints.get("bounds")
+    if bounds:
+        bmin = bounds.get("min")
+        bmax = bounds.get("max")
+        for section in sections:
+            sec_name = section.get("name", "")
+            for row in section.get("rows", []):
+                age = _row_label_value(row, row_label_name=row_label_name)
+                for group in groups:
+                    gdata = row.get(group)
+                    if not isinstance(gdata, dict):
+                        continue
+                    for col in ("persons", "males", "females"):
+                        v = gdata.get(col)
+                        if not isinstance(v, (int, float)):
+                            continue
+                        total_checks += 1
+                        if (bmin is not None and v < bmin) or (bmax is not None and v > bmax):
+                            failures.append({
+                                "level": "BOUNDS",
+                                "section": sec_name,
+                                "age": age,
+                                "group": group,
+                                "detail": f"{col}={v} outside [{bmin},{bmax}] for {constraints.get('table_kind')} table",
+                                "diff": 0,
+                            })
 
     # L2: Vertical sum (Total = sum of age rows)
     # Build set of intermediate subtotal keys to exclude from leaf sum.
@@ -1430,6 +1621,20 @@ carefully, examining each digit one by one.
 
 Cells to verify:
 {cells_list}
+
+Before returning values, identify the printed unit for these cells from the
+title and column headers. If the cells are bounded distributions per 1,000,
+values must be between 0 and 1,000; if they are per 10,000, values must be
+between 0 and 10,000; if they are percentages, values normally must be between
+0 and 100. A 10,000-scale value in a per-1,000 table is usually a decimal,
+digit grouping, or row/column alignment error. Rates and sex ratios are not
+additive population counts, but still re-check any order-of-magnitude outlier.
+If multiple printed tables are visible on the page, make sure each requested
+cell belongs to the named section/table and do not borrow values from another
+printed table.
+If the printed cell has a decimal point, return a JSON number with that decimal
+value. Do not round decimal rates/percentages to integers, and do not read
+".25" as 25 or 0.
 
 For each cell, return your reading as JSON array:
 [
@@ -3279,6 +3484,19 @@ Re-read ONLY these specific cells from the census table image:
 
 {chr(10).join(cells_desc)}
 
+Use the printed title and headers to determine the unit before writing numbers.
+For bounded per-1,000 distributions, do not return values above 1,000; for
+bounded per-10,000 distributions, do not return values above 10,000; for
+percentages, values should normally be 0-100. If a value looks 10x or 100x too
+large, re-check decimal points, digit grouping, and row/column alignment. Do not
+apply additive count checks to rates, percentages, or sex ratios unless the
+source explicitly provides comparable raw count cells.
+If multiple printed tables are visible, keep readings tied to the named
+section/table and do not merge values from neighboring printed tables.
+If the printed cell has a decimal point, return a JSON number with that decimal
+value. Do not round decimal rates/percentages to integers, and do not read
+".25" as 25 or 0.
+
 Return a JSON array:
 [
   {{"section": "...", "age": "...", "group": "...", "persons": N, "males": N, "females": N}}
@@ -3802,6 +4020,108 @@ def to_legacy_format(parsed):
 
 
 # ---------------------------------------------------------------------------
+# MoE fallback compatibility helpers
+# ---------------------------------------------------------------------------
+
+def _use_any_failure_moe_fallback():
+    """Whether MoE fallback should trigger on early pipeline failures."""
+    return os.environ.get("SUDOKUOCR_MOE_FALLBACK_ANY_FAILURE", "0") == "1"
+
+
+def _use_fast_moe_fallback():
+    """Whether MoE fallback should use the reduced 2x2 fast mode."""
+    return os.environ.get("SUDOKUOCR_MOE_FAST_MODE", "0") == "1"
+
+
+def _estimate_moe_api_calls(all_results, fast_mode):
+    """Estimate API calls for MoE extraction for logging/cost tracking."""
+    variant_reads = 4 if fast_mode else 12
+    group_runs = 0
+    for groups in all_results.values():
+        if isinstance(groups, dict):
+            group_runs += len(groups)
+    return 1 + (group_runs * variant_reads)
+
+
+def _parsed_from_moe_results(all_results, schema):
+    """Convert MoE multi-group results into the parsed shape used by oneshot."""
+    row_label_name = _schema_row_label_name(schema)
+    meta = {
+        "title": getattr(schema, "title", ""),
+        "region": getattr(schema, "region", ""),
+        "year": getattr(schema, "year", 0),
+        "data_type": getattr(schema, "data_type", "absolute"),
+        "row_axis_type": _schema_row_axis_type(schema),
+        "row_label_name": row_label_name,
+        "column_groups": [cg.get("name", "?")
+                          for cg in getattr(schema, "column_groups", [])],
+    }
+
+    schema_section_map = {}
+    for sec in getattr(schema, "sections", []) or []:
+        schema_section_map[sec.get("name", "")] = sec
+
+    parsed_sections = []
+    for sec_name, groups in all_results.items():
+        merged_rows = {}
+        insertion_order = []
+        schema_sec = schema_section_map.get(sec_name, {})
+        schema_labels = schema_sec.get("row_labels") or getattr(schema, "row_labels", [])
+
+        for group_name, gdata in groups.items():
+            for idx, row in enumerate(gdata.get("rows", [])):
+                label = _row_label_value(row, row_label_name=row_label_name)
+                if not label and idx < len(schema_labels):
+                    label = schema_labels[idx]
+                if not label:
+                    label = f"Row {idx + 1}"
+
+                row_key = _row_key(label, schema)
+                if not row_key:
+                    row_key = f"__row_{idx}"
+
+                if row_key not in merged_rows:
+                    merged_rows[row_key] = {row_label_name: label}
+                    _ensure_row_aliases(merged_rows[row_key], schema)
+                    insertion_order.append(row_key)
+
+                merged = merged_rows[row_key]
+                for field in TEXTUAL_ROW_FIELDS:
+                    value = row.get(field)
+                    if value is None:
+                        continue
+                    text = str(value).strip()
+                    if not text or text.lower() in ("none", "null"):
+                        continue
+                    if field not in merged or not str(merged.get(field) or "").strip():
+                        merged[field] = value
+
+                group_values = {}
+                for col in ("persons", "males", "females"):
+                    value = row.get(col)
+                    if value is not None:
+                        group_values[col] = value
+                if group_values:
+                    merged[group_name] = group_values
+
+        ordered_rows = []
+        seen = set()
+        for label in schema_labels:
+            row_key = _row_key(label, schema)
+            if row_key in merged_rows and row_key not in seen:
+                ordered_rows.append(merged_rows[row_key])
+                seen.add(row_key)
+        for row_key in insertion_order:
+            if row_key not in seen:
+                ordered_rows.append(merged_rows[row_key])
+                seen.add(row_key)
+
+        parsed_sections.append({"name": sec_name, "rows": ordered_rows})
+
+    return {"metadata": meta, "sections": parsed_sections}
+
+
+# ---------------------------------------------------------------------------
 # extract_and_verify() — main orchestrator
 # ---------------------------------------------------------------------------
 
@@ -3913,8 +4233,12 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
 
     if schema is None:
         print("  FAILED: Schema discovery returned None")
-        if fallback:
-            return _fallback_to_moe(image_path)
+        if fallback and _use_any_failure_moe_fallback():
+            return _fallback_to_moe(
+                image_path,
+                output_dir=effective_output_dir,
+                source_image_path=original_image_path,
+            )
         return None
 
     # Step 1b: Auto-rotate if schema says image is sideways
@@ -3935,8 +4259,12 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
         api_calls += 1
         if schema is None:
             print("  FAILED: Schema discovery on rotated image returned None")
-            if fallback:
-                return _fallback_to_moe(image_path)
+            if fallback and _use_any_failure_moe_fallback():
+                return _fallback_to_moe(
+                    image_path,
+                    output_dir=effective_output_dir,
+                    source_image_path=original_image_path,
+                )
             return None
         schema_elapsed = time.time() - t0
 
@@ -4015,8 +4343,12 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
 
         if not all_section_data:
             print("  FAILED: No sections extracted")
-            if fallback:
-                return _fallback_to_moe(image_path)
+            if fallback and _use_any_failure_moe_fallback():
+                return _fallback_to_moe(
+                    image_path,
+                    output_dir=effective_output_dir,
+                    source_image_path=original_image_path,
+                )
             return None
 
         # Build combined parsed structure
@@ -4112,8 +4444,12 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
 
             if not merged_rows_by_age:
                 print("  FAILED: No groups extracted")
-                if fallback:
-                    return _fallback_to_moe(image_path)
+                if fallback and _use_any_failure_moe_fallback():
+                    return _fallback_to_moe(
+                        image_path,
+                        output_dir=effective_output_dir,
+                        source_image_path=original_image_path,
+                    )
                 return None
 
             # Build parsed structure from merged per-group results
@@ -4142,8 +4478,12 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
             raw = None  # signal that we used per-group path
         elif raw is None:
             print("  FAILED: All API attempts failed")
-            if fallback:
-                return _fallback_to_moe(image_path)
+            if fallback and _use_any_failure_moe_fallback():
+                return _fallback_to_moe(
+                    image_path,
+                    output_dir=effective_output_dir,
+                    source_image_path=original_image_path,
+                )
             return None
 
         if raw is not None:
@@ -4157,8 +4497,12 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
     print("\nStep 2: Parse response")
     if parsed is None:
         print("  FAILED: Could not parse Gemini response")
-        if fallback:
-            return _fallback_to_moe(image_path)
+        if fallback and _use_any_failure_moe_fallback():
+            return _fallback_to_moe(
+                image_path,
+                output_dir=effective_output_dir,
+                source_image_path=original_image_path,
+            )
         return None
 
     n_sections = len(parsed.get("sections", []))
@@ -4297,7 +4641,11 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
 
         if not report["all_passed"] and fallback:
             print("\n  Falling back to MoE pipeline...")
-            return _fallback_to_moe(image_path)
+            return _fallback_to_moe(
+                image_path,
+                output_dir=effective_output_dir,
+                source_image_path=original_image_path,
+            )
 
     # Step 4d: Age ordering sanity check
     age_warnings = validate_age_ordering(parsed)
@@ -4400,22 +4748,133 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
     }
 
 
-def _fallback_to_moe(image_path):
-    """Fall back to the full MoE pipeline."""
+def _fallback_to_moe(image_path, output_dir=None, source_image_path=None):
+    """Fall back to the MoE pipeline and normalize outputs to oneshot format."""
     print("\n  --- Fallback to MoE pipeline ---")
     from schema_discovery import extract_table
-    result = extract_table(str(image_path), extract_all_groups=True,
-                            fast_mode=True)
-    if result is None:
-        return None
-    all_results, schema, passed, failures = result
-    return {
-        "method": "moe_fallback",
-        "all_results": all_results,
-        "schema": schema,
-        "passed": passed,
-        "failures": failures,
-    }
+
+    image_path = Path(image_path)
+    source_image_path = Path(source_image_path) if source_image_path else image_path
+    effective_output_dir = Path(output_dir) if output_dir else RESULTS_DIR
+    effective_output_dir.mkdir(parents=True, exist_ok=True)
+
+    parent = source_image_path.parent.name
+    stem = source_image_path.stem
+    if parent.isdigit() and not stem.endswith(f"_{parent}"):
+        stem = f"{stem}_{parent}"
+
+    xlsx_path = effective_output_dir / f"{stem}_oneshot.xlsx"
+    json_path = effective_output_dir / f"{stem}_oneshot.json"
+    csv_path = effective_output_dir / f"{stem}_oneshot.csv"
+    fast_mode = _use_fast_moe_fallback()
+    cleanup_path = image_path if image_path != source_image_path else None
+    t0 = time.time()
+
+    try:
+        result = extract_table(
+            str(image_path),
+            output_path=str(xlsx_path),
+            extract_all_groups=True,
+            fast_mode=fast_mode,
+        )
+        if result is None:
+            return None
+
+        all_results, schema, _passed, failures = result
+        parsed = _parsed_from_moe_results(all_results, schema)
+
+        persons_independent = False
+        if schema.data_type == "proportional":
+            title_lower = (schema.title or "").lower()
+            if "of each sex" in title_lower or "each sex" in title_lower:
+                persons_independent = True
+
+        constraints = derive_constraints(
+            parsed, schema=schema, persons_independent=persons_independent)
+        report = verify_all_constraints(parsed, constraints)
+        age_warnings = validate_age_ordering(parsed)
+        api_calls = _estimate_moe_api_calls(all_results, fast_mode)
+
+        acceptance = build_acceptance_assessment(
+            report,
+            age_warnings,
+            {
+                "api_calls": api_calls,
+                "initial_failures": len(failures) if failures else report["failed"],
+                "initial_total_checks": report["total_checks"],
+                "final_failures": report["failed"],
+                "age_warning_count": len(age_warnings),
+                "extraction_mode": "moe_fallback_fast" if fast_mode else "moe_fallback_full",
+                "extraction_attempt_failures": 0,
+                "targeted_recheck_used": False,
+                "l1_repair_count": 0,
+                "repair_entries_count": 0,
+                "repair_api_calls": 0,
+                "repair_phases_used": [],
+                "cross_group_active": bool(constraints.get("L3_cross_group")),
+                "cross_section_active": bool(constraints.get("L4_cross_section")),
+                "subtotal_checks": len(constraints.get("L2_subtotal", [])),
+            },
+        )
+        print(f"  Acceptance: {acceptance['decision']} "
+              f"(trust={acceptance['trust_score']})")
+
+        df = to_tidy_dataframe(parsed)
+        df.to_csv(csv_path, index=False)
+
+        json_output = {
+            "source_image": str(source_image_path),
+            "extraction_method": (
+                "moe_fallback_fast" if fast_mode else "moe_fallback_full"
+            ),
+            "api_calls": api_calls,
+            "elapsed_seconds": round(time.time() - t0, 1),
+            "metadata": parsed["metadata"],
+            "data": parsed["sections"],
+            "constraints": {
+                "total_checks": report["total_checks"],
+                "passed": report["passed"],
+                "failed": report["failed"],
+                "all_passed": report["all_passed"],
+                "failures": report["failures"],
+            },
+            "age_ordering_warnings": age_warnings,
+            "acceptance": acceptance,
+        }
+        with open(json_path, "w") as f:
+            json.dump(json_output, f, indent=2)
+
+        total_elapsed = time.time() - t0
+        print(f"  Fallback CSV: {csv_path} ({len(df)} rows)")
+        print(f"  Fallback JSON: {json_path}")
+        print(f"  Fallback XLSX: {xlsx_path}")
+        print(f"  Fallback done in {total_elapsed:.1f}s "
+              f"(~{api_calls} API calls, {report['failed']} failures)")
+
+        return {
+            "parsed": parsed,
+            "schema": schema,
+            "constraints": constraints,
+            "report": report,
+            "df": df,
+            "output_paths": {
+                "csv": str(csv_path),
+                "xlsx": str(xlsx_path),
+                "json": str(json_path),
+            },
+            "elapsed": total_elapsed,
+            "age_ordering_warnings": age_warnings,
+            "acceptance": acceptance,
+            "api_calls": api_calls,
+            "method": "moe_fallback",
+        }
+    finally:
+        if cleanup_path is not None:
+            try:
+                cleanup_path.unlink()
+                logger.info("Cleaned up rotated image: %s", cleanup_path.name)
+            except OSError:
+                pass
 
 
 # ---------------------------------------------------------------------------

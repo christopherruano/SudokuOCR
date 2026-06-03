@@ -5,21 +5,19 @@ It reads each table directory's metadata.json, summarizes canonical topics,
 relevance tiers, table titles, and optional OCR-result coverage.
 """
 
-from __future__ import annotations
-
 import argparse
 import json
 from collections import Counter
 from pathlib import Path
 
 
-def iter_table_dirs(root: Path):
+def iter_table_dirs(root):
     for path in sorted(root.iterdir()):
         if path.is_dir():
             yield path
 
 
-def load_metadata(table_dir: Path) -> dict | None:
+def load_metadata(table_dir):
     metadata_path = table_dir / "metadata.json"
     if not metadata_path.exists():
         return None
@@ -32,11 +30,11 @@ def load_metadata(table_dir: Path) -> dict | None:
     return payload.get("digitized_table")
 
 
-def count_pngs(table_dir: Path) -> int:
+def count_pngs(table_dir):
     return sum(1 for _ in table_dir.glob("*.png"))
 
 
-def result_status_counts(results_root: Path | None):
+def result_status_counts(results_root):
     counts = Counter()
     by_dir = Counter()
     if not results_root or not results_root.exists():
@@ -63,7 +61,7 @@ def result_status_counts(results_root: Path | None):
     return counts, by_dir
 
 
-def summarize(root: Path, results_root: Path | None = None):
+def summarize(root, results_root=None):
     topic_counts = Counter()
     relevance_counts = Counter()
     title_counts = Counter()
@@ -125,14 +123,14 @@ def summarize(root: Path, results_root: Path | None = None):
     }
 
 
-def print_counter(title: str, counter: Counter, limit: int = 20):
+def print_counter(title, counter, limit=20):
     print(f"\n{title}")
     print("-" * len(title))
     for key, value in counter.most_common(limit):
         print(f"{value:>6}  {key}")
 
 
-def main() -> None:
+def main():
     parser = argparse.ArgumentParser(description="Inspect digitized census table directories")
     parser.add_argument("root", help="digitized_tables root")
     parser.add_argument("--results-root", help="Optional OCR results root for coverage stats")

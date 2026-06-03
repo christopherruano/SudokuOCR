@@ -24,3 +24,15 @@ results_flash_test/
 
 # R history
 .Rhistory
+
+# Session: generated query dataset / explorer artifacts (large, regenerable from build scripts)
+*.sqlite
+*.bak
+*.bak.csv
+export_final/sendout_final/sendout_v1/unified_facts.csv
+export_final/sendout_final/sendout_v1/facts_sendout*.csv
+export_final/sendout_final/data/facts_*.csv
+.matplotlib_cache/
+# whole heavy export/result trees (images + machine output)
+export/
+organized_results/

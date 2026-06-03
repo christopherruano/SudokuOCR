@@ -1,0 +1,616 @@
+raw_geo_name,n_tables,canonical_name,entity_type,parent,broad_region,is_geography,note
+India,177,India,all_india,,All-India,1,
+Assam,97,Assam,british_province,British India,Northeast India,1,
+Mysore,65,Mysore,princely_state,Native States,South India,1,
+Bombay,65,Bombay,british_province,British India,West India,1,
+Baroda,60,Baroda,princely_state,Native States,West India,1,
+Central Provinces,58,Central Provinces and Berar,british_province,British India,Central India,1,
+Cochin,52,Cochin,princely_state,Native States,South India,1,
+Bengal,50,Bengal,british_province,British India,East India,1,
+Travancore,43,Travancore,princely_state,Native States,South India,1,
+Berar,43,Berar,british_province,Central Provinces and Berar,Central India,1,
+Central India,41,Central India Agency,agency,Native States,Central India,1,
+Punjab,41,Punjab,british_province,British India,North India,1,
+Unknown,40,,unspecified,,,0,generic placeholder
+Native States,38,Native States,native_states_agg,British India,All-India,1,aggregate of princely states
+Gwalior,36,Gwalior,princely_state,Central India Agency,Central India,1,
+Hyderabad,32,Hyderabad,princely_state,Deccan,South India,1,
+Cochin State,32,Cochin,princely_state,Native States,South India,1,
+Province,31,,unspecified,,,0,generic placeholder
+Madras,29,Madras,british_province,British India,South India,1,
+Eastern Division,25,Eastern Division,division,Bombay,West India,1,revenue division
+Rajasthan,23,Rajasthan,modern_state,Republic of India,Rajputana,1,
+United Provinces,21,United Provinces,british_province,British India,North India,1,
+Burma,21,Burma,british_province,British India,Burma,1,
+Provincial,20,,unspecified,,,0,generic placeholder
+Western Division,19,Western Division,division,Bombay,West India,1,revenue division
+/,18,,unspecified,,,0,generic placeholder
+Gwalior State,17,Gwalior,princely_state,Central India Agency,Central India,1,
+Rajputana,17,Rajputana Agency,agency,Native States,Rajputana,1,
+Mysore State,17,Mysore,princely_state,Native States,South India,1,
+State,16,,unspecified,,,0,generic placeholder
+Baroda State,15,Baroda,princely_state,Native States,West India,1,
+District,13,,unspecified,,,0,generic placeholder
+Kolar District,12,Kolar District,district,Mysore,South India,1,
+Madras Presidency,12,Madras,british_province,British India,South India,1,
+Provincial Total,12,,unspecified,,,0,generic placeholder
+Coorg,12,Coorg,british_province,British India,South India,1,
+Ajmer Merwara,11,Ajmer-Merwara,british_province,British India,Rajputana,1,
+Country,11,India,all_india,,All-India,1,
+Jammu and Kashmir,11,Jammu and Kashmir,princely_state,Native States,North India,1,
+State Summary,11,,unspecified,,,0,generic placeholder
+Merwara,11,Ajmer-Merwara,british_province,British India,Rajputana,1,
+North-West Frontier Province,10,North-West Frontier Province,british_province,British India,Northwest Frontier,1,
+Kashmir,10,Jammu and Kashmir,princely_state,Native States,North India,1,
+Ajmer,10,Ajmer-Merwara,british_province,British India,Rajputana,1,
+State Total,8,,unspecified,,,0,generic placeholder
+Rajputana Agency,8,Rajputana Agency,agency,Native States,Rajputana,1,
+Shimoga District,8,Shimoga District,district,Mysore,South India,1,
+Chitaldrug District,8,Chitaldrug District,district,Mysore,South India,1,
+Bangalore District,8,Bangalore District,district,Mysore,South India,1,
+Ajmer-Merwara,8,Ajmer-Merwara,british_province,British India,Rajputana,1,
+Tumkur District,8,Tumkur District,district,Mysore,South India,1,
+Mysore District,8,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+Hassan District,8,Hassan District,district,Mysore,South India,1,
+Kadur District,7,Kadur District,district,Mysore,South India,1,
+Mysore City,7,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+Kolar Gold Fields,7,Kolar Gold Fields,urban,Mysore,South India,1,city/town/ward
+Bangalore,7,Bangalore,district,Mysore,South India,1,matched by known parent place
+Pattanapuram Taluk,7,Pattanapuram Taluk,sub_district,Travancore,South India,1,taluk/township
+"Mysore State, excluding Civil and Military Station, Bangalore",7,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+Bangalore City,7,Bangalore City,urban,Mysore,South India,1,city/town/ward
+Bombay Presidency,6,Bombay,british_province,British India,West India,1,
+Whole Province,6,,unspecified,,,0,generic placeholder
+Calcutta,6,Calcutta,district,Bengal,East India,1,matched by known parent place
+Town,5,,unspecified,,,0,generic placeholder
+Tiruvalla Taluk,5,Tiruvalla Taluk,sub_district,Travancore,South India,1,taluk/township
+Central India Agency,5,Central India Agency,agency,Native States,Central India,1,
+Ratlam State,5,Ratlam,princely_state,Central India Agency,Central India,1,
+Changanachery Taluk,5,Changanachery Taluk,sub_district,Travancore,South India,1,taluk/township
+"Mysore State, including Civil and Military Station, Bangalore",5,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+Lower Chindwin District,5,Lower Chindwin District,district,Burma,Burma,1,
+Sagaing District,5,Sagaing District,district,Burma,Burma,1,
+Calcutta With Suburbs,5,Calcutta With Suburbs,district,Bengal,East India,1,matched by known parent place
+Kottarakara Taluk,4,Kottarakara Taluk,sub_district,,,1,taluk/township
+Todupuzha Taluk,4,Todupuzha Taluk,sub_district,Cochin,South India,1,taluk/township
+Medak,4,Medak,district,Hyderabad,South India,1,matched by known parent place
+Mavelikara Taluk,4,Mavelikara Taluk,sub_district,Travancore,South India,1,taluk/township
+"Mysore State excluding Civil and Military Station, Bangalore",4,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+"Bangalore, Kolar, Tumkur and Chitaldrug Taluks",4,"Bangalore, Kolar, Tumkur and Chitaldrug Taluks",sub_district,Mysore,South India,1,taluk/township
+Baroda Division,4,Baroda,princely_state,Native States,West India,1,matched canonical prefix
+unsorted,4,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Kadi Division,4,Kadi Division,division,Bombay,West India,1,revenue division
+Rajputana And Ajmer-Merwara,4,Rajputana Agency,agency,Native States,Rajputana,1,
+Western Divi,4,Western Divi,division,,,1,revenue division
+Ettumanur Taluk,4,Ettumanur Taluk,sub_district,Cochin,South India,1,taluk/township
+North-Western Provinces and Oudh,4,United Provinces,british_province,British India,North India,1,
+Madhya Pradesh,4,Madhya Pradesh,modern_state,Republic of India,Central India,1,
+British Districts,4,,unspecified,,,0,generic placeholder
+Chengannur Taluk,4,Chengannur Taluk,sub_district,Travancore,South India,1,taluk/township
+Neyyattinkara Taluk,4,Neyyattinkara Taluk,sub_district,Travancore,South India,1,taluk/township
+Minachil Taluk,4,Minachil Taluk,sub_district,,,1,taluk/township
+Vaikam Taluk,4,Vaikam Taluk,sub_district,Cochin,South India,1,taluk/township
+Trivandrum Taluk,4,Trivandrum Taluk,sub_district,Travancore,South India,1,taluk/township
+Mysore Province,4,Mysore,princely_state,Native States,South India,1,
+Karimnagar,4,Karimnagar,district,Hyderabad,South India,1,matched by known parent place
+Indore State,4,Indore,princely_state,Central India Agency,Central India,1,
+N.-W. F. P,4,North-West Frontier Province,british_province,British India,Northwest Frontier,1,
+Kashmir State,4,Jammu and Kashmir,princely_state,Native States,North India,1,
+Sandoway District,4,Sandoway District,district,Burma,Burma,1,
+Parbhani,3,Parbhani,district,Hyderabad,South India,1,matched by known parent place
+Baluchistan,3,Baluchistan,british_province,British India,Northwest Frontier,1,
+Kistna District,3,Kistna District,district,Madras,South India,1,
+Kunnatnad Taluk,3,Kunnatnad Taluk,sub_district,Cochin,South India,1,taluk/township
+Rajputana and Ajmer-Merwara,3,Rajputana Agency,agency,Native States,Rajputana,1,
+Nizamabad,3,Nizamabad,district,Hyderabad,South India,1,matched by known parent place
+British districts,3,,unspecified,,,0,generic placeholder
+Pegu District,3,Pegu District,district,Burma,Burma,1,
+Kalkulam Taluk,3,Kalkulam Taluk,sub_district,Travancore,South India,1,taluk/township
+Muvattupuzha Taluk,3,Muvattupuzha Taluk,sub_district,Cochin,South India,1,taluk/township
+Bombay State,3,Bombay State,modern_state,Republic of India,West India,1,
+Walkeshwar,3,Walkeshwar,district,Bombay,West India,1,matched by known parent place
+Jaora State,3,Jaora,princely_state,Central India Agency,Central India,1,
+Aurangabad,3,Aurangabad,district,Hyderabad,South India,1,matched by known parent place
+Calcutta and Suburbs,3,Calcutta and Suburbs,district,Bengal,East India,1,matched by known parent place
+Ambalapuzha Taluk,3,Ambalapuzha Taluk,sub_district,Travancore,South India,1,taluk/township
+Quilon Taluk,3,Quilon Taluk,sub_district,Travancore,South India,1,taluk/township
+Poona,3,Poona,district,Bombay,West India,1,matched by known parent place
+Adilabad,3,Adilabad,district,Hyderabad,South India,1,matched by known parent place
+Karachi,3,Karachi,district,Bombay,West India,1,matched by known parent place
+Karunagapalli Taluk,3,Karunagapalli Taluk,sub_district,Travancore,South India,1,taluk/township
+Indore City,3,Indore,princely_state,Central India Agency,Central India,1,matched canonical prefix
+City,3,,unspecified,,,0,generic placeholder
+Rajasthan and Ajmer,3,Rajputana Agency,agency,Native States,Rajputana,1,
+Prome District,3,Prome District,district,Burma,Burma,1,
+Tovala Taluk,3,Tovala Taluk,sub_district,Travancore,South India,1,taluk/township
+Kottayam Taluk,3,Kottayam Taluk,sub_district,Travancore,South India,1,taluk/township
+Kolar Gold Fields (City),3,Kolar Gold Fields (City),urban,Mysore,South India,1,city/town/ward
+Vilavankod Taluk,3,Vilavankod Taluk,sub_district,Travancore,South India,1,taluk/township
+Phunuswaree Section,3,Phunuswaree Section,urban,,,1,city/town/ward
+Nedumangad Taluk,3,Nedumangad Taluk,sub_district,Travancore,South India,1,taluk/township
+Surat,3,Surat,district,Bombay,West India,1,matched by known parent place
+Byculla,2,Byculla,district,Bombay,West India,1,matched by known parent place
+Bidar,2,Bidar,district,Hyderabad,South India,1,matched by known parent place
+Sholápur,2,Sholápur,district,Bombay,West India,1,matched by known parent place
+Uttar Pradesh,2,Uttar Pradesh,modern_state,Republic of India,North India,1,
+Shencottah Taluk,2,Shencottah Taluk,sub_district,Travancore,South India,1,taluk/township
+Jew,2,,not_geography,,,0,"religion/caste/community or table token, not a place"
+South Arcot District,2,South Arcot District,district,Madras,South India,1,
+Shertallay Taluk,2,Shertallay Taluk,sub_district,Travancore,South India,1,taluk/township
+Mahbubnagar,2,Mahbubnagar,district,Hyderabad,South India,1,matched by known parent place
+Orissa,2,Orissa,british_province,British India,East India,1,
+Eastern Divi,2,Eastern Divi,division,,,1,revenue division
+Parur Taluk,2,Parur Taluk,sub_district,Cochin,South India,1,taluk/township
+N.-W. Provinces and Oudh,2,United Provinces,british_province,British India,North India,1,
+Raichur,2,Raichur,district,Hyderabad,South India,1,matched by known parent place
+Kunnatnad Taluk / Alangad Taluk,2,Kunnatnad Taluk / Alangad Taluk,sub_district,Cochin,South India,1,taluk/township
+Rangoon Town District,2,Rangoon Town District,urban,Burma,Burma,1,city/town/ward
+Divisional Burma,2,Burma,british_province,British India,Burma,1,
+Kekri,2,Ajmer-Merwara,british_province,British India,Rajputana,1,
+Amraoti District,2,Amraoti District,district,,,1,
+Nander,2,Nander,district,Hyderabad,South India,1,matched by known parent place
+Dongree Section,2,Dongree Section,urban,Bombay,West India,1,city/town/ward
+"Mysore Province including Civil and Military Station, Bangalore",2,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+State Tables VII-A-C,2,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Kyaukpyu,2,Kyaukpyu,district,Burma,Burma,1,matched by known parent place
+Mahim,2,Mahim,district,Bombay,West India,1,matched by known parent place
+Agastisvaram Taluk / Eraniel Taluk,2,Agastisvaram Taluk / Eraniel Taluk,sub_district,Travancore,South India,1,taluk/township
+South Bihar,2,Bihar,british_province,British India,East India,1,
+British Territory,2,,unspecified,,,0,generic placeholder
+Muvattupuzha Taluk / Todupuzha Taluk,2,Muvattupuzha Taluk / Todupuzha Taluk,sub_district,Cochin,South India,1,taluk/township
+Nellore District,2,Nellore District,district,Madras,South India,1,
+Burma Proper,2,Burma,british_province,British India,Burma,1,
+Western Division - Females,2,Western Division - Females,division,Bombay,West India,1,revenue division
+Pattanapuram Taluk / Shencottah Taluk,2,Pattanapuram Taluk / Shencottah Taluk,sub_district,Travancore,South India,1,taluk/township
+Nedumangad Taluk / Chirayinkil Taluk,2,Nedumangad Taluk / Chirayinkil Taluk,sub_district,Travancore,South India,1,taluk/township
+Provincial Total of Literacy,2,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Eraniel Taluk / Kalkulam Taluk,2,Eraniel Taluk / Kalkulam Taluk,sub_district,Travancore,South India,1,taluk/township
+Gulbarga,2,Gulbarga,district,Hyderabad,South India,1,matched by known parent place
+Cuddapah District,2,Cuddapah District,district,Madras,South India,1,
+Tardeo,2,Tardeo,district,Bombay,West India,1,matched by known parent place
+Agastisvaram Taluk,2,Agastisvaram Taluk,sub_district,Travancore,South India,1,taluk/township
+Hilly,2,,unspecified,,,0,generic placeholder
+Others,2,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Kurnool District,2,Kurnool District,district,Madras,South India,1,
+Ratlam City,2,Ratlam,princely_state,Central India Agency,Central India,1,matched canonical prefix
+Provincial Summary,2,,unspecified,,,0,generic placeholder
+Kyaukpyu District,2,Kyaukpyu District,district,Burma,Burma,1,
+Highland Division,2,Highland Division,division,Bombay,West India,1,revenue division
+Alangad Taluk,2,Alangad Taluk,sub_district,Cochin,South India,1,taluk/township
+Parsi,2,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Dhobitalao,2,Dhobitalao,district,Bombay,West India,1,matched by known parent place
+North-West Provinces,2,United Provinces,british_province,British India,North India,1,
+Bellary District,2,Bellary District,district,Madras,South India,1,
+Hooghly,2,Hooghly,district,Bengal,East India,1,matched by known parent place
+Ettumanur Taluk / Kottayam Taluk,2,Ettumanur Taluk / Kottayam Taluk,sub_district,Travancore,South India,1,taluk/township
+Nat. States,2,,unspecified,,,0,generic placeholder
+Provincial and Urban,2,,unspecified,,,0,generic placeholder
+Peshawar Municipality,2,Peshawar Municipality,urban,North-West Frontier Province,Northwest Frontier,1,city/town/ward
+Bengal Presidency,2,Bengal,british_province,British India,East India,1,
+Chukla Section,2,Chukla Section,urban,,,1,city/town/ward
+Tharrawaddy District,2,Tharrawaddy District,district,Burma,Burma,1,
+Province (Districts),2,,unspecified,,,0,generic placeholder
+Bundelkhand Agency,2,Bundelkhand Agency,agency,Central India Agency,Central India,1,
+Market Section,2,Market Section,urban,Bombay,West India,1,city/town/ward
+The State,2,,unspecified,,,0,generic placeholder
+Tanjore District,2,Tanjore District,district,Madras,South India,1,
+Tovala Taluk / Agastisvaram Taluk,2,Tovala Taluk / Agastisvaram Taluk,sub_district,Travancore,South India,1,taluk/township
+Trans-Frontier Posts,2,North-West Frontier Province,british_province,British India,Northwest Frontier,1,
+North Arcot And Salem,2,North Arcot And Salem,district,Madras,South India,1,matched by known parent place
+North Western Provinces Oudh,2,United Provinces,british_province,British India,North India,1,
+N.-W. P. and Oudh,2,United Provinces,british_province,British India,North India,1,
+Vilavankod Taluk / Neyyattinkara Taluk,2,Vilavankod Taluk / Neyyattinkara Taluk,sub_district,Travancore,South India,1,taluk/township
+Sholapur,2,Sholapur,district,Bombay,West India,1,matched by known parent place
+Subsidiary,2,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Kartikappalli Taluk,2,Kartikappalli Taluk,sub_district,Travancore,South India,1,taluk/township
+Sheopur District,2,Sheopur District,district,Gwalior,Central India,1,
+Hyderabad City,2,Hyderabad,princely_state,Deccan,South India,1,matched canonical prefix
+Bhuleshwar,2,Bhuleshwar,district,Bombay,West India,1,matched by known parent place
+Bramho,2,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Appendix Ii,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Banganapalle And Sandur,1,Banganapalle,princely_state,Madras States,South India,1,matched canonical prefix
+Yamethin District,1,Yamethin District,district,Burma,Burma,1,
+ALLEPPY.-(Concluded) / KOTTAYAM,1,ALLEPPY.-(Concluded) / KOTTAYAM,district,Travancore,South India,1,matched by known parent place
+Easten Divi,1,Easten Divi,division,,,1,revenue division
+WN. and COUNTRY,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Brahmins of Kolar District,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Sion,1,Sion,district,Bombay,West India,1,matched by known parent place
+Khetwadi,1,Khetwadi,district,Bombay,West India,1,matched by known parent place
+Bhind District,1,Bhind District,district,Gwalior,Central India,1,
+Salween District / Thaton District,1,Salween District / Thaton District,district,Burma,Burma,1,
+Anglo-Indians,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Mahalaxmi,1,Mahalaxmi,district,Bombay,West India,1,matched by known parent place
+Feudatories,1,Native States,native_states_agg,British India,All-India,1,aggregate of princely states
+Kumbharwada,1,Kumbharwada,district,Bombay,West India,1,matched by known parent place
+Thongwa District,1,Thongwa District,district,Burma,Burma,1,
+Bombay Presidency including Native States,1,Bombay,british_province,British India,West India,1,
+Jammu and Kashmir State,1,Jammu and Kashmir,princely_state,Native States,North India,1,
+Navsari Division,1,Navsari Division,division,Bombay,West India,1,revenue division
+Provinces,1,,unspecified,,,0,generic placeholder
+United Provinces (British Territory),1,United Provinces,british_province,British India,North India,1,
+Darjeeling,1,Darjeeling,district,Bengal,East India,1,matched by known parent place
+Navsari,1,Navsari,district,Bombay,West India,1,matched by known parent place
+Hanthawaddy,1,Hanthawaddy,district,Burma,Burma,1,matched by known parent place
+Burma and India,1,India,all_india,,All-India,1,
+"State Total, Kanayannur, Mukundapuram, Trichur, Talappilli, Chittur",1,"State Total, Kanayannur, Mukundapuram, Trichur, Talappilli, Chittur",princely_state,Native States,South India,1,state suffix
+10-Etah District,1,10-Etah District,district,United Provinces,North India,1,
+Mahim Section,1,Mahim Section,urban,Bombay,West India,1,city/town/ward
+"Bhopal, Khilchipur, Narsinghgarh, Rajgarh",1,Bhopal,princely_state,Central India Agency,Central India,1,matched canonical prefix
+General/Sample,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Fort Southern Section,1,Fort Southern Section,urban,Bombay,West India,1,city/town/ward
+Hyderabad Province,1,Hyderabad,princely_state,Deccan,South India,1,
+Port Blair,1,Andaman and Nicobar Islands,british_province,British India,Andaman & Nicobar,1,
+Northern Division,1,Northern Division,division,Bombay,West India,1,revenue division
+Chitaldrug District Urban,1,Chitaldrug District Urban,district,Mysore,South India,1,
+Rajputana / Ajmer-Merwara,1,Rajputana Agency,agency,Native States,Rajputana,1,
+"Mandi And Suket, Hoshiarpur, Jullundur, Kapurthala",1,"Mandi And Suket, Hoshiarpur, Jullundur, Kapurthala",district,Punjab,North India,1,matched by known parent place
+Darrang,1,Darrang,district,Assam,Northeast India,1,matched by known parent place
+Kayankulam,1,Kayankulam,district,Travancore,South India,1,matched by known parent place
+"Coorg, Madras, Mysore",1,Coorg,british_province,British India,South India,1,matched canonical prefix
+Amritsar,1,Amritsar,district,Punjab,North India,1,matched by known parent place
+Nasirabad Town,1,Nasirabad Town,urban,,,1,city/town/ward
+"Sailana, Sitamau",1,Sailana,princely_state,Central India Agency,Central India,1,matched canonical prefix
+Total,1,,unspecified,,,0,generic placeholder
+British Districts and Natural Divisions,1,,unspecified,,,0,generic placeholder
+Jhabua,1,Jhabua,princely_state,Central India Agency,Central India,1,
+मुजफ्फरनगर जिला,1,मुजफ्फरनगर जिला,district,United Provinces,North India,1,matched by known parent place
+State and each Natural Division,1,State and each Natural Division,division,Bombay,West India,1,revenue division
+Mandvi,1,Mandvi,district,Bombay,West India,1,matched by known parent place
+"Civil and Military Station, Bangalore",1,"Civil and Military Station, Bangalore",district,Mysore,South India,1,matched by known parent place
+Pegu District. Kyauktan Township,1,Pegu District. Kyauktan Township,sub_district,Burma,Burma,1,taluk/township
+Lahore,1,Lahore,district,Punjab,North India,1,matched by known parent place
+Chandernagore,1,Chandernagore,district,Bengal,East India,1,matched by known parent place
+15-Shahjahanpur District,1,15-Shahjahanpur District,district,United Provinces,North India,1,
+Rangoon,1,Rangoon,district,Burma,Burma,1,matched by known parent place
+1-देहरादून जिला,1,1-देहरादून जिला,district,United Provinces,North India,1,matched by known parent place
+"Karimnagar, Adilabad",1,"Karimnagar, Adilabad",district,Hyderabad,South India,1,matched by known parent place
+Godavari,1,Godavari,district,Madras,South India,1,matched by known parent place
+Khara Talao,1,Khara Talao,district,Bombay,West India,1,matched by known parent place
+Chamba State,1,Chamba,princely_state,Punjab States,North India,1,matched canonical prefix
+Rewa,1,Central India Agency,agency,Native States,Central India,1,
+Simla Hill States,1,Punjab,british_province,British India,North India,1,
+Sikh,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Eastern Division.*,1,Eastern Division.*,division,Bombay,West India,1,revenue division
+"Plain, Northern",1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Ganjám District,1,Ganjám District,district,,,1,
+Bhamo District,1,Bhamo District,district,,,1,
+Mysore District Urban,1,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+Mathura District,1,Mathura District,district,,,1,
+Lower Provinces,1,Bengal,british_province,British India,East India,1,
+8-आगरा जिला,1,8-आगरा जिला,district,United Provinces,North India,1,matched by known parent place
+Dewas State J. B,1,Dewas State J. B,princely_state,Native States,,1,state suffix
+Travancore and India,1,Travancore,princely_state,Native States,South India,1,matched canonical prefix
+Edu- District,1,Edu- District,district,,,1,
+"Dhar, Jhabua, Rest Of Agency",1,"Dhar, Jhabua, Rest Of Agency",agency,Native States,,1,
+Hassan District Urban,1,Hassan District Urban,district,Mysore,South India,1,
+Ganjam and Vizagapatam,1,Ganjam and Vizagapatam,district,Madras,South India,1,matched by known parent place
+Nalgonda,1,Nalgonda,district,Hyderabad,South India,1,matched by known parent place
+MANDALAY DISTRICT-(including Mandalay City),1,MANDALAY DISTRICT-(including Mandalay City),urban,,,1,city/town/ward
+Girgaum. ZOROASTRIAN (PARSI),1,Girgaum. ZOROASTRIAN (PARSI),district,Bombay,West India,1,matched by known parent place
+"Selected Castes, Tribes and Races",1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Lower Colaba,1,Lower Colaba,district,Bombay,West India,1,matched by known parent place
+Rohilkhand Division,1,Rohilkhand Division,division,Bombay,West India,1,revenue division
+Plain,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Chikmagalur District Urban,1,Chikmagalur District Urban,district,,,1,
+British Empire,1,India,all_india,,All-India,1,
+Nilgiri District,1,Nilgiri District,district,,,1,
+Banaskantha Agency,1,Banaskantha Agency,agency,Native States,,1,
+Malabar And Anjengo,1,Malabar And Anjengo,district,Madras,South India,1,matched by known parent place
+Sandur State,1,Sandur,princely_state,Madras States,South India,1,matched canonical prefix
+Andamans and Nicobars,1,Andaman and Nicobar Islands,british_province,British India,Andaman & Nicobar,1,
+Wurlee Section,1,Wurlee Section,urban,,,1,city/town/ward
+Famine and Non-Famine Districts,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+BARODA DIVISION - (Exclusive of City.),1,Baroda,princely_state,Native States,West India,1,matched canonical prefix
+Kolar District Urban,1,Kolar District Urban,district,Mysore,South India,1,
+Koraput,1,Koraput,district,Madras,South India,1,matched by known parent place
+Coimbatore District,1,Coimbatore District,district,,,1,
+Meiktila District,1,Meiktila District,district,,,1,
+Merwara District,1,Merwara District,district,,,1,
+Byculla. ZOROASTRIAN (PARSI),1,Byculla. ZOROASTRIAN (PARSI),district,Bombay,West India,1,matched by known parent place
+रुहेलखंड डिवीजन,1,रुहेलखंड डिवीजन,division,United Provinces,North India,1,revenue division
+Kyaukse District,1,Kyaukse District,district,,,1,
+In Darjeeling,1,In Darjeeling,district,Bengal,East India,1,matched by known parent place
+Akyab District,1,Akyab District,district,Burma,Burma,1,
+Indian Christians (for dependent fertile women aged 45 and over),1,India,all_india,,All-India,1,matched canonical prefix
+British Districts excluding Sind,1,British Districts excluding Sind,unresolved,,,1,not matched - needs manual geo review
+Oombar-kharree Section,1,Oombar-kharree Section,urban,,,1,city/town/ward
+Aden,1,Aden,district,Bombay,West India,1,matched by known parent place
+Lower Chindwin District / Upper Chindwin District,1,Lower Chindwin District / Upper Chindwin District,district,Burma,Burma,1,
+Mazagaon. ZOROASTRIAN (PARSI),1,Mazagaon. ZOROASTRIAN (PARSI),district,Bombay,West India,1,matched by known parent place
+Rangoon Town,1,Rangoon Town,urban,Burma,Burma,1,city/town/ward
+Alipur Duars Subdivision,1,Alipur Duars Subdivision,district,Bombay,West India,1,matched by known parent place
+Ajmer City,1,Ajmer City,urban,,,1,city/town/ward
+Dongri,1,Dongri,district,Bombay,West India,1,matched by known parent place
+"Madras, Travancore, Cochin",1,Madras,british_province,British India,South India,1,matched canonical prefix
+Muzaffarnagar District,1,Muzaffarnagar District,district,United Provinces,North India,1,
+Ganjam Agency,1,Ganjam Agency,agency,Native States,South India,1,
+Okhamandal,1,Okhamandal,district,Baroda,West India,1,matched by known parent place
+Nellore And Cuddapah,1,Nellore And Cuddapah,district,Madras,South India,1,matched by known parent place
+Eastern Division-Females,1,Eastern Division-Females,division,Bombay,West India,1,revenue division
+Eastern,1,Eastern,unresolved,,,1,not matched - needs manual geo review
+Paungde Municipality,1,Paungde Municipality,urban,,,1,city/town/ward
+Kartikápalli Taluk,1,Kartikápalli Taluk,sub_district,,,1,taluk/township
+Pataudi State,1,Pataudi State,princely_state,Native States,,1,state suffix
+Calcutta And Suburbs,1,Calcutta And Suburbs,district,Bengal,East India,1,matched by known parent place
+Kolar Gold Fields City,1,Kolar Gold Fields City,urban,Mysore,South India,1,city/town/ward
+"Peshawar And Kohat, Kurram, Bannu And Dera Ismail Khan, Hazara, Peshawar, Kohat, Bannu And Dera Ismail Khan",1,"Peshawar And Kohat, Kurram, Bannu And Dera Ismail Khan, Hazara, Peshawar, Kohat, Bannu And Dera Ismail Khan",district,North-West Frontier Province,Northwest Frontier,1,matched by known parent place
+Jammu Province,1,Jammu and Kashmir,princely_state,Native States,North India,1,
+Fanaswadi,1,Fanaswadi,district,Bombay,West India,1,matched by known parent place
+Akyab,1,Akyab,district,Burma,Burma,1,matched by known parent place
+Ahmadabad,1,Ahmadabad,district,Bombay,West India,1,matched by known parent place
+Sewri. ZOROASTRIAN (PARSI),1,Sewri. ZOROASTRIAN (PARSI),district,Bombay,West India,1,matched by known parent place
+Famine and non-famine districts,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Dehra Dun District,1,Dehra Dun District,district,,,1,
+Punjab and the N. W. F. Province,1,Punjab,british_province,British India,North India,1,matched canonical prefix
+Bhuleshwar. ZOROASTRIAN (PARSI),1,Bhuleshwar. ZOROASTRIAN (PARSI),district,Bombay,West India,1,matched by known parent place
+"RAJGARH, REST OF AGENCY, Malwa Agency",1,"RAJGARH, REST OF AGENCY, Malwa Agency",agency,Native States,,1,
+Khara Talao. ZOROASTRIAN (PARSI),1,Khara Talao. ZOROASTRIAN (PARSI),district,Bombay,West India,1,matched by known parent place
+Maubin District / Pyapon District,1,Maubin District / Pyapon District,district,,,1,
+14-मुरादाबाद जिला,1,14-मुरादाबाद जिला,district,United Provinces,North India,1,matched by known parent place
+India beyond Bombay Presidency,1,India,all_india,,All-India,1,matched canonical prefix
+1st Nagpada,1,1st Nagpada,district,Bombay,West India,1,matched by known parent place
+"Gwalior, Isagarh, Malwa",1,Gwalior,princely_state,Central India Agency,Central India,1,matched canonical prefix
+Nahan State,1,Nahan State,princely_state,Native States,,1,state suffix
+Northern Township,1,Northern Township,sub_district,,,1,taluk/township
+Kurnool And Bellary,1,Kurnool And Bellary,district,Madras,South India,1,matched by known parent place
+Tóvala Taluk,1,Tóvala Taluk,sub_district,,,1,taluk/township
+the province and each natural division,1,the province and each natural division,division,Bombay,West India,1,revenue division
+Warli,1,Warli,district,Bombay,West India,1,matched by known parent place
+Presidency,1,Presidency,unresolved,,,1,not matched - needs manual geo review
+D.-Konkan,1,D.-Konkan,district,Bombay,West India,1,matched by known parent place
+Syrian Christians,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Kalsia State,1,Kalsia State,princely_state,Native States,,1,state suffix
+Madras City,1,Madras,british_province,British India,South India,1,matched canonical prefix
+11-बरेली जिला,1,11-बरेली जिला,district,United Provinces,North India,1,matched by known parent place
+Himalayas and Sub-Himalaya West,1,Himalayas and Sub-Himalaya West,unresolved,,,1,not matched - needs manual geo review
+Administrative Divisions,1,Administrative Divisions,division,Bombay,West India,1,revenue division
+Sind,1,Sind,british_province,British India,West India,1,
+Mergui District,1,Mergui District,district,,,1,
+State Summary excluding Gangapur,1,State Summary excluding Gangapur,princely_state,Native States,,1,state suffix
+Patiala State,1,Patiala State,princely_state,Native States,,1,state suffix
+Mainpuri District,1,Mainpuri District,district,,,1,
+Parel,1,Parel,unresolved,,,1,not matched - needs manual geo review
+Europe,1,Europe,unresolved,,,1,not matched - needs manual geo review
+BARODA DIVISION-(Exclusive of City),1,Baroda,princely_state,Native States,West India,1,matched canonical prefix
+Mandya District Urban,1,Mandya District Urban,district,,,1,
+Chingleput And Chittoor,1,Chingleput And Chittoor,unresolved,,,1,not matched - needs manual geo review
+Wun district and Pusad,1,Wun district and Pusad,district,,,1,
+Chakla,1,Chakla,unresolved,,,1,not matched - needs manual geo review
+Bolangir,1,Bolangir,unresolved,,,1,not matched - needs manual geo review
+"Harbour and Docks, Railways and Homeless. ZOROASTRIAN (PARSI)",1,"Harbour and Docks, Railways and Homeless. ZOROASTRIAN (PARSI)",unresolved,,,1,not matched - needs manual geo review
+Gujarat / Konkan,1,Gujarat / Konkan,district,Bombay,West India,1,matched by known parent place
+Travancore State,1,Travancore,princely_state,Native States,South India,1,matched canonical prefix
+Mysore State Rural,1,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+2nd Nagpada,1,2nd Nagpada,district,Bombay,West India,1,matched by known parent place
+Meerut Division,1,Meerut Division,division,Bombay,West India,1,revenue division
+"Harbour and Docks, Railways and Homeless",1,"Harbour and Docks, Railways and Homeless",unresolved,,,1,not matched - needs manual geo review
+मैनपुरी जिला,1,मैनपुरी जिला,unresolved,,,1,not matched - needs manual geo review
+Parsis,1,Parsis,unresolved,,,1,not matched - needs manual geo review
+Coimbatore And S. Arcot,1,Coimbatore And S. Arcot,unresolved,,,1,not matched - needs manual geo review
+Hindu,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Myingyan District,1,Myingyan District,district,,,1,
+Howrah City,1,Howrah City,urban,,,1,city/town/ward
+Ali-Rajpur,1,Ali-Rajpur,unresolved,,,1,not matched - needs manual geo review
+Western Division—Males,1,Western Division—Males,division,Bombay,West India,1,revenue division
+Jubbulpore Division,1,Jubbulpore Division,division,Bombay,West India,1,revenue division
+Warangal City,1,Warangal City,urban,Hyderabad,South India,1,city/town/ward
+"Assam, Bengal, and England",1,Assam,british_province,British India,Northeast India,1,matched canonical prefix
+15-शाहजहांपुर जिला,1,15-शाहजहांपुर जिला,unresolved,,,1,not matched - needs manual geo review
+Dewas State S. B,1,Dewas State S. B,princely_state,Native States,,1,state suffix
+Central India and Indore City,1,Central India and Indore City,urban,,,1,city/town/ward
+Ajaigarh,1,Ajaigarh,unresolved,,,1,not matched - needs manual geo review
+Hazara District / Peshawar District,1,Hazara District / Peshawar District,district,North-West Frontier Province,Northwest Frontier,1,
+Esplanade Section,1,Esplanade Section,urban,,,1,city/town/ward
+Beawar,1,Beawar,unresolved,,,1,not matched - needs manual geo review
+Kyaukse District / Meiktila District,1,Kyaukse District / Meiktila District,district,,,1,
+Katha District / Lower Chindwin District,1,Katha District / Lower Chindwin District,district,Burma,Burma,1,
+Mahaluxmee Section,1,Mahaluxmee Section,urban,,,1,city/town/ward
+12-Bijnor District,1,12-Bijnor District,district,,,1,
+Myaungmya District,1,Myaungmya District,district,,,1,
+the province,1,the province,unresolved,,,1,not matched - needs manual geo review
+Punjab and Delhi,1,Punjab,british_province,British India,North India,1,matched canonical prefix
+"Kathiawad, North Gujarat, South Gujarat",1,"Kathiawad, North Gujarat, South Gujarat",unresolved,,,1,not matched - needs manual geo review
+"Sitamau, Rest Of Agency",1,Sitamau,princely_state,Central India Agency,Central India,1,matched canonical prefix
+13-Budaun District,1,13-Budaun District,district,,,1,
+Osmanabad,1,Osmanabad,unresolved,,,1,not matched - needs manual geo review
+Lowland Division,1,Lowland Division,division,Bombay,West India,1,revenue division
+"Loharu, Rohtak",1,"Loharu, Rohtak",unresolved,,,1,not matched - needs manual geo review
+For British Districts including Sind and Aden,1,For British Districts including Sind and Aden,district,Bombay,West India,1,matched by known parent place
+Dhenkanal,1,Dhenkanal,unresolved,,,1,not matched - needs manual geo review
+Mohamedans only,1,Mohamedans only,unresolved,,,1,not matched - needs manual geo review
+Alleppey,1,Alleppey,unresolved,,,1,not matched - needs manual geo review
+Hilly Division,1,Hilly Division,division,Bombay,West India,1,revenue division
+Nabha State,1,Nabha State,princely_state,Native States,,1,state suffix
+"Hazara, Trans-Indus Districts",1,"Hazara, Trans-Indus Districts",unresolved,,,1,not matched - needs manual geo review
+"Pargana Pichhore, District Shivpuri, and Pargana Shajapur, District Shajapur",1,"Pargana Pichhore, District Shivpuri, and Pargana Shajapur, District Shajapur",district,,,1,
+Madura And Ramnad,1,Madura And Ramnad,unresolved,,,1,not matched - needs manual geo review
+Territory,1,Territory,unresolved,,,1,not matched - needs manual geo review
+"selected Castes, Tribes and Races",1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Hmawbi Township,1,Hmawbi Township,sub_district,,,1,taluk/township
+Mysore District Rural,1,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+England and Wales / Bombay Presidency,1,England and Wales / Bombay Presidency,unresolved,,,1,not matched - needs manual geo review
+Districts,1,Districts,unresolved,,,1,not matched - needs manual geo review
+Gwalior Residency Minor States,1,Gwalior,princely_state,Central India Agency,Central India,1,matched canonical prefix
+N.W.F. Province,1,N.W.F. Province,unresolved,,,1,not matched - needs manual geo review
+Malabar District,1,Malabar District,district,Madras,South India,1,
+"Mysore State including Civil and Military Station, Bangalore",1,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+"Bhopal City, Ratlam City",1,Bhopal,princely_state,Central India Agency,Central India,1,matched canonical prefix
+Ajmer district,1,Ajmer district,district,,,1,
+"Mysore Province excluding Civil and Military Station, Bangalore",1,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+"Amherst District, Tavoy District., Mergui District",1,"Amherst District, Tavoy District., Mergui District",district,,,1,
+Peshawar City (Municipality),1,Peshawar City (Municipality),urban,North-West Frontier Province,Northwest Frontier,1,city/town/ward
+Pudukkottai State,1,Pudukkottai State,princely_state,Native States,,1,state suffix
+"Rest Of Agency, Khaniadhana",1,"Rest Of Agency, Khaniadhana",agency,Native States,,1,
+Faridkot State,1,Faridkot State,princely_state,Native States,,1,state suffix
+12-बिजनौर जिला,1,12-बिजनौर जिला,unresolved,,,1,not matched - needs manual geo review
+Eastern Division - Males,1,Eastern Division - Males,division,Bombay,West India,1,revenue division
+Myebon Township,1,Myebon Township,sub_district,,,1,taluk/township
+South Canara. / Pudukkottai,1,South Canara. / Pudukkottai,unresolved,,,1,not matched - needs manual geo review
+Bengal Proper,1,Bengal,british_province,British India,East India,1,matched canonical prefix
+13-बदायूं जिला,1,13-बदायूं जिला,unresolved,,,1,not matched - needs manual geo review
+2-सहारनपुर जिला,1,2-सहारनपुर जिला,unresolved,,,1,not matched - needs manual geo review
+In Chutia Nagpur,1,In Chutia Nagpur,unresolved,,,1,not matched - needs manual geo review
+North West Frontier Province,1,North West Frontier Province,unresolved,,,1,not matched - needs manual geo review
+Wn. / Country,1,Wn. / Country,unresolved,,,1,not matched - needs manual geo review
+Buddhist,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+Ayadaw Township,1,Ayadaw Township,sub_district,,,1,taluk/township
+Oomburkharree Section,1,Oomburkharree Section,urban,,,1,city/town/ward
+District Ajmer,1,District Ajmer,district,,,1,
+Hyderabad State,1,Hyderabad,princely_state,Deccan,South India,1,
+Bangalore District Rural,1,Bangalore District Rural,district,Mysore,South India,1,
+Northern Ara,1,Northern Ara,unresolved,,,1,not matched - needs manual geo review
+Warangal,1,Warangal,district,Hyderabad,South India,1,matched by known parent place
+Specially Administered Territories,1,Specially Administered Territories,unresolved,,,1,not matched - needs manual geo review
+Brahmins of Shimoga District,1,Brahmins of Shimoga District,district,Mysore,South India,1,
+मेरठ डिवीजन,1,मेरठ डिवीजन,division,,,1,revenue division
+Variation in religions (Hinduism),1,Variation in religions (Hinduism),unresolved,,,1,not matched - needs manual geo review
+Cachar Plains,1,Cachar Plains,unresolved,,,1,not matched - needs manual geo review
+North-West Frontier Province including Trans-Frontier Posts,1,North-West Frontier Province,british_province,British India,Northwest Frontier,1,matched canonical prefix
+"Rajgarh, Rest Of Agency",1,"Rajgarh, Rest Of Agency",agency,Native States,,1,
+Delhi City,1,Delhi,british_province,British India,North India,1,matched canonical prefix
+10-एटा जिला,1,10-एटा जिला,unresolved,,,1,not matched - needs manual geo review
+Province and Districts,1,Province and Districts,unresolved,,,1,not matched - needs manual geo review
+Beawar Town,1,Beawar Town,urban,,,1,city/town/ward
+Chirayinkil Taluk,1,Chirayinkil Taluk,sub_district,Travancore,South India,1,taluk/township
+Amherst District,1,Amherst District,district,,,1,
+Northern Plateau Division,1,Northern Plateau Division,division,Bombay,West India,1,revenue division
+Toungoo District,1,Toungoo District,district,,,1,
+Karunagapalli Taluk / Kartikappalli Taluk,1,Karunagapalli Taluk / Kartikappalli Taluk,sub_district,Travancore,South India,1,taluk/township
+Esplanade,1,Esplanade,unresolved,,,1,not matched - needs manual geo review
+Aligarh District,1,Aligarh District,district,,,1,
+Bhir,1,Bhir,unresolved,,,1,not matched - needs manual geo review
+Girgaum Section,1,Girgaum Section,urban,Bombay,West India,1,city/town/ward
+Saharanpur District,1,Saharanpur District,district,,,1,
+Western Kathiawar Agency,1,Western Kathiawar Agency,agency,Native States,,1,
+Maler Kotla State,1,Maler Kotla State,princely_state,Native States,,1,state suffix
+Hazara and Trans-Indus Districts,1,Hazara and Trans-Indus Districts,unresolved,,,1,not matched - needs manual geo review
+Baroda and Bengal,1,Baroda,princely_state,Native States,West India,1,matched canonical prefix
+Thayetmyo District. / Minbu District,1,Thayetmyo District. / Minbu District,district,,,1,
+Tardeo. ZOROASTRIAN (PARSI),1,Tardeo. ZOROASTRIAN (PARSI),district,Bombay,West India,1,matched by known parent place
+Amreli,1,Amreli,unresolved,,,1,not matched - needs manual geo review
+Girgaum,1,Girgaum,district,Bombay,West India,1,matched by known parent place
+Shwebo District / Sagaing District,1,Shwebo District / Sagaing District,district,Burma,Burma,1,
+Civil and Military Station,1,Civil and Military Station,district,Mysore,South India,1,matched by known parent place
+"Bengal, Bihar, and Orissa",1,Bengal,british_province,British India,East India,1,matched canonical prefix
+India and European countries,1,India,all_india,,All-India,1,matched canonical prefix
+"Fort, North",1,"Fort, North",district,Bombay,West India,1,matched by known parent place
+Hill districts and Manipur,1,Hill districts and Manipur,unresolved,,,1,not matched - needs manual geo review
+High Range Division,1,High Range Division,division,Bombay,West India,1,revenue division
+District Merwara,1,District Merwara,district,,,1,
+"Mysore State, including Civil and Military station, Bangalore",1,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+Parell Section,1,Parell Section,urban,,,1,city/town/ward
+Isagarh Prant and Malwa Prant,1,Isagarh Prant and Malwa Prant,unresolved,,,1,not matched - needs manual geo review
+Eastern Division-Males,1,Eastern Division-Males,division,Bombay,West India,1,revenue division
+Rural,1,Rural,unresolved,,,1,not matched - needs manual geo review
+North-West Bihar,1,North-West Bihar,unresolved,,,1,not matched - needs manual geo review
+"Fort, South. ZOROASTRIAN (PARSI)",1,"Fort, South. ZOROASTRIAN (PARSI)",district,Bombay,West India,1,matched by known parent place
+Harbour,1,Harbour,unresolved,,,1,not matched - needs manual geo review
+"Bijawar, Charkhari, Chhatarpur, Datia, Orchha",1,"Bijawar, Charkhari, Chhatarpur, Datia, Orchha",unresolved,,,1,not matched - needs manual geo review
+Southern Shan States / Chin Hills,1,Southern Shan States / Chin Hills,unresolved,,,1,not matched - needs manual geo review
+"Bombay, England and Wales",1,Bombay,british_province,British India,West India,1,matched canonical prefix
+"DEWAS (Junior), JAORA, RATLAM, SAILANA, SITAMAU",1,"DEWAS (Junior), JAORA, RATLAM, SAILANA, SITAMAU",unresolved,,,1,not matched - needs manual geo review
+Chitaldrug District. / Western Division,1,Chitaldrug District. / Western Division,district,Mysore,South India,1,
+Western India States Agency,1,Western India States Agency,agency,Native States,,1,
+A.-For The Whole Province,1,A.-For The Whole Province,unresolved,,,1,not matched - needs manual geo review
+Umarkhadi,1,Umarkhadi,unresolved,,,1,not matched - needs manual geo review
+Territorial Distribution,1,Territorial Distribution,unresolved,,,1,not matched - needs manual geo review
+Mandi State,1,Mandi State,princely_state,Native States,North India,1,state suffix
+Northern Arakan District,1,Northern Arakan District,district,,,1,
+Kamatipura,1,Kamatipura,unresolved,,,1,not matched - needs manual geo review
+Meerut District,1,Meerut District,district,United Provinces,North India,1,
+"Bengal, Bihar and Orissa, Madras, Bombay",1,Bengal,british_province,British India,East India,1,matched canonical prefix
+Vizagapatam,1,Vizagapatam,district,Madras,South India,1,matched by known parent place
+11-Bareilly District,1,11-Bareilly District,district,,,1,
+Southern Division,1,Southern Division,division,Bombay,West India,1,revenue division
+Karunagapalli Taluk / Kartikapalli Taluk,1,Karunagapalli Taluk / Kartikapalli Taluk,sub_district,Travancore,South India,1,taluk/township
+India and Europe,1,India,all_india,,All-India,1,matched canonical prefix
+Gulbarga City,1,Gulbarga City,urban,Hyderabad,South India,1,city/town/ward
+Bangalore Corporaton,1,Bangalore Corporaton,district,Mysore,South India,1,matched by known parent place
+N.-W. F. Province,1,N.-W. F. Province,unresolved,,,1,not matched - needs manual geo review
+Assam Province,1,Assam,british_province,British India,Northeast India,1,matched canonical prefix
+Kawa Township,1,Kawa Township,sub_district,,,1,taluk/township
+Okhamandal Division,1,Okhamandal Division,division,Bombay,West India,1,revenue division
+Bannu District / Dera Ismail Khan District,1,Bannu District / Dera Ismail Khan District,district,,,1,
+Bhopal State,1,Bhopal,princely_state,Central India Agency,Central India,1,matched canonical prefix
+Nicobars (Excluding Shom Pen),1,Nicobars (Excluding Shom Pen),unresolved,,,1,not matched - needs manual geo review
+Trichinopoly District,1,Trichinopoly District,district,,,1,
+Northern Shan States,1,Northern Shan States,unresolved,,,1,not matched - needs manual geo review
+Mandya District Rural,1,Mandya District Rural,district,,,1,
+Sagaing,1,Sagaing,district,Burma,Burma,1,matched by known parent place
+5-Bulandshahr District,1,5-Bulandshahr District,district,,,1,
+Chaupati,1,Chaupati,unresolved,,,1,not matched - needs manual geo review
+Kurnool,1,Kurnool,district,Madras,South India,1,matched by known parent place
+Eraniel Taluk,1,Eraniel Taluk,sub_district,Travancore,South India,1,taluk/township
+Plateau,1,Plateau,unresolved,,,1,not matched - needs manual geo review
+Kolar District-Brahman Males,1,Kolar District-Brahman Males,district,Mysore,South India,1,
+Kolar,1,Kolar,district,Mysore,South India,1,matched by known parent place
+City of Calcutta,1,City of Calcutta,urban,Bengal,East India,1,city/town/ward
+"Province including Civil and Military Station, Bangalore",1,"Province including Civil and Military Station, Bangalore",district,Mysore,South India,1,matched by known parent place
+Muhammadans,1,Muhammadans,unresolved,,,1,not matched - needs manual geo review
+Myingyan District / Yamethin District,1,Myingyan District / Yamethin District,district,Burma,Burma,1,
+Gódávari Agency,1,Gódávari Agency,agency,Native States,,1,
+Tinnevelly And Nilgiris,1,Tinnevelly And Nilgiris,unresolved,,,1,not matched - needs manual geo review
+आगरा डिवीजन,1,आगरा डिवीजन,division,United Provinces,North India,1,revenue division
+उत्तर प्रदेश,1,उत्तर प्रदेश,unresolved,,,1,not matched - needs manual geo review
+Kottarakara Taluk / Pattanapuram Taluk,1,Kottarakara Taluk / Pattanapuram Taluk,sub_district,Travancore,South India,1,taluk/township
+"Mysore City, Mysore District",1,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+Feudatory States,1,Feudatory States,unresolved,,,1,not matched - needs manual geo review
+6-अलीगढ़ जिला,1,6-अलीगढ़ जिला,unresolved,,,1,not matched - needs manual geo review
+GIRD DISTRICT-(concld.) / BHIND DISTRICT,1,GIRD DISTRICT-(concld.) / BHIND DISTRICT,district,Gwalior,Central India,1,
+Changanachery Taluk / Minachil Taluk,1,Changanachery Taluk / Minachil Taluk,sub_district,Travancore,South India,1,taluk/township
+4-मेरठ जिला,1,4-मेरठ जिला,unresolved,,,1,not matched - needs manual geo review
+Tavoy District,1,Tavoy District,district,,,1,
+Selected Districts,1,Selected Districts,unresolved,,,1,not matched - needs manual geo review
+Henzada District,1,Henzada District,district,,,1,
+"Indore, Bhopal, Ratlam",1,Indore,princely_state,Central India Agency,Central India,1,matched canonical prefix
+Agra Division,1,Agra Division,division,Bombay,West India,1,revenue division
+Bir,1,Bir,unresolved,,,1,not matched - needs manual geo review
+Jain,1,,not_geography,,,0,"religion/caste/community or table token, not a place"
+British Districts only,1,British Districts only,unresolved,,,1,not matched - needs manual geo review
+Bangalore District Urban,1,Bangalore District Urban,district,Mysore,South India,1,
+Mavelikara Taluk / Chengannur Taluk,1,Mavelikara Taluk / Chengannur Taluk,sub_district,Travancore,South India,1,taluk/township
+Southern Plateau Division,1,Southern Plateau Division,division,Bombay,West India,1,revenue division
+Bellary,1,Bellary,district,Madras,South India,1,matched by known parent place
+"Western Division (Taluks of Manjarabad, Yedahalli and Tirthahalli)",1,"Western Division (Taluks of Manjarabad, Yedahalli and Tirthahalli)",sub_district,Bombay,West India,1,taluk/township
+MORENA DISTRICT-(concld.) / SHEOPUR DISTRICT,1,MORENA DISTRICT-(concld.) / SHEOPUR DISTRICT,district,Gwalior,Central India,1,
+"N. W. F. P., Sind And Baluchistan",1,"N. W. F. P., Sind And Baluchistan",unresolved,,,1,not matched - needs manual geo review
+Andaman and Nicobar,1,Andaman and Nicobar,unresolved,,,1,not matched - needs manual geo review
+Dhobi Talao,1,Dhobi Talao,unresolved,,,1,not matched - needs manual geo review
+Plain Division,1,Plain Division,division,Bombay,West India,1,revenue division
+Travancore-Cochin,1,Travancore,princely_state,Native States,South India,1,matched canonical prefix
+E.-Deccan,1,E.-Deccan,unresolved,,,1,not matched - needs manual geo review
+"Fort, South",1,"Fort, South",district,Bombay,West India,1,matched by known parent place
+Amreli Division,1,Amreli Division,division,Bombay,West India,1,revenue division
+Sewri,1,Sewri,district,Bombay,West India,1,matched by known parent place
+Mysore State Urban,1,Mysore,princely_state,Native States,South India,1,matched canonical prefix
+East Madhya Pradesh Division,1,East Madhya Pradesh Division,division,Bombay,West India,1,revenue division
+Market,1,Market,unresolved,,,1,not matched - needs manual geo review
+Mazagaon,1,Mazagaon,district,Bombay,West India,1,matched by known parent place
+Devikulam Division,1,Devikulam Division,division,Bombay,West India,1,revenue division
+Hanthawaddy District,1,Hanthawaddy District,district,Burma,Burma,1,
+5-बुलन्दशहर जिला,1,5-बुलन्दशहर जिला,unresolved,,,1,not matched - needs manual geo review
+Tarwadi,1,Tarwadi,unresolved,,,1,not matched - needs manual geo review
+City Of Baroda,1,City Of Baroda,urban,,,1,city/town/ward
+Aurangabad City,1,Aurangabad City,urban,Hyderabad,South India,1,city/town/ward
+Upper Colaba. ZOROASTRIAN (PARSI),1,Upper Colaba. ZOROASTRIAN (PARSI),district,Bombay,West India,1,matched by known parent place
+Jind State,1,Jind State,princely_state,Native States,,1,state suffix
+Delhi,1,Delhi,british_province,British India,North India,1,
+Punjab and North-West-Frontier Province,1,Punjab,british_province,British India,North India,1,matched canonical prefix
+Hassan,1,Hassan,district,Mysore,South India,1,matched by known parent place
+TRICHINOPOLY and MADURA,1,TRICHINOPOLY and MADURA,unresolved,,,1,not matched - needs manual geo review
+"Rest Of Agency, Ajaigarh, Baoni, Bijawar",1,"Rest Of Agency, Ajaigarh, Baoni, Bijawar",agency,Native States,,1,
+Western Bengal,1,Western Bengal,unresolved,,,1,not matched - needs manual geo review
+Shimoga District. - Brahmin Females,1,Shimoga District. - Brahmin Females,district,Mysore,South India,1,
+14-Moradabad District,1,14-Moradabad District,district,,,1,
+Telingana and Marathwara,1,Telingana and Marathwara,unresolved,,,1,not matched - needs manual geo review
+Central Division,1,Central Division,division,Bombay,West India,1,revenue division
+Tumkur,1,Tumkur,district,Mysore,South India,1,matched by known parent place
+Shimoga District-Brahmin Males,1,Shimoga District-Brahmin Males,district,Mysore,South India,1,
+Town of Calcutta,1,Town of Calcutta,urban,Bengal,East India,1,city/town/ward
+Cochin State - Natural Division: 'Malabar and Konkan',1,Cochin,princely_state,Native States,South India,1,matched canonical prefix
+Sandoway,1,Sandoway,district,Burma,Burma,1,matched by known parent place
+F.-Karnatak,1,F.-Karnatak,unresolved,,,1,not matched - needs manual geo review
+Banganapalle State,1,Banganapalle,princely_state,Madras States,South India,1,matched canonical prefix
+Pegu,1,Pegu,district,Burma,Burma,1,matched by known parent place
+Eastern Natural Division,1,Eastern Natural Division,division,Bombay,West India,1,revenue division
+Agra District,1,Agra District,district,United Provinces,North India,1,

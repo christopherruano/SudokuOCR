@@ -314,20 +314,29 @@ def process_one(image_path, output_dir, timeout=600, max_api_calls=0):
         signal.alarm(timeout)
 
     try:
-        kwargs = dict(fallback=False, output_dir=str(output_dir))
+        kwargs = dict(fallback=os.environ.get("SUDOKUOCR_MOE_FALLBACK") == "1",
+                      output_dir=str(output_dir))
         if max_api_calls > 0:
             kwargs["max_api_calls"] = max_api_calls
         result = extract_and_verify(image_path, **kwargs)
 
         if result is None:
             result_entry["status"] = "extraction_failed"
+        else:
+            api_calls = result.get("api_calls", 0)
+            if not api_calls:
+                api_calls = result.get("acceptance", {}).get(
+                    "signals", {}).get("api_calls", 0)
+            if api_calls:
+                result_entry["api_calls"] = api_calls
+
+        if result is None:
+            pass
         elif result.get("report", {}).get("all_passed", False):
             acceptance = result.get("acceptance", {})
             decision = acceptance.get("decision", "accepted_with_risk")
             result_entry["status"] = decision
             result_entry["checks"] = result["report"]["total_checks"]
-            result_entry["api_calls"] = acceptance.get(
-                "signals", {}).get("api_calls", 0)
             result_entry["acceptance"] = acceptance
         else:
             result_entry["status"] = "has_failures"

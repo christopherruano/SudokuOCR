@@ -1,0 +1,341 @@
+[
+ {
+  "question": "Sex ratio (females per 1000 males) for North India and Punjab provinces over time \u2014 is the documented female deficit/decline visible? subject=population, measure_class=count.",
+  "filters_used": "Primary: GET /facts.csv?subject=population&measure_class=count&region=North+India (12,265 facts). Cross-check: subtree=Punjab (6,390 facts, all broad_region=North India). Two single-table pulls via table_id= for human-readability inspection.",
+  "n_facts": 12265,
+  "plausibility": {
+   "verdict": "suspicious",
+   "evidence": "Within-table sex ratios (F/1000M) computed from Total rows or summed age bands are largely plausible and confirm the documented North-Indian female deficit: Punjab 1901 per-district Lahore 771, Amritsar 815, Gurdaspur 841, Chamba 928 (province tables 802-869); Delhi 1901 869; United Provinces 1901 ~913-918; Punjab 1911 906, J&K 866, Chamba 924, Mandi 933; UP 1951 901. All sit below the 1000 parity line, Punjab most severe (~800-870, below the 800-1050 plausible band's center and below typical South India ~920-980) \u2014 the deficit is clearly visible and matches history. However the slice is a sparse cross-section (years 1871,1881,1891,1901,1911,1951; only 23/25 tables have both sexes), so a clean monotonic decline cannot be resolved; and several values are corrupted (see anomalies), so verdict is suspicious rather than clean. Civil-condition additivity verified exact in the inspected Punjab Table VII (Population = Unmarried+Married+Widowed per district, e.g. Male 312544+229899+37057=579500)."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "/n/home11/cruano/census_toc/ocr_results/digitized_tables/723799e9d864dae3_t0006_AGE-SEX-AND-CIVIL-UNMARRIED-s-Mangre.-REMARKS--1-Persons.-Males.-Formales-Males-/991854c4cc56aab9ef8f35d7a50e030cc1b77d85_oneshot",
+    "readable": "yes",
+    "note": "Punjab 1901 'TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION)' district table. Coherent: ordered age bands (0 and under 1 ... 60 and over, with Total 0 and under 5 subtotals), sex=Male/Female/All, civil_condition=Population/Unmarried/Married/Widowed. Multi-section (Lahore, Amritsar, Gurdaspur, Chamba). Additivity exact: per district Population = U+M+W for both sexes. Real title and source_image PNG present. District sex ratios 771-928, all showing female deficit. Caveat: my province-level 'Total' aggregation summed across multiple section-totals, so use per-section totals not a single grand total."
+   },
+   {
+    "table_id": "United_Provinces/1901/9b499bab257d184d_t0005_s-edat-the-last-birthday-y-should-b-orded-children-under-of-100-000-of-each-sex-__6dac4d999d378eae4b5f7db35adc1a7389a9f0d3_oneshot",
+    "readable": "partial",
+    "note": "MISCLASSIFIED. Title: 'SUBSIDIARY TABLE V.-Showing deaths registered according to age and sex in the North-Western Provinces and Oudh during 1891-1900.' This is a registered-DEATHS table, not living population, yet tagged subject=population/measure_class=count/additive=1. row_label_std are calendar years 1891-1900 (mislabeled as age rows), not age bands. Total row = sum of yearly deaths (16,530,756 Male, verified). The 'ratio' 918 here is female-deaths per 1000 male-deaths, NOT a population sex ratio \u2014 must be excluded from sex-ratio analysis. Internally self-consistent (Total = sum of years) and has a real source_image, so partial readability."
+   }
+  ],
+  "anomalies": [
+   "Subject misclassification: UP 1901 table 9b499bab...t0005 is a registered-DEATHS subsidiary table (1891-1900) but tagged subject=population/measure_class=count; its row labels are years not ages. Pollutes any population sex-ratio query.",
+   "1871 table (title 'AGRICULTURAL') has Female=0 across all 15 rows while Male=19,719,416 \u2014 broken extraction giving ratio ~0.",
+   "1871 table ('The totals under each of the six classes...') gives Male 990,323 vs Female 17,690 (ratio 20.3) \u2014 implausible, broken.",
+   "1901 Punjab table summing to M=39,198 F=552 (ratio 14.1) \u2014 broken/partial female column.",
+   "1951 Uttar Pradesh fragment gives ratio 1419 (F>M, 24,913 M vs 35,361 F) \u2014 implausible, likely a partial/age-subset table.",
+   "Province-level 'Total' rows are duplicated across districts within multi-section tables (e.g. Punjab Table VII), so naive grand-totalling double/over-counts; correct totals require grouping by section, not table_id alone.",
+   "Sparse temporal coverage (no 1921/1931/1941 in this slice) prevents demonstrating a continuous decline; only individual census snapshots available."
+  ]
+ },
+ {
+  "question": "Child marriage among ages 0-15: share married/widowed vs unmarried, by sex and region. Expect females >> males, strongest in North.",
+  "filters_used": "curl -s \"http://127.0.0.1:5000/facts.csv?subject=civil_condition&measure_class=count\" (returned 205118 fact rows after parsing embedded newlines; wc -l undercounts). Then within-Python: age bands fully inside 0-15 (resolved_age_lower>=0, resolved_age_upper<=15), civil_condition in {Unmarried,Married,Widowed}, sex in {Male,Female}. Two tables pulled individually via ?table_id=... (India/1901 Burma TABLE VII; Bombay/1901 Zoroastrian Parsi TABLE VII).",
+  "n_facts": 205118,
+  "plausibility": {
+   "verdict": "ok",
+   "evidence": "Direction strongly confirmed: ever-married (married+widowed) share among 0-15 is far higher for females than males. Aggregate (all child bands): Female 1.03% vs Male 0.30%. Within single tables, 178/256 tables show Female pct_ever_married > Male. Caveat found and corrected: tables contain BOTH 1-year bands (0-1..4-5) AND aggregate bands (Total 0-5,5-10,10-15), so a naive upper<=15 filter double-counts the 0-5 range. Recomputing on clean non-overlapping 5-year buckets only gives Female 1.24% vs Male 0.32% (~4x), preserving the finding. Regional pattern matches history: highest child marriage in the central/north belt - Central India (F 14.85% / M 5.60%) and Rajputana (F 13.34% / M 6.32%); lowest in Burma (F 0.41%) and South India (F 1.02%). Northwest Frontier F 6.64% vs M 0.99% also shows the strong female skew. Absolute married counts in 0-1..4-5 bands are near zero (e.g. India/1901 Burma: 0 married at ages 0-4, married first appears at 10-15: F 11980, M 5005), which is demographically sensible."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "India/1901/210be2a99d999321_t0011_TABLE-VIl__6fb0960959c214e0e7d6e4b979ff251423be19b6_oneshot",
+    "readable": "yes",
+    "note": "Title 'TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STATES-BURMA.' (1901, Burma). 456 rows. Ordered age bands 0-1,1-2,...,4-5,Total 0-5,5-10,10-15,15-20...; sex All/Male/Female; civil_condition Population/Unmarried/Married/Widowed. source_image present (.../6fb0...png). Monotonic and sensible: 0 married at all single-year child ages, married emerges at 10-15 (F 11980 > M 5005 married; F 492 vs M 121 widowed) - female child-marriage skew visible in the raw cells."
+   },
+   {
+    "table_id": "Bombay/1901/683b6c742dc19d2c_t0014_zil-N-40-Thble-VII.-Age-Sex-and-Civil-Condition.-Tardo.-ZOROASTRIAN-PaRSD-M-RE-E__a5116adcf6b032e9fe63c2b81c24305719749a08_oneshot",
+    "readable": "yes",
+    "note": "Title 'Table VII. Age, Sex and Civil Condition.' (Zoroastrian/Parsi, 1901, West India). 456 rows, same coherent structure and ordered bands. source_image present. Child cells plausible: 0 married below age 10, at 10-15 F married 139 / M 35, F widowed 7 / M 3 - again female>male, smaller magnitudes fitting a small Parsi sub-population."
+   }
+  ],
+  "anomalies": [
+   "Age-band overlap within tables: each TABLE VII carries BOTH single-year bands (0-1..4-5) AND aggregate bands (Total 0-5, 5-10, 10-15). A filter on resolved_age_upper<=15 silently double-counts the 0-5 range; any total must dedupe to one band granularity. Corrected here by restricting to non-overlapping 5-year buckets.",
+   "Regional coverage uneven under clean 5-year bands: North India and East India use different age labels and drop out of the 0-5/5-10/10-15 aggregation, so the 'North' signal is carried by Central India, Rajputana, and Northwest Frontier rather than a 'North India' bucket. The broad_region column itself has ~45k NaN values plus stray garbage values ('age_civil_condition').",
+   "Data-hygiene noise in shared columns: civil_condition has one stray value '3.0' (1 row) besides Population/Unmarried/Married/Widowed; broad_region has a stray 'age_civil_condition' value (1 row). Minor, ~1 row each, but indicates occasional header/field-shift leakage.",
+   "Embedded newlines in the CSV mean shell wc -l (152238) badly undercounts the true 205118 parsed rows - line-count sanity checks on the raw file are unreliable; parse with pandas."
+  ]
+ },
+ {
+  "question": "Age structure (% under 15 / 15-59 / 60+) for a southern princely state (Mysore/Travancore) \u2014 plausible young population?",
+  "filters_used": "subject=population&measure_class=count&geography=Mysore (8743 facts); geography=Travancore (495 facts, no general age table). Per-table: Mysore 1921 TABLE VII (756 facts); Mysore 1901 Christian Mysore City (240 facts).",
+  "n_facts": 8743,
+  "plausibility": {
+   "verdict": "ok",
+   "evidence": "WITHIN Mysore 1921 TABLE VII (All Religions, Population, All sex): detail bands (excl overlapping Total 1-5) sum exactly to 5,859,952 = grand total. Under-15=38.3%, 15-59=55.4%, 60+=6.3%; sex ratio 963 F/1000M. Plausible young population (expected under-15 35-42%). Second table Mysore City Christian 1901: bands sum exactly to 2266; under-15=45.5%, 15-59=49.0%, 60+=5.5%."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "Mysore/1921/2e3b22a5d483a952_t0008_TABLE-VII__c134fb8bb9e8fa6418bd9b44e903458a76d91783_oneshot",
+    "readable": "yes",
+    "note": "Age/Sex/Civil Condition. Ordered bands 0-1..70+, sex+civil breakdowns, source_image present. Total Pop=5,859,952 (M=2,985,541 F=2,874,411); bands sum exactly to total. Overlapping aggregate Total 1-5=714,501 must be excluded."
+   },
+   {
+    "table_id": "Mysore/1901/99299a098f83bf53_t0024_Christian-MysoreCity_oneshot",
+    "readable": "yes",
+    "note": "Christian, Mysore City 1901. Ordered bands 0-1..60+, no empty values, source_image present. Bands sum exactly to Total all ages=2266; separate Total 5-60 and over=1946. title clean."
+   }
+  ],
+  "anomalies": [
+   "Overlapping band Total 1-5=714,501 duplicates 0-1..4-5; naive sum overcounts (6,574,453 vs 5,859,952).",
+   "Youngest band 0-1 carries under-1 count; ambiguous label.",
+   "Travancore has no general age-by-sex population count table (only Infirmities/literacy by age).",
+   "Table titles OCR-corrupted inside table_id; clean title column OK.",
+   "Two Total rows differ only in row_label_std (Total all ages vs Total 5-60 and over)."
+  ]
+ },
+ {
+  "question": "Burma age pyramid (region=Burma): is there a male-skewed working-age bulge consistent with labour migration? subject=population, measure_class=count.",
+  "filters_used": "curl -s \"http://127.0.0.1:5000/facts.csv?region=Burma&subject=population&measure_class=count\" (16432 facts). Per-table pyramids built WITHIN single tables: filtered sex in {Male,Female} and resolved_age_lower not null, then summed across the religion column_groups within ONE section (the district-total section) to avoid double-counting town-within-district and religion-overlap.",
+  "n_facts": 16432,
+  "plausibility": {
+   "verdict": "ok",
+   "evidence": "YES - a clear male-skewed working-age bulge exists in urban Burma, consistent with labour migration / garrison populations, while rural districts are balanced. RANGOON CANTONMENT 1891 (within one table+section, summed over religion columns): child sex ratios balanced (~957-1135 F/1000M ages 0-9) but working ages explode male: 15-19 = 792M/397F (SR 501), 20-24 = 1875M/387F (SR 206), 25-29 = 2204M/404F (SR 183), 30-34 = 1452M/281F (SR 194). Only ~18% under-15 (urban migrant profile). CONTRAST - rural THARRAWADDY DISTRICT 1891 is a textbook balanced pyramid: overall SR ~983, smooth monotonic decline with age, ~44.6% under-15 (high fertility rural), no working-age male bulge. So the migration skew is real and concentrated in the colonial port/garrison city, exactly as expected. Note the comparison only holds when totals are computed WITHIN one table/section; naive cross-table or cross-section sums double-count."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "Burma/1891/31d8f187d45cea3a_t0005_r-B-P-oli-j-EE-i-RANGOON-TOWN.-INCLUDING-MUNICIPALITY-CANTONMENT-AND-PORT-.-Tabi__bb2ea43982ebeed95e0ece7f63a1d995d57f5a68_oneshot",
+    "readable": "yes",
+    "note": "RANGOON CANTONMENT 1891 'Population by Sex, Age, Civil Condition, Education, Infirmities'. Coherent: ordered age bands 0-1..55-59, real title, source_image present. Working-age male bulge: 20-24 = 1875M vs 387F; 25-29 = 2204M vs 404F. Structural caveat: table has 2 sections (CANTONMENT + PORT) and religion is carried in column_group_std (the 'religion' column itself is inconsistently NaN), so a clean total requires restricting to one section and summing the religion column-groups once."
+   },
+   {
+    "table_id": "THARRAWADDY DISTRICT 1891 (table_id: Burma/1891/31d8f187d45cea3a_t0008_...KYAUKTAN-TownsHip...__... ; title 'THARRAWADDY DISTRICT.-Table showing Population, by Sex, Age, Civil Condition...')",
+    "readable": "yes",
+    "note": "Coherent rural pyramid, district total = 328,448. Ages 0-1..55-59 ordered, smooth monotonic decline, sex ratio balanced ~983 overall (e.g. 0-1: 5815F/5701M SR1020; 20-24: 16711F/15648M SR1068; 30-34: 10256F/12046M SR851). ~44.6% under-15. No migration skew - serves as the rural control. source_image present."
+   }
+  ],
+  "anomalies": [
+   "1901 'Burma / ALL RELIGIONS.' table yields impossible aggregates when its sections are summed: overall SR ~2209 F/1000M and ~83.5% under-15 - structurally broken for totals (its 3 sections/3 religions overlap; the 'ALL RELIGIONS' section is itself a total that must not be added to the per-religion sections).",
+   "Tables in this slice encode religion in BOTH the 'religion' column AND column_group_std, with 'religion' frequently NaN even on religion-specific rows; naive grouping by the religion column would mis-aggregate.",
+   "Most 1891 township tables (Sandoway, Kyaukpyu, Pegu, Lower Chindwin, etc.) report pctU15=100 and no parsed 15-59 bands - their upper age bands use labels that did not resolve into resolved_age_lower/upper for the working-age window, so working-age sex ratios are unavailable for them.",
+   "1911 'IMPERIAL TABLE VIII - Education by Religion and Age' was mislabeled in early survey as a population pyramid; it is a literacy/education table broken out by 12 religion sections - summing across its sections double-counts (produced spurious SR_wa 1026 vs SR_all 949).",
+   "Rangoon Cantonment has a few empty/zero cells in the NAT-WORSHIPPERS column group (value 0.0) for young ages, which is plausible (no nat-worshippers recorded) rather than missing data."
+  ]
+ },
+ {
+  "question": "Widowhood among older women: proportion widowed at ages 40+ by region (civil_condition). Expect high female widowhood.",
+  "filters_used": "Primary slice: GET /facts.csv?subject=civil_condition (n=226,189 facts). Analyzed within-table the subset measure_class=count, sex=Female, resolved_age_lower>=40, civil_condition in {Unmarried,Married,Widowed,Divorced} (10,761 rows across 251 tables; 198 tables had nonzero female 40+ totals). Per-table tables filtered locally; the table_id= filter endpoint did NOT honor the ID (returned the full dataset), so individual tables were isolated by local filtering of the same CSV.",
+  "n_facts": 226189,
+  "plausibility": {
+   "verdict": "ok",
+   "evidence": "Within-table female 40+ widowed proportions are historically plausible and high, as expected. Pooled by region (sum widowed / sum female-40+ across that region's tables): Central India 62.3%, Rajputana 59.5%, All-India 58.0%, South India 54.9%, West India 54.0%, NW Frontier 50.3%, Burma 37.9%, North India 37.7%. Widowhood rises monotonically with age within tables: Madras 1901 (Malabar) females 40-60 = 214292/403036 = 53.2%, 60+ = 118770/137692 = 86.3%; Burma 1911 females 40-45 = 94674/550626 = 17.2% rising to 70+ = 172848/242133 = 71.4%. Burma's lower level is consistent with Burmese marriage/remarriage patterns vs Hindu India. Internal sums check: in both inspected tables Unmarried+Married+Widowed exactly equals Population (max abs diff 0.0)."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "Madras/1901/6d8c200b9ae1049d_t0015_AdE-BEX.AND.-7-CIVIL-CONDITION--MADURA-D-STRIOT-imm-x-A-POPULATION.-WIDOWED-.-Ag__a2896822daec9e9b87f1a78bf0e28b4cf5350b6c_oneshot",
+    "readable": "yes",
+    "note": "Title 'Age, Sex and Civil Condition - MALABAR DISTRICT' (1901, South India). Clean age bands 0-5,5-10,...,20-40,40-60,60 and over,Total; civil_condition Population/Unmarried/Married/Widowed by Male/Female/All. U+M+W=Population exactly. source_image present (.../6d8c2..._t0015.../a289....png). Female widowhood plausible (40-60: 53%, 60+: 86%). ANOMALY: title says MALABAR but the table_id slug says 'MADURA D-STRIOT' - a title/slug mismatch."
+   },
+   {
+    "table_id": "Burma/1911/355383f89353377c_t0008_IMPERIAL-TABLE-VIL-Age-Sex-aud-Civil-Condition.-s-PART-APROVINCIAL-SUMMARY--Whol__ac8dbea7b336ff6a2ea01ab42af292e28466209e_oneshot",
+    "readable": "yes",
+    "note": "Title 'IMPERIAL TABLE VII - Age, Sex and Civil Condition. PART A - PROVINCIAL SUMMARY (Burma)' (1911). Fine-grained ordered age bands 0-1...70 and over plus Totals; Population/Unmarried/Married/Widowed by sex. U+M+W=Population exactly (max diff 0.0). Female widowhood rises monotonically 40-45=17% to 70+=71%. source_image present."
+   }
+  ],
+  "anomalies": [
+   "table_id filter endpoint (/facts.csv?table_id=...) ignored the URL-encoded ID and returned the entire dataset (~791k rows, 2391 table_ids); had to isolate tables by local filtering.",
+   "Madras 1901 table title says 'MALABAR DISTRICT' but its table_id slug reads 'MADURA D-STRIOT' - likely an OCR/slug-vs-title mislabel of district name.",
+   "civil_condition column contains stray garbage values: '3.0' (1 row) and sex column has measure_class polluted with 'F.-Minor and Unspecified Religions.' (1) and 'age_civil_condition' as a broad_region (1) - isolated parsing/OCR leakage, negligible volume.",
+   "Tables mix coarse (Madras: single 20-40 band) and fine (Burma: 5-year bands) age schemes; cross-table age-40+ aggregation relies on resolved_age_lower>=40 which correctly excludes 20-40 spanning bands (so coarse-band tables like Madras contribute only their 40-60/60+ rows).",
+   "'Divorced' present only in 360 rows total and 'All-India'/'North India'/'NW Frontier' regions each backed by a single table, so their regional widowhood percentages are thin (low n_tables)."
+  ]
+ },
+ {
+  "question": "Distribution-of-1000 tables: within a single table/section, do age-band values sum to ~1000 (or ~10000)? Flag any that do not.",
+  "filters_used": "subject=population&measure_class=distribution (132,737 facts, 353 tables). Then narrowed to genuine distribution/proportion tables via title regex 'per 1,?000|per mille|proportion|distribut' (1,756 facts, 6 tables), and inspected individual tables via table_id=.",
+  "n_facts": 132737,
+  "plausibility": {
+   "verdict": "broken",
+   "evidence": "The measure_class=distribution slice is mislabeled: measure_unit is uniformly 'count', canonical_topic/table_family are uniformly 'age_distribution', and the values are overwhelmingly raw counts (median group sum ~12,326; max 6.2e8), NOT per-1000 proportions. A naive (table,section,sex) age-band sum gives 771 groups; only ~13 land in 950-1050. Refining to per-column granularity yields 150 columns near 1000/10000 across 56 tables, but spot-checking shows these are FALSE POSITIVES (e.g. 'THE BLIND, BY AGES' raw counts that coincidentally sum near 1000, and a MARRIED cross-tab where age is the COLUMN dimension, not the summed axis). Only 6 tables carry explicit distribution/proportion titles, and the one genuine per-mille table (1891 'Table No.35, proportion per mille') is structurally broken: every age band carries an identical value (All=10000, Male=5007, Female=4993 repeated for all 7 bands incl. the Total row), so bands sum to 70000 instead of ~1000/10000. No table in this slice could be verified to correctly sum age bands to ~1000/10000."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "/n/home11/cruano/census_toc/ocr_results/digitized_tables/ea8bb3217852ba7c_t0011_TABLE-XIV./0346c887d449270b2ccff789f18929cb7b23b556_oneshot",
+    "readable": "yes",
+    "note": "TABLE XIV.-THE BLIND, BY AGES (1891, Northeast India). Coherent: real title, source_image present, no empty values (0/378), age bands as column_group_std (30-34..60 and over) ordered, district rows (Cachar Plains 13, Sylhet 56, Total Surma Valley 69 for 30-34/Male) with sensible sub-total rows. BUT this is RAW COUNTS of blind persons, NOT a per-1000 distribution; it was wrongly captured as a per-1000 candidate because small counts happened to sum near 1000. Sum-to-1000 check N/A here."
+   },
+   {
+    "table_id": "/n/home11/cruano/census_toc/ocr_results/digitized_tables/0d4ec69eb47d1f9a_t0016_Table-VIII/2354d334ee4ed47a683113e36b77d1c603e892df_oneshot",
+    "readable": "yes",
+    "note": "Table VIII Part A - Total Population - Rajputana Agency (2) MARRIED (1891). Coherent table: title, source_image present, 0/588 empty, sections STATES/CANTONMENTS/Grand Total, age as COLUMN dimension (TOTAL,0-4,5-9..), rows are states (MEYWAR, MARWAR, SIROHI...). This is a married-population age-by-state cross-tab, NOT a per-1000 distribution; flagged-as-candidate sums (e.g. 774, 2754) are just partial column totals, not deviating distributions."
+   }
+  ],
+  "anomalies": [
+   "BROKEN per-mille table: 1891 'Table No.35, showing the proportion per mille...' (source ...bb2e4d04dd6f2b17177f91844d.png). Column 'Proportion per mille' repeats one value across ALL age bands: All=10000 x7 bands (sum 70000), Male=5007 x7, Female=4993 x7 -- a single column total was copied into every age-band row instead of distinct per-band proportions. Should sum to ~1000 (or ~10000); does not.",
+   "SLICE MISLABELED: measure_class=distribution contains almost entirely raw counts (measure_unit uniformly 'count'; group sums range 0 to 6.2e8). True distribution-of-1000/per-mille tables are NOT identifiable by measure_class alone; only 6 of 353 tables have distribution/proportion titles.",
+   "FALSE-POSITIVE per-1000 detection: 56 tables / 150 columns sum near 1000/10000 by chance (small raw-count infirmity tables, or age-as-column cross-tabs), none are genuine per-1000 distributions.",
+   "Table_id collisions: several distinct tables share table_id='1891' and table_id='1911', so filtering by table_id alone returns merged/ambiguous tables (had to disambiguate by source_image/section).",
+   "Aggregate 'Total'/'Age not stated' rows are interleaved with age bands and (in the per-mille table) carry the same broken value, so they cannot serve as a reliable sum check."
+  ]
+ },
+ {
+  "question": "Rate tables: after decimal correction, are birth/death rates in plausible magnitude (<~100 per mille, not thousands)?",
+  "filters_used": "curl -s \"http://127.0.0.1:5000/facts.csv?measure_class=rate\" (158,521 facts, 755 tables); title-filtered to birth/death tables (27) and per-mille/death-rate/birth-rate tables (33, 12 genuine vital-rate); two tables pulled via table_id.",
+  "n_facts": 158521,
+  "plausibility": {
+   "verdict": "suspicious",
+   "evidence": "Genuine vital-rate tables are plausible: age-specific death rates median 2.5-32.5 per mille (Bengal 1931 IV-17 range 0.9-92, J-shaped); infant death rate 105-189 per mille; birth-rate by division 7-11 per mille. Bombay 1931 infant death 230/198 per mille (high but realistic). No decimal-inflation into thousands for genuinely rate-typed tables. BUT measure_class=rate is polluted: ~86k/158k facts are age_sex_population counts mislabeled as rate, value max=2.48M, several per-mille titles carry raw counts."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "Bengal/1931/0994ae54d51a9db0_t0010_oneshot_IV-17",
+    "readable": "yes",
+    "note": "Age/sex death rates per mille, n=1034. Ordered age bands 0-1..60+ in column_group_std, J-shaped mortality, values 0.9-92 plausible, real title + source_image PNG. Quirk: resolved_age_label_std 100% empty."
+   },
+   {
+    "table_id": "Bombay/1931/d20e8cfca692791a_t0016_TABLE-TX_oneshot",
+    "readable": "partial",
+    "note": "Death-rate by sex/age 1921-30 per mille, n=220. Infant 230/198, adult 0.6-9.6 per mille. Real title+source_image. Problems: age bands mostly NaN; rows duplicated identically across years 1921-1930."
+   }
+  ],
+  "anomalies": [
+   "~86,070 age_sex_population + ~34,443 age_distribution facts (counts, additive=0) mislabeled measure_class=rate; overall value max=2,483,451.",
+   "'Actual recorded Deaths from certain diseases' (1931) up to 2,069,309 - raw counts not per-mille rate.",
+   "'DECLINING BIRTH-RATE AMONG PARSIS' (1911) median 8,582 - absolute counts mislabeled as birth-rate.",
+   "'Reported deaths per mille of each' (1911) max 146,789 - counts as rate.",
+   "Bombay 1931 death-rate rows duplicated across years 1921-1930; age labels mostly NaN.",
+   "Negative value in rate slice (min=-2323; Mysore 1901 -9.8) - impossible OCR error."
+  ]
+ },
+ {
+  "question": "Within one age-by-religion table (subject=religion, measure_class=count), do the religion column sums look sensible relative to each other for that province?",
+  "filters_used": "Slice: curl -s \"http://127.0.0.1:5000/facts.csv?subject=religion&measure_class=count\" (53,881 facts; all additive=1 counts). Single tables: table_id=Bengal%2F1931%2F1e17a9869c8b088_t0044_Table-7__0dd9705...oneshot (n=504) and table_id=Baroda%2F1891%2F58e2514a48091e11_t0001_TABLE-VII__56240d5...oneshot (n=972).",
+  "n_facts": 53881,
+  "plausibility": {
+   "verdict": "suspicious",
+   "evidence": "Religion column sums ARE internally sensible where structure is intact. In the Central India Agency 1931 literacy-by-religion table, the six named religions' POPULATION-persons sum to 6,627,783 vs the printed 'All Religions' total 6,632,790 (99.92%; 5,007 gap absorbed by rounding/Others) and persons=males+females exactly (3,405,438+3,227,352=6,632,790). Religion SHARES are historically plausible for that province: Hindu 88.2%, Muslim 5.6%, Tribal 5.1%, Jain 0.8%, Christian 0.2%, consistent with Hindi/Marathi/Gujarati vernacular columns. SUSPICIOUS items: (1) Baroda 1891 'Ages by Religions' table is structurally broken (see anomalies) so its column sums are not trustworthy and Parsi Total sex ratio = 1284 F/1000M is implausible (>1050 ceiling); (2) the Central India table is filed under a 'Bengal/...' table_id path but canonical_name='Central India Agency', a geography mislabel."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "Bengal/1931/1e17a9869c8b088_t0044_Table-7__0dd970542bea4364bad05b995a946b00fde69e95_oneshot",
+    "readable": "yes",
+    "note": "Title 'APPENDIX TO TABLE XIII.-LITERACY IN VERNACULARS'; canonical_name='Central India Agency' (NOT Bengal despite path). Coherent: sections per religion (ALL RELIGIONS/HINDU/JAIN/MUSLIM/CHRISTIAN/TRIBAL/OTHERS), col groups POPULATION + LITERATE IN HINDI/URDU/MARATHI/GUJARATI/OTHER, sub_cols persons/males/females, age bands Total/0-15/15-20/20 and over. Sample: Hindu POPULATION persons=5,848,519; Muslim=371,637; Tribal=340,752. Religion parts sum to 99.92% of All Religions; persons=M+F holds. Real source_image path present."
+   },
+   {
+    "table_id": "Baroda/1891/58e2514a48091e11_t0001_TABLE-VII__56240d59e1bbb080f2f541aa3ccc8e6fdd43fac3_oneshot",
+    "readable": "no",
+    "note": "Title 'TABLE VII. Ages by Religions.' Structure broken: row_label_std are bare row indices ('17','18'...'25') not age/category labels; only Parsi & Christian parsed plus a third section with mangled header 'returned in lieu of Religion.' (religion=NaN, all zeros). Internal inconsistency: Christian 'Total' row=0 but its age-band rows sum to 2,114; Parsi Total=7,192 but age-band rows sum to 8,273. Sex ratio Parsi=1284 F/1000M implausible. Cannot judge religion column sums reliably."
+   }
+  ],
+  "anomalies": [
+   "Geography mislabel: table_id prefixed 'Bengal/1931/...' but canonical_name='Central India Agency', broad_region='Central India' \u2014 the path region label contradicts the resolved place.",
+   "Subject mismatch: tables surfaced under subject=religion measure_class=count are largely LITERACY/EDUCATION-by-religion tables (Hyderabad 1931 'Literacy by Religion and Age', Mysore 1921 'Education by Religion and Age'), not pure population-by-religion; the religion column here is a cross-tab axis, so 'column sums' = totals within a literacy table, not standalone population counts.",
+   "Baroda 1891 'Ages by Religions': row_label_std contains raw row indices ('17'-'25') instead of meaningful labels; broken OCR row labeling.",
+   "Baroda Christian 'Total' row = 0 while its age-band rows sum to 2,114 (subtotal does not match detail).",
+   "Baroda Parsi: Total=7,192 but age-band rows sum to 8,273 (1,081 inconsistency).",
+   "Baroda third section header truncated to 'returned in lieu of Religion.' with religion=NaN and all-zero values \u2014 empty/garbage section.",
+   "Implausible sex ratio: Baroda Parsi Total 4,043 F / 3,149 M = 1,284 F per 1000 M, well above the 800-1050 plausible band."
+  ]
+ },
+ {
+  "question": "Drill into Travancore taluks (subtree=Travancore): are the taluk/sub-district age-sex tables coherent and human-readable at fine geographic resolution?",
+  "filters_used": "curl -s \"http://127.0.0.1:5000/facts.csv?subtree=Travancore\" (27,153 facts); then per-table pulls via ?table_id=<urlencoded> for Pattanapuram (t0064) and Shencottah (t0028).",
+  "n_facts": 27153,
+  "plausibility": {
+   "verdict": "ok",
+   "evidence": "Taluk-level age-sex tables are internally consistent. Shencottah Hindu: M+F=All exact on all rows; sum(0-1..4-5)=4596 equals 'Total 0-5' subtotal exactly; sex ratio 995 F/1000M (plausible). Pattanapuram education table: M+F=All exact, Literate+Illiterate=Total exact; sex ratio 905 F/1000M. Fine single-year age bands (0-1,1-2,...,5-10,10-15...) correctly ordered by resolved_age_lower. 0 null values in both tables; real titles and source_image paths present. Taluk resolution only exists for 1901; later years (1911-1951) are district/state level."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "Travancore/1901/29f24a84993c5687_t0064_TABLE-VERE__f555415de755d195c49585751ebba1bbff754748_oneshot",
+    "readable": "yes",
+    "note": "TABLE VIII Education-(11) Pattanapuram Taluk: age x sex x literacy x 6 religion sections, ordered ages 0-10..20+, M+F=All and Literate+Illiterate=Total hold exactly, 0 nulls, sex ratio 905. A literacy table rather than pure age-sex but fully coherent."
+   },
+   {
+    "table_id": "Travancore/1901/29f24a84993c5687_t0028_TABLE-VII.j__06f2a5060301e44a2fb2e5322bc908571967c31a_oneshot",
+    "readable": "yes",
+    "note": "TABLE VII Age/Sex/Civil Condition-(12) Shencottah Taluk (Contd.): fine single-year age bands ordered correctly, M+F=All exact, fine bands sum to Total 0-5 subtotal exactly, source_image present. Only Population+Unmarried civil-condition columns present (Married/Widowed on partner Contd. page)."
+   }
+  ],
+  "anomalies": [
+   "22.2% of taluk facts (4,296/19,356) carry merged 'A Taluk / B Taluk' canonical_names (e.g. 'Tovala Taluk / Agastisvaram Taluk', 'Eraniel Taluk / Kalkulam Taluk') -- ambiguous fine-geo resolution from pages spanning two taluks or conflated headers.",
+   "Spelling-variant duplicate taluk names: 'Karunagapalli Taluk / Kartikapalli Taluk' vs '...Kartikappalli Taluk' (single vs double p) would fragment per-taluk aggregation.",
+   "Shencottah table t0028 is a '(Contd.)' page exposing only civil_condition Population+Unmarried; Married/Widowed columns are split onto the partner page, so the table alone is a partial civil-condition breakdown.",
+   "Taluk-level (sub_district) data exists only for census year 1901; 1911-1951 Travancore is only at district/princely_state granularity, so fine geographic resolution is unavailable in later years."
+  ]
+ },
+ {
+  "question": "Bombay city wards (Byculla, Mahim, etc.; region=West India): are these small-area tables readable and plausible?",
+  "filters_used": "Slice: curl -s \"http://127.0.0.1:5000/facts.csv?region=West+India\" (119,356 facts). Ward subset filtered client-side to canonical_name in {Byculla, Mahim, Tardeo, Bhuleshwar, Walkeshwar, Dhobitalao} = 7,697 facts (all year 1901; entity_type urban/section). Two tables pulled in full via table_id: Mahim population-count (n=456) and Bhuleshwar civil_condition-count (n=456).",
+  "n_facts": 7697,
+  "plausibility": {
+   "verdict": "ok",
+   "evidence": "Internal consistency is exact within both inspected single tables. Mahim 'Total' row: All=21519, M=12535, F=8984, M+F=21519 exactly; M+F=All holds in all 19 rows; 0-1..4-5 sums to 1863 = 'Total 0-5'; Male civil-condition Unmarried+Married+Widowed=12535=Population. Bhuleshwar 'Total': All=17497, M=11583, F=5914, M+F exact; 0-5 subtotal 996 reconciles; U+M+W=11583=Population. No null values across all 7697 ward facts. Demographic statistics are extreme but historically genuine for 1901 Bombay city wards: sex ratio 717 (Mahim) and 511 (Bhuleshwar) F/1000M, well below the 800-1050 rural guideline, and under-15 share only 28.7% / 20.3% (below the 35-42% guideline). These reflect heavy adult-male labor in-migration into the city, the well-documented Bombay urban pattern, not OCR errors. Values are plausible and the tables are coherent."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "Bombay/1901/683b6c742dc19d2c_t0015_E-T-A-VI.-Age-Sex.-and-9-givi-Condition-E-KFEE-Table-Mahim-HINDU.-E-r-E-F-e-L-L-__a09ade7089130a161363f301464b318a148ef8da_oneshot",
+    "readable": "yes",
+    "note": "Mahim, population count, 1901. Coherent age ladder 0-1,1-2,2-3,3-4,4-5,Total 0-5,5-10,...,55-60,60 and over,Total. Three sexes (All/Male/Female), civil_condition Population/Unmarried/Married/Widowed. Real source_image png path present. Sample rows: 0-1 -> All 311 = F162+M149; 20-25 -> All 2637 = F1136+M1501; Total -> 21519 = 8984F+12535M. All subtotals and M+F=All reconcile exactly. Title generic ('Table VII. Age, Sex and Civil Condition.') but correct table type."
+   },
+   {
+    "table_id": "Bombay/1901/683b6c742dc19d2c_t0010_Table-VIE__1bddbf58bac7654fd36b699cabf4eea35e6ecc99_oneshot",
+    "readable": "yes",
+    "note": "Bhuleshwar, civil_condition count, 1901. Same clean 19-row age structure. source_image png present. Sample rows: 0-1 -> All160=F76+M84; 25-30 -> All2363=F669+M1694; Total -> 17497=F5914+M11583. 0-5 subtotal (996) and Male U+M+W (=Population 11583) reconcile exactly. M+F=All in all 19 rows. Coherent and human-readable."
+   }
+  ],
+  "anomalies": [
+   "No data-integrity anomalies: 0 null values across all 7697 ward facts; M+F=All and U+M+W=Population hold exactly in both inspected tables; subtotals reconcile.",
+   "Cosmetic: titles are the generic 'Table VII. Age, Sex and Civil Condition.' and do not echo the ward name, so a naive title-vs-canonical_name check flags 8 'mismatches' (Byculla, Mahim, Tardeo, Bhuleshwar, Walkeshwar, Dhobitalao). canonical_name is correctly derived from image/section context, so this is not a real error.",
+   "Table-id provenance noise: some ward tables carry table_ids whose embedded filename text references a different ward (e.g. a Byculla/Tardeo table sitting under a '...Walkeshwar-HINDU-POPULATION...' image slug). canonical_name resolves correctly, but the slug text is misleading and worth noting for traceability.",
+   "Demographic outliers that are real, not broken: female sex ratios of 511-717 F/1000M and under-15 shares of 20-29% fall outside the generic plausibility bands but are the expected signature of 1901 urban Bombay male in-migration.",
+   "Mixed structure within the ward slice: Age/Sex/Civil-Condition tables have the full 19-row age ladder; Education-by-Sections (Table VIII) tables for the same wards have only 5 row labels (different schema) - expected, not an error."
+  ]
+ },
+ {
+  "question": "All-India totals (region=All-India, subject=population, measure_class=count): do total-population figures by decade track known census totals (1881 ~253M, 1901 ~294M incl. states)?",
+  "filters_used": "region=All-India&subject=population&measure_class=count (URL: http://127.0.0.1:5000/facts.csv?region=All-India&subject=population&measure_class=count). Plus per-table pulls via table_id for the two inspected tables.",
+  "n_facts": 7404,
+  "plausibility": {
+   "verdict": "broken",
+   "evidence": "NO decade-level all-India total-population figure exists in this slice. The largest single value anywhere is 61,655,239 (1901 Musalman religion grand total) \u2014 internally consistent (single-age Population rows for the Musalman section sum exactly to 61,655,239) and historically plausible for Muslims alone in 1901 (~62.5M known). But no cell approaches the known India totals of ~253M (1881) or ~294M (1901 incl. states); zero values exceed 100M. Per-year max values are absurd as 'totals': 1881=4.19M (a regional Languages table), 1911=331, 1951=49. Only 17 tables span 6 decades (1881,1891,1901,1911,1931,1951; no 1921/1941/1961), and most are subsidiary/caste/religion/language/death breakdowns, not population-count grand totals. Naively summing sex=All across a table (e.g. 276.8M for the Musalman+Christian section) double-counts age subtotals and is not a real total. Therefore decade totals cannot be assembled and cannot be checked against the historical series."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "India/1901/210be2a99d999321_t0009_TABLE-VII__290f2ad32f4e9343e474638c0660d6d7f1d35315_oneshot",
+    "readable": "yes",
+    "note": "1901 'TABLE VII. Age, Sex and Civil Condition. PART I.-GENERAL TABLE-INDIA' (G-Musalman/H-Christian section). Coherent: ordered single-year age bands 0-1..60+ plus 'Total 0-5' subtotals and 'Total'; civil_condition split Population/Unmarried/Married/Widowed with Unmarried+Married+Widowed=Population per row (e.g. 0-1: 1954505+2177+223=1956905). Single-age Population rows sum exactly to the Total row (61,655,239). Real title, source_image present (210be2a99d999321_t0009.../...f1.png), status confirmed_sent. Caveat: the canonical India total is split across 3 separate table_ids by religion, so this one table is a religion subtotal, not the India grand total."
+   },
+   {
+    "table_id": "/n/home11/cruano/census_toc/ocr_results/digitized_tables/0ea4111808aa3dbf_t0003_K-E-Percentage-of-Illiteracy.-From-the-foregoing-returns-it-is.-easy-t-calenlate/d12ca737cedfcd54b69b6d2009d26235798007f1_oneshot",
+    "readable": "partial",
+    "note": "1881 'FORM IX. of the Population by Languages.' Internally coherent (Male+Female=persons, e.g. English 4252+2921=7173; max Total=4,186,188), source_image present. BUT mislabeled as region=All-India/canonical_name=India: it is a regional language table (columns Coorg, Kanarese, Malayali, Telugu, Tuluvu, etc. \u2014 South India/Coorg) with generic row_1..row_n labels, not an all-India total. Also the table_id is derived from an unrelated 'Percentage-of-Illiteracy' page slug, suggesting a segmentation/title-attribution error."
+   }
+  ],
+  "anomalies": [
+   "No all-India grand-total population cell exists: max value across the whole slice is 61.65M (1901 Musalman); nothing near 253M (1881) or 294M (1901). Decade totals are not recoverable.",
+   "Sparse, uneven coverage: only 17 tables across 1881,1891,1901,1911,1931,1951; missing 1921, 1941, 1961.",
+   "Misclassified tables tagged region=All-India/canonical_name=India that are not all-India population counts: 1881 'Population by Languages' (regional, max 4.2M), 1911 'Chapter VI.-Sexes' (max value 331, narrative/proportions), 1951 'Reported and Estimated births' (max 49), 1881 'castes of convicted criminals', 1881 'No. VI Sikhs', caste subsidiary tables \u2014 these are not subject=population count totals in any meaningful all-India sense.",
+   "The 1901 India General Table is fragmented across 3 separate table_ids by religion group (E/F, G/H, I/J), so the India grand total must be reassembled across tables \u2014 but reassembly is blocked by the domain non-additivity rule and by overlapping age-subtotal rows.",
+   "Naive sum(sex='All') per table double-counts because tables include both single-age rows and 'Total 0-5'/'Total' subtotal rows (e.g. religion section sum 276.8M is inflated, not a valid total).",
+   "table_id for the 1881 Languages table is built from an unrelated 'K-E-Percentage-of-Illiteracy' page slug \u2014 title/segmentation attribution mismatch."
+  ]
+ },
+ {
+  "question": "Variation tables (measure_class=variation): confirm negative values are legitimate population decreases and the magnitudes/percentages are sane, not OCR errors.",
+  "filters_used": "curl -s \"http://127.0.0.1:5000/facts.csv?measure_class=variation\"  (then per-table: ?table_id=<URL-encoded> for the caste-variation table and the Madras ports table)",
+  "n_facts": 3544,
+  "plausibility": {
+   "verdict": "suspicious",
+   "evidence": "184 of 3544 variation facts are negative (161 in measure_unit=count, 23 in rate). Negatives are overwhelmingly LEGITIMATE population decreases: they sit in columns explicitly headed 'Net variation, increase (+) or decrease (-)' or 'Percentage of variation, increase (+) or decrease (-)', and percentage magnitudes are mostly sane (-1.3% to -6% for districts; -47/-49% only for small Jain minority counts in Bangalore 1891-1901, plausible for a tiny base). Internal consistency check on the Madras Ports 1881 table confirms sign/magnitude: Vizagapatam Population 32191, Difference -1900 => -1900/(32191+1900) = -5.6% ~ recorded -6%; all 4 negative ports check out. HOWEVER two real problems exist: (1) ONE OCR magnitude error: caste table 'Muhammadan unspecified' Net variation = -1,981,626, but Persons go 1872=1,102,371 -> 1901=20,745, so the true decrease is ~-1,081,626; the recorded figure is off by EXACTLY 900,000, a leading-digit OCR error (sign/direction still correct). (2) measure_unit MISCLASSIFICATION: in the Madras Ports table the absolute 'Difference' counts (e.g. -1900, -1132, -210) are tagged measure_unit=rate alongside the genuine 'Percentage' column, which is why the 'rate' negatives range down to -1900 (impossible as a percentage). So most negatives are real decreases, but a minority reveal an OCR digit error and a unit-tagging bug."
+  },
+  "tables_inspected": [
+   {
+    "table_id": "/n/home11/cruano/census_toc/ocr_results/digitized_tables/be071bfafde60e80_t0009_TABLE-L.../2bfcc0c3c77266fdbd03fe798ac74ba18d1c90f3_oneshot",
+    "readable": "partial",
+    "note": "'SUBSIDIARY TABLE II. Variation in caste, tribe and race since 1872' (1901). 456 facts, 57 caste rows, no empty values, real title + source_image present. Coherent 3-block structure: Persons (sub_columns 1872/1881/1891/1901), Percentage of variation, and Net variation. Reads as a real table. PARTIAL because the largest negative (-1,981,626 for 'Muhammadan unspecified') is arithmetically inconsistent with its own Persons cells (true value ~-1,081,626): an OCR digit error of exactly 900,000."
+   },
+   {
+    "table_id": "/n/home11/cruano/census_toc/ocr_results/digitized_tables/7d0e6450a5c3685c_t0038_Table-No.-146/3f22a2450bf642554399422c1efec8d1505c0a42_oneshot",
+    "readable": "yes",
+    "note": "'Table No. 150 ... Percentage of Increase or Decrease of Population ... Ports of Madras Presidency' (1881). 80 facts, no empty values, real title + source_image. Coherent: per-port rows with Population / Difference / Percentage. Internally consistent (Vizagapatam -1900 on 32191 base = -6%). Negatives are genuine decreases. Only flaw: the absolute 'Difference' column is tagged measure_unit=rate, not count."
+   }
+  ],
+  "anomalies": [
+   "OCR magnitude error: caste table 'Muhammadan unspecified' Net variation = -1,981,626 but Persons 1872=1,102,371 and 1901=20,745 imply ~-1,081,626; off by exactly 900,000 (leading-digit misread). Sign/direction are correct, magnitude is not.",
+   "measure_unit misclassification: in the Madras Ports table the absolute 'Difference' count column (values like -1900, -1132, -210) is tagged measure_unit=rate, mixed in with the genuine 'Percentage' column. This pollutes the 'rate' slice with non-percentage magnitudes (rate negatives span down to -1900, impossible as a percent).",
+   "measure_class=variation slice is heterogeneous on additivity/unit: 2949 facts are count (absolute change) and 595 are rate; these must not be blended. 84 facts have null value and 1505 are exactly 0 (largely castes absent before a given census, e.g. 1872=0), so net-vs-Persons consistency cannot be checked for those rows.",
+   "Large but PLAUSIBLE (not errors): Jain religion variation -47% to -49% in Bangalore City/District 1891-1901, consistent with a very small minority base during the Deccan plague/famine decade; district 1911-1921 decreases (-1.3% Jammu, -6.03% Frontier Districts) consistent with the 1918 influenza/famine decade."
+  ]
+ }
+]

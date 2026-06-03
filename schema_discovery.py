@@ -35,6 +35,7 @@ class TableSchema:
     year: int = 0
     data_type: str = "absolute"  # "absolute" | "proportional"
     denominator: int = 0  # For proportional: 1000, 10000, etc. 0 = absolute.
+    table_kind: str = ""  # count|distribution|percentage|rate|ratio|index ("" -> infer)
     column_groups: list = field(default_factory=list)
     # Each: {"name": str, "sub_columns": list[str], "left_frac": float, "right_frac": float}
     target_group_index: int = 0
@@ -71,8 +72,16 @@ Analyze the image and return a JSON object with these fields:
 1. "title": The title or header text visible on the page (string).
 2. "region": The region/province/state name if visible (string).
 3. "year": The census year if visible (integer, e.g. 1901). Use 0 if unclear.
-4. "data_type": Either "absolute" (raw population counts, typically large numbers like 169509) or "proportional" (proportions per N, where the total row equals exactly N).
-4b. "denominator": If data_type is "proportional", the denominator (e.g. 1000 for "per 1,000", 10000 for "per 10,000"). Read this from the table title. If data_type is "absolute", set to 0.
+4. "data_type": Either "absolute" (raw population/event counts, typically large numbers like 169509) or "proportional" (normalized quantities such as distributions per N, per-mille/per-1,000 rates, per-10,000 rates, percentages, ratios, or indexes). Do NOT treat every proportional table as additive raw counts.
+4b. "denominator": If data_type is "proportional", the printed denominator/base when visible (e.g. 1000 for "per 1,000", "of 1,000", or "per mille"; 10000 for "per 10,000"; 100 for percentages). Read this from the title or headers. If the table is raw counts, set to 0.
+4c. "table_kind": Classify how the numbers must be read and verified — pick ONE:
+   - "count": raw counts that add up (Persons = Males + Females; rows sum to printed Totals).
+   - "distribution": a per-1,000 / per-10,000 / "of each sex" breakdown whose cells SUM TO THE BASE along one axis (e.g. the age rows within each sex sum to 1,000). No Persons = Males + Females.
+   - "percentage": values 0-100 where a set of mutually-exclusive categories SUMS TO 100.
+   - "rate": death/birth/vital rates (per mille, etc.) — decimals that do NOT sum to anything and have no Persons total.
+   - "ratio": a quotient such as "females per 1,000 males" — does NOT sum and has no Persons total.
+   - "index": an index number (often around 100) that does not sum.
+   Choose from the printed title/headers/units. Counts and distributions add (in different ways); rates, ratios, and indexes do not add.
 5. "column_groups": An array of column group objects. Each group represents a major section of the table (e.g. "Population", "Unmarried", "Married", etc., or years like "1891", "1901"). Each object has:
    - "name": The group header text (string)
    - "sub_columns": Array of sub-column names within this group (e.g. ["Persons", "Males", "Females"])
@@ -94,16 +103,18 @@ Analyze the image and return a JSON object with these fields:
 12. "multi_year": Boolean — true if the table shows data for multiple census years side by side.
 13. "years_present": Array of census years visible in the table (e.g. [1891, 1901]).
 14. "multi_region": Boolean — true if the table shows data for multiple regions/districts.
-15. "sections": Array of section objects. Many census tables have multiple numbered sections on the same page, each with its own set of row labels. For example:
+15. "sections": Array of section objects. Many census tables have multiple numbered sections or multiple printed subtables on the same page, each with its own set of row labels. For example:
    - "1. ALL COMMUNITIES" with age rows 0-1, 1-2, ..., Total
    - "2. Brahmanic Hindus" with its own age rows 0-1, 1-2, ..., Total
    - "3. Other Hindus" with its own age rows
+   - "Statement No. 52" and "Statement No. 53" printed on the same image
    Each section object has:
    - "name": The section header text (e.g. "All Communities", "Brahmanic Hindus")
    - "row_labels": Array of row labels specific to this section (same format as top-level row_labels)
    - "subtotal_hierarchy": Subtotal hierarchy for this section (same format as top-level)
    If the table has only ONE section (no numbered sub-tables), return an empty array [] and use the top-level row_labels and subtotal_hierarchy as before.
    If the table HAS multiple sections, the top-level row_labels and subtotal_hierarchy should describe the FIRST section, and each section should be listed in the sections array.
+   If the image contains multiple independent printed tables, list EVERY printed table/subtable as its own section in reading order. Preserve the exact printed statement/table number in the section name. Do not silently ignore secondary tables.
 16. "cross_group_constraints": Object mapping a total column group name to an array of its component group names, IF one column group represents the sum of others. For example, if a table has "Population", "Unmarried", "Married", "Widowed", and "Divorced" column groups where Population = Unmarried + Married + Widowed + Divorced, return: {"Population": ["Unmarried", "Married", "Widowed", "Divorced"]}. Similarly for religion breakdowns: {"Total": ["Hindu", "Muslim", "Christian"]}. Return an empty object {} if no such relationship exists.
 17. "rotation": Integer — how many degrees CLOCKWISE the image must be rotated so that the text reads normally left-to-right. Return 0 if the image is already upright. Return 90 if the text currently reads bottom-to-top (image needs 90° clockwise rotation). Return 270 if the text reads top-to-bottom. Return 180 if the image is upside-down. Most scanned pages will be 0.
 
@@ -112,6 +123,9 @@ IMPORTANT:
 - The first column group is usually the age labels column — skip that and start with the first DATA column group.
 - Be precise about row labels: list them in the exact order they appear top to bottom.
 - For subtotal_hierarchy, only include relationships you can verify from the row labels. If "Total 0-5" appears and individual rows "0-1" through "4-5" also appear, include that mapping.
+- If a title/header says per 1,000, per 10,000, per cent, percentage, rate, ratio, or index, mark the table proportional and capture the denominator/base when visible. Do not infer that the Total row must equal the denominator unless the printed table explicitly defines that distribution base.
+- If the table prints decimal rates/percentages, recognize that decimals are part of the data. Decimal points and two-decimal-place values should be preserved by the extraction step, not rounded into integers.
+- If multiple printed tables are visible on the page, describe all of them. If their formats differ, still list them as separate sections/subtables; the extraction step must keep their titles, units, and axes separate rather than merging them.
 
 Return ONLY valid JSON. No explanation or commentary."""
 
@@ -259,6 +273,10 @@ def _merge_schemas(model_schemas, preferred="gemini"):
         merged.denominator = _majority(denoms, prefer_idx)
     elif merged.data_type == "proportional":
         merged.denominator = 1000
+
+    # --- Table kind: majority vote (ignore blanks) ---
+    kinds = [s.table_kind for s in schemas if getattr(s, "table_kind", "")]
+    merged.table_kind = _majority(kinds, prefer_idx) if kinds else ""
 
     # --- Has persons column: majority vote ---
     merged.has_persons_column = _majority(
@@ -445,6 +463,7 @@ def _dict_to_schema(d):
     # Infer denominator from data_type if not explicitly set
     if schema.data_type == "proportional" and schema.denominator == 0:
         schema.denominator = 1000  # default assumption
+    schema.table_kind = (d.get("table_kind", "") or "").strip().lower()
     schema.column_groups = d.get("column_groups", [])
     schema.target_group_index = d.get("target_group_index", 0)
     schema.row_axis_type = d.get("row_axis_type") or _infer_row_axis_type(d)
@@ -697,9 +716,10 @@ def build_extraction_prompt(schema):
         denom = schema.denominator
         data_instruction = (
             f"\n\nIMPORTANT: This table shows proportions per {denom:,}, "
-            f"NOT absolute population counts. The Total row should equal exactly {denom:,} "
-            f"for both Males and Females. "
-            "Use this constraint to verify your readings."
+            "rates, ratios, percentages, or another normalized quantity, NOT absolute population counts. "
+            "Read the title and headers to identify where the base applies. Preserve decimal points and "
+            "decimal values; do not blindly force the Total row to equal the denominator unless the printed "
+            "table explicitly defines that distribution base."
         )
     else:
         data_instruction = ""
@@ -712,13 +732,14 @@ def build_extraction_prompt(schema):
 
 CRITICAL: Read each digit extremely carefully. Common OCR errors on old typefaces:
 - The digit 3 has angular notches/points at its curves; 8 has smooth continuous curves. These look very similar — examine closely.
-- Also watch for: 6 vs 5, 0 vs 9, 1 vs 7
-- Verify by checking: Persons should equal Males + Females for each row
-- If a digit is ambiguous, use the M+F=Persons constraint to determine the correct reading
+- Also watch for: 6 vs 5, 0 vs 9, 1 vs 7, decimal point vs dust/print speck
+- For raw comparable count cells only, verify by checking: Persons should equal Males + Females for each row
+- For rates, percentages, ratios, and per-N distributions, preserve printed decimal points and do not force additive count constraints unless the source explicitly gives comparable raw count cells.
+- If a digit or decimal point is ambiguous, use the printed unit/base and nearby rows/columns to determine the correct reading
 
 Return ONLY a JSON array. Each object: {{"{row_label_name}": "...", "persons": N, "males": N, "females": N}}
 For subtotal or Total rows, use the printed label as-is.
-All values are integers, no commas. Return ONLY valid JSON."""
+Return numeric cells as JSON numbers with no commas. Use integers for raw count cells; preserve decimal values for rates, percentages, ratios, averages, and decimal-bearing cells. Return ONLY valid JSON."""
 
     return prompt
 
@@ -808,9 +829,10 @@ def build_extraction_prompt_for_group(schema, group_name, section_name=None,
         denom = schema.denominator
         data_instruction = (
             f"\n\nIMPORTANT: This table shows proportions per {denom:,}, "
-            f"NOT absolute population counts. The Total row should equal exactly {denom:,} "
-            f"for both Males and Females. "
-            "Use this constraint to verify your readings."
+            "rates, ratios, percentages, or another normalized quantity, NOT absolute population counts. "
+            "Read the title and headers to identify where the base applies. Preserve decimal points and "
+            "decimal values; do not blindly force the Total row to equal the denominator unless the printed "
+            "table explicitly defines that distribution base."
         )
     else:
         data_instruction = ""
@@ -823,13 +845,14 @@ def build_extraction_prompt_for_group(schema, group_name, section_name=None,
 
 CRITICAL: Read each digit extremely carefully. Common OCR errors on old typefaces:
 - The digit 3 has angular notches/points at its curves; 8 has smooth continuous curves. These look very similar — examine closely.
-- Also watch for: 6 vs 5, 0 vs 9, 1 vs 7
-- Verify by checking: Persons should equal Males + Females for each row
-- If a digit is ambiguous, use the M+F=Persons constraint to determine the correct reading
+- Also watch for: 6 vs 5, 0 vs 9, 1 vs 7, decimal point vs dust/print speck
+- For raw comparable count cells only, verify by checking: Persons should equal Males + Females for each row
+- For rates, percentages, ratios, and per-N distributions, preserve printed decimal points and do not force additive count constraints unless the source explicitly gives comparable raw count cells.
+- If a digit or decimal point is ambiguous, use the printed unit/base and nearby rows/columns to determine the correct reading
 
 Return ONLY a JSON array. Each object: {{"{row_label_name}": "...", "persons": N, "males": N, "females": N}}
 For subtotal or Total rows, use the printed label as-is.
-All values are integers, no commas. Return ONLY valid JSON."""
+Return numeric cells as JSON numbers with no commas. Use integers for raw count cells; preserve decimal values for rates, percentages, ratios, averages, and decimal-bearing cells. Return ONLY valid JSON."""
 
     return prompt
 
