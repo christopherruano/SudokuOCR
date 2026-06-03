@@ -258,6 +258,8 @@ def build_matrices(facts):
         except (IndexError, KeyError):
             return None
 
+    # only count tables are additive — never derive a Total=M+F on rate/%/distribution tables
+    additive = bool(facts) and (str(gv(facts[0], "additive")) == "1" or gv(facts[0], "measure_class") == "count")
     secs, seen = [], set()
     for f in facts:
         s = gv(f, "section") or ""
@@ -302,7 +304,7 @@ def build_matrices(facts):
             kinds = {_kind(c[1]) for c in gcols}
             mcol = next((c for c in gcols if _kind(c[1]) == "M"), None)
             fcol = next((c for c in gcols if _kind(c[1]) == "F"), None)
-            if mcol and fcol and "T" not in kinds:
+            if additive and mcol and fcol and "T" not in kinds:
                 tcol = (g, "Total")
                 for rk in rows:
                     mv, fv = grid.get((rk, mcol)), grid.get((rk, fcol))
