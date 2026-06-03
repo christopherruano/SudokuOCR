@@ -36,3 +36,6 @@ export_final/sendout_final/data/facts_*.csv
 # whole heavy export/result trees (images + machine output)
 export/
 organized_results/
+
+# Map source geojsons (large; regions_svg.json is the small rendered output we keep)
+mapdata/*.geojson

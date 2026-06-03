@@ -433,25 +433,31 @@ function clearFrom(i){while(cols.children.length>i)cols.removeChild(cols.lastChi
 function drawCrumb(){crumb.innerHTML='All India'+path.map(p=>' › <b>'+esc(p)+'</b>').join('');}
 function sel(col,el){[...col.querySelectorAll('.item')].forEach(x=>x.classList.remove('sel'));el.classList.add('sel');}
 function col(headHtml){const c=document.createElement('div');c.className='col';c.innerHTML='<div class=colh>'+headHtml+'</div>';return c;}
-function row(label,countHtml,onclick){const el=document.createElement('div');el.className='item';
+function grn(n,mx){if(!mx)return '#e8f5e9';const t=Math.pow(n/mx,0.6),a=[0xe8,0xf5,0xe9],b=[0x1b,0x5e,0x20];
+ return 'rgb('+a.map((v,i)=>Math.round(v+(b[i]-v)*t)).join(',')+')';}
+function row(label,countHtml,onclick,tint){const el=document.createElement('div');el.className='item';
+ if(tint)el.style.borderLeft='5px solid '+tint;
  el.innerHTML='<span>'+label+'</span><span class=n>'+countHtml+'</span>';el.onclick=()=>onclick(el);return el;}
 
 function showRegions(){
- const c=col('Region');
+ const c=col('Region <span style="font-weight:400;text-transform:none">· darker = more</span>');
+ const mx=Math.max(...DATA.regions.map(r=>r.n));
  DATA.regions.forEach(r=>c.appendChild(row(esc(r.name),r.n+' <span class=chev>▸</span>',el=>{
-   clearFrom(1);sel(c,el);path=[r.name];drawCrumb();cols.appendChild(showProvinces(r));})));
+   clearFrom(1);sel(c,el);path=[r.name];drawCrumb();cols.appendChild(showProvinces(r));},grn(r.n,mx))));
  cols.appendChild(c);
 }
 function showProvinces(r){
  const c=col('Province / State '+dl('region',r.name));
+ const mx=Math.max(...r.provinces.map(p=>p.n));
  r.provinces.forEach(p=>c.appendChild(row(esc(p.name)+' <span class=pill>'+esc(p.etype)+'</span>',p.n+' <span class=chev>▸</span>',el=>{
-   clearFrom(2);sel(c,el);path=[r.name,p.name];drawCrumb();cols.appendChild(showPlaces(p));})));
+   clearFrom(2);sel(c,el);path=[r.name,p.name];drawCrumb();cols.appendChild(showPlaces(p));},grn(p.n,mx))));
  return c;
 }
 function showPlaces(p){
  const c=col('Place '+dl('province',p.name));
+ const mx=Math.max(...p.places.map(pl=>pl.tables.length));
  p.places.forEach(pl=>c.appendChild(row(esc(pl.name),pl.tables.length+' <span class=chev>▸</span>',el=>{
-   clearFrom(3);sel(c,el);path=path.slice(0,2).concat([pl.name]);drawCrumb();cols.appendChild(showTables(pl));})));
+   clearFrom(3);sel(c,el);path=path.slice(0,2).concat([pl.name]);drawCrumb();cols.appendChild(showTables(pl));},grn(pl.tables.length,mx))));
  return c;
 }
 function showTables(pl){
@@ -487,30 +493,42 @@ def tree():
     return Response(html, mimetype="text/html")
 
 
-MAP_POS = {  # rough geographic placement of broad_regions (top%, left%)
-    "Northwest Frontier": (7, 6), "North India": (8, 33), "Northeast India": (12, 73),
-    "Rajputana": (28, 17), "East India": (38, 66), "Central India": (40, 43),
-    "West India": (53, 19), "Burma": (44, 86), "South India": (70, 41),
-    "Andaman & Nicobar": (84, 80), "(unspecified)": (90, 8),
-}
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mapdata/regions_svg.json")) as _f:
+    MAP_GEO = __import__("json").load(_f)
+
+
+def _choropleth(t):  # t in [0,1] -> light->dark green; returns (fill, text)
+    a, b = (0xe8, 0xf5, 0xe9), (0x1b, 0x5e, 0x20)
+    rgb = tuple(round(a[i] + (b[i] - a[i]) * t) for i in range(3))
+    return f"#{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}", ("#fff" if t > 0.45 else "#14401a")
+
+
 MAP_PAGE = """
 <!doctype html><html><head><meta charset=utf-8><title>Census — map</title>
 <style>
- body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a}
+ body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a;background:#fbfdff}
  header{background:#2c3e50;color:#fff;padding:10px 20px} header a{color:#9cf;margin-right:14px;text-decoration:none}
- .map{position:relative;width:720px;height:760px;margin:18px auto;background:linear-gradient(#eaf2f8,#f6fafd);border:1px solid #dde;border-radius:10px}
- .reg{position:absolute;width:150px;transform:translate(-50%,-50%);background:#fff;border:2px solid #2980b9;border-radius:10px;
-      padding:8px 10px;text-align:center;cursor:pointer;text-decoration:none;color:#1f3a52;box-shadow:0 1px 4px rgba(0,0,0,.12);transition:.12s}
- .reg:hover{background:#2980b9;color:#fff;transform:translate(-50%,-50%) scale(1.06)}
- .reg b{display:block;font-size:14px} .reg span{font-size:11px;opacity:.8}
- .all{display:block;width:max-content;margin:0 auto 6px;background:#1f3a52;color:#fff;padding:7px 16px;border-radius:8px;text-decoration:none}
- h2{text-align:center;margin:14px 0 0;color:#234}
+ h2{text-align:center;margin:12px 0 2px;color:#234} .sub{text-align:center;color:#789;font-size:13px;margin:0 0 6px}
+ .all{display:block;width:max-content;margin:8px auto;background:#1f3a52;color:#fff;padding:7px 16px;border-radius:8px;text-decoration:none}
+ svg{display:block;margin:0 auto;max-height:calc(100vh - 175px)}
+ .ctx{fill:#eef1f4;stroke:#dde2e6;stroke-width:.7}
+ a.region path{stroke:#fff;stroke-width:1.1;transition:.12s;cursor:pointer}
+ a.region:hover path{stroke:#103;stroke-width:2;filter:brightness(1.08)}
+ .lbl{font:600 13px system-ui;text-anchor:middle;pointer-events:none}
+ .lbl .c{font-weight:400;font-size:11px}
+ .legend{text-align:center;color:#567;font-size:12px;margin:4px}
+ .legend i{display:inline-block;width:22px;height:11px;vertical-align:middle;border:1px solid #ccc}
 </style></head><body>
 <header><b>Census — map</b> <a href="/tree">🗂 Columns</a><a href="/map">🗺 Map</a><a href="/search">🔎 Find</a>
- <span style="opacity:.7;font-size:12px">click a region → drills into the columns</span></header>
-<h2>British India & the Princely States — by region</h2>
+ <span style="opacity:.7;font-size:12px">darker = more tables · click a region to drill into the columns</span></header>
+<h2>British India &amp; the Princely States</h2>
+<p class=sub>colour shows how many tables each region has — the darker, the more to explore in the tree</p>
 __ALL__
-<div class=map>__BOXES__</div>
+<svg viewBox="__VB__" xmlns="http://www.w3.org/2000/svg">
+ __CTX__
+ __REGIONS__
+</svg>
+<p class=legend>fewer <i style="background:#e8f5e9"></i><i style="background:#a5d6a7"></i><i style="background:#66bb6a"></i><i style="background:#388e3c"></i><i style="background:#1b5e20"></i> more tables</p>
 </body></html>
 """
 
@@ -521,17 +539,22 @@ def census_map():
     rows = d.execute("SELECT broad_region, COUNT(*) n FROM tables WHERE status IN "
                      "('confirmed_sent','recovered') AND broad_region!='' GROUP BY broad_region").fetchall()
     counts = {r["broad_region"]: r["n"] for r in rows}
-    boxes = []
-    for reg, (top, left) in MAP_POS.items():
-        if reg == "(unspecified)" or reg not in counts:
-            if reg != "All-India":
-                continue
+    mx = max([counts.get(r, 0) for r in MAP_GEO["regions"]] + [1])
+    ctx = "".join(f'<path class=ctx d="{p}"/>' for p in MAP_GEO["context"])
+    regs, lbls = [], []
+    for reg, g in MAP_GEO["regions"].items():
         n = counts.get(reg, 0)
-        boxes.append(f'<a class=reg style="top:{top}%;left:{left}%" href="/tree?open={up(reg)}">'
-                     f'<b>{reg}</b><span>{n} tables</span></a>')
+        t = (n / mx) ** 0.6 if n else 0
+        fill, txt = _choropleth(t)
+        regs.append(f'<a class=region href="/tree?open={up(reg)}"><title>{reg}: {n} tables</title>'
+                    f'<path d="{g["path"]}" fill="{fill}"/></a>')
+        lbls.append(f'<text class=lbl x="{g["cx"]}" y="{g["cy"]}" fill="{txt}">{reg}'
+                    f'<tspan class=c x="{g["cx"]}" dy="14">{n} tables</tspan></text>')
     alln = counts.get("All-India", 0)
     allbox = f'<a class=all href="/tree?open=All-India">🇮🇳 All-India tables · {alln}</a>'
-    return Response(MAP_PAGE.replace("__BOXES__", "".join(boxes)).replace("__ALL__", allbox), mimetype="text/html")
+    html = (MAP_PAGE.replace("__VB__", MAP_GEO["viewBox"]).replace("__CTX__", ctx)
+            .replace("__REGIONS__", "".join(regs) + "".join(lbls)).replace("__ALL__", allbox))
+    return Response(html, mimetype="text/html")
 
 
 @app.route("/table")
