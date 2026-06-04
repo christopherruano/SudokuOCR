@@ -229,6 +229,10 @@ def main():
     for fn in ("cleared_false_failure.csv", "cleared_in_scope_now.csv"):
         for r in csv.DictReader(open(os.path.join(SF, "review/rerun_retriage", fn))):
             recoverable.add(r["table_id"])
+    # Phase-1 deterministic recovery: tables that passed re-validation under type-aware constraints
+    p1 = os.path.join(V1, "recovered_phase1.json")
+    phase1 = set(__import__("json").load(open(p1))["recovered"]) if os.path.exists(p1) else set()
+    recoverable |= phase1
 
     # 1) confirmed sendable facts (already cleaned)
     by_tbl = defaultdict(list)
@@ -271,7 +275,8 @@ def main():
         gx = geores.get(t, {})
         yr = m.get("year", "")
         dec = (yr[:3] + "0s") if yr[:3].isdigit() else ""
-        stt = ov["status"].get(t) or status.get(t, "confirmed_sent" if t in confirmed_tables else "recovered")
+        stt = ov["status"].get(t) or ("recovered" if t in phase1 else None) \
+            or status.get(t, "confirmed_sent" if t in confirmed_tables else "recovered")
         ttl = ov["title"].get(t) or m.get("title", "")
         subject, measure_class, additive = classify_subject_measure(m, dom.get(t, ""), ttl, maxv.get(t))
         return {
@@ -342,7 +347,8 @@ def main():
             ttl = ov["title"].get(t) or m.get("title", "")
             subj, meas, addv = classify_subject_measure(m, dom.get(t, ""), ttl, maxv.get(t))
             w.writerow({
-                "table_id": t, "status": ov["status"].get(t) or status.get(t, "excluded_or_unscoped"),
+                "table_id": t, "status": ov["status"].get(t) or ("recovered" if t in phase1 else None)
+                or status.get(t, "excluded_or_unscoped"),
                 "subject": subj, "measure_class": meas, "additive": addv,
                 "review_note": ov["note"].get(t, ""),
                 "year": yr, "decade": (yr[:3] + "0s") if yr[:3].isdigit() else "",

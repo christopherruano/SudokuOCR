@@ -155,6 +155,10 @@ def main():
     navdata = {"regions": regions}
 
     shutil.copy(os.path.join(SV1, "catalog_tables.csv"), os.path.join(OUT, "data", "catalog_tables.csv"))
+    idx = [{"p": page[t["table_id"]], "t": (t["title"] or "")[:90], "g": t["canonical_name"],
+            "y": t["year"], "r": t["broad_region"], "k": t["subject"], "m": t["measure_class"],
+            "e": t["entity_type"], "s": t["status"]} for t in qt]
+    write_search(idx)
     write_tree(navdata)
     write_index(con)
     write_readme(len(qt), len(copied))
@@ -179,7 +183,7 @@ STATIC_TREE = """<!doctype html><html><head><meta charset=utf-8><title>Census �
  .tbl:hover{background:#eafff1} .tbl .yr{color:#a60;font-weight:700;margin-right:5px}
  .tbl .m{background:#e8eef3;border-radius:8px;padding:0 6px;font-size:10px;color:#456} .tbl .t{color:#333;font-size:12.5px}
 </style></head><body>
-<header><b>Census — browse</b> <a href="tree.html">🗂 Columns</a><a href="index.html">🗺 Map</a>
+<header><b>Census — browse</b> <a href="tree.html">🗂 Columns</a><a href="index.html">🗺 Map</a><a href="search.html">🔎 Search</a>
  <span style="opacity:.7;font-size:12px">region ▸ province/state ▸ place ▸ table · darker = more · click a table for its matrix + scan</span></header>
 <div id=crumb></div><div id=cols></div>
 <script>
@@ -213,6 +217,79 @@ def write_tree(navdata):
     open(os.path.join(OUT, "tree.html"), "w").write(STATIC_TREE.replace("__DATA__", json.dumps(navdata)))
 
 
+SEARCH_PAGE = """<!doctype html><html><head><meta charset=utf-8><title>Census — search</title>
+<style>
+ *{box-sizing:border-box} body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a}
+ header{background:#2c3e50;color:#fff;padding:10px 20px} header a{color:#9cf;margin-right:14px;text-decoration:none}
+ .box{padding:12px 22px;background:#f4f6f8;border-bottom:1px solid #dde;position:sticky;top:0;z-index:5}
+ #q{width:100%;max-width:760px;padding:9px 12px;font-size:16px;border:1px solid #bcd;border-radius:6px}
+ .facets{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:9px}
+ .facets label{font-size:11px;color:#567;text-transform:uppercase;letter-spacing:.3px;margin-right:3px}
+ select,.facets input{padding:5px 7px;border:1px solid #cce;border-radius:5px;font-size:13px}
+ .yrwrap{display:flex;align-items:center;gap:5px;background:#fffbe9;border:1px solid #f0d890;border-radius:6px;padding:4px 9px}
+ .yrwrap input{width:62px} .yrwrap b{color:#a60}
+ #cnt{margin-left:6px;color:#678;font-size:13px} .clear{cursor:pointer;color:#268;font-size:12px}
+ #res{padding:6px 0}
+ a.row{display:block;padding:7px 22px;border-bottom:1px solid #f0f2f4;text-decoration:none;color:#1a1a1a}
+ a.row:hover{background:#f0f6ff}
+ .yr{color:#a60;font-weight:700;margin-right:6px} .pl{font-weight:600}
+ .pill{display:inline-block;background:#e8eef3;border-radius:8px;padding:0 6px;font-size:11px;color:#456;margin:0 4px}
+ .st{font-size:10px;color:#789} .t{color:#333}
+</style></head><body>
+<header><b>Census — search</b> <a href="tree.html">🗂 Columns</a><a href="index.html">🗺 Map</a><a href="search.html">🔎 Search</a></header>
+<div class=box>
+ <input id=q autofocus placeholder="type words — title, place, caste, table number…  (e.g. bombay civil condition)">
+ <div class=facets>
+  <span class=yrwrap><b>📅 Year</b> <input type=number id=y0 placeholder=from> – <input type=number id=y1 placeholder=to>
+    <span id=decs></span></span>
+  <span><label>Subject</label><select id=fk></select></span>
+  <span><label>Measure</label><select id=fm></select></span>
+  <span><label>Region</label><select id=fr></select></span>
+  <span><label>Geo type</label><select id=fe></select></span>
+  <span><label>Status</label><select id=fs></select></span>
+  <span class=clear id=clr>✕ clear all</span>
+  <span id=cnt></span>
+ </div>
+</div>
+<div id=res></div>
+<script>
+const IDX=__IDX__;
+IDX.forEach(t=>t._h=(t.t+' '+t.g+' '+t.r+' '+t.k+' '+t.m+' '+t.y).toLowerCase());
+const $=id=>document.getElementById(id);
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');}
+function fill(sel,key){const vals=[...new Set(IDX.map(t=>t[key]).filter(Boolean))].sort();
+  sel.innerHTML='<option value="">(any)</option>'+vals.map(v=>`<option>${esc(v)}</option>`).join('');}
+fill($('fk'),'k');fill($('fm'),'m');fill($('fr'),'r');fill($('fe'),'e');fill($('fs'),'s');
+// decade quick-buttons
+const yrs=IDX.map(t=>+t.y).filter(Boolean), ymin=Math.min(...yrs), ymax=Math.max(...yrs);
+$('decs').innerHTML=' '+[1871,1881,1891,1901,1911,1921,1931,1941,1951,1961].map(d=>`<a href="#" data-d="${d}" style="font-size:11px;margin:0 2px;color:#a60">${("'"+String(d).slice(2))}</a>`).join('');
+$('decs').querySelectorAll('a').forEach(a=>a.onclick=e=>{e.preventDefault();const d=+a.dataset.d;$('y0').value=d;$('y1').value=d;run();});
+function run(){
+ const terms=$('q').value.toLowerCase().split(/\\s+/).filter(Boolean);
+ const k=$('fk').value,m=$('fm').value,r=$('fr').value,e=$('fe').value,s=$('fs').value;
+ const y0=+$('y0').value||ymin, y1=+$('y1').value||ymax;
+ const out=[];
+ for(const t of IDX){
+   if(k&&t.k!==k)continue; if(m&&t.m!==m)continue; if(r&&t.r!==r)continue;
+   if(e&&t.e!==e)continue; if(s&&t.s!==s)continue;
+   const ty=+t.y; if(ty&&(ty<y0||ty>y1))continue;
+   if(!terms.every(w=>t._h.includes(w)))continue;
+   out.push(t); if(out.length>=500)break;
+ }
+ $('cnt').textContent=(out.length>=500?'500+':out.length)+' matches';
+ res.innerHTML=out.map(t=>`<a class=row href="tables/${t.p}.html"><span class=yr>${t.y}</span><span class=pl>${esc(t.g)}</span><span class=pill>${esc(t.k)}/${esc(t.m)}</span><span class=t>${esc(t.t)}</span> <span class=st>${esc(t.s)}</span></a>`).join('');
+}
+['q','y0','y1'].forEach(id=>$(id).addEventListener('input',run));
+['fk','fm','fr','fe','fs'].forEach(id=>$(id).addEventListener('change',run));
+$('clr').onclick=()=>{['q','y0','y1','fk','fm','fr','fe','fs'].forEach(id=>$(id).value='');run();};
+run();
+</script></body></html>"""
+
+
+def write_search(idx):
+    open(os.path.join(OUT, "search.html"), "w").write(SEARCH_PAGE.replace("__IDX__", json.dumps(idx)))
+
+
 def write_index(con):
     rows = con.execute("SELECT broad_region, COUNT(*) n FROM tables WHERE status IN "
                        "('confirmed_sent','recovered') AND broad_region!='' GROUP BY broad_region").fetchall()
@@ -229,7 +306,7 @@ def write_index(con):
                     f'<tspan class=c x="{g["cx"]}" dy="14">{n} tables</tspan></text>')
     alln = counts.get("All-India", 0)
     page = (ce.MAP_PAGE.replace('href="/tree"', 'href="tree.html"').replace('href="/map"', 'href="index.html"')
-            .replace('href="/search"', 'href="tree.html"')
+            .replace('href="/search"', 'href="search.html"')
             .replace("__VB__", ce.MAP_GEO["viewBox"]).replace("__CTX__", ctx)
             .replace("__REGIONS__", "".join(regs) + "".join(lbls))
             .replace("__ALL__", f'<a class=all href="tree.html?open=All-India">\U0001f1ee\U0001f1f3 All-India tables · {alln}</a>'))
