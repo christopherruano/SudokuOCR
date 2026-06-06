@@ -233,6 +233,8 @@ def main():
     p1 = os.path.join(V1, "recovered_phase1.json")
     phase1 = set(__import__("json").load(open(p1))["recovered"]) if os.path.exists(p1) else set()
     recoverable |= phase1
+    rp = os.path.join(V1, "relabel_overrides.json")
+    relabel_ov = __import__("json").load(open(rp)) if os.path.exists(rp) else {}
 
     # 1) confirmed sendable facts (already cleaned)
     by_tbl = defaultdict(list)
@@ -298,11 +300,17 @@ def main():
         w.writeheader()
         for t in sorted(by_tbl):
             d = denorm(t)
+            rmap = relabel_ov.get(t)
             for f in by_tbl[t]:
                 row = {k: f.get(k, "") for k in KEEP}
                 row["fact_id"] = f"F{fid:09d}"; fid += 1
                 row.update(d)
                 row["age_aggregate"] = _agg_flag(f)
+                # vision relabel (M/F -> Unmarried/Married/Widowed etc.), complete tables only
+                if rmap:
+                    cur = row.get("sub_column_std") or {"All": "persons", "Male": "males", "Female": "females"}.get(row.get("sex", ""), "")
+                    if cur in rmap:
+                        row["sub_column_std"] = rmap[cur]; row["sex"] = ""
                 # sanitize leaked fields (field-shift artifacts flagged in QA)
                 if row.get("sex") not in VALID_SEX:
                     row["sex"] = ""

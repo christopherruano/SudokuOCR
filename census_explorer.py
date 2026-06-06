@@ -6,8 +6,9 @@ fact into one combined CSV.
 Run:  python3 census_explorer.py   then open http://127.0.0.1:5000
 Backed by sendout_v1/census_explorer.sqlite (built by build_explorer_db.py).
 """
-import csv, io, os, glob, sqlite3, urllib.parse, zipfile, re, xlsxwriter
-from flask import Flask, request, Response, render_template_string, send_file, redirect, g, abort
+import csv, io, os, glob, sqlite3, urllib.parse, zipfile, re, json, xlsxwriter
+from datetime import datetime
+from flask import Flask, request, Response, render_template_string, send_file, redirect, jsonify, g, abort
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(ROOT, "export_final/sendout_final/sendout_v1/census_explorer.sqlite")
@@ -568,6 +569,12 @@ def table_detail():
         abort(404)
     facts = d.execute("SELECT * FROM facts WHERE table_id=? ORDER BY rowid", (tid,)).fetchall()
     matrices = build_matrices(facts)
+    images = table_image_basenames(t)
+    return render_template_string(TABLE_PAGE, t=t, facts=facts, matrices=matrices, images=images,
+                                  n_facts=len(facts), n_pages=len(images))
+
+
+def table_image_basenames(t):
     # ordered page images: assembled member images in sequence, else the single source image
     raw = (t["member_images"] if "member_images" in t.keys() and t["member_images"] else t["source_image"]) or ""
     parts = [p for p in raw.replace(";", "|").replace(",", "|").split("|") if p.strip()]
@@ -578,8 +585,7 @@ def table_detail():
             b = os.path.basename(loc)
             if b not in seen:
                 seen.add(b); images.append(b)
-    return render_template_string(TABLE_PAGE, t=t, facts=facts, matrices=matrices, images=images,
-                                  n_facts=len(facts), n_pages=len(images))
+    return images
 
 
 @app.route("/img/<name>")
@@ -748,5 +754,369 @@ def facts_csv():
     return _stream_csv(where, params)
 
 
+# ---- review queue: vet the newly-recovered tables, save accept/flag decisions ----
+V1DIR = os.path.dirname(DB)
+REVIEW_QUEUE = os.path.join(V1DIR, "recovered_phase1.json")
+REVIEW_DECISIONS = os.path.join(V1DIR, "review_decisions.json")
+
+FOLLOWUP_ACTIONS = {"flag", "rerun", "reject", "hold"}
+OK_ACTIONS = {"ok", "accept", "image_compared_accept"}
+
+
+def _load_review_decisions():
+    if not os.path.exists(REVIEW_DECISIONS):
+        return {}
+    with open(REVIEW_DECISIONS, encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def _write_review_decisions(decisions):
+    with open(REVIEW_DECISIONS, "w", encoding="utf-8") as fh:
+        json.dump(decisions, fh, indent=1, ensure_ascii=False)
+
+
+def _review_queue_rows():
+    queue_ids = json.load(open(REVIEW_QUEUE, encoding="utf-8")).get("recovered", []) if os.path.exists(REVIEW_QUEUE) else []
+    badp = os.path.join(V1DIR, "bad_read_suspects.json")
+    badmap = {}
+    if os.path.exists(badp):
+        for x in json.load(open(badp, encoding="utf-8")):
+            badmap[x["table_id"]] = x.get("reasons", "")
+    ids = list(dict.fromkeys(list(queue_ids) + list(badmap)))   # recovered + bad-read suspects, deduped
+    d = db()
+    q = []
+    for tid in ids:
+        r = d.execute("SELECT year,canonical_name,subject,measure_class,title,status,n_facts FROM tables WHERE table_id=?", (tid,)).fetchone()
+        if r and r["status"] in ("confirmed_sent", "recovered"):
+            q.append({"idx": len(q), "tid": tid, "y": r["year"], "g": r["canonical_name"], "k": r["subject"],
+                      "m": r["measure_class"], "t": r["title"] or "", "status": r["status"], "n": r["n_facts"],
+                      "reason": badmap.get(tid, "")})
+    return q
+
+
+def _review_counts(queue, decisions):
+    ok = followup = notes_only = 0
+    for row in queue:
+        action = (decisions.get(row["tid"]) or {}).get("action", "")
+        if action in OK_ACTIONS:
+            ok += 1
+        elif action in FOLLOWUP_ACTIONS:
+            followup += 1
+        elif row["tid"] in decisions:
+            notes_only += 1
+    return {"total": len(queue), "ok": ok, "followup": followup, "notes_only": notes_only,
+            "pending": len(queue) - ok - followup}
+
+
+def _first_review_idx(queue, decisions, mode="pending"):
+    for row in queue:
+        action = (decisions.get(row["tid"]) or {}).get("action", "")
+        if mode == "all":
+            return row["idx"]
+        if mode == "ok" and action in OK_ACTIONS:
+            return row["idx"]
+        if mode == "followup" and action in FOLLOWUP_ACTIONS:
+            return row["idx"]
+        if mode == "pending" and action not in OK_ACTIONS and action not in FOLLOWUP_ACTIONS:
+            return row["idx"]
+    return queue[0]["idx"] if queue else 0
+
+
+def _next_pending_idx(queue, decisions, current_idx):
+    for row in queue[current_idx + 1:]:
+        action = (decisions.get(row["tid"]) or {}).get("action", "")
+        if action not in OK_ACTIONS and action not in FOLLOWUP_ACTIONS:
+            return row["idx"]
+    for row in queue[:current_idx]:
+        action = (decisions.get(row["tid"]) or {}).get("action", "")
+        if action not in OK_ACTIONS and action not in FOLLOWUP_ACTIONS:
+            return row["idx"]
+    return None
+
+
+REVIEW_LIST_PAGE = """<!doctype html><html><head><meta charset=utf-8><title>Review recovered tables</title>
+<style>
+ :root{--paper:#fffaf0;--panel:#fffdf8;--ink:#2a2118;--muted:#756959;--line:#d8c8ad;--ok:#2f8f46;--warn:#b7791f;--bad:#b23b34;--accent:#7a3b1f}
+ *{box-sizing:border-box} body{font:14px/1.45 ui-serif,Georgia,serif;margin:0;color:var(--ink);background:linear-gradient(135deg,#fbf3e3,#f8ead5)}
+ header{background:#2b2118;color:#f9eddc;padding:12px 18px;display:flex;justify-content:space-between;gap:14px;align-items:center}
+ header a{color:#ffd28f;text-decoration:none;margin-left:10px}
+ .bar{padding:10px 18px;background:rgba(255,250,240,.95);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+ .btn,button{border:0;border-radius:12px;padding:9px 13px;background:var(--accent);color:white;text-decoration:none;cursor:pointer;font:700 13px system-ui,sans-serif}
+ .btn.secondary,button.secondary{background:#d8c7ac;color:var(--ink)}
+ select,input{border:1px solid var(--line);border-radius:10px;padding:8px;background:#fffdf8}
+ table{border-collapse:collapse;width:100%;font-size:13px;background:var(--panel)}
+ th,td{border-bottom:1px solid #eadfcc;padding:7px 10px;text-align:left}
+ th{background:#efe4d1;position:sticky;top:50px;z-index:2}
+ tr.done{opacity:.62}.yr{color:#9b4c16;font-weight:700}.pill{background:#efe4d1;border:1px solid var(--line);border-radius:999px;padding:1px 8px;font-size:11px;color:#584b3a}
+ .ok{color:var(--ok);font-weight:700}.follow{color:var(--bad);font-weight:700}.muted{color:var(--muted);font-size:12px}
+</style></head><body>
+<header><div><b>Recovered table review</b><div class=muted>{{ counts.total }} tables · {{ counts.ok }} ok · {{ counts.followup }} follow-up · {{ counts.pending }} pending</div></div>
+ <nav><a href="/review">Start pending</a><a href="/tree">Tree</a><a href="/search">Search</a></nav></header>
+<div class=bar>
+ <a class=btn href="/review/{{ first_pending }}">Open first pending</a>
+ <span>show <select id=filt onchange=render()><option value=pending>pending</option><option value=followup>follow-up</option><option value=ok>ok</option><option value=all>all</option></select></span>
+ <a class="btn secondary" href="/review/export">Export follow-up JSON</a>
+</div>
+<table><thead><tr><th>#</th><th>Year</th><th>Place</th><th>Type</th><th>Title</th><th>View</th><th>Decision</th></tr></thead>
+<tbody id=rows></tbody></table>
+<script>
+let Q=__QUEUE__, D=__DEC__;
+const $=id=>document.getElementById(id);
+function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');}
+function render(){const f=$('filt').value;
+ const rows=Q.filter(t=>{const d=(D[t.tid]||{}).action||'';
+   return f==='all'||(f==='pending'&&!['ok','accept','image_compared_accept','flag','rerun','reject','hold'].includes(d))||
+     (f==='followup'&&['flag','rerun','reject','hold'].includes(d))||(f==='ok'&&['ok','accept','image_compared_accept'].includes(d));});
+ $('rows').innerHTML=rows.map((t,i)=>{const d=D[t.tid]||{};return `<tr class="${d.action?'done':''}">
+   <td>${t.idx+1}</td><td class=yr>${t.y||''}</td><td><b>${esc(t.g)}</b></td><td><span class=pill>${esc(t.k)}/${esc(t.m)}</span></td>
+   <td>${esc(t.t)}</td><td><a class=btn href="/review/${t.idx}">Review</a></td>
+   <td class="${['flag','rerun','reject','hold'].includes(d.action)?'follow':'ok'}">${esc(d.action||'pending')}<div class=muted>${esc(d.reason||'')}</div></td></tr>`;}).join('');}
+render();
+</script></body></html>"""
+
+REVIEW_DETAIL_PAGE = """<!doctype html><html><head><meta charset=utf-8><title>Recovered review {{ idx + 1 }}</title>
+<style>
+ :root{--paper:#fffaf0;--panel:#fffdf8;--ink:#2a2118;--muted:#756959;--line:#d8c8ad;--ok:#2f8f46;--warn:#b7791f;--bad:#b23b34;--accent:#7a3b1f;--blue:#284f68}
+ *{box-sizing:border-box} body{font:14px/1.45 ui-serif,Georgia,serif;margin:0;color:var(--ink);background:linear-gradient(135deg,#fbf3e3,#f8ead5);padding-bottom:190px}
+ header{background:#2b2118;color:#f9eddc;padding:10px 14px;display:flex;justify-content:space-between;gap:14px;align-items:flex-start;border-bottom:1px solid #4a3827}
+ h1{font-size:17px;line-height:1.22;margin:2px 0 4px}.mono{font:12px/1.35 Menlo,Consolas,monospace}.muted{color:var(--muted);font-size:12px}.topmuted{color:#ccbda8;font-size:12px}
+ .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.btn,button{border:0;border-radius:12px;padding:9px 13px;background:var(--accent);color:white;text-decoration:none;cursor:pointer;font:700 13px system-ui,sans-serif}
+ .btn.secondary,button.secondary{background:#d8c7ac;color:var(--ink)}.btn.ghost{background:transparent;border:1px solid #80664d;color:#f9eddc}.btn.bad,button.bad{background:var(--bad)}.btn.warn,button.warn{background:var(--warn)}.btn.ok,button.ok{background:var(--ok)}
+ main{padding:12px}.review-grid{display:grid;grid-template-columns:minmax(420px,48vw) minmax(420px,1fr);gap:12px;align-items:start}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:0 10px 26px rgba(49,34,16,.10);overflow:hidden}.pad{padding:10px 12px}
+ h2{font-size:15px;margin:0}.pill{display:inline-block;background:#efe4d1;border:1px solid var(--line);border-radius:999px;padding:2px 8px;font:12px/1.4 system-ui,sans-serif;color:#584b3a}.pill.ok{background:#e8f6e9;color:#1c6f31}.pill.follow{background:#fff0ef;color:#9b211b}
+ .image-toolbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#f6eedf;position:sticky;top:0;z-index:2}.image-toolbar button{padding:7px 11px}.zoom-readout{min-width:54px;text-align:center;font:12px Menlo,Consolas,monospace;color:var(--muted)}
+ .image-wrap{background:#27231f;padding:10px;overflow:auto;height:72vh;min-height:520px;cursor:grab;overscroll-behavior:contain}.image-wrap.dragging{cursor:grabbing;user-select:none}.image-wrap img{display:block;width:100%;max-width:none;max-height:none;background:white;border:1px solid #514a42;margin:0 0 12px;transform-origin:top left}.pagelbl{color:#f2d6a6;font:12px Menlo,Consolas,monospace;margin:0 0 6px}
+ .matrix-wrap{overflow:auto;height:72vh;min-height:520px;background:#fffdf8;border-top:1px solid var(--line)}
+ .section-title{position:sticky;left:0;width:max-content;margin:12px 0 6px;padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:#f6eedf;color:#584b3a;font:700 12px system-ui,sans-serif}
+ table.mx{border-collapse:separate;border-spacing:0;width:max-content;min-width:100%;font:12px/1.35 Menlo,Consolas,monospace;margin:0 0 18px}
+ table.mx th,table.mx td{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:5px 8px;text-align:right;white-space:nowrap;background:#fffdf8}
+ table.mx th{position:sticky;top:0;z-index:3;background:#efe4d1;color:#33261a;text-align:center;font-weight:800}
+ table.mx thead .grp{background:#e4d5bd;color:#3c2b1b}
+ table.mx td.rh,table.mx th.rh{position:sticky;left:0;z-index:2;text-align:left;background:#f7eddd;font-weight:800;white-space:normal;min-width:130px;max-width:260px;box-shadow:2px 0 0 rgba(216,200,173,.55)}
+ table.mx th.rh{z-index:4}.raw-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}.nofig{color:#ffd3d3}
+ .decision-bar{position:fixed;left:0;right:0;bottom:0;z-index:8;background:rgba(255,250,240,.98);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:10px 14px;box-shadow:0 -10px 30px rgba(49,34,16,.14)}
+ .decision-form{display:grid;grid-template-columns:minmax(360px,1fr) minmax(520px,1.2fr);gap:12px;align-items:start}label{font:700 12px system-ui,sans-serif;display:block;margin-bottom:5px}
+ textarea{width:100%;min-height:86px;max-height:190px;resize:vertical;border:1px solid var(--line);border-radius:12px;padding:10px;background:#fffdf8;font:14px/1.35 Menlo,Consolas,monospace}.quick-actions{display:grid;grid-template-columns:repeat(5,minmax(90px,1fr));gap:8px}.quick-actions button{min-height:58px;font-size:15px;border-radius:14px}.quick-actions small{display:block;opacity:.8;font-weight:400;margin-top:3px}.autosave{font:12px system-ui,sans-serif;color:var(--muted);margin-top:5px}
+ @media(max-width:1100px){body{padding-bottom:280px}.review-grid,.decision-form{grid-template-columns:1fr}.image-wrap,.matrix-wrap{height:auto;max-height:70vh;min-height:360px}}
+</style></head><body>
+<header>
+ <div>
+  <div class=topmuted>Recovered table review | {{ idx + 1 }} / {{ total }} | {{ counts.ok }} ok · {{ counts.followup }} follow-up · {{ counts.pending }} pending</div>
+  <h1>{{ t['canonical_name'] }} {{ t['year'] }} | {{ t['title'] }}</h1>
+  <div class="mono topmuted">{{ t['table_id'] }}</div>
+ </div>
+ <div class=toolbar>
+  {% if prev_idx is not none %}<a class="btn secondary" data-prev href="/review/{{ prev_idx }}">Prev</a>{% endif %}
+  {% if next_idx is not none %}<a class="btn secondary" data-next href="/review/{{ next_idx }}">Next</a>{% endif %}
+  {% if next_pending_idx is not none %}<a class=btn href="/review/{{ next_pending_idx }}">Next pending</a>{% endif %}
+  <a class="btn ghost" href="/review/list">List</a>
+  <a class="btn ghost" href="/table?tid={{ t['table_id']|urlencode }}" target="_blank">Open plain table</a>
+ </div>
+</header>
+<main>
+ <section class=review-grid>
+  <div class=card>
+   <div class=pad><h2>Source image</h2><div class=muted>{{ n_pages }} local page{{ '' if n_pages == 1 else 's' }}</div></div>
+   {% if images %}
+    <div class="pad toolbar image-toolbar">
+     <button type=button class=secondary onclick="zoomImage(-25)">Zoom -</button>
+     <button type=button class=secondary onclick="zoomImage(25)">Zoom +</button>
+     <button type=button class=secondary onclick="setImageZoom(100)">Fit</button>
+     <button type=button class=secondary onclick="setImageZoom(175)">175%</button>
+     <span class=zoom-readout id=zoomReadout>100%</span>
+     <span class=muted>Cmd/Ctrl + wheel zooms; drag to pan.</span>
+    </div>
+    <div class=image-wrap id=imageViewport>
+     {% for im in images %}<div class=pagelbl>page {{ loop.index }} of {{ images|length }} · {{ im }}</div><img class=sourceImage src="/img/{{ im }}" draggable=false loading=lazy>{% endfor %}
+    </div>
+   {% else %}
+    <div class="pad nofig">Source image not found locally.</div>
+   {% endif %}
+  </div>
+  <div class=card>
+   <div class=pad>
+    <h2>Recorded facts matrix</h2>
+    <div class=muted>{{ '{:,}'.format(n_facts) }} fact rows · generated from the saved facts table</div>
+    <div class=raw-actions>
+     <a class="btn secondary" href="/matrix.csv?tid={{ t['table_id']|urlencode }}">Download CSV</a>
+     <a class="btn secondary" href="/matrix.xlsx?tid={{ t['table_id']|urlencode }}">Download Excel</a>
+     <a class="btn secondary" href="/facts.csv?table_id={{ t['table_id']|urlencode }}">Raw facts CSV</a>
+    </div>
+   </div>
+   <div class=matrix-wrap>
+    {% for m in matrices %}
+     <div class=section-title>{{ m.section or '(table)' }}</div>
+     <table class=mx>
+      {% if m.has_groups %}
+       <thead><tr><th rowspan=2 class=rh></th>{% for g,span in m.groupspans %}<th class=grp colspan={{span}}>{{ g }}</th>{% endfor %}</tr>
+       <tr>{% for c in m.cols %}<th>{{ c[1] }}</th>{% endfor %}</tr></thead>
+      {% else %}
+       <thead><tr><th class=rh></th>{% for c in m.cols %}<th>{{ c[1] or c[0] }}</th>{% endfor %}</tr></thead>
+      {% endif %}
+      <tbody>
+       {% for r in m.rows %}<tr><td class=rh>{{ r }}</td>{% for c in m.cols %}<td>{{ m.grid.get((r,c),'') }}</td>{% endfor %}</tr>{% endfor %}
+      </tbody>
+     </table>
+    {% endfor %}
+   </div>
+  </div>
+ </section>
+</main>
+<form class=decision-bar method=post action="/review/{{ idx }}/save">
+ <input type=hidden name=quick_action value="">
+ <div class=decision-form>
+  <div>
+   <label>Decision note / rerun focus</label>
+   <textarea id=reason name=reason placeholder="If OK, you can leave this blank. If flagged/rerun, write exactly what is wrong or what the rerun should focus on.">{{ decision.get('reason','') }}</textarea>
+   <div class=autosave id=autosaveStatus>Notes autosave while you type.</div>
+  </div>
+  <div>
+   <label>Decision buttons</label>
+   <div class=quick-actions>
+    <button class=ok type=button onclick="quickSubmit('ok')">OK<small>1</small></button>
+    <button class=warn type=button onclick="quickSubmit('flag')">Flag<small>2</small></button>
+    <button class=warn type=button onclick="quickSubmit('rerun')">Rerun<small>3</small></button>
+    <button class=secondary type=button onclick="quickSubmit('hold')">Hold<small>4</small></button>
+    <button class=bad type=button onclick="quickSubmit('reject')">Reject<small>5</small></button>
+   </div>
+   <div class=autosave>Current decision: <span class="pill {{ decision_class }}">{{ decision.get('action','pending') or 'pending' }}</span>. Shortcuts: j/k next/prev, +/- zoom, 0 fit.</div>
+  </div>
+ </div>
+</form>
+<script>
+let imageZoom = 100;
+function imageEls(){return {viewport:document.getElementById('imageViewport'), readout:document.getElementById('zoomReadout'), images:[...document.querySelectorAll('.sourceImage')]};}
+function setImageZoom(value){
+ const els=imageEls(); if(!els.viewport || !els.images.length)return;
+ const oldW=Math.max(els.viewport.scrollWidth,1), oldH=Math.max(els.viewport.scrollHeight,1);
+ const cx=(els.viewport.scrollLeft+els.viewport.clientWidth/2)/oldW, cy=(els.viewport.scrollTop+els.viewport.clientHeight/2)/oldH;
+ imageZoom=Math.max(50,Math.min(500,value)); els.images.forEach(img=>img.style.width=imageZoom+'%');
+ if(els.readout)els.readout.textContent=imageZoom+'%';
+ requestAnimationFrame(()=>{els.viewport.scrollLeft=cx*els.viewport.scrollWidth-els.viewport.clientWidth/2;els.viewport.scrollTop=cy*els.viewport.scrollHeight-els.viewport.clientHeight/2;});
+}
+function zoomImage(delta){setImageZoom(imageZoom+delta);}
+(function initImageViewer(){
+ const els=imageEls(); if(!els.viewport)return; setImageZoom(100);
+ els.viewport.addEventListener('wheel',evt=>{if(!(evt.ctrlKey||evt.metaKey))return;evt.preventDefault();zoomImage(evt.deltaY<0?25:-25);},{passive:false});
+ let dragging=false,startX=0,startY=0,startLeft=0,startTop=0;
+ els.viewport.addEventListener('pointerdown',evt=>{if(evt.button!==0)return;dragging=true;startX=evt.clientX;startY=evt.clientY;startLeft=els.viewport.scrollLeft;startTop=els.viewport.scrollTop;els.viewport.classList.add('dragging');els.viewport.setPointerCapture(evt.pointerId);});
+ els.viewport.addEventListener('pointermove',evt=>{if(!dragging)return;els.viewport.scrollLeft=startLeft-(evt.clientX-startX);els.viewport.scrollTop=startTop-(evt.clientY-startY);});
+ function stop(evt){dragging=false;els.viewport.classList.remove('dragging');try{els.viewport.releasePointerCapture(evt.pointerId)}catch(e){}}
+ els.viewport.addEventListener('pointerup',stop);els.viewport.addEventListener('pointercancel',stop);
+})();
+function quickSubmit(action){document.querySelector('input[name="quick_action"]').value=action;document.querySelector('form').submit();}
+let saveTimer=null;
+function autosave(){
+ clearTimeout(saveTimer);
+ saveTimer=setTimeout(()=>{
+  const status=document.getElementById('autosaveStatus'); if(status)status.textContent='Saving note...';
+  fetch('/review/flag',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({tid:{{ tid_json|safe }},reason:document.getElementById('reason').value})})
+   .then(r=>r.json()).then(()=>{if(status)status.textContent='Note saved.';}).catch(()=>{if(status)status.textContent='Autosave failed; decision button will still save.';});
+ },500);
+}
+document.getElementById('reason').addEventListener('input',autosave);
+document.addEventListener('keydown',evt=>{
+ if(evt.target && ['TEXTAREA','INPUT','SELECT'].includes(evt.target.tagName))return;
+ if(evt.key==='j'){const el=document.querySelector('a[data-next]');if(el)location=el.href;}
+ if(evt.key==='k'){const el=document.querySelector('a[data-prev]');if(el)location=el.href;}
+ if(evt.key==='1')quickSubmit('ok'); if(evt.key==='2')quickSubmit('flag'); if(evt.key==='3')quickSubmit('rerun'); if(evt.key==='4')quickSubmit('hold'); if(evt.key==='5')quickSubmit('reject');
+ if(evt.key==='+'||evt.key==='=')zoomImage(25); if(evt.key==='-')zoomImage(-25); if(evt.key==='0')setImageZoom(100);
+});
+</script></body></html>"""
+
+
+@app.route("/review")
+def review():
+    queue = _review_queue_rows()
+    if not queue:
+        return Response("No recovered tables in review queue.", mimetype="text/plain")
+    decisions = _load_review_decisions()
+    return redirect(f"/review/{_first_review_idx(queue, decisions, request.args.get('filter', 'pending'))}")
+
+
+@app.route("/review/list")
+def review_list():
+    queue = _review_queue_rows()
+    decisions = _load_review_decisions()
+    counts = _review_counts(queue, decisions)
+    html = (REVIEW_LIST_PAGE
+            .replace("__QUEUE__", json.dumps(queue, ensure_ascii=False))
+            .replace("__DEC__", json.dumps(decisions, ensure_ascii=False)))
+    return render_template_string(html, counts=counts, first_pending=_first_review_idx(queue, decisions, "pending"))
+
+
+@app.route("/review/<int:idx>")
+def review_detail(idx):
+    queue = _review_queue_rows()
+    if not queue:
+        return Response("No recovered tables in review queue.", mimetype="text/plain")
+    idx = max(0, min(idx, len(queue) - 1))
+    tid = queue[idx]["tid"]
+    d = db()
+    t = d.execute("SELECT * FROM tables WHERE table_id=?", (tid,)).fetchone()
+    if not t:
+        abort(404)
+    facts = d.execute("SELECT * FROM facts WHERE table_id=? ORDER BY rowid", (tid,)).fetchall()
+    matrices = build_matrices(facts)
+    images = table_image_basenames(t)
+    decisions = _load_review_decisions()
+    decision = decisions.get(tid, {})
+    action = decision.get("action", "")
+    decision_class = "ok" if action in OK_ACTIONS else ("follow" if action in FOLLOWUP_ACTIONS else "")
+    next_pending_idx = _next_pending_idx(queue, decisions, idx)
+    return render_template_string(
+        REVIEW_DETAIL_PAGE, idx=idx, total=len(queue), t=t, facts=facts, matrices=matrices, images=images,
+        n_facts=len(facts), n_pages=len(images), counts=_review_counts(queue, decisions),
+        prev_idx=(idx - 1 if idx > 0 else None), next_idx=(idx + 1 if idx + 1 < len(queue) else None),
+        next_pending_idx=next_pending_idx, decision=decision, decision_class=decision_class,
+        tid_json=json.dumps(tid, ensure_ascii=False))
+
+
+@app.route("/review/<int:idx>/save", methods=["POST"])
+def review_save(idx):
+    queue = _review_queue_rows()
+    if not queue:
+        return redirect("/review")
+    idx = max(0, min(idx, len(queue) - 1))
+    tid = queue[idx]["tid"]
+    decisions = _load_review_decisions()
+    entry = decisions.get(tid, {})
+    action = request.form.get("quick_action") or entry.get("action") or ""
+    entry.update({
+        "action": action,
+        "reason": request.form.get("reason", "").strip(),
+        "updated_at": datetime.now().isoformat(timespec="seconds"),
+    })
+    decisions[tid] = entry
+    _write_review_decisions(decisions)
+    target = _next_pending_idx(queue, decisions, idx)
+    if target is None:
+        target = idx + 1 if idx + 1 < len(queue) else idx
+    return redirect(f"/review/{target}")
+
+
+@app.route("/review/flag", methods=["POST"])
+def review_flag():
+    body = request.get_json(force=True)
+    dec = _load_review_decisions()
+    entry = dec.get(body["tid"], {})
+    if "action" in body:
+        entry["action"] = body.get("action") or ""
+    if "reason" in body:
+        entry["reason"] = body.get("reason", "")
+    entry["updated_at"] = datetime.now().isoformat(timespec="seconds")
+    dec[body["tid"]] = entry
+    _write_review_decisions(dec)
+    return jsonify(ok=True)
+
+
+@app.route("/review/export")
+def review_export():
+    dec = _load_review_decisions()
+    flagged = {t: v for t, v in dec.items() if v.get("action") in FOLLOWUP_ACTIONS}
+    return Response(json.dumps({"needs_followup": flagged, "all_decisions": dec}, indent=1, ensure_ascii=False), mimetype="application/json",
+                    headers={"Content-Disposition": "attachment; filename=review_flagged.json"})
+
+
 if __name__ == "__main__":
-    app.run(debug=False, port=5000)
+    app.run(debug=False, host="127.0.0.1", port=int(os.environ.get("PORT", "5050")))
