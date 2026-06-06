@@ -1072,11 +1072,18 @@ def main():
         qrow_writer = csv.DictWriter(qrow_fh, fieldnames=QUARANTINE_ROW_COLUMNS)
         qrow_writer.writeheader()
 
+        _bad_json = 0
         for idx, json_path in enumerate(source_paths, 1):
             if idx % 250 == 0:
                 print(f"[{idx}/{len(source_paths)}] processed")
 
-            payload = json.load(open(json_path, encoding="utf-8"))
+            try:
+                payload = json.load(open(json_path, encoding="utf-8"))
+            except (json.JSONDecodeError, OSError) as _e:
+                _bad_json += 1
+                if _bad_json <= 20:
+                    print(f"  SKIP malformed JSON ({_bad_json}): {os.path.basename(json_path)} — {str(_e)[:60]}")
+                continue
             meta = payload.get("metadata", {}) or {}
             source_image = payload.get("source_image") or ""
             source_image_name, source_table_dir, source_table_dir_name = source_path_metadata(source_image)
