@@ -43,3 +43,5 @@ mapdata/*.geojson
 # Static site export (1.4GB; regenerate with build_static_site.py)
 census_site/
 mapdata/*.geojson
+export_final/sendout_final/sendout_v1/keeper_facts.csv
+export_final/sendout_final/sendout_v1/census_explorer.sqlite

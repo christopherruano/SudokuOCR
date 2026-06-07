@@ -17,9 +17,30 @@ DB = os.path.join(V1, "census_explorer.sqlite")
 NUM = {"value", "resolved_age_lower", "resolved_age_upper", "year", "n_facts"}
 
 
-def load(con, table, path):
-    rows = list(csv.DictReader(open(path)))
-    cols = list(rows[0].keys())
+# keeper tables that failed QA stay OFF the explorer (only good ones shown)
+BAD_STATUS = {"keeper_badread", "keeper_suspect", "keeper_rejected"}
+
+
+def bad_table_ids(paths):
+    """table_ids whose keeper-catalog status failed QA -> kept off the explorer."""
+    bad = set()
+    for p in paths:
+        if not os.path.exists(p):
+            continue
+        for r in csv.DictReader(open(p)):
+            if r.get("status", "") in BAD_STATUS:
+                bad.add(r["table_id"])
+    return bad
+
+
+def load(con, table, paths, drop_status=False, drop_ids=None):
+    """Stream one or more same-schema CSVs into a single table (memory-safe).
+    drop_status: skip rows whose status is a failed-QA keeper status.
+    drop_ids: skip rows whose table_id is in this set (failed-QA, by id)."""
+    if isinstance(paths, str):
+        paths = [paths]
+    paths = [p for p in paths if os.path.exists(p)]
+    cols = list(csv.DictReader(open(paths[0])).fieldnames)
     decl = ", ".join(f'"{c}" {"REAL" if c=="value" else ("INTEGER" if c in NUM else "TEXT")}' for c in cols)
     con.execute(f"DROP TABLE IF EXISTS {table}")
     con.execute(f"CREATE TABLE {table} ({decl})")
@@ -31,19 +52,32 @@ def load(con, table, path):
             return float(v) if c == "value" else int(float(v))
         except ValueError:
             return None
-    con.executemany(
-        f"INSERT INTO {table} VALUES ({','.join('?'*len(cols))})",
-        [[cast(c, r[c]) for c in cols] for r in rows],
-    )
-    return len(rows), cols
+
+    sql = f"INSERT INTO {table} VALUES ({','.join('?'*len(cols))})"
+    n, skip, batch = 0, 0, []
+    for p in paths:
+        for r in csv.DictReader(open(p)):
+            if drop_status and r.get("status", "") in BAD_STATUS:
+                skip += 1; continue
+            if drop_ids and r.get("table_id", "") in drop_ids:
+                skip += 1; continue
+            batch.append([cast(c, r.get(c, "")) for c in cols]); n += 1
+            if len(batch) >= 50000:
+                con.executemany(sql, batch); batch = []
+    if batch:
+        con.executemany(sql, batch)
+    if skip:
+        print(f"  ({table}: held back {skip:,} failed-QA keeper rows)")
+    return n, cols
 
 
 def main():
     if os.path.exists(DB):
         os.remove(DB)
     con = sqlite3.connect(DB)
-    nf, _ = load(con, "facts", os.path.join(V1, "unified_facts.csv"))
-    nt, _ = load(con, "tables", os.path.join(V1, "catalog_tables.csv"))
+    bad = bad_table_ids([os.path.join(V1, "keeper_catalog.csv")])
+    nf, _ = load(con, "facts", [os.path.join(V1, "unified_facts.csv"), os.path.join(V1, "keeper_facts.csv")], drop_status=True, drop_ids=bad)
+    nt, _ = load(con, "tables", [os.path.join(V1, "catalog_tables.csv"), os.path.join(V1, "keeper_catalog.csv")], drop_status=True)
     ng, _ = load(con, "geo", os.path.join(V1, "geo_reference.csv"))
 
     for c in ("canonical_topic", "subject", "measure_class", "additive", "age_aggregate",
