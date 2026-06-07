@@ -18,7 +18,8 @@ NUM = {"value", "resolved_age_lower", "resolved_age_upper", "year", "n_facts"}
 
 
 # keeper tables that failed QA stay OFF the explorer (only good ones shown)
-BAD_STATUS = {"keeper_badread", "keeper_suspect", "keeper_rejected"}
+BAD_STATUS = {"keeper_badread", "keeper_suspect", "keeper_rejected",
+              "keeper_reocr", "keeper_not_table"}
 
 
 def bad_table_ids(paths):
