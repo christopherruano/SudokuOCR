@@ -55,17 +55,19 @@ def main():
         cols_present = set()
         ages = set()
         for f in facts:
-            k = cls(f["column_group_std"]) or cls(f["sub_column_std"])
-            if not k:
-                continue
-            cols_present.add(k)
+            # civil-condition can live in column_group, sub_column, OR row label (orientation varies)
+            kcol = cls(f["column_group_std"]) or cls(f["sub_column_std"])
+            for fld in ("column_group_std", "sub_column_std", "row_label_std"):
+                kk = cls(f[fld])
+                if kk:
+                    cols_present.add(kk)
             sex = f["sex"] or f["sub_column_std"] or ""
             row = f["row_label_std"] or ""
-            if AGEROW.search(row):
-                ages.add(row)
+            if AGEROW.search(row) or AGEROW.search(f["column_group_std"] or ""):
+                ages.add(row if AGEROW.search(row) else (f["column_group_std"] or ""))
             v = num(f["value"])
-            if v is not None:
-                coord[(row, sex)][k] = v
+            if v is not None and kcol:
+                coord[(row, sex)][kcol] = v
         issues = []
         # U/M/W only expected for civil-condition tables (not plain age x sex population)
         expects_umw = t["table_family"] in ("age_civil_condition", "age_sex_civil_condition")
