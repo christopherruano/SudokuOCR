@@ -40,7 +40,7 @@ def main():
     # new-OCR page targets
     shutil.copy(os.path.join(V1, "newocr_neil_pages.csv"), os.path.join(OUT, "newocr_neil_pages.csv"))
     # sbatch
-    for sb in ("rerun_reocr.sbatch", "ocr_never_ocrd_keepers.sbatch"):
+    for sb in ("rerun_reocr.sbatch", "ocr_never_ocrd_keepers.sbatch", "newocr_digitize.sbatch"):
         p = os.path.join(ROOT, "fasrc", sb)
         if os.path.exists(p):
             shutil.copy(p, os.path.join(OUT, sb))
@@ -54,15 +54,20 @@ DEST=/n/home11/cruano/census_toc
 # 1) CRITICAL: push the fixed prompts FIRST (fixes dropped-cols / zeros)
 rsync -av oneshot.py schema_discovery.py batch_production.py $CL:$DEST/
 
-# 2) image lists + page targets + sbatch
+# 2) JOB A re-OCR lists + JOB B new-OCR queue
 scp {OUT}/reocr_neil_age.txt        $CL:$DEST/reocr_neil_age.txt
 scp {OUT}/reocr_all_remaining.txt   $CL:$DEST/reocr_all_remaining.txt
+scp {OUT}/newocr_queue.jsonl        $CL:$DEST/newocr_queue.jsonl
 scp {OUT}/newocr_neil_pages.csv     $CL:$DEST/newocr_neil_pages.csv
-scp {OUT}/rerun_reocr.sbatch        $CL:$DEST/../SudokuOCR/fasrc/ 2>/dev/null || true
 
-# 3) launch (on the cluster):
-echo 'on cluster (Neil first):  IMAGE_LIST=$HOME/census_toc/reocr_neil_age.txt sbatch fasrc/rerun_reocr.sbatch'
-echo 'then the full set:        IMAGE_LIST=$HOME/census_toc/reocr_all_remaining.txt sbatch fasrc/rerun_reocr.sbatch'
+# 3) sbatch scripts -> repo on cluster
+scp {OUT}/rerun_reocr.sbatch {OUT}/newocr_digitize.sbatch $CL:$DEST/../SudokuOCR/fasrc/ 2>/dev/null || true
+
+echo ''
+echo 'LAUNCH (on the cluster):'
+echo '  JOB A re-OCR (Neil first):  IMAGE_LIST=$HOME/census_toc/reocr_neil_age.txt sbatch fasrc/rerun_reocr.sbatch'
+echo '  JOB A full set:             IMAGE_LIST=$HOME/census_toc/reocr_all_remaining.txt sbatch fasrc/rerun_reocr.sbatch'
+echo '  JOB B new-OCR render:       QUEUE=$HOME/census_toc/newocr_queue.jsonl sbatch fasrc/newocr_digitize.sbatch'
 """
     open(os.path.join(OUT, "upload.sh"), "w").write(upload)
     os.chmod(os.path.join(OUT, "upload.sh"), 0o755)
@@ -73,12 +78,14 @@ Re-OCR (have images, fixed prompt re-reads them):
   reocr_neil_age.txt        {n_age} Neil age tables (PRIMARY)
   reocr_all_remaining.txt   {n_all} all remaining flagged keepers (full)
 
-New-OCR (extract skipped interior pages from PDFs):
-  newocr_neil_pages.csv     139 docs / 2,688 pages (98 with resolved page spans)
+New-OCR (Job B - re-render skipped interior pages, then OCR the new crops):
+  newocr_queue.jsonl        716 table windows across 98 docs (~5,797 pages)
+  newocr_neil_pages.csv     reference: per-doc missing-page list
 
-Steps: ./upload.sh  (pushes prompt fixes first, then lists + sbatch).
-Open: 41 of 139 new-OCR docs need a source-PDF filename -> grab the cluster's
-full organized_manifest.jsonl (has digitized_source_file + resolved pages).
+Steps: ./upload.sh  (pushes prompt fixes first, then lists + queue + sbatch).
+After Job B render: run the normal extract->OCR path over $HOME/census_toc/newocr_pages.
+Open: 41 of 139 new-OCR docs are keeper-only (no PDF reference anywhere) -> excluded
+from Job B until their source PDF is recovered.
 """)
     print(f"bundle -> {OUT}")
     print(f"  reocr_neil_age.txt: {n_age}   reocr_all_remaining.txt: {n_all}")
