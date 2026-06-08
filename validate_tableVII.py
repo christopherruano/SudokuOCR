@@ -54,6 +54,7 @@ def main():
         coord = defaultdict(dict)
         cols_present = set()
         ages = set()
+        group_subs = defaultdict(set)   # civil-condition class -> set of sub-columns (M/F/persons) seen
         for f in facts:
             # civil-condition can live in column_group, sub_column, OR row label (orientation varies)
             kcol = cls(f["column_group_std"]) or cls(f["sub_column_std"])
@@ -65,6 +66,8 @@ def main():
             row = f["row_label_std"] or ""
             if AGEROW.search(row) or AGEROW.search(f["column_group_std"] or ""):
                 ages.add(row if AGEROW.search(row) else (f["column_group_std"] or ""))
+            if kcol:
+                group_subs[kcol].add((f["sub_column_std"] or f["sex"] or "").lower())
             v = num(f["value"])
             if v is not None and kcol:
                 coord[(row, sex)][kcol] = v
@@ -74,6 +77,15 @@ def main():
         if expects_umw and not ({"U", "M", "W"} <= cols_present):
             missing = {"U", "M", "W"} - cols_present
             issues.append("missing_cols:" + "".join(sorted(missing)))
+        # sub-column truncation: a civil-condition group with FEWER sub-cols than the
+        # richest group means its M/F (or persons) sub-columns were dropped (wide-table truncation)
+        if expects_umw:
+            present_subs = {k: {s for s in group_subs[k] if s} for k in ("U", "M", "W", "P") if group_subs[k]}
+            if present_subs:
+                maxn = max(len(s) for s in present_subs.values())
+                short = [k for k, s in present_subs.items() if 0 < len(s) < maxn and maxn >= 2]
+                if short:
+                    issues.append("dropped_subcols:" + "".join(short))
         # U+M+W == P check
         checked = bad = 0
         for (row, sex), d in coord.items():

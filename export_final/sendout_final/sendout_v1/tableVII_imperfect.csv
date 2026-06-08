@@ -1,7 +1,30 @@
 table_id,year,province,status,issues,title
+asm_7ea1facbad29b088_0146,1931,Hyderabad,assembled,dropped_subcols:MW,"TABLE VII. Age, Sex and Civil Condition (Part I - Civil Condition, pla"
+asm_29f24a84993c5687_0042,1901,Ettumanur Taluk / Kottayam Taluk,assembled,dropped_subcols:MW;umw_sum_fail:20/36,"TABLE VII. Age, Sex and Civil Condition - (25) Changanachery Taluk"
+asm_29f24a84993c5687_0045,1901,Shertallay Taluk,assembled,dropped_subcols:MW;umw_sum_fail:21/24,"TABLE VII. Age, Sex and Civil Condition - (21) Shertallay Taluk"
+asm_29f24a84993c5687_0018,1901,Quilon Taluk,assembled,dropped_subcols:MW;umw_sum_fail:21/36,"TABLE VII. Age, Sex and Civil Condition - (13) Quilon Taluk"
+asm_29f24a84993c5687_0012,1901,Pattanapuram Taluk,assembled,dropped_subcols:MW;umw_sum_fail:23/36,"TABLE VII. Age, Sex and Civil Condition - (11) Pattanapuram Taluk"
+asm_3a2c54895cb6263e_0326,1931,Mysore,assembled,dropped_subcols:MWP,TABLE XIV. Civil Condition by Age
+asm_3a2c54895cb6263e_0325,1931,Mysore,assembled,dropped_subcols:MWP;few_age_bands:0,TABLE XIV. Civil Condition by Age
+digitized_tables/52e08642ca6bf1fb_t0014_aA-s-CIVIL-CONDITION.-y-General-statistics--Civil-eondition-i-in-each-sex-x-gene/5e0afcde814930277569b5f1ee413e30485eef57_oneshot,1891,Mysore,keeper_review,dropped_subcols:MWP;few_age_bands:1,Statement showing the number of persons of either sex belonging to eac
+digitized_tables/b8dfc308b809b8b7_t0010_Subsidiary-Table-II./f668d8b9bf2935ec361607f2c117cebcd1106da3_oneshot,1901,Jammu and Kashmir,keeper_accepted,dropped_subcols:P;few_age_bands:2,"Subsidiary Table IV. Distribution by main age periods of 10,000 of eac"
+asm_a1115ac8c392227f_0080,1901,Mysore,assembled,dropped_subcols:P;umw_sum_fail:6/6,SUBSIDIARY TABLE XI. Distribution by Civil Condition and Main Age Peri
+asm_79b54ce5b46cc321_0405,1931,Delhi,assembled,dropped_subcols:UMP,Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+asm_36009a94d71a3d62_0486,1911,India,assembled,dropped_subcols:UMW,"TABLE V. Distribution by civil condition of 1,000 of each sex at certa"
+asm_5260bdbb376e21e3_0585,1921,Bombay,assembled,dropped_subcols:UMW,SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi
+asm_5260bdbb376e21e3_0588,1921,Bombay,assembled,dropped_subcols:UMW,"DISTRIBUTION OF 1,000 FEMALES OF EACH AGE BY CIVIL CONDITION."
+digitized_tables/9b499bab257d184d_t0005_s-edat-the-last-birthday-y-should-b-orded-children-under-of-100-000-of-each-sex-/746ccda78de7ffaa39822e1b507fadb24fcb1119_oneshot,1901,United Provinces,keeper_accepted,dropped_subcols:UMW,"SUBSIDIARY TABLE XXV.-Statement showing Civil Condition of 10,000 of e"
+digitized_tables/06fec62540c93abf_t0002_Table-TII./516a758840fdde95fb778da42bc374931600d06b_oneshot,1911,Madras,keeper_review,dropped_subcols:UMW,"TABLE III. Age, Sex and Civil Condition (by divisions)—CHRISTIANS (FEM"
+digitized_tables/06fec62540c93abf_t0002_Table-TII./5b1ed94b0fd9826a8194eac56c5ff30cc75a9d7d_oneshot,1911,Madras,keeper_review,dropped_subcols:UMW,"TABLE III. Age, Sex and Civil Condition (by divisions) - CHRISTIANS (M"
+digitized_tables/06fec62540c93abf_t0002_Table-TII./78f52de008d7416913f818540c637891d458380d_oneshot,1911,Madras,keeper_review,dropped_subcols:UMW,"TABLE LII. Age, Sex and Civil Condition (by divisions) - HINDUS (MALE)"
+digitized_tables/06fec62540c93abf_t0002_Table-TII./9cf18a2d02a8fbe1f273f5a9a3b558e0ecfa0faa_oneshot,1911,Madras,keeper_review,dropped_subcols:UMW,"TABLE III. Age, Sex and Civil Condition (by divisions)—MUSALMANS (MALE"
+digitized_tables/06fec62540c93abf_t0002_Table-TII./dae1c2581e13b799d46f8b421481f5522b3497a3_oneshot,1911,Madras,keeper_review,dropped_subcols:UMW,"TABLE III. Age, Sex and Civil Condition (by divisions)—HINDUS (FEMALE)"
+digitized_tables/b1bdd0ae80697b1c_t0031_SUBS-DIARY-TABLE-JII./77a830aa35089953aaccec311c3d2e2999ead27f_oneshot,1931,Travancore,keeper_accepted,dropped_subcols:UMW;few_age_bands:0,CHAPTER VI - CIVIL CONDITION; PART II - STATISTICAL
+digitized_tables/06fec62540c93abf_t0002_Table-TII./15fe89aff1621d2540832b4a77341a99f8e5a9e4_oneshot,1901,India,keeper_review,dropped_subcols:UMW;few_age_bands:2,"TABLE III. Age, Sex and Civil Condition (by divisions) - MUSALMANS (FE"
+asm_29f24a84993c5687_0028,1901,Chengannur Taluk,assembled,dropped_subcols:UP,"TABLE VII. Age, Sex and Civil Condition - (18) Chengannur Taluk"
+asm_29f24a84993c5687_0036,1901,Alangad Taluk,assembled,dropped_subcols:UP;umw_sum_fail:25/26,"TABLE VII. Age, Sex and Civil Condition - (30) Alangad Taluk"
 asm_b97cdde64002e645_0205,1931,Cochin,assembled,few_age_bands:0,CHAPTER VI.-CIVIL CONDITION
 asm_3400dc05d12d044b_0303,1931,United Provinces,assembled,few_age_bands:0,Table VIII - Civil Condition by Age / for selected castes
-asm_3a2c54895cb6263e_0325,1931,Mysore,assembled,few_age_bands:0,TABLE XIV. Civil Condition by Age
 Mysore/1921/dd0996c67fb7e9b2_t0006_CHAPTER-v-AGE-L-E-Oaste-.-u-m-Ga-IV.-AaB-DISTRIBUTION-oF-1-000-OF-EACH-SEX-IN-CE__1786227bf3c90118318cc420e2ede4f8a1898040_oneshot,1921,Mysore,confirmed_sent,few_age_bands:0,VII.-REPORTED BIRTH-RATE BY SEX AND NATURAL DIVISION.
 digitized_tables/02503215d63a55a6_t0008_Table-npare/4334aadf74f3871c242a4ca4660619f3547529d9_oneshot,1931,North-West Frontier Province,keeper_accepted,few_age_bands:0,DISTRIBUTION BY CIVIL CONDITION
 digitized_tables/29f4fc6033c99444_t0010_TABLE-VIII./ad4de205b74cf6913994f8c5214c473f1c1ff718_oneshot,1901,India,keeper_accepted,few_age_bands:0,IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
@@ -12,7 +35,6 @@ digitized_tables/58024c70a9cb5529_t0014_SUBSIDIARY-TABLE-IlI./3a50b295589f4125c2
 digitized_tables/5f2bdd24f41a5768_t0064_TABLE-No.-XLIII./6c10735bc6154d8f5bb36d464c6947feedc0a041_oneshot,1891,Baroda,keeper_accepted,few_age_bands:0,Mean-ages according to Civil Condition.
 digitized_tables/8f886c379ba02fef_t0017_1.-p-t-PEE-CHAPTER-VIL-A-Civil-Condition-f-persons-y-age-sex-and-religion.-Table/efdf609088dd07ffc1a71db15c4429fb34fe8df3_oneshot,1921,Gwalior,keeper_accepted,few_age_bands:0,"Civil Condition per 1,000 by Natural Divisions."
 digitized_tables/900ecfa48c2790c1_t0010_Imperial-Table-XIV./3344da980b60eb40a9704163a1c6dc536a5cb205_oneshot,1911,Mysore,keeper_accepted,few_age_bands:0,Proportional figures indicating the distribution of the population by 
-digitized_tables/b1bdd0ae80697b1c_t0031_SUBS-DIARY-TABLE-JII./77a830aa35089953aaccec311c3d2e2999ead27f_oneshot,1931,Travancore,keeper_accepted,few_age_bands:0,CHAPTER VI - CIVIL CONDITION; PART II - STATISTICAL
 digitized_tables/b97cdde64002e645_t0013_UNIVERSALITY.-OF-MARRIAGE..-g1.-thre-e-most-striking-features-f-the-Indian-stati/86967b2fb11a2900fbb1231150d5a6708f1e385b_oneshot,1931,Cochin,keeper_accepted,few_age_bands:0,CHAPTER VI.—CIVIL CONDITION
 digitized_tables/b99c15a375176ed9_t0015_Table-XIV/2a71e2c931a2f199021dd9090e2d0bef474ffa2d_oneshot,1921,Jammu and Kashmir,keeper_accepted,few_age_bands:0,Civil Condition by religion.
 digitized_tables/5f2bdd24f41a5768_t0084_Ratio-of-iearners-to-literates-at-each-age-period-EE/db16f02e74dc72ee1afdcbaed6c741b2925c5421_oneshot,1901,Baroda,keeper_review,few_age_bands:0,Civil Condition
@@ -32,7 +54,6 @@ digitized_tables/5f2bdd24f41a5768_t0087_Education-by-age-in-different-religions.
 digitized_tables/9975dd577f4168d2_t0032_SUBSIDIARY-TABLE-T--Distrib/53cbea50c94e4b65c97818a52f48e0a90ef7d8ca_oneshot,1931,India,keeper_accepted,few_age_bands:1,Civil Condition
 digitized_tables/b4eb1df25b9eb9bd_t0003_TABLE-C.I./92499c9fe27e816dd67661cd03219be0a2558864_oneshot,1951,Uttar Pradesh,keeper_accepted,few_age_bands:1,HOUSEHOLDS in households Civil condition
 digitized_tables/b4eb1df25b9eb9bd_t0033_TABLE-Cf/032213a99e0d405f22d3c07986c0051fb03098a8_oneshot,1951,Uttar Pradesh,keeper_accepted,few_age_bands:1,TABLE C-III Age and Civil Condition-(contd.)
-digitized_tables/52e08642ca6bf1fb_t0014_aA-s-CIVIL-CONDITION.-y-General-statistics--Civil-eondition-i-in-each-sex-x-gene/5e0afcde814930277569b5f1ee413e30485eef57_oneshot,1891,Mysore,keeper_review,few_age_bands:1,Statement showing the number of persons of either sex belonging to eac
 /n/home11/cruano/census_toc/ocr_results/digitized_tables/31d8f187d45cea3a_t0003_H-a-N-a-E-b---y-SEID-KYAB-DISTRICT.-TAEL-9-l-and-Tnfirmittes.-i-R-Vt-y-Akva-Town/b42e6942971287b36d06f89def3f8ec0fe6ff67f_oneshot,1891,Akyab District,recovered,few_age_bands:1,"AKYAB DISTRICT.—Table showing Population by Religion, Civil Condition,"
 /n/home11/cruano/census_toc/ocr_results/digitized_tables/31d8f187d45cea3a_t0008_E-E-T-.-.-PATION.-d-KYAUKTAN-TownsHip-z7-abl-showing-Population-by-Sex-Age-Civil/e3266b5cf36530c5b73d096302debd2db6c0b56d_oneshot,1891,Tharrawaddy District,recovered,few_age_bands:1,"THARRAWADDY DISTRICT.—Table showing Population by Religion, Civil Cond"
 asm_239d433af8f47447_0274,1941,Gwalior,assembled,few_age_bands:2,"Subsidiary Table VII (x) - Distribution by Civil Condition of 1,000"
@@ -41,11 +62,9 @@ digitized_tables/1c15d35d94a2d359_t0007_..-S-SEX-AT-CERTAIN-AGE-PERIODS-FOR-SELE
 digitized_tables/2278314173911acc_t0011_186-.-CIVIL-OR-CONJUGAL-CONDITION.-Statistics-for-the.chiof-religions.-203.-In-t/64c69bf0b9b85c1b45e1cdf13088fdfa04c5f722_oneshot,1891,India,keeper_accepted,few_age_bands:2,"Statement showing the average number of females per 1,000 males of the"
 digitized_tables/36009a94d71a3d62_t0027_Rn-CHAPTER-VIL.-MARRIAGE-7-p-i-theof-last-censUses-contq-.-period-Distribution-b/83704b87af503591dcbc348bf53ad5b611779ed6_oneshot,1911,India,keeper_accepted,few_age_bands:2,"DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
 digitized_tables/9b499bab257d184d_t0005_s-edat-the-last-birthday-y-should-b-orded-children-under-of-100-000-of-each-sex-/f4731124bc02c942e7d9476cda9a741f0744917a_oneshot,1901,United Provinces,keeper_accepted,few_age_bands:2,SUBSIDIARY TABLE XXII.—Distribution by Civil Condition
-digitized_tables/b8dfc308b809b8b7_t0010_Subsidiary-Table-II./f668d8b9bf2935ec361607f2c117cebcd1106da3_oneshot,1901,Jammu and Kashmir,keeper_accepted,few_age_bands:2,"Subsidiary Table IV. Distribution by main age periods of 10,000 of eac"
 digitized_tables/d063ff071e311cfe_t0017_SUBSIDIARY-TABLES-.-Distribution-by-civil-condition-f-1-000-af-each-sex-religion/050a0167ceeb1be930929ad29a9159d87d3bc02c_oneshot,1911,North-West Frontier Province,keeper_accepted,few_age_bands:2,SUBSIDIARY TABLE I.-(For Province including Agencies). Distribution by
 digitized_tables/d063ff071e311cfe_t0017_SUBSIDIARY-TABLES-.-Distribution-by-civil-condition-f-1-000-af-each-sex-religion/80c1e903c26e163d0ebca255b74a988126d62e1d_oneshot,1911,North-West Frontier Province,keeper_accepted,few_age_bands:2,SUBSIDIARY TABLE I-contd.-(For Province including Agencies). Distribut
 digitized_tables/de02078f80f3b1bb_t0017_CHAPTER-VI./26927b7076ec79e553eef4f3395b47c9569a206b_oneshot,1901,Travancore,keeper_accepted,few_age_bands:2,"Distribution by age-periods of 1,000 in each civil condition."
-digitized_tables/06fec62540c93abf_t0002_Table-TII./15fe89aff1621d2540832b4a77341a99f8e5a9e4_oneshot,1901,India,keeper_review,few_age_bands:2,"TABLE III. Age, Sex and Civil Condition (by divisions) - MUSALMANS (FE"
 digitized_tables/06fec62540c93abf_t0002_Table-TII./d4a4176eef91b48dd9de4b4f37a784bbc63af67a_oneshot,1911,Madras,keeper_review,few_age_bands:2,"TABLE III. Age, Sex and Civil Condition (by divisions)—CHRISTIANS (MAL"
 asm_1942af2b733a16cb_0645,1901,Hyderabad,assembled,few_age_bands:3,"Distribution by Civil Condition of 10,000 persons"
 /n/home11/cruano/census_toc/ocr_results/digitized_tables/239d433af8f47447_t0019_Subsidiary-Table-eVI/50347f5eada8d2db324f25e98d22f28827168a5d_oneshot,1941,Gwalior,confirmed_sent,few_age_bands:3,Subsidiary Table VII (iii)—Proportion of (a) Children under 10 and of 
@@ -82,7 +101,6 @@ digitized_tables/1942af2b733a16cb_t0015_Table-IV/a11d68a7b3c92921d4ac65f1a3320d4
 digitized_tables/2777001eee6849be_t0011_table-shows/390637016a8df05dc685ad933b87a0282eb69953_oneshot,1891,Assam,keeper_accepted,missing_cols:M,"Statement No. 75, comparing the civil condition of the people recorded"
 digitized_tables/2777001eee6849be_t0011_table-shows/a60407b29cd5b466b5b09de1853d3d305994e005_oneshot,1881,Assam,keeper_accepted,missing_cols:M,"Statement No. 73, comparing the distribution by age of 10,000 persons "
 digitized_tables/5f2bdd24f41a5768_t0080_Comparison-by-age-periods-of-the-lepers-for-1891-aud-1881-.-ee/495a58ff94d0aa98e651ada5f8bd52534916d234_oneshot,1891,Baroda,keeper_accepted,missing_cols:M,"TABLE No. I. Distribution of 10,000 persons of each sex, in each age-p"
-digitized_tables/7e212e3ce14dd11d_t0013_SUBSIDIARY-TABLETABLE-I-ADIARY.-a-Unadjusted-age-return-SE-0f-100-000-of-each-se/30de831534a7b8fb8a049b1d5afcaec16d30ecf3_oneshot,1901,Punjab,keeper_accepted,missing_cols:M,SUBSIDIARY TABLE XI.-Distribution by civil condition and main age-peri
 digitized_tables/91871b3453bbaaec_t0004_Subsidiary-Table-I./e1d423de46fbee81219cf242dc343a26f0921db9_oneshot,1901,India,keeper_accepted,missing_cols:M,"Subsidiary Table IV. Distribution by main-age periods of 10,000 of eac"
 digitized_tables/945317157569fcf1_t0022_Table-V-../bdbbbba5c475217038450decaf6192d7cded30ea_oneshot,1911,Punjab,keeper_accepted,missing_cols:M,"SUBSIDIARY TABLE I. Distribution by Civil Condition of 1,000 of each S"
 digitized_tables/b74dd9a9d676bbb1_t0012_S-114.-e-REf-r-ON-TH-CENSUS-oP-BORMA.-Comparative-statement-showi-g-the-distribu/4a007cf5721b8cc1e1e15763f7143bbd7a6c0250_oneshot,1891,Burma,keeper_accepted,missing_cols:M,Comparative statement showing the distribution of the population by 10
@@ -94,10 +112,11 @@ digitized_tables/f88f0f0fb689b34d_t0003_Age-Sex-and-Civil-Condition.-Norn.-The-t
 digitized_tables/f88f0f0fb689b34d_t0003_Age-Sex-and-Civil-Condition.-Norn.-The-total-for-all-religions-includes-lso-5-5-/486429d8bb6ae1a30e076d49260e8ede5bb3b4a3_oneshot,1911,Cochin,keeper_accepted,missing_cols:M,"TABLE VII. ANIMISTIC. Age, Sex and Civil Condition."
 digitized_tables/f88f0f0fb689b34d_t0003_Age-Sex-and-Civil-Condition.-Norn.-The-total-for-all-religions-includes-lso-5-5-/6ef71bdc7a4277a8480e16251ab2ab86af3390ea_oneshot,1911,Cochin,keeper_accepted,missing_cols:M,"TABLE VII. ALL RELIGIONS. Age, Sex and Civil Condition."
 digitized_tables/f88f0f0fb689b34d_t0003_Age-Sex-and-Civil-Condition.-Norn.-The-total-for-all-religions-includes-lso-5-5-/9944feb7f4a877c10d43c211fc3a158556e23ca4_oneshot,1911,Cochin,keeper_accepted,missing_cols:M,"TABLE VII. JEW. Age, Sex and Civil Condition."
-digitized_tables/f88f0f0fb689b34d_t0003_Age-Sex-and-Civil-Condition.-Norn.-The-total-for-all-religions-includes-lso-5-5-/ee7422a6fe36783afb37267a501827d42937bd69_oneshot,1901,Cochin,keeper_accepted,missing_cols:M,"TABLE VII. HINDU. Age, Sex and Civil Condition."
 digitized_tables/2777001eee6849be_t0011_table-shows/b228f812e409366c2bbcd702ccedc2faf8d7c99c_oneshot,1891,Assam,keeper_review,missing_cols:M,"Statement No. 66, showing the distribution of Hindus in respect of civ"
-digitized_tables/3b2b6ec087cdf270_t0025_SUBSIDIARY-TABLE-XI./632dfb53290aa15c23838d359c375cd994af50ca_oneshot,1901,Berar,keeper_review,missing_cols:M,SUBSIDIARY TABLE XII. Showing distribution by Civil Condition and main
 digitized_tables/c2f10c0a6f498ee7_t0002_T-m-35-i-CHAPTER-V.-AGE-SEX-AND-CIVIL-CONDITION.-THs-question-of-sex-and-civil-c/2a6e2ab62eca5a9cc64e363a990e3ac2663b721c_oneshot,1901,Bengal,keeper_review,missing_cols:M,THE SEXES BY CIVIL CONDITION FOR RELIGIONS.
+digitized_tables/7e212e3ce14dd11d_t0013_SUBSIDIARY-TABLETABLE-I-ADIARY.-a-Unadjusted-age-return-SE-0f-100-000-of-each-se/30de831534a7b8fb8a049b1d5afcaec16d30ecf3_oneshot,1901,Punjab,keeper_accepted,missing_cols:M;dropped_subcols:P,SUBSIDIARY TABLE XI.-Distribution by civil condition and main age-peri
+digitized_tables/3b2b6ec087cdf270_t0025_SUBSIDIARY-TABLE-XI./632dfb53290aa15c23838d359c375cd994af50ca_oneshot,1901,Berar,keeper_review,missing_cols:M;dropped_subcols:P,SUBSIDIARY TABLE XII. Showing distribution by Civil Condition and main
+digitized_tables/f88f0f0fb689b34d_t0003_Age-Sex-and-Civil-Condition.-Norn.-The-total-for-all-religions-includes-lso-5-5-/ee7422a6fe36783afb37267a501827d42937bd69_oneshot,1901,Cochin,keeper_accepted,missing_cols:M;dropped_subcols:UP,"TABLE VII. HINDU. Age, Sex and Civil Condition."
 Calcutta/1901/c2f10c0a6f498ee7_t0002_T-m-35-i-CHAPTER-V.-AGE-SEX-AND-CIVIL-CONDITION.-THs-question-of-sex-and-civil-c__fc923ba5a2fac0f489dbd620fff348b1f6447ab3_oneshot,1901,Calcutta,confirmed_sent,missing_cols:M;few_age_bands:4,"SUBSIDIARY TABLE XVI.-DISTRIBUTION BY MAIN AGE PERIODS OF 10,000 OF EA"
 digitized_tables/a1115ac8c392227f_t0030_Le-Es-B80.-om-i-pee-eres-poe-married-before-the-5th-year-of-age-in-ev-ry-ten-tho/4261b55ca6cc3a0d54d26acb7653ac5f4fa582a8_oneshot,1901,Mysore,keeper_accepted,missing_cols:M;few_age_bands:4,"Distribution by Civil Condition of the population aged 15 and over, en"
 digitized_tables/c2f10c0a6f498ee7_t0002_T-m-35-i-CHAPTER-V.-AGE-SEX-AND-CIVIL-CONDITION.-THs-question-of-sex-and-civil-c/fc923ba5a2fac0f489dbd620fff348b1f6447ab3_oneshot,1901,Calcutta,keeper_accepted,missing_cols:M;few_age_bands:4,"SUBSIDIARY TABLE XVI.-DISTRIBUTION BY MAIN AGE PERIODS OF 10,000 OF EA"
@@ -462,7 +481,7 @@ digitized_tables/2278314173911acc_t0009_o-.-ii-.L-P-.-DISTRIBUTION-BY-CIVIL-COND
 digitized_tables/58e2514a48091e11_t0002_TABLE-VIIE/3d17f2bb1cd0d3e145bd5c36af558ebdf6cdf94d_oneshot,1891,Baroda,keeper_accepted,missing_cols:UW,TABLE VIII. Civil Condition by Religion and Age.
 digitized_tables/58e2514a48091e11_t0003_TABLE-VIIL/f9243cab49634fde88d98b8e24ba47a85d8bac73_oneshot,1901,Baroda,keeper_accepted,missing_cols:UW,Civil Condition by Religion and Age.
 digitized_tables/8a02b0eb12d003d4_t0041_TABLE-VII-A/fa93de20e5ef9766ff6542dc59087e7b56ae1d19_oneshot,1941,Baroda,keeper_accepted,missing_cols:UW,SUBSIDIARY TABLE iii-(VII-A) PROPORTION OF (A) CHILDREN UNDER 10 AND O
-digitized_tables/de02078f80f3b1bb_t0009_SUBSIDIARY-TABLES.-by-sex-and-in-certain-age-periods-and-ci-y-u-TN-CERTAIN-AGF-I/2373bb1d12e3864c59f5fa4141f7ffb4a984f483_oneshot,1911,Travancore,keeper_accepted,missing_cols:UW,SUBSIDIARY TABLES. by sex and in certain age periods and civil conditi
+digitized_tables/de02078f80f3b1bb_t0009_SUBSIDIARY-TABLES.-by-sex-and-in-certain-age-periods-and-ci-y-u-TN-CERTAIN-AGF-I/2373bb1d12e3864c59f5fa4141f7ffb4a984f483_oneshot,1911,Travancore,keeper_accepted,missing_cols:UW;dropped_subcols:P,SUBSIDIARY TABLES. by sex and in certain age periods and civil conditi
 digitized_tables/7db54218934f4069_t0003_TABLE-V/762cef39a748051a8fcf5bc392b96c38c2db402d_oneshot,1901,Central Provinces and Berar,keeper_accepted,missing_cols:UW;few_age_bands:2,TABLE VII.—The Population by Civil Condition
 digitized_tables/239d433af8f47447_t0019_Subsidiary-Table-eVI/50347f5eada8d2db324f25e98d22f28827168a5d_oneshot,1941,Gwalior,keeper_accepted,missing_cols:UW;few_age_bands:3,Subsidiary Table VII (iii)—Proportion of (a) Children under 10 and of 
 /n/home11/cruano/census_toc/ocr_results/digitized_tables/46ba58ff5531f051_t0005_Age-sex-and-civil-condition-Part-A-6.-Musalman/e98ab1a285fee15fc04e4b1cdfbbef33f7fba8f1_oneshot,1901,Berar,confirmed_sent,missing_cols:W,"TABLE VII. - Age, sex and civil condition, Part B (1). - Total Populat"
@@ -477,20 +496,15 @@ asm_29f24a84993c5687_0031,1901,Tiruvalla Taluk,assembled,umw_sum_fail:13/49,"TAB
 asm_29f24a84993c5687_0020,1901,Neyyattinkara Taluk,assembled,umw_sum_fail:13/57,"TABLE VII. Age, Sex and Civil Condition - (6) Neyyattinkara Taluk (lat"
 asm_29f24a84993c5687_0019,1901,Vilavankod Taluk,assembled,umw_sum_fail:14/57,"TABLE VII. Age, Sex and Civil Condition - (5) Vilavankod Taluk"
 asm_7c37bc7afa561e63_0336,1931,Madras,assembled,umw_sum_fail:16/30,"Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
-asm_29f24a84993c5687_0042,1901,Ettumanur Taluk / Kottayam Taluk,assembled,umw_sum_fail:20/36,"TABLE VII. Age, Sex and Civil Condition - (25) Changanachery Taluk"
 asm_29f24a84993c5687_0011,1901,Pattanapuram Taluk,assembled,umw_sum_fail:21/24,"TABLE VII. Age, Sex and Civil Condition - (11) Pattanapuram Taluk"
-asm_29f24a84993c5687_0045,1901,Shertallay Taluk,assembled,umw_sum_fail:21/24,"TABLE VII. Age, Sex and Civil Condition - (21) Shertallay Taluk"
 asm_29f24a84993c5687_0046,1901,Shertallay Taluk,assembled,umw_sum_fail:21/24,"TABLE VII. Age, Sex and Civil Condition - (21) Shertallay Taluk"
-asm_29f24a84993c5687_0018,1901,Quilon Taluk,assembled,umw_sum_fail:21/36,"TABLE VII. Age, Sex and Civil Condition - (13) Quilon Taluk"
 asm_29f24a84993c5687_0038,1901,Kottayam Taluk,assembled,umw_sum_fail:23/26,"TABLE VII. Age, Sex and Civil Condition - (24) Kottayam Taluk"
-asm_29f24a84993c5687_0012,1901,Pattanapuram Taluk,assembled,umw_sum_fail:23/36,"TABLE VII. Age, Sex and Civil Condition - (11) Pattanapuram Taluk"
 asm_29f24a84993c5687_0024,1901,Kartikápalli Taluk,assembled,umw_sum_fail:23/38,"TABLE VII. Age, Sex and Civil Condition - (16) Kartikápalli Taluk"
 asm_29f24a84993c5687_0009,1901,Shencottah Taluk,assembled,umw_sum_fail:23/39,"TABLE VII. Age, Sex and Civil Condition - (12) Shencottah Taluk"
 asm_29f24a84993c5687_0050,1901,Todupuzha Taluk,assembled,umw_sum_fail:23/39,"TABLE VII. Age, Sex and Civil Condition - (28) Todupuzha Taluk"
 asm_66036ac293b39303_0124,1901,Hanthawaddy District,assembled,umw_sum_fail:23/41,"IMPERIAL TABLE No. VII - Age, Sex and Civil Condition by Religions"
 asm_29f24a84993c5687_0043,1901,Changanachery Taluk,assembled,umw_sum_fail:24/38,"TABLE VII. Age, Sex and Civil Condition - (25) Changanachery Taluk"
 asm_29f24a84993c5687_0030,1901,Tiruvalla Taluk,assembled,umw_sum_fail:24/49,"TABLE VII. Age, Sex and Civil Condition - (19) Tiruvalla Taluk"
-asm_29f24a84993c5687_0036,1901,Alangad Taluk,assembled,umw_sum_fail:25/26,"TABLE VII. Age, Sex and Civil Condition - (30) Alangad Taluk"
 asm_29f24a84993c5687_0034,1901,Alangad Taluk,assembled,umw_sum_fail:25/36,"TABLE VII. Age, Sex and Civil Condition - (30) Alangad Taluk"
 asm_29f24a84993c5687_0021,1901,Vilavankod Taluk / Neyyattinkara Taluk,assembled,umw_sum_fail:25/38,"TABLE VII. Age, Sex and Civil Condition - (7) Trivandrum Taluk (later "
 asm_29f24a84993c5687_0004,1901,Vilavankod Taluk / Neyyattinkara Taluk,assembled,umw_sum_fail:25/57,"TABLE VII. Age, Sex and Civil Condition - (7) Trivandrum Taluk"
@@ -507,6 +521,5 @@ asm_29f24a84993c5687_0016,1901,Kottarakara Taluk,assembled,umw_sum_fail:39/42,"T
 asm_29f24a84993c5687_0049,1901,Ettumanur Taluk,assembled,umw_sum_fail:39/54,"TABLE VII. Age, Sex and Civil Condition - (23) Ettumanur Taluk"
 asm_29f24a84993c5687_0015,1901,Kalkulam Taluk,assembled,umw_sum_fail:39/57,"TABLE VII. Age, Sex and Civil Condition - (4) Kalkulam Taluk"
 asm_29f24a84993c5687_0052,1901,Minachil Taluk,assembled,umw_sum_fail:39/57,"TABLE VII. Age, Sex and Civil Condition - (26) Minachil Taluk"
-asm_a1115ac8c392227f_0080,1901,Mysore,assembled,umw_sum_fail:6/6,SUBSIDIARY TABLE XI. Distribution by Civil Condition and Main Age Peri
 asm_c917476d7539ba41_0099,1951,Punjab,assembled,umw_sum_fail:66/66,TABLE C-III Civil Condition (Age and Civil Condition)
 asm_2ec5c76daef0084e_0671,1951,Assam,assembled,umw_sum_fail:82/82,C-III - Age and Civil Condition
