@@ -111,6 +111,22 @@ def _ensure_row_aliases(row, schema=None):
 # Schema-aware extraction: discover_schema_single + build_oneshot_extraction_prompt
 # ---------------------------------------------------------------------------
 
+_SCHEMA_TEMPLATES = None
+
+
+def _load_schema_templates():
+    """Sibling-derived schema templates {imghash: schema_dict} for multi-page groups
+    (context-aware OCR). Loaded once from SUDOKUOCR_SCHEMA_TEMPLATES; {} if unset."""
+    global _SCHEMA_TEMPLATES
+    if _SCHEMA_TEMPLATES is None:
+        p = os.environ.get("SUDOKUOCR_SCHEMA_TEMPLATES", "")
+        try:
+            _SCHEMA_TEMPLATES = json.load(open(p)) if p and os.path.exists(p) else {}
+        except Exception:
+            _SCHEMA_TEMPLATES = {}
+    return _SCHEMA_TEMPLATES
+
+
 def discover_schema_single(image_path):
     """Single-model schema discovery using Gemini (Call 1).
 
@@ -120,6 +136,16 @@ def discover_schema_single(image_path):
     Returns:
         TableSchema instance, or None on failure.
     """
+    # Context-aware OCR: if this crop belongs to a multi-page group with a known
+    # sibling schema (SUDOKUOCR_SCHEMA_TEMPLATES=path), USE that schema instead of
+    # re-discovering — forces extraction to fill the full column grid (no silent drop).
+    templ = _load_schema_templates()
+    if templ:
+        mh = re.search(r"([0-9a-f]{40})", os.path.basename(str(image_path)))
+        if mh and mh.group(1) in templ:
+            logger.info("Using sibling schema template for %s", os.path.basename(str(image_path)))
+            return _dict_to_schema(templ[mh.group(1)])
+
     b64 = encode_image(str(image_path))
     # Opt-in Table VII prime (SUDOKUOCR_TABLEVII_HINT=1): bias schema discovery against
     # the observed single-pass failures — silently dropped Widowed group / Females
