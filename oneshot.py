@@ -121,9 +121,26 @@ def discover_schema_single(image_path):
         TableSchema instance, or None on failure.
     """
     b64 = encode_image(str(image_path))
+    # Opt-in Table VII prime (SUDOKUOCR_TABLEVII_HINT=1): bias schema discovery against
+    # the observed single-pass failures — silently dropped Widowed group / Females
+    # sub-columns on wide tables, and under-captured stacked religion sections.
+    prompt = SCHEMA_DISCOVERY_PROMPT
+    if os.environ.get("SUDOKUOCR_TABLEVII_HINT") == "1":
+        prompt = SCHEMA_DISCOVERY_PROMPT + (
+            "\n\nHINT — this page is very likely IMPERIAL TABLE VII (Age, Sex and Civil "
+            "Condition). Expect FOUR column groups: Total/Population, Unmarried, Married, "
+            "Widowed — each split into Males and Females (sometimes a Persons column too). "
+            "These pages are WIDE: scan ALL the way to the far-right edge; do NOT omit the "
+            "Widowed group or the Females sub-columns. If the page stacks multiple "
+            "religion/community blocks (All Religions, Hindu, Musalman, Christian, etc.), list "
+            "EVERY block as its own section. Age rows typically run 0-1..4-5, 5-10, 10-15 … up "
+            "to 60+/70+ with subtotals — capture the full sequence. Before returning, COUNT "
+            "your column_groups: a civil-condition table should have ~4; if you found fewer, "
+            "re-examine the right side of the image."
+        )
     for attempt in range(3):
         try:
-            raw = call_gemini(b64, SCHEMA_DISCOVERY_PROMPT)
+            raw = call_gemini(b64, prompt)
             d = _parse_schema_json(raw)
             if d is not None:
                 return _dict_to_schema(d)
