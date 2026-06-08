@@ -86,7 +86,8 @@ TABLE_TMPL = """<!doctype html><html><head><meta charset=utf-8><title>{title}</t
 def main():
     con = sqlite3.connect(f"file:{ce.DB}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
-    qt = con.execute("SELECT * FROM tables WHERE status IN ('confirmed_sent','recovered') "
+    qt = con.execute("SELECT * FROM tables WHERE status IN "
+                     "('confirmed_sent','recovered','keeper_accepted','keeper_review','assembled') "
                      "ORDER BY broad_region, canonical_name, year").fetchall()
     # globally-unique, case-insensitive-safe page names (hash suffix avoids APFS collisions)
     page = {}
@@ -292,7 +293,8 @@ def write_search(idx):
 
 def write_index(con):
     rows = con.execute("SELECT broad_region, COUNT(*) n FROM tables WHERE status IN "
-                       "('confirmed_sent','recovered') AND broad_region!='' GROUP BY broad_region").fetchall()
+                       "('confirmed_sent','recovered','keeper_accepted','keeper_review','assembled') "
+                       "AND broad_region!='' GROUP BY broad_region").fetchall()
     counts = {r["broad_region"]: r["n"] for r in rows}
     mx = max([counts.get(r, 0) for r in ce.MAP_GEO["regions"]] + [1])
     ctx = "".join(f'<path class=ctx d="{p}"/>' for p in ce.MAP_GEO["context"])
