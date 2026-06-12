@@ -1,18 +1,23 @@
 #!/usr/bin/env bash
 # ONE Table VII finish job: NEW-OCR (missing pages) first, then RE-OCR (fix existing).
 # Run from repo root. Single combined OCR list, new pages at the top.
+# Uses rsync (not scp) for everything so each multi-file step shares one SSH
+# session — FASRC's login nodes drop fresh scp sessions too aggressively.
 set -euo pipefail
 CL=cruano@login.rc.fas.harvard.edu
-DEST=/n/home11/cruano/census_toc
+SUDOKU=/n/home11/cruano/SudokuOCR
+CENSUS=/n/home11/cruano/census_toc
 B=export_final/sendout_final/sendout_v1/cluster_upload
 
-# 1) push the (improved) prompts FIRST
-rsync -av oneshot.py schema_discovery.py batch_production.py $CL:$DEST/
+# 1) push the (improved) prompts + digitize task to ~/SudokuOCR/
+rsync -av oneshot.py schema_discovery.py batch_production.py digitize_table_pages_task.py $CL:$SUDOKU/
 
-# 2) push both targets + the sibling schema templates (context-aware OCR)
-scp $B/tableVII_newocr.jsonl  $CL:$DEST/tableVII_newocr.jsonl     # 149 windows / ~1,505 missing pages
-scp $B/tableVII_reocr.txt     $CL:$DEST/tableVII_reocr.txt        # 896 existing crops to re-OCR
-scp $B/group_schema_templates.json $CL:$DEST/group_schema_templates.json  # 1,366 crops -> full sibling grid
+# 2) push targets + schema templates to ~/census_toc/
+rsync -av \
+  $B/tableVII_newocr.jsonl \
+  $B/tableVII_reocr.txt \
+  $B/group_schema_templates.json \
+  $CL:$CENSUS/
 
 cat <<'REMOTE'
 
