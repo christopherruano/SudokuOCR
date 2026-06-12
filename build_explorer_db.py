@@ -72,6 +72,28 @@ def load(con, table, paths, drop_status=False, drop_ids=None):
     return n, cols
 
 
+def _append_facts(con, path):
+    """Append correction rows into the existing facts table (same OUT_COLS schema)."""
+    cols = [d[1] for d in con.execute("PRAGMA table_info(facts)").fetchall()]
+
+    def cast(c, v):
+        if c not in NUM or v in ("", "None", None):
+            return v if c not in NUM else None
+        try:
+            return float(v) if c == "value" else int(float(v))
+        except ValueError:
+            return None
+    sql = f"INSERT INTO facts VALUES ({','.join('?'*len(cols))})"
+    n, batch = 0, []
+    for r in csv.DictReader(open(path)):
+        batch.append([cast(c, r.get(c, "")) for c in cols]); n += 1
+        if len(batch) >= 50000:
+            con.executemany(sql, batch); batch = []
+    if batch:
+        con.executemany(sql, batch)
+    return n
+
+
 def main():
     if os.path.exists(DB):
         os.remove(DB)
@@ -81,9 +103,17 @@ def main():
     amp = os.path.join(V1, "assembled_members.json")
     import json as _json
     subsumed = set(t for members in _json.load(open(amp)).values() for t in members) if os.path.exists(amp) else set()
+    # Opus-corrected tables: drop their ORIGINAL facts, load the correction instead
+    cpath = os.path.join(V1, "corrected_tables.json")
+    corrected = set(_json.load(open(cpath))["corrected"]) if os.path.exists(cpath) else set()
     drop = bad | subsumed
     nf, _ = load(con, "facts", [os.path.join(V1, "unified_facts.csv"), os.path.join(V1, "keeper_facts.csv"),
-                                os.path.join(V1, "assembled_facts.csv")], drop_status=True, drop_ids=drop)
+                                os.path.join(V1, "assembled_facts.csv")], drop_status=True, drop_ids=drop | corrected)
+    if corrected:
+        cf = os.path.join(V1, "corrected_facts.csv")
+        added = _append_facts(con, cf) if os.path.exists(cf) else 0
+        nf += added
+        print(f"  (overlaid {added:,} corrected cells for {len(corrected)} Opus-re-read tables; originals kept on disk)")
     nt, _ = load(con, "tables", [os.path.join(V1, "catalog_tables.csv"), os.path.join(V1, "keeper_catalog.csv"),
                                  os.path.join(V1, "assembled_catalog.csv")], drop_status=True, drop_ids=drop)
     print(f"  (subsumed {len(subsumed):,} member pages into assembled multi-page tables)")

@@ -86,13 +86,25 @@ def main():
                 short = [k for k, s in present_subs.items() if 0 < len(s) < maxn and maxn >= 2]
                 if short:
                     issues.append("dropped_subcols:" + "".join(short))
-        # U+M+W == P check
+        # U+M+W constraint — KIND-AWARE: a count sums U+M+W to Population; a
+        # distribution (per-1,000/10,000) sums U+M+W to that base. Infer from the data.
+        sums = [d["U"] + d["M"] + d["W"] for d in coord.values() if all(k in d for k in ("U", "M", "W"))]
+        base = None
+        if sums:
+            import statistics
+            med = statistics.median(sums)
+            for b in (1000, 10000, 100):
+                if abs(med - b) <= 0.05 * b:
+                    base = b; break
         checked = bad = 0
-        for (row, sex), d in coord.items():
-            if all(k in d for k in ("P", "U", "M", "W")):
-                checked += 1
-                if abs(d["P"] - (d["U"] + d["M"] + d["W"])) > max(2, 0.02 * d["P"]):
-                    bad += 1
+        for d in coord.values():
+            if not all(k in d for k in ("U", "M", "W")):
+                continue
+            s = d["U"] + d["M"] + d["W"]
+            if base:                                    # distribution -> sums to base
+                checked += 1; bad += abs(s - base) > 0.05 * base
+            elif "P" in d:                              # count -> sums to Population
+                checked += 1; bad += abs(d["P"] - s) > max(2, 0.02 * max(1, d["P"]))
         if checked and bad > 0.15 * checked:
             issues.append(f"umw_sum_fail:{bad}/{checked}")
         if len(ages) < 5:
