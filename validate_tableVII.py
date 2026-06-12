@@ -41,7 +41,7 @@ def num(v):
 def main():
     con = sqlite3.connect(f"file:{ce.DB}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
-    q = "SELECT table_id,title,year,canonical_name,status,table_family FROM tables WHERE status IN {}".format(GOOD)
+    q = "SELECT table_id,title,year,canonical_name,status,table_family,measure_class FROM tables WHERE status IN {}".format(GOOD)
     tabs = [r for r in con.execute(q).fetchall()
             if r["table_family"] in AGEFAM and VII.search(r["title"] or "")]
 
@@ -86,27 +86,29 @@ def main():
                 short = [k for k, s in present_subs.items() if 0 < len(s) < maxn and maxn >= 2]
                 if short:
                     issues.append("dropped_subcols:" + "".join(short))
-        # U+M+W constraint — KIND-AWARE: a count sums U+M+W to Population; a
-        # distribution (per-1,000/10,000) sums U+M+W to that base. Infer from the data.
-        sums = [d["U"] + d["M"] + d["W"] for d in coord.values() if all(k in d for k in ("U", "M", "W"))]
-        base = None
-        if sums:
-            import statistics
-            med = statistics.median(sums)
-            for b in (1000, 10000, 100):
-                if abs(med - b) <= 0.05 * b:
-                    base = b; break
-        checked = bad = 0
-        for d in coord.values():
-            if not all(k in d for k in ("U", "M", "W")):
-                continue
-            s = d["U"] + d["M"] + d["W"]
-            if base:                                    # distribution -> sums to base
-                checked += 1; bad += abs(s - base) > 0.05 * base
-            elif "P" in d:                              # count -> sums to Population
-                checked += 1; bad += abs(d["P"] - s) > max(2, 0.02 * max(1, d["P"]))
-        if checked and bad > 0.15 * checked:
-            issues.append(f"umw_sum_fail:{bad}/{checked}")
+        # U+M+W constraint gated by the table's CLASSIFIED type (from its title/headers),
+        # not inferred from values: only count (sums to Population) and distribution
+        # (sums to its 1,000/10,000 base) have this constraint; rate/ratio/percentage do NOT.
+        mc = (t["measure_class"] or "count")
+        if mc in ("count", "distribution"):
+            base = None
+            if mc == "distribution":
+                sums = [d["U"] + d["M"] + d["W"] for d in coord.values() if all(k in d for k in ("U", "M", "W"))]
+                if sums:
+                    import statistics
+                    med = statistics.median(sums)
+                    base = min((1000, 10000, 100), key=lambda b: abs(med - b))   # which base, given it IS a distribution
+            checked = bad = 0
+            for d in coord.values():
+                if not all(k in d for k in ("U", "M", "W")):
+                    continue
+                s = d["U"] + d["M"] + d["W"]
+                if mc == "distribution" and base:
+                    checked += 1; bad += abs(s - base) > 0.05 * base
+                elif mc == "count" and "P" in d:
+                    checked += 1; bad += abs(d["P"] - s) > max(2, 0.02 * max(1, d["P"]))
+            if checked and bad > 0.15 * checked:
+                issues.append(f"umw_sum_fail:{bad}/{checked}")
         if len(ages) < 5:
             issues.append(f"few_age_bands:{len(ages)}")
         if issues:

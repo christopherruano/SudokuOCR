@@ -67,25 +67,31 @@ def main():
                     cells.append((P, U, M, W))
         if nrows < 4:
             rejected.append((rd.get("idx"), f"too_few_rows {nrows}")); continue
-        # KIND-AWARE constraint:
+        # constraint gated by CLASSIFIED type (measure_class), not inferred from values:
         if is_civil:
             if hasW == 0:
                 rejected.append((rd.get("idx"), "civil table missing Widowed")); continue
-            base = expected_base(cells)
-            checked = bad = 0
-            for (P, U, M, W) in cells:
-                if None in (U, M, W):
-                    continue
-                s = U + M + W
-                if base == "population":
-                    if P is None:
+            measure_unit = ""
+            if mc == "count":
+                checked = bad = 0
+                for (P, U, M, W) in cells:
+                    if None in (P, U, M, W):
                         continue
-                    checked += 1; bad += abs(P - s) > max(2, 0.02 * max(1, P))
-                elif isinstance(base, (int, float)):
-                    checked += 1; bad += abs(s - base) > 0.03 * base       # distribution sums to the base
-            if checked and bad > 0.1 * checked:
-                rejected.append((rd.get("idx"), f"sum_fail({base}) {bad}/{checked}")); continue
-            measure_unit = "" if base == "population" else f"per_{int(base)}" if isinstance(base, (int, float)) else ""
+                    checked += 1; bad += abs(P - (U + M + W)) > max(2, 0.02 * max(1, P))
+                if checked and bad > 0.1 * checked:
+                    rejected.append((rd.get("idx"), f"count_sum_fail {bad}/{checked}")); continue
+            elif mc == "distribution":
+                ds = [u + m + w for (p, u, m, w) in cells if None not in (u, m, w)]
+                base = min((1000, 10000, 100), key=lambda b: abs((sorted(ds)[len(ds)//2] if ds else 0) - b)) if ds else 1000
+                checked = bad = 0
+                for (P, U, M, W) in cells:
+                    if None in (U, M, W):
+                        continue
+                    checked += 1; bad += abs((U + M + W) - base) > 0.05 * base
+                if checked and bad > 0.1 * checked:
+                    rejected.append((rd.get("idx"), f"dist_sum_fail({base}) {bad}/{checked}")); continue
+                measure_unit = f"per_{base}"
+            # else rate/ratio/percentage civil: no sum constraint, accept on completeness
         else:
             # age x sex (no civil condition): require Population M/F, no UMW constraint
             mf = sum(1 for (P, U, M, W) in cells if P is not None)
