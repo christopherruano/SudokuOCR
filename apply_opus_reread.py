@@ -54,7 +54,11 @@ def main():
             rejected.append((rd.get("idx"), "not_tableVII_or_empty")); continue
         tid = c["table_id"]
         mc, fam = kind.get(tid, ("count", ""))
-        is_civil = fam in ("age_civil_condition", "age_sex_civil_condition")
+        # prefer the type Opus read straight off the title/headers, else the catalog classification
+        rk = (rd.get("table_kind") or "").lower()
+        if rk in ("count", "distribution", "rate", "ratio", "percentage"):
+            mc = rk
+        is_civil = fam in ("age_civil_condition", "age_sex_civil_condition") and rk != "age_sex_only"
         # gather cells + count rows
         cells, nrows, hasW = [], 0, 0
         for sec in rd["sections"]:
