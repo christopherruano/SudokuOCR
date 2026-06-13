@@ -15,11 +15,12 @@ VII = re.compile(r"\bVII\b|age,?\s*sex\s*(and|&)?\s*civil|civil\s*condition", re
 AGEFAM = ("age_civil_condition", "age_sex_civil_condition", "age_sex_population")
 GOOD = ("confirmed_sent", "recovered", "keeper_accepted", "keeper_review", "assembled")
 
-POP = re.compile(r"popul|persons|^total", re.I)
+POP = re.compile(r"popul|persons|total", re.I)
 UNM = re.compile(r"unmarr|single|never", re.I)
-MAR = re.compile(r"^marri|^\s*married", re.I)
+MAR = re.compile(r"marri", re.I)        # unanchored: civil class often mid-header ("Age 25-34 Married"); UNM is tested first so "unmarried"->U
 WID = re.compile(r"widow", re.I)
 AGEROW = re.compile(r"\d+\s*[-–]\s*\d+|\d+\s*(and over|\+)|under|all ages|total", re.I)
+AGE_EXTRACT = re.compile(r"(\d+\s*[-–]\s*\d+|\d+\s*(?:and over|\+|plus)|under\s*\d+|all\s*ages|not\s*stated)", re.I)
 
 
 def cls(c):
@@ -56,24 +57,31 @@ def main():
         ages = set()
         group_subs = defaultdict(set)   # civil-condition class -> set of sub-columns (M/F/persons) seen
         for f in facts:
-            # civil-condition can live in column_group, sub_column, OR row label (orientation varies)
-            kcol = cls(f["column_group_std"]) or cls(f["sub_column_std"])
+            # civil-condition class can live in column_group, sub_column, OR row label
+            # (orientation varies: many C-III tables put "Age 25-34 Married" in the header)
+            kcol = cls(f["column_group_std"]) or cls(f["sub_column_std"]) or cls(f["row_label_std"])
             for fld in ("column_group_std", "sub_column_std", "row_label_std"):
                 kk = cls(f[fld])
                 if kk:
                     cols_present.add(kk)
-            sex = f["sex"] or f["sub_column_std"] or ""
-            row = f["row_label_std"] or ""
-            if AGEROW.search(row) or AGEROW.search(f["column_group_std"] or ""):
-                ages.add(row if AGEROW.search(row) else (f["column_group_std"] or ""))
+            sex = (f["sex"] or f["sub_column_std"] or "").lower()
+            # age can be in the row label OR embedded in the column header (transposed tables)
+            am = AGE_EXTRACT.search(f["row_label_std"] or "") or AGE_EXTRACT.search(f["column_group_std"] or "")
+            age = re.sub(r"\s+", "", am.group(1)).lower() if am else ""
+            if age:
+                ages.add(age)
             if kcol:
-                group_subs[kcol].add((f["sub_column_std"] or f["sex"] or "").lower())
+                group_subs[kcol].add(sex)
             v = num(f["value"])
-            if v is not None and kcol:
-                coord[(row, sex)][kcol] = v
+            if v is not None and kcol and age:
+                coord[(age, sex)][kcol] = v
         issues = []
-        # U/M/W only expected for civil-condition tables (not plain age x sex population)
-        expects_umw = t["table_family"] in ("age_civil_condition", "age_sex_civil_condition")
+        mc = (t["measure_class"] or "count")
+        # U/M/W (count columns) only expected for civil-condition tables that are
+        # actually COUNTS or distributions — a rate/ratio/percentage/variation table
+        # (e.g. "proportion married per 1,000") has no Unmarried/Married/Widowed counts.
+        expects_umw = (t["table_family"] in ("age_civil_condition", "age_sex_civil_condition")
+                       and mc in ("count", "distribution"))
         if expects_umw and not ({"U", "M", "W"} <= cols_present):
             missing = {"U", "M", "W"} - cols_present
             issues.append("missing_cols:" + "".join(sorted(missing)))
@@ -89,7 +97,6 @@ def main():
         # U+M+W constraint gated by the table's CLASSIFIED type (from its title/headers),
         # not inferred from values: only count (sums to Population) and distribution
         # (sums to its 1,000/10,000 base) have this constraint; rate/ratio/percentage do NOT.
-        mc = (t["measure_class"] or "count")
         if mc in ("count", "distribution"):
             base = None
             if mc == "distribution":
@@ -109,7 +116,10 @@ def main():
                     checked += 1; bad += abs(d["P"] - s) > max(2, 0.02 * max(1, d["P"]))
             if checked and bad > 0.15 * checked:
                 issues.append(f"umw_sum_fail:{bad}/{checked}")
-        if len(ages) < 5:
+        # too-few age bands only signals truncation for tables that should carry a
+        # full age structure (counts/distributions); rate/ratio/variation summaries
+        # legitimately have few rows.
+        if mc in ("count", "distribution") and len(ages) < 5:
             issues.append(f"few_age_bands:{len(ages)}")
         if issues:
             out.append({"table_id": t["table_id"], "year": t["year"], "province": t["canonical_name"],
