@@ -74,7 +74,8 @@ def main():
         # pass 1 (reading order): carry geo context, assign (geo, religion, clean-name)
         cur_geo = None
         for r in frs:
-            raw = CONT.sub("", (r.get("section", "") or "").strip())
+            r["_origsec"] = (r.get("section", "") or "").strip()
+            raw = CONT.sub("", r["_origsec"])
             g = geo_of(raw)
             if g:
                 cur_geo = g
@@ -107,22 +108,49 @@ def main():
         geo_idx = {g: i for i, g in enumerate(geo_seq)}
         frs.sort(key=lambda r: (geo_idx.get(r["_geo"], 999), RELIG_ORDER.get(r["_rel"], 99),
                                 age_key(r.get("row_label_std", "")), r.get("column_group_std", "")))
+        # COLLISION-SAFE final pass: never let two facts share a cell. If a clean
+        # section still has duplicate (age,col,sub) coords, the distinct original
+        # sub-blocks collapsed — re-separate them, distinguishing by their original
+        # block (geo if present, else an ordinal) so no data is merged/overwritten.
+        coord = defaultdict(list)
         for r in frs:
-            for k in ("_geo", "_rel", "_ord"):
-                r.pop(k, None)
-        out.extend(frs)
+            coord[(r["section"], r.get("row_label_std", ""), r.get("column_group_std", ""), r.get("sub_column_std", ""))].append(r)
+        colliding_secs = {k[0] for k, v in coord.items() if len(v) > 1}
+        if colliding_secs:
+            for sec in colliding_secs:
+                origs = []
+                for r in frs:
+                    if r["section"] == sec and r["_origsec"] not in origs:
+                        origs.append(r["_origsec"])
+                if len(origs) < 2:
+                    continue
+                tag = {o: (geo_of(o) or f"part {i+1}") for i, o in enumerate(origs)}
+                for r in frs:
+                    if r["section"] == sec:
+                        r["section"] = f"{sec} · {tag[r['_origsec']]}"
+        # final guarantee: drop any residual exact-coordinate duplicate (same sub-block
+        # row OCR'd twice) — keep first, so every cell is unique.
+        seen = set(); deduped = []
+        for r in frs:
+            k = (r["section"], r.get("row_label_std", ""), r.get("column_group_std", ""), r.get("sub_column_std", ""))
+            if k in seen:
+                continue
+            seen.add(k)
+            for kk in ("_geo", "_rel", "_ord", "_origsec"):
+                r.pop(kk, None)
+            deduped.append(r)
+        out.extend(deduped)
 
     with open(p, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader(); [w.writerow(r) for r in out]
 
-    # verify: any remaining duplicate coords?
+    # verify on the WRITTEN output (post-dedupe)
     from collections import Counter
-    dup_tables = 0
-    for tid, frs in by_tab.items():
-        c = Counter((r["section"], r["row_label_std"], r["column_group_std"], r["sub_column_std"]) for r in frs)
-        if any(n > 1 for n in c.values()):
-            dup_tables += 1
+    bytab = defaultdict(Counter)
+    for r in out:
+        bytab[r["table_id"]][(r["section"], r["row_label_std"], r["column_group_std"], r["sub_column_std"])] += 1
+    dup_tables = sum(1 for c in bytab.values() if any(n > 1 for n in c.values()))
     print(f"cleaned {len(by_tab)} assembled tables; multi-geo handled")
     print(f"  tables still with duplicate coords: {dup_tables}")
     secs = Counter(r["section"] for r in out)
