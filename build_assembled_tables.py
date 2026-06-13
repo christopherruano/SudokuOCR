@@ -143,19 +143,31 @@ def main():
                 runs.append(cur); cur = [it]
         if cur:
             runs.append(cur)
-        for run in runs:
-            members = [t for _, t in run if facts.get(t)]
-            if len(members) < 2:
-                continue
-            # split the run by AI-assigned geographic place -> one table per place
-            byplace = defaultdict(list)
-            for t in members:
-                byplace[place_map.get(t, "")].append(t)
-            if len([p for p in byplace if p]) >= 2:
-                for place, pm in byplace.items():
-                    emit(g, pm, place)
-            else:
-                emit(g, members, next((p for p in byplace if p), ""))
+        allmem = [(pg, t) for pg, t in mem if facts.get(t)]
+        byplace = defaultdict(list)
+        for pg, t in allmem:
+            byplace[place_map.get(t, "")].append((pg, t))
+        named = {p: v for p, v in byplace.items() if p}
+        if named:
+            # one table per place (merges that place's pages even across non-contiguous runs)
+            for place, pv in named.items():
+                emit(g, [t for _, t in pv], place)
+            # unplaced members fall back to contiguous-run grouping
+            unp = sorted(byplace.get("", []))
+            urun, ucur = [], ([unp[0]] if unp else [])
+            for it in unp[1:]:
+                if it[0] - ucur[-1][0] <= GAP:
+                    ucur.append(it)
+                else:
+                    urun.append(ucur); ucur = [it]
+            if ucur:
+                urun.append(ucur)
+            for rr in urun:
+                emit(g, [t for _, t in rr], "")
+        else:
+            # no place info -> original contiguous-run behavior
+            for run in runs:
+                emit(g, [t for _, t in run if facts.get(t)], "")
 
     with open(os.path.join(V1, "assembled_facts.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=OUT_COLS, extrasaction="ignore")
