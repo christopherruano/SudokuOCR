@@ -67,8 +67,60 @@ def main():
         return [x for x in out if x != ""]
 
     asm_facts, asm_cat, subsumed = [], [], {}
-    fid = 1
-    gi = 0
+    counters = {"fid": 1, "gi": 0}
+    place_map = {}
+    pmp = os.path.join(V1, "member_place.json")
+    if os.path.exists(pmp):
+        place_map = json.load(open(pmp))
+
+    def emit(g, members, place):
+        """Assemble one place's member pages into a single logical table."""
+        if len(members) < 2:
+            return
+        counters["gi"] += 1
+        aid = f"asm_{g['dochash']}_{counters['gi']:04d}"
+        counts = Counter(len(distinct_rows(t)) for t in members)
+        modal = counts.most_common(1)[0][0]
+        best = max((t for t in members if len(distinct_rows(t)) == modal),
+                   key=lambda t: label_quality(distinct_rows(t)), default=members[0])
+        canon = distinct_rows(best); best_q = label_quality(canon)
+        dn = denorm.get(best, {})
+        coords = set(); n_emit = 0
+        for t in members:
+            weak = label_quality(distinct_rows(t)) < 0.4 and best_q >= 0.5 and len(distinct_rows(t)) == modal
+            pos = -1; lastrl = None
+            for f in facts[t]:
+                rl = (f.get("row_label_std", "") or "").strip()
+                if rl != lastrl:
+                    pos += 1; lastrl = rl
+                eff_row = canon[pos] if (weak and pos < len(canon)) else rl
+                key = (f.get("section", ""), eff_row, f.get("column_group_std", ""),
+                       f.get("sub_column_std", ""), f.get("sex", ""), f.get("religion", ""))
+                if key in coords:
+                    continue
+                coords.add(key)
+                row = {k: f.get(k, "") for k in B.KEEP}
+                row["table_id"] = aid; row["row_label_std"] = eff_row
+                row["fact_id"] = f"A{counters['fid']:09d}"; counters["fid"] += 1
+                row.update(dn); row["status"] = "assembled"; row["age_aggregate"] = B._agg_flag(f)
+                asm_facts.append(row); n_emit += 1
+        member_imgs = ";".join(prov.get(t, {}).get("source_image", "") for t in members)
+        p0 = prov.get(best, {})
+        title = (g["subject"][:90] + (f" — {place}" if place else ""))[:120]
+        asm_cat.append({"table_id": aid, "status": "assembled",
+                        "year": dn.get("year", ""), "decade": dn.get("decade", ""),
+                        "canonical_name": dn.get("canonical_name", ""), "entity_type": dn.get("entity_type", ""),
+                        "parent_geo": dn.get("parent_geo", ""), "broad_region": dn.get("broad_region", ""),
+                        "geo_level": dn.get("geo_level", ""), "canonical_topic": dn.get("canonical_topic", ""),
+                        "subject": dn.get("subject", ""), "measure_class": dn.get("measure_class", ""),
+                        "additive": dn.get("additive", ""), "table_family": dn.get("table_family", ""),
+                        "measure_category": dn.get("measure_category", ""), "dims_present": "",
+                        "age_coverage": "", "n_facts": n_emit,
+                        "review_note": f"assembled {len(members)} pages: {g['subject'][:70]}" + (f" [{place}]" if place else ""),
+                        "source_image": p0.get("source_image", ""), "member_images": member_imgs,
+                        "title": title})
+        subsumed[aid] = members
+
     for g in groups:
         # member pages, de-duped by physical page (source image basename)
         mem = []
@@ -95,61 +147,15 @@ def main():
             members = [t for _, t in run if facts.get(t)]
             if len(members) < 2:
                 continue
-            gi += 1
-            aid = f"asm_{g['dochash']}_{gi:04d}"
-            # canonical rows = best-labeled member at modal row count
-            counts = Counter(len(distinct_rows(t)) for t in members)
-            modal = counts.most_common(1)[0][0]
-            best = max((t for t in members if len(distinct_rows(t)) == modal),
-                       key=lambda t: label_quality(distinct_rows(t)), default=members[0])
-            canon = distinct_rows(best)
-            best_q = label_quality(canon)
-            dn = denorm.get(best, {})
-            # re-key facts, propagate weak row labels by position, dedupe coords
-            coords = set()
-            n_emit = 0
+            # split the run by AI-assigned geographic place -> one table per place
+            byplace = defaultdict(list)
             for t in members:
-                weak = label_quality(distinct_rows(t)) < 0.4 and best_q >= 0.5 and len(distinct_rows(t)) == modal
-                # build position->canonical map for this member if propagating
-                row_seq, last = [], None
-                for f in facts[t]:
-                    rl = (f.get("row_label_std", "") or "").strip()
-                    if rl != last:
-                        row_seq.append(rl); last = rl
-                pos = -1; lastrl = None
-                for f in facts[t]:
-                    rl = (f.get("row_label_std", "") or "").strip()
-                    if rl != lastrl:
-                        pos += 1; lastrl = rl
-                    eff_row = canon[pos] if (weak and pos < len(canon)) else rl
-                    key = (f.get("section", ""), eff_row, f.get("column_group_std", ""),
-                           f.get("sub_column_std", ""), f.get("sex", ""), f.get("religion", ""))
-                    if key in coords:
-                        continue
-                    coords.add(key)
-                    row = {k: f.get(k, "") for k in B.KEEP}
-                    row["table_id"] = aid
-                    row["row_label_std"] = eff_row
-                    row["fact_id"] = f"A{fid:09d}"; fid += 1
-                    row.update(dn)
-                    row["status"] = "assembled"
-                    row["age_aggregate"] = B._agg_flag(f)
-                    asm_facts.append(row); n_emit += 1
-            member_imgs = ";".join(prov.get(t, {}).get("source_image", "") for t in members)
-            p0 = prov.get(best, {})
-            asm_cat.append({"table_id": aid, "status": "assembled",
-                            "year": dn.get("year", ""), "decade": dn.get("decade", ""),
-                            "canonical_name": dn.get("canonical_name", ""), "entity_type": dn.get("entity_type", ""),
-                            "parent_geo": dn.get("parent_geo", ""), "broad_region": dn.get("broad_region", ""),
-                            "geo_level": dn.get("geo_level", ""), "canonical_topic": dn.get("canonical_topic", ""),
-                            "subject": dn.get("subject", ""), "measure_class": dn.get("measure_class", ""),
-                            "additive": dn.get("additive", ""), "table_family": dn.get("table_family", ""),
-                            "measure_category": dn.get("measure_category", ""), "dims_present": "",
-                            "age_coverage": "", "n_facts": n_emit,
-                            "review_note": f"assembled {len(members)} pages: {g['subject'][:80]}",
-                            "source_image": p0.get("source_image", ""), "member_images": member_imgs,
-                            "title": g["subject"][:120]})
-            subsumed[aid] = members
+                byplace[place_map.get(t, "")].append(t)
+            if len([p for p in byplace if p]) >= 2:
+                for place, pm in byplace.items():
+                    emit(g, pm, place)
+            else:
+                emit(g, members, next((p for p in byplace if p), ""))
 
     with open(os.path.join(V1, "assembled_facts.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=OUT_COLS, extrasaction="ignore")
