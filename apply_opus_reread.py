@@ -125,12 +125,25 @@ def main():
                         out_facts.append(fr); fid += 1
         accepted[tid] = len(out_facts) - n0
 
-    with open(os.path.join(V1, "corrected_facts.csv"), "w", newline="") as f:
+    # MERGE with any existing corrections (keep old copies; newest re-read wins per table).
+    # Drop prior facts only for tables re-corrected THIS round; keep all other prior corrections.
+    prev_facts, prev_counts = [], {}
+    cf = os.path.join(V1, "corrected_facts.csv"); ct = os.path.join(V1, "corrected_tables.json")
+    if os.path.exists(cf):
+        prev_facts = [r for r in csv.DictReader(open(cf)) if r.get("table_id") not in accepted]
+    if os.path.exists(ct):
+        prev_counts = (json.load(open(ct)) or {}).get("counts", {})
+    merged_counts = {k: v for k, v in prev_counts.items() if k not in accepted}
+    merged_counts.update(accepted)
+    all_facts = prev_facts + out_facts
+
+    with open(cf, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=B.OUT_COLS, extrasaction="ignore")
-        w.writeheader(); [w.writerow(r) for r in out_facts]
-    json.dump({"corrected": list(accepted), "counts": accepted}, open(os.path.join(V1, "corrected_tables.json"), "w"))
-    print(f"re-reads: {len(reads)}  accepted: {len(accepted)}  rejected: {len(rejected)}")
-    print(f"corrected facts written: {len(out_facts):,}")
+        w.writeheader(); [w.writerow(r) for r in all_facts]
+    json.dump({"corrected": list(merged_counts), "counts": merged_counts}, open(ct, "w"))
+    print(f"re-reads: {len(reads)}  accepted(this round): {len(accepted)}  rejected: {len(rejected)}")
+    print(f"corrected facts written: {len(all_facts):,} (prev kept: {len(prev_facts):,}, new: {len(out_facts):,})")
+    print(f"total corrected tables now: {len(merged_counts)}")
     if rejected[:5]:
         print("sample rejects:", rejected[:5])
 
