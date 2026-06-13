@@ -24,9 +24,44 @@ RELIG = [("All / Total", re.compile(r"all\s*(religion|communit|race)|\btotal\s*p
          ("Jew", re.compile(r"\bjew", re.I))]
 RELIG_ORDER = {n: i for i, (n, _) in enumerate(RELIG)}
 AGE_AS_SEC = re.compile(r"^\s*(age\s+)?\d+\s*[-–]\s*\d+\s*$|^\s*age\s+\d", re.I)
+ENUM_RE = re.compile(r"^\s*[\(\[]?\s*[A-Za-z0-9]{1,3}\s*[\)\].:·\-–]+\s*")  # "A.-", "(1)", "B)" block enumerators
 
 RANGE_RE = re.compile(r"(\d+)\s*[-–]\s*(\d+)")
 ONE_RE = re.compile(r"(\d+)")
+
+
+def _norm_sec(s):
+    s = CONT.sub("", (s or "").strip())
+    s = ENUM_RE.sub("", s).strip()
+    return re.sub(r"[\s.,;:]+$", "", s)
+
+
+def distinguish(origs):
+    """Label each colliding original block by what makes it DIFFERENT: strip the
+    boilerplate shared across the colliding originals (common prefix/suffix) and
+    keep the distinguishing core (e.g. "(Kanarese)" vs "(Hindustani)" -> Kanarese /
+    Hindustani; "B.-Hindu" vs "A.-Aden" -> Hindu / Aden). Falls back to the cleaned
+    original, never a bare ordinal."""
+    norm = {o: _norm_sec(o) for o in origs}
+    vals = list(norm.values())
+
+    def lcp(strs):
+        if not strs:
+            return ""
+        s1, s2 = min(strs), max(strs)
+        i = 0
+        while i < len(s1) and s1[i] == s2[i]:
+            i += 1
+        return s1[:i]
+
+    pre = lcp(vals)
+    suf = lcp([v[::-1] for v in vals])[::-1]
+    out = {}
+    for i, (o, v) in enumerate(norm.items()):
+        core = v[len(pre):len(v) - len(suf)] if (pre or suf) else v
+        core = core.strip(" .,;:-–()·").strip()
+        out[o] = (core or v or geo_of(o) or f"part {i + 1}")[:34]
+    return out
 
 
 def religion_of(s):
@@ -124,14 +159,18 @@ def main():
                         origs.append(r["_origsec"])
                 if len(origs) < 2:
                     continue
-                tag = {o: (geo_of(o) or f"part {i+1}") for i, o in enumerate(origs)}
+                tag = distinguish(origs)
+                base = sec.strip()
                 for r in frs:
                     if r["section"] == sec:
-                        r["section"] = f"{sec} · {tag[r['_origsec']]}"
+                        lab = tag.get(r["_origsec"], "")
+                        r["section"] = (f"{base} · {lab}" if base and lab else (lab or base or sec))
         # final guarantee: drop any residual exact-coordinate duplicate (same sub-block
         # row OCR'd twice) — keep first, so every cell is unique.
         seen = set(); deduped = []
         for r in frs:
+            if not (r.get("section") or "").strip():
+                r["section"] = "Main table"
             k = (r["section"], r.get("row_label_std", ""), r.get("column_group_std", ""), r.get("sub_column_std", ""))
             if k in seen:
                 continue
