@@ -35,7 +35,8 @@ Open EVERY scan and FIRST classify the table by READING ITS TITLE/HEADERS:
 Then transcribe FULLY and accurately:
 - Capture EVERY age-band row. Capture all columns the table actually has: for civil-condition tables that's Population/Total, Unmarried, Married, Widowed each x Males/Females; for age_sex_only it's just Population/Total x Males/Females (leave unm/mar/wid null).
 - Fill the numeric fields you can read; null only for genuinely absent cells (a dash/nil = 0).
-- If the page stacks religion/community/territory blocks, return EACH as its own section.
+- CRITICAL — multi-block pages: if the page stacks religion/community/territory blocks (e.g. Moslems, then Jains, then a District), return EACH as its OWN section, and put each block's numbers ONLY in that block's section. NEVER carry a number from one block onto another block's row. Each row has EXACTLY 8 numeric fields (pop/unm/mar/wid x m/f) — do NOT append extra trailing values from a neighbouring block.
+- Each age row belongs to ONE section. If you are unsure which block a column belongs to, leave it null rather than guess.
 - Do NOT force civil-condition columns onto a table that doesn't have them, and do NOT assume sums to 1000 unless it's a distribution table.
 Report idx exactly. If not an age table at all, is_tableVII=false, sections=[]. Use StructuredOutput.`
 phase('Reread')
