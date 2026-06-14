@@ -43,13 +43,18 @@ def load():
     for ih, v in json.load(open(os.path.join(P, "human_pageno_decisions.json"))).items():
         if isinstance(v.get("page_number"), int):
             pageno[ih] = (v["page_number"], "human")
-    # 3) table_id + family/number per imghash (from page_reads_fixed)
+    # 3) table_id + family/number + AUTHORITATIVE page number per imghash (from
+    #    page_reads_fixed.json — the user's consolidated page-ordering work; this
+    #    OVERRIDES the per-engine reads above as the primary page source).
     tid_by_ih, fam_by_tid = {}, {}
     for r in json.load(open(os.path.join(V1, "page_reads_fixed.json"))):
         m = HEX.search(r.get("table_id", ""))
         if m:
             tid_by_ih[m.group(1)] = r["table_id"]
             fam_by_tid[r["table_id"]] = (r.get("family", ""), r.get("table_number", ""))
+            pn = r.get("page_number")
+            if isinstance(pn, int) or (str(pn).lstrip("-").isdigit()):
+                pageno[m.group(1)] = (int(pn), "page_reads_fixed")
     # 4) validation + verdict per table_id
     sc = {r["table_id"]: r for r in csv.DictReader(open(os.path.join(V1, "tableVII_scorecard.csv")))} \
         if os.path.exists(os.path.join(V1, "tableVII_scorecard.csv")) else {}
