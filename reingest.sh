@@ -27,17 +27,32 @@ python3 apply_keeper_flags.py
 say "5/8 re-derive sibling schema templates (now from improved reads)"
 python3 build_group_schema_templates.py
 
-say "6/8 re-assemble multi-page tables + wire local scans"
+say "6/8 re-assemble multi-page tables + make sections cohesive + wire local scans"
 python3 build_assembled_tables.py
+python3 clean_assembled_sections.py
 python3 patch_scan_paths.py
 
 say "7/8 rebuild the explorer SQLite (good-only)"
 python3 build_explorer_db.py
 
-say "8/8 re-validate Table VII (the scorecard)"
+say "8/10 re-validate Table VII (the scorecard)"
 python3 build_tableVII_plan.py
 python3 validate_tableVII.py
 
+say "9/10 categorize imperfect by ROOT CAUSE + merge half-page splits (free, no re-OCR)"
+python3 categorize_imperfect.py
+python3 build_halfpage_groups.py
+# re-assemble so half-page column-splits are unioned, then rebuild + re-validate
+python3 build_assembled_tables.py
+python3 clean_assembled_sections.py
+python3 patch_scan_paths.py
+python3 build_explorer_db.py
+python3 validate_tableVII.py
+python3 categorize_imperfect.py
+
+say "10/10 build the PRECISE cluster re-OCR queue (genuine single-scan column drops only)"
+python3 build_genuine_reocr_queue.py
+
 say "DONE — review validate_tableVII output above for the perfect-rate lift."
-echo "Next: 'python3 build_static_site.py' to refresh the shareable site, and"
-echo "      prep_tableVII_qa.py + wf_tableVII_qa.js for a fresh Opus spot-check."
+echo "Next: 'python3 build_static_site.py' to refresh the shareable site."
+echo "Cluster: upload tableVII_genuine_reocr.txt (+ tableVII_genuine_schema.json) and re-OCR."

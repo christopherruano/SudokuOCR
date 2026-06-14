@@ -37,6 +37,10 @@ def label_quality(labels):
 def main():
     reads = {r["table_id"]: r for r in json.load(open(os.path.join(V1, "page_reads_fixed.json")))}
     groups = json.load(open(os.path.join(V1, "chop_groups.json")))
+    # supplementary half-page-split merge groups (columns split across adjacent scans)
+    hp = os.path.join(V1, "halfpage_groups.json")
+    if os.path.exists(hp):
+        groups = groups + json.load(open(hp))
     prov = {r["table_id"]: r for r in csv.DictReader(open(os.path.join(V1, "provenance.csv")))}
 
     # collect member table_ids we need facts for
