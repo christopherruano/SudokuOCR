@@ -378,8 +378,14 @@ APP_HTML = """
 
     <section class="review-grid">
       <div class="card">
-        <div class="pad"><h2>Source Image</h2><div class="muted">{{ row.source_image_local or "not local" }}</div></div>
-        {% if has_image %}
+        <div class="pad"><h2>Source Image{% if member_views and member_views|length > 1 %}s — {{ member_views|length }} pages (in order){% endif %}</h2><div class="muted">{{ row.source_image_local or "not local" }}</div></div>
+        {% if member_views and member_views|length > 1 %}
+          <div class="pad muted">Multi-page assembled table — all member scans shown in page order; verify the order and that they merge into one consistent table.</div>
+          {% for m in member_views %}
+            <div class="pad" style="border-top:1px solid var(--line)"><strong>Page {{ m.i + 1 }} of {{ member_views|length }}</strong> <span class="muted">{{ m.name }}</span></div>
+            <div class="image-wrap"><img src="{{ url_for('source_member_image_file', idx=index, midx=m.i) }}" style="width:100%" draggable="false"></div>
+          {% endfor %}
+        {% elif has_image %}
           <div class="pad toolbar image-toolbar">
             <button type="button" class="secondary" onclick="zoomImage(-25)">Zoom -</button>
             <button type="button" class="secondary" onclick="zoomImage(25)">Zoom +</button>
@@ -1976,6 +1982,20 @@ def resolve_image(row: dict[str, str]) -> Path | None:
         if candidate.exists():
             return candidate
     return None
+
+
+def resolve_member_images(row: dict[str, str]) -> list[Path]:
+    """All member scans of a (possibly multi-page) table, in page order."""
+    raw = row.get("member_images_local", "") or row.get("source_image_local", "") or row.get("source_image", "")
+    out = []
+    for part in str(raw).replace(",", ";").replace("|", ";").split(";"):
+        part = part.strip()
+        if not part:
+            continue
+        p = resolve_image({"source_image_local": part})
+        if p and p not in out:
+            out.append(p)
+    return out
 
 
 def html_table(rows: list[list[Any]], max_rows: int = 90, max_cols: int = 60) -> str:
@@ -4315,6 +4335,8 @@ def create_app(
         packet = packets.get(row.get("table_id", ""), {})
         excel = resolve_excel(row)
         image = resolve_image(row)
+        member_paths = resolve_member_images(row)
+        member_views = [{"i": i, "name": p.name} for i, p in enumerate(member_paths)]
         fact_dicts, facts_status = excel_sheet_dicts(excel, "Facts")
         matrix_rows, matrix_status = build_recorded_fact_matrix(fact_dicts)
         if matrix_rows:
@@ -4370,6 +4392,7 @@ def create_app(
             next_idx=next_idx,
             next_unresolved_idx=next_unresolved_idx,
             has_image=bool(image),
+            member_views=member_views,
             has_excel=bool(excel),
             decision_class=decision_class(row.get("llm_decision", "")),
             matrix_html=html_table(matrix_rows, max_rows=260, max_cols=180),
@@ -4398,6 +4421,15 @@ def create_app(
         if not path:
             abort(404)
         return send_file(path)
+
+    @app.route("/source-image/<int:idx>/member/<int:midx>")
+    def source_member_image_file(idx: int, midx: int):
+        if idx < 0 or idx >= len(rows):
+            abort(404)
+        members = resolve_member_images(rows[idx])
+        if midx < 0 or midx >= len(members):
+            abort(404)
+        return send_file(members[midx])
 
     @app.route("/excel/<int:idx>")
     def excel_file(idx: int):

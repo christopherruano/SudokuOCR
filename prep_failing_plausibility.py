@@ -25,8 +25,33 @@ AGE = re.compile(r"\d+\s*[-–]\s*\d+|\d+\s*and over|under|all ages|total", re.I
 
 RES_COLS = ["table_id", "status", "llm_decision", "confidence", "flags", "reason",
             "suggested_next_action", "review_questions", "model", "provider", "key_slot",
-            "priority_score", "priority_reasons", "source_image_local", "excel_path",
-            "province", "year", "table_family", "measure_category", "format_class"]
+            "priority_score", "priority_reasons", "source_image_local", "member_images_local",
+            "excel_path", "province", "year", "table_family", "measure_category", "format_class"]
+
+
+def assembly_check(con, tid, n_scans):
+    """Sanity-check an assembled table: member printed-page order + section consistency."""
+    import json as _json
+    notes = []
+    # member printed pages (from the assembled_members map + page_reads)
+    try:
+        members = _json.load(open(os.path.join(V1, "assembled_members.json"))).get(tid, [])
+    except Exception:
+        members = []
+    if members:
+        reads = {r["table_id"]: r for r in _json.load(open(os.path.join(V1, "page_reads_fixed.json")))}
+        pages = [int(reads[m]["page_number"]) for m in members
+                 if m in reads and str(reads[m].get("page_number", "")).isdigit()]
+        if pages and pages != sorted(pages):
+            notes.append(f"⚠ member pages NOT in ascending order ({pages}).")
+    # section consistency: are sections coherent (Total/religion/district) or fragmented?
+    secs = [r[0] for r in con.execute(
+        "SELECT DISTINCT section FROM facts WHERE table_id=? AND section!=''", (tid,)).fetchall()]
+    if any("· part" in s for s in secs):
+        notes.append("⚠ has generic '· part N' sections (sub-blocks not cleanly named).")
+    if len(secs) > 30:
+        notes.append(f"⚠ {len(secs)} sections — possible over-fragmentation.")
+    return " ".join(notes) or "assembly looks ordered & sectioned consistently."
 
 
 def civ(s):
@@ -88,13 +113,23 @@ def main():
             continue
         facts = con.execute("SELECT * FROM facts WHERE table_id=? ORDER BY rowid", (tid,)).fetchall()
         td = dict(t)
-        # local scan (repo-relative)
+        # local scans IN PAGE ORDER (member_images is page-ordered from assembly);
+        # for multi-page assembled tables we show ALL member scans, ordered.
         raw = (t["member_images"] or t["source_image"] or "")
-        img_local = ""
+        member_locals = []
         for p in re.split(r"[;,|]", raw):
             loc = ce.resolve_img(p.strip()) if p.strip() else None
             if loc:
-                img_local = os.path.relpath(loc); break
+                rl = os.path.relpath(loc)
+                if rl not in member_locals:
+                    member_locals.append(rl)
+        img_local = member_locals[0] if member_locals else ""
+        is_assembled = tid.startswith("asm_") or len(member_locals) > 1
+        # assembly-correctness check: are member pages in ascending printed-page order,
+        # and is the section set consistent (no orphan/duplicated sections)?
+        asm_note = ""
+        if is_assembled:
+            asm_note = assembly_check(con, tid, len(member_locals))
         # per-table excel
         h = hashlib.md5(tid.encode()).hexdigest()[:12]
         mats = ce.build_matrices(facts)
@@ -113,13 +148,18 @@ def main():
         if miss: qs.append(f"Is the {', '.join(miss)} column actually present on the scan? If so, read it.")
         if bad: qs.append("For the flagged cells, which digit is misread so U+M+W=Population?")
         qs.append("Mark CORRECT if the read matches the scan, else note the fix.")
+        if asm_note:
+            reason = f"[ASSEMBLED {len(member_locals)} pages] {asm_note} " + reason
+            qs.insert(0, f"Multi-page table ({len(member_locals)} scans shown in order): verify pages are in the right order and merged consistently. {asm_note}")
         results.append({"table_id": tid, "status": "needs_review", "llm_decision": "",
-                        "confidence": "", "flags": flags, "reason": reason,
+                        "confidence": "", "flags": (("assembled;" if is_assembled else "") + flags), "reason": reason,
                         "suggested_next_action": "human_fix", "review_questions": " | ".join(qs),
                         "model": "", "provider": "", "key_slot": "",
                         "priority_score": (100 if r["status"] == "retrying" else 60),
                         "priority_reasons": r["reason"][:50],
-                        "source_image_local": img_local, "excel_path": excel_path,
+                        "source_image_local": img_local,
+                        "member_images_local": ";".join(member_locals),
+                        "excel_path": excel_path,
                         "province": td.get("canonical_name", ""), "year": td.get("year", ""),
                         "table_family": td.get("table_family", ""), "measure_category": td.get("measure_category", ""),
                         "format_class": ""})
