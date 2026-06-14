@@ -47,6 +47,7 @@ def main():
             if r["table_family"] in AGEFAM and VII.search(r["title"] or "")]
 
     out = []
+    scorecard = []
     perfect = 0
     for t in tabs:
         facts = con.execute("SELECT row_label_std,column_group_std,sub_column_std,sex,value "
@@ -121,6 +122,9 @@ def main():
         # legitimately have few rows.
         if mc in ("count", "distribution") and len(ages) < 5:
             issues.append(f"few_age_bands:{len(ages)}")
+        scorecard.append({"table_id": t["table_id"], "year": t["year"], "province": t["canonical_name"],
+                          "status": t["status"], "perfect": "" if issues else "1",
+                          "issues": ";".join(issues), "title": (t["title"] or "")[:70]})
         if issues:
             out.append({"table_id": t["table_id"], "year": t["year"], "province": t["canonical_name"],
                         "status": t["status"], "issues": ";".join(issues), "title": (t["title"] or "")[:70]})
@@ -132,6 +136,10 @@ def main():
     with open(os.path.join(os.path.dirname(ce.DB), "tableVII_imperfect.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["table_id", "year", "province", "status", "issues", "title"])
         w.writeheader(); [w.writerow(r) for r in out]
+    # full per-table scorecard (perfect + imperfect) for the verdict ledger
+    with open(os.path.join(os.path.dirname(ce.DB), "tableVII_scorecard.csv"), "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["table_id", "year", "province", "status", "perfect", "issues", "title"])
+        w.writeheader(); [w.writerow(r) for r in scorecard]
 
     from collections import Counter
     tag = Counter()

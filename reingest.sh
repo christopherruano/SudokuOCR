@@ -51,8 +51,9 @@ python3 build_explorer_db.py
 python3 validate_tableVII.py
 python3 categorize_imperfect.py
 
-say "10/10 build the PRECISE cluster re-OCR queue (genuine single-scan column drops only)"
+say "10/10 build the PRECISE re-OCR queue + FINAL VERDICT ledger (perfect / unrecoverable / retrying)"
 python3 build_genuine_reocr_queue.py
+python3 build_verdicts.py
 
 say "DONE — review validate_tableVII output above for the perfect-rate lift."
 echo "Next: 'python3 build_static_site.py' to refresh the shareable site."
