@@ -12,6 +12,7 @@ Reuses census_explorer's builders. Run after build_explorer_db.py.
 """
 import os, sqlite3, shutil, json, html, hashlib
 import census_explorer as ce
+import census_titles as ct
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "census_site")
@@ -68,16 +69,23 @@ TABLE_TMPL = """<!doctype html><html><head><meta charset=utf-8><title>{title}</t
  table.mx td.rh{{text-align:left;background:#fafbfc;font-weight:600;white-space:normal;max-width:230px}}
  table.mx thead .grp{{background:#dde7ee}}
  .pill{{display:inline-block;background:#e8eef3;border-radius:10px;padding:1px 8px;font-size:11px}}
+ .badges{{margin:3px 0 8px}} .badge{{display:inline-block;background:#eef3f7;border:1px solid #dde7ee;
+   border-radius:9px;padding:1px 8px;font-size:11px;color:#345;margin:0 4px 3px 0}}
+ .badge.topic{{background:#e7f0ff;border-color:#cfe0ff;font-weight:600;color:#234}}
+ .rawt{{color:#789;font-size:11px;font-style:italic}}
  a.dl{{background:#1d6f42;color:#fff;padding:2px 9px;border-radius:4px;text-decoration:none}}
 </style></head><body>
 <header><a href="../tree.html">← back to tree</a> &nbsp; {place} · {year}
- · <span class=pill>{subject}/{measure}</span></header>
+ · <span class=pill>{topic}</span></header>
 <div class=wrap>
  <div class=imgs>{imgs}</div>
  <div class=data>
-   <p class=meta><b>{title}</b><br>{etype} · {nfacts} cells
+   <p class=meta><b title="{rawtitle}">{title}</b><br>
+   <span class=badges>{badges}</span>
+   {etype} · {nfacts} cells
    &nbsp; <a class=dl href="../data/{page}.csv">⬇ CSV</a>
-   &nbsp; <a class=dl href="../data/{page}.xlsx">⬇ Excel</a>{note}</p>
+   &nbsp; <a class=dl href="../data/{page}.xlsx">⬇ Excel</a>{note}
+   <br><span class=rawt>scanned title: “{rawtitle}”</span></p>
    {matrices}
  </div>
 </div></body></html>"""
@@ -89,6 +97,14 @@ def main():
     qt = con.execute("SELECT * FROM tables WHERE status IN "
                      "('confirmed_sent','recovered','keeper_accepted','keeper_review','assembled') "
                      "ORDER BY broad_region, canonical_name, year").fetchall()
+    # "maximally good" public site: exclude tables listed in static_exclude.txt
+    # (the failing Table VII not yet verified) so only good tables are published.
+    _excl_path = os.path.join(SV1, "static_exclude.txt")
+    if os.path.exists(_excl_path):
+        _excl = {l.strip() for l in open(_excl_path) if l.strip()}
+        before = len(qt)
+        qt = [t for t in qt if t["table_id"] not in _excl]
+        print(f"  excluded {before - len(qt)} not-yet-good tables (static_exclude.txt)")
     # globally-unique, case-insensitive-safe page names (hash suffix avoids APFS collisions)
     page = {}
     for t in qt:
@@ -100,6 +116,10 @@ def main():
     nav = {}
     for i, t in enumerate(qt):
         pg = page[t["table_id"]]
+        tro = dict(t)
+        topic = ct.subject_topic(t["title"], tro.get("dims_present"), t["canonical_topic"], t["subject"])
+        series = ct.parse_series(t["title"])
+        cleant = ct.clean_title(t["title"]) or (t["title"] or "")
         if not os.path.exists(os.path.join(OUT, "tables", pg + ".html")):  # skip already-rendered (fast re-runs)
             facts = con.execute("SELECT * FROM facts WHERE table_id=? ORDER BY rowid", (t["table_id"],)).fetchall()
             mats = ce.build_matrices(facts)
@@ -122,10 +142,13 @@ def main():
                 copied.add(b)
                 imgs_html.append(f'<div class=pagelbl>page {n} of {len(locs)}</div><img loading=lazy src="../img/{b}">')
             note = f'<br><span style="color:#a60">⚑ {esc(t["review_note"])}</span>' if t["review_note"] else ""
+            chips = ct.badges(tro)
+            badges_html = (f'<span class="badge topic">{esc(topic)}</span>'
+                           + "".join(f'<span class=badge>{esc(c)}</span>' for c in chips[1:]))
             open(os.path.join(OUT, "tables", pg + ".html"), "w").write(TABLE_TMPL.format(
-                title=esc(t["title"]), place=esc(t["canonical_name"]), year=esc(t["year"]),
-                subject=esc(t["subject"]), measure=esc(t["measure_class"]), etype=esc(t["entity_type"]),
-                nfacts=len(facts), page=pg, note=note,
+                title=esc(ct.clean_title(t["title"]) or t["title"]), rawtitle=esc(t["title"]),
+                place=esc(t["canonical_name"]), year=esc(t["year"]), topic=esc(topic),
+                etype=esc(t["entity_type"]), nfacts=len(facts), page=pg, note=note, badges=badges_html,
                 imgs="".join(imgs_html) or '<p style="color:#fbb">scan not found</p>',
                 matrices=render_matrices_html(mats)))
         # nav
@@ -136,7 +159,8 @@ def main():
             node["etype"] = t["entity_type"]
         node["places"].setdefault(t["canonical_name"] or "(unknown)", []).append(
             {"page": pg, "year": str(t["year"] or ""), "measure": t["measure_class"],
-             "subject": t["subject"], "title": (t["title"] or "")[:90]})
+             "subject": t["subject"], "topic": topic, "series": series,
+             "title": ct.shorten(cleant, 90)})
         if (i + 1) % 400 == 0:
             print(f"  {i+1}/{len(qt)} tables rendered")
 
@@ -148,7 +172,8 @@ def main():
         provs = []
         for prov in sorted(nav[reg], key=last):
             node = nav[reg][prov]
-            places = [{"name": pl, "tables": sorted(node["places"][pl], key=lambda x: x["year"])}
+            places = [{"name": pl, "tables": sorted(node["places"][pl],
+                                                    key=lambda x: (x["topic"], x["year"], x["series"]))}
                       for pl in sorted(node["places"], key=last)]
             provs.append({"name": prov, "etype": node["etype"],
                           "n": sum(len(p["tables"]) for p in places), "places": places})
@@ -183,6 +208,9 @@ STATIC_TREE = """<!doctype html><html><head><meta charset=utf-8><title>Census �
  .tbl{padding:6px 10px;border-bottom:1px solid #f2f4f6;text-decoration:none;color:#163;display:block}
  .tbl:hover{background:#eafff1} .tbl .yr{color:#a60;font-weight:700;margin-right:5px}
  .tbl .m{background:#e8eef3;border-radius:8px;padding:0 6px;font-size:10px;color:#456} .tbl .t{color:#333;font-size:12.5px}
+ .tsub{position:sticky;top:27px;background:#eaf0fb;color:#234;font-weight:600;font-size:11px;
+   padding:4px 10px;border-top:1px solid #d6e2f5;border-bottom:1px solid #d6e2f5}
+ .tbl .ser{background:#e7f0ff;border-radius:8px;padding:0 6px;font-size:10px;color:#246;margin-right:5px}
 </style></head><body>
 <header><b>Census — browse</b> <a href="tree.html">🗂 Columns</a><a href="index.html">🗺 Map</a><a href="search.html">🔎 Search</a>
  <span style="opacity:.7;font-size:12px">region ▸ province/state ▸ place ▸ table · darker = more · click a table for its matrix + scan</span></header>
