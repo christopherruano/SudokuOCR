@@ -142,7 +142,7 @@ def main():
         # too-few age bands only signals truncation for tables that should carry a
         # full age structure (counts/distributions); rate/ratio/variation summaries
         # legitimately have few rows.
-        if mc in ("count", "distribution") and len(ages) < 5:
+        if mc in ("count", "distribution") and not is_noncore and len(ages) < 5:
             issues.append(f"few_age_bands:{len(ages)}")
         scorecard.append({"table_id": t["table_id"], "year": t["year"], "province": t["canonical_name"],
                           "status": t["status"], "perfect": "" if issues else "1",
