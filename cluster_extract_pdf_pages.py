@@ -52,15 +52,20 @@ def collection_of(pdf):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--root", default="digitized_tables", help="dir of {dochash}_tNNNN_*/ crop folders")
+    ap.add_argument("--root", default="digitized_tables",
+                    help="comma-separated crop roots, each holding {dochash}_tNNNN_*/ folders "
+                         "(e.g. 'digitized_tables,ocr_results/digitized_tables,newocr_pages')")
     ap.add_argument("--out", default="crop_pdf_pages.csv")
     ap.add_argument("--no-reverse", action="store_true", help="skip the hash-reversal fallback (faster)")
     args = ap.parse_args()
+    roots = [r.strip() for r in args.root.split(",") if r.strip()]
+    print(f"sweeping {len(roots)} crop root(s): {roots}")
 
     # ---- pass 1: read every metadata.json (direct mapping + per-table provenance) ----
     direct = {}              # imghash -> pdf_page
     tdir_meta = {}           # tdir basename -> provenance dict (incl. source_file)
-    for md in glob.glob(os.path.join(args.root, "*", "metadata.json")):
+    md_files = [m for r in roots for m in glob.glob(os.path.join(r, "*", "metadata.json"))]
+    for md in md_files:
         try:
             d = json.load(open(md))
         except Exception:
@@ -82,7 +87,7 @@ def main():
 
     # ---- pass 2: enumerate every crop image (the read photos) ----
     crop = {}                # imghash -> (dochash, table_index, tdir)
-    for png in glob.glob(os.path.join(args.root, "*", "*.png")):
+    for png in (p for r in roots for p in glob.glob(os.path.join(r, "*", "*.png"))):
         b = os.path.basename(png)
         ih = HEX.search(b)
         m = DT.search(png)
@@ -142,6 +147,36 @@ def main():
     with open(args.out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader(); [w.writerow(r) for r in rows]
+    # ---- provenance summary: per volume + per collection ----
+    by_vol = defaultdict(lambda: {"imgs": 0, "paged": 0, "pages": []})
+    for r in rows:
+        v = by_vol[r["dochash"]]
+        v["imgs"] += 1
+        if isinstance(r["pdf_page"], int):
+            v["paged"] += 1; v["pages"].append(r["pdf_page"])
+        v["collection"] = r["collection"]; v["year"] = r["year"]
+        v["province"] = r["province"]; v["pdf"] = os.path.basename(r["source_pdf"] or "")
+    vsum = []
+    for dh, v in by_vol.items():
+        pg = v["pages"]
+        vsum.append({"dochash": dh, "collection": v.get("collection", ""), "year": v.get("year", ""),
+                     "province": v.get("province", ""), "source_pdf": v.get("pdf", ""),
+                     "images": v["imgs"], "with_pdf_page": v["paged"],
+                     "pdf_page_span": f"{min(pg)}-{max(pg)}" if pg else "",
+                     "distinct_pdf_pages": len(set(pg))})
+    vsum.sort(key=lambda r: (str(r["collection"]), str(r["year"]), str(r["province"])))
+    with open("crop_provenance_by_volume.csv", "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=["dochash", "collection", "year", "province", "source_pdf",
+                                          "images", "with_pdf_page", "pdf_page_span", "distinct_pdf_pages"])
+        w.writeheader(); [w.writerow(r) for r in vsum]
+    col = defaultdict(lambda: {"vols": 0, "imgs": 0})
+    for r in vsum:
+        col[r["collection"]]["vols"] += 1; col[r["collection"]]["imgs"] += r["images"]
+    print("\nprovenance — collections:")
+    for c, d in sorted(col.items(), key=lambda x: -x[1]["imgs"]):
+        print(f"  {c}: {d['vols']} volumes, {d['imgs']} images")
+    print(f"wrote crop_provenance_by_volume.csv ({len(vsum)} volumes)")
+
     print(f"\nwrote {args.out}: {len(rows)} crops")
     print(f"  page number: direct {n_direct} | hash-reversal {n_rev} | table-anchor {n_anchor} | NONE {n_none}")
     print(f"  -> {100*(len(rows)-n_none)//max(1,len(rows))}% of crops have a real PDF page")
