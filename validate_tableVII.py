@@ -46,10 +46,22 @@ def main():
     tabs = [r for r in con.execute(q).fetchall()
             if r["table_family"] in AGEFAM and VII.search(r["title"] or "")]
 
+    # human-verified tables (accepted in the review app) are PERFECT even if the
+    # automated gate flags them — the printed source may not sum, or it's a faithful read.
+    import csv as _csv
+    hv_path = os.path.join(os.path.dirname(ce.DB), "human_verified.csv")
+    human_verified = ({r["table_id"] for r in _csv.DictReader(open(hv_path))}
+                      if os.path.exists(hv_path) else set())
+
     out = []
     scorecard = []
     perfect = 0
     for t in tabs:
+        if t["table_id"] in human_verified:
+            scorecard.append({"table_id": t["table_id"], "year": t["year"], "province": t["canonical_name"],
+                              "status": t["status"], "perfect": "1", "issues": "", "title": (t["title"] or "")[:70]})
+            perfect += 1
+            continue
         facts = con.execute("SELECT row_label_std,column_group_std,sub_column_std,sex,value "
                             "FROM facts WHERE table_id=?", (t["table_id"],)).fetchall()
         # coordinate: (age_row, sex) -> {class: value}

@@ -8,6 +8,11 @@ set -a; source .env 2>/dev/null; set +a
 unset OPENAI_API_KEY; unset ANTHROPIC_API_KEY            # Gemini only (Mistral kept, for optional MoE)
 export SUDOKUOCR_TABLEVII_HINT=1                         # prime wide Table VII (4 col groups, scan far-right)
 export SUDOKUOCR_MOE_FALLBACK="${MOE:-0}"                # MOE=1 to enable 3-Gemini(+Mistral) fallback on failures
+# SCHEMA=1 -> inject sibling-derived row labels + column schema (forces the full grid
+# using known-good labels from earlier pages of the same multi-page group)
+if [ "${SCHEMA:-0}" = "1" ]; then
+  export SUDOKUOCR_SCHEMA_TEMPLATES="$(pwd)/export_final/sendout_final/sendout_v1/group_schema_templates.json"
+fi
 export PYTHONUNBUFFERED=1
 
 LIST="${LIST:-export_final/sendout_final/sendout_v1/reocr_imperfect_local.txt}"
