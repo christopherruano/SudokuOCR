@@ -98,9 +98,24 @@ def to_oneshot(sections, title, src):
 
 
 def main():
+    # FORCE_UNREC=1: for scans of still-imperfect (unrecoverable/retrying) tables, emit
+    # Mistral whenever it parses a decent standard grid, even on low Gemini agreement —
+    # Gemini is already failing there, and the downstream U+M+W=Population gate is the
+    # real arbiter, so this can only help (rescues the gate/parse-gap tail) or be rejected.
+    force = set()
+    if os.environ.get("FORCE_UNREC"):
+        led = {r["table_id"]: r for r in csv.DictReader(open(os.path.join(V1, "tableVII_verdicts.csv")))}
+        con = sqlite3.connect(f"file:{ce.DB}?mode=ro", uri=True); con.row_factory = sqlite3.Row
+        for t, r in led.items():
+            if r["status"] in ("unrecoverable", "retrying"):
+                row = con.execute("SELECT source_image,member_images FROM tables WHERE table_id=?", (t,)).fetchone()
+                if row:
+                    force |= set(HEX.findall((row["source_image"] or "") + " " + (row["member_images"] or "")))
+        print(f"FORCE_UNREC: {len(force)} scans of still-imperfect tables eligible for forced emit")
+
     # process ALL cached Mistral reads (incl. BOTH halves of half-page pairs, so an
     # assembled table is Mistral-consistent throughout rather than mixed-source).
-    emitted = skipped_poor = skipped_disagree = no_gemini = already = 0
+    emitted = skipped_poor = skipped_disagree = no_gemini = already = forced = 0
     for md in glob.glob(os.path.join(MD, "*.mistral.md")):
         ih = os.path.basename(md).split(".")[0]
         secs = P.mistral_parse(md)
@@ -121,15 +136,18 @@ def main():
         agree = sum(1 for k in shared if mc[k] == gc[k])
         ratio = agree / len(shared) if shared else 1.0
         adds_col = bool(mcols - gcols)
-        # SAFE-improvement gate
-        if not (adds_col or (ratio >= 0.85 and mrows >= grows)):
+        is_forced = ih in force and len(mcols) >= 3 and mrows >= 4
+        # SAFE-improvement gate (or forced for still-imperfect tables; U+M+W gate decides)
+        if not (adds_col or (ratio >= 0.85 and mrows >= grows) or is_forced):
             skipped_disagree += 1; continue
+        if is_forced and not adds_col and ratio < 0.85:
+            forced += 1
         title = json.load(open(gpath)).get("metadata", {}).get("title", "")
         src = json.load(open(gpath)).get("source_image", ih + ".png")
         shutil.copy(gpath, gpath.replace("_oneshot.json", "_oneshot.gemini.json"))
         json.dump(to_oneshot(secs, title, src), open(gpath, "w"), indent=1)
         emitted += 1
-    print(f"Mistral oneshot emitted (replacing Gemini): {emitted}")
+    print(f"Mistral oneshot emitted (replacing Gemini): {emitted}  (of which forced on disagreement: {forced})")
     print(f"  skipped — poor parse: {skipped_poor} | low agreement & no new col: {skipped_disagree} | already emitted: {already} | no gemini file: {no_gemini}")
     print("Next: bash reingest.sh  (half-page/continuation assembly + U+M+W gate re-validate), then build_verdicts.")
 
