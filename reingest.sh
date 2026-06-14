@@ -39,10 +39,11 @@ say "8/10 re-validate Table VII (the scorecard)"
 python3 build_tableVII_plan.py
 python3 validate_tableVII.py
 
-say "9/10 categorize imperfect by ROOT CAUSE + merge half-page splits (free, no re-OCR)"
+say "9/10 categorize imperfect by ROOT CAUSE + merge half-page splits & stitch continuations (free, no re-OCR)"
 python3 categorize_imperfect.py
 python3 build_halfpage_groups.py
-# re-assemble so half-page column-splits are unioned, then rebuild + re-validate
+python3 build_continuation_groups.py
+# re-assemble so half-page column-splits are unioned + fragmented pages stitched, then rebuild + re-validate
 python3 build_assembled_tables.py
 python3 clean_assembled_sections.py
 python3 patch_scan_paths.py

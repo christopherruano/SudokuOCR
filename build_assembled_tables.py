@@ -41,6 +41,10 @@ def main():
     hp = os.path.join(V1, "halfpage_groups.json")
     if os.path.exists(hp):
         groups = groups + json.load(open(hp))
+    # supplementary continuation-stitch groups (fragmented multi-page crops, same volume+table)
+    cg = os.path.join(V1, "continuation_groups.json")
+    if os.path.exists(cg):
+        groups = groups + json.load(open(cg))
     prov = {r["table_id"]: r for r in csv.DictReader(open(os.path.join(V1, "provenance.csv")))}
 
     # collect member table_ids we need facts for
