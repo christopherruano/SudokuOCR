@@ -87,6 +87,15 @@ def load():
             s = (j.get("queue_row", {}) or {}).get("resolved_start_page")
             if mm and isinstance(s, int):
                 pdf_start[f"{mm.group(1)}_t{mm.group(2)}"] = s
+    # 7b) AUTHORITATIVE per-crop PDF page from the cluster digitization metadata
+    #     (crop_pdf_pages.csv = imghash -> pdf_page, extracted from metadata.json's
+    #     rendered_pages). Highest priority when present.
+    crop_pdf = {}
+    cpp = os.path.join(V1, "crop_pdf_pages.csv")
+    if os.path.exists(cpp):
+        for r in csv.DictReader(open(cpp)):
+            if str(r.get("pdf_page", "")).lstrip("-").isdigit():
+                crop_pdf[r["imghash"]] = int(r["pdf_page"])
     import statistics
     vol_offset = {}    # dochash -> median(pdf_page - printed_page)
     diffs = defaultdict(list)
@@ -99,7 +108,7 @@ def load():
             diffs[mm.group(1)].append(pdf_start[key] - pageno[ihm.group(1)][0])
     for dh, ds in diffs.items():
         vol_offset[dh] = int(statistics.median(ds))
-    return crops, pageno, tid_by_ih, fam_by_tid, sc, vd, asm_of, docs, pdf_start, vol_offset
+    return crops, pageno, tid_by_ih, fam_by_tid, sc, vd, asm_of, docs, pdf_start, vol_offset, crop_pdf
 
 
 _ONESHOT_INDEX = None
@@ -152,7 +161,7 @@ def content_of(js):
 
 
 def main():
-    crops, pageno, tid_by_ih, fam_by_tid, sc, vd, asm_of, docs, pdf_start, vol_offset = load()
+    crops, pageno, tid_by_ih, fam_by_tid, sc, vd, asm_of, docs, pdf_start, vol_offset, crop_pdf = load()
     DT = re.compile(r"([0-9a-f]{16})_t(\d+)")
     VII = re.compile(r"VI[IL]|civil|age.{0,3}sex|C-?III", re.I)
     rows = []
@@ -163,17 +172,20 @@ def main():
         fam, tnum = fam_by_tid.get(tid, ("", ""))
         is_vii = bool(VII.search(c["dname"]) or VII.search(fam) or VII.search(cont["title"]))
         pg, psrc = pageno.get(ih, ("", ""))
-        # PDF page (the primary working key) = book page + the volume's printed->PDF
-        # offset (per-crop, consistent). Falls back to the manifest's resolved_start_page
-        # only when this crop has no read book page.
+        # PDF page (the primary key) = the ACTUAL PDF page from the digitization manifest
+        # (resolved_start_page) — authoritative, no book-read noise. The book read +
+        # offset is only an ESTIMATE fallback where the manifest has no entry.
         dh = c["dochash"]; off = vol_offset.get(dh, "")
         mm = DT.search(tid)
-        if isinstance(pg, int) and off != "":
-            pdf_page = pg + off
-        elif mm and pdf_start.get(f"{mm.group(1)}_t{mm.group(2)}") is not None:
-            pdf_page = pdf_start[f"{mm.group(1)}_t{mm.group(2)}"]
+        mkey = f"{mm.group(1)}_t{mm.group(2)}" if mm else None
+        if ih in crop_pdf:                       # authoritative per-crop PDF page
+            pdf_page = crop_pdf[ih]; pdf_src = "actual"
+        elif mkey and pdf_start.get(mkey) is not None:
+            pdf_page = pdf_start[mkey]; pdf_src = "manifest"
+        elif isinstance(pg, int) and off != "":
+            pdf_page = pg + off; pdf_src = "est(book+off)"
         else:
-            pdf_page = ""
+            pdf_page = ""; pdf_src = ""
         # OCR status
         if js is None:
             ocr = "NOT_OCRd"
@@ -221,8 +233,8 @@ def main():
         dm = docs.get(c["dochash"], {})
         rows.append({
             "status": status, "volume": c["dochash"], "year": dm.get("year", ""),
-            "province": dm.get("region", ""), "pdf_page": pdf_page, "offset": off,
-            "printed_page": pg, "page_source": psrc,
+            "province": dm.get("region", ""), "pdf_page": pdf_page, "pdf_page_source": pdf_src,
+            "offset": off, "printed_page": pg, "page_source": psrc,
             "table_number": tnum, "exact_title": cont["title"] or c["dname"].replace("-", " ")[:80],
             "contains_sections": cont["sections"], "age_range": cont["age_range"],
             "columns": cont["columns"], "n_rows": cont["n_rows"],
@@ -236,10 +248,11 @@ def main():
     rows.sort(key=lambda r: (str(r["volume"]),
                              (r["pdf_page"] if isinstance(r["pdf_page"], int) else 9999),
                              (r["printed_page"] if isinstance(r["printed_page"], int) else 9999)))
-    cols = ["status", "volume", "year", "province", "pdf_page", "offset", "printed_page", "page_source",
-            "table_number", "exact_title", "contains_sections", "age_range", "columns", "n_rows",
-            "is_tableVII", "family", "assembled_table", "position_in_table", "ocr_status", "validation",
-            "verdict", "table_id", "imghash", "image_path", "source_pdf"]
+    cols = ["status", "volume", "year", "province", "pdf_page", "pdf_page_source", "offset",
+            "printed_page", "page_source", "table_number", "exact_title", "contains_sections",
+            "age_range", "columns", "n_rows", "is_tableVII", "family", "assembled_table",
+            "position_in_table", "ocr_status", "validation", "verdict", "table_id", "imghash",
+            "image_path", "source_pdf"]
     with open(os.path.join(V1, "master_tracking.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         w.writeheader(); [w.writerow(r) for r in rows]
