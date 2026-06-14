@@ -12,6 +12,15 @@ from collections import defaultdict
 ROOT = os.path.dirname(os.path.abspath(__file__))
 import census_explorer as ce
 VII = re.compile(r"\bVII\b|age,?\s*sex\s*(and|&)?\s*civil|civil\s*condition", re.I)
+# NON-CORE: tables the broad regex sweeps in that are NOT general-population Imperial
+# Table VII (Age/Sex/Civil-Condition with U/M/W). They legitimately lack the U/M/W
+# count structure, so the U+M+W=Population gate must NOT be applied — doing so wrongly
+# fails them for "missing Married/Widowed" they never had.
+NONCORE = re.compile(
+    r"subsidiary|proportion|distribution\s+of|"
+    r"table\s+(?:VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX)\b|"
+    r"infirm|\bblind\b|leper|insane|deaf|dumb|lunatic|"
+    r"education|litera|occupation|\bmeans?\b|mean[- ]age", re.I)
 AGEFAM = ("age_civil_condition", "age_sex_civil_condition", "age_sex_population")
 GOOD = ("confirmed_sent", "recovered", "keeper_accepted", "keeper_review", "assembled")
 
@@ -90,11 +99,12 @@ def main():
                 coord[(age, sex)][kcol] = v
         issues = []
         mc = (t["measure_class"] or "count")
-        # U/M/W (count columns) only expected for civil-condition tables that are
-        # actually COUNTS or distributions — a rate/ratio/percentage/variation table
-        # (e.g. "proportion married per 1,000") has no Unmarried/Married/Widowed counts.
+        is_noncore = bool(NONCORE.search(t["title"] or ""))
+        # U/M/W (count columns) only expected for general-population Imperial Table VII
+        # that are COUNTS/distributions — NOT subsidiary/other-numbered/single-condition
+        # tables (NONCORE), and not rate/ratio/percentage tables.
         expects_umw = (t["table_family"] in ("age_civil_condition", "age_sex_civil_condition")
-                       and mc in ("count", "distribution"))
+                       and mc in ("count", "distribution") and not is_noncore)
         if expects_umw and not ({"U", "M", "W"} <= cols_present):
             missing = {"U", "M", "W"} - cols_present
             issues.append("missing_cols:" + "".join(sorted(missing)))
@@ -110,7 +120,7 @@ def main():
         # U+M+W constraint gated by the table's CLASSIFIED type (from its title/headers),
         # not inferred from values: only count (sums to Population) and distribution
         # (sums to its 1,000/10,000 base) have this constraint; rate/ratio/percentage do NOT.
-        if mc in ("count", "distribution"):
+        if mc in ("count", "distribution") and not is_noncore:
             base = None
             if mc == "distribution":
                 sums = [d["U"] + d["M"] + d["W"] for d in coord.values() if all(k in d for k in ("U", "M", "W"))]
