@@ -12,17 +12,19 @@ export PYTHONUNBUFFERED=1
 
 LIST="${LIST:-export_final/sendout_final/sendout_v1/reocr_imperfect_local.txt}"
 RESULTS="${RESULTS:-export/ocr_results_referenced}"
+WORKERS="${WORKERS:-6}"          # concurrent images PER key — we're I/O-bound on slow gateway calls
+MININT="${MININT:-0.8}"          # seconds between calls per worker (rate-limit headroom is large)
 IFS=',' read -ra KEYS <<< "$HARVARD_GEMINI_API_KEYS"
 N=${#KEYS[@]}
 mkdir -p fasrc/logs
-echo "re-OCR $(wc -l < "$LIST") scans across $N Gemini keys (MoE=$SUDOKUOCR_MOE_FALLBACK) -> $RESULTS"
+echo "re-OCR $(grep -c . "$LIST") scans across $N keys x $WORKERS workers = $((N*WORKERS)) concurrent (MoE=$SUDOKUOCR_MOE_FALLBACK) -> $RESULTS"
 
 pids=()
 for i in $(seq 0 $((N-1))); do
   HARVARD_GEMINI_API_KEY="${KEYS[$i]}" \
   python3 batch_production.py --image-list "$LIST" --results "$RESULTS" \
       --chunk "$i" --total-chunks "$N" \
-      --workers 1 --timeout 1800 --min-interval 2.0 --max-api-calls 12 --max-cost 30 \
+      --workers "$WORKERS" --timeout 1800 --min-interval "$MININT" --max-api-calls 12 --max-cost 60 \
       > "fasrc/logs/reocr_w${i}.log" 2>&1 &
   pids+=($!)
 done
