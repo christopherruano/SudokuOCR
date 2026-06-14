@@ -12,9 +12,15 @@ Launch:  python3 llm_plausibility_review_app.py \
            --decisions-csv .../failing/failing_decisions.csv --port 5002"""
 import os, re, csv, json, sqlite3, hashlib
 import census_explorer as ce
+try:
+    import parse_mistral_md as _PM
+except Exception:
+    _PM = None
 
 csv.field_size_limit(10 ** 7)
 V1 = os.path.dirname(ce.DB)
+MD = os.path.join(V1, "mistral_md")
+HEX = re.compile(r"([0-9a-f]{40})")
 SENDOUT = "export_final/sendout_final"
 OUTDIR = "export_final/final_validated/llm_plausibility_review/failing"
 XLSX_REL = "review/failing_tableVII"            # under SENDOUT
@@ -93,6 +99,46 @@ def failing_detail(facts):
     return bad, miss
 
 
+def cross_engine_hints(con, tid, facts):
+    """Where the current (Gemini) read and the cached Mistral read DISAGREE on a cell,
+    return a short 'age/sex Column: Gemini=X vs Mistral=Y' list so the reviewer can
+    confirm which matches the scan in seconds."""
+    if _PM is None:
+        return ""
+    raw = con.execute("SELECT source_image,member_images FROM tables WHERE table_id=?", (tid,)).fetchone()
+    if not raw:
+        return ""
+    hs = set(HEX.findall((raw["source_image"] or "") + " " + (raw["member_images"] or "")))
+    mc = {}
+    for h in hs:
+        p = os.path.join(MD, f"{h}.mistral.md")
+        if not os.path.exists(p):
+            continue
+        for sec in _PM.mistral_parse(p):
+            for r in sec["rows"]:
+                age = re.sub(r"\s+", "", (r["age"] or "").lower())[:8]
+                for g, gk in (("pop", "P"), ("unm", "U"), ("mar", "M"), ("wid", "W")):
+                    for sx in ("m", "f"):
+                        if f"{g}_{sx}" in r:
+                            mc[(age, sx, gk)] = r[f"{g}_{sx}"]
+    if not mc:
+        return ""
+    lab = {"P": "Pop", "U": "Unm", "M": "Mar", "W": "Wid"}
+    out = []
+    for f in facts:
+        kc = civ(f["column_group_std"]) or civ(f["sub_column_std"]) or civ(f["row_label_std"])
+        am = AGE.search(f["row_label_std"] or "") or AGE.search(f["column_group_std"] or "")
+        age = re.sub(r"\s+", "", am.group(0)).lower() if am else ""
+        sx = (f["sex"] or f["sub_column_std"] or "").lower()[:1]
+        gv = num(f["value"])
+        mv = mc.get((age[:8], sx, kc))
+        if kc and age and gv is not None and mv is not None and int(gv) != int(mv):
+            out.append(f"{age}/{sx} {lab[kc]}: Gemini={int(gv)} vs Mistral={int(mv)}")
+        if len(out) >= 8:
+            break
+    return "; ".join(out)
+
+
 def main():
     os.makedirs(OUTDIR, exist_ok=True)
     os.makedirs(XLSX_ABS, exist_ok=True)
@@ -147,6 +193,11 @@ def main():
         qs = []
         if miss: qs.append(f"Is the {', '.join(miss)} column actually present on the scan? If so, read it.")
         if bad: qs.append("For the flagged cells, which digit is misread so U+M+W=Population?")
+        # cross-engine hint: where Gemini (current) and Mistral disagree on a cell,
+        # show both so the reviewer just confirms which matches the scan (fast).
+        hints = cross_engine_hints(con, tid, facts)
+        if hints:
+            qs.insert(0, "DIGIT CHECK (Gemini vs Mistral disagree — pick the one matching the scan): " + hints)
         qs.append("Mark CORRECT if the read matches the scan, else note the fix.")
         if asm_note:
             reason = f"[ASSEMBLED {len(member_locals)} pages] {asm_note} " + reason
