@@ -1,0 +1,11 @@
+100
+
+CIVIL CONDITION.
+
+some minor changes, which seem to require a brief notice. As already mentioned, there has been a general decline in the number of married persons of both sexes in each religion. This is very much marked among Buddhists, the percentage of married males and females at the present Census being 48 and 37 against 52 and 45 in 1911. With regard to early marriage, there is absolutely no improvement: on the contrary, there is a slight increase in the number of married persons in all religions in the 5—10 and 10—15 age groups excepting Buddhists, whose proportions in the different age groups as shown in the Census Tables of 1911, do not seem to me quite reliable, as our present returns clearly demonstrate that early marriages are less common among Buddhists than among Hindus and Mohammedans, and my personal knowledge of Ladakh also confirms the same conclusion. A glance at the column for widows in Subsidiary Table II will also show that there is a slight increase of widows in all religions except among Sikhs, and I am not in a position to endorse my predecessor's view that some improvement is noticeable in this direction in consequence of the people coming more and more into contact with their brethren in the Punjab and Indian Provinces. The modern advanced views regarding early marriage and the emancipation of widows have not yet permeated the masses of population, and the conservative forces are so strongly against these innovations that even educated people holding modern liberal views, have not the courage to act up to their convictions. The Western notions of birth control are foreign to the Indian mind and contrary to the religious and social conceptions of the people, who generally believe that every infant born of woman has its maintenance preordained and that God Almighty "who gave the teeth will give the bread." In these circumstances, there is little chance of the Western ideas of birth control finding favour in India in the near future, but if they ever find their way to the large centres of Indian population, they will take ages to reach the inaccessible heights of Kashmir.
+
+This content downloaded from
+
+103.214.47.12 on Fri, 13 Mar 2026 02:43:59 UTC
+
+All use subject to https://about.jstor.org/terms

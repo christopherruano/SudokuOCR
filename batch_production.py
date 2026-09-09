@@ -209,10 +209,17 @@ def validate_existing_result(json_path):
 
     n_checks = constraints.get("total_checks", 0)
     n_failures = constraints.get("failed", 0)
+    if not n_failures and isinstance(constraints.get("failures"), list):
+        n_failures = len(constraints.get("failures") or [])
     age_warnings = data.get("age_ordering_warnings", [])
     acceptance = data.get("acceptance")
 
     if n_checks == 0:
+        decision = acceptance.get("decision") if isinstance(acceptance, dict) else None
+        signals = acceptance.get("signals", {}) if isinstance(acceptance, dict) else {}
+        rows_extracted = signals.get("rows_extracted", 0)
+        if decision == "accepted_with_risk" and rows_extracted:
+            return "accepted_with_risk", 0, n_checks, age_warnings, acceptance
         return "corrupt", 0, 0, age_warnings, acceptance
 
     if n_failures > 0:
@@ -305,7 +312,7 @@ def process_one(image_path, output_dir, timeout=600, max_api_calls=0):
     # SIGALRM is per-process and not safe with threads — only use it
     # when running single-threaded (workers=1).
     use_alarm = (hasattr(signal, "SIGALRM")
-                 and threading.active_count() <= 2)  # main + 1 worker at most
+                 and threading.current_thread() is threading.main_thread())
     old_handler = None
     if use_alarm:
         def _timeout_handler(signum, frame):
@@ -357,6 +364,13 @@ def process_one(image_path, output_dir, timeout=600, max_api_calls=0):
     except Exception as e:
         result_entry["status"] = "error"
         result_entry["error"] = f"{type(e).__name__}: {str(e)[:200]}"
+        try:
+            import traceback as _tb
+            with open("fasrc/logs/error_tracebacks.log", "a") as _f:
+                _f.write(f"\n=== {image_path} : {type(e).__name__}: {e} ===\n")
+                _tb.print_exc(file=_f)
+        except Exception:
+            pass
 
     finally:
         if use_alarm:
@@ -581,9 +595,14 @@ def main():
         if args.chunk < 0 or args.chunk >= args.total_chunks:
             print(f"ERROR: --chunk must be 0..{args.total_chunks - 1}")
             return
-        chunk_size = (len(to_process) + args.total_chunks - 1) // args.total_chunks
-        start = args.chunk * chunk_size
-        end = min(start + chunk_size, len(to_process))
+        base = len(to_process) // args.total_chunks
+        remainder = len(to_process) % args.total_chunks
+        if args.chunk < remainder:
+            start = args.chunk * (base + 1)
+            end = start + base + 1
+        else:
+            start = remainder * (base + 1) + (args.chunk - remainder) * base
+            end = start + base
         print(f"\nChunk {args.chunk}/{args.total_chunks}: "
               f"images {start}-{end - 1} of {len(to_process)}")
         to_process = to_process[start:end]

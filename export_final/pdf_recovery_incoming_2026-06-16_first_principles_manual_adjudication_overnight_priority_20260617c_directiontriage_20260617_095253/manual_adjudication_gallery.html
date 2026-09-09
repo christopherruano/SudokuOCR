@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Manual Assembly Adjudication</title>
+  <style>
+    :root { color-scheme: light; --ink:#1e1b18; --paper:#f7f1e8; --line:#cabca8; --accent:#1f5e5a; }
+    body { margin:0; padding:24px; font-family: Georgia, 'Times New Roman', serif; background:var(--paper); color:var(--ink); }
+    h1 { margin:0 0 8px; font-size:32px; }
+    .intro { max-width:1100px; margin-bottom:20px; line-height:1.45; }
+    .card { background:#fffaf1; border:1px solid var(--line); border-radius:14px; padding:18px; margin:18px 0; box-shadow:0 8px 24px rgba(70,48,22,.08); }
+    .card h2 { margin:0 0 4px; font-size:20px; color:var(--accent); }
+    .meta { line-height:1.35; font-size:14px; }
+    .images { display:grid; grid-template-columns:1fr 1fr; gap:14px; align-items:start; }
+    figure { margin:0; }
+    figcaption { font-weight:bold; margin:0 0 6px; }
+    img { width:100%; max-height:900px; object-fit:contain; background:white; border:1px solid var(--line); }
+    @media (max-width: 900px) { .images { grid-template-columns:1fr; } body { padding:12px; } }
+  </style>
+</head>
+<body>
+  <h1>Manual Assembly Adjudication</h1>
+  <p class="intro">These are adjacent manual-review candidates only. Nothing here is auto-promoted. Use the question and checklist to decide whether an edge should become a bounded two-page physical structure or remain separate.</p>
+  
+<section class="card">
+  <header>
+    <h2>1. saoa.crl.25352822.pdf||45||46</h2>
+    <p><b>tier_2_value_anomaly_structure_review</b> · pages 45-46 · usually_keep_values_under_review_even_if_structure_promotes</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are the zero failures OCR/value noise on a visually clear continuation, or do they indicate a bad assembly?</p>
+    <p><b>Promote if:</b> If visual continuation is exact: promote structure only, with values flagged for correction/review.</p>
+    <p><b>Do not promote if:</b> Do not promote if the zero issue comes from mixed row universes, duplicate columns, or a table switch.</p>
+    <p><b>Risk:</b> zero_check_failures</p>
+    <p><b>Rows:</b> same_row_labels_substantial_overlap · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_check_failures_review</p>
+    <p><b>Left title:</b> TABLE VIII. Civil Condition by Religion and Age. Part (A)—All Religions.</p>
+    <p><b>Right title:</b> TABLE VIII. Civil Condition by Religion and Age. Part (A) - All Religions - Continued. (1) UNMARRIED. - Continued.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/core_money_renders/1891/25352822/25352822_p45.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/digitized_tables_referenced/digitized_tables/18a52d06b28da93f_t0009_TABLE-VEL/b4c68180d93fdab1aecf1e4ad0de0a9d0d21ee0d.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>2. saoa.crl.25352822.pdf||52||53</h2>
+    <p><b>tier_2_value_anomaly_structure_review</b> · pages 52-53 · usually_keep_values_under_review_even_if_structure_promotes</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are the zero failures OCR/value noise on a visually clear continuation, or do they indicate a bad assembly?</p>
+    <p><b>Promote if:</b> If visual continuation is exact: promote structure only, with values flagged for correction/review.</p>
+    <p><b>Do not promote if:</b> Do not promote if the zero issue comes from mixed row universes, duplicate columns, or a table switch.</p>
+    <p><b>Risk:</b> zero_check_failures</p>
+    <p><b>Rows:</b> same_row_labels_substantial_overlap · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_check_failures_review</p>
+    <p><b>Left title:</b> TABLE VIII. Civil Condition by Religion and Age Part (B) Hindus.</p>
+    <p><b>Right title:</b> TABLE VIII. Civil Condition by Religion and Age Part (B) Hindus - Continued.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/core_money_renders/1891/25352822/25352822_p52.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/digitized_tables_referenced/digitized_tables/18a52d06b28da93f_t0012_TABLE-VIII/ff0d83f26e57b6d809cd00f44d78625819f9fd9e.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>3. saoa.crl.25352814.pdf||309||310</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 309-310 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> Table VIII. Civil Condition by Religion and Age.</p>
+    <p><b>Right title:</b> Table VIII. Civil Condition by Religion and Age.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/never_ocrd_images/digitized_tables/bd11d4a86ab8a644_t0040_TABLE-VIl./7694b00125d810b228f292d689b5d8f7f3209114.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/never_ocrd_images/digitized_tables/bd11d4a86ab8a644_t0040_TABLE-VIl./68a3d70d078055030a6bd60bbeb63ebd16c3030d.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>4. saoa.crl.25793215.pdf||142||143</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 142-143 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> zero_check_missing; row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> no_zero_check_available</p>
+    <p><b>Left title:</b> by Religion. PART B.-District and State Figures. TABLE VII.</p>
+    <p><b>Right title:</b> TABLE VII. (1) All Religions-Married. Age, Sex and Civil Condition</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/core_money_renders/1931/25793215/25793215_p142.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/never_ocrd_images/digitized_tables/3400dc05d12d044b_t0021_a-Age-Sex-and-Civil-C-ndition-s-.-District-or-State.-Males.-.-Females.-f-Meles.-/9a7d313b9e59ac74d317f773d2586dddbac91c7c.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>5. saoa.crl.25793215.pdf||199||200</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 199-200 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> zero_check_missing; row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> no_zero_check_available</p>
+    <p><b>Left title:</b> TABLE VII. (3) Muslim. Age, Sex and Civil Condition</p>
+    <p><b>Right title:</b> by Religion. PART C.—Cities—(continued). TABLE VII.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25793215_p199.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25793215_p200.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>6. saoa.crl.25851854.pdf||23||24</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 23-24 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VI. Religion.—(Continued.)</p>
+    <p><b>Right title:</b> TABLE VI. Religion.—(Concluded).</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/core_money_renders/1901/25851854/25851854_p23.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/digitized_tables_referenced/digitized_tables/29f24a84993c5687_t0008_TABLE-Vi./6123af2064a7d65798c7f36649cdf2c9c46ba813.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>7. saoa.crl.25851854.pdf||91||92</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 91-92 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VII. Age, Sex and Civil Condition.-(12) Shencottah Taluk.-(Concld.)</p>
+    <p><b>Right title:</b> TABLE VII. Age, Sex and Civil Condition.—(12) Shencottah Taluk.—(Concld.)</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25851854_p91.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25851854_p92.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>8. saoa.crl.25851854.pdf||113||114</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 113-114 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VII. Age, Sex and Civil Condition.-(16) Kartikappalli Taluk.-(Concld.)</p>
+    <p><b>Right title:</b> TABLE VII. Age, Sex and Civil Condition.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25851854_p113.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25851854_p114.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>9. saoa.crl.25851854.pdf||143||144</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 143-144 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VII. Age, Sex and Civil Condition.</p>
+    <p><b>Right title:</b> TABLE VII. Age, Sex and Civil Condition.-(22) Vaikam Taluk.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25851854_p143.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25851854_p144.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>10. saoa.crl.25851854.pdf||151||152</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 151-152 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> failed_or_partial_constraints; row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VII. Age, Sex and Civil Condition.</p>
+    <p><b>Right title:</b> TABLE VII. Age, Sex and Civil Condition.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/digitized_tables_referenced/digitized_tables/29f24a84993c5687_t0052_TABLE-vu./be217466c0ce7d8c82940b7362194df09c3e7499.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/digitized_tables_referenced/digitized_tables/29f24a84993c5687_t0053_TABLE-GE/464ad086cdad79efec33d9b1e53813b9723a324b.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>11. saoa.crl.25851854.pdf||163||164</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 163-164 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> failed_or_partial_constraints; row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VII. Age, Sex and Civil Condition.-(26) Minachil Taluk.-(Contd.)</p>
+    <p><b>Right title:</b> TABLE VII. Age, Sex and Civil Condition.—(26) Minachil Taluk.—(Contd.)</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/digitized_tables_referenced/digitized_tables/29f24a84993c5687_t0054_TABLE-LE/db16d2b197de58104ee4c3ff3cbb0e6e0973801e.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/digitized_tables_referenced/digitized_tables/29f24a84993c5687_t0054_TABLE-LE/a15380737e4a8a6a52a08e9726a46d82d5877c7c.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>12. saoa.crl.25851854.pdf||187||188</h2>
+    <p><b>tier_3_row_block_switch_review</b> · pages 187-188 · usually_keep_separate_unless_next_row_block</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Are page B&#x27;s row titles a legitimate next block of the same table, or a new geography/subtable?</p>
+    <p><b>Promote if:</b> If the row block is visibly the next block of the same printed table: keep as a bounded continuation candidate.</p>
+    <p><b>Do not promote if:</b> Do not promote if row labels represent a new district/taluk/religion/table segment rather than continuation.</p>
+    <p><b>Risk:</b> row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VII. Age, Sex and Civil Condition.</p>
+    <p><b>Right title:</b> TABLE VII. Age, Sex and Civil Condition.—(31) Parur Taluk.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25851854_p187.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25851854_p188.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>13. saoa.crl.25352816.pdf||259||260</h2>
+    <p><b>tier_5_low_confidence_keep_separate</b> · pages 259-260 · keep_separate_pending_manual_override</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Is there direct visual evidence strong enough to override the conservative rule stack?</p>
+    <p><b>Promote if:</b> Only promote with an explicit reviewer note.</p>
+    <p><b>Do not promote if:</b> Default is no physical merge.</p>
+    <p><b>Risk:</b> overlapping_column_groups; row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> overlapping_column_groups_review · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VIII. Civil Condition by Religion and Age. Part (A)-ALL RELIGIONS-continued.</p>
+    <p><b>Right title:</b> TABLE VIII. Civil Condition by Religion and Age. Part (B)-HINDUS.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p259.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p260.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>14. saoa.crl.25352816.pdf||263||264</h2>
+    <p><b>tier_5_low_confidence_keep_separate</b> · pages 263-264 · keep_separate_pending_manual_override</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Is there direct visual evidence strong enough to override the conservative rule stack?</p>
+    <p><b>Promote if:</b> Only promote with an explicit reviewer note.</p>
+    <p><b>Do not promote if:</b> Default is no physical merge.</p>
+    <p><b>Risk:</b> overlapping_column_groups</p>
+    <p><b>Rows:</b> same_row_labels_substantial_overlap · <b>Columns:</b> overlapping_column_groups_review · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VIII. Civil Condition by Religion and Age. Part (B)-HINDUS-continued.</p>
+    <p><b>Right title:</b> TABLE VIII. Civil Condition by Religion and Age. Part (C) MUSALMANS.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p263.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p264.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>15. saoa.crl.25363719.pdf||21||22</h2>
+    <p><b>tier_5_low_confidence_keep_separate</b> · pages 21-22 · keep_separate_pending_manual_override</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Is there direct visual evidence strong enough to override the conservative rule stack?</p>
+    <p><b>Promote if:</b> Only promote with an explicit reviewer note.</p>
+    <p><b>Do not promote if:</b> Default is no physical merge.</p>
+    <p><b>Risk:</b> failed_or_partial_constraints; overlapping_column_groups; row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> overlapping_column_groups_review · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VII.-AGE, SEX, AND CIVIL CONDITION</p>
+    <p><b>Right title:</b> CIVIL CONDITION-continued.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/never_ocrd_images/digitized_tables/f7d14358088d001c_t0002_TABLE-VIL/cd30e8c4b13d498d58fe9d71257bbd1d2721bf6d.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/core_money_renders/1901/25363719/25363719_p22.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>16. saoa.crl.25363738.pdf||231||232</h2>
+    <p><b>tier_5_low_confidence_keep_separate</b> · pages 231-232 · keep_separate_pending_manual_override</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Is there direct visual evidence strong enough to override the conservative rule stack?</p>
+    <p><b>Promote if:</b> Only promote with an explicit reviewer note.</p>
+    <p><b>Do not promote if:</b> Default is no physical merge.</p>
+    <p><b>Risk:</b> missing_column_group_evidence; row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> missing_column_group_evidence · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> Sikh Sects-concld.</p>
+    <p><b>Right title:</b> SUBSIDIARY TABLE VI. - The Mohammadan Sects of the Punjab and North-West Frontier Province with their distribution by principal Districts and States: (Males over 15 only).</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/core_money_renders/1901/25363738/25363738_p231.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Research/SudokuOCR/export/digitized_tables_referenced/digitized_tables/7e212e3ce14dd11d_t0023_XIL-Distribution-by-main-age-periods-of-10-000-af-dach-civil-condition/f3d6b30aed5cee0919a6e0b49a48c3b45640d287.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>17. saoa.crl.25393781.pdf||37||38</h2>
+    <p><b>tier_5_low_confidence_keep_separate</b> · pages 37-38 · keep_separate_pending_manual_override</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Is there direct visual evidence strong enough to override the conservative rule stack?</p>
+    <p><b>Promote if:</b> Only promote with an explicit reviewer note.</p>
+    <p><b>Do not promote if:</b> Default is no physical merge.</p>
+    <p><b>Risk:</b> zero_check_missing</p>
+    <p><b>Rows:</b> left_unlabelled_right_labelled_no_inheritance_needed · <b>Columns:</b> left_page_groups_then_right_page_groups_disjoint · <b>Zero:</b> no_zero_check_available</p>
+    <p><b>Left title:</b> CIVIL CONDITION.</p>
+    <p><b>Right title:</b> SUBSIDIARY TABLES.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25393781_p37.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25393781_p38.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+<section class="card">
+  <header>
+    <h2>18. saoa.crl.25793213.pdf||56||57</h2>
+    <p><b>tier_5_low_confidence_keep_separate</b> · pages 56-57 · keep_separate_pending_manual_override</p>
+  </header>
+  <div class="meta">
+    <p><b>Question:</b> Is there direct visual evidence strong enough to override the conservative rule stack?</p>
+    <p><b>Promote if:</b> Only promote with an explicit reviewer note.</p>
+    <p><b>Do not promote if:</b> Default is no physical merge.</p>
+    <p><b>Risk:</b> overlapping_column_groups; row_label_mismatch</p>
+    <p><b>Rows:</b> both_pages_labelled_different_rows_review · <b>Columns:</b> overlapping_column_groups_review · <b>Zero:</b> zero_checks_pass</p>
+    <p><b>Left title:</b> TABLE VII. AGE, SEX &amp; CIVIL CONDITION</p>
+    <p><b>Right title:</b> TABLE VII. Age, Sex and Civil Condition Part II.—Districts.</p>
+  </div>
+  <div class="images">
+    <figure><figcaption>Left page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25793213_p56.png" loading="lazy" /></figure>
+    <figure><figcaption>Right page</figcaption><img src="file:///Users/chrisruano/Downloads/final_tableVII/25793213_p57.png" loading="lazy" /></figure>
+  </div>
+</section>
+
+</body>
+</html>

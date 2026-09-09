@@ -1,0 +1,2463 @@
+<!doctype html><meta charset=utf-8><title>Core money — review queue</title><style>
+    body{font:13px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#f4f5f7;color:#1a1a1a}
+    header{position:sticky;top:0;background:#1f3864;color:#fff;padding:10px 16px;z-index:5}
+    .card{display:flex;gap:16px;background:#fff;margin:10px 16px;border:1px solid #e2e4e8;border-radius:8px;padding:12px;align-items:flex-start}
+    .card.reocr{border-color:#d99;background:#fff6f6}
+    .scan{flex:0 0 460px}.scan img{width:460px;border:1px solid #ccc;border-radius:4px}
+    .info{flex:1}
+    h3{margin:0 0 2px;font-size:14px}.ttl{color:#555;font-size:12px;margin-bottom:8px}
+    .chk{margin:8px 0;padding:8px 10px;border-radius:6px;background:#fbfbfd;border:1px solid #eee}
+    .where{font-weight:700}.detail{font-variant-numeric:tabular-nums;color:#333}
+    .fix{margin-top:4px;padding:5px 8px;border-radius:5px;background:#e8f5e9;border:1px solid #b6dcb9;display:inline-block}
+    .fix b{color:#0a5d1e}.alt{color:#7a5b00;font-size:12px;margin-top:3px}
+    .tag{display:inline-block;padding:1px 7px;border-radius:10px;font-size:11px;font-weight:700}
+    .tag.easy{background:#c6efce;color:#0a5d1e}.tag.mid{background:#ffeb9c;color:#7a5b00}.tag.bad{background:#ffc7ce;color:#9c0017}
+    </style>
+<header><b>Core-money constraint-fail review</b> — 59 pages, easiest-first. 10 are ≤4 failures (one column each). Green = deterministic fix (trust the row-sum); amber = the other possibility (a data cell is the mis-read) — that's what your eye decides.</header>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p67.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p67.png"></a></div>
+<div class=info>
+<h3>25352817_p67 <span class="tag easy">1 fail</span></h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part (B)—HINDUS—continued.</div>
+<div class=chk>
+<span class=where>25 - 29./males</span> <span class=detail>Total=937692 != sum(rows)=936732</span>
+<div class=fix>deterministic fix: set total <b>937,692 → 936,732</b> (Δ -960, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 960 (then the total 937,692 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352824_p48.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352824_p48.png"></a></div>
+<div class=info>
+<h3>25352824_p48 <span class="tag easy">1 fail</span></h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part D.</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>Total 0-4..males=2610 != sum([&#x27;Under 1 year.&#x27;, &#x27;1 year.&#x27;, &#x27;2 years.&#x27;, &#x27;3 years.&#x27;, &#x27;4 years.&#x27;])=2611</span>
+<div class=fix>deterministic fix: set total <b>2,610 → 2,611</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 2,610 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25803742_p255.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25803742_p255.png"></a></div>
+<div class=info>
+<h3>25803742_p255 <span class="tag easy">1 fail</span></h3>
+<div class=ttl>TABLE C-III</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>Total.males=385653 != sum([&#x27;Unmarried&#x27;, &#x27;Married&#x27;, &#x27;Widowed or divorced&#x27;])=386053</span>
+<div class=fix>deterministic fix: set total <b>385,653 → 386,053</b> (Δ +400, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 400 (then the total 385,653 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25363723_p62.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25363723_p62.png"></a></div>
+<div class=info>
+<h3>25363723_p62 <span class="tag easy">2 fail</span></h3>
+<div class=ttl>MARRIED-(contd.) and WIDOWED.</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>WIDOWED. TOTAL WIDOWED..males=37 != sum([&#x27;WIDOWED. 0-5.&#x27;, &#x27;WIDOWED. 5-10.&#x27;, &#x27;WIDOWED. 10-15.&#x27;, &#x27;WIDOWED. 15-20.&#x27;, &#x27;WIDOWED. 20-40.&#x27;, &#x27;WIDOWED. 40-60.&#x27;, &#x27;WIDOWED. 60 and over.&#x27;])=315</span>
+<div class=fix>deterministic fix: set total <b>37 → 315</b> (Δ +278, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 278 (then the total 37 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>WIDOWED. TOTAL WIDOWED..females=38 != sum([&#x27;WIDOWED. 0-5.&#x27;, &#x27;WIDOWED. 5-10.&#x27;, &#x27;WIDOWED. 10-15.&#x27;, &#x27;WIDOWED. 15-20.&#x27;, &#x27;WIDOWED. 20-40.&#x27;, &#x27;WIDOWED. 40-60.&#x27;, &#x27;WIDOWED. 60 and over.&#x27;])=322</span>
+<div class=fix>deterministic fix: set total <b>38 → 322</b> (Δ +284, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 284 (then the total 38 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p303.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p303.png"></a></div>
+<div class=info>
+<h3>25366875_p303 <span class="tag easy">2 fail</span></h3>
+<div class=ttl>No. XIV. by Age for Selected Castes.</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>Total Malwa Prant..males=108 != sum([&#x27;Nimach.&#x27;, &#x27;Ujjain.&#x27;, &#x27;Mandsaur.&#x27;, &#x27;Agar.&#x27;, &#x27;Shajapur.&#x27;, &#x27;Amjhera.&#x27;])=98</span>
+<div class=fix>deterministic fix: set total <b>108 → 98</b> (Δ -10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 108 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>Total Malwa Prant..females=202 != sum([&#x27;Nimach.&#x27;, &#x27;Ujjain.&#x27;, &#x27;Mandsaur.&#x27;, &#x27;Agar.&#x27;, &#x27;Shajapur.&#x27;, &#x27;Amjhera.&#x27;])=208</span>
+<div class=fix>deterministic fix: set total <b>202 → 208</b> (Δ +6, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6 (then the total 202 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p65.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p65.png"></a></div>
+<div class=info>
+<h3>25366899_p65 <span class="tag easy">2 fail</span></h3>
+<div class=ttl>Table VIII-Education.</div>
+<div class=chk>
+<span class=where>OTHER LANGUAGES./persons</span> <span class=detail>Total=2486 != sum(rows)=2487</span>
+<div class=fix>deterministic fix: set total <b>2,486 → 2,487</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 2,486 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>OTHER LANGUAGES./females</span> <span class=detail>Total=84 != sum(rows)=85</span>
+<div class=fix>deterministic fix: set total <b>84 → 85</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 84 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25793217_p96.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25793217_p96.png"></a></div>
+<div class=info>
+<h3>25793217_p96 <span class="tag easy">2 fail</span></h3>
+<div class=ttl>PART II.-Districts and States.</div>
+<div class=chk>
+<span class=where>Married.</span> <span class=detail>P=2617 != M=1540+F=1027=2567</span>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>Population..females=1677 != sum([&#x27;Unmarried.&#x27;, &#x27;Married.&#x27;, &#x27;Widowed.&#x27;])=1627</span>
+<div class=fix>deterministic fix: set total <b>1,677 → 1,627</b> (Δ -50, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 50 (then the total 1,677 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25430170_p54.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25430170_p54.png"></a></div>
+<div class=info>
+<h3>25430170_p54 <span class="tag easy">3 fail</span></h3>
+<div class=ttl>TABLE VII-Age, Sex and Civil Condition by Selected Towns</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>Population.persons=11919 != sum([&#x27;Unmarried&#x27;, &#x27;Married&#x27;, &#x27;Widowed&#x27;])=607</span>
+<div class=fix>deterministic fix: set total <b>11,919 → 607</b> (Δ -11,312, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 11,312 (then the total 11,919 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>Population.males=5993 != sum([&#x27;Unmarried&#x27;, &#x27;Married&#x27;, &#x27;Widowed&#x27;])=294</span>
+<div class=fix>deterministic fix: set total <b>5,993 → 294</b> (Δ -5,699, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 5,699 (then the total 5,993 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>Population.females=5926 != sum([&#x27;Unmarried&#x27;, &#x27;Married&#x27;, &#x27;Widowed&#x27;])=313</span>
+<div class=fix>deterministic fix: set total <b>5,926 → 313</b> (Δ -5,613, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 5,613 (then the total 5,926 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25793213_p56.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25793213_p56.png"></a></div>
+<div class=info>
+<h3>25793213_p56 <span class="tag easy">3 fail</span></h3>
+<div class=ttl>TABLE VII. AGE, SEX &amp; CIVIL CONDITION</div>
+<div class=chk>
+<span class=where>MARRIED/persons</span> <span class=detail>Total=262231 != sum(rows)=256869</span>
+<div class=fix>deterministic fix: set total <b>262,231 → 256,869</b> (Δ -5,362, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 5,362 (then the total 262,231 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/males</span> <span class=detail>Total=132130 != sum(rows)=130021</span>
+<div class=fix>deterministic fix: set total <b>132,130 → 130,021</b> (Δ -2,109, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,109 (then the total 132,130 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/females</span> <span class=detail>Total=130101 != sum(rows)=126848</span>
+<div class=fix>deterministic fix: set total <b>130,101 → 126,848</b> (Δ -3,253, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,253 (then the total 130,101 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352815_p85.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352815_p85.png"></a></div>
+<div class=info>
+<h3>25352815_p85 <span class="tag easy">4 fail</span></h3>
+<div class=ttl>Table VIII. Civil Condition by Religion and Age.</div>
+<div class=chk>
+<span class=where>40-44./males</span> <span class=detail>nativestates=10 != sum([&#x27;mahikantha&#x27;, &#x27;palanpur&#x27;, &#x27;rewakantha&#x27;, &#x27;kathiawar&#x27;, &#x27;cutch&#x27;, &#x27;kolhapur&#x27;, &#x27;s.m.countrystates&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>10 → 0</b> (Δ -10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 10 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>40-44./females</span> <span class=detail>nativestates=103 != sum([&#x27;mahikantha&#x27;, &#x27;palanpur&#x27;, &#x27;rewakantha&#x27;, &#x27;kathiawar&#x27;, &#x27;cutch&#x27;, &#x27;kolhapur&#x27;, &#x27;s.m.countrystates&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>103 → 0</b> (Δ -103, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 103 (then the total 103 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>40-44./males</span> <span class=detail>presidency=10 != sum([&#x27;britishterritory&#x27;, &#x27;nativestates&#x27;])=20</span>
+<div class=fix>deterministic fix: set total <b>10 → 20</b> (Δ +10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 10 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>40-44./females</span> <span class=detail>presidency=103 != sum([&#x27;britishterritory&#x27;, &#x27;nativestates&#x27;])=206</span>
+<div class=fix>deterministic fix: set total <b>103 → 206</b> (Δ +103, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 103 (then the total 103 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p73.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p73.png"></a></div>
+<div class=info>
+<h3>25366899_p73 <span class="tag mid">8 fail</span></h3>
+<div class=ttl>Table VIII.—Education by Sections--Khara Talao.</div>
+<div class=chk>
+<span class=where>HINDOSTANI./persons</span> <span class=detail>Total=485 != sum(rows)=475</span>
+<div class=fix>deterministic fix: set total <b>485 → 475</b> (Δ -10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 485 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDOSTANI./females</span> <span class=detail>Total=49 != sum(rows)=39</span>
+<div class=fix>deterministic fix: set total <b>49 → 39</b> (Δ -10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 49 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>OTHER LANGUAGES./persons</span> <span class=detail>Total=6 != sum(rows)=4</span>
+<div class=fix>deterministic fix: set total <b>6 → 4</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 6 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>OTHER LANGUAGES./males</span> <span class=detail>Total=6 != sum(rows)=4</span>
+<div class=fix>deterministic fix: set total <b>6 → 4</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 6 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDOSTANI./males</span> <span class=detail>Total=137 != sum(rows)=136</span>
+<div class=fix>deterministic fix: set total <b>137 → 136</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 137 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDOSTANI./females</span> <span class=detail>Total=9 != sum(rows)=10</span>
+<div class=fix>deterministic fix: set total <b>9 → 10</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 9 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARATHI./persons</span> <span class=detail>Total=27 != sum(rows)=26</span>
+<div class=fix>deterministic fix: set total <b>27 → 26</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 27 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARATHI./females</span> <span class=detail>Total=4 != sum(rows)=3</span>
+<div class=fix>deterministic fix: set total <b>4 → 3</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 4 is right) — check the scan.</div>
+</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352824_p52.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352824_p52.png"></a></div>
+<div class=info>
+<h3>25352824_p52 <span class="tag mid">10 fail</span></h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part F.-</div>
+<div class=chk>
+<span class=where>4 years./females</span> <span class=detail>Total=1 != sum(rows)=0</span>
+<div class=fix>deterministic fix: set total <b>1 → 0</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 1 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total 0-4./females</span> <span class=detail>Total=1 != sum(rows)=0</span>
+<div class=fix>deterministic fix: set total <b>1 → 0</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 1 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION./persons</span> <span class=detail>grandtotal=314 != sum([&#x27;total&#x27;, &#x27;cantonment&#x27;])=363</span>
+<div class=fix>deterministic fix: set total <b>314 → 363</b> (Δ +49, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 49 (then the total 314 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION./males</span> <span class=detail>grandtotal=212 != sum([&#x27;total&#x27;, &#x27;cantonment&#x27;])=261</span>
+<div class=fix>deterministic fix: set total <b>212 → 261</b> (Δ +49, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 49 (then the total 212 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION./persons</span> <span class=detail>barodadivision=248 != sum([&#x27;barodadivision,exclusiveofbarodacityandcantonment&#x27;, &#x27;total&#x27;])=269</span>
+<div class=fix>deterministic fix: set total <b>248 → 269</b> (Δ +21, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 21 (then the total 248 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION./males</span> <span class=detail>barodadivision=181 != sum([&#x27;barodadivision,exclusiveofbarodacityandcantonment&#x27;, &#x27;total&#x27;])=202</span>
+<div class=fix>deterministic fix: set total <b>181 → 202</b> (Δ +21, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 21 (then the total 181 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>4 years./females</span> <span class=detail>barodadivision=1 != sum([&#x27;barodadivision,exclusiveofbarodacityandcantonment&#x27;, &#x27;total&#x27;])=2</span>
+<div class=fix>deterministic fix: set total <b>1 → 2</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 1 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total 0-4./females</span> <span class=detail>barodadivision=1 != sum([&#x27;barodadivision,exclusiveofbarodacityandcantonment&#x27;, &#x27;total&#x27;])=2</span>
+<div class=fix>deterministic fix: set total <b>1 → 2</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 1 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 2 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25793210_p59.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25793210_p59.png"></a></div>
+<div class=info>
+<h3>25793210_p59 <span class="tag mid">10 fail</span></h3>
+<div class=ttl>TABLE VII.—AGE, SEX AND CIVIL CONDITION—continued.</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>Total=31963 != sum(rows)=31960</span>
+<div class=fix>deterministic fix: set total <b>31,963 → 31,960</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 31,963 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./females</span> <span class=detail>Total=30579 != sum(rows)=30582</span>
+<div class=fix>deterministic fix: set total <b>30,579 → 30,582</b> (Δ +3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 30,579 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./persons</span> <span class=detail>Total=21265 != sum(rows)=21262</span>
+<div class=fix>deterministic fix: set total <b>21,265 → 21,262</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 21,265 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=12925 != sum(rows)=12922</span>
+<div class=fix>deterministic fix: set total <b>12,925 → 12,922</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 12,925 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./persons</span> <span class=detail>Total=33215 != sum(rows)=33218</span>
+<div class=fix>deterministic fix: set total <b>33,215 → 33,218</b> (Δ +3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 33,215 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>Total=16495 != sum(rows)=16498</span>
+<div class=fix>deterministic fix: set total <b>16,495 → 16,498</b> (Δ +3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 16,495 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>Total=71 != sum(rows)=70</span>
+<div class=fix>deterministic fix: set total <b>71 → 70</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 71 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>Total=71 != sum(rows)=72</span>
+<div class=fix>deterministic fix: set total <b>71 → 72</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 71 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 2 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393770_p112.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393770_p112.png"></a></div>
+<div class=info>
+<h3>25393770_p112 <span class="tag mid">11 fail</span></h3>
+<div class=ttl>TABLE VII-continued. AGE, SEX AND CIVIL CONDITION. Part III-Cities-Bombay.</div>
+<div class=chk>
+<span class=where>UNMARRIED.</span> <span class=detail>P=469 != M=410+F=50=460</span>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>hindu=436521 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-25&#x27;, &#x27;25-30&#x27;, &#x27;30-35&#x27;, &#x27;35-40&#x27;, &#x27;40-45&#x27;, &#x27;45-50&#x27;, &#x27;50-55&#x27;, &#x27;55-60&#x27;, &#x27;60-65&#x27;, &#x27;65-70&#x27;, &#x27;70andover&#x27;])=430521</span>
+<div class=fix>deterministic fix: set total <b>436,521 → 430,521</b> (Δ -6,000, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6,000 (then the total 436,521 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./females</span> <span class=detail>hindu=227521 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-25&#x27;, &#x27;25-30&#x27;, &#x27;30-35&#x27;, &#x27;35-40&#x27;, &#x27;40-45&#x27;, &#x27;45-50&#x27;, &#x27;50-55&#x27;, &#x27;55-60&#x27;, &#x27;60-65&#x27;, &#x27;65-70&#x27;, &#x27;70andover&#x27;])=233521</span>
+<div class=fix>deterministic fix: set total <b>227,521 → 233,521</b> (Δ +6,000, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6,000 (then the total 227,521 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>hindu=149167 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-25&#x27;, &#x27;25-30&#x27;, &#x27;30-35&#x27;, &#x27;35-40&#x27;, &#x27;40-45&#x27;, &#x27;45-50&#x27;, &#x27;50-55&#x27;, &#x27;55-60&#x27;, &#x27;60-65&#x27;, &#x27;65-70&#x27;, &#x27;70andover&#x27;])=149158</span>
+<div class=fix>deterministic fix: set total <b>149,167 → 149,158</b> (Δ -9, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 9 (then the total 149,167 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>hindu=273788 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-25&#x27;, &#x27;25-30&#x27;, &#x27;30-35&#x27;, &#x27;35-40&#x27;, &#x27;40-45&#x27;, &#x27;45-50&#x27;, &#x27;50-55&#x27;, &#x27;55-60&#x27;, &#x27;60-65&#x27;, &#x27;65-70&#x27;, &#x27;70andover&#x27;])=267788</span>
+<div class=fix>deterministic fix: set total <b>273,788 → 267,788</b> (Δ -6,000, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6,000 (then the total 273,788 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>hindu=130693 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-25&#x27;, &#x27;25-30&#x27;, &#x27;30-35&#x27;, &#x27;35-40&#x27;, &#x27;40-45&#x27;, &#x27;45-50&#x27;, &#x27;50-55&#x27;, &#x27;55-60&#x27;, &#x27;60-65&#x27;, &#x27;65-70&#x27;, &#x27;70andover&#x27;])=136693</span>
+<div class=fix>deterministic fix: set total <b>130,693 → 136,693</b> (Δ +6,000, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6,000 (then the total 130,693 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>POPULATION..males=12644 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=12635</span>
+<div class=fix>deterministic fix: set total <b>12,644 → 12,635</b> (Δ -9, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 9 (then the total 12,644 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>POPULATION..persons=3125 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=3124</span>
+<div class=fix>deterministic fix: set total <b>3,125 → 3,124</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 3,125 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 3 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352824_p56.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352824_p56.png"></a></div>
+<div class=info>
+<h3>25352824_p56 <span class="tag mid">12 fail</span></h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part II.- (1) UNMARRIED</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL.males=9 != sum([&#x27;Under 1 year&#x27;, &#x27;1 year&#x27;, &#x27;2 years&#x27;, &#x27;3 years&#x27;, &#x27;4 years&#x27;, &#x27;Total 0-4&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>9 → 0</b> (Δ -9, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 9 (then the total 9 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL.males=2 != sum([&#x27;Under 1 year&#x27;, &#x27;1 year&#x27;, &#x27;2 years&#x27;, &#x27;3 years&#x27;, &#x27;4 years&#x27;, &#x27;Total 0-4&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>2 → 0</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 2 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL.males=2 != sum([&#x27;Under 1 year&#x27;, &#x27;1 year&#x27;, &#x27;2 years&#x27;, &#x27;3 years&#x27;, &#x27;4 years&#x27;, &#x27;Total 0-4&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>2 → 0</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 2 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL.males=11 != sum([&#x27;Under 1 year&#x27;, &#x27;1 year&#x27;, &#x27;2 years&#x27;, &#x27;3 years&#x27;, &#x27;4 years&#x27;, &#x27;Total 0-4&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>11 → 0</b> (Δ -11, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 11 (then the total 11 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL/persons</span> <span class=detail>(1) UNMARRIED=9 != sum([&#x27;(2) MARRIED&#x27;, &#x27;(3) WIDOWED&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>9 → 0</b> (Δ -9, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 9 (then the total 9 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL/males</span> <span class=detail>(1) UNMARRIED=9 != sum([&#x27;(2) MARRIED&#x27;, &#x27;(3) WIDOWED&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>9 → 0</b> (Δ -9, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 9 (then the total 9 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL/persons</span> <span class=detail>(1) UNMARRIED=2 != sum([&#x27;(2) MARRIED&#x27;, &#x27;(3) WIDOWED&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>2 → 0</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 2 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL/males</span> <span class=detail>(1) UNMARRIED=2 != sum([&#x27;(2) MARRIED&#x27;, &#x27;(3) WIDOWED&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>2 → 0</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 2 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 4 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393786_p51.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393786_p51.png"></a></div>
+<div class=info>
+<h3>25393786_p51 <span class="tag mid">12 fail</span></h3>
+<div class=ttl>TABLE VII. Age, sex and civil condition. Part I.-Districts and States-continued.</div>
+<div class=chk>
+<span class=where>MARRIED/males</span> <span class=detail>Total=120117 != sum(rows)=120121</span>
+<div class=fix>deterministic fix: set total <b>120,117 → 120,121</b> (Δ +4, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4 (then the total 120,117 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/females</span> <span class=detail>Total=114240 != sum(rows)=114236</span>
+<div class=fix>deterministic fix: set total <b>114,240 → 114,236</b> (Δ -4, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4 (then the total 114,240 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED/males</span> <span class=detail>Total=11063 != sum(rows)=11059</span>
+<div class=fix>deterministic fix: set total <b>11,063 → 11,059</b> (Δ -4, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4 (then the total 11,063 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED/females</span> <span class=detail>Total=48234 != sum(rows)=48238</span>
+<div class=fix>deterministic fix: set total <b>48,234 → 48,238</b> (Δ +4, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4 (then the total 48,234 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/persons</span> <span class=detail>Total=23486 != sum(rows)=23488</span>
+<div class=fix>deterministic fix: set total <b>23,486 → 23,488</b> (Δ +2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 23,486 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/females</span> <span class=detail>Total=10828 != sum(rows)=10830</span>
+<div class=fix>deterministic fix: set total <b>10,828 → 10,830</b> (Δ +2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 10,828 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED/persons</span> <span class=detail>Total=4051 != sum(rows)=4049</span>
+<div class=fix>deterministic fix: set total <b>4,051 → 4,049</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 4,051 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED/females</span> <span class=detail>Total=3184 != sum(rows)=3182</span>
+<div class=fix>deterministic fix: set total <b>3,184 → 3,182</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 3,184 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 4 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25793210_p60.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25793210_p60.png"></a></div>
+<div class=info>
+<h3>25793210_p60 <span class="tag mid">12 fail</span></h3>
+<div class=ttl>TABLE VII.-AGE, SEX AND CIVIL CONDITION-continued.</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=21969 != sum(rows)=21972</span>
+<div class=fix>deterministic fix: set total <b>21,969 → 21,972</b> (Δ +3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 21,969 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./females</span> <span class=detail>Total=14286 != sum(rows)=14283</span>
+<div class=fix>deterministic fix: set total <b>14,286 → 14,283</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 14,286 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED./males</span> <span class=detail>Total=4004 != sum(rows)=4001</span>
+<div class=fix>deterministic fix: set total <b>4,004 → 4,001</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 4,004 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED./females</span> <span class=detail>Total=8639 != sum(rows)=8642</span>
+<div class=fix>deterministic fix: set total <b>8,639 → 8,642</b> (Δ +3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 8,639 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>0-5=15 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=16</span>
+<div class=fix>deterministic fix: set total <b>15 → 16</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 15 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>0-5=26 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=25</span>
+<div class=fix>deterministic fix: set total <b>26 → 25</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 26 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED./males</span> <span class=detail>0-5=5 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=4</span>
+<div class=fix>deterministic fix: set total <b>5 → 4</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 5 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED./females</span> <span class=detail>0-5=0 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=1</span>
+<div class=fix>deterministic fix: set total <b>0 → 1</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 0 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 4 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25793213_p55.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25793213_p55.png"></a></div>
+<div class=info>
+<h3>25793213_p55 <span class="tag mid">12 fail</span></h3>
+<div class=ttl>TABLE VII. AGE, SEX &amp; CIVIL CONDITION.</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION/persons</span> <span class=detail>Total=52 != sum(rows)=45</span>
+<div class=fix>deterministic fix: set total <b>52 → 45</b> (Δ -7, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7 (then the total 52 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION/males</span> <span class=detail>Total=26 != sum(rows)=22</span>
+<div class=fix>deterministic fix: set total <b>26 → 22</b> (Δ -4, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4 (then the total 26 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION/females</span> <span class=detail>Total=26 != sum(rows)=23</span>
+<div class=fix>deterministic fix: set total <b>26 → 23</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 26 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/persons</span> <span class=detail>Total=19 != sum(rows)=13</span>
+<div class=fix>deterministic fix: set total <b>19 → 13</b> (Δ -6, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6 (then the total 19 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/males</span> <span class=detail>Total=9 != sum(rows)=6</span>
+<div class=fix>deterministic fix: set total <b>9 → 6</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 9 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/females</span> <span class=detail>Total=10 != sum(rows)=7</span>
+<div class=fix>deterministic fix: set total <b>10 → 7</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 10 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION/persons</span> <span class=detail>Total=27 != sum(rows)=24</span>
+<div class=fix>deterministic fix: set total <b>27 → 24</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 27 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>TOTAL POPULATION/males</span> <span class=detail>Total=11 != sum(rows)=10</span>
+<div class=fix>deterministic fix: set total <b>11 → 10</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 11 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 4 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p301.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p301.png"></a></div>
+<div class=info>
+<h3>25366875_p301 <span class="tag mid">13 fail</span></h3>
+<div class=ttl>No. XIV. by Age for Selected Castes.</div>
+<div class=chk>
+<span class=where>Sikarwari./males</span> <span class=detail>Total=116 != sum(rows)=232</span>
+<div class=fix>deterministic fix: set total <b>116 → 232</b> (Δ +116, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 116 (then the total 116 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Sikarwari./females</span> <span class=detail>Total=40 != sum(rows)=80</span>
+<div class=fix>deterministic fix: set total <b>40 → 80</b> (Δ +40, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 40 (then the total 40 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Sabalgarh./males</span> <span class=detail>Total=72 != sum(rows)=138</span>
+<div class=fix>deterministic fix: set total <b>72 → 138</b> (Δ +66, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 66 (then the total 72 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Sabalgarh./females</span> <span class=detail>Total=61 != sum(rows)=122</span>
+<div class=fix>deterministic fix: set total <b>61 → 122</b> (Δ +61, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 61 (then the total 61 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Tawarghar./males</span> <span class=detail>Total=116 != sum(rows)=232</span>
+<div class=fix>deterministic fix: set total <b>116 → 232</b> (Δ +116, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 116 (then the total 116 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Tawarghar./females</span> <span class=detail>Total=382 != sum(rows)=764</span>
+<div class=fix>deterministic fix: set total <b>382 → 764</b> (Δ +382, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 382 (then the total 382 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Bhind./females</span> <span class=detail>Total=339 != sum(rows)=678</span>
+<div class=fix>deterministic fix: set total <b>339 → 678</b> (Δ +339, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 339 (then the total 339 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Bhander./males</span> <span class=detail>Total=386 != sum(rows)=772</span>
+<div class=fix>deterministic fix: set total <b>386 → 772</b> (Δ +386, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 386 (then the total 386 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 5 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p259.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p259.png"></a></div>
+<div class=info>
+<h3>25352816_p259 <span class="tag mid">14 fail</span></h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part (A)-ALL RELIGIONS-continue</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL NOT STATED..males=41 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=3</span>
+<div class=fix>deterministic fix: set total <b>41 → 3</b> (Δ -38, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 38 (then the total 41 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL NOT STATED..females=35 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=2</span>
+<div class=fix>deterministic fix: set total <b>35 → 2</b> (Δ -33, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 33 (then the total 35 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL NOT STATED..males=26 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=16</span>
+<div class=fix>deterministic fix: set total <b>26 → 16</b> (Δ -10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 26 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL NOT STATED..females=51 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=35</span>
+<div class=fix>deterministic fix: set total <b>51 → 35</b> (Δ -16, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 16 (then the total 51 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL NOT STATED..males=3 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>3 → 0</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 3 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL NOT STATED..males=70 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=19</span>
+<div class=fix>deterministic fix: set total <b>70 → 19</b> (Δ -51, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 51 (then the total 70 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL NOT STATED..females=87 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=38</span>
+<div class=fix>deterministic fix: set total <b>87 → 38</b> (Δ -49, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 49 (then the total 87 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL NOT STATED..males=41 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=3</span>
+<div class=fix>deterministic fix: set total <b>41 → 3</b> (Δ -38, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 38 (then the total 41 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 6 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25430165_p50.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25430165_p50.png"></a></div>
+<div class=info>
+<h3>25430165_p50 <span class="tag mid">14 fail</span></h3>
+<div class=ttl>AND CIVIL CONDITION (BY RELIGION). PART A.-PROVINCIAL SUMMARY.</div>
+<div class=chk>
+<span class=where>POPULATION/persons</span> <span class=detail>0-4inclusive=547 != sum([&#x27;1&#x27;, &#x27;2&#x27;])=147</span>
+<div class=fix>deterministic fix: set total <b>547 → 147</b> (Δ -400, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 400 (then the total 547 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/males</span> <span class=detail>0-4inclusive=272 != sum([&#x27;1&#x27;, &#x27;2&#x27;])=74</span>
+<div class=fix>deterministic fix: set total <b>272 → 74</b> (Δ -198, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 198 (then the total 272 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/females</span> <span class=detail>0-4inclusive=275 != sum([&#x27;1&#x27;, &#x27;2&#x27;])=73</span>
+<div class=fix>deterministic fix: set total <b>275 → 73</b> (Δ -202, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 202 (then the total 275 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/persons</span> <span class=detail>0-4inclusive=546 != sum([&#x27;1&#x27;, &#x27;2&#x27;])=147</span>
+<div class=fix>deterministic fix: set total <b>546 → 147</b> (Δ -399, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 399 (then the total 546 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/males</span> <span class=detail>0-4inclusive=271 != sum([&#x27;1&#x27;, &#x27;2&#x27;])=74</span>
+<div class=fix>deterministic fix: set total <b>271 → 74</b> (Δ -197, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 197 (then the total 271 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/females</span> <span class=detail>0-4inclusive=275 != sum([&#x27;1&#x27;, &#x27;2&#x27;])=73</span>
+<div class=fix>deterministic fix: set total <b>275 → 73</b> (Δ -202, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 202 (then the total 275 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/persons</span> <span class=detail>0-4inclusive=1 != sum([&#x27;1&#x27;, &#x27;2&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>1 → 0</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 1 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/males</span> <span class=detail>0-4inclusive=1 != sum([&#x27;1&#x27;, &#x27;2&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>1 → 0</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 1 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 6 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p272.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p272.png"></a></div>
+<div class=info>
+<h3>25352816_p272 <span class="tag mid">16 fail</span></h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part (G)-JEWS.</div>
+<div class=chk>
+<span class=where>25-29./females</span> <span class=detail>Total=2 != sum(rows)=3</span>
+<div class=fix>deterministic fix: set total <b>2 → 3</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 2 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL JEWS..males=39 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;, &#x27;30-34.&#x27;, &#x27;35-39.&#x27;, &#x27;40-44.&#x27;, &#x27;45-49.&#x27;, &#x27;50-54.&#x27;, &#x27;55-59.&#x27;, &#x27;60 and over.&#x27;])=40</span>
+<div class=fix>deterministic fix: set total <b>39 → 40</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 39 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL JEWS..males=314 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;, &#x27;30-34.&#x27;, &#x27;35-39.&#x27;, &#x27;40-44.&#x27;, &#x27;45-49.&#x27;, &#x27;50-54.&#x27;, &#x27;55-59.&#x27;, &#x27;60 and over.&#x27;])=313</span>
+<div class=fix>deterministic fix: set total <b>314 → 313</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 314 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL JEWS..females=231 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;, &#x27;30-34.&#x27;, &#x27;35-39.&#x27;, &#x27;40-44.&#x27;, &#x27;45-49.&#x27;, &#x27;50-54.&#x27;, &#x27;55-59.&#x27;, &#x27;60 and over.&#x27;])=232</span>
+<div class=fix>deterministic fix: set total <b>231 → 232</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 231 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL JEWS..males=25 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;, &#x27;30-34.&#x27;, &#x27;35-39.&#x27;, &#x27;40-44.&#x27;, &#x27;45-49.&#x27;, &#x27;50-54.&#x27;, &#x27;55-59.&#x27;, &#x27;60 and over.&#x27;])=24</span>
+<div class=fix>deterministic fix: set total <b>25 → 24</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 25 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL JEWS..females=25 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;, &#x27;30-34.&#x27;, &#x27;35-39.&#x27;, &#x27;40-44.&#x27;, &#x27;45-49.&#x27;, &#x27;50-54.&#x27;, &#x27;55-59.&#x27;, &#x27;60 and over.&#x27;])=26</span>
+<div class=fix>deterministic fix: set total <b>25 → 26</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 25 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL JEWS..persons=504 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;, &#x27;30-34.&#x27;, &#x27;35-39.&#x27;, &#x27;40-44.&#x27;, &#x27;45-49.&#x27;, &#x27;50-54.&#x27;, &#x27;55-59.&#x27;, &#x27;60 and over.&#x27;])=488</span>
+<div class=fix>deterministic fix: set total <b>504 → 488</b> (Δ -16, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 16 (then the total 504 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL JEWS..males=233 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;, &#x27;30-34.&#x27;, &#x27;35-39.&#x27;, &#x27;40-44.&#x27;, &#x27;45-49.&#x27;, &#x27;50-54.&#x27;, &#x27;55-59.&#x27;, &#x27;60 and over.&#x27;])=252</span>
+<div class=fix>deterministic fix: set total <b>233 → 252</b> (Δ +19, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 19 (then the total 233 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 8 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25793210_p85.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25793210_p85.png"></a></div>
+<div class=info>
+<h3>25793210_p85 <span class="tag mid">16 fail</span></h3>
+<div class=ttl>TABLE VII.--AGE, SEX AND CIVIL CONDITION--concluded.</div>
+<div class=chk>
+<span class=where>WIDOWED.</span> <span class=detail>P=57 != M=30+F=26=56</span>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>Total=12483 != sum(rows)=12477</span>
+<div class=fix>deterministic fix: set total <b>12,483 → 12,477</b> (Δ -6, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6 (then the total 12,483 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./females</span> <span class=detail>Total=10533 != sum(rows)=10539</span>
+<div class=fix>deterministic fix: set total <b>10,533 → 10,539</b> (Δ +6, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6 (then the total 10,533 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>Total=6477 != sum(rows)=6457</span>
+<div class=fix>deterministic fix: set total <b>6,477 → 6,457</b> (Δ -20, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 20 (then the total 6,477 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>Total=5475 != sum(rows)=5495</span>
+<div class=fix>deterministic fix: set total <b>5,475 → 5,495</b> (Δ +20, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 20 (then the total 5,475 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED./males</span> <span class=detail>Total=881 != sum(rows)=895</span>
+<div class=fix>deterministic fix: set total <b>881 → 895</b> (Δ +14, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 14 (then the total 881 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED./females</span> <span class=detail>Total=2031 != sum(rows)=2016</span>
+<div class=fix>deterministic fix: set total <b>2,031 → 2,016</b> (Δ -15, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 15 (then the total 2,031 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./persons</span> <span class=detail>Total=3355 != sum(rows)=3345</span>
+<div class=fix>deterministic fix: set total <b>3,355 → 3,345</b> (Δ -10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 3,355 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 8 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p257.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352816_p257.png"></a></div>
+<div class=info>
+<h3>25352816_p257 <span class="tag mid">18 fail</span></h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part (A)-ALL RELIGIONS-continue</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL MARRIED..persons=1119602 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=450168</span>
+<div class=fix>deterministic fix: set total <b>1,119,602 → 450,168</b> (Δ -669,434, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 669,434 (then the total 1,119,602 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL MARRIED..males=567088 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=163756</span>
+<div class=fix>deterministic fix: set total <b>567,088 → 163,756</b> (Δ -403,332, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 403,332 (then the total 567,088 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL MARRIED..females=552514 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=286412</span>
+<div class=fix>deterministic fix: set total <b>552,514 → 286,412</b> (Δ -266,102, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 266,102 (then the total 552,514 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL MARRIED..persons=325173 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=142858</span>
+<div class=fix>deterministic fix: set total <b>325,173 → 142,858</b> (Δ -182,315, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 182,315 (then the total 325,173 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL MARRIED..males=159097 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=50756</span>
+<div class=fix>deterministic fix: set total <b>159,097 → 50,756</b> (Δ -108,341, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 108,341 (then the total 159,097 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL MARRIED..females=166076 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=92102</span>
+<div class=fix>deterministic fix: set total <b>166,076 → 92,102</b> (Δ -73,974, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 73,974 (then the total 166,076 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL MARRIED..persons=155686 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=54711</span>
+<div class=fix>deterministic fix: set total <b>155,686 → 54,711</b> (Δ -100,975, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 100,975 (then the total 155,686 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL MARRIED..males=74380 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=15264</span>
+<div class=fix>deterministic fix: set total <b>74,380 → 15,264</b> (Δ -59,116, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 59,116 (then the total 74,380 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 10 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393770_p107.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393770_p107.png"></a></div>
+<div class=info>
+<h3>25393770_p107 <span class="tag mid">18 fail</span></h3>
+<div class=ttl>TABLE VII-continued. AGE, SEX AND CIVIL CONDITION. Part II.-By Districts and Sta</div>
+<div class=chk>
+<span class=where>POPULATION/persons</span> <span class=detail>1surattotal=315 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-40&#x27;, &#x27;40-60&#x27;, &#x27;60andover&#x27;])=2205</span>
+<div class=fix>deterministic fix: set total <b>315 → 2,205</b> (Δ +1,890, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,890 (then the total 315 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/males</span> <span class=detail>1surattotal=150 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-40&#x27;, &#x27;40-60&#x27;, &#x27;60andover&#x27;])=1050</span>
+<div class=fix>deterministic fix: set total <b>150 → 1,050</b> (Δ +900, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 900 (then the total 150 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/females</span> <span class=detail>1surattotal=165 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-40&#x27;, &#x27;40-60&#x27;, &#x27;60andover&#x27;])=1155</span>
+<div class=fix>deterministic fix: set total <b>165 → 1,155</b> (Δ +990, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 990 (then the total 165 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/persons</span> <span class=detail>1surattotal=147 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-40&#x27;, &#x27;40-60&#x27;, &#x27;60andover&#x27;])=1029</span>
+<div class=fix>deterministic fix: set total <b>147 → 1,029</b> (Δ +882, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 882 (then the total 147 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/males</span> <span class=detail>1surattotal=112 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-40&#x27;, &#x27;40-60&#x27;, &#x27;60andover&#x27;])=784</span>
+<div class=fix>deterministic fix: set total <b>112 → 784</b> (Δ +672, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 672 (then the total 112 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/females</span> <span class=detail>1surattotal=35 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-40&#x27;, &#x27;40-60&#x27;, &#x27;60andover&#x27;])=245</span>
+<div class=fix>deterministic fix: set total <b>35 → 245</b> (Δ +210, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 210 (then the total 35 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED/persons</span> <span class=detail>1surattotal=168 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-40&#x27;, &#x27;40-60&#x27;, &#x27;60andover&#x27;])=1176</span>
+<div class=fix>deterministic fix: set total <b>168 → 1,176</b> (Δ +1,008, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,008 (then the total 168 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>WIDOWED/males</span> <span class=detail>1surattotal=38 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-40&#x27;, &#x27;40-60&#x27;, &#x27;60andover&#x27;])=266</span>
+<div class=fix>deterministic fix: set total <b>38 → 266</b> (Δ +228, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 228 (then the total 38 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 10 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393786_p55.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393786_p55.png"></a></div>
+<div class=info>
+<h3>25393786_p55 <span class="tag mid">19 fail</span></h3>
+<div class=ttl>TABLE VII. Age, sex and civil condition. Part I.-Districts and States-continued.</div>
+<div class=chk>
+<span class=where>POPULATION/persons</span> <span class=detail>Total=2141196 != sum(rows)=2140896</span>
+<div class=fix>deterministic fix: set total <b>2,141,196 → 2,140,896</b> (Δ -300, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 300 (then the total 2,141,196 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/females</span> <span class=detail>Total=1118566 != sum(rows)=1118266</span>
+<div class=fix>deterministic fix: set total <b>1,118,566 → 1,118,266</b> (Δ -300, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 300 (then the total 1,118,566 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/persons</span> <span class=detail>Total=951150 != sum(rows)=950850</span>
+<div class=fix>deterministic fix: set total <b>951,150 → 950,850</b> (Δ -300, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 300 (then the total 951,150 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/females</span> <span class=detail>Total=412525 != sum(rows)=412225</span>
+<div class=fix>deterministic fix: set total <b>412,525 → 412,225</b> (Δ -300, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 300 (then the total 412,525 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/persons</span> <span class=detail>Total=131042 != sum(rows)=130242</span>
+<div class=fix>deterministic fix: set total <b>131,042 → 130,242</b> (Δ -800, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 800 (then the total 131,042 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/females</span> <span class=detail>Total=73991 != sum(rows)=73191</span>
+<div class=fix>deterministic fix: set total <b>73,991 → 73,191</b> (Δ -800, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 800 (then the total 73,991 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/persons</span> <span class=detail>Total=60166 != sum(rows)=59166</span>
+<div class=fix>deterministic fix: set total <b>60,166 → 59,166</b> (Δ -1,000, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,000 (then the total 60,166 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/females</span> <span class=detail>Total=27207 != sum(rows)=26207</span>
+<div class=fix>deterministic fix: set total <b>27,207 → 26,207</b> (Δ -1,000, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,000 (then the total 27,207 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 11 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393786_p48.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393786_p48.png"></a></div>
+<div class=info>
+<h3>25393786_p48 <span class="tag mid">20 fail</span></h3>
+<div class=ttl>TABLE VII. Age, Sex and Civil Condition. Part I.-Districts and States-continued.</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=483674 != sum(rows)=483734</span>
+<div class=fix>deterministic fix: set total <b>483,674 → 483,734</b> (Δ +60, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 60 (then the total 483,674 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./females</span> <span class=detail>Total=320249 != sum(rows)=320189</span>
+<div class=fix>deterministic fix: set total <b>320,249 → 320,189</b> (Δ -60, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 60 (then the total 320,249 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>Total=418808 != sum(rows)=418748</span>
+<div class=fix>deterministic fix: set total <b>418,808 → 418,748</b> (Δ -60, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 60 (then the total 418,808 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>Total=431339 != sum(rows)=431399</span>
+<div class=fix>deterministic fix: set total <b>431,339 → 431,399</b> (Δ +60, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 60 (then the total 431,339 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=19815 != sum(rows)=19785</span>
+<div class=fix>deterministic fix: set total <b>19,815 → 19,785</b> (Δ -30, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 30 (then the total 19,815 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./females</span> <span class=detail>Total=13877 != sum(rows)=13907</span>
+<div class=fix>deterministic fix: set total <b>13,877 → 13,907</b> (Δ +30, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 30 (then the total 13,877 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>Total=14893 != sum(rows)=14913</span>
+<div class=fix>deterministic fix: set total <b>14,893 → 14,913</b> (Δ +20, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 20 (then the total 14,893 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>Total=14898 != sum(rows)=14878</span>
+<div class=fix>deterministic fix: set total <b>14,898 → 14,878</b> (Δ -20, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 20 (then the total 14,898 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 12 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p12.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p12.png"></a></div>
+<div class=info>
+<h3>25366899_p12 <span class="tag mid">24 fail</span></h3>
+<div class=ttl>Table VII. Age, Sex and Civil Condition</div>
+<div class=chk>
+<span class=where>POPULATION/persons</span> <span class=detail>Total=45176 != sum(rows)=587288</span>
+<div class=fix>deterministic fix: set total <b>45,176 → 587,288</b> (Δ +542,112, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 542,112 (then the total 45,176 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/males</span> <span class=detail>Total=29705 != sum(rows)=386165</span>
+<div class=fix>deterministic fix: set total <b>29,705 → 386,165</b> (Δ +356,460, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 356,460 (then the total 29,705 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/females</span> <span class=detail>Total=15471 != sum(rows)=201123</span>
+<div class=fix>deterministic fix: set total <b>15,471 → 201,123</b> (Δ +185,652, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 185,652 (then the total 15,471 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/persons</span> <span class=detail>Total=24538 != sum(rows)=318994</span>
+<div class=fix>deterministic fix: set total <b>24,538 → 318,994</b> (Δ +294,456, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 294,456 (then the total 24,538 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/males</span> <span class=detail>Total=17403 != sum(rows)=226239</span>
+<div class=fix>deterministic fix: set total <b>17,403 → 226,239</b> (Δ +208,836, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 208,836 (then the total 17,403 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED/females</span> <span class=detail>Total=7135 != sum(rows)=92755</span>
+<div class=fix>deterministic fix: set total <b>7,135 → 92,755</b> (Δ +85,620, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 85,620 (then the total 7,135 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/persons</span> <span class=detail>Total=17253 != sum(rows)=224289</span>
+<div class=fix>deterministic fix: set total <b>17,253 → 224,289</b> (Δ +207,036, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 207,036 (then the total 17,253 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED/males</span> <span class=detail>Total=11316 != sum(rows)=147108</span>
+<div class=fix>deterministic fix: set total <b>11,316 → 147,108</b> (Δ +135,792, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 135,792 (then the total 11,316 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 16 more failing checks</div>
+</div></div>
+<div class="card ">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p291.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p291.png"></a></div>
+<div class=info>
+<h3>25366875_p291 <span class="tag mid">27 fail</span></h3>
+<div class=ttl>No. XIV. by Age for Selected Castes.</div>
+<div class=chk>
+<span class=where>Sikarwari./males</span> <span class=detail>Total=287 != sum(rows)=574</span>
+<div class=fix>deterministic fix: set total <b>287 → 574</b> (Δ +287, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 287 (then the total 287 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Sabalgarh./males</span> <span class=detail>Total=100 != sum(rows)=201</span>
+<div class=fix>deterministic fix: set total <b>100 → 201</b> (Δ +101, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 101 (then the total 100 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Sabalgarh./females</span> <span class=detail>Total=77 != sum(rows)=154</span>
+<div class=fix>deterministic fix: set total <b>77 → 154</b> (Δ +77, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 77 (then the total 77 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Tawarghar./males</span> <span class=detail>Total=833 != sum(rows)=1671</span>
+<div class=fix>deterministic fix: set total <b>833 → 1,671</b> (Δ +838, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 838 (then the total 833 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Tawarghar./females</span> <span class=detail>Total=222 != sum(rows)=444</span>
+<div class=fix>deterministic fix: set total <b>222 → 444</b> (Δ +222, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 222 (then the total 222 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Bhind./males</span> <span class=detail>Total=1792 != sum(rows)=3584</span>
+<div class=fix>deterministic fix: set total <b>1,792 → 3,584</b> (Δ +1,792, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,792 (then the total 1,792 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Bhind./females</span> <span class=detail>Total=188 != sum(rows)=366</span>
+<div class=fix>deterministic fix: set total <b>188 → 366</b> (Δ +178, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 178 (then the total 188 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Bhander./males</span> <span class=detail>Total=85 != sum(rows)=170</span>
+<div class=fix>deterministic fix: set total <b>85 → 170</b> (Δ +85, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 85 (then the total 85 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 19 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25797131_p48.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25797131_p48.png"></a></div>
+<div class=info>
+<h3>25797131_p48 <span class="tag bad">32 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII-Age, Sex and Civil Condition-Part II Natural Divisions-(continued)</div>
+<div class=chk>
+<span class=where>Population/persons</span> <span class=detail>allreligions=290930 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-30&#x27;, &#x27;30-40&#x27;, &#x27;40-50&#x27;, &#x27;50-60&#x27;, &#x27;60andover&#x27;])=284430</span>
+<div class=fix>deterministic fix: set total <b>290,930 → 284,430</b> (Δ -6,500, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6,500 (then the total 290,930 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population/males</span> <span class=detail>allreligions=155586 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-30&#x27;, &#x27;30-40&#x27;, &#x27;40-50&#x27;, &#x27;50-60&#x27;, &#x27;60andover&#x27;])=149336</span>
+<div class=fix>deterministic fix: set total <b>155,586 → 149,336</b> (Δ -6,250, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6,250 (then the total 155,586 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population/females</span> <span class=detail>allreligions=135344 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-30&#x27;, &#x27;30-40&#x27;, &#x27;40-50&#x27;, &#x27;50-60&#x27;, &#x27;60andover&#x27;])=135094</span>
+<div class=fix>deterministic fix: set total <b>135,344 → 135,094</b> (Δ -250, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 250 (then the total 135,344 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Unmarried/persons</span> <span class=detail>allreligions=152678 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-30&#x27;, &#x27;30-40&#x27;, &#x27;40-50&#x27;, &#x27;50-60&#x27;, &#x27;60andover&#x27;])=144942</span>
+<div class=fix>deterministic fix: set total <b>152,678 → 144,942</b> (Δ -7,736, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7,736 (then the total 152,678 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Unmarried/males</span> <span class=detail>allreligions=88695 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-30&#x27;, &#x27;30-40&#x27;, &#x27;40-50&#x27;, &#x27;50-60&#x27;, &#x27;60andover&#x27;])=84666</span>
+<div class=fix>deterministic fix: set total <b>88,695 → 84,666</b> (Δ -4,029, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4,029 (then the total 88,695 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Unmarried/females</span> <span class=detail>allreligions=63983 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-30&#x27;, &#x27;30-40&#x27;, &#x27;40-50&#x27;, &#x27;50-60&#x27;, &#x27;60andover&#x27;])=60276</span>
+<div class=fix>deterministic fix: set total <b>63,983 → 60,276</b> (Δ -3,707, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,707 (then the total 63,983 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Married/persons</span> <span class=detail>allreligions=121136 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-30&#x27;, &#x27;30-40&#x27;, &#x27;40-50&#x27;, &#x27;50-60&#x27;, &#x27;60andover&#x27;])=121958</span>
+<div class=fix>deterministic fix: set total <b>121,136 → 121,958</b> (Δ +822, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 822 (then the total 121,136 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Married/males</span> <span class=detail>allreligions=62766 != sum([&#x27;0-5&#x27;, &#x27;5-10&#x27;, &#x27;10-15&#x27;, &#x27;15-20&#x27;, &#x27;20-30&#x27;, &#x27;30-40&#x27;, &#x27;40-50&#x27;, &#x27;50-60&#x27;, &#x27;60andover&#x27;])=60716</span>
+<div class=fix>deterministic fix: set total <b>62,766 → 60,716</b> (Δ -2,050, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,050 (then the total 62,766 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 24 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25793210_p51.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25793210_p51.png"></a></div>
+<div class=info>
+<h3>25793210_p51 <span class="tag bad">33 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII.-AGE, SEX AND CIVIL CONDITION-contd.</div>
+<div class=chk>
+<span class=where>POPULATION./persons</span> <span class=detail>Total=376637 != sum(rows)=124457</span>
+<div class=fix>deterministic fix: set total <b>376,637 → 124,457</b> (Δ -252,180, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 252,180 (then the total 376,637 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>Total=198346 != sum(rows)=67768</span>
+<div class=fix>deterministic fix: set total <b>198,346 → 67,768</b> (Δ -130,578, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 130,578 (then the total 198,346 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./females</span> <span class=detail>Total=178291 != sum(rows)=56689</span>
+<div class=fix>deterministic fix: set total <b>178,291 → 56,689</b> (Δ -121,602, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 121,602 (then the total 178,291 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./persons</span> <span class=detail>Total=157323 != sum(rows)=3465</span>
+<div class=fix>deterministic fix: set total <b>157,323 → 3,465</b> (Δ -153,858, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 153,858 (then the total 157,323 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=92565 != sum(rows)=2703</span>
+<div class=fix>deterministic fix: set total <b>92,565 → 2,703</b> (Δ -89,862, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 89,862 (then the total 92,565 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./females</span> <span class=detail>Total=64758 != sum(rows)=762</span>
+<div class=fix>deterministic fix: set total <b>64,758 → 762</b> (Δ -63,996, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 63,996 (then the total 64,758 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./persons</span> <span class=detail>Total=180837 != sum(rows)=87009</span>
+<div class=fix>deterministic fix: set total <b>180,837 → 87,009</b> (Δ -93,828, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 93,828 (then the total 180,837 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>Total=93394 != sum(rows)=54805</span>
+<div class=fix>deterministic fix: set total <b>93,394 → 54,805</b> (Δ -38,589, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 38,589 (then the total 93,394 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 25 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352824_p49.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352824_p49.png"></a></div>
+<div class=info>
+<h3>25352824_p49 <span class="tag bad">34 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age.</div>
+<div class=chk>
+<span class=where>5-9./males</span> <span class=detail>Total=2815 != sum(rows)=3468</span>
+<div class=fix>deterministic fix: set total <b>2,815 → 3,468</b> (Δ +653, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 653 (then the total 2,815 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>5-9./females</span> <span class=detail>Total=2804 != sum(rows)=3474</span>
+<div class=fix>deterministic fix: set total <b>2,804 → 3,474</b> (Δ +670, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 670 (then the total 2,804 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>20-24./males</span> <span class=detail>Total=941 != sum(rows)=1160</span>
+<div class=fix>deterministic fix: set total <b>941 → 1,160</b> (Δ +219, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 219 (then the total 941 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>5-9./males</span> <span class=detail>Total=171 != sum(rows)=189</span>
+<div class=fix>deterministic fix: set total <b>171 → 189</b> (Δ +18, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 18 (then the total 171 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>10-14./females</span> <span class=detail>Total=607 != sum(rows)=835</span>
+<div class=fix>deterministic fix: set total <b>607 → 835</b> (Δ +228, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 228 (then the total 607 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>15-19./males</span> <span class=detail>Total=962 != sum(rows)=1308</span>
+<div class=fix>deterministic fix: set total <b>962 → 1,308</b> (Δ +346, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 346 (then the total 962 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>15-19./females</span> <span class=detail>Total=1617 != sum(rows)=2101</span>
+<div class=fix>deterministic fix: set total <b>1,617 → 2,101</b> (Δ +484, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 484 (then the total 1,617 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>20-24./males</span> <span class=detail>Total=1359 != sum(rows)=1798</span>
+<div class=fix>deterministic fix: set total <b>1,359 → 1,798</b> (Δ +439, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 439 (then the total 1,359 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 26 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352804_p53.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352804_p53.png"></a></div>
+<div class=info>
+<h3>25352804_p53 <span class="tag bad">35 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VIII CIVIL CONDITION BY RELIGION AND AGE. PART A.—ALL RELIGIONS. (1) UNMAR</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL UNMARRIED..males=103737 != sum([&#x27;AGE PERIODS. 0-4.&#x27;, &#x27;AGE PERIODS. 5-9.&#x27;, &#x27;AGE PERIODS. 10-14.&#x27;, &#x27;AGE PERIODS. 15-19.&#x27;, &#x27;AGE PERIODS. 20-24.&#x27;])=95543</span>
+<div class=fix>deterministic fix: set total <b>103,737 → 95,543</b> (Δ -8,194, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 8,194 (then the total 103,737 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL UNMARRIED..females=69970 != sum([&#x27;AGE PERIODS. 0-4.&#x27;, &#x27;AGE PERIODS. 5-9.&#x27;, &#x27;AGE PERIODS. 10-14.&#x27;, &#x27;AGE PERIODS. 15-19.&#x27;, &#x27;AGE PERIODS. 20-24.&#x27;])=69347</span>
+<div class=fix>deterministic fix: set total <b>69,970 → 69,347</b> (Δ -623, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 623 (then the total 69,970 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL UNMARRIED..males=642083 != sum([&#x27;AGE PERIODS. 0-4.&#x27;, &#x27;AGE PERIODS. 5-9.&#x27;, &#x27;AGE PERIODS. 10-14.&#x27;, &#x27;AGE PERIODS. 15-19.&#x27;, &#x27;AGE PERIODS. 20-24.&#x27;])=593251</span>
+<div class=fix>deterministic fix: set total <b>642,083 → 593,251</b> (Δ -48,832, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 48,832 (then the total 642,083 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL UNMARRIED..females=399009 != sum([&#x27;AGE PERIODS. 0-4.&#x27;, &#x27;AGE PERIODS. 5-9.&#x27;, &#x27;AGE PERIODS. 10-14.&#x27;, &#x27;AGE PERIODS. 15-19.&#x27;, &#x27;AGE PERIODS. 20-24.&#x27;])=396785</span>
+<div class=fix>deterministic fix: set total <b>399,009 → 396,785</b> (Δ -2,224, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,224 (then the total 399,009 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL UNMARRIED..males=745820 != sum([&#x27;AGE PERIODS. 0-4.&#x27;, &#x27;AGE PERIODS. 5-9.&#x27;, &#x27;AGE PERIODS. 10-14.&#x27;, &#x27;AGE PERIODS. 15-19.&#x27;, &#x27;AGE PERIODS. 20-24.&#x27;])=688794</span>
+<div class=fix>deterministic fix: set total <b>745,820 → 688,794</b> (Δ -57,026, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 57,026 (then the total 745,820 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL UNMARRIED..females=468979 != sum([&#x27;AGE PERIODS. 0-4.&#x27;, &#x27;AGE PERIODS. 5-9.&#x27;, &#x27;AGE PERIODS. 10-14.&#x27;, &#x27;AGE PERIODS. 15-19.&#x27;, &#x27;AGE PERIODS. 20-24.&#x27;])=466132</span>
+<div class=fix>deterministic fix: set total <b>468,979 → 466,132</b> (Δ -2,847, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,847 (then the total 468,979 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL UNMARRIED..males=125036 != sum([&#x27;AGE PERIODS. 0-4.&#x27;, &#x27;AGE PERIODS. 5-9.&#x27;, &#x27;AGE PERIODS. 10-14.&#x27;, &#x27;AGE PERIODS. 15-19.&#x27;, &#x27;AGE PERIODS. 20-24.&#x27;])=115405</span>
+<div class=fix>deterministic fix: set total <b>125,036 → 115,405</b> (Δ -9,631, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 9,631 (then the total 125,036 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL UNMARRIED..females=82780 != sum([&#x27;AGE PERIODS. 0-4.&#x27;, &#x27;AGE PERIODS. 5-9.&#x27;, &#x27;AGE PERIODS. 10-14.&#x27;, &#x27;AGE PERIODS. 15-19.&#x27;, &#x27;AGE PERIODS. 20-24.&#x27;])=82185</span>
+<div class=fix>deterministic fix: set total <b>82,780 → 82,185</b> (Δ -595, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 595 (then the total 82,780 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 27 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p11.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p11.png"></a></div>
+<div class=info>
+<h3>25366899_p11 <span class="tag bad">40 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Table VII. Age, Sex and Civil Condition</div>
+<div class=chk>
+<span class=where>POPULATION.</span> <span class=detail>P=65427 != M=33933+F=31504=65437</span>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED.</span> <span class=detail>P=62530 != M=33055+F=29484=62539</span>
+</div>
+<div class=chk>
+<span class=where>WIDOWED.</span> <span class=detail>P=125 != M=30+F=105=135</span>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED.</span> <span class=detail>P=55787 != M=38518+F=17369=55887</span>
+</div>
+<div class=chk>
+<span class=where>WIDOWED.</span> <span class=detail>P=3061 != M=442+F=1619=2061</span>
+</div>
+<div class=chk>
+<span class=where>POPULATION.</span> <span class=detail>P=24942 != M=16037+F=8915=24952</span>
+</div>
+<div class=chk>
+<span class=where>POPULATION./persons</span> <span class=detail>Total=776006 != sum(rows)=776025</span>
+<div class=fix>deterministic fix: set total <b>776,006 → 776,025</b> (Δ +19, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 19 (then the total 776,006 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>Total=479786 != sum(rows)=480824</span>
+<div class=fix>deterministic fix: set total <b>479,786 → 480,824</b> (Δ +1,038, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,038 (then the total 479,786 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 32 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25363733_p38.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25363733_p38.png"></a></div>
+<div class=info>
+<h3>25363733_p38 <span class="tag bad">41 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII. Age, Sex and Civil Condition-PRESIDENCY TOTAL-continued.</div>
+<div class=chk>
+<span class=where>POPULATION./persons</span> <span class=detail>Total=1038854 != sum(rows)=890077</span>
+<div class=fix>deterministic fix: set total <b>1,038,854 → 890,077</b> (Δ -148,777, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 148,777 (then the total 1,038,854 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>Total=510957 != sum(rows)=437892</span>
+<div class=fix>deterministic fix: set total <b>510,957 → 437,892</b> (Δ -73,065, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 73,065 (then the total 510,957 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./females</span> <span class=detail>Total=527897 != sum(rows)=452185</span>
+<div class=fix>deterministic fix: set total <b>527,897 → 452,185</b> (Δ -75,712, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 75,712 (then the total 527,897 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./persons</span> <span class=detail>Total=542328 != sum(rows)=393851</span>
+<div class=fix>deterministic fix: set total <b>542,328 → 393,851</b> (Δ -148,477, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 148,477 (then the total 542,328 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=298297 != sum(rows)=225383</span>
+<div class=fix>deterministic fix: set total <b>298,297 → 225,383</b> (Δ -72,914, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 72,914 (then the total 298,297 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./females</span> <span class=detail>Total=244031 != sum(rows)=168468</span>
+<div class=fix>deterministic fix: set total <b>244,031 → 168,468</b> (Δ -75,563, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 75,563 (then the total 244,031 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./persons</span> <span class=detail>Total=402234 != sum(rows)=401948</span>
+<div class=fix>deterministic fix: set total <b>402,234 → 401,948</b> (Δ -286, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 286 (then the total 402,234 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>Total=196687 != sum(rows)=196539</span>
+<div class=fix>deterministic fix: set total <b>196,687 → 196,539</b> (Δ -148, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 148 (then the total 196,687 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 33 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25363733_p40.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25363733_p40.png"></a></div>
+<div class=info>
+<h3>25363733_p40 <span class="tag bad">44 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII. Age, Sex and Civil Condition-BRITISH TERRITORY-continued.</div>
+<div class=chk>
+<span class=where>POPULATION./persons</span> <span class=detail>Total=1024071 != sum(rows)=877312</span>
+<div class=fix>deterministic fix: set total <b>1,024,071 → 877,312</b> (Δ -146,759, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 146,759 (then the total 1,024,071 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>Total=503737 != sum(rows)=431669</span>
+<div class=fix>deterministic fix: set total <b>503,737 → 431,669</b> (Δ -72,068, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 72,068 (then the total 503,737 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./females</span> <span class=detail>Total=520334 != sum(rows)=445643</span>
+<div class=fix>deterministic fix: set total <b>520,334 → 445,643</b> (Δ -74,691, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 74,691 (then the total 520,334 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./persons</span> <span class=detail>Total=535225 != sum(rows)=388822</span>
+<div class=fix>deterministic fix: set total <b>535,225 → 388,822</b> (Δ -146,403, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 146,403 (then the total 535,225 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=294393 != sum(rows)=222474</span>
+<div class=fix>deterministic fix: set total <b>294,393 → 222,474</b> (Δ -71,919, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 71,919 (then the total 294,393 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./females</span> <span class=detail>Total=240832 != sum(rows)=166348</span>
+<div class=fix>deterministic fix: set total <b>240,832 → 166,348</b> (Δ -74,484, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 74,484 (then the total 240,832 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./persons</span> <span class=detail>Total=396043 != sum(rows)=395700</span>
+<div class=fix>deterministic fix: set total <b>396,043 → 395,700</b> (Δ -343, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 343 (then the total 396,043 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>Total=193594 != sum(rows)=193448</span>
+<div class=fix>deterministic fix: set total <b>193,594 → 193,448</b> (Δ -146, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 146 (then the total 193,594 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 36 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25394111_p42.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25394111_p42.png"></a></div>
+<div class=info>
+<h3>25394111_p42 <span class="tag bad">44 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part I-Provincial Tables.</div>
+<div class=chk>
+<span class=where>UNMARRIED.</span> <span class=detail>P=636 != M=385+F=301=686</span>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=7553 != sum(rows)=7603</span>
+<div class=fix>deterministic fix: set total <b>7,553 → 7,603</b> (Δ +50, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 50 (then the total 7,553 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>POPULATION..males=17956 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=16584</span>
+<div class=fix>deterministic fix: set total <b>17,956 → 16,584</b> (Δ -1,372, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,372 (then the total 17,956 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>POPULATION..females=17911 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=19283</span>
+<div class=fix>deterministic fix: set total <b>17,911 → 19,283</b> (Δ +1,372, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,372 (then the total 17,911 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>POPULATION..males=416 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=414</span>
+<div class=fix>deterministic fix: set total <b>416 → 414</b> (Δ -2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 416 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>POPULATION..females=456 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=458</span>
+<div class=fix>deterministic fix: set total <b>456 → 458</b> (Δ +2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 456 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>POPULATION..males=171 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=170</span>
+<div class=fix>deterministic fix: set total <b>171 → 170</b> (Δ -1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 171 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>POPULATION..females=211 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=212</span>
+<div class=fix>deterministic fix: set total <b>211 → 212</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 211 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 36 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393781_p44.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393781_p44.png"></a></div>
+<div class=info>
+<h3>25393781_p44 <span class="tag bad">48 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>SUBSIDIARY TABLE XII.-DISTRIBUTION BY MAIN AGE-PERIODS AND CIVIL CONDITION OF 10</div>
+<div class=chk>
+<span class=where>MALES./persons</span> <span class=detail>allreligions-=1512 != sum([&#x27;0-10&#x27;, &#x27;10-15&#x27;, &#x27;15-40&#x27;, &#x27;40andover&#x27;])=6048</span>
+<div class=fix>deterministic fix: set total <b>1,512 → 6,048</b> (Δ +4,536, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4,536 (then the total 1,512 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MALES./males</span> <span class=detail>allreligions-=7259 != sum([&#x27;0-10&#x27;, &#x27;10-15&#x27;, &#x27;15-40&#x27;, &#x27;40andover&#x27;])=29036</span>
+<div class=fix>deterministic fix: set total <b>7,259 → 29,036</b> (Δ +21,777, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 21,777 (then the total 7,259 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MALES./females</span> <span class=detail>allreligions-=1229 != sum([&#x27;0-10&#x27;, &#x27;10-15&#x27;, &#x27;15-40&#x27;, &#x27;40andover&#x27;])=4916</span>
+<div class=fix>deterministic fix: set total <b>1,229 → 4,916</b> (Δ +3,687, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,687 (then the total 1,229 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>FEMALES./persons</span> <span class=detail>allreligions-=1258 != sum([&#x27;0-10&#x27;, &#x27;10-15&#x27;, &#x27;15-40&#x27;, &#x27;40andover&#x27;])=5032</span>
+<div class=fix>deterministic fix: set total <b>1,258 → 5,032</b> (Δ +3,774, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,774 (then the total 1,258 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>FEMALES./males</span> <span class=detail>allreligions-=4285 != sum([&#x27;0-10&#x27;, &#x27;10-15&#x27;, &#x27;15-40&#x27;, &#x27;40andover&#x27;])=17140</span>
+<div class=fix>deterministic fix: set total <b>4,285 → 17,140</b> (Δ +12,855, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 12,855 (then the total 4,285 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>FEMALES./females</span> <span class=detail>allreligions-=4457 != sum([&#x27;0-10&#x27;, &#x27;10-15&#x27;, &#x27;15-40&#x27;, &#x27;40andover&#x27;])=17828</span>
+<div class=fix>deterministic fix: set total <b>4,457 → 17,828</b> (Δ +13,371, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 13,371 (then the total 4,457 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MALES./persons</span> <span class=detail>allreligions-=2574 != sum([&#x27;0-10&#x27;, &#x27;10-15&#x27;, &#x27;15-40&#x27;, &#x27;40andover&#x27;])=10296</span>
+<div class=fix>deterministic fix: set total <b>2,574 → 10,296</b> (Δ +7,722, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7,722 (then the total 2,574 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MALES./males</span> <span class=detail>allreligions-=6436 != sum([&#x27;0-10&#x27;, &#x27;10-15&#x27;, &#x27;15-40&#x27;, &#x27;40andover&#x27;])=25744</span>
+<div class=fix>deterministic fix: set total <b>6,436 → 25,744</b> (Δ +19,308, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 19,308 (then the total 6,436 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 40 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p302.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p302.png"></a></div>
+<div class=info>
+<h3>25366875_p302 <span class="tag bad">52 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Imperial Table Civil Condition</div>
+<div class=chk>
+<span class=where>Population/persons</span> <span class=detail>grandtotal=475 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1425</span>
+<div class=fix>deterministic fix: set total <b>475 → 1,425</b> (Δ +950, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 950 (then the total 475 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population/males</span> <span class=detail>grandtotal=173 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=519</span>
+<div class=fix>deterministic fix: set total <b>173 → 519</b> (Δ +346, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 346 (then the total 173 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population/females</span> <span class=detail>grandtotal=302 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=906</span>
+<div class=fix>deterministic fix: set total <b>302 → 906</b> (Δ +604, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 604 (then the total 302 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant/males</span> <span class=detail>grandtotal=77 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=231</span>
+<div class=fix>deterministic fix: set total <b>77 → 231</b> (Δ +154, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 154 (then the total 77 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant/females</span> <span class=detail>grandtotal=107 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=321</span>
+<div class=fix>deterministic fix: set total <b>107 → 321</b> (Δ +214, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 214 (then the total 107 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior/males</span> <span class=detail>grandtotal=26 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=78</span>
+<div class=fix>deterministic fix: set total <b>26 → 78</b> (Δ +52, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 52 (then the total 26 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior/females</span> <span class=detail>grandtotal=53 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=159</span>
+<div class=fix>deterministic fix: set total <b>53 → 159</b> (Δ +106, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 106 (then the total 53 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Pichhor/males</span> <span class=detail>grandtotal=2 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=6</span>
+<div class=fix>deterministic fix: set total <b>2 → 6</b> (Δ +4, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4 (then the total 2 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 44 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352804_p63.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352804_p63.png"></a></div>
+<div class=info>
+<h3>25352804_p63 <span class="tag bad">53 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VIII.—CIVIL CONDITION BY RELIGION AND AGE. PART B.—HINDU—continued.</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL WIDOWED..persons=22099 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=3080</span>
+<div class=fix>deterministic fix: set total <b>22,099 → 3,080</b> (Δ -19,019, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 19,019 (then the total 22,099 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=4985 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=557</span>
+<div class=fix>deterministic fix: set total <b>4,985 → 557</b> (Δ -4,428, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4,428 (then the total 4,985 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL WIDOWED..females=17114 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=2523</span>
+<div class=fix>deterministic fix: set total <b>17,114 → 2,523</b> (Δ -14,591, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 14,591 (then the total 17,114 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL WIDOWED..persons=155085 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=25657</span>
+<div class=fix>deterministic fix: set total <b>155,085 → 25,657</b> (Δ -129,428, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 129,428 (then the total 155,085 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=22911 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=1666</span>
+<div class=fix>deterministic fix: set total <b>22,911 → 1,666</b> (Δ -21,245, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 21,245 (then the total 22,911 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL WIDOWED..females=132174 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=23991</span>
+<div class=fix>deterministic fix: set total <b>132,174 → 23,991</b> (Δ -108,183, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 108,183 (then the total 132,174 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL WIDOWED..persons=177184 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=28737</span>
+<div class=fix>deterministic fix: set total <b>177,184 → 28,737</b> (Δ -148,447, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 148,447 (then the total 177,184 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=27896 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=2223</span>
+<div class=fix>deterministic fix: set total <b>27,896 → 2,223</b> (Δ -25,673, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 25,673 (then the total 27,896 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 45 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p80.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p80.png"></a></div>
+<div class=info>
+<h3>25352817_p80 <span class="tag bad">58 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part (D)—CHRISTIANS.</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL UNMARRIED..males=692 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=646</span>
+<div class=fix>deterministic fix: set total <b>692 → 646</b> (Δ -46, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 46 (then the total 692 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL UNMARRIED..females=601 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=586</span>
+<div class=fix>deterministic fix: set total <b>601 → 586</b> (Δ -15, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 15 (then the total 601 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL UNMARRIED..males=918 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=857</span>
+<div class=fix>deterministic fix: set total <b>918 → 857</b> (Δ -61, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 61 (then the total 918 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL UNMARRIED..females=681 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=646</span>
+<div class=fix>deterministic fix: set total <b>681 → 646</b> (Δ -35, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 35 (then the total 681 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL UNMARRIED..males=2471 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=2407</span>
+<div class=fix>deterministic fix: set total <b>2,471 → 2,407</b> (Δ -64, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 64 (then the total 2,471 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL UNMARRIED..females=1927 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=1899</span>
+<div class=fix>deterministic fix: set total <b>1,927 → 1,899</b> (Δ -28, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 28 (then the total 1,927 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL UNMARRIED..males=18399 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=18227</span>
+<div class=fix>deterministic fix: set total <b>18,399 → 18,227</b> (Δ -172, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 172 (then the total 18,399 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL UNMARRIED..females=13126 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=13068</span>
+<div class=fix>deterministic fix: set total <b>13,126 → 13,068</b> (Δ -58, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 58 (then the total 13,126 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 50 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p69.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p69.png"></a></div>
+<div class=info>
+<h3>25352817_p69 <span class="tag bad">60 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part (B)-HINDUS-continued.</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=23722 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=3788</span>
+<div class=fix>deterministic fix: set total <b>23,722 → 3,788</b> (Δ -19,934, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 19,934 (then the total 23,722 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL WIDOWED..females=155721 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=20514</span>
+<div class=fix>deterministic fix: set total <b>155,721 → 20,514</b> (Δ -135,207, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 135,207 (then the total 155,721 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=27623 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=3444</span>
+<div class=fix>deterministic fix: set total <b>27,623 → 3,444</b> (Δ -24,179, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 24,179 (then the total 27,623 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL WIDOWED..females=197128 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=25574</span>
+<div class=fix>deterministic fix: set total <b>197,128 → 25,574</b> (Δ -171,554, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 171,554 (then the total 197,128 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=27946 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=2429</span>
+<div class=fix>deterministic fix: set total <b>27,946 → 2,429</b> (Δ -25,517, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 25,517 (then the total 27,946 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL WIDOWED..females=222604 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=34252</span>
+<div class=fix>deterministic fix: set total <b>222,604 → 34,252</b> (Δ -188,352, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 188,352 (then the total 222,604 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=25903 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=1881</span>
+<div class=fix>deterministic fix: set total <b>25,903 → 1,881</b> (Δ -24,022, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 24,022 (then the total 25,903 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL WIDOWED..females=170944 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=22801</span>
+<div class=fix>deterministic fix: set total <b>170,944 → 22,801</b> (Δ -148,143, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 148,143 (then the total 170,944 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 52 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p294.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p294.png"></a></div>
+<div class=info>
+<h3>25366875_p294 <span class="tag bad">60 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Imperial Table Civil Condition</div>
+<div class=chk>
+<span class=where>Population./persons</span> <span class=detail>grandtotal=805 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=2415</span>
+<div class=fix>deterministic fix: set total <b>805 → 2,415</b> (Δ +1,610, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,610 (then the total 805 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./males</span> <span class=detail>grandtotal=314 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=942</span>
+<div class=fix>deterministic fix: set total <b>314 → 942</b> (Δ +628, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 628 (then the total 314 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./females</span> <span class=detail>grandtotal=491 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1473</span>
+<div class=fix>deterministic fix: set total <b>491 → 1,473</b> (Δ +982, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 982 (then the total 491 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./males</span> <span class=detail>grandtotal=178 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=534</span>
+<div class=fix>deterministic fix: set total <b>178 → 534</b> (Δ +356, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 356 (then the total 178 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./females</span> <span class=detail>grandtotal=114 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=342</span>
+<div class=fix>deterministic fix: set total <b>114 → 342</b> (Δ +228, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 228 (then the total 114 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./males</span> <span class=detail>grandtotal=72 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=216</span>
+<div class=fix>deterministic fix: set total <b>72 → 216</b> (Δ +144, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 144 (then the total 72 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./females</span> <span class=detail>grandtotal=17 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=51</span>
+<div class=fix>deterministic fix: set total <b>17 → 51</b> (Δ +34, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 34 (then the total 17 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Susera./males</span> <span class=detail>grandtotal=1 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=3</span>
+<div class=fix>deterministic fix: set total <b>1 → 3</b> (Δ +2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 1 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 52 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p67.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p67.png"></a></div>
+<div class=info>
+<h3>25366899_p67 <span class="tag bad">60 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Table VIII. - Education by Sections - Fort, South.</div>
+<div class=chk>
+<span class=where>KANARESE/persons</span> <span class=detail>Total=53 != sum(rows)=48</span>
+<div class=fix>deterministic fix: set total <b>53 → 48</b> (Δ -5, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 5 (then the total 53 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>KANARESE/males</span> <span class=detail>Total=52 != sum(rows)=47</span>
+<div class=fix>deterministic fix: set total <b>52 → 47</b> (Δ -5, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 5 (then the total 52 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>GUJARATHI/persons</span> <span class=detail>Total=171 != sum(rows)=172</span>
+<div class=fix>deterministic fix: set total <b>171 → 172</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 171 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>GUJARATHI/males</span> <span class=detail>Total=152 != sum(rows)=153</span>
+<div class=fix>deterministic fix: set total <b>152 → 153</b> (Δ +1, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1 (then the total 152 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUSTANI/persons</span> <span class=detail>Total=73 != sum(rows)=66</span>
+<div class=fix>deterministic fix: set total <b>73 → 66</b> (Δ -7, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7 (then the total 73 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUSTANI/males</span> <span class=detail>Total=64 != sum(rows)=61</span>
+<div class=fix>deterministic fix: set total <b>64 → 61</b> (Δ -3, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3 (then the total 64 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUSTANI/females</span> <span class=detail>Total=9 != sum(rows)=5</span>
+<div class=fix>deterministic fix: set total <b>9 → 5</b> (Δ -4, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4 (then the total 9 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>OTHER LANGUAGES/persons</span> <span class=detail>Total=86 != sum(rows)=79</span>
+<div class=fix>deterministic fix: set total <b>86 → 79</b> (Δ -7, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7 (then the total 86 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 52 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p292.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p292.png"></a></div>
+<div class=info>
+<h3>25366875_p292 <span class="tag bad">64 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Jains (Oswal.)</div>
+<div class=chk>
+<span class=where>Population./persons</span> <span class=detail>grandtotal=2872 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=8616</span>
+<div class=fix>deterministic fix: set total <b>2,872 → 8,616</b> (Δ +5,744, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 5,744 (then the total 2,872 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./males</span> <span class=detail>grandtotal=1243 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=3729</span>
+<div class=fix>deterministic fix: set total <b>1,243 → 3,729</b> (Δ +2,486, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,486 (then the total 1,243 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./females</span> <span class=detail>grandtotal=1629 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=4887</span>
+<div class=fix>deterministic fix: set total <b>1,629 → 4,887</b> (Δ +3,258, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,258 (then the total 1,629 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./males</span> <span class=detail>grandtotal=382 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1146</span>
+<div class=fix>deterministic fix: set total <b>382 → 1,146</b> (Δ +764, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 764 (then the total 382 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./females</span> <span class=detail>grandtotal=44 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=132</span>
+<div class=fix>deterministic fix: set total <b>44 → 132</b> (Δ +88, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 88 (then the total 44 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./males</span> <span class=detail>grandtotal=111 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=333</span>
+<div class=fix>deterministic fix: set total <b>111 → 333</b> (Δ +222, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 222 (then the total 111 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./females</span> <span class=detail>grandtotal=17 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=51</span>
+<div class=fix>deterministic fix: set total <b>17 → 51</b> (Δ +34, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 34 (then the total 17 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Susera./males</span> <span class=detail>grandtotal=1 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=3</span>
+<div class=fix>deterministic fix: set total <b>1 → 3</b> (Δ +2, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2 (then the total 1 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 56 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p300.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p300.png"></a></div>
+<div class=info>
+<h3>25366875_p300 <span class="tag bad">64 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Saiad.</div>
+<div class=chk>
+<span class=where>Population./persons</span> <span class=detail>grandtotal=1014 != sum([&#x27;uumarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=3042</span>
+<div class=fix>deterministic fix: set total <b>1,014 → 3,042</b> (Δ +2,028, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,028 (then the total 1,014 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./males</span> <span class=detail>grandtotal=396 != sum([&#x27;uumarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1188</span>
+<div class=fix>deterministic fix: set total <b>396 → 1,188</b> (Δ +792, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 792 (then the total 396 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./females</span> <span class=detail>grandtotal=618 != sum([&#x27;uumarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1854</span>
+<div class=fix>deterministic fix: set total <b>618 → 1,854</b> (Δ +1,236, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,236 (then the total 618 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./males</span> <span class=detail>grandtotal=49 != sum([&#x27;uumarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=147</span>
+<div class=fix>deterministic fix: set total <b>49 → 147</b> (Δ +98, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 98 (then the total 49 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./females</span> <span class=detail>grandtotal=256 != sum([&#x27;uumarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=768</span>
+<div class=fix>deterministic fix: set total <b>256 → 768</b> (Δ +512, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 512 (then the total 256 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./males</span> <span class=detail>grandtotal=7 != sum([&#x27;uumarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=21</span>
+<div class=fix>deterministic fix: set total <b>7 → 21</b> (Δ +14, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 14 (then the total 7 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./females</span> <span class=detail>grandtotal=203 != sum([&#x27;uumarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=609</span>
+<div class=fix>deterministic fix: set total <b>203 → 609</b> (Δ +406, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 406 (then the total 203 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Pichhor./males</span> <span class=detail>grandtotal=5 != sum([&#x27;uumarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=15</span>
+<div class=fix>deterministic fix: set total <b>5 → 15</b> (Δ +10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 5 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 56 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393781_p40.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393781_p40.png"></a></div>
+<div class=info>
+<h3>25393781_p40 <span class="tag bad">65 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>SUBSIDIARY TABLE V. - NUMBER OF DEATHS OF EACH SEX AT DIFFERENT AGES.</div>
+<div class=chk>
+<span class=where>1905/males</span> <span class=detail>Total=18820 != sum(rows)=188200</span>
+<div class=fix>deterministic fix: set total <b>18,820 → 188,200</b> (Δ +169,380, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 169,380 (then the total 18,820 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>1905/females</span> <span class=detail>Total=13564 != sum(rows)=135640</span>
+<div class=fix>deterministic fix: set total <b>13,564 → 135,640</b> (Δ +122,076, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 122,076 (then the total 13,564 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>1906/males</span> <span class=detail>Total=17462 != sum(rows)=174620</span>
+<div class=fix>deterministic fix: set total <b>17,462 → 174,620</b> (Δ +157,158, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 157,158 (then the total 17,462 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>1906/females</span> <span class=detail>Total=12834 != sum(rows)=128340</span>
+<div class=fix>deterministic fix: set total <b>12,834 → 128,340</b> (Δ +115,506, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 115,506 (then the total 12,834 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>1907/males</span> <span class=detail>Total=18547 != sum(rows)=185470</span>
+<div class=fix>deterministic fix: set total <b>18,547 → 185,470</b> (Δ +166,923, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 166,923 (then the total 18,547 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>1907/females</span> <span class=detail>Total=13595 != sum(rows)=135950</span>
+<div class=fix>deterministic fix: set total <b>13,595 → 135,950</b> (Δ +122,355, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 122,355 (then the total 13,595 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>1908/males</span> <span class=detail>Total=16255 != sum(rows)=162550</span>
+<div class=fix>deterministic fix: set total <b>16,255 → 162,550</b> (Δ +146,295, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 146,295 (then the total 16,255 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>1908/females</span> <span class=detail>Total=11434 != sum(rows)=114340</span>
+<div class=fix>deterministic fix: set total <b>11,434 → 114,340</b> (Δ +102,906, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 102,906 (then the total 11,434 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 57 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393770_p111.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393770_p111.png"></a></div>
+<div class=info>
+<h3>25393770_p111 <span class="tag bad">66 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII-continued. AGE, SEX AND CIVIL CONDITION.</div>
+<div class=chk>
+<span class=where>UNMARRIED./persons</span> <span class=detail>0-5=338145 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=1690725</span>
+<div class=fix>deterministic fix: set total <b>338,145 → 1,690,725</b> (Δ +1,352,580, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,352,580 (then the total 338,145 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>0-5=241489 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=1207445</span>
+<div class=fix>deterministic fix: set total <b>241,489 → 1,207,445</b> (Δ +965,956, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 965,956 (then the total 241,489 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./females</span> <span class=detail>0-5=96656 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=483280</span>
+<div class=fix>deterministic fix: set total <b>96,656 → 483,280</b> (Δ +386,624, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 386,624 (then the total 96,656 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./persons</span> <span class=detail>0-5=561268 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=2806340</span>
+<div class=fix>deterministic fix: set total <b>561,268 → 2,806,340</b> (Δ +2,245,072, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,245,072 (then the total 561,268 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>0-5=377514 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=1887570</span>
+<div class=fix>deterministic fix: set total <b>377,514 → 1,887,570</b> (Δ +1,510,056, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,510,056 (then the total 377,514 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>0-5=183754 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=918770</span>
+<div class=fix>deterministic fix: set total <b>183,754 → 918,770</b> (Δ +735,016, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 735,016 (then the total 183,754 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>POPULATION..persons=13738 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=899413</span>
+<div class=fix>deterministic fix: set total <b>13,738 → 899,413</b> (Δ +885,675, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 885,675 (then the total 13,738 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>POPULATION..males=7231 != sum([&#x27;UNMARRIED.&#x27;, &#x27;MARRIED.&#x27;, &#x27;WIDOWED.&#x27;])=619003</span>
+<div class=fix>deterministic fix: set total <b>7,231 → 619,003</b> (Δ +611,772, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 611,772 (then the total 7,231 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 58 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p304.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p304.png"></a></div>
+<div class=info>
+<h3>25366875_p304 <span class="tag bad">68 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Imperial Table Civil Condition by Age</div>
+<div class=chk>
+<span class=where>Population./persons</span> <span class=detail>grandtotal=3865 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=11595</span>
+<div class=fix>deterministic fix: set total <b>3,865 → 11,595</b> (Δ +7,730, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7,730 (then the total 3,865 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./males</span> <span class=detail>grandtotal=1389 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=4167</span>
+<div class=fix>deterministic fix: set total <b>1,389 → 4,167</b> (Δ +2,778, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,778 (then the total 1,389 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./females</span> <span class=detail>grandtotal=2476 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=7428</span>
+<div class=fix>deterministic fix: set total <b>2,476 → 7,428</b> (Δ +4,952, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4,952 (then the total 2,476 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./males</span> <span class=detail>grandtotal=749 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=2247</span>
+<div class=fix>deterministic fix: set total <b>749 → 2,247</b> (Δ +1,498, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,498 (then the total 749 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./females</span> <span class=detail>grandtotal=1089 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=3267</span>
+<div class=fix>deterministic fix: set total <b>1,089 → 3,267</b> (Δ +2,178, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,178 (then the total 1,089 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./males</span> <span class=detail>grandtotal=557 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1671</span>
+<div class=fix>deterministic fix: set total <b>557 → 1,671</b> (Δ +1,114, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,114 (then the total 557 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./females</span> <span class=detail>grandtotal=414 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1242</span>
+<div class=fix>deterministic fix: set total <b>414 → 1,242</b> (Δ +828, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 828 (then the total 414 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Susera./males</span> <span class=detail>grandtotal=3 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=9</span>
+<div class=fix>deterministic fix: set total <b>3 → 9</b> (Δ +6, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6 (then the total 3 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 60 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p14.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366899_p14.png"></a></div>
+<div class=info>
+<h3>25366899_p14 <span class="tag bad">69 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Table VII. Age, Sex and Civil Condition.</div>
+<div class=chk>
+<span class=where>POPULATION./persons</span> <span class=detail>Total=2149 != sum(rows)=30086</span>
+<div class=fix>deterministic fix: set total <b>2,149 → 30,086</b> (Δ +27,937, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 27,937 (then the total 2,149 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>Total=1278 != sum(rows)=17892</span>
+<div class=fix>deterministic fix: set total <b>1,278 → 17,892</b> (Δ +16,614, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 16,614 (then the total 1,278 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./females</span> <span class=detail>Total=871 != sum(rows)=12194</span>
+<div class=fix>deterministic fix: set total <b>871 → 12,194</b> (Δ +11,323, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 11,323 (then the total 871 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./persons</span> <span class=detail>Total=753 != sum(rows)=10542</span>
+<div class=fix>deterministic fix: set total <b>753 → 10,542</b> (Δ +9,789, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 9,789 (then the total 753 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>Total=503 != sum(rows)=7042</span>
+<div class=fix>deterministic fix: set total <b>503 → 7,042</b> (Δ +6,539, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6,539 (then the total 503 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./females</span> <span class=detail>Total=250 != sum(rows)=3500</span>
+<div class=fix>deterministic fix: set total <b>250 → 3,500</b> (Δ +3,250, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,250 (then the total 250 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./persons</span> <span class=detail>0-5=2149 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=10745</span>
+<div class=fix>deterministic fix: set total <b>2,149 → 10,745</b> (Δ +8,596, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 8,596 (then the total 2,149 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>0-5=1278 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=6390</span>
+<div class=fix>deterministic fix: set total <b>1,278 → 6,390</b> (Δ +5,112, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 5,112 (then the total 1,278 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 61 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p290.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p290.png"></a></div>
+<div class=info>
+<h3>25366875_p290 <span class="tag bad">72 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Jains. Imperial Table Civil Condition</div>
+<div class=chk>
+<span class=where>Population./persons</span> <span class=detail>grandtotal=3677 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=11031</span>
+<div class=fix>deterministic fix: set total <b>3,677 → 11,031</b> (Δ +7,354, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7,354 (then the total 3,677 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./males</span> <span class=detail>grandtotal=1557 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=4671</span>
+<div class=fix>deterministic fix: set total <b>1,557 → 4,671</b> (Δ +3,114, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,114 (then the total 1,557 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./females</span> <span class=detail>grandtotal=2120 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=6360</span>
+<div class=fix>deterministic fix: set total <b>2,120 → 6,360</b> (Δ +4,240, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4,240 (then the total 2,120 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./males</span> <span class=detail>grandtotal=560 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1680</span>
+<div class=fix>deterministic fix: set total <b>560 → 1,680</b> (Δ +1,120, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,120 (then the total 560 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./females</span> <span class=detail>grandtotal=158 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=474</span>
+<div class=fix>deterministic fix: set total <b>158 → 474</b> (Δ +316, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 316 (then the total 158 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./males</span> <span class=detail>grandtotal=183 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=549</span>
+<div class=fix>deterministic fix: set total <b>183 → 549</b> (Δ +366, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 366 (then the total 183 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./females</span> <span class=detail>grandtotal=34 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=102</span>
+<div class=fix>deterministic fix: set total <b>34 → 102</b> (Δ +68, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 68 (then the total 34 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Susera./males</span> <span class=detail>grandtotal=2 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=6</span>
+<div class=fix>deterministic fix: set total <b>2 → 6</b> (Δ +4, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4 (then the total 2 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 64 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p296.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p296.png"></a></div>
+<div class=info>
+<h3>25366875_p296 <span class="tag bad">76 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Total Muhammadans.</div>
+<div class=chk>
+<span class=where>Population./persons</span> <span class=detail>grandtotal=10154 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=30462</span>
+<div class=fix>deterministic fix: set total <b>10,154 → 30,462</b> (Δ +20,308, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 20,308 (then the total 10,154 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./males</span> <span class=detail>grandtotal=3670 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=11010</span>
+<div class=fix>deterministic fix: set total <b>3,670 → 11,010</b> (Δ +7,340, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7,340 (then the total 3,670 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./females</span> <span class=detail>grandtotal=6484 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=19452</span>
+<div class=fix>deterministic fix: set total <b>6,484 → 19,452</b> (Δ +12,968, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 12,968 (then the total 6,484 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./males</span> <span class=detail>grandtotal=1561 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=4683</span>
+<div class=fix>deterministic fix: set total <b>1,561 → 4,683</b> (Δ +3,122, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,122 (then the total 1,561 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./females</span> <span class=detail>grandtotal=2178 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=6534</span>
+<div class=fix>deterministic fix: set total <b>2,178 → 6,534</b> (Δ +4,356, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4,356 (then the total 2,178 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./males</span> <span class=detail>grandtotal=1066 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=3198</span>
+<div class=fix>deterministic fix: set total <b>1,066 → 3,198</b> (Δ +2,132, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,132 (then the total 1,066 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./females</span> <span class=detail>grandtotal=829 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=2487</span>
+<div class=fix>deterministic fix: set total <b>829 → 2,487</b> (Δ +1,658, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,658 (then the total 829 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Susera./males</span> <span class=detail>grandtotal=6 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=18</span>
+<div class=fix>deterministic fix: set total <b>6 → 18</b> (Δ +12, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 12 (then the total 6 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 68 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p298.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366875_p298.png"></a></div>
+<div class=info>
+<h3>25366875_p298 <span class="tag bad">76 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>Imperial Table Civil Condition Shaikh.</div>
+<div class=chk>
+<span class=where>Population./persons</span> <span class=detail>grandtotal=4800 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=14400</span>
+<div class=fix>deterministic fix: set total <b>4,800 → 14,400</b> (Δ +9,600, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 9,600 (then the total 4,800 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./males</span> <span class=detail>grandtotal=1712 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=5136</span>
+<div class=fix>deterministic fix: set total <b>1,712 → 5,136</b> (Δ +3,424, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,424 (then the total 1,712 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Population./females</span> <span class=detail>grandtotal=3088 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=9264</span>
+<div class=fix>deterministic fix: set total <b>3,088 → 9,264</b> (Δ +6,176, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6,176 (then the total 3,088 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./males</span> <span class=detail>grandtotal=686 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=2058</span>
+<div class=fix>deterministic fix: set total <b>686 → 2,058</b> (Δ +1,372, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,372 (then the total 686 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Total Gwalior Prant./females</span> <span class=detail>grandtotal=726 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=2178</span>
+<div class=fix>deterministic fix: set total <b>726 → 2,178</b> (Δ +1,452, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,452 (then the total 726 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./males</span> <span class=detail>grandtotal=476 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=1428</span>
+<div class=fix>deterministic fix: set total <b>476 → 1,428</b> (Δ +952, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 952 (then the total 476 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Gwalior./females</span> <span class=detail>grandtotal=159 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=477</span>
+<div class=fix>deterministic fix: set total <b>159 → 477</b> (Δ +318, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 318 (then the total 159 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>Susera./males</span> <span class=detail>grandtotal=3 != sum([&#x27;unmarried&#x27;, &#x27;married&#x27;, &#x27;widowed&#x27;])=9</span>
+<div class=fix>deterministic fix: set total <b>3 → 9</b> (Δ +6, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 6 (then the total 3 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 68 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p77.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p77.png"></a></div>
+<div class=info>
+<h3>25352817_p77 <span class="tag bad">90 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part (C)—MUSALMANS—continued.</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL WIDOWED..persons=816 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=86</span>
+<div class=fix>deterministic fix: set total <b>816 → 86</b> (Δ -730, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 730 (then the total 816 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=99 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=9</span>
+<div class=fix>deterministic fix: set total <b>99 → 9</b> (Δ -90, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 90 (then the total 99 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL WIDOWED..females=717 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=77</span>
+<div class=fix>deterministic fix: set total <b>717 → 77</b> (Δ -640, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 640 (then the total 717 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL WIDOWED..persons=2659 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=273</span>
+<div class=fix>deterministic fix: set total <b>2,659 → 273</b> (Δ -2,386, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,386 (then the total 2,659 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=310 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=31</span>
+<div class=fix>deterministic fix: set total <b>310 → 31</b> (Δ -279, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 279 (then the total 310 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL WIDOWED..females=2349 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=242</span>
+<div class=fix>deterministic fix: set total <b>2,349 → 242</b> (Δ -2,107, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,107 (then the total 2,349 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL WIDOWED..persons=5380 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=602</span>
+<div class=fix>deterministic fix: set total <b>5,380 → 602</b> (Δ -4,778, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 4,778 (then the total 5,380 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL WIDOWED..males=622 != sum([&#x27;0-4.&#x27;, &#x27;5-9.&#x27;, &#x27;10-14.&#x27;, &#x27;15-19.&#x27;, &#x27;20-24.&#x27;, &#x27;25-29.&#x27;])=39</span>
+<div class=fix>deterministic fix: set total <b>622 → 39</b> (Δ -583, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 583 (then the total 622 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 82 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p82.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352817_p82.png"></a></div>
+<div class=info>
+<h3>25352817_p82 <span class="tag bad">90 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VIII. Civil Condition by Religion and Age. Part (D)-CHRISTIANS-continued.</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL MARRIED..persons=830 != sum([&#x27;AGE PERIOD. 0-4.&#x27;, &#x27;AGE PERIOD. 5-9.&#x27;, &#x27;AGE PERIOD. 10-14.&#x27;, &#x27;AGE PERIOD. 15-19.&#x27;, &#x27;AGE PERIOD. 20-24.&#x27;, &#x27;AGE PERIOD. 25-29.&#x27;])=355</span>
+<div class=fix>deterministic fix: set total <b>830 → 355</b> (Δ -475, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 475 (then the total 830 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL MARRIED..males=422 != sum([&#x27;AGE PERIOD. 0-4.&#x27;, &#x27;AGE PERIOD. 5-9.&#x27;, &#x27;AGE PERIOD. 10-14.&#x27;, &#x27;AGE PERIOD. 15-19.&#x27;, &#x27;AGE PERIOD. 20-24.&#x27;, &#x27;AGE PERIOD. 25-29.&#x27;])=108</span>
+<div class=fix>deterministic fix: set total <b>422 → 108</b> (Δ -314, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 314 (then the total 422 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL MARRIED..females=408 != sum([&#x27;AGE PERIOD. 0-4.&#x27;, &#x27;AGE PERIOD. 5-9.&#x27;, &#x27;AGE PERIOD. 10-14.&#x27;, &#x27;AGE PERIOD. 15-19.&#x27;, &#x27;AGE PERIOD. 20-24.&#x27;, &#x27;AGE PERIOD. 25-29.&#x27;])=247</span>
+<div class=fix>deterministic fix: set total <b>408 → 247</b> (Δ -161, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 161 (then the total 408 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL MARRIED..persons=1092 != sum([&#x27;AGE PERIOD. 0-4.&#x27;, &#x27;AGE PERIOD. 5-9.&#x27;, &#x27;AGE PERIOD. 10-14.&#x27;, &#x27;AGE PERIOD. 15-19.&#x27;, &#x27;AGE PERIOD. 20-24.&#x27;, &#x27;AGE PERIOD. 25-29.&#x27;])=420</span>
+<div class=fix>deterministic fix: set total <b>1,092 → 420</b> (Δ -672, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 672 (then the total 1,092 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL MARRIED..males=509 != sum([&#x27;AGE PERIOD. 0-4.&#x27;, &#x27;AGE PERIOD. 5-9.&#x27;, &#x27;AGE PERIOD. 10-14.&#x27;, &#x27;AGE PERIOD. 15-19.&#x27;, &#x27;AGE PERIOD. 20-24.&#x27;, &#x27;AGE PERIOD. 25-29.&#x27;])=108</span>
+<div class=fix>deterministic fix: set total <b>509 → 108</b> (Δ -401, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 401 (then the total 509 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>TOTAL MARRIED..females=583 != sum([&#x27;AGE PERIOD. 0-4.&#x27;, &#x27;AGE PERIOD. 5-9.&#x27;, &#x27;AGE PERIOD. 10-14.&#x27;, &#x27;AGE PERIOD. 15-19.&#x27;, &#x27;AGE PERIOD. 20-24.&#x27;, &#x27;AGE PERIOD. 25-29.&#x27;])=312</span>
+<div class=fix>deterministic fix: set total <b>583 → 312</b> (Δ -271, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 271 (then the total 583 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>TOTAL MARRIED..persons=3578 != sum([&#x27;AGE PERIOD. 0-4.&#x27;, &#x27;AGE PERIOD. 5-9.&#x27;, &#x27;AGE PERIOD. 10-14.&#x27;, &#x27;AGE PERIOD. 15-19.&#x27;, &#x27;AGE PERIOD. 20-24.&#x27;, &#x27;AGE PERIOD. 25-29.&#x27;])=1587</span>
+<div class=fix>deterministic fix: set total <b>3,578 → 1,587</b> (Δ -1,991, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,991 (then the total 3,578 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>TOTAL MARRIED..males=1882 != sum([&#x27;AGE PERIOD. 0-4.&#x27;, &#x27;AGE PERIOD. 5-9.&#x27;, &#x27;AGE PERIOD. 10-14.&#x27;, &#x27;AGE PERIOD. 15-19.&#x27;, &#x27;AGE PERIOD. 20-24.&#x27;, &#x27;AGE PERIOD. 25-29.&#x27;])=552</span>
+<div class=fix>deterministic fix: set total <b>1,882 → 552</b> (Δ -1,330, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,330 (then the total 1,882 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 82 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352844_p17.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352844_p17.png"></a></div>
+<div class=info>
+<h3>25352844_p17 <span class="tag bad">120 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII.—AGE, SEX AND CIVIL CONDITION.</div>
+<div class=chk>
+<span class=where>POPULATION/persons</span> <span class=detail>allagestotal(civilconditionrecorded)=50975 != sum([&#x27;0-5total&#x27;, &#x27;5-10total&#x27;, &#x27;10-12total&#x27;, &#x27;12-15total&#x27;, &#x27;15-20total&#x27;, &#x27;20-40total&#x27;, &#x27;40-60total&#x27;, &#x27;60andovertotal&#x27;])=407800</span>
+<div class=fix>deterministic fix: set total <b>50,975 → 407,800</b> (Δ +356,825, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 356,825 (then the total 50,975 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/males</span> <span class=detail>allagestotal(civilconditionrecorded)=27351 != sum([&#x27;0-5total&#x27;, &#x27;5-10total&#x27;, &#x27;10-12total&#x27;, &#x27;12-15total&#x27;, &#x27;15-20total&#x27;, &#x27;20-40total&#x27;, &#x27;40-60total&#x27;, &#x27;60andovertotal&#x27;])=218808</span>
+<div class=fix>deterministic fix: set total <b>27,351 → 218,808</b> (Δ +191,457, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 191,457 (then the total 27,351 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION/females</span> <span class=detail>allagestotal(civilconditionrecorded)=23624 != sum([&#x27;0-5total&#x27;, &#x27;5-10total&#x27;, &#x27;10-12total&#x27;, &#x27;12-15total&#x27;, &#x27;15-20total&#x27;, &#x27;20-40total&#x27;, &#x27;40-60total&#x27;, &#x27;60andovertotal&#x27;])=188992</span>
+<div class=fix>deterministic fix: set total <b>23,624 → 188,992</b> (Δ +165,368, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 165,368 (then the total 23,624 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MUSALMANS/persons</span> <span class=detail>allagestotal(civilconditionrecorded)=50445 != sum([&#x27;0-5total&#x27;, &#x27;5-10total&#x27;, &#x27;10-12total&#x27;, &#x27;12-15total&#x27;, &#x27;15-20total&#x27;, &#x27;20-40total&#x27;, &#x27;40-60total&#x27;, &#x27;60andovertotal&#x27;])=403560</span>
+<div class=fix>deterministic fix: set total <b>50,445 → 403,560</b> (Δ +353,115, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 353,115 (then the total 50,445 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MUSALMANS/males</span> <span class=detail>allagestotal(civilconditionrecorded)=26915 != sum([&#x27;0-5total&#x27;, &#x27;5-10total&#x27;, &#x27;10-12total&#x27;, &#x27;12-15total&#x27;, &#x27;15-20total&#x27;, &#x27;20-40total&#x27;, &#x27;40-60total&#x27;, &#x27;60andovertotal&#x27;])=215320</span>
+<div class=fix>deterministic fix: set total <b>26,915 → 215,320</b> (Δ +188,405, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 188,405 (then the total 26,915 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MUSALMANS/females</span> <span class=detail>allagestotal(civilconditionrecorded)=23530 != sum([&#x27;0-5total&#x27;, &#x27;5-10total&#x27;, &#x27;10-12total&#x27;, &#x27;12-15total&#x27;, &#x27;15-20total&#x27;, &#x27;20-40total&#x27;, &#x27;40-60total&#x27;, &#x27;60andovertotal&#x27;])=188240</span>
+<div class=fix>deterministic fix: set total <b>23,530 → 188,240</b> (Δ +164,710, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 164,710 (then the total 23,530 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS/persons</span> <span class=detail>allagestotal(civilconditionrecorded)=506 != sum([&#x27;0-5total&#x27;, &#x27;5-10total&#x27;, &#x27;10-12total&#x27;, &#x27;12-15total&#x27;, &#x27;15-20total&#x27;, &#x27;20-40total&#x27;, &#x27;40-60total&#x27;, &#x27;60andovertotal&#x27;])=4048</span>
+<div class=fix>deterministic fix: set total <b>506 → 4,048</b> (Δ +3,542, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 3,542 (then the total 506 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS/males</span> <span class=detail>allagestotal(civilconditionrecorded)=418 != sum([&#x27;0-5total&#x27;, &#x27;5-10total&#x27;, &#x27;10-12total&#x27;, &#x27;12-15total&#x27;, &#x27;15-20total&#x27;, &#x27;20-40total&#x27;, &#x27;40-60total&#x27;, &#x27;60andovertotal&#x27;])=3344</span>
+<div class=fix>deterministic fix: set total <b>418 → 3,344</b> (Δ +2,926, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 2,926 (then the total 418 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 112 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25393770_p114.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25393770_p114.png"></a></div>
+<div class=info>
+<h3>25393770_p114 <span class="tag bad">135 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII-continued. AGE, SEX AND CIVIL CONDITION. Part III.-Cities-Bombay.</div>
+<div class=chk>
+<span class=where>POPULATION./persons</span> <span class=detail>0-5=57355 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=286775</span>
+<div class=fix>deterministic fix: set total <b>57,355 → 286,775</b> (Δ +229,420, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 229,420 (then the total 57,355 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./males</span> <span class=detail>0-5=38583 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=192915</span>
+<div class=fix>deterministic fix: set total <b>38,583 → 192,915</b> (Δ +154,332, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 154,332 (then the total 38,583 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>POPULATION./females</span> <span class=detail>0-5=18772 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=93860</span>
+<div class=fix>deterministic fix: set total <b>18,772 → 93,860</b> (Δ +75,088, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 75,088 (then the total 18,772 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./persons</span> <span class=detail>0-5=23648 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=118240</span>
+<div class=fix>deterministic fix: set total <b>23,648 → 118,240</b> (Δ +94,592, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 94,592 (then the total 23,648 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./males</span> <span class=detail>0-5=15915 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=79575</span>
+<div class=fix>deterministic fix: set total <b>15,915 → 79,575</b> (Δ +63,660, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 63,660 (then the total 15,915 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>MARRIED./females</span> <span class=detail>0-5=7733 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=38665</span>
+<div class=fix>deterministic fix: set total <b>7,733 → 38,665</b> (Δ +30,932, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 30,932 (then the total 7,733 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./persons</span> <span class=detail>0-5=3487 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=17435</span>
+<div class=fix>deterministic fix: set total <b>3,487 → 17,435</b> (Δ +13,948, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 13,948 (then the total 3,487 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>UNMARRIED./males</span> <span class=detail>0-5=2033 != sum([&#x27;0-1&#x27;, &#x27;1-2&#x27;, &#x27;2-3&#x27;, &#x27;3-4&#x27;, &#x27;4-5&#x27;])=10165</span>
+<div class=fix>deterministic fix: set total <b>2,033 → 10,165</b> (Δ +8,132, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 8,132 (then the total 2,033 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 127 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25352844_p18.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25352844_p18.png"></a></div>
+<div class=info>
+<h3>25352844_p18 <span class="tag bad">147 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII.—AGE, SEX AND CIVIL CONDITION. Part 8.—Distribution by Religions.</div>
+<div class=chk>
+<span class=where>HINDUS./persons</span> <span class=detail>districttotal=1981 != sum([&#x27;allages.-total(civilconditionrecorded)&#x27;, &#x27;(civilconditionnotrecorded)&#x27;])=3962</span>
+<div class=fix>deterministic fix: set total <b>1,981 → 3,962</b> (Δ +1,981, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,981 (then the total 1,981 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS./males</span> <span class=detail>districttotal=1141 != sum([&#x27;allages.-total(civilconditionrecorded)&#x27;, &#x27;(civilconditionnotrecorded)&#x27;])=2282</span>
+<div class=fix>deterministic fix: set total <b>1,141 → 2,282</b> (Δ +1,141, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 1,141 (then the total 1,141 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS./females</span> <span class=detail>districttotal=840 != sum([&#x27;allages.-total(civilconditionrecorded)&#x27;, &#x27;(civilconditionnotrecorded)&#x27;])=1680</span>
+<div class=fix>deterministic fix: set total <b>840 → 1,680</b> (Δ +840, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 840 (then the total 840 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS./persons</span> <span class=detail>allages.-total(civilconditionrecorded)=1981 != sum([&#x27;0-5-total&#x27;, &#x27;5-10-total&#x27;, &#x27;10-12-total&#x27;, &#x27;12-15-total&#x27;, &#x27;15-20-total&#x27;, &#x27;20-40-total&#x27;, &#x27;40-60-total&#x27;, &#x27;60andover-total&#x27;])=15848</span>
+<div class=fix>deterministic fix: set total <b>1,981 → 15,848</b> (Δ +13,867, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 13,867 (then the total 1,981 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS./males</span> <span class=detail>allages.-total(civilconditionrecorded)=1141 != sum([&#x27;0-5-total&#x27;, &#x27;5-10-total&#x27;, &#x27;10-12-total&#x27;, &#x27;12-15-total&#x27;, &#x27;15-20-total&#x27;, &#x27;20-40-total&#x27;, &#x27;40-60-total&#x27;, &#x27;60andover-total&#x27;])=9128</span>
+<div class=fix>deterministic fix: set total <b>1,141 → 9,128</b> (Δ +7,987, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7,987 (then the total 1,141 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS./females</span> <span class=detail>allages.-total(civilconditionrecorded)=840 != sum([&#x27;0-5-total&#x27;, &#x27;5-10-total&#x27;, &#x27;10-12-total&#x27;, &#x27;12-15-total&#x27;, &#x27;15-20-total&#x27;, &#x27;20-40-total&#x27;, &#x27;40-60-total&#x27;, &#x27;60andover-total&#x27;])=6720</span>
+<div class=fix>deterministic fix: set total <b>840 → 6,720</b> (Δ +5,880, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 5,880 (then the total 840 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS./persons</span> <span class=detail>allages.-unmarried=1981 != sum([&#x27;0-5-unmarried&#x27;, &#x27;5-10-unmarried&#x27;, &#x27;10-12-unmarried&#x27;, &#x27;12-15-unmarried&#x27;, &#x27;15-20-unmarried&#x27;, &#x27;20-40-unmarried&#x27;, &#x27;40-60-unmarried&#x27;, &#x27;60andover-unmarried&#x27;])=15848</span>
+<div class=fix>deterministic fix: set total <b>1,981 → 15,848</b> (Δ +13,867, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 13,867 (then the total 1,981 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>HINDUS./males</span> <span class=detail>allages.-unmarried=1141 != sum([&#x27;0-5-unmarried&#x27;, &#x27;5-10-unmarried&#x27;, &#x27;10-12-unmarried&#x27;, &#x27;12-15-unmarried&#x27;, &#x27;15-20-unmarried&#x27;, &#x27;20-40-unmarried&#x27;, &#x27;40-60-unmarried&#x27;, &#x27;60andover-unmarried&#x27;])=9128</span>
+<div class=fix>deterministic fix: set total <b>1,141 → 9,128</b> (Δ +7,987, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 7,987 (then the total 1,141 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 139 more failing checks</div>
+</div></div>
+<div class="card reocr">
+<div class=scan><a href="file:///Users/chrisruano/Downloads/final_tableVII/25366892_p64.png" target=_blank><img loading=lazy src="file:///Users/chrisruano/Downloads/final_tableVII/25366892_p64.png"></a></div>
+<div class=info>
+<h3>25366892_p64 <span class="tag bad">153 fail</span> — RE-OCR (do not hand-fix)</h3>
+<div class=ttl>TABLE VII. Age, Sex and Civil Condition. - Towns.</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>MARRIED..persons=10 != sum([&#x27;WIDOWED.&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>10 → 0</b> (Δ -10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 10 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>MARRIED..females=10 != sum([&#x27;WIDOWED.&#x27;])=0</span>
+<div class=fix>deterministic fix: set total <b>10 → 0</b> (Δ -10, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 10 (then the total 10 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>MARRIED..persons=176 != sum([&#x27;WIDOWED.&#x27;])=6</span>
+<div class=fix>deterministic fix: set total <b>176 → 6</b> (Δ -170, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 170 (then the total 176 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>MARRIED..males=15 != sum([&#x27;WIDOWED.&#x27;])=2</span>
+<div class=fix>deterministic fix: set total <b>15 → 2</b> (Δ -13, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 13 (then the total 15 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>MARRIED..females=161 != sum([&#x27;WIDOWED.&#x27;])=4</span>
+<div class=fix>deterministic fix: set total <b>161 → 4</b> (Δ -157, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 157 (then the total 161 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>persons</span> <span class=detail>MARRIED..persons=804 != sum([&#x27;WIDOWED.&#x27;])=37</span>
+<div class=fix>deterministic fix: set total <b>804 → 37</b> (Δ -767, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 767 (then the total 804 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>males</span> <span class=detail>MARRIED..males=118 != sum([&#x27;WIDOWED.&#x27;])=6</span>
+<div class=fix>deterministic fix: set total <b>118 → 6</b> (Δ -112, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 112 (then the total 118 is right) — check the scan.</div>
+</div>
+<div class=chk>
+<span class=where>females</span> <span class=detail>MARRIED..females=686 != sum([&#x27;WIDOWED.&#x27;])=31</span>
+<div class=fix>deterministic fix: set total <b>686 → 31</b> (Δ -655, trust the parts)</div>
+<div class=alt>…or a data cell in this column is mis-read by 655 (then the total 686 is right) — check the scan.</div>
+</div>
+<div class=ttl>…and 145 more failing checks</div>
+</div></div>

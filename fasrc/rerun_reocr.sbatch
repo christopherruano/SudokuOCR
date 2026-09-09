@@ -4,7 +4,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --mem=1G
 #SBATCH --cpus-per-task=1
-#SBATCH --array=0-39%4
+#SBATCH --array=0-39%14
 #SBATCH --output=fasrc/logs/slurm_reocr_%A_%a.out
 #SBATCH --error=fasrc/logs/slurm_reocr_%A_%a.err
 #
@@ -20,8 +20,9 @@ set -a; source ~/SudokuOCR/.env; set +a
 unset OPENAI_API_KEY; unset ANTHROPIC_API_KEY
 export PYTHONUNBUFFERED=1
 export GEMINI_MIN_INTERVAL=2.0
-# MoE fallback ON: this is a small set of KNOWN-hard tables, worth the extra readings.
-export SUDOKUOCR_MOE_FALLBACK=1
+# MoE fallback OFF: cheap base path only (~2-3 calls/page). Failures get flagged
+# for a separate small MoE remnant pass if needed.
+export SUDOKUOCR_MOE_FALLBACK=0
 
 IMAGE_LIST=${IMAGE_LIST:-$HOME/census_toc/reocr_images.txt}
 RESULTS_DIR=${RESULTS_DIR:-$HOME/census_toc/ocr_results}

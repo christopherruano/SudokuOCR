@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>8. STATE TABLE VII-A(1)-(concld.)</title>
+  <style>
+:root { --ink:#181715; --muted:#746d62; --line:#ddd4c7; --paper:#fffaf0; --panel:#f3eadb; --accent:#245b4d; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:#efe4d2; }
+a { color:#174f82; }
+.top { position:sticky; top:0; z-index:5; padding:12px 18px; background:#1d271f; color:#fff; display:flex; gap:16px; align-items:center; justify-content:space-between; }
+.top a { color:#d9f2e9; }
+.shell { display:grid; grid-template-columns:minmax(360px, 42vw) minmax(520px, 1fr); gap:0; min-height:calc(100vh - 52px); }
+.images { background:#211f1b; color:#f8f0e5; padding:14px; overflow:auto; max-height:calc(100vh - 52px); position:sticky; top:52px; }
+.compiled { padding:18px; overflow:auto; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:16px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.image-card { background:#302d27; border:1px solid #555047; border-radius:12px; padding:10px; margin-bottom:14px; }
+.image-card img { width:100%; height:auto; display:block; background:#fff; border:1px solid #4b463d; }
+.caption { margin-top:8px; font-size:12px; color:#d5cab9; overflow-wrap:anywhere; }
+.meta-grid { display:grid; grid-template-columns:180px minmax(0,1fr); gap:6px 12px; font-size:14px; }
+.key { color:var(--muted); font-weight:700; }
+.muted { color:var(--muted); }
+.badge { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:3px 8px; margin:2px 4px 2px 0; background:#fff; font-size:12px; }
+h1 { font-size:22px; margin:0; }
+h2 { font-size:18px; margin:0 0 10px; }
+h3 { font-size:15px; margin:0 0 8px; }
+.section-head { display:flex; justify-content:space-between; gap:12px; align-items:baseline; }
+.table-scroll { max-height:70vh; overflow:auto; border:1px solid var(--line); background:#fff; }
+table { border-collapse:collapse; font-size:12px; min-width:100%; }
+th, td { border:1px solid #ded8cc; padding:4px 6px; white-space:nowrap; vertical-align:top; }
+th { position:sticky; top:0; background:#e9f0eb; z-index:1; }
+td:first-child, th:first-child { position:sticky; left:0; background:#faf6ee; z-index:2; }
+th:first-child { z-index:3; background:#dfe9e2; }
+.index { padding:18px; }
+.index table { background:#fff; width:100%; }
+.index th, .index td { white-space:normal; }
+.summary { font-size:13px; color:#e9dfcf; }
+@media (max-width: 1100px) { .shell { grid-template-columns:1fr; } .images { position:relative; top:0; max-height:none; } }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div><strong>Assembled Table 8/53</strong></div>
+    <div><a href='index.html'>Index</a> · <a href='007_baroda_1901_age-distribution_f584ac0e15f5.html'>Previous</a> · <a href='009_bengal_1881_age-by-religion_4a3ab30045f5.html'>Next</a></div>
+  </div>
+  <div class="shell">
+    <aside class="images">
+      <h1>Scanned Pages</h1>
+      <div class="summary">3 page image(s). Click an image to open the original PNG.</div>
+      <br>
+      <div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/8f42e9f703e16dd7f9c60198ba92a1370efb8c5c.png' target='_blank'><img src='thumbnails/ace279d66347.jpg'></a><div class='caption'>Page 1 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/8f42e9f703e16dd7f9c60198ba92a1370efb8c5c_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/8f42e9f703e16dd7f9c60198ba92a1370efb8c5c.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/c10bf1e170d2ceb5e812cae00f8181505804bab7.png' target='_blank'><img src='thumbnails/9c3430a033d0.jpg'></a><div class='caption'>Page 2 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/c10bf1e170d2ceb5e812cae00f8181505804bab7_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/c10bf1e170d2ceb5e812cae00f8181505804bab7.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/cbcb56bc9bc66bd4d121c407f8e0ed2b695aaa3e.png' target='_blank'><img src='thumbnails/3f5cf0efd904.jpg'></a><div class='caption'>Page 3 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/cbcb56bc9bc66bd4d121c407f8e0ed2b695aaa3e_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar/cbcb56bc9bc66bd4d121c407f8e0ed2b695aaa3e.png' target='_blank'>Open original image</a></div></div>
+    </aside>
+    <main class="compiled">
+      <div class="card">
+        <h1>STATE TABLE VII-A(1)-(concld.)</h1>
+        <p class="muted">This is the compiled output from all member pages in the assembled group.</p>
+        <div class="meta-grid"><div class='key'>group_id</div><div>dir::/n/home11/cruano/census_pdfs/1941/saoa.crl.28215550.pdf::age_civil_condition::8a02b0eb12d003d4_t0040_N-a-w-State-ables-VII-A-C-y-CIVIL-CONDITION-A-A-asily-the-old-ages-60-and-ove-ar</div>
+<div class='key'>province</div><div>Baroda</div>
+<div class='key'>year</div><div>1941</div>
+<div class='key'>table_family</div><div>age_civil_condition</div>
+<div class='key'>n_pages</div><div>3</div>
+<div class='key'>overall_strategy</div><div>section_append</div>
+<div class='key'>signals</div><div>same_table_dir | continued_marker</div>
+<div class='key'>constraint checks</div><div>1572</div>
+<div class='key'>constraint failures</div><div>0</div>
+<div class='key'>all passed</div><div>True</div>
+<div class='key'>source_file</div><div>/n/home11/cruano/census_pdfs/1941/saoa.crl.28215550.pdf</div></div>
+      </div>
+      <div class='card'><div class='section-head'><h2>Section 1: Tribal</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=16</span></div><div class='table-scroll'><table>
+<tr><th>Community and age</th><th>Population | persons</th><th>Population | males</th><th>Population | females</th><th>Unmarried | persons</th><th>Unmarried | males</th><th>Unmarried | females</th><th>Married | persons</th><th>Married | males</th><th>Married | females</th><th>Widowed (inc. Divorced) | persons</th><th>Widowed (inc. Divorced) | males</th><th>Widowed (inc. Divorced) | females</th><th>Divorced | persons</th><th>Divorced | males</th><th>Divorced | females</th></tr>
+<tr><td>Total</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>19</td><td>11</td><td>8</td><td>3</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>1 - 2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>2 - 3</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>3 - 4</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>4 - 5</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0 - 5</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>5 - 10</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>10 - 15</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>15 - 20</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>20 - 25</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>25 - 30</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>5</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>30 - 35</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>4</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>35 - 40</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>40 - 45</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>45 - 50</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>50 &amp; over</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 2: Sikh</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=8</span></div><div class='table-scroll'><table>
+<tr><th>Community and age</th><th>Population | persons</th><th>Population | males</th><th>Population | females</th><th>Unmarried | persons</th><th>Unmarried | males</th><th>Unmarried | females</th><th>Married | persons</th><th>Married | males</th><th>Married | females</th><th>Widowed (inc. Divorced) | persons</th><th>Widowed (inc. Divorced) | males</th><th>Widowed (inc. Divorced) | females</th><th>Divorced | persons</th><th>Divorced | males</th><th>Divorced | females</th></tr>
+<tr><td>0 - 1</td><td>6</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0 - 5</td><td>6</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>15 - 20</td><td>6</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>20 - 25</td><td>6</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>30 - 35</td><td>6</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>35 - 40</td><td>6</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>40 - 45</td><td>6</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>6</td><td>4</td><td>2</td><td>2</td><td>1</td><td>1</td><td>4</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 3: Jew</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=2</span></div><div class='table-scroll'><table>
+<tr><th>Community and age</th><th>Population | persons</th><th>Population | males</th><th>Population | females</th><th>Unmarried | persons</th><th>Unmarried | males</th><th>Unmarried | females</th><th>Married | persons</th><th>Married | males</th><th>Married | females</th><th>Widowed (inc. Divorced) | persons</th><th>Widowed (inc. Divorced) | males</th><th>Widowed (inc. Divorced) | females</th><th>Divorced | persons</th><th>Divorced | males</th><th>Divorced | females</th></tr>
+<tr><td>40 - 45</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 4: Jain</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=21</span></div><div class='table-scroll'><table>
+<tr><th>Community and age</th><th>Population | persons</th><th>Population | males</th><th>Population | females</th><th>Unmarried | persons</th><th>Unmarried | males</th><th>Unmarried | females</th><th>Married | persons</th><th>Married | males</th><th>Married | females</th><th>Widowed (Inc. Divorced) | persons</th><th>Widowed (Inc. Divorced) | males</th><th>Widowed (Inc. Divorced) | females</th><th>Divorced | persons</th><th>Divorced | males</th><th>Divorced | females</th></tr>
+<tr><td>0 - 1</td><td>24</td><td>12</td><td>12</td><td>24</td><td>12</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>1 - 2</td><td>28</td><td>18</td><td>10</td><td>28</td><td>18</td><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>2 - 3</td><td>32</td><td>16</td><td>16</td><td>32</td><td>16</td><td>16</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>3 - 4</td><td>24</td><td>11</td><td>13</td><td>24</td><td>11</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>4 - 5</td><td>23</td><td>14</td><td>9</td><td>23</td><td>14</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0 - 5</td><td>131</td><td>71</td><td>60</td><td>131</td><td>71</td><td>60</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>5 - 10</td><td>113</td><td>59</td><td>54</td><td>113</td><td>59</td><td>54</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>10 - 15</td><td>106</td><td>60</td><td>46</td><td>102</td><td>59</td><td>43</td><td>4</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>15 - 20</td><td>73</td><td>33</td><td>40</td><td>47</td><td>28</td><td>19</td><td>26</td><td>5</td><td>21</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>20 - 25</td><td>74</td><td>37</td><td>37</td><td>19</td><td>17</td><td>2</td><td>52</td><td>18</td><td>34</td><td>3</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>25 - 30</td><td>80</td><td>44</td><td>36</td><td>15</td><td>14</td><td>1</td><td>61</td><td>29</td><td>32</td><td>4</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>30 - 35</td><td>71</td><td>39</td><td>32</td><td>8</td><td>7</td><td>1</td><td>56</td><td>31</td><td>25</td><td>7</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>35 - 40</td><td>61</td><td>32</td><td>29</td><td>6</td><td>5</td><td>1</td><td>45</td><td>25</td><td>20</td><td>10</td><td>2</td><td>8</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>40 - 45</td><td>55</td><td>28</td><td>27</td><td>3</td><td>3</td><td>0</td><td>37</td><td>22</td><td>15</td><td>15</td><td>3</td><td>12</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>45 - 50</td><td>50</td><td>20</td><td>30</td><td>2</td><td>1</td><td>1</td><td>31</td><td>15</td><td>16</td><td>17</td><td>4</td><td>13</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>50 - 55</td><td>40</td><td>18</td><td>22</td><td>1</td><td>1</td><td>0</td><td>15</td><td>9</td><td>6</td><td>24</td><td>8</td><td>16</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>55 - 60</td><td>29</td><td>14</td><td>15</td><td>2</td><td>2</td><td>0</td><td>8</td><td>5</td><td>3</td><td>19</td><td>7</td><td>12</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>60 - 65</td><td>25</td><td>14</td><td>11</td><td>1</td><td>1</td><td>0</td><td>9</td><td>7</td><td>2</td><td>15</td><td>6</td><td>9</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>65 - 70</td><td>17</td><td>11</td><td>6</td><td>1</td><td>1</td><td>0</td><td>6</td><td>6</td><td>0</td><td>10</td><td>4</td><td>6</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>70 &amp; over</td><td>9</td><td>2</td><td>7</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>7</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>934</td><td>482</td><td>452</td><td>451</td><td>269</td><td>182</td><td>352</td><td>175</td><td>177</td><td>131</td><td>38</td><td>93</td><td>0</td><td>0</td><td>0</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 5: Parsee</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=16</span></div><div class='table-scroll'><table>
+<tr><th>Community and age</th><th>Population | persons</th><th>Population | males</th><th>Population | females</th><th>Unmarried | persons</th><th>Unmarried | males</th><th>Unmarried | females</th><th>Married | persons</th><th>Married | males</th><th>Married | females</th><th>Widowed (Inc. Divorced) | persons</th><th>Widowed (Inc. Divorced) | males</th><th>Widowed (Inc. Divorced) | females</th><th>Divorced | persons</th><th>Divorced | males</th><th>Divorced | females</th></tr>
+<tr><td>Total</td><td>134</td><td>59</td><td>75</td><td>71</td><td>35</td><td>36</td><td>47</td><td>22</td><td>25</td><td>16</td><td>2</td><td>14</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>1 - 2</td><td>2</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>2 - 3</td><td>2</td><td>2</td><td>0</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>3 - 4</td><td>3</td><td>0</td><td>3</td><td>3</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>4 - 5</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0 - 5</td><td>8</td><td>3</td><td>5</td><td>8</td><td>3</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>5 - 10</td><td>14</td><td>8</td><td>6</td><td>14</td><td>8</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>10 - 15</td><td>9</td><td>4</td><td>5</td><td>9</td><td>4</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>15 - 20</td><td>11</td><td>6</td><td>5</td><td>10</td><td>5</td><td>5</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>20 - 25</td><td>11</td><td>6</td><td>5</td><td>10</td><td>6</td><td>4</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>25 - 30</td><td>11</td><td>5</td><td>6</td><td>6</td><td>4</td><td>2</td><td>5</td><td>1</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>30 - 35</td><td>13</td><td>4</td><td>9</td><td>6</td><td>3</td><td>3</td><td>6</td><td>1</td><td>5</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>35 - 40</td><td>7</td><td>2</td><td>5</td><td>3</td><td>1</td><td>2</td><td>4</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>40 - 45</td><td>10</td><td>3</td><td>7</td><td>2</td><td>0</td><td>2</td><td>7</td><td>3</td><td>4</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>45 - 50</td><td>9</td><td>3</td><td>6</td><td>1</td><td>0</td><td>1</td><td>5</td><td>3</td><td>2</td><td>3</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>50 &amp; over</td><td>31</td><td>15</td><td>16</td><td>2</td><td>1</td><td>1</td><td>18</td><td>12</td><td>6</td><td>11</td><td>2</td><td>9</td><td>0</td><td>0</td><td>0</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 6: Christian</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=14</span></div><div class='table-scroll'><table>
+<tr><th>Community and age</th><th>Population | persons</th><th>Population | males</th><th>Population | females</th><th>Unmarried | persons</th><th>Unmarried | males</th><th>Unmarried | females</th><th>Married | persons</th><th>Married | males</th><th>Married | females</th><th>Widowed (Inc. Divorced) | persons</th><th>Widowed (Inc. Divorced) | males</th><th>Widowed (Inc. Divorced) | females</th><th>Divorced | persons</th><th>Divorced | males</th><th>Divorced | females</th></tr>
+<tr><td>Total</td><td>6</td><td>3</td><td>3</td><td>82</td><td>47</td><td>35</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0 - 1</td><td>6</td><td>3</td><td>3</td><td>5</td><td>4</td><td>1</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>1 - 2</td><td>6</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>2 - 3</td><td>6</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>3 - 4</td><td>6</td><td>3</td><td>3</td><td>5</td><td>1</td><td>4</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>4 - 5</td><td>6</td><td>3</td><td>3</td><td>8</td><td>4</td><td>4</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>0 - 5</td><td>6</td><td>3</td><td>3</td><td>23</td><td>12</td><td>11</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>5 - 10</td><td>6</td><td>3</td><td>3</td><td>25</td><td>14</td><td>11</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>10 - 15</td><td>6</td><td>3</td><td>3</td><td>18</td><td>12</td><td>6</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>15 - 20</td><td>6</td><td>3</td><td>3</td><td>5</td><td>2</td><td>3</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>20 - 25</td><td>6</td><td>3</td><td>3</td><td>7</td><td>4</td><td>3</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>25 - 30</td><td>6</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>30 - 35</td><td>6</td><td>3</td><td>3</td><td>1</td><td>1</td><td>0</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>35 - 40</td><td>6</td><td>3</td><td>3</td><td>0</td><td>0</td><td>0</td><td>5</td><td>3</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 7: Widowhood per mille</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=4</span></div><div class='table-scroll'><table>
+<tr><th>Community</th><th>All ages | persons</th><th>All ages | males</th><th>All ages | females</th><th>15-40 | persons</th><th>15-40 | males</th><th>15-40 | females</th></tr>
+<tr><td>All Religions</td><td>277</td><td>130</td><td>147</td><td>151</td><td>68</td><td>83</td></tr>
+<tr><td>Hindu</td><td>273</td><td>127</td><td>146</td><td>141</td><td>59</td><td>82</td></tr>
+<tr><td>Muslim</td><td>305</td><td>148</td><td>157</td><td>156</td><td>70</td><td>86</td></tr>
+<tr><td>Jain</td><td>438</td><td>206</td><td>232</td><td>263</td><td>103</td><td>160</td></tr>
+</table></div></div>
+    </main>
+  </div>
+</body>
+</html>

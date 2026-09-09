@@ -47,3 +47,10 @@ export_final/sendout_final/sendout_v1/keeper_facts.csv
 export_final/sendout_final/sendout_v1/census_explorer.sqlite
 export_final/sendout_final/sendout_v1/stitch_chop_docs/
 export_final/sendout_final/sendout_v1/assembled_facts.csv
+
+# Secrets (all variants)
+.env.*
+.env.bak*
+
+# Wrangler local state
+.wrangler/

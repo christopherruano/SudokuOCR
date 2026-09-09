@@ -99,24 +99,32 @@ def main():
         os.remove(DB)
     con = sqlite3.connect(DB)
     bad = bad_table_ids([os.path.join(V1, "keeper_catalog.csv")])
+    # NO_ASSEMBLY=1 -> show every page as its own read: don't subsume members, don't load assembled_*.
+    no_assembly = os.environ.get("NO_ASSEMBLY") == "1"
     # member pages folded into an assembled multi-page table are hidden (show the assembled one)
     amp = os.path.join(V1, "assembled_members.json")
     import json as _json
-    subsumed = set(t for members in _json.load(open(amp)).values() for t in members) if os.path.exists(amp) else set()
+    subsumed = (set(t for members in _json.load(open(amp)).values() for t in members)
+                if (os.path.exists(amp) and not no_assembly) else set())
+    asm_facts = [] if no_assembly else [os.path.join(V1, "assembled_facts.csv")]
+    asm_catalog = [] if no_assembly else [os.path.join(V1, "assembled_catalog.csv")]
     # Opus-corrected tables: drop their ORIGINAL facts, load the correction instead
     cpath = os.path.join(V1, "corrected_tables.json")
     corrected = set(_json.load(open(cpath))["corrected"]) if os.path.exists(cpath) else set()
     drop = bad | subsumed
     nf, _ = load(con, "facts", [os.path.join(V1, "unified_facts.csv"), os.path.join(V1, "keeper_facts.csv"),
-                                os.path.join(V1, "assembled_facts.csv")], drop_status=True, drop_ids=drop | corrected)
+                                *asm_facts], drop_status=True, drop_ids=drop | corrected)
     if corrected:
         cf = os.path.join(V1, "corrected_facts.csv")
         added = _append_facts(con, cf) if os.path.exists(cf) else 0
         nf += added
         print(f"  (overlaid {added:,} corrected cells for {len(corrected)} Opus-re-read tables; originals kept on disk)")
     nt, _ = load(con, "tables", [os.path.join(V1, "catalog_tables.csv"), os.path.join(V1, "keeper_catalog.csv"),
-                                 os.path.join(V1, "assembled_catalog.csv")], drop_status=True, drop_ids=drop)
-    print(f"  (subsumed {len(subsumed):,} member pages into assembled multi-page tables)")
+                                 *asm_catalog], drop_status=True, drop_ids=drop)
+    if no_assembly:
+        print("  (NO_ASSEMBLY=1: every page shown as its own read; assembled multi-page tables skipped)")
+    else:
+        print(f"  (subsumed {len(subsumed):,} member pages into assembled multi-page tables)")
     ng, _ = load(con, "geo", os.path.join(V1, "geo_reference.csv"))
 
     for c in ("canonical_topic", "subject", "measure_class", "additive", "age_aggregate",

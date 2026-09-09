@@ -40,6 +40,10 @@ def build_acceptance_assessment(report, age_warnings, signals):
             flag("per_group_extraction_fallback", 10)
         if signals.get("extraction_attempt_failures", 0) > 0:
             flag("top_level_retry_needed", 15)
+        if signals.get("rows_extracted", 0) == 0:
+            flag("no_data_rows_extracted", 55)
+        if signals.get("final_total_checks", signals.get("initial_total_checks", 0)) == 0:
+            flag("zero_constraint_checks", 35)
 
         decision = ("accepted_high_confidence"
                     if not reasons else

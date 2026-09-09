@@ -49,9 +49,35 @@ def main():
             if m and (r.get("page_number") or "").strip():
                 tri_page.setdefault(m.group(1), {"page": r["page_number"].strip(), "ident": r.get("table_identity", "")})
 
+    # AUTHORITATIVE per-table PDF page: crop_pdf_pages.csv (imghash -> pdf_page) joined to each
+    # table via its crop in digitized_tables/{table_id}_*/{imghash}_oneshot.json. Wins over triage.
+    import glob as _glob
+    crop_pdf = {}
+    _cpp = os.path.join(V1, "crop_pdf_pages.csv")
+    if os.path.exists(_cpp):
+        for r in csv.DictReader(open(_cpp)):
+            if str(r.get("pdf_page", "")).lstrip("-").isdigit():
+                crop_pdf[r["imghash"]] = r["pdf_page"]
+    auth_page = {}   # table_id (dochash_tNNNN) -> authoritative pdf_page
+    for d in _glob.glob(os.path.join(ROOT, "export/ocr_results_referenced/digitized_tables/*")):
+        mt = re.match(r"([0-9a-f]{16}_t\d+)", os.path.basename(d))
+        if not mt:
+            continue
+        for jf in _glob.glob(os.path.join(d, "*_oneshot.json")):
+            ih = re.search(r"([0-9a-f]{40})_oneshot", os.path.basename(jf))
+            if ih and ih.group(1) in crop_pdf:
+                auth_page[mt.group(1)] = crop_pdf[ih.group(1)]
+                break
+
     def page_of(img_or_dir):
         m = dt.search(img_or_dir or "")
-        return tri_page.get(m.group(1), {}) if m else {}
+        if not m:
+            return {}
+        tid = m.group(1)
+        d = dict(tri_page.get(tid, {}))
+        if tid in auth_page:                 # PDF page is authoritative
+            d["page"] = auth_page[tid]
+        return d
 
     rows = []
     # existing on-site/queue tables

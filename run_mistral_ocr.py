@@ -34,7 +34,9 @@ def scan_list():
                 if p.strip().endswith(".png"):
                     loc = ce.resolve_img(os.path.basename(p.strip())) or ce.resolve_img(p.strip())
                     if loc and os.path.exists(loc):
-                        scans[HEX.search(os.path.basename(loc)).group(1)] = loc
+                        m = HEX.search(os.path.basename(loc))
+                        if m:                       # render-named files (e.g. 25352797_p133.png) have
+                            scans[m.group(1)] = loc  # no 40-hex basename — skip, don't crash scan_list
     return scans
 
 

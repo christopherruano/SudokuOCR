@@ -606,9 +606,9 @@ def infer_table_kind(schema=None, meta=None):
     if declared in _VALID_TABLE_KINDS:
         return declared
 
-    dtype = ((getattr(schema, "data_type", "") if schema else "") or meta.get("data_type", "")).lower()
+    dtype = ((getattr(schema, "data_type", "") if schema else "") or meta.get("data_type", "") or "").lower()
     denom = (getattr(schema, "denominator", 0) if schema else 0) or 0
-    title = ((getattr(schema, "title", "") if schema else "") or meta.get("title", "")).lower()
+    title = ((getattr(schema, "title", "") if schema else "") or meta.get("title", "") or "").lower()
 
     if dtype != "proportional" and denom == 0:
         return "count"
@@ -665,7 +665,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
 
     # If groups not in metadata, discover from first section's first row
     if not groups and sections:
-        first_row = sections[0].get("rows", [{}])[0]
+        first_row = (sections[0].get("rows") or [{}])[0]   # [] would IndexError
         groups = [k for k in first_row.keys()
                   if k not in TEXTUAL_ROW_FIELDS and isinstance(first_row.get(k), dict)]
 
@@ -883,7 +883,7 @@ def derive_constraints(parsed, schema=None, persons_independent=False):
                         for n_remove in range(1, min(len(pre_total_keys), 4)):
                             trial_keys = pre_total_keys[:-n_remove]
                             trial_sum = sum(
-                                rmap.get(k, {}).get(group, {}).get(col, 0)
+                                (rmap.get(k, {}).get(group, {}).get(col) or 0)
                                 for k in trial_keys)
                             if trial_sum == t_val and trial_keys:
                                 constraints["total_components"] = trial_keys
@@ -1863,10 +1863,15 @@ def _find_digit_fix(value, target_change):
     if value is None or target_change == 0:
         return None
 
-    digits = list(str(abs(value)))
+    abs_text = str(abs(value))
+    if not abs_text.isdigit():
+        return None
+    digits = list(abs_text)
     n_digits = len(digits)
 
     for pos in range(n_digits):
+        if not digits[pos].isdigit():   # skip decimal points / signs in non-integer values
+            continue
         place_value = 10 ** (n_digits - 1 - pos)
         current_digit = int(digits[pos])
 
@@ -1894,7 +1899,10 @@ def _find_two_digit_fix(value, target_change):
     if value is None or target_change == 0:
         return None
 
-    digits = list(str(abs(value)))
+    abs_text = str(abs(value))
+    if not abs_text.isdigit():
+        return None
+    digits = list(abs_text)
     n_digits = len(digits)
 
     # Precompute all single-digit changes at each position
@@ -2239,8 +2247,8 @@ def _deductive_digit_fix(parsed, constraints, persons_independent):
                     if (col in ("males", "females")
                             and not persons_independent
                             and old_p is not None):
-                        new_p = (gdata.get("males", 0)
-                                 + gdata.get("females", 0))
+                        new_p = ((gdata.get("males") or 0)
+                                 + (gdata.get("females") or 0))
                         if new_p != old_p:
                             gdata["persons"] = new_p
                             p_propagated = True
@@ -2354,11 +2362,15 @@ def _deductive_digit_fix(parsed, constraints, persons_independent):
 
                         # Propagate P = M + F on affected rows
                         if not persons_independent:
-                            mg["persons"] = (mg.get("males", 0)
-                                             + mg.get("females", 0))
+                            mg_m = mg.get("males")
+                            mg_f = mg.get("females")
+                            if mg_m is not None and mg_f is not None:
+                                mg["persons"] = mg_m + mg_f
                             if not same_row:
-                                fg["persons"] = (fg.get("males", 0)
-                                                 + fg.get("females", 0))
+                                fg_m = fg.get("males")
+                                fg_f = fg.get("females")
+                                if fg_m is not None and fg_f is not None:
+                                    fg["persons"] = fg_m + fg_f
 
                         new_report = verify_all_constraints(
                             parsed, constraints)
@@ -2575,13 +2587,15 @@ def _deductive_digit_fix(parsed, constraints, persons_independent):
                                 mg_t["males"] = mf_t[0]
                                 fg_t["females"] = ff_t[0]
                                 if not persons_independent:
-                                    mg_t["persons"] = (
-                                        mg_t.get("males", 0)
-                                        + mg_t.get("females", 0))
+                                    mg_m = mg_t.get("males")
+                                    mg_f = mg_t.get("females")
+                                    if mg_m is not None and mg_f is not None:
+                                        mg_t["persons"] = mg_m + mg_f
                                     if not sr:
-                                        fg_t["persons"] = (
-                                            fg_t.get("males", 0)
-                                            + fg_t.get("females", 0))
+                                        fg_m = fg_t.get("males")
+                                        fg_f = fg_t.get("females")
+                                        if fg_m is not None and fg_f is not None:
+                                            fg_t["persons"] = fg_m + fg_f
 
                                 # Propagate via L3: update total group
                                 # at affected age rows
@@ -3620,7 +3634,7 @@ Return ONLY valid JSON array."""
                     if voted is None or voted == gdata.get(col):
                         continue
 
-                    old_val = gdata[col]
+                    old_val = gdata.get(col)
                     gdata[col] = voted
                     new_report = verify_all_constraints(parsed, constraints)
                     if new_report["failed"] < total_before:
@@ -4700,6 +4714,13 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
     # Step 5: Export
     print("\nStep 5: Export")
     output_paths = {}
+    rows_extracted = 0
+    for section in parsed.get("sections", []) or []:
+        rows_extracted += len(section.get("rows", []) or [])
+        rows_extracted += sum(
+            len(group.get("rows", []) or [])
+            for group in section.get("groups", []) or []
+        )
     acceptance = build_acceptance_assessment(
         report,
         age_warnings,
@@ -4708,6 +4729,8 @@ def extract_and_verify(image_path, retry_on_fail=False, fallback=False,
             "initial_failures": initial_report["failed"] if initial_report else report["failed"],
             "initial_total_checks": initial_report["total_checks"] if initial_report else report["total_checks"],
             "final_failures": report["failed"],
+            "final_total_checks": report["total_checks"],
+            "rows_extracted": rows_extracted,
             "age_warning_count": len(age_warnings),
             "extraction_mode": extraction_mode,
             "extraction_attempt_failures": extraction_attempt_failures,

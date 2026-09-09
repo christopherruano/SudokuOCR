@@ -1058,7 +1058,10 @@ def main():
     kept_source_count = 0
     kept_fact_count = 0
 
-    facts_path = output_dir / "cell_facts.csv"
+    # cell_facts.csv (plain) is NOT read by the site pipeline (merge_keepers reads cell_facts_rich only).
+    # SUDOKUOCR_SKIP_PLAIN_FACTS=1 discards it to /dev/null to halve disk use (~12G saved) on tight disks.
+    facts_path = (Path("/dev/null") if os.environ.get("SUDOKUOCR_SKIP_PLAIN_FACTS") == "1"
+                  else output_dir / "cell_facts.csv")
     rich_facts_path = output_dir / "cell_facts_rich.csv"
     quarantine_rows_path = output_dir / "quarantine_rows.csv"
 

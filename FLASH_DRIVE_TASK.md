@@ -21,13 +21,25 @@ claude
 > Do this:
 > 1. **Inventory the drive.** Find all the `*.pdf` files and any `digitized_tables/*/metadata.json`.
 >    Tell me which you found (PDFs only, or PDFs + metadata).
-> 2. **Determine the Table VII page range per volume:**
->    - If `metadata.json` exists: for each table dir whose title/topic mentions VII /
->      "Age, Sex and Civil Condition" / C-III, read `queue_row.resolved_start_page` and
->      `resolved_end_page`. The volume's Table VII range = min(start)..max(end) over
->      those tables. Also collect the pages ALREADY rendered (`rendered_pages[].pdf_page`).
->    - If no metadata: use the file `render_targets.csv` I'll give you (columns
->      `source_pdf, render_from, render_to`) — render that whole range per PDF.
+> 2. **Find the Table VII pages by CONTENT (authoritative — do NOT just trust the TOC).**
+>    The page ranges we have came from a TOC parse that may be incomplete, so verify
+>    against the actual pages:
+>    - For each PDF, extract per-page text: `pdftotext -f P -l P -layout "<pdf>" -` page
+>      by page (or `pdftotext -layout "<pdf>" out.txt` which form-feed-splits pages).
+>    - A page IS Table VII if its text (esp. the top/header) matches any of:
+>      `TABLE\s*VII\b`, `Age,?\s*Sex\s*(and|&)?\s*Civil\s*Condition`, `Civil\s*Condition\s*by\s*Age`,
+>      `\bC[-\s.]*III\b` (the post-1931 C-III form). Watch for roman/garbled headers.
+>    - **Include continuation pages:** Table VII spans consecutive pages and continuation
+>      pages may lack a clear header. So once you find the Table VII run, include every
+>      page from the first match to the last match **inclusive** (fill interior pages),
+>      plus a ±1 page margin.
+>    - If a PDF has NO text layer (pdftotext returns blank), fall back to the ranges in
+>      `render_targets.csv` (columns `source_pdf, render_from, render_to`) and render the
+>      whole padded range — we'll classify on the main machine.
+>    - Cross-check: if `metadata.json` exists, compare your content-detected pages to its
+>      `resolved_start..end` and to `rendered_pages[].pdf_page`; render anything you found
+>      that wasn't already rendered. Report any volume where content disagrees with the TOC
+>      range (that's a volume the first pass got wrong).
 > 3. **Render the pages.** For every page in each volume's Table VII range that is NOT
 >    already rendered, render it to PNG with:
 >    `pdftoppm -png -r 300 -f P -l P "<pdf>" out/<dochash>_p<P>`

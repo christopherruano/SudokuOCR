@@ -129,6 +129,8 @@ def main():
         gbak = gpath.replace("_oneshot.json", "_oneshot.gemini.json")
         if os.path.exists(gbak):
             already += 1; continue          # idempotent: already Mistral-emitted
+        if (json.load(open(gpath)).get("metadata", {}) or {}).get("human_corrected"):
+            already += 1; continue          # NEVER overlay a hand-corrected table
         gc, grows = gem_cells(gpath)
         gcols = {k[1] for k in gc}
         mc = mistral_cells(secs)

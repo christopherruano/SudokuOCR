@@ -7,6 +7,9 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 say(){ echo; echo "=== $* === ($(date +%H:%M:%S))"; }
+# NO_ASSEMBLY=1 -> skip every multi-page stitching attempt (assembled / half-page / continuation).
+# Scan-wiring, DB build, and Table VII validation still run; each page stays its own read.
+asm(){ if [ "${NO_ASSEMBLY:-0}" = "1" ]; then echo "  (skip assembly: $*)"; else python3 "$@"; fi; }
 
 say "1/8 re-extract keeper cell facts from the (re-OCR'd) results"
 python3 export_inference_dataset.py \
@@ -28,8 +31,8 @@ say "5/8 re-derive sibling schema templates (now from improved reads)"
 python3 build_group_schema_templates.py
 
 say "6/8 re-assemble multi-page tables + make sections cohesive + wire local scans"
-python3 build_assembled_tables.py
-python3 clean_assembled_sections.py
+asm build_assembled_tables.py
+asm clean_assembled_sections.py
 python3 patch_scan_paths.py
 
 say "7/8 rebuild the explorer SQLite (good-only)"
@@ -41,11 +44,11 @@ python3 validate_tableVII.py
 
 say "9/10 categorize imperfect by ROOT CAUSE + merge half-page splits & stitch continuations (free, no re-OCR)"
 python3 categorize_imperfect.py
-python3 build_halfpage_groups.py
-python3 build_continuation_groups.py
+asm build_halfpage_groups.py
+asm build_continuation_groups.py
 # re-assemble so half-page column-splits are unioned + fragmented pages stitched, then rebuild + re-validate
-python3 build_assembled_tables.py
-python3 clean_assembled_sections.py
+asm build_assembled_tables.py
+asm clean_assembled_sections.py
 python3 patch_scan_paths.py
 python3 build_explorer_db.py
 python3 validate_tableVII.py

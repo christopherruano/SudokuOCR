@@ -1139,6 +1139,21 @@ def export_multigroup_to_excel(all_results, schema, output_path):
     # Color palette for group header backgrounds
     group_colors = ["4472C4", "548235", "BF8F00", "843C0C", "7030A0"]
 
+    def _safe_sheet_name(name, used_names):
+        """Excel sheet names cannot contain []:*?/\\ and must be unique <=31 chars."""
+        import re
+        cleaned = re.sub(r"[\[\]:*?/\\]", " ", str(name or "Section")).strip()
+        cleaned = re.sub(r"\s+", " ", cleaned) or "Section"
+        base = cleaned[:31].rstrip() or "Section"
+        candidate = base
+        i = 2
+        while candidate in used_names:
+            suffix = f" {i}"
+            candidate = f"{base[:31 - len(suffix)].rstrip()}{suffix}"
+            i += 1
+        used_names.add(candidate)
+        return candidate
+
     # Cross-group constraint info
     cross_group = {}
     if hasattr(schema, 'cross_group_constraints'):
@@ -1451,13 +1466,14 @@ def export_multigroup_to_excel(all_results, schema, output_path):
         return cur_row + 1  # extra blank row
 
     # Create per-section sheets
+    used_sheet_names = set()
     for sec_name, groups in all_results.items():
-        sheet_name = sec_name[:31]
+        sheet_name = _safe_sheet_name(sec_name, used_sheet_names)
         ws = wb.create_sheet(title=sheet_name)
         _write_section_sheet(ws, sec_name, groups)
 
     # Create combined "All Sections" sheet
-    ws_all = wb.create_sheet(title="All Sections", index=0)
+    ws_all = wb.create_sheet(title=_safe_sheet_name("All Sections", used_sheet_names), index=0)
     cur_row = 1
     # Title
     title_text = schema.title or ""

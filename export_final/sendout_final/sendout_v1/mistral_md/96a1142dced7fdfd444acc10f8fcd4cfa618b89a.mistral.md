@@ -1,0 +1,10 @@
+# Imperial Form XII.
+
+Number of the Blind, by Province or State,
+Age and Sex.
+
+This content downloaded from
+
+103.214.47.12 on Fri, 13 Mar 2026 03:22:54 UTC
+
+All use subject to https://about.jstor.org/terms

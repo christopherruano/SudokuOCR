@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>45. Age and Sex Distribution of the Blind.</title>
+  <style>
+:root { --ink:#181715; --muted:#746d62; --line:#ddd4c7; --paper:#fffaf0; --panel:#f3eadb; --accent:#245b4d; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:#efe4d2; }
+a { color:#174f82; }
+.top { position:sticky; top:0; z-index:5; padding:12px 18px; background:#1d271f; color:#fff; display:flex; gap:16px; align-items:center; justify-content:space-between; }
+.top a { color:#d9f2e9; }
+.shell { display:grid; grid-template-columns:minmax(360px, 42vw) minmax(520px, 1fr); gap:0; min-height:calc(100vh - 52px); }
+.images { background:#211f1b; color:#f8f0e5; padding:14px; overflow:auto; max-height:calc(100vh - 52px); position:sticky; top:52px; }
+.compiled { padding:18px; overflow:auto; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:16px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.image-card { background:#302d27; border:1px solid #555047; border-radius:12px; padding:10px; margin-bottom:14px; }
+.image-card img { width:100%; height:auto; display:block; background:#fff; border:1px solid #4b463d; }
+.caption { margin-top:8px; font-size:12px; color:#d5cab9; overflow-wrap:anywhere; }
+.meta-grid { display:grid; grid-template-columns:180px minmax(0,1fr); gap:6px 12px; font-size:14px; }
+.key { color:var(--muted); font-weight:700; }
+.muted { color:var(--muted); }
+.badge { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:3px 8px; margin:2px 4px 2px 0; background:#fff; font-size:12px; }
+h1 { font-size:22px; margin:0; }
+h2 { font-size:18px; margin:0 0 10px; }
+h3 { font-size:15px; margin:0 0 8px; }
+.section-head { display:flex; justify-content:space-between; gap:12px; align-items:baseline; }
+.table-scroll { max-height:70vh; overflow:auto; border:1px solid var(--line); background:#fff; }
+table { border-collapse:collapse; font-size:12px; min-width:100%; }
+th, td { border:1px solid #ded8cc; padding:4px 6px; white-space:nowrap; vertical-align:top; }
+th { position:sticky; top:0; background:#e9f0eb; z-index:1; }
+td:first-child, th:first-child { position:sticky; left:0; background:#faf6ee; z-index:2; }
+th:first-child { z-index:3; background:#dfe9e2; }
+.index { padding:18px; }
+.index table { background:#fff; width:100%; }
+.index th, .index td { white-space:normal; }
+.summary { font-size:13px; color:#e9dfcf; }
+@media (max-width: 1100px) { .shell { grid-template-columns:1fr; } .images { position:relative; top:0; max-height:none; } }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div><strong>Assembled Table 45/53</strong></div>
+    <div><a href='index.html'>Index</a> · <a href='044_mysore_1951_age-distribution_289980845279.html'>Previous</a> · <a href='046_north-western-provinces-oudh_1891_age-sex-population_1097c9cb34c4.html'>Next</a></div>
+  </div>
+  <div class="shell">
+    <aside class="images">
+      <h1>Scanned Pages</h1>
+      <div class="summary">4 page image(s). Click an image to open the original PNG.</div>
+      <br>
+      <div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/1da9af76bbde3e192d4cb92c186dbafe3373169f.png' target='_blank'><img src='thumbnails/69161ef299cf.jpg'></a><div class='caption'>Page 1 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/1da9af76bbde3e192d4cb92c186dbafe3373169f_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/1da9af76bbde3e192d4cb92c186dbafe3373169f.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/3165d642816f7bcb0522496f68e9b84e15709d59.png' target='_blank'><img src='thumbnails/c58aa53d0e65.jpg'></a><div class='caption'>Page 2 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/3165d642816f7bcb0522496f68e9b84e15709d59_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/3165d642816f7bcb0522496f68e9b84e15709d59.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/67c206dd4033894fc828045a7fcce961093e3323.png' target='_blank'><img src='thumbnails/0a4de726b12a.jpg'></a><div class='caption'>Page 3 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/67c206dd4033894fc828045a7fcce961093e3323_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/67c206dd4033894fc828045a7fcce961093e3323.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/8853bbfff69c535865d0a7d7c8020fd03395c0a1.png' target='_blank'><img src='thumbnails/7b5fdcd25b83.jpg'></a><div class='caption'>Page 4 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/8853bbfff69c535865d0a7d7c8020fd03395c0a1_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in/8853bbfff69c535865d0a7d7c8020fd03395c0a1.png' target='_blank'>Open original image</a></div></div>
+    </aside>
+    <main class="compiled">
+      <div class="card">
+        <h1>Age and Sex Distribution of the Blind.</h1>
+        <p class="muted">This is the compiled output from all member pages in the assembled group.</p>
+        <div class="meta-grid"><div class='key'>group_id</div><div>dir::/n/home11/cruano/census_pdfs/1891/saoa.crl.25352813.pdf::age_sex_population::26b2a5ad1f475bf7_t0015_INFIRMITIES---U-n-Chap.-VI.-taken-record-as-to-actual-long-livedness-among-th-in</div>
+<div class='key'>province</div><div>North Western Provinces Oudh</div>
+<div class='key'>year</div><div>1891</div>
+<div class='key'>table_family</div><div>age_sex_population</div>
+<div class='key'>n_pages</div><div>4</div>
+<div class='key'>overall_strategy</div><div>section_append</div>
+<div class='key'>signals</div><div>same_table_dir | continued_marker</div>
+<div class='key'>constraint checks</div><div>1412</div>
+<div class='key'>constraint failures</div><div>0</div>
+<div class='key'>all passed</div><div>True</div>
+<div class='key'>source_file</div><div>/n/home11/cruano/census_pdfs/1891/saoa.crl.25352813.pdf</div></div>
+      </div>
+      <div class='card'><div class='section-head'><h2>Section 1: Infirmities by Castes, etc.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=28</span></div><div class='table-scroll'><table>
+<tr><th>CASTE</th><th>Total Population | persons</th><th>Total Population | males</th><th>Total Population | females</th><th>INSANE | persons</th><th>INSANE | males</th><th>INSANE | females</th><th>DEAF-MUTES | persons</th><th>DEAF-MUTES | males</th><th>DEAF-MUTES | females</th><th>BLIND | persons</th><th>BLIND | males</th><th>BLIND | females</th><th>LEPERS | persons</th><th>LEPERS | males</th><th>LEPERS | females</th><th>TOTAL AFFLICTED | persons</th><th>TOTAL AFFLICTED | males</th><th>TOTAL AFFLICTED | females</th></tr>
+<tr><td>Gujar</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Rajput</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Group I</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Bhoyar</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Káchhí</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Kawar, Kaonra</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Kirár</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Kolta</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Kunbi</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Lodhi</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Máli, Marár</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Mána</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Group II (a)</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>II(b).—GRAZIERS, ETC.</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>II(c).—LABOURERS</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Baiga</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Bhil</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Gond</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Khond</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Kol</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Korku</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Sawara</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>Group IV</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>V.—PRIESTS</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>VI.—DEVOTEES</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>VII.—TEMPLE SERVANTS</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>VIII.—GENEALOGISTS</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+<tr><td>IX.—WRITERS</td><td>47126</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>10</td><td>5</td><td>5</td><td>34</td><td>17</td><td>17</td><td>12</td><td>7</td><td>5</td><td>61</td><td>33</td><td>28</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 2: Infirmities by Castes, etc.—contd.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=29</span></div><div class='table-scroll'><table>
+<tr><th>Class and Group / CASTE</th><th>Total Population | persons</th><th>Total Population | males</th><th>Total Population | females</th><th>INSANE | persons</th><th>INSANE | males</th><th>INSANE | females</th><th>DEAF-MUTES | persons</th><th>DEAF-MUTES | males</th><th>DEAF-MUTES | females</th><th>BLIND | persons</th><th>BLIND | males</th><th>BLIND | females</th><th>LEPERS | persons</th><th>LEPERS | males</th><th>LEPERS | females</th><th>TOTAL AFFLICTED | persons</th><th>TOTAL AFFLICTED | males</th><th>TOTAL AFFLICTED | females</th></tr>
+<tr><td>C.-COMMERCIAL.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>XIV.-TRADERS</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Bania</td><td>129270</td><td></td><td></td><td>7</td><td>4</td><td>3</td><td>13</td><td>8</td><td>5</td><td>40</td><td>18</td><td>22</td><td>8</td><td>5</td><td>3</td><td>68</td><td>35</td><td>33</td></tr>
+<tr><td>Group XIV</td><td>144813</td><td></td><td></td><td>7</td><td>4</td><td>3</td><td>13</td><td>8</td><td>5</td><td>38</td><td>17</td><td>21</td><td>9</td><td>6</td><td>3</td><td>67</td><td>35</td><td>32</td></tr>
+<tr><td>XVI.-CARRIERS</td><td>56092</td><td></td><td></td><td>5</td><td>4</td><td>1</td><td>7</td><td>3</td><td>4</td><td>18</td><td>8</td><td>10</td><td>1</td><td>1</td><td>0</td><td>31</td><td>16</td><td>15</td></tr>
+<tr><td>D.-ARTISANS AND VILLAGE MENIALS.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>XVII.-GOLDSMITHS</td><td>99315</td><td></td><td></td><td>7</td><td>4</td><td>3</td><td>12</td><td>6</td><td>6</td><td>36</td><td>17</td><td>19</td><td>7</td><td>5</td><td>2</td><td>62</td><td>32</td><td>30</td></tr>
+<tr><td>XVIII.-BARBERS</td><td>140882</td><td></td><td></td><td>3</td><td>3</td><td>0</td><td>12</td><td>8</td><td>4</td><td>44</td><td>19</td><td>25</td><td>9</td><td>6</td><td>3</td><td>68</td><td>36</td><td>32</td></tr>
+<tr><td>XIX.-BLACKSMITHS</td><td>150546</td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>11</td><td>6</td><td>5</td><td>31</td><td>14</td><td>17</td><td>11</td><td>7</td><td>4</td><td>56</td><td>29</td><td>27</td></tr>
+<tr><td>XX.-CARPENTERS, MASONS AND TURNERS.</td><td>77646</td><td></td><td></td><td>4</td><td>3</td><td>1</td><td>16</td><td>9</td><td>7</td><td>38</td><td>16</td><td>22</td><td>14</td><td>10</td><td>4</td><td>72</td><td>38</td><td>34</td></tr>
+<tr><td>XXI.-BRASS AND COPPER SMITHS.</td><td>20921</td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>19</td><td>10</td><td>9</td><td>20</td><td>8</td><td>12</td><td>7</td><td>5</td><td>2</td><td>49</td><td>25</td><td>24</td></tr>
+<tr><td>XXII.-TAILORS</td><td>35968</td><td></td><td></td><td>6</td><td>5</td><td>1</td><td>13</td><td>9</td><td>4</td><td>50</td><td>22</td><td>28</td><td>8</td><td>6</td><td>2</td><td>77</td><td>42</td><td>35</td></tr>
+<tr><td>XXII(a).-PERFUMERS, DRUG SELLERS AND BETEL-LEAF SELLERS.</td><td>29135</td><td></td><td></td><td>4</td><td>1</td><td>3</td><td>14</td><td>9</td><td>5</td><td>41</td><td>16</td><td>25</td><td>12</td><td>9</td><td>3</td><td>71</td><td>35</td><td>36</td></tr>
+<tr><td>XXIII.-WEAVERS, CALENDERERS AND DYERS.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Ganda</td><td>291768</td><td></td><td></td><td>2</td><td>1</td><td>1</td><td>7</td><td>4</td><td>3</td><td>12</td><td>7</td><td>5</td><td>5</td><td>3</td><td>2</td><td>26</td><td>15</td><td>11</td></tr>
+<tr><td>Katia</td><td>43940</td><td></td><td></td><td>4</td><td>4</td><td>0</td><td>10</td><td>6</td><td>4</td><td>27</td><td>14</td><td>13</td><td>5</td><td>3</td><td>2</td><td>46</td><td>27</td><td>19</td></tr>
+<tr><td>Kori</td><td>44700</td><td></td><td></td><td>6</td><td>4</td><td>2</td><td>7</td><td>4</td><td>3</td><td>60</td><td>28</td><td>32</td><td>6</td><td>5</td><td>1</td><td>79</td><td>41</td><td>38</td></tr>
+<tr><td>Koshti</td><td>137891</td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>14</td><td>9</td><td>5</td><td>23</td><td>11</td><td>12</td><td>14</td><td>11</td><td>3</td><td>54</td><td>33</td><td>21</td></tr>
+<tr><td>Panka</td><td>162631</td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>32</td><td>16</td><td>16</td><td>9</td><td>6</td><td>3</td><td>54</td><td>30</td><td>24</td></tr>
+<tr><td>Group XXIII</td><td>750981</td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>24</td><td>12</td><td>12</td><td>9</td><td>6</td><td>3</td><td>46</td><td>26</td><td>20</td></tr>
+<tr><td>XXIV.-WASHERMEN</td><td>136541</td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>9</td><td>4</td><td>5</td><td>32</td><td>16</td><td>16</td><td>13</td><td>8</td><td>5</td><td>57</td><td>30</td><td>27</td></tr>
+<tr><td>XXV.-COTTON-CLEANERS.</td><td>36669</td><td></td><td></td><td>3</td><td>1</td><td>2</td><td>6</td><td>2</td><td>4</td><td>24</td><td>11</td><td>13</td><td>7</td><td>5</td><td>2</td><td>40</td><td>19</td><td>21</td></tr>
+<tr><td>XXVI.-SHEPHERDS AND WOOL-WEAVERS.</td><td>62283</td><td></td><td></td><td>4</td><td>2</td><td>2</td><td>10</td><td>4</td><td>6</td><td>33</td><td>15</td><td>18</td><td>6</td><td>4</td><td>2</td><td>53</td><td>25</td><td>28</td></tr>
+<tr><td>XXVII.-OIL-PRESSERS</td><td>734935</td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>12</td><td>7</td><td>5</td><td>31</td><td>14</td><td>17</td><td>19</td><td>12</td><td>7</td><td>65</td><td>35</td><td>30</td></tr>
+<tr><td>XXVIII.-POTTERS</td><td>102682</td><td></td><td></td><td>4</td><td>3</td><td>1</td><td>12</td><td>7</td><td>5</td><td>33</td><td>13</td><td>20</td><td>10</td><td>5</td><td>5</td><td>59</td><td>28</td><td>31</td></tr>
+<tr><td>XXXV.-FISHERMEN, BOATMEN, PALKI-BEARERS, WATER-CARRIERS, COOKS, ETC.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Dhimar</td><td>218007</td><td></td><td></td><td>4</td><td>2</td><td>2</td><td>15</td><td>8</td><td>7</td><td>38</td><td>17</td><td>21</td><td>11</td><td>7</td><td>4</td><td>68</td><td>34</td><td>34</td></tr>
+<tr><td>Kewat</td><td>192700</td><td></td><td></td><td>2</td><td>1</td><td>1</td><td>7</td><td>4</td><td>3</td><td>23</td><td>10</td><td>13</td><td>16</td><td>10</td><td>6</td><td>48</td><td>25</td><td>23</td></tr>
+<tr><td>Group XXXV</td><td>473175</td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>11</td><td>6</td><td>5</td><td>30</td><td>13</td><td>17</td><td>14</td><td>9</td><td>5</td><td>58</td><td>30</td><td>28</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 3: Infirmities by Castes, etc.—concluded.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=16</span></div><div class='table-scroll'><table>
+<tr><th>Class and Group.</th><th>Total Population. | persons</th><th>Total Population. | males</th><th>Total Population. | females</th><th>INSANE. | persons</th><th>INSANE. | males</th><th>INSANE. | females</th><th>DEAF-MUTES. | persons</th><th>DEAF-MUTES. | males</th><th>DEAF-MUTES. | females</th><th>BLIND. | persons</th><th>BLIND. | males</th><th>BLIND. | females</th><th>LEPERS. | persons</th><th>LEPERS. | males</th><th>LEPERS. | females</th><th>TOTAL AFFLICTED. | persons</th><th>TOTAL AFFLICTED. | males</th><th>TOTAL AFFLICTED. | females</th></tr>
+<tr><td>D.-ARTISANS AND VILLAGE MENIALS-continued.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>XXXVI.-DISTILLERS AND TODDY-DRAWERS.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>XXXVIII.-LEATHER-WORKERS.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>XXXVIII(a).-VILLAGE-WATCHMEN.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>Baláhi</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>Mahár, Mahra</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>Group XXXVIII(a)</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>XXXIX.-SCAVENGERS</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>E.-VAGRANT, MINOR ARTISANS AND PERFORMERS, ETC.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>XLI.-EARTHWORKERS AND STONE-DRESSERS.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>XLIII.-MATMAKERS, CANE-SPLITTERS, GRASS-CUTTERS, ETC.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>Basor</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>Group XLIII</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>F.-RACES AND NATIONALITIES.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>XLVIII.-ASIATIC RACES OF REPUTED NON-INDIAN DESCENT.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+<tr><td>Total Central Provinces.</td><td></td><td></td><td></td><td>3</td><td>2</td><td>1</td><td>10</td><td>6</td><td>4</td><td>31</td><td>14</td><td>17</td><td>10</td><td>7</td><td>3</td><td>54</td><td>29</td><td>25</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 4: Comparison of combined figures of Literate and Learning for 1891 with those of former Census.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=19</span></div><div class='table-scroll'><table>
+<tr><th>age</th><th>DISTRICTS.</th><th>district</th><th>EDUCATED MALES PER 10,000 OF MALE POPULATION. | 1881.</th><th>EDUCATED MALES PER 10,000 OF MALE POPULATION. | 1891.</th><th>EDUCATED MALES PER 10,000 OF MALE POPULATION. | Advance during last decade.</th><th>EDUCATED FEMALES PER 10,000 OF FEMALE POPULATION. | 1881.</th><th>EDUCATED FEMALES PER 10,000 OF FEMALE POPULATION. | 1891.</th><th>EDUCATED FEMALES PER 10,000 OF FEMALE POPULATION. | Advance during last decade.</th></tr>
+<tr><td>Saugor</td><td>Saugor</td><td>Saugor</td><td>673</td><td>795</td><td>122</td><td>37</td><td>41</td><td>4</td></tr>
+<tr><td>Damoh</td><td>Damoh</td><td>Damoh</td><td>580</td><td>722</td><td>142</td><td>14</td><td>19</td><td>5</td></tr>
+<tr><td>Jubbulpore</td><td>Jubbulpore</td><td>Jubbulpore</td><td>776</td><td>875</td><td>99</td><td>33</td><td>41</td><td>8</td></tr>
+<tr><td>Mandla</td><td>Mandla</td><td>Mandla</td><td>164</td><td>279</td><td>115</td><td>4</td><td>8</td><td>4</td></tr>
+<tr><td>Seoni</td><td>Seoni</td><td>Seoni</td><td>306</td><td>457</td><td>151</td><td>21</td><td>25</td><td>4</td></tr>
+<tr><td>Narsinghpur</td><td>Narsinghpur</td><td>Narsinghpur</td><td>661</td><td>862</td><td>201</td><td>22</td><td>27</td><td>5</td></tr>
+<tr><td>Hoshangabad</td><td>Hoshangabad</td><td>Hoshangabad</td><td>740</td><td>904</td><td>164</td><td>18</td><td>24</td><td>6</td></tr>
+<tr><td>Nimar</td><td>Nimar</td><td>Nimar</td><td>1093</td><td>1128</td><td>35</td><td>22</td><td>25</td><td>3</td></tr>
+<tr><td>Betul</td><td>Betul</td><td>Betul</td><td>306</td><td>418</td><td>112</td><td>5</td><td>6</td><td>1</td></tr>
+<tr><td>Chhindwara</td><td>Chhindwara</td><td>Chhindwara</td><td>278</td><td>357</td><td>79</td><td>4</td><td>5</td><td>1</td></tr>
+<tr><td>Wardha</td><td>Wardha</td><td>Wardha</td><td>635</td><td>786</td><td>151</td><td>7</td><td>14</td><td>7</td></tr>
+<tr><td>Nagpur</td><td>Nagpur</td><td>Nagpur</td><td>826</td><td>941</td><td>115</td><td>42</td><td>64</td><td>22</td></tr>
+<tr><td>Chanda</td><td>Chanda</td><td>Chanda</td><td>353</td><td>306</td><td>43</td><td>7</td><td>6</td><td>-1</td></tr>
+<tr><td>Bhandara</td><td>Bhandara</td><td>Bhandara</td><td>354</td><td>455</td><td>101</td><td>6</td><td>8</td><td>2</td></tr>
+<tr><td>Balaghat</td><td>Balaghat</td><td>Balaghat</td><td>297</td><td>364</td><td>67</td><td>3</td><td>7</td><td>4</td></tr>
+<tr><td>Raipur</td><td>Raipur</td><td>Raipur</td><td>287</td><td>365</td><td>78</td><td>8</td><td>14</td><td>6</td></tr>
+<tr><td>Bilaspur</td><td>Bilaspur</td><td>Bilaspur</td><td>240</td><td>291</td><td>51</td><td>7</td><td>8</td><td>1</td></tr>
+<tr><td>Sambalpur</td><td>Sambalpur</td><td>Sambalpur</td><td>391</td><td>521</td><td>130</td><td>14</td><td>18</td><td>4</td></tr>
+<tr><td>British Districts</td><td>British Districts</td><td>British Districts</td><td>472</td><td>568</td><td>96</td><td>15</td><td>20</td><td>5</td></tr>
+</table></div></div>
+    </main>
+  </div>
+</body>
+</html>

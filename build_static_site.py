@@ -10,7 +10,8 @@ Output: census_site/
 
 Reuses census_explorer's builders. Run after build_explorer_db.py.
 """
-import os, sqlite3, shutil, json, html, hashlib
+import os, sqlite3, shutil, json, html, hashlib, base64, datetime, re, glob
+STAMP=datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
 import census_explorer as ce
 import census_titles as ct
 
@@ -83,12 +84,58 @@ TABLE_TMPL = """<!doctype html><html><head><meta charset=utf-8><title>{title}</t
    <p class=meta><b title="{rawtitle}">{title}</b><br>
    <span class=badges>{badges}</span>
    {etype} · {nfacts} cells
-   &nbsp; <a class=dl href="../data/{page}.csv">⬇ CSV</a>
-   &nbsp; <a class=dl href="../data/{page}.xlsx">⬇ Excel</a>{note}
+   &nbsp; <a class=dl href="javascript:void(0)" onclick="dlcsv()">⬇ CSV</a>{note}
    <br><span class=rawt>scanned title: “{rawtitle}”</span></p>
    {matrices}
  </div>
-</div></body></html>"""
+</div>
+<script type="text/plain" id="csv64">{csv64}</script>
+<script>function dlcsv(){{var b=atob(document.getElementById('csv64').textContent),u=new Uint8Array(b.length);
+for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);var a=document.createElement('a');
+a.href=URL.createObjectURL(new Blob([u],{{type:'text/csv;charset=utf-8'}}));a.download='{page}.csv';
+document.body.appendChild(a);a.click();a.remove();}}</script>
+<div style='color:#789;font-size:11px;padding:6px 12px'>page updated {STAMP}</div></body></html>"""
+
+
+_SRC_MAP = None
+
+
+def _drive_scan(ih, OUT):
+    """Last-resort scan: render a missing page from the drive PDF by imghash. Returns img filename or None.
+    Lets us guarantee every published table has BOTH a scan and a CSV (no orphans)."""
+    global _SRC_MAP
+    if _SRC_MAP is None:
+        import csv as _csv
+        _SRC_MAP = {}
+        p = os.path.join(SV1, "page_number_status.csv")
+        if os.path.exists(p):
+            for r in _csv.DictReader(open(p)):
+                if r.get("source_pdf") and r.get("pdf_page", "").lstrip("-").isdigit():
+                    _SRC_MAP.setdefault(r["imghash"], (r["source_pdf"], int(r["pdf_page"])))
+    if not ih or ih not in _SRC_MAP:
+        return None
+    src, pg = _SRC_MAP[ih]
+    hits = glob.glob(os.path.join("/Volumes/Expansion/census_pdfs", "*", os.path.basename(src)))
+    if not hits:
+        return None
+    dest = os.path.join(OUT, "img", ih + ".jpg")
+    if not os.path.exists(dest):
+        try:
+            import fitz
+            from PIL import Image
+            doc = fitz.open(hits[0])
+            if not (1 <= pg <= doc.page_count):
+                doc.close(); return None
+            pix = doc.load_page(pg - 1).get_pixmap(matrix=fitz.Matrix(150 / 72, 150 / 72), colorspace=fitz.csGRAY)
+            im = Image.frombytes("L", (pix.width, pix.height), pix.samples)
+            w, h = im.size
+            if max(w, h) > 1800:
+                s = 1800 / max(w, h); im = im.resize((max(1, int(w * s)), max(1, int(h * s))))
+            im.save(dest, "JPEG", quality=75, optimize=True)
+            doc.close()
+        except Exception:
+            return None
+    return ih + ".jpg" if os.path.exists(dest) else None
 
 
 def main():
@@ -113,6 +160,7 @@ def main():
 
     # per-table pages + data + images
     copied = set()
+    skipped_orphan = 0
     nav = {}
     for i, t in enumerate(qt):
         pg = page[t["table_id"]]
@@ -123,9 +171,9 @@ def main():
         if not os.path.exists(os.path.join(OUT, "tables", pg + ".html")):  # skip already-rendered (fast re-runs)
             facts = con.execute("SELECT * FROM facts WHERE table_id=? ORDER BY rowid", (t["table_id"],)).fetchall()
             mats = ce.build_matrices(facts)
-            open(os.path.join(OUT, "data", pg + ".csv"), "w").write(ce.build_table_csv(t, mats))
-            with open(os.path.join(OUT, "data", pg + ".xlsx"), "wb") as fh:
-                fh.write(ce.build_table_xlsx(t, mats))
+            # CSV is embedded in-page (base64) and downloaded client-side — no separate data file
+            # (keeps deployment under host file-count limits). Excel opens CSV directly.
+            csv64 = base64.b64encode(ce.build_table_csv(t, mats).encode("utf-8")).decode("ascii")
             raw = (t["member_images"] if "member_images" in t.keys() and t["member_images"] else t["source_image"]) or ""
             parts = [p for p in raw.replace(";", "|").replace(",", "|").split("|") if p.strip()]
             locs = []
@@ -135,22 +183,43 @@ def main():
                     locs.append(loc)
             imgs_html = []
             for n, loc in enumerate(locs, 1):
-                b = os.path.basename(loc)
-                dest = os.path.join(OUT, "img", b)
+                # compress scans to JPEG (grayscale, downscale) so the deploy stays small + fast
+                jb = os.path.splitext(os.path.basename(loc))[0] + ".jpg"
+                dest = os.path.join(OUT, "img", jb)
                 if not os.path.exists(dest):
-                    shutil.copy(loc, dest)
-                copied.add(b)
-                imgs_html.append(f'<div class=pagelbl>page {n} of {len(locs)}</div><img loading=lazy src="../img/{b}">')
+                    try:
+                        from PIL import Image
+                        im = Image.open(loc).convert("L")
+                        w, h = im.size
+                        if max(w, h) > 1800:
+                            s = 1800 / max(w, h); im = im.resize((max(1, int(w * s)), max(1, int(h * s))))
+                        im.save(dest, "JPEG", quality=75, optimize=True)
+                    except Exception:
+                        shutil.copy(loc, dest)
+                copied.add(jb)
+                imgs_html.append(f'<div class=pagelbl>page {n} of {len(locs)}</div><img loading=lazy src="../img/{jb}">')
+            if not imgs_html:                                  # no local scan -> render it straight from the drive PDF
+                _ih = re.search(r"([0-9a-f]{40})", t["table_id"] or "")
+                _jb = _drive_scan(_ih.group(1) if _ih else None, OUT)
+                if _jb:
+                    copied.add(_jb)
+                    imgs_html.append(f'<div class=pagelbl>page 1 of 1</div><img loading=lazy src="../img/{_jb}">')
             note = f'<br><span style="color:#a60">⚑ {esc(t["review_note"])}</span>' if t["review_note"] else ""
             chips = ct.badges(tro)
             badges_html = (f'<span class="badge topic">{esc(topic)}</span>'
                            + "".join(f'<span class=badge>{esc(c)}</span>' for c in chips[1:]))
+            if not imgs_html or not facts:                     # both-or-neither: never publish an orphan
+                _p = os.path.join(OUT, "tables", pg + ".html")
+                if os.path.exists(_p):
+                    os.remove(_p)
+                skipped_orphan += 1
+                continue
             open(os.path.join(OUT, "tables", pg + ".html"), "w").write(TABLE_TMPL.format(
                 title=esc(ct.clean_title(t["title"]) or t["title"]), rawtitle=esc(t["title"]),
                 place=esc(t["canonical_name"]), year=esc(t["year"]), topic=esc(topic),
                 etype=esc(t["entity_type"]), nfacts=len(facts), page=pg, note=note, badges=badges_html,
                 imgs="".join(imgs_html) or '<p style="color:#fbb">scan not found</p>',
-                matrices=render_matrices_html(mats)))
+                matrices=render_matrices_html(mats), csv64=csv64, STAMP=STAMP))
         # nav
         reg = t["broad_region"] or "(unspecified)"
         prov = (t["parent_geo"] if t["entity_type"] in DISTRICTISH and t["parent_geo"] else t["canonical_name"]) or "(unknown)"
@@ -191,6 +260,7 @@ def main():
     con.close()
     print(f"\nstatic site -> {OUT}")
     print(f"  {len(qt):,} table pages · {len(copied):,} images · open census_site/index.html")
+    print(f"  orphans excluded (no scan AND/OR no csv): {skipped_orphan}  [both-or-neither enforced]")
 
 
 STATIC_TREE = """<!doctype html><html><head><meta charset=utf-8><title>Census — browse</title>
@@ -340,6 +410,20 @@ def write_index(con):
             .replace("__VB__", ce.MAP_GEO["viewBox"]).replace("__CTX__", ctx)
             .replace("__REGIONS__", "".join(regs) + "".join(lbls))
             .replace("__ALL__", f'<a class=all href="tree.html?open=All-India">\U0001f1ee\U0001f1f3 All-India tables · {alln}</a>'))
+    # data-science download strip: best Table VII per place-year + coverage matrix
+    dl = ""
+    if os.path.exists(os.path.join(OUT, "data", "tableVII_best.zip")):
+        mb = os.path.getsize(os.path.join(OUT, "data", "tableVII_best.zip")) // (1024 * 1024)
+        dl = ("<div style='margin:8px 16px;padding:10px 16px;background:#0a5d1e;color:#fff;border-radius:8px'>"
+              "<a href='best.html' style='color:#fff;font-weight:700;text-decoration:underline'>\U0001f50d Browse the best Table VII per place-year</a> &nbsp;·&nbsp; <b>\U0001f4e6 Download the dataset</b> — the BEST Age·Sex·Civil-Condition (Table VII) table for every "
+              "place &amp; census year, human-verified sources first, honest quality labels. "
+              f"<a href='data/tableVII_best.zip' style='color:#ffd966;font-weight:700'>tableVII_best.zip ({mb} MB)</a>"
+              " · <a href='data/coverage_matrix.csv' style='color:#cfe0ff'>coverage matrix CSV</a>"
+              " · <a href='data/coverage_matrix.png' style='color:#cfe0ff'>coverage map</a>"
+              " · <a href='data/tableVII_comparable.zip' style='color:#ffd966'>comparable series (harmonized age bands)</a>"
+              " · <a href='singleage.html' style='color:#ffd966;font-weight:700'>★ year-by-year age returns</a></div>")
+    page = page.replace("</header>", "</header>" + dl, 1) if "</header>" in page else page + dl
+    page = page.replace("</body>", f"<div style='text-align:center;color:#789;font-size:12px;padding:6px'>Site last updated {STAMP}</div></body>", 1)
     open(os.path.join(OUT, "index.html"), "w").write(page)
 
 

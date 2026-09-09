@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>1. Distribution of the Population by Civil Condition, Age</title>
+  <style>
+:root { --ink:#181715; --muted:#746d62; --line:#ddd4c7; --paper:#fffaf0; --panel:#f3eadb; --accent:#245b4d; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:#efe4d2; }
+a { color:#174f82; }
+.top { position:sticky; top:0; z-index:5; padding:12px 18px; background:#1d271f; color:#fff; display:flex; gap:16px; align-items:center; justify-content:space-between; }
+.top a { color:#d9f2e9; }
+.shell { display:grid; grid-template-columns:minmax(360px, 42vw) minmax(520px, 1fr); gap:0; min-height:calc(100vh - 52px); }
+.images { background:#211f1b; color:#f8f0e5; padding:14px; overflow:auto; max-height:calc(100vh - 52px); position:sticky; top:52px; }
+.compiled { padding:18px; overflow:auto; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:16px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.image-card { background:#302d27; border:1px solid #555047; border-radius:12px; padding:10px; margin-bottom:14px; }
+.image-card img { width:100%; height:auto; display:block; background:#fff; border:1px solid #4b463d; }
+.caption { margin-top:8px; font-size:12px; color:#d5cab9; overflow-wrap:anywhere; }
+.meta-grid { display:grid; grid-template-columns:180px minmax(0,1fr); gap:6px 12px; font-size:14px; }
+.key { color:var(--muted); font-weight:700; }
+.muted { color:var(--muted); }
+.badge { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:3px 8px; margin:2px 4px 2px 0; background:#fff; font-size:12px; }
+h1 { font-size:22px; margin:0; }
+h2 { font-size:18px; margin:0 0 10px; }
+h3 { font-size:15px; margin:0 0 8px; }
+.section-head { display:flex; justify-content:space-between; gap:12px; align-items:baseline; }
+.table-scroll { max-height:70vh; overflow:auto; border:1px solid var(--line); background:#fff; }
+table { border-collapse:collapse; font-size:12px; min-width:100%; }
+th, td { border:1px solid #ded8cc; padding:4px 6px; white-space:nowrap; vertical-align:top; }
+th { position:sticky; top:0; background:#e9f0eb; z-index:1; }
+td:first-child, th:first-child { position:sticky; left:0; background:#faf6ee; z-index:2; }
+th:first-child { z-index:3; background:#dfe9e2; }
+.index { padding:18px; }
+.index table { background:#fff; width:100%; }
+.index th, .index td { white-space:normal; }
+.summary { font-size:13px; color:#e9dfcf; }
+@media (max-width: 1100px) { .shell { grid-template-columns:1fr; } .images { position:relative; top:0; max-height:none; } }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div><strong>Assembled Table 1/53</strong></div>
+    <div><a href='index.html'>Index</a> · <a href='002_table_1881_age-sex-population_b7ac5eb78945.html'>Next</a></div>
+  </div>
+  <div class="shell">
+    <aside class="images">
+      <h1>Scanned Pages</h1>
+      <div class="summary">6 page image(s). Click an image to open the original PNG.</div>
+      <br>
+      <div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/5a94d253cdd5c2fc2639ec4a0b49181f371408be.png' target='_blank'><img src='thumbnails/2f06c45346f8.jpg'></a><div class='caption'>Page 1 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/5a94d253cdd5c2fc2639ec4a0b49181f371408be_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/5a94d253cdd5c2fc2639ec4a0b49181f371408be.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/abd42f626f41f6c9deb56ab70c4dd4ab55470f6e.png' target='_blank'><img src='thumbnails/d817d31879a1.jpg'></a><div class='caption'>Page 2 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/abd42f626f41f6c9deb56ab70c4dd4ab55470f6e_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/abd42f626f41f6c9deb56ab70c4dd4ab55470f6e.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/c2868103f129ce0d2aeb81a2cc36d7d175fb7cab.png' target='_blank'><img src='thumbnails/039232ff7afd.jpg'></a><div class='caption'>Page 3 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/c2868103f129ce0d2aeb81a2cc36d7d175fb7cab_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/c2868103f129ce0d2aeb81a2cc36d7d175fb7cab.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/d152ba080d0f4d47a0c99c389b67404d522a5fca.png' target='_blank'><img src='thumbnails/ba9f987719e0.jpg'></a><div class='caption'>Page 4 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/d152ba080d0f4d47a0c99c389b67404d522a5fca_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/d152ba080d0f4d47a0c99c389b67404d522a5fca.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/d235e2660864168e55e487952f9b6a496909b2db.png' target='_blank'><img src='thumbnails/f81e21ec2fe2.jpg'></a><div class='caption'>Page 5 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/d235e2660864168e55e487952f9b6a496909b2db_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single/d235e2660864168e55e487952f9b6a496909b2db.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0004_A-L-Age-and-Sex-Ar-ranged-by-Religion-cnnn-i.-E-Te-AGES-j.-i-PIE-LE-H-MIZ-RELIGI/1dc19bba2b1e8bd499e1811bf91d78b442f1f6cc.png' target='_blank'><img src='thumbnails/b408d533daa9.jpg'></a><div class='caption'>Page 6 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/24e7883bd55f203d_t0004_A-L-Age-and-Sex-Ar-ranged-by-Religion-cnnn-i.-E-Te-AGES-j.-i-PIE-LE-H-MIZ-RELIGI/1dc19bba2b1e8bd499e1811bf91d78b442f1f6cc_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/24e7883bd55f203d_t0004_A-L-Age-and-Sex-Ar-ranged-by-Religion-cnnn-i.-E-Te-AGES-j.-i-PIE-LE-H-MIZ-RELIGI/1dc19bba2b1e8bd499e1811bf91d78b442f1f6cc.png' target='_blank'>Open original image</a></div></div>
+    </aside>
+    <main class="compiled">
+      <div class="card">
+        <h1>Distribution of the Population by Civil Condition, Age</h1>
+        <p class="muted">This is the compiled output from all member pages in the assembled group.</p>
+        <div class="meta-grid"><div class='key'>group_id</div><div>dir::/n/home11/cruano/census_pdfs/1881/saoa.crl.25057654.pdf::age_sex_population::24e7883bd55f203d_t0002_Form-VI-s-AGES.-Age-w-Sex-arranged-b-by-Provinces-or-r-States.-IR-Single</div>
+<div class='key'>province</div><div>/</div>
+<div class='key'>year</div><div>1881</div>
+<div class='key'>table_family</div><div>age_sex_population</div>
+<div class='key'>n_pages</div><div>6</div>
+<div class='key'>overall_strategy</div><div>mixed</div>
+<div class='key'>signals</div><div>continued_marker</div>
+<div class='key'>constraint checks</div><div>2540</div>
+<div class='key'>constraint failures</div><div>0</div>
+<div class='key'>all passed</div><div>True</div>
+<div class='key'>source_file</div><div>/n/home11/cruano/census_pdfs/1881/saoa.crl.25057654.pdf</div></div>
+      </div>
+      <div class='card'><div class='section-head'><h2>Section 1: Distribution of the Population by Civil Condition, Age</h2><span class='muted'>strategy=row_append; input_pages=2; output_rows=31</span></div><div class='table-scroll'><table>
+<tr><th>PROVINCE OR STATE.</th><th>PROVINCE OR STATE</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th><th>25-29 | persons</th><th>25-29 | males</th><th>25-29 | females</th><th>30-39 | persons</th><th>30-39 | males</th><th>30-39 | females</th><th>40-49 | persons</th><th>40-49 | males</th><th>40-49 | females</th><th>50-59 | persons</th><th>50-59 | males</th><th>50-59 | females</th></tr>
+<tr><td>AJMERE-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td></td><td>561</td><td>535</td><td>26</td><td>0</td><td>0</td><td>0</td><td>192136</td><td>124565</td><td>67571</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Married</td><td></td><td>7145</td><td>6014</td><td>1131</td><td>0</td><td>0</td><td>0</td><td>221055</td><td>111800</td><td>109255</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Widowed</td><td></td><td>11710</td><td>3021</td><td>8689</td><td>0</td><td>0</td><td>0</td><td>47531</td><td>12479</td><td>35052</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Unspecified</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>TOTAL</td><td></td><td>19416</td><td>9570</td><td>9846</td><td>0</td><td>0</td><td>0</td><td>460722</td><td>248844</td><td>211878</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>ASSAM-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>BENGAL-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>BERAR-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>BOMBAY-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>British Territory-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Feudatory States-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>BURMAH-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>CENTRAL PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Unspecified (C. P. Feudatory States only)*</td><td></td><td>79184</td><td>35261</td><td>43923</td><td>107</td><td>34</td><td>73</td><td>1709720</td><td>867687</td><td>842033</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>COORG-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>MADRAS-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>Single</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>368572</td><td>331598</td><td>36974</td><td>236728</td><td>191613</td><td>45115</td><td>67098</td><td>42624</td><td>24474</td><td>30846</td><td>17816</td><td>13030</td></tr>
+<tr><td></td><td>Married</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1977197</td><td>871047</td><td>1106150</td><td>3435476</td><td>1920643</td><td>1514833</td><td>2000652</td><td>1303589</td><td>697063</td><td>1005784</td><td>737522</td><td>268262</td></tr>
+<tr><td></td><td>Widowed</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>222498</td><td>30725</td><td>191773</td><td>708059</td><td>102004</td><td>606055</td><td>850532</td><td>116618</td><td>733914</td><td>796000</td><td>118458</td><td>677542</td></tr>
+<tr><td></td><td>Unspecified</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>680</td><td>296</td><td>384</td><td>1222</td><td>524</td><td>698</td><td>780</td><td>370</td><td>410</td><td>464</td><td>218</td><td>246</td></tr>
+<tr><td></td><td>TOTAL</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>2568947</td><td>1233666</td><td>1335281</td><td>4381485</td><td>2214784</td><td>2166701</td><td>2919062</td><td>1463201</td><td>1455861</td><td>1833094</td><td>874014</td><td>959080</td></tr>
+<tr><td></td><td>N.-W. PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>British Territory-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>Feudatory States-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>PUNJAB-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>BARODA-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>HYDERABAD-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>MYSORE-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>RAJPUTANA, CENTRAL INDIA, COCHIN, TRAVANCORE-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td>GRAND TOTAL ALL PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 2: and Sex arranged by Provinces or States-continued.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=65</span></div><div class='table-scroll'><table>
+<tr><th>PROVINCE OR STATE.</th><th>0-9. | persons</th><th>0-9. | males</th><th>0-9. | females</th><th>10-14. | persons</th><th>10-14. | males</th><th>10-14. | females</th><th>15-19. | persons</th><th>15-19. | males</th><th>15-19. | females</th><th>20-24. | persons</th><th>20-24. | males</th><th>20-24. | females</th></tr>
+<tr><td>MADRAS-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>7714862</td><td>3869360</td><td>3845502</td><td>3102930</td><td>1890578</td><td>1212352</td><td>1409601</td><td>1110894</td><td>298707</td><td>764214</td><td>686843</td><td>77371</td></tr>
+<tr><td>Married</td><td>191593</td><td>28896</td><td>162697</td><td>562524</td><td>72790</td><td>489734</td><td>1054721</td><td>188840</td><td>865881</td><td>1782285</td><td>518580</td><td>1263705</td></tr>
+<tr><td>Widowed</td><td>6840</td><td>930</td><td>5910</td><td>27907</td><td>2298</td><td>25609</td><td>58292</td><td>4776</td><td>53516</td><td>160381</td><td>14810</td><td>145571</td></tr>
+<tr><td>Unspecified</td><td>39524</td><td>20282</td><td>19242</td><td>1738</td><td>953</td><td>785</td><td>742</td><td>345</td><td>397</td><td>825</td><td>348</td><td>477</td></tr>
+<tr><td>TOTAL</td><td>7952819</td><td>3919468</td><td>4033351</td><td>3695099</td><td>1966619</td><td>1728480</td><td>2523356</td><td>1304855</td><td>1218501</td><td>2707705</td><td>1220581</td><td>1487124</td></tr>
+<tr><td>N.-W. PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>British Territory-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>10990853</td><td>5743497</td><td>5247356</td><td>3166801</td><td>2236013</td><td>930788</td><td>1043689</td><td>930827</td><td>112862</td><td>576614</td><td>545310</td><td>31304</td></tr>
+<tr><td>Married</td><td>408611</td><td>127821</td><td>280790</td><td>1766126</td><td>601562</td><td>1164564</td><td>2243989</td><td>874101</td><td>1369888</td><td>3130748</td><td>1312578</td><td>1818170</td></tr>
+<tr><td>Widowed</td><td>9122</td><td>4449</td><td>4673</td><td>45534</td><td>21941</td><td>23593</td><td>85248</td><td>42988</td><td>42260</td><td>176767</td><td>86519</td><td>90248</td></tr>
+<tr><td>Unspecified</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>TOTAL</td><td>11408586</td><td>5875767</td><td>5532819</td><td>4978461</td><td>2859516</td><td>2118945</td><td>3372926</td><td>1847916</td><td>1525010</td><td>3884129</td><td>1944407</td><td>1939722</td></tr>
+<tr><td>N.-W. PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Feudatory States-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>198008</td><td>103836</td><td>94172</td><td>54162</td><td>37286</td><td>16876</td><td>19713</td><td>16918</td><td>2795</td><td>9200</td><td>8510</td><td>690</td></tr>
+<tr><td>Married</td><td>6302</td><td>1799</td><td>4503</td><td>27935</td><td>9590</td><td>18345</td><td>40077</td><td>15033</td><td>25044</td><td>51803</td><td>21344</td><td>30459</td></tr>
+<tr><td>Widowed</td><td>207</td><td>125</td><td>82</td><td>646</td><td>415</td><td>231</td><td>1209</td><td>759</td><td>450</td><td>2460</td><td>1469</td><td>991</td></tr>
+<tr><td>Unspecified</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>TOTAL</td><td>204517</td><td>105760</td><td>98757</td><td>82743</td><td>47291</td><td>35452</td><td>60999</td><td>32710</td><td>28289</td><td>63463</td><td>31323</td><td>32140</td></tr>
+<tr><td>PUNJAB-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>British Territory-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>5009356</td><td>2666922</td><td>2342434</td><td>1710298</td><td>1107206</td><td>603092</td><td>732306</td><td>602735</td><td>129571</td><td>395822</td><td>369634</td><td>26188</td></tr>
+<tr><td>Married</td><td>69716</td><td>18103</td><td>51613</td><td>442758</td><td>132294</td><td>310464</td><td>887413</td><td>292930</td><td>594483</td><td>1197324</td><td>470542</td><td>726782</td></tr>
+<tr><td>Widowed</td><td>1519</td><td>527</td><td>992</td><td>8976</td><td>3519</td><td>5457</td><td>26205</td><td>10298</td><td>15907</td><td>58452</td><td>24172</td><td>34280</td></tr>
+<tr><td>Unspecified</td><td>0</td><td>0</td><td>0</td><td>7</td><td>7</td><td>0</td><td>6</td><td>4</td><td>2</td><td>52</td><td>50</td><td>2</td></tr>
+<tr><td>TOTAL</td><td>5080591</td><td>2685552</td><td>2395039</td><td>2162039</td><td>1243026</td><td>919013</td><td>1645930</td><td>905967</td><td>739963</td><td>1651650</td><td>864398</td><td>787252</td></tr>
+<tr><td>PUNJAB-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Feudatory States-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>957666</td><td>514404</td><td>443262</td><td>316087</td><td>212771</td><td>103316</td><td>146535</td><td>128116</td><td>18419</td><td>84680</td><td>80987</td><td>3693</td></tr>
+<tr><td>Married</td><td>20297</td><td>4999</td><td>15298</td><td>99431</td><td>28073</td><td>71358</td><td>185769</td><td>61772</td><td>123997</td><td>253287</td><td>101505</td><td>151782</td></tr>
+<tr><td>Widowed</td><td>340</td><td>124</td><td>216</td><td>2127</td><td>806</td><td>1321</td><td>5774</td><td>2335</td><td>3439</td><td>12850</td><td>5444</td><td>7406</td></tr>
+<tr><td>Unspecified</td><td>10</td><td>8</td><td>2</td><td>5</td><td>3</td><td>2</td><td>12</td><td>7</td><td>5</td><td>19</td><td>15</td><td>4</td></tr>
+<tr><td>TOTAL</td><td>978313</td><td>519535</td><td>458778</td><td>417650</td><td>241653</td><td>175997</td><td>338090</td><td>192230</td><td>145860</td><td>350836</td><td>187951</td><td>162885</td></tr>
+<tr><td>BARODA-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>530193</td><td>283083</td><td>247110</td><td>151419</td><td>100854</td><td>50565</td><td>55431</td><td>47384</td><td>8047</td><td>29930</td><td>27941</td><td>1989</td></tr>
+<tr><td>Married</td><td>63865</td><td>19764</td><td>44101</td><td>94913</td><td>35709</td><td>59204</td><td>118313</td><td>48674</td><td>69639</td><td>162835</td><td>71511</td><td>91324</td></tr>
+<tr><td>Widowed</td><td>1672</td><td>829</td><td>843</td><td>2902</td><td>1151</td><td>1751</td><td>4090</td><td>1513</td><td>2577</td><td>7741</td><td>2856</td><td>4885</td></tr>
+<tr><td>Unspecified</td><td>7</td><td>6</td><td>1</td><td>3</td><td>2</td><td>1</td><td>8</td><td>4</td><td>4</td><td>12</td><td>11</td><td>1</td></tr>
+<tr><td>TOTAL</td><td>595737</td><td>303682</td><td>292055</td><td>249237</td><td>137716</td><td>111521</td><td>177842</td><td>97575</td><td>80267</td><td>200518</td><td>102319</td><td>98199</td></tr>
+<tr><td>HYDERABAD-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>2372114</td><td>1250585</td><td>1121529</td><td>652623</td><td>506796</td><td>145827</td><td>247616</td><td>220584</td><td>27032</td><td>133166</td><td>118300</td><td>14866</td></tr>
+<tr><td>Married</td><td>200592</td><td>34305</td><td>166287</td><td>435398</td><td>104533</td><td>330865</td><td>498756</td><td>165442</td><td>333314</td><td>690066</td><td>277623</td><td>412443</td></tr>
+<tr><td>Widowed</td><td>6167</td><td>1255</td><td>4912</td><td>18270</td><td>4410</td><td>13860</td><td>25026</td><td>6413</td><td>18613</td><td>47004</td><td>10696</td><td>36308</td></tr>
+<tr><td>Unspecified</td><td>159</td><td>21</td><td>138</td><td>26</td><td>2</td><td>24</td><td>5</td><td>0</td><td>5</td><td>29</td><td>11</td><td>18</td></tr>
+<tr><td>TOTAL</td><td>2579032</td><td>1286166</td><td>1292866</td><td>1106317</td><td>615741</td><td>490576</td><td>771403</td><td>392439</td><td>378964</td><td>870265</td><td>406630</td><td>463635</td></tr>
+<tr><td>MYSORE-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>965611</td><td>475493</td><td>490118</td><td>475722</td><td>282690</td><td>193032</td><td>218054</td><td>175702</td><td>42352</td><td>119174</td><td>107291</td><td>11883</td></tr>
+<tr><td>Married</td><td>13549</td><td>1307</td><td>12242</td><td>77782</td><td>8122</td><td>69660</td><td>152470</td><td>25922</td><td>126548</td><td>226911</td><td>65617</td><td>161294</td></tr>
+<tr><td>Widowed</td><td>387</td><td>27</td><td>360</td><td>5372</td><td>352</td><td>5020</td><td>14648</td><td>1209</td><td>13439</td><td>35132</td><td>3878</td><td>31254</td></tr>
+<tr><td>Unspecified</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>TOTAL</td><td>979547</td><td>476827</td><td>502720</td><td>558876</td><td>291164</td><td>267712</td><td>385172</td><td>202833</td><td>182339</td><td>381217</td><td>176786</td><td>204431</td></tr>
+<tr><td>RAJPUTANA, CENTRAL INDIA, CO-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>CHIN, TRAVANCORE-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Married</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Widowed</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Unspecified</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>TOTAL</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>GRAND TOTAL ALL PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single</td><td>59946237</td><td>31138074</td><td>28808163</td><td>17367276</td><td>11901478</td><td>5465798</td><td>6887426</td><td>5822491</td><td>1064935</td><td>3605670</td><td>3306490</td><td>299180</td></tr>
+<tr><td>Married</td><td>3084390</td><td>758702</td><td>2325688</td><td>7760348</td><td>2143888</td><td>5616460</td><td>10729918</td><td>3479916</td><td>7250002</td><td>14777830</td><td>5726872</td><td>9050958</td></tr>
+<tr><td>Widowed</td><td>103749</td><td>24773</td><td>78976</td><td>282684</td><td>75296</td><td>207388</td><td>514611</td><td>131875</td><td>382736</td><td>1012077</td><td>260108</td><td>751969</td></tr>
+<tr><td>Unspecified</td><td>619577</td><td>307516</td><td>312061</td><td>186799</td><td>104749</td><td>82050</td><td>135573</td><td>68217</td><td>67356</td><td>148000</td><td>67681</td><td>80319</td></tr>
+<tr><td>TOTAL</td><td>63753953</td><td>32229065</td><td>31524888</td><td>25597107</td><td>14225411</td><td>11371696</td><td>18267528</td><td>9502499</td><td>8765029</td><td>19543577</td><td>9361151</td><td>10182426</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 3: and Sex arranged by Provinces or States - concluded.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=64</span></div><div class='table-scroll'><table>
+<tr><th>PROVINCE OR STATE.</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th></tr>
+<tr><td>MADRAS-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>23041</td><td>12960</td><td>10081</td><td>21372</td><td>11767</td><td>9605</td><td>13739264</td><td>8166053</td><td>5573211</td></tr>
+<tr><td>Married.</td><td>624456</td><td>536071</td><td>88385</td><td>22874</td><td>11407</td><td>11467</td><td>12657562</td><td>6189385</td><td>6468177</td></tr>
+<tr><td>Widowed.</td><td>986879</td><td>180534</td><td>806345</td><td>6781</td><td>3005</td><td>3776</td><td>3824169</td><td>574158</td><td>3250011</td></tr>
+<tr><td>Unspecified.</td><td>457</td><td>213</td><td>244</td><td>903204</td><td>467898</td><td>435306</td><td>949636</td><td>491447</td><td>458189</td></tr>
+<tr><td>Total</td><td>1634833</td><td>729778</td><td>905055</td><td>954231</td><td>494077</td><td>460154</td><td>31170631</td><td>15421043</td><td>15749588</td></tr>
+<tr><td>N.-W. PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>British Territory-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>56651</td><td>51242</td><td>5409</td><td>0</td><td>0</td><td>0</td><td>16751875</td><td>10362495</td><td>6389380</td></tr>
+<tr><td>Married.</td><td>922481</td><td>698043</td><td>224438</td><td>0</td><td>0</td><td>0</td><td>22291226</td><td>11107400</td><td>11183826</td></tr>
+<tr><td>Widowed.</td><td>1464192</td><td>361952</td><td>1102240</td><td>0</td><td>0</td><td>0</td><td>5064768</td><td>1442661</td><td>3622107</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>2443324</td><td>1111237</td><td>1332087</td><td>0</td><td>0</td><td>0</td><td>44107869</td><td>22912556</td><td>21195313</td></tr>
+<tr><td>N.-W. PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Feudatory States-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>630</td><td>438</td><td>192</td><td>0</td><td>0</td><td>0</td><td>294128</td><td>177880</td><td>116248</td></tr>
+<tr><td>Married.</td><td>16425</td><td>12517</td><td>3908</td><td>0</td><td>0</td><td>0</td><td>378729</td><td>186606</td><td>192123</td></tr>
+<tr><td>Widowed.</td><td>22103</td><td>4869</td><td>17234</td><td>0</td><td>0</td><td>0</td><td>68893</td><td>20213</td><td>48680</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>39158</td><td>17824</td><td>21334</td><td>0</td><td>0</td><td>0</td><td>741750</td><td>384699</td><td>357051</td></tr>
+<tr><td>PUNJAB-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>British Territory-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>42183</td><td>39631</td><td>2552</td><td>0</td><td>0</td><td>0</td><td>8477748</td><td>5347957</td><td>3129791</td></tr>
+<tr><td>Married.</td><td>461021</td><td>356524</td><td>104497</td><td>0</td><td>0</td><td>0</td><td>8512555</td><td>4234580</td><td>4277975</td></tr>
+<tr><td>Widowed.</td><td>575917</td><td>194875</td><td>381042</td><td>0</td><td>0</td><td>0</td><td>1852604</td><td>620151</td><td>1232453</td></tr>
+<tr><td>Unspecified.</td><td>5</td><td>5</td><td>0</td><td>7377</td><td>7221</td><td>156</td><td>7530</td><td>7365</td><td>165</td></tr>
+<tr><td>Total</td><td>1079126</td><td>591035</td><td>488091</td><td>7377</td><td>7221</td><td>156</td><td>18850437</td><td>10210053</td><td>8640384</td></tr>
+<tr><td>PUNJAB-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Feudatory States-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>9393</td><td>9064</td><td>329</td><td>0</td><td>0</td><td>0</td><td>1652688</td><td>1079274</td><td>573414</td></tr>
+<tr><td>Married.</td><td>96086</td><td>74123</td><td>21963</td><td>0</td><td>0</td><td>0</td><td>1797040</td><td>891877</td><td>905163</td></tr>
+<tr><td>Widowed.</td><td>125969</td><td>42668</td><td>83301</td><td>0</td><td>0</td><td>0</td><td>411858</td><td>141078</td><td>270780</td></tr>
+<tr><td>Unspecified.</td><td>4</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>97</td><td>74</td><td>23</td></tr>
+<tr><td>Total</td><td>231452</td><td>125855</td><td>105597</td><td>0</td><td>0</td><td>0</td><td>3861683</td><td>2112303</td><td>1749380</td></tr>
+<tr><td>BARODA-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>2841</td><td>2723</td><td>118</td><td>0</td><td>0</td><td>0</td><td>815062</td><td>504870</td><td>310192</td></tr>
+<tr><td>Married.</td><td>36326</td><td>26684</td><td>9642</td><td>0</td><td>0</td><td>0</td><td>1149695</td><td>575576</td><td>574119</td></tr>
+<tr><td>Widowed.</td><td>50648</td><td>12026</td><td>38622</td><td>0</td><td>0</td><td>0</td><td>220162</td><td>58998</td><td>161164</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>86</td><td>68</td><td>18</td></tr>
+<tr><td>Total</td><td>89815</td><td>41433</td><td>48382</td><td>0</td><td>0</td><td>0</td><td>2185005</td><td>1139512</td><td>1045493</td></tr>
+<tr><td>HYDERABAD-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>8263</td><td>5822</td><td>2441</td><td>38613</td><td>11318</td><td>27295</td><td>3609652</td><td>2241131</td><td>1368521</td></tr>
+<tr><td>Married.</td><td>208468</td><td>171014</td><td>37454</td><td>40094</td><td>9654</td><td>30440</td><td>5012785</td><td>2527304</td><td>2485481</td></tr>
+<tr><td>Widowed.</td><td>283121</td><td>55353</td><td>227768</td><td>14210</td><td>2204</td><td>12006</td><td>1150996</td><td>232704</td><td>918292</td></tr>
+<tr><td>Unspecified.</td><td>1</td><td>1</td><td>0</td><td>71801</td><td>888</td><td>70913</td><td>72161</td><td>998</td><td>71163</td></tr>
+<tr><td>Total</td><td>499853</td><td>232190</td><td>267663</td><td>164718</td><td>24064</td><td>140654</td><td>9845594</td><td>5002137</td><td>4843457</td></tr>
+<tr><td>MYSORE.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>2470</td><td>1607</td><td>863</td><td>0</td><td>0</td><td>0</td><td>1913237</td><td>1155674</td><td>757563</td></tr>
+<tr><td>Married.</td><td>53968</td><td>46922</td><td>7046</td><td>0</td><td>0</td><td>0</td><td>1616904</td><td>802297</td><td>814607</td></tr>
+<tr><td>Widowed.</td><td>111782</td><td>26053</td><td>85729</td><td>0</td><td>0</td><td>0</td><td>656047</td><td>127871</td><td>528176</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>168220</td><td>74582</td><td>93638</td><td>0</td><td>0</td><td>0</td><td>4186188</td><td>2085842</td><td>2100346</td></tr>
+<tr><td>RAJPUTANA, CENTRAL INDIA, COCHIN, TRAVANCORE-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>0</td><td>0</td><td>0</td><td>312052</td><td>183767</td><td>128285</td><td>312052</td><td>183767</td><td>128285</td></tr>
+<tr><td>Married.</td><td>0</td><td>0</td><td>0</td><td>349425</td><td>168336</td><td>181089</td><td>349425</td><td>168336</td><td>181089</td></tr>
+<tr><td>Widowed.</td><td>0</td><td>0</td><td>0</td><td>29612</td><td>3916</td><td>25696</td><td>29612</td><td>3916</td><td>25696</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>21840646</td><td>11570418</td><td>10270228</td><td>21840646</td><td>11570418</td><td>10270228</td></tr>
+<tr><td>Total</td><td>0</td><td>0</td><td>0</td><td>22531735</td><td>11926437</td><td>10605298</td><td>22531735</td><td>11926437</td><td>10605298</td></tr>
+<tr><td>GRAND TOTAL ALL PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>212151</td><td>175597</td><td>36554</td><td>422721</td><td>233238</td><td>189483</td><td>92775178</td><td>56521018</td><td>36254160</td></tr>
+<tr><td>Married.</td><td>4814203</td><td>3830784</td><td>983419</td><td>480560</td><td>223898</td><td>256662</td><td>109397661</td><td>54518665</td><td>54878996</td></tr>
+<tr><td>Widowed.</td><td>7107113</td><td>1522315</td><td>5584798</td><td>56321</td><td>10341</td><td>45980</td><td>26630563</td><td>5691937</td><td>20938626</td></tr>
+<tr><td>Unspecified.</td><td>82161</td><td>36657</td><td>45504</td><td>23261901</td><td>12282379</td><td>10979522</td><td>25088419</td><td>13210231</td><td>11878188</td></tr>
+<tr><td>Total</td><td>12215628</td><td>5565353</td><td>6650275</td><td>24221503</td><td>12749856</td><td>11471647</td><td>253891821</td><td>129941851</td><td>123949970</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 4: Form VI. Age and Sex arranged by Provinces or States.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=57</span></div><div class='table-scroll'><table>
+<tr><th>PROVINCE OR STATE.</th><th>25-29. | persons</th><th>25-29. | males</th><th>25-29. | females</th><th>30-39. | persons</th><th>30-39. | males</th><th>30-39. | females</th><th>40-49. | persons</th><th>40-49. | males</th><th>40-49. | females</th><th>50-59. | persons</th><th>50-59. | males</th><th>50-59. | females</th></tr>
+<tr><td>AJMERE-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>6091</td><td>6003</td><td>88</td><td>4253</td><td>4158</td><td>95</td><td>1539</td><td>1481</td><td>58</td><td>889</td><td>847</td><td>42</td></tr>
+<tr><td>Married.</td><td>37140</td><td>18113</td><td>19027</td><td>58466</td><td>32381</td><td>26085</td><td>32045</td><td>19840</td><td>12205</td><td>16190</td><td>11788</td><td>4402</td></tr>
+<tr><td>Widowed.</td><td>2191</td><td>849</td><td>1342</td><td>7596</td><td>2183</td><td>5413</td><td>11508</td><td>2541</td><td>8967</td><td>12027</td><td>2848</td><td>9179</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>45422</td><td>24965</td><td>20457</td><td>70315</td><td>38722</td><td>31593</td><td>45092</td><td>23862</td><td>21230</td><td>29106</td><td>15483</td><td>13623</td></tr>
+<tr><td>ASSAM-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>54218</td><td>46442</td><td>7776</td><td>35692</td><td>29790</td><td>5902</td><td>12409</td><td>9855</td><td>2554</td><td>5232</td><td>4017</td><td>1215</td></tr>
+<tr><td>Married.</td><td>373984</td><td>170816</td><td>203168</td><td>542571</td><td>310878</td><td>231693</td><td>302511</td><td>195631</td><td>106880</td><td>158319</td><td>111826</td><td>46493</td></tr>
+<tr><td>Widowed.</td><td>34361</td><td>6746</td><td>27615</td><td>80507</td><td>15200</td><td>65307</td><td>95926</td><td>17082</td><td>78844</td><td>90992</td><td>16864</td><td>74128</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>462563</td><td>224004</td><td>238559</td><td>658770</td><td>355868</td><td>302902</td><td>410846</td><td>222568</td><td>188278</td><td>254543</td><td>132707</td><td>121836</td></tr>
+<tr><td>BENGAL-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>444460</td><td>416045</td><td>28415</td><td>288933</td><td>259349</td><td>29584</td><td>91578</td><td>78495</td><td>13083</td><td>40060</td><td>33108</td><td>6952</td></tr>
+<tr><td>Married.</td><td>5261885</td><td>2523344</td><td>2738541</td><td>8174578</td><td>4632418</td><td>3542160</td><td>4702517</td><td>3051988</td><td>1650529</td><td>2350225</td><td>1685330</td><td>664895</td></tr>
+<tr><td>Widowed.</td><td>585261</td><td>102073</td><td>483188</td><td>1562273</td><td>241859</td><td>1320414</td><td>1903252</td><td>266230</td><td>1637022</td><td>1690478</td><td>253326</td><td>1437152</td></tr>
+<tr><td>Unspecified.</td><td>6336</td><td>3167</td><td>3169</td><td>9938</td><td>5001</td><td>4937</td><td>6017</td><td>3311</td><td>2706</td><td>3335</td><td>1811</td><td>1524</td></tr>
+<tr><td>Total</td><td>6297942</td><td>3044629</td><td>3253313</td><td>10035722</td><td>5138627</td><td>4897095</td><td>6703364</td><td>3400024</td><td>3303340</td><td>4084098</td><td>1973575</td><td>2110523</td></tr>
+<tr><td>BERAR-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>14460</td><td>13127</td><td>1333</td><td>13250</td><td>11552</td><td>1698</td><td>5572</td><td>4690</td><td>882</td><td>2967</td><td>2526</td><td>441</td></tr>
+<tr><td>Married.</td><td>228343</td><td>115221</td><td>113122</td><td>354862</td><td>202493</td><td>152369</td><td>205456</td><td>127530</td><td>77926</td><td>109919</td><td>77934</td><td>31985</td></tr>
+<tr><td>Widowed.</td><td>13133</td><td>5484</td><td>7649</td><td>39626</td><td>13971</td><td>25655</td><td>56011</td><td>13815</td><td>42196</td><td>62965</td><td>13813</td><td>49152</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>255936</td><td>133832</td><td>122104</td><td>407738</td><td>228016</td><td>179722</td><td>267039</td><td>146035</td><td>121004</td><td>175851</td><td>94273</td><td>81578</td></tr>
+<tr><td>BOMBAY-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>British Territory-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>140265</td><td>127996</td><td>12269</td><td>116580</td><td>101750</td><td>14830</td><td>43948</td><td>36534</td><td>7414</td><td>23317</td><td>18912</td><td>4405</td></tr>
+<tr><td>Married.</td><td>1301193</td><td>644445</td><td>656748</td><td>1999975</td><td>1114362</td><td>885613</td><td>1085191</td><td>676671</td><td>408520</td><td>565203</td><td>387795</td><td>177408</td></tr>
+<tr><td>Widowed.</td><td>116673</td><td>34274</td><td>82399</td><td>342786</td><td>84960</td><td>257826</td><td>414121</td><td>89460</td><td>324661</td><td>411459</td><td>90522</td><td>320937</td></tr>
+<tr><td>Unspecified.</td><td>69</td><td>47</td><td>22</td><td>115</td><td>81</td><td>34</td><td>93</td><td>66</td><td>27</td><td>80</td><td>62</td><td>18</td></tr>
+<tr><td>Total</td><td>1558200</td><td>806762</td><td>751438</td><td>2459456</td><td>1301153</td><td>1158303</td><td>1543353</td><td>802731</td><td>740622</td><td>1000059</td><td>497291</td><td>502768</td></tr>
+<tr><td>BOMBAY-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Feudatory States-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>42242</td><td>38736</td><td>3506</td><td>30899</td><td>27034</td><td>3865</td><td>13380</td><td>11295</td><td>2085</td><td>6847</td><td>5795</td><td>1052</td></tr>
+<tr><td>Married.</td><td>549676</td><td>276096</td><td>273580</td><td>752229</td><td>419477</td><td>332752</td><td>393828</td><td>245170</td><td>148658</td><td>187482</td><td>131844</td><td>55638</td></tr>
+<tr><td>Widowed.</td><td>53382</td><td>16875</td><td>36507</td><td>147596</td><td>36820</td><td>110776</td><td>175777</td><td>38922</td><td>136855</td><td>163382</td><td>36820</td><td>126562</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>645300</td><td>331707</td><td>313593</td><td>930724</td><td>483331</td><td>447393</td><td>582985</td><td>295387</td><td>287598</td><td>357711</td><td>174459</td><td>183252</td></tr>
+<tr><td>BURMAH-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>63068</td><td>53521</td><td>9547</td><td>46222</td><td>39940</td><td>6282</td><td>14855</td><td>12139</td><td>2716</td><td>7138</td><td>5229</td><td>1909</td></tr>
+<tr><td>Married.</td><td>232139</td><td>115887</td><td>116252</td><td>424890</td><td>241353</td><td>183537</td><td>284699</td><td>163819</td><td>120880</td><td>152939</td><td>91880</td><td>61059</td></tr>
+<tr><td>Widowed.</td><td>14061</td><td>6182</td><td>7879</td><td>34055</td><td>15573</td><td>18482</td><td>43138</td><td>15948</td><td>27190</td><td>49456</td><td>13651</td><td>35805</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>309268</td><td>175590</td><td>133678</td><td>505167</td><td>296866</td><td>208301</td><td>342692</td><td>191906</td><td>150786</td><td>209533</td><td>110760</td><td>98773</td></tr>
+<tr><td>CENTRAL PROVINCES-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>British Territory-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>58232</td><td>52668</td><td>5564</td><td>42565</td><td>36796</td><td>5769</td><td>15527</td><td>12822</td><td>2705</td><td>6620</td><td>5389</td><td>1231</td></tr>
+<tr><td>Married.</td><td>812217</td><td>375601</td><td>436616</td><td>1223090</td><td>655850</td><td>567240</td><td>706382</td><td>431644</td><td>274738</td><td>342680</td><td>230622</td><td>112058</td></tr>
+<tr><td>Widowed.</td><td>45862</td><td>16868</td><td>28994</td><td>135118</td><td>39369</td><td>95749</td><td>196843</td><td>42080</td><td>154763</td><td>198325</td><td>38947</td><td>159378</td></tr>
+<tr><td>Unspecified, (C. P. Feudatory States only).*</td><td>153490</td><td>75747</td><td>77743</td><td>242764</td><td>128696</td><td>114068</td><td>149604</td><td>82751</td><td>66853</td><td>79095</td><td>40645</td><td>38450</td></tr>
+<tr><td>Total</td><td>1069801</td><td>520884</td><td>548917</td><td>1643537</td><td>860711</td><td>782826</td><td>1068356</td><td>569297</td><td>499059</td><td>626720</td><td>315603</td><td>311117</td></tr>
+<tr><td>COORG-</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Single.</td><td>4100</td><td>3857</td><td>243</td><td>2080</td><td>1932</td><td>148</td><td>359</td><td>316</td><td>43</td><td>103</td><td>92</td><td>11</td></tr>
+<tr><td>Married.</td><td>15923</td><td>8583</td><td>7340</td><td>22178</td><td>15104</td><td>7074</td><td>9722</td><td>7495</td><td>2227</td><td>3627</td><td>2991</td><td>636</td></tr>
+<tr><td>Widowed.</td><td>2348</td><td>715</td><td>1633</td><td>5315</td><td>1631</td><td>3684</td><td>4556</td><td>1090</td><td>3466</td><td>3020</td><td>636</td><td>2384</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>22371</td><td>13155</td><td>9216</td><td>29573</td><td>18667</td><td>10906</td><td>14637</td><td>8901</td><td>5736</td><td>6750</td><td>3719</td><td>3031</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 5: NAT WORSHIP</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=5</span></div><div class='table-scroll'><table>
+<tr><th>RELIGION.</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th></tr>
+<tr><td>Single.</td><td>114</td><td>44</td><td>70</td><td>0</td><td>0</td><td>0</td><td>78320</td><td>42231</td><td>36089</td></tr>
+<tr><td>Married.</td><td>3324</td><td>2400</td><td>924</td><td>0</td><td>0</td><td>0</td><td>56144</td><td>28229</td><td>27915</td></tr>
+<tr><td>Widowed.</td><td>2835</td><td>856</td><td>1979</td><td>0</td><td>0</td><td>0</td><td>9117</td><td>3005</td><td>6112</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>6273</td><td>3300</td><td>2973</td><td>0</td><td>0</td><td>0</td><td>143581</td><td>73465</td><td>70116</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 6: PARSI</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=5</span></div><div class='table-scroll'><table>
+<tr><th>RELIGION.</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th></tr>
+<tr><td>Single.</td><td>29</td><td>26</td><td>3</td><td>334</td><td>195</td><td>139</td><td>36208</td><td>21105</td><td>15103</td></tr>
+<tr><td>Married.</td><td>2237</td><td>1520</td><td>717</td><td>367</td><td>207</td><td>160</td><td>41010</td><td>20623</td><td>20387</td></tr>
+<tr><td>Widowed.</td><td>2654</td><td>603</td><td>2051</td><td>49</td><td>10</td><td>39</td><td>7930</td><td>1740</td><td>6190</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>194</td><td>106</td><td>88</td><td>202</td><td>112</td><td>90</td></tr>
+<tr><td>Total</td><td>4920</td><td>2149</td><td>2771</td><td>944</td><td>518</td><td>426</td><td>85350</td><td>43580</td><td>41770</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 7: JEW</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=5</span></div><div class='table-scroll'><table>
+<tr><th>RELIGION.</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th></tr>
+<tr><td>Single.</td><td>11</td><td>9</td><td>2</td><td>16</td><td>9</td><td>7</td><td>4945</td><td>2790</td><td>2155</td></tr>
+<tr><td>Married.</td><td>221</td><td>187</td><td>34</td><td>19</td><td>11</td><td>8</td><td>4675</td><td>2277</td><td>2398</td></tr>
+<tr><td>Widowed.</td><td>262</td><td>69</td><td>193</td><td>3</td><td>1</td><td>2</td><td>1031</td><td>191</td><td>840</td></tr>
+<tr><td>Unspecified.</td><td>3</td><td>0</td><td>3</td><td>1346</td><td>565</td><td>781</td><td>1357</td><td>569</td><td>788</td></tr>
+<tr><td>Total</td><td>497</td><td>265</td><td>232</td><td>1384</td><td>586</td><td>798</td><td>12008</td><td>5827</td><td>6181</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 8: BRAHMO</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=5</span></div><div class='table-scroll'><table>
+<tr><th>RELIGION.</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th></tr>
+<tr><td>Single.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>605</td><td>379</td><td>226</td></tr>
+<tr><td>Married.</td><td>9</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>469</td><td>297</td><td>172</td></tr>
+<tr><td>Widowed.</td><td>12</td><td>1</td><td>11</td><td>0</td><td>0</td><td>0</td><td>73</td><td>18</td><td>55</td></tr>
+<tr><td>Unspecified.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Total</td><td>21</td><td>10</td><td>11</td><td>0</td><td>0</td><td>0</td><td>1147</td><td>694</td><td>453</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 9: KUMBHIPATIA</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=5</span></div><div class='table-scroll'><table>
+<tr><th>RELIGION.</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th></tr>
+<tr><td>Single.</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>163</td><td>125</td><td>38</td></tr>
+<tr><td>Married.</td><td>10</td><td>9</td><td>1</td><td>0</td><td>0</td><td>0</td><td>472</td><td>340</td><td>132</td></tr>
+<tr><td>Widowed.</td><td>14</td><td>4</td><td>10</td><td>0</td><td>0</td><td>0</td><td>57</td><td>23</td><td>34</td></tr>
+<tr><td>Unspecified.</td><td>11</td><td>9</td><td>2</td><td>0</td><td>0</td><td>0</td><td>221</td><td>140</td><td>81</td></tr>
+<tr><td>Total</td><td>35</td><td>22</td><td>13</td><td>0</td><td>0</td><td>0</td><td>913</td><td>628</td><td>285</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 10: UNSPECIFIED</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=5</span></div><div class='table-scroll'><table>
+<tr><th>RELIGION.</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th></tr>
+<tr><td>Single.</td><td>17</td><td>15</td><td>2</td><td>33</td><td>13</td><td>20</td><td>18960</td><td>10543</td><td>8417</td></tr>
+<tr><td>Married.</td><td>769</td><td>597</td><td>172</td><td>25</td><td>12</td><td>13</td><td>16393</td><td>8488</td><td>7905</td></tr>
+<tr><td>Widowed.</td><td>820</td><td>140</td><td>680</td><td>4</td><td>1</td><td>3</td><td>2577</td><td>397</td><td>2180</td></tr>
+<tr><td>Unspecified.</td><td>2</td><td>1</td><td>1</td><td>22013</td><td>12691</td><td>9322</td><td>22153</td><td>12784</td><td>9369</td></tr>
+<tr><td>Total</td><td>1608</td><td>753</td><td>855</td><td>22075</td><td>12717</td><td>9358</td><td>60083</td><td>32212</td><td>27871</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 11: ALL RELIGIONS</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=5</span></div><div class='table-scroll'><table>
+<tr><th>RELIGION.</th><th>60 AND UPWARDS. | persons</th><th>60 AND UPWARDS. | males</th><th>60 AND UPWARDS. | females</th><th>UNSPECIFIED. | persons</th><th>UNSPECIFIED. | males</th><th>UNSPECIFIED. | females</th><th>TOTAL ALL AGES. | persons</th><th>TOTAL ALL AGES. | males</th><th>TOTAL ALL AGES. | females</th></tr>
+<tr><td>Single.</td><td>212151</td><td>175597</td><td>36554</td><td>422721</td><td>233238</td><td>189483</td><td>92775178</td><td>56521018</td><td>36254160</td></tr>
+<tr><td>Married.</td><td>4814203</td><td>3830784</td><td>983419</td><td>480560</td><td>223898</td><td>256662</td><td>109397661</td><td>54518665</td><td>54878996</td></tr>
+<tr><td>Widowed.</td><td>7107113</td><td>1522315</td><td>5584798</td><td>56321</td><td>10341</td><td>45980</td><td>26630563</td><td>5691937</td><td>20938626</td></tr>
+<tr><td>Unspecified.</td><td>82161</td><td>36657</td><td>45504</td><td>23261901</td><td>12282379</td><td>10979522</td><td>25088419</td><td>13210231</td><td>11878188</td></tr>
+<tr><td>Total</td><td>12215628</td><td>5565353</td><td>6650275</td><td>24221503</td><td>12749856</td><td>11471647</td><td>253891821</td><td>129941851</td><td>123949970</td></tr>
+</table></div></div>
+    </main>
+  </div>
+</body>
+</html>

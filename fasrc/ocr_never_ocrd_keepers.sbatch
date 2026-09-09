@@ -4,7 +4,7 @@
 #SBATCH --time=24:00:00
 #SBATCH --mem=1G
 #SBATCH --cpus-per-task=1
-#SBATCH --array=0-39%4
+#SBATCH --array=0-39%14
 #SBATCH --output=fasrc/logs/slurm_keepers_%A_%a.out
 #SBATCH --error=fasrc/logs/slurm_keepers_%A_%a.err
 

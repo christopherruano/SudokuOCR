@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>76. Number of Females per one thousand Males at the four Censuses by Religions</title>
+  <style>
+:root { --ink:#181715; --muted:#746d62; --line:#ddd4c7; --paper:#fffaf0; --panel:#f3eadb; --accent:#245b4d; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:#efe4d2; }
+a { color:#174f82; }
+.top { position:sticky; top:0; z-index:5; padding:12px 18px; background:#1d271f; color:#fff; display:flex; gap:16px; align-items:center; justify-content:space-between; }
+.top a { color:#d9f2e9; }
+.shell { display:grid; grid-template-columns:minmax(360px, 42vw) minmax(520px, 1fr); gap:0; min-height:calc(100vh - 52px); }
+.images { background:#211f1b; color:#f8f0e5; padding:14px; overflow:auto; max-height:calc(100vh - 52px); position:sticky; top:52px; }
+.compiled { padding:18px; overflow:auto; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:16px; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.image-card { background:#302d27; border:1px solid #555047; border-radius:12px; padding:10px; margin-bottom:14px; }
+.image-card img { width:100%; height:auto; display:block; background:#fff; border:1px solid #4b463d; }
+.caption { margin-top:8px; font-size:12px; color:#d5cab9; overflow-wrap:anywhere; }
+.meta-grid { display:grid; grid-template-columns:180px minmax(0,1fr); gap:6px 12px; font-size:14px; }
+.key { color:var(--muted); font-weight:700; }
+.muted { color:var(--muted); }
+.badge { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:3px 8px; margin:2px 4px 2px 0; background:#fff; font-size:12px; }
+h1 { font-size:22px; margin:0; }
+h2 { font-size:18px; margin:0 0 10px; }
+h3 { font-size:15px; margin:0 0 8px; }
+.section-head { display:flex; justify-content:space-between; gap:12px; align-items:baseline; }
+.table-scroll { max-height:70vh; overflow:auto; border:1px solid var(--line); background:#fff; }
+table { border-collapse:collapse; font-size:12px; min-width:100%; }
+th, td { border:1px solid #ded8cc; padding:4px 6px; white-space:nowrap; vertical-align:top; }
+th { position:sticky; top:0; background:#e9f0eb; z-index:1; }
+td:first-child, th:first-child { position:sticky; left:0; background:#faf6ee; z-index:2; }
+th:first-child { z-index:3; background:#dfe9e2; }
+.index { padding:18px; }
+.index table { background:#fff; width:100%; }
+.index th, .index td { white-space:normal; }
+.summary { font-size:13px; color:#e9dfcf; }
+@media (max-width: 1100px) { .shell { grid-template-columns:1fr; } .images { position:relative; top:0; max-height:none; } }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div><strong>Assembled Table 76/92</strong></div>
+    <div><a href='index.html'>Index</a> · <a href='075_mysore_1901_age-distribution_37f18c68e5a6.html'>Previous</a> · <a href='077_mysore_1901_age-sex-population_0e7d2093c5c1.html'>Next</a></div>
+  </div>
+  <div class="shell">
+    <aside class="images">
+      <h1>Scanned Pages</h1>
+      <div class="summary">3 page image(s). Click an image to open the original PNG.</div>
+      <br>
+      <div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/389b512cfba96775f67cc8086c9c701d8b43e9ca.png' target='_blank'><img src='thumbnails/142f4c64a249.jpg'></a><div class='caption'>Page 1 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/389b512cfba96775f67cc8086c9c701d8b43e9ca_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/389b512cfba96775f67cc8086c9c701d8b43e9ca.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/ce871694877f3e2dd2bf1c39ff961f4c7f1a5a34.png' target='_blank'><img src='thumbnails/b771443de57d.jpg'></a><div class='caption'>Page 2 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/ce871694877f3e2dd2bf1c39ff961f4c7f1a5a34_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/ce871694877f3e2dd2bf1c39ff961f4c7f1a5a34.png' target='_blank'>Open original image</a></div></div><div class='image-card'><a href='../../../export/digitized_tables_referenced/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/f7884fd9d6bccf89bcf5338b300e1d8d5d72dc1c.png' target='_blank'><img src='thumbnails/1ef1071bb1eb.jpg'></a><div class='caption'>Page 3 | /n/home11/cruano/census_toc/ocr_results/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/f7884fd9d6bccf89bcf5338b300e1d8d5d72dc1c_oneshot.json<br><a href='../../../export/digitized_tables_referenced/digitized_tables/a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-/f7884fd9d6bccf89bcf5338b300e1d8d5d72dc1c.png' target='_blank'>Open original image</a></div></div>
+    </aside>
+    <main class="compiled">
+      <div class="card">
+        <h1>Number of Females per one thousand Males at the four Censuses by Religions</h1>
+        <p class="muted">This is the compiled output from all member pages in the assembled group.</p>
+        <div class="meta-grid"><div class='key'>group_id</div><div>dir::/n/home11/cruano/census_pdfs/1901/saoa.crl.25366884.pdf::age_sex_population::a1115ac8c392227f_t0023_.-.QHAPTER-IV.-AGE-SEX-AND-CIVILCONDITION.-continued.-ow-Teg-be-of-thiss-ction.-</div>
+<div class='key'>province</div><div>Mysore</div>
+<div class='key'>year</div><div>1901</div>
+<div class='key'>table_family</div><div>age_sex_population</div>
+<div class='key'>n_pages</div><div>3</div>
+<div class='key'>overall_strategy</div><div>section_append</div>
+<div class='key'>signals</div><div>same_table_dir</div>
+<div class='key'>constraint checks</div><div>560</div>
+<div class='key'>constraint failures</div><div>20</div>
+<div class='key'>all passed</div><div>False</div>
+<div class='key'>source_file</div><div>/n/home11/cruano/census_pdfs/1901/saoa.crl.25366884.pdf</div></div>
+      </div>
+      <div class='card'><div class='section-head'><h2>Section 1: Number of Females per one thousand Males at the four Censuses by Religions</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=7</span></div><div class='table-scroll'><table>
+<tr><th>Religions</th><th>1901 | persons</th><th>1901 | males</th><th>1901 | females</th><th>1891 | persons</th><th>1891 | males</th><th>1891 | females</th><th>1881 | persons</th><th>1881 | males</th><th>1881 | females</th><th>1871 | persons</th><th>1871 | males</th><th>1871 | females</th></tr>
+<tr><td>Hindu</td><td>1981</td><td>1000</td><td>981</td><td>1991</td><td>1000</td><td>991</td><td>2007</td><td>1000</td><td>1007</td><td>1994</td><td>1000</td><td>994</td></tr>
+<tr><td>Mussalman</td><td>1981</td><td>1000</td><td>981</td><td>1991</td><td>1000</td><td>991</td><td>2007</td><td>1000</td><td>1007</td><td>1994</td><td>1000</td><td>994</td></tr>
+<tr><td>Christian</td><td>1981</td><td>1000</td><td>981</td><td>1991</td><td>1000</td><td>991</td><td>2007</td><td>1000</td><td>1007</td><td>1994</td><td>1000</td><td>994</td></tr>
+<tr><td>Jain</td><td>1981</td><td>1000</td><td>981</td><td>1991</td><td>1000</td><td>991</td><td>2007</td><td>1000</td><td>1007</td><td>1994</td><td>1000</td><td>994</td></tr>
+<tr><td>Animist</td><td>1981</td><td>1000</td><td>981</td><td>1991</td><td>1000</td><td>991</td><td>2007</td><td>1000</td><td>1007</td><td>1994</td><td>1000</td><td>994</td></tr>
+<tr><td>Others</td><td>1981</td><td>1000</td><td>981</td><td>1991</td><td>1000</td><td>991</td><td>2007</td><td>1000</td><td>1007</td><td>1994</td><td>1000</td><td>994</td></tr>
+<tr><td>Total</td><td>1981</td><td>1000</td><td>981</td><td>1991</td><td>1000</td><td>991</td><td>2007</td><td>1000</td><td>1007</td><td>1994</td><td>1000</td><td>994</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 2: Number of Females to one thousand Males by Main Castes, Tribes and Races.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=21</span></div><div class='table-scroll'><table>
+<tr><th>Caste Names.</th><th>1901. | persons</th><th>1901. | males</th><th>1901. | females</th><th>1891. | persons</th><th>1891. | males</th><th>1891. | females</th><th>Difference. | Plus.</th><th>Difference. | Minus.</th></tr>
+<tr><td>Natuva</td><td>2767</td><td>1000</td><td>1767</td><td>2097</td><td>1000</td><td>1097</td><td>670</td><td>0</td></tr>
+<tr><td>Eurasians</td><td>2188</td><td>1000</td><td>1188</td><td>2145</td><td>1000</td><td>1145</td><td>43</td><td>0</td></tr>
+<tr><td>Dombar</td><td>2094</td><td>1000</td><td>1094</td><td>2054</td><td>1000</td><td>1054</td><td>40</td><td>0</td></tr>
+<tr><td>Nagarta</td><td>2052</td><td>1000</td><td>1052</td><td>1911</td><td>1000</td><td>911</td><td>141</td><td>0</td></tr>
+<tr><td>Koracha</td><td>1990</td><td>1000</td><td>990</td><td>1931</td><td>1000</td><td>931</td><td>59</td><td>0</td></tr>
+<tr><td>Ganiga</td><td>1990</td><td>1000</td><td>990</td><td>2022</td><td>1000</td><td>1022</td><td>0</td><td>32</td></tr>
+<tr><td>Pinjari</td><td>1985</td><td>1000</td><td>985</td><td>1818</td><td>1000</td><td>818</td><td>167</td><td>0</td></tr>
+<tr><td>Meda</td><td>1982</td><td>1000</td><td>982</td><td>1825</td><td>1000</td><td>825</td><td>157</td><td>0</td></tr>
+<tr><td>Pindari</td><td>1980</td><td>1000</td><td>980</td><td>1925</td><td>1000</td><td>925</td><td>55</td><td>0</td></tr>
+<tr><td>Neygi</td><td>1971</td><td>1000</td><td>971</td><td>2004</td><td>1000</td><td>1004</td><td>0</td><td>33</td></tr>
+<tr><td>Rachewar</td><td>1953</td><td>1000</td><td>953</td><td>1991</td><td>1000</td><td>991</td><td>0</td><td>38</td></tr>
+<tr><td>Budabudike</td><td>1931</td><td>1000</td><td>931</td><td>1975</td><td>1000</td><td>975</td><td>0</td><td>44</td></tr>
+<tr><td>Jogi</td><td>1928</td><td>1000</td><td>928</td><td>1969</td><td>1000</td><td>969</td><td>0</td><td>41</td></tr>
+<tr><td>Mochi</td><td>1920</td><td>1000</td><td>920</td><td>2066</td><td>1000</td><td>1066</td><td>0</td><td>146</td></tr>
+<tr><td>Darji</td><td>1895</td><td>1000</td><td>895</td><td>1929</td><td>1000</td><td>929</td><td>0</td><td>34</td></tr>
+<tr><td>Ladar</td><td>1881</td><td>1000</td><td>881</td><td>2018</td><td>1000</td><td>1018</td><td>0</td><td>137</td></tr>
+<tr><td>Idiga</td><td>1880</td><td>1000</td><td>880</td><td>1944</td><td>1000</td><td>944</td><td>0</td><td>64</td></tr>
+<tr><td>Mogul</td><td>1825</td><td>1000</td><td>825</td><td>1940</td><td>1000</td><td>940</td><td>0</td><td>115</td></tr>
+<tr><td>Mudali</td><td>1763</td><td>1000</td><td>763</td><td>1831</td><td>1000</td><td>831</td><td>0</td><td>68</td></tr>
+<tr><td>Europeans</td><td>1583</td><td>1000</td><td>583</td><td>1545</td><td>1000</td><td>545</td><td>38</td><td>0</td></tr>
+<tr><td>Maple</td><td>1113</td><td>1000</td><td>113</td><td>1179</td><td>1000</td><td>179</td><td>0</td><td>66</td></tr>
+</table></div></div><div class='card'><div class='section-head'><h2>Section 3: Variations per cent of population of 1901-1891 by Districts and Religions - Excluding the Civil and Military Station, Bangalore.</h2><span class='muted'>strategy=single_page; input_pages=1; output_rows=14</span></div><div class='table-scroll'><table>
+<tr><th>age</th><th>District or City</th><th>district</th><th>Total | persons</th><th>Total | males</th><th>Total | females</th><th>Hindus and Animists | persons</th><th>Hindus and Animists | males</th><th>Hindus and Animists | females</th><th>Mussalmans | persons</th><th>Mussalmans | males</th><th>Mussalmans | females</th><th>Christians | persons</th><th>Christians | males</th><th>Christians | females</th><th>Jains | persons</th><th>Jains | males</th><th>Jains | females</th></tr>
+<tr><td>Mysore City</td><td>Mysore City</td><td>Mysore City</td><td>-3</td><td>6</td><td>-9</td><td>20</td><td>11</td><td>9</td><td>4</td><td>4</td><td>0</td><td>51</td><td>27</td><td>24</td><td>-14</td><td>-6</td><td>-8</td></tr>
+<tr><td>Mysore District</td><td>Mysore District</td><td>Mysore District</td><td>21</td><td>11</td><td>10</td><td>20</td><td>11</td><td>9</td><td>4</td><td>4</td><td>0</td><td>51</td><td>27</td><td>24</td><td>-14</td><td>-6</td><td>-8</td></tr>
+<tr><td>Bangalore City</td><td>Bangalore City</td><td>Bangalore City</td><td>-27</td><td>-12</td><td>-15</td><td>24</td><td>13</td><td>11</td><td>31</td><td>17</td><td>14</td><td>81</td><td>39</td><td>42</td><td>-96</td><td>-47</td><td>-49</td></tr>
+<tr><td>Bangalore District</td><td>Bangalore District</td><td>Bangalore District</td><td>31</td><td>17</td><td>14</td><td>24</td><td>13</td><td>11</td><td>31</td><td>17</td><td>14</td><td>81</td><td>39</td><td>42</td><td>-96</td><td>-47</td><td>-49</td></tr>
+<tr><td>Kolar Gold Fields</td><td>Kolar Gold Fields</td><td>Kolar Gold Fields</td><td>917</td><td>378</td><td>539</td><td>42</td><td>22</td><td>20</td><td>66</td><td>32</td><td>34</td><td>444</td><td>209</td><td>235</td><td>6</td><td>1</td><td>5</td></tr>
+<tr><td>Kolar District</td><td>Kolar District</td><td>Kolar District</td><td>35</td><td>18</td><td>17</td><td>42</td><td>22</td><td>20</td><td>66</td><td>32</td><td>34</td><td>444</td><td>209</td><td>235</td><td>6</td><td>1</td><td>5</td></tr>
+<tr><td>Tumkur District</td><td>Tumkur District</td><td>Tumkur District</td><td>33</td><td>17</td><td>16</td><td>33</td><td>17</td><td>16</td><td>51</td><td>25</td><td>26</td><td>54</td><td>33</td><td>21</td><td>26</td><td>9</td><td>17</td></tr>
+<tr><td>Chitaldrug District</td><td>Chitaldrug District</td><td>Chitaldrug District</td><td>41</td><td>21</td><td>20</td><td>39</td><td>20</td><td>19</td><td>64</td><td>31</td><td>33</td><td>114</td><td>50</td><td>64</td><td>51</td><td>23</td><td>28</td></tr>
+<tr><td>Eastern Division</td><td>Eastern Division</td><td>Eastern Division</td><td>30</td><td>16</td><td>14</td><td>29</td><td>15</td><td>14</td><td>36</td><td>19</td><td>17</td><td>156</td><td>79</td><td>77</td><td>-12</td><td>-6</td><td>-6</td></tr>
+<tr><td>Hassan District</td><td>Hassan District</td><td>Hassan District</td><td>23</td><td>12</td><td>11</td><td>20</td><td>10</td><td>10</td><td>43</td><td>23</td><td>20</td><td>30</td><td>15</td><td>15</td><td>84</td><td>50</td><td>34</td></tr>
+<tr><td>Kadur District</td><td>Kadur District</td><td>Kadur District</td><td>18</td><td>8</td><td>10</td><td>18</td><td>8</td><td>10</td><td>33</td><td>17</td><td>16</td><td>158</td><td>71</td><td>87</td><td>43</td><td>29</td><td>14</td></tr>
+<tr><td>Shimoga District</td><td>Shimoga District</td><td>Shimoga District</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>15</td><td>8</td><td>7</td><td>46</td><td>8</td><td>38</td><td>6</td><td>6</td><td>0</td></tr>
+<tr><td>Western Division</td><td>Western Division</td><td>Western Division</td><td>13</td><td>6</td><td>7</td><td>12</td><td>6</td><td>6</td><td>26</td><td>14</td><td>12</td><td>73</td><td>36</td><td>37</td><td>29</td><td>19</td><td>10</td></tr>
+<tr><td>Province</td><td>Province</td><td>Province</td><td>25</td><td>13</td><td>12</td><td>25</td><td>13</td><td>12</td><td>34</td><td>18</td><td>16</td><td>125</td><td>61</td><td>64</td><td>7</td><td>6</td><td>1</td></tr>
+</table></div></div>
+    </main>
+  </div>
+</body>
+</html>
