@@ -65,12 +65,15 @@ def main():
 
     out, queue = [], []
     for g in geo:
-        name = g["canonical_name"].strip()
+        name = g["canonical_name"].strip() or g["raw_geo_name"].strip()
         et = (g["entity_type"] or "").strip()
         row = dict(canonical_name=name, raw_geo_name=g["raw_geo_name"],
                    parent=g["parent"], broad_region=g["broad_region"],
                    n_tables_ref=g["n_tables"])
-        if et in CARRY:
+        if g.get("is_geography", "").strip() == "0" or et == "not_geography":
+            row.update(entity_class="not_geography", class_rule="carry_not_geography",
+                       class_evidence="flagged not a geography in geo_reference.csv")
+        elif et in CARRY:
             row.update(entity_class=et, class_rule="carry_geo_reference_v1",
                        class_evidence=f"entity_type={et} in geo_reference.csv")
         else:

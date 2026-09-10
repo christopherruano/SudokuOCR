@@ -11,39 +11,39 @@ Travancore,Travancore,princely_state,carry_geo_reference_v1,entity_type=princely
 Berar,Berar,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,Central Provinces and Berar,Central India,43
 Central India Agency,Central India,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Native States,Central India,41
 Punjab,Punjab,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,North India,41
-,Unknown,UNRESOLVED,none,entity_type was 'unspecified',,,40
+Unknown,Unknown,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,40
 Native States,Native States,native_states_agg,carry_geo_reference_v1,entity_type=native_states_agg in geo_reference.csv,British India,All-India,38
 Gwalior,Gwalior,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,36
 Hyderabad,Hyderabad,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Deccan,South India,32
 Cochin,Cochin State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,South India,32
-,Province,UNRESOLVED,none,entity_type was 'unspecified',,,31
+Province,Province,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,31
 Madras,Madras,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,South India,29
 Eastern Division,Eastern Division,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,25
 Rajasthan,Rajasthan,modern_state,carry_geo_reference_v1,entity_type=modern_state in geo_reference.csv,Republic of India,Rajputana,23
 United Provinces,United Provinces,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,North India,21
 Burma,Burma,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Burma,21
-,Provincial,UNRESOLVED,none,entity_type was 'unspecified',,,20
+Provincial,Provincial,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,20
 Western Division,Western Division,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,19
-,/,UNRESOLVED,none,entity_type was 'unspecified',,,18
+/,/,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,18
 Gwalior,Gwalior State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,17
 Rajputana Agency,Rajputana,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Native States,Rajputana,17
 Mysore,Mysore State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,South India,17
-,State,UNRESOLVED,none,entity_type was 'unspecified',,,16
+State,State,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,16
 Baroda,Baroda State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,West India,15
-,District,UNRESOLVED,none,entity_type was 'unspecified',,,13
+District,District,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,13
 Kolar District,Kolar District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Mysore,South India,12
 Madras,Madras Presidency,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,South India,12
-,Provincial Total,UNRESOLVED,none,entity_type was 'unspecified',,,12
+Provincial Total,Provincial Total,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,12
 Coorg,Coorg,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,South India,12
 Ajmer-Merwara,Ajmer Merwara,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Rajputana,11
 India,Country,all_india,carry_geo_reference_v1,entity_type=all_india in geo_reference.csv,,All-India,11
 Jammu and Kashmir,Jammu and Kashmir,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,North India,11
-,State Summary,UNRESOLVED,none,entity_type was 'unspecified',,,11
+State Summary,State Summary,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,11
 Ajmer-Merwara,Merwara,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Rajputana,11
 North-West Frontier Province,North-West Frontier Province,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Northwest Frontier,10
 Jammu and Kashmir,Kashmir,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,North India,10
 Ajmer-Merwara,Ajmer,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Rajputana,10
-,State Total,UNRESOLVED,none,entity_type was 'unspecified',,,8
+State Total,State Total,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,8
 Rajputana Agency,Rajputana Agency,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Native States,Rajputana,8
 Shimoga District,Shimoga District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Mysore,South India,8
 Chitaldrug District,Chitaldrug District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Mysore,South India,8
@@ -60,9 +60,9 @@ Pattanapuram Taluk,Pattanapuram Taluk,sub_district,carry_geo_reference_v1,entity
 Mysore,"Mysore State, excluding Civil and Military Station, Bangalore",princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,South India,7
 Bangalore City,Bangalore City,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,Mysore,South India,7
 Bombay,Bombay Presidency,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,West India,6
-,Whole Province,UNRESOLVED,none,entity_type was 'unspecified',,,6
+Whole Province,Whole Province,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,6
 Calcutta,Calcutta,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bengal,East India,6
-,Town,UNRESOLVED,none,entity_type was 'unspecified',,,5
+Town,Town,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,5
 Tiruvalla Taluk,Tiruvalla Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,5
 Central India Agency,Central India Agency,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Native States,Central India,5
 Ratlam,Ratlam State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,5
@@ -78,14 +78,14 @@ Mavelikara Taluk,Mavelikara Taluk,sub_district,carry_geo_reference_v1,entity_typ
 Mysore,"Mysore State excluding Civil and Military Station, Bangalore",princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,South India,4
 "Bangalore, Kolar, Tumkur and Chitaldrug Taluks","Bangalore, Kolar, Tumkur and Chitaldrug Taluks",sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Mysore,South India,4
 Baroda,Baroda Division,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,West India,4
-,unsorted,UNRESOLVED,none,entity_type was 'not_geography',,,4
+unsorted,unsorted,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,4
 Kadi Division,Kadi Division,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,4
 Rajputana Agency,Rajputana And Ajmer-Merwara,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Native States,Rajputana,4
 Western Divi,Western Divi,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,,,4
 Ettumanur Taluk,Ettumanur Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Cochin,South India,4
 United Provinces,North-Western Provinces and Oudh,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,North India,4
 Madhya Pradesh,Madhya Pradesh,modern_state,carry_geo_reference_v1,entity_type=modern_state in geo_reference.csv,Republic of India,Central India,4
-,British Districts,UNRESOLVED,none,entity_type was 'unspecified',,,4
+British Districts,British Districts,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,4
 Chengannur Taluk,Chengannur Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,4
 Neyyattinkara Taluk,Neyyattinkara Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,4
 Minachil Taluk,Minachil Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,,,4
@@ -103,7 +103,7 @@ Kistna District,Kistna District,district,carry_geo_reference_v1,entity_type=dist
 Kunnatnad Taluk,Kunnatnad Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Cochin,South India,3
 Rajputana Agency,Rajputana and Ajmer-Merwara,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Native States,Rajputana,3
 Nizamabad,Nizamabad,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Hyderabad,South India,3
-,British districts,UNRESOLVED,none,entity_type was 'unspecified',,,3
+British districts,British districts,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,3
 Pegu District,Pegu District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Burma,Burma,3
 Kalkulam Taluk,Kalkulam Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,3
 Muvattupuzha Taluk,Muvattupuzha Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Cochin,South India,3
@@ -119,7 +119,7 @@ Adilabad,Adilabad,district,carry_geo_reference_v1,entity_type=district in geo_re
 Karachi,Karachi,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,3
 Karunagapalli Taluk,Karunagapalli Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,3
 Indore,Indore City,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,3
-,City,UNRESOLVED,none,entity_type was 'unspecified',,,3
+City,City,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,3
 Rajputana Agency,Rajasthan and Ajmer,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Native States,Rajputana,3
 Prome District,Prome District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Burma,Burma,3
 Tovala Taluk,Tovala Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,3
@@ -134,7 +134,7 @@ Bidar,Bidar,district,carry_geo_reference_v1,entity_type=district in geo_referenc
 Sholápur,Sholápur,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,2
 Uttar Pradesh,Uttar Pradesh,modern_state,carry_geo_reference_v1,entity_type=modern_state in geo_reference.csv,Republic of India,North India,2
 Shencottah Taluk,Shencottah Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
-,Jew,UNRESOLVED,none,entity_type was 'not_geography',,,2
+Jew,Jew,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 South Arcot District,South Arcot District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Madras,South India,2
 Shertallay Taluk,Shertallay Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
 Mahbubnagar,Mahbubnagar,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Hyderabad,South India,2
@@ -151,48 +151,48 @@ Amraoti District,Amraoti District,district,carry_geo_reference_v1,entity_type=di
 Nander,Nander,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Hyderabad,South India,2
 Dongree Section,Dongree Section,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,Bombay,West India,2
 Mysore,"Mysore Province including Civil and Military Station, Bangalore",princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,South India,2
-,State Tables VII-A-C,UNRESOLVED,none,entity_type was 'not_geography',,,2
+State Tables VII-A-C,State Tables VII-A-C,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Kyaukpyu,Kyaukpyu,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Burma,Burma,2
 Mahim,Mahim,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,2
 Agastisvaram Taluk / Eraniel Taluk,Agastisvaram Taluk / Eraniel Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
 Bihar,South Bihar,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,East India,2
-,British Territory,UNRESOLVED,none,entity_type was 'unspecified',,,2
+British Territory,British Territory,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Muvattupuzha Taluk / Todupuzha Taluk,Muvattupuzha Taluk / Todupuzha Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Cochin,South India,2
 Nellore District,Nellore District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Madras,South India,2
 Burma,Burma Proper,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Burma,2
 Western Division - Females,Western Division - Females,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,2
 Pattanapuram Taluk / Shencottah Taluk,Pattanapuram Taluk / Shencottah Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
 Nedumangad Taluk / Chirayinkil Taluk,Nedumangad Taluk / Chirayinkil Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
-,Provincial Total of Literacy,UNRESOLVED,none,entity_type was 'not_geography',,,2
+Provincial Total of Literacy,Provincial Total of Literacy,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Eraniel Taluk / Kalkulam Taluk,Eraniel Taluk / Kalkulam Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
 Gulbarga,Gulbarga,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Hyderabad,South India,2
 Cuddapah District,Cuddapah District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Madras,South India,2
 Tardeo,Tardeo,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,2
 Agastisvaram Taluk,Agastisvaram Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
-,Hilly,UNRESOLVED,none,entity_type was 'unspecified',,,2
-,Others,UNRESOLVED,none,entity_type was 'not_geography',,,2
+Hilly,Hilly,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
+Others,Others,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Kurnool District,Kurnool District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Madras,South India,2
 Ratlam,Ratlam City,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,2
-,Provincial Summary,UNRESOLVED,none,entity_type was 'unspecified',,,2
+Provincial Summary,Provincial Summary,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Kyaukpyu District,Kyaukpyu District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Burma,Burma,2
 Highland Division,Highland Division,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,2
 Alangad Taluk,Alangad Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Cochin,South India,2
-,Parsi,UNRESOLVED,none,entity_type was 'not_geography',,,2
+Parsi,Parsi,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Dhobitalao,Dhobitalao,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,2
 United Provinces,North-West Provinces,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,North India,2
 Bellary District,Bellary District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Madras,South India,2
 Hooghly,Hooghly,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bengal,East India,2
 Ettumanur Taluk / Kottayam Taluk,Ettumanur Taluk / Kottayam Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
-,Nat. States,UNRESOLVED,none,entity_type was 'unspecified',,,2
-,Provincial and Urban,UNRESOLVED,none,entity_type was 'unspecified',,,2
+Nat. States,Nat. States,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
+Provincial and Urban,Provincial and Urban,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Peshawar Municipality,Peshawar Municipality,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,North-West Frontier Province,Northwest Frontier,2
 Bengal,Bengal Presidency,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,East India,2
 Chukla Section,Chukla Section,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,,,2
 Tharrawaddy District,Tharrawaddy District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Burma,Burma,2
-,Province (Districts),UNRESOLVED,none,entity_type was 'unspecified',,,2
+Province (Districts),Province (Districts),not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Bundelkhand Agency,Bundelkhand Agency,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Central India Agency,Central India,2
 Market Section,Market Section,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,Bombay,West India,2
-,The State,UNRESOLVED,none,entity_type was 'unspecified',,,2
+The State,The State,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Tanjore District,Tanjore District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Madras,South India,2
 Tovala Taluk / Agastisvaram Taluk,Tovala Taluk / Agastisvaram Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
 North-West Frontier Province,Trans-Frontier Posts,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Northwest Frontier,2
@@ -201,24 +201,24 @@ United Provinces,North Western Provinces Oudh,british_province,carry_geo_referen
 United Provinces,N.-W. P. and Oudh,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,North India,2
 Vilavankod Taluk / Neyyattinkara Taluk,Vilavankod Taluk / Neyyattinkara Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
 Sholapur,Sholapur,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,2
-,Subsidiary,UNRESOLVED,none,entity_type was 'not_geography',,,2
+Subsidiary,Subsidiary,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
 Kartikappalli Taluk,Kartikappalli Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,2
 Sheopur District,Sheopur District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Gwalior,Central India,2
 Hyderabad,Hyderabad City,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Deccan,South India,2
 Bhuleshwar,Bhuleshwar,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,2
-,Bramho,UNRESOLVED,none,entity_type was 'not_geography',,,2
-,Appendix Ii,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Bramho,Bramho,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,2
+Appendix Ii,Appendix Ii,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Banganapalle,Banganapalle And Sandur,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Madras States,South India,1
 Yamethin District,Yamethin District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Burma,Burma,1
 ALLEPPY.-(Concluded) / KOTTAYAM,ALLEPPY.-(Concluded) / KOTTAYAM,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Travancore,South India,1
 Easten Divi,Easten Divi,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,,,1
-,WN. and COUNTRY,UNRESOLVED,none,entity_type was 'not_geography',,,1
-,Brahmins of Kolar District,UNRESOLVED,none,entity_type was 'not_geography',,,1
+WN. and COUNTRY,WN. and COUNTRY,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
+Brahmins of Kolar District,Brahmins of Kolar District,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Sion,Sion,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
 Khetwadi,Khetwadi,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
 Bhind District,Bhind District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Gwalior,Central India,1
 Salween District / Thaton District,Salween District / Thaton District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Burma,Burma,1
-,Anglo-Indians,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Anglo-Indians,Anglo-Indians,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Mahalaxmi,Mahalaxmi,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
 Native States,Feudatories,native_states_agg,carry_geo_reference_v1,entity_type=native_states_agg in geo_reference.csv,British India,All-India,1
 Kumbharwada,Kumbharwada,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
@@ -226,7 +226,7 @@ Thongwa District,Thongwa District,district,carry_geo_reference_v1,entity_type=di
 Bombay,Bombay Presidency including Native States,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,West India,1
 Jammu and Kashmir,Jammu and Kashmir State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,North India,1
 Navsari Division,Navsari Division,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,1
-,Provinces,UNRESOLVED,none,entity_type was 'unspecified',,,1
+Provinces,Provinces,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 United Provinces,United Provinces (British Territory),british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,North India,1
 Darjeeling,Darjeeling,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bengal,East India,1
 Navsari,Navsari,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
@@ -236,7 +236,7 @@ India,Burma and India,all_india,carry_geo_reference_v1,entity_type=all_india in 
 10-Etah District,10-Etah District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,United Provinces,North India,1
 Mahim Section,Mahim Section,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,Bombay,West India,1
 Bhopal,"Bhopal, Khilchipur, Narsinghgarh, Rajgarh",princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,1
-,General/Sample,UNRESOLVED,none,entity_type was 'not_geography',,,1
+General/Sample,General/Sample,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Fort Southern Section,Fort Southern Section,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,Bombay,West India,1
 Hyderabad,Hyderabad Province,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Deccan,South India,1
 Andaman and Nicobar Islands,Port Blair,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Andaman & Nicobar,1
@@ -250,8 +250,8 @@ Coorg,"Coorg, Madras, Mysore",british_province,carry_geo_reference_v1,entity_typ
 Amritsar,Amritsar,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Punjab,North India,1
 Nasirabad Town,Nasirabad Town,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,,,1
 Sailana,"Sailana, Sitamau",princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,1
-,Total,UNRESOLVED,none,entity_type was 'unspecified',,,1
-,British Districts and Natural Divisions,UNRESOLVED,none,entity_type was 'unspecified',,,1
+Total,Total,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
+British Districts and Natural Divisions,British Districts and Natural Divisions,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Jhabua,Jhabua,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,1
 मुजफ्फरनगर जिला,मुजफ्फरनगर जिला,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,United Provinces,North India,1
 State and each Natural Division,State and each Natural Division,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,1
@@ -269,9 +269,9 @@ Khara Talao,Khara Talao,district,carry_geo_reference_v1,entity_type=district in 
 Chamba,Chamba State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Punjab States,North India,1
 Central India Agency,Rewa,agency,carry_geo_reference_v1,entity_type=agency in geo_reference.csv,Native States,Central India,1
 Punjab,Simla Hill States,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,North India,1
-,Sikh,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Sikh,Sikh,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Eastern Division.*,Eastern Division.*,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,1
-,"Plain, Northern",UNRESOLVED,none,entity_type was 'not_geography',,,1
+"Plain, Northern","Plain, Northern",not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Ganjám District,Ganjám District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,,,1
 Bhamo District,Bhamo District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,,,1
 Mysore,Mysore District Urban,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,South India,1
@@ -287,10 +287,10 @@ Ganjam and Vizagapatam,Ganjam and Vizagapatam,district,carry_geo_reference_v1,en
 Nalgonda,Nalgonda,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Hyderabad,South India,1
 MANDALAY DISTRICT-(including Mandalay City),MANDALAY DISTRICT-(including Mandalay City),urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,,,1
 Girgaum. ZOROASTRIAN (PARSI),Girgaum. ZOROASTRIAN (PARSI),district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
-,"Selected Castes, Tribes and Races",UNRESOLVED,none,entity_type was 'not_geography',,,1
+"Selected Castes, Tribes and Races","Selected Castes, Tribes and Races",not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Lower Colaba,Lower Colaba,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
 Rohilkhand Division,Rohilkhand Division,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,1
-,Plain,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Plain,Plain,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Chikmagalur District Urban,Chikmagalur District Urban,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,,,1
 India,British Empire,all_india,carry_geo_reference_v1,entity_type=all_india in geo_reference.csv,,All-India,1
 Nilgiri District,Nilgiri District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,,,1
@@ -299,7 +299,7 @@ Malabar And Anjengo,Malabar And Anjengo,district,carry_geo_reference_v1,entity_t
 Sandur,Sandur State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Madras States,South India,1
 Andaman and Nicobar Islands,Andamans and Nicobars,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,Andaman & Nicobar,1
 Wurlee Section,Wurlee Section,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,,,1
-,Famine and Non-Famine Districts,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Famine and Non-Famine Districts,Famine and Non-Famine Districts,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Baroda,BARODA DIVISION - (Exclusive of City.),princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,West India,1
 Kolar District Urban,Kolar District Urban,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Mysore,South India,1
 Koraput,Koraput,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Madras,South India,1
@@ -339,7 +339,7 @@ Fanaswadi,Fanaswadi,district,carry_geo_reference_v1,entity_type=district in geo_
 Akyab,Akyab,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Burma,Burma,1
 Ahmadabad,Ahmadabad,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
 Sewri. ZOROASTRIAN (PARSI),Sewri. ZOROASTRIAN (PARSI),district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
-,Famine and non-famine districts,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Famine and non-famine districts,Famine and non-famine districts,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Dehra Dun District,Dehra Dun District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,,,1
 Punjab,Punjab and the N. W. F. Province,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,North India,1
 Bhuleshwar. ZOROASTRIAN (PARSI),Bhuleshwar. ZOROASTRIAN (PARSI),district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
@@ -358,7 +358,7 @@ the province and each natural division,the province and each natural division,di
 Warli,Warli,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
 Presidency,Presidency,UNRESOLVED,none,entity_type was 'unresolved',,,1
 D.-Konkan,D.-Konkan,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Bombay,West India,1
-,Syrian Christians,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Syrian Christians,Syrian Christians,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Kalsia State,Kalsia State,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,,1
 Madras,Madras City,british_province,carry_geo_reference_v1,entity_type=british_province in geo_reference.csv,British India,South India,1
 11-बरेली जिला,11-बरेली जिला,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,United Provinces,North India,1
@@ -387,7 +387,7 @@ Meerut Division,Meerut Division,division,carry_geo_reference_v1,entity_type=divi
 मैनपुरी जिला,मैनपुरी जिला,UNRESOLVED,none,entity_type was 'unresolved',,,1
 Parsis,Parsis,UNRESOLVED,none,entity_type was 'unresolved',,,1
 Coimbatore And S. Arcot,Coimbatore And S. Arcot,UNRESOLVED,none,entity_type was 'unresolved',,,1
-,Hindu,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Hindu,Hindu,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Myingyan District,Myingyan District,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,,,1
 Howrah City,Howrah City,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,,,1
 Ali-Rajpur,Ali-Rajpur,UNRESOLVED,none,entity_type was 'unresolved',,,1
@@ -425,7 +425,7 @@ Nabha State,Nabha State,princely_state,carry_geo_reference_v1,entity_type=prince
 "Pargana Pichhore, District Shivpuri, and Pargana Shajapur, District Shajapur","Pargana Pichhore, District Shivpuri, and Pargana Shajapur, District Shajapur",district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,,,1
 Madura And Ramnad,Madura And Ramnad,UNRESOLVED,none,entity_type was 'unresolved',,,1
 Territory,Territory,UNRESOLVED,none,entity_type was 'unresolved',,,1
-,"selected Castes, Tribes and Races",UNRESOLVED,none,entity_type was 'not_geography',,,1
+"selected Castes, Tribes and Races","selected Castes, Tribes and Races",not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Hmawbi Township,Hmawbi Township,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,,,1
 Mysore,Mysore District Rural,princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Native States,South India,1
 England and Wales / Bombay Presidency,England and Wales / Bombay Presidency,UNRESOLVED,none,entity_type was 'unresolved',,,1
@@ -452,7 +452,7 @@ Bengal,Bengal Proper,british_province,carry_geo_reference_v1,entity_type=british
 In Chutia Nagpur,In Chutia Nagpur,UNRESOLVED,none,entity_type was 'unresolved',,,1
 North West Frontier Province,North West Frontier Province,british_province,suffix_province,name matches /\bprovinces?$/,,,1
 Wn. / Country,Wn. / Country,UNRESOLVED,none,entity_type was 'unresolved',,,1
-,Buddhist,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Buddhist,Buddhist,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 Ayadaw Township,Ayadaw Township,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,,,1
 Oomburkharree Section,Oomburkharree Section,urban,carry_geo_reference_v1,entity_type=urban in geo_reference.csv,,,1
 District Ajmer,District Ajmer,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,,,1
@@ -565,7 +565,7 @@ Henzada District,Henzada District,district,carry_geo_reference_v1,entity_type=di
 Indore,"Indore, Bhopal, Ratlam",princely_state,carry_geo_reference_v1,entity_type=princely_state in geo_reference.csv,Central India Agency,Central India,1
 Agra Division,Agra Division,division,carry_geo_reference_v1,entity_type=division in geo_reference.csv,Bombay,West India,1
 Bir,Bir,UNRESOLVED,none,entity_type was 'unresolved',,,1
-,Jain,UNRESOLVED,none,entity_type was 'not_geography',,,1
+Jain,Jain,not_geography,carry_not_geography,flagged not a geography in geo_reference.csv,,,1
 British Districts only,British Districts only,UNRESOLVED,none,entity_type was 'unresolved',,,1
 Bangalore District Urban,Bangalore District Urban,district,carry_geo_reference_v1,entity_type=district in geo_reference.csv,Mysore,South India,1
 Mavelikara Taluk / Chengannur Taluk,Mavelikara Taluk / Chengannur Taluk,sub_district,carry_geo_reference_v1,entity_type=sub_district in geo_reference.csv,Travancore,South India,1
