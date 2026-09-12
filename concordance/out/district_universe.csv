@@ -15,31 +15,20 @@ canonical_name,parent,broad_region,years,n_years,n_tables,n_facts
 Ajmer district,,,1901,1,1,468
 Aligarh District,,,1951,1,1,432
 Amherst District,,,1891;1901;1931,3,3,2208
-"Amherst District, Tavoy District., Mergui District",,,1931,1,1,756
 Amraoti District,,,1901,1,1,90
-Bannu District / Dera Ismail Khan District,,,1931,1,1,432
 Bhamo District,,,1901,1,1,504
 Bhir,,,,0,0,0
 Bolangir,,,,0,0,0
-Chikmagalur District Urban,,,1941,1,1,60
 Coimbatore District,,,1881;1901,2,2,512
 Dehra Dun District,,,1951,1,1,432
 Dhenkanal,,,,0,0,0
 District Ajmer,,,1901,1,2,189
 District Merwara,,,1901,1,6,567
-Districts,,,,0,0,0
-Edu- District,,,1901,1,1,45
 Ganjám District,,,1881;1901,2,2,600
-Hazara and Trans-Indus Districts,,,,0,0,0
-"Hazara, Trans-Indus Districts",,,,0,0,0
 Henzada District,,,1901,1,1,432
 Kyaukse District,,,1901,1,1,576
-Kyaukse District / Meiktila District,,,1931,1,1,1008
 Mainpuri District,,,1951,1,1,432
-Mandya District Rural,,,1951,1,1,318
-Mandya District Urban,,,1951,1,1,306
 Mathura District,,,1951,1,1,432
-Maubin District / Pyapon District,,,1931,1,1,1008
 Meiktila District,,,1901,1,1,456
 Mergui District,,,1901,1,1,456
 Merwara District,,,1901,1,1,30
@@ -49,103 +38,49 @@ Nilgiri District,,,1901,1,1,480
 Northern Ara,,,,0,0,0
 Northern Arakan District,,,1891;1901,2,4,1425
 Osmanabad,,,,0,0,0
-"Pargana Pichhore, District Shivpuri, and Pargana Shajapur, District Shajapur",,,1941,1,1,216
-Province and Districts,,,,0,0,0
 Saharanpur District,,,1951,1,1,432
-Selected Districts,,,1911,1,2,2156
 Tavoy District,,,1901,1,1,456
-Thayetmyo District. / Minbu District,,,1931,1,1,1008
 Toungoo District,,,1901,1,1,528
 Trichinopoly District,,,1881;1901,2,2,776
-Wun district and Pusad,,,1891,1,1,117
 मैनपुरी जिला,,,,0,0,0
 Darrang,Assam,Northeast India,1891;1901,2,2,210
 Okhamandal,Baroda,West India,1921;1931,2,2,1188
 Calcutta,Bengal,East India,1891;1901;1911;1931,4,16,5189
-Calcutta And Suburbs,Bengal,East India,1901;1911,2,2,582
-Calcutta With Suburbs,Bengal,East India,1901;1911,2,8,2474
-Calcutta and Suburbs,Bengal,East India,1911,1,9,1815
-Chandernagore,Bengal,East India,1931,1,1,12
 Darjeeling,Bengal,East India,1891,1,2,307
 Hooghly,Bengal,East India,1871;1903;1961,3,3,64
 In Darjeeling,Bengal,East India,,0,0,0
-1st Nagpada,Bombay,West India,1901,1,1,456
-2nd Nagpada,Bombay,West India,1901,1,1,456
-Aden,Bombay,West India,1901,1,1,456
 Ahmadabad,Bombay,West India,1911,1,2,1008
-Alipur Duars Subdivision,Bombay,West India,1961,1,1,72
-Bhuleshwar,Bombay,West India,1901,1,1,456
-Bhuleshwar. ZOROASTRIAN (PARSI),Bombay,West India,,0,0,0
-Byculla,Bombay,West India,1901,1,1,456
-Byculla. ZOROASTRIAN (PARSI),Bombay,West India,,0,0,0
-D.-Konkan,Bombay,West India,1911,1,1,262
-Dhobitalao,Bombay,West India,1901,1,1,456
-Dongri,Bombay,West India,1901,1,2,1266
-Fanaswadi,Bombay,West India,1901,1,1,456
-For British Districts including Sind and Aden,Bombay,West India,1911,1,1,165
-"Fort, North",Bombay,West India,1901,1,1,454
-"Fort, South",Bombay,West India,1901,1,1,456
-"Fort, South. ZOROASTRIAN (PARSI)",Bombay,West India,,0,0,0
-Girgaum,Bombay,West India,1901,1,1,456
-Girgaum. ZOROASTRIAN (PARSI),Bombay,West India,,0,0,0
-Gujarat / Konkan,Bombay,West India,1911,1,1,276
 Karachi,Bombay,West India,1911,1,3,1512
-Khara Talao,Bombay,West India,1901,1,1,456
-Khara Talao. ZOROASTRIAN (PARSI),Bombay,West India,,0,0,0
-Khetwadi,Bombay,West India,1901,1,1,456
-Kumbharwada,Bombay,West India,1901,1,1,456
-Lower Colaba,Bombay,West India,1901,1,1,456
-Mahalaxmi,Bombay,West India,1901,1,1,456
-Mahim,Bombay,West India,1901,1,1,456
-Mandvi,Bombay,West India,1901,1,2,1266
-Mazagaon,Bombay,West India,1901,1,2,1266
-Mazagaon. ZOROASTRIAN (PARSI),Bombay,West India,,0,0,0
 Navsari,Bombay,West India,1921;1931,2,2,555
 Poona,Bombay,West India,1911,1,3,1248
-Sewri,Bombay,West India,1901,1,2,1266
-Sewri. ZOROASTRIAN (PARSI),Bombay,West India,,0,0,0
 Sholapur,Bombay,West India,1911,1,4,1812
 Sholápur,Bombay,West India,1911,1,2,756
-Sion,Bombay,West India,1901,1,1,456
 Surat,Bombay,West India,1911;1931,2,7,3147
-Tardeo,Bombay,West India,1901,1,2,1266
-Tardeo. ZOROASTRIAN (PARSI),Bombay,West India,,0,0,0
-Upper Colaba. ZOROASTRIAN (PARSI),Bombay,West India,,0,0,0
-Walkeshwar,Bombay,West India,1901,1,2,1266
-Warli,Bombay,West India,1901,1,1,456
 Akyab,Burma,Burma,1891;1901;1921,3,7,2972
 Akyab District,Burma,Burma,1891;1901;1931,3,21,9931
 Hanthawaddy,Burma,Burma,1891;1901,2,5,2547
 Hanthawaddy District,Burma,Burma,1891;1901,2,15,6730
-Katha District / Lower Chindwin District,Burma,Burma,1931,1,1,1008
 Kyaukpyu,Burma,Burma,1891;1901,2,5,2116
 Kyaukpyu District,Burma,Burma,1891;1901,2,9,4330
 Lower Chindwin District,Burma,Burma,1891;1901,2,15,7332
-Lower Chindwin District / Upper Chindwin District,Burma,Burma,1931,1,1,504
-Myingyan District / Yamethin District,Burma,Burma,1931,1,1,1008
 Pegu,Burma,Burma,1891,1,2,665
 Pegu District,Burma,Burma,1891;1901;1931,3,14,6923
 Prome District,Burma,Burma,1891;1901,2,3,1247
 Rangoon,Burma,Burma,1891;1901,2,2,747
 Sagaing,Burma,Burma,1891;1921,2,6,2475
 Sagaing District,Burma,Burma,1891;1901,2,12,5654
-Salween District / Thaton District,Burma,Burma,1931,1,1,504
 Sandoway,Burma,Burma,1891,1,1,490
 Sandoway District,Burma,Burma,1891;1901;1921,3,8,3833
-Shwebo District / Sagaing District,Burma,Burma,,0,0,0
 Tharrawaddy District,Burma,Burma,1891;1901,2,14,6421
 Thongwa District,Burma,Burma,1901,1,1,480
 Yamethin District,Burma,Burma,1901,1,1,504
 Bhind District,Gwalior,Central India,1941,1,1,492
-GIRD DISTRICT-(concld.) / BHIND DISTRICT,Gwalior,Central India,1941,1,1,408
-MORENA DISTRICT-(concld.) / SHEOPUR DISTRICT,Gwalior,Central India,1941,1,1,444
 Sheopur District,Gwalior,Central India,1941,1,2,900
 Adilabad,Hyderabad,South India,1911;1921;1931,3,5,2472
 Aurangabad,Hyderabad,South India,1911;1921;1931,3,5,2826
 Bidar,Hyderabad,South India,1911;1931,2,3,1326
 Gulbarga,Hyderabad,South India,1911;1921;1931,3,5,2736
 Karimnagar,Hyderabad,South India,1911;1921;1931,3,5,2472
-"Karimnagar, Adilabad",Hyderabad,South India,1911,1,1,300
 Mahbubnagar,Hyderabad,South India,1911;1921;1931,3,5,2328
 Medak,Hyderabad,South India,1911;1921;1931,3,5,2382
 Nalgonda,Hyderabad,South India,1921;1931,2,5,2388
@@ -157,53 +92,29 @@ Warangal,Hyderabad,South India,1911;1921;1931,3,4,1932
 Bellary,Madras,South India,1881;1931,2,2,810
 Bellary District,Madras,South India,1881;1901,2,4,706
 Cuddapah District,Madras,South India,1881;1901,2,3,643
-Ganjam and Vizagapatam,Madras,South India,1911,1,1,300
 Godavari,Madras,South India,1911,1,1,672
 Kistna District,Madras,South India,1871;1881;1901,3,6,1018
 Koraput,Madras,South India,1951,1,2,44
 Kurnool,Madras,South India,1878;1881,2,2,134
-Kurnool And Bellary,Madras,South India,1911,1,1,960
 Kurnool District,Madras,South India,1881;1901,2,3,620
-Malabar And Anjengo,Madras,South India,1911,1,1,864
 Malabar District,Madras,South India,1881;1901,2,2,618
-Nellore And Cuddapah,Madras,South India,1911,1,1,960
 Nellore District,Madras,South India,1881;1901,2,3,564
-North Arcot And Salem,Madras,South India,1911;1921,2,2,1884
 South Arcot District,Madras,South India,1881;1901,2,2,765
 Tanjore District,Madras,South India,1871;1881;1901,3,5,719
 Vizagapatam,Madras,South India,1911,1,1,672
 Bangalore,Mysore,South India,1881;1891;1901;1911;1921;1941,6,46,11086
-Bangalore Corporaton,Mysore,South India,1951,1,1,315
 Bangalore District,Mysore,South India,1901;1921;1931,3,10,3156
-Bangalore District Rural,Mysore,South India,1951,1,1,324
-Bangalore District Urban,Mysore,South India,1951,1,1,60
-Brahmins of Shimoga District,Mysore,South India,1901,1,1,204
 Chitaldrug District,Mysore,South India,1901;1921;1931,3,10,3480
-Chitaldrug District Urban,Mysore,South India,1931,1,1,309
-Chitaldrug District. / Western Division,Mysore,South India,,0,0,0
-Civil and Military Station,Mysore,South India,1901,1,1,75
-"Civil and Military Station, Bangalore",Mysore,South India,1921;1931,2,3,1140
 Hassan,Mysore,South India,1891;1901;1911,3,29,6051
 Hassan District,Mysore,South India,1901;1921;1931;1951,4,10,2982
-Hassan District Urban,Mysore,South India,1951,1,1,306
 Kadur District,Mysore,South India,1901;1921;1931,3,9,3096
 Kolar,Mysore,South India,1891;1901;1911,3,34,8032
 Kolar District,Mysore,South India,1901;1911;1921;1931;1951,5,14,4997
-Kolar District Urban,Mysore,South India,1941,1,1,306
-Kolar District-Brahman Males,Mysore,South India,1901,1,1,330
-"Province including Civil and Military Station, Bangalore",Mysore,South India,1901,1,1,108
 Shimoga District,Mysore,South India,1901;1921;1931,3,13,4857
-Shimoga District-Brahmin Males,Mysore,South India,1901,1,1,510
-Shimoga District. - Brahmin Females,Mysore,South India,1901,1,1,465
 Tumkur,Mysore,South India,1891;1901,2,31,7165
 Tumkur District,Mysore,South India,1901;1911;1921;1931,4,9,2856
-Hazara District / Peshawar District,North-West Frontier Province,Northwest Frontier,1931,1,1,144
-"Peshawar And Kohat, Kurram, Bannu And Dera Ismail Khan, Hazara, Peshawar, Kohat, Bannu And Dera Ismail Khan",North-West Frontier Province,Northwest Frontier,1901,1,1,912
 Amritsar,Punjab,North India,,0,0,0
 Lahore,Punjab,North India,1881,1,1,27
-"Mandi And Suket, Hoshiarpur, Jullundur, Kapurthala",Punjab,North India,1901,1,1,741
-ALLEPPY.-(Concluded) / KOTTAYAM,Travancore,South India,1911,1,1,456
-Kayankulam,Travancore,South India,,0,0,0
 1-देहरादून जिला,United Provinces,North India,1951,1,1,540
 10-Etah District,United Provinces,North India,1951,1,1,432
 11-बरेली जिला,United Provinces,North India,1951,1,1,540

@@ -21,6 +21,10 @@ CARRY = {"district", "urban", "sub_district", "division", "british_province",
          "princely_state", "agency", "all_india", "modern_state", "native_states_agg"}
 
 SUFFIX_RULES = [  # (rule_id, regex on name, entity_class)
+    # a row naming two districts ("X District / Y District", "X and Y District")
+    # is a printed aggregate, not a unit — must precede the district suffix rule
+    ("multi_unit_agg",   r"districts?\b.*(/| and | & ).*\bdistricts?\b", "aggregate"),
+    ("slash_agg",        r"\S\s*/\s*\S", "aggregate"),
     ("suffix_district",  r"\bdistricts?$", "district"),
     ("suffix_city",      r"\b(city|town|municipality|cantonment|port|suburbs)$", "urban"),
     ("suffix_subdist",   r"\b(taluk|taluka|tehsil|tahsil|thana|pargana|mahal|island)s?$", "sub_district"),
@@ -70,9 +74,19 @@ def main():
         row = dict(canonical_name=name, raw_geo_name=g["raw_geo_name"],
                    parent=g["parent"], broad_region=g["broad_region"],
                    n_tables_ref=g["n_tables"])
+        low0 = name.lower()
         if g.get("is_geography", "").strip() == "0" or et == "not_geography":
             row.update(entity_class="not_geography", class_rule="carry_not_geography",
                        class_evidence="flagged not a geography in geo_reference.csv")
+        elif re.search(r"districts?\b.*(/| and | & ).*\bdistricts?\b", low0) or re.search(r"\S\s*/\s*\S", low0):
+            # multi-unit printed rows outrank carried v1 types, which mislabel them
+            row.update(entity_class="aggregate", class_rule="multi_unit_agg",
+                       class_evidence="row names multiple units")
+        elif re.search(r"\bdistrict\b[ .\-]*\b(urban|rural)\b", low0) or \
+             re.search(r"\b(brahmin?s?|males|females)\b", low0):
+            # urban/rural or caste/sex splits of a district are data slices, not units
+            row.update(entity_class="district_subset", class_rule="district_subset",
+                       class_evidence="urban/rural or subpopulation slice of a district")
         elif et in CARRY:
             row.update(entity_class=et, class_rule="carry_geo_reference_v1",
                        class_evidence=f"entity_type={et} in geo_reference.csv")

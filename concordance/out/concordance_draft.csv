@@ -1,0 +1,127 @@
+canonical_name,parent,broad_region,years,n_years,n_tables,n_facts,tier,match,modern_admin1,country,gid,score,method
+10-एटा जिला,,,,0,0,0,A,Etah,UttarPradesh,IND,IND.34.23_1,100,alias:translit
+11-Bareilly District,,,1951,1,1,432,A,Bareilly,UttarPradesh,IND,IND.34.15_1,100,exact_norm+region
+12-Bijnor District,,,1951,1,1,432,A,Bijnor,UttarPradesh,IND,IND.34.17_1,100,exact_norm+region
+12-बिजनौर जिला,,,,0,0,0,A,Bijnor,UttarPradesh,IND,IND.34.17_1,100,alias:translit
+13-Budaun District,,,1951,1,1,432,A,Budaun,UttarPradesh,IND,IND.34.18_1,100,exact_norm+region
+13-बदायूं जिला,,,,0,0,0,A,Budaun,UttarPradesh,IND,IND.34.18_1,100,alias:translit
+14-Moradabad District,,,1951,1,1,432,A,Moradabad,UttarPradesh,IND,IND.34.57_1,100,exact_norm+region
+15-शाहजहांपुर जिला,,,,0,0,0,A,Shahjahanpur,UttarPradesh,IND,IND.34.67_1,100,alias:translit
+2-सहारनपुर जिला,,,,0,0,0,A,Saharanpur,UttarPradesh,IND,IND.34.63_1,100,alias:translit
+4-मेरठ जिला,,,,0,0,0,A,Meerut,UttarPradesh,IND,IND.34.55_1,100,alias:translit
+5-Bulandshahr District,,,1951,1,1,432,A,Bulandshahr,UttarPradesh,IND,IND.34.19_1,100,exact_norm+region
+5-बुलन्दशहर जिला,,,,0,0,0,A,Bulandshahr,UttarPradesh,IND,IND.34.19_1,100,alias:translit
+6-अलीगढ़ जिला,,,,0,0,0,A,Aligarh,UttarPradesh,IND,IND.34.2_1,100,alias:translit
+Ajmer district,,,1901,1,1,468,A,Ajmer,Rajasthan,IND,IND.29.1_1,100,exact_norm+region
+Aligarh District,,,1951,1,1,432,A,Aligarh,UttarPradesh,IND,IND.34.2_1,100,exact_norm+region
+Amherst District,,,1891;1901;1931,3,3,2208,B,Mawlamyine,Mon,MMR,MMR.9.1_1,100,"alias:rename: Amherst district renamed Mawlamyine, Myanmar"
+Amraoti District,,,1901,1,1,90,B,Amravati,Maharashtra,IND,IND.20.3_1,100,alias:rename: Amraoti modern spelling Amravati
+Bhamo District,,,1901,1,1,504,A,Bhamo,Kachin,MMR,MMR.4.1_1,100,exact_norm+region
+Bhir,,,,0,0,0,A,Bid,Maharashtra,IND,IND.20.6_1,100,exact_norm+region
+Bolangir,,,,0,0,0,B,Balangir,Odisha,IND,IND.26.2_1,100,alias:rename: modern spelling Balangir
+Coimbatore District,,,1881;1901,2,2,512,A,Coimbatore,TamilNadu,IND,IND.31.3_1,100,exact_norm+region
+Dehra Dun District,,,1951,1,1,432,A,Dehradun,Uttarakhand,IND,IND.35.5_1,100,exact_norm+region
+Dhenkanal,,,,0,0,0,A,Dhenkanal,Odisha,IND,IND.26.9_1,100,exact_norm+region
+District Ajmer,,,1901,1,2,189,A,Ajmer,Rajasthan,IND,IND.29.1_1,100,exact_norm+region
+District Merwara,,,1901,1,6,567,B,Ajmer,Rajasthan,IND,IND.29.1_1,100,alias:rename: word-order artifact of Merwara
+Ganjám District,,,1881;1901,2,2,600,A,Ganjam,Odisha,IND,IND.26.11_1,100,exact_norm+region
+Henzada District,,,1901,1,1,432,A,Hinthada,Ayeyarwady,MMR,MMR.1.2_1,100,exact_norm+region
+Kyaukse District,,,1901,1,1,576,A,Kyaukse,Mandalay,MMR,MMR.8.1_1,100,exact_norm+region
+Mainpuri District,,,1951,1,1,432,A,Mainpuri,UttarPradesh,IND,IND.34.52_1,100,exact_norm+region
+Mathura District,,,1951,1,1,432,A,Mathura,UttarPradesh,IND,IND.34.53_1,100,exact_norm+region
+Meiktila District,,,1901,1,1,456,A,Meiktila,Mandalay,MMR,MMR.8.3_1,100,exact_norm+region
+Mergui District,,,1901,1,1,456,A,Mergui,Tanintharyi,MMR,MMR.14.3_1,100,exact_norm+region
+Merwara District,,,1901,1,1,30,B,Ajmer,Rajasthan,IND,IND.29.1_1,100,"alias:rename: Merwara merged into Ajmer(-Merwara), modern Ajmer region"
+Myaungmya District,,,1901,1,1,456,B,Myoungmya,Ayeyarwady,MMR,MMR.1.4_1,100,alias:rename: GADM spelling Myoungmya
+Myingyan District,,,1901,1,1,432,A,Myingyan,Mandalay,MMR,MMR.8.4_1,100,exact_norm+region
+Nilgiri District,,,1901,1,1,480,A,TheNilgiris,TamilNadu,IND,IND.31.21_1,100,exact_norm+region
+Northern Ara,,,,0,0,0,B,Maungtaw,Rakhine,MMR,MMR.11.3_1,100,alias:rename: truncated Northern Arakan (verify) (GADM spelling Maungtaw)
+Northern Arakan District,,,1891;1901,2,4,1425,B,Maungtaw,Rakhine,MMR,MMR.11.3_1,100,alias:rename: Northern Arakan approx = modern Maungdaw district (verify) (GADM spelling Maungtaw)
+Osmanabad,,,,0,0,0,A,Osmanabad,Maharashtra,IND,IND.20.23_1,100,exact_norm+region
+Saharanpur District,,,1951,1,1,432,A,Saharanpur,UttarPradesh,IND,IND.34.63_1,100,exact_norm+region
+Tavoy District,,,1901,1,1,456,A,Dawei,Tanintharyi,MMR,MMR.14.1_1,100,exact_norm+region
+Toungoo District,,,1901,1,1,528,A,Taungoo,Bago,MMR,MMR.2.3_1,100,exact_norm+region
+Trichinopoly District,,,1881;1901,2,2,776,B,Tiruchirappalli,TamilNadu,IND,IND.31.26_1,100,alias:rename: Trichinopoly renamed Tiruchirappalli
+मैनपुरी जिला,,,,0,0,0,A,Mainpuri,UttarPradesh,IND,IND.34.52_1,100,alias:translit
+Darrang,Assam,Northeast India,1891;1901,2,2,210,A,Darrang,Assam,IND,IND.4.6_1,100,exact_norm+region
+Okhamandal,Baroda,West India,1921;1931,2,2,1188,B,DevbhumiDwarka,Gujarat,IND,IND.11.11_1,100,"alias:rename: Okhamandal taluka area, modern Devbhumi Dwarka district"
+Calcutta,Bengal,East India,1891;1901;1911;1931,4,16,5189,A,Kolkata,WestBengal,IND,IND.36.11_1,100,exact_norm+region
+Darjeeling,Bengal,East India,1891,1,2,307,B,Darjiling,WestBengal,IND,IND.36.6_1,100,alias:rename: GADM spelling Darjiling
+Hooghly,Bengal,East India,1871;1903;1961,3,3,64,B,Hugli,WestBengal,IND,IND.36.8_1,100,alias:rename: GADM spelling Hugli
+In Darjeeling,Bengal,East India,,0,0,0,B,Darjiling,WestBengal,IND,IND.36.6_1,100,alias:rename: OCR prefix artifact; GADM spelling Darjiling
+Ahmadabad,Bombay,West India,1911,1,2,1008,A,Ahmadabad,Gujarat,IND,IND.11.1_1,100,exact_norm+region
+Karachi,Bombay,West India,1911,1,3,1512,C,KarachiCentral;KarachiEast;KarachiSouth;KarachiWest;Korangi;Malir,Sindh,PAK,,,match_override: Karachi district split into six modern districts
+Navsari,Bombay,West India,1921;1931,2,2,555,A,Navsari,Gujarat,IND,IND.11.22_1,100,exact_norm+region
+Poona,Bombay,West India,1911,1,3,1248,A,Pune,Maharashtra,IND,IND.20.26_1,100,exact_norm+region
+Sholapur,Bombay,West India,1911,1,4,1812,A,Solapur,Maharashtra,IND,IND.20.32_1,100,exact_norm+region
+Sholápur,Bombay,West India,1911,1,2,756,A,Solapur,Maharashtra,IND,IND.20.32_1,100,exact_norm+region
+Surat,Bombay,West India,1911;1931,2,7,3147,A,Surat,Gujarat,IND,IND.11.28_1,100,exact_norm+region
+Akyab,Burma,Burma,1891;1901;1921,3,7,2972,A,Sittwe,Rakhine,MMR,MMR.11.4_1,100,exact_norm+region
+Akyab District,Burma,Burma,1891;1901;1931,3,21,9931,A,Sittwe,Rakhine,MMR,MMR.11.4_1,100,exact_norm+region
+Hanthawaddy,Burma,Burma,1891;1901,2,5,2547,C,Yangon-E;Yangon-N;Yangon-S;Yangon-W,Yangon,MMR,,,match_override: Hanthawaddy district encircled Rangoon; area within modern Yangon region
+Hanthawaddy District,Burma,Burma,1891;1901,2,15,6730,C,Yangon-E;Yangon-N;Yangon-S;Yangon-W,Yangon,MMR,,,match_override: same as Hanthawaddy
+Kyaukpyu,Burma,Burma,1891;1901,2,5,2116,A,Kyaunkpyu,Rakhine,MMR,MMR.11.2_1,100,exact_norm+region
+Kyaukpyu District,Burma,Burma,1891;1901,2,9,4330,A,Kyaunkpyu,Rakhine,MMR,MMR.11.2_1,100,exact_norm+region
+Lower Chindwin District,Burma,Burma,1891;1901,2,15,7332,B,Monywa,Sagaing,MMR,MMR.12.5_1,100,alias:rename: Lower Chindwin district became Monywa district
+Pegu,Burma,Burma,1891,1,2,665,A,Pegu,Bago,MMR,MMR.2.1_1,100,exact_norm+region
+Pegu District,Burma,Burma,1891;1901;1931,3,14,6923,A,Pegu,Bago,MMR,MMR.2.1_1,100,exact_norm+region
+Prome District,Burma,Burma,1891;1901,2,3,1247,A,Pyay,Bago,MMR,MMR.2.2_1,100,exact_norm+region
+Rangoon,Burma,Burma,1891;1901,2,2,747,C,Yangon-E;Yangon-N;Yangon-S;Yangon-W,Yangon,MMR,,,match_override: Rangoon district area = modern Yangon districts
+Sagaing,Burma,Burma,1891;1921,2,6,2475,A,Sagaing,Sagaing,MMR,MMR.12.6_1,100,exact_norm+region
+Sagaing District,Burma,Burma,1891;1901,2,12,5654,A,Sagaing,Sagaing,MMR,MMR.12.6_1,100,exact_norm+region
+Sandoway,Burma,Burma,1891,1,1,490,A,Thandwe,Rakhine,MMR,MMR.11.5_1,100,exact_norm+region
+Sandoway District,Burma,Burma,1891;1901;1921,3,8,3833,A,Thandwe,Rakhine,MMR,MMR.11.5_1,100,exact_norm+region
+Tharrawaddy District,Burma,Burma,1891;1901,2,14,6421,B,Thayarwady,Bago,MMR,MMR.2.4_1,100,alias:rename: modern spelling Thayarwady
+Thongwa District,Burma,Burma,1901,1,1,480,B,Maubin,Ayeyarwady,MMR,MMR.1.3_1,100,alias:rename: Thongwa district renamed Maubin (1903)
+Yamethin District,Burma,Burma,1901,1,1,504,A,Yamethin,Mandalay,MMR,MMR.8.6_1,100,exact_norm+region
+Bhind District,Gwalior,Central India,1941,1,1,492,A,Bhind,MadhyaPradesh,IND,IND.19.8_1,100,exact_norm+region
+Sheopur District,Gwalior,Central India,1941,1,2,900,A,Sheopur,MadhyaPradesh,IND,IND.19.43_1,100,exact_norm+region
+Adilabad,Hyderabad,South India,1911;1921;1931,3,5,2472,A,Adilabad,Telangana,IND,IND.32.1_1,100,exact_norm+region
+Aurangabad,Hyderabad,South India,1911;1921;1931,3,5,2826,A,Aurangabad,Maharashtra,IND,IND.20.4_1,100,exact_norm+region
+Bidar,Hyderabad,South India,1911;1931,2,3,1326,A,Bidar,Karnataka,IND,IND.16.6_1,100,exact_norm+region
+Gulbarga,Hyderabad,South India,1911;1921;1931,3,5,2736,A,Gulbarga,Karnataka,IND,IND.16.16_1,100,exact_norm+region
+Karimnagar,Hyderabad,South India,1911;1921;1931,3,5,2472,A,Karimnagar,Telangana,IND,IND.32.3_1,100,exact_norm+region
+Mahbubnagar,Hyderabad,South India,1911;1921;1931,3,5,2328,A,Mahbubnagar,Telangana,IND,IND.32.5_1,100,exact_norm+region
+Medak,Hyderabad,South India,1911;1921;1931,3,5,2382,A,Medak,Telangana,IND,IND.32.6_1,100,exact_norm+region
+Nalgonda,Hyderabad,South India,1921;1931,2,5,2388,A,Nalgonda,Telangana,IND,IND.32.7_1,100,exact_norm+region
+Nander,Hyderabad,South India,1911;1921;1931,3,4,2064,A,Nanded,Maharashtra,IND,IND.20.20_1,100,exact_norm+region
+Nizamabad,Hyderabad,South India,1911;1921;1931,3,6,2868,A,Nizamabad,Telangana,IND,IND.32.8_1,100,exact_norm+region
+Parbhani,Hyderabad,South India,1911;1921;1931,3,4,2076,A,Parbhani,Maharashtra,IND,IND.20.25_1,100,exact_norm+region
+Raichur,Hyderabad,South India,1911;1921;1931,3,4,2208,A,Raichur,Karnataka,IND,IND.16.24_1,100,exact_norm+region
+Warangal,Hyderabad,South India,1911;1921;1931,3,4,1932,A,Warangal,Telangana,IND,IND.32.10_1,100,exact_norm+region
+Bellary,Madras,South India,1881;1931,2,2,810,A,Bellary,Karnataka,IND,IND.16.5_1,100,exact_norm+region
+Bellary District,Madras,South India,1881;1901,2,4,706,A,Bellary,Karnataka,IND,IND.16.5_1,100,exact_norm+region
+Cuddapah District,Madras,South India,1881;1901,2,3,643,B,Y.S.R.,AndhraPradesh,IND,IND.2.13_1,100,alias:rename: Cuddapah renamed Kadapa; GADM name Y.S.R.
+Godavari,Madras,South India,1911,1,1,672,C,EastGodavari;WestGodavari,AndhraPradesh,IND,,,match_override: Godavari district split into East and West Godavari (1925)
+Kistna District,Madras,South India,1871;1881;1901,3,6,1018,A,Krishna,AndhraPradesh,IND,IND.2.5_1,100,exact_norm+region
+Koraput,Madras,South India,1951,1,2,44,A,Koraput,Odisha,IND,IND.26.20_1,100,exact_norm+region
+Kurnool,Madras,South India,1878;1881,2,2,134,A,Kurnool,AndhraPradesh,IND,IND.2.6_1,100,exact_norm+region
+Kurnool District,Madras,South India,1881;1901,2,3,620,A,Kurnool,AndhraPradesh,IND,IND.2.6_1,100,exact_norm+region
+Malabar District,Madras,South India,1881;1901,2,2,618,C,Kannur;Kozhikode;Wayanad;Malappuram;Palakkad,Kerala,IND,,,match_override: Malabar district split across northern Kerala districts (1957)
+Nellore District,Madras,South India,1881;1901,2,3,564,A,Nellore,AndhraPradesh,IND,IND.2.7_1,100,exact_norm+region
+South Arcot District,Madras,South India,1881;1901,2,2,765,C,Cuddalore;Viluppuram,TamilNadu,IND,,,match_override: South Arcot split into Cuddalore and Viluppuram (1993)
+Tanjore District,Madras,South India,1871;1881;1901,3,5,719,A,Thanjavur,TamilNadu,IND,IND.31.20_1,100,exact_norm+region
+Vizagapatam,Madras,South India,1911,1,1,672,A,Visakhapatnam,AndhraPradesh,IND,IND.2.10_1,100,exact_norm+region
+Bangalore,Mysore,South India,1881;1891;1901;1911;1921;1941,6,46,11086,A,Bangalore,Karnataka,IND,IND.16.3_1,100,exact_norm+region
+Bangalore District,Mysore,South India,1901;1921;1931,3,10,3156,A,Bangalore,Karnataka,IND,IND.16.3_1,100,exact_norm+region
+Chitaldrug District,Mysore,South India,1901;1921;1931,3,10,3480,A,Chitradurga,Karnataka,IND,IND.16.11_1,100,exact_norm+region
+Hassan,Mysore,South India,1891;1901;1911,3,29,6051,A,Hassan,Karnataka,IND,IND.16.17_1,100,exact_norm+region
+Hassan District,Mysore,South India,1901;1921;1931;1951,4,10,2982,A,Hassan,Karnataka,IND,IND.16.17_1,100,exact_norm+region
+Kadur District,Mysore,South India,1901;1921;1931,3,9,3096,A,Chikmagalur,Karnataka,IND,IND.16.10_1,100,exact_norm+region
+Kolar,Mysore,South India,1891;1901;1911,3,34,8032,A,Kolar,Karnataka,IND,IND.16.20_1,100,exact_norm+region
+Kolar District,Mysore,South India,1901;1911;1921;1931;1951,5,14,4997,A,Kolar,Karnataka,IND,IND.16.20_1,100,exact_norm+region
+Shimoga District,Mysore,South India,1901;1921;1931,3,13,4857,A,Shimoga,Karnataka,IND,IND.16.26_1,100,exact_norm+region
+Tumkur,Mysore,South India,1891;1901,2,31,7165,A,Tumkur,Karnataka,IND,IND.16.27_1,100,exact_norm+region
+Tumkur District,Mysore,South India,1901;1911;1921;1931,4,9,2856,A,Tumkur,Karnataka,IND,IND.16.27_1,100,exact_norm+region
+Amritsar,Punjab,North India,,0,0,0,A,Amritsar,Punjab,IND,IND.28.1_1,100,exact_norm+region
+Lahore,Punjab,North India,1881,1,1,27,A,Lahore,Punjab,PAK,PAK.7.5.2_1,100,exact_norm+region
+1-देहरादून जिला,United Provinces,North India,1951,1,1,540,A,Dehradun,Uttarakhand,IND,IND.35.5_1,100,alias:translit
+10-Etah District,United Provinces,North India,1951,1,1,432,A,Etah,UttarPradesh,IND,IND.34.23_1,100,exact_norm+region
+11-बरेली जिला,United Provinces,North India,1951,1,1,540,A,Bareilly,UttarPradesh,IND,IND.34.15_1,100,alias:translit
+14-मुरादाबाद जिला,United Provinces,North India,1951,1,1,540,A,Moradabad,UttarPradesh,IND,IND.34.57_1,100,alias:translit
+15-Shahjahanpur District,United Provinces,North India,1951,1,1,432,A,Shahjahanpur,UttarPradesh,IND,IND.34.67_1,100,exact_norm+region
+8-आगरा जिला,United Provinces,North India,1951,1,1,540,A,Agra,UttarPradesh,IND,IND.34.1_1,100,alias:translit
+Agra District,United Provinces,North India,1951,1,1,432,A,Agra,UttarPradesh,IND,IND.34.1_1,100,exact_norm+region
+Meerut District,United Provinces,North India,1872;1951,2,2,546,A,Meerut,UttarPradesh,IND,IND.34.55_1,100,exact_norm+region
+Muzaffarnagar District,United Provinces,North India,1951,1,1,432,A,Muzaffarnagar,UttarPradesh,IND,IND.34.58_1,100,exact_norm+region
+मुजफ्फरनगर जिला,United Provinces,North India,1951,1,1,540,A,Muzaffarnagar,UttarPradesh,IND,IND.34.58_1,100,alias:translit
