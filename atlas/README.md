@@ -108,3 +108,31 @@ province of the nearest mapped district in the same modern state, and are marked
     (`out/restored_from_june.csv`).
   - 111 have no cell data anywhere in the archive. They are listed as "not yet
     published" and need the cluster copy of `unified_facts.csv`.
+
+## Worked example (checked against the scan by hand)
+
+Gurgaon District, 1901, Punjab Table VII Part II (scan `census_site/img/25363739_p50.jpg`).
+All 38 POPULATION cells (male/female × 18 age bands plus totals) match the printed page.
+
+| | value | from the scan |
+|---|---|---|
+| % aged 0–9 | 27.86 | (99,518 + 108,369) / 746,208 |
+| % aged 60+ | 4.85 | 36,196 / 746,208 |
+| females per 1,000 males | 911.2 | 355,765 / 390,443 × 1,000 |
+| self-check | pass | the 18 bands sum to the printed 746,208 |
+
+## Verification suite
+
+`python3 atlas/verify_site.py [base-url]` checks:
+
+- every table link resolves to a real page, not a host fallback;
+- internal consistency of all data files;
+- that each published figure, recomputed from the raw cells, is identical (a
+  determinism check on a 150-figure sample);
+- that every figure is within bounds and carries a self-check;
+- that every page type renders in headless Chrome with no JavaScript errors.
+
+Only figures whose check passes (bands = printed total, or a proportional table
+summing to its base) are called verified or drawn on the map. 850 of 1,858 figures
+come from tables that print no total. They appear on place pages labelled "not
+checkable" and are flagged `verified=no` in `district_age_indicators.csv`.

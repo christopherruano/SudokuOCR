@@ -89,14 +89,17 @@ def main():
             links[r["place_id"]].append((r["table_id"], r["how"]))
             if r["how"] != "birthplace":
                 tplaces[r["table_id"]].append(r["place_id"])
-    metrics = collections.defaultdict(list)        # (pid, cy) -> [metric rows]
+    metrics = collections.defaultdict(list)        # (pid, cy) -> checked figures only (atlas, verified class)
+    allmetrics = collections.defaultdict(list)     # (pid, cy) -> every figure, incl. not checkable (place pages)
     age_tp = set()
     for r in csv.DictReader(open(os.path.join(OUT, "place_metrics.csv"))):
         t = tabs.get(r["table_id"])
         if not t:
             continue
         age_tp.add((r["table_id"], r["place_id"]))
-        metrics[(r["place_id"], t["cy"])].append(r)
+        allmetrics[(r["place_id"], t["cy"])].append(r)
+        if "= printed total" in r["check"] or "sums to base" in r["check"]:
+            metrics[(r["place_id"], t["cy"])].append(r)
 
     def is_age(tid, pid=None):
         t = tabs[tid]
@@ -142,13 +145,14 @@ def main():
         regs = collections.Counter(tabs[tid]["broad_region"] for tid, _ in own if tabs[tid]["broad_region"])
         P[pid]["r"] = regs.most_common(1)[0][0] if regs else ""
     def strength(check):
-        return 3 if "printed total" in check else 2 if "sums to base" in check else 1
+        return 3 if "= printed total" in check else 2 if "sums to base" in check else 1
 
-    for (pid, y), rows in metrics.items():
+    for (pid, y), rows in allmetrics.items():
         if pid in P and y:
             b = max(rows, key=lambda r: (strength(r["check"]), float(r["total"] or 0)))
             f = lambda k: round(float(b[k]), 1) if b[k] != "" else None
-            P[pid].setdefault("m", {})[y] = [f("child"), f("old"), f("sexratio"), tabs[b["table_id"]]["page"], b["check"][:80]]
+            chk = b["check"][:80] if strength(b["check"]) > 1 else "not checkable: open-ended bands and no printed total"
+            P[pid].setdefault("m", {})[y] = [f("child"), f("old"), f("sexratio"), tabs[b["table_id"]]["page"], chk]
     # same territory under another name/era (e.g. Amraoti 1881-1911 -> Amravati 1951)
     by_modern = collections.defaultdict(list)
     for pid in P:
@@ -243,7 +247,7 @@ def main():
         gid_prov[g] = gid_prov[h]; how_prov[g] = "nearest"
 
     def strength(check):
-        return 3 if "printed total" in check else 2 if "sums to base" in check else 1
+        return 3 if "= printed total" in check else 2 if "sums to base" in check else 1
 
     def pick(rows):
         """best indicator row: strongest self-check, then Table VII-like, then largest population"""
@@ -336,14 +340,14 @@ def main():
     with open(os.path.join(D, "district_age_indicators.csv"), "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["place_id", "place", "kind", "census_year", "pct_aged_0_9", "pct_aged_60_plus",
-                    "females_per_1000_males", "population_in_table", "self_check", "slice", "table_title", "table_page"])
-        for (pid, y), rows in sorted(metrics.items()):
+                    "females_per_1000_males", "population_in_table", "verified", "self_check", "slice", "table_title", "table_page"])
+        for (pid, y), rows in sorted(allmetrics.items()):
             if pid not in places:
                 continue
             b = pick(rows)
             t = tabs[b["table_id"]]
             w.writerow([pid, places[pid]["name"], places[pid]["kind"], y, b["child"], b["old"], b["sexratio"],
-                        b["total"], b["check"], b["slice"], t["title"], t["page"]])
+                        b["total"], "yes" if strength(b["check"]) > 1 else "no", b["check"], b["slice"], t["title"], t["page"]])
     print("places.json:", len(P), "places |", "volumes.json:", len(V), "volumes |", "tables:", len(T),
           "| published:", sum(1 for t in T if t["p"]))
     for y in YEARS:

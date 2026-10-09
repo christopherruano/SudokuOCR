@@ -50,7 +50,7 @@ fetch('data/places.json').then(r=>r.json()).then(P=>{
  if(p.gap)h+=`<div class=warn>⚠ ${esc(p.gap)}</div>`;
  if(p.m&&Object.keys(p.m).length){h+=`<h2>Age structure, as printed</h2><table><tr><th>Census</th><th>% aged 0–9</th><th>% aged 60+</th><th>females per 1,000 males</th><th>from</th><th>self-check</th></tr>`+
    Object.keys(p.m).sort().map(y=>{const v=p.m[y];return `<tr><td>${y}</td><td>${v[0]??''}</td><td>${v[1]??''}</td><td>${v[2]??''}</td><td>${v[3]?`<a href="tables/${encodeURI(v[3])}.html">table</a>`:''}</td><td class=muted>${esc(v[4])}</td></tr>`}).join('')+
-   `</table><p class=muted>Computed from the table's own cells; shares are of persons of stated age. A figure is shown only when the table's age bands add up to its printed total (or, for proportional tables, to 1,000/10,000).</p>`}
+   `</table><p class=muted>Computed from the table's own cells; shares are of persons of stated age. A figure is marked checked only when the table's age bands add up to its printed total (or, for proportional tables, to 1,000/10,000); “not checkable” figures come from tables that print no total and are not used on the map.</p>`}
  const allY=P.years;h+=`<div class=grid>`+allY.map(y=>{const n=own.filter(r=>r.y==y).length,a=own.filter(r=>r.y==y&&r.a).length;
    return `<a class="yr${n?'':' none'}" href="#y${y}"><div class=muted>${y}</div><b>${n}</b> tables<div class=muted>${a} with ages</div></a>`}).join('')+`</div>`;
  const grp={};own.forEach(r=>{(grp[r.y||'year unknown']=grp[r.y||'year unknown']||[]).push(r)});
