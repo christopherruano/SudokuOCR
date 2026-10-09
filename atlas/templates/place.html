@@ -1,0 +1,68 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Census — place inventory</title>
+<style>
+ *{box-sizing:border-box} body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a;background:#fbfdff}
+ __NAVCSS__
+ main{max-width:1100px;margin:0 auto;padding:12px 16px 40px}
+ h1{font-size:22px;margin:6px 0 2px} .muted{color:#678;font-size:12px}
+ .complete{background:#e8f3ec;border:1px solid #b9dcc4;border-radius:8px;padding:10px 14px;margin:10px 0}
+ .warn{background:#fff6e5;border:1px solid #f0d49a;border-radius:8px;padding:8px 12px;margin:8px 0;font-size:13px}
+ .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:10px 0}
+ .yr{background:#fff;border:1px solid #dde5ec;border-radius:8px;padding:8px 10px;text-decoration:none;color:inherit}
+ .yr b{font-size:17px;color:#1f3a52} .yr.none{opacity:.45}
+ h2{font-size:17px;margin:22px 0 6px;border-bottom:1px solid #e3e9ee;padding-bottom:3px}
+ table{border-collapse:collapse;width:100%;font-size:13px} th,td{text-align:left;padding:4px 6px;border-bottom:1px solid #eef2f5;vertical-align:top}
+ th{font-size:12px;color:#567;font-weight:600}
+ .pill{display:inline-block;font-size:11px;border-radius:9px;padding:0 7px;margin-right:3px;background:#eef2f6;color:#345}
+ .pill.age{background:#dff0e4;color:#14532d} .pill.how{background:#eef0ff;color:#33408a}
+ .pill.unpub{background:#f5e9e9;color:#7a2d2d}
+ a{color:#1a5fa0}
+ .kv{display:grid;grid-template-columns:max-content 1fr;gap:2px 14px;font-size:13px;margin:6px 0}
+ .kv div:nth-child(odd){color:#567}
+</style></head><body>
+__NAV__
+<main id=main><p class=muted>Loading…</p></main>
+<script>
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+const HOW={tag:'tagged to this place',title:'named in the table title',rows:'a row inside the table',sect:'a section of the table',colg:'a column group of the table',parent:'province/state-level table that covers it'};
+const k=new URLSearchParams(location.search).get('k');
+fetch('data/places.json').then(r=>r.json()).then(P=>{
+ const m=document.getElementById('main');const p=P.places[k];
+ if(!p){m.innerHTML=`<h1>Place not found</h1><p>Try the <a href="places.html">A–Z list of places</a> or <a href="search.html">search</a>.</p>`;return}
+ document.title='Census — '+p.n;
+ const T=P.tables;const rows=p.t.map(([i,how])=>({...T[i],how}));
+ const own=rows;
+ const par=[];let anc=p.pk,seen=new Set();
+ while(anc&&P.places[anc]&&!seen.has(anc)){seen.add(anc);P.places[anc].t.filter(([i,h])=>h==='tag').forEach(([i])=>par.push({...T[i],how:'parent'}));anc=P.places[anc].pk}
+ const years=[...new Set(own.map(r=>r.y).filter(Boolean))].sort();
+ const ageN=own.filter(r=>r.a).length;
+ let h=`<div class=muted>${esc(P.classes[p.c]||p.c)}${p.p?' · in '+(P.places[p.pk]?`<a href="place.html?k=${encodeURIComponent(p.pk)}">${esc(p.p)}</a>`:esc(p.p)):''}</div><h1>${esc(p.n)}</h1>`;
+ h+=`<div class=kv>`;
+ if(p.al&&p.al.length)h+=`<div>also spelled</div><div>${p.al.map(esc).join(' · ')}</div>`;
+ if(p.mod)h+=`<div>modern equivalent</div><div>${esc(p.mod)} <span class=pill>tier ${esc(p.tier)}</span> <span class=muted>${esc(p.ev||'')}</span> · <a href="atlas.html?y=${years[0]||'all'}">see on map</a></div>`;
+ if(p.sib&&p.sib.length)h+=`<div>same territory, other names</div><div>${p.sib.map(c=>`<a href="place.html?k=${encodeURIComponent(c)}">${esc(P.places[c].n)}</a> <span class=muted>(${Object.keys(P.places[c].cy||{}).sort().join(', ')})</span>`).join(' · ')}</div>`;
+ if(p.kids&&p.kids.length)h+=`<div>contains</div><div>${p.kids.map(c=>`<a href="place.html?k=${encodeURIComponent(c)}">${esc(P.places[c].n)}</a>`).join(', ')}</div>`;
+ h+=`</div>`;
+ h+=`<div class=complete><b>This is the complete inventory for ${esc(p.n)}.</b> ${own.length} table${own.length==1?'':'s'} in the corpus
+   refer to it directly (${ageN} with an age breakdown), from ${new Set(own.map(r=>r.d)).size} census volume${new Set(own.map(r=>r.d)).size==1?'':'s'}${years.length?', census years '+years.join(', '):''}.
+   We searched every digitized table's place tag, title, and row/section labels for “${esc(p.n)}”${p.al&&p.al.length?' and its '+p.al.length+' other spelling'+(p.al.length>1?'s':''):''}.
+   If a table is not listed here, it is not in the corpus.</div>`;
+ if(p.gap)h+=`<div class=warn>⚠ ${esc(p.gap)}</div>`;
+ if(p.m&&Object.keys(p.m).length){h+=`<h2>Age structure, as printed</h2><table><tr><th>Census</th><th>% aged 0–9</th><th>% aged 60+</th><th>females per 1,000 males</th><th>from</th><th>self-check</th></tr>`+
+   Object.keys(p.m).sort().map(y=>{const v=p.m[y];return `<tr><td>${y}</td><td>${v[0]??''}</td><td>${v[1]??''}</td><td>${v[2]??''}</td><td>${v[3]?`<a href="tables/${encodeURI(v[3])}.html">table</a>`:''}</td><td class=muted>${esc(v[4])}</td></tr>`}).join('')+
+   `</table><p class=muted>Computed from the table's own cells; shares are of persons of stated age. A figure is shown only when the table's age bands add up to its printed total (or, for proportional tables, to 1,000/10,000).</p>`}
+ const allY=P.years;h+=`<div class=grid>`+allY.map(y=>{const n=own.filter(r=>r.y==y).length,a=own.filter(r=>r.y==y&&r.a).length;
+   return `<a class="yr${n?'':' none'}" href="#y${y}"><div class=muted>${y}</div><b>${n}</b> tables<div class=muted>${a} with ages</div></a>`}).join('')+`</div>`;
+ const grp={};own.forEach(r=>{(grp[r.y||'year unknown']=grp[r.y||'year unknown']||[]).push(r)});
+ for(const y of Object.keys(grp).sort()){h+=`<h2 id="y${esc(y)}">${esc(y)}</h2><table><tr><th>Table</th><th>Volume · page</th><th>Why it's listed</th></tr>`;
+  grp[y].sort((a,b)=>(a.d+a.o).localeCompare(b.d+b.o)).forEach(r=>{
+   const link=r.p?`<a href="tables/${encodeURI(r.p)}.html">${esc(r.t||'(untitled)')}</a>`:`${esc(r.t||'(untitled)')} <span class="pill unpub">not yet published</span>`;
+   h+=`<tr><td>${link}${r.a?' <span class="pill age">age</span>':''}</td><td><a href="volume.html?d=${r.d}">${esc((P.vols[r.d]||{}).s||r.d)}</a>${r.pg?' · p. '+esc(r.pg):''}</td><td><span class="pill how">${esc(HOW[r.how]||r.how)}</span>${r.g&&r.how!=='tag'?'<span class=muted> tagged '+esc(r.g)+'</span>':''}</td></tr>`});
+  h+='</table>'}
+ if(par.length){h+=`<h2>Higher-level tables that also cover ${esc(p.n)}</h2><p class=muted>These are tabulated for the whole province/state, so ${esc(p.n)} is included in the totals but not shown separately. ${par.length} tables.</p><table>`;
+  par.slice(0,400).forEach(r=>{h+=`<tr><td>${esc(r.y||'')}</td><td>${r.p?`<a href="tables/${encodeURI(r.p)}.html">${esc(r.t||'(untitled)')}</a>`:esc(r.t)}${r.a?' <span class="pill age">age</span>':''}</td><td class=muted>${esc(r.g)}</td></tr>`});
+  h+='</table>'}
+ m.innerHTML=h;
+ if(location.hash){const e=document.querySelector(location.hash);if(e)e.scrollIntoView()}
+});
+</script></body></html>

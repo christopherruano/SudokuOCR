@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Census — search</title>
+<style>
+ *{box-sizing:border-box} body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a;background:#fbfdff}
+ __NAVCSS__
+ .box{padding:12px 16px;border-bottom:1px solid #e3e9ee;background:#fff}
+ #q{width:100%;max-width:760px;font:inherit;font-size:16px;padding:8px 12px;border:1px solid #b9c7d3;border-radius:8px}
+ .facets{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;font-size:12.5px;color:#456;align-items:center}
+ .facets select,.facets input[type=number]{font:inherit;padding:2px 4px;max-width:180px} .facets input[type=number]{width:70px}
+ .clear{cursor:pointer;color:#a33}
+ #placehits{margin:10px 16px 0} .ph{background:#e8f3ec;border:1px solid #b9dcc4;border-radius:8px;padding:8px 12px;margin-bottom:6px}
+ .ph a{color:#14532d;font-weight:600} .muted{color:#678;font-size:12px}
+ #res{padding:6px 16px 40px}
+ a.row{display:grid;grid-template-columns:52px 170px 1fr;gap:10px;padding:5px 6px;border-bottom:1px solid #eef2f5;text-decoration:none;color:inherit;font-size:13px}
+ a.row:hover{background:#f2f7fb}
+ .yr{color:#1f3a52;font-weight:600} .pl{color:#345} .t{color:#111} .sub{display:block;font-size:11.5px;color:#789}
+ .pill{display:inline-block;font-size:11px;border-radius:9px;padding:0 7px;margin-left:4px;background:#dff0e4;color:#14532d}
+ #cnt{font-weight:600;color:#1f3a52}
+ @media (max-width:640px){a.row{grid-template-columns:44px 1fr}.pl{display:none}}
+</style></head><body>
+__NAV__
+<div class=box>
+ <input id=q autofocus placeholder="a place, a table number, a topic…  e.g.  cawnpore 1901 · table vii madras · widows">
+ <div class=facets>
+  <span>📅 <input type=number id=y0 placeholder=from> – <input type=number id=y1 placeholder=to></span>
+  <label><input type=checkbox id=ao> age tables only</label>
+  <span>Subject <select id=fk></select></span><span>Region <select id=fr></select></span>
+  <span>Tagged as <select id=fe></select></span><span>Status <select id=fs></select></span>
+  <span class=clear id=clr>✕ clear</span><span id=cnt></span>
+ </div>
+ <div class=muted style="margin-top:6px">Searches table titles, the place each table is tagged to, <b>and every district/town/state that appears inside it</b> (rows, sections, column groups), under all recorded spellings.</div>
+</div>
+<div id=placehits></div>
+<div id=res></div>
+<script>
+const IDX=__IDX__;
+const PL=__PLACES__;
+const $=id=>document.getElementById(id);
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function nz(s){return String(s||'').normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase()}
+IDX.forEach(t=>t._h=nz([t.t,t.g,t.x,t.r,t.k,t.y,t.v].join(' ')));
+PL.forEach(p=>p._h=nz(p[1]+' '+p[4]));
+function fill(sel,key){const vals=[...new Set(IDX.map(t=>t[key]).filter(Boolean))].sort();sel.innerHTML='<option value="">(any)</option>'+vals.map(v=>`<option>${esc(v)}</option>`).join('')}
+fill($('fk'),'k');fill($('fr'),'r');fill($('fe'),'e');fill($('fs'),'s');
+function run(){
+ const raw=$('q').value.trim(), terms=nz(raw).split(/\s+/).filter(Boolean);
+ const ys=terms.filter(w=>/^1[89]\d\d$/.test(w)), words=terms.filter(w=>!/^1[89]\d\d$/.test(w));
+ const k=$('fk').value,r=$('fr').value,e=$('fe').value,s=$('fs').value,ao=$('ao').checked;
+ let y0=+$('y0').value||0,y1=+$('y1').value||9999; if(ys.length){y0=Math.min(...ys.map(Number));y1=Math.max(...ys.map(Number))}
+ // place matches: every query word (except years) must hit the place name / spellings;
+ // a matched place contributes every table it appears in, not just tables whose text matches
+ const phits=words.length?PL.filter(p=>words.every(w=>p._h.includes(w))).sort((a,b)=>b[5]-a[5]):[];
+ const viaPlace=new Set(phits.flatMap(p=>p[8]));
+ const out=[];
+ IDX.forEach((t,i)=>{if(k&&t.k!==k||r&&t.r!==r||e&&t.e!==e||s&&t.s!==s||ao&&!t.a)return;
+  const ty=+t.y;if(ty&&(ty<y0||ty>y1))return;if((y0>0||y1<9999)&&!ty)return;
+  if(!viaPlace.has(i)&&!words.every(w=>t._h.includes(w)))return;out.push(t)});
+ out.sort((a,b)=>(+a.y||0)-(+b.y||0));
+ let ph='';
+ if(words.length){const hits=phits.slice(0,6);
+  ph=hits.map(p=>`<div class=ph>📍 <a href="place.html?k=${encodeURIComponent(p[0])}">${esc(p[1])}</a> <span class=muted>${esc(p[2].replace('_',' '))}${p[3]?' · '+esc(p[3]):''}</span><br>
+   ${p[5]} tables in the corpus (${p[6]} with an age breakdown), census years ${esc(p[7].split(',').join(', '))}.
+   <a href="place.html?k=${encodeURIComponent(p[0])}">See the complete inventory →</a> <span class=muted>— it lists every table that mentions ${esc(p[1])}, including ones where it is only a row inside a provincial table. If it is not listed there, it is not in the corpus.</span></div>`).join('')}
+ $('placehits').innerHTML=ph;
+ $('cnt').textContent=out.length+' table'+(out.length==1?'':'s');
+ $('res').innerHTML=(out.length?'':`<p class=muted>No table in the corpus matches${raw?' “'+esc(raw)+'”':''} with these filters.</p>`)+
+  out.slice(0,800).map(t=>`<a class=row href="tables/${t.p}.html"><span class=yr>${t.y||'?'}</span><span class=pl>${esc(t.g)}</span><span class=t>${esc(t.t)}${t.a?'<span class=pill>age</span>':''}<span class=sub>${esc(t.v)}${t.pg?' · p. '+esc(t.pg):''}${t.x?' · covers '+esc(t.x):''}</span></span></a>`).join('')+
+  (out.length>800?`<p class=muted>Showing the first 800 of ${out.length}. Narrow with a year or filter.</p>`:'');
+ const u=new URL(location);u.searchParams.set('q',raw);history.replaceState(null,'',u)}
+['q','y0','y1'].forEach(id=>$(id).addEventListener('input',run));['fk','fr','fe','fs','ao'].forEach(id=>$(id).addEventListener('change',run));
+$('clr').onclick=()=>{['q','y0','y1','fk','fr','fe','fs'].forEach(id=>$(id).value='');$('ao').checked=false;run()};
+const q0=new URLSearchParams(location.search).get('q');if(q0)$('q').value=q0;run();
+</script></body></html>

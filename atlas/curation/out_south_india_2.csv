@@ -1,0 +1,801 @@
+key,kind,hist_name,hist_parent,modern,confidence,note
+baroda,princely_state,Baroda State,Baroda Residency,IND/Gujarat/Vadodara;IND/Gujarat/Mahesana;IND/Gujarat/Amreli;IND/Gujarat/Navsari,medium,"scattered territory; main prants Baroda, Kadi, Amreli, Navsari"
+bengal,province,Bengal,British India,,high,
+cochin,princely_state,Cochin State,Madras,IND/Kerala/Thrissur;IND/Kerala/Ernakulam;IND/Kerala/Palakkad,high,Palakkad = Chittur taluk only
+centralprovinces,province,Central Provinces,British India,,high,
+tumkur,district,Tumkur District,Mysore,IND/Karnataka/Tumkur,high,
+rajputanacentralindiacochinandtravancore,aggregate,,,,high,Rajputana + Central India + Cochin + Travancore
+bombayfeudatorystates,aggregate,,Bombay,,high,group of Bombay feudatory states
+nwprovincesbritishterritory,province,North-Western Provinces,United Provinces,,high,NWP (=later United Provinces); British territory portion only
+unspecified,not_place,,,,high,
+state,not_place,,,,high,
+nwprovincesfeudatorystates,aggregate,,United Provinces,,high,"feudatory states of NWP (Rampur, Tehri Garhwal)"
+kolargoldfields,town,Kolar Gold Fields,Mysore,IND/Karnataka/Kolar,high,
+tanjore,district,Tanjore District,Madras,IND/TamilNadu/Thanjavur;IND/TamilNadu/Thiruvarur;IND/TamilNadu/Nagappattinam,high,Tanjore=Thanjavur; split
+warangal,district,Warangal District,Hyderabad State,IND/Telangana/Warangal;IND/Telangana/Khammam,high,Khammam split 1953
+mahbubnagar,district,Mahbubnagar District,Hyderabad State,IND/Telangana/Mahbubnagar,high,
+budhist,not_place,,,,high,
+kistna,district,Kistna District,Madras,IND/AndhraPradesh/Krishna;IND/AndhraPradesh/Guntur;IND/AndhraPradesh/Prakasam,high,pre-1904 Kistna incl. Guntur; Prakasam part
+feudatorystatespunjab,aggregate,,Punjab,,high,Punjab feudatory states
+nalgonda,district,Nalgonda District,Hyderabad State,IND/Telangana/Nalgonda,high,
+mussalman,not_place,,,,high,
+chitaldroog,district,Chitaldrug District,Mysore,IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,Chitaldroog=Chitradurga; Davanagere taluk now in Davanagere dist.
+sandur,princely_state,Sandur State,Madras,IND/Karnataka/Bellary,high,
+bidar,district,Bidar District,Hyderabad State,IND/Karnataka/Bidar;IND/Maharashtra/Latur;IND/Telangana/Medak,medium,pre-1956 Bidar incl. Udgir/Ahmadpur (Latur) and Zahirabad/Narayankhed (Medak)
+northwesternprovincesbritishterritory,province,North-Western Provinces,United Provinces,,high,NWP (=later United Provinces); British territory portion only
+secondhalf,not_place,,,,high,
+madura,district,Madura District,Madras,IND/TamilNadu/Madurai;IND/TamilNadu/Dindigul;IND/TamilNadu/Theni;IND/TamilNadu/Ramanathapuram;IND/TamilNadu/Sivaganga;IND/TamilNadu/Virudunagar,medium,pre-1910 Madura incl. Ramnad
+quilon,sub_district,Quilon Taluk,Travancore State,IND/Kerala/Kollam,high,
+atrafibalda,district,Atraf-i-Balda District,Hyderabad State,IND/Telangana/RangaReddy,medium,district surrounding Hyderabad city; ~Ranga Reddy
+southarcot,district,South Arcot District,Madras,IND/TamilNadu/Cuddalore;IND/TamilNadu/Viluppuram,high,split Cuddalore+Villupuram
+unmarried,not_place,,,,high,
+pattanapuramtaluk,sub_district,Pattanapuram Taluk,Travancore State,IND/Kerala/Kollam,high,Pathanapuram
+vizagapatam,district,Vizagapatam District,Madras,IND/AndhraPradesh/Visakhapatnam;IND/AndhraPradesh/Vizianagaram;IND/AndhraPradesh/Srikakulam;IND/Odisha/Koraput;IND/Odisha/Rayagada;IND/Odisha/Nabarangapur;IND/Odisha/Malkangiri,medium,pre-1936 incl. Jeypore agency (Koraput); Srikakulam part
+central,natural_division,Central,Travancore State,,medium,Travancore 1921 natural division
+pattanapuram,sub_district,Pattanapuram Taluk,Travancore State,IND/Kerala/Kollam,high,Pathanapuram
+methodist,not_place,,,,high,
+kottayam,sub_district,Kottayam Taluk,Travancore State,IND/Kerala/Kottayam,high,also Kottayam District in 1951 tables
+subsidiarytableiagedistributionofofeachsexbyannualperiods,not_place,,,,high,
+gulbarga,district,Gulbarga District,Hyderabad State,IND/Karnataka/Gulbarga;IND/Karnataka/Yadgir,high,Yadgir split 2010
+armenian,not_place,,,,high,
+southern,natural_division,Southern,Travancore State,,medium,Travancore 1921 natural division
+trichur,sub_district,Trichur Taluk,Cochin State,IND/Kerala/Thrissur,high,
+tablevcontdtribesorracescontd,not_place,,,,high,
+tovalataluk,sub_district,Tovala Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,Thovalai
+chengannurtaluk,sub_district,Chengannur Taluk,Travancore State,IND/Kerala/Alappuzha,high,
+elgandal,district,Elgandal District,Hyderabad State,IND/Telangana/Karimnagar,high,Elgandal renamed Karimnagar 1905
+birh,district,Bhir District,Hyderabad State,IND/Maharashtra/Bid,high,Birh=Bhir=Bid
+godavari,district,Godavari District,Madras,IND/AndhraPradesh/EastGodavari;IND/AndhraPradesh/WestGodavari,high,split East/West Godavari 1925
+kumbhipatia,not_place,,,,high,
+sectnotreturned,not_place,,,,high,
+highlanddivision,natural_division,Highland Division,Travancore State,,high,Travancore 1931 natural division
+subsidiarytableiii,not_place,,,,high,
+kolargoldfieldscity,town,Kolar Gold Fields,Mysore,IND/Karnataka/Kolar,high,
+nedumangad,sub_district,Nedumangad Taluk,Travancore State,IND/Kerala/Thiruvananthapuram,high,
+mavelikara,sub_district,Mavelikara Taluk,Travancore State,IND/Kerala/Alappuzha,high,
+shertallay,sub_district,Shertallay Taluk,Travancore State,IND/Kerala/Alappuzha,high,Cherthala
+alangad,sub_district,Alangad Taluk,Travancore State,IND/Kerala/Ernakulam,high,
+chingleput,district,Chingleput District,Madras,IND/TamilNadu/Kancheepuram;IND/TamilNadu/Thiruvallur,high,split Kancheepuram+Tiruvallur
+telingana,natural_division,Telingana,Hyderabad State,,high,
+mukundapuram,sub_district,Mukundapuram Taluk,Cochin State,IND/Kerala/Thrissur,high,
+lifetable,not_place,,,,high,
+division,not_place,,,,high,
+brahmowidowed,not_place,,,,high,
+karunagapallitaluk,sub_district,Karunagapalli Taluk,Travancore State,IND/Kerala/Kollam,high,
+vilavankodtaluk,sub_district,Vilavankod Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,
+mavelikarataluk,sub_district,Mavelikara Taluk,Travancore State,IND/Kerala/Alappuzha,high,
+vaikamtaluk,sub_district,Vaikam Taluk,Travancore State,IND/Kerala/Kottayam,high,
+ettumanur,sub_district,Ettumanur Taluk,Travancore State,IND/Kerala/Kottayam,high,
+muvattupuzhataluk,sub_district,Muvattupuzha Taluk,Travancore State,IND/Kerala/Ernakulam,high,
+kunnatnadtaluk,sub_district,Kunnatnad Taluk,Travancore State,IND/Kerala/Ernakulam,high,
+tableviiieducation,not_place,,,,high,
+decrease,not_place,,,,high,
+southcanara,district,South Canara District,Madras,IND/Karnataka/DakshinaKannada;IND/Karnataka/Udupi;IND/Kerala/Kasaragod,high,split; Kasaragod to Kerala 1956
+highrange,natural_division,High Range,Travancore State,,medium,Travancore natural division
+negapatam,town,Negapatam,Madras,IND/TamilNadu/Nagappattinam,high,
+proportionper,not_place,,,,high,
+mussalmanunmarried,not_place,,,,high,
+kumbakonam,town,Kumbakonam,Madras,IND/TamilNadu/Thanjavur,high,city table
+bangalorejain,district,Bangalore District,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara,high,subset; split Bangalore Urban/Rural/Ramanagara
+tableviiagesexandcivilcondition,not_place,,,,high,
+tablenocomparingproportionperofpopulationofeachageperiodbelowwithgeneralresultsforpresidencyfamineandnonfaminetractsbeingseparatelygiven,not_place,,,,high,
+sexandcivilconditionvizagapatam,district,Vizagapatam District,Madras,IND/AndhraPradesh/Visakhapatnam;IND/AndhraPradesh/Vizianagaram;IND/AndhraPradesh/Srikakulam;IND/Odisha/Koraput;IND/Odisha/Rayagada;IND/Odisha/Nabarangapur;IND/Odisha/Malkangiri,medium,from title
+kartikapalli,sub_district,Kartikappalli Taluk,Travancore State,IND/Kerala/Alappuzha,high,Karthikappally
+kunnatnadtalukalangadtaluk,aggregate,,Travancore State,,high,Kunnatnad + Alangad taluks
+bhir,district,Bhir District,Hyderabad State,IND/Maharashtra/Bid,high,Bhir=Bid/Beed
+marvadi,not_place,,,,high,
+devanhalli,sub_district,Devanhalli Taluk,Mysore,IND/Karnataka/BangaloreRural,high,taluk (town in 1881 table)
+malvalli,sub_district,Malvalli Taluk,Mysore,IND/Karnataka/Mandya,high,taluk (town in 1881 table); Mysore dist. then
+bunder,town,Bunder (Masulipatam),Madras,IND/AndhraPradesh/Krishna,medium,Bandar=Masulipatnam (town/taluk)
+cranganur,sub_district,Cranganur Taluk,Cochin State,IND/Kerala/Thrissur,high,Kodungallur
+lowland,natural_division,Lowland Division,Travancore State,,high,Travancore 1931 natural division
+meanage,not_place,,,,high,
+shiyas,not_place,,,,high,
+excessordeficiencyofimmigrationoveremigration,not_place,,,,high,
+andwidows,not_place,,,,high,
+ejew,not_place,,,,high,
+bangaloreanimist,district,Bangalore District,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara,high,subset; split Bangalore Urban/Rural/Ramanagara
+kadurhindu,district,Kadur District,Mysore,IND/Karnataka/Chikmagalur,high,subset; Kadur=Chikmagalur
+subsidiarytableiiinumberafflictedperpersonsofeachageperiodandnumberoffemalesafflictedpermales,not_place,,,,high,
+distributionbyoftotal,not_place,,,,high,
+civilandmilitarystationbangaloreallreligions,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+nocontinued,not_place,,,,high,
+easterndivi,natural_division,Eastern Division,Mysore,,high,"truncated ""Eastern Division""; Mysore census natural division"
+warangalcity,town,Warangal City,Hyderabad State,IND/Telangana/Warangal,high,
+ireportedbirthratebysexandnatural,not_place,,,,high,
+eranieltalukkalkulamtaluk,aggregate,,Travancore State,,high,Eraniel + Kalkulam taluks
+kartikappalli,sub_district,Kartikappalli Taluk,Travancore State,IND/Kerala/Alappuzha,high,Karthikappally
+stateandineachnatural,not_place,,,,high,
+tigala,not_place,,,,high,
+kuruba,not_place,,,,high,
+golla,not_place,,,,high,
+chikballapur,sub_district,Chik Ballapur Taluk,Mysore,IND/Karnataka/Chikballapura,high,"taluk/town, Kolar dist. then"
+anekal,sub_district,Anekal Taluk,Mysore,IND/Karnataka/Bangalore,high,taluk/town
+chintamani,sub_district,Chintamani Taluk,Mysore,IND/Karnataka/Chikballapura,high,"taluk/town, Kolar dist. then"
+feudatorystatesnorthwesternprovinces,aggregate,,United Provinces,,high,"feudatory states of NWP (Rampur, Tehri Garhwal)"
+lingayatmysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+lingayatcivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+mahrattacivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+medamysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+mudalimysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+mudalicivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+kumbaracivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+agasacivilandmilitarystationbangalore,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+bedamysorestateincludingcandmstnbangalore,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+darzicivilandmilitarystationbangalore,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+ganigamysorestateincludingcandmstnbangalore,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+mysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+westerndivisionmale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+civilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+vaisyamysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+voddamysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+voddacivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+jacobite,not_place,,,,high,
+naldrug,district,Naldrug District,Hyderabad State,IND/Maharashtra/Osmanabad;IND/Maharashtra/Latur,high,Naldrug renamed Osmanabad 1905; Latur split 1982
+portonovo,town,Porto Novo,Madras,IND/TamilNadu/Cuddalore,high,"Porto Novo=Parangipettai, South Arcot"
+guntoor,town,Guntoor,Madras,IND/AndhraPradesh/Guntur,high,town in 1881 Kistna dist.
+rajahmundry,town,Rajahmundry,Madras,IND/AndhraPradesh/EastGodavari,high,
+adoni,town,Adoni,Madras,IND/AndhraPradesh/Kurnool,high,Bellary dist. then
+raidroog,town,Raidroog,Madras,IND/AndhraPradesh/Anantapur,high,Rayadurg; Bellary dist. then
+addborninmysorebutenumeratedelsewhere,not_place,,,,high,
+maple,not_place,,,,high,
+persia,country,,,,high,Persia=Iran
+yedatore,sub_district,Yedatore Taluk,Mysore,IND/Karnataka/Mysore,high,Yedatore=Krishnarajanagara
+chamrajnagar,sub_district,Chamrajnagar Taluk,Mysore,IND/Karnataka/Chamrajnagar,high,
+frenchrocks,sub_district,French Rocks Taluk,Mysore,IND/Karnataka/Mandya,high,French Rocks=Pandavapura
+krishnarajpete,sub_district,Krishnarajpete Taluk,Mysore,IND/Karnataka/Mandya,high,
+hoskote,sub_district,Hoskote Taluk,Mysore,IND/Karnataka/BangaloreRural,high,
+brahmanothers,not_place,,,,high,
+syrianchristians,not_place,,,,high,
+syrianchristian,not_place,,,,high,
+westcoast,natural_division,West Coast,Madras,,high,
+halukurubaru,not_place,,,,high,
+kumbaru,not_place,,,,high,
+statetotal,not_place,,,,high,
+ladar,not_place,,,,high,
+percentagetototalpopulation,not_place,,,,high,
+hchristian,not_place,,,,high,
+talappilly,sub_district,Talappilly Taluk,Cochin State,IND/Kerala/Thrissur,high,
+increaseordecrease,not_place,,,,high,
+differenceexcessordefectofbirthsoverdeaths,not_place,,,,high,
+tablecvsingleyearagereturns,not_place,,,,high,
+ramnadothers,district,Ramnad District,Madras,IND/TamilNadu/Ramanathapuram;IND/TamilNadu/Sivaganga;IND/TamilNadu/Virudunagar,high,subset; Ramnad=Ramanathapuram; split
+eranielchristian,sub_district,Eraniel Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset
+tumkuranimist,district,Tumkur District,Mysore,IND/Karnataka/Tumkur,high,subset
+mysorejain,district,Mysore District,Mysore,IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar,high,"subset; Mandya separated 1939, Chamrajnagar 1997"
+chitaldrugmusalman,district,Chitaldrug District,Mysore,IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; Chitaldroog=Chitradurga; Davanagere taluk now in Davanagere dist.
+hassanhindu,district,Hassan District,Mysore,IND/Karnataka/Hassan,high,subset
+hassananimist,district,Hassan District,Mysore,IND/Karnataka/Hassan,high,subset
+kadurchristian,district,Kadur District,Mysore,IND/Karnataka/Chikmagalur,high,subset; Kadur=Chikmagalur
+sandurhindu,princely_state,Sandur State,Madras,IND/Karnataka/Bellary,high,subset
+madrasothers,town,Madras City,Madras,IND/TamilNadu/Chennai,medium,"subset; district-table row ""Madras"" = Madras City"
+shimogabrahminmales,district,Shimoga District,Mysore,IND/Karnataka/Shimoga;IND/Karnataka/Davanagere,high,subset; Channagiri/Honnali now in Davanagere
+tableveducationmusalmansmale,not_place,,,,high,
+tableveducationhindusfemale,not_place,,,,high,
+tableveducationchristiansfemale,not_place,,,,high,
+ivnonhinduaboriginalcastesandtribes,not_place,,,,high,
+subsidiarytableigeneraldistributionofpopulationbyreligion,not_place,,,,high,
+aboriginalsingle,not_place,,,,high,
+malabarallreligions,district,Malabar District,Madras,IND/Kerala/Kozhikode;IND/Kerala/Malappuram;IND/Kerala/Kannur;IND/Kerala/Wayanad;IND/Kerala/Palakkad;IND/Kerala/Thrissur;IND/Kerala/Ernakulam;IND/Lakshadweep/Lakshadweep,high,"subset; Thrissur=Ponnani/Chavakkad part, Ernakulam=Fort Cochin; Laccadives attached"
+anjengoallreligions,town,Anjengo,Madras,IND/Kerala/Thiruvananthapuram,medium,subset; British enclave in Travancore attached to Malabar
+godavarimusalman,district,Godavari District,Madras,IND/AndhraPradesh/EastGodavari;IND/AndhraPradesh/WestGodavari,high,subset; split East/West Godavari 1925
+kistnaallreligions,district,Kistna District,Madras,IND/AndhraPradesh/Krishna;IND/AndhraPradesh/WestGodavari,medium,subset; post-1904 Kistna; some taluks to West Godavari 1925
+cuddapahmusalman,district,Cuddapah District,Madras,IND/AndhraPradesh/Y.S.R.,high,subset; Cuddapah=YSR Kadapa
+kurnoolhindu,district,Kurnool District,Madras,IND/AndhraPradesh/Kurnool;IND/AndhraPradesh/Prakasam,high,subset; Markapur/Cumbum to Prakasam 1970
+bellarychristian,district,Bellary District,Madras,IND/Karnataka/Bellary;IND/AndhraPradesh/Kurnool;IND/AndhraPradesh/Anantapur;IND/Karnataka/Davanagere,medium,"subset; Adoni/Alur to Kurnool, Rayadurg to Anantapur, Harpanahalli to Davanagere"
+shimogachristian,district,Shimoga District,Mysore,IND/Karnataka/Shimoga;IND/Karnataka/Davanagere,high,subset; Channagiri/Honnali now in Davanagere
+civilandmilitarystationbangaloremusalman,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+bangalorecityallreligions,town,Bangalore City,Mysore,IND/Karnataka/Bangalore,high,subset
+kadurallreligions,district,Kadur District,Mysore,IND/Karnataka/Chikmagalur,high,subset; Kadur=Chikmagalur
+tablexiiinfirmitiesbyage,not_place,,,,high,
+statementshowingnumberofpersonsofeithersexbelongingtoeachcivilconditionaccordingtoreligion,not_place,,,,high,
+isizeoffamilyandpresentageofmarriedwomanmalayalibrahmansforfertilewomenonly,not_place,,,,high,
+iisizeoffamilybyageofmotheratbirthoffirstchildezhuvasfertilewomenagedandover,not_place,,,,high,
+tableixeducationbyreligionandagepartfjainscontinued,not_place,,,,high,
+tableviihinduagesexandcivilcondition,not_place,,,,high,
+finalcensustablenoviiistatementshowingdistributionofpopulationofmadraspresidencybycastewhenaboveforhindusandbytribesformuhammadanscontinued,not_place,,,,high,
+tableviiagesexandcivilconditionjaincontinued,not_place,,,,high,
+classificationoflanguages,not_place,,,,high,
+tablexviioccupationcontinued,not_place,,,,high,
+centraldivisioncontdtribalreligion,division,Central Division,Travancore State,,medium,subset; Travancore administrative division; successor districts not mapped
+northerndivisionhindu,division,Northern Division,Travancore State,,medium,subset; Travancore administrative division; successor districts not mapped
+northerndivisiontribalreligion,division,Northern Division,Travancore State,,medium,subset; Travancore administrative division; successor districts not mapped
+chitaldrugurban,district,Chitaldrug District,Mysore,IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; Chitaldroog=Chitradurga; Davanagere taluk now in Davanagere dist.
+kolarurban,district,Kolar District,Mysore,IND/Karnataka/Kolar;IND/Karnataka/Chikballapura,high,subset; split Kolar + Chikballapur (2007)
+educationamongindianchristiansbysect,not_place,,,,high,
+taluqsofsoutharcot,district,South Arcot District,Madras,IND/TamilNadu/Cuddalore;IND/TamilNadu/Viluppuram,high,title fragment
+statetotalkanayannurmukundapuramtrichurtalappillichittur,aggregate,,Cochin State,,high,Cochin State total + several taluks
+gulbargacity,town,Gulbarga City,Hyderabad State,IND/Karnataka/Gulbarga,high,
+peopleinplainsofganjam,district,Ganjam District,Madras,IND/Odisha/Ganjam;IND/Odisha/Gajapati;IND/AndhraPradesh/Srikakulam,high,subset; plains portion; title fragment
+sexandcivilconditiongodavari,district,Godavari District,Madras,IND/AndhraPradesh/EastGodavari;IND/AndhraPradesh/WestGodavari,high,from title
+sexandcivilconditionkurnool,district,Kurnool District,Madras,IND/AndhraPradesh/Kurnool;IND/AndhraPradesh/Prakasam,high,from title
+sexandcivilconditionchingleput,district,Chingleput District,Madras,IND/TamilNadu/Kancheepuram;IND/TamilNadu/Thiruvallur,high,from title
+sexandcivilconditiontanjore,district,Tanjore District,Madras,IND/TamilNadu/Thanjavur;IND/TamilNadu/Thiruvarur;IND/TamilNadu/Nagappattinam,high,from title
+sexandcivilconditionsoutharcot,district,South Arcot District,Madras,IND/TamilNadu/Cuddalore;IND/TamilNadu/Viluppuram,high,from title
+sexandcivilconditiontinnevelly,district,Tinnevelly District,Madras,IND/TamilNadu/Tirunelveli;IND/TamilNadu/Thoothukkudi;IND/TamilNadu/Virudunagar,high,from title; 1901 Tinnevelly incl. Sattur/Srivilliputtur
+sexandcivilconditionsouthcanara,district,South Canara District,Madras,IND/Karnataka/DakshinaKannada;IND/Karnataka/Udupi;IND/Kerala/Kasaragod,high,from title
+sexandcivilconditionsandur,princely_state,Sandur State,Madras,IND/Karnataka/Bellary,high,from title
+malabarandanjengo,aggregate,,Madras,,high,Malabar District + Anjengo
+bangaloreurban,district,Bangalore District,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara,high,subset; split Bangalore Urban/Rural/Ramanagara
+agastisvaramtaluk,sub_district,Agastisvaram Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,
+eraniel,sub_district,Eraniel Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,
+pattanapuramtalukshencottahtaluk,aggregate,,Travancore State,,high,Pattanapuram + Shencottah taluks
+kartikappallitaluk,sub_district,Kartikappalli Taluk,Travancore State,IND/Kerala/Alappuzha,high,Karthikappally
+alleppyconcludedkottayam,aggregate,,Travancore State,,high,Alleppey + Kottayam towns (towns table)
+ofpopulationofeach,not_place,,,,high,
+rajapinde,not_place,,,,high,
+rachevarandranagara,not_place,,,,high,
+iraliga,not_place,,,,high,
+lambani,not_place,,,,high,
+aruveluniyogi,not_place,,,,high,
+badaganadu,not_place,,,,high,
+desasth,not_place,,,,high,
+gauda,not_place,,,,high,
+atrafibulda,district,Atraf-i-Balda District,Hyderabad State,IND/Telangana/RangaReddy,medium,district surrounding Hyderabad city; ~Ranga Reddy
+malerumysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+soligamysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+soligawesterndivisionmale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+aurangabaddivision,division,Aurangabad Division,Hyderabad State,IND/Maharashtra/Aurangabad;IND/Maharashtra/Jalna;IND/Maharashtra/Bid;IND/Maharashtra/Parbhani;IND/Maharashtra/Hingoli;IND/Maharashtra/Nanded,medium,"Aurangabad, Bhir, Parbhani, Nander districts"
+nagarta,not_place,,,,high,
+panchalakammara,not_place,,,,high,
+panchalagejjegara,not_place,,,,high,
+gadiya,not_place,,,,high,
+ganiga,not_place,,,,high,
+telanganamale,natural_division,Telingana,Hyderabad State,,high,subset
+marathwarafemale,natural_division,Marathwara,Hyderabad State,,high,subset
+denominationnotreturned,not_place,,,,high,
+gavara,not_place,,,,high,
+sale,not_place,,,,high,
+devanga,not_place,,,,high,
+learning,not_place,,,,high,
+panjabfeudatorystates,aggregate,,Punjab,,high,Punjab feudatory states
+kunchitigaeasterndivisionmale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+kunchitigawesterndivisionfemale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+kurubamysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+kurubaeasterndivisionfemale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+kurubacivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+lambanireturnedashindumysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+lambanireturnedashinduwesterndivisionmale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+lambanireturnedashinducivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+lingayatwesterndivisionmale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+madigamysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+madigawesterndivisionmale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+madigacivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+mahrattawesterndivisionmale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+medaeasterndivisionfemale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+mudalieasterndivisionmale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+mudaliwesterndivisionfemale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+gollaeasterndivisionmale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+gollawesterndivisionfemale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+holeyamysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+holeyaeasterndivisionfemale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+holeyacivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+idigamysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+idigawesterndivisionmale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+idigacivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+jogieasterndivisionmale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+jogiwesterndivisionfemale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+komatimysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+komatieasterndivisionfemale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+komaticivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+korachareturnedashindumysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+korachareturnedashinduwesterndivisionmale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+korachareturnedashinducivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+kshattriyaeasterndivisionmale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+kshattriyawesterndivisionfemale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+kumbaraeasterndivisionmale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+kumbarawesterndivisionfemale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+banajigaeasterndivision,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+bedawesterndivision,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+bestawesterndivision,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+brahmaneasterndivision,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+darzieasterndivision,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+devangawesterndivision,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+brahmomale,not_place,,,,high,
+vaisyaeasterndivisionfemale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+voddaeasterndivisionmale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+voddawesterndivisionfemale,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+arabeasterndivisionmale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+arabcivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+dayaremysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+dayareeasterndivisionfemale,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+adikarnatakamysorestateincludingcandmstnbangalore,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+brahmincivilandmilitarystationbangalore,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+idigamysorestateincludingcandmstnbangalore,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+jogicivilandmilitarystationbangalore,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+viswakarma,not_place,,,,high,
+banajarahindu,not_place,,,,high,
+korachahindu,not_place,,,,high,
+koramahindu,not_place,,,,high,
+kunchatiga,not_place,,,,high,
+neygi,not_place,,,,high,
+kurubatribal,not_place,,,,high,
+pinjari,not_place,,,,high,
+swetambara,not_place,,,,high,
+kunchatigacivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+nagarthamysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+nayindamysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+nayindacivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+neygicivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+satanimysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+tigalamysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+tigalacivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+vakkaligamysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+vakkaligacivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+viswakarmacivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+yadavamysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+kurubahindumysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+kurubahinducivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+kurubatotalmysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+kurubatotalcivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+labbaicivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+mughalmysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+pathanmysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+pathancivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+pinjaricivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+saiyadmysorestateincludingcandmstnbangalorefemale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+sheikmysorestateincludingcandmstnbangaloremale,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; incl. C. and M. Station Bangalore
+sheikcivilandmilitarystationbangalorefemale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+indianchristiancivilandmilitarystationbangaloremale,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+syrianreformed,not_place,,,,high,
+indiafemale,country,,,,high,"India; birth-place row, subset"
+unitedstatesofamericamale,country,,,,high,USA; subset
+englandfemale,country,,,,high,England; subset
+lingasugur,district,Lingsugur District,Hyderabad State,IND/Karnataka/Raichur;IND/Karnataka/Koppal,medium,"abolished 1905, merged mainly into Raichur"
+meanofindianprovincesallages,not_place,,,,high,
+cityandarun,city_section,City Andarun,Hyderabad State,IND/Telangana/Hyderabad,high,Hyderabad city within walls
+wardiii,city_section,Ward III,Hyderabad State,IND/Telangana/Hyderabad,medium,ward of Hyderabad city
+wardvberuni,city_section,Ward V (Berun I),Hyderabad State,IND/Telangana/Hyderabad,medium,ward of Hyderabad city (outside walls)
+chadarghat,city_section,Chadarghat,Hyderabad State,IND/Telangana/Hyderabad,high,section of Hyderabad city
+wardxchadc,city_section,Ward X (Chadarghat C),Hyderabad State,IND/Telangana/Hyderabad,medium,ward of Hyderabad city
+troops,not_place,,,,high,
+russiaineuropeto,country,,,,high,European Russia (1870-73 statistics)
+bimlipatam,town,Bimlipatam,Madras,IND/AndhraPradesh/Visakhapatnam,high,Bheemunipatnam
+kulasekharapatnam,town,Kulasekharapatnam,Madras,IND/TamilNadu/Thoothukkudi,high,Tinnevelly dist. then
+chicacole,sub_district,Chicacole Taluk,Madras,IND/AndhraPradesh/Srikakulam,high,Chicacole=Srikakulam; Ganjam dist. then
+itchapur,sub_district,Itchapur Taluk,Madras,IND/AndhraPradesh/Srikakulam,high,Ichchapuram; Ganjam dist. then
+parlakimedi,sub_district,Parlakimedi Taluk,Madras,IND/Odisha/Gajapati,high,Paralakhemundi; Ganjam dist. then
+sorgada,sub_district,Sorgada Taluk,Madras,IND/Odisha/Ganjam,high,Surada
+tekkali,sub_district,Tekkali Taluk,Madras,IND/AndhraPradesh/Srikakulam,high,
+chirala,town,Chirala,Madras,IND/AndhraPradesh/Prakasam,high,Kistna dist. then
+mangalagiri,town,Mangalagiri,Madras,IND/AndhraPradesh/Guntur,high,Kistna dist. then
+vallur,town,Vallur,Madras,,low,unidentified town in 1881 Kistna dist. (now Krishna or Guntur)
+narsaraopet,sub_district,Narsaraopet Taluk,Madras,IND/AndhraPradesh/Guntur,high,
+sattanapalle,sub_district,Sattenapalle Taluk,Madras,IND/AndhraPradesh/Guntur,high,
+amalapuram,town,Amalapuram,Madras,IND/AndhraPradesh/EastGodavari,high,
+narsapur,town,Narsapur,Madras,IND/AndhraPradesh/WestGodavari,high,
+pithapuram,town,Pithapuram,Madras,IND/AndhraPradesh/EastGodavari,high,
+viravasaram,town,Viravasaram,Madras,IND/AndhraPradesh/WestGodavari,high,
+nandikotkur,sub_district,Nandikotkur Taluk,Madras,IND/AndhraPradesh/Kurnool,high,
+sirvel,sub_district,Sirvel Taluk,Madras,IND/AndhraPradesh/Kurnool,high,
+jammulamadugu,town,Jammalamadugu,Madras,IND/AndhraPradesh/Y.S.R.,high,
+proddutur,town,Proddatur,Madras,IND/AndhraPradesh/Y.S.R.,high,
+vempalle,town,Vempalle,Madras,IND/AndhraPradesh/Y.S.R.,high,
+havinhudgalli,town,Huvinahadagalli,Madras,IND/Karnataka/Bellary,high,now Vijayanagara dist. (not in GADM 4.1)
+kampti,town,Kampli,Madras,IND/Karnataka/Bellary,high,Kampti=Kampli
+siruguppa,town,Siruguppa,Madras,IND/Karnataka/Bellary,high,
+gooty,sub_district,Gooty Taluk,Madras,IND/AndhraPradesh/Anantapur,high,
+tadpatri,sub_district,Tadpatri Taluk,Madras,IND/AndhraPradesh/Anantapur,high,
+tindivanam,sub_district,Tindivanam Taluk,Madras,IND/TamilNadu/Viluppuram,high,South Arcot dist.
+villupuram,sub_district,Villupuram Taluk,Madras,IND/TamilNadu/Viluppuram,high,South Arcot dist.
+musiri,sub_district,Musiri Taluk,Madras,IND/TamilNadu/Tiruchirappalli,high,
+kumbhakonam,town,Kumbakonam,Madras,IND/TamilNadu/Thanjavur,high,
+porayar,town,Porayar,Madras,IND/TamilNadu/Nagappattinam,high,
+tiruvarur,town,Tiruvarur,Madras,IND/TamilNadu/Thiruvarur,high,
+vadapattimelpatti,town,Vadapatti Melpatti,Madras,,low,unidentified town in 1881 Tanjore dist. (Thanjavur/Thiruvarur/Nagapattinam)
+periyakulam,sub_district,Periyakulam Taluk,Madras,IND/TamilNadu/Theni,high,Madura dist. then
+ramnadandshivaganga,aggregate,,Madras,,high,Ramnad + Sivaganga zamindaris (then in Madura dist.)
+shettiestraders,not_place,,,,high,
+kammalarsartisans,not_place,,,,high,
+vanniyanlaborersandcultivators,not_place,,,,high,
+shanantoddydrawers,not_place,,,,high,
+pariahs,not_place,,,,high,
+thalappilli,sub_district,Talappilly Taluk,Cochin State,IND/Kerala/Thrissur,high,
+syrianroman,not_place,,,,high,
+dochaldean,not_place,,,,high,
+mysorecityu,town,Mysore City,Mysore,IND/Karnataka/Mysore,high,subset
+mysoreu,district,Mysore District,Mysore,IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar,high,"subset; Mandya separated 1939, Chamrajnagar 1997"
+bangalorecityu,town,Bangalore City,Mysore,IND/Karnataka/Bangalore,high,subset
+bangaloreu,district,Bangalore District,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara,high,subset; split Bangalore Urban/Rural/Ramanagara
+kolargoldfieldsu,town,Kolar Gold Fields,Mysore,IND/Karnataka/Kolar,high,subset
+kolaru,district,Kolar District,Mysore,IND/Karnataka/Kolar;IND/Karnataka/Chikballapura,high,subset; split Kolar + Chikballapur (2007)
+tumkuru,district,Tumkur District,Mysore,IND/Karnataka/Tumkur,high,subset
+kadurdo,district,Kadur District,Mysore,IND/Karnataka/Chikmagalur,high,"""do"" = ditto"
+iidefence,not_place,,,,high,
+vagriculture,not_place,,,,high,
+viiilightfiringandforage,not_place,,,,high,
+xisupplementaryrequirements,not_place,,,,high,
+xivglassearthenandstoneware,not_place,,,,high,
+xviileather,not_place,,,,high,
+xxlearnedandartisticprofessions,not_place,,,,high,
+xxivindependent,not_place,,,,high,
+chandranagar,town,Chandernagore,French India,IND/WestBengal/Hugli,high,French settlement; birth-place row
+cambodia,country,,,,high,
+hongkong,country,,,,high,
+turkistan,country,,,,high,Central Asia region
+gibralter,country,,,,high,Gibraltar
+turkey,country,,,,high,
+britishguiana,country,,,,high,British Guiana=Guyana
+newsouthwales,country,,,,high,Australian colony
+koppa,sub_district,Koppa Taluk,Mysore,IND/Karnataka/Chikmagalur,high,
+sringeri,sub_district,Sringeri Jagir,Mysore,IND/Karnataka/Chikmagalur,high,
+honnali,sub_district,Honnali Taluk,Mysore,IND/Karnataka/Davanagere,high,Shimoga dist. then
+dodaballapur,sub_district,Dodballapur Taluk,Mysore,IND/Karnataka/BangaloreRural,high,
+kolartaluk,sub_district,Kolar Taluk,Mysore,IND/Karnataka/Kolar,high,
+bagepalli,sub_district,Bagepalli Taluk,Mysore,IND/Karnataka/Chikballapura,high,
+malur,sub_district,Malur Taluk,Mysore,IND/Karnataka/Kolar,high,
+koratagere,sub_district,Koratagere Taluk,Mysore,IND/Karnataka/Tumkur,high,
+chiknayakanhalli,sub_district,Chiknayakanhalli Taluk,Mysore,IND/Karnataka/Tumkur,high,
+tiptur,sub_district,Tiptur Taluk,Mysore,IND/Karnataka/Tumkur,high,
+backwardhindus,not_place,,,,high,
+aiyanavar,not_place,,,,high,
+bharathar,not_place,,,,high,
+chackaravar,not_place,,,,high,
+kammalanviswakarma,not_place,,,,high,
+kavathi,not_place,,,,high,
+kshatriyamalayala,not_place,,,,high,
+malapantaram,not_place,,,,high,
+malayarayan,not_place,,,,high,
+mukkuvan,not_place,,,,high,
+nadarchannanchristian,not_place,,,,high,
+paravan,not_place,,,,high,
+pulayancheramarhindu,not_place,,,,high,
+thantanurali,not_place,,,,high,
+valan,not_place,,,,high,
+velakkithalanayar,not_place,,,,high,
+vellalan,not_place,,,,high,
+vetanincludingmalavetanchristian,not_place,,,,high,
+acutch,princely_state,Cutch State,Bombay,IND/Gujarat/Kachchh,high,birth-place row
+iiportuguesesettlement,country,,,,medium,Portuguese India (heading)
+dborninamerica,country,,,,medium,continent-level birth-place heading
+cochinkanayannurernakulammunicipal,town,Ernakulam,Cochin State,IND/Kerala/Ernakulam,high,"municipal town, Kanayannur taluk"
+cranganurcranganurnonmunicipal,town,Cranganur,Cochin State,IND/Kerala/Thrissur,high,non-municipal town
+talapillikunnamkulamnonmunicipal,town,Kunnamkulam,Cochin State,IND/Kerala/Thrissur,high,"non-municipal town, Talapilli taluk"
+londonmission,not_place,,,,high,
+eastcoastnorth,natural_division,East Coast North,Madras,,high,
+artscolleges,not_place,,,,high,
+elementaryschools,not_place,,,,high,
+children,not_place,,,,high,
+agasaru,not_place,,,,high,
+iraligaru,not_place,,,,high,
+birthplacegibraltar,country,,,,high,birth-place row
+birthplaceheligoland,country,,,,high,birth-place row; then British
+birthplaceionianisles,country,,,,high,birth-place row; Greece
+birthplacesiberia,country,,,,high,birth-place row; region of Russia
+birthplacesweden,country,,,,high,birth-place row
+birthplacethibet,country,,,,high,birth-place row; Tibet
+birthplaceturkistan,country,,,,high,birth-place row; Central Asia region
+actu,not_place,,,,high,
+distributionbytaluqkanayannur,sub_district,Kanayannur Taluk,Cochin State,IND/Kerala/Ernakulam,high,subset
+distributionbytaluqtalappilli,sub_district,Talappilly Taluk,Cochin State,IND/Kerala/Thrissur,high,subset
+madrasdeccandivisioncont,natural_division,Deccan,Madras,,high,
+englishschools,not_place,,,,high,
+proprietaryschools,not_place,,,,high,
+populationreturned,not_place,,,,high,
+beluchi,not_place,,,,high,
+ofmuhammadanmalestototalmuhammadanpopulation,not_place,,,,high,
+naidu,not_place,,,,high,
+kadugollaru,not_place,,,,high,
+idigar,not_place,,,,high,
+jadaral,not_place,,,,high,
+maiman,not_place,,,,high,
+foreignerssuchaskhandaris,not_place,,,,high,
+feun,not_place,,,,high,
+birthplacejapan,country,,,,high,birth-place row
+birthplacemalay,country,,,,high,birth-place row; Malay peninsula/archipelago
+birthplacenicobars,district,Nicobar Islands,Andaman and Nicobar Islands,IND/AndamanandNicobar/NicobarIslands,medium,birth-place row
+birthplaceeuropeunspecified,country,,,,high,birth-place row; continent-level
+birthplaceportorico,country,,,,high,birth-place row; Puerto Rico
+birthplacebarbadoes,country,,,,high,birth-place row; Barbados
+birthplacecanadacontd,country,,,,high,birth-place row; Canada
+birthplacemexico,country,,,,high,birth-place row
+birthplacezanzibar,country,,,,high,birth-place row
+birthplacenorway,country,,,,high,birth-place row
+birthplaceromania,country,,,,high,birth-place row
+birthplacespain,country,,,,high,birth-place row
+birthplaceegypt,country,,,,high,birth-place row
+birthplaceaustralia,country,,,,high,birth-place row
+birthplacepacificislands,country,,,,high,birth-place row; region
+birthplaceaden,country,,,,high,birth-place row; Aden (Bombay-administered until 1937); now Yemen
+birthplacearmenia,country,,,,high,birth-place row
+birthplaceborneo,country,,,,high,birth-place row
+birthplacecentralasiaunspecified,country,,,,high,birth-place row; region
+mountairousdivision,natural_division,Mountainous Division,Travancore State,,medium,OCR Mountairous; Travancore natural division
+thirdcolumn,not_place,,,,high,
+protestantunsectarianorsectnotspecifiedunderthisareincluded,not_place,,,,high,
+bangalorecityandcivilandmilitarystation,aggregate,,Mysore,,high,Bangalore City + C. and M. Station
+correctedcensus,not_place,,,,high,
+lambadi,not_place,,,,high,
+hebrew,not_place,,,,high,
+irish,not_place,,,,high,
+gotte,not_place,,,,high,
+khond,not_place,,,,high,
+housesoccupied,not_place,,,,high,
+estimatedpopulationofatnormalrateofincreasepermilleperannumafterallowingforlossbybalanceofemigrationandimmigration,not_place,,,,high,
+percentageofincrease,not_place,,,,high,
+populationover,not_place,,,,high,
+probabilityofdyinginayearxpx,not_place,,,,high,
+south,natural_division,South,Madras,,medium,Madras natural division (1901 subsidiary table)
+proportionpercenttoentirestate,not_place,,,,high,
+distributionofwidowersbyageatwhichtheywerewidowed,not_place,,,,high,
+ratioofbirthsperofpopulationbycensus,not_place,,,,high,
+noofbirths,not_place,,,,high,
+mysoreincludingcity,district,Mysore District,Mysore,IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar,high,incl. Mysore City
+populationofenglandagedandover,not_place,,,,high,
+statetotalmussalman,not_place,,,,high,
+kanayannurmussalman,sub_district,Kanayannur Taluk,Cochin State,IND/Kerala/Ernakulam,high,subset
+trichurhindu,sub_district,Trichur Taluk,Cochin State,IND/Kerala/Thrissur,high,subset
+chitturhindu,sub_district,Chittur Taluk,Cochin State,IND/Kerala/Palakkad,high,subset
+durationofmarriage,not_place,,,,high,
+noafflictedaccordingtostatisticsof,not_place,,,,high,
+government,not_place,,,,high,
+annualaveragerainfall,not_place,,,,high,
+tablee,not_place,,,,high,
+tableviiofeachsexfornaturaldivis,not_place,,,,high,
+coimbatoreconcludedothers,district,Coimbatore District,Madras,IND/TamilNadu/Coimbatore;IND/TamilNadu/Erode;IND/TamilNadu/Tiruppur,high,subset; split
+atotalpopulationtovalataluk,sub_district,Tovala Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset; Thovalai
+kalkulamhindu,sub_district,Kalkulam Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset
+kalkulamanimist,sub_district,Kalkulam Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset
+kartikappallianimist,sub_district,Kartikappalli Taluk,Travancore State,IND/Kerala/Alappuzha,high,subset; Karthikappally
+chengannuralltotal,sub_district,Chengannur Taluk,Travancore State,IND/Kerala/Alappuzha,high,subset
+agastisvaramalltotal,sub_district,Agastisvaram Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset
+agastisvaramchristianchristian,sub_district,Agastisvaram Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset
+eranielhindu,sub_district,Eraniel Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset
+pattanapuramchristian,sub_district,Pattanapuram Taluk,Travancore State,IND/Kerala/Kollam,high,subset; Pathanapuram
+kottayamalltotal,sub_district,Kottayam Taluk,Travancore State,IND/Kerala/Kottayam,high,subset; also Kottayam District in 1951 tables
+muvattupuzhaanimist,sub_district,Muvattupuzha Taluk,Travancore State,IND/Kerala/Ernakulam,high,subset
+todupuzhamusalman,sub_district,Todupuzha Taluk,Travancore State,IND/Kerala/Idukki,high,subset; Thodupuzha
+chitaldruganimist,district,Chitaldrug District,Mysore,IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,subset; Chitaldroog=Chitradurga; Davanagere taluk now in Davanagere dist.
+westernmusalman,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+westernanimist,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+tablexvpartaoccupationormeans,not_place,,,,high,
+kolaranimist,district,Kolar District,Mysore,IND/Karnataka/Kolar;IND/Karnataka/Chikballapura,high,subset; split Kolar + Chikballapur (2007)
+tumkurmusalman,district,Tumkur District,Mysore,IND/Karnataka/Tumkur,high,subset
+mysoremusalmancity,town,Mysore City,Mysore,IND/Karnataka/Mysore,high,subset
+mysoreanimistcity,town,Mysore City,Mysore,IND/Karnataka/Mysore,high,subset
+shimogaalltotalshimoga,district,Shimoga District,Mysore,IND/Karnataka/Shimoga;IND/Karnataka/Davanagere,high,subset; Channagiri/Honnali now in Davanagere
+shimogahinducivilandmilitarystationbangal,unsure,,,,low,label mixes Shimoga District and C. and M. Station Bangalore (parse error)
+shimogachristianshimoga,district,Shimoga District,Mysore,IND/Karnataka/Shimoga;IND/Karnataka/Davanagere,high,subset; Channagiri/Honnali now in Davanagere
+shimogajaincivilandmilitarystationbangal,unsure,,,,low,label mixes Shimoga District and C. and M. Station Bangalore (parse error)
+tablexviiieuropeansarmeniansandang,not_place,,,,high,
+cuddapahcontothers,district,Cuddapah District,Madras,IND/AndhraPradesh/Y.S.R.,high,subset; Cuddapah=YSR Kadapa
+eastgodavariplainscontothers,district,East Godavari District,Madras,IND/AndhraPradesh/EastGodavari,high,subset; plains portion
+nellorecontothers,district,Nellore District,Madras,IND/AndhraPradesh/Nellore;IND/AndhraPradesh/Prakasam,high,subset; Ongole/Kandukur to Prakasam 1970
+salemcontothers,district,Salem District,Madras,IND/TamilNadu/Salem;IND/TamilNadu/Namakkal;IND/TamilNadu/Dharmapuri;IND/TamilNadu/Krishnagiri,high,subset; split
+trichinopolycontothers,district,Trichinopoly District,Madras,IND/TamilNadu/Tiruchirappalli;IND/TamilNadu/Karur;IND/TamilNadu/Perambalur;IND/TamilNadu/Ariyalur,high,subset; Trichinopoly=Tiruchirappalli; split
+malabarcontothers,district,Malabar District,Madras,IND/Kerala/Kozhikode;IND/Kerala/Malappuram;IND/Kerala/Kannur;IND/Kerala/Wayanad;IND/Kerala/Palakkad;IND/Kerala/Thrissur;IND/Kerala/Ernakulam;IND/Lakshadweep/Lakshadweep,high,"subset; Thrissur=Ponnani/Chavakkad part, Ernakulam=Fort Cochin; Laccadives attached"
+sanduralltotal,princely_state,Sandur State,Madras,IND/Karnataka/Bellary,high,subset
+palamcottah,town,Palamcottah,Madras,IND/TamilNadu/Tirunelveli,high,Palayamkottai
+tablexviioccupationbyagepartat,not_place,,,,high,
+tableviiiagesexandcivilconditiontableviiiagesexandcivilcon,not_place,,,,high,
+finalcensustablenoviistatementshbrahmos,not_place,,,,high,
+kadurbuddhist,district,Kadur District,Mysore,IND/Karnataka/Chikmagalur,high,subset; Kadur=Chikmagalur
+subsidiarytableiiagedistributionof,not_place,,,,high,
+subsidiarytableiiiagedistributiono,not_place,,,,high,
+kolarbrahminmales,district,Kolar District,Mysore,IND/Karnataka/Kolar;IND/Karnataka/Chikballapura,high,subset; split Kolar + Chikballapur (2007)
+subsidiaryeducationbycasteswestern,not_place,,,,high,
+ubsidiarytableix,not_place,,,,high,
+banganapalleothers,princely_state,Banganapalle State,Madras,IND/AndhraPradesh/Kurnool,high,subset
+vilavankodanimist,sub_district,Vilavankod Taluk,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset
+neyyattinkaraanimist,sub_district,Neyyattinkara Taluk,Travancore State,IND/Kerala/Thiruvananthapuram,high,subset
+quilonjew,sub_district,Quilon Taluk,Travancore State,IND/Kerala/Kollam,high,subset
+supplementarytableecasteandcbycivilconditionandagestationbangalorefemales,not_place,,,,high,
+tableiiiagesexandcivilconditionbydivisionshindusfemalecontinued,not_place,,,,high,
+percentageofliteratestopopulationatcertainagesbyreligionssexesanddivisions,not_place,,,,high,
+tableiiiagesexandcivilconditionbydivisionsmusalmansmalecontinued,not_place,,,,high,
+madrascastesotherlanguages,not_place,,,,high,
+vicontinued,not_place,,,,high,
+townsofmorethaninhabitants,not_place,,,,high,
+thirdtable,not_place,,,,high,
+finalcensusformvstatementshowingcivilconditionofpopulation,not_place,,,,high,
+formnoxiibcontinuedpopulationaccordingtooccupation,not_place,,,,high,
+iiiotherhinducastesagriculturalkammavaruhalukurubaruhandikurubaru,not_place,,,,high,
+formviiicontinuedbycasteshindus,not_place,,,,high,
+iiiotherhinducastesconcluded,not_place,,,,high,
+detailsofthisnumberbyareasfollow,not_place,,,,high,
+subsidiarytableidistributionofpersonsofeachsexbyageandcivilcondition,not_place,,,,high,
+percentagesbyageperiods,not_place,,,,high,
+subsidiarytableviiproportionofafflictedfemalestomalesundereachageperiod,not_place,,,,high,
+percentagesinseveralageperiodsforand,not_place,,,,high,
+tablevipopulationbyreligion,not_place,,,,high,
+jminorandunspecified,not_place,,,,high,
+statementcshowingnumberofpersonslivingateachageinoftotalpopulation,not_place,,,,high,
+statementanumberofpersonsofeachageinofeachsexcontinued,not_place,,,,high,
+statementshowingnumberofdeafmutesineachandstate,not_place,,,,high,
+statementshowingstrengthofcasteshavingvariouspercentagesofmarriedfemalesatage,not_place,,,,high,
+distributionbyage,not_place,,,,high,
+statementshowingstateofinstructionatdifferentageperiods,not_place,,,,high,
+formviiabyagesexandreligion,not_place,,,,high,
+birthplacebelgium,country,,,,high,birth-place row
+birthplacegermany,country,,,,high,birth-place row
+birthplacesouthamerica,country,,,,high,birth-place row; continent-level
+birthplacecuba,country,,,,high,birth-place row
+birthplacenatal,country,,,,high,birth-place row; now South Africa
+birthplacecapecolony,country,,,,high,birth-place row; now South Africa
+byprovinceorstateageandsex,not_place,,,,high,
+formxiireligionageandsex,not_place,,,,high,
+salemjain,district,Salem District,Madras,IND/TamilNadu/Salem;IND/TamilNadu/Namakkal;IND/TamilNadu/Dharmapuri;IND/TamilNadu/Krishnagiri,high,subset; split
+coimbatoremusalman,district,Coimbatore District,Madras,IND/TamilNadu/Coimbatore;IND/TamilNadu/Erode;IND/TamilNadu/Tiruppur,high,subset; split
+malabarusalman,district,Malabar District,Madras,IND/Kerala/Kozhikode;IND/Kerala/Malappuram;IND/Kerala/Kannur;IND/Kerala/Wayanad;IND/Kerala/Palakkad;IND/Kerala/Thrissur;IND/Kerala/Ernakulam;IND/Lakshadweep/Lakshadweep,high,"subset; Thrissur=Ponnani/Chavakkad part, Ernakulam=Fort Cochin; Laccadives attached"
+tinnevellyconcludedothers,district,Tinnevelly District,Madras,IND/TamilNadu/Tirunelveli;IND/TamilNadu/Thoothukkudi,high,subset; split Tirunelveli+Thoothukudi
+nilgirismusalman,district,Nilgiris District,Madras,IND/TamilNadu/TheNilgiris,high,subset
+banganapallemusalman,princely_state,Banganapalle State,Madras,IND/AndhraPradesh/Kurnool,high,subset
+southkanarajain,district,South Canara District,Madras,IND/Karnataka/DakshinaKannada;IND/Karnataka/Udupi;IND/Kerala/Kasaragod,high,subset; split; Kasaragod to Kerala 1956
+pudukkottaimusalman,princely_state,Pudukkottai State,Madras,IND/TamilNadu/Pudukkottai,high,subset
+banganapalleallreligions,princely_state,Banganapalle State,Madras,IND/AndhraPradesh/Kurnool,high,subset
+ganjamallreligions,district,Ganjam District,Madras,IND/Odisha/Ganjam;IND/Odisha/Gajapati;IND/AndhraPradesh/Srikakulam,high,subset; Odisha part 1936; southern taluks now Srikakulam
+ganjamchristian,district,Ganjam District,Madras,IND/Odisha/Ganjam;IND/Odisha/Gajapati;IND/AndhraPradesh/Srikakulam,high,subset; Odisha part 1936; southern taluks now Srikakulam
+vizagapatamhindu,district,Vizagapatam District,Madras,IND/AndhraPradesh/Visakhapatnam;IND/AndhraPradesh/Vizianagaram;IND/AndhraPradesh/Srikakulam;IND/Odisha/Koraput;IND/Odisha/Rayagada;IND/Odisha/Nabarangapur;IND/Odisha/Malkangiri,medium,subset; pre-1936 incl. Jeypore agency (Koraput); Srikakulam part
+vizagapatamanimistic,district,Vizagapatam District,Madras,IND/AndhraPradesh/Visakhapatnam;IND/AndhraPradesh/Vizianagaram;IND/AndhraPradesh/Srikakulam;IND/Odisha/Koraput;IND/Odisha/Rayagada;IND/Odisha/Nabarangapur;IND/Odisha/Malkangiri,medium,subset; pre-1936 incl. Jeypore agency (Koraput); Srikakulam part
+kistnachristian,district,Kistna District,Madras,IND/AndhraPradesh/Krishna;IND/AndhraPradesh/WestGodavari,medium,subset; post-1904 Kistna; some taluks to West Godavari 1925
+gunturhindu,district,Guntur District,Madras,IND/AndhraPradesh/Guntur;IND/AndhraPradesh/Prakasam,high,subset; created 1904; Prakasam part 1970
+gunturanimistic,district,Guntur District,Madras,IND/AndhraPradesh/Guntur;IND/AndhraPradesh/Prakasam,high,subset; created 1904; Prakasam part 1970
+anantapurhindu,district,Anantapur District,Madras,IND/AndhraPradesh/Anantapur,high,subset
+anantapuranimistic,district,Anantapur District,Madras,IND/AndhraPradesh/Anantapur,high,subset
+madrasmusalman,town,Madras City,Madras,IND/TamilNadu/Chennai,medium,"subset; district-table row ""Madras"" = Madras City"
+changanacherytalukcldeanimistic,sub_district,Changanachery Taluk,Travancore State,IND/Kerala/Kottayam,high,subset
+pattanapuramtalukatotalpopulation,sub_district,Pattanapuram Taluk,Travancore State,IND/Kerala/Kollam,high,subset; Pathanapuram
+easterndivisionallreligions,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+easterndivisionchristian,natural_division,Eastern Division,Mysore,,high,subset; Mysore census natural division
+bangalorecityhindu,town,Bangalore City,Mysore,IND/Karnataka/Bangalore,high,subset
+bangalorecityjain,town,Bangalore City,Mysore,IND/Karnataka/Bangalore,high,subset
+kolargoldfieldshindu,town,Kolar Gold Fields,Mysore,IND/Karnataka/Kolar,high,subset
+kolargoldfieldsjain,town,Kolar Gold Fields,Mysore,IND/Karnataka/Kolar,high,subset
+bangaloreanimistic,district,Bangalore District,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara,high,subset; split Bangalore Urban/Rural/Ramanagara
+literacyinenglishamongchristiansbyrace,not_place,,,,high,
+tumkuranimistic,district,Tumkur District,Mysore,IND/Karnataka/Tumkur,high,subset
+mysorecitymusalman,town,Mysore City,Mysore,IND/Karnataka/Mysore,high,subset
+mysorecityanimistic,town,Mysore City,Mysore,IND/Karnataka/Mysore,high,subset
+civilandmilitarystationbangaloreanimistic,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+westerndivisionconcldanimistic,natural_division,Western Division,Mysore,,high,subset; Mysore census natural division
+secondpartoftable,not_place,,,,high,
+tableviiagesexandcivilconditiontownstrivandrum,not_place,,,,high,
+statementshowingdistributionbyageofpersonsofeachsexineachcivilcondition,not_place,,,,high,
+subsidiarytableiinumberoffemalespermalesatdifferentagereligionsatperiodsbyeachoflastthreecensuses,not_place,,,,high,
+northerndivisionadministrativeallreligions,division,Northern Division,Travancore State,,medium,subset; Travancore administrative division; successor districts not mapped
+northerndivisionadministrativechristian,division,Northern Division,Travancore State,,medium,subset; Travancore administrative division; successor districts not mapped
+highrangedivisionadministrativeallreligions,division,High Range Division,Travancore State,IND/Kerala/Idukki,medium,"subset; Devikulam/Peermade, now Idukki"
+highrangedivisionadministrativechristian,division,High Range Division,Travancore State,IND/Kerala/Idukki,medium,"subset; Devikulam/Peermade, now Idukki"
+diagramallreligions,not_place,,,,high,
+diagramchristian,not_place,,,,high,
+percentageofpopulationundereachageperiodandc,not_place,,,,high,
+tableviiagebyreligionpartcmusalmans,not_place,,,,high,
+tableixeducationbyreligionandagepartaallreligions,not_place,,,,high,
+toptablecontandovertotal,not_place,,,,high,
+tableixeducationbyreligionandagepartgjews,not_place,,,,high,
+cnonindianasiaticlanguages,not_place,,,,high,
+tableviiagebyreligionpartaallreligions,not_place,,,,high,
+viageatbirthoffirstchildaccordingtomlofhusbandcont,not_place,,,,high,
+ezhuvas,not_place,,,,high,
+medakallreligions,district,Medak District,Hyderabad State,IND/Telangana/Medak,high,subset
+medakchristian,district,Medak District,Hyderabad State,IND/Telangana/Medak,high,subset
+nizamabadhindu,district,Nizamabad District,Hyderabad State,IND/Telangana/Nizamabad,high,subset
+nizamabadanimist,district,Nizamabad District,Hyderabad State,IND/Telangana/Nizamabad,high,subset
+atrafibaldamusalman,district,Atraf-i-Balda District,Hyderabad State,IND/Telangana/RangaReddy,medium,subset; district surrounding Hyderabad city; ~Ranga Reddy
+warangalallreligions,district,Warangal District,Hyderabad State,IND/Telangana/Warangal;IND/Telangana/Khammam,high,subset; Khammam split 1953
+warangalchristian,district,Warangal District,Hyderabad State,IND/Telangana/Warangal;IND/Telangana/Khammam,high,subset; Khammam split 1953
+gulbargahindu,district,Gulbarga District,Hyderabad State,IND/Karnataka/Gulbarga;IND/Karnataka/Yadgir,high,subset; Yadgir split 2010
+gulbargaanimist,district,Gulbarga District,Hyderabad State,IND/Karnataka/Gulbarga;IND/Karnataka/Yadgir,high,subset; Yadgir split 2010
+osmanabadmusalman,district,Osmanabad District,Hyderabad State,IND/Maharashtra/Osmanabad;IND/Maharashtra/Latur,high,subset; Latur split 1982
+tableviiagebyreligionpartgparsis,not_place,,,,high,
+tableviiagebyreligionpartfjainscontinued,not_place,,,,high,
+tableviiagebyreligionpartkothers,not_place,,,,high,
+marriedcont,not_place,,,,high,
+tableixeducationbyreligionandagepartgparsis,not_place,,,,high,
+tableixeducationbyreligionandagepartgparsiscontinued,not_place,,,,high,
+inmaleandfemaleproportionsatpresentcensusascomparedwithfiguresforpasttwocensuses,not_place,,,,high,
+subsidiarytableiinumberoffemalespermalesatdifferentageperiodsbyreligionsateachoflastfourcensuses,not_place,,,,high,
+britishterritorybrahmanichindu,province,Madras Presidency,British India,,high,subset; British territory portion of Madras
+britishterritorychristian,province,Madras Presidency,British India,,high,subset; British territory portion of Madras
+stateshindu,aggregate,,Madras,,high,"Madras States (Pudukkottai, Banganapalle, Sandur); subset"
+statesjain,aggregate,,Madras,,high,"Madras States (Pudukkottai, Banganapalle, Sandur); subset"
+vizagapatamagencycontprimitivetribes,agency,Vizagapatam Agency,Madras,,high,subset; agency tracts of Vizagapatam dist.
+vizagapatamplainsmuslim,district,Vizagapatam District,Madras,IND/AndhraPradesh/Visakhapatnam;IND/AndhraPradesh/Vizianagaram;IND/AndhraPradesh/Srikakulam,medium,subset; plains portion only
+eastgodavariagencyallreligions,agency,East Godavari Agency,Madras,,high,subset; agency tracts of East Godavari dist.
+eastgodavariagencychristian,agency,East Godavari Agency,Madras,,high,subset; agency tracts of East Godavari dist.
+increaseofinhabitedvillages,not_place,,,,high,
+tablenoshowingareatownsandvillageshousesandpopulationofforeachtaluqinganjam,not_place,,,,high,
+tablenoshowingnumberofpersonsfollowingoccupationsinseveralclassesineachoftaluqsofkistna,not_place,,,,high,
+tablenoshowingagesofpeopleinnelloreindecennialperiods,district,Nellore District,Madras,IND/AndhraPradesh/Nellore;IND/AndhraPradesh/Prakasam,high,table title; 1881
+tablenoshowingnumberofpersonsfollowingoccupationsinseveralclassesineachtaluqinnellore,not_place,,,,high,
+tablenoshowingnumberofpersonsfollowingoccupationsinseveralclassesineachtaluqinkurnool,not_place,,,,high,
+tablenoshowingareatownsandvillagesoccupiedhousesandpopulationforbellary,not_place,,,,high,
+tablenoshowingnumberofpersonsprofessingeachcasteintanjoreundereighteenmajorheadsadoptedincensus,not_place,,,,high,
+tablenoshowingdistributionofpopulationofeachtownintanjoreaccordingtoreligion,not_place,,,,high,
+tablenonumbers,not_place,,,,high,
+tablenoshowingnumberofpersonsprofessingeachcasteinoftrichinopolyundereighteenmajorheadsadoptedincensus,not_place,,,,high,
+tablenoshowingagesofpeopleintinnevellyindecennialperiods,district,Tinnevelly District,Madras,IND/TamilNadu/Tirunelveli;IND/TamilNadu/Thoothukkudi;IND/TamilNadu/Virudunagar,high,table title; 1881
+tablenoshowingagesofpeopleinmalabarindecennialperiods,district,Malabar District,Madras,IND/Kerala/Kozhikode;IND/Kerala/Malappuram;IND/Kerala/Kannur;IND/Kerala/Wayanad;IND/Kerala/Palakkad;IND/Kerala/Thrissur;IND/Kerala/Ernakulam;IND/Lakshadweep/Lakshadweep,high,table title; 1881
+tablenoshowingnumberofpersonsfollowingoccupationsinseveralclassesineachtaluqinsouthcanarapart,not_place,,,,high,
+tableofseveralvaluesofpxonwhichnativelifetableformadraspresidencyisbasedalsocorrespondingvaluesofpxandofpx,not_place,,,,high,
+marriedageperiodsfirstpart,not_place,,,,high,
+tableixpartgsikh,not_place,,,,high,
+iagedistributionofofeachsexhindusbyannualperiods,not_place,,,,high,
+subsidiarytableagedistributionofofeachsex,not_place,,,,high,
+tableviichristianagesexandcivilcondition,not_place,,,,high,
+subsidiarytableixreporteddeathsfromcertaindiseasespermilleofpopulationcochinstatelefthalf,not_place,,,,high,
+nagercoilhindu,town,Nagercoil,Travancore State,IND/TamilNadu/Kanniyakumari,high,subset; towns table
+trivandrumallreligions,town,Trivandrum,Travancore State,IND/Kerala/Thiruvananthapuram,high,subset; towns table
+tablexivcivilconditionbyageforselectedcastesandraces,not_place,,,,high,
+shencottahallreligions,town,Shencottah,Travancore State,IND/TamilNadu/Tirunelveli,high,subset; towns table; now Tenkasi dist. (not in GADM 4.1)
+shencottahchristian,town,Shencottah,Travancore State,IND/TamilNadu/Tirunelveli,high,subset; towns table; now Tenkasi dist. (not in GADM 4.1)
+englisheducationamongchristiansbyrace,not_place,,,,high,
+finalcensustablenoviistatementshowingforeachreligionagesofpopulationofmadraspresidencymahomedans,not_place,,,,high,
+finalcensustablenoviistatementshowingforeachreligionagesofpopulationofmadraspresidencyallreligions,not_place,,,,high,
+tableviiagesexandcivilconditionhinduparta,not_place,,,,high,
+tableviiagesexandcivilconditionmusalmanparta,not_place,,,,high,
+tableviiagesexandcivilconditionparsi,not_place,,,,high,
+tableviiagesexandcivilconditionsikh,not_place,,,,high,
+mahratwara,natural_division,Marathwara,Hyderabad State,,high,Mahratwara=Marathwara
+actualworkers,not_place,,,,high,
+proportionbetweenoccupiedhousesandtotalnumberedforcensuspurposes,not_place,,,,high,
+subsidiarytableiiicontdagedistributionofofeachsexbyreligiontotalmysorestateexcludingcivilandmilitarystationbangalore,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+noofwidowersagedandover,not_place,,,,high,
+statementdistributionbycivilconditionandmainageperiodsofofeachsex,not_place,,,,high,
+astolanguagesofliteracytakingahundredliteratesineachsexoffourprincipalreligionsandexamininghowmanythereofareliterateinseverallanguagesresultsstandashereunder,not_place,,,,high,
+industrialconditionofliterates,not_place,,,,high,
+subsidiaryliterarybycivilcondition,not_place,,,,high,
+tablevconcldtribesorracesconcld,not_place,,,,high,
+distributionofactualnumbersofinsanesbythreeageperiodsatthreecensuses,not_place,,,,high,
+appendixcconcldstatementshowingnumberofdeathsanddeathratefromdifferentcausesduringpasttenyearstoincivilandmilitarystationofbangalorepopulation,not_place,,,,high,
+literacyandoccupationofimmigrants,not_place,,,,high,
+appendixastatementshowingnumberofbirthsanddeathsregisteredfromstjanuarytothfebruarywesterndivision,not_place,,,,high,
+appendixcprovincialabstractofdeathsregisteredfromdifferentcausesfromtoendoffebruarytakenfromannualformnoviofmedicalandsanitaryreports,not_place,,,,high,
+thesefiguresstandasfollowscomparedwithpreviouscensuses,not_place,,,,high,
+subsidiarytableiicontdeducationbyagesexandreligionmusalmansmysorestateexcludingcivilandmilitarystationbangalorefirstpart,town,"Civil and Military Station, Bangalore",Mysore,IND/Karnataka/Bangalore,high,subset; British-administered cantonment
+firsttableblock,not_place,,,,high,
+tablevcontdtribesorracescontdprovinceconcld,not_place,,,,high,
+tableviiagesbyreligionspartatotalpopulation,not_place,,,,high,
+tablexvlepersbyage,not_place,,,,high,
+tableviiicivilconditionbyreligionandagestatetotal,not_place,,,,high,
+tableviiicontinuedcivilconditionbyreligionandagecochintaluq,sub_district,Cochin Taluk,Cochin State,IND/Kerala/Ernakulam,high,table title
+tableviiicontinuedcivilconditionbyreligionandagemukundapuramtaluq,sub_district,Mukundapuram Taluk,Cochin State,IND/Kerala/Thrissur,high,table title
+tableviiicivilconditionbyreligionandagechitturtaluq,sub_district,Chittur Taluk,Cochin State,IND/Kerala/Palakkad,high,table title
+differencebetweenagesofhusbandandwife,not_place,,,,high,
+influenceofageofwifeatmarriageonproportionofstillborntoquickbornchildren,not_place,,,,high,
+actualnumberofdeafmutesatcertainageperiodsatlastthreecensuses,not_place,,,,high,
+subsidiarytableviiiaveragesizeoffamilycorrelatedwithageofwifeanddifferencebetweenagesofhusbandandwife,not_place,,,,high,
+mortalityratespercent,not_place,,,,high,
+southerndivisionconcludedothers,division,Southern Division,Travancore State,,medium,subset; Travancore administrative division; successor districts not mapped
+educatedunemploymentbyclassandsex,not_place,,,,high,
+tableviicontanimisticagesexandcivilcondition,not_place,,,,high,
+subsidiarytableivmigrationbetweencochinstateandotherpartsofindiaandothercountries,not_place,,,,high,
+subsidiarytableiicont,not_place,,,,high,
+livelihoodpattern,not_place,,,,high,
+iiinumberafflictedperpersonsofeachageperiodandnumberoffemalesafflictedpermales,not_place,,,,high,
+ixmainresultsofuniversityexaminations,not_place,,,,high,
+proportionofcombinedagegroups,not_place,,,,high,
+subsidiarytableixdistributionofofeachsexbyageandcivilcondition,not_place,,,,high,
+subsidiarytableishowingagereturntakenatrandomofpersonsofeachsexincochinstate,not_place,,,,high,
+distributionofindianchristians,not_place,,,,high,
+nellorehindu,district,Nellore District,Madras,IND/AndhraPradesh/Nellore;IND/AndhraPradesh/Prakasam,high,subset; Ongole/Kandukur to Prakasam 1970
+nelloreanimistic,district,Nellore District,Madras,IND/AndhraPradesh/Nellore;IND/AndhraPradesh/Prakasam,high,subset; Ongole/Kandukur to Prakasam 1970
+kurnoolchristian,district,Kurnool District,Madras,IND/AndhraPradesh/Kurnool;IND/AndhraPradesh/Prakasam,high,subset; Markapur/Cumbum to Prakasam 1970
+bellaryothers,district,Bellary District,Madras,IND/Karnataka/Bellary;IND/AndhraPradesh/Kurnool;IND/AndhraPradesh/Anantapur;IND/Karnataka/Davanagere,medium,"subset; Adoni/Alur to Kurnool, Rayadurg to Anantapur, Harpanahalli to Davanagere"
+northarcotmusalman,district,North Arcot District,Madras,IND/TamilNadu/Vellore;IND/TamilNadu/Tiruvannamalai;IND/AndhraPradesh/Chittoor,medium,subset; Chittoor district formed 1911 from North Arcot taluks
+salemallreligions,district,Salem District,Madras,IND/TamilNadu/Salem;IND/TamilNadu/Namakkal;IND/TamilNadu/Dharmapuri;IND/TamilNadu/Krishnagiri,high,subset; split
+malabarmusalman,district,Malabar District,Madras,IND/Kerala/Kozhikode;IND/Kerala/Malappuram;IND/Kerala/Kannur;IND/Kerala/Wayanad;IND/Kerala/Palakkad;IND/Kerala/Thrissur;IND/Kerala/Ernakulam;IND/Lakshadweep/Lakshadweep,high,"subset; Thrissur=Ponnani/Chavakkad part, Ernakulam=Fort Cochin; Laccadives attached"
+anjengochristian,town,Anjengo,Madras,IND/Kerala/Thiruvananthapuram,medium,subset; British enclave in Travancore attached to Malabar
+mysoreurban,district,Mysore District,Mysore,IND/Karnataka/Mysore;IND/Karnataka/Chamrajnagar,high,subset; post-1939 (Mandya separate); Chamrajnagar split 1997
+viiireporteddeathratebysexandnaturaldivision,not_place,,,,high,
+subsidiarytableibdistributionofpopulationbysexandannualageperiod,not_place,,,,high,
+distributionofchristiansbydivisions,not_place,,,,high,
+omissionofgirls,not_place,,,,high,
+diagramshowingnumberofpersonsperineachageperiodwhoareliterate,not_place,,,,high,
+tablenoshowingproportionpermilleofpersonsasdistributedbyreligionanddecennialperiodsofage,not_place,,,,high,
+mperialseries,not_place,,,,high,
+eastendivi,natural_division,Eastern Division,Mysore,,high,"OCR ""Easten Divi""=Eastern Division; Mysore census natural division"
+peopleinplainsofgodavari,district,Godavari District,Madras,IND/AndhraPradesh/EastGodavari;IND/AndhraPradesh/WestGodavari,high,subset; plains portion; title fragment; 1881
+chitaldrugwesterndivision,aggregate,,Mysore,,high,Chitaldrug District + Western Division (tag)
+karunagapallitalukkartikapallitaluk,aggregate,,Travancore State,,high,Karunagapalli + Kartikapalli taluks
+rtiibyprovincesandstatestravancore,princely_state,Travancore State,Madras,,medium,title fragment naming Travancore
+densityforganjam,district,Ganjam District,Madras,IND/Odisha/Ganjam;IND/Odisha/Gajapati;IND/AndhraPradesh/Srikakulam,high,title fragment; 1881
+populationineachtownofgodavari,district,Godavari District,Madras,IND/AndhraPradesh/EastGodavari;IND/AndhraPradesh/WestGodavari,high,title fragment; 1881
+classesineachtaluqinkurnool,district,Kurnool District,Madras,IND/AndhraPradesh/Kurnool;IND/AndhraPradesh/Prakasam,high,title fragment
+populationforanantapur,district,Anantapur District,Madras,IND/AndhraPradesh/Anantapur,high,title fragment
+housesandpopulationintrichinopoly,district,Trichinopoly District,Madras,IND/TamilNadu/Tiruchirappalli;IND/TamilNadu/Karur;IND/TamilNadu/Perambalur;IND/TamilNadu/Ariyalur,high,title fragment
+taluqsofmadura,district,Madura District,Madras,IND/TamilNadu/Madurai;IND/TamilNadu/Dindigul;IND/TamilNadu/Theni;IND/TamilNadu/Ramanathapuram;IND/TamilNadu/Sivaganga;IND/TamilNadu/Virudunagar,medium,title fragment; 1881
+ngurbanandruralpopulationineach,not_place,,,,high,
+tableviiieducationparti,not_place,,,,high,
+sexandreligionjainsmysore,princely_state,Mysore State,Mysore,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara;IND/Karnataka/Kolar;IND/Karnataka/Chikballapura;IND/Karnataka/Tumkur;IND/Karnataka/Mysore;IND/Karnataka/Mandya;IND/Karnataka/Chamrajnagar;IND/Karnataka/Hassan;IND/Karnataka/Chikmagalur;IND/Karnataka/Shimoga;IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,medium,subset; incl. C. and M. Station Bangalore
+conditionbyreligionandagecochin,princely_state,Cochin State,Madras,IND/Kerala/Thrissur;IND/Kerala/Ernakulam;IND/Kerala/Palakkad,high,title fragment

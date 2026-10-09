@@ -1,0 +1,996 @@
+key,kind,hist_name,hist_parent,modern,confidence,note
+gwalior,princely_state,Gwalior State,Central India Agency,,high,spans many districts of northern/western MP
+centralprovincesandberar,province,Central Provinces and Berar,,,high,
+centralindiaagency,agency,Central India Agency,,,high,
+bhopal,princely_state,Bhopal State,Bhopal Agency,IND/MadhyaPradesh/Bhopal;IND/MadhyaPradesh/Sehore;IND/MadhyaPradesh/Raisen,medium,
+madhyapradesh,province,Madhya Pradesh,,,high,1951 Part A state
+indore,princely_state,Indore State,Central India Agency,,high,"spans Indore, Khargone, Mandsaur, Neemuch etc."
+bilaspur,district,Bilaspur District,Central Provinces,IND/Chhattisgarh/Bilaspur;IND/Chhattisgarh/Mungeli;IND/Chhattisgarh/Janjgir-Champa;IND/Chhattisgarh/Korba,medium,"CP Bilaspur; later splits Janjgir, Korba, Mungeli"
+sambalpur,district,Sambalpur District,Central Provinces,IND/Odisha/Sambalpur;IND/Odisha/Bargarh;IND/Odisha/Jharsuguda,medium,to Bengal/Orissa 1905; later splits
+hoshangabad,district,Hoshangabad District,Central Provinces,IND/MadhyaPradesh/Hoshangabad;IND/MadhyaPradesh/Harda,high,Harda split 1998
+nimar,district,Nimar District,Central Provinces,IND/MadhyaPradesh/EastNimar;IND/MadhyaPradesh/Burhanpur,high,CP Nimar=East Nimar (Khandwa); Burhanpur split 2003
+raipur,district,Raipur District,Central Provinces,IND/Chhattisgarh/Raipur;IND/Chhattisgarh/BalodaBazar;IND/Chhattisgarh/Gariaband;IND/Chhattisgarh/Mahasamund;IND/Chhattisgarh/Dhamtari;IND/Chhattisgarh/Durg;IND/Chhattisgarh/Balod;IND/Chhattisgarh/Bemetara,medium,1901 Raipur; Durg carved 1906; later splits
+nagpur,district,Nagpur District,Central Provinces,IND/Maharashtra/Nagpur,high,
+betul,district,Betul District,Central Provinces,IND/MadhyaPradesh/Betul,high,
+chhindwara,district,Chhindwara District,Central Provinces,IND/MadhyaPradesh/Chhindwara,high,
+chanda,district,Chanda District,Central Provinces,IND/Maharashtra/Chandrapur;IND/Maharashtra/Garhchiroli,high,Chanda=Chandrapur; Gadchiroli split 1982
+balaghat,district,Balaghat District,Central Provinces,IND/MadhyaPradesh/Balaghat,high,
+saugor,district,Saugor District,Central Provinces,IND/MadhyaPradesh/Sagar,high,Saugor=Sagar
+wardha,district,Wardha District,Central Provinces,IND/Maharashtra/Wardha,high,
+bhandara,district,Bhandara District,Central Provinces,IND/Maharashtra/Bhandara;IND/Maharashtra/Gondiya,high,Gondia split 1999
+mandla,district,Mandla District,Central Provinces,IND/MadhyaPradesh/Mandla;IND/MadhyaPradesh/Dindori,high,Dindori split 1998
+narsinghpur,district,Narsinghpur District,Central Provinces,IND/MadhyaPradesh/Narsimhapur,high,
+damoh,district,Damoh District,Central Provinces,IND/MadhyaPradesh/Damoh,high,
+jubbulpore,district,Jubbulpore District,Central Provinces,IND/MadhyaPradesh/Jabalpur;IND/MadhyaPradesh/Katni,high,Jubbulpore=Jabalpur; Katni split 1998
+seoni,district,Seoni District,Central Provinces,IND/MadhyaPradesh/Seoni,high,
+ujjain,district,Ujjain District,Gwalior State,IND/MadhyaPradesh/Ujjain,high,
+sheopur,district,Sheopur District,Gwalior State,IND/MadhyaPradesh/Sheopur,high,
+amraoti,district,Amraoti District,Berar,IND/Maharashtra/Amravati,high,Amraoti=Amravati; Murtazapur taluk now Akola
+amjhera,district,Amjhera District,Gwalior State,IND/MadhyaPradesh/Dhar,medium,renamed Sardarpur district
+akola,district,Akola District,Berar,IND/Maharashtra/Akola;IND/Maharashtra/Buldana,medium,Jalgaon & Khamgaon taluks now in Buldana
+bhind,district,Bhind District,Gwalior State,IND/MadhyaPradesh/Bhind,high,
+bhilsa,district,Bhilsa District,Gwalior State,IND/MadhyaPradesh/Vidisha,high,Bhilsa=Vidisha
+narwar,district,Narwar District,Gwalior State,IND/MadhyaPradesh/Shivpuri,high,Narwar district renamed Shivpuri
+shajapur,district,Shajapur District,Gwalior State,IND/MadhyaPradesh/Shajapur;IND/MadhyaPradesh/AgarMalwa,medium,later incl. Agar; AgarMalwa split 2013
+ellichpur,district,Ellichpur District,Berar,IND/Maharashtra/Amravati,high,"abolished 1905, merged into Amraoti"
+wun,district,Wun District,Berar,IND/Maharashtra/Yavatmal,high,Wun renamed Yeotmal 1905
+basim,district,Basim District,Berar,IND/Maharashtra/Washim;IND/Maharashtra/Yavatmal,medium,Basim=Washim; Pusad taluk now Yavatmal
+mandsaur,district,Mandsaur District,Gwalior State,IND/MadhyaPradesh/Mandsaur;IND/MadhyaPradesh/Neemuch,medium,Neemuch split 1998
+sabalgarh,district,Sabalgarh District,Gwalior State,IND/MadhyaPradesh/Morena,medium,later part of Morena
+bajrangarh,district,Bajrangarh District,Gwalior State,IND/MadhyaPradesh/Guna,medium,
+agar,district,Agar District,Gwalior State,IND/MadhyaPradesh/AgarMalwa,medium,
+buldana,district,Buldana District,Berar,IND/Maharashtra/Buldana,high,
+bhander,district,Bhander District,Gwalior State,IND/MadhyaPradesh/Datia,medium,Bhander town now in Datia district
+englandandwales,country,,,,high,England and Wales
+susera,unsure,,Gwalior State,,low,listed among Gwalior 1901 districts; not identified
+gwaliorprantgwalior,district,Gird Gwalior District,Gwalior State,IND/MadhyaPradesh/Gwalior,high,Gird=Gwalior; prant header merged where applicable
+sikarwari,district,Sikarwari District,Gwalior State,IND/MadhyaPradesh/Morena,medium,later merged into Tonwarghar/Morena
+tawarghar,district,Tonwarghar District,Gwalior State,IND/MadhyaPradesh/Morena,high,Tonwarghar renamed Morena
+isagarhprantisagarh,district,Isagarh District,Gwalior State,IND/MadhyaPradesh/Ashoknagar;IND/MadhyaPradesh/Guna,medium,Isagarh prant header merged with district
+pichhor,district,Pichhor District,Gwalior State,IND/MadhyaPradesh/Shivpuri;IND/MadhyaPradesh/Gwalior,low,Gwalior prant district 1901; Pichhore pargana later in Shivpuri
+malwaprantnimach,district,Nimach District,Gwalior State,IND/MadhyaPradesh/Neemuch,medium,Malwa prant header merged with district
+patna,princely_state,Patna State,Central Provinces,IND/Odisha/Balangir,high,
+british,aggregate,British Districts (Central Provinces),Central Provinces,,high,
+lefthalf,not_place,,,,high,
+righthalf,not_place,,,,high,
+natural,not_place,,,,high,
+kalahandi,princely_state,Kalahandi State,Central Provinces,IND/Odisha/Kalahandi,high,
+centralindia,agency,Central India Agency,,,high,
+feudatorystates,aggregate,Feudatory States (Central Provinces),Central Provinces,,high,
+toptable,not_place,,,,high,
+nandgaon,princely_state,Nandgaon State,Central Provinces,IND/Chhattisgarh/Rajnandgaon,high,
+kawardha,princely_state,Kawardha State,Central Provinces,IND/Chhattisgarh/Kabeerdham,high,
+raigarh,princely_state,Raigarh State,Central Provinces,IND/Chhattisgarh/Raigarh,high,
+sonpur,princely_state,Sonpur State,Central Provinces,IND/Odisha/Subarnapur,high,
+bundelkhand,agency,Bundelkhand Agency,Central India Agency,,medium,could also denote natural region
+jubbulporedivision,division,Jubbulpore Division,Central Provinces,,high,
+britishterritory,aggregate,British Territory,,,medium,
+bastar,princely_state,Bastar State,Central Provinces,IND/Chhattisgarh/Bastar;IND/Chhattisgarh/Kondagaon;IND/Chhattisgarh/Narayanpur;IND/Chhattisgarh/Dantewada;IND/Chhattisgarh/Bijapur;IND/Chhattisgarh/Sukma,high,
+kanker,princely_state,Kanker State,Central Provinces,IND/Chhattisgarh/UttarBastarKanker,high,
+chhuikhadan,princely_state,Chhuikhadan State,Central Provinces,IND/Chhattisgarh/Rajnandgaon,high,
+sakti,princely_state,Sakti State,Central Provinces,IND/Chhattisgarh/Janjgir-Champa,high,
+bamra,princely_state,Bamra State,Central Provinces,IND/Odisha/Debagarh;IND/Odisha/Sambalpur,medium,Bamra = Deogarh + Kuchinda area
+rairakhol,princely_state,Rairakhol State,Central Provinces,IND/Odisha/Sambalpur,high,
+baghelkhand,agency,Baghelkhand Agency,Central India Agency,,medium,could also denote natural region
+westernmalwa,agency,Western Malwa Agency,Central India Agency,,medium,
+bhopawar,agency,Bhopawar Agency,Central India Agency,,medium,
+guna,agency,Guna Agency,Central India Agency,,low,listed with CI political charges; Guna sub-agency of Gwalior Residency
+khairagarh,princely_state,Khairagarh State,Central Provinces,IND/Chhattisgarh/Rajnandgaon,high,
+sarangarh,princely_state,Sarangarh State,Central Provinces,IND/Chhattisgarh/Raigarh,medium,"now Sarangarh-Bilaigarh district (not in GADM 4.1), carved from Raigarh"
+ratlam,princely_state,Ratlam State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,
+bothsexes,not_place,,,,high,
+makrai,princely_state,Makrai State,Central Provinces,IND/MadhyaPradesh/Harda,high,
+nerbuddadivision,division,Nerbudda Division,Central Provinces,,high,
+nagpurdivision,division,Nagpur Division,Central Provinces,,high,
+chhattisgarhdivision,division,Chhattisgarh Division,Central Provinces,,high,
+malkapur,sub_district,Malkapur Taluk,Berar,IND/Maharashtra/Buldana,high,
+variation,not_place,,,,high,
+bundelkhandagency,agency,Bundelkhand Agency,Central India Agency,,high,
+average,not_place,,,,high,
+bhils,not_place,,,,high,
+chandur,sub_district,Chandur Taluk,Berar,IND/Maharashtra/Amravati,high,
+morsi,sub_district,Morsi Taluk,Berar,IND/Maharashtra/Amravati,high,
+akot,sub_district,Akot Taluk,Berar,IND/Maharashtra/Akola,high,
+balapur,sub_district,Balapur Taluk,Berar,IND/Maharashtra/Akola,high,
+jalgaon,sub_district,Jalgaon Taluk,Berar,IND/Maharashtra/Buldana,medium,"Jalgaon (Jamod) taluk, now Buldana"
+khamgaon,sub_district,Khamgaon Taluk,Berar,IND/Maharashtra/Buldana,high,now Buldana district
+daryapur,sub_district,Daryapur Taluk,Berar,IND/Maharashtra/Amravati,high,
+melghat,sub_district,Melghat Taluk,Berar,IND/Maharashtra/Amravati,high,
+mehkar,sub_district,Mehkar Taluk,Berar,IND/Maharashtra/Buldana,high,
+darwha,sub_district,Darwha Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+kelapur,sub_district,Kelapur Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+mangrul,sub_district,Mangrul Taluk,Berar,IND/Maharashtra/Washim,high,
+pusad,sub_district,Pusad Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+leftblock,not_place,,,,high,
+rightblock,not_place,,,,high,
+murtazapur,sub_district,Murtazapur Taluk,Berar,IND/Maharashtra/Akola,high,now Akola district
+west,natural_division,West (Central India),Central India Agency,,medium,
+density,not_place,,,,high,
+proportionofsurvivorstoborn,not_place,,,,high,
+sahariyas,not_place,,,,high,
+meanforprovince,not_place,,,,high,
+east,natural_division,East (Central India),Central India Agency,,medium,
+ditionandagepartcanimists,not_place,,,,high,
+jaora,princely_state,Jaora State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,
+amraotitalukamraoti,sub_district,Amraoti Taluk,Berar,IND/Maharashtra/Amravati,high,
+akolatalukakola,sub_district,Akola Taluk,Berar,IND/Maharashtra/Akola,high,
+ellichpurtalukellichpur,sub_district,Ellichpur Taluk,Berar,IND/Maharashtra/Amravati,high,
+buldanatalukchikhli,sub_district,Chikhli Taluk,Berar,IND/Maharashtra/Buldana,high,
+wuntalukyeotmal,sub_district,Yeotmal Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+basimtalukbasim,sub_district,Basim Taluk,Berar,IND/Maharashtra/Washim,high,
+english,not_place,,,,high,
+percentages,not_place,,,,high,
+sexin,not_place,,,,high,
+railwaypassengersetc,not_place,,,,high,
+amraotitalukchandur,sub_district,Chandur Taluk,Berar,IND/Maharashtra/Amravati,high,
+amraotitalukmorsi,sub_district,Morsi Taluk,Berar,IND/Maharashtra/Amravati,high,
+amraotitalukmurtazapur,sub_district,Murtazapur Taluk,Berar,IND/Maharashtra/Akola,high,now Akola district
+akolatalukakot,sub_district,Akot Taluk,Berar,IND/Maharashtra/Akola,high,
+akolatalukbalapur,sub_district,Balapur Taluk,Berar,IND/Maharashtra/Akola,high,
+akolatalukjalgaon,sub_district,Jalgaon Taluk,Berar,IND/Maharashtra/Buldana,medium,"Jalgaon (Jamod) taluk, now Buldana"
+akolatalukkhamgaon,sub_district,Khamgaon Taluk,Berar,IND/Maharashtra/Buldana,high,now Buldana district
+ellichpurtalukdaryapur,sub_district,Daryapur Taluk,Berar,IND/Maharashtra/Amravati,high,
+ellichpurtalukmelghat,sub_district,Melghat Taluk,Berar,IND/Maharashtra/Amravati,high,
+buldanatalukmalkapur,sub_district,Malkapur Taluk,Berar,IND/Maharashtra/Buldana,high,
+buldanatalukmehkar,sub_district,Mehkar Taluk,Berar,IND/Maharashtra/Buldana,high,
+wuntalukdarwha,sub_district,Darwha Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+wuntalukkelapur,sub_district,Kelapur Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+wuntalukwun,sub_district,Wun Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+basimtalukmangrul,sub_district,Mangrul Taluk,Berar,IND/Maharashtra/Washim,high,
+basimtalukpusad,sub_district,Pusad Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+tonwarghar,district,Tonwarghar District,Gwalior State,IND/MadhyaPradesh/Morena,high,Tonwarghar renamed Morena
+nerbuddavalleydivision,natural_division,Nerbudda Valley Division,Central Provinces,,high,
+chhattisgarhplaindivision,natural_division,Chhattisgarh Plain Division,Central Provinces,,high,
+tableviiagesbyreligions,not_place,,,,high,
+chhattisgarhstates,natural_division,Chhattisgarh States,Central Provinces,,medium,
+mahitpur,district,Mahitpur Zilla,Indore State,IND/MadhyaPradesh/Ujjain,high,Mahidpur
+indorecity,town,Indore City,Indore State,IND/MadhyaPradesh/Indore,high,
+agrabarkhera,princely_state,Agra-Barkhera Estate,Central India Agency,,low,Guna-area estate; location not confirmed
+bhadaura,princely_state,Bhadaura Estate,Central India Agency,IND/MadhyaPradesh/Guna,low,
+dharnaoda,princely_state,Dharnaoda Estate,Central India Agency,IND/MadhyaPradesh/Guna,low,
+garha,princely_state,Garha Estate,Central India Agency,IND/MadhyaPradesh/Guna,medium,
+khaniadhana,princely_state,Khaniadhana State,Central India Agency,IND/MadhyaPradesh/Shivpuri,high,
+kathon,princely_state,Kathon Estate,Central India Agency,,low,minor estate; location not confirmed
+khiaoda,princely_state,Khiaoda Estate,Central India Agency,IND/MadhyaPradesh/Guna,low,
+paron,princely_state,Paron Estate,Central India Agency,IND/MadhyaPradesh/Shivpuri,low,
+raghogarh,princely_state,Raghogarh State,Central India Agency,IND/MadhyaPradesh/Guna,high,
+sirsi,princely_state,Sirsi Estate,Central India Agency,IND/MadhyaPradesh/Shivpuri,low,
+umri,princely_state,Umri Estate,Central India Agency,IND/MadhyaPradesh/Guna,low,
+panna,princely_state,Panna State,Bundelkhand Agency,IND/MadhyaPradesh/Panna,high,
+censusof,not_place,,,,high,
+bohras,not_place,,,,high,
+continued,not_place,,,,high,
+childrenborn,not_place,,,,high,
+koli,not_place,,,,high,
+gird,district,Gird Gwalior District,Gwalior State,IND/MadhyaPradesh/Gwalior,high,Gird=Gwalior; prant header merged where applicable
+hindi,not_place,,,,high,
+bengali,not_place,,,,high,
+arabic,not_place,,,,high,
+vindhyandivision,natural_division,Vindhyan Division,Central Provinces,,high,
+makraistate,princely_state,Makrai State,Central Provinces,IND/MadhyaPradesh/Harda,high,
+satpuraplateaudivision,natural_division,Satpura Plateau Division,Central Provinces,,high,
+marathacountry,natural_division,Maratha Country,Central Provinces,,high,
+bastarstate,princely_state,Bastar State,Central Provinces,IND/Chhattisgarh/Bastar;IND/Chhattisgarh/Kondagaon;IND/Chhattisgarh/Narayanpur;IND/Chhattisgarh/Dantewada;IND/Chhattisgarh/Bijapur;IND/Chhattisgarh/Sukma,high,
+mandleshwar,district,Mandleshwar Zilla,Indore State,IND/MadhyaPradesh/WestNimar,medium,
+nemawar,district,Nemawar Zilla,Indore State,IND/MadhyaPradesh/Dewas,medium,
+rampura,district,Rampura Zilla,Indore State,IND/MadhyaPradesh/Neemuch,medium,
+pathari,princely_state,Pathari State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,medium,
+rajgarh,princely_state,Rajgarh State,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,high,"Malwa (Umat) Rajgarh, not Rajputana"
+thakuraits,aggregate,Thakurats,Central India Agency,,low,group of minor guaranteed estates
+alipura,princely_state,Alipura State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,medium,
+bankapahari,princely_state,Banka Pahari Jagir,Bundelkhand Agency,IND/UttarPradesh/Jhansi,low,
+baoni,princely_state,Baoni State,Bundelkhand Agency,IND/UttarPradesh/Jalaun,medium,capital Kadaura
+bihat,princely_state,Bihat Jagir,Bundelkhand Agency,,low,Hasht-Bhaiya jagir; modern district not confirmed
+bilehri,princely_state,Bilehri Jagir,Bundelkhand Agency,,low,Bundelkhand jagir; modern district not confirmed
+beri,princely_state,Beri Jagir,Bundelkhand Agency,,low,Bundelkhand jagir; modern district not confirmed
+bijna,princely_state,Bijna Jagir,Bundelkhand Agency,IND/UttarPradesh/Jhansi,low,
+dhurwai,princely_state,Dhurwai Jagir,Bundelkhand Agency,IND/UttarPradesh/Jhansi,low,
+garauli,princely_state,Garrauli State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,medium,
+gaurihar,princely_state,Gaurihar State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,medium,
+jigni,princely_state,Jigni State,Bundelkhand Agency,IND/UttarPradesh/Hamirpur,low,
+lugasi,princely_state,Lugasi State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,medium,
+sarila,princely_state,Sarila State,Bundelkhand Agency,IND/UttarPradesh/Hamirpur,medium,
+torifatehpur,princely_state,Tori Fatehpur Jagir,Bundelkhand Agency,IND/UttarPradesh/Jhansi,low,
+nagpurmcacl,town,Nagpur,Central Provinces,IND/Maharashtra/Nagpur,high,
+kampteemca,town,Kamptee,Central Provinces,IND/Maharashtra/Nagpur,high,
+umrerm,town,Umrer,Central Provinces,IND/Maharashtra/Nagpur,high,
+khapam,town,Khapa,Central Provinces,IND/Maharashtra/Nagpur,high,
+ramtekm,town,Ramtek,Central Provinces,IND/Maharashtra/Nagpur,high,
+narkher,town,Narkher,Central Provinces,IND/Maharashtra/Nagpur,high,
+mohpa,town,Mohpa,Central Provinces,IND/Maharashtra/Nagpur,high,
+kalmeshwarm,town,Kalmeshwar,Central Provinces,IND/Maharashtra/Nagpur,high,
+bhandaramcl,town,Bhandara,Central Provinces,IND/Maharashtra/Bhandara,high,
+paunim,town,Pauni,Central Provinces,IND/Maharashtra/Bhandara,high,
+tumsarm,town,Tumsar,Central Provinces,IND/Maharashtra/Bhandara,high,
+moharim,town,Mohari,Central Provinces,IND/Maharashtra/Bhandara,high,
+chandamcl,town,Chanda,Central Provinces,IND/Maharashtra/Chandrapur,high,
+waroramcl,town,Warora,Central Provinces,IND/Maharashtra/Chandrapur,high,
+armori,town,Armori,Central Provinces,IND/Maharashtra/Garhchiroli,high,
+hinganghatmcl,town,Hinganghat,Central Provinces,IND/Maharashtra/Wardha,high,
+arvim,town,Arvi,Central Provinces,IND/Maharashtra/Wardha,high,
+wardhamcl,town,Wardha,Central Provinces,IND/Maharashtra/Wardha,high,
+ashti,town,Ashti,Central Provinces,IND/Maharashtra/Wardha,high,
+deolim,town,Deoli,Central Provinces,IND/Maharashtra/Wardha,high,
+jubbulporemcacl,town,Jubbulpore,Central Provinces,IND/MadhyaPradesh/Jabalpur,high,
+murwaram,town,Murwara,Central Provinces,IND/MadhyaPradesh/Katni,high,
+saugormcacl,town,Saugor,Central Provinces,IND/MadhyaPradesh/Sagar,high,
+garhakotam,town,Garhakota,Central Provinces,IND/MadhyaPradesh/Sagar,high,
+deorim,town,Deori,Central Provinces,IND/MadhyaPradesh/Sagar,high,
+khuraim,town,Khurai,Central Provinces,IND/MadhyaPradesh/Sagar,high,
+rehlim,town,Rehli,Central Provinces,IND/MadhyaPradesh/Sagar,high,
+damohmcl,town,Damoh,Central Provinces,IND/MadhyaPradesh/Damoh,high,
+hattam,town,Hatta,Central Provinces,IND/MadhyaPradesh/Damoh,high,
+seonimcl,town,Seoni,Central Provinces,IND/MadhyaPradesh/Seoni,high,
+burhanpurmcl,town,Burhanpur,Central Provinces,IND/MadhyaPradesh/Burhanpur,high,
+hoshangabadmcacl,town,Hoshangabad,Central Provinces,IND/MadhyaPradesh/Hoshangabad,high,
+khandwamcl,town,Khandwa,Central Provinces,IND/MadhyaPradesh/EastNimar,high,
+hardamcl,town,Harda,Central Provinces,IND/MadhyaPradesh/Harda,high,
+narsinghpurmcl,town,Narsinghpur,Central Provinces,IND/MadhyaPradesh/Narsimhapur,high,
+chhindwaramcl,town,Chhindwara,Central Provinces,IND/MadhyaPradesh/Chhindwara,high,
+gadarwaram,town,Gadarwara,Central Provinces,IND/MadhyaPradesh/Narsimhapur,high,
+pandhurnam,town,Pandhurna,Central Provinces,IND/MadhyaPradesh/Chhindwara,high,
+sohagpurm,town,Sohagpur,Central Provinces,IND/MadhyaPradesh/Hoshangabad,high,
+seonim,town,Seoni-Malwa,Central Provinces,IND/MadhyaPradesh/Hoshangabad,medium,listed in Hoshangabad group; distinct from Seoni M.C.L
+mohgaonm,town,Mohgaon,Central Provinces,IND/MadhyaPradesh/Chhindwara,medium,Mohgaon in Chhindwara (Sausar)
+semiticmusalman,not_place,,,,high,
+semiticchristian,not_place,,,,high,
+hindu,not_place,,,,high,
+sampleslips,not_place,,,,high,
+certainagesineachreligionandnatural,not_place,,,,high,
+dewasstatesb,princely_state,Dewas State (Senior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,
+deathratesyearbyyearforeach,not_place,,,,high,
+birthratesyearbyyearforeach,not_place,,,,high,
+talukamraoti,sub_district,Amraoti Taluk,Berar,IND/Maharashtra/Amravati,high,
+talukakola,sub_district,Akola Taluk,Berar,IND/Maharashtra/Akola,high,
+talukellichpur,sub_district,Ellichpur Taluk,Berar,IND/Maharashtra/Amravati,high,
+talukchikhli,sub_district,Chikhli Taluk,Berar,IND/Maharashtra/Buldana,high,
+talukyeotmal,sub_district,Yeotmal Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+talukbasim,sub_district,Basim Taluk,Berar,IND/Maharashtra/Washim,high,
+mahar,not_place,,,,high,
+mang,not_place,,,,high,
+deist,not_place,,,,high,
+nimach,sub_district,Nimach Pargana,Gwalior State,IND/MadhyaPradesh/Neemuch,high,
+gangapur,sub_district,Gangapur Pargana,Gwalior State,IND/Rajasthan/Bhilwara,medium,Gwalior enclave in Mewar
+shivpuri,district,Shivpuri District,Gwalior State,IND/MadhyaPradesh/Shivpuri,high,
+pichhore,sub_district,Pichhore Pargana,Gwalior State,IND/MadhyaPradesh/Shivpuri,high,
+basoda,sub_district,Basoda Pargana,Gwalior State,IND/MadhyaPradesh/Vidisha,high,
+kachhi,not_place,,,,high,
+marathi,not_place,,,,high,
+tamil,not_place,,,,high,
+kanarese,not_place,,,,high,
+german,not_place,,,,high,
+french,not_place,,,,high,
+jamaica,country,,,,high,Jamaica
+sagar,district,Sagar District,Madhya Pradesh,IND/MadhyaPradesh/Sagar,high,1951
+bhanpura,district,Bhanpura Zilla,Indore State,IND/MadhyaPradesh/Mandsaur,medium,
+rajgarhstate,princely_state,Rajgarh State,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,high,"Malwa (Umat) Rajgarh, not Rajputana"
+sheogarh,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+talen,princely_state,Talen Estate,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,low,
+jhabua,princely_state,Jhabua State,Bhopawar Agency,IND/MadhyaPradesh/Jhabua,high,
+ajaigarh,princely_state,Ajaigarh State,Bundelkhand Agency,IND/MadhyaPradesh/Panna,high,
+bijawar,princely_state,Bijawar State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,high,
+orchha,princely_state,Orchha State,Bundelkhand Agency,IND/MadhyaPradesh/Tikamgarh,high,
+samthar,princely_state,Samthar State,Bundelkhand Agency,IND/UttarPradesh/Jhansi,high,
+barwaha,sub_district,Barwaha Pargana,Indore State,IND/MadhyaPradesh/WestNimar,high,
+maheshwar,sub_district,Maheshwar Pargana,Indore State,IND/MadhyaPradesh/WestNimar,high,
+saonerm,town,Saoner,Central Provinces,IND/Maharashtra/Nagpur,high,
+sehoram,town,Sihora,Central Provinces,IND/MadhyaPradesh/Jabalpur,high,
+plain,natural_division,Plain (Gwalior),Gwalior State,,medium,
+areainsquaremiles,not_place,,,,high,
+lashkarcity,town,Lashkar,Gwalior State,IND/MadhyaPradesh/Gwalior,high,Gwalior capital
+occupiedhouses,not_place,,,,high,
+indoaryanhindu,not_place,,,,high,
+indoaryansikh,not_place,,,,high,
+indoaryanjain,not_place,,,,high,
+iranianzoroastrian,not_place,,,,high,
+semiticjew,not_place,,,,high,
+primitiveanimist,not_place,,,,high,
+vicommercetotal,not_place,,,,high,
+viitransporttotal,not_place,,,,high,
+viiiotherservicesandmiscellaneoussourcestotal,not_place,,,,high,
+statementshowingdistributionofpeopleaccordingtobirthplacebywithinprovinceandoutsideprovinceaccordingtoprovinceorcountrycontinued,not_place,,,,high,
+restofagencykhaniadhana,aggregate,,Central India Agency,,high,several units in one tag
+dewasstatejb,princely_state,Dewas State (Junior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,
+sexingwalior,princely_state,Gwalior State,Central India Agency,,low,title fragment
+bhilalas,not_place,,,,high,
+budhists,not_place,,,,high,
+tawaghar,district,Tonwarghar District,Gwalior State,IND/MadhyaPradesh/Morena,high,Tonwarghar renamed Morena
+dozemindaris,unsure,,Central Provinces,,low,group of zamindari estates under preceding tahsil; tahsil not identifiable
+uriastates,natural_division,Oriya States,Central Provinces,,medium,
+gaoli,not_place,,,,high,
+gondhindu,not_place,,,,high,
+korku,not_place,,,,high,
+banjari,not_place,,,,high,
+suwasra,sub_district,Suwasra Pargana,Gwalior State,IND/MadhyaPradesh/Mandsaur,medium,
+jawad,sub_district,Jawad Pargana,Gwalior State,IND/MadhyaPradesh/Neemuch,high,
+susner,sub_district,Susner Pargana,Gwalior State,IND/MadhyaPradesh/AgarMalwa,medium,
+shujalpur,sub_district,Shujalpur Pargana,Gwalior State,IND/MadhyaPradesh/Shajapur,high,
+bijeypur,sub_district,Bijeypur Pargana,Gwalior State,IND/MadhyaPradesh/Sheopur,medium,Vijaypur
+karera,sub_district,Karera Pargana,Gwalior State,IND/MadhyaPradesh/Shivpuri,high,
+kolaras,sub_district,Kolaras Pargana,Gwalior State,IND/MadhyaPradesh/Shivpuri,high,
+pachhar,sub_district,Pachhar Pargana,Gwalior State,IND/MadhyaPradesh/Guna,low,
+mungaoli,sub_district,Mungaoli Pargana,Gwalior State,IND/MadhyaPradesh/Ashoknagar,high,
+kumbhraj,sub_district,Kumbhraj Pargana,Gwalior State,IND/MadhyaPradesh/Guna,high,
+mehgaon,sub_district,Mehgaon Pargana,Gwalior State,IND/MadhyaPradesh/Bhind,high,
+lahar,sub_district,Lahar Pargana,Gwalior State,IND/MadhyaPradesh/Bhind,high,
+gohad,sub_district,Gohad Pargana,Gwalior State,IND/MadhyaPradesh/Bhind,high,
+joura,sub_district,Joura Pargana,Gwalior State,IND/MadhyaPradesh/Morena,high,
+ambah,sub_district,Ambah Pargana,Gwalior State,IND/MadhyaPradesh/Morena,high,
+nurabad,sub_district,Nurabad Pargana,Gwalior State,IND/MadhyaPradesh/Morena,medium,
+dhanuk,not_place,,,,high,
+gujarati,not_place,,,,high,
+rajasthani,not_place,,,,high,
+marwari,not_place,,,,high,
+westernhindi,not_place,,,,high,
+telugu,not_place,,,,high,
+easternhindi,not_place,,,,high,
+kol,not_place,,,,high,
+oriyastates,natural_division,Oriya States,Central Provinces,,medium,
+murwaratahsil,sub_district,Murwara Tahsil,Central Provinces,IND/MadhyaPradesh/Katni,high,Murwara=Katni
+restofjubbulpore,district,Jubbulpore District,Central Provinces,IND/MadhyaPradesh/Jabalpur,medium,subset; Jubbulpore excl. Murwara tahsil
+oriyacountry,natural_division,Oriya Country,Central Provinces,,high,
+jabalpur,district,Jabalpur District,Madhya Pradesh,IND/MadhyaPradesh/Jabalpur;IND/MadhyaPradesh/Katni,high,1951; Katni split 1998
+durg,district,Durg District,Madhya Pradesh,IND/Chhattisgarh/Durg;IND/Chhattisgarh/Balod;IND/Chhattisgarh/Bemetara;IND/Chhattisgarh/Rajnandgaon,medium,1951 Durg incl. merged Nandgaon/Khairagarh/Chhuikhadan
+surguja,district,Surguja District,Madhya Pradesh,IND/Chhattisgarh/Surguja;IND/Chhattisgarh/Surajpur;IND/Chhattisgarh/Balrampur;IND/Chhattisgarh/Koriya,medium,1951 Surguja incl. Korea state
+amravati,district,Amravati District,Madhya Pradesh,IND/Maharashtra/Amravati,high,1951
+khargone,district,Khargone Zilla,Indore State,IND/MadhyaPradesh/WestNimar,high,
+biaora,princely_state,Biaora Estate,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,low,
+kalipith,princely_state,Kalipith Estate,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,low,
+karanwas,princely_state,Karanwas Estate,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,low,
+nawalgunj,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+dariakheri,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+dhabladhir,princely_state,Dhabla Dhir Estate,Bhopal Agency,IND/MadhyaPradesh/Shajapur,low,
+dhablaghosi,princely_state,Dhabla Ghosi Estate,Bhopal Agency,IND/MadhyaPradesh/Shajapur,low,
+dugri,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+hirapur,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+jabriabhil,princely_state,Jabria Bhil Estate,Bhopal Agency,IND/MadhyaPradesh/Shajapur,low,
+kamalpur,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+khajuri,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+kherirajapur,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+pataria,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+suthalia,princely_state,Suthalia Estate,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,low,
+tappa,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+chandpur,unsure,,,,low,contexts conflict (Indore 1901 and Bijnor UP)
+naigaonrebai,princely_state,Naigaon Rebai Jagir,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,medium,
+bhopalstate,princely_state,Bhopal State,Bhopal Agency,IND/MadhyaPradesh/Bhopal;IND/MadhyaPradesh/Sehore;IND/MadhyaPradesh/Raisen,medium,
+naigaunrebai,princely_state,Naigaon Rebai Jagir,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,medium,
+sunel,sub_district,Sunel Pargana,Indore State,IND/Rajasthan/Jhalawar,high,"Indore enclave, now Rajasthan"
+balakwada,sub_district,Balakwada Pargana,Indore State,IND/MadhyaPradesh/WestNimar,low,
+barud,sub_district,Barud Pargana,Indore State,IND/MadhyaPradesh/WestNimar,low,
+baswa,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+bhicangaon,sub_district,Bhikangaon Pargana,Indore State,IND/MadhyaPradesh/WestNimar,medium,
+khudgaon,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+mahomadpur,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+nagalwadi,sub_district,Nagalwadi Pargana,Indore State,IND/MadhyaPradesh/Barwani,low,
+oon,sub_district,Un Pargana,Indore State,IND/MadhyaPradesh/WestNimar,low,
+silunandri,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+jagoti,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+kayatha,sub_district,Kayatha Pargana,Indore State,IND/MadhyaPradesh/Ujjain,medium,
+zarda,sub_district,Zarda Pargana,Indore State,IND/MadhyaPradesh/Ujjain,low,
+chikhalda,sub_district,Chikhalda Pargana,Indore State,IND/MadhyaPradesh/Dhar,low,
+lawani,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+alampur,sub_district,Alampur Pargana,Indore State,IND/MadhyaPradesh/Bhind,medium,Indore enclave in Bhind
+harangaon,sub_district,Harangaon Pargana,Indore State,IND/MadhyaPradesh/Dewas,low,
+kathaphod,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+rajor,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+satwas,sub_district,Satwas Pargana,Indore State,IND/MadhyaPradesh/Dewas,medium,
+khargon,district,Khargone Zilla,Indore State,IND/MadhyaPradesh/WestNimar,high,
+tarana,sub_district,Tarana Pargana,Indore State,IND/MadhyaPradesh/Ujjain,high,
+manasa,sub_district,Manasa Pargana,Indore State,IND/MadhyaPradesh/Neemuch,high,
+bhopalagency,agency,Bhopal Agency,Central India Agency,,high,
+raipurmcacl,town,Raipur,Central Provinces,IND/Chhattisgarh/Raipur,high,
+sambalpurmcacl,town,Sambalpur,Central Provinces,IND/Odisha/Sambalpur,high,
+bilaspurmcl,town,Bilaspur,Central Provinces,IND/Chhattisgarh/Bilaspur,high,
+dhamtarim,town,Dhamtari,Central Provinces,IND/Chhattisgarh/Dhamtari,high,
+dongargarh,town,Dongargarh,Central Provinces,IND/Chhattisgarh/Rajnandgaon,high,
+chandabastar,princely_state,Bastar State,Central Provinces,IND/Chhattisgarh/Bastar;IND/Chhattisgarh/Kondagaon;IND/Chhattisgarh/Narayanpur;IND/Chhattisgarh/Dantewada;IND/Chhattisgarh/Bijapur;IND/Chhattisgarh/Sukma,high,
+hoshangabadmakrai,princely_state,Makrai State,Central Provinces,IND/MadhyaPradesh/Harda,high,
+raipurchhuikhadan,princely_state,Chhuikhadan State,Central Provinces,IND/Chhattisgarh/Rajnandgaon,high,
+raipurkanker,princely_state,Kanker State,Central Provinces,IND/Chhattisgarh/UttarBastarKanker,high,
+raipurkhairagarh,princely_state,Khairagarh State,Central Provinces,IND/Chhattisgarh/Rajnandgaon,high,
+raipurnandgaon,princely_state,Nandgaon State,Central Provinces,IND/Chhattisgarh/Rajnandgaon,high,
+bilaspurkawardha,princely_state,Kawardha State,Central Provinces,IND/Chhattisgarh/Kabeerdham,high,
+bilaspursakti,princely_state,Sakti State,Central Provinces,IND/Chhattisgarh/Janjgir-Champa,high,
+sambalpurkalahandi,princely_state,Kalahandi State,Central Provinces,IND/Odisha/Kalahandi,high,
+sambalpurraigarh,princely_state,Raigarh State,Central Provinces,IND/Chhattisgarh/Raigarh,high,
+sambalpursarangarh,princely_state,Sarangarh State,Central Provinces,IND/Chhattisgarh/Raigarh,medium,"now Sarangarh-Bilaigarh district (not in GADM 4.1), carved from Raigarh"
+sambalpurpatna,princely_state,Patna State,Central Provinces,IND/Odisha/Balangir,high,
+sambalpursonpur,princely_state,Sonpur State,Central Provinces,IND/Odisha/Subarnapur,high,
+sambalpurrairakhol,princely_state,Rairakhol State,Central Provinces,IND/Odisha/Sambalpur,high,
+sambalpurbamra,princely_state,Bamra State,Central Provinces,IND/Odisha/Debagarh;IND/Odisha/Sambalpur,medium,Bamra = Deogarh + Kuchinda area
+sectsbyracepercentageofpersonsofeachsectwhoare,not_place,,,,high,
+racesbysecteuropeans,not_place,,,,high,
+racesbysecteurasians,not_place,,,,high,
+racesbysectnativechristians,not_place,,,,high,
+percentageofsectontotalchristians,not_place,,,,high,
+areainsqmiles,not_place,,,,high,
+aboriginals,not_place,,,,high,
+persian,not_place,,,,high,
+eastmarathaplain,natural_division,East Maratha Plain,Madhya Pradesh,,high,
+indoaryanbudhist,not_place,,,,high,
+towns,not_place,,,,high,
+villages,not_place,,,,high,
+rampuraonefamine,district,Rampura Zilla,Indore State,IND/MadhyaPradesh/Neemuch,medium,subset
+sohagpurtwofamines,unsure,,,,low,"Sohagpur in famine comparison: Hoshangabad tahsil or Rewa pargana, ambiguous"
+bhanpuraonefamine,district,Bhanpura Zilla,Indore State,IND/MadhyaPradesh/Mandsaur,medium,subset
+aboriginalreligions,not_place,,,,high,
+plateaudivision,natural_division,Plateau Division,Central Provinces,,high,
+marathaplaindivision,natural_division,Maratha Plain Division,Central Provinces,,high,
+bnumberofpersonsineachreligionamongwhomonepersonisabletoreadandwrite,not_place,,,,high,
+sexandagedistributionoflepers,not_place,,,,high,
+malwaagencydewasseniorallreligions,princely_state,Dewas State (Senior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,subset
+botherstatesallreligions,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+bsohawalallreligions,princely_state,Sohawal State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+bsohawalmuslim,princely_state,Sohawal State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+bsohawaltribal,princely_state,Sohawal State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+cotherstatesallreligions,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+northernplateaudivision,natural_division,Northern Plateau Division,Gwalior State,,high,
+statementnoagedistributionofpersonsofeachsex,not_place,,,,high,
+tableviiagesbyreligionspartaallreligions,not_place,,,,high,
+tableviiitotalpopulationbyageandcivilcondition,not_place,,,,high,
+tableviiagesbyreligionspartdjain,not_place,,,,high,
+toptableages,not_place,,,,high,
+indentforenumerationbooksandhouseholdschedulesrequiredforcantonmentsandagencyheadquartersincentralindia,not_place,,,,high,
+tablexparenttongue,not_place,,,,high,
+tablexivblindbyage,not_place,,,,high,
+subsidiarytableivshowingactualexcessordefectoffemalesby,not_place,,,,high,
+casesofdoubleandtripleinfirmities,not_place,,,,high,
+insanityinwest,not_place,,,,high,
+conditionandagepartcanimists,not_place,,,,high,
+tableiivariationinpopulationsince,not_place,,,,high,
+tablesvireligion,not_place,,,,high,
+tableiareahousesandpopulation,not_place,,,,high,
+imperialtablenoviiagesexandcivilconditionanimists,not_place,,,,high,
+imperialtablenoviiagesexandcivilconditionchristians,not_place,,,,high,
+noxivforselectedcastes,not_place,,,,high,
+subsidiarytableviiiproportionofwivestohusbandsforreligionsandnaturaldivisions,not_place,,,,high,
+iiicultivatinglabourersandtheirdependentstotal,not_place,,,,high,
+ivnoncultivatingownersoflandagriculturalrentreceiversandtheirdependentstotal,not_place,,,,high,
+tablenoxixtownscontainingmorethaninhabitantsarrangedaccordingtopopulation,not_place,,,,high,
+communityandnatural,not_place,,,,high,
+provinceandeach,not_place,,,,high,
+wunandpusad,aggregate,,Berar,,high,Wun district + Pusad taluk
+censusofindore,princely_state,Indore State,Central India Agency,,low,title fragment
+southwestmadhyapradesh,natural_division,South-West Madhya Pradesh Division,Madhya Pradesh,,medium,
+sailana,princely_state,Sailana State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,
+sitamau,princely_state,Sitamau State,Malwa Agency,IND/MadhyaPradesh/Mandsaur,high,
+dharjhabuarestofagency,aggregate,,Central India Agency,,high,several units in one tag
+restofagencyajaigarhbaonibijawar,aggregate,,Central India Agency,,high,several units in one tag
+rajgarhrestofagencymalwaagency,aggregate,,Central India Agency,,high,several units in one tag
+statesummaryexcludinggangapur,princely_state,Gwalior State,Central India Agency,,high,subset
+proportionpermilleofgwalior,princely_state,Gwalior State,Central India Agency,,low,title fragment
+morenaconcldsheopur,aggregate,,Gwalior State,,high,several units in one tag
+girdconcldbhind,aggregate,,Gwalior State,,high,several units in one tag
+parganapichhoreshivpuriandparganashajapurshajapur,aggregate,,Gwalior State,,high,several units in one tag
+iibyprovincesandstatescentralindia,not_place,,,,high,
+nativestatesincentralindia,not_place,,,,high,
+tralprovincesandberarandeachnatural,province,Central Provinces and Berar,,,low,title fragment
+amraotichandur,sub_district,Chandur Taluk,Berar,IND/Maharashtra/Amravati,high,
+amraotimorsi,sub_district,Morsi Taluk,Berar,IND/Maharashtra/Amravati,high,
+amraotimurtazapur,sub_district,Murtazapur Taluk,Berar,IND/Maharashtra/Akola,high,now Akola district
+akolaakot,sub_district,Akot Taluk,Berar,IND/Maharashtra/Akola,high,
+akolabalapur,sub_district,Balapur Taluk,Berar,IND/Maharashtra/Akola,high,
+akolajalgaon,sub_district,Jalgaon Taluk,Berar,IND/Maharashtra/Buldana,medium,"Jalgaon (Jamod) taluk, now Buldana"
+akolakhamgaon,sub_district,Khamgaon Taluk,Berar,IND/Maharashtra/Buldana,high,now Buldana district
+ellichpurdaryapur,sub_district,Daryapur Taluk,Berar,IND/Maharashtra/Amravati,high,
+ellichpurmelghat,sub_district,Melghat Taluk,Berar,IND/Maharashtra/Amravati,high,
+buldanamalkapur,sub_district,Malkapur Taluk,Berar,IND/Maharashtra/Buldana,high,
+buldanamehkar,sub_district,Mehkar Taluk,Berar,IND/Maharashtra/Buldana,high,
+wundarwha,sub_district,Darwha Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+wunkelapur,sub_district,Kelapur Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+wunwun,sub_district,Wun Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+basimmangrul,sub_district,Mangrul Taluk,Berar,IND/Maharashtra/Washim,high,
+basimpusad,sub_district,Pusad Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+talukchandur,sub_district,Chandur Taluk,Berar,IND/Maharashtra/Amravati,high,
+talukmorsi,sub_district,Morsi Taluk,Berar,IND/Maharashtra/Amravati,high,
+talukmurtazapur,sub_district,Murtazapur Taluk,Berar,IND/Maharashtra/Akola,high,now Akola district
+talukakot,sub_district,Akot Taluk,Berar,IND/Maharashtra/Akola,high,
+talukbalapur,sub_district,Balapur Taluk,Berar,IND/Maharashtra/Akola,high,
+talukjalgaon,sub_district,Jalgaon Taluk,Berar,IND/Maharashtra/Buldana,medium,"Jalgaon (Jamod) taluk, now Buldana"
+talukkhamgaon,sub_district,Khamgaon Taluk,Berar,IND/Maharashtra/Buldana,high,now Buldana district
+talukdaryapur,sub_district,Daryapur Taluk,Berar,IND/Maharashtra/Amravati,high,
+talukmelghat,sub_district,Melghat Taluk,Berar,IND/Maharashtra/Amravati,high,
+talukmalkapur,sub_district,Malkapur Taluk,Berar,IND/Maharashtra/Buldana,high,
+talukmehkar,sub_district,Mehkar Taluk,Berar,IND/Maharashtra/Buldana,high,
+talukdarwha,sub_district,Darwha Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+talukkelapur,sub_district,Kelapur Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+talukwun,sub_district,Wun Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+talukmangrul,sub_district,Mangrul Taluk,Berar,IND/Maharashtra/Washim,high,
+talukpusad,sub_district,Pusad Taluk,Berar,IND/Maharashtra/Yavatmal,high,
+pajrangarh,district,Bajrangarh District,Gwalior State,IND/MadhyaPradesh/Guna,medium,
+christians,not_place,,,,high,
+nagpurtahsil,sub_district,Nagpur Tahsil,Central Provinces,IND/Maharashtra/Nagpur,high,
+umrerdo,sub_district,Umrer Tahsil,Central Provinces,IND/Maharashtra/Nagpur,high,
+ramtekdo,sub_district,Ramtek Tahsil,Central Provinces,IND/Maharashtra/Nagpur,high,
+katoldo,sub_district,Katol Tahsil,Central Provinces,IND/Maharashtra/Nagpur,high,
+tiroratahsilkhalsa,sub_district,Tirora Tahsil,Central Provinces,IND/Maharashtra/Gondiya,high,subset (khalsa)
+sakolitahsilkhalsa,sub_district,Sakoli Tahsil,Central Provinces,IND/Maharashtra/Bhandara,high,subset (khalsa)
+waroratahsil,sub_district,Warora Tahsil,Central Provinces,IND/Maharashtra/Chandrapur,high,
+brahmapuritahsilkhalsa,sub_district,Brahmapuri Tahsil,Central Provinces,IND/Maharashtra/Chandrapur,high,subset (khalsa)
+multahsilkhalsa,sub_district,Mul Tahsil,Central Provinces,IND/Maharashtra/Chandrapur,high,subset (khalsa)
+sironchatahsil,sub_district,Sironcha Tahsil,Central Provinces,IND/Maharashtra/Garhchiroli,high,
+hoshangabadtahsil,sub_district,Hoshangabad Tahsil,Central Provinces,IND/MadhyaPradesh/Hoshangabad,high,
+hardatahsil,sub_district,Harda Tahsil,Central Provinces,IND/MadhyaPradesh/Harda,high,
+sohagpurtahsilkhalsa,sub_district,Sohagpur Tahsil,Central Provinces,IND/MadhyaPradesh/Hoshangabad,high,subset (khalsa)
+seonitahsil,sub_district,Seoni Tahsil,Central Provinces,IND/MadhyaPradesh/Hoshangabad,medium,listed among Hoshangabad tahsils = Seoni-Malwa
+narsinghpurtahsil,sub_district,Narsinghpur Tahsil,Central Provinces,IND/MadhyaPradesh/Narsimhapur,high,
+gadarwarado,sub_district,Gadarwara Tahsil,Central Provinces,IND/MadhyaPradesh/Narsimhapur,high,
+betultahsil,sub_district,Betul Tahsil,Central Provinces,IND/MadhyaPradesh/Betul,high,
+multaido,sub_district,Multai Tahsil,Central Provinces,IND/MadhyaPradesh/Betul,high,
+chhindwaratahsilkhalsa,sub_district,Chhindwara Tahsil,Central Provinces,IND/MadhyaPradesh/Chhindwara,high,subset (khalsa)
+sausartahsil,sub_district,Sausar Tahsil,Central Provinces,IND/MadhyaPradesh/Chhindwara,high,
+amonghindusthereare,not_place,,,,high,
+mahomedansthereare,not_place,,,,high,
+animisticthereare,not_place,,,,high,
+jainsthereare,not_place,,,,high,
+christiansthereare,not_place,,,,high,
+parsisthereare,not_place,,,,high,
+sikhsthereare,not_place,,,,high,
+berarunmarried,province,Berar,,,high,subset
+indiaunmarried,aggregate,India,,,medium,all-India comparison figure; subset
+berarmarried,province,Berar,,,high,subset
+indiamarried,aggregate,India,,,medium,all-India comparison figure; subset
+berarwidowed,province,Berar,,,high,subset
+indiawidowed,aggregate,India,,,medium,all-India comparison figure; subset
+simpijain,not_place,,,,high,
+wanjari,not_place,,,,high,
+mhali,not_place,,,,high,
+simpihindu,not_place,,,,high,
+warthi,not_place,,,,high,
+kalal,not_place,,,,high,
+wanihindu,not_place,,,,high,
+wanijain,not_place,,,,high,
+gondanimistic,not_place,,,,high,
+bhoi,not_place,,,,high,
+andhhindu,not_place,,,,high,
+pardhanhindu,not_place,,,,high,
+shekh,not_place,,,,high,
+pardhananimistic,not_place,,,,high,
+positivist,not_place,,,,high,
+barnagar,sub_district,Barnagar Pargana,Gwalior State,IND/MadhyaPradesh/Ujjain,high,
+khachraud,sub_district,Khachraud Pargana,Gwalior State,IND/MadhyaPradesh/Ujjain,high,
+sonkach,sub_district,Sonkach Pargana,Gwalior State,IND/MadhyaPradesh/Dewas,high,
+mastura,sub_district,Mastura Pargana,Gwalior State,IND/MadhyaPradesh/Gwalior,low,
+bhaghelkhand,agency,Baghelkhand Agency,Central India Agency,,medium,could also denote natural region
+balai,not_place,,,,high,
+dangi,not_place,,,,high,
+dhakar,not_place,,,,high,
+kalota,not_place,,,,high,
+mankar,not_place,,,,high,
+ajna,not_place,,,,high,
+loda,not_place,,,,high,
+sondlia,not_place,,,,high,
+otherdialectsrajputijaipuriandc,not_place,,,,high,
+gipsydialects,not_place,,,,high,
+labhaniorbanjari,not_place,,,,high,
+otherdialectskaikadipardhiandc,not_place,,,,high,
+urduincludingmusalmani,not_place,,,,high,
+otherdialectsbundelkhandinagriandc,not_place,,,,high,
+gondi,not_place,,,,high,
+pardesi,not_place,,,,high,
+otherdialectschhattisgarhimarariandc,not_place,,,,high,
+panjabi,not_place,,,,high,
+centralpahari,not_place,,,,high,
+bhilidialects,not_place,,,,high,
+bihari,not_place,,,,high,
+malabari,not_place,,,,high,
+pashto,not_place,,,,high,
+balochi,not_place,,,,high,
+turkish,not_place,,,,high,
+portuguese,not_place,,,,high,
+marathaimmigrants,not_place,,,,high,
+teluguimmigrants,not_place,,,,high,
+chhattisgarhis,not_place,,,,high,
+oriyaimmigrants,not_place,,,,high,
+burhanpur,town,Burhanpur,Central Provinces,IND/MadhyaPradesh/Burhanpur,high,
+sarangarb,princely_state,Sarangarh State,Central Provinces,IND/Chhattisgarh/Raigarh,medium,"now Sarangarh-Bilaigarh district (not in GADM 4.1), carved from Raigarh"
+kheiragarh,princely_state,Khairagarh State,Central Provinces,IND/Chhattisgarh/Rajnandgaon,high,
+indoretotal,princely_state,Indore State,Central India Agency,,medium,subset
+lowlyingtracts,natural_division,Lowlying Tracts (Indore),Indore State,,medium,
+hillytracts,natural_division,Hilly Tracts (Indore),Indore State,,medium,
+kothda,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+piplianagar,princely_state,Piplia Nagar Estate,Bhopal Agency,IND/MadhyaPradesh/Shajapur,low,
+alirajpur,princely_state,Ali Rajpur State,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,high,
+bhabra,princely_state,Bhabra Estate,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,medium,
+fulmalchaktala,princely_state,Fulmal-Chaktala Estate,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,low,Bhopawar thakurat/estate
+nanpur,princely_state,Nanpur Estate,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,low,Bhopawar thakurat/estate
+rath,princely_state,Rath Estate,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,low,Bhopawar thakurat/estate
+bhagor,princely_state,Bhagor Estate,Bhopawar Agency,IND/MadhyaPradesh/Jhabua,low,Bhopawar thakurat/estate
+rajle,princely_state,,Bhopawar Agency,,low,Bhopawar estate in 1901 list; location not determined
+rambbapur,princely_state,Rambhapur Estate,Bhopawar Agency,IND/MadhyaPradesh/Jhabua,low,Bhopawar thakurat/estate
+ranapur,princely_state,Ranapur Estate,Bhopawar Agency,IND/MadhyaPradesh/Jhabua,medium,
+thandla,princely_state,Thandla Estate,Bhopawar Agency,IND/MadhyaPradesh/Jhabua,medium,
+jobat,princely_state,Jobat State,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,medium,
+bakhatgarh,princely_state,Bakhatgarh Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+barkhedajunior,princely_state,,Bhopawar Agency,,low,Bhopawar estate in 1901 list; location not determined
+barkhedasenior,princely_state,,Bhopawar Agency,,low,Bhopawar estate in 1901 list; location not determined
+bharudpura,princely_state,Bharudpura Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+chiktiabar,princely_state,Chiktiabar Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+dotria,princely_state,Dotria Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+gadhi,princely_state,Garhi Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+jamnia,princely_state,Jamnia Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+kachhibaroda,princely_state,Kachhi-Baroda Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+kalibaori,princely_state,Kali-Baori Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+kathiwada,princely_state,Kathiwara Estate,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,medium,
+kathideh,princely_state,,Bhopawar Agency,,low,Bhopawar estate in 1901 list; location not determined
+mathwad,princely_state,Mathwar Estate,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,medium,
+multhan,princely_state,Multhan Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+nimkheda,princely_state,Nimkhera Estate,Bhopawar Agency,IND/MadhyaPradesh/Dhar,low,Bhopawar thakurat/estate
+ratanmal,princely_state,Ratanmal Estate,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,low,Bhopawar thakurat/estate
+narsingarhstate,princely_state,Narsingarh State,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,high,
+khilchipurstate,princely_state,Khilchipur State,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,high,
+kurwaistate,princely_state,Kurwai State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,high,
+mohamadgarhstate,princely_state,Muhammadgarh State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,medium,
+maksudangarhstate,princely_state,Maksudangarh State,Bhopal Agency,IND/MadhyaPradesh/Guna,medium,
+basodastate,princely_state,Basoda State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,medium,
+patharistate,princely_state,Pathari State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,medium,
+narsingarh,princely_state,Narsingarh State,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,high,
+khilchipur,princely_state,Khilchipur State,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,high,
+kurwai,princely_state,Kurwai State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,high,
+mohamadgarh,princely_state,Muhammadgarh State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,medium,
+maksudangarh,princely_state,Maksudangarh State,Bhopal Agency,IND/MadhyaPradesh/Guna,medium,
+kotada,princely_state,,Central India Agency,,low,minor estate in CI 1901 estates list; location not determined
+piplanagar,princely_state,Piplia Nagar Estate,Bhopal Agency,IND/MadhyaPradesh/Shajapur,low,
+garoth,sub_district,Garoth Pargana,Indore State,IND/MadhyaPradesh/Mandsaur,high,
+jirapur,sub_district,Jirapur Pargana,Indore State,IND/MadhyaPradesh/Rajgarh,medium,
+kothadi,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+machalpur,sub_district,Machalpur Pargana,Indore State,IND/MadhyaPradesh/Rajgarh,medium,
+satkheda,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+betma,sub_district,Betma Pargana,Indore State,IND/MadhyaPradesh/Indore,high,
+depalpur,sub_district,Depalpur Pargana,Indore State,IND/MadhyaPradesh/Indore,high,
+harsola,sub_district,Harsola Pargana,Indore State,IND/MadhyaPradesh/Indore,medium,
+hasalpur,sub_district,Hasalpur Pargana,Indore State,IND/MadhyaPradesh/Indore,low,
+hatod,sub_district,Hatod Pargana,Indore State,IND/MadhyaPradesh/Indore,high,
+indorepergana,sub_district,Indore Pargana,Indore State,IND/MadhyaPradesh/Indore,high,
+khudel,sub_district,Khudel Pargana,Indore State,IND/MadhyaPradesh/Indore,medium,
+mhow,town,Mhow,Indore State,IND/MadhyaPradesh/Indore,high,cantonment
+petlawad,sub_district,Petlawad Pargana,Indore State,IND/MadhyaPradesh/Jhabua,high,
+sawer,sub_district,Sawer Pargana,Indore State,IND/MadhyaPradesh/Indore,high,
+taranu,sub_district,Tarana Pargana,Indore State,IND/MadhyaPradesh/Ujjain,high,
+sundersi,sub_district,Sundarsi Pargana,Indore State,IND/MadhyaPradesh/Shajapur,low,
+brahmanugaon,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+dhurgaon,sub_district,Dhargaon Pargana,Indore State,IND/MadhyaPradesh/WestNimar,low,
+sundorsi,sub_district,Sundarsi Pargana,Indore State,IND/MadhyaPradesh/Shajapur,low,
+brahmangaon,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+dhargaon,sub_district,Dhargaon Pargana,Indore State,IND/MadhyaPradesh/WestNimar,low,
+antri,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+chandwasa,sub_district,Chandwasa Pargana,Indore State,IND/MadhyaPradesh/Mandsaur,low,
+khadawada,sub_district,Khadawada Pargana,Indore State,,low,Indore pargana; location not confirmed
+nandwai,sub_district,Nandwai Pargana,Indore State,,low,Indore pargana; location not confirmed
+narayangarh,sub_district,Narayangarh Pargana,Indore State,IND/MadhyaPradesh/Mandsaur,medium,
+malwaagency,agency,Malwa Agency,Central India Agency,,high,
+mewaragency,agency,Mewar Agency,Rajputana Agency,,medium,
+gautampura,town,Gautampura,Indore State,IND/MadhyaPradesh/Indore,high,
+dewassb,princely_state,Dewas State (Senior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,
+dewasjb,princely_state,Dewas State (Junior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,
+bagli,princely_state,Bagli Estate,Central India Agency,IND/MadhyaPradesh/Dewas,medium,
+karaudia,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+uni,unsure,,Indore State,,low,Indore 1901 pargana/town list; not identified
+mandaur,district,Mandsaur District,Gwalior State,IND/MadhyaPradesh/Mandsaur;IND/MadhyaPradesh/Neemuch,medium,Neemuch split 1998
+shujapur,district,Shajapur District,Gwalior State,IND/MadhyaPradesh/Shajapur;IND/MadhyaPradesh/AgarMalwa,medium,later incl. Agar; AgarMalwa split 2013
+totamalwaprant,division,Malwa Prant,Gwalior State,,medium,Gwalior prant (group of districts); subset total
+pichor,district,Pichhor District,Gwalior State,IND/MadhyaPradesh/Shivpuri;IND/MadhyaPradesh/Gwalior,low,Gwalior prant district 1901; Pichhore pargana later in Shivpuri
+abhepur,unsure,,Gwalior State,,low,not identified
+gwaliorstateexcludinggangapur,princely_state,Gwalior State,Central India Agency,,high,subset
+gwaliorstateincludinggangapur,princely_state,Gwalior State,Central India Agency,,high,subset
+mandasor,district,Mandasor District,Gwalior State,IND/MadhyaPradesh/Mandsaur,low,could be town or district in 1921 table
+nimachcantonment,town,Nimach Cantonment,Central India Agency,IND/MadhyaPradesh/Neemuch,high,
+gunastation,town,Guna Station,Central India Agency,IND/MadhyaPradesh/Guna,high,
+agarstation,town,Agar Station,Central India Agency,IND/MadhyaPradesh/AgarMalwa,high,
+gwaliorresidency,agency,Gwalior Residency,Central India Agency,,medium,
+sihoram,town,Sihora,Central Provinces,IND/MadhyaPradesh/Jabalpur,high,
+saonorm,town,Saoner,Central Provinces,IND/Maharashtra/Nagpur,high,
+khandwatahsil,sub_district,Khandwa Tahsil,Central Provinces,IND/MadhyaPradesh/EastNimar,high,
+burhanpurdo,sub_district,Burhanpur Tahsil,Central Provinces,IND/MadhyaPradesh/Burhanpur,high,
+raipurtahsilkhalsa,sub_district,Raipur Tahsil,Central Provinces,IND/Chhattisgarh/Raipur,high,subset (khalsa)
+simgatahsil,sub_district,Simga Tahsil,Central Provinces,IND/Chhattisgarh/BalodaBazar,high,
+dhamtaritahsilkhalsa,sub_district,Dhamtari Tahsil,Central Provinces,IND/Chhattisgarh/Dhamtari,high,subset (khalsa)
+dozemindari,unsure,,Central Provinces,,low,group of zamindari estates under preceding tahsil; tahsil not identifiable
+drugtahsilkhalsa,sub_district,Drug Tahsil,Central Provinces,IND/Chhattisgarh/Durg,high,Drug=Durg; subset (khalsa)
+bilaspurtahsilkhalsa,sub_district,Bilaspur Tahsil,Central Provinces,IND/Chhattisgarh/Bilaspur,high,subset (khalsa)
+mungelidodo,sub_district,Mungeli Tahsil,Central Provinces,IND/Chhattisgarh/Mungeli,high,
+seorinaraindodo,sub_district,Seorinarayan Tahsil,Central Provinces,IND/Chhattisgarh/Janjgir-Champa,high,
+madhyapradeshrural,province,Madhya Pradesh,,,high,subset; 1951 state
+madhyapradeshurban,province,Madhya Pradesh,,,high,subset; 1951 state
+northwestmadhyapradeshdivisionrural,natural_division,North-West Madhya Pradesh Division,Madhya Pradesh,,high,subset
+northwestmadhyapradeshdivisionurban,natural_division,North-West Madhya Pradesh Division,Madhya Pradesh,,high,subset
+eastmadhyapradeshdivisionrural,natural_division,East Madhya Pradesh Division,Madhya Pradesh,,high,subset
+eastmadhyapradeshdivisionurban,natural_division,East Madhya Pradesh Division,Madhya Pradesh,,high,subset
+southwestmadhyapradeshdivisionrural,natural_division,South-West Madhya Pradesh Division,Madhya Pradesh,,high,subset
+southwestmadhyapradeshdivisionurban,natural_division,South-West Madhya Pradesh Division,Madhya Pradesh,,high,subset
+malwa,natural_division,Malwa,Central India Agency,,low,
+southernstates,unsure,,Central India Agency,,low,CI 1921 grouping; unclear
+shiah,not_place,,,,high,
+sectnotgiven,not_place,,,,high,
+percentageoffamiliestototal,not_place,,,,high,
+ujjaincity,town,Ujjain,Gwalior State,IND/MadhyaPradesh/Ujjain,high,
+proportionperin,not_place,,,,high,
+pagereference,not_place,,,,high,
+malvi,not_place,,,,high,
+rangri,not_place,,,,high,
+dekhani,not_place,,,,high,
+nimari,not_place,,,,high,
+bhilwari,not_place,,,,high,
+dhundari,not_place,,,,high,
+mewari,not_place,,,,high,
+gujrati,not_place,,,,high,
+purbi,not_place,,,,high,
+gandi,not_place,,,,high,
+telingi,not_place,,,,high,
+karnataki,not_place,,,,high,
+madrasi,not_place,,,,high,
+kamati,not_place,,,,high,
+punjabi,not_place,,,,high,
+kashmiri,not_place,,,,high,
+pushtu,not_place,,,,high,
+narnoli,not_place,,,,high,
+goanese,not_place,,,,high,
+bokhari,not_place,,,,high,
+welsh,not_place,,,,high,
+estimatedcost,not_place,,,,high,
+byreligionallreligions,not_place,,,,high,
+byreligion,not_place,,,,high,
+bylocalityindore,princely_state,Indore State,Central India Agency,,medium,subset
+bylocalityrewa,princely_state,Rewa State,Baghelkhand Agency,,medium,subset; Rewa state spans Rewa/Satna/Sidhi/Shahdol etc.
+bylocalityjhabua,princely_state,Jhabua State,Bhopawar Agency,IND/MadhyaPradesh/Jhabua,medium,subset
+typical,not_place,,,,high,
+durationofmarriedlife,not_place,,,,high,
+variationincreasedecrease,not_place,,,,high,
+netvariationinperiodincreasedecrease,not_place,,,,high,
+actualnumberofhousesofeachheight,not_place,,,,high,
+percentageontotalofoccupiedandunoccupiedhouses,not_place,,,,high,
+exclusiveofstreetareainsquarefeet,not_place,,,,high,
+sawerfreeformfamine,sub_district,Sawer Pargana,Indore State,IND/MadhyaPradesh/Indore,medium,subset
+primitiveanimistic,not_place,,,,high,
+left,not_place,,,,high,
+right,not_place,,,,high,
+kumbhipathia,not_place,,,,high,
+northwestmadhyapradeshdivision,natural_division,North-West Madhya Pradesh Division,Madhya Pradesh,,high,
+nerbuddavalley,natural_division,Nerbudda Valley,Madhya Pradesh,,high,
+chhattisgarhplain,natural_division,Chhattisgarh Plain,Madhya Pradesh,,high,
+southwestmadhyapradeshdivision,natural_division,South-West Madhya Pradesh Division,Madhya Pradesh,,high,
+englandandwalesimbeciles,country,,,,high,England and Wales; subset
+englandandwaleslunatics,country,,,,high,England and Wales; subset
+englandandwalesboth,country,,,,high,England and Wales; subset
+variationpercentinpopulationincreasedecrease,not_place,,,,high,
+marathaplaindivisionconcld,natural_division,Maratha Plain Division,Central Provinces,,high,subset
+populationtotalbyorstate,not_place,,,,high,
+backwardclassesmales,not_place,,,,high,
+backwardclassesfemales,not_place,,,,high,
+northernplateau,natural_division,Northern Plateau Division,Gwalior State,,high,
+imperialtablenoviiagesexandciv,not_place,,,,high,
+imperialtablenoviiagesexandcivmuhammadans,not_place,,,,high,
+imperialtablenoviiagesexandcivimperialtablenoviiagesexa,not_place,,,,high,
+subsidiarytableiagedistributionof,not_place,,,,high,
+chapvi,not_place,,,,high,
+apercentageofmalesandfemalesofeachageperiodwhoarelearningorliterate,not_place,,,,high,
+ajobatconcldhindu,princely_state,Jobat State,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,medium,subset
+ajobatconcldmuslim,princely_state,Jobat State,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,medium,subset
+ajobatconcldtribal,princely_state,Jobat State,Bhopawar Agency,IND/MadhyaPradesh/Alirajpur,medium,subset
+botherstateshindu,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+bundelkhandagencyajaigarhallreligions,princely_state,Ajaigarh State,Bundelkhand Agency,IND/MadhyaPradesh/Panna,high,subset
+bundelkhandagencyajaigarhhindu,princely_state,Ajaigarh State,Bundelkhand Agency,IND/MadhyaPradesh/Panna,high,subset
+bundelkhandagencyajaigarhmuslim,princely_state,Ajaigarh State,Bundelkhand Agency,IND/MadhyaPradesh/Panna,high,subset
+imperialtableixpartsiandiiinfirmities,not_place,,,,high,
+akothiconcldtribal,princely_state,Kothi State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+bsohawalhindubrahmanic,princely_state,Sohawal State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+cotherstateshindubrahmanic,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+cotherstatesmuslim,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+cotherstatestribal,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+dewasjuniorconcludedmuslim,princely_state,Dewas State (Junior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,subset
+jaoraallreligions,princely_state,Jaora State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+jaorahindu,princely_state,Jaora State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+jaorajain,princely_state,Jaora State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+jaoramuslim,princely_state,Jaora State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+ratlamallreligions,princely_state,Ratlam State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+ratlamhindu,princely_state,Ratlam State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+ratlamjain,princely_state,Ratlam State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+ratlammuslim,princely_state,Ratlam State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+ratlamchristian,princely_state,Ratlam State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+sailanaallreligions,princely_state,Sailana State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+sailanahindu,princely_state,Sailana State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+sailanamuslim,princely_state,Sailana State,Malwa Agency,IND/MadhyaPradesh/Ratlam,high,subset
+sitamauallreligions,princely_state,Sitamau State,Malwa Agency,IND/MadhyaPradesh/Mandsaur,high,subset
+ajaigarhconcldmuslim,princely_state,Ajaigarh State,Bundelkhand Agency,IND/MadhyaPradesh/Panna,high,subset
+baoniallreligions,princely_state,Baoni State,Bundelkhand Agency,IND/UttarPradesh/Jalaun,medium,subset
+baonihindu,princely_state,Baoni State,Bundelkhand Agency,IND/UttarPradesh/Jalaun,medium,subset
+baonimuslim,princely_state,Baoni State,Bundelkhand Agency,IND/UttarPradesh/Jalaun,medium,subset
+bijawarallreligions,princely_state,Bijawar State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,high,subset
+bijawarhindu,princely_state,Bijawar State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,high,subset
+bijawarjain,princely_state,Bijawar State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,high,subset
+bijawarmuslim,princely_state,Bijawar State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,high,subset
+charkhariallreligions,princely_state,Charkhari State,Bundelkhand Agency,IND/UttarPradesh/Mahoba,high,subset
+charkharihindu,princely_state,Charkhari State,Bundelkhand Agency,IND/UttarPradesh/Mahoba,high,subset
+charkharimuslim,princely_state,Charkhari State,Bundelkhand Agency,IND/UttarPradesh/Mahoba,high,subset
+chhatarpurallreligions,princely_state,Chhatarpur State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,high,subset
+chhatarpurhindu,princely_state,Chhatarpur State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,high,subset
+chhatarpurmuslim,princely_state,Chhatarpur State,Bundelkhand Agency,IND/MadhyaPradesh/Chhatarpur,high,subset
+botherstateshindubrahmanic,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+botherstatesmuslim,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+botherstatestribal,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+rajgarhconcludedhindu,princely_state,Rajgarh State,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,high,subset
+rajgarhconcludedmuslim,princely_state,Rajgarh State,Bhopal Agency,IND/MadhyaPradesh/Rajgarh,high,subset
+restofagencyakurwaiallreligions,princely_state,Kurwai State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,high,subset
+restofagencyakurwaihindu,princely_state,Kurwai State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,high,subset
+restofagencyakurwaimuslim,princely_state,Kurwai State,Bhopal Agency,IND/MadhyaPradesh/Vidisha,high,subset
+restofagencybotherstatesallreligions,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+restofagencybotherstateshindu,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+restofagencybotherstatesmuslim,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+malwaagencydewasseniorhindu,princely_state,Dewas State (Senior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,subset
+malwaagencydewasseniormuslim,princely_state,Dewas State (Senior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,subset
+dewasjuniorallreligions,princely_state,Dewas State (Junior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,subset
+dewasjuniorhindu,princely_state,Dewas State (Junior Branch),Malwa Agency,IND/MadhyaPradesh/Dewas,high,subset
+dualinfirmities,not_place,,,,high,
+baghelkhandagencybaraundhaallreligions,princely_state,Baraundha State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+akothiallreligions,princely_state,Kothi State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+akothihindu,princely_state,Kothi State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+akothimuslim,princely_state,Kothi State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+akothitribal,princely_state,Kothi State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+bsohawalhindu,princely_state,Sohawal State,Baghelkhand Agency,IND/MadhyaPradesh/Satna,medium,subset
+cotherstateshindu,aggregate,Other States (residual group),Central India Agency,,medium,residual of unnamed minor states; subset
+morenamuslims,district,Morena District,Gwalior State,IND/MadhyaPradesh/Morena,high,subset
+morenajains,district,Morena District,Gwalior State,IND/MadhyaPradesh/Morena,high,subset
+sheopurtotalpopulation,district,Sheopur District,Gwalior State,IND/MadhyaPradesh/Sheopur,high,subset
+goona,district,Goona District,Gwalior State,IND/MadhyaPradesh/Guna;IND/MadhyaPradesh/Ashoknagar,medium,successor of Isagarh district; Ashoknagar split 2003
+subsidiarytableviivactualagesreturnedatenumerationinparganapichhoreshivpuriandparganashajapurshajapur,not_place,,,,high,
+subsidiarytableviiviifemalespermalesbymaincommunitiesandage,not_place,,,,high,
+acompletedfertility,not_place,,,,high,
+bcontinuingfertility,not_place,,,,high,
+bhindconcldjainsconcld,district,Bhind District,Gwalior State,IND/MadhyaPradesh/Bhind,high,subset
+morenatotalpopulation,district,Morena District,Gwalior State,IND/MadhyaPradesh/Morena,high,subset
+morenahindus,district,Morena District,Gwalior State,IND/MadhyaPradesh/Morena,high,subset
+backwardclasses,not_place,,,,high,
+mandsaurconcldmuslims,district,Mandsaur District,Gwalior State,IND/MadhyaPradesh/Mandsaur;IND/MadhyaPradesh/Neemuch,medium,subset
+mandsaurconcldjains,district,Mandsaur District,Gwalior State,IND/MadhyaPradesh/Mandsaur;IND/MadhyaPradesh/Neemuch,medium,subset
+shajapurtotalpopulation,district,Shajapur District,Gwalior State,IND/MadhyaPradesh/Shajapur;IND/MadhyaPradesh/AgarMalwa,medium,subset
+sardarpur,district,Sardarpur District,Gwalior State,IND/MadhyaPradesh/Dhar,medium,formerly Amjhera district
+blindbritish,aggregate,British Districts (Central Provinces),Central Provinces,,medium,subset
+provinceorcountry,not_place,,,,high,
+statementnoshowingnumberofpersonsactuallyreturnedofeachyearofageinaspecificpopulationnumberingmalesandfemales,not_place,,,,high,
+statementnoshowingpercentageofinfirmofeachsexineachageperiod,not_place,,,,high,
+tableviiagesbyreligionsparthparsi,not_place,,,,high,
+otherscomprisefollowing,not_place,,,,high,
+tableviiicivilconditionbyreligionandagewidowed,not_place,,,,high,
+diagramnoshowingdistributionbyageofmalesinand,not_place,,,,high,
+proportionpermillefemalespart,not_place,,,,high,
+proportionpermilleofgwaliorstatepopulationofeachsexineachnaturalagegroup,princely_state,Gwalior State,Central India Agency,,high,subset
+gwaliorstatepopulationmales,princely_state,Gwalior State,Central India Agency,,high,subset
+agedistributionofpopulation,not_place,,,,high,
+viiwithcasteorreligionoffamily,not_place,,,,high,
+listofdiagramsandmaps,not_place,,,,high,
+mainreligions,not_place,,,,high,
+plainallreligions,natural_division,Plain (Gwalior),Gwalior State,,medium,subset
+masculinityofpopulationexcessofmalesoverfemalesineachofpopulation,not_place,,,,high,
+subsidiarytablenumberoffemalespermalesatdifferentages,not_place,,,,high,
+tableiiiageperiodsbyreligionsandnaturaldivisions,not_place,,,,high,
+proportionpermillefemales,not_place,,,,high,
+gwaliorstatepopulationnumber,princely_state,Gwalior State,Central India Agency,,high,subset
+tableviiagesbyreligionspartbhindu,not_place,,,,high,
+bottomtableages,not_place,,,,high,
+specimenschedule,not_place,,,,high,
+tableviiagesbyreligionsparthsikh,not_place,,,,high,
+tableviiagesbyreligionspartijew,not_place,,,,high,
+tableviiagesbyreligionspartgparsi,not_place,,,,high,
+tablexparenttonguecentralindia,not_place,,,,high,
+tablexiiideafmutesbyage,not_place,,,,high,
+classd,not_place,,,,high,
+indentforeightcolumnedenumerationbooksofpageseachrequiredfornativestatesincentralindiaagency,not_place,,,,high,
+estimatedcostofcensusofgwaliorprant,not_place,,,,high,
+tableviiagesbyreligionsparteaboriginal,not_place,,,,high,
+uppertableages,not_place,,,,high,
+lowertableages,not_place,,,,high,
+bottomtableagesandover,not_place,,,,high,
+tableviiagesbyreligionspartfchristian,not_place,,,,high,
+subsidiarytableiishowingcomparisonofactualfiguresofcensusesofand,not_place,,,,high,
+subsidiarytableiiishowingagedistributionofpersonsandalsoofeachsex,not_place,,,,high,
+subsidiarytableishowingunadjustedagereturnofofeachsex,not_place,,,,high,
+subsidiarytableivshowingagedistributionofofeachsexbyreligion,not_place,,,,high,
+subsidiarytablexii,not_place,,,,high,
+subsidiarytableviiishowingproportionoffemalesafflictedtomalesateachage,not_place,,,,high,
+subsidiarytableviiishowingnumberoffemalestomalesateachagebyandmainreligions,not_place,,,,high,
+subsidiarytablexiishowingdistributionbycivilconditionandmainageperiodsofofeachsexatlastthreecensuses,not_place,,,,high,
+subsidiarytablex,not_place,,,,high,
+amravaticoncldurban,district,Amravati District,Madhya Pradesh,IND/Maharashtra/Amravati,high,subset (urban); 1951
+akolatotal,district,Akola District,Madhya Pradesh,IND/Maharashtra/Akola;IND/Maharashtra/Washim,medium,subset; 1951 Akola incl. Basim (Washim split 1998)
+chandaconcldurban,district,Chanda District,Madhya Pradesh,IND/Maharashtra/Chandrapur;IND/Maharashtra/Garhchiroli,high,subset (urban); 1951
+bhandaratotal,district,Bhandara District,Madhya Pradesh,IND/Maharashtra/Bhandara;IND/Maharashtra/Gondiya,high,subset; 1951
+buldanaconcldurban,district,Buldana District,Madhya Pradesh,IND/Maharashtra/Buldana,high,subset (urban); 1951
+yeotmaltotal,district,Yeotmal District,Madhya Pradesh,IND/Maharashtra/Yavatmal,high,subset; 1951
+surgujaconcldurban,district,Surguja District,Madhya Pradesh,IND/Chhattisgarh/Surguja;IND/Chhattisgarh/Surajpur;IND/Chhattisgarh/Balrampur;IND/Chhattisgarh/Koriya,medium,subset (urban); 1951
+eastmarathaplaintotal,natural_division,East Maratha Plain,Madhya Pradesh,,high,subset
+tableviiagesexandcivilconditionpartasikh,not_place,,,,high,
+tableviiagesexandcivilconditionpartatotalpopulation,not_place,,,,high,
+tableviiagesexandcivilconditionpartahindu,not_place,,,,high,
+tableviiagesexandcivilconditionpartajain,not_place,,,,high,
+tableviiagesexandcivilconditionpartazoroastrianparsi,not_place,,,,high,
+tableviiagesexandcivilconditionpartachristian,not_place,,,,high,
+tableviiagesexandcivilconditionpartamusalman,not_place,,,,high,
+tableviiagesexandcivilconditionpartaanimistic,not_place,,,,high,
+subsidiarytablevproportionoffemalesafflictedtomalesateachage,not_place,,,,high,
+subsidiarytableiiidistributionbyageofpersonsforeachinfirmity,not_place,,,,high,
+propertwiceborn,not_place,,,,high,
+ofpersonsbycasteandreligion,not_place,,,,high,
+subsidiarytableiagedistributionofpersonsofeachsexbritish,not_place,,,,high,
+subsidiarytableviiideathsregisteredduringeachoflastyears,not_place,,,,high,
+bysexandageandproportionoffemalestomalesdyingateachageperiod,not_place,,,,high,
+subsidiarytableiiproportionoffemalestomales,not_place,,,,high,
+typesofpopulationanddistributionaccordingtosundbargiancategories,not_place,,,,high,
+subsidiarytableibagedistributionofofeachsexinnaturaldivisionsofcentralindia,not_place,,,,high,
+comparativestrengthofprincipallanguagesandvariation,not_place,,,,high,
+subsidiarytableiicentralindia,agency,Central India Agency,,,low,subset; table heading
+subsidiarytableiiiwest,natural_division,West (Central India),Central India Agency,,low,
+percentageproportionofsterilemarriagesinrelationtowifesageatmarriage,not_place,,,,high,
+conditionandagepartdmusalmans,not_place,,,,high,
+subsidiarytablexiactualexcessordefectoffemalesbynaturaldivisionsand,not_place,,,,high,
+tablexi,not_place,,,,high,
+ratlamcity,town,Ratlam,Ratlam State,IND/MadhyaPradesh/Ratlam,high,
+townsandvillagesclassifiedbypopulation,not_place,,,,high,
+tablei,not_place,,,,high,
+subsidiarytableicontinued,not_place,,,,high,
+tablexibirthplacelefthalf,not_place,,,,high,
+tablexibirthplacerighthalf,not_place,,,,high,
+tableivtownsclassifiedbypopulationwithvariationsince,not_place,,,,high,
+tablevtownsarrangedterritoriallywithpopulationbyreligion,not_place,,,,high,
+imperialtablenovireligion,not_place,,,,high,
+imperialtablenoviiagesexandcivilconditionhindus,not_place,,,,high,
+imperialtablenoviiagesexandcivilcondition,not_place,,,,high,
+formales,not_place,,,,high,
+forfemales,not_place,,,,high,
+figuresbyreligionforare,not_place,,,,high,
+subsidiarytableistatementshowingagedistributionofmalesandfemalesbyannualageperiods,not_place,,,,high,
+gwaliormalesandfemales,princely_state,Gwalior State,Central India Agency,,high,subset
+proportionofsexesbycivilconditionforjainsbynaturaldivisions,not_place,,,,high,
+proportionofsexesbycivilconditionformusalmansbynaturaldivisions,not_place,,,,high,
+subsidiarytablev,not_place,,,,high,
+proportionofsexesbycivilconditionforchristiansbynaturaldivisions,not_place,,,,high,
+proportionofsexesbycivilconditionforanimistsbynaturaldivisions,not_place,,,,high,
+civilconditionofmales,not_place,,,,high,
+civilconditionoffemales,not_place,,,,high,
+subsidiarytableviiproportionoffemalesafflictedtomalesateachage,not_place,,,,high,
+tablenoviiagesofpopulation,not_place,,,,high,
+numberofpersonsrecordedasofeachageunderdifferentmainreligions,not_place,,,,high,
+presentageofmothersorlesstoto,not_place,,,,high,
+presentageofmotherstototo,not_place,,,,high,
+presentageofmotherstoandovertotal,not_place,,,,high,
+icultivatorsoflandwhollyormainlyownedandtheirdependentstotal,not_place,,,,high,
+iicultivatorsoflandwhollyormainlyunownedlandandtheirdependentstotal,not_place,,,,high,
+vproductionotherthancultivationtotal,not_place,,,,high,
+northwestmadhyapradeshdivisionalllivelihoodclassestotal,natural_division,North-West Madhya Pradesh Division,Madhya Pradesh,,high,subset
+cultivationtotal,not_place,,,,high,
+classesurban,not_place,,,,high,
+classesrural,not_place,,,,high,
+rentreceiversandtheirdependantstotal,not_place,,,,high,
+awithinindianempire,not_place,,,,high,
+boutsideindianempire,not_place,,,,high,
+noxxthaninhabitantsarrangedterritorially,not_place,,,,high,
+tablenoxxcontinuedstatementofpopulationfortownswithmorethaninhabitantsarrangedterritoriallycontinued,not_place,,,,high,
+provincialtablenoviiacontinuedshowingagesofpopulationhindureligion,not_place,,,,high,
+provincialtablenoviiacontinuedshowingagesofpopulationaboriginalreligion,not_place,,,,high,
+toeducationcontd,not_place,,,,high,
+racestribesandcastescontd,not_place,,,,high,
+accordingtooccupation,not_place,,,,high,
+tableagedistributionofmarriedpersonsofeachsex,not_place,,,,high,
+tablesourceofsecondaryincomeofeconomicallyactiveandsemiactivepersonsinagriculturenumberperofselfsupportingpersonsandearningdependantswhoderivetheirsecondarymeansoflivelihoodasmentionedincolumn,not_place,,,,high,
+tablenocomparingforpersonsofunsoundmindberarreturnswiththoseforenglandandwales,not_place,,,,high,
+subsidiarytableiiagedistributionofofeachsexincentralindiaandeachnaturaldivision,not_place,,,,high,
+subsidiarytableiiiagedistributionofofeachsexinmainreligionsallreligions,not_place,,,,high,
+diagramshowingnumberofblindperofeachageperiod,not_place,,,,high,
+tableviiieducationbyreligionandageparthjew,not_place,,,,high,
+tableviiieducationbyreligionandagepartgchristianconcld,not_place,,,,high,
+imperialtableviicontinued,not_place,,,,high,
+distributionbyagencies,not_place,,,,high,
+jain,not_place,,,,high,
+subsidiarytablevivariationinpopulationatcertainageperiods,not_place,,,,high,
+blexoccupationormeansoflivelihood,not_place,,,,high,
+tablesofeachsexandagebynatural,not_place,,,,high,
+sexfornaturaldivisionsand,not_place,,,,high,
+sexfor,not_place,,,,high,
+rajgarhrestofagency,aggregate,,Central India Agency,,high,several units in one tag
+political,not_place,,,,high,
+bhopalibhopal,princely_state,Bhopal State,Bhopal Agency,IND/MadhyaPradesh/Bhopal;IND/MadhyaPradesh/Sehore;IND/MadhyaPradesh/Raisen,medium,
+pupilsaccordingtoreturnsof,not_place,,,,high,
+eachsexingwalior,princely_state,Gwalior State,Central India Agency,,low,title fragment
+educationby,not_place,,,,high,
+sexincentralindiaandeachnatural,agency,Central India Agency,,,low,title fragment
+viiageandcivilconditionparti,not_place,,,,high,
+bihpur,unsure,,Gwalior State,,low,not identified

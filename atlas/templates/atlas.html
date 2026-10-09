@@ -1,0 +1,110 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Census — district atlas</title>
+<style>
+ *{box-sizing:border-box} body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a;background:#fbfdff}
+ __NAVCSS__
+ .wrap{display:flex;gap:14px;padding:10px 16px;flex-wrap:wrap}
+ .mapbox{flex:1 1 560px;min-width:0;position:relative}
+ .side{flex:0 1 360px;min-width:280px}
+ svg{width:100%;height:auto;max-height:calc(100vh - 150px);display:block;background:#f4f8fb;border:1px solid #dde5ec;border-radius:8px}
+ path.u{stroke:#fff;stroke-width:.35;cursor:pointer}
+ path.u:hover,path.u.sel{stroke:#102030;stroke-width:1.4}
+ path.u.prov{stroke:#c8d2da}
+ .ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 8px}
+ .ctl button{border:1px solid #b9c7d3;background:#fff;border-radius:6px;padding:3px 9px;cursor:pointer;font:inherit;font-size:13px}
+ .ctl button.on{background:#1f3a52;color:#fff;border-color:#1f3a52}
+ .ctl label{font-size:12px;color:#567;margin-right:2px}
+ .legend{font-size:12px;color:#345;margin:6px 0} .legend i{display:inline-block;width:14px;height:11px;vertical-align:middle;margin:0 4px 0 10px;border:1px solid #ccd}
+ .card{background:#fff;border:1px solid #dde5ec;border-radius:8px;padding:12px 14px;margin-bottom:10px}
+ .card h3{margin:0 0 4px;font-size:16px} .muted{color:#678;font-size:12px}
+ .card a{color:#1a5fa0}
+ .stat{font-size:22px;font-weight:600;color:#1f3a52}
+ #tip{position:absolute;pointer-events:none;background:rgba(20,30,40,.92);color:#fff;padding:6px 9px;border-radius:6px;font-size:12px;display:none;max-width:280px}
+ table.cov{border-collapse:collapse;font-size:12px;width:100%} table.cov td,table.cov th{border-bottom:1px solid #eef;padding:2px 4px;text-align:left}
+ .note{font-size:12px;color:#456;background:#f2f6f9;border-radius:6px;padding:8px 10px}
+</style></head><body>
+__NAV__
+<div class=wrap>
+ <div class=mapbox>
+  <div class=ctl><label>Census</label><span id=years></span></div>
+  <div class=ctl><label>Show</label><span id=layers></span></div>
+  <svg id=map viewBox="__VB__"></svg>
+  <div class=legend id=legend></div>
+  <div id=tip></div>
+ </div>
+ <div class=side>
+  <div class=card id=summary></div>
+  <div class=card id=detail><span class=muted>Hover or click a district on the map.</span></div>
+  <div class="card note">
+   <b>How to read this map.</b> Each modern district (GADM 4.1) shows what the digitized census holds for the
+   historical district or state that covered it — whether that district had its own table or only appears as a row
+   inside a provincial one. <b>Self-checked</b> means its age bands add up to the printed total (or to 1,000/10,000 for
+   proportional tables), so the figure is internally verified. On the indicator layers, districts without a local
+   figure show their province's value <b>pale with a grey outline</b>: a regional value, not a local one. Scales are
+   fixed across years so colours are comparable. Historical→modern links: <a href="data/district_concordance.csv">crosswalk CSV</a>;
+   figures: <a href="data/district_age_indicators.csv">indicators CSV</a>; districts whose age tables are only partly
+   captured: <a href="data/reextraction_targets.csv">re-extraction list</a>.
+  </div>
+ </div>
+</div>
+<script>
+const G=__GEO__;
+const D=__DATA__;
+const svg=document.getElementById('map'),tip=document.getElementById('tip');
+let year=D.default_year, layer='coverage', sel=null;
+const LAYERS={coverage:'What age data exists',child:'% aged 0–9',old:'% aged 60+',sexratio:'Females per 1,000 males'};
+const COV=[['district_verified','#0b5a2c','District age structure, self-checked'],['district_age','#3f9a5c','District appears in age tables'],
+           ['district_other','#a8d5b2','District tables, no age breakdown'],['province','#ece7c9','Province/state-level only'],['none','#e9edf1','Nothing in the corpus']];
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function ramp(t){const a=[237,248,251],b=[0,88,124];t=Math.max(0,Math.min(1,t));return 'rgb('+a.map((v,i)=>Math.round(v+(b[i]-v)*t)).join(',')+')'}
+function yv(u){return (D.units[u.gid]||{})[year]||null}
+// one fixed scale per indicator so colours compare across census years
+const RANGE={child:[18,34],old:[2,9],sexratio:[800,1100]};
+function metricRange(){return RANGE[layer]}
+function draw(){
+  const [lo,hi]=layer==='coverage'?[0,1]:metricRange();
+  let out='';
+  for(const u of G.units){const r=yv(u);let fill='#e9edf1',cls='u';
+    if(layer==='coverage'){const c=r?r.c:'none';fill=(COV.find(x=>x[0]===c)||COV[3])[1]}
+    else if(r&&r.m&&r.m[layer]!=null){fill=ramp((r.m[layer]-lo)/((hi-lo)||1));if(r.lvl==='province'){cls+=' prov';fill=fill.replace('rgb','rgba').replace(')',',.45)')}}
+    if(sel===u.gid)cls+=' sel';
+    out+=`<path class="${cls}" data-g="${u.gid}" d="${u.d}" fill="${fill}"/>`}
+  svg.innerHTML=out;
+  const lg=document.getElementById('legend');
+  if(layer==='coverage')lg.innerHTML=COV.map(c=>`<i style="background:${c[1]}"></i>${c[2]}`).join('');
+  else lg.innerHTML=`${LAYERS[layer]} — <i style="background:${ramp(0)}"></i>${lo==null?'':lo.toFixed(1)} <i style="background:${ramp(.5)}"></i> <i style="background:${ramp(1)}"></i>${hi==null?'':hi.toFixed(1)}`+
+     ` &nbsp; <i style="background:${ramp(.5).replace('rgb','rgba').replace(')',',.45)')};border-color:#c8d2da"></i>provincial value (no district table)`;
+  summary();}
+function summary(){const s=D.summary[year]||{};
+  document.getElementById('summary').innerHTML=`<div class=muted>${year==='all'?'All census years':'Census of '+year}</div>
+  <div><span class=stat>${s.hist_ver||0}</span> historical districts/states with a self-checked age structure</div>
+  <div class=muted>${s.hist_age||0} appear in some age table · ${s.hist_any||0} in any table.
+  Modern districts: ${s.modern_ver||0} with a local age structure, ${s.modern_age||0} more with local age tables,
+  ${s.modern_prov||0} covered only by provincial tables (of ${G.units.length}).</div>`}
+function detail(gid){const u=G.units.find(x=>x.gid===gid);if(!u)return;const r=yv(u);const e=D.units[gid]||{};
+  let h=`<h3>${esc(u.name.replace(/([a-z])([A-Z])/g,'$1 $2'))}</h3><div class=muted>modern district · ${esc(u.admin1.replace(/([a-z])([A-Z])/g,'$1 $2'))}, ${esc(D.countries[u.country]||u.country)}</div>`;
+  const hs=(D.hist[gid]||[]);
+  if(hs.length){h+=`<div style="margin-top:8px"><b>Historical unit${hs.length>1?'s':''}:</b> `+hs.map(k=>`<a href="place.html?k=${encodeURIComponent(k)}">${esc(D.places[k].n)}</a> <span class=muted>(${esc(D.places[k].p||'')}${D.places[k].tier?' · tier '+D.places[k].tier:''})</span>`).join(', ')+'</div>'}
+  if(e.prov){h+=`<div class=muted style="margin-top:4px">province/state: <a href="place.html?k=${encodeURIComponent(e.prov)}">${esc((D.places[e.prov]||{}).n||e.prov)}</a>${e.prov_how==='nearest'?' (assigned by nearest matched district)':''}</div>`}
+  if(r){h+=`<div style="margin-top:8px">${year==='all'?'All years':year}: <b>${r.na||0}</b> district-level age tables, <b>${r.nt||0}</b> district-level tables in total.</div>`;
+    if(r.m){h+='<table class=cov>'+Object.keys(LAYERS).filter(k=>k!=='coverage'&&r.m[k]!=null).map(k=>`<tr><td>${LAYERS[k]}</td><td><b>${r.m[k].toFixed(1)}</b></td><td class=muted>${r.lvl==='province'?'provincial':'district'}</td></tr>`).join('')+'</table>'+
+      `<div class=muted>from ${r.tp?`<a href="tables/${encodeURI(r.tp)}.html">${esc(r.src||'')}</a>`:esc(r.src||'')}<br>check: ${esc(r.chk||'')}</div>`}}
+  else h+=`<div style="margin-top:8px" class=muted>No tables in the corpus for this area in ${year}.</div>`;
+  const yrs=Object.keys(e).filter(k=>/^\d{4}$/.test(k)&&e[k].na>0);
+  if(yrs.length)h+=`<div class=muted style="margin-top:6px">district age data in: ${yrs.join(', ')}</div>`;
+  if(hs.length)h+=`<div style="margin-top:8px"><a href="place.html?k=${encodeURIComponent(hs[0])}">→ everything we have for ${esc(D.places[hs[0]].n)}</a></div>`;
+  document.getElementById('detail').innerHTML=h}
+svg.addEventListener('mousemove',ev=>{const g=ev.target.dataset&&ev.target.dataset.g;if(!g){tip.style.display='none';return}
+  const u=G.units.find(x=>x.gid===g),r=yv(u),hs=D.hist[g]||[];const b=svg.parentElement.getBoundingClientRect();
+  tip.innerHTML=`<b>${esc(u.name.replace(/([a-z])([A-Z])/g,'$1 $2'))}</b>`+(hs.length?`<br>historical: ${hs.map(k=>esc(D.places[k].n)).join(', ')}`:'')+
+   (r?`<br>${r.na||0} district age tables${r.m&&layer!=='coverage'&&r.m[layer]!=null?' · '+LAYERS[layer]+': '+r.m[layer].toFixed(1)+(r.lvl==='province'?' (provincial)':''):''}`:'<br>no data this year');
+  tip.style.display='block';tip.style.left=(ev.clientX-b.left+14)+'px';tip.style.top=(ev.clientY-b.top+14)+'px'});
+svg.addEventListener('mouseleave',()=>tip.style.display='none');
+svg.addEventListener('click',ev=>{const g=ev.target.dataset&&ev.target.dataset.g;if(!g)return;sel=g;draw();detail(g)});
+function buttons(id,items,cur,cb){document.getElementById(id).innerHTML=items.map(([k,l])=>`<button data-k="${k}" class="${k==cur?'on':''}">${l}</button>`).join('');
+  document.getElementById(id).onclick=e=>{const k=e.target.dataset.k;if(!k)return;cb(k);[...e.currentTarget.children].forEach(b=>b.classList.toggle('on',b.dataset.k==k))}}
+const q=new URLSearchParams(location.search);if(q.get('y'))year=q.get('y');if(q.get('l'))layer=q.get('l');
+buttons('years',[['all','All'],...D.years.map(y=>[y,y])],year,k=>{year=k;draw();if(sel)detail(sel)});
+buttons('layers',Object.entries(LAYERS),layer,k=>{layer=k;draw()});
+draw();
+</script></body></html>

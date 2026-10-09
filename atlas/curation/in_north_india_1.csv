@@ -1,0 +1,647 @@
+key,label,variants,n_tables,sources,context
+punjab,Punjab,PUNJAB | PUNJAB. | Punjab 1911-1920,588,tag:553;row:29;colg:13;sect:9,"North India | Punjab | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI || North India | Punjab | 1911 | HINDU SECTS. || North India | Punjab | 1911 | TABLE VII.-AGE, SEX PART B.-DETAILS FOR DISTRICTS AND STATES."
+jammuandkashmir,Jammu and Kashmir,,166,tag:166,"North India | Jammu and Kashmir | 1901 | TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STA || North India | Jammu and Kashmir | 1911 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part I-Provincial || North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION."
+agra,Agra,Agra District,73,row:68;sect:3;tag:2,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion."
+cawnpore,Cawnpore,CAWNPORE,69,row:66;sect:3,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion."
+bareilly,Bareilly,BAREILLY,68,row:64;sect:4,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion."
+budaun,Budaun,BUDAUN,67,row:63;sect:4,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion."
+allahabad,Allahabad,ALLAHABAD,66,row:63;sect:3,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion."
+jhansi,Jhansi,Jhánsi | JHANSI,66,row:66;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion."
+lucknow,Lucknow,LUCKNOW,65,row:64;sect:1,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion."
+muttra,Muttra,,64,row:64,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion."
+jaunpur,Jaunpur,JAUNPUR,54,row:52;sect:1;tag:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+mirzapur,Mirzapur,MIRZAPUR,52,row:51;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+pilibhit,Pilibhít,Pilibhit | PÍLÍBHÍT. | PILIBHIT,48,row:46;sect:3;tag:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+muzaffarnagar,Muzaffarnagar,Muzaffarnagar District,47,row:45;tag:2,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+bijnor,Bijnor,BIJNOR.,47,row:45;sect:2;tag:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+hamirpur,Hamírpur,Hamirpur | HAMIRPUR,47,row:47;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+unao,Unao,Unáo | UNAO,47,row:46;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+delhi,Delhi,DELHI | DELHI 1921,47,row:24;tag:21;colg:3,"North India | Delhi | 1931 | TABLE VII.-AGE, SEX AND CIVIL CONDITION. || North India | Punjab | 1911 | HINDU SECTS. || North India | Delhi | 1868 | Corresponding figures for Europe."
+aligarh,Aligarh,Aligarh District,46,row:45;tag:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+bahraich,Bahraich,BAHRAICH.,46,row:45;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+fatehpur,Fatehpur,FATEHPUR,45,row:44;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+raebareli,Rae Bareli,Ráe Bareli,44,row:44,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+hardoi,Hardoi,HARDOI.,43,row:42;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+tehrigarhwal,Tehri Garhwál,Tehri-Garhwal | Tehri Garhwal | Tehri-Garhwál,40,row:39;sect:2,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion."
+gonda,Gonda,GONDA.,37,row:36;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part C. Musalmans. Age by religion."
+ballia,Ballia,BALLIA,35,row:34;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part C. Musalmans. Age by religion."
+sultanpur,Sultanpur,Sultánpur,34,row:35,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part C. Musalmans. Age by religion."
+vproductionotherthancultivation,V-Production other than cultivation,V—Production other than cultivation | V - Production other than cultivation | V- Production other than cultivation,34,colg:40,North India | Uttar Pradesh | 1951 | वयस् समुदायवार जीविका श्रेणियां-(अनुबद्ध) || North India | Uttar Pradesh | 1951 | TABLE C-II Livelihood Classes by Age Groups || North India | Uttar Pradesh | 1951 | वयस् समुदायवार जीविका श्रेणियां - (अनुबद्ध)
+viitransport,VII-Transport,VII—Transport | VII - Transport | VII- Transport,34,colg:40,North India | Uttar Pradesh | 1951 | वयस् समुदायवार जीविका श्रेणियां-(अनुबद्ध) || North India | Uttar Pradesh | 1951 | TABLE C-II Livelihood Classes by Age Groups || North India | Uttar Pradesh | 1951 | वयस् समुदायवार जीविका श्रेणियां - (अनुबद्ध)
+arya,Arya,ARYA | Arya. | (3) Arya.,30,sect:30,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. || South India | Hyderabad | 1921 | TABLE VII. Age, Sex and Civil Condition (half-page merge) || North India | United Provinces | 1931 | Table VII - Age, Sex and Civil Condition. Part A - Provincial Totals -"
+tarai,Tarái,Tarai,27,row:27,North India | United Provinces | 1891 | TABLE VII. Part E. Christians. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part C. Musalmans. Age by religion. || North India | United Provinces | 1891 | TABLE VII. Part B. Hindus. Age by religion.
+nativestates,Native States,NATIVE STATES | (2) Native States.,24,row:14;tag:9;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || All-India | India | 1911 | TABLE VII. Age, sex and civil conditions (A) Provincial totals / Briti || All-India | India | 1911 | TABLE VII. Hindus-Total. Age, sex and civil conditions by Religions (B"
+amroha,Amroha,,22,row:20;sect:2,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1931 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1911 | TABLE VII. (2) Hindus. Age, sex and civil"
+sambhal,Sambhal,,20,row:20,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1931 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1911 | TABLE VII. (2) Hindus. Age, sex and civil"
+patiala,Patiala,Patiála | PATIALA. | Patiálá,19,row:16;sect:3,"North India | Punjab | 1911 | HINDU SECTS. || North India | Punjab | 1911 | Largest increases amongst Europeans || North India | Punjab | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI"
+farrukhabadcumfatehgarh,Farrukhabad-cum-Fatehgarh,Farrukhabad cum-Fatehgarh,16,row:15;sect:1,"North India | United Provinces | 1931 | TABLE VII. (1) All Religions. Age, Sex and Civil || North India | United Provinces | 1931 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1911 | TABLE VII. (2) Hindus. Age, sex and civil"
+nainital,Naini Tal,Naini Tál | Naini-Tal,16,row:16,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1901 | SUBSIDIARY TABLE XXII.—Distribution by Civil Condition || All-India | India | 1911 | TABLE VII. Age, sex and civil conditions (A) Provincial totals / Briti"
+rohilkhanddivision,Rohilkhand Division,,15,row:12;tag:2;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || West India | Rohilkhand Division | 1951 | TABLE C-II Livelihood Classes by Age Groups-(contd.) || All-India | India | 1911 | TABLE VII. Age, sex and civil conditions (A) Provincial totals / Briti"
+malerkotla,Maler Kotla,Malerkotla | MALER KOTLA. | MALER KOTLA,15,row:11;sect:3;colg:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || ? | digitized tables | ? | TABLE No. VII. Showing the Ages of the Population. || All-India | Native States | ? | Nat. States. AGE & RELIGION
+farrukhabad,Farrukhabad,,14,row:12;sect:2,"North India | United Provinces | 1911 | TABLE VII. (2) Hindu. Age, sex and civil condition || All-India | India | 1911 | TABLE VII. Age, sex and civil conditions (A) Provincial totals / Briti || All-India | India | 1911 | TABLE VII. Hindus-Total. Age, sex and civil conditions by Religions (B"
+indogangeticplainwest,"Indo-Gangetic Plain, West","INDO-GANGETIC PLAIN WEST | Indo-Gangetic Plain West | Indo-Gangetic Plain, West.",14,row:9;colg:3;sect:2,"North India | United Provinces | 1901 | SUBSIDIARY TABLE XXII.—Distribution by Civil Condition || North India | United Provinces | 1901 | SUBSIDIARY TABLE XII.-Number of females to 1,000 males at each age by  || North India | United Provinces | 1921 | Variation of population per cent."
+chamba,Chamba,CHAMBA.,14,row:10;tag:3;sect:1,"North India | Chamba | 1911 | TABLE VII.-AGE, SEX PART B.-DETAILS FOR DISTRICTS AND STATES. || North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || ? | digitized tables | ? | TABLE No. VII. Showing the Ages of the Population."
+bahawalpur,Bahawalpur,Baháwalpur | BAHAWALPUR. | Bahawalpur.,14,row:11;sect:3,"North India | Punjab | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI || North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || ? | digitized tables | ? | TABLE No. VII. Showing the Ages of the Population."
+allahabaddivision,Allahabad Division,,13,row:12;sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || All-India | India | 1911 | TABLE VII. Age, sex and civil conditions (A) Provincial totals / Briti || All-India | India | 1911 | TABLE VII. Hindus-Total. Age, sex and civil conditions by Religions (B"
+gorakhpurdivision,Gorakhpur Division,,12,row:12,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || All-India | India | 1911 | TABLE VII. Age, sex and civil conditions (A) Provincial totals / Briti || All-India | India | 1911 | TABLE VII. Hindus-Total. Age, sex and civil conditions by Religions (B"
+lucknowdivision,Lucknow Division,,12,row:12,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || All-India | India | 1911 | TABLE VII. Age, sex and civil conditions (A) Provincial totals / Briti || All-India | India | 1911 | TABLE VII. Hindus-Total. Age, sex and civil conditions by Religions (B"
+ambala,Ambala,AMBALA DISTRICT,12,row:11;colg:1,North India | Punjab | 1911 | Largest increases amongst Europeans || North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1931 | IMPERIAL TABLE No. XVI.—(PART B).—EUROPEAN AND ALLIED RACES AND ANGLO-
+nahan,Nahan,Náhan | NAHAN.,12,row:10;sect:2,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || ? | digitized tables | ? | TABLE No. VII. Showing the Ages of the Population. || All-India | Native States | ? | Nat. States. AGE & RELIGION
+brahman,Brahman,Bráhman,11,row:9;colg:1;sect:1,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || South India | Madras | 1891 | Number of females who are married out of 10,000 aged between 0 and 9. || Central India | Berar | 1891 | Statement No. 48. Showing number of persons in 1,000 of each age-perio"
+sialkot,Sialkot,Siálkot | Sialkot District | Sialkot District.,11,row:9;colg:1;sect:1,North India | Punjab | 1911 | Largest increases amongst Europeans || North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1931 | IMPERIAL TABLE No. XVI.—(PART B).—EUROPEAN AND ALLIED RACES AND ANGLO-
+dujana,Dujana,Dujána | DUJANA | Dujana.,11,row:9;colg:1;sect:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || All-India | Native States | ? | Nat. States. AGE & RELIGION || All-India | Native States | ? | TABLE No. VII. Showing the Ages of the Population MUSALMAN
+nalagarh,Nalagarh,Nálagarh,11,row:11,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1931 | TABLE XVI.—(PART A).—EUROPEAN AND ALLIED (b).—ANGLO- || ? | digitized tables | ? | TABLE No. VII. Showing the Ages of the Population.
+loharu,Loharu,Loháru | Loharu.,11,row:10;sect:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || All-India | Native States | ? | Nat. States. AGE & RELIGION || All-India | Native States | ? | TABLE No. VII. Showing the Ages of the Population MUSALMAN
+nwpandoudh,N.-W. P. and Oudh,N.W. P. and Oudh 1891,10,row:9;colg:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | United Provinces | 1901 | SUBSIDIARY TABLE XXII.—Distribution by Civil Condition || North India | United Provinces | 1901 | SUBSIDIARY TABLE XXII.-Distribution by Civil Condition"
+jubbal,Jubbal,,10,row:10,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1931 | TABLE XVI.—(PART A).—EUROPEAN AND ALLIED (b).—ANGLO- || All-India | Native States | ? | Nat. States. AGE & RELIGION
+pathan,Pathan,Pathán,9,row:9,North India | Punjab | 1911 | Composition of Muhammadans || North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || West India | Baroda | 1921 | TABLE XIV-CIVIL CONDITION BY
+subhimalayawest,"Sub-Himalaya, West","Sub-Himalaya, West.",9,row:8;sect:1,"North India | United Provinces | 1901 | SUBSIDIARY TABLE XXII.—Distribution by Civil Condition || North India | United Provinces | 1901 | SUBSIDIARY TABLE XII.-Number of females to 1,000 males at each age by  || North India | United Provinces | 1921 | Variation of population per cent."
+eastsatpuras,East Satpuras,East Satpuras.,9,row:8;sect:1,"North India | United Provinces | 1901 | SUBSIDIARY TABLE XXII.—Distribution by Civil Condition || North India | United Provinces | 1901 | SUBSIDIARY TABLE XII.-Number of females to 1,000 males at each age by  || North India | United Provinces | 1921 | Variation of population per cent."
+indogangeticplaineast,"Indo-Gangetic Plain, East","Indo-Gangetic Plain East | Indo-Gangetic Plain, East.",9,row:8;sect:1,"North India | United Provinces | 1901 | SUBSIDIARY TABLE XXII.—Distribution by Civil Condition || North India | United Provinces | 1901 | SUBSIDIARY TABLE XII.-Number of females to 1,000 males at each age by  || North India | United Provinces | 1921 | Variation of population per cent."
+baghal,Baghal,Bághal,9,row:9,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || All-India | Native States | ? | Nat. States. AGE & RELIGION || All-India | Native States | ? | TABLE No. VII. Showing the Ages of the Population MUSALMAN
+mali,Mali,MALI,8,row:5;sect:2;colg:1,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION || Central India | Berar | 1891 | Statement No. 48. Showing number of persons in 1,000 of each age-perio"
+ludhiana,Ludhiana,Ludhiána,8,row:8,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population. || North India | Punjab | 1911 | HINDU SECTS.
+gujranwala,Gujranwala,Gujranwala* | Gujránwála | Gujranwala District,8,row:7;tag:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population. || North India | Punjab | 1911 | Ahl-i-Koran or Chakralvi
+frontier,Frontier,Frontier Districts. | Frontier Districts | FRONTIER DISTRICTS,7,row:4;sect:3,North India | Jammu and Kashmir | 1931 | Mean ages for the whole State as well as for the provinces || North India | Jammu and Kashmir | 1911 | CHAPTER V - AGE || North India | Jammu and Kashmir | 1911 | Mean age
+gurgaon,Gurgaon,,7,row:7,North India | Punjab | 1911 | HINDU SECTS. || North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population.
+hoshiarpur,Hoshiarpur,Hoshiárpur,7,row:7,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population. || North India | Punjab | 1911 | HINDU SECTS.
+gurdaspur,Gurdaspur,Gurdáspur,7,row:7,North India | Punjab | 1911 | HINDU SECTS. || North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population.
+jhang,Jhang,Jhang* | Jhang District,7,row:6;tag:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population. || North India | Punjab | 1911 | Ahl-i-Koran or Chakralvi
+kurmi,Kurmi,,6,row:6,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | United Provinces | 1931 | TABLE VIII. Civil condition by age || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+jat,Jat,,6,row:4;colg:1;sect:1,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || ? | digitized tables | ? | Table VII. Ages by Religions. || ? | digitized tables | ? | Table VII. Ages by Religions. TABLE Part (F).
+agnostic,Agnostic,Agnostic. | AGNOSTIC.,6,row:3;sect:3,"North India | Punjab | 1911 | Indefinite beliefs || Central India | Berar | 1891 | The ""Others"" comprise the following || Burma | Burma | 1911 | IMPERIAL TABLE VII - Age, Sex and Civil Condition. PART A / PART B (Pr"
+jhelum,Jhelum,Jhelum District,6,row:5;tag:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population. || North India | Punjab | 1911 | Ahl-i-Koran or Chakralvi
+muzaffargarh,Muzaffargarh,Muzaffargarh District,6,row:5;tag:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population. || North India | Punjab | 1911 | Wahabis or Ahl-i-Hadis
+patialastate,Patiala State,,6,row:4;tag:2,North India | Patiala State | 1911 | AND CIVIL CONDITION (BY RELIGION). PART B.-DETAILS FOR DISTRICTS AND S || North India | Punjab | 1911 | Ahl-i-Koran or Chakralvi || North India | Punjab | 1911 | Dadupanthi sect
+hin,(2) Hin,HIN-,6,sect:6,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (half-page merge) || All-India | India | 1931 | TABLE VII. Age, sex and civil conditions by Religions (B. District fig || North India | United Provinces | 1911 | TABLE VII. Age, sex and civil conditions (A) Provincial totals / Briti"
+khatrihindu,KHATRI (HINDU),Khatri (Hindu) | KHATRI (Hindu),5,row:5,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+dhobi,Dhobi,,5,row:3;colg:1;sect:1,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | United Provinces | 1931 | TABLE VIII. Civil condition by age || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+indefinitebeliefs,Indefinite beliefs,Indefinite Beliefs.,5,row:4;sect:1,North India | Punjab | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers). || South India | Hyderabad | 1901 | Christian population increase and decrease by denomination || North India | Punjab | 1911 | CHRISTIAN SECTS.
+kashmir,Kashmir,,5,row:5;title:1,North India | Jammu and Kashmir | 1921 | Kashmir State || North India | Jammu and Kashmir | 1911 | CHAPTER V - AGE || North India | Jammu and Kashmir | 1911 | Mean age
+lahoredivision,LAHORE DIVISION,Lahore Division,5,row:5,"North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1931 | TABLE XVI.—(PART A).—EUROPEAN AND ALLIED (b).—ANGLO- || North India | Punjab | 1881 | Abstract No. 12, showing the Distribution of the Urban, Rural, and Tot"
+mianwali,Mianwali,Mianwali District,5,row:4;tag:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1901 | 3. The Districts in order of population. || North India | Punjab | 1911 | Ahl-i-Koran or Chakralvi
+kalsiastate,Kalsia State,KALSIA STATE,5,tag:3;row:1;colg:1,"North India | Kalsia State | 1911 | TABLE VII-AGE, SEX PART B.-DETAILS FOR DISTRICTS AND STATES. || North India | Punjab | 1911 | Wahabis or Ahl-i-Hadis || North India | Punjab | 1901 | All Religions."
+indian,Indian,INDIAN,5,colg:5,North India | Punjab | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers). || East India | Bengal | 1931 | STATEMENT No. VII-3. Patients from Bengal in the Ranchi mental hospita || South India | Cochin | 1921 | TABLE XV. TERRITORIAL DISTRIBUTION OF THE CHRISTIAN POPULATION BY SECT
+ried,ried.,RIED.,5,sect:5,"North India | United Provinces | 1931 | Table VII - Age, Sex and Civil Condition by Religion. Part C - Cities  || North India | United Provinces | 1931 | by Religion. PART C.-Cities-(concluded). TABLE VII. || North India | United Provinces | 1931 | by Religion. PART C.-Cities-(continued). TABLE VII."
+kunbi,Kunbi,,4,row:4,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || Central India | Berar | 1891 | Statement No. 48. Showing number of persons in 1,000 of each age-perio || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+arainmusalman,Arain (Musalman),ARAIN (MUSALMAN),4,row:4,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes) || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+julahahindu,JULAHA (HINDU),Julaha (Hindu),4,row:4,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+kumharhindu,KUMHAR (HINDU),Kumhar (Hindu),4,row:4,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+naihindu,NAI (HINDU),Nai (Hindu),4,row:4,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+chamar,Chamar,,4,row:3;sect:1,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | United Provinces | 1931 | TABLE VIII. Civil condition by age || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+greek,Greek,,4,row:4,North India | Punjab | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers). || Central India | Berar | 1901 | TABLE X. || All-India | India | 1911 | IV. - Races and sects of Christians. (Actual numbers.)
+mean,Mean,"Mean, 1896-1900 | Mean 1901-1931",4,row:3;colg:1,North India | United Provinces | 1881 | TABLE C. Mortality Experience of the Proclaimed Clans (North-West Prov || North India | Punjab | 1901 | SUBSIDIARY TABLE V. A.-Showing the death-rates for each age-period per || North India | United Provinces | 1891 | TABLE I.—Mortality experience of the Proclaimed Clans (North-West Prov
+attock,Attock,Attock District,4,row:3;tag:1,"North India | Punjab | 1911 | Largest increases amongst Europeans || North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || ? | Attock District | ? | TABLE VII.-AGE, SEX AND CIVIL CONDITION. PART B.-DETAILS FOR DISTRICTS"
+blocktotal,Block 1 - Total,Block 2 - Total | Block 3 - Total | Block 4 - Total,4,row:26;sect:8,North India | United Provinces | 1881 | Suspected of Practising Female Infanticide—(continued). || All-India | India | 1911 | IMPERIAL TABLES. || Burma | Burma | 1891 | Religion. PART B.-BUDDHISTS.
+subhimalayan,SUB-HIMALAYAN,Sub-Himalayan | SUB-HIMALAYAN.,4,colg:2;row:1;sect:1,"North India | Punjab | 1911 | AREA, POPULATION AND DENSITY || North India | Punjab | 1921 | SUBSIDIARY TABLE III. Number of females per 1,000 males at different a || All-India | India | 1911 | SUBSIDIARY TABLE VII-A.-Number of Females to 1,000 Males at each age b"
+difference,Difference,,4,colg:4,"North India | Punjab | 1868 | Return of Jagheerdars, or Revenue Free-holders || North India | Punjab | 1868 |  || North India | United Provinces | 1881 | PERCENTAGES."
+komati,Komati,Kómati,3,row:3,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || South India | Madras | 1891 | Number of females who are married out of 10,000 aged between 0 and 9. || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+biloch,Biloch,,3,row:3,North India | Punjab | 1911 | Composition of Muhammadans || North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi
+lodha,Lodha,,3,row:3,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || Central India | Central India Agency | 1891 | Group 2 (Minor Agricultural) || Northeast India | Assam | 1901 | REPORT ON THE CENSUS OF ASSAM, 1901."
+pasi,Pasi,,3,row:3,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | United Provinces | 1931 | TABLE VIII. Civil condition by age || Northeast India | Assam | 1901 | REPORT ON THE CENSUS OF ASSAM, 1901."
+naisikh,NAI (SIKH),,3,row:3,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+sainisikh,SAINI (SIKH),,3,row:3,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+sunarhindu,SUNAR (HINDU),,3,row:3,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+tarkhansikh,TARKHAN (SIKH),,3,row:3,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+brahmanhindu,BRAHMAN (HINDU),,3,row:3,North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes) || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+gujjarhindu,GUJJAR (HINDU),,3,row:3,North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes) || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+jhiwarhindu,JHIWAR (HINDU),,3,row:3,North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes) || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+umballa,Umballa,,3,row:3,"North India | Punjab | 1868 | The largest numbers were in || West India | Bombay | 1901 | B.—Provinces, Districts or States in India beyond Bombay Presidency. || West India | Bombay | 1901 | Birth-place"
+goordaspore,Goordaspore,,3,colg:2;row:1,North India | Punjab | 1868 | The largest numbers were in || North India | Punjab | 1855 | STATEMENT SHEWING THE NUMBER OF PROPRIETORS AND TENANTS IN THE DISTRIC || North India | Punjab | 1868 | STATEMENT SHEWING THE NUMBER OF PROPRIETORS AND TENANTS IN THE DISTRIC
+churchofengland,Church of England,CHURCH OF ENGLAND | Church of England.,3,row:1;colg:1;sect:1,"North India | United Provinces | 1881 | Abstract of Form IIIA., showing the sects of the Christians and others || Rajputana | Rajputana Agency | 1881 | FINAL CENSUS FORM VIII. Statement shewing the distribution of European || South India | Mysore | 1881 | FINAL CENSUS Statement of the Distribution of the"
+syrianjacobite,Syrian (Jacobite),Syrian Jacobite,3,row:3,North India | Punjab | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers). || South India | Travancore | 1921 | TABLE XV. Territorial Distribution of the Christian Population by Sect
+jullundurdivision,JULLUNDUR DIVISION,,3,row:3,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1931 | TABLE XVI.—(PART A).—EUROPEAN AND ALLIED (b).—ANGLO- || North India | Punjab | 1911 | TABLE VI A - SECTS OF JAIN
+aryas,Aryas,* ARYAS,3,colg:2;row:1,North India | United Provinces | 1911 | Subsidiary table IV.-Proportion of the sexes by civil condition at cer || Rajputana | Rajputana Agency | 1891 | Ages by Religions.-Hindus and Aryas. || Rajputana | Ajmer-Merwara | 1901 | SUBSIDIARY TABLE III. Age distribution of each sex by religion.
+blockrow,Block 1 - Row 1,Block 1 - Row 2 | Block 1 - Row 3 | Block 1 - Row 4,3,row:119,North India | United Provinces | 1881 | Suspected of Practising Female Infanticide—(continued). || Burma | Burma | 1891 | Religion. PART B.-BUDDHISTS. || All-India | India | 1911 | IMPERIAL TABLES.
+theist,Theist,-THEIST.,3,row:2;sect:1,North India | Punjab | 1911 | Indefinite beliefs || East India | Bengal | 1901 | CIVIL CONDITION-concluded.
+romancatholics,Roman Catholics,ROMAN CATHOLICS | Roman Catholics.,3,row:1;colg:1;sect:1,North India | Punjab | 1911 | CHRISTIAN SECTS. || Rajputana | Rajputana Agency | 1881 | FINAL CENSUS FORM VIII. Statement shewing the distribution of European || South India | Mysore | 1881 | FINAL CENSUS Statement of the Distribution of the
+radhaswami,Rádha Swámi,(6) Radhaswami. | (5) Radhaswami.,3,sect:2;row:1,"North India | Punjab | 1911 | 217. The sects of Sikhs || North India | United Provinces | 1931 | Table VII - Age, Sex and Civil Condition. Part A - Provincial Totals - || North India | United Provinces | 1931 | TABLE VII."
+delhidivision,Delhi Division,DELHI DIVISION,3,row:3,"North India | Punjab | 1881 | Abstract No. 12, showing the Distribution of the Urban, Rural, and Tot || North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi || North India | Punjab | 1911 | TABLE VI A - SECTS OF JAIN"
+northwestdryarea,NORTH WEST DRY AREA,NORTH-WEST DRY AREA | NORTH-WEST DRY AREA.,3,colg:2;sect:1,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Number of females per 1,000 males at different a || All-India | India | 1911 | SUBSIDIARY TABLE VII-A.-Number of Females to 1,000 Males at each age b || North India | Punjab | 1911 | SUBSIDIARY TABLE II. Age distribution of 10,000 of each sex in the Pro"
+tal,tal.,,3,sect:3,"North India | United Provinces | 1931 | Table VII - Age, Sex and Civil Condition by Religion. Part C - Cities  || North India | United Provinces | 1931 | Condition by Religion. PART C.—Cities TABLE VII."
+chris,(5) Chris,(9) Chris,3,sect:3,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (half-page merge) || North India | United Provinces | 1911 | TABLE VII. (1) All Religions. Age, sex and civil conditions (multi-pag"
+dus,dus.,DUS.,3,sect:3,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (half-page merge) || North India | United Provinces | 1911 | TABLE VII. || North India | United Provinces | 1901 | periods of 10,000 of each sex at the last three censuses."
+kashmirprovince,Kashmir Province.,KASHMIR PROVINCE,3,sect:3,"North India | Jammu and Kashmir | 1921 | SUBSIDIARY TABLE II - AGE DISTRIBUTION OF 10,000 OF EACH SEX IN THE ST || North India | Jammu and Kashmir | 1931 | SUBSIDIARY TABLE I. AGE DISTRIBUTION OF 10,000 OF EACH SEX IN THE STAT || West India | State and each Natural Division | 1911 | SUBSIDIARY TABLE II-Age distribution of 10,000 of each sex in the Stat"
+csikh,(c) Sikh.,C. Sikh | C—Sikh.,3,sect:3,"North India | Punjab | 1901 | TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STA || South India | Travancore | 1901 | TABLE VIII. Education. PART I.-GENERAL TABLE. || All-India | India | 1901 | TABLE VII. Age, Sex and Civil Condition. PART I.—GENERAL TABLE—INDIA."
+byreligionpartbandstatefigurestablevii,by Religion. PART B.-District and State Figures. TABLE VII.,by Religion. PART B.--District and State Figures. TABLE VII.,3,sect:3,North India | United Provinces | 1931 | by Religion. PART B.-District and State Figures. TABLE VII. || North India | United Provinces | 1931 | by Religion. PART B.--District and State Figures. TABLE VII.
+subsidiarytableivracesandsectsofchristiansactualnumbers,SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers).,SUBSIDIARY TABLE IV. Races and Sects of Christians (actual numbers.),3,sect:3,North India | Punjab | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers). || South India | Cochin | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (actual numbers.)
+cmuhammadans,C.-MUHAMMADANS.,,3,sect:3,"North India | United Provinces | 1901 | SUBSIDIARY TABLE XVI.-Distribution of 10,000 of each sex by age and Ci || North India | United Provinces | 1901 | SUBSIDIARY TABLE XVII.-Distribution by Civil Condition and main age pe"
+nahanstate,Nahan State,,3,tag:3,North India | Nahan State | 1911 | AND CIVIL CONDITION (BY RELIGION). PART B.-DETAILS FOR DISTRICTS AND S || ? | Nahan State | ? | AND CIVIL CONDITION (BY RELIGION). PART B.-DETAILS FOR DISTRICTS AND S
+faridkotstate,Faridkot State,,3,tag:3,"North India | Faridkot State | 1911 | AND CIVIL CONDITION (BY RELIGION). PART B.-DETAILS FOR DISTRICTS AND S || North India | Faridkot State | 1931 | Table VII - Age, Sex and Civil Condition (By Religion). Part B - Detai"
+nabhastate,Nabha State,,3,tag:3,North India | Nabha State | 1911 | AND CIVIL CONDITION (BY RELIGION). PART B.-DETAILS FOR DISTRICTS AND S || North India | Nabha State | 1931 | AND CIVIL CONDITION (BY RELIGION). PART B.-DETAILS FOR DISTRICTS AND S
+kalar,Kalar,,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+mehra,Mehra,,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+brahmantamil,Brahman (Tamil),,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+cheruman,Cheruman,,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+kaikolan,Kaikolan,,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+mala,Mala,,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+tiyan,Tiyan,,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+agarwalhindu,Agarwal (Hindu),,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+jatmusalman,Jat (Musalman),JAT (MUSALMAN),2,row:2,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+kumharmusalman,Kumhar (Musalman),KUMHAR (MUSALMAN),2,row:2,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+machhimusalman,Machhi (Musalman),MACHHI (MUSALMAN),2,row:2,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+mochimusalman,Mochi (Musalman),MOCHI (MUSALMAN),2,row:2,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+rajputmusalman,Rajput (Musalman),RAJPUT (MUSALMAN),2,row:2,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+tarkhanmusalman,Tarkhan (Musalman),TARKHAN (MUSALMAN),2,row:2,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+baniya,Baniya,,2,row:2,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+julaha,Julaha,,2,row:2,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | United Provinces | 1931 | TABLE VIII. Civil condition by age
+kumhar,Kumhar,,2,row:2,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi || North India | United Provinces | 1931 | TABLE VIII. Civil condition by age
+kambohhindu,KAMBOH (HINDU),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+kambohmuslim,KAMBOH (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+kumharsikh,KUMHAR (SIKH),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+loharsikh,LOHAR (SIKH),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+machhimuslim,MACHHI (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+mirasimuslim,MIRASI (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+mochimuslim,MOCHI (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+naimuslim,NAI (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+pathanmuslim,PATHAN (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+rajputsikh,RAJPUT (SIKH),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+rathihindu,RATHI (HINDU),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+sheikhmuslim,SHEIKH (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+sunarmuslim,SUNAR (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+telimuslim,TELI (MUSLIM),,2,row:2,North India | Punjab | 1931 | Table VIII - By Age for Selected Castes || North India | Punjab | 1931 | Table VIII - Civil Condition
+arorasikh,ARORA (SIKH),,2,row:2,North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+chamarsikh,CHAMAR (SIKH),,2,row:2,North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+chhimbasikh,CHHIMBA (SIKH),,2,row:2,North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+dagiandkolihindu,DAGI AND KOLI (HINDU),,2,row:2,North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+jatsikh,JAT (SIKH),,2,row:2,North India | Punjab | 1931 | Table VIII - Civil Condition || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+malakanddirswatchitral,"MALAKAND, DIR, SWAT, CHITRAL","MALAKAND, DIR, SWAT, CHITRAL.",2,row:1;sect:1,"North India | Punjab | 1901 | TABLE VII. Age, Sex and Civil Condition (continuation stitch) || North India | Punjab | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI"
+dhobimusalman,DHOBI (MUSALMAN),,2,row:2,North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes) || North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+koil,Koil,,2,row:2,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (continuation stitch)"
+rajputs,Rajputs,,2,row:1;colg:1,"North India | United Provinces | 1881 | Hindu converts to Islam || All-India | India | 1931 | DIAGRAM SHOWING THE NUMBER OF FEMALES PER 1000 MALES AMONG RAJPUTS, JA"
+serial,Serial 1,Serial 2 | Serial 3 | Serial 4,2,row:102,North India | United Provinces | 1931 | by Religion. PART B.-District and State Figures-(concluded). TABLE VII || North India | United Provinces | 1931 | by Religion. PART B.-District and State Figures. TABLE VII.
+koeri,Koeri,,2,row:2,"North India | United Provinces | 1931 | TABLE VIII. Civil condition by age || East India | Bengal | 1891 | COMPARATIVE TABLE XVI.-AGE-DISTRIBUTION for 10,000 persons."
+mallah,Mallah,,2,row:2,North India | United Provinces | 1931 | TABLE VIII. Civil condition by age || Northeast India | Assam | 1901 | THE RESULTS OF THE CENSUS.
+turai,Turái,,2,row:2,North India | United Provinces | 1891 | TABLE VII. Part D. Jains. Age by religion. || North India | United Provinces | 1881 | TABLE VII. Part D. Jains. Age by religion.
+indusvalley,The Indus Valley,INDUS VALLEY,2,row:1;colg:1,"North India | Jammu and Kashmir | 1921 | Kashmir State || North India | Jammu and Kashmir | 1931 | AGE DISTRIBUTION BY 10,000 OF EACH SEX IN THE STATE BY NATURAL DIVISIO"
+leprosy,Leprosy,,2,row:2,"North India | Jammu and Kashmir | 1911 | PROPORTION per lac, OF THE AFFLICTED || West India | Baroda | 1931 | SUBSIDIARY TABLE I NUMBER AFFLICTED PER 100,000 OF THE POPULATION AT E"
+himalayanuttarpradeshdivision,Himalayan Uttar Pradesh Division,,2,row:1;sect:1,"North India | Uttar Pradesh | 1951 | SUBSIDIARY TABLE 6.7 Marital Status of 1,000 of each sex of General Po || North India | Uttar Pradesh | 1951 | 6.16 - Age distribution of 10,000 of each Sex in the State and each Na"
+ahavingpoliticalrelationswithpunjabgovernment,A.-HAVING POLITICAL RELATIONS WITH THE PUNJAB GOVERNMENT,,2,row:2,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1931 | TABLE XVI.—(PART A).—EUROPEAN AND ALLIED (b).—ANGLO-
+bhavingpoliticalrelationswithgovernmentofindia,B.-HAVING POLITICAL RELATIONS WITH THE GOVERNMENT OF INDIA,,2,row:2,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND || North India | Punjab | 1931 | TABLE XVI.—(PART A).—EUROPEAN AND ALLIED (b).—ANGLO-
+punjabincludingnativestatessikhs,Punjab including the Native States. Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+hissarsikhs,Hissar Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+ambalahindus,Ambala Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+ambalamohammadans,Ambala Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+hoshiarpursikhs,Hoshiarpur Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+jullundurhindus,Jullundur Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+jullundurmohammadans,Jullundur Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+kapurthalasikhs,Kapurthala Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+ludhianahindus,Ludhiana Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+ludhianamohammadans,Ludhiana Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+ferozeporesikhs,Ferozepore Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+faridkothindus,Faridkot Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+faridkotmohammadans,Faridkot Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+patialasikhs,Patiala Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+nabhahindus,Nabha Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+nabhamohammadans,Nabha Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+jindsikhs,Jind Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+lahorehindus,Lahore Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+lahoremohammadans,Lahore Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+amritsarsikhs,Amritsar Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+gurdaspurhindus,Gurdaspur Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+gurdaspurmohammadans,Gurdaspur Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+sialkotsikhs,Sialkot Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+gujranwalahindus,Gujranwala Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+gujranwalamohammadans,Gujranwala Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+gujratsikhs,Gujrat Sikhs,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+rawalpindihindus,Rawalpindi Hindus,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+rawalpindimohammadans,Rawalpindi Mohammadans,,2,row:2,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+kalka,Kalka,KALKA.,2,row:1;sect:1,"North India | Punjab | 1911 | TOWNS AND VILLAGES || North India | Punjab | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI"
+spiritualist,Spiritualist,,2,row:2,North India | Punjab | 1911 | Indefinite beliefs
+unitarian,Unitarian,,2,row:2,North India | Punjab | 1911 | Indefinite beliefs
+arab,Arab,,2,row:2,North India | Punjab | 1911 | Composition of Muhammadans
+daudpotra,Dáudpotra,,2,row:2,North India | Punjab | 1911 | Composition of Muhammadans
+qazilbash,Qazilbásh,,2,row:2,North India | Punjab | 1911 | Composition of Muhammadans
+sayad,Sayad,,2,row:2,North India | Punjab | 1911 | Composition of Muhammadans
+harni,Hárni,,2,row:2,North India | Punjab | 1911 | Composition of Muhammadans
+sheikhspart,Sheikhs (part),‡ Sheikhs (part),2,row:2,North India | Punjab | 1911 | Composition of Muhammadans
+sunni,Sunni,,2,row:1;colg:1,North India | Punjab | 1911 | Sects Analogous to other Religions || Central India | Central Provinces and Berar | 1891 | Mahomedan Sects.
+unitedkingdom,United Kingdom,(1) UNITED KINGDOM,2,row:2,North India | United Provinces | 1901 | Prevalence of marriage || South India | Cochin | 1921 | TABLE XI.-(cont.) BIRTH PLACE.
+jammuandkashmirstate,Jammu and Kashmir State,Jammu and Kashmir State.,2,row:1;sect:1,"North India | United Provinces | 1931 | Age groups 1901 to 1931 (1891 = 100,000). || North India | Jammu and Kashmir | 1931 | SUBSIDIARY TABLE I. AGE DISTRIBUTION OF 10,000 OF EACH SEX IN THE STAT"
+graduated,Graduated,(GRADUATED),2,row:1;sect:1,North India | United Provinces | 1901 | ACTUARIAL REPORT. / TABLE X. 1901 Males. || East India | Bengal | 1961 | AGE PYRAMID
+jalandhardivision,Jalandhar Division,,2,row:2,"North India | Punjab | 1881 | Abstract No. 12, showing the Distribution of the Urban, Rural, and Tot || North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+peshawardivision,Peshawar Division,,2,row:2,"North India | Punjab | 1881 | Abstract No. 12, showing the Distribution of the Urban, Rural, and Tot || North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+sirsa,Sirsa,,2,row:2,"North India | Punjab | 1881 | Abstract No. 12, showing the Distribution of the Urban, Rural, and Tot || North India | Punjab | 1881 | THE DISTRIBUTION OF THE PEOPLE. Part II.—Distribution among Districts "
+addharmi,AD-DHARMI,AD.DHARMI,2,row:2;sect:2,"North India | Delhi | 1931 | TABLE VII.-AGE, SEX PART A.-PROVINCIAL SUMMARY. || North India | Delhi | 1931 | TABLE VII.-AGE, SEX AND CIVIL CONDITION."
+goojranwala,Goojranwala,,2,colg:2,North India | Punjab | 1855 | STATEMENT SHEWING THE NUMBER OF PROPRIETORS AND TENANTS IN THE DISTRIC || North India | Punjab | 1868 | STATEMENT SHEWING THE NUMBER OF PROPRIETORS AND TENANTS IN THE DISTRIC
+census,Census,,2,colg:2,"North India | Punjab | 1868 | Return of Jagheerdars, or Revenue Free-holders || North India | Punjab | 1868 | "
+proportiontoeveryofpopulationofeachsex,"Proportion to every 100,000 of the Population of each Sex",,2,colg:2,"North India | United Provinces | 1881 | Table No. 58, showing the Number and Proportion of Children in the sev || All-India | India | 1881 | Table No. 63, showing the Number and Proportion of Children in the sev"
+whodenyauthorityofvedas,Who deny the authority of the Vedas,,2,colg:2;sect:2,North India | Punjab | 1911 | HINDUS.
+sectsanalogoustootherreligions,Sects analogous to other religions,Sects analogous to other religions. | Sects analogous to other Religions,2,sect:2;colg:1,North India | Punjab | 1911 | MUHAMMADAN-MISCELLANEOUS. || North India | Punjab | 1911 | Detailed figures for the sects are given in Table VI A and the totals 
+reconverted,RECONVERTED,,2,colg:2,North India | Punjab | 1911 | Conversion and reconversion
+bshaivas,(b) Shaivas,,2,colg:2,North India | Punjab | 1911 | HINDU SECTS.
+vaishnava,VAISHNAVA,Vaishnava | VAISHNAVA.,2,sect:2;colg:1,"North India | Punjab | 1911 | HINDU SECTS. || East India | Calcutta | 1931 | IMPERIAL TABLE VII - Age, sex and marital condition by religion"
+instances,Instances,,2,colg:2,"North India | United Provinces | 1931 | GHARDAMADI, GHARJAWAI OR GHARJAMAI."
+madans,madans.,,2,sect:2,"North India | United Provinces | 1911 | TABLE VII. (1) All Religions. Age, sex and civil conditions (multi-pag || North India | United Provinces | 1911 | TABLE VII."
+khs,khs.,,2,sect:2,"North India | United Provinces | 1911 | TABLE VII. (1) All Religions. Age, sex and civil conditions (multi-pag || North India | United Provinces | 1911 | TABLE VII."
+statementshewingnumberofproprietorsandtenantsinrecentlysettled,STATEMENT SHEWING THE NUMBER OF PROPRIETORS AND TENANTS IN THE DISTRICTS RECENTLY SETTLED.,,2,sect:2,North India | Punjab | 1855 | STATEMENT SHEWING THE NUMBER OF PROPRIETORS AND TENANTS IN THE DISTRIC || North India | Punjab | 1868 | STATEMENT SHEWING THE NUMBER OF PROPRIETORS AND TENANTS IN THE DISTRIC
+subsidiarytableix,SUBSIDIARY TABLE IX.,### SUBSIDIARY TABLE IX,2,sect:2,North India | Punjab | 1911 | SUBSIDIARY TABLE IX. Reported death-rate by sex and age in decade and  || West India | Baroda | 1931 | SUBSIDIARY TABLE IX REPORTED DEATH RATE BY SEX AND AGE IN DECADE AND I
+jew,(13) Jew.,-JEW.,2,sect:2,North India | United Provinces | 1931 | Provincial Totals - British Districts - (concluded). || East India | Bengal | 1901 | CIVIL CONDITION-concluded.
+unnamedsection,Unnamed Section,Unnamed Section 3,2,sect:2,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part II-District  || ? | Bhopal | 1951 | C.-II.-Livelihood Classes"
+abstractlivcensusofenglandandwalesmales,ABSTRACT LIV. Census of England and Wales. Males.,,2,sect:2,North India | United Provinces | 1881 | ABSTRACT LII. Religion by Province.—Buddhist.
+iindogangeticplainwest,I.-INDO-GANGETIC PLAIN WEST.,,2,sect:2,North India | Punjab | ? | SUBSIDIARY TABLE I. (Based on Imperial Table VII.) Age distribution of || North India | Punjab | 1931 | SUBSIDIARY TABLE I. (Based on Imperial Table VII.) Age distribution of
+iiisubhimalayan,III.-SUB-HIMALAYAN,,2,sect:2,North India | Punjab | ? | SUBSIDIARY TABLE I. (Based on Imperial Table VII.) Age distribution of || North India | Punjab | 1931 | SUBSIDIARY TABLE I. (Based on Imperial Table VII.) Age distribution of
+subsidiarytablexiconcludedagedistributionofofeachsexbyindividualyearofageaccordingtoactualreturnsincensusschedules,"SUBSIDIARY TABLE XI.—concluded. Age distribution of 100,000 of each Sex by individual year of age according to actual returns in census schedules.",,2,sect:2,"North India | Punjab | 1931 | SUBSIDIARY TABLE XI.—concluded. Age distribution of 100,000 of each Se"
+kurram,KURRAM.,,2,sect:2,"North India | Punjab | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI || Northwest Frontier | Peshawar And Kohat, Kurram, Bannu And Dera Ismail Khan, Hazara, Peshawar, Kohat, Bannu And Dera Ismail Khan | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI"
+subsidiarytableiaunadjustedagereturnofofeachsexrohtakconcld,"SUBSIDIARY TABLE I-A.-Unadjusted age-return of 100,000 of each sex (Rohtak)-concld.","SUBSIDIARY TABLE I-A.—Unadjusted age-return of 100,000 of each sex (Rohtak)—concld.",2,sect:2,"North India | Punjab | 1901 | SUBSIDIARY TABLE I-A.-Unadjusted age-return of 100,000 of each sex (Ro || North India | Punjab | 1901 | SUBSIDIARY TABLE I-A.—Unadjusted age-return of 100,000 of each sex (Ro"
+compositionofmuhammadans,Composition of Muhammadans,,2,sect:2,North India | Punjab | 1911 | Composition of Muhammadans
+subsidiarytableiiichristiansnumberandvariations,SUBSIDIARY TABLE III. Christians. Number and variations.,,2,sect:2,North India | Punjab | 1911 | SUBSIDIARY TABLE III. Christians. Number and variations.
+groupfollowersofreligiousorders,Group 1.—Followers of religious orders :—,,2,sect:2,North India | Punjab | 1911 | HINDU SECTS.
+groupxiii,Group XIII.,Group XIII,2,sect:2,North India | United Provinces | 1901 | SUBSIDIARY TABLE XIV.-Proportion of the sexes by caste-(concluded). || North India | United Provinces | 1901 | SUBSIDIARY TABLE XIV.—Proportion of the sexes by caste—(concluded).
+fromraebarelifollowingfigureswerecollected,From Rae Bareli district the following figures were collected,From Rae Bareli district the following figures were collected—,2,sect:2,"North India | United Provinces | 1931 | GHARDAMADI, GHARJAWAI OR GHARJAMAI."
+tablecvsingleyearagereturnscontd,TABLE C-V Single Year Age Returns-(contd.),,2,sect:2,North India | Uttar Pradesh | 1951 | TABLE C-V Single Year Age Returns-(contd.)
+subsidiarytableistatementshowingdistributionofpersonsofeachsexbyannualageperiods,"SUBSIDIARY TABLE I.-STATEMENT SHOWING DISTRIBUTION OF 100,000 PERSONS OF EACH SEX BY ANNUAL AGE PERIODS.","SUBSIDIARY TABLE I. - STATEMENT SHOWING DISTRIBUTION OF 100,000 PERSONS OF EACH SEX BY ANNUAL AGE PERIODS.",2,sect:2,"North India | Jammu and Kashmir | 1921 | SUBSIDIARY TABLE I.-STATEMENT SHOWING DISTRIBUTION OF 100,000 PERSONS  || North India | Jammu and Kashmir | 1921 | SUBSIDIARY TABLE I. - STATEMENT SHOWING DISTRIBUTION OF 100,000 PERSON"
+mandiandsukethoshiarpurjullundurkapurthala,"Mandi And Suket, Hoshiarpur, Jullundur, Kapurthala",,2,tag:2,"North India | Mandi And Suket, Hoshiarpur, Jullundur, Kapurthala | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI"
+saiyid,Saiyid,,1,row:1,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi
+gujar,Gujar,,1,row:1,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi
+macchimusalman,Macchi (Musalman),,1,row:1,North India | Punjab | 1921 | SUBSIDIARY TABLE III. Distribution by main age-periods and civil condi
+ahirmuslim,AHIR (MUSLIM),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+awanmuslim,AWAN (MUSLIM),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+bilochmuslim,BILOCH (MUSLIM),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+chamaraddharmi,CHAMAR (AD-DHARMI),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+chuhraaddharmi,CHUHRA (AD-DHARMI),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+chuhrachristian,CHUHRA (CHRISTIAN),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+faqirhindu,FAQIR (HINDU),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+faqirmuslim,FAQIR (MUSLIM),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+gujjarmuslim,GUJJAR (MUSLIM),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+jatmuslim,JAT (MUSLIM),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+julahasikh,JULAHA (SIKH),,1,row:1,North India | Punjab | 1931 | Table VIII - Civil Condition
+khokharmusalman,KHOKHAR (MUSALMAN),,1,row:1,North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+malihindu,MALI (HINDU),,1,row:1,North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+mallahmusalman,MALLAH (MUSALMAN),,1,row:1,North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+mughalmusalman,MUGHAL (MUSALMAN),,1,row:1,North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+pakhiwaramusalman,PAKHIWARA (MUSALMAN),,1,row:1,North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+qureshimusalman,QURESHI (MUSALMAN),,1,row:1,North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+sheikhmusalman,SHEIKH (MUSALMAN),,1,row:1,North India | Punjab | 1931 | Table XIV - Civil Condition by Age (for Selected Castes and Tribes)
+jhansidivision,Jhansi Division,,1,row:1,"North India | United Provinces | 1911 | TABLE VII. Age, sex and civil condition (main age/civil condition entr"
+jullundhur,Jullundhur,,1,row:1,North India | Punjab | 1868 | The largest numbers were in
+jhung,Jhung,,1,row:1,North India | Punjab | 1868 | WATER CARRIERS
+bunnoo,Bunnoo,,1,row:1,North India | Punjab | 1868 | WATER CARRIERS
+tenants,"Tenants, """,,1,row:1,North India | Punjab | 1868 | AGRICULTURAL
+frontierilajas,Frontier Ilajas,,1,row:1,"North India | Jammu and Kashmir | 1911 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION)."
+dagiandkolisimlamale,DAGI AND KOLI ... Simla { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+dhobisimlamale,DHOBI ... Simla { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+jattotalmale,JAT ... TOTAL { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+jathoshiarpurmale,JAT ... Hoshiarpur { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+jatferozeporemale,JAT ... Ferozepore { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+jatlyallpurmale,JAT ... Lyallpur { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+jatkapurthalamale,JAT ... Kapurthala { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+kanetsimlamale,KANET ... Simla { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+khatriferozeporemale,KHATRI ... Ferozepore { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+kumharsimlamale,KUMHAR ... Simla { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+loharsimlamale,LOHAR ... Simla { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+mirasitotalmale,MIRASI ... TOTAL { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+mirasisimlamale,MIRASI ... Simla { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+mirasihoshiarpurmale,MIRASI ... Hoshiarpur { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+naihoshiarpurmale,NAI ... Hoshiarpur { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+naikdelhimale,NAIK ... Delhi { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+rajputdelhimale,RAJPUT ... Delhi { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+rajputsimlamale,RAJPUT ... Simla { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+rajputhoshiarpurmale,RAJPUT ... Hoshiarpur { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+sunarkapurthalamale,SUNAR ... Kapurthala { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+tarkhanferozeporemale,TARKHAN ... Ferozepore { Male,,1,row:1,North India | Punjab | ? | 3. DEV DHARM-concluded.
+delhimale,Delhi - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+hoshiarpurmale,Hoshiarpur - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+jullundurmale,Jullundur - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+lahoremale,Lahore - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+amritsarmale,Amritsar - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+gurdaspurmale,Gurdaspur - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+sialkotmale,Sialkot - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+gujranwalamale,Gujranwala - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+gujratmale,Gujrat - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+hissarmale,Hissar - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+kangramale,Kangra - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+karnalmale,Karnal - Male,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIV.-CIVIL CONDITION 1. ARYA-continued.
+sarwanh,Sárwán H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sarwanm,Sárwán M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sarwares,Sarware S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+satranih,Satráni H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sawans,Sáwan S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sedhih,Sedhi H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sedhim,Sedhi M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+selah,Sela H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sewarih,Sewári H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sewarim,Sewári M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+shahnah,Sháhná H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+shakarpurim,Shakarpuri M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+shamsbih,Shamsbi H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+shashanh,Shashan H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sheikhm,Sheikh M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+shinah,Shina H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+shudarh,Shudar H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+siahs,Siáh S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sibh,Sib H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sidhuh,Sidhu H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sindhuh,Sindhu H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sindhum,Sindhu M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sodah,Soda H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sodam,Soda M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sodram,Sodrá M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sohalm,Sohal M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sohans,Sohán S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sokhs,Sokh S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+solm,Sol M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sons,Son S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+songs,Song S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sopalm,Sopal M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sors,Sor S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sotim,Soti M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+sotres,Sotre S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+suds,Sud S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+surajbansih,Surajbansi H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+suris,Suri S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+tanelih,Taneli H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+tanks,Tánk S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+tanurh,Tanur H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+taramih,Tarámi H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+targarh,Targar H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+tasawarm,Tasáwar M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+tawanh,Tawán H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+tekanh,Tekán H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+thakarh,Thákar H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+tindieh,Tindie H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+torh,Tor H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+torm,Tor M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+toriwalm,Toriwál M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+upalh,Upal H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+vabiah,Vabiá H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+vashdevh,Váshdev H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+vedh,Ved H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+vedm,Ved M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+vedom,Vedo M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+vensm,Vens M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+zargars,Zargar S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+zargarmarichah,Zargarmarichá H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+minors,*Minor S,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+unspecifiedh,Unspecified H,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+unspecifiedm,Unspecified M,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+unspecifiedb,Unspecified B,,1,row:1,North India | Punjab | 1911 | APPENDIX TO IMPERIAL TABLE XIII.
+restofprovince,The rest of province,,1,row:1,North India | United Provinces | 1881 | Distribution by Age of the Population of the Districts in which the ex
+inwhichfemalesareinexcessfemales,Districts in which females are in excess. Females,,1,row:1,North India | United Provinces | 1881 | Distribution by Age of the Population of the Districts in which the ex
+restofprovincefemales,The rest of the province. Females,The rest of province Females,1,row:2,North India | United Provinces | 1881 | Distribution by Age of the Population of the Districts in which the ex
+mirzapurfemales,Mirzapur Females,,1,row:1,North India | United Provinces | 1881 | Distribution by Age of the Population of the Districts in which the ex
+gorakhpurfemales,Gorakhpur Females,,1,row:1,North India | United Provinces | 1881 | Distribution by Age of the Population of the Districts in which the ex
+balliafemales,Ballia Females,,1,row:1,North India | United Provinces | 1881 | Distribution by Age of the Population of the Districts in which the ex
+garhwalfemales,Garhwal Females,,1,row:1,North India | United Provinces | 1881 | Distribution by Age of the Population of the Districts in which the ex
+raebarelidivisionfemales,Rae Bareli Division Females,,1,row:1,North India | United Provinces | 1881 | Distribution by Age of the Population of the Districts in which the ex
+americanepiscopalianmethodist,American Episcopalian Methodist,,1,row:1,"North India | United Provinces | 1881 | Abstract of Form IIIA., showing the sects of the Christians and others"
+syrians,Syrians,,1,row:1,"North India | United Provinces | 1881 | Abstract of Form IIIA., showing the sects of the Christians and others"
+lutherans,Lutherans,,1,row:1,"North India | United Provinces | 1881 | Abstract of Form IIIA., showing the sects of the Christians and others"
+evangelicals,Evangelicals,,1,row:1,"North India | United Provinces | 1881 | Abstract of Form IIIA., showing the sects of the Christians and others"
+sectunspecified,Sect unspecified,,1,row:1,"North India | United Provinces | 1881 | Abstract of Form IIIA., showing the sects of the Christians and others"
+spiritualists,Spiritualists,,1,row:1,"North India | United Provinces | 1881 | Abstract of Form IIIA., showing the sects of the Christians and others"
+gujars,Gujars,,1,row:1,North India | United Provinces | 1881 | Hindu converts to Islam
+kewat,Kewat,,1,row:1,North India | United Provinces | 1931 | TABLE VIII. Civil condition by age
+barai,Barai,,1,row:1,North India | United Provinces | 1931 | TABLE VIII. Civil condition by age
+luniya,Luniya,,1,row:1,North India | United Provinces | 1931 | TABLE VIII. Civil condition by age
+murao,Murao,,1,row:1,North India | United Provinces | 1931 | TABLE VIII. Civil condition by age
+khatik,Khatik,,1,row:1,North India | United Provinces | 1931 | TABLE VIII. Civil condition by age
+lodh,Lodh,,1,row:1,North India | United Provinces | 1931 | TABLE VIII. Civil condition by age
+submontanetract,The Sub-montane tract,,1,row:1,North India | Jammu and Kashmir | 1921 | Kashmir State
+hustinapore,Hustinapore,,1,row:1,"North India | Meerut District | 1872 | TABLE M.IX. Statement showing Children from 0 to 1, and from 1 to less"
+entirestatehindu,ENTIRE STATE - Hindu,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+entirestatesikh,ENTIRE STATE - Sikh,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+isubmontaneandsemimountainoustractallreligions,I.-THE SUBMONTANE and SEMI-MOUNTAINOUS TRACT - All Religions,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+isubmontaneandsemimountainoustractmusalman,I.-THE SUBMONTANE and SEMI-MOUNTAINOUS TRACT - Musalman,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+isubmontaneandsemimountainoustractbudhist,I.-THE SUBMONTANE and SEMI-MOUNTAINOUS TRACT - Budhist,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+iiouterhillshindu,II.-THE OUTER HILLS - Hindu,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+iiouterhillssikh,II.-THE OUTER HILLS - Sikh,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+jammuprovinceallreligions,JAMMU PROVINCE - All Religions,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+jammuprovincemusalman,JAMMU PROVINCE - Musalman,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+jammuprovincebudhist,JAMMU PROVINCE - Budhist,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+iiijhelumvalleykashmirprovincehindu,III.-THE JHELUM VALLEY (KASHMIR PROVINCE) - Hindu,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+iiijhelumvalleykashmirprovincesikh,III.-THE JHELUM VALLEY (KASHMIR PROVINCE) - Sikh,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+ivindusvalleyfrontierallreligions,IV.-THE INDUS VALLEY (FRONTIER DISTRICTS) - All Religions,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+ivindusvalleyfrontiermusalman,IV.-THE INDUS VALLEY (FRONTIER DISTRICTS) - Musalman,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+ivindusvalleyfrontierbudhist,IV.-THE INDUS VALLEY (FRONTIER DISTRICTS) - Budhist,,1,row:1,North India | Jammu and Kashmir | 1911 | SUBSIDIARY TABLE IV-Proportion of the sexes by civil condition at cert
+uttarpradeshhillsandplateaudivision,Uttar Pradesh Hills and Plateau Division,,1,row:1,"North India | Uttar Pradesh | 1951 | SUBSIDIARY TABLE 6.7 Marital Status of 1,000 of each sex of General Po"
+bharaimusalman,BHARAI (MUSALMAN),,1,row:1,North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+chhimbamusalman,CHHIMBA (MUSALMAN),,1,row:1,North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+dogarmusalman,DOGAR (MUSALMAN),,1,row:1,North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+gujjarmusalman,GUJJAR (MUSALMAN),,1,row:1,North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+jhiwarmusalman,JHIWAR (MUSALMAN),,1,row:1,North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+kambohkambojsikh,KAMBOH (KAMBOJ) (SIKH),,1,row:1,North India | Punjab | 1931 | TABLE XIV.-CIVIL CONDITION BY AGE
+phulkianstates,Phulkian States,,1,row:1,North India | Punjab | 1931 | TABLE XV.—TERRITORIAL DISTRIBUTION OF CHRISTIAN POPULATION BY SECT AND
+brethreninchristmission,Brethren in Christ Mission,,1,row:1,North India | Punjab | 1931 | TABLE XV. TERRITORIAL DISTRIBUTION OF THE CHRISTIAN POPULATION BY SECT
+churchofindia,Church of India,,1,row:1,North India | Punjab | 1931 | TABLE XV. TERRITORIAL DISTRIBUTION OF THE CHRISTIAN POPULATION BY SECT
+seventhdayadventist,Seventh Day Adventist,,1,row:1,North India | Punjab | 1931 | TABLE XV. TERRITORIAL DISTRIBUTION OF THE CHRISTIAN POPULATION BY SECT
+protestant,Protestant,,1,row:1,North India | Punjab | 1931 | TABLE XV. TERRITORIAL DISTRIBUTION OF THE CHRISTIAN POPULATION BY SECT
+punjabincludingnativestatesmohammaad,Punjab including the Native States. Mohammaad,,1,row:1,North India | Punjab | 1901 | SUBSIDIARY TABLE VII-D.-The number of children of each sex of ages 0-1
+easternplains,Eastern Plains,,1,row:1,North India | Punjab | 1881 | TABLE No. XIV-continued. Statement showing the number of persons of un
+shin,Shin,,1,row:1,North India | Jammu and Kashmir | 1931 | CIVIL CONDITION BY AGE
+brukpa,Brukpa,,1,row:1,North India | Jammu and Kashmir | 1931 | CIVIL CONDITION BY AGE
+sanai,Sanai,,1,row:1,North India | Jammu and Kashmir | 1931 | CIVIL CONDITION BY AGE
+miani,Miani,,1,row:1,North India | Punjab | 1911 | TOWNS AND VILLAGES
+kalanaur,Kalanaur,,1,row:1,North India | Punjab | 1911 | TOWNS AND VILLAGES
+nawashahr,Nawashahr,,1,row:1,North India | Punjab | 1911 | TOWNS AND VILLAGES
+basi,Basi,,1,row:1,North India | Punjab | 1911 | TOWNS AND VILLAGES
+anandpur,Anandpur,,1,row:1,North India | Punjab | 1911 | TOWNS AND VILLAGES
+dasuya,Dasuya,,1,row:1,North India | Punjab | 1911 | TOWNS AND VILLAGES
+nwdryarea,N.-W. Dry Area,,1,row:1,"North India | Punjab | 1911 | AREA, POPULATION AND DENSITY"
+balapir,Bálá Pír,,1,row:1,North India | Punjab | 1911 | Bálmiki Sects
+bhairakkha,Bhái Rakkhá,,1,row:1,North India | Punjab | 1911 | Bálmiki Sects
+chuhra,Chuhrá,,1,row:1,North India | Punjab | 1911 | Bálmiki Sects
+nastik,Nástik,,1,row:1,North India | Punjab | 1911 | HINDU SECTS.
+thosewhodenysupremacyofbrahmans,Those who- (1) deny the supremacy of Brahmans,,1,row:1,North India | Punjab | 1911 | Tests prescribed by the Census Commissioner
+donotreceivemantrafrombrahmanorotherrecognizedhinduguru,(2) do not receive the Mantra from Brahman or other recognized Hindu Guru,,1,row:1,North India | Punjab | 1911 | Tests prescribed by the Census Commissioner
+donotworshipgreathindugods,(4) do not worship the great Hindu gods,,1,row:1,North India | Punjab | 1911 | Tests prescribed by the Census Commissioner
+havenobrahmanpriestsatall,(6) have no Brahman priests at all,,1,row:1,North India | Punjab | 1911 | Tests prescribed by the Census Commissioner
+causepollutionabytouch,"(8) cause pollution, (a) by touch",,1,row:1,North India | Punjab | 1911 | Tests prescribed by the Census Commissioner
+burytheirdead,(9) bury their dead,,1,row:1,North India | Punjab | 1911 | Tests prescribed by the Census Commissioner
+keshdhari,Keshdhari,,1,row:1,North India | Punjab | 1911 | Sects Analogous to other Religions
+sahajdhari,Sahajdhari,,1,row:1,North India | Punjab | 1911 | Sects Analogous to other Religions
+hazuri,Hazúri,,1,row:1,North India | Punjab | 1911 | 217. The sects of Sikhs
+mazhabi,Mazhabi,,1,row:1,North India | Punjab | 1911 | 217. The sects of Sikhs
+nanakpanthi,Nánakpanthi,,1,row:1,North India | Punjab | 1911 | 217. The sects of Sikhs
+ramraiorramraia,Rám Rái or Rám Ráia,,1,row:1,North India | Punjab | 1911 | 217. The sects of Sikhs
+tatkhalsaincludingkhalsa,Tat Khálsa (including Khálsa),,1,row:1,North India | Punjab | 1911 | 217. The sects of Sikhs
+aggarwaleasternpunjab,AGGARWAL - Eastern Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+ahirpunjab,AHIR - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+arainpunjab,ARAIN - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+arorapunjab,ARORA - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+arorawesternpunjab,ARORA - Western Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+awanwesternpunjab,AWAN - Western Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+barwalalahoredivision,BARWALA - Lahore Division,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+bawariaferozepore,BAWARIA - Ferozepore District,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+bharaipunjab,BHARAI - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+bilochpunjab,BILOCH - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+brahmanpunjab,BRAHMAN - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+chhimbapunjab,CHHIMBA - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+chuhrapunjab,CHUHRA - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+chuhracentralpunjabplains,CHUHRA - Central Punjab Plains,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+dagiandkolicentralpunjabhills,DAGI AND KOLI - Central Punjab Hills,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+dhanakeasternpunjab,DHANAK - Eastern Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+dhobiwesternpunjab,DHOBI - Western Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+dogarcentralpunjabplains,DOGAR - Central Punjab Plains,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+dumnacentralpunjabhills,DUMNA - Central Punjab Hills,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+faqirpnnjab,FAQIR - Pnnjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+ghirathkangra,GHIRATH - Kangra District,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+harnipunjab,HARNI - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+jatpunjab,JAT - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+jhinwarcentralpunjabplains,JHINWAR - Central Punjab Plains,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+jogirawalcentralpunjabplains,JOGI-RAWAL - Central Punjab Plains,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+julahakangra,JULAHA - Kangra District,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+kambohmontgomery,KAMBOH - Montgomery District,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+kanetpunjab,KANET - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+kashmiripunjab,KASHMIRI - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+kashmirirawalpindidivision,KASHMIRI - Rawalpindi Division,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+khatricentralpunjabplains,KHATRI - Central Punjab Plains,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+khojapunjab,KHOJA - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+khokharpunjab,KHOKHAR - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+kumharpunjab,KUMHAR - Punjab,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+kumharcentralpunjabplains,KUMHAR - Central Punjab Plains,,1,row:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE Distribution by Civil Condition of 1,000 of each sex"
+nwpandoudhallreligions,N.-W. P. and Oudh All religions,,1,row:1,North India | United Provinces | 1901 | Prevalence of marriage
+nwpandoudhmuhammadans,N.-W. P. and Oudh Muhammadans,,1,row:1,North India | United Provinces | 1901 | Prevalence of marriage
+punjabstatesagency,Punjab States Agency,,1,row:1,"North India | United Provinces | 1931 | Age groups 1901 to 1931 (1891 = 100,000)."
+deviation,Deviation,,1,row:1,North India | United Provinces | 1901 | ACTUARIAL REPORT. / TABLE X. 1901 Males.
+acklandsorderofrecord,Ackland's order of record,,1,row:1,North India | United Provinces | 1901 | ACTUARIAL REPORT. / TABLE X. 1901 Males.
+punjabpopulationsubzonetotal,PUNJAB POPULATION SUB-ZONE. TOTAL,,1,row:1,North India | Punjab | ? | TALE C-III Age and
+simlatotal,Simla. Total,,1,row:1,North India | Punjab | ? | TALE C-III Age and
+hissartotal,Hissar. Total,,1,row:1,North India | Punjab | ? | TALE C-III Age and
+gurgaontotal,Gurgaon. Total,,1,row:1,North India | Punjab | ? | TALE C-III Age and
+jalandhar,Jalandhar,,1,row:1,"North India | Punjab | 1881 | Abstract No. 12, showing the Distribution of the Urban, Rural, and Tot"
+dehraismailkhan,Dehra Ismail Khan,,1,row:1,"North India | Punjab | 1881 | Abstract No. 12, showing the Distribution of the Urban, Rural, and Tot"
+khaibarpass,Khaibar Pass,,1,row:1,"North India | Punjab | 1881 | Abstract No. 12, showing the Distribution of the Urban, Rural, and Tot"
+norfolkshire,Norfolkshire,,1,row:1,North India | Punjab | 1881 | THE DISTRIBUTION OF THE PEOPLE. Part II.—Distribution among Districts 
+saxony,Saxony,,1,row:1,"North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+wurttemberg,Wurttemberg,,1,row:1,"North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+bombayproper,Bombay Proper,,1,row:1,"North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+bavaria,Bavaria,,1,row:1,"North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+austrianempire,Austrian Empire,,1,row:1,"North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+panjabnativestates,Panjab Native States,,1,row:1,"North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+panjabhillstates,Panjab Hill States,,1,row:1,"North India | Punjab | 1881 | Abstract No. 13, showing Area, Population, and Density for Panjab Divi"
+newdelhicity,New Delhi City,,1,row:1,North India | Delhi | 1931 | TABLE XIX.-EUROPEAN AND ALLIED RACES AND ANGLO-INDIANS BY RACE AND AGE
+populationtotal,POPULATION. TOTAL,,1,colg:1,North India | Punjab | 1931 | Table VIII - Education by Religion and Age. Part A - Provincial Summar
+uninhabitedvillages,Uninhabited villages,,1,colg:1,North India | Punjab | 1853 | Uninhabited villages in the former Census
+punjabanddelhi,PUNJAB AND DELHI 1921,PUNJAB AND DELHI 1911 | PUNJAB AND DELHI 1901 | PUNJAB AND DELHI 1891,1,colg:5,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Age distribution of 10,000 of each sex in each m"
+deathratepermille,Death-rate per mille,,1,colg:1,North India | United Provinces | 1881 | Percentage in age groups.
+product,Product,,1,colg:1,"North India | United Provinces | 1871 | English Census, 1871."
+hindisejatki,Hindí S. E. (Jatkí),,1,colg:1,North India | Punjab | 1881 | Hindustání Hindí
+populationleft,POPULATION. (Left),,1,colg:1,North India | Jammu and Kashmir | 1931 | SUBSIDIARY TABLE VI. VARIATION IN POPULATION AT CERTAIN AGE-PERIODS.
+averageofperiod,AVERAGE OF PERIOD. 1911-1917,AVERAGE OF PERIOD. 1918-1920,1,colg:2,North India | Punjab | 1921 | SUBSIDIARY TABLE V. Reported death-rate per mille in certain Provinces
+albumen,Albumen,,1,colg:1,North India | United Provinces | 1871 | Table showing the Nutritive Value of forty-six ounces of Beijur.
+starches,Starches,,1,colg:1,North India | United Provinces | 1871 | Table showing the Nutritive Value of forty-six ounces of Beijur.
+naturaldivisions,NATURAL DIVISIONS,,1,colg:1,North India | Jammu and Kashmir | 1911 | Sex and religion
+lahorecity,Lahore City,,1,colg:1,"North India | Punjab | 1931 | Age distribution of 1,000 of both sexes"
+differencepermille,Difference per mille,,1,colg:1,North India | Punjab | 1931 | Proportion of widows per mille of all females at different age-periods
+kangraandrawalpindi,KANGRA AND RAWALPINDI,,1,colg:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE XVIII.--Polyandry in Kangra, Rawalpindi and the Nativ"
+strength,Strength,,1,colg:1;sect:1,North India | Punjab | 1911 | Strength
+sahjdhari,Sahjdhári,,1,colg:1,North India | Punjab | 1911 | Sects of Sikhs
+shaiva,SHAIVA,SHAIVA.,1,colg:1;sect:1,North India | Punjab | 1911 | HINDU SECTS.
+numberofahmadisnowreturnedisgiveninmargin,The number of Ahmadis now returned is given in the margin,The number of Ahmadis now returned is given in the margin.,1,colg:1;sect:1,North India | Punjab | 1911 | The number of Ahmadis now returned is given in the margin.
+masalmans,Masalmans,,1,colg:1,North India | United Provinces | 1901 | SUBSIDIARY TABLE VI.-Showing births by religions registered in the N.-
+adultsageyearsandover,Adults (age 21 years and over),,1,colg:1,North India | Uttar Pradesh | 1951 | HOUSEHOLDS in households Civil condition
+isubmontaneandsemimountainoustract,I.-THE SUBMONTANE AND SEMI-MOUNTAINOUS TRACT,,1,colg:1,"North India | Jammu and Kashmir | 1921 | SUBSIDIARY TABLE III-NUMBER OF FEMALES PER 1,000 MALES AT DIFFERENT AG"
+iiijhelumvalleykashmirprovince,III.-THE JHELUM VALLEY (KASHMIR PROVINCE),,1,colg:1,"North India | Jammu and Kashmir | 1921 | SUBSIDIARY TABLE III-NUMBER OF FEMALES PER 1,000 MALES AT DIFFERENT AG"
+populationofgroupsoftownsandvillagesbritishterritory,Population of GROUPS OF TOWNS AND VILLAGES. - British Territory,,1,colg:1,"North India | Punjab | 1881 | Abstract No. 4, showing the Distribution of Population over Towns and "
+populationofgroupsoftownsandvillagesprovince,Population of GROUPS OF TOWNS AND VILLAGES. - Province,,1,colg:1,"North India | Punjab | 1881 | Abstract No. 4, showing the Distribution of Population over Towns and "
+squaremiles,Square miles,,1,colg:1,North India | Punjab | 1881 | THE DISTRIBUTION OF THE PEOPLE. Part II.—Distribution among Districts 
+sanatandharm,Sanatan Dharm,,1,colg:1,North India | Punjab | 1911 | MAIN RELIGIONS - continued.
+ied,ied.,,1,sect:1,"North India | United Provinces | 1931 | Table VII - Age, Sex and Civil Condition by Religion. Part C - Cities "
+detailsforalltotal,Details For · All / Total,,1,sect:1,"North India | Punjab | 1931 | Table VII - Age, Sex and Civil Condition (by Religion). Part B - Detai"
+britishbrahmos,British Districts-(4) Brahmos.,,1,sect:1,"North India | United Provinces | 1911 | TABLE VII. (1) All Religions. Age, sex and civil conditions (multi-pag"
+subsidiarytablexdistributionbycivi,SUBSIDIARY TABLE X.—Distribution by civi,,1,sect:1,North India | Punjab | 1901 | TABLE VII (new pages)
+muhammadans,(4) Muhammadans.,,1,sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+hinditable,Hindi Table,,1,sect:1,North India | Uttar Pradesh | 1951 | TABLE C-IV Age and Literacy
+pep,Pep,,1,sect:1,North India | Punjab | 1951 | TABLE C-II Livelihood Classes (by age groups)
+second,DISTRICT (Second),,1,sect:1,North India | Punjab | 1951 | TABLE C-II Livelihood Classes (by age groups)
+armeniansbyagebytablex,Armenians by age (by Districts). TABLE X,,1,sect:1,North India | United Provinces | 1911 | TABLE XVI(a). Europeans and Allied races / Armenians by age (by Distri
+devdharm,Dev Dharm.,,1,sect:1,"North India | Delhi | 1931 | TABLE XIV-A - LITERACY BY CASTES OF CERTAIN SECTS (VEDIC DHARM, BRAHMO"
+tabularstatementofblindpeopleatroopurcontinued,Tabular Statement of blind people at Roopur.—(Continued),,1,sect:1,North India | Punjab | 1868 | Tabular Statement of blind people at Roopur.—(Continued)
+numberofeuropeanswasincludingarmy,"The number of Europeans was 17,574, including the army:—",,1,sect:1,North India | Punjab | 1868 | The totals under each of the six classes are as follows :
+occupationstatementshowsthatnumberofmalesdeductinginfantsinclasseswhomaybesupposedtobeabletoreadandwriteisabout,"The occupation statement shows that the number of the males, deducting infants, in the classes, who may be supposed to be able to read and write, is about 295,000.",,1,sect:1,North India | Punjab | 1868 | The totals under each of the six classes are as follows :
+returnofjagheerdarsorrevenuefreeholders,"Return of Jagheerdars, or Revenue Free-holders",,1,sect:1,"North India | Punjab | 1868 | Return of Jagheerdars, or Revenue Free-holders"
+uninhabitedvillagesinformercensus,Uninhabited villages in the former Census,,1,sect:1,North India | Punjab | 1853 | Uninhabited villages in the former Census
+frontierforcenumbered,The Frontier Force numbered,,1,sect:1,North India | Punjab | 1868 | Occupations
+jagheerdars,JAGHEERDARS,,1,sect:1,North India | Punjab | 1868 | 
+travellers,TRAVELLERS,,1,sect:1,North India | Punjab | 1868 | 
+ientirestateallreligions,(i) ENTIRE STATE. All Religions.,,1,sect:1,"North India | Jammu and Kashmir | 1911 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part I-Provincial"
+iijammuprovincehinduarya,(ii) JAMMU PROVINCE. Hindu (Arya).,,1,sect:1,North India | Jammu and Kashmir | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE. Part I-Provincial Tables.
+iijammuprovincejain,(ii) JAMMU PROVINCE. Jain.,,1,sect:1,North India | Jammu and Kashmir | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE. Part I-Provincial Tables.
+iijammuprovincezoroastrian,(ii) JAMMU PROVINCE. Zoroastrian.,,1,sect:1,North India | Jammu and Kashmir | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE. Part I-Provincial Tables.
+iijammuprovincechristian,(ii) JAMMU PROVINCE. Christian.,,1,sect:1,North India | Jammu and Kashmir | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE. Part I-Provincial Tables.
+tablexiiainfirmitiesbyselectedcastestribesorraces,"TABLE XII-A. INFIRMITIES BY SELECTED CASTES, TRIBES OR RACES.",,1,sect:1,"North India | Jammu and Kashmir | 1911 | TABLE XII-A. INFIRMITIES BY SELECTED CASTES, TRIBES OR RACES."
+bottomsectionsubhimalayanandnorthwestdryarea,Bottom Section (Sub-Himalayan and North West Dry Area),,1,sect:1,"North India | Punjab | 1921 | SUBSIDIARY TABLE III. Number of females per 1,000 males at different a"
+summaryofdeathrates,Summary of death-rates.,,1,sect:1,North India | United Provinces | 1881 | Summary of death-rates.
+detaileddeathratesforagesproportionaltoitalian,Detailed death-rates for ages proportional to Italian,,1,sect:1,North India | United Provinces | 1881 | Summary of death-rates.
+slightadvantageateachendofseriesmaybeconvenientlyshowninfollowinggrouping,The slight advantage at each end of the series may be conveniently shown in the following grouping :-,,1,sect:1,North India | United Provinces | 1881 | The Ages of the Hindus and Muhammadans.
+approximateratesforeachdecadeuptofortiethyear,approximate rates for each decade up to the fortieth year,,1,sect:1,North India | United Provinces | 1881 | Percentage in age groups.
+followingabstractshowsdistributionofchristianpopulationaccordingtorace,The following abstract shows the distribution of the Christian population according to race :-,,1,sect:1,North India | United Provinces | 1881 | The following abstract shows the distribution of the Christian populat
+comparativestatementofnumberofeurasiansreturnedatpresentandpreviouscensus,Comparative Statement of the number of Eurasians returned at the present and previous Census.,,1,sect:1,North India | United Provinces | 1881 | The following abstract shows the distribution of the Christian populat
+byreligionpartbandstatefiguresconcludedtablevii,by Religion. PART B.-District and State Figures-(concluded). TABLE VII.,,1,sect:1,North India | United Provinces | 1931 | by Religion. PART B.-District and State Figures-(concluded). TABLE VII
+allreligions,(1) All Religions.,,1,sect:1,"North India | United Provinces | 1931 | TABLE VII. Age, Sex and Civil Condition. Part A-"
+distributedbyoccupationandage,distributed by occupation and age.,,1,sect:1,North India | United Provinces | 1891 | distributed by occupation and age.
+anorthwesternpart,A.-North-Western (Part 1),A.-North-Western (Part 2),1,sect:2,North India | United Provinces | 1891 | APPENDIX Showing the Provincial Totals for
+subsidiarytableiinumberafflictedperpersonsofeachageperiodandnumberoffemalesafflictedpermales,"SUBSIDIARY TABLE II. Number afflicted per 100,000 persons of each age-period and number of females afflicted per 1,000 males.",,1,sect:1,"North India | Jammu and Kashmir | 1931 | SUBSIDIARY TABLE II. Number afflicted per 100,000 persons of each age-"
+tableoflongevityjammuandkashmirgovernmentcensusright,"TABLE OF LONGEVITY, JAMMU AND KASHMIR GOVERNMENT CENSUS '1931' - Right",,1,sect:1,North India | Jammu and Kashmir | 1931 | SUBSIDIARY TABLE VI. VARIATION IN POPULATION AT CERTAIN AGE-PERIODS.
+kathuablock,(2) KATHUA. - Block 1,(2) KATHUA. - Block 2 | (2) KATHUA. - Block 3 | (2) KATHUA. - Block 4,1,sect:5,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part II-District "
+riasihindu,(4) RIASI. Hindu,,1,sect:1,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part II-District "
+riasijain,(4) RIASI. Jain,,1,sect:1,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part II-District "
+mirpurallreligions,(5) MIRPUR. All Religions,,1,sect:1,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part II-District "
+kashmirsouthhindu,(9) KASHMIR SOUTH. - Hindu.,,1,sect:1,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION."
+muzzaffarabad,(10) MUZZAFFARABAD,,1,sect:1,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part II-District "
+udhampurallreligions,(3) UDHAMPUR. All Religions.,,1,sect:1,"North India | Jammu and Kashmir | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part II—District "
+firstsectionunnamed,First Section (Unnamed),,1,sect:1,"North India | Jammu and Kashmir | 1931 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part I-Provincial"
+ivfrontier,(iv) FRONTIER DISTRICTS,,1,sect:1,"North India | Jammu and Kashmir | 1931 | TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part I-Provincial"
+abstractxlvii,ABSTRACT XLVII.,,1,sect:1,North India | United Provinces | 1881 | ABSTRACT XLVI. The Per-centage on the Total Population of the same Sex
+abstractlreligionbyprovinceshindoosmales,ABSTRACT L. Religion by Provinces.—Hindoos. Males.,,1,sect:1,North India | United Provinces | 1881 | ABSTRACT L. Religion by Provinces.—Hindoos. / ABSTRACT LI. Religion by
+abstractlireligionbyprovincesmahommedanmales,ABSTRACT LI. Religion by Provinces.—Mahommedan. Males.,,1,sect:1,North India | United Provinces | 1881 | ABSTRACT L. Religion by Provinces.—Hindoos. / ABSTRACT LI. Religion by
+abstractliireligionbyprovincebuddhistmales,ABSTRACT LII. Religion by Province.—Buddhist. Males.,,1,sect:1,North India | United Provinces | 1881 | ABSTRACT LII. Religion by Province.—Buddhist.
+abstractliiireligionbyprovinceschristiansfemales,ABSTRACT LIII. Religion by Provinces.—Christians. Females.,,1,sect:1,North India | United Provinces | 1881 | ABSTRACT LII. Religion by Province.—Buddhist.
+dietofmalelabouringprisoner,Diet of Male Labouring Prisoner.,,1,sect:1,North India | United Provinces | 1871 | Table showing the Nutritive Value of forty-six ounces of Beijur.
+tablemixstatementshowingchildrenfromtoandfromtolessthanyearsforpergunnahsofmeerut,"TABLE M.IX. Statement showing Children from 0 to 1, and from 1 to less than 2 years, for the pergunnahs of the Meerut District.",,1,sect:1,"North India | Meerut District | 1872 | TABLE M.IX. Statement showing Children from 0 to 1, and from 1 to less"
+srinagarcity,SRINAGAR CITY,,1,sect:1,"North India | Jammu and Kashmir | 1911 | APPENDIX V Age distribution (in every 10,000) in cities compared with "
+sexandreligion,Sex and religion,,1,sect:1,North India | Jammu and Kashmir | 1911 | Sex and religion
+literacyincitiesbyage,Literacy in cities by age,,1,sect:1,North India | Jammu and Kashmir | 1911 | LITERACY IN CITIES
+appendixviitermsofrelationship,APPENDIX VII-Terms of relationship,,1,sect:1,North India | Jammu and Kashmir | 1911 | APPENDIX VII-Terms of relationship
+increaseordecreasepercentduringdecade,Increase or decrease per cent. during the decade 1921-1931.,,1,sect:1,North India | Punjab | 1931 | Increase or decrease per cent. during the decade 1921-1931.
+nativestateschristians,Native States-(7) Christians.,,1,sect:1,North India | United Provinces | 1911 | Native States-(7) Christians.
+nativestatesjains,Native States-(4) Jains.,,1,sect:1,North India | United Provinces | 1911 | TABLE VII.
+dujanahindus,Dujana - Hindus,,1,sect:1,North India | Punjab | 1901 | TABLE VIII.-Education. PART II.-DISTRICT TABLES.
+loharuhindus,Loharu - Hindus,,1,sect:1,North India | Punjab | 1901 | Education.
+bilaspurnalagarhkeonthalbaghaljabbalandminorhillstates,"BILASPUR, NALAGARH, KEONTHAL, BAGHAL, JABBAL AND MINOR HILL STATES.",,1,sect:1,"North India | Punjab | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (ALL RELIGIONS). PART II.-DIST"
+chenabcolony,CHENAB COLONY.,,1,sect:1,"North India | Punjab | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION (BY RELIGION). PART II.-DISTRI"
+iiiunhealthytracts,(III) UNHEALTHY TRACTS.,,1,sect:1,North India | Punjab | 1901 | (III) UNHEALTHY TRACTS.
+subsidiarytablexviiipolyandryinkangrarawalpindiandnativestateofbashahr,"SUBSIDIARY TABLE XVIII.--Polyandry in Kangra, Rawalpindi and the Native State of Bashahr.",,1,sect:1,"North India | Punjab | 1911 | SUBSIDIARY TABLE XVIII.--Polyandry in Kangra, Rawalpindi and the Nativ"
+excludingcity,District (excluding the City),,1,sect:1,"North India | Punjab | 1901 | SUBSIDIARY TABLE III-C.-Distribution of 10,000 of each sex in the Dist"
+xiiacontinued,XII A-continued,,1,sect:1,North India | Punjab | 1881 | XII A-continued
+viiiforselectedcastes,VIII. FOR SELECTED CASTES.,,1,sect:1,North India | Jammu and Kashmir | 1931 | VIII. FOR SELECTED CASTES.
+classificationoftahsilsaccordingtodensity,Classification of Tahsils according to density,,1,sect:1,North India | Punjab | 1911 | Classification of Tahsils according to density
+sectsofsikhs,Sects of Sikhs,,1,sect:1,North India | Punjab | 1911 | Sects of Sikhs
+sunnisectsreturnedatrecentcensusarecomparedinmarginwithfiguresof,The Sunni sects returned at the recent Census are compared in the margin with the figures of 1891.,,1,sect:1,North India | Punjab | 1911 | The Sunni sects returned at the recent Census are compared in the marg
+generaldistributionofpopulationbyreligion,General distribution of population by religion,,1,sect:1,North India | Punjab | 1911 | General distribution of population by religion
+secondmargintableuntouchablecastes,Second Margin Table (Untouchable castes),,1,sect:1,North India | Punjab | 1911 | HINDUS-WORSHIP.
+figures,District figures,,1,sect:1,North India | Punjab | 1901 | Aryas returned as
+menialcastes,Menial castes.,,1,sect:1,North India | Punjab | 1911 | The castes from which members of the Arya Samaj are chiefly drawn
+reformers,Reformers,,1,sect:1,North India | Punjab | 1911 | Detailed figures for the sects are given in Table VI A and the totals 
+subsidiarytablevdistributionofchristianspermillearacesbysectandbsectsbyrace,SUBSIDIARY TABLE V. Distribution of Christians per mille (a) races by sect and (b) sects by race.,,1,sect:1,North India | Punjab | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers).
+aall,A—ALL,,1,sect:1,North India | United Provinces | 1901 | SUBSIDIARY TABLE XVIII.—Distribution by Civil Condition and main age
+cmuhamma,C.—MUHAMMA-,,1,sect:1,North India | United Provinces | 1901 | SUBSIDIARY TABLE XVIII.—Distribution by Civil Condition and main age
+subsidiarytablevashowingdeathsoffemalestomalesatcertainageperiodsforyears,"SUBSIDIARY TABLE VA.-Showing the deaths of females to 1,000 males at certain age periods for 10 years 1891-1900.",,1,sect:1,North India | United Provinces | 1901 | SUBSIDIARY TABLE V.-Showing deaths registered according to age and sex
+subsidiarytableviishowingdeathsregisteredaccordingtoreligionsinnorthwesternprovincesandoudhduring,SUBSIDIARY TABLE VII.-Showing deaths registered according to religions in the North-Western Provinces and Oudh during 1891-1900.,,1,sect:1,North India | United Provinces | 1901 | SUBSIDIARY TABLE VI.-Showing births by religions registered in the N.-
+djains,D.-JAINS.,,1,sect:1,North India | United Provinces | 1901 | SUBSIDIARY TABLE XVII.-Distribution by Civil Condition and main age pe
+faryas,F.-ARYAS.,,1,sect:1,North India | United Provinces | 1901 | SUBSIDIARY TABLE XVII.-Distribution by Civil Condition and main age pe
+byreligionsbfigurestablevii,by Religions (B. District figures). TABLE VII.,,1,sect:1,North India | United Provinces | 1911 | by Religions (B. District figures). TABLE VII.
+distributionofburmaagegroupsplottedonindia,Distribution of Burma age groups 1931 Plotted on INDIA = 100,,1,sect:1,North India | United Provinces | 1931 | CHAPTER IV. - AGE.
+householdsinhouseholdscivilcondition,HOUSEHOLDS in households Civil condition,,1,sect:1,North India | Uttar Pradesh | 1951 | HOUSEHOLDS in households Civil condition
+censusdivisionsandappointmentofstaff,Census divisions and appointment of staff,,1,sect:1,North India | Uttar Pradesh | 1951 | Census divisions and appointment of staff
+subsidiarytableviproportionofsexesbycivilconditionforreligionsandnaturaldivisions,Subsidiary Table VI. Proportion of the sexes by Civil Condition for Religions and Natural Divisions.,,1,sect:1,North India | Jammu and Kashmir | 1901 | Subsidiary Table VI. Proportion of the sexes by Civil Condition for Re
+punjabpopulation,PUNJAB POPULATION,,1,sect:1,North India | Punjab | 1951 | TABLE C-II Livelihood classes
+civilconditiontableciii,Civil Condition. TABLE C-III,,1,sect:1,North India | Punjab | 1951 | Civil Condition. TABLE C-III
+summaryoforderofinrespectofmagnitudeofpopulation,Summary of the order of districts in respect of magnitude of population,,1,sect:1,North India | Punjab | 1881 | Part II.—Distribution among Districts and States.
+aprovincialtotals,(A) Provincial totals,,1,sect:1,"North India | United Provinces | 1911 | TABLE VII. Age, sex and civil condition."
+byreligionbfiguresconcludedtablevii,by Religion-(B. District figures)-(concluded). TABLE VII.,,1,sect:1,North India | United Provinces | 1911 | by Religion-(B. District figures)-(concluded). TABLE VII.
+chritsian,CHRITSIAN,,1,sect:1,"North India | Maler Kotla State | 1911 | TABLE VII.-AGE, SEX PART B.-DETAILS FOR DISTRICTS AND STATES."
+chapterviicivilconditionofeachsexatcertainagesforselectedcastesdistributionoffemalesofeachagebycivilcondition,"CHAPTER VII.-CIVIL CONDITION. of each sex at certain ages for selected castes. Distribution of 1,000 females of each age by civil condition",,1,sect:1,North India | United Provinces | 1921 | CHAPTER VII.-CIVIL CONDITION. of each sex at certain ages for selected
+subsidiarytableiagedistributionofofeachsexinprovinceandeachnaturaldivisionbasedonimperialtableviidelhilefthalf,"SUBSIDIARY TABLE I. Age distribution of 10,000 of each Sex in the Province and each Natural Division. (Based on Imperial Table VII). - DELHI (Left Half)",,1,sect:1,"North India | Delhi | 1931 | SUBSIDIARY TABLE I. Age distribution of 10,000 of each Sex in the Prov"
+subsidiarytableiiagedistributionofofeachsexineachmainreligionallreligions,"SUBSIDIARY TABLE II. Age distribution of 10,000 of each Sex in each main Religion. - ALL RELIGIONS",,1,sect:1,"North India | Delhi | 1931 | SUBSIDIARY TABLE I. Age distribution of 10,000 of each Sex in the Prov"
+subsidiarytableiiagedistributionofofeachsexineachmainreligionmuslim,"SUBSIDIARY TABLE II. Age distribution of 10,000 of each Sex in each main Religion. - MUSLIM",,1,sect:1,"North India | Delhi | 1931 | SUBSIDIARY TABLE I. Age distribution of 10,000 of each Sex in the Prov"
+subsidiarytableiiagedistributionofofeachsexineachmainreligionsikh,"SUBSIDIARY TABLE II. Age distribution of 10,000 of each Sex in each main Religion. - SIKH",,1,sect:1,"North India | Delhi | 1931 | SUBSIDIARY TABLE I. Age distribution of 10,000 of each Sex in the Prov"
+tableviiieducationpartii,TABLE VIII. - Education. PART II. -,,1,title:1,North India | Punjab | 1901 | TABLE VIII. - Education. PART II. - DISTRICT TABLES.
+averageareaofa,Average area of a,,1,title:1,North India | Punjab | 1868 | Average area of a District.
+meanagesforwhole,Mean ages for the whole,,1,title:1,North India | Jammu and Kashmir | 1931 | Mean ages for the whole State as well as for the provinces
+bdetailsforandstatesjind,B.-DETAILS FOR DISTRICTS AND STATES. JIND,,1,title:1,"North India | Jind State | 1931 | TABLE VII.-AGE, SEX AND CIVIL CONDITION. PART B.-DETAILS FOR DISTRICTS"
+vifemaleinfanticideludhiana,VI. FEMALE INFANTICIDE. - Ludhiana,,1,title:1,North India | Punjab | 1911 | VI. FEMALE INFANTICIDE. - Ludhiana District. Suspected villages.
+progressofaveragerainfallin,Progress of average rainfall in the,,1,title:1,North India | Uttar Pradesh | 1951 | TABLE 246—Progress of average rainfall in the State and the natural di
+sexinprovinceandeachnatural,Sex in the Province and each Natural,,1,title:1,"North India | Delhi | 1931 | SUBSIDIARY TABLE I. Age distribution of 10,000 of each Sex in the Prov"
+ramangarh,Ramangarh,,1,title:1,"North India | Punjab | 1911 | Table VII - Age, Sex and Civil Condition (by Religion). Part B - Detai"

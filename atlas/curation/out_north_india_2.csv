@@ -1,0 +1,646 @@
+key,kind,hist_name,hist_parent,modern,confidence,note
+unitedprovinces,province,United Provinces,British India,,high,
+uttarpradesh,province,Uttar Pradesh,India,,high,1951 state; successor of United Provinces
+benares,district,Benares District,United Provinces,IND/UttarPradesh/Varanasi;IND/UttarPradesh/Chandauli;IND/UttarPradesh/SantRaviDasNagar,high,Benares=Varanasi; split Varanasi+Chandauli+Bhadohi
+saharanpur,district,Saharanpur District,United Provinces,IND/UttarPradesh/Saharanpur;IND/Uttarakhand/Hardwar,high,Roorkee/Hardwar tahsil now Uttarakhand
+meerut,district,Meerut District,United Provinces,IND/UttarPradesh/Meerut;IND/UttarPradesh/Ghaziabad;IND/UttarPradesh/Baghpat;IND/UttarPradesh/Hapur;IND/UttarPradesh/GautamBuddhaNagar,high,"split Meerut, Ghaziabad, Baghpat, Hapur, part GB Nagar"
+moradabad,district,Moradabad District,United Provinces,IND/UttarPradesh/Moradabad;IND/UttarPradesh/Amroha;IND/UttarPradesh/Sambhal,high,"split Moradabad, Amroha, Sambhal"
+etawah,district,Etawah District,United Provinces,IND/UttarPradesh/Etawah;IND/UttarPradesh/Auraiya,high,split Etawah+Auraiya
+shahjahanpur,district,Shahjahanpur District,United Provinces,IND/UttarPradesh/Shahjahanpur,high,
+gorakhpur,district,Gorakhpur District,United Provinces,IND/UttarPradesh/Gorakhpur;IND/UttarPradesh/Deoria;IND/UttarPradesh/Kushinagar;IND/UttarPradesh/Maharajganj,high,"split Gorakhpur, Deoria, Kushinagar, Maharajganj"
+rampur,princely_state,Rampur State,United Provinces,IND/UttarPradesh/Rampur,high,princely state in UP tables
+fyzabad,district,Fyzabad District,United Provinces,IND/UttarPradesh/Faizabad;IND/UttarPradesh/AmbedkarNagar,high,Fyzabad=Faizabad (Ayodhya); split Ambedkar Nagar
+mainpuri,district,Mainpuri District,United Provinces,IND/UttarPradesh/Mainpuri;IND/UttarPradesh/Firozabad,medium,Shikohabad tahsil now Firozabad
+ghazipur,district,Ghazipur District,United Provinces,IND/UttarPradesh/Ghazipur,high,
+etah,district,Etah District,United Provinces,IND/UttarPradesh/Etah;IND/UttarPradesh/Kasganj,high,split Etah+Kasganj
+banda,district,Banda District,United Provinces,IND/UttarPradesh/Banda;IND/UttarPradesh/Chitrakoot,high,split Banda+Chitrakoot
+jalaun,district,Jalaun District,United Provinces,IND/UttarPradesh/Jalaun,high,
+barabanki,district,Bara Banki District,United Provinces,IND/UttarPradesh/Barabanki,high,
+dehradun,district,Dehra Dun District,United Provinces,IND/Uttarakhand/Dehradun,high,
+sitapur,district,Sitapur District,United Provinces,IND/UttarPradesh/Sitapur,high,
+bulandshahr,district,Bulandshahr District,United Provinces,IND/UttarPradesh/Bulandshahr;IND/UttarPradesh/GautamBuddhaNagar,high,part to Gautam Buddha Nagar
+kheri,district,Kheri District,United Provinces,IND/UttarPradesh/LakhimpurKheri,high,Kheri=Lakhimpur Kheri
+hindoos,not_place,,,,high,religion
+garhwal,district,Garhwal District,United Provinces,IND/Uttarakhand/Garhwal;IND/Uttarakhand/Chamoli;IND/Uttarakhand/Rudraprayag,high,"British Garhwal; split Pauri Garhwal, Chamoli, Rudraprayag"
+farukhabad,district,Farrukhabad District,United Provinces,IND/UttarPradesh/Farrukhabad;IND/UttarPradesh/Kannauj,high,split Farrukhabad+Kannauj
+basti,district,Basti District,United Provinces,IND/UttarPradesh/Basti;IND/UttarPradesh/SiddharthNagar;IND/UttarPradesh/SantKabirNagar,high,"split Basti, Siddharthnagar, Sant Kabir Nagar"
+azamgarh,district,Azamgarh District,United Provinces,IND/UttarPradesh/Azamgarh;IND/UttarPradesh/Mau,high,split Azamgarh+Mau
+ivnoncultivatingownersoflandagriculturalrentreceiversandtheirdependants,not_place,,,,high,caste/religion/sect/clan/heading
+vicommerce,not_place,,,,high,caste/religion/sect/clan/heading
+viiiotherservicesandmiscellaneoussources,not_place,,,,high,caste/religion/sect/clan/heading
+lalitpur,district,Lalitpur District,United Provinces,IND/UttarPradesh/Lalitpur,high,"separate district to 1891, then in Jhansi; re-formed 1974"
+hathras,town,Hathras Town,United Provinces,IND/UttarPradesh/Hathras,medium,city row in 1931/1911 Table VII; Aligarh district then
+kumaun,district,Kumaun District,United Provinces,IND/Uttarakhand/Almora;IND/Uttarakhand/Bageshwar;IND/Uttarakhand/Pithoragarh;IND/Uttarakhand/Champawat;IND/Uttarakhand/Nainital,medium,1891 Kumaun district (renamed Almora); Naini Tal carved 1891
+koilaligarh,town,Koil (Aligarh) City,United Provinces,IND/UttarPradesh/Aligarh,high,Koil=Aligarh city
+oudh,province,Oudh,United Provinces,,high,Oudh sub-province of NWP&Oudh / UP
+jind,princely_state,Jind State,Punjab,IND/Haryana/Jind;IND/Punjab/Sangrur;IND/Haryana/Bhiwani,high,"Jind, Sangrur, Dadri tahsils"
+fyzabadcumajodhya,town,Fyzabad-cum-Ajodhya City,United Provinces,IND/UttarPradesh/Faizabad,high,city of Faizabad+Ayodhya
+lahore,district,Lahore District,Punjab,PAK/Punjab/Lahore;PAK/Punjab/Kasur,high,Chunian tahsil now Kasur
+kalsia,princely_state,Kalsia State,Punjab,IND/Haryana/Yamunanagar,medium,capital Chhachhrauli; also Chirak tract (Moga)
+meerutdivision,division,Meerut Division,United Provinces,,high,
+almora,district,Almora District,United Provinces,IND/Uttarakhand/Almora;IND/Uttarakhand/Bageshwar;IND/Uttarakhand/Pithoragarh;IND/Uttarakhand/Champawat,high,"split Almora, Bageshwar, Pithoragarh, Champawat"
+kapurthala,princely_state,Kapurthala State,Punjab,IND/Punjab/Kapurthala,high,
+nabha,princely_state,Nabha State,Punjab,IND/Punjab/Patiala;IND/Punjab/Bathinda;IND/Haryana/Rewari,medium,"scattered territory; Nabha, Phul, Bawal"
+agradivision,division,Agra Division,United Provinces,,high,
+benaresdivision,division,Benares Division,United Provinces,,high,
+kumaundivision,division,Kumaun Division,United Provinces,,high,
+fyzabaddivision,division,Fyzabad Division,United Provinces,,high,
+bashahr,princely_state,Bashahr State,Punjab,IND/HimachalPradesh/Kinnaur;IND/HimachalPradesh/Shimla,high,Simla Hill State; Rampur Bushahr+Kinnaur
+faridkot,princely_state,Faridkot State,Punjab,IND/Punjab/Faridkot,high,
+hissar,district,Hissar District,Punjab,IND/Haryana/Hisar;IND/Haryana/Fatehabad;IND/Haryana/Sirsa;IND/Haryana/Bhiwani,high,"Hisar; split Hisar, Fatehabad, Sirsa, part Bhiwani"
+multan,district,Multan District,Punjab,PAK/Punjab/Multan;PAK/Punjab/Khanewal;PAK/Punjab/Lodhran;PAK/Punjab/Vehari,high,"split Multan, Khanewal, Lodhran, Vehari"
+pataudi,princely_state,Pataudi State,Punjab,IND/Haryana/Gurgaon,high,
+keonthal,princely_state,Keonthal State,Punjab,IND/HimachalPradesh/Shimla,high,Simla Hill State
+mirzapurcumbindhyachal,town,Mirzapur-cum-Bindhyachal City,United Provinces,IND/UttarPradesh/Mirzapur,high,
+rohtak,district,Rohtak District,Punjab,IND/Haryana/Rohtak;IND/Haryana/Jhajjar;IND/Haryana/Sonipat,medium,"split Rohtak, Jhajjar; Sonipat tahsil added 1912"
+mandi,princely_state,Mandi State,Punjab,IND/HimachalPradesh/Mandi,high,
+nwprovinces,province,North-Western Provinces,United Provinces,,high,N.-W. Provinces
+centralindiaplateau,natural_division,Central India Plateau,United Provinces,,high,UP 1901 natural division
+subhimalayaeast,natural_division,"Sub-Himalaya, East",United Provinces,,high,
+amritsar,district,Amritsar District,Punjab,IND/Punjab/Amritsar;IND/Punjab/TarnTaran,high,split Amritsar+Tarn Taran
+suket,princely_state,Suket State,Punjab,IND/HimachalPradesh/Mandi,high,
+himalayawest,natural_division,"Himalaya, West",United Provinces,,high,
+ferozepore,district,Ferozepore District,Punjab,IND/Punjab/Firozpur;IND/Punjab/Fazilka;IND/Punjab/Moga;IND/Punjab/Muktsar,high,"Firozpur; split Fazilka, Moga, Muktsar"
+indogangeticplaincentral,natural_division,"Indo-Gangetic Plain, Central",United Provinces,,high,
+simla,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,high,Simla=Shimla
+karnal,district,Karnal District,Punjab,IND/Haryana/Karnal;IND/Haryana/Panipat;IND/Haryana/Kaithal;IND/Haryana/Kurukshetra,high,"split Karnal, Panipat, Kaithal, Kurukshetra"
+jullundur,district,Jullundur District,Punjab,IND/Punjab/Jalandhar;IND/Punjab/ShahidBhagatSinghNagar,high,Jalandhar; Nawanshahr now SBS Nagar
+gujrat,district,Gujrat District,Punjab,PAK/Punjab/Gujrat,high,Mandi Bahauddin not in reference
+averageofdecade,not_place,,,,high,heading
+lohar,not_place,,,,high,caste
+montgomery,district,Montgomery District,Punjab,PAK/Punjab/Sahiwal;PAK/Punjab/Okara;PAK/Punjab/Pakpattan,high,"Montgomery=Sahiwal; split Okara, Pakpattan"
+shahpur,district,Shahpur District,Punjab,PAK/Punjab/Sargodha;PAK/Punjab/Khushab,high,=Sargodha; split Khushab
+lyallpur,district,Lyallpur District,Punjab,PAK/Punjab/Faisalabad;PAK/Punjab/TobaTekSingh,high,=Faisalabad; split Toba Tek Singh
+atheist,not_place,,,,high,caste/religion/sect/clan/heading
+mohammadans,not_place,,,,high,caste/religion/sect/clan/heading
+ahirhindu,not_place,,,,high,caste/religion/sect/clan/heading
+ahir,not_place,,,,high,caste/religion/sect/clan/heading
+mirzapurcumbindhachal,town,Mirzapur-cum-Bindhyachal City,United Provinces,IND/UttarPradesh/Mirzapur,high,
+jammuprovince,division,Jammu Province,Jammu and Kashmir State,,high,province (division) of J&K State
+outerhills,natural_division,Outer Hills,Jammu and Kashmir State,,high,
+rawalpindidivision,division,Rawalpindi Division,Punjab,,high,
+multandivision,division,Multan Division,Punjab,,high,
+rampursubhimalayawest,princely_state,Rampur State,United Provinces,IND/UttarPradesh/Rampur,high,with natural division label
+variationpercent,not_place,,,,high,caste/religion/sect/clan/heading
+topsection,not_place,,,,high,caste/religion/sect/clan/heading
+awan,not_place,,,,high,caste/religion/sect/clan/heading
+chamarhindu,not_place,,,,high,caste/religion/sect/clan/heading
+kanethindu,not_place,,,,high,caste/religion/sect/clan/heading
+loharhindu,not_place,,,,high,caste/religion/sect/clan/heading
+rajputhindu,not_place,,,,high,caste/religion/sect/clan/heading
+umritsur,district,Amritsar District,Punjab,IND/Punjab/Amritsar;IND/Punjab/TarnTaran,high,Umritsur=Amritsar
+northwestprovincesbritishterritory,province,North-Western Provinces,United Provinces,,high,British territory only
+ambaladivision,division,Ambala Division,Punjab,,high,
+deraghazikhan,district,Dera Ghazi Khan District,Punjab,PAK/Punjab/DeraGhaziKha;PAK/Punjab/RajanPur,high,split DG Khan+Rajanpur
+himalayan,natural_division,Himalayan,Punjab,,high,Punjab natural division
+presbyterians,not_place,,,,high,caste/religion/sect/clan/heading
+actualfigures,not_place,,,,high,caste/religion/sect/clan/heading
+arorahindu,not_place,,,,high,caste/religion/sect/clan/heading
+kahar,not_place,,,,high,caste/religion/sect/clan/heading
+nai,not_place,,,,high,caste/religion/sect/clan/heading
+khatrisikh,not_place,,,,high,caste/religion/sect/clan/heading
+sainihindu,not_place,,,,high,caste/religion/sect/clan/heading
+sansihindu,not_place,,,,high,caste/religion/sect/clan/heading
+tarkhanhindu,not_place,,,,high,caste/religion/sect/clan/heading
+aggarwalhindu,not_place,,,,high,caste/religion/sect/clan/heading
+chuhrahindu,not_place,,,,high,caste/religion/sect/clan/heading
+jathindu,not_place,,,,high,caste/religion/sect/clan/heading
+pathanmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+sealkote,district,Sialkot District,Punjab,PAK/Punjab/Sialkot;PAK/Punjab/Narowal1;PAK/Punjab/Narowal2,high,Sealkote=Sialkot; Narowal split
+goojrat,district,Gujrat District,Punjab,PAK/Punjab/Gujrat,high,Goojrat=Gujrat
+congregationalists,not_place,,,,high,caste/religion/sect/clan/heading
+jammu,district,Jammu District,Jammu and Kashmir State,IND/JammuandKashmir/Jammu;IND/JammuandKashmir/Samba,medium,could be Jammu Province; Samba split
+kangra,district,Kangra District,Punjab,IND/HimachalPradesh/Kangra;IND/HimachalPradesh/Hamirpur;IND/HimachalPradesh/Kullu;IND/HimachalPradesh/Lahul&Spiti,high,"incl Kullu, Lahul; split Hamirpur"
+nwprovincesandoudh,province,North-Western Provinces and Oudh,United Provinces,,high,
+freethinker,not_place,,,,high,caste/religion/sect/clan/heading
+quaker,not_place,,,,high,caste/religion/sect/clan/heading
+udasi,not_place,,,,high,caste/religion/sect/clan/heading
+tehrigarhwalhimalayawest,princely_state,Tehri-Garhwal State,United Provinces,IND/Uttarakhand/TehriGarhwal;IND/Uttarakhand/Uttarkashi,high,split Tehri Garhwal+Uttarkashi
+hindiandurduknowinghindibetter,not_place,,,,high,caste/religion/sect/clan/heading
+variationor,not_place,,,,high,caste/religion/sect/clan/heading
+muham,not_place,,,,high,caste/religion/sect/clan/heading
+tians,not_place,,,,high,caste/religion/sect/clan/heading
+yas,not_place,,,,high,caste/religion/sect/clan/heading
+submontaneandsemimountainoustract,natural_division,Submontane and Semi-mountainous Tract,Jammu and Kashmir State,,high,
+dmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+muslim,not_place,,,,high,caste/religion/sect/clan/heading
+bhindus,not_place,,,,high,caste/religion/sect/clan/heading
+pataudistate,princely_state,Pataudi State,Punjab,IND/Haryana/Gurgaon,high,
+malerkotlastate,princely_state,Maler Kotla State,Punjab,IND/Punjab/Sangrur,high,Malerkotla district (2021) not in reference
+jindstate,princely_state,Jind State,Punjab,IND/Haryana/Jind;IND/Punjab/Sangrur;IND/Haryana/Bhiwani,high,
+divisiontotal,not_place,,,,high,caste/religion/sect/clan/heading
+lodhi,not_place,,,,high,caste/religion/sect/clan/heading
+balija,not_place,,,,high,caste/religion/sect/clan/heading
+brahmantelugu,not_place,,,,high,caste/religion/sect/clan/heading
+chetti,not_place,,,,high,caste/religion/sect/clan/heading
+kapu,not_place,,,,high,caste/religion/sect/clan/heading
+paraiyan,not_place,,,,high,caste/religion/sect/clan/heading
+vellala,not_place,,,,high,caste/religion/sect/clan/heading
+awanmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+kashmirimusalman,not_place,,,,high,caste/religion/sect/clan/heading
+loharmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+mirasimusalman,not_place,,,,high,caste/religion/sect/clan/heading
+naimusalman,not_place,,,,high,caste/religion/sect/clan/heading
+sheikh,not_place,,,,high,caste/religion/sect/clan/heading
+telimusalman,not_place,,,,high,caste/religion/sect/clan/heading
+gadariya,not_place,,,,high,caste/religion/sect/clan/heading
+kayastha,not_place,,,,high,caste/religion/sect/clan/heading
+julahamuslim,not_place,,,,high,caste/religion/sect/clan/heading
+kambohsikh,not_place,,,,high,caste/religion/sect/clan/heading
+kashmirimuslim,not_place,,,,high,caste/religion/sect/clan/heading
+kumharmuslim,not_place,,,,high,caste/religion/sect/clan/heading
+loharmuslim,not_place,,,,high,caste/religion/sect/clan/heading
+meomuslim,not_place,,,,high,caste/religion/sect/clan/heading
+mochihindu,not_place,,,,high,caste/religion/sect/clan/heading
+mussalimuslim,not_place,,,,high,caste/religion/sect/clan/heading
+pakhiwaramuslim,not_place,,,,high,caste/religion/sect/clan/heading
+kanetbuddhist,not_place,,,,high,caste/religion/sect/clan/heading
+rajputmuslim,not_place,,,,high,caste/religion/sect/clan/heading
+sayadmuslim,not_place,,,,high,caste/religion/sect/clan/heading
+sunarsikh,not_place,,,,high,caste/religion/sect/clan/heading
+tarkhanmuslim,not_place,,,,high,caste/religion/sect/clan/heading
+aggarwaljain,not_place,,,,high,caste/religion/sect/clan/heading
+bawariahindu,not_place,,,,high,caste/religion/sect/clan/heading
+chhimbahindu,not_place,,,,high,caste/religion/sect/clan/heading
+chuhrasikh,not_place,,,,high,caste/religion/sect/clan/heading
+dhobihindu,not_place,,,,high,caste/religion/sect/clan/heading
+jhiwarsikh,not_place,,,,high,caste/religion/sect/clan/heading
+dhanakhindu,not_place,,,,high,caste/religion/sect/clan/heading
+faqirmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+northwesternprovincesandoudh,province,North-Western Provinces and Oudh,United Provinces,,high,
+jats,not_place,,,,high,caste/religion/sect/clan/heading
+bhar,not_place,,,,high,caste/religion/sect/clan/heading
+dusadh,not_place,,,,high,caste/religion/sect/clan/heading
+bhat,not_place,,,,high,caste/religion/sect/clan/heading
+jhelumvalley,natural_division,Jhelum Valley,Jammu and Kashmir State,,high,
+insanity,not_place,,,,high,caste/religion/sect/clan/heading
+punjabincludingdelhi,province,Punjab,,,high,Punjab including Delhi
+sheikhupura,district,Sheikhupura District,Punjab,PAK/Punjab/Sheikhupura;PAK/Punjab/NankanaSahib,high,split Nankana Sahib
+simlahillstates,agency,Simla Hill States,Punjab,,high,
+punjabincludingnativestateshindus,province,Punjab,,,high,incl native states; subset Hindus
+hissarhindus,district,Hissar District,Punjab,IND/Haryana/Hisar;IND/Haryana/Fatehabad;IND/Haryana/Sirsa;IND/Haryana/Bhiwani,high,subset
+hissarmohammadans,district,Hissar District,Punjab,IND/Haryana/Hisar;IND/Haryana/Fatehabad;IND/Haryana/Sirsa;IND/Haryana/Bhiwani,high,subset
+ambalasikhs,district,Ambala District,Punjab,IND/Haryana/Ambala;IND/Haryana/Yamunanagar;IND/Haryana/Panchkula;IND/Punjab/Rupnagar;IND/Punjab/SahibzadaAjitSinghNagar;IND/Chandigarh/Chandigarh,high,subset
+hoshiarpurhindus,district,Hoshiarpur District,Punjab,IND/Punjab/Hoshiarpur;IND/HimachalPradesh/Una,high,subset
+hoshiarpurmohammadans,district,Hoshiarpur District,Punjab,IND/Punjab/Hoshiarpur;IND/HimachalPradesh/Una,high,subset
+jullundursikhs,district,Jullundur District,Punjab,IND/Punjab/Jalandhar;IND/Punjab/ShahidBhagatSinghNagar,high,subset
+kapurthalahindus,princely_state,Kapurthala State,Punjab,IND/Punjab/Kapurthala,high,subset
+kapurthalamohammadans,princely_state,Kapurthala State,Punjab,IND/Punjab/Kapurthala,high,subset
+ludhianasikhs,district,Ludhiana District,Punjab,IND/Punjab/Ludhiana,high,subset
+ferozeporehindus,district,Ferozepore District,Punjab,IND/Punjab/Firozpur;IND/Punjab/Fazilka;IND/Punjab/Moga;IND/Punjab/Muktsar,high,subset
+ferozeporemohammadans,district,Ferozepore District,Punjab,IND/Punjab/Firozpur;IND/Punjab/Fazilka;IND/Punjab/Moga;IND/Punjab/Muktsar,high,subset
+faridkotsikhs,princely_state,Faridkot State,Punjab,IND/Punjab/Faridkot,high,subset
+patialahindus,princely_state,Patiala State,Punjab,IND/Punjab/Patiala;IND/Punjab/FatehgarhSahib;IND/Punjab/Sangrur;IND/Punjab/Barnala;IND/Punjab/Bathinda;IND/Punjab/Mansa;IND/Haryana/Mahendragarh,medium,subset
+patialamohammadans,princely_state,Patiala State,Punjab,IND/Punjab/Patiala;IND/Punjab/FatehgarhSahib;IND/Punjab/Sangrur;IND/Punjab/Barnala;IND/Punjab/Bathinda;IND/Punjab/Mansa;IND/Haryana/Mahendragarh,medium,subset
+nabhasikhs,princely_state,Nabha State,Punjab,IND/Punjab/Patiala;IND/Punjab/Bathinda;IND/Haryana/Rewari,medium,subset
+jindhindus,princely_state,Jind State,Punjab,IND/Haryana/Jind;IND/Punjab/Sangrur;IND/Haryana/Bhiwani,high,subset
+jindmohammadans,princely_state,Jind State,Punjab,IND/Haryana/Jind;IND/Punjab/Sangrur;IND/Haryana/Bhiwani,high,subset
+lahoresikhs,district,Lahore District,Punjab,PAK/Punjab/Lahore;PAK/Punjab/Kasur;PAK/Punjab/Sheikhupura,high,subset
+amritsarhindus,district,Amritsar District,Punjab,IND/Punjab/Amritsar;IND/Punjab/TarnTaran,high,subset
+amritsarmohammadans,district,Amritsar District,Punjab,IND/Punjab/Amritsar;IND/Punjab/TarnTaran,high,subset
+gurdaspursikhs,district,Gurdaspur District,Punjab,IND/Punjab/Gurdaspur;IND/Punjab/Pathankot,high,subset
+sialkothindus,district,Sialkot District,Punjab,PAK/Punjab/Sialkot;PAK/Punjab/Narowal1;PAK/Punjab/Narowal2,high,subset
+sialkotmohammadans,district,Sialkot District,Punjab,PAK/Punjab/Sialkot;PAK/Punjab/Narowal1;PAK/Punjab/Narowal2,high,subset
+gujranwalasikhs,district,Gujranwala District,Punjab,PAK/Punjab/Gujranwala1;PAK/Punjab/Gujranwala2;PAK/Punjab/Hafizabad,high,subset
+gujrathindus,district,Gujrat District,Punjab,PAK/Punjab/Gujrat,high,subset
+gujratmohammadans,district,Gujrat District,Punjab,PAK/Punjab/Gujrat,high,subset
+rawalpindisikhs,district,Rawalpindi District,Punjab,PAK/Punjab/Rawalpindi;PAK/Islamabad/Islamabad;PAK/Punjab/Attok,high,subset
+tarkhan,not_place,,,,high,caste/religion/sect/clan/heading
+gulabshahi,not_place,,,,high,caste/religion/sect/clan/heading
+theosophist,not_place,,,,high,caste/religion/sect/clan/heading
+balmiki,not_place,,,,high,caste/religion/sect/clan/heading
+baddun,not_place,,,,high,caste/religion/sect/clan/heading
+moghal,not_place,,,,high,caste/religion/sect/clan/heading
+qureshi,not_place,,,,high,caste/religion/sect/clan/heading
+turk,not_place,,,,high,caste/religion/sect/clan/heading
+chishti,not_place,,,,high,caste/religion/sect/clan/heading
+protestantunsectarian,not_place,,,,high,caste/religion/sect/clan/heading
+ramdasi,not_place,,,,high,caste/religion/sect/clan/heading
+tehristatehimalayawest,princely_state,Tehri-Garhwal State,United Provinces,IND/Uttarakhand/TehriGarhwal;IND/Uttarakhand/Uttarkashi,high,
+ungraduated,not_place,,,,high,caste/religion/sect/clan/heading
+amritsardivision,division,Amritsar Division,Punjab,,high,
+hissardivision,division,Hissar Division,Punjab,,high,
+derajatdivision,division,Derajat Division,Punjab,,high,
+bengalprovince,province,Bengal,,,high,
+delhiprovince,province,Delhi Province,,,high,Chief Commissioner's province from 1912
+revenuereturn,not_place,,,,high,caste/religion/sect/clan/heading
+count,not_place,,,,high,caste/religion/sect/clan/heading
+whodenysupremacyofbrahmans,not_place,,,,high,caste/religion/sect/clan/heading
+actualnumberofchristiansin,not_place,,,,high,caste/religion/sect/clan/heading
+converted,not_place,,,,high,caste/religion/sect/clan/heading
+avaishnavas,not_place,,,,high,caste/religion/sect/clan/heading
+aryasreturnedas,not_place,,,,high,caste/religion/sect/clan/heading
+babaisa,not_place,,,,high,caste/religion/sect/clan/heading
+andcivilconditionbyreligionpart,not_place,,,,high,caste/religion/sect/clan/heading
+ins,not_place,,,,high,caste/religion/sect/clan/heading
+ambalaadminis,division,Ambala Division,Punjab,,medium,Ambala Administrative Division (1951)
+iijammuprovinceallreligions,division,Jammu Province,Jammu and Kashmir State,,high,subset all religions
+buddhist,not_place,,,,high,caste/religion/sect/clan/heading
+provincesandoudh,province,North-Western Provinces and Oudh,United Provinces,,medium,truncated
+abstractliiireligionbyprovinceschristiansmales,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableiidistributionofinfirmbyageperofeachsex,not_place,,,,high,caste/religion/sect/clan/heading
+iihimalayan,natural_division,Himalayan,Punjab,,high,
+ivnorthwestdryarea,natural_division,North-West Dry Area,Punjab,,high,
+subsidiarytablexiiratioofnumberofmalesfemalesandpersonsperatcensusoftothoseofcensusofforeachyearofageasrecordedincensusschedules,not_place,,,,high,caste/religion/sect/clan/heading
+citypopulation,not_place,,,,high,caste/religion/sect/clan/heading
+diagramshowingconstitutionofofpopulationbyagesandexcessofmalesoverfemalesineachageperiod,not_place,,,,high,caste/religion/sect/clan/heading
+sanatandharma,not_place,,,,high,caste/religion/sect/clan/heading
+conversionandreconversion,not_place,,,,high,caste/religion/sect/clan/heading
+groupsandorthodoxhouseholdersanduneducatedmasses,not_place,,,,high,caste/religion/sect/clan/heading
+conditionsbyreligionsbfigurescontinuedtablevii,not_place,,,,high,caste/religion/sect/clan/heading
+householdsizeandcompositioniallclassescontd,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableiiiagedistributionofofeachsexbyreligion,not_place,,,,high,caste/religion/sect/clan/heading
+mandistate,princely_state,Mandi State,Punjab,IND/HimachalPradesh/Mandi,high,
+jhinwarmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+barhai,not_place,,,,high,caste/religion/sect/clan/heading
+brahmanpangil,not_place,,,,high,caste/religion/sect/clan/heading
+addharami,not_place,,,,high,caste/religion/sect/clan/heading
+arainmuslim,not_place,,,,high,caste/religion/sect/clan/heading
+bawariasikh,not_place,,,,high,caste/religion/sect/clan/heading
+brahmansikh,not_place,,,,high,caste/religion/sect/clan/heading
+chhimbamuslim,not_place,,,,high,caste/religion/sect/clan/heading
+chuhramuslim,not_place,,,,high,caste/religion/sect/clan/heading
+dhobimuslim,not_place,,,,high,caste/religion/sect/clan/heading
+faqirsikh,not_place,,,,high,caste/religion/sect/clan/heading
+gujjarsikh,not_place,,,,high,caste/religion/sect/clan/heading
+harnimuslim,not_place,,,,high,caste/religion/sect/clan/heading
+jhiwarmuslim,not_place,,,,high,caste/religion/sect/clan/heading
+khojamusalman,not_place,,,,high,caste/religion/sect/clan/heading
+mahtamsikh,not_place,,,,high,caste/religion/sect/clan/heading
+maliarmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+meomusalman,not_place,,,,high,caste/religion/sect/clan/heading
+mussalimusalman,not_place,,,,high,caste/religion/sect/clan/heading
+qassabmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+sayadmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+sunarmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+hooshyarpore,district,Hoshiarpur District,Punjab,IND/Punjab/Hoshiarpur;IND/HimachalPradesh/Una,high,Hooshyarpore=Hoshiarpur; Una tahsil now HP
+shahpore,district,Shahpur District,Punjab,PAK/Punjab/Sargodha;PAK/Punjab/Khushab,high,=Sargodha
+mozuffergurh,district,Muzaffargarh District,Punjab,PAK/Punjab/Muzaffargarh,high,Layyah added later
+proprietorsmales,not_place,,,,high,caste/religion/sect/clan/heading
+goorgaon,district,Gurgaon District,Punjab,IND/Haryana/Gurgaon;IND/Haryana/Mewat;IND/Haryana/Rewari;IND/Haryana/Palwal,high,"split Gurgaon, Nuh(Mewat), Rewari, Palwal"
+mansar,unsure,,,,low,J&K 1911 Table VII unit; cannot identify Mansar as a district/tahsil
+dagiandkolisimlafemale,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,high,subset
+dhobisimlafemale,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,high,subset
+jattotalfemale,not_place,,,,high,caste/religion/sect/clan/heading
+jathoshiarpurfemale,district,Hoshiarpur District,Punjab,IND/Punjab/Hoshiarpur;IND/HimachalPradesh/Una,high,subset
+jatferozeporefemale,district,Ferozepore District,Punjab,IND/Punjab/Firozpur;IND/Punjab/Fazilka;IND/Punjab/Moga;IND/Punjab/Muktsar,high,subset
+jatlyallpurfemale,district,Lyallpur District,Punjab,PAK/Punjab/Faisalabad;PAK/Punjab/TobaTekSingh,high,subset
+jatkapurthalafemale,princely_state,Kapurthala State,Punjab,IND/Punjab/Kapurthala,high,subset
+kanetsimlafemale,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,high,subset
+khatriferozeporefemale,district,Ferozepore District,Punjab,IND/Punjab/Firozpur;IND/Punjab/Fazilka;IND/Punjab/Moga;IND/Punjab/Muktsar,high,subset
+kumharsimlafemale,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,high,subset
+loharsimlafemale,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,high,subset
+mirasitotalfemale,not_place,,,,high,caste/religion/sect/clan/heading
+mirasisimlafemale,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,high,subset
+mirasihoshiarpurfemale,district,Hoshiarpur District,Punjab,IND/Punjab/Hoshiarpur;IND/HimachalPradesh/Una,high,subset
+naihoshiarpurfemale,district,Hoshiarpur District,Punjab,IND/Punjab/Hoshiarpur;IND/HimachalPradesh/Una,high,subset
+naikdelhifemale,district,Delhi District,Punjab,IND/NCTofDelhi/West,medium,subset; reference has single NCT Delhi unit
+rajputdelhifemale,district,Delhi District,Punjab,IND/NCTofDelhi/West,medium,subset; reference has single NCT Delhi unit
+rajputsimlafemale,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,high,subset
+rajputhoshiarpurfemale,district,Hoshiarpur District,Punjab,IND/Punjab/Hoshiarpur;IND/HimachalPradesh/Una,high,subset
+sunarkapurthalafemale,princely_state,Kapurthala State,Punjab,IND/Punjab/Kapurthala,high,subset
+tarkhanferozeporefemale,district,Ferozepore District,Punjab,IND/Punjab/Firozpur;IND/Punjab/Fazilka;IND/Punjab/Moga;IND/Punjab/Muktsar,high,subset
+delhifemale,district,Delhi District,Punjab,IND/NCTofDelhi/West,medium,subset; reference has single NCT Delhi unit
+hoshiarpurfemale,district,Hoshiarpur District,Punjab,IND/Punjab/Hoshiarpur;IND/HimachalPradesh/Una,high,subset
+jullundurfemale,district,Jullundur District,Punjab,IND/Punjab/Jalandhar;IND/Punjab/ShahidBhagatSinghNagar,high,subset
+lahorefemale,district,Lahore District,Punjab,PAK/Punjab/Lahore;PAK/Punjab/Kasur,high,subset
+amritsarfemale,district,Amritsar District,Punjab,IND/Punjab/Amritsar;IND/Punjab/TarnTaran,high,subset
+gurdaspurfemale,district,Gurdaspur District,Punjab,IND/Punjab/Gurdaspur;IND/Punjab/Pathankot,high,subset
+sialkotfemale,district,Sialkot District,Punjab,PAK/Punjab/Sialkot;PAK/Punjab/Narowal1;PAK/Punjab/Narowal2,high,subset
+gujranwalafemale,district,Gujranwala District,Punjab,PAK/Punjab/Gujranwala1;PAK/Punjab/Gujranwala2;PAK/Punjab/Hafizabad,high,subset
+gujratfemale,district,Gujrat District,Punjab,PAK/Punjab/Gujrat,high,subset
+hissarfemale,district,Hissar District,Punjab,IND/Haryana/Hisar;IND/Haryana/Fatehabad;IND/Haryana/Sirsa;IND/Haryana/Bhiwani,high,subset
+kangrafemale,district,Kangra District,Punjab,IND/HimachalPradesh/Kangra;IND/HimachalPradesh/Hamirpur;IND/HimachalPradesh/Kullu;IND/HimachalPradesh/Lahul&Spiti,high,subset
+karnalfemale,district,Karnal District,Punjab,IND/Haryana/Karnal;IND/Haryana/Panipat;IND/Haryana/Kaithal;IND/Haryana/Kurukshetra,high,subset
+sarwans,not_place,,,,high,caste/religion/sect/clan/heading
+sarwareh,not_place,,,,high,caste/religion/sect/clan/heading
+sarwarem,not_place,,,,high,caste/religion/sect/clan/heading
+sawanh,not_place,,,,high,caste/religion/sect/clan/heading
+sawanm,not_place,,,,high,caste/religion/sect/clan/heading
+sedhis,not_place,,,,high,caste/religion/sect/clan/heading
+segiah,not_place,,,,high,caste/religion/sect/clan/heading
+setih,not_place,,,,high,caste/religion/sect/clan/heading
+sewaris,not_place,,,,high,caste/religion/sect/clan/heading
+shahh,not_place,,,,high,caste/religion/sect/clan/heading
+shahnas,not_place,,,,high,caste/religion/sect/clan/heading
+shakriah,not_place,,,,high,caste/religion/sect/clan/heading
+shamsbis,not_place,,,,high,caste/religion/sect/clan/heading
+sheikhs,not_place,,,,high,caste/religion/sect/clan/heading
+shelanh,not_place,,,,high,caste/religion/sect/clan/heading
+shinas,not_place,,,,high,caste/religion/sect/clan/heading
+siahh,not_place,,,,high,caste/religion/sect/clan/heading
+sialm,not_place,,,,high,caste/religion/sect/clan/heading
+sidhah,not_place,,,,high,caste/religion/sect/clan/heading
+sidhus,not_place,,,,high,caste/religion/sect/clan/heading
+sindhus,not_place,,,,high,caste/religion/sect/clan/heading
+sirs,not_place,,,,high,caste/religion/sect/clan/heading
+sodas,not_place,,,,high,caste/religion/sect/clan/heading
+sodras,not_place,,,,high,caste/religion/sect/clan/heading
+sohals,not_place,,,,high,caste/religion/sect/clan/heading
+sohanh,not_place,,,,high,caste/religion/sect/clan/heading
+sohanm,not_place,,,,high,caste/religion/sect/clan/heading
+solh,not_place,,,,high,caste/religion/sect/clan/heading
+sonh,not_place,,,,high,caste/religion/sect/clan/heading
+sonm,not_place,,,,high,caste/religion/sect/clan/heading
+sopalh,not_place,,,,high,caste/religion/sect/clan/heading
+sorh,not_place,,,,high,caste/religion/sect/clan/heading
+sorm,not_place,,,,high,caste/religion/sect/clan/heading
+sotreh,not_place,,,,high,caste/religion/sect/clan/heading
+sudh,not_place,,,,high,caste/religion/sect/clan/heading
+sudarh,not_place,,,,high,caste/religion/sect/clan/heading
+surih,not_place,,,,high,caste/religion/sect/clan/heading
+tahimm,not_place,,,,high,caste/religion/sect/clan/heading
+tankh,not_place,,,,high,caste/religion/sect/clan/heading
+tankm,not_place,,,,high,caste/religion/sect/clan/heading
+tanurm,not_place,,,,high,caste/religion/sect/clan/heading
+taramis,not_place,,,,high,caste/religion/sect/clan/heading
+tasawarh,not_place,,,,high,caste/religion/sect/clan/heading
+tatwalh,not_place,,,,high,caste/religion/sect/clan/heading
+tawegarh,not_place,,,,high,caste/religion/sect/clan/heading
+tezih,not_place,,,,high,caste/religion/sect/clan/heading
+thathwalh,not_place,,,,high,caste/religion/sect/clan/heading
+tohlah,not_place,,,,high,caste/religion/sect/clan/heading
+tors,not_place,,,,high,caste/religion/sect/clan/heading
+toriwalh,not_place,,,,high,caste/religion/sect/clan/heading
+toshanarh,not_place,,,,high,caste/religion/sect/clan/heading
+utradhih,not_place,,,,high,caste/religion/sect/clan/heading
+variahm,not_place,,,,high,caste/religion/sect/clan/heading
+vasrah,not_place,,,,high,caste/religion/sect/clan/heading
+veds,not_place,,,,high,caste/religion/sect/clan/heading
+vedoh,not_place,,,,high,caste/religion/sect/clan/heading
+velah,not_place,,,,high,caste/religion/sect/clan/heading
+zargarh,not_place,,,,high,caste/religion/sect/clan/heading
+zargarm,not_place,,,,high,caste/religion/sect/clan/heading
+minorh,not_place,,,,high,caste/religion/sect/clan/heading
+minorm,not_place,,,,high,caste/religion/sect/clan/heading
+unspecifieds,not_place,,,,high,caste/religion/sect/clan/heading
+unspecifiedj,not_place,,,,high,caste/religion/sect/clan/heading
+inwhichfemalesareinexcess,aggregate,Districts in which females are in excess,United Provinces,,high,
+inwhichfemalesareinexcessmales,aggregate,Districts in which females are in excess,United Provinces,,high,subset males
+restofprovincemales,aggregate,Rest of the province,United Provinces,,high,remainder of districts; subset males
+mirzapurmales,district,Mirzapur District,United Provinces,IND/UttarPradesh/Mirzapur;IND/UttarPradesh/Sonbhadra,high,subset males; Sonbhadra split
+gorakhpurmales,district,Gorakhpur District,United Provinces,IND/UttarPradesh/Gorakhpur;IND/UttarPradesh/Deoria;IND/UttarPradesh/Kushinagar;IND/UttarPradesh/Maharajganj,high,subset males
+balliamales,district,Ballia District,United Provinces,IND/UttarPradesh/Ballia,high,subset males
+garhwalmales,district,Garhwal District,United Provinces,IND/Uttarakhand/Garhwal;IND/Uttarakhand/Chamoli;IND/Uttarakhand/Rudraprayag,high,subset males
+raebarelidivisionmales,division,Rae Bareli Division,United Provinces,,high,subset males
+churchofrome,not_place,,,,high,caste/religion/sect/clan/heading
+greeks,not_place,,,,high,caste/religion/sect/clan/heading
+independents,not_place,,,,high,caste/religion/sect/clan/heading
+calvinists,not_place,,,,high,caste/religion/sect/clan/heading
+protestantsunspecified,not_place,,,,high,caste/religion/sect/clan/heading
+unitariansanddeists,not_place,,,,high,caste/religion/sect/clan/heading
+ofnoreligion,not_place,,,,high,caste/religion/sect/clan/heading
+tagas,not_place,,,,high,caste/religion/sect/clan/heading
+naumuslim,not_place,,,,high,caste/religion/sect/clan/heading
+domplains,not_place,,,,high,caste/religion/sect/clan/heading
+kalwar,not_place,,,,high,caste/religion/sect/clan/heading
+halwai,not_place,,,,high,caste/religion/sect/clan/heading
+bharbhunja,not_place,,,,high,caste/religion/sect/clan/heading
+silpkar,not_place,,,,high,caste/religion/sect/clan/heading
+docentral,unsure,,,,low,"""Do Central"" ditto-mark; natural division unclear"
+entirestateallreligions,princely_state,Jammu and Kashmir State,,,high,subset; whole state
+entirestatemusalman,princely_state,Jammu and Kashmir State,,,high,subset Musalman
+entirestatebudhist,princely_state,Jammu and Kashmir State,,,high,subset Budhist
+isubmontaneandsemimountainoustracthindu,natural_division,Submontane and Semi-mountainous Tract,Jammu and Kashmir State,,high,subset Hindu
+isubmontaneandsemimountainoustractsikh,natural_division,Submontane and Semi-mountainous Tract,Jammu and Kashmir State,,high,subset Sikh
+iiouterhillsallreligions,natural_division,Outer Hills,Jammu and Kashmir State,,high,subset
+iiouterhillsmusalman,natural_division,Outer Hills,Jammu and Kashmir State,,high,subset Musalman
+iiouterhillsbudhist,natural_division,Outer Hills,Jammu and Kashmir State,,high,subset Budhist
+jammuprovincehindu,division,Jammu Province,Jammu and Kashmir State,,high,subset Hindu
+jammuprovincesikh,division,Jammu Province,Jammu and Kashmir State,,high,subset Sikh
+iiijhelumvalleykashmirprovinceallreligions,natural_division,Jhelum Valley,Jammu and Kashmir State,,high,= Kashmir Province; subset
+iiijhelumvalleykashmirprovincemusalman,natural_division,Jhelum Valley,Jammu and Kashmir State,,high,subset Musalman
+iiijhelumvalleykashmirprovincebudhist,natural_division,Jhelum Valley,Jammu and Kashmir State,,high,subset Budhist
+ivindusvalleyfrontierhindu,natural_division,Indus Valley (Frontier Districts),Jammu and Kashmir State,,high,subset Hindu
+ivindusvalleyfrontiersikh,natural_division,Indus Valley (Frontier Districts),Jammu and Kashmir State,,high,subset Sikh
+gorakhpurcumdeoria,aggregate,Gorakhpur-cum-Deoria,United Provinces,,high,1951 combined Gorakhpur+Deoria districts
+barwalamusalman,not_place,,,,high,caste/religion/sect/clan/heading
+bilochmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+dagikolihindu,not_place,,,,high,caste/religion/sect/clan/heading
+ghirthhindu,not_place,,,,high,caste/religion/sect/clan/heading
+harnimusalman,not_place,,,,high,caste/religion/sect/clan/heading
+julahamusalman,not_place,,,,high,caste/religion/sect/clan/heading
+kambohkambojmusalman,not_place,,,,high,caste/religion/sect/clan/heading
+americanchurchofgodmission,not_place,,,,high,caste/religion/sect/clan/heading
+churchofchristmission,not_place,,,,high,caste/religion/sect/clan/heading
+mennonitemission,not_place,,,,high,caste/religion/sect/clan/heading
+churchofamerica,not_place,,,,high,caste/religion/sect/clan/heading
+bhagal,princely_state,Bhagal State,Punjab,IND/HimachalPradesh/Solan,medium,"Simla Hill State, capital Arki"
+punjabincludingnativestatesmohammadan,province,Punjab,,,high,incl native states; subset Mohammadan
+sayed,not_place,,,,high,caste/religion/sect/clan/heading
+yashkun,not_place,,,,high,caste/religion/sect/clan/heading
+mangrik,not_place,,,,high,caste/religion/sect/clan/heading
+garhshankar,town,Garhshankar Town,Punjab,IND/Punjab/Hoshiarpur,high,
+chawinda,town,Chawinda Town,Punjab,PAK/Punjab/Sialkot,medium,
+phul,town,Phul Town,Punjab,IND/Punjab/Bathinda,medium,Nabha State
+chhachhrauli,town,Chhachhrauli Town,Punjab,IND/Haryana/Yamunanagar,high,Kalsia State capital
+ahmadpurlamma,town,Ahmadpur Lamma Town,Punjab,PAK/Punjab/RahimyarKhan,medium,Bahawalpur State
+sirhind,town,Sirhind Town,Punjab,IND/Punjab/FatehgarhSahib,high,Patiala State
+farrukhnagar,town,Farrukhnagar Town,Punjab,IND/Haryana/Gurgaon,high,
+balrikh,not_place,,,,high,caste/religion/sect/clan/heading
+balashahi,not_place,,,,high,caste/religion/sect/clan/heading
+vatal,not_place,,,,high,caste/religion/sect/clan/heading
+dahria,not_place,,,,high,caste/religion/sect/clan/heading
+protestants,not_place,,,,high,caste/religion/sect/clan/heading
+acertainsectariangroupswhichowetheirorigintoarevoltagainstbrahmanicalsupremacy,not_place,,,,high,caste/religion/sect/clan/heading
+denyauthorityofvedas,not_place,,,,high,caste/religion/sect/clan/heading
+arenotservedbygoodbrahmansasfamilypriests,not_place,,,,high,caste/religion/sect/clan/heading
+aredeniedaccesstointeriorofordinaryhindutemple,not_place,,,,high,caste/religion/sect/clan/heading
+causepollutionbwithinacertaindistance,not_place,,,,high,caste/religion/sect/clan/heading
+eatbeefanddonotreverencecow,not_place,,,,high,caste/religion/sect/clan/heading
+mazhabisikh,not_place,,,,high,caste/religion/sect/clan/heading
+gobindsinghi,not_place,,,,high,caste/religion/sect/clan/heading
+kukanamdhari,not_place,,,,high,caste/religion/sect/clan/heading
+nihang,not_place,,,,high,caste/religion/sect/clan/heading
+panjpiria,not_place,,,,high,caste/religion/sect/clan/heading
+sarwaria,not_place,,,,high,caste/religion/sect/clan/heading
+aggarwalpunjab,province,Punjab,,,high,subset caste
+aggarwalphulkianstates,aggregate,Phulkian States,Punjab,,high,"Patiala, Jind, Nabha; subset caste"
+ahirdelhidivision,division,Delhi Division,Punjab,,high,subset caste
+araincentralpunjabplains,natural_division,Central Punjab Plains,Punjab,,high,subset caste
+aroracentralpunjabplains,natural_division,Central Punjab Plains,Punjab,,high,subset caste
+awanpunjab,province,Punjab,,,high,subset caste
+barwalapunjab,province,Punjab,,,high,subset caste
+bawariapunjab,province,Punjab,,,high,subset caste
+bawariabahawalpurstate,princely_state,Bahawalpur State,Punjab,PAK/Punjab/Bahawalpur;PAK/Punjab/Bahawalnagar;PAK/Punjab/RahimyarKhan,high,subset caste
+bharaicentralpunjabplains,natural_division,Central Punjab Plains,Punjab,,high,subset caste
+bilochwesternpunjab,natural_division,Western Punjab,Punjab,,high,subset caste
+chamarpunjab,province,Punjab,,,high,subset caste
+chhimbacentralpunjabplains,natural_division,Central Punjab Plains,Punjab,,high,subset caste
+chuhraeasternpunjab,natural_division,Eastern Punjab,Punjab,,high,subset caste
+dagiandkolipunjab,province,Punjab,,,high,subset caste
+dhanakpunjab,province,Punjab,,,high,subset caste
+dhobipunjab,province,Punjab,,,high,subset caste
+dogarpunjab,province,Punjab,,,high,subset caste
+dumnapunjab,province,Punjab,,,high,subset caste
+dumnagurdaspur,district,Gurdaspur District,Punjab,IND/Punjab/Gurdaspur;IND/Punjab/Pathankot,high,subset
+ghirathpunjab,province,Punjab,,,high,subset caste
+gujarpunjab,province,Punjab,,,high,subset caste
+harniludhiana,district,Ludhiana District,Punjab,IND/Punjab/Ludhiana,high,subset
+jhinwarpunjab,province,Punjab,,,high,subset caste
+jogirawalpunjab,province,Punjab,,,high,subset caste
+julahapunjab,province,Punjab,,,high,subset caste
+kambohpunjab,province,Punjab,,,high,subset caste
+kambohcentralpunjabplains,natural_division,Central Punjab Plains,Punjab,,high,subset caste
+kanetcentralpunjabhills,natural_division,Central Punjab Hills,Punjab,,high,subset caste
+kashmirilahoredivision,division,Lahore Division,Punjab,,high,subset caste
+khatripunjab,province,Punjab,,,high,subset caste
+khatriwesternpunjab,natural_division,Western Punjab,Punjab,,high,subset caste
+khojacentralpunjabplains,natural_division,Central Punjab Plains,Punjab,,high,subset caste
+khokharwesternpunjab,natural_division,Western Punjab,Punjab,,high,subset caste
+kumhareasternpunjab,natural_division,Eastern Punjab,Punjab,,high,subset caste
+kumharwesternpunjab,natural_division,Western Punjab,Punjab,,high,subset caste
+nwpandoudhhindus,province,North-Western Provinces and Oudh,United Provinces,,high,subset Hindus
+bombayexcludingaden,province,Bombay,,,high,excluding Aden
+ratio,not_place,,,,high,caste/religion/sect/clan/heading
+orderofrecord,not_place,,,,high,caste/religion/sect/clan/heading
+averagedeviation,not_place,,,,high,caste/religion/sect/clan/heading
+punjabtotal,province,Punjab,,,high,1951 state total
+kangratotal,district,Kangra District,Punjab,IND/HimachalPradesh/Kangra;IND/HimachalPradesh/Hamirpur;IND/HimachalPradesh/Kullu;IND/HimachalPradesh/Lahul&Spiti,high,1951; total
+rohtaktotal,district,Rohtak District,Punjab,IND/Haryana/Rohtak;IND/Haryana/Jhajjar;IND/Haryana/Sonipat,high,1951; total
+karnaltotal,district,Karnal District,Punjab,IND/Haryana/Karnal;IND/Haryana/Panipat;IND/Haryana/Kaithal;IND/Haryana/Kurukshetra,high,1951; total
+jhelam,district,Jhelum District,Punjab,PAK/Punjab/Jhelum;PAK/Punjab/Chakwal,high,Jhelam=Jhelum; Chakwal split
+dehraghazikhan,district,Dera Ghazi Khan District,Punjab,PAK/Punjab/DeraGhaziKha;PAK/Punjab/RajanPur,high,
+somersetshire,country,,,,high,English county (Somerset)
+derahghazi,district,Dera Ghazi Khan District,Punjab,PAK/Punjab/DeraGhaziKha;PAK/Punjab/RajanPur,high,
+britishisles,country,,,,high,British Isles
+statesofeasternplains,aggregate,States of the Eastern Plains,Punjab,,high,group of Punjab native states
+indianempire,country,,,,high,Indian Empire (whole of British India)
+panjabprovince,province,Punjab,,,high,
+haidarabad,princely_state,Hyderabad State,,,medium,Nizam's Dominions in 1881 comparison abstract; spans many modern districts
+servia,country,,,,high,Serbia
+delhicity,town,Delhi City,Delhi Province,IND/NCTofDelhi/West,high,reference has single NCT Delhi unit
+popnlation,not_place,,,,high,caste/religion/sect/clan/heading
+mahomedans,not_place,,,,high,caste/religion/sect/clan/heading
+value,not_place,,,,high,caste/religion/sect/clan/heading
+northwesternprovincesrates,province,North-Western Provinces,United Provinces,,medium,column header of rates
+percentageofmuhammadans,not_place,,,,high,caste/religion/sect/clan/heading
+hindinwpanjabi,not_place,,,,high,caste/religion/sect/clan/heading
+submontane,natural_division,Submontane and Semi-mountainous Tract,Jammu and Kashmir State,,high,
+populationright,not_place,,,,high,caste/religion/sect/clan/heading
+water,not_place,,,,high,caste/religion/sect/clan/heading
+fat,not_place,,,,high,caste/religion/sect/clan/heading
+salts,not_place,,,,high,caste/religion/sect/clan/heading
+municipal,not_place,,,,high,caste/religion/sect/clan/heading
+nwf,province,North-West Frontier Province,,,medium,abbrev N. W. F
+leprous,not_place,,,,high,caste/religion/sect/clan/heading
+bashahrstate,princely_state,Bashahr State,Punjab,IND/HimachalPradesh/Kinnaur;IND/HimachalPradesh/Shimla,high,
+kesdhari,not_place,,,,high,caste/religion/sect/clan/heading
+numericalstrength,not_place,,,,high,caste/religion/sect/clan/heading
+person,not_place,,,,high,caste/religion/sect/clan/heading
+sects,not_place,,,,high,caste/religion/sect/clan/heading
+dowed,not_place,,,,high,caste/religion/sect/clan/heading
+jammuandkashmirstatemales,princely_state,Jammu and Kashmir State,,,high,subset males; spans many districts
+iiouterhills,natural_division,Outer Hills,Jammu and Kashmir State,,high,
+ivindusvalleyfrontier,natural_division,Indus Valley (Frontier Districts),Jammu and Kashmir State,,high,
+populationofgroupsoftownsandvillagesnativestates,not_place,,,,high,caste/religion/sect/clan/heading
+percentagesoftotalpopulationincludedineachgroup,not_place,,,,high,caste/religion/sect/clan/heading
+sarvaria,not_place,,,,high,caste/religion/sect/clan/heading
+dev,not_place,,,,high,caste/religion/sect/clan/heading
+riod,not_place,,,,high,caste/religion/sect/clan/heading
+byageforselectedcastes,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytablexiiidistributionbyc,not_place,,,,high,caste/religion/sect/clan/heading
+britishmuhammadans,not_place,,,,high,caste/religion/sect/clan/heading
+englishtable,not_place,,,,high,caste/religion/sect/clan/heading
+jullunduradminis,division,Jullundur Division,Punjab,,medium,Jullundur Administrative Division (1951)
+first,not_place,,,,high,caste/religion/sect/clan/heading
+third,not_place,,,,high,caste/religion/sect/clan/heading
+armeniansbyagebyconclud,not_place,,,,high,caste/religion/sect/clan/heading
+correspondingfiguresforeurope,not_place,,,,high,caste/religion/sect/clan/heading
+classifiedaccordingtoreligionspopulationisasfollows,not_place,,,,high,caste/religion/sect/clan/heading
+numberwhocanreadandwriteis,not_place,,,,high,caste/religion/sect/clan/heading
+tabularstatementofblindpeopleatroopur,not_place,,,,high,caste/religion/sect/clan/heading
+percentageofsikhsontotalpopulation,not_place,,,,high,caste/religion/sect/clan/heading
+soldiers,not_place,,,,high,caste/religion/sect/clan/heading
+woollenmanufacturers,not_place,,,,high,caste/religion/sect/clan/heading
+beggars,not_place,,,,high,caste/religion/sect/clan/heading
+tableviiagesexandcivilconditionbyreligion,not_place,,,,high,caste/religion/sect/clan/heading
+iijammuprovincehindubrahmanic,division,Jammu Province,Jammu and Kashmir State,,high,subset Hindu
+iijammuprovincesikh,division,Jammu Province,Jammu and Kashmir State,,high,subset Sikh
+iijammuprovincebudhist,division,Jammu Province,Jammu and Kashmir State,,high,subset Budhist
+iijammuprovincemusalman,division,Jammu Province,Jammu and Kashmir State,,high,subset Musalman
+iiikashmirprovinceallreligions,division,Kashmir Province,Jammu and Kashmir State,,high,subset
+topsectionindogangeticplainwestandhimalayan,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableiinumberoffemalespermalesatdifferentageperiodsbyreligionsateachoflastthreecensusespunjabanddelhi,not_place,,,,high,caste/religion/sect/clan/heading
+deathratesforsameperiodsprevailinginitalyandengland,not_place,,,,high,caste/religion/sect/clan/heading
+agesofhindusandmuhammadans,not_place,,,,high,caste/religion/sect/clan/heading
+approximatedeathrates,not_place,,,,high,caste/religion/sect/clan/heading
+oudhmalesonly,province,Oudh,United Provinces,,high,Oudh districts; subset males
+tableshowingoccupationsofeuropeanandeurasianmenbetweenagesofand,not_place,,,,high,caste/religion/sect/clan/heading
+englishcensus,not_place,,,,high,caste/religion/sect/clan/heading
+zoroastrian,not_place,,,,high,caste/religion/sect/clan/heading
+brahmanichindu,not_place,,,,high,caste/religion/sect/clan/heading
+tableixpartaallreligions,not_place,,,,high,caste/religion/sect/clan/heading
+bnativepart,not_place,,,,high,caste/religion/sect/clan/heading
+tableoflongevityjammuandkashmirgovernmentcensusleft,not_place,,,,high,caste/religion/sect/clan/heading
+preferenceexhibitedforcertainnumbers,not_place,,,,high,caste/religion/sect/clan/heading
+riasiallreligions,district,Riasi District,Jammu and Kashmir State,IND/JammuandKashmir/Reasi,medium,Riasi=Reasi; subset
+riasisikh,district,Riasi District,Jammu and Kashmir State,IND/JammuandKashmir/Reasi,medium,subset Sikh
+riasimusalman,district,Riasi District,Jammu and Kashmir State,IND/JammuandKashmir/Reasi,medium,subset Musalman
+kashmirsouthallreligions,district,Kashmir South District,Jammu and Kashmir State,IND/JammuandKashmir/Anantnag;IND/JammuandKashmir/Kulgam;IND/JammuandKashmir/Pulwama;IND/JammuandKashmir/Shupiyan,medium,=Anantnag; subset
+kashmirsouthsikh,district,Kashmir South District,Jammu and Kashmir State,IND/JammuandKashmir/Anantnag;IND/JammuandKashmir/Kulgam;IND/JammuandKashmir/Pulwama;IND/JammuandKashmir/Shupiyan,medium,subset Sikh
+muzzaffarabadblock,district,Muzaffarabad District,Jammu and Kashmir State,PAK/AzadKashmir/Muzaffarabad;PAK/AzadKashmir/Neelum,medium,table block; now Azad Kashmir
+budh,not_place,,,,high,caste/religion/sect/clan/heading
+secondsectionunnamed,not_place,,,,high,caste/religion/sect/clan/heading
+abstractxlvipercentageontotalpopulationofsamesexforvariousagesbyreligions,not_place,,,,high,caste/religion/sect/clan/heading
+tablenoshowingnumberandproportionofchildreninseveralagesbelowinascomparedwithlifetableandinandwithwhatitoughttobein,not_place,,,,high,caste/religion/sect/clan/heading
+abstractlreligionbyprovinceshindoosfemales,not_place,,,,high,caste/religion/sect/clan/heading
+abstractlireligionbyprovincesmahommedanfemales,not_place,,,,high,caste/religion/sect/clan/heading
+abstractliireligionbyprovincebuddhistfemales,not_place,,,,high,caste/religion/sect/clan/heading
+abstractlivcensusofenglandandwalesfemales,not_place,,,,high,caste/religion/sect/clan/heading
+dietoffemalelabouringprisoner,not_place,,,,high,caste/religion/sect/clan/heading
+jammucity,town,Jammu City,Jammu and Kashmir State,IND/JammuandKashmir/Jammu,high,
+subsidiarytableiagedistributionofofeachsexbyannualperiodsmohamedansonly,not_place,,,,high,caste/religion/sect/clan/heading
+place,not_place,,,,high,caste/religion/sect/clan/heading
+literacyincitiesbyreligion,not_place,,,,high,caste/religion/sect/clan/heading
+insanitybyageandsex,not_place,,,,high,caste/religion/sect/clan/heading
+britishparsis,not_place,,,,high,caste/religion/sect/clan/heading
+nativestatesallreligions,not_place,,,,high,caste/religion/sect/clan/heading
+dujanaallreligions,princely_state,Dujana State,Punjab,IND/Haryana/Jhajjar,high,subset
+dujanamuhammadans,princely_state,Dujana State,Punjab,IND/Haryana/Jhajjar,high,subset Muhammadans
+loharumuhammadans,princely_state,Loharu State,Punjab,IND/Haryana/Bhiwani,high,subset Muhammadans
+mandiandsuket,aggregate,Mandi and Suket States,Punjab,,high,
+subsidiarytableiaunadjustedagereturnofofeachsexrohtak,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytablexviipolygamyinprovincesofpunjabandnorthwestfrontierprovincebycastes,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableiiiaagedistributionofofeachsexbyreligion,not_place,,,,high,caste/religion/sect/clan/heading
+cityoflahore,town,Lahore City,Punjab,PAK/Punjab/Lahore,high,
+tablenoxivstatementshowingnumberofpersonsofunsoundmindbyreligionageandsex,not_place,,,,high,caste/religion/sect/clan/heading
+tablexiiiieducatedunemploymentbydegree,not_place,,,,high,caste/religion/sect/clan/heading
+balmikisects,not_place,,,,high,caste/religion/sect/clan/heading
+untouchablecastes,not_place,,,,high,caste/religion/sect/clan/heading
+methodists,not_place,,,,high,caste/religion/sect/clan/heading
+firstmargintable,not_place,,,,high,caste/religion/sect/clan/heading
+groupfollowersofreformerswhosedoctrinesdonotfallwithinoneschoolorother,not_place,,,,high,caste/religion/sect/clan/heading
+highandmiddlingcastes,not_place,,,,high,caste/religion/sect/clan/heading
+lowcastes,not_place,,,,high,caste/religion/sect/clan/heading
+sunnisectsreturnedatrecentcensus,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytablevireligionsofurbanandruralpopulation,not_place,,,,high,caste/religion/sect/clan/heading
+bhin,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytablevshowingdeathsregisteredaccordingtoageandsexinnorthwesternprovincesandoudhduringpart,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytablevishowingbirthsbyreligionsregisteredinnwprovincesandoudhfor,not_place,,,,high,caste/religion/sect/clan/heading
+dans,not_place,,,,high,caste/religion/sect/clan/heading
+echristians,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytablexxdistributionbycivilconditionofofeachmainageperiodforeachsexa,not_place,,,,high,caste/religion/sect/clan/heading
+tableiiinumbersrecordedateachageinandoutofpersonsinpunjab,not_place,,,,high,caste/religion/sect/clan/heading
+householdsizeandcompositionallclassesconcld,not_place,,,,high,caste/religion/sect/clan/heading
+figuresfordivorcedpersonsareasfollows,not_place,,,,high,caste/religion/sect/clan/heading
+agesofpeoplesubsidiarytablei,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableundersecondaddendumtothnoteoncensusreportagesofpeople,not_place,,,,high,caste/religion/sect/clan/heading
+punjabrural,province,Punjab,,,high,1951; subset rural
+abstractnoshowingdistributionofpopulationovertownsandvillagesgroupedaccordingtosizeforprovince,not_place,,,,high,caste/religion/sect/clan/heading
+areasandpopulationsoftenofpanjabandtencountiesofengland,not_place,,,,high,caste/religion/sect/clan/heading
+britishbrahmo,not_place,,,,high,caste/religion/sect/clan/heading
+byreligionbfigurescontinued,not_place,,,,high,caste/religion/sect/clan/heading
+mainreligionscontinued,not_place,,,,high,caste/religion/sect/clan/heading
+diagramshowingnumberofliteratesperindifferentageperiods,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableiagedistributionofofeachsexinprovinceandeachnaturaldivisionbasedonimperialtableviidelhirighthalf,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableiiagedistributionofofeachsexineachmainreligionhindu,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableiiagedistributionofofeachsexineachmainreligionchristian,not_place,,,,high,caste/religion/sect/clan/heading
+subsidiarytableiiinfirmperandfemalesinfirmpermalesatcertainageperiods,not_place,,,,high,caste/religion/sect/clan/heading
+mathura,district,Muttra District,United Provinces,IND/UttarPradesh/Mathura,high,Muttra=Mathura; 1951 tag
+conditionbyreligionjammuandkashmir,princely_state,Jammu and Kashmir State,,,medium,title fragment
+detailsforandstatessimla,district,Simla District,Punjab,IND/HimachalPradesh/Shimla,medium,title fragment
+rawalpindiandnative,aggregate,Rawalpindi and the Native States,Punjab,,low,truncated title fragment
+dadupanthisby,not_place,,,,high,caste/religion/sect/clan/heading
+populationforeachreligionineach,not_place,,,,high,caste/religion/sect/clan/heading
+jalalpur,unsure,,,,low,"Punjab 1951 title ""Jalalpur District"" - no such district; possibly OCR of Jullundur"

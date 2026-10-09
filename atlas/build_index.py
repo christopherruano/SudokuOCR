@@ -1,0 +1,253 @@
+#!/usr/bin/env python3
+"""Stage 1: place registry, table->place links, and per-place age indicators.
+
+Inputs : census_explorer.sqlite, atlas/out/gazetteer.csv (curated, validated),
+         sendout_v1/provenance.csv + documents.csv (volume/year), GADM unit list.
+Outputs (atlas/out/):
+  places.csv        one row per historical place: id, name, kind, parent, aliases, modern
+  table_places.csv  table_id, place_id, how (tag|title|rows|colg|sect|birthplace), source string
+  place_metrics.csv table_id, place_id, child, old, sexratio, total, check, slice
+"""
+import csv, os, re, sqlite3, collections, unicodedata, json, sys, time, functools
+T0 = time.time()
+def log(m):
+    print(f'[{time.time()-T0:6.0f}s] {m}', flush=True)
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.join(HERE, "..")
+SV1 = os.path.join(ROOT, "export_final/sendout_final/sendout_v1")
+DB = os.path.join(SV1, "census_explorer.sqlite")
+OUT = os.path.join(HERE, "out")
+sys.path.insert(0, HERE)
+import age_metrics as am
+from extract_candidates import norm, TITLE_PL
+
+PLACE_KINDS = {"district", "sub_district", "town", "city_section", "princely_state", "province",
+               "division", "agency", "natural_division"}
+AGE_FAMILIES = {"age_civil_condition", "age_sex_population", "age_distribution", "proportional_age", "other_structured", "age_by_religion"}
+SUBPOP = re.compile(r"(?i)insan|blind|deaf|leper|infirm|literat|educat|caste|tribe|race|occupation|livelihood|"
+                    r"selected|urban|rural|town|city|europe|anglo|married females|widows|christian|jain|sikh|parsi|"
+                    r"buddhist|musalman|muslim|muhammadan|mahomedan|hindu\b|animist|zoroast|jew")
+ALLREL = re.compile(r"(?i)all religions|all races|total|all castes|all classes|population")
+BOUNDS = {"child": (10, 45), "old": (0.5, 20), "sexratio": (600, 1300)}
+BIRTH = re.compile(r"(?i)birth|born|immigra|emigra|migra|nativity|where enumerated")
+STRIP_PARENT = re.compile(r"(?i)\b(state|presidency|province|agency|residency|the)\b")
+
+
+def slug(s):
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c)).lower()
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def build_registry():
+    g = list(csv.DictReader(open(os.path.join(OUT, "gazetteer.csv"))))
+    by_name = collections.defaultdict(list)
+    for r in g:
+        if r["kind"] not in PLACE_KINDS:
+            continue
+        name = (r["hist_name"] or r["label"]).strip()
+        by_name[name].append(r)
+    places, key2pid = {}, {}
+    for name, rs in by_name.items():
+        # same name in different modern states = different places (e.g. two Aurangabads)
+        clusters = collections.defaultdict(list)
+        for r in rs:
+            m = (r["modern"] or "").split(";")[0]
+            clusters["/".join(m.split("/")[:2]) if m else ""].append(r)
+        if "" in clusters and len(clusters) > 1:          # unlocated strings join the biggest cluster
+            big = max((k for k in clusters if k), key=lambda k: len(clusters[k]))
+            clusters[big] += clusters.pop("")
+        for ck, crs in clusters.items():
+            parent = collections.Counter(r["hist_parent"] for r in crs if r["hist_parent"]).most_common(1)
+            parent = parent[0][0] if parent else ""
+            pid = slug(name) if len(clusters) == 1 else f"{slug(name)}--{slug(parent or ck)}"
+            kind = collections.Counter(r["kind"] for r in crs).most_common(1)[0][0]
+            mods = collections.Counter()
+            for r in crs:
+                if r["modern"]:
+                    mods[r["modern"]] += int(r["n_tables"])
+            conf = collections.Counter(r["confidence"] for r in crs if r["modern"]).most_common(1)
+            places[pid] = dict(id=pid, name=name, kind=kind, parent=parent,
+                               aliases=sorted({r["label"] for r in crs} - {name})[:12],
+                               modern=mods.most_common(1)[0][0] if mods else "",
+                               confidence=conf[0][0] if conf else "",
+                               note=next((r["note"] for r in crs if r["note"]), ""),
+                               n_strings=len(crs))
+            for r in crs:
+                key2pid[r["key"]] = pid
+    # parent links: hist_parent text -> a province/state/agency place id
+    index = {}
+    for p in places.values():
+        if p["kind"] in ("province", "princely_state", "agency", "division"):
+            for s in [p["name"]] + p["aliases"]:
+                index.setdefault(norm(STRIP_PARENT.sub(" ", s)), p["id"])
+    for p in places.values():
+        p["parent_id"] = index.get(norm(STRIP_PARENT.sub(" ", p["parent"])), "") if p["parent"] else ""
+        if p["parent_id"] == p["id"]:
+            p["parent_id"] = ""
+    return places, key2pid
+
+
+def doc_years():
+    yr = {}
+    for r in csv.DictReader(open(os.path.join(SV1, "documents.csv"))):
+        yr[r["dochash"]] = r["year"]
+    return yr
+
+
+def main():
+    places, key2pid = build_registry()
+    con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+    con.row_factory = sqlite3.Row
+    tables = {r["table_id"]: dict(r) for r in con.execute(
+        "select table_id,title,canonical_name,year,status,broad_region,entity_type,table_family from tables")}
+    dy = doc_years()
+
+    @functools.lru_cache(maxsize=None)
+    def resolve(s):
+        return key2pid.get(norm(s or ""))
+
+    links = collections.defaultdict(dict)          # tid -> pid -> (how, src)
+    PRI = {"tag": 0, "title": 1, "rows": 2, "colg": 3, "sect": 4}
+
+    def link(tid, s, how):
+        pid = resolve(s)
+        if not pid:
+            return
+        t = tables.get(tid)
+        if t and BIRTH.search(t["title"] or "") and how != "tag":
+            how = "birthplace"
+        cur = links[tid].get(pid)
+        if cur is None or PRI.get(how, 9) < PRI.get(cur[0], 9):
+            links[tid][pid] = (how, s)
+
+    for tid, t in tables.items():
+        link(tid, t["canonical_name"], "tag")
+        for m in TITLE_PL.finditer(t["title"] or ""):
+            link(tid, m.group(1), "title")
+    log("tags/titles linked")
+    for tid, s in con.execute("select distinct table_id,row_label_std from facts where row_dimension='other' "
+                              "and column_dimension in ('age','civil_condition','sex')"):
+        link(tid, s, "rows")
+    for tid, s in con.execute("select distinct table_id,column_group_std from facts where row_dimension='age' "
+                              "and column_dimension='other'"):
+        link(tid, s, "colg")
+    for tid, s in con.execute("select distinct table_id,section from facts where row_dimension='age' and section!=''"):
+        link(tid, s, "sect")
+
+    log("facts linked")
+    with open(os.path.join(OUT, "table_places.csv"), "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["table_id", "place_id", "how", "source"])
+        for tid, d in links.items():
+            for pid, (how, s) in d.items():
+                w.writerow([tid, pid, how, s])
+
+    # ---- age indicators per (table, place) ----
+    cols = ("table_id,row_dimension,row_label_std,section,civil_condition,religion,column_dimension,"
+            "column_group_std,sex,resolved_age_lower,resolved_age_upper,resolved_age_label_std,value,measure_unit")
+    groups = collections.defaultdict(list)
+    for r in con.execute(f"select {cols} from facts where row_dimension='age' or column_dimension='age'"):
+        d = dict(r)
+        tid = d["table_id"]
+        if d["row_dimension"] != "age":
+            pid = resolve(d["row_label_std"])
+        else:
+            pid = resolve(d["section"])
+            if pid and places[pid]["kind"] not in ("district", "princely_state", "province", "sub_district", "town", "division"):
+                pid = None
+            if not pid and d["column_dimension"] != "age":
+                pid = resolve(d["column_group_std"])
+            if not pid:
+                pid = resolve(tables.get(tid, {}).get("canonical_name"))
+        if pid:
+            groups[(tid, pid)].append(d)
+    log(f"grouped {len(groups)} table-place groups")
+    # ---- multi-page runs: wide tables print their age columns across several pages,
+    # so one place's full age distribution exists only across the run. A run is the
+    # set of pages in one volume whose titles share a stem ("...-continued" removed).
+    from position import positions
+    pos = positions(con.execute("select table_id,source_image,member_images from tables"))
+    def stem(t):
+        t = re.sub(r"(?i)[-—.(\s]*(continued|contd|concluded|concld|cont)\b[.)]*", " ", t or "")
+        return re.sub(r"[^a-z]", "", t.lower())[:40]
+    cand_runs = collections.defaultdict(list)
+    for tid, t in tables.items():
+        q = pos.get(tid)
+        if q and q["pdf_page"] is not None and stem(t["title"]) and not tid.startswith("asm_"):
+            cand_runs[(q["doc"], stem(t["title"]))].append((q["pdf_page"], tid))
+    run_of = {}
+    for key, mem in cand_runs.items():          # split into runs of consecutive pages (gap <= 3)
+        mem.sort()
+        cur = [mem[0]]
+        for a, b in zip(mem, mem[1:]):
+            if b[0] - a[0] <= 3:
+                cur.append(b)
+            else:
+                if len(cur) > 1:
+                    for _, tid in cur:
+                        run_of[tid] = (key, cur[0][0])
+                cur = [b]
+        if len(cur) > 1:
+            for _, tid in cur:
+                run_of[tid] = (key, cur[0][0])
+    by_run = collections.defaultdict(list)
+    for (tid, pid), fs in list(groups.items()):
+        if tid in run_of:
+            by_run[(run_of[tid], pid)].append((tid, fs))
+    run_groups = {}
+    for (rk, pid), parts in by_run.items():
+        if len(parts) > 1:
+            first = min(parts, key=lambda x: pos[x[0]]["pdf_page"])[0]
+            run_groups[(first, pid)] = ([f for _, fs in parts for f in fs], len(parts))
+    log(f"{len(run_groups)} multi-page run groups")
+    with open(os.path.join(OUT, "place_metrics.csv"), "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["table_id", "place_id", "child", "old", "sexratio", "total", "check", "slice"])
+        n = 0
+        rej = collections.Counter()
+        items = [((tid, pid), fs, 1) for (tid, pid), fs in groups.items()] + \
+                [((tid, pid), fs, n) for (tid, pid), (fs, n) in run_groups.items()]
+        done = set()
+        for (tid, pid), fs, npages in items:
+            if npages == 1 and (tid, pid) in run_groups:
+                continue                                  # the run version supersedes the single page
+            t = tables.get(tid, {})
+            title = t.get("title") or ""
+            if BIRTH.search(title):
+                continue
+            # whole-population age tables only: a district's age structure, not a caste's or the literate's
+            if t.get("table_family") not in AGE_FAMILIES or (SUBPOP.search(title) and not ALLREL.search(title)
+                                                             and t.get("table_family") != "age_by_religion"):
+                rej["not a whole-population age table"] += 1
+                continue
+            m = am.best_metrics(fs)
+            if not m:
+                continue
+            if (SUBPOP.search(m["slice"]) or SUBPOP.search(title)) and not (ALLREL.search(m["slice"]) or ALLREL.search(title)):
+                rej["sub-population slice"] += 1
+                continue
+            out = [k for k, (lo, hi) in BOUNDS.items() if m.get(k) is not None and not lo <= m[k] <= hi]
+            if out:
+                rej["outside plausibility bounds"] += 1
+                continue
+            if m:
+                n += 1
+                chk = m["check"] + (f"; merged across {npages} pages of one printed table" if npages > 1 else "")
+                w.writerow([tid, pid] + [round(m[k], 3) if m.get(k) is not None else "" for k in ("child", "old", "sexratio")]
+                           + [round(m["total"]), chk, m["slice"]])
+    with open(os.path.join(OUT, "places.csv"), "w", newline="") as f:
+        cols = ["id", "name", "kind", "parent", "parent_id", "aliases", "modern", "confidence", "note", "n_strings"]
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        for p in places.values():
+            w.writerow({**p, "aliases": " | ".join(p["aliases"])})
+    kinds = collections.Counter(p["kind"] for p in places.values())
+    print(f"places: {len(places)} {dict(kinds.most_common())}")
+    print(f"table-place links: {sum(len(d) for d in links.values())} over {len(links)} tables; "
+          f"by how: {dict(collections.Counter(h for d in links.values() for h, _ in d.values()))}")
+    print(f"age-indicator groups: {n} (of {len(groups)} candidate table-place groups); rejected: {dict(rej)}")
+
+
+if __name__ == "__main__":
+    main()

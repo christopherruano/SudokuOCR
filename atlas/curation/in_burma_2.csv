@@ -1,0 +1,833 @@
+key,label,variants,n_tables,sources,context
+lowerchindwin,Lower Chindwin District,LOWER CHINDWIN | Lower Chindwin,44,tag:39;title:34;row:2,"Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.-Table showing Population, Population by Relig || Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.—Table showing Population, Population by Relig || Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT"
+akyab,Akyab District,AKYAB | Akyab | AKYAB DISTRICT,35,tag:31;title:24;sect:8;row:3,"Burma | Akyab District | 1891 | AKYAB DISTRICT.-Table showing Population, Population by Religion and E || Burma | Akyab District | 1891 | AKYAB DISTRICT.—Table showing Population by Religion, Civil Condition, || Burma | Akyab District | 1891 | AKYAB DISTRICT.—Table showing Population, Population by Religion and E"
+burmese,Burmese,,29,row:15;sect:12;colg:5,"Burma | Burma | 1931 | PART II.-Districts and States. || Burma | Pegu District | 1931 | PART II.-Districts and States. || Burma | Amherst District | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+pegu,Pegu District,PEGU | Pegu | PEGU DISTRICT.,25,tag:20;title:15;row:3;colg:1;sect:1,"Burma | Pegu District | 1891 | PEGU DISTRICT.-Table showing Population, Population by Religion and Ed || Burma | Pegu District | 1891 | PEGU DISTRICT. || Burma | Pegu District | 1891 | PEGU DISTRICT.-Table showing Population by Sex, Age, Civil Condition, "
+race,Race,,20,colg:20,Burma | Burma | 1891 | KATHA DISTRICT. || Burma | Akyab | 1921 | AKYAB DISTRICT || Burma | Akyab | 1901 | AKYAB DISTRICT
+chinese,Chinese,CHINESE,18,row:14;sect:6;colg:2,"Burma | Burma | 1931 | IMPERIAL TABLE VII - Age, Sex and Civil Condition by Race. PART I-B -  || Burma | Burma | 1931 | IMPERIAL TABLE VII - Age, Sex and Civil Condition by Race. PART I-C -  || ? | The Whole Province | ? | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race. PART I-A.-TH"
+rangoontown,Rangoon Town District,Rangoon Town | RANGOON TOWN,13,tag:11;row:2;title:2,"Burma | Rangoon Town | 1891 | RANGOON TOWN (INCLUDING MUNICIPALITY, CANTONMENT, AND PORT).—Table sho || Burma | Rangoon Town District | 1901 | RANGOON TOWN DISTRICT.—Table showing Population by Religion, Civil Con || Burma | Rangoon Town District | 1891 | RANGOON TOWN DISTRICT.—Table showing Population by Religion, Civil Con"
+prome,Prome District,Prome | PROME | PROME DISTRICT,10,tag:6;row:3;title:2;colg:1;sect:1,"Burma | Prome District | 1891 | Table showing Population by Sex, Age, Civil Condition, Education, and  || Burma | Prome District | 1891 | PROME DISTRICT.—Table showing Population by Sex, Age, Civil Condition, || Burma | Prome District | 1891 | PROME DISTRICT. SHWELE TOWNSHIP.—Table showing Population by Sex, Age,"
+itempopulation,ITEM. Population,,8,colg:8,Burma | Akyab District | 1891 | Return of the Population by Districts or States of Birth-concluded. || Burma | Kyaukpyu | 1891 | Return of Population of the Kyaukpyu District by Districts or States o || Burma | Hanthawaddy | 1891 | Return of Population of the Hanthawaddy District by Districts or State
+katha,KATHA,KATHA DISTRICT. | Katha,7,title:5;sect:3;row:2,"Burma | Burma | 1891 | KATHA DISTRICT. || Burma | Burma | 1891 | KATHA DISTRICT.-Table showing Population, Population by Religion and E || Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation"
+lowerburma,Lower Burma,"Lower Burma, 1891 | Lower Burma, 1881 | LOWER BURMA",7,row:6;colg:5,"Burma | Burma | 1891 | Statement showing mean age of the population in Upper and Lower Burma  || All-India | India | 1891 | Comparative Statement showing the distribution by age periods of the p || Burma | Burma | 1891 | Ratio of the population at each period of 10 years to 10,000 of the to"
+mainheadpopulation,MAIN HEAD. Population,,7,colg:7,Burma | Akyab District | 1891 | Return of the Population by Districts or States of Birth-concluded. || Burma | Kyaukpyu | 1891 | Return of Population of the Kyaukpyu District by Districts or States o || Burma | Hanthawaddy | 1891 | Return of Population of the Hanthawaddy District by Districts or State
+thongwa,Thongwa,THONGWA | Thongwa District,5,row:3;colg:1;tag:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P || Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE"
+salween,Salween,SALWEEN DISTRICT.,5,row:4;sect:1,"Burma | Burma | 1931 | SUBSIDIARY TABLE II.—Distribution by Civil Condition of 1,000 of each  || Burma | Burma | 1931 | SUBSIDIARY TABLE IV.-Ratio of females per 1,000 males in each Civil Co || Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation"
+tavoy,Tavoy,TAVOY | Tavoy District,4,row:2;colg:1;tag:1,Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE || Burma | Burma | 1891 | DISTRIBUTION BY DISTRICTS-continued.
+rangoonmunicipality,Rangoon Municipality,,4,row:2;sect:2,"Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged || Burma | Rangoon Town District | 1901 | RANGOON TOWN DISTRICT.—Table showing Population by Religion, Civil Con"
+ywathit,Ywathit,,3,row:3,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District || Burma | Sagaing | 1921 | SAGAING DISTRICT || Burma | Sagaing District | 1891 | Census Data"
+tagundaing,Tagundaing,,3,row:3,Burma | Burma | 1921 | Census Data || Burma | Sandoway District | 1921 | Sandoway District Census || Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+hmawbi,Hmawbi,,3,sect:2;row:1,"Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP. || Burma | Hanthawaddy District | 1901 | HANTHAWADDY DISTRICT.—Table showing Population by Religion, Civil Cond || Burma | Hanthawaddy | 1891 | HANTHAWADDY DISTRICT.-Table showing Population by Religion, Civil Cond"
+letpangon,Letpangôn,Letpangon,3,row:3,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15. || Burma | Burma | 1891 | THARRAWADDY DISTRICT. || Burma | Burma | 1891 | KATHA DISTRICT.
+southernshanstates,Southern Shan States,,3,row:3,"Burma | Burma | ? | IMPERIAL TABLE VII. Age, Sex and Civil Condition. PART A.—PROVINCIAL S || Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE"
+toungoo,Toungoo,Toungoo District,3,row:2;tag:1,"Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE || Burma | Toungoo District | 1901 | IMPERIAL TABLE No. VII.-Age, Sex and Civil condition by Religions."
+thayetmyo,Thayetmyo,THAYETMYO,3,row:2;colg:1,Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE || Burma | Burma | 1891 | DISTRIBUTION BY DISTRICTS-continued.
+upperchindwin,Upper Chindwin,UPPER CHINDWIN DISTRICT.,3,row:2;sect:1,Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE || Burma | Lower Chindwin District / Upper Chindwin District | 1931 | PART II.-Districts and States.
+meiktila,Meiktila,Meiktila District,3,row:2;tag:1,"Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE || Burma | Meiktila District | 1901 | IMPERIAL TABLE No. VII.-Age, Sex and Civil condition by Religions."
+myingyan,Myingyan,Myingyan District,3,row:2;tag:1,"Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE || Burma | Myingyan District | 1901 | IMPERIAL TABLE No. VII.-Age, Sex and Civil condition by Religions."
+paungdemunicipality,Paungdè Municipality,Paungde Municipality,3,row:2;tag:1,"Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged || Burma | Paungde Municipality | 1891 | PAUNGDE MUNICIPALITY.-Table showing Population by Sex, Age, Civil Cond"
+secularistrationalistandagnostic,"Secularist, Rationalist, And Agnostic.","Secularist, Rationalist And Agnostic.",3,sect:4,"Burma | Burma | 1911 | IMPERIAL TABLE VII - Age, Sex and Civil Condition. PART A / PART B (Pr || Burma | Burma | 1911 | IMPERIAL TABLE VIII - Education by Religion and Age. PART A - PROVINCI"
+yeu,YE-U,,3,title:3,"Burma | Burma | 1891 | YE-U DISTRICT.-Table showing Population by Sex, Age, Civil Condition,  || Burma | Burma | 1891 | YE-U DISTRICT.-Table showing Population, Population by Religion and Ed || Burma | Burma | 1891 | YE-U DISTRICT."
+thazi,thazi,Thazi,2,row:2,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District || Burma | Akyab District | 1891 | Census Data"
+toungooconcldburmesefemales,Toungoo--concld. - Burmese - Females,Toungoo-concld. Burmese Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+pakokkuallracesfemales,Pakokku - All Races - Females,Pakokku All Races Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+pakokkuburmesefemales,Pakokku - Burmese - Females,Pakokku Burmese Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+peguallracesfemales,Pegu - All Races - Females,Pegu All Races Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+peguburmesefemales,Pegu - Burmese - Females,Pegu Burmese Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+inseinallracesfemales,Insein - All Races - Females,Insein All Races Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+inseinburmesefemales,Insein - Burmese - Females,Insein Burmese Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+inseinindianhindusfemales,Insein - Indian Hindus - Females,Insein Indian Hindus Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+merguiallracesfemales,Mergui - All Races - Females,Mergui All Races Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+merguiotherindigenousracesfemales,Mergui - Other Indigenous Races - Females,Mergui Other Indigenous Races Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+pyinmanaallracesfemales,Pyinmana - All Races - Females,Pyinmana All Races Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+pyinmanaburmesefemales,Pyinmana - Burmese - Females,Pyinmana Burmese Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+thatonallracesfemales,Thaton - All Races - Females,Thaton All Races Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+thatonburmesefemales,Thaton - Burmese - Females,Thaton Burmese Females,2,row:2,"Burma | Burma | 1921 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I || Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition by Race-contd. PART I"
+ywathitke,Ywathitke,Ywathitkè,2,row:2,Burma | Akyab | 1921 | AKYAB DISTRICT || Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+byaingdaung,Byaingdaung,,2,row:2,Burma | Akyab | 1891 | AKYAB DISTRICT || Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+laungchaung,Laungchaung,,2,row:2,Burma | Akyab | 1901 | AKYAB DISTRICT || Burma | Akyab District | 1891 | Census Data
+kyeinchaung,Kyeinchaung,,2,row:2,Burma | Akyab | 1901 | AKYAB DISTRICT || Burma | Akyab | 1891 | AKYAB DISTRICT.
+aungtha,Aungtha,,2,row:2,Burma | Akyab District | 1891 | Census Data || Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+letpandaw,Letpandaw,,2,row:2,Burma | Akyab | 1891 | AKYAB DISTRICT. || Burma | Sagaing | 1921 | SAGAING DISTRICT
+kyauktan,Kyauktán,Kyauktan,2,row:1;sect:1,"Burma | Sandoway District | 1921 | Sandoway District Census || Burma | Pegu District | 1891 | PEGU DISTRICT.-Table showing Population by Religion, Civil Condition P"
+kyatchaung,Kyatchaung,,2,row:2,Burma | Kyaukpyu District | 1891 |  || Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+yeozin,Yeozin,,2,row:2,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT || Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+pogaung,Pogaung,,2,row:2,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT || Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+gonnyindan,Gonnyindan,Gônnyindan,2,row:2,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15. || Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+shans,Shans,,2,row:2,"Burma | Burma | 1901 | Total of married in every 50,000 of each sex"
+kachins,Kachins,,2,row:2,"Burma | Burma | 1901 | Total of married in every 50,000 of each sex"
+delta,Delta,,2,row:2,"Burma | Burma | 1931 | SUBSIDIARY TABLE II.—Distribution by Civil Condition of 1,000 of each  || Burma | Burma | 1931 | SUBSIDIARY TABLE IV.-Ratio of females per 1,000 males in each Civil Co"
+north,North,,2,row:2,"Burma | Burma | 1931 | SUBSIDIARY TABLE II.—Distribution by Civil Condition of 1,000 of each  || Burma | Burma | 1931 | SUBSIDIARY TABLE IV.-Ratio of females per 1,000 males in each Civil Co"
+minbu,Minbu,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE
+mandalay,Mandalay,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE
+rubymines,Ruby Mines,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. II.-Variation || Burma | Burma | 1901 | IMPERIAL TABLE
+akyabmunicipality,Akyab Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+kyaukpyumunicipality,Kyaukpyu Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+rangooncantonment,Rangoon Cantonment,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+pegumunicipality,Pegu Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+gyobingaukmunicipality,Gyobingauk Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+shwedaungtown,Shwedaung Town,Shwèdaung Town,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+basseinport,Bassein Port,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+myaungmyamunicipality,Myaungmya Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+maubinmunicipality,Ma-ubin Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+henzadamunicipality,Henzada Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+okpotown,Okpo Town,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+kyanginmunicipality,Kyangin Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+toungoomunicipality,Toungoo Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+kyaiktomunicipality,Kyaikto Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+moulmeinmunicipality,Moulmein Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+kawkareiktown,Kawkareik Town,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+merguimunicipality,Mergui Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+thayetmyocantonment,Thayetmyo Cantonment,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+pakokkumunicipality,Pakôkku Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+salinmunicipality,Salin Municipality,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+yenangyaungtown,Yenangyaung Town,,2,row:2,Burma | Burma | 1901 | IMPERIAL TABLE No. V.—Towns arranged || Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+nyaunggon,Nyaunggôn,Nyaunggon,2,row:2,Burma | Burma | 1891 | KATHA DISTRICT. || Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+aungchantha,Aungchantha,,2,row:2,Burma | Sagaing District | 1891 | Census Data || Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+villagetracts,Village Tracts,,2,colg:2,Burma | Sandoway District | 1921 | Sandoway District Census || Burma | Sagaing | 1891 | SAGAING DISTRICT.
+netvariationinperiodincreaseordecrease,"Net variation in period 1872-1901, Increase (+) or decrease (-)",Net Variation in Period 1872-1901. Increase (+) or decrease (-),2,colg:2,"Burma | Burma | 1901 | Population, with variation since 1872-concluded. || West India | Bombay | 1901 | Table II.-concld. Variation in Population since 1872."
+item,ITEM,,2,colg:2,Burma | Burma | 1891 | Return of Population of the Shwebo District by Districts or States of  || Burma | Burma | 1891 | Return of Population of the Ye-u District by Districts or States of Bi
+intermediateadjustment,Intermediate Adjustment,,2,colg:2,"Burma | Burma | 1911 | SUBSIDIARY TABLE IA.-Adjustment of age distribution of 100,000 males b || Burma | Burma | 1911 | SUBSIDIARY TABLE IB.-Adjustment of age distribution of 100,000 females"
+minbyaconcld,Minbya - concld.,Minbya concld.,2,sect:2,"Burma | Akyab District | 1891 | AKYAB DISTRICT.-Table showing Population by Religion, Civil Condition, || Burma | Akyab District | 1891 | AKYAB DISTRICT.—Table showing Population by Religion, Civil Condition,"
+myohaung,Myohaung.,,2,sect:2,"Burma | Akyab District | 1891 | AKYAB DISTRICT.-Table showing Population by Religion, Civil Condition, || Burma | Akyab District | 1891 | AKYAB DISTRICT.—Table showing Population by Religion, Civil Condition,"
+ramreeconcluded,Ramree-concluded.,,2,sect:2,"Burma | Kyaukpyu District | 1891 | KYAUKPYU DISTRICT.-Table showing Population by Religion, Civil Conditi || Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.-Table showing Population by Religion, Civil Conditi"
+hlaing,Hlaing,,2,sect:2,"Burma | Hanthawaddy District | 1901 | HANTHAWADDY DISTRICT.—Table showing Population by Religion, Civil Cond || Burma | Hanthawaddy | 1891 | HANTHAWADDY DISTRICT.-Table showing Population by Religion, Civil Cond"
+pegutableshowingpopulationpopulationbyreligionandeducationandcbyvillagesandcircles,"PEGU DISTRICT.-Table showing Population, Population by Religion and Education, and c., by Villages and Circles.",,2,sect:2,"Burma | Pegu District | 1891 | PEGU DISTRICT.-Table showing Population, Population by Religion and Ed"
+yamethinconcludedmahomedan,YAMETHIN-concluded. - Mahomedan,,2,sect:2,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+myingyanallreligions,MYINGYAN. - All Religions,,2,sect:2,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+myingyanhindu,MYINGYAN. - Hindu,,2,sect:2,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+northernshanstatesallreligions,NORTHERN SHAN STATES. - All Religions,,2,sect:2,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+shweboconcludedmahomedan,SHWEBO-concluded. Mahomedan,,2,sect:2,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+sagaingallreligions,SAGAING. All Religions,,2,sect:2,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+sagainghindu,SAGAING. Hindu,,2,sect:2,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+sagaingchristian,SAGAING. Christian,,2,sect:2,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+kaniconcld,Kani-concld.,,2,sect:2,"Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.-Table showing Population by Religion, Civil C || Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.—Table showing Population by Religion, Civil C"
+myebontownship,Myebon Township,,2,tag:2,"Burma | Myebon Township | 1891 | MYEBON TOWNSHIP.-Table showing Population by Sex, Age, Civil Condition"
+thayetmyominbu,Thayetmyo District. / Minbu District,,2,tag:2,Burma | Thayetmyo District. / Minbu District | 1931 | PART II.-Districts and States.
+salweenthaton,Salween District / Thaton District,,2,tag:2,Burma | Salween District / Thaton District | 1931 | PART II.-Districts and States.
+kyauksemeiktila,Kyaukse District / Meiktila District,,2,tag:2,"Burma | Kyaukse District / Meiktila District | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+lowerchindwinupperchindwin,Lower Chindwin District / Upper Chindwin District,,2,tag:2,Burma | Lower Chindwin District / Upper Chindwin District | 1931 | PART II.-Districts and States.
+adjustment,Adjustment,,1,row:1,Burma | Burma | 1891 | Table VII - Ages by Religion and Age (all Parts)
+aunggyinywa,Aunggyinywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+thanngaywa,Thanngaywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+pauksein,Pauksein,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+ywaseikywa,Ywaseikywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+konleywa,Konleywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+dontinywa,Dontinywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+thayabaung,Thayabaung,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+modaungnorth,Modaung North,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+pauktawchaungywa,Pauktawchaungywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+sinbyugon,Sinbyugon,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+letpantha,Letpantha,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+yezin,Yezin,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+singyun,Singyun,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+sadeywa,Sadeywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+ainghlywa,ainghlywa,Ainghlywa,1,row:2,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+kyauktaingywa,kyauktaingywa,Kyauktaingywa,1,row:2,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+malegyin,malegyin,Malegyin,1,row:2,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+payatu,payatu,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+shwedwingon,shwedwingôn,Shwedwingôn,1,row:2,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+tamabin,tamabin,Tamabin,1,row:2,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+uyin,u-yin,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+ywathitywa,ywathitywa,Ywathitywa,1,row:2,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+gwadawywa,Gwadawywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+panywa,Panywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+ehlaywa,Ehlaywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+thangonywa,Thangônywa,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+myintha,Myintha,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+sigan,Sigan,,1,row:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+pyapon,Pyapon,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+yenangyaung,Yenangyaung,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+kyaiklat,Kyaiklat,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+maymyomunicipalityallracesfemales,Maymyo Municipality - All Races - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+maymyomunicipalityburmesefemales,Maymyo Municipality - Burmese - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+maymyomunicipalityindianhindusfemales,Maymyo Municipality - Indian Hindus - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+syriamallracesfemales,Syriam - All Races - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+syriamburmesefemales,Syriam - Burmese - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+syriamindianhindusfemales,Syriam - Indian Hindus - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+sagaingallracesfemales,Sagaing - All Races - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+sagaingburmesefemales,Sagaing - Burmese - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+paungdeallracesfemales,Paungde - All Races - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+paungdeburmesefemales,Paungde - Burmese - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+mandalaycantonmentallracesfemales,Mandalay Cantonment - All Races - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+mandalaycantonmentburmesefemales,Mandalay Cantonment - Burmese - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+chaukallracesfemales,Chauk - All Races - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+chaukburmesefemales,Chauk - Burmese - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+namtupanghaiallracesfemales,Namtu-Panghai - All Races - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+allanmyoallracesfemales,Allanmyo - All Races - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+allanmyoburmesefemales,Allanmyo - Burmese - Females,,1,row:1,"Burma | Burma | 1931 | Age Distribution by District, Race and Sex"
+pyaponallracesfemales,Pyapon All Races Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+pyaponburmesefemales,Pyapon Burmese Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+letpadanallracesfemales,Letpadan All Races Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+letpadanburmesefemales,Letpadan Burmese Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+shweboallracesfemales,Shwebo All Races Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+shweboburmesefemales,Shwebo Burmese Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+yenangyaungallracesfemales,Yenangyaung All Races Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+yenangyaungburmesefemales,Yenangyaung Burmese Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+monywaallracesfemales,Monywa All Races Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+monywaburmesefemales,Monywa Burmese Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+kyaiklatallracesfemales,Kyaiklat All Races Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+kyaiklatburmesefemales,Kyaiklat Burmese Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+thongwaallracesfemales,Thongwa All Races Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+thongwaburmesefemales,Thongwa Burmese Females,,1,row:1,"Burma | Burma | 1921 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race - concld. P"
+shanhsipawstatefemales,Shan - Hsipaw State - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+shansouthhsenwifemales,Shan - South Hsenwi - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+shannorthhsenwifemales,Shan - North Hsenwi - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+shansouthernshanstatesfemales,Shan - Southern Shan States - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+shankengtungstatefemales,Shan - Kengtung State - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+shannortheasternsubdivisionfemales,Shan - North-Eastern Subdivision - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+shansoutheasternsubdivisionfemales,Shan - South-Eastern Subdivision - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+shankarennifemales,Shan - Karenni - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+taungthuyawnghwestatefemales,Taungthu - Yawnghwe State - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+taungthucentralsubdivisionfemales,Taungthu - Central Subdivision - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+taungthuwesternsubdivisionfemales,Taungthu - Western Subdivision - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+taungthuthatonfemales,Taungthu - Thaton - Females,,1,row:1,Burma | Burma | 1921 | IMPERIAL TABLE VIII.—Civil Condition by Age for Selected Races.
+mandalaymunicipalityallracesfemales,Mandalay Municipality. All Races Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+mandalaymunicipalityburmesefemales,Mandalay Municipality. Burmese Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+mandalaymunicipalityindianhindusfemales,Mandalay Municipality. Indian Hindus Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+mandalaymunicipalityindianmuslimsfemales,Mandalay Municipality. Indian Muslims Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+mandalaymunicipalityindoburmanracesfemales,Mandalay Municipality. Indo-Burman Races Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+moulmeinallracesfemales,Moulmein All Races Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+moulmeinburmesefemales,Moulmein Burmese Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+moulmeinotherindigenousracesfemales,Moulmein Other Indigenous Races Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+moulmeinindianhindusfemales,Moulmein Indian Hindus Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+moulmeinindianmuslimsfemales,Moulmein Indian Muslims Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+moulmeinindoburmanracesfemales,Moulmein Indo-Burman Races Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+moulmeinchinesefemales,Moulmein Chinese Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+basseinallracesfemales,Bassein All Races Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+basseinburmesefemales,Bassein Burmese Females,,1,row:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex and Civil Condition by Race. PART III. "
+indianhindusfemales,Indian Hindus - Females,,1,row:1,Burma | Burma | 1931 | 
+indianmuslimsfemales,Indian Muslims - Females,,1,row:1,Burma | Burma | 1931 | 
+burmesefemales,Burmese - Females,,1,row:1,Burma | Burma | 1931 | 
+myaukswe,Myaukswè,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+yapweywa,Yapweywa,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+shaukpongyun,Shaukpôngyun,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+poyinywa,Poyinywa,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+maunggan,Maunggan,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+sino,Sin-o,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+gongyunauk,Gôngyunauk,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+bawdaw,Bawdaw,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+kyeinza,Kyeinza,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+letpyat,Letpyat,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+payagyingahon,Payagyingahôn,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+kyetchaungngacha,Kyetchaungngacha,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+sabaung,Sabaung,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+ngachaing,Ngachaing,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+atetsenge,Atetsengè,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+pyabongyingalon,Pyabôngyingalôn,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+thazichin,Thazichin,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+settha,Settha,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+shinbyu,Shinbyu,,1,row:1,Burma | Akyab | 1921 | AKYAB DISTRICT
+pogaungdaung,Pogaungdaung,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+linkeywa,Linkeywa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+pogaungwa,Pogaungwa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+nanyagon,Nanyagon,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+myawchaungpyinshi,Myawchaung pyinshi,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+theindaungywa,Theindaungywa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+pyahinyin,Pyahinyin,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+ywetnyodaung,Ywetnyodaung,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+lemyo,Lemyo,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+kyanyobyin,Kyanyobyin,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+yechaungpinla,Yechaungpinla,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+shaukponchaung,Shaukponchaung,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+laungyon,Laungyon,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+sitchaungbya,Sitchaungbya,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+ulabyetaungywa,Ulabyetaungywa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+kondanywa,Kondanywa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT
+kanetpe,Kanetpe,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+kala,Kala,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+kyaukseik,Kyaukseik,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+winbaing,Winbaing,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+awyama,Awyama,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+dabaingshe,Dabaingshe,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+ayin,Ayin,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+pawuntaung,Pawuntaung,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+thinbaungdan,Thinbaungdan,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+sinthechaung,Sinthechaung,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+peinnedawmyo,Peinnèdawmyo,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+luke,Lukè,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+dippetkyidan,Dippetkyidan,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+kinka,Kinka,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+thalon,Thalôn,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+taroktaungboat,Tarôktaung (boat),,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+thedaw,Thèdaw,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+namahat,Namahat,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+thetle,Thetlè,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+myalebaw,Myalèbaw,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+kyetwe,Kyetwè,,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+kamaungdawboat,Kamaungdaw (boat),,1,row:1,Burma | Akyab | 1901 | AKYAB DISTRICT
+yetkondaing,Yetkôndaing,,1,row:1,Burma | Akyab District | 1891 | Census Data
+obauk,Ôbauk,,1,row:1,Burma | Akyab District | 1891 | Census Data
+satkotchaunng,Satkotchaunng,,1,row:1,Burma | Akyab District | 1891 | Census Data
+ngasanbaw,Ngasanbaw,,1,row:1,Burma | Akyab District | 1891 | Census Data
+yemyatchaung,Yemyatchaung,,1,row:1,Burma | Akyab District | 1891 | Census Data
+paikseiknebugan,Paikseiknebugan,,1,row:1,Burma | Akyab District | 1891 | Census Data
+thaungdayawest,Thaungdaya West,,1,row:1,Burma | Akyab District | 1891 | Census Data
+kyaukchaung,Kyaukchaung,,1,row:1,Burma | Akyab District | 1891 | Census Data
+legwazon,Legwazôn,,1,row:1,Burma | Akyab District | 1891 | Census Data
+lamudaing,Lamudaing,,1,row:1,Burma | Akyab District | 1891 | Census Data
+legwinnge,Lègwinngè,,1,row:1,Burma | Akyab District | 1891 | Census Data
+kyauklangyi,Kyauklangyi,,1,row:1,Burma | Akyab District | 1891 | Census Data
+paingdaung,Paingdaung,,1,row:1,Burma | Akyab District | 1891 | Census Data
+yezawchaung,Yezawchaung,,1,row:1,Burma | Akyab District | 1891 | Census Data
+kinbunchaung,Kinbunchaung,,1,row:1,Burma | Akyab District | 1891 | Census Data
+pethadoatet,Pethado atet,,1,row:1,Burma | Akyab District | 1891 | Census Data
+pethado,Pethado,,1,row:1,Burma | Akyab District | 1891 | Census Data
+kayugyaung,Kayugyaung,,1,row:1,Burma | Akyab District | 1891 | Census Data
+migyaungyethauk,Migyaungyethauk,,1,row:1,Burma | Akyab District | 1891 | Census Data
+myinbu,Myinbu,,1,row:1,Burma | Akyab District | 1891 | Census Data
+taungna,Taungna,,1,row:1,Burma | Akyab District | 1901 | Census Data
+chyitthauk,Chyitthauk,,1,row:1,Burma | Akyab District | 1901 | Census Data
+nyaungchon,Nyaungchôn,,1,row:1,Burma | Akyab District | 1901 | Census Data
+kywelangyaung,Kywelangyaung,,1,row:1,Burma | Akyab District | 1901 | Census Data
+ngabyaukse,Ngabyauksè,,1,row:1,Burma | Akyab District | 1901 | Census Data
+wunti,Wunti,,1,row:1,Burma | Akyab District | 1901 | Census Data
+myingattaw,Myingattaw,,1,row:1,Burma | Akyab District | 1901 | Census Data
+gwazon,Gwazôn,,1,row:1,Burma | Akyab District | 1901 | Census Data
+yinchaung,Yinchaung,,1,row:1,Burma | Akyab District | 1901 | Census Data
+letmaseik,Letmaseik,,1,row:1,Burma | Akyab District | 1901 | Census Data
+awyattha,Awyattha,,1,row:1,Burma | Akyab District | 1901 | Census Data
+dewa,Dewa,,1,row:1,Burma | Akyab District | 1901 | Census Data
+dokkanchaung,Dôkkanchaung,,1,row:1,Burma | Akyab District | 1901 | Census Data
+pyeinchaung,Pyeinchaung,,1,row:1,Burma | Akyab District | 1901 | Census Data
+pyaungzeik,Pyaungzeik,,1,row:1,Burma | Akyab District | 1901 | Census Data
+aukponza,Aukpônza,,1,row:1,Burma | Akyab District | 1901 | Census Data
+miyatpyin,Miyatpyin,,1,row:1,Burma | Akyab District | 1901 | Census Data
+kanzaukyakaing,Kanzaukyakaing,,1,row:1,Burma | Akyab District | 1901 | Census Data
+kingyaung,Kingyaung,,1,row:1,Burma | Akyab District | 1901 | Census Data
+nozoywa,Nozoywa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+kyauku,Kyauku,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+kauknyinsa,Kauknyinsa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+kyungyi,Kyungyi,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+nagaywe,Nagaywe,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+chaungwa,Chaungwa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+pandu,Pandu,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+thanshinbyin,Thanshinbyin,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+maungswe,Maungswè,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+mahati,Mahati,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+paungdok,Paungdôk,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+malunze,Malunze,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+pabeyet,Pabèyet,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+thukobon,Thukobôn,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+odin,Odin,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+mokkya,Môkkya,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+okponbyin,Ôkpônbyin,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+kyagan,Kyagan,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+thityin,Thityin,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+awa,Awa,,1,row:1,Burma | Akyab | 1891 | AKYAB DISTRICT.
+kalabon,Kalabôn,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+kyauktaungbyin,kyauktaungbyin,Kyauktaungbyin,1,row:2,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+petkya,petkya,Petkya,1,row:2,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+satpyetindaing,satpyetindaing,Satpyetindaing,1,row:2,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+sitpya,sitpya,Sitpya,1,row:2,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+wunbaikhleseik,wunbaikhleseik,Wunbaikhleseik,1,row:2,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+yantheitgyiywa,yantheitgyiywa,Yantheitgyiywa,1,row:2,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+awadaung,Awadaung,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+letpanmyauk,Letpan myauk,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+mayutchaing,Mayutchaing,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+chaungnge,Chaungngè,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+wunbuseywa,Wunbusèywa,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+kamaungkyidaungchinywa,Kamaungkyidaungchinywa,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+tayaungywa,Tayaungywa,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+thinbawzeik,Thinbawzeik,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+ngapyawgyi,Ngapyawgyi,,1,row:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+thawka,Thawka,,1,row:1,Burma | Burma | 1921 | Census Data
+pyitmakwin,Pyitmakwin,,1,row:1,Burma | Burma | 1921 | Census Data
+kanchaung,Kanchaung,,1,row:1,Burma | Burma | 1921 | Census Data
+kyaukgaung,Kyaukgaung,,1,row:1,Burma | Burma | 1921 | Census Data
+kaingdaw,Kaingdaw,,1,row:1,Burma | Burma | 1921 | Census Data
+pyunhmaw,Pyunhmaw,,1,row:1,Burma | Burma | 1921 | Census Data
+chaungwaboat,Chaungwa (boat),,1,row:1,Burma | Burma | 1921 | Census Data
+dodangyi,Dodangyi,,1,row:1,Burma | Burma | 1921 | Census Data
+sizongon,Sizôngôn,,1,row:1,Burma | Burma | 1921 | Census Data
+sachetkyi,Sachetkyi,,1,row:1,Burma | Burma | 1921 | Census Data
+wetto,Wetto,,1,row:1,Burma | Burma | 1921 | Census Data
+chaunggyauk,Chaunggyauk,,1,row:1,Burma | Burma | 1921 | Census Data
+tainggyochinywa,Tainggyochinywa,,1,row:1,Burma | Burma | 1921 | Census Data
+kywechaing,Kywèchaing,,1,row:1,Burma | Burma | 1921 | Census Data
+bein,Be-in,,1,row:1,Burma | Burma | 1921 | Census Data
+sanda,Sanda,,1,row:1,Burma | Burma | 1921 | Census Data
+aukkalabyin,Aukkalabyin,,1,row:1,Burma | Burma | 1921 | Census Data
+kanyingon,Kanyingôn,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+nangyaung,Nangyaung,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+taungbauk,Taungbauk,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+myatkwin,Myatkwin,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+thayakwin,Thayakwin,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+powagon,Powagôn,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+mayu,Mayu,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+abe,Abè,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+myabyin,Myabyin,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+wadaung,Wadaung,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+zibyugon,Zibyugôn,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+sabagyi,Sabagyi,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+thanbeyaboat,Thanbèya (boat),,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+thayetpinkwin,Thayetpinkwin,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+kyiganye,Kyiganyè,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+mawyonboat,Mawyôn (boat),,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+kwinwaing,Kwinwaing,,1,row:1,Burma | Sandoway District | 1921 | Sandoway District Census
+maubyinboat,Ma-ubyin (boat),,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+tabyu,Tabyu,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+chaungshe,Chaungshe,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+ngalekya,Ngalekya,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+laungsat,Laungsat,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+gelaung,Gelaung,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+myauku,Myauk-u,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+ywahaungwe,Ywahaungwe,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+wetmidoywa,Wetmidoywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+natlahaywa,Natlahaywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+taungshaukywa,Taungshaukywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+paikayweywa,Paikayweywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+mekantaung,Mekantaung,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+tandinywa,Tandinywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+ngayoktaung,Ngayoktaung,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+pymnuhywa,Pymnuhywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+yebeinaukywa,Yebeinaukywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+sintheywaywa,Sintheywaywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+nwalaboywa,Nwalaboywa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+nyaungchaungwa,Nyaungchaungwa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+palaungwa,Palaungwa,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+thitmaunghnama,Thitmaunghnama,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+kamaungseik,Kamaungseik,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+ngakyidaung,Ngakyidaung,,1,row:1,Burma | Kyaukpyu | 1891 | KYAUKPYU DISTRICT.
+sindo,Sindo,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+pyaungchaung,Pyaungchaung,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+myokanbaywa,Myôkanbaywa,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+lonwaywa,Lônwaywa,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+kyaungpyukwin,Kyaungpyukwin,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+lonchaungywa,Lônchaungywa,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+thinchaung,Thinchaung,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+yatthagyi,Yatthagyi,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+myetnigyungrant,Myetnigyun (grant),,1,row:1,Burma | Kyaukpyu District | 1891 | 
+yebokywa,Yebôkywa,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+wechaung,Wechaung,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+minteywa,Minteywa,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+chaungbok,Chaungbôk,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+awabyin,Awabyin,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+thayetpinbyin,Thayetpinbyin,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+petchaung,Petchaung,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+pyathigyun,Pyâthigyun,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+letkwadwe,Letkwadwe,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+kanbwedalaik,Kanbwedalaik,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+laungchaungywa,Laungchaungywa,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+sappadwe,Sappadwe,,1,row:1,Burma | Kyaukpyu District | 1891 | 
+payon,Payôn,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+kyweluaing,Kywèluaing,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+sabozu,Sabozu,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+kalaukkali,Kalaukkali,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+kayazu,Kayazu,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+pyamut,Pyamut,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+peinnegan,Peinnègan,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+didaingriverboat,Didaing river (boat),,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+tawkayanashe,Tawkayan ashe,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+tawkuashe,Tawku ashe,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+ngaoasu,Nga-o asu,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+ngayoasu,Ngayoasu,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+seikkyi,Seikkyi,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+tawpalwe,Tawpalwè,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+tawgyaung,Tawgyaung,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+mankaleik,Mankaleik,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+sukala,Sukala,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+wagauksu,Wagauksu,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+konbyat,Kônbyat,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+eindapuragon,Eindapuragôn,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+taikkyi,Taikkyi,,1,row:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+nganeuasu,Nganeuasu,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+tagwa,Tagwa,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+kanthonzinpayangokto,Kanthônzin-payangôkto,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+gyogyakwin,Gyogyakwin,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+taikkyirailwaystation,Taikkyi Railway station,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+nyaunglebin,Nyaunglèbin,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+singu,Singu,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+kyibinin,Kyibinin,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+kyaikmandaw,Kyaikmandaw,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+udothanatchaung,Udothanatchaung,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+thewashanzu,Thèwashanzu,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+ngasanyeasu,Ngasanyeasu,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+thanatchaungrailwaystation,Thanatchaung Railway station,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+kangalegon,Kangalegôn,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+dunkaikpinlan,Dunkaikpinlan,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+kyontakin,Kyôntakin,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+hlelangusabyu,Hlèlangusabyu,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+intaya,Intaya,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+kyaunggon,Kyaunggôn,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+aingkalaung,Aingkalaung,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+nandawgon,Nandawgôn,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+kunnakyaiksitpinwe,Kùnnakyaiksitpinwè,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+alabok,Alabôk,,1,row:1,Burma | Hanthawaddy | 1901 | HANTHAWADDY DISTRICT
+kinpadi,Kinpadi,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+kywebok,Kywebok,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+thaminkwin,Thaminkwin,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+tayaungbinshanzu,Tayaungbinshanzu,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+thaikwachaung,Thaikwachaung,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+chaungzauk,Chaungzauk,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+migyaung,Migyaung,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+danushanzu,Danushanzu,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+ngabyemain,Ngabyema-in,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+kywebonsakan,Kywebonsakan,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+ngasokwin,Ngasokwin,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+thanbangyawauk,Thanbangyawauk,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+panibin,Panibin,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+taungbohla,Taungbohla,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+pataya,Pataya,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+sainggaung,Sainggaung,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+gyogya,Gyogya,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+thitkaungyi,Thitkaungyi,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+thitkaungzu,Thitkaungzu,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+wunkaik,Wunkaik,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+mininkangon,Mininkangon,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+mondaing,Mondaing,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+padaukkon,Padaukkon,,1,row:1,Burma | Hanthawaddy District | 1891 | Tabu Circle No. 15.
+titan,Titan,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+paukongale,Paukongale,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+gwaywa,Gwaywa,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+paingkyon,Paingkyon,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+makyetgale,Makyetgale,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+thabyuatwin,Thabyu atwin,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+thamechaung,Thamechaung,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+kanbyaung,Kanbyaung,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+aton,Aton,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+kabauk,Kabauk,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+nyaungbingan,Nyaungbingan,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+kyaungdaik,Kyaungdaik,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+pagan,Pagan,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+paukpin,Paukpin,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+maungma,Maungma,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+kadatpya,Kadatpya,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+awabye,Awabye,,1,row:1,Burma | Pegu District | 1891 | PEGU DISTRICT.
+thabyu,Thabyu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+seywa,Seywa,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+kyaungzukyaunggon,Kyaungzu-kyaunggôn,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+byetkyi,Byetkyi,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+shangon,Shangôn,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+thayagonywama,Thayagôn ywama,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+thayagonkyaungzu,Thayagôn kyaungzu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+pebindan,Pebindan,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+oktwinlugalezu,Oktwin lugalezu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+oktwinthaingchon,Oktwin thaingchôn,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+tayegwinyogon,Tayegwin yôgôn,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+tayegwinngalanasu,Tayegwin ngalanasu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+tagundaingzu,Tagundaingzu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+thindaukankyaungzu,Thindaukankyaungzu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+thindaukanchaungnazu,Thindaukanchaungnazu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+gonmingwinaungthaasu,Gônmingwinaungthaasu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+gonmingwinshwehmataasu,Gônmingwinshwehmataasu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+pyindaungdwin,Pyindaungdwin,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+pyindaungdwinanauksu,Pyindaungdwin anauksu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+pyindaungdwinthitchaung,Pyindaungdwin thitchaung,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+tahnapoauksu,Tahnapo auksu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+kyettawkwinashezu,Kyettawkwin ashezu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+kanthayataungzu,Kanthayataungzu,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+tahnabogyi,Tahnabogyi,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+okpogyiaing,Okpogyiaing,,1,row:1,Burma | Burma | 1921 | THARRAWADDY DISTRICT.
+hmanlakagon,Hmanlakagôn,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+kondangyi,Kôndangyi,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+alayet,Alayet,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+aiktaha,Aiktaha,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+atanaw,Atanaw,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+bilinwest,Bilin West,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+zibwe,Zibwè,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+inponnyainthayaw,Inpônnya-Inthayaw,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+thingangon,Thingangôn,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+alegon,Alègôn,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+yele,Yelè,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+zayatgyi,Zayatgyi,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+udogyi,Udogyi,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+udogale,Udogale,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+nwegwe,Nwègwe,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+aukkywethat,Aukkywèthat,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+thindawyoeast,Thindawyo East,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+aletgonminmyaung,Aletgônminmyaung,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+pushwegyaw,Pushwegyaw,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+zeinza,Zeinza,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+oktwinyewe,Oktwinyewe,,1,row:1,Burma | Burma | 1891 | THARRAWADDY DISTRICT.
+alapoktontu,Alapôktôntu,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+katuin,Katuin,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+ainggyaikin,Ainggyaikin,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+lahatwelwegale,Lahatwèlwegale,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+sinzu,Sinzu,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+minlan,Minlan,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+kyungoneast,Kyungôn East,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+thindawgan,Thindawgan,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+kawpyinkwin,Kawpyinkwin,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+taungboshe,Taungboshe,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+nganokasu,Nganôkasu,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+kyandawzu,Kyandawzu,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+gonminin,Gônminin,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+aukthonzu,Aukthônzu,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+magyikwin,Magyikwin,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+tazinaing,Tazinaing,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+gwedaukkon,Gwedaukkôn,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+kyungon,Kyungôn,,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+bogyigonkaren,Bogyigôn (Karen),,1,row:1,Burma | Tharrawaddy District | 1891 | Census Data Tharrawaddy District
+pakokkuhilltracts,Pakokku Hill Tracts,,1,row:1,"Burma | Burma | ? | IMPERIAL TABLE VII. Age, Sex and Civil Condition. PART A.—PROVINCIAL S"
+upperburmadry,"UPPER BURMA, DRY",,1,row:1,"Burma | Burma | 1901 | SUBSIDIARY TABLE No. IVD. Distribution by civil condition of 10,000 of"
+lowerburmasubdeltaic,"LOWER BURMA, SUB-DELTAIC",,1,row:1,"Burma | Burma | 1901 | SUBSIDIARY TABLE No. IVD. Distribution by civil condition of 10,000 of"
+rangooncity,RANGOON CITY,,1,row:1,"Burma | Burma | 1901 | SUBSIDIARY TABLE No. IVD. Distribution by civil condition of 10,000 of"
+burmawhole,BURMA (WHOLE),,1,row:1,"Burma | Burma | 1901 | SUBSIDIARY TABLE No. IVD. Distribution by civil condition of 10,000 of"
+mandalaymunicipality,Mandalay Municipality,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+mandalayshore,Mandalay Shore,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+maymyocantonment,Maymyo Cantonment,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+bhamocantonment,Bhamo Cantonment,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+shwebocantonment,Shwebo Cantonment,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+monywamunicipality,Mônywa Municipality,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+meiktilatown,Meiktila Town,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+yamethinmunicipality,Yamèthin Municipality,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+myingyanmunicipality,Myingyan Municipality,,1,row:1,Burma | Burma | 1901 | IMPERIAL TABLE No. V.-Towns arranged
+shwedaung,Shwedaung,,1,row:1,Burma | Burma | 1901 | Statement showing probable population of the towns of Lower Burma in 1
+yandoon,Yandoon,,1,row:1,Burma | Burma | 1901 | Statement showing probable population of the towns of Lower Burma in 1
+natworshipperssingle,Nat-worshippers Single,,1,row:1,"Burma | Burma | 1891 | DISTRIBUTION OF 10,000 PERSONS OF EACH RELIGION BY SEX."
+natworshipperswidowed,Nat-worshippers Widowed,,1,row:1,"Burma | Burma | 1891 | DISTRIBUTION OF 10,000 PERSONS OF EACH RELIGION BY SEX."
+summarytotal,Summary Total 1,,1,row:1,Burma | Burma | 1891 | PART E.-MUSALMANS-concluded.
+ledawtha,Lèdawtha,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+naunggon,Naunggôn,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+gyongyongya,Gyôngyôngya,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+lepyinywa,Lepyinywa,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+budalet,Budalet,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+kyaungon,Kyaungôn,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+shwemaunggon,Shwemaunggôn,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+peinnegon,Peinnègôn,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+kyaukaik,Kyaukaik,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+keinton,Kèinton,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+thapangaing,Thapangaing,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+kyaukpaukchaung,Kyaukpaukchaung,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+moyu,Moyu,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+taunglonnyo,Taunglônnyo,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+lebyin,Lebyin,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+aunggon,Aunggôn,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+nalaung,Nalaung,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+upperkyanchaung,Upper Kyanchaung,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+nankin,Nankin,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+sinhaung,Sinhaung,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+tonbon,Tônbôn,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+chaungbya,Chaungbya,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+naba,Naba,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+nanmakyaing,Nanmakyaing,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+petsut,Petsut,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+hwehinlat,Hwehinlat,,1,row:1,Burma | Burma | 1891 | KATHA DISTRICT.
+einya,Einya,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+thabeikle,Thabeiklè,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+ondaw,Ondaw,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+minswehnit,Minswèhnit,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+tanegyigon,Tanegyigôn,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+danbinywanorth,Danbinywa North,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+tonbo,Tônbo,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+nagabonorth,Nagabo North,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+letyetkon,Letyetkôn,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+mukadwin,Mukadwin,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+nwamya,Nwamya,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+mayogon,Mayogôn,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+wegyi,Wègyi,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+mayaganwithmilitarypolicepost,Mayagan with military police post,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+inbin,Inbin,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+daingnat,Daingnat,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+tetkaung,Tetkaung,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+ontabin,Ôntabin,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+penwe,Pènwè,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+labazaw,Labazaw,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+tane,Tanè,,1,row:1,Burma | Burma | 1891 | YE-U DISTRICT.
+thungedaw,Thungèdaw,,1,row:1,Burma | Sagaing | 1891 | SAGAING DISTRICT.
+kaingbyin,Kaingbyin,,1,row:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+nyaungbinwun,Nyaungbinwun,,1,row:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+tabayingwe,Tabayingwe,,1,row:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+mauthadun,Ma-uthadun,,1,row:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+maubinkondan,Ma-ubinkondan,,1,row:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+sinmye,Sinmye,,1,row:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+kyatpyin,Kyatpyin,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+kabo,Kabo,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+myinzaing,Myinzaing,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+buyauk,Buyauk,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+theppan,Theppan,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+eswaywa,Eswaywa,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+gwesaung,Gwesaung,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+sappyagyin,Sappyagyin,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+htisaung,Htisaung,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+inma,Inma,,1,row:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+yegyaweast,Yegyaw East,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+tagingyi,Tagingyi,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+legan,Lègan,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+indaingtha,Indaingtha,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+kyetyin,Kyetyin,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+shwegu,Shwegu,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+nanu,Nan-u,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+pauktawashe,Pauktaw ashe,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+kyaukpyewgon,Kyaukpyewgon,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+shabinywa,Shabinywa,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+memathaw,Memathaw,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+sinywa,Sinywa,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+shwebontha,Shwebontha,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+thaunggyi,Thaunggyi,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+chaungzonywa,Chaungzonywa†,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+ngabet,Ngabet,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+shwele,Shwele,,1,row:1,Burma | Sagaing District | 1891 | Census Data
+nyaunggan,Nyaunggan,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+okaing,Okaing,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+kyetyogon,Kyetyogon,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+kado,Kado,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+bashu,Bashu,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+wunton,Wunton,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+siba,Siba,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+tethlaing,Tethlaing,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+hnontan,Hnontan,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+kungyan,Kungyan,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+hnawpinyo,Hnawpinyo,,1,row:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+wholeprovincelessakyab,Whole province less Akyab district,,1,colg:1,Burma | Burma | 1931 | 1. Age distribution of Indians.
+ofallages,OF ALL AGES,,1,colg:1,Burma | Burma | 1891 | Comparative Statement showing Relative Distribution of Population by S
+racepopulation,Race Population,,1,colg:1,Burma | Burma | 1891 | KATHA DISTRICT.
+arakanhilltracts,Arakan Hill Tracts,,1,sect:1,"Burma | Akyab District | 1931 | IMPERIAL TABLE VII - Age, Sex and Civil Condition by Race. PART II - D"
+tharrawaddyburmese,THARRAWADDY DISTRICT. - Burmese,,1,sect:1,"Burma | Rangoon Town District | 1931 | IMPERIAL TABLE VII - Age, Sex and Civil Condition by Race. PART II - D"
+hanthawaddyburmese,HANTHAWADDY DISTRICT. - Burmese,,1,sect:1,"Burma | Rangoon Town District | 1931 | IMPERIAL TABLE VII - Age, Sex and Civil Condition by Race. PART II - D"
+desatcircleno,Desat Circle No. 22,,1,sect:1,"Burma | Pegu District | 1891 | PEGU DISTRICT - Table showing Population, Population by Religion and E"
+tharrawaddytableshowingpopu,THARRAWADDY DISTRICT.-Table showing Popu,,1,sect:1,"Burma | Tharrawaddy District | 1891 | THARRAWADDY DISTRICT - Table showing Population, Population by Religio"
+thanngaywacircleno,Thanngaywa Circle No. 78.,,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+konletokcircleno,Konletok Circle No. 80.,,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+sinbyugoncircleno,Sinbyugon Circle No. 82.,,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+sigaungcircleno,Sigaung Circle No. 90.,,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+magyicircleno,Magyi Circle No. 92.,,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"
+inseinallraces,INSEIN DISTRICT. - All Races,,1,sect:1,Burma | Burma | 1931 | PART II.-Districts and States.
+inseinindianhindus,INSEIN DISTRICT. - Indian Hindus,,1,sect:1,Burma | Burma | 1931 | PART II.-Districts and States.
+myaungmyaallraces,MYAUNGMYA DISTRICT. - All Races,,1,sect:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex, and Civil Condition by Race."
+myaungmyaotherindigenousraces,MYAUNGMYA DISTRICT. - Other Indigenous Races,,1,sect:1,"Burma | Burma | 1901 | IMPERIAL TABLE VII. - Age, Sex, and Civil Condition by Race."
+myaungmyaconcldindianmuslims,MYAUNGMYA DISTRICT-concld. - Indian Muslims,,1,sect:1,Burma | Burma | 1931 | PART II.-Districts and States.
+maubinburmese,MAUBIN DISTRICT. - Burmese,,1,sect:1,Burma | Burma | 1931 | PART II.-Districts and States.
+toungooallraces,TOUNGOO DISTRICT. - All Races,,1,sect:1,"Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+toungoootherindigenousraces,TOUNGOO DISTRICT. - Other Indigenous Races,,1,sect:1,"Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+thayetmyoburmese,THAYETMYO DISTRICT. Burmese,,1,sect:1,Burma | Thayetmyo District. / Minbu District | 1931 | PART II.-Districts and States.
+minbuburmese,MINBU DISTRICT. Burmese,,1,sect:1,Burma | Thayetmyo District. / Minbu District | 1931 | PART II.-Districts and States.
+magweburmese,MAGWE DISTRICT - Burmese,,1,sect:1,"Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+pakokkuburmese,PAKOKKU DISTRICT - Burmese,,1,sect:1,"Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+mandalayallraces,MANDALAY DISTRICT. All Races,,1,sect:1,Burma | Burma | 1931 | PART II.-Districts and States.
+shweboburmese,SHWEBO DISTRICT. - Burmese,,1,sect:1,Burma | Burma | 1931 | PART II.-Districts and States.
+sagaingburmese,SAGAING DISTRICT. - Burmese,,1,sect:1,Burma | Burma | 1931 | PART II.-Districts and States.
+bhamootherindigenousraces,BHAMO DISTRICT. - Other Indigenous Races,,1,sect:1,"Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+myitkyinaotherindigenousraces,MYITKYINA DISTRICT. - Other Indigenous Races,,1,sect:1,"Burma | Burma | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+kyaukseburmese,KYAUKSE DISTRICT - Burmese,,1,sect:1,"Burma | Kyaukse District / Meiktila District | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+meiktilaburmese,MEIKTILA DISTRICT - Burmese,,1,sect:1,"Burma | Kyaukse District / Meiktila District | 1931 | IMPERIAL TABLE VII.-Age, Sex, and Civil Condition by Race."
+myingyanallraces,MYINGYAN DISTRICT. All Races,,1,sect:1,Burma | Myingyan District / Yamethin District | 1931 | PART II.-Districts and States.
+yamethinallraces,YAMETHIN DISTRICT. All Races,,1,sect:1,Burma | Myingyan District / Yamethin District | 1931 | PART II.-Districts and States.
+birthplaceofinmatesofinstitutions,Birth-place of inmates of institutions,,1,sect:1,Burma | Burma | 1931 | IMPERIAL TABLE IX. Infirmities.
+rangoontownallraces,RANGOON TOWN DISTRICT. - All Races,,1,sect:1,Burma | Burma | 1931 | PART II.—Districts and States.
+rangoontownchinese,RANGOON TOWN DISTRICT. - Chinese,,1,sect:1,Burma | Burma | 1931 | PART II.—Districts and States.
+chinhillstableshowingpopulationbysexagecivilconditioneducationandinfirmities,"CHIN HILLS.-Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Akyab District | 1891 | AKYAB TOWNSHIP.-Table showing Population by Sex, Age, Civil Condition,"
+myaukpyincircleno,Myaukpyin Circle No. 63.,,1,sect:1,"Burma | Akyab District | 1891 | AKYAB DISTRICT.-Table showing Population, Population by Religion and E"
+urittaungconcld,Urittaung - concld.,,1,sect:1,"Burma | Akyab District | 1891 | AKYAB DISTRICT.—Table showing Population by Religion, Civil Condition,"
+rathedaungtown,Rathedaung Town.,,1,sect:1,"Burma | Akyab District | 1891 | AKYAB DISTRICT.—Table showing Population by Religion, Civil Condition,"
+detailedpopulation,Detailed Population,,1,sect:1,"Burma | Northern Arakan District | 1891 | NORTHERN ARAKAN DISTRICT.—Table showing Population by Sex, Age, Civil "
+kalaboncircleno,Kalabôn Circle No. 49.,,1,sect:1,"Burma | Akyab District | 1891 | AKYAB DISTRICT.—Table showing Population, Population by Religion and E"
+tizwecircleno,Tizwè Circle No. 15.,,1,sect:1,Burma | Akyab District | 1891 | Census Data
+aungseikcircleno,Aungseik Circle No. 33.,,1,sect:1,Burma | Akyab District | 1901 | Census Data
+myomaashecircleno,Myoma Ashe Circle No 40.,,1,sect:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+myomataungcircleno,Myoma Taung Circle No 42.,,1,sect:1,Burma | Kyaukpyu | 1891 | Kyaukpyu District Census
+maicircleno,Ma-i Circle No. 1.,,1,sect:1,"Burma | Sandoway District | 1891 | SANDOWAY DISTRICT.—Table showing Population, Population by Religion an"
+antownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,"AN TOWNSHIP.-Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Myebon Township | 1891 | MYEBON TOWNSHIP.-Table showing Population by Sex, Age, Civil Condition"
+southerntownship,SOUTHERN TOWNSHIP,,1,sect:1,Burma | Burma | 1921 | Census Data
+pandawbyincircleno,Pandawbyin Circle No. 20.,,1,sect:1,"Burma | Burma | 1891 | KYAUKPYU DISTRICT.—Table showing Population, Population by Religion an"
+sawacircleno,Sawa Circle No. 24.,,1,sect:1,Burma | Sandoway District | 1921 | Sandoway District Census
+ramreetownshipdetailed,RAMREE TOWNSHIP Detailed,,1,sect:1,"Burma | Kyaukpyu District | 1891 | Table showing Population by Sex, Age, Civil Condition, Education, and "
+chedubatownshipdetailed,CHEDUBA TOWNSHIP Detailed,,1,sect:1,"Burma | Kyaukpyu District | 1891 | Table showing Population by Sex, Age, Civil Condition, Education, and "
+sandowaytowntableshowingpopulationbysexagecivilconditioneducationandinfirmities,"SANDOWAY TOWN.-Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Sandoway District | 1891 | SANDOWAY DISTRICT.-Table showing Population by Sex, Age, Civil Conditi"
+myebon,Myebôn.,,1,sect:1,"Burma | Kyaukpyu District | 1891 | KYAUKPYU DISTRICT.-Table showing Population by Religion, Civil Conditi"
+northerntownshipcontd,NORTHERN TOWNSHIP-contd.,,1,sect:1,"Burma | Sandoway | 1891 | SANDOWAY DISTRICT.-Table showing Population, Population by Religion an"
+ingyincircleno,Ingyin Circle No. 50.,,1,sect:1,Burma | Kyaukpyu District | 1891 | 
+rangoontownincludingmunicipalitycantonmentandporttableshowingpopulationbysexagecivilconditioneducationandinfirmities,"RANGOON TOWN (INCLUDING MUNICIPALITY, CANTONMENT, AND PORT).-Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Rangoon Town | 1891 | RANGOON TOWN (INCLUDING MUNICIPALITY, CANTONMENT, AND PORT).-Table sho"
+hmawbitownshipsummary,HMAWBI TOWNSHIP - Summary,,1,sect:1,"Burma | Burma | 1891 | CENSUS OF 1891. HMAWBI TOWNSHIP.*—Table showing Population by Sex, Age"
+tuntetownshipdetailed,TUNTE TOWNSHIP - Detailed,,1,sect:1,"Burma | Burma | 1891 | CENSUS OF 1891. HMAWBI TOWNSHIP.*—Table showing Population by Sex, Age"
+kungyangon,Kungyangôn,,1,sect:1,"Burma | Hanthawaddy District | 1891 | HANTHAWADDY DISTRICT.-Table showing Population by Religion, Civil Cond"
+mahlaingcircleno,Mahlaing Circle No. 22.,,1,sect:1,"Burma | Hanthawaddy District | 1891 | HANTHAWADDY DISTRICT.—Table showing Population, Population by Religion"
+pegutowntableshowingpopulationbysexagecivilconditioneducationandinfirmities,"PEGU TOWN.-Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Pegu District | 1891 | PEGU DISTRICT.-Table showing Population by Sex, Age, Civil Condition, "
+danokcircleno,Danok Circle No. 27.,,1,sect:1,"Burma | Hanthawaddy District | 1891 | HANTHAWADDY DISTRICT.—Table showing Population, Population by Religion"
+tanmanaingcircleno,Tanmanaing Circle No. 28.,,1,sect:1,Burma | Hanthawaddy District | 1891 | KUNGYANGON TOWNSHIP.
+returnofpopulationofhanthawaddybyorstatesofbirth,Return of Population of the Hanthawaddy District by Districts or States of Birth.,,1,sect:1,Burma | Hanthawaddy | 1891 | Return of Population of the Hanthawaddy District by Districts or State
+payagaletownshipdetailed,PAYAGALE TOWNSHIP - Detailed,,1,sect:1,"Burma | Pegu District | 1891 | PAYAGALE TOWNSHIP.—Table showing Population by Sex, Age, Civil Conditi"
+tuntecirclenocontinued,Tunte Circle No. 19-continued.,,1,sect:1,"Burma | Hanthawaddy District | 1891 | HANTHAWADDY DISTRICT.-Table showing Population, Population by Religion"
+tantabincirclenoconcld,Tantabin Circle No. 9-concld.,,1,sect:1,"Burma | Hanthawaddy District | 1891 | HANTHAWADDY DISTRICT.-Table showing Population, Population by Religion"
+tuntetownship,Tunte Township,,1,sect:1,"Burma | Hanthawaddy District | 1891 | HANTHAWADDY DISTRICT.-Table showing Population by Religion, Civil Cond"
+pegutown,Pegu Town,,1,sect:1,"Burma | Pegu | 1891 | PEGU DISTRICT.—Table showing Population by Religion, Civil Condition, "
+paunglin,Paunglin,,1,sect:1,"Burma | Pegu | 1891 | PEGU DISTRICT.—Table showing Population by Religion, Civil Condition, "
+sanywetownshipsummary,SANYWE TOWNSHIP Summary,,1,sect:1,Burma | Tharrawaddy District | 1891 | THARRAWADDY DISTRICT.
+minhlatownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,"MINHLA TOWNSHIP.--Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,Burma | Tharrawaddy District | 1891 | THARRAWADDY DISTRICT.
+paunglintownshipconcldtathicircleno,PAUNGLIN TOWNSHIP-concld. Tathi Circle No 13.,,1,sect:1,"Burma | Pegu District | 1891 | PEGU DISTRICT.-Table showing Population, Population by Religion and Ed"
+gyobingauktownshipconcldshabindacirclenoconcld,GYOBINGAUK TOWNSHIP-concld. Shabinda Circle No. 25-concld.,,1,sect:1,"Burma | Tharrawaddy District | 1891 | Table showing Population, Population by Religion and Education, &c., b"
+yitkangyicircleno,Yitkangyi Circle No. 18.,,1,sect:1,"Burma | Pegu District | 1891 | PEGU DISTRICT.-Table showing Population, Population by Religion and Ed"
+gyobingauktownship,GYOBINGAUK TOWNSHIP,,1,sect:1,"Burma | Burma | 1891 | Table showing Population by Sex, Age, Civil Condition, Education, and "
+returnofpopulationofpegubyorstatesofbirth,Return of Population of the Pegu District by Districts or States of Birth.,,1,sect:1,Burma | Pegu | 1891 | Return of Population of the Pegu District by Districts or States of Bi
+pagandaung,Pagandaung,,1,sect:1,"Burma | Pegu District | 1891 | PEGU DISTRICT.-Table showing Population by Religion, Civil Condition P"
+teindawcircleno,Teindaw Circle No. 16.,,1,sect:1,"Burma | Tharrawaddy District | 1891 | THARRAWADDY DISTRICT.-Table showing Population, Population by Religion"
+payagalecirclenoconcld,Payagale Circle No. 3-concld.,,1,sect:1,"Burma | Pegu District | 1891 | Table showing Population, Population by Religion and Education, &c., b"
+peguconcludedanimist,PEGU-concluded. - Animist,,1,sect:1,Burma | Burma | 1911 | IMPERIAL TABLE VIII—Education by Religion and Age. PART B.—DETAILS BY 
+peguconcludedmahomedan,PEGU-concluded. - Mahomedan,,1,sect:1,Burma | Burma | 1911 | IMPERIAL TABLE VIII—Education by Religion and Age. PART B.—DETAILS BY 
+promeallreligions,PROME. - All Religions,,1,sect:1,Burma | Burma | 1911 | IMPERIAL TABLE VIII—Education by Religion and Age. PART B.—DETAILS BY 
+promeanimist,PROME. - Animist,,1,sect:1,Burma | Burma | 1911 | IMPERIAL TABLE VIII—Education by Religion and Age. PART B.—DETAILS BY 
+promemahomedan,PROME. - Mahomedan,,1,sect:1,Burma | Burma | 1911 | IMPERIAL TABLE VIII—Education by Religion and Age. PART B.—DETAILS BY 
+basseinbuddhist,BASSEIN. - Buddhist,,1,sect:1,Burma | Burma | 1911 | IMPERIAL TABLE VIII—Education by Religion and Age. PART B.—DETAILS BY 
+northernshanstatesbuddhist,NORTHERN SHAN STATES - Buddhist,,1,sect:1,"Burma | Burma | 1911 | IMPERIAL TABLE VII.—Age, Sex and Civil Condition. PART B.—DETAILS BY D"
+northernshanstateshindu,NORTHERN SHAN STATES - Hindu,,1,sect:1,"Burma | Burma | 1911 | IMPERIAL TABLE VII.—Age, Sex and Civil Condition. PART B.—DETAILS BY D"
+southernshanstatesallreligions,SOUTHERN SHAN STATES - All Religions,,1,sect:1,"Burma | Burma | 1911 | IMPERIAL TABLE VII.—Age, Sex and Civil Condition. PART B.—DETAILS BY D"
+southernshanstatesanimist,SOUTHERN SHAN STATES - Animist,,1,sect:1,"Burma | Burma | 1911 | IMPERIAL TABLE VII.—Age, Sex and Civil Condition. PART B.—DETAILS BY D"
+lowerchindwinallreligions,LOWER CHINDWIN. All Religions,,1,sect:1,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+upperchindwinallreligions,UPPER CHINDWIN. All Religions,,1,sect:1,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+upperchindwinanimist,UPPER CHINDWIN. Animist,,1,sect:1,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+kyaukseallreligions,KYAUKSE. All Religions,,1,sect:1,"Burma | Burma | 1911 | IMPERIAL TABLE VII.-Age, Sex and Civil Condition. PART B.-DETAILS BY D"
+distributionoverageperiodsofeverytwentythousandofpopulation,Distribution over age-periods of every twenty thousand of the population,,1,sect:1,Burma | Burma | 1901 | Distribution over age-periods of every twenty thousand of the populati
+percentageofunmarriedmarriedandwidowedtototalpopulation,"Percentage of unmarried, married and widowed to total population.",,1,sect:1,"Burma | Burma | 1901 | Percentage of unmarried, married and widowed to total population."
+populationwithvariationsinceconcluded,"Population, with variation since 1872-concluded.",,1,sect:1,"Burma | Burma | 1901 | Population, with variation since 1872-concluded."
+territoriallywithpopulationbyreligionconcluded,territorially with population by religion-concluded.,,1,sect:1,Burma | Burma | 1901 | territorially with population by religion-concluded.
+differencesbetweentotalpopulation,Differences between total population,,1,sect:1,Burma | Burma | 1901 | IMPERIAL TABLE No. VI. Religion.
+comparativestatementshowingrelativedistributionofpopulationbysexandageasexconcluded,Comparative Statement showing Relative Distribution of Population by Sex and Age - A (SEX) - concluded.,,1,sect:1,Burma | Burma | 1891 | Comparative Statement showing Relative Distribution of Population by S
+ratioofpopulationateachageperiodofyearstoofpopulationofeachsex,"Ratio of the population at each age period of 20 years to 10,000 of the population of each sex.",,1,sect:1,"Burma | Burma | 1891 | Ratio of the population at each period of 10 years to 10,000 of the to"
+victoria,Victoria,,1,sect:1,Burma | Burma | 1891 | Comparative statement showing the distribution of the population by 10
+imperialtablesreligionandagepartfchristiansaunmarriedconcluded,IMPERIAL TABLES. Religion and Age. PART F.-CHRISTIANS. (a) UNMARRIED-concluded.,,1,sect:1,Burma | Burma | 1891 | IMPERIAL TABLES. Religion and Age. PART F.-CHRISTIANS. (a) UNMARRIED-c
+avaconcluded,Ava-concluded.,,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT.-Table showing Population by Religion, Civil Conditio"
+returnofpopulationofkathabyorstatesofbirth,Return of Population of the Katha District by Districts or States of Birth.,,1,sect:1,Burma | Burma | 1891 | Return of Population of the Katha District by Districts or States of B
+manletownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,"MANLE TOWNSHIP.—Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Burma | 1891 | MANLE TOWNSHIP.—Table showing Population by Sex, Age, Civil Condition,"
+returnofpopulationofrubyminesbyorstatesofbirth,Return of Population of the Ruby Mines District by Districts or States of Birth.,,1,sect:1,Burma | Burma | 1891 | Return of Population of the Ruby Mines District by Districts or States
+yeutowntableshowingpopulationbysexagecivilconditioneducationandinfirmities,"YE-U TOWN.-Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Burma | 1891 | YE-U DISTRICT.-Table showing Population by Sex, Age, Civil Condition, "
+mayagantownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,"MAYAGAN TOWNSHIP.-Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Burma | 1891 | INDAING TOWNSHIP.-Table showing Population by Sex, Age, Civil Conditio"
+kanbaukcircleno,Kanbauk Circle No. 9.,,1,sect:1,"Burma | Burma | 1891 | YE-U DISTRICT.-Table showing Population, Population by Religion and Ed"
+seinnancircleno,Seinnan Circle No. 11.,,1,sect:1,"Burma | Burma | 1891 | YE-U DISTRICT.-Table showing Population, Population by Religion and Ed"
+nwamyacircleno,Nwamya Circle No. 41.,,1,sect:1,Burma | Burma | 1891 | YE-U DISTRICT.
+returnofpopulationoflowerchindwinbyorstatesofbirth,Return of Population of the Lower Chindwin District by Districts or States of Birth.,,1,sect:1,Burma | Burma | 1891 | Return of Population of the Lower Chindwin District by Districts or St
+myothatownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,"MYOTHA TOWNSHIP.-Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",,1,sect:1,"Burma | Sagaing District | 1891 | AVA TOWNSHIP.-Table showing Population by Sex, Age, Civil Condition, E"
+ava,Ava,,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT.-Table showing Population by Religion, Civil Conditio"
+sinshincircleno,Sinshin Circle No. 204.,,1,sect:1,Burma | Lower Chindwin District | 1891 | 
+kawthandicircleno,Kawthandi Circle No. 206.,,1,sect:1,Burma | Lower Chindwin District | 1891 | 
+kungaingcircleno,Kungaing Circle No. 208.,,1,sect:1,Burma | Lower Chindwin District | 1891 | 
+kangyicircleno,Kangyi Circle No. 210.,,1,sect:1,Burma | Lower Chindwin District | 1891 | 
+pyidawthacircleno,Pyidawtha Circle No. 26.,,1,sect:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+maungdaungcircleno,Maungdaung Circle No. 28.,,1,sect:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+tabayingwecircleno,Tabayingwe Circle No. 30.,,1,sect:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+sinmyecircleno,Sinmye Circle No. 32.,,1,sect:1,Burma | Sagaing | 1921 | SAGAING DISTRICT
+kyatpyincircleno,Kyatpyin Circle No. 119.,,1,sect:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+kabocircleno,Kabo Circle No. 121.,,1,sect:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+theppancircleno,Theppan Circle No. 123.,,1,sect:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+gonnyinseikcircleno,Gônnyinseik Circle No. 125.,,1,sect:1,Burma | Sagaing District | 1901 | SAGAING DISTRICT.
+tagyicircleno,Tagyi Circle No. 234.,,1,sect:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+kyetyincircleno,Kyetyin Circle No. 236.,,1,sect:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+sagaingtableshowingpopulationpopulationbyreligionandeducationandcbyvillagesandcircles,"SAGAING DISTRICT.-Table showing Population, Population by Religion and Education, and c., by Villages and Circles.",,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT.-Table showing Population, Population by Religion and"
+pasadawcircleno,Pasadaw Circle No. 156.,,1,sect:1,Burma | Sagaing District | 1891 | Census Data
+shwebonthaandgaungwecircleno,Shwebontha and Gaungwe Circle No. 158.,,1,sect:1,Burma | Sagaing District | 1891 | Census Data
+shwelecircleno,Shwele Circle No. 160.,,1,sect:1,Burma | Sagaing District | 1891 | Census Data
+myothacircleno,Myotha Circle No. 76.,,1,sect:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT.—Table showing Population, Population by Religion, an"
+minocircleno,Min-o Circle No. 102.,,1,sect:1,"Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.-Table showing Population, Population by Relig"
+twincircleno,Twin Circle No. 104.,,1,sect:1,"Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.-Table showing Population, Population by Relig"
+paunggadacircleno,Paunggada Circle No. 147.,,1,sect:1,Burma | Lower Chindwin District | 1891 | 
+letpadaungcircleno,Letpadaung Circle No. 149.,,1,sect:1,Burma | Lower Chindwin District | 1891 | 
+easternpagyitownship,EASTERN PAGYI TOWNSHIP.,,1,sect:1,"Burma | Lower Chindwin District | 1891 | Table showing Population by Sex, Age, Civil Condition, Education, and "
+nyaunggancircleno,Nyaunggan Circle No. 59.,,1,sect:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+bashucircleno,Bashu Circle No. 61.,,1,sect:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+kinsancircleno,Kinsan Circle No. 63.,,1,sect:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+saluncircleno,Salun Circle No. 65.,,1,sect:1,Burma | Lower Chindwin District | 1891 | LOWER CHINDWIN DISTRICT.
+centralbasin,Central Basin,,1,sect:1,"Burma | Burma | 1911 | SUBSIDIARY TABLE II.—Age distribution of 10,000 of each sex in the Pro"
+northernhill,Northern Hill Districts,,1,sect:1,"Burma | Burma | 1911 | SUBSIDIARY TABLE II.—Age distribution of 10,000 of each sex in the Pro"
+speciallyadministeredterritories,Specially Administered Territories.,,1,sect:1,"Burma | Burma | 1911 | SUBSIDIARY TABLE II.—Age distribution of 10,000 of each sex in the Pro"
+subsidiarytableiagedistributionofofeachsexbyannualageperiodsbuddhistonly,"SUBSIDIARY TABLE I.—Age distribution of 100,000 of each sex by annual age periods. (Buddhist only.)",,1,sect:1,"Burma | Burma | 1911 | SUBSIDIARY TABLE I.—Age distribution of 100,000 of each sex by annual "
+subsidiarytableicagedistributionofbuddhistsofeachsexcalculatedbymrhardyfromcensustablesof,"SUBSIDIARY TABLE IC.—Age distribution of 100,000 Buddhists of each sex calculated by Mr. Hardy from the Census Tables of 1901.",,1,sect:1,"Burma | Burma | 1901 | SUBSIDIARY TABLE IC.—Age distribution of 100,000 Buddhists of each sex"
+kawatownship,Kawa Township,,1,tag:1,"Burma | Kawa Township | 1891 | Table showing Population by Sex, Age, Civil Condition, Education, and "
+mandalayincludingmandalaycity,MANDALAY DISTRICT-(including Mandalay City),,1,tag:1,"Burma | MANDALAY DISTRICT-(including Mandalay City) | 1901 | IMPERIAL TABLE No. VII.-Age, Sex and Civil condition by Religions."
+returnofpopulationofkyaukpyu,Return of Population of the Kyaukpyu,,1,title:1,Burma | Kyaukpyu | 1891 | Return of Population of the Kyaukpyu District by Districts or States o
+returnofpopulationofhanthawaddy,Return of Population of the Hanthawaddy,,1,title:1,Burma | Hanthawaddy | 1891 | Return of Population of the Hanthawaddy District by Districts or State
+returnofpopulationofpegu,Return of Population of the Pegu,,1,title:1,Burma | Pegu | 1891 | Return of Population of the Pegu District by Districts or States of Bi
+returnofpopulationofkatha,Return of Population of the Katha,,1,title:1,Burma | Burma | 1891 | Return of Population of the Katha District by Districts or States of B
+returnofpopulationofrubymines,Return of Population of the Ruby Mines,,1,title:1,Burma | Burma | 1891 | Return of Population of the Ruby Mines District by Districts or States
+populationoflowerchindwin,Population of the Lower Chindwin,,1,title:1,Burma | Burma | 1891 | Return of Population of the Lower Chindwin District by Districts or St
+subsidiarytableiibirthmarksby,SUBSIDIARY TABLE II.-Birth-marks by,,1,title:1,Burma | Burma | 1911 | SUBSIDIARY TABLE II.-Birth-marks by District and Race.
+bagaing,Bagaing,,1,title:1,"Burma | Sagaing District | 1891 | SAGAING DISTRICT (other structured, multiple pages) — Bagaing District"

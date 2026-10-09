@@ -1,0 +1,1065 @@
+key,kind,hist_name,hist_parent,modern,confidence,note
+bombay,province,Bombay Presidency,,,medium,mostly Bombay Presidency tag; some rows may be Bombay City
+easterndivision,natural_division,Eastern Division,,,low,ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+westerndivision,natural_division,Western Division,,,low,ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+statementno,not_place,,,,high,
+barodastate,princely_state,Baroda State,Baroda Residency,,high,spans many Gujarat districts
+surat,district,Surat District,Bombay Presidency,IND/Gujarat/Surat;IND/Gujarat/Navsari;IND/Gujarat/Valsad,medium,"British Surat (Olpad..Pardi) -> Surat, Navsari (Jalalpur/Chikhli), Valsad (Bulsar/Pardi)"
+group,not_place,,,,high,
+fortnorthernmales,city_section,Fort North Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+fortnorthernfemales,city_section,Fort North Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+esplanademales,city_section,Esplanade Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+esplanadefemales,city_section,Esplanade Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+marketmales,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+marketfemales,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+chuklamales,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+chuklafemales,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+oomburkhareemales,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+oomburkhareefemales,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+dongreemales,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+dongreefemales,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+phunuswareemales,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+phunuswareefemales,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+bhooleshwurfemales,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+kharatalaomales,city_section,Khara Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+girgaumfemales,city_section,Girgaum Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+khetwareemales,city_section,Khetwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+khetwareefemales,city_section,Khetwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+chaopateemales,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+chaopateefemales,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+walkeshwurmales,city_section,Walkeshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+walkeshwurfemales,city_section,Walkeshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+bycullasubsectionmales,city_section,Byculla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+camateepurasubsectionmales,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+camateepurasubsectionfemales,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+sionmales,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+mahimmales,city_section,Mahim Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+mahimfemales,city_section,Mahim Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+sind,division,Sind,Bombay Presidency,,high,Sind Commissionership of Bombay Presidency (province from 1936)
+fortsouthernmales,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+fortsouthernfemales,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+mandveemales,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+mandveefemales,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+dhobeetalaomales,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+dhobeetalaofemales,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+bhooleshwurmales,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+kharatalaofemales,city_section,Khara Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+girgaummales,city_section,Girgaum Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+mahaluxmeemales,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+mahaluxmeefemales,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+mazagonmales,city_section,Mazagaon Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+mazagonfemales,city_section,Mazagaon Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+tarwareemales,city_section,Tarwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+tarwareefemales,city_section,Tarwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+bycullasubsectionfemales,city_section,Byculla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+tardeosubsectionmales,city_section,Tardeo Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+tardeosubsectionfemales,city_section,Tardeo Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+parellmales,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+parellfemales,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+sionfemales,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+deccan,natural_division,Deccan,Bombay Presidency,,high,
+kadidivision,district,Kadi Prant,Baroda State,IND/Gujarat/Mahesana;IND/Gujarat/Patan;IND/Gujarat/Gandhinagar,medium,Baroda prant (district-level); later Mehsana prant
+uppercolabamales,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+uppercolabafemales,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+koombarwaramales,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+sewreemales,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+sewreefemales,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+wurleemales,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+wurleefemales,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+harbourmales,city_section,Harbour Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+harbourfemales,city_section,Harbour Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+amrelidivision,district,Amreli Prant,Baroda State,IND/Gujarat/Amreli;IND/Gujarat/GirSomnath,medium,Baroda prant (district-level); Kodinar now Gir Somnath
+scotland,country,,,,high,
+koombarwarafemales,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+sholapur,district,Sholapur District,Bombay Presidency,IND/Maharashtra/Solapur,high,
+mahim,city_section,Mahim Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+ofeachsexin,not_place,,,,high,
+konkan,natural_division,Konkan,Bombay Presidency,,high,
+livingatagex,not_place,,,,high,
+dyingbetweenagesxandx,not_place,,,,high,
+mortalitypercent,not_place,,,,high,
+livingaboveagex,not_place,,,,high,
+meanafterlifetimeatagex,not_place,,,,high,
+poona,district,Poona District,Bombay Presidency,IND/Maharashtra/Pune,high,Poona=Pune
+girgaum,city_section,Girgaum Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+ireland,country,,,,high,
+navsaridivision,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,Baroda prant (district-level)
+andeachnatural,not_place,,,,high,
+navsari,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,mostly the prant; may also denote Navsari taluka
+kaira,district,Kaira District,Bombay Presidency,IND/Gujarat/Kheda;IND/Gujarat/Anand,high,Kaira=Kheda; Anand split 1997
+karachi,district,Karachi District,"Sind, Bombay Presidency",PAK/Sindh/KarachiCentral;PAK/Sindh/KarachiEast;PAK/Sindh/KarachiSouth;PAK/Sindh/Karachiwest;PAK/Sindh/Malir;PAK/Sindh/Thatta;PAK/Sindh/Jamshoro,medium,"colonial Karachi district incl. Thatta, Kotri/Sehwan (Jamshoro)"
+kharatalao,city_section,Khara Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+sion,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+germany,country,,,,high,
+eastern,natural_division,Eastern Division,,,low,title fragment; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+gujarat,natural_division,Gujarat,Bombay Presidency,,high,
+rajput,not_place,,,,high,
+barodacity,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,Baroda=Vadodara
+panchmahals,district,Panch Mahals District,Bombay Presidency,IND/Gujarat/PanchMahals;IND/Gujarat/Dahod,high,Dahod split 1997
+broach,district,Broach District,Bombay Presidency,IND/Gujarat/Bharuch,high,Broach=Bharuch
+esplanade,city_section,Esplanade Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+amreli,district,Amreli Prant,Baroda State,IND/Gujarat/Amreli;IND/Gujarat/GirSomnath,medium,mostly the prant; may also denote Amreli taluka
+ahmedabad,district,Ahmedabad District,Bombay Presidency,IND/Gujarat/Ahmadabad;IND/Gujarat/Gandhinagar,high,part later to Gandhinagar
+market,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+kadi,district,Kadi Prant,Baroda State,IND/Gujarat/Mahesana;IND/Gujarat/Patan;IND/Gujarat/Gandhinagar,medium,mostly the prant; may also denote Kadi taluka
+kolhapur,princely_state,Kolhapur State,Bombay Presidency,IND/Maharashtra/Kolhapur,high,
+placecontd,not_place,,,,high,
+thana,district,Thana District,Bombay Presidency,IND/Maharashtra/Thane;IND/Maharashtra/Palghar,high,Palghar split 2014
+ratnagiri,district,Ratnagiri District,Bombay Presidency,IND/Maharashtra/Ratnagiri;IND/Maharashtra/Sindhudurg,high,Sindhudurg split 1981
+kanara,district,Kanara District,Bombay Presidency,IND/Karnataka/UttaraKannada,high,North Kanara=Uttara Kannada
+rawalpindi,district,Rawalpindi District,Punjab,PAK/Punjab/Rawalpindi;PAK/Islamabad/Islamabad;PAK/Punjab/Attok,medium,Attock split 1904; Islamabad carved 1960s
+actual,not_place,,,,high,
+bombaystate,province,Bombay State,India,,high,1951 Bombay State
+teli,not_place,,,,high,
+nasik,district,Nasik District,Bombay Presidency,IND/Maharashtra/Nashik,high,
+ahmednagar,district,Ahmednagar District,Bombay Presidency,IND/Maharashtra/Ahmadnagar,high,
+dharwar,district,Dharwar District,Bombay Presidency,IND/Karnataka/Dharwad;IND/Karnataka/Gadag;IND/Karnataka/Haveri,high,"Gadag, Haveri split 1997"
+dongri,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+kathiawar,agency,Kathiawar Agency,Bombay Presidency,,high,
+westernindiastatesagency,agency,Western India States Agency,,,high,"1924-44 agency (Kathiawar, Cutch, Palanpur)"
+bhatia,not_place,,,,high,
+intermediate,not_place,,,,high,
+tableno,not_place,,,,high,
+bombaycity,town,Bombay City,Bombay Presidency,IND/Maharashtra/MumbaiCity,high,Bombay City (island) = Mumbai City district
+kolaba,district,Kolaba District,Bombay Presidency,IND/Maharashtra/Raigarh,high,Kolaba renamed Raigad
+satara,district,Satara District,Bombay Presidency,IND/Maharashtra/Satara;IND/Maharashtra/Sangli,high,part to South Satara/Sangli 1949
+belgaum,district,Belgaum District,Bombay Presidency,IND/Karnataka/Belgaum,high,
+shikarpur,district,Shikarpur District,"Sind, Bombay Presidency",PAK/Sindh/Shikarpur;PAK/Sindh/Sukkur;PAK/Sindh/Larkana;PAK/Sindh/Ghotki,medium,pre-1901 Shikarpur district (HQ Sukkur) incl. Larkana; Kambar not in GADM
+tharandparkar,district,Thar and Parkar District,"Sind, Bombay Presidency",PAK/Sindh/Mithi;PAK/Sindh/Umerkot;PAK/Sindh/Mirphurkhas;PAK/Sindh/Sanghar,medium,"Thar Parkar split into Tharparkar(Mithi), Umerkot, Mirpur Khas; part to Sanghar"
+aden,district,Aden,Bombay Presidency,,high,"Aden settlement, now Yemen; not in GADM reference"
+byculla,city_section,Byculla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+mazagon,city_section,Mazagaon Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+western,natural_division,Western Division,,,low,title fragment; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+northgujarat,natural_division,North Gujarat,Baroda State,,high,Baroda natural division (~Kadi prant)
+southgujarat,natural_division,South Gujarat,Baroda State,,high,Baroda natural division (~Navsari prant)
+kathiawad,natural_division,Kathiawad,Baroda State,,medium,Baroda natural division (Amreli+Okhamandal); 1901 birth-place row may mean Kathiawar
+lingaet,not_place,,,,high,
+negroafrican,not_place,,,,high,
+parsee,not_place,,,,high,
+nativechristianandgoanese,not_place,,,,high,
+final,not_place,,,,high,
+dongreesection,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+bijapur,district,Bijapur District,Bombay Presidency,IND/Karnataka/Bijapur;IND/Karnataka/Bagalkot,high,Bagalkot split 1997
+uppersindfrontier,district,Upper Sind Frontier District,"Sind, Bombay Presidency",PAK/Sindh/Jakobabad;PAK/Sindh/Kashmore,high,renamed Jacobabad district
+fortnorth,city_section,Fort North Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+mandvi,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+sewri,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+portugal,country,,,,high,
+greece,country,,,,high,
+cuddalore,town,Cuddalore,Madras,IND/TamilNadu/Cuddalore,high,South Arcot HQ
+cutch,princely_state,Cutch State,Bombay Presidency,IND/Gujarat/Kachchh,high,Cutch=Kachchh
+warli,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+fortsouthern,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+fortnorthern,city_section,Fort North Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+chukla,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+oomburkharee,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+dongree,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+phunuswaree,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+bhooleshwur,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+koombarwara,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+khetwaree,city_section,Khetwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+walkeshwur,city_section,Walkeshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+mahaluxmee,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+tarwaree,city_section,Tarwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+parell,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+wurlee,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+harbour,city_section,Harbour Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+boodhistorjain,not_place,,,,high,
+eastmadhyapradeshdivision,natural_division,East Madhya Pradesh Division,Madhya Pradesh,,high,1951 natural division
+barodacityincludingcantonment,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,Baroda=Vadodara
+emusalman,not_place,,,,high,
+chuklasection,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+phunuswareesection,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+provinceandeachnatural,not_place,,,,high,
+okhamandaldivision,district,Okhamandal Prant,Baroda State,IND/Gujarat/DevbhumiDwarka,high,Okhamandal now in Devbhumi Dwarka
+khandesh,district,Khandesh District,Bombay Presidency,IND/Maharashtra/Jalgaon;IND/Maharashtra/Dhule;IND/Maharashtra/Nandurbar,high,split 1906 East/West; Nandurbar from Dhule 1998
+uppercolaba,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+fortsouth,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+dhobitalao,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+kumbharwada,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+walkeshwar,city_section,Walkeshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+sutar,not_place,,,,high,
+switzerland,country,,,,high,
+denmark,country,,,,high,
+centralgujarat,natural_division,Central Gujarat,Baroda State,,high,Baroda natural division (~Baroda prant)
+akalkot,princely_state,Akalkot State,Bombay Presidency,IND/Maharashtra/Solapur,high,
+bhor,princely_state,Bhor State,Bombay Presidency,IND/Maharashtra/Pune,high,
+cambay,princely_state,Cambay State,Bombay Presidency,IND/Gujarat/Anand,high,Cambay=Khambhat
+janjira,princely_state,Janjira State,Bombay Presidency,IND/Maharashtra/Raigarh,high,
+mahikantha,agency,Mahi Kantha Agency,Bombay Presidency,,high,
+harbouranddocksrailwaysandhomeless,city_section,"Harbour and Docks, Railways and Homeless",Bombay City,IND/Maharashtra/MumbaiCity,high,
+wharbour,city_section,Harbour Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+mandvee,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+dhobeetalao,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+sewree,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+page,not_place,,,,high,
+barodadivisionexclusiveofcity,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,subset: excluding Baroda City
+tablexibirthplace,not_place,,,,high,
+dzoroastrian,not_place,,,,high,
+nobyagesandsections,not_place,,,,high,
+marketsection,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+okhamandal,district,Okhamandal Prant,Baroda State,IND/Gujarat/DevbhumiDwarka,high,Okhamandal now in Devbhumi Dwarka
+lowercolaba,city_section,Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+chakla,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+fanaswadi,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+tardeo,city_section,Tardeo Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+tarwadi,city_section,Tarwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+mazagaon,city_section,Mazagaon Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+acolabaupper,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+afortsouthern,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+afortnorthern,city_section,Fort North Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+aesplanade,city_section,Esplanade Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+bmarket,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+bchukla,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+boomburkharee,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+bdongree,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+cphunuswaree,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+cbhooleshwur,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+ckoombarwara,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+cgirgaum,city_section,Girgaum Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+ckhetwaree,city_section,Khetwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+dwalkeshwur,city_section,Walkeshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+dmahaluxmee,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+emazagon,city_section,Mazagaon Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+etarwaree,city_section,Tarwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+eparell,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+fmahim,city_section,Mahim Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+fwurlee,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+brahmun,not_place,,,,high,
+vaghri,not_place,,,,high,
+chaopatee,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+bycullasubsection,city_section,Byculla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+camateepurasubsection,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+tardeosubsection,city_section,Tardeo Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+area,not_place,,,,high,
+bhuleshwar,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+easternnaturaldivision,natural_division,Eastern Natural Division,Travancore State,,medium,1911 Travancore
+gminorandunspecifiedreligions,not_place,,,,high,
+tablelanguages,not_place,,,,high,
+birthplace,not_place,,,,high,
+fchristian,not_place,,,,high,
+ahmadabad,district,Ahmedabad District,Bombay Presidency,IND/Gujarat/Ahmadabad;IND/Gujarat/Gandhinagar,high,part later to Gandhinagar
+esplanadesection,city_section,Esplanade Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+sexandcivilconditionwestern,natural_division,Western Division,,,low,title fragment; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+sexandcivilconditioneastern,natural_division,Eastern Division,,,low,title fragment; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+umarkhadi,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+khetwadi,city_section,Khetwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+parel,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+sindhi,not_place,,,,high,
+indianchristian,not_place,,,,high,
+tamboli,not_place,,,,high,
+turkeyineurope,country,,,,high,
+sindh,division,Sind,Bombay Presidency,,high,Sind Commissionership of Bombay Presidency (province from 1936)
+ferozepur,district,Ferozepore District,Punjab,IND/Punjab/Firozpur;IND/Punjab/Fazilka;IND/Punjab/Moga,medium,"Fazilka, Moga later split"
+mangalore,town,Mangalore,Madras,IND/Karnataka/DakshinaKannada,high,South Canara HQ
+kamatipura,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+barodadivision,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,Baroda prant (district-level)
+khandesheast,district,East Khandesh District,Bombay Presidency,IND/Maharashtra/Jalgaon,high,East Khandesh=Jalgaon
+les,not_place,,,,high,
+tablexviiaoccupationsbyage,not_place,,,,high,
+lowercolabahindu,city_section,Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+cjain,not_place,,,,high,
+diagramshowingforeach,not_place,,,,high,
+vyara,sub_district,Vyara Taluka,Baroda State,IND/Gujarat/Tapi,high,Navsari prant
+songadh,sub_district,Songadh Taluka,Baroda State,IND/Gujarat/Tapi,high,Navsari prant
+dhari,sub_district,Dhari Taluka,Baroda State,IND/Gujarat/Amreli,high,Amreli prant
+saiyad,not_place,,,,high,
+sonar,not_place,,,,high,
+rewa,princely_state,Rewa State,Central India Agency,IND/MadhyaPradesh/Rewa;IND/MadhyaPradesh/Satna;IND/MadhyaPradesh/Sidhi;IND/MadhyaPradesh/Singrauli;IND/MadhyaPradesh/Shahdol;IND/MadhyaPradesh/Umaria;IND/MadhyaPradesh/Anuppur,medium,Baghelkhand
+britishgujarat,natural_division,British Gujarat,Bombay Presidency,,high,
+karnatak,natural_division,Karnatak,Bombay Presidency,,high,Bombay Karnatak (Carnatic)
+behar,natural_division,Behar,Bengal,,low,Bihar sub-province of Bengal (birth-place)
+cannanore,town,Cannanore,Madras,IND/Kerala/Kannur,medium,town/cantonment in Malabar
+masulipatam,town,Masulipatam,Madras,IND/AndhraPradesh/Krishna,high,Machilipatnam
+indiaunspecified,country,,,,medium,"India, unspecified (birth-place)"
+carriedforward,not_place,,,,high,
+ratanpur,sub_district,Ratanpur Peta Mahal,Baroda State,IND/Gujarat/Amreli,low,"Baroda 1921 taluka row, assumed Amreli prant; one context is Ratanpur town (CP)"
+padra,sub_district,Padra Taluka,Baroda State,IND/Gujarat/Vadodara,high,Baroda prant
+barodacantonment,town,Baroda Cantonment,Baroda State,IND/Gujarat/Vadodara,high,
+parsi,not_place,,,,high,
+thakur,not_place,,,,high,
+khandeshwest,district,West Khandesh District,Bombay Presidency,IND/Maharashtra/Dhule;IND/Maharashtra/Nandurbar,high,West Khandesh=Dhule; Nandurbar split 1998
+larkana,district,Larkana District,"Sind, Bombay Presidency",PAK/Sindh/Larkana,medium,1931 Larkana; Kambar-Shahdadkot not in GADM ref
+sukkur,district,Sukkur District,"Sind, Bombay Presidency",PAK/Sindh/Sukkur;PAK/Sindh/Shikarpur;PAK/Sindh/Ghotki,medium,"1931 Sukkur incl. Shikarpur, Ghotki"
+mahikanthaagency,agency,Mahi Kantha Agency,Bombay Presidency,,high,
+rewakanthaagency,agency,Rewa Kantha Agency,Bombay Presidency,,high,
+upper,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,low,"fragment of ""Colaba Upper"""
+dchaopatee,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+middleandlowercolaba,city_section,Middle and Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+averagenumberoffemalespermalesofsameage,not_place,,,,high,
+khetwady,city_section,Khetwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+reportednumbersbaroda,princely_state,Baroda State,Baroda Residency,,medium,column group: Baroda State figures
+graduatednumbersbaroda,princely_state,Baroda State,Baroda Residency,,medium,column group: Baroda State figures
+differencebetweengraduatedandreportednumbersbaroda,princely_state,Baroda State,Baroda Residency,,medium,column group: Baroda State figures
+differencebetweengraduatedandreportednumbersbengal,province,Bengal,,,medium,column group: Bengal comparison figures
+foreignorexternalportssteamers,not_place,,,,high,
+foreignorexternalportsships,not_place,,,,high,
+indianbritishportssteamers,not_place,,,,high,
+indianbritishportsships,not_place,,,,high,
+indianportsnotbritishsteamers,not_place,,,,high,
+indianportsnotbritishships,not_place,,,,high,
+fminorandunspecifiedreligions,not_place,,,,high,
+easterndivisionmales,natural_division,Eastern Division,Mysore State,,medium,subset by sex; App. D with Bangalore/Kolar taluks
+iistatementshowingunadjustedandadju,not_place,,,,high,
+westerndivisionmales,natural_division,Western Division,Mysore State,,medium,subset by sex; Mysore App. D
+bmusalman,not_place,,,,high,
+plaindivision,natural_division,Plain Division,Gwalior State,,medium,1941 Gwalior natural division
+correctionstobemadeinlistofoccupationsthathavebeencompiledunderdifferentheadingsfromthosesuggestedbycensuscommissioneratpresentforconvenienceorthroughmisunderstanding,not_place,,,,high,
+lowercolabamusalman,city_section,Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+lowercolabazoroastrian,city_section,Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+tableviiiannualageperiodsbydivisions,not_place,,,,high,
+tableviiagesexandcivilconditionhinducontinued,not_place,,,,high,
+mahimsection,city_section,Mahim Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+parellsection,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+cityofbaroda,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,Baroda=Vadodara
+stateandeachnaturaldivision,not_place,,,,high,
+gandevi,sub_district,Gandevi Taluka,Baroda State,IND/Gujarat/Navsari,high,Navsari prant
+palsana,sub_district,Palsana Taluka,Baroda State,IND/Gujarat/Surat,high,Navsari prant
+kamrej,sub_district,Kamrej Taluka,Baroda State,IND/Gujarat/Surat,high,Navsari prant
+damnagar,sub_district,Damnagar Taluka,Baroda State,IND/Gujarat/Amreli,high,Amreli prant
+karjan,sub_district,Karjan Taluka,Baroda State,IND/Gujarat/Vadodara,high,Baroda prant
+dabhoi,sub_district,Dabhoi Taluka,Baroda State,IND/Gujarat/Vadodara,high,Baroda prant
+sinore,sub_district,Sinor Taluka,Baroda State,IND/Gujarat/Vadodara,high,Baroda prant
+mahuwa,sub_district,Mahuva Taluka,Baroda State,IND/Gujarat/Surat,medium,Navsari prant; not Mahuva of Bhavnagar
+mangrol,sub_district,Mangrol Taluka,Baroda State,IND/Gujarat/Surat,medium,Navsari prant taluka; not Mangrol (Junagadh)
+chowpatty,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+khoja,not_place,,,,high,
+malek,not_place,,,,high,
+molesalam,not_place,,,,high,
+momna,not_place,,,,high,
+pinjara,not_place,,,,high,
+shaikh,not_place,,,,high,
+tai,not_place,,,,high,
+nwprovincesunspecified,province,United Provinces,,,high,"N.-W. Provinces, district unspecified (birth-place)"
+farrukabad,district,Farrukhabad District,United Provinces,IND/UttarPradesh/Farrukhabad;IND/UttarPradesh/Kannauj,high,Kannauj split 1997
+futehpur,district,Fatehpur District,United Provinces,IND/UttarPradesh/Fatehpur,high,
+rohilkhand,division,Rohilkhand Division,United Provinces,,high,
+harda,unsure,,,,low,"Harda (Hoshangabad, CP) or OCR of Hardoi (Oudh); listed among UP units"
+nawabganj,unsure,,,,low,many Nawabganjs; listed among Oudh units (Bara Banki HQ or Gonda tahsil?)
+pratapgarh,district,Partabgarh District,United Provinces,IND/UttarPradesh/Pratapgarh,medium,listed with Oudh districts (not Rajputana state)
+raibareilly,district,Rae Bareli District,United Provinces,IND/UttarPradesh/RaeBareli;IND/UttarPradesh/Amethi,high,part to Amethi 2010
+panjabunspecified,province,Punjab,,,high,district unspecified (birth-place)
+deragazikhan,district,Dera Ghazi Khan District,Punjab,PAK/Punjab/DeraGhaziKha;PAK/Punjab/RajanPur,high,Rajanpur split 1982
+bengalunspecified,province,Bengal,,,high,district unspecified (birth-place)
+darjiling,district,Darjeeling District,Bengal,IND/WestBengal/Darjiling,high,Kalimpong split 2017 (not in GADM ref)
+monghir,district,Monghyr District,Bengal,IND/Bihar/Munger;IND/Bihar/Begusarai;IND/Bihar/Khagaria;IND/Bihar/Jamui;IND/Bihar/Lakhisarai;IND/Bihar/Sheikhpura,high,split into six
+nagpurchuthia,division,Chota Nagpur Division,Bengal,,high,Chutia Nagpur
+centralprovincesunspecified,province,Central Provinces,,,high,district unspecified (birth-place)
+berhampur,town,Berhampur,Madras,IND/Odisha/Ganjam,low,listed among Madras units; could be Berhampore (Murshidabad)
+coromandel,natural_division,Coromandel,Madras,,low,coastal region of Madras
+godavery,district,Godavari District,Madras,IND/AndhraPradesh/EastGodavari;IND/AndhraPradesh/WestGodavari,medium,split 1925
+burmaunspecified,province,Burma,,,high,district unspecified (birth-place)
+berarsunspecified,province,Berar,,,high,district unspecified (birth-place)
+buldhana,district,Buldana District,Berar,IND/Maharashtra/Buldana,high,
+quetta,district,Quetta-Pishin District,Baluchistan,PAK/Balochistan/Quetta;PAK/Balochistan/Pishin;PAK/Balochistan/QillaAbdullah,medium,Quetta-Pishin split
+guzeratunspecified,natural_division,Gujarat,Bombay Presidency,,high,district unspecified (birth-place)
+tharandparker,district,Thar and Parkar District,"Sind, Bombay Presidency",PAK/Sindh/Mithi;PAK/Sindh/Umerkot;PAK/Sindh/Mirphurkhas;PAK/Sindh/Sanghar,medium,"Thar Parkar split into Tharparkar(Mithi), Umerkot, Mirpur Khas; part to Sanghar"
+sindunspecified,division,Sind,Bombay Presidency,,high,district unspecified (birth-place)
+dharampur,princely_state,Dharampur State,Bombay Presidency,IND/Gujarat/Valsad,high,
+revakantha,agency,Rewa Kantha Agency,Bombay Presidency,,high,
+sachin,princely_state,Sachin State,Bombay Presidency,IND/Gujarat/Surat,high,
+sangli,princely_state,Sangli State,Bombay Presidency,IND/Maharashtra/Sangli,medium,scattered parts in Bijapur/Bagalkot
+sawantvadi,princely_state,Savantvadi State,Bombay Presidency,IND/Maharashtra/Sindhudurg,high,
+firstnagpada,city_section,First Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+secondnagpada,city_section,Second Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+mehsana,district,Mehsana Prant,Baroda State,IND/Gujarat/Mahesana;IND/Gujarat/Patan;IND/Gujarat/Gandhinagar,medium,Kadi prant renamed Mehsana; 1921 row may be Mehsana taluka
+kodinar,sub_district,Kodinar Taluka,Baroda State,IND/Gujarat/GirSomnath,high,Amreli prant
+atarsumba,sub_district,Atarsumba Peta Mahal,Baroda State,IND/Gujarat/Kheda,low,Kadi prant peta mahal near Kapadvanj; district approximate
+kalol,sub_district,Kalol Taluka,Baroda State,IND/Gujarat/Gandhinagar,high,"Kadi prant (Kalol, Gandhinagar)"
+bhadran,sub_district,Bhadran Taluka,Baroda State,IND/Gujarat/Anand,high,Baroda prant
+chanasma,sub_district,Chanasma Taluka,Baroda State,IND/Gujarat/Patan,high,Kadi prant
+harij,sub_district,Harij Taluka,Baroda State,IND/Gujarat/Patan,high,Kadi prant
+barodadivisionexofcity,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,subset: excluding Baroda City
+averagefordecadeto,not_place,,,,high,
+bombaysuburban,district,Bombay Suburban District,Bombay Presidency,IND/Maharashtra/MumbaiSuburban,high,
+nawabshah,district,Nawabshah District,"Sind, Bombay Presidency",PAK/Sindh/NawabShah;PAK/Sindh/NaushahroFiroz;PAK/Sindh/Sanghar,medium,Naushahro Feroze split; part to Sanghar
+acolabamiddle,city_section,Middle Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+acolabalower,city_section,Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+bmandwee,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+ckharatulao,city_section,Khara Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+ekamatheepoora,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+ebyculla,city_section,Byculla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+eseoree,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+fseo,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+boodhistorjainvaccinated,not_place,,,,high,caste/race row (vaccination table)
+boodhistorjainnotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+boodhistorjainsmallpox,not_place,,,,high,caste/race row (vaccination table)
+lingaetvaccinated,not_place,,,,high,caste/race row (vaccination table)
+lingaetnotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+lingaetsmallpox,not_place,,,,high,caste/race row (vaccination table)
+bhatiavaccinated,not_place,,,,high,caste/race row (vaccination table)
+bhatianotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+bhatiasmallpox,not_place,,,,high,caste/race row (vaccination table)
+negroafricanvaccinated,not_place,,,,high,caste/race row (vaccination table)
+negroafricannotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+negroafricansmallpox,not_place,,,,high,caste/race row (vaccination table)
+parseevaccinated,not_place,,,,high,caste/race row (vaccination table)
+parseenotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+parseesmallpox,not_place,,,,high,caste/race row (vaccination table)
+nativechristianandgoanesevaccinated,not_place,,,,high,caste/race row (vaccination table)
+nativechristianandgoanesenotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+nativechristianandgoanesesmallpox,not_place,,,,high,caste/race row (vaccination table)
+chinesevaccinated,not_place,,,,high,caste/race row (vaccination table)
+chinesenotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+chinesesmallpox,not_place,,,,high,caste/race row (vaccination table)
+middleandlower,city_section,Middle and Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,low,"fragment of ""Colaba Middle and Lower"""
+koomburwaramales,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+koomburwarafemales,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+probablenumberofhousesineachcollectionofhouses,not_place,,,,high,
+barodadivisionexclusiveofbarodacityandcantonment,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,subset: excluding Baroda City
+barodatotal,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,low,"column ""Baroda. Total""; could be state total"
+mahals,not_place,,,,high,
+petamahals,not_place,,,,high,
+ratiotototalarea,not_place,,,,high,
+ratiotototalpopulation,not_place,,,,high,
+relativeproportionsofurbanandruralpopulationpercent,not_place,,,,high,
+areality,not_place,,,,high,
+ratiopercentofoccupiedtototalbuildings,not_place,,,,high,
+ratiopercentofunoccupiedtooccupiedbuildings,not_place,,,,high,
+percentageof,not_place,,,,high,
+carnatic,natural_division,Karnatak,Bombay Presidency,,high,Bombay Karnatak (Carnatic)
+ramoshi,not_place,,,,high,
+raval,not_place,,,,high,
+shimpi,not_place,,,,high,
+dhed,not_place,,,,high,
+populationrecordedineachgroupincolumn,not_place,,,,high,
+populationredistributedintogroupsshownincolumn,not_place,,,,high,
+populationineachgroupshownincolumn,not_place,,,,high,
+ratiooffemalestomales,not_place,,,,high,
+presidencyproper,province,Bombay Presidency,,,medium,subset: Presidency proper (excl. Sind/Aden)
+hotels,not_place,,,,high,
+refreshmentrooms,not_place,,,,high,
+taverns,not_place,,,,high,
+retailliquorshops,not_place,,,,high,
+wholesaleliquorshops,not_place,,,,high,
+toddyshops,not_place,,,,high,
+boardingandlodging,not_place,,,,high,
+icecreamsaloon,not_place,,,,high,
+coffeehouses,not_place,,,,high,
+chundoolshops,not_place,,,,high,
+shopsorplaceslicensedtosellpoison,not_place,,,,high,
+shopsorplaceslicensedtodealinarmsandammunition,not_place,,,,high,
+barodaalltotal,princely_state,Baroda State,Baroda Residency,,medium,state total (general table)
+hminorandunspecifiedreligions,not_place,,,,high,
+minorandunspecifiedreligions,not_place,,,,high,
+dkonkan,natural_division,Konkan,Bombay Presidency,,high,
+alleppey,town,Alleppey,Travancore State,IND/Kerala/Alappuzha,high,
+southernplateaudivision,natural_division,Southern Plateau Division,Gwalior State,,medium,1941 Gwalior natural division
+hillydivision,natural_division,Hilly Division,Gwalior State,,medium,1941 Gwalior natural division
+statementofvillagekarwaninchargeoflaljitalathiunderthanakarwan,town,Karvan,Baroda State,IND/Gujarat/Vadodara,low,"village Karvan (Dabhoi area), Baroda; heading"
+tablexvoccupation,not_place,,,,high,
+tablexviiboccupationsprovincialdistribution,not_place,,,,high,
+comparativeratiosofpopulationsindivisionstheir,not_place,,,,high,
+tablenoiidivisionsandtheirareas,not_place,,,,high,
+tablenovi,not_place,,,,high,
+tablexxxivmarriedandwidowedatindifferentreligions,not_place,,,,high,
+tablenoxxcivilconditionbysexandreligionforageperiodto,not_place,,,,high,
+uppercolabazoroastrianparsi,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+chaklahindu,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+savantvadi,princely_state,Savantvadi State,Bombay Presidency,IND/Maharashtra/Sindhudurg,high,
+ahmadnagar,district,Ahmednagar District,Bombay Presidency,IND/Maharashtra/Ahmadnagar,high,
+palanpuragency,agency,Palanpur Agency,Bombay Presidency,,high,
+southernmarathajagirs,agency,Southern Maratha Jagirs,Bombay Presidency,,medium,group of states (S.M. Country Agency)
+petlad,sub_district,Petlad Taluka,Baroda State,IND/Gujarat/Anand,high,Baroda prant
+tableviiagesexandcivilconditionmusalmancontinued,not_place,,,,high,
+tableviiagesexandcivilconditionparsicontinued,not_place,,,,high,
+tablecconcld,not_place,,,,high,
+tabledconcld,not_place,,,,high,
+tableeconcld,not_place,,,,high,
+tableelifetablebarodastatefemales,princely_state,Baroda State,Baroda Residency,,medium,life table heading; subset by sex
+tablenovtableshowingworkingofmethodsofcorrectionappliedtocensusfigureswithagesrecordedasatnearestbirthdaymales,not_place,,,,high,
+tablenoiicontd,not_place,,,,high,
+subsidiarytableieducationbyageandsexconcldwesterndivision,natural_division,Western Division,,,low,heading; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+tabledlifetablebarodastatefemales,princely_state,Baroda State,Baroda Residency,,medium,life table heading; subset by sex
+subsidiarytablevinumberofdeathsofeachsexatdifferentages,not_place,,,,high,
+czoroastrian,not_place,,,,high,
+nocordingtoagesanditsdifferentsectionsonnightofstfebruary,not_place,,,,high,
+tablemusulmansmalesandfemales,not_place,,,,high,
+alipurduarssubdivision,sub_district,Alipur Duars Subdivision,West Bengal,IND/WestBengal/Alipurduar,high,Jalpaiguri subdivision; district 2014
+territorialdistributionpartiage,not_place,,,,high,
+dcivilconditionpartiiahindukadi,district,Kadi Prant,Baroda State,IND/Gujarat/Mahesana;IND/Gujarat/Patan;IND/Gujarat/Gandhinagar,medium,title fragment; subset by religion
+ivilconditionpartiiahindubaroda,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,title fragment (Part II by divisions); subset by religion
+civilconditionpartiibjainbaroda,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,title fragment (Part II by divisions); subset by religion
+ilconditionpartiiechristiankadi,district,Kadi Prant,Baroda State,IND/Gujarat/Mahesana;IND/Gujarat/Patan;IND/Gujarat/Gandhinagar,medium,title fragment; subset by religion
+eastmadhyapradesh,natural_division,East Madhya Pradesh Division,Madhya Pradesh,,high,1951 natural division
+oombarkharreesection,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+oomburkharreesection,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+wurleesection,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+girgaumsection,city_section,Girgaum Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+conditionpartiiechristiansbaroda,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,title fragment (Part II by divisions); subset by religion
+forbritishincludingsindandaden,province,Bombay Presidency,,,medium,subset: British districts incl. Sind and Aden
+gujaratkonkan,aggregate,,Bombay Presidency,,high,multiple natural divisions
+mahalaxmi,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+centralindiaandindorecity,aggregate,,Central India Agency,,high,Central India + Indore City
+scheduledtribesinbombay,province,Bombay State,India,,medium,subset: Scheduled Tribes; title fragment
+stateandeachnatural,not_place,,,,high,
+westerndivisiontaluksofmanjarabadyedahalliandtirthahalli,aggregate,"Western Division (Manjarabad, Yedahalli, Tirthahalli Taluks)",Mysore State,,high,three Mysore taluks
+easterndivisionfemales,natural_division,Eastern Division,Mysore State,,medium,subset by sex; App. D with Bangalore/Kolar taluks
+amendedoneyearagestatisticswestern,natural_division,Western Division,,,low,title fragment; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+westerndivisionfemales,natural_division,Western Division,Mysore State,,medium,subset by sex; Mysore App. D
+devikulamdivision,division,Devikulam Division,Travancore State,,high,High Range; now Idukki
+sexandcivilconditiondevikulam,division,Devikulam Division,Travancore State,,high,High Range; now Idukki
+sexandcivilconditioneasternnatural,natural_division,Eastern Natural Division,Travancore State,,medium,1911 Travancore
+centraldivision,division,Central Division,Travancore State,,medium,1931 Travancore administrative division (Quilon)
+northerndivision,division,Northern Division,Travancore State,,medium,1931 Travancore administrative division (Kottayam)
+highrangedivision,division,High Range Division,Travancore State,,high,1931 Travancore; now Idukki
+administrativedivisions,not_place,,,,high,
+provinceandeachnaturaldivision,not_place,,,,high,
+tablenovimahalsofnavsari,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,title fragment
+tablenoiiimahalsofamreli,district,Amreli Prant,Baroda State,IND/Gujarat/Amreli;IND/Gujarat/GirSomnath,medium,title fragment
+tablenovmahalsofbaroda,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,title fragment
+tablenoivmahalsofkadi,district,Kadi Prant,Baroda State,IND/Gujarat/Mahesana;IND/Gujarat/Patan;IND/Gujarat/Gandhinagar,medium,title fragment
+barodacitywithcantonment,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,Baroda=Vadodara
+bhimkatta,sub_district,Bhimkatta Peta Mahal,Baroda State,IND/Gujarat/Amreli,low,assumed Amreli prant peta mahal
+bhuleshvar,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+mahalakshmi,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+kamathipura,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+worli,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+harbouranddocksandc,city_section,"Harbour and Docks, Railways and Homeless",Bombay City,IND/Maharashtra/MumbaiCity,high,
+bombaytownandisland,town,Bombay City,Bombay Presidency,IND/Maharashtra/MumbaiCity,high,Bombay City (island) = Mumbai City district
+meman,not_place,,,,high,
+vohora,not_place,,,,high,
+pattiala,princely_state,Patiala State,Punjab,,high,spans many Punjab/Haryana districts
+kapurthulla,princely_state,Kapurthala State,Punjab,IND/Punjab/Kapurthala,high,
+guzerath,natural_division,Gujarat,Bombay Presidency,,high,
+chinaproper,country,,,,high,
+ulwar,princely_state,Alwar State,Rajputana Agency,IND/Rajasthan/Alwar,high,
+jaypoor,princely_state,Jaipur State,Rajputana Agency,,high,"spans Jaipur, Dausa, Sikar, Jhunjhunun etc."
+austriaandhungary,country,,,,high,
+westernkarnatic,natural_division,Western Karnatak,Bombay Presidency,,medium,1881 density table
+oodeypur,princely_state,Udaipur State,Rajputana Agency,,high,"Mewar; spans Udaipur, Rajsamand, Chittaurgarh, Bhilwara"
+jodhpoor,princely_state,Jodhpur State,Rajputana Agency,,high,"Marwar; spans Jodhpur, Nagaur, Pali, Barmer, Jalor etc."
+nepaul,country,,,,high,
+russianempire,country,,,,high,
+kushmere,princely_state,Kashmir State,,,high,Jammu and Kashmir; spans many districts
+swedenandnorway,country,,,,high,
+burdvan,district,Burdwan District,Bengal,IND/WestBengal/Barddhaman,high,
+broughtover,not_place,,,,high,
+eward,city_section,E Ward,Bombay City,IND/Maharashtra/MumbaiCity,high,
+fward,city_section,F Ward,Bombay City,IND/Maharashtra/MumbaiCity,high,
+gward,city_section,G Ward,Bombay City,IND/Maharashtra/MumbaiCity,high,
+kathiawartotal,agency,Kathiawar Agency,Bombay Presidency,,high,total row
+mahikanthaagencytotal,agency,Mahi Kantha Agency,Bombay Presidency,,high,total row
+palanpuragencytotal,agency,Palanpur Agency,Bombay Presidency,,high,total row
+rewakanthaagencytotal,agency,Rewa Kantha Agency,Bombay Presidency,,high,total row
+kolhapurtotal,princely_state,Kolhapur State,Bombay Presidency,IND/Maharashtra/Kolhapur,high,total row
+southernmarathajagirstotal,agency,Southern Maratha Jagirs,Bombay Presidency,,medium,total row
+navsarihindu,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,subset: hindu
+pethapur,princely_state,Pethapur State,Mahi Kantha Agency,IND/Gujarat/Gandhinagar,high,Mahi Kantha state
+khambha,sub_district,Khambha Taluka,Baroda State,IND/Gujarat/Amreli,high,Amreli prant
+beytsankhodwar,sub_district,Beyt Shankhodhar,Baroda State,IND/Gujarat/DevbhumiDwarka,high,Okhamandal prant
+vijapur,sub_district,Vijapur Taluka,Baroda State,IND/Gujarat/Mahesana,high,Kadi prant
+visnagar,sub_district,Visnagar Taluka,Baroda State,IND/Gujarat/Mahesana,high,Kadi prant
+savli,sub_district,Savli Taluka,Baroda State,IND/Gujarat/Vadodara,high,Baroda prant
+vaghodia,sub_district,Vaghodia Taluka,Baroda State,IND/Gujarat/Vadodara,high,Baroda prant
+sankheda,sub_district,Sankheda Taluka,Baroda State,IND/Gujarat/ChhotaUdaipur,high,Baroda prant
+tilakwada,sub_district,Tilakwada Taluka,Baroda State,IND/Gujarat/Narmada,high,Baroda prant
+dehgam,sub_district,Dehgam Taluka,Baroda State,IND/Gujarat/Gandhinagar,high,Kadi prant
+tatolallages,not_place,,,,high,
+kaladgi,district,Kaladgi District,Bombay Presidency,IND/Karnataka/Bijapur;IND/Karnataka/Bagalkot,high,Kaladgi = old name of Bijapur district
+karnatic,natural_division,Karnatak,Bombay Presidency,,high,Bombay Karnatak (Carnatic)
+junagadh,princely_state,Junagadh State,Western India States Agency,IND/Gujarat/Junagadh;IND/Gujarat/GirSomnath,high,
+porbandar,princely_state,Porbandar State,Western India States Agency,IND/Gujarat/Porbandar,high,
+dhrangadhra,princely_state,Dhrangadhra State,Western India States Agency,IND/Gujarat/Surendranagar,high,
+radhanpur,princely_state,Radhanpur State,Western India States Agency,IND/Gujarat/Patan,high,
+morvi,princely_state,Morvi State,Western India States Agency,IND/Gujarat/Morbi,high,Morvi=Morbi
+jafrabad,princely_state,Jafrabad State,Western India States Agency,IND/Gujarat/Amreli,high,dependency of Janjira
+limbdi,princely_state,Limbdi State,Western India States Agency,IND/Gujarat/Surendranagar,high,
+lakhtar,princely_state,Lakhtar State,Western India States Agency,IND/Gujarat/Surendranagar,high,
+sayla,princely_state,Sayla State,Western India States Agency,IND/Gujarat/Surendranagar,high,
+bajana,princely_state,Bajana State,Western India States Agency,IND/Gujarat/Surendranagar,high,
+restofeasternkathiawaragency,aggregate,Eastern Kathiawar Agency (rest),Western India States Agency,,high,remainder of agency states
+manavadar,princely_state,Manavadar State,Western India States Agency,IND/Gujarat/Junagadh,high,
+thanadevli,princely_state,Thana Devli State,Western India States Agency,IND/Gujarat/Amreli,medium,
+wadia,princely_state,Vadia State,Western India States Agency,IND/Gujarat/Amreli,medium,
+kotdasanghani,princely_state,Kotda Sangani State,Western India States Agency,IND/Gujarat/Rajkot,high,
+dsvalamulusurangofjetpurpithadia,princely_state,Jetpur (Pithadia) Taluka,Western India States Agency,IND/Gujarat/Rajkot,medium,Jetpur share-holder estate
+dsvalarawatramofjetpurbilkho,princely_state,Jetpur (Bilkha) Taluka,Western India States Agency,IND/Gujarat/Junagadh,medium,Jetpur share-holder estate at Bilkha
+khairasra,princely_state,Khirasra State,Western India States Agency,IND/Gujarat/Rajkot,low,Khirasra near Rajkot; location approximate
+restofwesternkathiawaragency,aggregate,Western Kathiawar Agency (rest),Western India States Agency,,high,remainder of agency states
+tharad,princely_state,Tharad State,Western India States Agency,IND/Gujarat/BanasKantha,high,
+wao,princely_state,Wao State,Western India States Agency,IND/Gujarat/BanasKantha,high,
+restofbanaskanthaagency,aggregate,Banas Kantha Agency (rest),Western India States Agency,,high,remainder of agency states
+childrenaged,not_place,,,,high,
+mistakespermille,not_place,,,,high,
+middle,city_section,Middle Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,low,"fragment of ""Colaba Middle"""
+lower,city_section,Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,low,"fragment of ""Colaba Lower"""
+mandwee,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+dhobeetulao,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+kharatulao,city_section,Khara Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+chaoputee,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+kamatheepoora,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+seoree,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+seo,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+adivision,city_section,A District,Bombay City,IND/Maharashtra/MumbaiCity,medium,1864 Bombay district A (Colaba/Fort/Esplanade)
+cdhobectulao,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+dchaoputee,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+cdhobeetulao,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+brahmunvaccinated,not_place,,,,high,caste/race row (vaccination table)
+brahmunnotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+brahmunsmallpox,not_place,,,,high,caste/race row (vaccination table)
+brahminvaccinated,not_place,,,,high,caste/race row (vaccination table)
+brahminnotvaccinated,not_place,,,,high,caste/race row (vaccination table)
+brahminsmallpox,not_place,,,,high,caste/race row (vaccination table)
+vohraagricultural,not_place,,,,high,
+vohratrading,not_place,,,,high,
+anjanachaudhari,not_place,,,,high,
+baria,not_place,,,,high,
+bavaandgosain,not_place,,,,high,
+chamarkhalpa,not_place,,,,high,
+darjihinduandjain,not_place,,,,high,
+garoda,not_place,,,,high,
+golaricepounder,not_place,,,,high,
+kadwapatidarhinduandjain,not_place,,,,high,
+karadia,not_place,,,,high,
+luhar,not_place,,,,high,
+mochihinduandjain,not_place,,,,high,
+patanwadia,not_place,,,,high,
+dhanka,not_place,,,,high,
+talabda,not_place,,,,high,
+targalahinduandjain,not_place,,,,high,
+valand,not_place,,,,high,
+vankarincludingdhed,not_place,,,,high,
+fakir,not_place,,,,high,
+chunvalia,not_place,,,,high,
+gamit,not_place,,,,high,
+nayakda,not_place,,,,high,
+tadvi,not_place,,,,high,
+talavia,not_place,,,,high,
+vasawa,not_place,,,,high,
+ravalia,not_place,,,,high,
+shenva,not_place,,,,high,
+thakardahinduandjain,not_place,,,,high,
+vagher,not_place,,,,high,
+dhoheetalaomales,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+dhoheetalaofemales,city_section,Dhobi Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+worleemales,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+worleefemales,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+musulman,not_place,,,,high,
+ecamateepuraorsectioncamateepurasectionstnagpadasubsection,city_section,First Nagpada Sub-Section,Bombay City,IND/Maharashtra/MumbaiCity,medium,Kamathipura district sub-section (1st Nagpada)
+mandyeemales,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+mandyeefemales,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+ecamateepuraorsectionbycullasectionstnagpadasubsectionmales,city_section,First Nagpada Sub-Section,Bombay City,IND/Maharashtra/MumbaiCity,medium,Kamathipura district sub-section (1st Nagpada)
+ecamateepuraorsectionbycullasectionstnagpadasubsectionfemales,city_section,First Nagpada Sub-Section,Bombay City,IND/Maharashtra/MumbaiCity,medium,Kamathipura district sub-section (1st Nagpada)
+camateepuraorsectionbycullasectionbycullasubsection,city_section,Byculla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,"Kamathipura district, Byculla sub-section"
+camateepuraorsectionbycullasectionstnagpadasubsection,city_section,First Nagpada Sub-Section,Bombay City,IND/Maharashtra/MumbaiCity,medium,Kamathipura district sub-section (1st Nagpada)
+camateepuraorsectioncamateepurasectionndnagpadasubsection,city_section,Second Nagpada Sub-Section,Bombay City,IND/Maharashtra/MumbaiCity,medium,Kamathipura district sub-section (2nd Nagpada)
+camateepuraorsectioncamateepurasectioncamateepurasubsection,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,Kamathipura sub-section
+camateepuraorsectioncamateepurasectiontardeosubsection,city_section,Tardeo Section,Bombay City,IND/Maharashtra/MumbaiCity,high,"Kamathipura district, Tardeo sub-section"
+sowreemales,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: males
+sowreefemales,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: females
+males,not_place,,,,high,
+enumeratedinbarodacity,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,Baroda=Vadodara
+absolutenumbers,not_place,,,,high,
+percentageontotal,not_place,,,,high,
+bombaystatecensuspercentsample,province,Bombay State,India,,high,subset: 1951 10% sample
+japancensuspercentsample,country,,,,high,Japan comparison column
+greatbritaincensuspercentsample,country,,,,high,Great Britain comparison column
+proximity,not_place,,,,high,
+averagenumberofoccupiedhousesper,not_place,,,,high,
+villagedensityrelativeproportionpercentofvillagescontainingapopulationof,not_place,,,,high,
+yearlynumbersofpeoplebysexesfromageof,not_place,,,,high,
+musalmans,not_place,,,,high,
+averagenumberof,not_place,,,,high,
+excessofmalesoverfemales,not_place,,,,high,
+excessoffemalesovermales,not_place,,,,high,
+jasvara,not_place,,,,high,
+kasar,not_place,,,,high,
+kamathi,not_place,,,,high,
+kayasth,not_place,,,,high,
+kshattriya,not_place,,,,high,
+kharvi,not_place,,,,high,
+kolhati,not_place,,,,high,
+lingayetayyaorjangam,not_place,,,,high,
+lingayetbanjig,not_place,,,,high,
+lingayetpadamsali,not_place,,,,high,
+dhor,not_place,,,,high,
+gavli,not_place,,,,high,
+gavandi,not_place,,,,high,
+ghisadi,not_place,,,,high,
+gondhali,not_place,,,,high,
+halvai,not_place,,,,high,
+bhavsar,not_place,,,,high,
+brahmakshatriya,not_place,,,,high,
+burud,not_place,,,,high,
+chaukalshi,not_place,,,,high,
+percentageofsuchfamiliestototal,not_place,,,,high,
+iranianparsi,not_place,,,,high,
+normalmortalitypermilleperannum,not_place,,,,high,
+averageofdecadeabsolutefigures,not_place,,,,high,
+averageofdecadeproportionalfigures,not_place,,,,high,
+normalmortalityratespercent,not_place,,,,high,
+durationinyearsofchildlessperiodafterbirthofyoungestchild,not_place,,,,high,
+workingandnonworkingdependentsmales,not_place,,,,high,
+graduatedmeannumbers,not_place,,,,high,
+livingbetweenagesxandxandx,not_place,,,,high,
+females,not_place,,,,high,
+averagenumberoffemaleslivingtomaledeaths,not_place,,,,high,
+excludingsindbombayandaden,province,Bombay Presidency,,,medium,subset: British districts excluding Sind/Bombay City/Aden
+excludingsindbombaycityandaden,province,Bombay Presidency,,,medium,subset: British districts excluding Sind/Bombay City/Aden
+distributionofpersons,not_place,,,,high,
+ratioofinhabitantsperhouses,not_place,,,,high,
+permales,not_place,,,,high,
+perfemales,not_place,,,,high,
+ingtoages,not_place,,,,high,
+foreignorexternalports,not_place,,,,high,
+indianbritishports,not_place,,,,high,
+indianportsnotbritish,not_place,,,,high,
+cmusalmaneasterndivision,natural_division,Eastern Division,,,low,subset by religion; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+dchristianityeasterndivision,natural_division,Eastern Division,,,low,subset by religion; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+kadiparsi,district,Kadi Prant,Baroda State,IND/Gujarat/Mahesana;IND/Gujarat/Patan;IND/Gujarat/Gandhinagar,medium,subset: Parsi
+naturaldivisionshimalayawest,natural_division,"Himalaya, West",United Provinces,,low,1911 natural division
+centralgujaratexcity,natural_division,Central Gujarat,Baroda State,,high,subset: excluding Baroda City
+bangalorejew,district,Bangalore District,Mysore State,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara,medium,subset: Jews
+subsidiarytableicontdunadjustedage,not_place,,,,high,
+subsidiarytableicontdunadjustedag,not_place,,,,high,
+brahminsofkolar,district,Kolar District,Mysore State,IND/Karnataka/Kolar;IND/Karnataka/Chikballapura,medium,subset: Brahmins; Chikballapur split 2007
+iistatementshowingunadjustedandadj,not_place,,,,high,
+iistatementshowingunadjustedandad,not_place,,,,high,
+appendixbamendedoneyearagestatist,not_place,,,,high,
+tableixeducationbyreligionandagepartk,not_place,,,,high,
+tableixeducationbyreligionandagetableixeducationbyreligionan,not_place,,,,high,
+aprovince,province,Bombay Presidency,,,high,heading
+bbombay,town,Bombay City,Bombay Presidency,IND/Maharashtra/MumbaiCity,high,Bombay City (island) = Mumbai City district
+cgujarat,natural_division,Gujarat,Bombay Presidency,,high,
+edeccan,natural_division,Deccan,Bombay Presidency,,high,
+fkarnatak,natural_division,Karnatak,Bombay Presidency,,high,Bombay Karnatak (Carnatic)
+gsind,natural_division,Sind,Bombay Presidency,,high,Sind as natural division of Bombay
+bombaycitygujaratkonkan,aggregate,,Bombay Presidency,,high,multiple natural divisions
+deccankarnataksind,aggregate,,Bombay Presidency,,high,multiple natural divisions
+anativestatesandagencies,aggregate,,Bombay Presidency,,high,Native States and Agencies of Bombay
+abritishexcludingsind,province,Bombay Presidency,,,medium,subset: British districts excluding Sind/Bombay City/Aden
+aaden,district,Aden,Bombay Presidency,,high,"Aden settlement, now Yemen; not in GADM reference"
+tableviiagesbyreligionsparta,not_place,,,,high,
+beasternkathiawaragencywadhwanc,agency,Eastern Kathiawar Agency,Western India States Agency,,medium,heading incl. first unit
+cwesternkathiawaragencyrestoft,agency,Western Kathiawar Agency,Western India States Agency,,medium,heading incl. remainder row
+dhobiparitagasamadiwal,not_place,,,,high,
+halvakhivakkal,not_place,,,,high,
+kayesthprabhu,not_place,,,,high,
+lamanivanjari,not_place,,,,high,
+lohanoincludingamil,not_place,,,,high,
+madig,not_place,,,,high,
+sali,not_place,,,,high,
+sonarsonidaivadnyabrahman,not_place,,,,high,
+sammohyderabadsukkur,not_place,,,,high,
+tableshowingpercentageofunmarriedmarriedandwidowedateachageperiodtototalpopulationofisland,not_place,,,,high,
+tableshowingpercentageofunmarriedmarriedandwidowedprabhusofbothsexestototalprabhupopulationbyageperiods,not_place,,,,high,
+cmuslim,not_place,,,,high,
+imperialtableviicontdhotherreligions,not_place,,,,high,
+statementshowingdistributionbyagesofhindusandmuhammadansinmeerutdivision,division,Meerut Division,United Provinces,,medium,heading
+familiessexesandprincipalagegroups,not_place,,,,high,
+divisionalpercentages,not_place,,,,high,
+tablexvoccupationxvwoodcaneandleavesetcxvidrugsgumsdyesetc,not_place,,,,high,
+personalhouseholdandsanitaryservicesgroup,not_place,,,,high,
+tablexvoccupations,not_place,,,,high,
+tablexvoccupationsxvehiclesandvesselsconcludedxisupplementaryrequirements,not_place,,,,high,
+correctionstobemadeinlistofoccupations,not_place,,,,high,
+returnedinlieuofreligion,not_place,,,,high,
+censusdata,not_place,,,,high,
+cclxxxviii,not_place,,,,high,
+synopsisofreport,not_place,,,,high,
+subdivisionsormahals,not_place,,,,high,
+tablenoiratioofeachageperiodtooftotalpopulationofallages,not_place,,,,high,
+tablenoiirelativeproportionsofsexesatdifferentagesin,not_place,,,,high,
+tablenoiiinumbersandpercentagesofpopulationbysexesundereachageperiod,not_place,,,,high,
+tablenoivyearlynumbersofpeoplebysexesfromageof,not_place,,,,high,
+proportionsperofpopulation,not_place,,,,high,
+tablenoviiproportionperofpopulationundereachagegroupinthisterritorycomparedwiththatinotherprovincesandcountries,not_place,,,,high,
+tablenoixannualnumbersofinfantsbelowforand,not_place,,,,high,
+tablenoxivproportionperofpopulationineachreligionandeachageperiod,not_place,,,,high,
+tablenoxxinumberoffemalestomalesateachageperiodbydivisionscompared,not_place,,,,high,
+tablenoxxviiibmarried,not_place,,,,high,
+tablenoxxviiicwidowed,not_place,,,,high,
+tablenoxxxaveragenumberoffemalespermalesofsameageandcivilcondition,not_place,,,,high,
+tablenoxxxvmarriedinfantsforeachyearuptoyears,not_place,,,,high,
+tablenoxviipercentagesbyageperiodsindivisionsandcityforinsane,not_place,,,,high,
+tablenoxviiicomparisonbyageperiodsofinsaneofbothsexesinand,not_place,,,,high,
+percentagesforwholestateforthreeconditions,not_place,,,,high,
+tablenoxixpercentageofsexesforcivilconditionsinallreligions,not_place,,,,high,
+tablenoiv,not_place,,,,high,
+tablenovtotalnumbersundereachconditionbysexesandpercentagesofeachtototalofeachsex,not_place,,,,high,
+tablenovitotalnumbersandpercentagesinbothsexesasregardstheircivilconditionbetweenagesofand,not_place,,,,high,
+tablenoixpercentageofmalesandfemalesineachcivilcondition,not_place,,,,high,
+tablenoxiexcessofhusbandsorwivesindifferentreligions,not_place,,,,high,
+amrelikadi,aggregate,,Baroda State,,high,two Baroda prants
+navsaribaroda,aggregate,,Baroda State,,high,two Baroda prants
+tablenoxxvipercentageofmarriedbysexesineachagegroup,not_place,,,,high,
+tablenoxxxiisexproportionineducationageperiods,not_place,,,,high,
+tablenoxxxiiisexproportionamongchristians,not_place,,,,high,
+diagramshowingnumberoffemalespermalesbymainageperiodsandbynaturaldivisionsci,not_place,,,,high,
+entirestate,not_place,,,,high,
+tableviiagesexandcivilconditionofjainpopulation,not_place,,,,high,
+tableviiagesexandcivilconditionofzoroastrianparsipopulation,not_place,,,,high,
+tableviiagesexandcivilconditionlowercolabamusalman,city_section,Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionlowercolabazoroastrianparsi,city_section,Lower Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionfortsouthhindu,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionfortsouthmusalman,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionchaklamusalman,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionchaklazoroastrianparsi,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionumarkhadimusalman,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionumarkhadizoroastrianparsi,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditiondongrizoroastrianparsi,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionmarkethindu,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+dongrihindu,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+dongrimusalman,city_section,Dongri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+tableviiagesexandcivilconditionmarketmusalman,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionmarketzoroastrianparsi,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+kharatalaohindu,city_section,Khara Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+kharatalaomusalman,city_section,Khara Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+tableviiagesexandcivilconditionkhetwadimusalman,city_section,Khetwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionkhetwadizoroastrianparsi,city_section,Khetwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionchaupatimusalman,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionchaupatizoroastrianparsi,city_section,Chaupati Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionmahalaxmimusalman,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionmahalaxmizoroastrianparsi,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionwalkeshwarhindu,city_section,Walkeshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionwalkeshwarmusalman,city_section,Walkeshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionbycullazoroastrianparsi,city_section,Byculla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditiontarwadihindu,city_section,Tarwadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionstnagpadahindu,city_section,First Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionstnagpadamusalman,city_section,First Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionkamatipuramusalman,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionkamatipurazoroastrianparsi,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionsewrihindu,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionsewrimusalman,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+tableviiagesexandcivilconditionsewrizoroastrianparsi,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionsionhindu,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionstnagpadazoroastrianparsi,city_section,First Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionndnagpadahindu,city_section,Second Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionmazagaonzoroastrianparsi,city_section,Mazagaon Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: zoroastrianparsi
+tableviiagesexandcivilconditionparelhindu,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionmahimhindu,city_section,Mahim Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: hindu
+tableviiagesexandcivilconditionmahimmusalman,city_section,Mahim Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from Table VII heading; subset: musalman
+mandvihindu,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+mandvimusalman,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+mandvizoroastrian,city_section,Mandvi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+umarkhadihindu,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+umarkhadimusalman,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+umarkhadizoroastrian,city_section,Umarkhadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+bhuleshwarhindu,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+bhuleshwarmusalman,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+bhuleshwarzoroastrian,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+kumbharwadahindu,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+kumbharwadamusalman,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+kumbharwadazoroastrian,city_section,Kumbharwada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+markethindu,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+marketmusalman,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+marketzoroastrian,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+firstnagpadahindu,city_section,First Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+firstnagpadamusalman,city_section,First Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+firstnagpadazoroastrian,city_section,First Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+secondnagpadahindu,city_section,Second Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+secondnagpadazoroastrian,city_section,Second Nagpada Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+tablelanggroupalanguages,not_place,,,,high,
+xiplace,not_place,,,,high,
+harbouranddocksrailwaysandhomelesszoroastrianparsi,city_section,"Harbour and Docks, Railways and Homeless",Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+spokenwithinbombaypresidency,not_place,,,,high,
+mahalaxmihindu,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+mahalaxmimusalman,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+mahalaxmizoroastrian,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+tablexiiainfirmitiesbysections,not_place,,,,high,
+fanaswadihindu,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+fanaswadimusalman,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+fanaswadizoroastrian,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+kamatipurahindu,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+kamatipuramusalman,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+kamatipurazoroastrian,city_section,Kamathipura Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+xvoflivelihood,not_place,,,,high,
+parelhindu,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+parelmusalman,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+parelzoroastrian,city_section,Parel Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+sionhindu,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+sionmusalman,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+sionzoroastrian,city_section,Sion Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+tableviiieducationbyageperiods,not_place,,,,high,
+uppercolabahindu,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+uppercolabamusalman,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+uppercolabazoroastrian,city_section,Upper Colaba Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+chaklamusalman,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: musalman
+chaklazoroastrian,city_section,Chakla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrian
+esplanadezoroastrianparsi,city_section,Esplanade Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+mahimzoroastrianparsi,city_section,Mahim Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+warlihindu,city_section,Worli Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: hindu
+variationinpopulationsince,not_place,,,,high,
+dminorandunspecifiedreligions,not_place,,,,high,
+citiesbombayaallreligions,town,Bombay City,Bombay Presidency,IND/Maharashtra/MumbaiCity,high,subset: all religions
+ganimistic,not_place,,,,high,
+proportionpermilleofpopulation,not_place,,,,high,
+subsidiarytableivviiafemalespermalesbymaincommunitiesandage,not_place,,,,high,
+tableviagesexandcivilconditionbytalukas,not_place,,,,high,
+sidhpur,sub_district,Sidhpur Taluka,Baroda State,IND/Gujarat/Patan,high,Kadi prant
+kheralu,sub_district,Kheralu Taluka,Baroda State,IND/Gujarat/Mahesana,high,Kadi prant
+patan,sub_district,Patan Taluka,Baroda State,IND/Gujarat/Patan,medium,Kadi prant taluka
+barodamahal,sub_district,Baroda Mahal,Baroda State,IND/Gujarat/Vadodara,high,
+amrelimahal,sub_district,Amreli Mahal,Baroda State,IND/Gujarat/Amreli,high,
+tableixannualageperiodsbyreligions,not_place,,,,high,
+mehlav,town,Mehlav,Baroda State,IND/Gujarat/Anand,medium,town in Petlad taluka
+navsarimahal,sub_district,Navsari Mahal,Baroda State,IND/Gujarat/Navsari,high,
+patanallreligions,town,Patan,Baroda State,IND/Gujarat/Patan,medium,subset: allreligions; city table
+patanhindu,town,Patan,Baroda State,IND/Gujarat/Patan,medium,subset: hindu; city table
+patanmusalman,town,Patan,Baroda State,IND/Gujarat/Patan,medium,subset: musalman; city table
+patanjain,town,Patan,Baroda State,IND/Gujarat/Patan,medium,subset: jain; city table
+dwarka,town,Dwarka,Baroda State,IND/Gujarat/DevbhumiDwarka,high,
+beyt,town,Beyt,Baroda State,IND/Gujarat/DevbhumiDwarka,high,Beyt Dwarka
+generaldistributionofofeachsex,not_place,,,,high,
+centralgujaratexcludingcity,natural_division,Central Gujarat,Baroda State,,high,subset: excluding Baroda City
+sextablexidurationofchildlessperiod,not_place,,,,high,
+mainproportionatefiguresofcivilconditionforeachsexinmainagegroups,not_place,,,,high,
+subsidiarytableviadistributionofinsanebyageperofeachsexfivecensuses,not_place,,,,high,
+noperworkersearnersandworkingdependentsin,not_place,,,,high,
+distributionperdivision,not_place,,,,high,
+correctedestimateofunemployed,not_place,,,,high,
+tablenoi,not_place,,,,high,
+tablenoiiestimatedmisstatementofagebasedonacomparisonofreportedandgraduatednumbersofmalesateachageinbarodastatecalculatedaftercensussimilarnumbersinbengalcalculatedaftercensusgivenincolumn,not_place,,,,high,
+tablenoiii,not_place,,,,high,
+tableamales,not_place,,,,high,
+tablebfemales,not_place,,,,high,
+tablecgraduatednumberslivingbetweenagesxandxoutofofeachsexinbarodastate,not_place,,,,high,
+tabledlifetablebarodastatemales,princely_state,Baroda State,Baroda Residency,,medium,life table heading; subset by sex
+iistatementshowingunadjustedandadjustedreturnsbysingleageperiods,not_place,,,,high,
+easterndivisionfemalescontd,natural_division,Eastern Division,Mysore State,,medium,subset by sex; App. D with Bangalore/Kolar taluks
+appendixbcontdamendedoneyearagestatisticswesterndivisioncontdfemales,natural_division,Western Division,,,low,heading; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+subsidiarytableiiiconcludedagedistributionofofeachsexbyreligionwesterndivision,natural_division,Western Division,,,low,heading; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+westerndivisionmalescontd,natural_division,Western Division,Mysore State,,medium,subset by sex; Mysore App. D
+subsidiarytableiicontdeducationbyagesexandreligionjainscontdeasterndivision,natural_division,Eastern Division,,,low,heading; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+subsidiarytableiiicontdagedistributionofofeachsexbyreligioneasterndivision,natural_division,Eastern Division,,,low,heading; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+subsidiarytableieducationbyageandsexcontdeasterndivision,natural_division,Eastern Division,,,low,heading; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+subsidiarytableiiconcldeducationbyagesexandreligionhinduswesterndivision,natural_division,Western Division,,,low,heading; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+subsidiarytableiicontdeducationbyagesexandreligionmusalmansconcldwesterndivision,natural_division,Western Division,,,low,heading; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+subsidiarytableiicontdeducationbyagesexandreligionchristianscontd,not_place,,,,high,
+birthanddeathreturns,not_place,,,,high,
+averagenumberoffemalespermales,not_place,,,,high,
+ratioofeachclasstoofpopulation,not_place,,,,high,
+tableclifetablebarodastatemales,princely_state,Baroda State,Baroda Residency,,medium,life table heading; subset by sex
+aindian,not_place,,,,high,
+ceuropean,not_place,,,,high,
+detailoflanguagesshownunderothers,not_place,,,,high,
+ain,not_place,,,,high,
+tablepartj,not_place,,,,high,
+tableixeducationbyreligionandagepartd,not_place,,,,high,
+gujaraticutchibhil,not_place,,,,high,
+sindhibaluchibrahui,not_place,,,,high,
+tableixeducationbyreligionandagepartc,not_place,,,,high,
+tableixeducationbyreligionandageparth,not_place,,,,high,
+variationofpopulationbyage,not_place,,,,high,
+decliningbirthrateamongparsis,not_place,,,,high,
+bbombaycitycontinuedcjain,town,Bombay City,Bombay Presidency,IND/Maharashtra/MumbaiCity,high,subset: Jain
+ezoroastrian,not_place,,,,high,
+cgujaratahindu,natural_division,Gujarat,Bombay Presidency,,high,subset: Hindu
+musalmanmales,not_place,,,,high,
+musalmanfemales,not_place,,,,high,
+subsidiarytableviiimainresultsofuniversityexaminations,not_place,,,,high,
+asind,natural_division,Sind,Bombay Presidency,,high,Sind as natural division of Bombay
+abombaypresidencyincludingnativestates,province,Bombay Presidency,,,high,heading
+tableviiieducationpartigeneraltable,not_place,,,,high,
+echristian,not_place,,,,high,
+chapterixcontinued,not_place,,,,high,
+chapterx,not_place,,,,high,
+chapterxi,not_place,,,,high,
+chapterxii,not_place,,,,high,
+chaptervcontinued,not_place,,,,high,
+chaptervi,not_place,,,,high,
+chaptervii,not_place,,,,high,
+chapterviii,not_place,,,,high,
+chapterix,not_place,,,,high,
+differenceofareasascomparedwith,not_place,,,,high,
+chapteriv,not_place,,,,high,
+chapterv,not_place,,,,high,
+noeachsexbombay,not_place,,,,high,
+tablenoaveragenumberoffemalestomalesateachageperiod,not_place,,,,high,
+tablenodistributionofpersonsofeithersexaccordingtocorrectedages,not_place,,,,high,
+tablenototalpresidencyaccordingtocorrectedages,not_place,,,,high,
+tablenocomparativetableofstateofinstructionaveragedistributionaccordingtoinstructionofmalesandfemales,not_place,,,,high,
+westernindiastatesagencycontd,agency,Western India States Agency,,,high,"1924-44 agency (Kathiawar, Cutch, Palanpur)"
+statementnomales,not_place,,,,high,
+statementnofemales,not_place,,,,high,
+subsidiarytableidistributionofofeachsexinprovince,not_place,,,,high,
+beasternkathiawaragencylakhtar,agency,Eastern Kathiawar Agency,Western India States Agency,,medium,heading incl. first unit
+aseventeensalutestatescutch,aggregate,Seventeen Salute States,Western India States Agency,,medium,group heading (first: Cutch)
+hotherreligions,not_place,,,,high,
+statementnocorrelationoffertilityandnumberofhouses,not_place,,,,high,
+statementnodeathratepermilleforyearoftotalpopulationofeachsexaccordingtocensusofspecificdeathrates,not_place,,,,high,
+statementnoratioofdeathspermillebyagesexandnaturaldivisionsforyearcrudedeathrates,not_place,,,,high,
+statementnomarriedpopulationinthousands,not_place,,,,high,
+statementnostatementshowingnumberandproportionofpersonsmarriedatdifferentages,not_place,,,,high,
+vaddar,not_place,,,,high,
+varli,not_place,,,,high,
+baloch,not_place,,,,high,
+bohrashia,not_place,,,,high,
+bohrasunni,not_place,,,,high,
+chandio,not_place,,,,high,
+miharbahar,not_place,,,,high,
+subsidiarytableiagedistributionofofeachsexbyannualperiodscontd,not_place,,,,high,
+nopeopledifferentdivisionsandsectionsonnightofstfebruary,not_place,,,,high,
+summary,not_place,,,,high,
+divisions,not_place,,,,high,
+nocordingtoages,not_place,,,,high,
+shipsandtonnagedepartedfromportofbombayduringfromportsbeyondpresidencyofbombay,not_place,,,,high,
+exampleofahouseholdersreturnfilledin,not_place,,,,high,
+appendixenumberanddescriptionoflicensedtavernsspiritopiumganjaandcoffeeshopsandalsonumberofhouseslicensedtosellpoisonarmsorammunitioninbombayinfebruary,not_place,,,,high,
+vessels,not_place,,,,high,
+tonnage,not_place,,,,high,
+shipsandtonnagearrivedatportofbombayduringfromandtoportsbeyondpresidencyofbombay,not_place,,,,high,
+appendixdshipsandtonnagedepartedfromportofbombayduringfromportsbeyondpresidencyofbombay,not_place,,,,high,
+appendixe,not_place,,,,high,
+mehsanamuslim,district,Mehsana Prant,Baroda State,IND/Gujarat/Mahesana;IND/Gujarat/Patan;IND/Gujarat/Gandhinagar,medium,subset: Muslim
+navsariallreligions,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,subset: allreligions
+navsarihindubrahmanic,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,subset: hindubrahmanic
+navsarimuslim,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,subset: muslim
+amreliallreligions,district,Amreli Prant,Baroda State,IND/Gujarat/Amreli;IND/Gujarat/GirSomnath,medium,subset: allreligions
+amrelihindubrahmanic,district,Amreli Prant,Baroda State,IND/Gujarat/Amreli;IND/Gujarat/GirSomnath,medium,subset: hindubrahmanic
+amrelimuslim,district,Amreli Prant,Baroda State,IND/Gujarat/Amreli;IND/Gujarat/GirSomnath,medium,subset: muslim
+amrelijain,district,Amreli Prant,Baroda State,IND/Gujarat/Amreli;IND/Gujarat/GirSomnath,medium,subset: jain
+okhamandalallreligions,district,Okhamandal Prant,Baroda State,IND/Gujarat/DevbhumiDwarka,high,subset: allreligions
+okhamandalhindubrahmanic,district,Okhamandal Prant,Baroda State,IND/Gujarat/DevbhumiDwarka,high,subset: hindubrahmanic
+okhamandalmuslim,district,Okhamandal Prant,Baroda State,IND/Gujarat/DevbhumiDwarka,high,subset: muslim
+navsarizoroastrian,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,subset: zoroastrian
+navsaritribal,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,subset: tribal
+navsarijain,district,Navsari Prant,Baroda State,IND/Gujarat/Navsari;IND/Gujarat/Surat;IND/Gujarat/Tapi,medium,subset: jain
+barodacityallreligions,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,subset: allreligions
+barodacityhindubrahmanic,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,subset: hindubrahmanic
+barodacityhinduarya,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,subset: hinduarya
+barodacityjain,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,subset: jain
+barodacitymuslim,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,subset: muslim
+barodacityzoroastrian,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,subset: zoroastrian
+barodacitychristian,town,Baroda City,Baroda State,IND/Gujarat/Vadodara,high,subset: christian
+tableviiiageforselectedcastes,not_place,,,,high,
+enumerationtables,not_place,,,,high,
+contents,not_place,,,,high,
+tablenoclassesarrangedbysexaccordingtoageperiodsinmarketsection,city_section,Market Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from table heading
+tablenoclassesarrangedbysexaccordingtoageperiodsinphunuswareesection,city_section,Fanaswadi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from table heading
+tablenoclassesarrangedbysexaccordingtoageperiodsingirgaumsection,city_section,Girgaum Section,Bombay City,IND/Maharashtra/MumbaiCity,high,from table heading
+noaccordingtosexandageperiods,not_place,,,,high,
+tablenopopulationbyclassesarrangedaccordingtoageperiods,not_place,,,,high,
+brahminsmalesandfemales,not_place,,,,high,
+bhatiasmalesandfemales,not_place,,,,high,
+hindoosofothercastesmalesandfemales,not_place,,,,high,
+nofemalesbyagesandsections,not_place,,,,high,
+lconditionpartiidmusalmanbaroda,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,title fragment (Part II by divisions); subset by religion
+ofeachsexandagebynatural,not_place,,,,high,
+andmainreligionswesternindiastates,agency,Western India States Agency,,,medium,title fragment
+fortsouthernsection,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+mahaluxmeesection,city_section,Mahalakshmi Section,Bombay City,IND/Maharashtra/MumbaiCity,high,
+lconditionpartiiechristianbaroda,district,Baroda Prant,Baroda State,IND/Gujarat/Vadodara;IND/Gujarat/Anand;IND/Gujarat/ChhotaUdaipur;IND/Gujarat/Narmada,medium,title fragment (Part II by divisions); subset by religion
+fortsouthzoroastrianparsi,city_section,Fort South Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+bhuleshwarzoroastrianparsi,city_section,Bhuleshwar Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+kharatalaozoroastrianparsi,city_section,Khara Talao Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+girgaumzoroastrianparsi,city_section,Girgaum Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+bycullazoroastrianparsi,city_section,Byculla Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+tardeozoroastrianparsi,city_section,Tardeo Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+sewrizoroastrianparsi,city_section,Sewri Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+mazagaonzoroastrianparsi,city_section,Mazagaon Section,Bombay City,IND/Maharashtra/MumbaiCity,high,subset: zoroastrianparsi
+ofeachsexci,not_place,,,,high,
+sexwestern,natural_division,Western Division,Mysore State,,medium,title fragment (Manjarabad etc. taluks)
+amendedoneyearagestatisticseastern,natural_division,Eastern Division,,,low,title fragment; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+conditionofpopulationofbaroda,princely_state,Baroda State,Baroda Residency,,low,title fragment
+percentagesforwhole,not_place,,,,high,
+comparedwithsameforthis,not_place,,,,high,
+ofeachsexineach,not_place,,,,high,
+distributionper,not_place,,,,high,
+iireporteddeathratebysexandnatural,not_place,,,,high,
+inbaroda,princely_state,Baroda State,Baroda Residency,,low,title fragment
+educationbyageandsexcontdeastern,natural_division,Eastern Division,,,low,title fragment; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+sexandreligionhinduswestern,natural_division,Western Division,,,low,title fragment; ambiguous: 1901 natural division used by Mysore (Bangalore/Kolar contexts) and Travancore; also Rajputana
+restofpoona,sub_district,Poona Taluka (rest of),Poona District,IND/Maharashtra/Pune,medium,"subset: Greater Poona city table, rest of Poona taluka"
+comparativetableof,not_place,,,,high,

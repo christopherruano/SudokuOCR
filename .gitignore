@@ -54,3 +54,12 @@ export_final/sendout_final/sendout_v1/assembled_facts.csv
 
 # Wrangler local state
 .wrangler/
+
+# GADM downloads (re-fetch: see atlas/README.md)
+mapdata/gadm41_*
+# atlas scratch + local backups
+atlas/scratch_*.py
+atlas/backup_toplevel/
+atlas/live/
+atlas/curation/scratch_*.py
+atlas/out/metrics_raw.pkl

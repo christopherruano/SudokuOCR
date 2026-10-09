@@ -1,0 +1,833 @@
+key,kind,hist_name,hist_parent,modern,confidence,note
+burma,province,Burma,,,high,province of British India
+sagaing,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,
+hanthawaddy,district,Hanthawaddy District,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,medium,rural district around Rangoon; now Yangon Region North/South
+kyaukpyu,district,Kyaukpyu District,Burma,MMR/Rakhine/Kyaunkpyu,high,Kyaukpyu=Kyaukphyu
+tharrawaddy,district,Tharrawaddy District,Burma,MMR/Bago/Thayarwady,high,Tharrawaddy=Thayarwady
+sandoway,district,Sandoway District,Burma,MMR/Rakhine/Thandwe,high,Sandoway=Thandwe
+indianhindus,not_place,,,,high,race
+houses,not_place,,,,high,column heading
+indoburmanraces,not_place,,,,high,race group
+northernarakan,district,Northern Arakan District,Burma,MMR/Chin/Mindat,medium,"Arakan Hill Tracts = Paletwa township, now Chin State (Mindat District in GADM)"
+upperburma,natural_division,Upper Burma,Burma,,medium,Upper Burma half of the province (annexed 1886)
+rangoon,town,Rangoon Town,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,Rangoon=Yangon; also a town-district
+amherst,district,Amherst District,Burma,MMR/Mon/Mawlamyine;MMR/Kayin/Kawkareik;MMR/Kayin/Myawady,medium,Amherst (Moulmein) district; Kawkareik subdivision now Kayin
+northwesternprovinces,province,North-Western Provinces,,,high,later United Provinces; used in comparison table
+henzada,district,Henzada District,Burma,MMR/Ayeyarwady/Hinthada,high,Henzada=Hinthada
+mergui,district,Mergui District,Burma,MMR/Tanintharyi/Mergui;MMR/Tanintharyi/Kawthoung,high,Mergui=Myeik; south now Kawthaung district
+tharrawaddytableshowingpopulationpopulationbyreligionandeducationandcbyvillagesandcircles,district,Tharrawaddy District,Burma,MMR/Bago/Thayarwady,high,Tharrawaddy=Thayarwady; table title used as section header
+shwebo,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,medium,district in 1901 Table II; Shwebo town in 1921 towns table
+thayagon,sub_district,Thayagon Village,Burma,,low,"village name found in tables of Hanthawaddy District, Kungyangon township, Pegu District; different places share the name - location ambiguous"
+yedwingon,sub_district,Yedwingôn Village,Burma,,low,"village name found in tables of Hanthawaddy District, Katha District, Tharrawaddy District; different places share the name - location ambiguous"
+northernshanstates,agency,Northern Shan States,Burma,,high,group of Shan states under a Superintendent; now northern Shan State
+myaungmya,district,Myaungmya District,Burma,MMR/Ayeyarwady/Myoungmya,high,
+thaton,district,Thaton District,Burma,MMR/Mon/Thaton;MMR/Kayin/Hpa-an,medium,Thaton district also covered Pa-an area
+bhamo,district,Bhamo District,Burma,MMR/Kachin/Bhamo,high,
+kyaukse,district,Kyaukse District,Burma,MMR/Mandalay/Kyaukse,high,
+yamethin,district,Yamethin District,Burma,MMR/Mandalay/Yamethin;MMR/Naypyitaw/Naypyitaw,medium,Pyinmana subdivision now Nay Pyi Taw
+promemunicipality,town,Prome Municipality,Burma,MMR/Bago/Pyay,high,
+variationincreaseordecrease,not_place,,,,high,column heading
+educationbyreligions,not_place,,,,high,table title
+kyauktalon,sub_district,Kyauktalôn Village,Burma,,low,"village name found in tables of Kungyangon township, Sagaing District; different places share the name - location ambiguous"
+toungooconcldburmesemales,town,Toungoo Town,Burma,MMR/Bago/Taungoo,high,subset (race/sex); 1921 Table VII Part III Towns
+pakokkuallracesmales,town,Pakokku Town,Burma,MMR/Magway/Pakokku,high,subset (race/sex); 1921 Table VII Part III Towns
+pakokkuburmesemales,town,Pakokku Town,Burma,MMR/Magway/Pakokku,high,subset (race/sex); 1921 Table VII Part III Towns
+peguallracesmales,town,Pegu Town,Burma,MMR/Bago/Pegu,high,subset (race/sex); 1921 Table VII Part III Towns
+peguburmesemales,town,Pegu Town,Burma,MMR/Bago/Pegu,high,subset (race/sex); 1921 Table VII Part III Towns
+inseinallracesmales,town,Insein Town,Burma,MMR/Yangon/Yangon-N,high,subset (race/sex); 1921 Table VII Part III Towns
+inseinburmesemales,town,Insein Town,Burma,MMR/Yangon/Yangon-N,high,subset (race/sex); 1921 Table VII Part III Towns
+inseinindianhindusmales,town,Insein Town,Burma,MMR/Yangon/Yangon-N,high,subset (race/sex); 1921 Table VII Part III Towns
+merguiallracesmales,town,Mergui Town,Burma,MMR/Tanintharyi/Mergui,high,subset (race/sex); 1921 Table VII Part III Towns
+merguiotherindigenousracesmales,town,Mergui Town,Burma,MMR/Tanintharyi/Mergui,high,subset (race/sex); 1921 Table VII Part III Towns
+pyinmanaallracesmales,town,Pyinmana Town,Burma,MMR/Naypyitaw/Naypyitaw,high,subset (race/sex); 1921 Table VII Part III Towns
+pyinmanaburmesemales,town,Pyinmana Town,Burma,MMR/Naypyitaw/Naypyitaw,high,subset (race/sex); 1921 Table VII Part III Towns
+thatonallracesmales,town,Thaton Town,Burma,MMR/Mon/Thaton,high,subset (race/sex); 1921 Table VII Part III Towns
+thatonburmesemales,town,Thaton Town,Burma,MMR/Mon/Thaton,high,subset (race/sex); 1921 Table VII Part III Towns
+taungywa,sub_district,Taungywa Village,Burma,,low,"village name found in tables of Akyab District, Sagaing District; different places share the name - location ambiguous"
+kyaungdaung,sub_district,Kyaungdaung Village,Burma,,low,"village name found in tables of Akyab District, Sandoway District; different places share the name - location ambiguous"
+kamaungchaung,sub_district,Kamaungchaung Village,Burma,,low,"village name found in tables of Akyab District, Kyaukpyu District; different places share the name - location ambiguous"
+aungzeik,sub_district,Aungzeik Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pyaingchaung,sub_district,Pyaingchaung Village,Burma,,low,"village name found in tables of Akyab District, Kyaukpyu District; different places share the name - location ambiguous"
+kanbyin,sub_district,Kanbyin Village,Burma,,low,"village name found in tables of Akyab District, Kyaukpyu District; different places share the name - location ambiguous"
+kwingyi,sub_district,Kwingyi Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor; another occurrence has no district context
+nyaungchaung,sub_district,Nyaungchaung Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+nyaungbintha,sub_district,Nyaungbintha Village,Burma,,low,"village name found in tables of Kungyangon township, Sagaing District; different places share the name - location ambiguous"
+kangale,sub_district,Kangale Village,Burma,,low,"village name found in tables of Hanthawaddy District, Tharrawaddy District; different places share the name - location ambiguous"
+maugon,sub_district,Ma-ugon Village,Burma,,low,"village name found in tables of Hanthawaddy District, Katha District; different places share the name - location ambiguous"
+nyaungwaing,sub_district,Nyaungwaing Village,Burma,,low,"village name found in tables of Pegu District, Tharrawaddy District; different places share the name - location ambiguous"
+karens,not_place,,,,high,race
+burman,natural_division,Burman Division,Burma,,low,1931 natural-division grouping (Delta/Coast/Centre/North); could be race label
+centre,natural_division,Centre,Burma,,medium,1931 natural division (Burma dry zone)
+pakokku,district,Pakokku District,Burma,MMR/Magway/Pakokku,high,
+magwe,district,Magwe District,Burma,MMR/Magway/MagweMinbu,high,"Magwe=Magway (GADM name MagweMinbu, variant Magwe)"
+myitkyina,district,Myitkyina District,Burma,MMR/Kachin/Myitkyina;MMR/Kachin/Putao,medium,Putao area later separated
+chinhills,district,Chin Hills District,Burma,MMR/Chin/Palam,medium,Falam/Haka/Tiddim; GADM Chin has only Palam(Falam) and Mindat
+akyabport,town,Akyab Port,Burma,MMR/Rakhine/Sittwe,high,port of Akyab=Sittwe
+sandowaymunicipality,town,Sandoway Municipality,Burma,MMR/Rakhine/Thandwe,high,
+rangoonport,town,Rangoon Port,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,port of Rangoon
+letpadanmunicipality,town,Letpadan Municipality,Burma,MMR/Bago/Thayarwady,high,
+thonzemunicipality,town,Thonze Municipality,Burma,MMR/Bago/Thayarwady,high,
+basseinmunicipality,town,Bassein Municipality,Burma,MMR/Ayeyarwady/Bassein,high,Bassein=Pathein
+ngathainggyaungdaunggyimunicipality,town,Ngathainggyaung-Daunggyi Municipality,Burma,MMR/Ayeyarwady/Bassein,medium,"Ngathaingchaung, Bassein district"
+pantanawtown,town,Pantanaw Town,Burma,MMR/Ayeyarwady/Maubin,high,
+yandoonmunicipality,town,Yandoon Municipality,Burma,MMR/Ayeyarwady/Maubin,medium,"Yandoon=Nyaungdon, Maubin district"
+zalunmunicipality,town,Zalun Municipality,Burma,MMR/Ayeyarwady/Hinthada,high,
+lemyethnatown,town,Lemyethna Town,Burma,MMR/Ayeyarwady/Hinthada,high,
+myanaungmunicipality,town,Myanaung Municipality,Burma,MMR/Ayeyarwady/Hinthada,medium,Henzada district; now Myanaung district not in GADM
+shwegyinmunicipality,town,Shwegyin Municipality,Burma,MMR/Bago/Pegu,medium,Shwegyin township now in Bago Region east (Bago/Nyaunglebin district)
+thatonmunicipality,town,Thaton Municipality,Burma,MMR/Mon/Thaton,high,
+moulmeinport,town,Moulmein Port,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine
+tavoymunicipality,town,Tavoy Municipality,Burma,MMR/Tanintharyi/Dawei,high,
+thayetmyomunicipality,town,Thayetmyo Municipality,Burma,MMR/Magway/Thayetmyo,high,
+allanmyoywataungmunicipality,town,Allanmyo-Ywataung Municipality,Burma,MMR/Magway/Thayetmyo,high,Allanmyo=Aunglan
+minbumunicipality,town,Minbu Municipality,Burma,MMR/Magway/Minbu,high,
+magwetown,town,Magwe Town,Burma,MMR/Magway/MagweMinbu,high,
+taungdwingyimunicipality,town,Taungdwingyi Municipality,Burma,MMR/Magway/MagweMinbu,high,
+pauktaw,sub_district,Pauktaw Township,Burma,MMR/Rakhine/Sittwe,low,section in Akyab district table (Pauktaw township); also a Ye-u village row
+subheadpopulation,not_place,,,,high,column heading
+racebreakdown,not_place,,,,high,column heading
+mainhead,not_place,,,,high,column heading
+asrecorded,not_place,,,,high,column heading
+finaladjustment,not_place,,,,high,column heading
+kaladan,sub_district,Kaladan Township,Burma,MMR/Rakhine/Sittwe,medium,Akyab district township on Kaladan river
+akyabtableshowingpopulationpopulationbyreligionandeducationandcbyvillagesandcircles,district,Akyab District,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,medium,Akyab=Sittwe; district also covered Maungdaw/Buthidaung; table title used as section header
+cheduba,sub_district,Cheduba Township,Burma,MMR/Rakhine/Kyaunkpyu,high,"Cheduba=Manaung, Kyaukpyu district"
+hmawbitownship,sub_district,Hmawbi Township,Burma,MMR/Yangon/Yangon-N,high,Hanthawaddy district
+yamethinconcludedhindu,district,Yamethin District,Burma,MMR/Mandalay/Yamethin;MMR/Naypyitaw/Naypyitaw,medium,Pyinmana subdivision now Nay Pyi Taw; subset (religion)
+yamethinconcludedchristian,district,Yamethin District,Burma,MMR/Mandalay/Yamethin;MMR/Naypyitaw/Naypyitaw,medium,Pyinmana subdivision now Nay Pyi Taw; subset (religion)
+myingyanbuddhist,district,Myingyan District,Burma,MMR/Mandalay/Myingyan,high,incl. Pagan/Nyaung-U; subset (religion)
+myingyanmahomedan,district,Myingyan District,Burma,MMR/Mandalay/Myingyan,high,incl. Pagan/Nyaung-U; subset (religion)
+shweboconcludedhindu,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,subset (religion)
+shweboconcludedchristian,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,subset (religion)
+sagaingbuddhist,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (religion)
+sagaingmahomedan,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (religion)
+myotha,sub_district,Myotha Township,Burma,MMR/Sagaing/Sagaing;MMR/Mandalay/Myingyan,low,Sagaing district township 1891; Myotha now in Mandalay Region - successor uncertain
+sagaingtableshowingpopulationbyreligioncivilconditionparenttongueeducationandinfirmitiesbycirclesandtownships,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,table title used as section header
+pegukyauktantownship,sub_district,Kyauktan Township,Burma,MMR/Yangon/Yangon-S,high,Pegu district 1891; Kyauktan now South Yangon
+maubinpyapon,aggregate,"Maubin District, Pyapon District",Burma,,high,two districts in one table tag
+amhersttavoymergui,aggregate,"Amherst District, Tavoy District, Mergui District",Burma,,high,three districts in one table tag
+kathalowerchindwin,aggregate,"Katha District, Lower Chindwin District",Burma,,high,two districts in one table tag
+myingyanyamethin,aggregate,"Myingyan District, Yamethin District",Burma,,high,two districts in one table tag
+kozuywa,sub_district,Kozuywa Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+nwabutaw,sub_district,Nwabutaw Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+kaungsinywa,sub_district,Kaungsinywa Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+minnegon,sub_district,Minnegon Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+letpangyi,sub_district,Letpangyi Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+thayetchobin,sub_district,Thayetchobin Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+ngamya,sub_district,Ngamya Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+natkyi,sub_district,Natkyi Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+modaungsonth,sub_district,Modaung Sonth Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+modaungwest,sub_district,Modaung West Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+kaungbo,sub_district,Kaungbo Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+kyunpulu,sub_district,Kyunpulu Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+enghlya,sub_district,Enghlya Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+tathtaung,sub_district,Tathtaung Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+zalokma,sub_district,Zalôkma Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+chinthelet,sub_district,Chinthelet Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+kyinmana,sub_district,Kyinmana Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+paukainggon,sub_district,Paukainggôn Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+pazinhla,sub_district,Pazinhla Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+shwepyishin,sub_district,Shwepyishin Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+tandawgyin,sub_district,Tandawgyin Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+ywahlagon,sub_district,Ywahlagôn Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+sigaung,sub_district,Sigaung Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+thanatsit,sub_district,Thanatsit Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+nathadaw,sub_district,Nathadaw Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+magyi,sub_district,Magyi Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+kamaywa,sub_district,Kamaywa Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+kweguywa,sub_district,Kweguywa Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+nyaunggantha,sub_district,Nyaunggantha Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+letpadan,town,Letpadan Town,Burma,MMR/Bago/Thayarwady,high,1921 towns table
+monywa,town,Monywa Town,Burma,MMR/Sagaing/Monywa,high,1921 towns table
+maymyomunicipalityallracesmales,town,Maymyo Municipality,Burma,MMR/Mandalay/Pyin-Oo-Lwin,high,Maymyo=Pyin Oo Lwin; subset (race/sex)
+maymyomunicipalityburmesemales,town,Maymyo Municipality,Burma,MMR/Mandalay/Pyin-Oo-Lwin,high,Maymyo=Pyin Oo Lwin; subset (race/sex)
+maymyomunicipalityindianhindusmales,town,Maymyo Municipality,Burma,MMR/Mandalay/Pyin-Oo-Lwin,high,Maymyo=Pyin Oo Lwin; subset (race/sex)
+syriamallracesmales,town,Syriam Town,Burma,MMR/Yangon/Yangon-S,high,Syriam=Thanlyin; subset (race/sex)
+syriamburmesemales,town,Syriam Town,Burma,MMR/Yangon/Yangon-S,high,Syriam=Thanlyin; subset (race/sex)
+syriamindianhindusmales,town,Syriam Town,Burma,MMR/Yangon/Yangon-S,high,Syriam=Thanlyin; subset (race/sex)
+sagaingallracesmales,town,Sagaing Town,Burma,MMR/Sagaing/Sagaing,high,subset (race/sex)
+sagaingburmesemales,town,Sagaing Town,Burma,MMR/Sagaing/Sagaing,high,subset (race/sex)
+paungdeallracesmales,town,Paungde Town,Burma,MMR/Bago/Pyay,high,Prome district; subset (race/sex)
+paungdeburmesemales,town,Paungde Town,Burma,MMR/Bago/Pyay,high,Prome district; subset (race/sex)
+mandalaycantonmentallracesmales,town,Mandalay Cantonment,Burma,MMR/Mandalay/Mandalay,high,subset (race/sex)
+mandalaycantonmentburmesemales,town,Mandalay Cantonment,Burma,MMR/Mandalay/Mandalay,high,subset (race/sex)
+chaukallracesmales,town,Chauk Town,Burma,MMR/Magway/MagweMinbu,high,"oilfield town, Magwe district; subset (race/sex)"
+chaukburmesemales,town,Chauk Town,Burma,MMR/Magway/MagweMinbu,high,"oilfield town, Magwe district; subset (race/sex)"
+namtupanghaiallracesmales,town,Namtu-Panghai Town,Burma,MMR/Shan/Kyaukme,medium,"Bawdwin mines town, Tawngpeng/Namtu; GADM Kyaukme district (medium); subset (race/sex)"
+allanmyoallracesmales,town,Allanmyo Town,Burma,MMR/Magway/Thayetmyo,high,Allanmyo=Aunglan; subset (race/sex)
+allanmyoburmesemales,town,Allanmyo Town,Burma,MMR/Magway/Thayetmyo,high,Allanmyo=Aunglan; subset (race/sex)
+pyaponallracesmales,town,Pyapon Town,Burma,MMR/Ayeyarwady/Pharpon,high,subset (race/sex)
+pyaponburmesemales,town,Pyapon Town,Burma,MMR/Ayeyarwady/Pharpon,high,subset (race/sex)
+letpadanallracesmales,town,Letpadan Town,Burma,MMR/Bago/Thayarwady,high,subset (race/sex)
+letpadanburmesemales,town,Letpadan Town,Burma,MMR/Bago/Thayarwady,high,subset (race/sex)
+shweboallracesmales,town,Shwebo Town,Burma,MMR/Sagaing/Shwebo,high,subset (race/sex)
+shweboburmesemales,town,Shwebo Town,Burma,MMR/Sagaing/Shwebo,high,subset (race/sex)
+yenangyaungallracesmales,town,Yenangyaung Town,Burma,MMR/Magway/MagweMinbu,high,Magwe district; subset (race/sex)
+yenangyaungburmesemales,town,Yenangyaung Town,Burma,MMR/Magway/MagweMinbu,high,Magwe district; subset (race/sex)
+monywaallracesmales,town,Monywa Town,Burma,MMR/Sagaing/Monywa,high,subset (race/sex)
+monywaburmesemales,town,Monywa Town,Burma,MMR/Sagaing/Monywa,high,subset (race/sex)
+kyaiklatallracesmales,town,Kyaiklat Town,Burma,MMR/Ayeyarwady/Pharpon,high,Pyapon district; subset (race/sex)
+kyaiklatburmesemales,town,Kyaiklat Town,Burma,MMR/Ayeyarwady/Pharpon,high,Pyapon district; subset (race/sex)
+thongwaallracesmales,town,Thongwa Town,Burma,MMR/Yangon/Yangon-S,high,"Twantay/Thongwa, Hanthawaddy district; subset (race/sex)"
+thongwaburmesemales,town,Thongwa Town,Burma,MMR/Yangon/Yangon-S,high,"Twantay/Thongwa, Hanthawaddy district; subset (race/sex)"
+shanhsipawstatemales,princely_state,Hsipaw State,Northern Shan States,MMR/Shan/Kyaukme,medium,subset (Shan males); Hsipaw (Thibaw) now in Kyaukme district
+shansouthhsenwimales,princely_state,South Hsenwi State,Northern Shan States,MMR/Shan/Lasho,medium,"subset (Shan males); Mong Yai/Tangyan area, Lashio district"
+shannorthhsenwimales,princely_state,North Hsenwi State,Northern Shan States,MMR/Shan/Lasho;MMR/Shan/Muse;MMR/Shan/Kunlong,medium,subset (Shan males); Hsenwi/Kutkai/Muse/Namhkam/Kunlong
+shansouthernshanstatesmales,agency,Southern Shan States,Burma,,high,subset (Shan males); group of states under a Superintendent
+shankengtungstatemales,princely_state,Kengtung State,Southern Shan States,MMR/Shan/Kengtung;MMR/Shan/Tarchilaik;MMR/Shan/Mongphat,medium,subset (Shan males); now eastern Shan State
+shannortheasternsubdivisionmales,sub_district,North-Eastern Subdivision,Northern Shan States,,low,"subset (Shan males); census subdivision of Shan States, extent unverified"
+shansoutheasternsubdivisionmales,sub_district,South-Eastern Subdivision,Southern Shan States,,low,"subset (Shan males); census subdivision of Shan States, extent unverified"
+shankarennimales,princely_state,Karenni States,Burma,MMR/Kayah/Loikaw;MMR/Kayah/Bawlake,medium,subset (Shan males); group of Karenni states = Kayah State
+taungthuyawnghwestatemales,princely_state,Yawnghwe State,Southern Shan States,MMR/Shan/Taunggye,high,"subset (Taungthu males); Yawnghwe=Nyaungshwe, Taunggyi district"
+taungthucentralsubdivisionmales,sub_district,Central Subdivision,Southern Shan States,,low,"subset (Taungthu males); Southern Shan States subdivision, extent unverified"
+taungthuwesternsubdivisionmales,sub_district,Western Subdivision,Southern Shan States,,low,"subset (Taungthu males); Southern Shan States subdivision, extent unverified"
+taungthuthatonmales,district,Thaton District,Burma,MMR/Mon/Thaton;MMR/Kayin/Hpa-an,medium,Thaton district also covered Pa-an area; subset (Taungthu males)
+mandalaymunicipalityallracesmales,town,Mandalay Municipality,Burma,MMR/Mandalay/Mandalay,high,subset (race/sex)
+mandalaymunicipalityburmesemales,town,Mandalay Municipality,Burma,MMR/Mandalay/Mandalay,high,subset (race/sex)
+mandalaymunicipalityindianhindusmales,town,Mandalay Municipality,Burma,MMR/Mandalay/Mandalay,high,subset (race/sex)
+mandalaymunicipalityindianmuslimsmales,town,Mandalay Municipality,Burma,MMR/Mandalay/Mandalay,high,subset (race/sex)
+mandalaymunicipalityindoburmanracesmales,town,Mandalay Municipality,Burma,MMR/Mandalay/Mandalay,high,subset (race/sex)
+moulmeinallracesmales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine; subset (race/sex)
+moulmeinburmesemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine; subset (race/sex)
+moulmeinotherindigenousracesmales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine; subset (race/sex)
+moulmeinindianhindusmales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine; subset (race/sex)
+moulmeinindianmuslimsmales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine; subset (race/sex)
+moulmeinindoburmanracesmales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine; subset (race/sex)
+moulmeinchinesemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine; subset (race/sex)
+basseinallracesmales,town,Bassein Town,Burma,MMR/Ayeyarwady/Bassein,high,Bassein=Pathein; subset (race/sex)
+basseinburmesemales,town,Bassein Town,Burma,MMR/Ayeyarwady/Bassein,high,Bassein=Pathein; subset (race/sex)
+indianhindusmales,not_place,,,,high,race/sex
+indianmuslimsmales,not_place,,,,high,race/sex
+burmesemales,not_place,,,,high,race/sex
+letka,sub_district,Letka Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+manazu,sub_district,Manazu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+taungminbalu,sub_district,Taungminbalu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+maungbu,sub_district,Maungbu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pobyu,sub_district,Pobyu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+myityegyun,sub_district,Myityegyun Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+sinoshe,sub_district,Sin-oshè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+sabagyun,sub_district,Sabagyun Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+panmyaungywathit,sub_district,Panmyaungywathit Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+natkondauk,sub_district,Natkôndauk Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+sanbawgaing,sub_district,Sanbawgaing Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kyetchaungngakan,sub_district,Kyetchaungngakan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+ngataingywa,sub_district,Ngataingywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+ngalaung,sub_district,Ngalaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+auksinge,sub_district,Auksingè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pyelongyi,sub_district,Pyelôngyi Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+sabadon,sub_district,Sabadôn Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+mohin,sub_district,Mohin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+onchaung,sub_district,Ônchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kanzauk,sub_district,Kanzauk Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+seai,sub_district,Seai Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+thingyan,sub_district,Thingyan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+paledaung,sub_district,Paledaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kyetmauktaung,sub_district,Kyetmauktaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+yinbeik,sub_district,Yinbeik Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+hngetthe,sub_district,Hngetthe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+sawye,sub_district,Sawye Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pyayeywa,sub_district,Pyayeywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+theinbyin,sub_district,Theinbyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kanyinchaung,sub_district,Kanyinchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+yaingdet,sub_district,Yaingdet Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pashuywa,sub_district,Pashuywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kyaungzaung,sub_district,Kyaungzaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+ulabyeywamaywa,sub_district,Ulabyeywamaywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+zaditaungywa,sub_district,Zaditaungywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+hngetya,sub_district,Hngetya Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+mayawchaung,sub_district,Mayawchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+thebyuchaung,sub_district,Thebyuchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+sanga,sub_district,Sanga Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+chaungbaukwa,sub_district,Chaungbaukwa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+papwe,sub_district,Papwe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+laingtin,sub_district,Laingtin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+bakywechaung,sub_district,Bakywechaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+nafthuye,sub_district,Nafthuyè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+hnuthichaung,sub_district,Hnuthichaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+peinnedaw,sub_district,Peinnèdaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+eikkya,sub_district,Eikkya Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+lato,sub_district,Lato Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+yahattaung,sub_district,Yahattaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kawwin,sub_district,Kaw-win Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+tonbu,sub_district,Tônbu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+tarokmyauk,sub_district,Tarôkmyauk Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+petkwe,sub_district,Petkwe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+myatlemyo,sub_district,Myatlemyo Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+zediyin,sub_district,Zediyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+petkwetzeik,sub_district,Petkwetzeik Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+chaungdu,sub_district,Chaungdu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+yokpondaung,sub_district,Yôkpôndaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+zedibyin,sub_district,Zedibyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kundaung,sub_district,Kundaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+zegaung,sub_district,Zegaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+thamihla,sub_district,Thamihla Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+thabosadaw,sub_district,Thabosadaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+tizwe,sub_district,Tizwè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+thaungdayaeast,sub_district,Thaungdaya East Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+sabata,sub_district,Sabata Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+tandin,sub_district,Tandin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+nwalagyaw,sub_district,Nwalagyaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+legwingyi,sub_district,Lègwingyi Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kyauklanywathit,sub_district,Kyauklanywathit Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+dabyuchaung,sub_district,Dabyuchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+yezange,sub_district,Yezangè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+yegyanchaung,sub_district,Yegyanchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pethadoale,sub_district,Pethado alè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pethadochaungwa,sub_district,Pethadochaungwa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+thazinbyu,sub_district,Thazinbyu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kyauksadaing,sub_district,Kyauksadaing Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kyangin,sub_district,Kyangin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pesinan,sub_district,Pesinan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+dabainggyi,sub_district,Dabainggyi Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+beko,sub_district,Bèko Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+letwemyan,sub_district,Letwèmyan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pyinlyashe,sub_district,Pyinlyashe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pyinhla,sub_district,Pyinhla Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kaungmun,sub_district,Kaungmun Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kyinchaungboat,sub_district,Kyinchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,boat population at Kyinchaung; village row in Akyab District 1891-1901 village/circle table; modern = district successor
+minsechaung,sub_district,Minsechaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+thedetboat,sub_district,Thèdèt Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,boat population at Thèdèt; village row in Akyab District 1891-1901 village/circle table; modern = district successor
+bayawa,sub_district,Bayawa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+umbari,sub_district,Umbari Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+nebugan,sub_district,Nebugan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+oktaungbyin,sub_district,Ôktaungbyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+aleponza,sub_district,Alepônza Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+lanbaikkaung,sub_district,Lanbaikkaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pabechaung,sub_district,Pabechaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kanzaukkala,sub_district,Kanzaukkala Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+paukaingyakaing,sub_district,Paukaingyakaing Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kadu,sub_district,Kadu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+myaukchaung,sub_district,Myaukchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+atokthama,sub_district,Atôkthama Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+donchaung,sub_district,Dônchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+uyinthe,sub_district,U-Yinthe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pangyathe,sub_district,Pangyathe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+myodawywa,sub_district,Myodawywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+myaukywa,sub_district,Myaukywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pawyanze,sub_district,Pawyanze Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+paungdaw,sub_district,Paungdaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+paungdutzedan,sub_district,Paungdûtzedan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+gyitpet,sub_district,Gyitpet Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+ywama,sub_district,Ywama Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+gnakudaung,sub_district,Gnakudaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kanthayi,sub_district,Kanthayi Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+thamatsin,sub_district,Thamatsin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+sinbyudin,sub_district,Sinbyudin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+gwedaukchaung,sub_district,Gwedaukchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+kywegyandaung,sub_district,Kywegyandaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+nantha,sub_district,Nantha Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village row in Akyab District 1891-1901 village/circle table; modern = district successor
+pyiksetaungmaw,sub_district,Pyiksetaungmaw Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+myaukumabyin,sub_district,Myaukumabyin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+pinhnetaungbyin,sub_district,Pinhnetaungbyin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+sawbyubyin,sub_district,Sawbyubyin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+thayetok,sub_district,Thayetôk Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+yachaung,sub_district,Yachaung Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+yenitke,sub_district,Yènitkè Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+ngayamon,sub_district,Ngayamôn Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+letpantaung,sub_district,Letpan taung Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+pyinshe,sub_district,Pyinshe Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+yanbyechaungboat,sub_district,Yanbyèchaung Village,Burma,MMR/Rakhine/Kyaunkpyu,low,boat population at Yanbyèchaung; village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kamaungkyidaing,sub_district,Kamaungkyidaing Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+thazebyin,sub_district,Thazebyin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kyetthaye,sub_district,Kyetthayè Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+teinbyin,sub_district,Teinbyin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+chinmakwin,sub_district,Chinmakwin Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+pyinmagon,sub_district,Pyinmagôn Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+shaukkon,sub_district,Shaukkôn Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+migyaungyewa,sub_district,Migyaungyèwa Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+satthe,sub_district,Satthe Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+ponnyat,sub_district,Pônnyat Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+thapankwin,sub_district,Thapankwin Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+hlegataung,sub_district,Hlegataung Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+dodangale,sub_district,Dodangale Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+taungpatle,sub_district,Taungpatlè Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+sachetpyinkwin,sub_district,Sachetpyinkwin Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+kaukya,sub_district,Kaukya Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+tainggyo,sub_district,Tainggyo Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+chaungtha,sub_district,Chaungtha Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+kadogaleboat,sub_district,Kadôgale Village,Burma,MMR/Rakhine/Thandwe,low,"boat population at Kadôgale; village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+yegyawboat,sub_district,Yegyaw Village,Burma,MMR/Rakhine/Thandwe,low,"boat population at Yegyaw; village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+kyingyi,sub_district,Kyingyi Village,Burma,MMR/Rakhine/Thandwe,low,"village row under Southern Township (Gwa) circles, Sandoway district volume; modern = district successor"
+thandi,sub_district,Thandi Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+shanywa,sub_district,Shanywa Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+pyinmathonbin,sub_district,Pyinmathônbin Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+myegyagon,sub_district,Myegyagôn Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+kyagaik,sub_district,Kyagaik Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+minekwin,sub_district,Minekwin Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+zayitmyaung,sub_district,Zayitmyaung Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+shwethachaung,sub_district,Shwethachaung Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+kyeittawboat,sub_district,Kyeittaw Village,Burma,MMR/Rakhine/Thandwe,low,boat population at Kyeittaw; village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+lintha,sub_district,Lintha Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+ngapali,sub_district,Ngapali Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+mazin,sub_district,Mazin Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+gaw,sub_district,Gaw Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+madawzan,sub_district,Madawzan Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+sindingale,sub_district,Sindingalè Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+myawa,sub_district,Myawa Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+kyaukkalet,sub_district,Kyaukkalet Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+mawyonyepyuaing,sub_district,Mawyônyepyuaing Village,Burma,MMR/Rakhine/Thandwe,low,village row in Sandoway District 1891-1901 village/circle table; modern = district successor
+roadpassengers,not_place,,,,high,travellers category
+yanthitchin,sub_district,Yanthitchin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+thityinywa,sub_district,Thityinywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kayangyun,sub_district,Kayangyun Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+pyukgyun,sub_district,Pyukgyun Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+sakanmaw,sub_district,Sakanmaw Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+pyetywa,sub_district,Pyetywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+taikmaw,sub_district,Taikmaw Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kanzaloywa,sub_district,Kanzaloywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+mongyiywa,sub_district,Mongyiywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+monhlaywa,sub_district,Monhlaywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kweguboat,sub_district,Kwegu Village,Burma,MMR/Rakhine/Kyaunkpyu,low,boat population at Kwegu; village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+meywa,sub_district,Meywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+hinywetmaw,sub_district,Hinywetmaw Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+lukywa,sub_district,Lukywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+yebeinywa,sub_district,Yebeinywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+salantaywa,sub_district,Salantaywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+thandachaung,sub_district,Thandachaung Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+lamawwaywa,sub_district,Lamawwaywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+lawhaingwa,sub_district,Lawhaingwa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+nekawa,sub_district,Nekawa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+zaingywa,sub_district,Zaingywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+obonywa,sub_district,Obonywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+daingwaywa,sub_district,Daingwaywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+ingyin,sub_district,Ingyin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+ywathitkyaukpyaukkon,sub_district,Ywathitkyaukpyaukkôn Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+lonkokgwe,sub_district,Lônkôkgwe Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+thitwadaw,sub_district,Thitwadaw Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kyauknatho,sub_district,Kyauknatho Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+pyindaw,sub_district,Pyindaw Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+pyaungthekwin,sub_district,Pyaungthèkwin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+yatthange,sub_district,Yatthangè Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+lokywa,sub_district,Lôkywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kanbwe,sub_district,Kanbwe Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+thayweywa,sub_district,Thayweywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kanchwaing,sub_district,Kanchwaing Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+taindawywa,sub_district,Taindawywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+ngalonbyin,sub_district,Ngalônbyin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+wadaungywa,sub_district,Wadaungywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+nganbweywa,sub_district,Nganbweywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+onnyogyun,sub_district,Ônnyogyun Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+taungsheywa,sub_district,Taungsheywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+kananbyin,sub_district,Kananbyin Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+thalumaw,sub_district,Thalumaw Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+zindawywa,sub_district,Zindawywa Village,Burma,MMR/Rakhine/Kyaunkpyu,low,village row in Kyaukpyu District 1891-1901 village/circle table; modern = district successor
+lebo,sub_district,Lebo Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+tanmanaing,sub_district,Tanmanaing Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+mawun,sub_district,Mawun Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+kalaukkame,sub_district,Kalaukkamè Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+kyetaya,sub_district,Kyetaya Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+nakwa,sub_district,Nakwa Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+wabalaukthauk,sub_district,Wabalaukthauk Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+yedein,sub_district,Yedein Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+taunggon,sub_district,Taunggôn Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+tawkuanauk,sub_district,Tawku anauk Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+kalauktaya,sub_district,Kalauktaya Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+tawkayananauk,sub_district,Tawkayan anauk Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+muniyandiland,sub_district,Muniyandi Land,Burma,MMR/Yangon/Yangon-S,low,"land grant/village in Kungyangon township, Hanthawaddy district"
+kamakalun,sub_district,Kamakalun Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+kawkanleik,sub_district,Kawkanleik Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+kyaikpat,sub_district,Kyaikpat Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+tiba,sub_district,Tiba Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+tawkayangale,sub_district,Tawkayangale Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+eindapurachaungwa,sub_district,Eindapurachaungwa Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+sangyaung,sub_district,Sangyaung Village,Burma,MMR/Yangon/Yangon-S,medium,"village row in Kungyangon township, Hanthawaddy district 1891-1901 village/circle table; modern = district successor"
+thitsu,sub_district,Thitsu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+ngadithasu,sub_district,Ngadithasu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+shangwin,sub_district,Shangwin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+lauklechaung,sub_district,Lauklechaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+taikkyigon,sub_district,Taikkyigôn Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+taikkyishanzu,sub_district,Taikkyishanzu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kanthayasinsakan,sub_district,Kanthayasinsakan Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+gyobyu,sub_district,Gyobyu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+yindaikkwin,sub_district,Yindaikkwin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kyaiksagaing,sub_district,Kyaiksagaing Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+mayinsaung,sub_district,Mayinsaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+sabyuzu,sub_district,Sabyuzu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+thanatchaungauk,sub_district,Thanatchaung auk Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+ingon,sub_district,Ingôn Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+okpon,sub_district,Ôkpôn Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+yegankonkwinzu,sub_district,Yegankônkwinzu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+hlelangu,sub_district,Hlèlangu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+meinmahla,sub_district,Meinmahla Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+beindaw,sub_district,Beindaw Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+tawkayan,sub_district,Tawkayan Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+aingkalaungkayindaw,sub_district,Aingkalaung kayindaw Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+ywatha,sub_district,Ywatha Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+taunggwe,sub_district,Taunggwe Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kunpwe,sub_district,Kunpwe Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+lahamange,sub_district,Lahamange Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+datchaung,sub_district,Datchaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+chaungyo,sub_district,Chaungyo Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+sanywa,sub_district,Sanywa Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+wetpyugon,sub_district,Wetpyugon Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+chawbon,sub_district,Chawbon Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+dagyaung,sub_district,Dagyaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kyundawshanzu,sub_district,Kyundawshanzu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+yetho,sub_district,Yetho Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+pugaung,sub_district,Pugaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+didokkwin,sub_district,Didokkwin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+thanbangyawatet,sub_district,Thanbangyawatet Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+zibinzeik,sub_district,Zibinzeik Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kawbyaung,sub_district,Kawbyaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kyochaung,sub_district,Kyochaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+yedagyi,sub_district,Yedagyi Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+tawnyo,sub_district,Tawnyo Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kwetkon,sub_district,Kwetkon Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+mininchaung,sub_district,Mininchaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kabyintabin,sub_district,Kabyintabin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+taikin,sub_district,Taik-in Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+oktwin,sub_district,Oktwin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village row in Hanthawaddy District 1891-1901 village/circle table; modern = district successor
+kamun,sub_district,Kamun Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+yikangale,sub_district,Yikangale Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+tenan,sub_district,Tenan Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+zwepa,sub_district,Zwepa Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+makyetgyi,sub_district,Makyetgyi Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+thabyuapyin,sub_district,Thabyu apyin Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+bonmazo,sub_district,Bonmazo Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+nyaungbin,sub_district,Nyaungbin Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+kanni,sub_district,Kanni Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+atonzibyubin,sub_district,Aton-zibyubin Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+kana,sub_district,Kana Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+nyaungtabin,sub_district,Nyaungtabin Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+dezat,sub_district,Dezat Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+winkani,sub_district,Winkani Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+eywa,sub_district,Eywa Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+minwe,sub_district,Minwe Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+lahagyi,sub_district,Lahagyi Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+dawe,sub_district,Dawe Village,Burma,MMR/Bago/Pegu,low,village row in Pegu District 1891-1901 village/circle table; modern = district successor
+shaukpingyaung,sub_district,Shaukpingyaung Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+polechaung,sub_district,Polèchaung Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+chaungna,sub_district,Chaungna Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+sigon,sub_district,Sigôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+mangon,sub_district,Mangôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thayagonalezu,sub_district,Thayagôn alezu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thayagonmyauksu,sub_district,Thayagôn myauksu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+pauktawywama,sub_district,Pauktaw ywama Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+oktwinngasanasu,sub_district,Oktwin ngasanasu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+oktwinywama,sub_district,Oktwin ywama Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+tayegwinshwehlawasu,sub_district,Tayegwin shwehlawasu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+tayegwinzayatchaungna,sub_district,Tayegwin zayatchaungna Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thayetkon,sub_district,Thayetkôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thindaukantaunghalegon,sub_district,Thindaukantaunghalègôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thindaukanywama,sub_district,Thindaukanywama Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+gonmingwinpuleasu,sub_district,Gônmingwinpulèasu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+gonmingwingaungasu,sub_district,Gônmingwingaungasu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+pyindaungdwinashezu,sub_district,Pyindaungdwin ashezu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+pyindaungdwinshanzu,sub_district,Pyindaungdwin shanzu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+milaunggon,sub_district,Milaunggôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+kyettawkwinanauksu,sub_district,Kyettawkwin anauksu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+kyettawkwinsabyuzu,sub_district,Kyettawkwin sabyuzu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+kanthayamayauksu,sub_district,Kanthayamayauksu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+tahnabogyiashezu,sub_district,Tahnabogyi ashezu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+okpogyinkangon,sub_district,Okpogyinkangôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+sanywe,sub_district,Sanywe Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+tetawgon,sub_district,Tètawgôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thinbawgyin,sub_district,Thinbawgyin Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+athayaw,sub_district,Athayaw Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+bilineast,sub_district,Bilin East Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+zaingtwe,sub_district,Zaingtwè Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+yawmut,sub_district,Yawmut Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+panzwe,sub_district,Panzwè Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thakutkon,sub_district,Thakutkôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thayetiebin,sub_district,Thayetièbin Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+nyaungnigon,sub_district,Nyaungnigôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+hlezeik,sub_district,Hlèzeik Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+aukthitcha,sub_district,Aukthitcha Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+gonminmyaungauk,sub_district,Gônminmyaung auk Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+inywa,sub_district,Inywa Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+atetkywethat,sub_district,Atetkywethat Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+gwegyaung,sub_district,Gwegyaung Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+kyauktwin,sub_district,Kyauktwin Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+taungthale,sub_district,Taungthale Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+hlwazadon,sub_district,Hlwazadôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+ywagyigon,sub_district,Ywagyigôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+chaungthongwa,sub_district,Chaungthôngwa Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+tawlathawest,sub_district,Tawlatha West Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+inkanuinlut,sub_district,Inkanuinlut Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+tawlathaeast,sub_district,Tawlatha East Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+leikin,sub_district,Leikin Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+kyungonwest,sub_district,Kyungôn West Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+gyogon,sub_district,Gyogôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+chigyi,sub_district,Chigyi Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+atettaeyi,sub_district,Atetta eyi Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+taikmaungasu,sub_district,Taikmaungasu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+ngapaugale,sub_district,Ngapaugale Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+thakweywa,sub_district,Thakweywa Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+teingon,sub_district,Teingôn Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+shadawyo,sub_district,Shadawyo Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+atetthonzu,sub_district,Atetthônzu Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+tawgwe,sub_district,Tawgwe Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+oklin,sub_district,Oklin Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+kywegyahin,sub_district,Kywegyahin Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+bogyigonburmese,sub_district,Bogyigôn (Burmese) Village,Burma,MMR/Bago/Thayarwady,low,village row in Tharrawaddy District 1891-1901 village/circle table; modern = district successor
+upperburmawet,natural_division,"Upper Burma, Wet",Burma,,medium,1901 natural division
+lowerburmalittoral,natural_division,"Lower Burma, Littoral",Burma,,medium,1901 natural division
+burmarural,province,Burma,,,high,subset (rural)
+mandalaycity,town,Mandalay City,Burma,MMR/Mandalay/Mandalay,high,
+pakokkuchinhills,district,Pakokku Chin Hills,Burma,MMR/Chin/Mindat,medium,"Pakokku Hill Tracts (Mindat/Kanpetlet), now Chin State"
+mandalaycantonment,town,Mandalay Cantonment,Burma,MMR/Mandalay/Mandalay,high,
+amarapuratown,town,Amarapura Town,Burma,MMR/Mandalay/Mandalay,high,
+bhamomunicipality,town,Bhamo Municipality,Burma,MMR/Kachin/Bhamo,high,
+shwebomunicipality,town,Shwebo Municipality,Burma,MMR/Sagaing/Shwebo,high,
+sagaingmunicipality,town,Sagaing Municipality,Burma,MMR/Sagaing/Sagaing,high,
+kyauksemunicipality,town,Kyaukse Municipality,Burma,MMR/Mandalay/Kyaukse,high,
+meiktilacantonment,town,Meiktila Cantonment,Burma,MMR/Mandalay/Meiktila,high,
+pyinmanamunicipality,town,Pyinmana Municipality,Burma,MMR/Naypyitaw/Naypyitaw,high,Pyinmana now in Nay Pyi Taw Union Territory
+paganmunicipality,town,Pagan Municipality,Burma,MMR/Mandalay/Myingyan,medium,"Pagan (Bagan)/Nyaung-U, Myingyan district in GADM"
+paungde,town,Paungde Town,Burma,MMR/Bago/Pyay,high,
+lemyethna,town,Lemyethna Town,Burma,MMR/Ayeyarwady/Hinthada,high,
+natworshippersmarried,not_place,,,,high,religion/civil condition
+summaryrow,not_place,,,,high,summary row
+kwesu,sub_district,Kwesu Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+tuaungmyin,sub_district,Tuaungmyin Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+settawgon,sub_district,Settawgôn Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+tegyigon,sub_district,Tègyigôn Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+aungthagon,sub_district,Aungthagôn Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+aikma,sub_district,Aikma Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+payagon,sub_district,Payagôn Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+sagabingon,sub_district,Sagabingôn Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+shwegyaung,sub_district,Shwegyaung Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+ubaw,sub_district,Ubaw Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+pegin,sub_district,Pègin Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+leme,sub_district,Lemè Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+kunbaung,sub_district,Kunbaung Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+thitnidaw,sub_district,Thitnidaw Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+kawgon,sub_district,Kawgôn Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+nakaha,sub_district,Nakaha Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+thitseikgon,sub_district,Thitseikgôn Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+lowerkyanchaung,sub_district,Lower Kyanchaung Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+indaw,sub_district,Indaw Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+napon,sub_district,Napôn Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+kyandaw,sub_district,Kyandaw Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+mahawyataw,sub_district,Mahawyataw Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+nahakaung,sub_district,Nahakaung Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+pintin,sub_district,Pintin Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+nansaga,sub_district,Nansaga Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+hmaingnaung,sub_district,Hmaingnaung Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+nansawlaw,sub_district,Nansawlaw Village,Burma,MMR/Sagaing/Katha,low,village row in Katha District 1891-1901 village/circle table; modern = district successor
+ynye,sub_district,Ynyé Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+gaungsusouth,sub_district,Gaungsu South Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+ywashe,sub_district,Ywashe Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+gaungsunorth,sub_district,Gaungsu North Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+kalagon,sub_district,Kalagôn Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+kyunyin,sub_district,Kyunyin Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+nagabosouth,sub_district,Nagabo South Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+meo,sub_district,Me-o Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+nyaunggyigon,sub_district,Nyaunggyigôn Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+nyaunghla,sub_district,Nyaunghla Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+yingyin,sub_district,Yingyin Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+thettanye,sub_district,Thettanye Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+letse,sub_district,Letsè Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+onga,sub_district,Ônga Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+konde,sub_district,Kondè Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+myintagyi,sub_district,Myintagyi Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+zizun,sub_district,Zizun Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+ingamyin,sub_district,Ingamyin Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+kadaung,sub_district,Kadaung Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+taukkashat,sub_district,Taukkashat Village,Burma,MMR/Sagaing/Shwebo,low,village row in Ye-u District 1891-1901 village/circle table; modern = district successor
+mayagancivilpolicepost,sub_district,Mayagan Civil Police Post,Burma,MMR/Sagaing/Shwebo,low,police-post enumeration block in Ye-u district table
+pyidawtha,sub_district,Pyidawtha Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+maungdaung,sub_district,Maungdaung Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+nyaungbinhla,sub_district,Nyaungbinhla Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+paukka,sub_district,Paukka Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+mauale,sub_district,Mau-ale Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+maubinanaukywa,sub_district,Ma-ubin anaukywa Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+nwachegyun,sub_district,Nwachegyun Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+taungtalon,sub_district,Taungtalôn Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+thittawbya,sub_district,Thittawbya Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+mogyogon,sub_district,Mogyogôn Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+mekingyi,sub_district,Mèkingyi Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+nwakyawgon,sub_district,Nwakyawgôn Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+thindein,sub_district,Thindein Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+sabadwin,sub_district,Sabadwin Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+wunthagon,sub_district,Wunthagôn Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+gonnyinzeik,sub_district,Gônnyinzeik Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+yegyaw,sub_district,Yegyaw Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+pebin,sub_district,Pebin Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+ledama,sub_district,Lèdama Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+palanbin,sub_district,Palanbin Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+taungpyauk,sub_district,Taungpyauk Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+letpan,sub_district,Letpan Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+myetpa,sub_district,Myetpa Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+kyauksa,sub_district,Kyauksa Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+pauktawanauk,sub_district,Pauktaw anauk Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+pomyathagaung,sub_district,Pomyathagaung Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+kathitkon,sub_district,Kathitkon Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+chaungzin,sub_district,Chaungzin Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+shweban,sub_district,Shweban Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+zigon,sub_district,Zigon Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+gaunggwe,sub_district,Gaunggwe Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+myitsok,sub_district,Myitsok Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+waya,sub_district,Waya Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+myankywa,sub_district,Myankywa Village,Burma,MMR/Sagaing/Sagaing,low,village row in Sagaing District 1891-1901 village/circle table; modern = district successor
+myaukin,sub_district,Myaukin Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+twin,sub_district,Twin Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+saingpyin,sub_district,Saingpyin Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+indaing,sub_district,Indaing Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+okpo,sub_district,Okpo Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+kinsan,sub_district,Kinsan Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+segan,sub_district,Segan Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+peyin,sub_district,Peyin Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+nyaungnamya,sub_district,Nyaungnamya Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+ontha,sub_district,Ontha Village,Burma,MMR/Sagaing/Monywa,low,village row in Lower Chindwin District 1891-1901 village/circle table; modern = district successor
+unadjustedagereturn,not_place,,,,high,column heading
+averagenumberoffemalestomalesofsameageinallofburma,not_place,,,,high,column heading
+villagecircle,not_place,,,,high,column heading
+subhead,not_place,,,,high,column heading
+tharrawaddyalltotal,district,Tharrawaddy District,Burma,MMR/Bago/Thayarwady,high,Tharrawaddy=Thayarwady; subset (all/total)
+hanthawaddyalltotal,district,Hanthawaddy District,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,medium,rural district around Rangoon; now Yangon Region North/South; subset (all/total)
+akyabtableshowingpopulation,district,Akyab District,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,medium,Akyab=Sittwe; district also covered Maungdaw/Buthidaung; table title used as section header
+pagandaungtownship,sub_district,Pagandaung Township,Burma,MMR/Bago/Pegu,low,Pegu district 1891 township; exact modern location unverified
+sagaingagaing,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,OCR duplicate of Sagaing District header
+letpangyicircleno,sub_district,Letpangyi Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district 1891 table
+ngamyacircleno,sub_district,Ngamya Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district 1891 table
+kyauktaloncircleno,sub_district,Kyauktalôn Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district 1891 table
+panywacircleno,sub_district,Panywa Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district 1891 table
+hanthawaddyconcldindianhindus,district,Hanthawaddy District,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,medium,rural district around Rangoon; now Yangon Region North/South; subset (Indian Hindus)
+inseinburmese,district,Insein District,Burma,MMR/Yangon/Yangon-N,high,carved from Hanthawaddy 1912; now North Yangon; subset (Burmese)
+henzadaconcldotherindigenousraces,district,Henzada District,Burma,MMR/Ayeyarwady/Hinthada,high,Henzada=Hinthada; subset (other indigenous races)
+myaungmyaburmese,district,Myaungmya District,Burma,MMR/Ayeyarwady/Myoungmya,high,subset (Burmese)
+myaungmyaconcldindianhindus,district,Myaungmya District,Burma,MMR/Ayeyarwady/Myoungmya,high,subset (Indian Hindus)
+maubinallraces,district,Maubin District,Burma,MMR/Ayeyarwady/Maubin,high,subset (all races)
+merguiconcldotherindigenousraces,district,Mergui District,Burma,MMR/Tanintharyi/Mergui;MMR/Tanintharyi/Kawthoung,high,Mergui=Myeik; south now Kawthaung district; subset (other indigenous races)
+toungooburmese,district,Toungoo District,Burma,MMR/Bago/Taungoo,high,Toungoo=Taungoo; subset (Burmese)
+thayetmyoallraces,district,Thayetmyo District,Burma,MMR/Magway/Thayetmyo,high,subset (all races)
+minbuallraces,district,Minbu District,Burma,MMR/Magway/Minbu,high,subset (all races)
+magweallraces,district,Magwe District,Burma,MMR/Magway/MagweMinbu,high,"Magwe=Magway (GADM name MagweMinbu, variant Magwe); subset (all races)"
+pakokkuallraces,district,Pakokku District,Burma,MMR/Magway/Pakokku,high,subset (all races)
+chinhillsallraces,district,Chin Hills District,Burma,MMR/Chin/Palam,medium,Falam/Haka/Tiddim; GADM Chin has only Palam(Falam) and Mindat; subset (all races)
+shweboallraces,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,subset (all races)
+sagaingallraces,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (all races)
+bhamoallraces,district,Bhamo District,Burma,MMR/Kachin/Bhamo,high,subset (all races)
+myitkyinaallraces,district,Myitkyina District,Burma,MMR/Kachin/Myitkyina;MMR/Kachin/Putao,medium,Putao area later separated; subset (all races)
+kyaukseallraces,district,Kyaukse District,Burma,MMR/Mandalay/Kyaukse,high,subset (all races)
+meiktilaallraces,district,Meiktila District,Burma,MMR/Mandalay/Meiktila,high,subset (all races)
+lowerchindwinconcld,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa
+myingyanburmese,district,Myingyan District,Burma,MMR/Mandalay/Myingyan,high,incl. Pagan/Nyaung-U; subset (Burmese)
+yamethinburmese,district,Yamethin District,Burma,MMR/Mandalay/Yamethin;MMR/Naypyitaw/Naypyitaw,medium,Pyinmana subdivision now Nay Pyi Taw; subset (Burmese)
+sandowayconcldburmese,district,Sandoway District,Burma,MMR/Rakhine/Thandwe,high,Sandoway=Thandwe; subset (Burmese)
+rangoontownburmese,district,Rangoon Town District,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,Rangoon=Yangon city core; subset (Burmese)
+akyabtownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Akyab Township,Burma,MMR/Rakhine/Sittwe,high,table title used as section header
+kamaungchaungcircleno,sub_district,Kamaungchaung Circle,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,revenue circle in Akyab district table
+akyabtown,town,Akyab Town,Burma,MMR/Rakhine/Sittwe,high,Akyab=Sittwe
+naaf,sub_district,Naaf Township,Burma,MMR/Rakhine/Maungtaw,medium,Naaf township of Akyab district = Maungdaw area
+akyabtownshipanbaricircleno,sub_district,Anbari Circle,Burma,MMR/Rakhine/Sittwe,low,circle in Akyab township
+chaungpilacirclenoconcluded,sub_district,Chaungpila Circle,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,revenue circle in Akyab district table
+thamihlapyincircleno,sub_district,Thamihlapyin Circle,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,revenue circle in Akyab district table
+returnofpopulationbyorstatesofbirthconcluded,not_place,,,,high,"table title (birthplace return), no specific place"
+previouscircle,not_place,,,,high,heading
+myomaanaukcircleno,sub_district,Myoma Anauk Circle,Burma,MMR/Rakhine/Kyaunkpyu,low,revenue circle in Kyaukpyu district table
+yantheitcircleno,sub_district,Yantheit Circle,Burma,MMR/Rakhine/Kyaunkpyu,low,revenue circle in Kyaukpyu district table
+myebontownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Myebon Township,Burma,MMR/Rakhine/Kyaunkpyu,medium,Kyaukpyu district 1891; Myebon now Kyaukpyu district (GADM)
+antownshipconcludedpokchintractno,sub_district,An Township,Burma,MMR/Rakhine/Kyaunkpyu,high,"An=Ann, Kyaukpyu district; Pokchin tract within it"
+kyeintalicircleno,sub_district,Kyeintali Circle,Burma,MMR/Rakhine/Thandwe,medium,"Gwa area, Southern township of Sandoway district"
+nangyaungcircleno,sub_district,Nangyaung Circle,Burma,MMR/Rakhine/Thandwe,low,revenue circle in Sandoway district table
+ramreetown,town,Ramree Town,Burma,MMR/Rakhine/Kyaunkpyu,high,
+chedubatownshipsummary,sub_district,Cheduba Township,Burma,MMR/Rakhine/Kyaunkpyu,high,subset (summary); Cheduba=Manaung
+sandowaytableshowingpopulationbysexagecivilconditioneducationandinfirmities,district,Sandoway District,Burma,MMR/Rakhine/Thandwe,high,Sandoway=Thandwe; table title used as section header
+sandowaytableshowingpopulationpopulationbyreligionandeducationandcbyvillagesandcircles,district,Sandoway District,Burma,MMR/Rakhine/Thandwe,high,Sandoway=Thandwe; table title used as section header
+centraltownshipcontd,sub_district,Central Township,Burma,MMR/Rakhine/Thandwe,medium,Sandoway district township
+returnofpopulationofkyaukpyubyorstatesofbirth,district,Kyaukpyu District,Burma,MMR/Rakhine/Kyaunkpyu,high,Kyaukpyu=Kyaukphyu; birthplace-return title used as section header
+letkwadwecircleno,sub_district,Letkwadwe Circle,Burma,MMR/Rakhine/Kyaunkpyu,low,revenue circle in Kyaukpyu district table
+rangoonmunicipalitytableshowingpopulationbysexagecivilconditioneducationandinfirmities,town,Rangoon Municipality,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,table title used as section header
+hmawbitownshipdetailed,sub_district,Hmawbi Township,Burma,MMR/Yangon/Yangon-N,high,subset (detailed)
+tunte,sub_district,Tunte Township,Burma,MMR/Yangon/Yangon-S,medium,"Tunte=Twante, Hanthawaddy district"
+hlaingtownshipconcluded,sub_district,Hlaing Township,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-W,medium,Hanthawaddy district township NW of Rangoon
+pegutableshowingpopulationbysexagecivilconditioneducationandinfirmities,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; table title used as section header
+pyawbwecirclenoconcld,sub_district,Pyawbwe Circle,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,revenue circle in Hanthawaddy district table
+hlaingtownshipcontd,sub_district,Hlaing Township,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-W,medium,Hanthawaddy district township NW of Rangoon
+tawkucircleno,sub_district,Tawku Circle,Burma,MMR/Yangon/Yangon-S,low,circle in Kungyangon township
+hlaingtownship,sub_district,Hlaing Township,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-W,medium,Hanthawaddy district township NW of Rangoon
+paunglintownshipdetailed,sub_district,Paunglin Township,Burma,MMR/Bago/Pegu,low,Pegu district 1891 township
+kanbecircleno,sub_district,Kanbè Circle,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,revenue circle in Hanthawaddy district table
+sitpincircleno,sub_district,Sitpin Circle,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,revenue circle in Hanthawaddy district table
+kungyangontownship,sub_district,Kungyangon Township,Burma,MMR/Yangon/Yangon-S,high,Hanthawaddy district
+payagale,sub_district,Payagale Township,Burma,MMR/Bago/Pegu,medium,Pegu district 1891 township
+kawa,sub_district,Kawa Township,Burma,MMR/Bago/Pegu,high,Pegu district
+sanywetownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Sanywe Township,Burma,MMR/Bago/Thayarwady,medium,Tharrawaddy district 1891 township; table title as header
+tableshowingpopulationbysexagecivilconditioneducationandinfirmities,not_place,,,,high,generic table title
+sanywetownshipcontd,sub_district,Sanywe Township,Burma,MMR/Bago/Thayarwady,medium,Tharrawaddy district 1891 township
+kamasecirclenoconcld,sub_district,Kamasè Circle,Burma,MMR/Bago/Pegu,low,revenue circle in Pegu district table
+returnofpopulationoftharrawaddybyorstatesofbirth,district,Tharrawaddy District,Burma,MMR/Bago/Thayarwady,high,Tharrawaddy=Thayarwady; birthplace-return title used as section header
+tapuntownship,sub_district,Tapun Township,Burma,MMR/Bago/Thayarwady,medium,Tharrawaddy district 1891 township
+bilincircleno,sub_district,Bilin Circle,Burma,MMR/Bago/Thayarwady,low,revenue circle in Tharrawaddy district table
+monyomyomanocircleconcluded,sub_district,Monyo Myoma Circle,Burma,MMR/Bago/Thayarwady,medium,"Monyo, Tharrawaddy district"
+paunggyicirclenoconcld,sub_district,Paunggyi Circle,Burma,MMR/Bago/Pegu,low,revenue circle in Pegu district table
+note,not_place,,,,high,note
+peguconcludedhindu,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; subset (religion)
+peguconcludedchristian,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; subset (religion)
+promebuddhist,district,Prome District,Burma,MMR/Bago/Pyay,high,Prome=Pyay; subset (religion)
+promehindu,district,Prome District,Burma,MMR/Bago/Pyay,high,Prome=Pyay; subset (religion)
+basseinallreligions,district,Bassein District,Burma,MMR/Ayeyarwady/Bassein,high,Bassein=Pathein; subset (religion)
+basseinanimist,district,Bassein District,Burma,MMR/Ayeyarwady/Bassein,high,Bassein=Pathein; subset (religion)
+northernshanstatesanimist,agency,Northern Shan States,Burma,,high,subset (religion)
+northernshanstatesmahomedan,agency,Northern Shan States,Burma,,high,subset (religion)
+southernshanstatesbuddhist,agency,Southern Shan States,Burma,,high,subset (religion)
+southernshanstateshindu,agency,Southern Shan States,Burma,,high,subset (religion)
+lowerchindwinbuddhist,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa; subset (religion)
+upperchindwinbuddhist,district,Upper Chindwin District,Burma,MMR/Sagaing/Mawleik;MMR/Sagaing/Kalemyo;MMR/Sagaing/Tamu;MMR/Sagaing/Hkamti,medium,Kindat/Mawlaik/Homalin/Kalewa/Tamu; subset (religion)
+upperchindwinhindu,district,Upper Chindwin District,Burma,MMR/Sagaing/Mawleik;MMR/Sagaing/Kalemyo;MMR/Sagaing/Tamu;MMR/Sagaing/Hkamti,medium,Kindat/Mawlaik/Homalin/Kalewa/Tamu; subset (religion)
+kyauksebuddhist,district,Kyaukse District,Burma,MMR/Mandalay/Kyaukse,high,subset (religion)
+subsidiarytablenoivaunadjustedagereturnofofeachsex,not_place,,,,high,table title/heading
+subsidiarytablenoiva,not_place,,,,high,table title/heading
+imperialtablenovtownsarrangedterritoriallywithpopulationbyreligion,not_place,,,,high,table title/heading
+followingstatementshowsdetailsincludedunderotherreligions,not_place,,,,high,table title/heading
+populationwithvariationsince,not_place,,,,high,table title/heading
+ratioofpopulationateachperiodofyearstooftotalpopulationofeachsex,not_place,,,,high,table title/heading
+tableshowingagesofpopulationbysexesineveryyearoftheirlifeperoftotalpopulationofeachsexexcludingpopulationofrangoontown,not_place,,,,high,table title/heading
+distributionbycontinued,not_place,,,,high,table title/heading
+lowerchindwintableshowingpopulationbyreligioncivilconditionparenttongueeducationandinfirmitiesbycirclesandtownships,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa; table title used as section header
+myinmu,sub_district,Myinmu Township,Burma,MMR/Sagaing/Sagaing,high,Sagaing district
+returnofpopulationofshwebobyorstatesofbirth,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,birthplace-return title used as section header
+shweashegyaungtownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Shwe-Ashegyaung Township,Burma,MMR/Sagaing/Shwebo,low,appears with Manle township (Shwebo district) 1891; location unverified
+yeutableshowingpopulationbysexagecivilconditioneducationandinfirmities,district,Ye-u District,Burma,MMR/Sagaing/Shwebo,high,Ye-u district merged into Shwebo 1895; table title used as section header
+indaingtownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Indaing Township,Burma,MMR/Sagaing/Monywa,low,Indaing villages appear in Lower Chindwin tables; location unverified
+topsummarytable,not_place,,,,high,heading
+nanwindawcircleno,sub_district,Nanwindaw Circle,Burma,MMR/Sagaing/Shwebo,low,revenue circle in Ye-u district table
+nagabocircleno,sub_district,Nagabo Circle,Burma,MMR/Sagaing/Shwebo,low,revenue circle in Ye-u district table
+returnofpopulationofyeubyorstatesofbirth,district,Ye-u District,Burma,MMR/Sagaing/Shwebo,high,Ye-u district merged into Shwebo 1895; birthplace-return title used as section header
+avatownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Ava Township,Burma,MMR/Sagaing/Sagaing;MMR/Mandalay/Mandalay,low,Sagaing district township 1891; Ava (Inwa) now in Mandalay Region - successor uncertain
+easternpagyiconcluded,sub_district,Eastern Pagyi Township,Burma,MMR/Sagaing/Monywa,medium,"Lower Chindwin district (Pagyi, now Yinmabin area)"
+letpagancircleno,sub_district,Letpagan Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+kyinincircleno,sub_district,Kyinin Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+myawuncircleno,sub_district,Myawun Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+thadincircleno,sub_district,Thadin Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+kanthitcircleno,sub_district,Kanthit Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+kaingbyincircleno,sub_district,Kaingbyin Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+nyaungbinwuncircleno,sub_district,Nyaungbinwun Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+maubincircleno,sub_district,Ma-ubin Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+nwachegyuncircleno,sub_district,Nwachegyun Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+taungtaloncircleno,sub_district,Taungtalôn Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+myinsaingcircleno,sub_district,Myinsaing Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+htisaungcircleno,sub_district,Htisaung Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+inmacircleno,sub_district,Inma Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+legancircleno,sub_district,Lègan Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+ayadawconcluded,sub_district,Ayadaw Township,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin district
+shwegucircleno,sub_district,Shwegu Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+memathawandshwebancirclesno,sub_district,Memathaw and Shweban Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+wayacircleno,sub_district,Waya Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+aneingleywacircleno,sub_district,Aneingleywa Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+phaunggyincircleno,sub_district,Phaunggyin Circle,Burma,MMR/Sagaing/Sagaing,low,revenue circle in Sagaing district table
+aingdaungcircleno,sub_district,Aingdaung Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+kudawconcluded,sub_district,Kudaw Circle,Burma,MMR/Sagaing/Monywa,low,section in Lower Chindwin district table
+kyaukmyetcircleno,sub_district,Kyaukmyet Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+toncircleno,sub_district,Tôn Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+westernpagyitownship,sub_district,Western Pagyi Township,Burma,MMR/Sagaing/Monywa,medium,Lower Chindwin district
+kadocircleno,sub_district,Kado Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+wuntoncircleno,sub_district,Wunton Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+sibacircleno,sub_district,Siba Circle,Burma,MMR/Sagaing/Monywa,low,revenue circle in Lower Chindwin district table
+sadaung,sub_district,Sadaung Township,Burma,MMR/Sagaing/Sagaing,low,section in Sagaing district table; location unverified
+deltaicplains,natural_division,Deltaic Plains,Burma,,high,1911 natural division
+coastranges,natural_division,Coast Ranges,Burma,,high,1911 natural division
+tribesofsiniticgroup,not_place,,,,high,race group
+righthalfages,not_place,,,,high,column heading
+northerntownship,sub_district,Northern Township,Burma,MMR/Rakhine/Thandwe,low,in Kyaukpyu/Sandoway volume; Sandoway district Northern township (Taungup) - inferred
+ayadawtownship,sub_district,Ayadaw Township,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin district
+shwebosagaing,aggregate,"Shwebo District, Sagaing District",Burma,,high,two districts in one table tag
+returnofpopulationofrangoontown,district,Rangoon Town District,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,Rangoon=Yangon city core; birthplace-return title
+returnofpopulationoftharrawaddy,district,Tharrawaddy District,Burma,MMR/Bago/Thayarwady,high,Tharrawaddy=Thayarwady; birthplace-return title
+censusdatatharrawaddy,district,Tharrawaddy District,Burma,MMR/Bago/Thayarwady,high,Tharrawaddy=Thayarwady; table title
+returnofpopulationofshwebo,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,birthplace-return title
+returnofpopulationofyeu,district,Ye-u District,Burma,MMR/Sagaing/Shwebo,high,Ye-u district merged into Shwebo 1895; birthplace-return title
+returnofpopulationofsagaing,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,birthplace-return title
+melanoglossiaby,not_place,,,,high,table title

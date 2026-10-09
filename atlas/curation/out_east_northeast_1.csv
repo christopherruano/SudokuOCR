@@ -1,0 +1,971 @@
+key,kind,hist_name,hist_parent,modern,confidence,note
+sibsagar,district,Sibsagar District,Assam,IND/Assam/Sivasagar;IND/Assam/Jorhat;IND/Assam/Golaghat,high,"Sibsagar=Sivasagar; Jorhat, Golaghat subdivisions now districts; also a subdivision/town in tea-garden & towns tables"
+nowgong,district,Nowgong District,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,medium,Nowgong=Nagaon; Morigaon split; Hojai not in GADM; also a town/subdivision in some tables
+goalpara,district,Goalpara District,Assam,IND/Assam/Goalpara;IND/Assam/Dhubri;IND/Assam/Kokrajhar;IND/Assam/Bongaigaon;IND/Assam/Chirang,high,"split into Goalpara, Dhubri, Kokrajhar, Bongaigaon, Chirang; also town in towns tables"
+orissa,province,Orissa,,,high,Orissa division of Bengal / natural division of Bihar & Orissa / province from 1936 / modern state
+sylhet,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,Sylhet district split 1947: four Bangladesh districts + Karimganj (India)
+darrang,district,Darrang District,Assam,IND/Assam/Darrang;IND/Assam/Sonitpur;IND/Assam/Udalguri,high,"split Darrang, Sonitpur (Tezpur), Udalguri"
+kamrup,district,Kamrup District,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan;IND/Assam/Barpeta;IND/Assam/Nalbari;IND/Assam/Baksa,high,"split Kamrup, Kamrup Metro, Barpeta, Nalbari, Baksa"
+lakhimpur,district,Lakhimpur District,Assam,IND/Assam/Lakhimpur;IND/Assam/Dibrugarh;IND/Assam/Tinsukia;IND/Assam/Dhemaji,high,"Assam Lakhimpur (HQ Dibrugarh): split Dibrugarh, Tinsukia, Lakhimpur, Dhemaji"
+cacharplains,district,Cachar District,Assam,IND/Assam/Cachar;IND/Assam/Hailakandi,high,"Cachar Plains = Cachar excl. North Cachar hills; split Cachar, Hailakandi"
+nagahills,district,Naga Hills District,Assam,IND/Nagaland/Kohima;IND/Nagaland/Mokokchung;IND/Nagaland/Wokha;IND/Nagaland/Zunheboto;IND/Nagaland/Phek;IND/Nagaland/Dimapur;IND/Nagaland/Peren,medium,Naga Hills district -> Nagaland core districts; boundaries shifted over time
+khasiandjaintiahills,district,Khasi and Jaintia Hills District,Assam,IND/Meghalaya/EastKhasiHills;IND/Meghalaya/WestKhasiHills;IND/Meghalaya/SouthWestKhasiHills;IND/Meghalaya/RiBhoi;IND/Meghalaya/JaintiaHills,high,now Meghalaya Khasi + Jaintia districts
+garohills,district,Garo Hills District,Assam,IND/Meghalaya/EastGaroHills;IND/Meghalaya/WestGaroHills;IND/Meghalaya/NorthGaroHills;IND/Meghalaya/SouthGaroHills;IND/Meghalaya/SouthWestGaroHills,high,now Meghalaya Garo Hills districts
+northcachar,sub_district,North Cachar Subdivision,Assam,IND/Assam/DimaHasao,high,North Cachar Hills = Dima Hasao
+northlushaicivilandmilitary,district,North Lushai Hills District,Assam,IND/Mizoram/Aizawl;IND/Mizoram/Kolasib;IND/Mizoram/Mamit;IND/Mizoram/Champhai;IND/Mizoram/Serchhip,medium,"North Lushai Hills (1891), merged into Lushai Hills 1898; northern Mizoram"
+calcutta,town,Calcutta,Bengal,IND/WestBengal/Kolkata,high,Calcutta=Kolkata
+tezpur,town,Tezpur,Assam,IND/Assam/Sonitpur,high,town; also Tezpur subdivision of Darrang in tea-garden tables
+silchar,town,Silchar,Assam,IND/Assam/Cachar,high,town; also subdivision in tea-garden tables
+habiganj,town,Habiganj,Assam,BGD/Sylhet/Habiganj,high,town/subdivision of Sylhet
+karimganj,town,Karimganj,Assam,IND/Assam/Karimganj,high,town/subdivision of Sylhet; stayed in India 1947
+gauhati,town,Gauhati,Assam,IND/Assam/KamrupMetropolitan,high,Gauhati=Guwahati; also Gauhati subdivision (Kamrup) in tea-garden tables
+jorhat,town,Jorhat,Assam,IND/Assam/Jorhat,high,town; also Jorhat subdivision of Sibsagar
+golaghat,town,Golaghat,Assam,IND/Assam/Golaghat,high,town/subdivision of Sibsagar
+dibrugarh,town,Dibrugarh,Assam,IND/Assam/Dibrugarh,high,town/subdivision of Lakhimpur
+calcuttaandsuburbs,town,Calcutta,Bengal,IND/WestBengal/Kolkata,high,Calcutta with suburbs; suburbs partly in 24 Parganas
+dhubri,town,Dhubri,Assam,IND/Assam/Dhubri,high,town/subdivision of Goalpara
+hooghly,district,Hooghly District,Bengal,IND/WestBengal/Hugli,high,Hooghly=Hugli
+sunamganj,town,Sunamganj,Assam,BGD/Sylhet/Sunamganj,high,town/subdivision of Sylhet
+maulvibazar,town,Maulvi Bazar,Assam,BGD/Sylhet/Maulvibazar,high,town/subdivision of Sylhet
+barpeta,town,Barpeta,Assam,IND/Assam/Barpeta,high,town/subdivision of Kamrup
+suburbs,city_section,Calcutta Suburbs,Bengal,IND/WestBengal/Kolkata;IND/WestBengal/North24Parganas;IND/WestBengal/South24Parganas,medium,suburban municipalities of Calcutta in 24 Parganas
+kohima,town,Kohima,Assam,IND/Nagaland/Kohima,high,
+bottomtable,not_place,,,,high,heading/statistic/caste/religion label
+mangaldai,sub_district,Mangaldai Subdivision,Assam,IND/Assam/Darrang,high,subdivision of Darrang (tea-garden tables)
+burdwan,district,Burdwan District,Bengal,IND/WestBengal/Barddhaman,high,Burdwan=Barddhaman (Purba/Paschim not split in GADM); may be division in some 1881 tables
+darjeeling,district,Darjeeling District,Bengal,IND/WestBengal/Darjiling,high,
+dacca,district,Dacca District,Bengal,BGD/Dhaka/Dhaka;BGD/Dhaka/Gazipur;BGD/Dhaka/Narayanganj;BGD/Dhaka/Munshiganj;BGD/Dhaka/Manikganj;BGD/Dhaka/Narsingdi,high,Dacca=Dhaka; split; may be division in some 1881 tables
+hailakandi,sub_district,Hailakandi Subdivision,Assam,IND/Assam/Hailakandi,high,subdivision of Cachar
+northlakhimpur,sub_district,North Lakhimpur Subdivision,Assam,IND/Assam/Lakhimpur,high,subdivision of Lakhimpur district
+shillong,town,Shillong,Assam,IND/Meghalaya/EastKhasiHills,high,
+states,aggregate,Tributary and Feudatory States,Bengal,,low,'District 12 (STATES)' group of states in Bengal 1881 table
+chittagong,district,Chittagong District,Bengal,BGD/Chittagong/Chittagong;BGD/Chittagong/Cox'SBazar,high,split Chittagong + Cox's Bazar; may be division in some 1881 tables
+calcuttawithsuburbs,town,Calcutta,Bengal,IND/WestBengal/Kolkata,high,Calcutta with suburbs; suburbs partly in 24 Parganas
+livingbetweenagesxandx,not_place,,,,high,heading/statistic/caste/religion label
+jowai,sub_district,Jowai Subdivision,Assam,IND/Meghalaya/JaintiaHills,high,Jaintia Hills subdivision of Khasi and Jaintia Hills
+cuttack,district,Cuttack District,Bengal,IND/Odisha/Cuttack;IND/Odisha/Jagatsinghapur;IND/Odisha/Kendrapara;IND/Odisha/Jajapur,high,"split Cuttack, Jagatsinghapur, Kendrapara, Jajpur"
+presidency,division,Presidency Division,Bengal,,medium,Bengal Presidency Division (context: administrative divisions)
+northsylhet,sub_district,North Sylhet Subdivision,Assam,BGD/Sylhet/Sylhet,high,Sylhet sadr subdivision
+southsylhet,sub_district,South Sylhet Subdivision,Assam,BGD/Sylhet/Maulvibazar,high,South Sylhet = Maulvi Bazar subdivision
+shahabad,district,Shahabad District,Bengal,IND/Bihar/Bhojpur;IND/Bihar/Buxar;IND/Bihar/Rohtas;IND/Bihar/Kaimur,high,"split Bhojpur, Buxar, Rohtas, Kaimur"
+hazaribagh,district,Hazaribagh District,Bengal,IND/Jharkhand/Hazaribagh;IND/Jharkhand/Giridih;IND/Jharkhand/Kodarma;IND/Jharkhand/Chatra;IND/Jharkhand/Ramgarh;IND/Jharkhand/Bokaro,medium,"split Hazaribagh, Giridih, Kodarma, Chatra, Ramgarh; part of Bokaro"
+monghyr,district,Monghyr District,Bengal,IND/Bihar/Munger;IND/Bihar/Begusarai;IND/Bihar/Khagaria;IND/Bihar/Lakhisarai;IND/Bihar/Sheikhpura;IND/Bihar/Jamui,high,Monghyr=Munger; split
+percentage,not_place,,,,high,heading/statistic/caste/religion label
+balasore,district,Balasore District,Bengal,IND/Odisha/Baleshwar;IND/Odisha/Bhadrak,high,Balasore=Baleshwar; Bhadrak split
+angul,district,Angul District,Bengal,IND/Odisha/Anugul;IND/Odisha/Kandhamal,medium,Angul incl. Khondmals (now Kandhamal)
+bankoorah,district,Bankura District,Bengal,IND/WestBengal/Bankura,high,Bankoorah=Bankura
+beerbhoom,district,Birbhum District,Bengal,IND/WestBengal/Birbhum,high,Beerbhoom=Birbhum
+nuddea,district,Nadia District,Bengal,IND/WestBengal/Nadia;BGD/Khulna/Kushtia;BGD/Khulna/Chuadanga;BGD/Khulna/Meherpur,high,Nuddea=Nadia; Kushtia/Chuadanga/Meherpur to East Pakistan 1947
+moorshedabad,district,Murshidabad District,Bengal,IND/WestBengal/Murshidabad,high,Moorshedabad=Murshidabad
+dinagepore,district,Dinajpur District,Bengal,BGD/Rangpur/Dinajpur;BGD/Rangpur/Thakurgaon;BGD/Rangpur/Panchagarh;IND/WestBengal/DakshinDinajpur;IND/WestBengal/UttarDinajpur,high,Dinagepore=Dinajpur; partitioned 1947
+rajshahye,district,Rajshahi District,Bengal,BGD/Rajshahi/Rajshahi;BGD/Rajshahi/Natore;BGD/Rajshahi/Naogaon,medium,Rajshahye=Rajshahi; could be division in some tables
+rungpore,district,Rangpur District,Bengal,BGD/Rangpur/Rangpur;BGD/Rangpur/Gaibandha;BGD/Rangpur/Kurigram;BGD/Rangpur/Lalmonirhat;BGD/Rangpur/Nilphamari,high,Rungpore=Rangpur; split
+pubna,district,Pabna District,Bengal,BGD/Rajshahi/Pabna;BGD/Rajshahi/Sirajganj,high,Pubna=Pabna; Sirajganj split
+julpigoree,district,Jalpaiguri District,Bengal,IND/WestBengal/Jalpaiguri;IND/WestBengal/Alipurduar,high,Julpigoree=Jalpaiguri; Alipurduar split; small part to Panchagarh 1947
+noakholly,district,Noakhali District,Bengal,BGD/Chittagong/Noakhali;BGD/Chittagong/Feni;BGD/Chittagong/Lakshmipur,high,Noakholly=Noakhali; split
+tipperah,district,Tippera District,Bengal,BGD/Chittagong/Comilla;BGD/Chittagong/Chandpur;BGD/Chittagong/Brahamanbaria,high,Tipperah=Comilla; split
+townofcalcutta,town,Calcutta,Bengal,IND/WestBengal/Kolkata,high,
+coochbehar,princely_state,Cooch Behar State,Bengal,IND/WestBengal/KochBihar,high,
+durbhunga,district,Darbhanga District,Bengal,IND/Bihar/Darbhanga;IND/Bihar/Madhubani;IND/Bihar/Samastipur,high,Durbhunga=Darbhanga; split
+bhaugulpore,district,Bhagalpur District,Bengal,IND/Bihar/Bhagalpur;IND/Bihar/Banka;IND/Bihar/Madhepura;IND/Bihar/Saharsa;IND/Bihar/Supaul,medium,Bhaugulpore=Bhagalpur; 1881 incl. Madhepura/Supaul area
+purneah,district,Purnea District,Bengal,IND/Bihar/Purnia;IND/Bihar/Araria;IND/Bihar/Kishanganj;IND/Bihar/Katihar,high,Purneah=Purnia; split; part to West Bengal 1956
+sonthalpergunnahs,district,Santal Parganas District,Bengal,IND/Jharkhand/Dumka;IND/Jharkhand/Deoghar;IND/Jharkhand/Godda;IND/Jharkhand/Sahibganj;IND/Jharkhand/Pakur;IND/Jharkhand/Jamtara,high,"split Dumka, Deoghar, Godda, Sahibganj, Pakur, Jamtara"
+lohardugga,district,Lohardaga District,Bengal,IND/Jharkhand/Ranchi;IND/Jharkhand/Lohardaga;IND/Jharkhand/Gumla;IND/Jharkhand/Simdega;IND/Jharkhand/Khunti;IND/Jharkhand/Palamu;IND/Jharkhand/Latehar;IND/Jharkhand/Garhwa,medium,Lohardugga=Ranchi+Palamau (Palamau separated 1892)
+singbhoom,district,Singhbhum District,Bengal,IND/Jharkhand/PurbiSinghbhum;IND/Jharkhand/PashchimiSinghbhum,high,Singbhoom=Singhbhum; split East/West
+manbhoom,district,Manbhum District,Bengal,IND/WestBengal/Puruliya;IND/Jharkhand/Dhanbad;IND/Jharkhand/Bokaro,medium,"Manbhoom=Manbhum; Purulia (WB) + Dhanbad, part Bokaro"
+furreedpore,district,Faridpur District,Bengal,BGD/Dhaka/Faridpur;BGD/Dhaka/Rajbari;BGD/Dhaka/Gopalganj;BGD/Dhaka/Madaripur;BGD/Dhaka/Shariatpur,high,Furreedpore=Faridpur; split
+bargarh,district,Bargarh District,Orissa,IND/Odisha/Bargarh,high,modern (2001) Orissa district
+jharsuguda,district,Jharsuguda District,Orissa,IND/Odisha/Jharsuguda,high,modern (2001) Orissa district
+debagarh,district,Debagarh District,Orissa,IND/Odisha/Debagarh,high,modern (2001) Orissa district
+sundargarh,district,Sundargarh District,Orissa,IND/Odisha/Sundargarh,high,modern (2001) Orissa district
+kendujhar,district,Kendujhar District,Orissa,IND/Odisha/Kendujhar,high,modern (2001) Orissa district
+mayurbhanj,district,Mayurbhanj District,Orissa,IND/Odisha/Mayurbhanj,high,modern (2001) Orissa district
+baleshwar,district,Baleshwar District,Orissa,IND/Odisha/Baleshwar,high,modern (2001) Orissa district
+bhadrak,district,Bhadrak District,Orissa,IND/Odisha/Bhadrak,high,modern (2001) Orissa district
+kendrapara,district,Kendrapara District,Orissa,IND/Odisha/Kendrapara,high,modern (2001) Orissa district
+jagatsinghapur,district,Jagatsinghapur District,Orissa,IND/Odisha/Jagatsinghapur,high,modern (2001) Orissa district
+jajapur,district,Jajapur District,Orissa,IND/Odisha/Jajapur,high,modern (2001) Orissa district
+dhenkanal,district,Dhenkanal District,Orissa,IND/Odisha/Dhenkanal,high,modern (2001) Orissa district
+anugul,district,Anugul District,Orissa,IND/Odisha/Anugul,high,modern (2001) Orissa district
+nayagarh,district,Nayagarh District,Orissa,IND/Odisha/Nayagarh,high,modern (2001) Orissa district
+khordha,district,Khordha District,Orissa,IND/Odisha/Khordha,high,modern (2001) Orissa district
+gajapati,district,Gajapati District,Orissa,IND/Odisha/Gajapati,high,modern (2001) Orissa district
+kandhamal,district,Kandhamal District,Orissa,IND/Odisha/Kandhamal,high,modern (2001) Orissa district
+baudh,district,Baudh District,Orissa,IND/Odisha/Bauda,high,modern (2001) Orissa district; Baudh=Bauda
+sonapur,district,Sonapur District,Orissa,IND/Odisha/Subarnapur,high,modern (2001) Orissa district; Sonapur=Subarnapur
+balangir,district,Balangir District,Orissa,IND/Odisha/Balangir,high,modern (2001) Orissa district
+nuapada,district,Nuapada District,Orissa,IND/Odisha/Nuapada,high,modern (2001) Orissa district
+rayagada,district,Rayagada District,Orissa,IND/Odisha/Rayagada,high,modern (2001) Orissa district
+nabarangapur,district,Nabarangapur District,Orissa,IND/Odisha/Nabarangapur,high,modern (2001) Orissa district
+malkangiri,district,Malkangiri District,Orissa,IND/Odisha/Malkangiri,high,modern (2001) Orissa district
+assamt,province,Assam,,,high,subset: total (1951 state)
+assamr,province,Assam,,,high,subset: rural
+assamu,province,Assam,,,high,subset: urban
+surmavalley,natural_division,Surma Valley,Assam,,high,
+brahmaputravalley,natural_division,Brahmaputra Valley,Assam,,high,
+gya,district,Gaya District,Bengal,IND/Bihar/Gaya;IND/Bihar/Aurangabad;IND/Bihar/Nawada;IND/Bihar/Jehanabad;IND/Bihar/Arwal,high,Gya=Gaya; split
+sarun,district,Saran District,Bengal,IND/Bihar/Saran;IND/Bihar/Siwan;IND/Bihar/Gopalganj,high,"Sarun=Saran; split Saran, Siwan, Gopalganj"
+chumparun,district,Champaran District,Bengal,IND/Bihar/PashchimChamparan;IND/Bihar/PurbaChamparan,high,Chumparun=Champaran; split East/West
+maldah,district,Malda District,Bengal,IND/WestBengal/Maldah;BGD/Rajshahi/Nawabganj,high,Nawabganj subdivision to East Pakistan 1947
+pooree,district,Puri District,Bengal,IND/Odisha/Puri;IND/Odisha/Khordha,high,Pooree=Puri; Khordha split
+banki,sub_district,Banki,Bengal,IND/Odisha/Cuttack,medium,"former Orissa tributary state annexed 1840, administered as khas mahal under Cuttack"
+tributarystatesorissa,aggregate,Orissa Tributary States,Bengal,,high,group of tributary mahals
+northbihar,natural_division,North Bihar,Bihar and Orissa,,high,
+southbihar,natural_division,South Bihar,Bihar and Orissa,,high,
+gainorloss,not_place,,,,high,heading/statistic/caste/religion label
+hills,natural_division,Hill Districts,Assam,,medium,Assam natural division 'Hills'
+subsidiarytableiunadjustedagereturnofpersonsofeachsex,not_place,,,,high,heading/statistic/caste/religion label
+gal,unsure,,,,,fragment 'GAL' in Bengal 1881/1872 tables; possibly truncated 'Bengal' total
+har,unsure,,,,,fragment 'HAR' in Bengal 1881/1872 tables; possibly truncated 'Behar' total
+mozufferpore,district,Muzaffarpur District,Bengal,IND/Bihar/Muzaffarpur;IND/Bihar/Vaishali;IND/Bihar/Sitamarhi;IND/Bihar/Sheohar,high,Mozufferpore=Muzaffarpur; split
+bauri,not_place,,,,high,heading/statistic/caste/religion label
+statementshowingagesofallreligions,not_place,,,,high,heading/statistic/caste/religion label
+surmavalleyandhilldivision,division,Surma Valley and Hill Division,Assam,,high,
+cachar,district,Cachar District,Assam,IND/Assam/Cachar;IND/Assam/Hailakandi;IND/Assam/DimaHasao,high,1931 Cachar incl. North Cachar Hills subdivision
+ibritishterritory,aggregate,British Territory,Assam,,medium,British districts of the province as a whole (Assam table)
+sylhetbrahman,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Brahman
+sylhetdas,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Das
+sylhetdompatni,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Dom (Patni)
+sylhetjugi,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Jugi
+sylhetkaibartta,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Kaibartta
+sylhetkayastha,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Kayastha
+sylhetshaha,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Shaha
+goalpararajbansi,district,Goalpara District,Assam,IND/Assam/Goalpara;IND/Assam/Dhubri;IND/Assam/Kokrajhar;IND/Assam/Bongaigaon;IND/Assam/Chirang,high,subset: caste Rajbansi
+kamrupbrahman,district,Kamrup District,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan;IND/Assam/Barpeta;IND/Assam/Nalbari;IND/Assam/Baksa,high,subset: caste Brahman
+kamrupganak,district,Kamrup District,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan;IND/Assam/Barpeta;IND/Assam/Nalbari;IND/Assam/Baksa,high,subset: caste Ganak
+kamrupkaibarttaandkewat,district,Kamrup District,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan;IND/Assam/Barpeta;IND/Assam/Nalbari;IND/Assam/Baksa,high,subset: caste Kaibartta and Kewat
+kamrupkoch,district,Kamrup District,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan;IND/Assam/Barpeta;IND/Assam/Nalbari;IND/Assam/Baksa,high,subset: caste Koch
+kamrupkalita,district,Kamrup District,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan;IND/Assam/Barpeta;IND/Assam/Nalbari;IND/Assam/Baksa,high,subset: caste Kalita
+kamrupshaha,district,Kamrup District,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan;IND/Assam/Barpeta;IND/Assam/Nalbari;IND/Assam/Baksa,high,subset: caste Shaha
+nowgongboria,district,Nowgong District,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,high,subset: caste Boria
+sibsagarchutiya,district,Sibsagar District,Assam,IND/Assam/Sivasagar;IND/Assam/Jorhat;IND/Assam/Golaghat,high,subset: caste Chutiya
+averagenumberoffemaledeathspermaledeaths,not_place,,,,high,heading/statistic/caste/religion label
+assamplains,natural_division,Assam Plains Division,Assam,,high,1951 natural division
+assamhills,natural_division,Assam Hills Division,Assam,,high,1951 natural division
+subsidiarytableiinumberoffemalespermalesatdifferentageperiodsbyreligionsateachoflastthreecensuses,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableii,not_place,,,,high,heading/statistic/caste/religion label
+eachsexinprovinceandeachnatural,not_place,,,,high,heading/statistic/caste/religion label
+nagpore,division,Chota Nagpore Division,Bengal,,low,'District 11 (NAGPORE)' in Bengal 1881 table; likely Chota Nagpore division
+suburbsinparganas,city_section,Calcutta Suburbs,Bengal,IND/WestBengal/Kolkata;IND/WestBengal/North24Parganas;IND/WestBengal/South24Parganas,medium,suburbs of Calcutta in 24-Parganas
+bengalmales,province,Bengal,,,high,subset: males
+howrahcity,town,Howrah,Bengal,IND/WestBengal/Haora,high,
+bengalpresidency,province,Bengal,,,high,Bengal Presidency
+subsidiarytablei,not_place,,,,high,heading/statistic/caste/religion label
+statementnoiv,not_place,,,,high,heading/statistic/caste/religion label
+tura,town,Tura,Assam,IND/Meghalaya/WestGaroHills,high,HQ of Garo Hills
+shilong,town,Shillong,Assam,IND/Meghalaya/EastKhasiHills,high,OCR spelling Shilong
+percentageofgainorloss,not_place,,,,high,heading/statistic/caste/religion label
+franceunmarried,country,,,,high,France; subset: unmarried
+francemarried,country,,,,high,France; subset: married
+francewidowed,country,,,,high,France; subset: widowed
+khasistates,aggregate,Khasi States,Assam,,high,group of 25 Khasi states; now Meghalaya
+khasiandjaintiahillsbritish,district,Khasi and Jaintia Hills District,Assam,IND/Meghalaya/EastKhasiHills;IND/Meghalaya/WestKhasiHills;IND/Meghalaya/SouthWestKhasiHills;IND/Meghalaya/RiBhoi;IND/Meghalaya/JaintiaHills,high,subset: British portion only (excl. Khasi States)
+lushaihills,district,Lushai Hills District,Assam,IND/Mizoram/Aizawl;IND/Mizoram/Champhai;IND/Mizoram/Kolasib;IND/Mizoram/Lawangtlai;IND/Mizoram/Lunglei;IND/Mizoram/Mamit;IND/Mizoram/Saiha;IND/Mizoram/Serchhip,high,Lushai Hills = Mizoram
+assamvalleydivision,division,Assam Valley Division,Assam,,high,
+sadiyafrontiertract,district,Sadiya Frontier Tract,Assam,IND/ArunachalPradesh/Lohit;IND/ArunachalPradesh/Anjaw;IND/ArunachalPradesh/Namsai;IND/ArunachalPradesh/DibangValley;IND/ArunachalPradesh/LowerDibangValley;IND/ArunachalPradesh/EastSiang;IND/ArunachalPradesh/UpperSiang,low,"frontier tract -> eastern Arunachal; boundaries vague, also small part of Tinsukia"
+baliparafrontiertract,district,Balipara Frontier Tract,Assam,IND/ArunachalPradesh/WestKameng;IND/ArunachalPradesh/EastKameng;IND/ArunachalPradesh/PapumPare;IND/ArunachalPradesh/LowerSubansiri;IND/ArunachalPradesh/UpperSubansiri;IND/ArunachalPradesh/KurungKumey,low,frontier tract -> western/central Arunachal; boundaries vague
+iimanipurstate,princely_state,Manipur State,Assam,IND/Manipur/Bishnupur;IND/Manipur/Chandel;IND/Manipur/Churachandpur;IND/Manipur/ImphalEast;IND/Manipur/ImphalWest;IND/Manipur/Senapati;IND/Manipur/Tamenglong;IND/Manipur/Thoubal;IND/Manipur/Ukhrul,high,
+iiikhasistates,aggregate,Khasi States,Assam,,high,group of 25 Khasi states
+dutch,country,,,,medium,nationality label (Netherlands) in European races table
+sylhetnamasudra,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Namasudra
+nowgongdom,district,Nowgong District,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,high,subset: caste Dom
+sibsagarbrahman,district,Sibsagar District,Assam,IND/Assam/Sivasagar;IND/Assam/Jorhat;IND/Assam/Golaghat,high,subset: caste Brahman
+lalbegi,not_place,,,,high,heading/statistic/caste/religion label
+bairagip,not_place,,,,high,heading/statistic/caste/religion label
+baniyap,not_place,,,,high,heading/statistic/caste/religion label
+barhi,not_place,,,,high,heading/statistic/caste/religion label
+barnabrahmanp,not_place,,,,high,heading/statistic/caste/religion label
+barnasankar,not_place,,,,high,heading/statistic/caste/religion label
+baruis,not_place,,,,high,heading/statistic/caste/religion label
+bediya,not_place,,,,high,heading/statistic/caste/religion label
+behara,not_place,,,,high,heading/statistic/caste/religion label
+bej,not_place,,,,high,heading/statistic/caste/religion label
+beldar,not_place,,,,high,heading/statistic/caste/religion label
+besyap,not_place,,,,high,heading/statistic/caste/religion label
+bhakta,not_place,,,,high,heading/statistic/caste/religion label
+bhandaris,not_place,,,,high,heading/statistic/caste/religion label
+noper,not_place,,,,high,heading/statistic/caste/religion label
+wholepopulation,not_place,,,,high,heading/statistic/caste/religion label
+tablexiiinfirmities,not_place,,,,high,heading/statistic/caste/religion label
+provincialtableixagedistributionofpersonsabstractedinannualperiods,not_place,,,,high,heading/statistic/caste/religion label
+lefthalfages,not_place,,,,high,heading/statistic/caste/religion label
+animist,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingprobableagedistributionofmalesunderyearsofage,not_place,,,,high,heading/statistic/caste/religion label
+distributionoffemalesofeachagebycivilcondition,not_place,,,,high,heading/statistic/caste/religion label
+tableoverallagestructureinassam,not_place,,,,high,heading/statistic/caste/religion label
+tableoverallagestructureinnaturaldivisions,not_place,,,,high,heading/statistic/caste/religion label
+tableagepyramidinassambysex,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiidistributionbycivilconditionandmainageperiodsofofeachsexatlastthreecensuses,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiidistributionofofeachsexofprincipalreligionsbyageandcivilcondition,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableivagedistributionofofeachsexbyreligion,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytablevagedistributionofpersonsinassambengalandengland,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiidistributionofinfirmitiesbyageamongofpopulation,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiidistributionbyageofpersonsforeachinfirmity,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiidistributionofinfirmbyageperofeachsexinsaneanddeafmute,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiidistributionofinfirmbyageperofeachsexblindandlepers,not_place,,,,high,heading/statistic/caste/religion label
+surveyorgeneraland,not_place,,,,high,heading/statistic/caste/religion label
+finaltotal,not_place,,,,high,heading/statistic/caste/religion label
+bengalbornpopulationofchittagonghilltracts,district,Chittagong Hill Tracts District,Bengal,BGD/Chittagong/Rangamati;BGD/Chittagong/Khagrachhari;BGD/Chittagong/Bandarban,high,subset: Bengal-born
+ndifference,not_place,,,,high,heading/statistic/caste/religion label
+idifference,not_place,,,,high,heading/statistic/caste/religion label
+averagepopulationinbritishterritoryminuschtracts,not_place,,,,high,heading/statistic/caste/religion label
+averageannualincrementratiofromcensusreturnsperoftotalpopulationofsamesex,not_place,,,,high,heading/statistic/caste/religion label
+averageannualincrementratiofromvitalreturnsperoftotalpopulationofsamesex,not_place,,,,high,heading/statistic/caste/religion label
+averageannualextenttowhichvitalreturnsunderestimatedexcessofbirthsoverdeathsin,not_place,,,,high,heading/statistic/caste/religion label
+baidyas,not_place,,,,high,heading/statistic/caste/religion label
+dom,not_place,,,,high,heading/statistic/caste/religion label
+chotanagpurplateau,natural_division,Chota Nagpur Plateau,Bihar and Orissa,,high,
+chotanagpurstates,aggregate,Chota Nagpur States,Bihar and Orissa,,high,group of feudatory states
+chero,not_place,,,,high,heading/statistic/caste/religion label
+rajwar,not_place,,,,high,heading/statistic/caste/religion label
+bhuiya,not_place,,,,high,heading/statistic/caste/religion label
+tanti,not_place,,,,high,heading/statistic/caste/religion label
+bhumij,not_place,,,,high,heading/statistic/caste/religion label
+bengalproper,natural_division,Bengal Proper,Bengal,,high,sub-province of Bengal
+lepcha,not_place,,,,high,heading/statistic/caste/religion label
+limbu,not_place,,,,high,heading/statistic/caste/religion label
+bhutia,not_place,,,,high,heading/statistic/caste/religion label
+gardenreach,town,Garden Reach,Bengal,IND/WestBengal/Kolkata,medium,"suburban municipality, 24 Parganas; now in Kolkata Municipal Corporation"
+smoothedarithfinal,not_place,,,,high,heading/statistic/caste/religion label
+smoothedarithintermediate,not_place,,,,high,heading/statistic/caste/religion label
+deaths,not_place,,,,high,heading/statistic/caste/religion label
+brahmos,not_place,,,,high,heading/statistic/caste/religion label
+bankurahindu,district,Bankura District,Bengal,IND/WestBengal/Bankura,high,subset: hindu
+midnaporehindu,district,Midnapore District,Bengal,IND/WestBengal/PashchimMedinipur;IND/WestBengal/PurbaMedinipur,high,subset: hindu
+hooghlyhindu,district,Hooghly District,Bengal,IND/WestBengal/Hugli,high,subset: hindu
+bograhindu,district,Bogra District,Bengal,BGD/Rajshahi/Bogra;BGD/Rajshahi/Joypurhat,high,subset: hindu
+bogramusalman,district,Bogra District,Bengal,BGD/Rajshahi/Bogra;BGD/Rajshahi/Joypurhat,high,subset: musalman
+centralbengal,natural_division,Central Bengal,Bengal,,high,
+tableixstatementshowingdistributionofpopulationaccordingtolanguage,not_place,,,,high,heading/statistic/caste/religion label
+literacyinenglish,not_place,,,,high,heading/statistic/caste/religion label
+unitedprovincesofagraandoudh,province,United Provinces,,,high,
+livelihoodpartddistributionbyreligioncontinued,not_place,,,,high,heading/statistic/caste/religion label
+cityofcalcutta,town,Calcutta,Bengal,IND/WestBengal/Kolkata,high,
+garohillsplains,district,Garo Hills District,Assam,IND/Meghalaya/EastGaroHills;IND/Meghalaya/WestGaroHills;IND/Meghalaya/NorthGaroHills;IND/Meghalaya/SouthGaroHills;IND/Meghalaya/SouthWestGaroHills,medium,subset: plains portion
+cacharhilltracts,sub_district,North Cachar Subdivision,Assam,IND/Assam/DimaHasao,medium,Cachar Hill Tracts = North Cachar hills
+garowhillsdo,district,Garo Hills District,Assam,IND/Meghalaya/EastGaroHills;IND/Meghalaya/WestGaroHills;IND/Meghalaya/NorthGaroHills;IND/Meghalaya/SouthGaroHills;IND/Meghalaya/SouthWestGaroHills,medium,OCR 'Garow'; 'do' = ditto subset row
+nagahillscivilandmilitary,district,Naga Hills District,Assam,IND/Nagaland/Kohima;IND/Nagaland/Mokokchung;IND/Nagaland/Wokha;IND/Nagaland/Zunheboto;IND/Nagaland/Phek;IND/Nagaland/Dimapur;IND/Nagaland/Peren,medium,subset: civil and military
+nagahillsestimated,district,Naga Hills District,Assam,IND/Nagaland/Kohima;IND/Nagaland/Mokokchung;IND/Nagaland/Wokha;IND/Nagaland/Zunheboto;IND/Nagaland/Phek;IND/Nagaland/Dimapur;IND/Nagaland/Peren,medium,subset: estimated population
+garohillsdo,district,Garo Hills District,Assam,IND/Meghalaya/EastGaroHills;IND/Meghalaya/WestGaroHills;IND/Meghalaya/NorthGaroHills;IND/Meghalaya/SouthGaroHills;IND/Meghalaya/SouthWestGaroHills,medium,'do' = ditto subset row
+gauhatiandover,sub_district,Gauhati Subdivision,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan,medium,subset: age 45 and over (tea-garden table by subdivision)
+tezpurandover,sub_district,Tezpur Subdivision,Assam,IND/Assam/Sonitpur,medium,subset: age 45 and over (tea-garden table by subdivision)
+mangaldaiandover,sub_district,Mangaldai Subdivision,Assam,IND/Assam/Darrang,medium,subset: age 45 and over (tea-garden table by subdivision)
+nowgongandover,sub_district,Nowgong Subdivision,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,medium,subset: age 45 and over (tea-garden table by subdivision)
+sibsagarandover,sub_district,Sibsagar Subdivision,Assam,IND/Assam/Sivasagar,medium,subset: age 45 and over (tea-garden table by subdivision)
+jorhatandover,sub_district,Jorhat Subdivision,Assam,IND/Assam/Jorhat,medium,subset: age 45 and over (tea-garden table by subdivision)
+gauhatitotal,sub_district,Gauhati Subdivision,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan,medium,subset: total row (tea-garden table by subdivision)
+tezpurtotal,sub_district,Tezpur Subdivision,Assam,IND/Assam/Sonitpur,medium,subset: total row (tea-garden table by subdivision)
+mangaldaitotal,sub_district,Mangaldai Subdivision,Assam,IND/Assam/Darrang,medium,subset: total row (tea-garden table by subdivision)
+nowgongtotal,sub_district,Nowgong Subdivision,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,medium,subset: total row (tea-garden table by subdivision)
+sibsagartotal,sub_district,Sibsagar Subdivision,Assam,IND/Assam/Sivasagar,medium,subset: total row (tea-garden table by subdivision)
+jorhattotal,sub_district,Jorhat Subdivision,Assam,IND/Assam/Jorhat,medium,subset: total row (tea-garden table by subdivision)
+percentageontotalpopulation,not_place,,,,high,heading/statistic/caste/religion label
+assamunmarried,province,Assam,,,high,subset: unmarried 1881
+assammarried,province,Assam,,,high,subset: married 1881
+assamwidowed,province,Assam,,,high,subset: widowed 1881
+bengalunmarried,province,Bengal,,,high,subset: unmarried 1881
+bengalmarried,province,Bengal,,,high,subset: married 1881
+bengalwidowed,province,Bengal,,,high,subset: widowed 1881
+bombayunmarried,province,Bombay,,,high,subset: unmarried 1881
+bombaymarried,province,Bombay,,,high,subset: married 1881
+bombaywidowed,province,Bombay,,,high,subset: widowed 1881
+lowerburmaunmarried,province,Lower Burma,Burma,,high,subset: unmarried 1881 (British Burma)
+lowerburmamarried,province,Lower Burma,Burma,,high,subset: married 1881 (British Burma)
+lowerburmawidowed,province,Lower Burma,Burma,,high,subset: widowed 1881 (British Burma)
+northwestprovincesunmarried,province,North-Western Provinces,United Provinces,,high,subset: unmarried 1881
+northwestprovincesmarried,province,North-Western Provinces,United Provinces,,high,subset: married 1881
+northwestprovinceswidowed,province,North-Western Provinces,United Provinces,,high,subset: widowed 1881
+englandandwalesunmarried,country,,,,high,England and Wales; subset: unmarried
+englandandwalesmarried,country,,,,high,England and Wales; subset: married
+englandandwaleswidowed,country,,,,high,England and Wales; subset: widowed
+prussiaunmarried,country,,,,high,Prussia; subset: unmarried
+prussiamarried,country,,,,high,Prussia; subset: married
+prussiawidowed,country,,,,high,Prussia; subset: widowed
+austriaunmarried,country,,,,high,Austria; subset: unmarried
+austriamarried,country,,,,high,Austria; subset: married
+austriawidowed,country,,,,high,Austria; subset: widowed
+marigaonthana,sub_district,Marigaon Thana,Assam,IND/Assam/Morigaon,high,thana of Nowgong district
+dandua,sub_district,Dandua Mauza,Assam,IND/Assam/Morigaon,medium,"mauza in Marigaon thana, Nowgong"
+nijtatalia,sub_district,Nij Tatalia Mauza,Assam,IND/Assam/Morigaon,medium,"mauza in Marigaon thana, Nowgong"
+gobha,sub_district,Gobha Mauza,Assam,IND/Assam/Morigaon,medium,"mauza in Marigaon thana, Nowgong"
+mayang,sub_district,Mayang Mauza,Assam,IND/Assam/Morigaon,medium,"mauza in Marigaon thana, Nowgong"
+ghagua,sub_district,Ghagua Mauza,Assam,IND/Assam/Morigaon,medium,"mauza in Marigaon thana, Nowgong"
+uttarkhola,sub_district,Uttarkhola Mauza,Assam,IND/Assam/Morigaon,medium,"mauza in Marigaon thana, Nowgong"
+duaramla,sub_district,Duar Amla Mauza,Assam,IND/Assam/Morigaon,medium,"mauza in Marigaon thana, Nowgong"
+jorhatsubdivision,sub_district,Jorhat Subdivision,Assam,IND/Assam/Jorhat,high,subdivision of Sibsagar
+jorhatthana,sub_district,Jorhat Thana,Assam,IND/Assam/Jorhat,high,thana of Sibsagar district
+jorhattown,town,Jorhat,Assam,IND/Assam/Jorhat,high,
+garamurexcludingjorhattown,sub_district,Garamur Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+katonigaon,sub_district,Katonigaon Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+charibahi,sub_district,Charibahi Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+khangia,sub_district,Khangia Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+chowkhat,sub_district,Chowkhat Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+hatighar,sub_district,Hatighar Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+halongapar,sub_district,Halongapar Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+charigaon,sub_district,Charigaon Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+hazari,sub_district,Hazari Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+baligaon,sub_district,Baligaon Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+parbatia,sub_district,Parbatia Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Jorhat thana, Sibsagar"
+teokthana,sub_district,Teok Thana,Assam,IND/Assam/Jorhat,high,thana of Jorhat subdivision
+nakachari,sub_district,Nakachari Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Teok thana, Jorhat subdivision"
+lahing,sub_district,Lahing Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Teok thana, Jorhat subdivision"
+simulguri,sub_district,Simulguri Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Teok thana, Jorhat subdivision"
+teok,sub_district,Teok Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Teok thana, Jorhat subdivision"
+gakhirkhowa,sub_district,Gakhirkhowa Mauza,Assam,IND/Assam/Jorhat,medium,"mauza in Teok thana, Jorhat subdivision"
+titabarthana,sub_district,Titabar Thana,Assam,IND/Assam/Jorhat,high,thana of Jorhat subdivision
+amgurikharikatia,sub_district,Amguri Kharikatia Mauza,Assam,IND/Assam/Jorhat,medium,mauza in Titabar thana
+titabar,sub_district,Titabar Mauza,Assam,IND/Assam/Jorhat,medium,mauza in Titabar thana
+thengal,sub_district,Thengal Mauza,Assam,IND/Assam/Jorhat,medium,mauza in Titabar thana
+majulithana,sub_district,Majuli Thana,Assam,IND/Assam/Jorhat,high,"Majuli (district since 2016, not in GADM) was in Jorhat"
+salmara,sub_district,Salmara Mauza,Assam,IND/Assam/Jorhat,medium,mauza in Majuli thana; Majuli not in GADM
+kamalabari,sub_district,Kamalabari Mauza,Assam,IND/Assam/Jorhat,medium,mauza in Majuli thana; Majuli not in GADM
+mylliemincludingpartofshillongtownfallingwithinmylliem,princely_state,Mylliem State,Khasi States,IND/Meghalaya/EastKhasiHills,high,Khasi State (siemship); incl. part of Shillong
+khyrim,princely_state,Khyrim State,Khasi States,IND/Meghalaya/EastKhasiHills,high,Khasi State (siemship)
+cherra,princely_state,Cherra State,Khasi States,IND/Meghalaya/EastKhasiHills,high,Khasi State (siemship); Cherrapunji
+nongstoin,princely_state,Nongstoin State,Khasi States,IND/Meghalaya/WestKhasiHills,high,Khasi State (siemship)
+maharam,princely_state,Maharam State,Khasi States,IND/Meghalaya/SouthWestKhasiHills;IND/Meghalaya/WestKhasiHills,medium,Khasi State (siemship)
+nongkhlao,princely_state,Nongkhlao State,Khasi States,IND/Meghalaya/WestKhasiHills,medium,Khasi State (siemship)
+marriaw,princely_state,Mariaw State,Khasi States,IND/Meghalaya/WestKhasiHills,medium,Khasi State (siemship)
+rambrai,princely_state,Rambrai State,Khasi States,IND/Meghalaya/WestKhasiHills,medium,Khasi State (siemship)
+mawiang,princely_state,Mawiang State,Khasi States,IND/Meghalaya/WestKhasiHills,medium,Khasi State (siemship)
+langrin,princely_state,Langrin State,Khasi States,IND/Meghalaya/SouthWestKhasiHills;IND/Meghalaya/WestKhasiHills,low,Khasi State (siemship)
+nobosophoh,princely_state,Nobosohphoh State,Khasi States,IND/Meghalaya/WestKhasiHills,low,Khasi State (siemship)
+mawsynram,princely_state,Mawsynram State,Khasi States,IND/Meghalaya/EastKhasiHills,high,Khasi State (siemship)
+malaisohmat,princely_state,Malaisohmat State,Khasi States,IND/Meghalaya/EastKhasiHills,medium,Khasi State (siemship)
+bhowal,princely_state,Bhowal State,Khasi States,IND/Meghalaya/EastKhasiHills,low,Khasi State (siemship)
+nongspung,princely_state,Nongspung State,Khasi States,IND/Meghalaya/EastKhasiHills,low,Khasi State (siemship)
+jirang,princely_state,Jirang State,Khasi States,IND/Meghalaya/RiBhoi,medium,Khasi State (siemship)
+sohiong,princely_state,Sohiong State,Khasi States,IND/Meghalaya/EastKhasiHills,medium,Khasi State (siemship)
+mawphlang,princely_state,Mawphlang State,Khasi States,IND/Meghalaya/EastKhasiHills,high,Khasi State (siemship)
+langiong,princely_state,Langiong State,Khasi States,IND/Meghalaya/EastKhasiHills,low,Khasi State (siemship)
+shella,princely_state,Shella State,Khasi States,IND/Meghalaya/EastKhasiHills,high,Khasi State (siemship)
+mawlong,princely_state,Mawlong State,Khasi States,IND/Meghalaya/EastKhasiHills,medium,Khasi State (siemship)
+maodon,princely_state,Maodon State,Khasi States,IND/Meghalaya/EastKhasiHills,low,Khasi State (siemship)
+dwaranongtyrmen,princely_state,Dwara Nongtyrmen State,Khasi States,IND/Meghalaya/EastKhasiHills,low,Khasi State (siemship)
+nonglwai,princely_state,Nonglwai State,Khasi States,IND/Meghalaya/EastKhasiHills,low,Khasi State (siemship)
+pamsanngut,princely_state,Pamsanngut State,Khasi States,IND/Meghalaya/EastKhasiHills,low,Khasi State (siemship)
+roadpopulation,not_place,,,,high,heading/statistic/caste/religion label
+rangiathana,sub_district,Rangia Thana,Assam,IND/Assam/Kamrup,high,thana of Kamrup district
+pubborigog,sub_district,Pub-Borigog Mauza,Assam,IND/Assam/Nalbari;IND/Assam/Kamrup,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+paschimborigog,sub_district,Paschim Borigog Mauza,Assam,IND/Assam/Nalbari;IND/Assam/Kamrup,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+pubkacharimahal,sub_district,Pubkachari Mahal Mauza,Assam,IND/Assam/Kamrup;IND/Assam/Baksa,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+kaurbaha,sub_district,Kaurbaha Mauza,Assam,IND/Assam/Kamrup,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+panduri,sub_district,Panduri Mauza,Assam,IND/Assam/Kamrup;IND/Assam/Nalbari,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+pubbanbhag,sub_district,Pub Banbhag Mauza,Assam,IND/Assam/Nalbari,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+paschimbanbhag,sub_district,Paschim Banbhag Mauza,Assam,IND/Assam/Nalbari,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+pubbaska,sub_district,Pub-Baska Mauza,Assam,IND/Assam/Baksa,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+madhyabaska,sub_district,Madhya Baska Mauza,Assam,IND/Assam/Baksa,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+botna,sub_district,Botna Mauza,Assam,IND/Assam/Kamrup;IND/Assam/Nalbari,low,"mauza in Rangia thana, Kamrup; exact modern district uncertain"
+kamalpurthana,sub_district,Kamalpur Thana,Assam,IND/Assam/Kamrup,high,thana of Kamrup district
+patidarang,sub_district,Patidarang Mauza,Assam,IND/Assam/Kamrup,medium,"mauza in Kamalpur thana, Kamrup"
+barbangsar,sub_district,Barbangsar Mauza,Assam,IND/Assam/Kamrup,medium,"mauza in Kamalpur thana, Kamrup"
+silasundarighopapart,sub_district,Silasundari Ghopa Mauza,Assam,IND/Assam/Kamrup,medium,"mauza in Kamalpur thana, Kamrup; part"
+karara,sub_district,Karara Mauza,Assam,IND/Assam/Kamrup,medium,"mauza in Kamalpur thana, Kamrup"
+madartola,sub_district,Madartola Mauza,Assam,IND/Assam/Kamrup,medium,"mauza in Kamalpur thana, Kamrup"
+pubpar,sub_district,Pubpar Mauza,Assam,IND/Assam/Kamrup,medium,"mauza in Kamalpur thana, Kamrup"
+hajothana,sub_district,Hajo Thana,Assam,IND/Assam/Kamrup,high,thana of Kamrup district
+hajo,sub_district,Hajo Mauza,Assam,IND/Assam/Kamrup,medium,mauza in Hajo thana
+pubbangsar,sub_district,Pub-Bangsar Mauza,Assam,IND/Assam/Kamrup,low,"mauza in Hajo thana, Kamrup; exact modern district uncertain"
+paschimbangsar,sub_district,Paschim-Bangsar Mauza,Assam,IND/Assam/Kamrup,low,"mauza in Hajo thana, Kamrup; exact modern district uncertain"
+uttarbarkhetri,sub_district,Uttar Barkhetri Mauza,Assam,IND/Assam/Nalbari,low,"mauza in Hajo thana, Kamrup; exact modern district uncertain"
+dakhinbarkhetri,sub_district,Dakhin Barkhetri Mauza,Assam,IND/Assam/Nalbari,low,"mauza in Hajo thana, Kamrup; exact modern district uncertain"
+ramdia,sub_district,Ramdia Mauza,Assam,IND/Assam/Kamrup,low,"mauza in Hajo thana, Kamrup; exact modern district uncertain"
+barpetasubdivision,sub_district,Barpeta Subdivision,Assam,IND/Assam/Barpeta,high,subdivision of Kamrup
+barpetathana,sub_district,Barpeta Thana,Assam,IND/Assam/Barpeta,high,thana of Barpeta subdivision
+barpetatown,town,Barpeta,Assam,IND/Assam/Barpeta,high,
+chenga,sub_district,Chenga Mauza,Assam,IND/Assam/Barpeta,medium,mauza in Barpeta thana
+bagribari,sub_district,Bagribari Mauza,Assam,IND/Assam/Barpeta,medium,mauza in Barpeta thana
+paka,sub_district,Paka Mauza,Assam,IND/Assam/Barpeta,medium,mauza in Barpeta thana
+sarukhetri,sub_district,Sarukhetri Mauza,Assam,IND/Assam/Barpeta,medium,mauza in Barpeta thana
+bhowanipur,sub_district,Bhowanipur Mauza,Assam,IND/Assam/Barpeta,medium,mauza in Barpeta thana
+howli,sub_district,Howli Mauza,Assam,IND/Assam/Barpeta,medium,mauza in Barpeta thana
+sorbhogthana,sub_district,Sorbhog Thana,Assam,IND/Assam/Barpeta,high,thana of Barpeta subdivision
+rupasi,sub_district,Rupasi Mauza,Assam,IND/Assam/Barpeta,medium,"mauza in Sorbhog thana, Barpeta subdivision"
+damkachakabansi,sub_district,Damka Chakabansi Mauza,Assam,IND/Assam/Barpeta,low,"mauza in Sorbhog thana, Barpeta subdivision"
+bijni,sub_district,Bijni Mauza,Assam,IND/Assam/Chirang;IND/Assam/Bongaigaon,low,"mauza in Sorbhog thana, Barpeta subdivision"
+kharijabijni,sub_district,Kharija Bijni Mauza,Assam,IND/Assam/Chirang;IND/Assam/Bongaigaon;IND/Assam/Barpeta,low,"mauza in Sorbhog thana, Barpeta subdivision"
+gobardhana,sub_district,Gobardhana Mauza,Assam,IND/Assam/Baksa;IND/Assam/Barpeta,low,"mauza in Sorbhog thana, Barpeta subdivision"
+samagurithana,sub_district,Samaguri Thana,Assam,IND/Assam/Nagaon,high,thana of Nowgong district
+laokhowa,sub_district,Laokhowa Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Samaguri thana, Nowgong"
+khatowal,sub_district,Khatowal Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Samaguri thana, Nowgong"
+duarsalona,sub_district,Duar Salona Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Samaguri thana, Nowgong"
+bhelenguri,sub_district,Bhelenguri Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Samaguri thana, Nowgong"
+chalchali,sub_district,Chalchali Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Samaguri thana, Nowgong"
+duarbamuni,sub_district,Duar Bamuni Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Samaguri thana, Nowgong"
+lumdingthana,sub_district,Lumding Thana,Assam,IND/Assam/Nagaon,medium,Lumding now in Hojai district (not in GADM; within GADM Nagaon)
+lumdingtown,town,Lumding,Assam,IND/Assam/Nagaon,medium,now Hojai district (not in GADM)
+lumdingmikir,sub_district,Lumding Mikir Mauza,Assam,IND/Assam/Nagaon;IND/Assam/KarbiAnglong,low,mauza in Lumding thana; Mikir Hills parts later to Karbi Anglong
+lumdingkukiandkachari,sub_district,Lumding Kuki and Kachari Mauza,Assam,IND/Assam/Nagaon;IND/Assam/KarbiAnglong,low,mauza in Lumding thana; Mikir Hills parts later to Karbi Anglong
+laugpher,sub_district,Laugpher Mauza,Assam,IND/Assam/Nagaon;IND/Assam/KarbiAnglong,low,mauza in Lumding thana; Mikir Hills parts later to Karbi Anglong
+jamunapar,sub_district,Jamunapar Mauza,Assam,IND/Assam/Nagaon;IND/Assam/KarbiAnglong,low,mauza in Lumding thana; Mikir Hills parts later to Karbi Anglong
+jamunamukhthana,sub_district,Jamunamukh Thana,Assam,IND/Assam/Nagaon,high,now Hojai (not in GADM)
+garubat,sub_district,Garubat Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Jamunamukh thana, Nowgong"
+rangkhang,sub_district,Rangkhang Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Jamunamukh thana, Nowgong"
+kampur,sub_district,Kampur Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Jamunamukh thana, Nowgong"
+kathiatoli,sub_district,Kathiatoli Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Jamunamukh thana, Nowgong"
+jamunamukh,sub_district,Jamunamukh Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Jamunamukh thana, Nowgong"
+namati,sub_district,Namati Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Jamunamukh thana, Nowgong"
+kaliaborthana,sub_district,Kaliabor Thana,Assam,IND/Assam/Nagaon,high,thana of Nowgong district
+pubtharia,sub_district,Pubtharia Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Kaliabor thana, Nowgong"
+borbhagia,sub_district,Borbhagia Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Kaliabor thana, Nowgong"
+chatial,sub_district,Chatial Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Kaliabor thana, Nowgong"
+duarbagari,sub_district,Duar Bagari Mauza,Assam,IND/Assam/Nagaon,medium,"mauza in Kaliabor thana, Nowgong"
+rahathana,sub_district,Raha Thana,Assam,IND/Assam/Nagaon,high,thana of Nowgong district
+charaibahi,sub_district,Charaibahi Mauza,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,low,"mauza in Raha thana, Nowgong"
+mikirbhatapart,sub_district,Mikirbhata Mauza,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,low,"mauza in Raha thana, Nowgong; part"
+barapujia,sub_district,Barapujia Mauza,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,low,"mauza in Raha thana, Nowgong"
+sahari,sub_district,Sahari Mauza,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,low,"mauza in Raha thana, Nowgong"
+jagial,sub_district,Jagial Mauza,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,low,"mauza in Raha thana, Nowgong"
+lahorighatthana,sub_district,Lahorighat Thana,Assam,IND/Assam/Morigaon,high,thana of Nowgong district
+bokani,sub_district,Bokani Mauza,Assam,IND/Assam/Morigaon,medium,mauza in Lahorighat thana
+lahorighat,sub_district,Lahorighat Mauza,Assam,IND/Assam/Morigaon,medium,mauza in Lahorighat thana
+dhingthana,sub_district,Dhing Thana,Assam,IND/Assam/Nagaon,high,thana of Nowgong district
+dhing,sub_district,Dhing Mauza,Assam,IND/Assam/Nagaon,medium,mauza in Dhing thana
+sadrsubdivision,sub_district,Silchar (Sadr) Subdivision,Assam,IND/Assam/Cachar,medium,Sadr subdivision of Cachar (precedes Silchar thana); generic name
+silcharthana,sub_district,Silchar Thana,Assam,IND/Assam/Cachar,high,thana of Cachar sadr subdivision
+lakhipur,sub_district,Lakhipur Thana,Assam,IND/Assam/Cachar,high,thana of Cachar sadr subdivision
+katigora,sub_district,Katigora Thana,Assam,IND/Assam/Cachar,high,thana of Cachar sadr subdivision
+barkhola,sub_district,Barkhola Thana,Assam,IND/Assam/Cachar,high,thana of Cachar sadr subdivision
+sonai,sub_district,Sonai Thana,Assam,IND/Assam/Cachar,high,thana of Cachar sadr subdivision
+udharband,sub_district,Udharband Thana,Assam,IND/Assam/Cachar,high,thana of Cachar sadr subdivision
+hailakandisubdivision,sub_district,Hailakandi Subdivision,Assam,IND/Assam/Hailakandi,high,subdivision of Cachar
+hailakandithana,sub_district,Hailakandi Thana,Assam,IND/Assam/Hailakandi,high,
+katlicherra,sub_district,Katlicherra Thana,Assam,IND/Assam/Hailakandi,high,
+northcacharhillssubdivision,sub_district,North Cachar Hills Subdivision,Assam,IND/Assam/DimaHasao,high,= Dima Hasao
+northsylhetsubdivision,sub_district,North Sylhet Subdivision,Assam,BGD/Sylhet/Sylhet,high,Sylhet sadr subdivision
+sylhetsadrthana,sub_district,Sylhet (Sadr) Thana,Assam,BGD/Sylhet/Sylhet,high,thana of North Sylhet subdivision; now upazila of Sylhet
+gowainghat,sub_district,Gowainghat Thana,Assam,BGD/Sylhet/Sylhet,high,thana of North Sylhet subdivision; now upazila of Sylhet
+golabganj,sub_district,Golabganj Thana,Assam,BGD/Sylhet/Sylhet,high,thana of North Sylhet subdivision; now upazila of Sylhet
+fenchuganj,sub_district,Fenchuganj Thana,Assam,BGD/Sylhet/Sylhet,high,thana of North Sylhet subdivision; now upazila of Sylhet
+kanaighat,sub_district,Kanaighat Thana,Assam,BGD/Sylhet/Sylhet,high,thana of North Sylhet subdivision; now upazila of Sylhet
+balaganj,sub_district,Balaganj Thana,Assam,BGD/Sylhet/Sylhet,high,thana of North Sylhet subdivision; now upazila of Sylhet
+biswanath,sub_district,Biswanath Thana,Assam,BGD/Sylhet/Sylhet,high,thana of North Sylhet subdivision; now upazila of Sylhet
+southsylhetmaulvibazarsubdivision,sub_district,South Sylhet (Maulvi Bazar) Subdivision,Assam,BGD/Sylhet/Maulvibazar,high,
+maulvibazarthana,sub_district,Maulvi Bazar Thana,Assam,BGD/Sylhet/Maulvibazar,high,thana of South Sylhet subdivision; now upazila of Maulvibazar
+kamalganj,sub_district,Kamalganj Thana,Assam,BGD/Sylhet/Maulvibazar,high,thana of South Sylhet subdivision; now upazila of Maulvibazar
+srimangal,sub_district,Srimangal Thana,Assam,BGD/Sylhet/Maulvibazar,high,thana of South Sylhet subdivision; now upazila of Maulvibazar
+rajnagar,sub_district,Rajnagar Thana,Assam,BGD/Sylhet/Maulvibazar,high,thana of South Sylhet subdivision; now upazila of Maulvibazar
+kulaura,sub_district,Kulaura Thana,Assam,BGD/Sylhet/Maulvibazar,high,thana of South Sylhet subdivision; now upazila of Maulvibazar
+unitedstatesofamerica,country,,,,high,USA
+belgian,country,,,,medium,nationality label (Belgium) in European races table
+chilean,country,,,,medium,nationality label (Chile) in European races table
+danish,country,,,,medium,nationality label (Denmark) in European races table
+italian,country,,,,medium,nationality label (Italy) in European races table
+norwegian,country,,,,medium,nationality label (Norway) in European races table
+polish,country,,,,medium,nationality label (Poland) in European races table
+russian,country,,,,medium,nationality label (Russia) in European races table
+slav,not_place,,,,medium,"ethnic label (Slav), not a single country"
+swiss,country,,,,medium,nationality label (Switzerland) in European races table
+swedish,country,,,,medium,nationality label (Sweden) in European races table
+spanish,country,,,,medium,nationality label (Spain) in European races table
+hill,natural_division,Hill Districts,Assam,,medium,
+kumharp,not_place,,,,high,heading/statistic/caste/religion label
+kureshi,not_place,,,,high,heading/statistic/caste/religion label
+kuri,not_place,,,,high,heading/statistic/caste/religion label
+kusiaris,not_place,,,,high,heading/statistic/caste/religion label
+laheri,not_place,,,,high,heading/statistic/caste/religion label
+lalunga,not_place,,,,high,heading/statistic/caste/religion label
+lama,not_place,,,,high,heading/statistic/caste/religion label
+abora,not_place,,,,high,heading/statistic/caste/religion label
+agaria,not_place,,,,high,heading/statistic/caste/religion label
+agarwal,not_place,,,,high,heading/statistic/caste/religion label
+agrahari,not_place,,,,high,heading/statistic/caste/religion label
+ahoma,not_place,,,,high,heading/statistic/caste/religion label
+bhats,not_place,,,,high,heading/statistic/caste/religion label
+bhatiya,not_place,,,,high,heading/statistic/caste/religion label
+bhuinhar,not_place,,,,high,heading/statistic/caste/religion label
+bhuinmalis,not_place,,,,high,heading/statistic/caste/religion label
+binjhia,not_place,,,,high,heading/statistic/caste/religion label
+birhor,not_place,,,,high,heading/statistic/caste/religion label
+boriaa,not_place,,,,high,heading/statistic/caste/religion label
+patiaa,not_place,,,,high,heading/statistic/caste/religion label
+patials,not_place,,,,high,heading/statistic/caste/religion label
+pator,not_place,,,,high,heading/statistic/caste/religion label
+patwa,not_place,,,,high,heading/statistic/caste/religion label
+patwari,not_place,,,,high,heading/statistic/caste/religion label
+phakiala,not_place,,,,high,heading/statistic/caste/religion label
+pod,not_place,,,,high,heading/statistic/caste/religion label
+poi,not_place,,,,high,heading/statistic/caste/religion label
+pradhan,not_place,,,,high,heading/statistic/caste/religion label
+rabhaa,not_place,,,,high,heading/statistic/caste/religion label
+rai,not_place,,,,high,heading/statistic/caste/religion label
+rajbansia,not_place,,,,high,heading/statistic/caste/religion label
+rajbhar,not_place,,,,high,heading/statistic/caste/religion label
+rajgiri,not_place,,,,high,heading/statistic/caste/religion label
+raju,not_place,,,,high,heading/statistic/caste/religion label
+rana,not_place,,,,high,heading/statistic/caste/religion label
+raut,not_place,,,,high,heading/statistic/caste/religion label
+rautia,not_place,,,,high,heading/statistic/caste/religion label
+sadgop,not_place,,,,high,heading/statistic/caste/religion label
+surahiya,not_place,,,,high,heading/statistic/caste/religion label
+sutradharp,not_place,,,,high,heading/statistic/caste/religion label
+syntenga,not_place,,,,high,heading/statistic/caste/religion label
+tambuli,not_place,,,,high,heading/statistic/caste/religion label
+tatwa,not_place,,,,high,heading/statistic/caste/religion label
+telis,not_place,,,,high,heading/statistic/caste/religion label
+telinga,not_place,,,,high,heading/statistic/caste/religion label
+thami,not_place,,,,high,heading/statistic/caste/religion label
+thapa,not_place,,,,high,heading/statistic/caste/religion label
+tharu,not_place,,,,high,heading/statistic/caste/religion label
+tipperahs,not_place,,,,high,heading/statistic/caste/religion label
+tokara,not_place,,,,high,heading/statistic/caste/religion label
+totlaa,not_place,,,,high,heading/statistic/caste/religion label
+turaha,not_place,,,,high,heading/statistic/caste/religion label
+turi,not_place,,,,high,heading/statistic/caste/religion label
+turunga,not_place,,,,high,heading/statistic/caste/religion label
+ukhar,not_place,,,,high,heading/statistic/caste/religion label
+vaisyaa,not_place,,,,high,heading/statistic/caste/religion label
+yaksha,not_place,,,,high,heading/statistic/caste/religion label
+lohaitkuris,not_place,,,,high,heading/statistic/caste/religion label
+loia,not_place,,,,high,heading/statistic/caste/religion label
+lushai,not_place,,,,high,heading/statistic/caste/religion label
+magar,not_place,,,,high,heading/statistic/caste/religion label
+magh,not_place,,,,high,heading/statistic/caste/religion label
+mahaliaa,not_place,,,,high,heading/statistic/caste/religion label
+mahanta,not_place,,,,high,heading/statistic/caste/religion label
+maharas,not_place,,,,high,heading/statistic/caste/religion label
+mahesti,not_place,,,,high,heading/statistic/caste/religion label
+maheshyavaisyaa,not_place,,,,high,heading/statistic/caste/religion label
+mahili,not_place,,,,high,heading/statistic/caste/religion label
+mahimals,not_place,,,,high,heading/statistic/caste/religion label
+mal,not_place,,,,high,heading/statistic/caste/religion label
+malip,not_place,,,,high,heading/statistic/caste/religion label
+malos,not_place,,,,high,heading/statistic/caste/religion label
+malpaharia,not_place,,,,high,heading/statistic/caste/religion label
+mana,not_place,,,,high,heading/statistic/caste/religion label
+manipurip,not_place,,,,high,heading/statistic/caste/religion label
+manjhi,not_place,,,,high,heading/statistic/caste/religion label
+mar,not_place,,,,high,heading/statistic/caste/religion label
+markande,not_place,,,,high,heading/statistic/caste/religion label
+marua,not_place,,,,high,heading/statistic/caste/religion label
+mataka,not_place,,,,high,heading/statistic/caste/religion label
+maulik,not_place,,,,high,heading/statistic/caste/religion label
+mayaras,not_place,,,,high,heading/statistic/caste/religion label
+mecha,not_place,,,,high,heading/statistic/caste/religion label
+mehtar,not_place,,,,high,heading/statistic/caste/religion label
+mekuria,not_place,,,,high,heading/statistic/caste/religion label
+mikira,not_place,,,,high,heading/statistic/caste/religion label
+sylhetnamasudrachandal,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,high,subset: caste Namasudra
+nowgongdomnadiyal,district,Nowgong District,Assam,IND/Assam/Nagaon;IND/Assam/Morigaon,high,subset: caste Dom (Nadiyal)
+sibsagarprahman,district,Sibsagar District,Assam,IND/Assam/Sivasagar;IND/Assam/Jorhat;IND/Assam/Golaghat,high,subset: caste Brahman (OCR Prahman)
+dhai,not_place,,,,high,heading/statistic/caste/religion label
+dhenuar,not_place,,,,high,heading/statistic/caste/religion label
+dhobas,not_place,,,,high,heading/statistic/caste/religion label
+dholis,not_place,,,,high,heading/statistic/caste/religion label
+dhunia,not_place,,,,high,heading/statistic/caste/religion label
+doaniyaa,not_place,,,,high,heading/statistic/caste/religion label
+dogra,not_place,,,,high,heading/statistic/caste/religion label
+dosadh,not_place,,,,high,heading/statistic/caste/religion label
+fakirp,not_place,,,,high,heading/statistic/caste/religion label
+gadharia,not_place,,,,high,heading/statistic/caste/religion label
+ahom,not_place,,,,high,heading/statistic/caste/religion label
+khamti,not_place,,,,high,heading/statistic/caste/religion label
+ahomhindubrahmaputravalley,natural_division,Brahmaputra Valley,Assam,,medium,subset: caste Ahom
+baidyahinduassam,province,Assam,,,medium,subset: caste Baidya
+baroihindusurmavalley,natural_division,Surma Valley,Assam,,medium,subset: caste Baroi
+bhuinmalihindusylhet,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,medium,subset: caste Bhuinmali
+brahmanhinduassam,province,Assam,,,medium,subset: caste Brahman
+chutiahinduupperbrahmaputravalley,natural_division,Upper Brahmaputra Valley,Assam,,medium,subset: caste Chutia (Hindu)
+chutiaanimisticupperbrahmaputravalley,natural_division,Upper Brahmaputra Valley,Assam,,medium,subset: caste Chutia (Animistic)
+dhobahindusylhet,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,medium,subset: caste Dhoba
+goalahinduassam,province,Assam,,,medium,subset: caste Goala
+jogihinduassam,province,Assam,,,medium,subset: caste Jogi
+kaibarttachasihindumahishyaassam,province,Assam,,,medium,subset: caste Kaibartta Chasi
+kacharihinduassam,province,Assam,,,medium,subset: caste Kachari (Hindu)
+kacharianimisticbrahmaputravalley,natural_division,Brahmaputra Valley,Assam,,medium,subset: caste Kachari (Animistic)
+kalitahindubrahmaputravalley,natural_division,Brahmaputra Valley,Assam,,medium,subset: caste Kalita
+kamarhinduassam,province,Assam,,,medium,subset: caste Kamar
+kayasthahinduassam,province,Assam,,,medium,subset: caste Kayastha
+kewathindubrahmaputravalley,natural_division,Brahmaputra Valley,Assam,,medium,subset: caste Kewat
+kochhindubrahmaputravalley,natural_division,Brahmaputra Valley,Assam,,medium,subset: caste Koch
+kumharhinduassam,province,Assam,,,medium,subset: caste Kumhar
+malohindusylhet,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,medium,subset: caste Malo
+manipurihindukshattriyaassam,province,Assam,,,medium,subset: caste Manipuri
+mikirhindubrahmaputravalley,natural_division,Brahmaputra Valley,Assam,,medium,subset: caste Mikir
+nadiyalhindubrahmaputravalley,natural_division,Brahmaputra Valley,Assam,,medium,subset: caste Nadiyal
+namasudrahinduassam,province,Assam,,,medium,subset: caste Namasudra
+napithinduassam,province,Assam,,,medium,subset: caste Napit
+patnihindusurmavalley,natural_division,Surma Valley,Assam,,medium,subset: caste Patni
+rajbansihindugoalpara,district,Goalpara District,Assam,IND/Assam/Goalpara;IND/Assam/Dhubri;IND/Assam/Kokrajhar;IND/Assam/Bongaigaon;IND/Assam/Chirang,medium,subset: caste Rajbansi
+sudrahindusylhet,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,medium,subset: caste Sudra
+sutradharhinduassam,province,Assam,,,medium,subset: caste Sutradhar
+tantihindusibsagarandlakhimpur,aggregate,Sibsagar and Lakhimpur Districts,Assam,,medium,subset: caste Tanti
+telihindusylhet,district,Sylhet District,Assam,BGD/Sylhet/Sylhet;BGD/Sylhet/Habiganj;BGD/Sylhet/Maulvibazar;BGD/Sylhet/Sunamganj;IND/Assam/Karimganj,medium,subset: caste Teli
+britishterritorydependents,aggregate,British Territory,Assam,,medium,subset: dependents; British districts of Assam
+manipurstatedependents,princely_state,Manipur State,Assam,IND/Manipur/Bishnupur;IND/Manipur/Chandel;IND/Manipur/Churachandpur;IND/Manipur/ImphalEast;IND/Manipur/ImphalWest;IND/Manipur/Senapati;IND/Manipur/Tamenglong;IND/Manipur/Thoubal;IND/Manipur/Ukhrul,high,subset: dependents
+assamrecordedagesperpersons,not_place,,,,high,heading/statistic/caste/religion label
+assamteagardensonly,province,Assam,,,high,subset: tea gardens only
+wholeofassamasrecorded,province,Assam,,,high,subset: as recorded
+assamwithteagardenseliminated,province,Assam,,,high,subset: excl. tea gardens
+eastbengalimmigrants,not_place,,,,high,heading/statistic/caste/religion label
+assamwithteaandeasternbengalimmigrantsbotheliminated,province,Assam,,,high,subset: excl. tea & E. Bengal immigrants
+proportionoffemalestomalesexcludingwholeofforeignborn,not_place,,,,high,heading/statistic/caste/religion label
+proportionoffemalestomalesexcludingteagardens,not_place,,,,high,heading/statistic/caste/religion label
+proportionoffemalestomalesexcludingteagardenscontinued,not_place,,,,high,heading/statistic/caste/religion label
+distributionofcivilconditionbyagesingle,not_place,,,,high,heading/statistic/caste/religion label
+distributionofcivilconditionbyagemarried,not_place,,,,high,heading/statistic/caste/religion label
+distributionofcivilconditionbyagewidowed,not_place,,,,high,heading/statistic/caste/religion label
+distributionofagebycivilconditionsingle,not_place,,,,high,heading/statistic/caste/religion label
+distributionofagebycivilconditionmarried,not_place,,,,high,heading/statistic/caste/religion label
+distributionofagebycivilconditionwidowed,not_place,,,,high,heading/statistic/caste/religion label
+distributionofconditionbyagesingle,not_place,,,,high,heading/statistic/caste/religion label
+distributionofconditionbyagemarried,not_place,,,,high,heading/statistic/caste/religion label
+distributionofconditionbyagewidowed,not_place,,,,high,heading/statistic/caste/religion label
+distributionofagebyconditionsingle,not_place,,,,high,heading/statistic/caste/religion label
+distributionofagebyconditionmarried,not_place,,,,high,heading/statistic/caste/religion label
+distributionofagebyconditionwidowed,not_place,,,,high,heading/statistic/caste/religion label
+percentageofimmigrantsborninprincipalareasofrecruitment,not_place,,,,high,heading/statistic/caste/religion label
+outofpersonsnumberaged,not_place,,,,high,heading/statistic/caste/religion label
+khasisandsantengs,not_place,,,,high,heading/statistic/caste/religion label
+kamrupcontdahimistic,district,Kamrup District,Assam,IND/Assam/Kamrup;IND/Assam/KamrupMetropolitan;IND/Assam/Barpeta;IND/Assam/Nalbari;IND/Assam/Baksa,high,subset: Animistic (OCR 'Ahimistic')
+tablexiiinfilmitiespartidistributionbyage,not_place,,,,high,heading/statistic/caste/religion label
+appendixitotablexiiiconcludeddetailsofcastesincludedinminorcastespartbmusalmans,not_place,,,,high,heading/statistic/caste/religion label
+headminorreligionsincludesfollowing,not_place,,,,high,heading/statistic/caste/religion label
+righthalfagesandover,not_place,,,,high,heading/statistic/caste/religion label
+tablevdistributionoffemalesofeachagebycivilcondition,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiinumberoffemalespermalesatdifferentageperiodsbyreligionandnaturaldivisioncensusof,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytablevinumberofdeathsofeachsexatdifferentageperiods,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingchangesinpopulationofeachsubdivisionofdarrang,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingchangesinpopulationofeachsubdivisionofsylhet,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingchangesinpopulationofeachsubdivisionofcacharplains,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingtotalnumberofpersonsmaleandfemalereturnedateachageperiod,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingaveragenumberoffemalesateachagetomalesofsameage,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingdistributionoftotalpopulationateachagebycivilcondition,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingnumberofmarriedsingleandwidowedbuddhistsateachageperiod,not_place,,,,high,heading/statistic/caste/religion label
+marriage,not_place,,,,high,heading/statistic/caste/religion label
+inregardtomarriageisshowninstatementnobelow,not_place,,,,high,heading/statistic/caste/religion label
+statementnoshowingnumberofmarriedsingleandwidowedchristiansateachageperiod,not_place,,,,high,heading/statistic/caste/religion label
+marriageamongsthindus,not_place,,,,high,heading/statistic/caste/religion label
+tribal,not_place,,,,high,heading/statistic/caste/religion label
+proportionofunmarriedpermilleofeachsexincertainagegroups,not_place,,,,high,heading/statistic/caste/religion label
+detailsofothersinparti,not_place,,,,high,heading/statistic/caste/religion label
+literacystandardofmanipur,not_place,,,,high,heading/statistic/caste/religion label
+settlementofgardencoolies,not_place,,,,high,heading/statistic/caste/religion label
+outofpersonsofeachsexnumberaged,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableivnumberofbooksregisteredinassamduringtenyearsfromto,not_place,,,,high,heading/statistic/caste/religion label
+educationbyage,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableivproportionoffemalesafflictedtomalesateachage,not_place,,,,high,heading/statistic/caste/religion label
+amat,not_place,,,,high,heading/statistic/caste/religion label
+chasa,not_place,,,,high,heading/statistic/caste/religion label
+chaudhari,not_place,,,,high,heading/statistic/caste/religion label
+chhatri,not_place,,,,high,heading/statistic/caste/religion label
+chunari,not_place,,,,high,heading/statistic/caste/religion label
+chutiyaatotal,not_place,,,,high,heading/statistic/caste/religion label
+daflaa,not_place,,,,high,heading/statistic/caste/religion label
+gain,not_place,,,,high,heading/statistic/caste/religion label
+ganakp,not_place,,,,high,heading/statistic/caste/religion label
+gandapalp,not_place,,,,high,heading/statistic/caste/religion label
+gandhabanikp,not_place,,,,high,heading/statistic/caste/religion label
+gandhar,not_place,,,,high,heading/statistic/caste/religion label
+gangota,not_place,,,,high,heading/statistic/caste/religion label
+ganjhu,not_place,,,,high,heading/statistic/caste/religion label
+gareri,not_place,,,,high,heading/statistic/caste/religion label
+garoa,not_place,,,,high,heading/statistic/caste/religion label
+gharti,not_place,,,,high,heading/statistic/caste/religion label
+ghasi,not_place,,,,high,heading/statistic/caste/religion label
+hiraa,not_place,,,,high,heading/statistic/caste/religion label
+hojaip,not_place,,,,high,heading/statistic/caste/religion label
+jaisi,not_place,,,,high,heading/statistic/caste/religion label
+jaiswar,not_place,,,,high,heading/statistic/caste/religion label
+jaladhaa,not_place,,,,high,heading/statistic/caste/religion label
+jharuap,not_place,,,,high,heading/statistic/caste/religion label
+jhora,not_place,,,,high,heading/statistic/caste/religion label
+jimdar,not_place,,,,high,heading/statistic/caste/religion label
+jolaha,not_place,,,,high,heading/statistic/caste/religion label
+jugiptotal,not_place,,,,high,heading/statistic/caste/religion label
+populationofassambuddhists,province,Assam,,,high,subset: Buddhists (section header)
+populationofassamsikhs,province,Assam,,,high,subset: Sikhs (section header)
+tribesinassammikirs,not_place,,,,high,heading/statistic/caste/religion label
+populationofassamallreligions,province,Assam,,,high,subset: all religions (section header)
+populationofassamhindus,province,Assam,,,high,subset: Hindus (section header)
+tableaproportiontototalpopulationofnumbersateachageperiodmalefemaleandtotal,not_place,,,,high,heading/statistic/caste/religion label
+tableillustrativeofdiagramc,not_place,,,,high,heading/statistic/caste/religion label
+tableillustrativeofdiagramf,not_place,,,,high,heading/statistic/caste/religion label
+distributionofthesetribesisasfollows,not_place,,,,high,heading/statistic/caste/religion label
+shantribes,not_place,,,,high,heading/statistic/caste/religion label
+tribesofmountainseastofbhutan,not_place,,,,high,heading/statistic/caste/religion label
+numberofkochofallkindsinassamvalleyinand,not_place,,,,high,heading/statistic/caste/religion label
+numberofchutiyasinassamvalleyinand,not_place,,,,high,heading/statistic/caste/religion label
+tablexvlepersbyages,not_place,,,,high,heading/statistic/caste/religion label
+tableviiicivilconditionbyreligionandagepartcmusalman,not_place,,,,high,heading/statistic/caste/religion label
+cacharplainscontdmuhammadan,district,Cachar District,Assam,IND/Assam/Cachar;IND/Assam/Hailakandi,high,subset: Muhammadan
+provincialtableiiibirthplacesofteagardenpopulation,not_place,,,,high,heading/statistic/caste/religion label
+livelihoodclasses,not_place,,,,high,heading/statistic/caste/religion label
+assamplain,natural_division,Assam Plains Division,Assam,,high,from table title
+mortalityratededucedfromcensusof,not_place,,,,high,heading/statistic/caste/religion label
+dno,not_place,,,,high,heading/statistic/caste/religion label
+ipopulation,not_place,,,,high,heading/statistic/caste/religion label
+iipopulation,not_place,,,,high,heading/statistic/caste/religion label
+iiipopulationagedandoversurvivorsinofpopulationin,not_place,,,,high,heading/statistic/caste/religion label
+ivdeathsataverageageandoverbetweencensusofandiiii,not_place,,,,high,heading/statistic/caste/religion label
+vregistereddeathsagedandover,not_place,,,,high,heading/statistic/caste/religion label
+viregistereddeathsallages,not_place,,,,high,heading/statistic/caste/religion label
+viiestimateddeathsallagesvixivv,not_place,,,,high,heading/statistic/caste/religion label
+viiiestimatedaverageannualdeathrateviiiii,not_place,,,,high,heading/statistic/caste/religion label
+ixregisteredaverageannualdeathrateviiii,not_place,,,,high,heading/statistic/caste/religion label
+xestimatedaverageannualbirthrateiiiviiiii,not_place,,,,high,heading/statistic/caste/religion label
+xiregisteredbirths,not_place,,,,high,heading/statistic/caste/religion label
+xiiregisteredaverageannualbirthratexiiii,not_place,,,,high,heading/statistic/caste/religion label
+mortalityratededucedfromcensusofq,not_place,,,,high,heading/statistic/caste/religion label
+dne,not_place,,,,high,heading/statistic/caste/religion label
+serampur,sub_district,Serampore Subdivision,Bengal,IND/WestBengal/Hugli,high,subdivision of Hooghly
+arambagh,sub_district,Arambagh Subdivision,Bengal,IND/WestBengal/Hugli,high,subdivision of Hooghly
+hilltipperah,princely_state,Hill Tippera State,Bengal,IND/Tripura/Dhalai;IND/Tripura/Gomati;IND/Tripura/Khowai;IND/Tripura/NorthTripura;IND/Tripura/Sipahijala;IND/Tripura/SouthTripura;IND/Tripura/Unokoti;IND/Tripura/WestTripura,high,Hill Tippera = Tripura
+fureedpore,district,Faridpur District,Bengal,BGD/Dhaka/Faridpur;BGD/Dhaka/Rajbari;BGD/Dhaka/Gopalganj;BGD/Dhaka/Madaripur;BGD/Dhaka/Shariatpur,high,Fureedpore=Faridpur; split
+tributarystateschotanagpore,aggregate,Chota Nagpur Tributary States,Bengal,,high,group of tributary states
+shaha,not_place,,,,high,heading/statistic/caste/religion label
+agarwala,not_place,,,,high,heading/statistic/caste/religion label
+jugiorjogi,not_place,,,,high,heading/statistic/caste/religion label
+chasikaibarttamahisya,not_place,,,,high,heading/statistic/caste/religion label
+koch,not_place,,,,high,heading/statistic/caste/religion label
+jaliakaibarttaadikaibartta,not_place,,,,high,heading/statistic/caste/religion label
+santalhindu,not_place,,,,high,heading/statistic/caste/religion label
+santalanimist,not_place,,,,high,heading/statistic/caste/religion label
+tiparahindu,not_place,,,,high,heading/statistic/caste/religion label
+chakmabuddhist,not_place,,,,high,heading/statistic/caste/religion label
+orissastates,aggregate,Orissa States,Bihar and Orissa,,high,group of feudatory states
+oraon,not_place,,,,high,heading/statistic/caste/religion label
+kharwar,not_place,,,,high,heading/statistic/caste/religion label
+munda,not_place,,,,high,heading/statistic/caste/religion label
+bhogta,not_place,,,,high,heading/statistic/caste/religion label
+hoorkol,not_place,,,,high,heading/statistic/caste/religion label
+santalofsantalparganas,district,Santal Parganas District,Bengal,IND/Jharkhand/Dumka;IND/Jharkhand/Deoghar;IND/Jharkhand/Godda;IND/Jharkhand/Sahibganj;IND/Jharkhand/Pakur;IND/Jharkhand/Jamtara,medium,subset: Santal tribe
+khambu,not_place,,,,high,heading/statistic/caste/religion label
+newar,not_place,,,,high,heading/statistic/caste/religion label
+gurung,not_place,,,,high,heading/statistic/caste/religion label
+mangar,not_place,,,,high,heading/statistic/caste/religion label
+murmi,not_place,,,,high,heading/statistic/caste/religion label
+calcuttaproper,city_section,Calcutta Proper,Bengal,IND/WestBengal/Kolkata,high,
+oldtownarea,city_section,Calcutta Old Town Area,Bengal,IND/WestBengal/Kolkata,high,
+wardshampooker,city_section,Shampooker Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+koomartolly,city_section,Koomartolly Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+burtolla,city_section,Burtolla Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+sookeasstreet,city_section,Sookea's Street Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+jorabagan,city_section,Jorabagan Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+jorasanko,city_section,Jorasanko Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+burrabazar,city_section,Burra Bazar Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+colootola,city_section,Colootola Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+moocheepara,city_section,Moocheepara Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+bowbazar,city_section,Bow Bazar Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+puddopooker,city_section,Puddopooker Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+waterloostreet,city_section,Waterloo Street Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+fenwickbazar,city_section,Fenwick Bazar Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+taltolla,city_section,Taltolla Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+colinga,city_section,Colinga Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+parkstreet,city_section,Park Street Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+bamunbustee,city_section,Bamun Bustee Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+hastings,city_section,Hastings Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+addedarea,city_section,Calcutta Added Area,Bengal,IND/WestBengal/Kolkata,high,area added to Calcutta 1888
+wardentally,city_section,Entally Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+baniapooker,city_section,Baniapooker Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+ballygungeandtollygunge,city_section,Ballygunge and Tollygunge Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+bhowanipore,city_section,Bhowanipore Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+alipore,city_section,Alipore Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+ekbalpore,city_section,Ekbalpore Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+watgunge,city_section,Watgunge Ward,Bengal,IND/WestBengal/Kolkata,high,Calcutta ward (1891)
+ooltadangah,city_section,Ooltadangah,Bengal,IND/WestBengal/Kolkata,medium,Calcutta suburban section (1891); now within Kolkata
+manicktollah,city_section,Manicktollah,Bengal,IND/WestBengal/Kolkata,medium,Calcutta suburban section (1891); now within Kolkata
+balliaghatta,city_section,Balliaghatta,Bengal,IND/WestBengal/Kolkata,medium,Calcutta suburban section (1891); now within Kolkata
+fortwilliamandmaidan,city_section,Fort William and Maidan,Bengal,IND/WestBengal/Kolkata,high,
+insidefort,city_section,Fort William (inside fort),Bengal,IND/WestBengal/Kolkata,medium,
+outsidefort,city_section,Fort William (outside fort),Bengal,IND/WestBengal/Kolkata,medium,
+waterarea,city_section,Calcutta Water Area,Bengal,IND/WestBengal/Kolkata,medium,
+port,city_section,Calcutta Port,Bengal,IND/WestBengal/Kolkata,medium,Calcutta 1891 Table VI section
+canals,city_section,Calcutta Canals,Bengal,IND/WestBengal/Kolkata,medium,Calcutta 1891 Table VI section
+cossiporeandchitpore,city_section,Cossipore and Chitpore,Bengal,IND/WestBengal/Kolkata,medium,Calcutta suburban section (1891); now within Kolkata
+births,not_place,,,,high,heading/statistic/caste/religion label
+ofbritishnationality,not_place,,,,high,heading/statistic/caste/religion label
+excessordeficiencyofimmigrantstooveremigrantsfrombengalbritishandstates,not_place,,,,high,heading/statistic/caste/religion label
+excessordeficiencyofimmigrantstooveremigrantsfrombengalbritish,not_place,,,,high,heading/statistic/caste/religion label
+excessordeficiencyofimmigrantstooveremigrantsfrombengalstates,not_place,,,,high,heading/statistic/caste/religion label
+forms,not_place,,,,high,heading/statistic/caste/religion label
+cultivated,not_place,,,,high,heading/statistic/caste/religion label
+cultivablewaste,not_place,,,,high,heading/statistic/caste/religion label
+irrigatedfromcanals,not_place,,,,high,heading/statistic/caste/religion label
+acre,not_place,,,,high,heading/statistic/caste/religion label
+calcuttawithsuburbsinparganas,town,Calcutta,Bengal,IND/WestBengal/Kolkata,high,with suburbs in 24-Parganas
+daccacity,town,Dacca,Bengal,BGD/Dhaka/Dhaka,high,Dacca=Dhaka
+crudefiguresforbengal,province,Bengal,,,medium,subset: crude figures
+adjustedfiguresforbengal,province,Bengal,,,medium,subset: adjusted figures
+correctedfiguresfordaccacity,town,Dacca,Bengal,BGD/Dhaka/Dhaka,medium,subset: corrected figures
+uxpxpxx,not_place,,,,high,heading/statistic/caste/religion label
+calcuttadependants,town,Calcutta,Bengal,IND/WestBengal/Kolkata,high,subset: dependants
+suburbsdependants,city_section,Calcutta Suburbs,Bengal,IND/WestBengal/Kolkata;IND/WestBengal/North24Parganas;IND/WestBengal/South24Parganas,medium,subset: dependants
+percentageofmalesintotalpopulation,not_place,,,,high,heading/statistic/caste/religion label
+percentageofmalesinhindupopulation,not_place,,,,high,heading/statistic/caste/religion label
+percentageofmalesinmuhammadanpopulation,not_place,,,,high,heading/statistic/caste/religion label
+burdwananimist,district,Burdwan District,Bengal,IND/WestBengal/Barddhaman,high,subset: animist
+birbhumalltotal,district,Birbhum District,Bengal,IND/WestBengal/Birbhum,high,subset: alltotal
+birbhumhindu,district,Birbhum District,Bengal,IND/WestBengal/Birbhum,high,subset: hindu
+birbhummusalman,district,Birbhum District,Bengal,IND/WestBengal/Birbhum,high,subset: musalman
+birbhumanimist,district,Birbhum District,Bengal,IND/WestBengal/Birbhum,high,subset: animist
+bankuraalltotal,district,Bankura District,Bengal,IND/WestBengal/Bankura,high,subset: alltotal
+bankuramusalman,district,Bankura District,Bengal,IND/WestBengal/Bankura,high,subset: musalman
+bankuraanimist,district,Bankura District,Bengal,IND/WestBengal/Bankura,high,subset: animist
+midnaporealltotal,district,Midnapore District,Bengal,IND/WestBengal/PashchimMedinipur;IND/WestBengal/PurbaMedinipur,high,subset: alltotal
+midnaporemusalman,district,Midnapore District,Bengal,IND/WestBengal/PashchimMedinipur;IND/WestBengal/PurbaMedinipur,high,subset: musalman
+nadiahindu,district,Nadia District,Bengal,IND/WestBengal/Nadia;BGD/Khulna/Kushtia;BGD/Khulna/Chuadanga;BGD/Khulna/Meherpur,high,subset: hindu
+nadiamusalman,district,Nadia District,Bengal,IND/WestBengal/Nadia;BGD/Khulna/Kushtia;BGD/Khulna/Chuadanga;BGD/Khulna/Meherpur,high,subset: musalman
+murshidabadalltotal,district,Murshidabad District,Bengal,IND/WestBengal/Murshidabad,high,subset: alltotal
+murshidabadhindu,district,Murshidabad District,Bengal,IND/WestBengal/Murshidabad,high,subset: hindu
+murshidabadmusalman,district,Murshidabad District,Bengal,IND/WestBengal/Murshidabad,high,subset: musalman
+murshidabadanimist,district,Murshidabad District,Bengal,IND/WestBengal/Murshidabad,high,subset: animist
+jessorealltotal,district,Jessore District,Bengal,BGD/Khulna/Jessore;BGD/Khulna/Jhenaidah;BGD/Khulna/Magura;BGD/Khulna/Narail;IND/WestBengal/North24Parganas,high,subset: alltotal
+jessorehindu,district,Jessore District,Bengal,BGD/Khulna/Jessore;BGD/Khulna/Jhenaidah;BGD/Khulna/Magura;BGD/Khulna/Narail;IND/WestBengal/North24Parganas,high,subset: hindu
+jessoremusalman,district,Jessore District,Bengal,BGD/Khulna/Jessore;BGD/Khulna/Jhenaidah;BGD/Khulna/Magura;BGD/Khulna/Narail;IND/WestBengal/North24Parganas,high,subset: musalman
+khulnaalltotalallreligions,district,Khulna District,Bengal,BGD/Khulna/Khulna;BGD/Khulna/Bagerhat;BGD/Khulna/Satkhira,high,subset: alltotalallreligions
+khulnaalltotalkhulna,district,Khulna District,Bengal,BGD/Khulna/Khulna;BGD/Khulna/Bagerhat;BGD/Khulna/Satkhira,high,subset: alltotalkhulna
+khulnahinduhindu,district,Khulna District,Bengal,BGD/Khulna/Khulna;BGD/Khulna/Bagerhat;BGD/Khulna/Satkhira,high,subset: hinduhindu
+khulnahindukhulna,district,Khulna District,Bengal,BGD/Khulna/Khulna;BGD/Khulna/Bagerhat;BGD/Khulna/Satkhira,high,subset: hindukhulna
+khulnamusalmanmuslim,district,Khulna District,Bengal,BGD/Khulna/Khulna;BGD/Khulna/Bagerhat;BGD/Khulna/Satkhira,high,subset: musalmanmuslim
+khulnamusalmankhulna,district,Khulna District,Bengal,BGD/Khulna/Khulna;BGD/Khulna/Bagerhat;BGD/Khulna/Satkhira,high,subset: musalmankhulna
+khulnaanimist,district,Khulna District,Bengal,BGD/Khulna/Khulna;BGD/Khulna/Bagerhat;BGD/Khulna/Satkhira,high,subset: animist
+dinajpuralltotal,district,Dinajpur District,Bengal,BGD/Rangpur/Dinajpur;BGD/Rangpur/Thakurgaon;BGD/Rangpur/Panchagarh;IND/WestBengal/DakshinDinajpur;IND/WestBengal/UttarDinajpur,high,subset: alltotal
+dinajpurhindu,district,Dinajpur District,Bengal,BGD/Rangpur/Dinajpur;BGD/Rangpur/Thakurgaon;BGD/Rangpur/Panchagarh;IND/WestBengal/DakshinDinajpur;IND/WestBengal/UttarDinajpur,high,subset: hindu
+dinajpurmusalman,district,Dinajpur District,Bengal,BGD/Rangpur/Dinajpur;BGD/Rangpur/Thakurgaon;BGD/Rangpur/Panchagarh;IND/WestBengal/DakshinDinajpur;IND/WestBengal/UttarDinajpur,high,subset: musalman
+dinajpuranimist,district,Dinajpur District,Bengal,BGD/Rangpur/Dinajpur;BGD/Rangpur/Thakurgaon;BGD/Rangpur/Panchagarh;IND/WestBengal/DakshinDinajpur;IND/WestBengal/UttarDinajpur,high,subset: animist
+midnaporeanimist,district,Midnapore District,Bengal,IND/WestBengal/PashchimMedinipur;IND/WestBengal/PurbaMedinipur,high,subset: animist
+hooghlyalltotal,district,Hooghly District,Bengal,IND/WestBengal/Hugli,high,subset: alltotal
+hooghlymusalman,district,Hooghly District,Bengal,IND/WestBengal/Hugli,high,subset: musalman
+hooghlyanimist,district,Hooghly District,Bengal,IND/WestBengal/Hugli,high,subset: animist
+howrahalltotal,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: alltotal
+jalpaigurialltotal,district,Jalpaiguri District,Bengal,IND/WestBengal/Jalpaiguri;IND/WestBengal/Alipurduar,high,subset: alltotal
+jalpaigurihindu,district,Jalpaiguri District,Bengal,IND/WestBengal/Jalpaiguri;IND/WestBengal/Alipurduar,high,subset: hindu
+jalpaigurimusalman,district,Jalpaiguri District,Bengal,IND/WestBengal/Jalpaiguri;IND/WestBengal/Alipurduar,high,subset: musalman
+jalpaigurianimist,district,Jalpaiguri District,Bengal,IND/WestBengal/Jalpaiguri;IND/WestBengal/Alipurduar,high,subset: animist
+rangpuralltotal,district,Rangpur District,Bengal,BGD/Rangpur/Rangpur;BGD/Rangpur/Gaibandha;BGD/Rangpur/Kurigram;BGD/Rangpur/Lalmonirhat;BGD/Rangpur/Nilphamari,high,subset: alltotal
+rangpurhindu,district,Rangpur District,Bengal,BGD/Rangpur/Rangpur;BGD/Rangpur/Gaibandha;BGD/Rangpur/Kurigram;BGD/Rangpur/Lalmonirhat;BGD/Rangpur/Nilphamari,high,subset: hindu
+rangpurmusalman,district,Rangpur District,Bengal,BGD/Rangpur/Rangpur;BGD/Rangpur/Gaibandha;BGD/Rangpur/Kurigram;BGD/Rangpur/Lalmonirhat;BGD/Rangpur/Nilphamari,high,subset: musalman
+bograalltotal,district,Bogra District,Bengal,BGD/Rajshahi/Bogra;BGD/Rajshahi/Joypurhat,high,subset: alltotal
+mymensinghhindu,district,Mymensingh District,Bengal,BGD/Mymensingh/Mymensingh;BGD/Mymensingh/Jamalpur;BGD/Mymensingh/Sherpur;BGD/Mymensingh/Netrakona;BGD/Dhaka/Kishoreganj;BGD/Dhaka/Tangail,high,subset: hindu
+mymensinghanimist,district,Mymensingh District,Bengal,BGD/Mymensingh/Mymensingh;BGD/Mymensingh/Jamalpur;BGD/Mymensingh/Sherpur;BGD/Mymensingh/Netrakona;BGD/Dhaka/Kishoreganj;BGD/Dhaka/Tangail,high,subset: animist
+faridpuralltotal,district,Faridpur District,Bengal,BGD/Dhaka/Faridpur;BGD/Dhaka/Rajbari;BGD/Dhaka/Gopalganj;BGD/Dhaka/Madaripur;BGD/Dhaka/Shariatpur,high,subset: alltotal
+faridpurhindu,district,Faridpur District,Bengal,BGD/Dhaka/Faridpur;BGD/Dhaka/Rajbari;BGD/Dhaka/Gopalganj;BGD/Dhaka/Madaripur;BGD/Dhaka/Shariatpur,high,subset: hindu
+faridpurmusalman,district,Faridpur District,Bengal,BGD/Dhaka/Faridpur;BGD/Dhaka/Rajbari;BGD/Dhaka/Gopalganj;BGD/Dhaka/Madaripur;BGD/Dhaka/Shariatpur,high,subset: musalman
+faridpurchristian,district,Faridpur District,Bengal,BGD/Dhaka/Faridpur;BGD/Dhaka/Rajbari;BGD/Dhaka/Gopalganj;BGD/Dhaka/Madaripur;BGD/Dhaka/Shariatpur,high,subset: christian
+bakarganjalltotal,district,Bakarganj District,Bengal,BGD/Barisal/Barisal;BGD/Barisal/Barguna;BGD/Barisal/Bhola;BGD/Barisal/Jhalokati;BGD/Barisal/Patuakhali;BGD/Barisal/Pirojpur,high,subset: alltotal
+bakarganjhindu,district,Bakarganj District,Bengal,BGD/Barisal/Barisal;BGD/Barisal/Barguna;BGD/Barisal/Bhola;BGD/Barisal/Jhalokati;BGD/Barisal/Patuakhali;BGD/Barisal/Pirojpur,high,subset: hindu
+bakarganjmusalman,district,Bakarganj District,Bengal,BGD/Barisal/Barisal;BGD/Barisal/Barguna;BGD/Barisal/Bhola;BGD/Barisal/Jhalokati;BGD/Barisal/Patuakhali;BGD/Barisal/Pirojpur,high,subset: musalman
+bakarganjbuddhist,district,Bakarganj District,Bengal,BGD/Barisal/Barisal;BGD/Barisal/Barguna;BGD/Barisal/Bhola;BGD/Barisal/Jhalokati;BGD/Barisal/Patuakhali;BGD/Barisal/Pirojpur,high,subset: buddhist
+tipperaalltotal,district,Tippera District,Bengal,BGD/Chittagong/Comilla;BGD/Chittagong/Chandpur;BGD/Chittagong/Brahamanbaria,high,subset: alltotal
+tipperamusalman,district,Tippera District,Bengal,BGD/Chittagong/Comilla;BGD/Chittagong/Chandpur;BGD/Chittagong/Brahamanbaria,high,subset: musalman
+noviothersmarried,not_place,,,,high,heading/statistic/caste/religion label
+livelihoodpartageneraltable,not_place,,,,high,heading/statistic/caste/religion label
+sakta,not_place,,,,high,heading/statistic/caste/religion label
+swetambari,not_place,,,,high,heading/statistic/caste/religion label
+statementnoibirthsanddeathsincoochbeharstate,not_place,,,,high,heading/statistic/caste/religion label
+statementnoiiinumbersofbothsexesenumeratedinchandernagorewhowereborninbritishindiaandofbritishnationality,not_place,,,,high,heading/statistic/caste/religion label
+statementnoivnumbersofandoverageshownineachofsamesexinadministrativedivisions,not_place,,,,high,heading/statistic/caste/religion label
+statementnoivnumbersofandoverageshownineachofsamesexineachmainreligion,not_place,,,,high,heading/statistic/caste/religion label
+statementnoivagedistributionofofeachsexinbengalandotherprovinces,not_place,,,,high,heading/statistic/caste/religion label
+northbengalrajshahidivisionandcoochbehar,natural_division,North Bengal,Bengal,,high,Rajshahi Division + Cooch Behar
+eastbengaldaccadivision,natural_division,East Bengal,Bengal,,high,Dacca Division
+eastbengalchittagongdivisionandtripurastate,natural_division,East Bengal,Bengal,,high,Chittagong Division + Tripura State
+statementnovfemalespermalesofsameagegroupsbynaturaldivisions,not_place,,,,high,heading/statistic/caste/religion label
+statementnov,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiinumberoffemalespermalesofsameagegroupinmainreligionsallbengaland,not_place,,,,high,heading/statistic/caste/religion label
+westbengalburdwandivision,natural_division,West Bengal,Bengal,,high,Burdwan Division
+statementnoviinumberofpupilsindeafanddumbschoolsinbengalinfebruarybysexandagegroup,not_place,,,,high,heading/statistic/caste/religion label
+diagramnovii,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiidistributionbyagegroupsofofeachsexinsanedeafmuteblindorlepertoinsaneanddeafmute,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiidistributionbyagegroupsofofeachsexinsanedeafmuteblindorlepertoblindandleper,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiiinsanedeafmuteblindandlepersperoftotalpopulationofsamesexandagegroupandfemalesinsanedeafmuteetcpermalesinsanedeafmuteetcofsameagegroup,not_place,,,,high,heading/statistic/caste/religion label
+statementnoviipatientsfrombengalinranchimentalhospitalsonthfebruarybysexandbirthplace,not_place,,,,high,heading/statistic/caste/religion label
+statementnoviipatientsfrombengalinranchimentalhospitalsonthfebruarybysexandage,not_place,,,,high,heading/statistic/caste/religion label
+statementnoviinumberofpupilsindeafanddumbschoolsinbengalinfebruarybysexandbirthplace,not_place,,,,high,heading/statistic/caste/religion label
+statementnovi,not_place,,,,high,heading/statistic/caste/religion label
+statementnovidistributionbymaritalconditionofofeachsexinsameagegroup,not_place,,,,high,heading/statistic/caste/religion label
+statementnovinumbersunmarriedmarriedandwidowedperofsamesexandagegroupenglandandwales,not_place,,,,high,heading/statistic/caste/religion label
+statementnovinumberofmalesandfemalesatselectedagegroupsallreligionsmuslimsandhindus,not_place,,,,high,heading/statistic/caste/religion label
+nostatementshowingpercentagesontotalpopulationofpopulationateachageperiodingreatbritainandirelandtogetherwithcorrectednumbersandpercentageofpopulationinbengal,not_place,,,,high,heading/statistic/caste/religion label
+tablexiistatementshowingoccupationsofmalepopulationbyreligion,not_place,,,,high,heading/statistic/caste/religion label
+tablexiiconcludedstatementshowingoccupationsoffemalepopulationbyreligion,not_place,,,,high,heading/statistic/caste/religion label
+tableviiistatementshowingnumberofhindupopulationineachcaste,not_place,,,,high,heading/statistic/caste/religion label
+statementsingleyearagereturns,not_place,,,,high,heading/statistic/caste/religion label
+scheduledcaste,not_place,,,,high,heading/statistic/caste/religion label
+chiefagriculturalstatisticforareshownbelowinsquaremiles,not_place,,,,high,heading/statistic/caste/religion label
+extentofcultivationoverthisareaisasfollows,not_place,,,,high,heading/statistic/caste/religion label
+birthplacecontinuedpartacontinuedpopulationofbengalandstates,not_place,,,,high,heading/statistic/caste/religion label
+bankuraallreligions,district,Bankura District,Bengal,IND/WestBengal/Bankura,high,subset: allreligions
+bankuramuslim,district,Bankura District,Bengal,IND/WestBengal/Bankura,high,subset: muslim
+bankuratribalreligions,district,Bankura District,Bengal,IND/WestBengal/Bankura,high,subset: tribalreligions
+midnaporeallreligions,district,Midnapore District,Bengal,IND/WestBengal/PashchimMedinipur;IND/WestBengal/PurbaMedinipur,high,subset: allreligions
+midnaporemuslim,district,Midnapore District,Bengal,IND/WestBengal/PashchimMedinipur;IND/WestBengal/PurbaMedinipur,high,subset: muslim
+midnaporetribalreligions,district,Midnapore District,Bengal,IND/WestBengal/PashchimMedinipur;IND/WestBengal/PurbaMedinipur,high,subset: tribalreligions
+hooghlyallreligions,district,Hooghly District,Bengal,IND/WestBengal/Hugli,high,subset: allreligions
+hooghlymuslim,district,Hooghly District,Bengal,IND/WestBengal/Hugli,high,subset: muslim
+statementshowingageofallreligions,not_place,,,,high,heading/statistic/caste/religion label
+noviallreligions,not_place,,,,high,heading/statistic/caste/religion label
+novicontinuedmahomedans,not_place,,,,high,heading/statistic/caste/religion label
+bhaugulporedivision,division,Bhagalpur Division,Bengal,,high,Bhaugulpore=Bhagalpur
+novicontinuedandreligionofpopulationjews,not_place,,,,high,heading/statistic/caste/religion label
+statementshowingcivilconditionageallresin,not_place,,,,high,heading/statistic/caste/religion label
+statementshowingcivilconditionageallremar,not_place,,,,high,heading/statistic/caste/religion label
+novicontinuedallreligions,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarystatementshowingdetailskolswidowers,not_place,,,,high,heading/statistic/caste/religion label
+noviicontinuedpopulationbyreligionsgionscontinued,not_place,,,,high,heading/statistic/caste/religion label
+kaibarttapopulation,not_place,,,,high,heading/statistic/caste/religion label
+tableixmalesshowingcomparativeexpectationoflifeatdecennialagesasdeducedfromresultsofandcensusesrespectivelyinseveralprovincesspecifiedandovercombinedareawithcorrespondingvaluesforenglandfirstpart,not_place,,,,high,heading/statistic/caste/religion label
+tableixmalesshowingcomparativeexpectationoflifeatdecennialagesasdeducedfromresultsofandcensusesrespectivelyinseveralprovincesspecifiedandovercombinedareawithcorrespondingvaluesforenglandsecondpart,not_place,,,,high,heading/statistic/caste/religion label
+crudeandadjustedfiguresformuhammadanwomen,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiagedistributionofofeachsexinprovinceofbengalpartii,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiiagedistributionofofeachsexineachmainreligionpartibengalbiharandorissahindu,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiiagedistributionofofeachsexineachmainreligionpartibengalbiharandorissamusalman,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiiagedistributionofofeachsexineachmainreligionpartibengalbiharandorissachristian,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytableiiiagedistributionofofeachsexineachmainreligionpartibengalbiharandorissaanimist,not_place,,,,high,heading/statistic/caste/religion label
+perinageperiods,not_place,,,,high,heading/statistic/caste/religion label
+calculationofaverageageofbrideatmarriage,not_place,,,,high,heading/statistic/caste/religion label
+calculationofaverageageofbridegroomatmarriage,not_place,,,,high,heading/statistic/caste/religion label
+brahmomales,not_place,,,,high,heading/statistic/caste/religion label
+brahmofemales,not_place,,,,high,heading/statistic/caste/religion label
+diagramno,not_place,,,,high,heading/statistic/caste/religion label
+graduationforhindumaleliteratesandforwholehindumalepopulationineasternbengal,not_place,,,,high,heading/statistic/caste/religion label
+tablexvoccupationormeansoflivelihood,not_place,,,,high,heading/statistic/caste/religion label
+livelihoodpartageneraltablecontinued,not_place,,,,high,heading/statistic/caste/religion label
+livelihoodpartageneraltableconcluded,not_place,,,,high,heading/statistic/caste/religion label
+childrenaliveoncensusdays,not_place,,,,high,heading/statistic/caste/religion label
+northwestbihar,natural_division,North-West Bihar,Bengal,,medium,
+statementiiinumberandproportionsofsinglemarriedandwidowedforandcomparedbysubprovinces,not_place,,,,high,heading/statistic/caste/religion label
+bardwandivision,division,Burdwan Division,Bengal,,high,
+statementiiaveragenumberoffemalestomalesateachageperiodbyreligionsandnaturaldivisions,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytablexiinumberoffemalestomalesateachagebytowndivisionsandreligions,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytablexiiidistributionofofeachsexbyageandcivilcondition,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytablexivdistributionbycivilconditionandmainageperiodsofofeachsex,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytablexdistributionofofeachsex,not_place,,,,high,heading/statistic/caste/religion label
+subsidiarytablexiagedistributionofofeachsexbyreligiontownofcalcutta,not_place,,,,high,heading/statistic/caste/religion label
+figuresforeachdivisionexamined,not_place,,,,high,heading/statistic/caste/religion label
+sikkimconcldhindu,princely_state,Sikkim State,Bengal,IND/Sikkim/EastSikkim;IND/Sikkim/NorthSikkim;IND/Sikkim/SouthSikkim;IND/Sikkim/WestSikkim,high,subset: Hindu
+sikkimconcldbuddhist,princely_state,Sikkim State,Bengal,IND/Sikkim/EastSikkim;IND/Sikkim/NorthSikkim;IND/Sikkim/SouthSikkim;IND/Sikkim/WestSikkim,high,subset: Buddhist
+britishsubjectsinchandernagoreallreligions,town,Chandernagore,French India,IND/WestBengal/Hugli,high,"subset: British subjects, all religions"
+britishsubjectsinchandernagorehindu,town,Chandernagore,French India,IND/WestBengal/Hugli,high,"subset: British subjects, Hindu"
+britishsubjectsinchandernagoremusalman,town,Chandernagore,French India,IND/WestBengal/Hugli,high,"subset: British subjects, Musalman"
+britishsubjectsinchandernagorechristian,town,Chandernagore,French India,IND/WestBengal/Hugli,high,"subset: British subjects, Christian"
+darbhangaconcldmusalman,district,Darbhanga District,Bengal,IND/Bihar/Darbhanga;IND/Bihar/Madhubani;IND/Bihar/Samastipur,high,subset: concldmusalman
+monghyrallreligions,district,Monghyr District,Bengal,IND/Bihar/Munger;IND/Bihar/Begusarai;IND/Bihar/Khagaria;IND/Bihar/Lakhisarai;IND/Bihar/Sheikhpura;IND/Bihar/Jamui,high,subset: allreligions
+monghyrhindu,district,Monghyr District,Bengal,IND/Bihar/Munger;IND/Bihar/Begusarai;IND/Bihar/Khagaria;IND/Bihar/Lakhisarai;IND/Bihar/Sheikhpura;IND/Bihar/Jamui,high,subset: hindu
+monghyrmusalman,district,Monghyr District,Bengal,IND/Bihar/Munger;IND/Bihar/Begusarai;IND/Bihar/Khagaria;IND/Bihar/Lakhisarai;IND/Bihar/Sheikhpura;IND/Bihar/Jamui,high,subset: musalman
+bhagalpurhindu,district,Bhagalpur District,Bengal,IND/Bihar/Bhagalpur;IND/Bihar/Banka,high,subset: hindu
+bhagalpurmusalman,district,Bhagalpur District,Bengal,IND/Bihar/Bhagalpur;IND/Bihar/Banka,high,subset: musalman
+rangpurconcldmusalman,district,Rangpur District,Bengal,BGD/Rangpur/Rangpur;BGD/Rangpur/Gaibandha;BGD/Rangpur/Kurigram;BGD/Rangpur/Lalmonirhat;BGD/Rangpur/Nilphamari,high,subset: concldmusalman
+bograallreligions,district,Bogra District,Bengal,BGD/Rajshahi/Bogra;BGD/Rajshahi/Joypurhat,high,subset: allreligions
+pabnaallreligions,district,Pabna District,Bengal,BGD/Rajshahi/Pabna;BGD/Rajshahi/Sirajganj,high,subset: allreligions
+pabnahindu,district,Pabna District,Bengal,BGD/Rajshahi/Pabna;BGD/Rajshahi/Sirajganj,high,subset: hindu
+pabnamusalman,district,Pabna District,Bengal,BGD/Rajshahi/Pabna;BGD/Rajshahi/Sirajganj,high,subset: musalman
+daccaallreligions,district,Dacca District,Bengal,BGD/Dhaka/Dhaka;BGD/Dhaka/Gazipur;BGD/Dhaka/Narayanganj;BGD/Dhaka/Munshiganj;BGD/Dhaka/Manikganj;BGD/Dhaka/Narsingdi,high,subset: allreligions
+daccahindu,district,Dacca District,Bengal,BGD/Dhaka/Dhaka;BGD/Dhaka/Gazipur;BGD/Dhaka/Narayanganj;BGD/Dhaka/Munshiganj;BGD/Dhaka/Manikganj;BGD/Dhaka/Narsingdi,high,subset: hindu
+daccamusalman,district,Dacca District,Bengal,BGD/Dhaka/Dhaka;BGD/Dhaka/Gazipur;BGD/Dhaka/Narayanganj;BGD/Dhaka/Munshiganj;BGD/Dhaka/Manikganj;BGD/Dhaka/Narsingdi,high,subset: musalman
+shiasinhowrahcity,town,Howrah,Bengal,IND/WestBengal/Haora,high,subset: Shias
+shia,not_place,,,,high,heading/statistic/caste/religion label
+suburbsinparganastribal,city_section,Calcutta Suburbs,Bengal,IND/WestBengal/Kolkata;IND/WestBengal/North24Parganas;IND/WestBengal/South24Parganas,medium,subset: tribal religions
+howrahallreligions,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: allreligions
+howrahhindu,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: hindu
+howrahmuslim,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: muslim
+howrahsikh,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: sikh
+howrahchristian,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: christian
+howrahjain,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: jain
+howrahzoroastrian,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: zoroastrian
+howrahbuddhist,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: buddhist
+howrahtribal,district,Howrah District,Bengal,IND/WestBengal/Haora,high,subset: tribal
+indarjeeling,district,Darjeeling District,Bengal,IND/WestBengal/Darjiling,high,
+birthsanddeathsincoochbehar,princely_state,Cooch Behar State,Bengal,IND/WestBengal/KochBihar,high,subset: births and deaths (title)
+nufacturingclassesandartisansofhugli,district,Hooghly District,Bengal,IND/WestBengal/Hugli,high,subset: manufacturing classes (title)

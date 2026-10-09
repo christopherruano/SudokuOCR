@@ -1,0 +1,802 @@
+key,label,variants,n_tables,sources,context
+assam,Assam,"ASSAM | Assam, 1901 | ASSAM.",643,tag:558;row:83;colg:8;sect:3,"South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age, || Northeast India | Assam | 1891 | TABLE XVII-OCCUPATIONS. PART A.-PROVINCIAL SUMMARY BY AGE (BOTH SEXES. || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces-continued."
+travancore,Travancore,TRAVANCORE | Travancore 1931,446,tag:431;row:22;colg:4;sect:1,"South India | Travancore | 1891 | TABLE XVII. Occupations by Age. Part (A)—Native States—continued. || South India | Travancore | 1891 | TABLE XVII. Occupations by Age. Part (A)-Native States-continued. || South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STA"
+berar,Berar,"BERAR, 1891 | BERAR, 1881 | Berar, 11,467",290,tag:211;row:77;colg:7,"South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age, || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces-continued. || Central India | Berar | 1891 | Statement No. 29. Age distribution of 10,000 persons of each sex."
+bangalore,Bangalore,Bangalore District | Bangalore District.,107,tag:83;row:18;sect:5;title:5;colg:2,"South India | Bangalore | 1891 | SUPPLEMENTARY TABLE E. Caste, &c., by Civil condition and Age. || South India | Bangalore | ? | SUPPLEMENTARY TABLE E. Caste, &c., by Civil condition and Age. || South India | Mysore | 1881 | FINAL CENSUS Showing the Civil Condition, Age and"
+hassan,Hassan,Hassan District | Hassan District.,72,tag:49;row:21;title:8;sect:4;colg:2,"South India | Hassan | 1891 | SUPPLEMENTARY TABLE E. Caste, &c., by Civil condition and Age. || South India | Hassan District | 1901 | Hassan District. || South India | Hassan | ? | SUPPLEMENTARY TABLE E. Caste, &c., by Civil condition and Age."
+burmah,Burmah,Burmah* | Burmah.*,66,row:66;colg:3,"South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age, || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces-continued. || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces—continued."
+punjabbritishterritory,Punjab British Territory,Punjab { British Territory | Punjab - British Territory | Punjab-British Territory,56,row:62;colg:1,"South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age, || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces-continued. || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces—continued."
+supplementarytableecasteandcbycivilconditionandage,"SUPPLEMENTARY TABLE E. Caste, and c., by Civil condition and Age.","SUPPLEMENTARY TABLE E. Caste, and c. by Civil condition and Age. | SUPPLEMENTARY TABLE E. Caste, and c., by Civil condition and Age",49,sect:49,"South India | Mysore | 1891 | SUPPLEMENTARY TABLE E. Caste, &c., by Civil condition and Age. || South India | Kolar | ? | SUPPLEMENTARY TABLE E. Caste, &c., by Civil condition and Age. || South India | Tumkur | 1891 | SUPPLEMENTARY TABLE E. Caste, &c., by Civil condition and Age."
+brahmo,Brahmo,Brahmo. | BRAHMO. | (4) Brahmo.,31,sect:31,"South India | Mysore | 1901 | TABLE VIII. Education. Part A. || South India | Mysore | 1881 | Distribution of the Population by Age, Sex || South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age and Sex"
+cmusalman,C-MUSALMAN.,C.-Musalman. | (c) Musalman. | C - Musalman.,28,sect:28,"South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition.-(16) Kartikapalli Taluk-(Cont || Rajputana | Ajmer-Merwara | 1901 | TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STA || South India | Hyderabad | 1901 | TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STA"
+bangalorecity,Bangalore City,Bangalore City.,24,tag:16;row:8;sect:5,"South India | Bangalore City | 1901 | Bangalore City. || South India | Bangalore City | 1901 | TABLE VII. Age, Sex and Civil Condition. Christian. Part A. || South India | Mysore | 1891 | Number of Females to one thousand Males."
+aallreligions,A.-All Religions.,(a) All religions. | A-All Religions. | A. All Religions,20,sect:20,"South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STA || West India | Bombay | 1931 | IMPERIAL TABLE VII-contd. AGE, SEX AND CIVIL CONDITION BY RELIGIONS. P || South India | Madras | 1901 | TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STA"
+britishterritorybombay,British Territory } Bombay,British Territory Bombay | British Territory (Bombay),18,row:18,"South India | Mysore | 1881 | Sex and Religion, arranged by Provinces-continued. || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces—continued. || All-India | India | 1881 | Form VIA. Age, Sex and Religion, arranged by Provinces."
+medak,Medak,MEDAK,16,row:8;tag:7;colg:2,"South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts || South India | Medak | 1931 | TABLE XIII. Literacy by Religion and Age.—Part II— Districts. || South India | Medak | 1931 | TABLE VII. Age, Sex and Civil Condition Part II.-Districts."
+adihindu,Adi Hindu,Adi-Hindu | Adi-Hindu ..,16,sect:10;row:7,"South India | Gulbarga | 1931 | TABLE XIII. Leteracy by Religion and Age.-Part II-Districts. || South India | Warangal | 1931 | TABLE VII. Age, Sex and Civil Condition Part II - Districts || South India | Nalgonda | 1931 | TABLE VII. Age, Sex and Civil Condition Part II - Districts"
+block,Block 2,Block 1 | Block 3 | Block 4,16,sect:58;colg:15,South India | Mysore | 1891 | TABLE XVII. Occupation by Age. Part A. Town and Country. || West India | Baroda | 1891 | Census Table || South India | Mysore | 1911 | TABLE XVII. Occupation by Age. Part A. Town and Country.
+kurnool,Kurnool,Kurnool District,15,tag:10;row:6;title:2;colg:1,"South India | Kurnool District | 1881 | Table No. 4, showing the Ages of the People in the Kurnool District in || South India | Kurnool District | 1881 | Table No. 12, showing the Distribution of the Population of each Town  || South India | Kurnool | 1881 | Table No. 6, comparing the Proportions under Ten Years of Age in the s"
+mysorecity,Mysore City,Mysore City.,15,row:7;sect:7;colg:1,South India | Mysore | 1891 | Number of Females to one thousand Males. || South India | Mysore | 1901 | Mysore City. || South India | Mysore | 1901 | Variations per cent of population of 1901-1891 by Districts and Religi
+aurangabad,Aurangabad,AURANGABAD,14,row:8;tag:5;colg:2,"South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts || South India | Aurangabad | 1911 | TABLE VII. AGE, SEX AND CIVIL CONDITION. || South India | Aurangabad | 1931 | TABLE VII. Age, Sex and Civil Condition Part II.-Districts."
+mysorestateincludingcivilandmilitarystationbangalore,"Mysore State including Civil and Military Station, Bangalore.","Mysore State, Including Civil and Military Station, Bangalore | Mysore State, including Civil and Military Station, Bangalore. | Mysore State including Civil and Military Station, Bangalore",14,sect:9;tag:4;row:1,"South India | Mysore | 1901 | SUBSIDIARY TABLE XIII. Distribution by Civil Condition of 10,000 of ea || ? | Mysore State, Including Civil and Military Station, Bangalore | ? | TABLE VII-Age, Sex & Civil Condition. || South India | Mysore | 1901 | SUBSIDIARY TABLE XV. Distribution by Civil Condition of 10,000 of each"
+parbhani,Parbhani,PARBHANI,13,row:8;tag:4;colg:2,"South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts || South India | Hyderabad | 1911 | TABLE XVIII. EUROPEANS, ARMENIANS AND ANGLO-INDIANS BY RACE AND AGE. || All-India | India | 1951 | TABLE C-IV Age and Civil Condition"
+coimbatore,Coimbatore,Coimbatore. | Coimbatore District | COIMBATORE.,13,row:6;sect:4;tag:3;colg:1,"South India | Coimbatore District | 1881 | 16. The subjoined table compares the proportions per mille in three Ag || South India | Coimbatore District | 1901 | TABLE VII. Age, Sex and Civil Condition-COIMBATORE DISTRICT. || South India | Madras | 1881 | STATEMENT B. - Number of Persons of each Age in 10,000 of each Sex (18"
+nander,Nander,NANDER,12,row:7;tag:4;colg:2,"South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts || South India | Nander | 1911 | TABLE VII. AGE, SEX AND CIVIL CONDITION. || South India | Nander | 1931 | TABLE VII. Age, Sex and Civil Condition Part II.-Districts."
+aboriginal,Aboriginal,Aboriginal- | Aboriginal— | ABORIGINAL.,12,row:7;sect:4;colg:2,"South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age and Sex || South India | Mysore | 1881 | Distribution of the Population || South India | Mysore | 1881 | Form VIIA. by Age, Sex and Religion."
+karimnagar,Karimnagar,KARIMNAGAR,11,tag:7;row:3;colg:1,"South India | Karimnagar | 1931 | TABLE VII. Age, Sex and Civil Condition Part II.-Districts. || South India | Hyderabad | 1911 | TABLE XVIII. EUROPEANS, ARMENIANS AND ANGLO-INDIANS BY RACE AND AGE. || All-India | India | 1951 | TABLE C-IV Age and Civil Condition"
+satnami,Satnami,Satnámí | Satnami- | Satnami—,11,row:6;sect:4;colg:2,"South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age and Sex || South India | Mysore | 1881 | Distribution of the Population || South India | Mysore | 1881 | Form VIIA. by Age, Sex and Religion."
+trivandrum,Trivandrum,TRIVANDRUM,11,title:10;sect:1,"South India | Trivandrum Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition-(7) Trivandrum Taluk. || South India | Trivandrum Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(7) Trivandrum Taluk.-(Concld || South India | Travancore | 1951 | Table C IV"
+adilabad,Adilabad,ADILABAD,10,tag:6;row:3;colg:1,"South India | Adilabad | 1911 | TABLE VII. AGE, SEX AND CIVIL CONDITION. || South India | Adilabad | 1931 | TABLE VII. Age, Sex and Civil Condition Part II.-Districts. || South India | Hyderabad | 1911 | TABLE XVIII. EUROPEANS, ARMENIANS AND ANGLO-INDIANS BY RACE AND AGE."
+malabar,Malabar,Malabar District | MALABAR,10,row:7;tag:3;colg:1;title:1,"South India | Malabar District | 1881 | MALABAR DISTRICT. || South India | Malabar District | 1901 | Age, Sex and Civil Condition-MALABAR DISTRICT. || South India | Madras | 1881 | STATEMENT B. - Number of Persons of each Age in 10,000 of each Sex (18"
+mysorestateexcludingcivilandmilitarystationbangalore,"Mysore State excluding Civil and Military Station, Bangalore.","Mysore State, excluding Civil and Military Station, Bangalore. | Mysore State, Excluding Civil and Military Station, Bangalore",10,sect:9;tag:1,"South India | Mysore | 1901 | SUBSIDIARY TABLE XIII. Distribution by Civil Condition of 10,000 of ea || South India | Mysore | 1931 | TABLE IX. Infirmities. Part I.—Distribution by Age. || South India | Mysore | 1911 | II.-AGE DISTRIBUTION OF 10,000 OF EACH SEX IN THE PROVINCE AND EACH NA"
+pudukotaterritory,Pudukota Territory,Pudukóta Territory,9,row:10,South India | Madras | 1881 | FINAL CENSUS TABLE-No. VII. Statement showing for each Religion the Ag || South India | Madras | 1891 | FINAL CENSUS TABLE-No. VII. Statement showing for each Religion the Ag || South India | Madras | 1881 | FINAL CENSUS TABLE No. VII. Statement showing for each Religion the Ag
+cuddapah,Cuddapah,Cuddapah District,9,row:5;tag:5,"South India | Cuddapah District | 1881 | Table No. 10, showing the Distribution of the Population of each Town  || South India | Cuddapah District | 1881 | Table No. 6, showing the Number of Persons following the Occupations i || South India | Cuddapah District | 1901 | Age, Sex and Civil Condition-CUDDAPAH DISTRICT."
+northern,Northern,NORTHERN | Northern.,9,row:6;colg:2;sect:1,"South India | Travancore | 1921 | Movement of Population in the Natural and Administrative Divisions || South India | Travancore | 1921 | TABLE XVI. Europeans, Armenians and Anglo-Indians by Race and Age. || South India | Hyderabad | 1901 | Percentage of district population under each age period, &c."
+feudatories,Feudatories,FEUDATORIES,8,row:7;colg:1,South India | Madras | 1911 | TABLE VIII. Civil Condition by Religion and Age. Part (H) - JEWS || South India | Madras | 1891 | TABLE VII. Age by Religion. Part (G)-PARSIS. || South India | Madras | 1891 | TABLE VII. Age by Religion. Part (F)-JAINS.
+salem,Salem,Salem. | SALEM.,8,row:4;sect:3;colg:1,"South India | Madras | 1881 | STATEMENT B. - Number of Persons of each Age in 10,000 of each Sex (18 || South India | Madras | 1881 | STATEMENT B.-Number of Persons of each Age in 10,000 of each Sex (1881 || South India | Madras | 1891 | STATEMENT A. - Number of Persons of each Age in 10,000 of each Sex (18"
+changanachery,Changanachery,Changanachery.,8,title:6;sect:2,"South India | Changanachery Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(25) Changanachery Taluk. || South India | Changanachery Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(25) Changanachery Taluk.-(Ct || West India | Western Division | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+westerndivi,Western Divi,,8,tag:8,"South India | Western Divi | 1901 | SUBSIDIARY Education by Castes, Western Divi- || South India | Western Divi | 1901 | SUBSIDIARY Education by Castes, Western Divi. || South India | Western Divi | 1901 | SUBSIDIARY Education by Castes"
+congregationalist,Congregationalist,,7,row:7,South India | Travancore | 1921 | TABLE XV. Territorial Distribution of the Christian Population by Sect || North India | Punjab | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers). || South India | Hyderabad | 1901 | Christian population increase and decrease by denomination
+britishterritorynwprovinces,British Territory } N.-W. Provinces,British Territory N.-W Provinces,7,row:7,"South India | Mysore | 1881 | Sex and Religion, arranged by Provinces-continued. || All-India | India | 1881 | Form VIA. Age, Sex and Religion, arranged by Provinces. || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces—continued."
+minorprotestantdenominations,Minor Protestant Denominations,MINOR PROTESTANT DENOMINATIONS | MINOR PROTESTANT DENOMINATIONS.,7,row:6;colg:1;sect:1,South India | Travancore | 1921 | TABLE XV. Territorial Distribution of the Christian Population by Sect || North India | Punjab | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (Actual numbers). || South India | Travancore | 1921 | TABLE XV. TERRITORIAL DISTRIBUTION OF THE CHRISTIAN POPULATION BY SECT
+maintable,Main table,Main Table,7,sect:7,"South India | Mysore | 1891 | TABLE XVII. Occupation by Age. Part A. Town and Country. || Central India | Gwalior | 1921 | Subsidiary Table III - Age Distribution of 10,000 of Each Sex in Main  || West India | Eastern Division | 1931 | Amended one-year Age Statistics."
+and,District and,,7,title:7,South India | Madras | 1891 | Statement showing the number of insane persons in each District and St || South India | Madras | 1891 | Statement showing the number of the blind in each District and State. || South India | Madras | 1891 | Statement showing the number of lepers in each District and State.
+shencottahtaluk,Shencottah Taluk,,7,tag:7,"South India | Shencottah Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition-(12) Shencottah Taluk.-(Contd. || South India | Shencottah Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(12) Shencottah Taluk.-(Concl || South India | Shencottah Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(12) Shencottah Taluk-(Concld"
+chengannur,Chengannur,,7,title:7,"South India | Chengannur Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(18) Chengannur Taluk.-(Concl || South India | Chengannur Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(18) Chengannur Taluk.-(Contd || South India | Chengannur Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (18) Chengannur Taluk"
+indur,Indur,,6,row:5;colg:2,South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts || South India | Hyderabad | 1901 | Proportion of the sexes by || South India | Hyderabad | 1901 | SUBSIDIARY Proportion of the sexes by
+aryasamaj,Aryasamaj,Arya Samaj | Arya Samaj.,6,sect:6;row:2,"South India | Hyderabad | 1921 | Table VII. Age, Sex and Civil Condition - Part I. Total Population || South India | Hyderabad | 1921 | TABLE VII. AGE, SEX AND CIVIL CONDITION. || South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I. - Provincial Summary"
+nilgiris,Nilgiris,The Nilgiris,6,row:6,"South India | Madras | 1881 | STATEMENT B. - Number of Persons of each Age in 10,000 of each Sex (18 || South India | Madras | 1881 | STATEMENT B.-Number of Persons of each Age in 10,000 of each Sex (1881 || South India | Madras | 1891 | STATEMENT A. - Number of Persons of each Age in 10,000 of each Sex (18"
+inland,Inland,,6,row:6,"South India | Travancore | 1921 | Movement of Population in the Natural and Administrative Divisions || South India | Travancore | 1921 | TABLE XVI. EUROPEANS, ARMENIANS AND ANGLO-INDIANS BY RACE AND AGE. || South India | Travancore | 1921 | TABLE XVI. Europeans, Armenians and Anglo-Indians by Race and Age."
+lowlying,Lowlying,LOWLYING | Lowlying. | Low-Lying,6,row:3;colg:1;sect:1;tag:1,"South India | Hyderabad | 1921 | HYDERABAD STATE. || Central India | Gwalior | 1921 | Civil Condition per 1,000 by Natural Divisions. || Central India | Gwalior | 1921 | CHAPTER VII.—CIVIL CONDITION."
+married,(2) MARRIED.,(2) Married,6,sect:6,"South India | Travancore | 1891 | TABLE VIII. Age, Sex and Civil Condition (continuation stitch) || Central India | Berar | 1901 | (2) MARRIED. || Central India | Central India Agency | ? | TABLE VIII.-Civil Condition by Religion and Age.-Part (G). PARSI."
+brahmosingle,BRAHMO. SINGLE.,BRAHMO. - SINGLE.,6,sect:6,"South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age, || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces-continued. || South India | Mysore | 1881 | Sex and Religion, arranged by Provinces—continued."
+kalkulam,Kalkulam,,6,title:6,"South India | Kalkulam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(4) Kalkulam Taluk.-(Concld.) || South India | Kalkulam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(4) Kalkulam Taluk.-(Contd.) || South India | Eraniel Taluk / Kalkulam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (4) Kalkulam Taluk"
+kottarakarataluk,Kottarakara Taluk,,6,tag:6,"South India | Kottarakara Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(10) Kottarakara Taluk.-(Cont || South India | Kottarakara Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(10) Kottarakara Taluk-(Contd || South India | Kottarakara Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (10) Kottarakara Taluk"
+tiruvallataluk,Tiruvalla Taluk,,6,tag:6,"South India | Tiruvalla Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(19) Tiruvalla Taluk.-(Contd. || South India | Tiruvalla Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(19) Tiruvalla Taluk.-(Concld || South India | Tiruvalla Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition:-(19) Tiruvalla Taluk."
+changanacherytaluk,Changanachery Taluk,,6,tag:6,"South India | Changanachery Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(25) Changanachery Taluk. || South India | Changanachery Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(25) Changanachery Taluk.-(Ct || South India | Changanachery Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(25) Changanachery Taluk.-(Cl"
+lingsugur,Lingsugur,,5,row:4;colg:2,South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts || South India | Hyderabad | 1901 | Proportion of the sexes by || South India | Hyderabad | 1901 | SUBSIDIARY Proportion of the sexes by
+northarcot,North Arcot,,5,row:4;colg:1,"South India | Madras | 1881 | STATEMENT B. - Number of Persons of each Age in 10,000 of each Sex (18 || South India | Madras | 1881 | STATEMENT B.-Number of Persons of each Age in 10,000 of each Sex (1881 || South India | Madras | 1891 | STATEMENT A. - Number of Persons of each Age in 10,000 of each Sex (18"
+marathwara,Marathwara,Marathwara.,5,colg:2;sect:2;row:1,"South India | Hyderabad | 1921 | HYDERABAD STATE. || South India | Hyderabad | ? | SUBSIDIARY TABLE VII.—Reported birth rate by sex in natural Divisions. || South India | Hyderabad | 1921 | SUBSIDIARY TABLE III.—NUMBER OF FEMALES PER 1,000 MALES AT DIFFERENT A"
+chittur,Chittur,,5,colg:3;row:2,South India | Cochin | 1901 | MAP To show the Proportion of the sexes in the Various Taluks COCHIN S || South India | Cochin | 1921 | TABLE VI. RELIGION. || South India | Cochin | 1891 | TABLE VII - Ages by Religions
+famine,Famine,,5,colg:5,"South India | Kurnool District | 1881 | Table No. 4, showing the Ages of the People in the Kurnool District in || South India | Madras | 1881 | Table No. 4, showing the Ages of the People in the North Arcot Distric || South India | Madras | 1881 | Table No. 4, showing the Ages of the People in the Salem District in d"
+notstated,(4) Not Stated.,(4) Not Stated | (4) NOT STATED | (4) NOT STATED.,5,sect:7,"South India | Travancore | 1891 | TABLE VIII. Age, Sex and Civil Condition (continuation stitch) || South India | Madras | 1891 | TABLE VIII. Civil Condition by Religion and Age. Part (J) - ANIMISTIC || South India | Madras | 1921 | TABLE VIII. Civil Condition by Religion and Age. Part (K) - OTHERS"
+parur,Parur,Parur.,5,title:3;sect:2,"South India | Parur Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(31) Parur Taluk. || South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition.—Towns. || South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition. - Towns."
+karunagapalli,Karunagapalli,,5,title:5,"South India | Karunagapalli Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(15) Karunagapalli Taluk. || South India | Karunagapalli Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(15) Karunagapalli Taluk-(Con || South India | Karunagapalli Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(15) Karunagapalli Taluk.-(Co"
+vilavankod,Vilavankod,,5,title:5,"South India | Vilavankod Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(5) Vilavankod Taluk. || South India | Vilavankod Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(5) Vilavankod Taluk.-(Contd. || South India | Vilavankod Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.—(5) Vilavankod Taluk—(Contd.)"
+ambalapuzhataluk,Ambalapuzha Taluk,,5,tag:5,"South India | Ambalapuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(20) Ambalapuzha Taluk.-(Cont || South India | Ambalapuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(20) Ambalapuzha Taluk. || South India | Ambalapuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.—(20) Ambalapuzha Taluk."
+vaikam,Vaikam,,5,title:5,"South India | Vaikam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(22) Vaikam Taluk. || South India | Vaikam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(22) Vaikam Taluk-(Concld.) || South India | Vaikam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(22) Vaikam Taluk.-(Concld.)"
+todupuzhataluk,Todupuzha Taluk,,5,tag:5,"South India | Todupuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(28) Todupuzha Taluk.-(Concld || South India | Todupuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(28) Todupuzha Taluk.-(Contd. || South India | Todupuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (28) Todupuzha Taluk"
+minachiltaluk,Minachil Taluk,,5,tag:5,"South India | Minachil Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(26) Minachil Taluk.-(Contd.) || South India | Minachil Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(26) Minachil Taluk-(Concld) || South India | Minachil Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(26) Minachil Taluk.-(Concld."
+kunnatnad,Kunnatnad,,5,title:5,"South India | Kunnatnad Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(29) Kunnatnad Taluk.-(Contd. || South India | Kunnatnad Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(29) Kunnatnad Taluk. || South India | Kunnatnad Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (29) Kunnatnad Taluk"
+gulbargah,Gulbargah,,4,row:3;colg:2,South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts || South India | Hyderabad | 1901 | Proportion of the sexes by || South India | Hyderabad | 1901 | SUBSIDIARY Proportion of the sexes by
+oosmanabadnaldrug,Oosmanabad (Naldrug),,4,row:2;colg:2,South India | Hyderabad | 1901 | Proportion of the sexes by || South India | Hyderabad | 1901 | SUBSIDIARY Proportion of the sexes by || South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts
+coast,Coast,,4,row:4,"South India | Travancore | 1921 | Movement of Population in the Natural and Administrative Divisions || Burma | Burma | 1931 | SUBSIDIARY TABLE II.—Distribution by Civil Condition of 1,000 of each  || Burma | Burma | 1931 | SUBSIDIARY TABLE IV.-Ratio of females per 1,000 males in each Civil Co"
+musalman,Musalmán,Musal-man | (2) MUSALMAN. | (3) MUSALMAN.,4,sect:2;row:1;colg:1,"South India | Mysore | 1891 | Statement showing the number of persons of either sex belonging to eac || North India | Jammu and Kashmir | 1911 | Number of widows per mille || Northeast India | Assam | 1921 | SUBSIDIARY TABLE III. Age distribution of 10,000 of each sex in each m"
+mussalmans,Mussalmans,,4,row:2;colg:2,"South India | Mysore | 1901 | APPENDIX C. Statement showing the distribution of 1,000 of each Sex in || South India | Mysore | 1901 | Distribution of 1,000 widows by age at which they were widowed. || South India | Mysore | 1901 | Statement showing Age at"
+ratioofdeathsperofpopulation,Ratio of deaths per 1000 of population,"Ratio of Deaths per 1,000 of Population | Ratio of deaths per 1,000 of population",4,colg:4,South India | Mysore | 1901 | APPENDIX C-concld. Statement showing the number of Deaths and Death-ra || South India | Mysore | 1901 | Statement showing the number of Deaths and Death-rate from different c || South India | Mysore | 1901 | Statement showing the number of Births and Deaths registered from 1st 
+mussalmanmarried,Mussalman. Married,Mussalman - Married,4,colg:4,South India | Cochin | 1891 | TABLE VIII. - Continued. Civil Condition by Religion and Age. - State  || South India | Cochin | 1891 | TABLE VIII. - Continued. Civil Condition by Religion and Age. - Cochin || South India | Cochin | 1891 | TABLE VIII. - Continued. Civil Condition by Religion and Age. - Trichu
+mysorehindu,Mysore · Hindu,Mysore · Hindu · DISTRICT | MYSORE DISTRICT - Hindu,4,sect:4,"South India | Kolar District | 1911 | TABLE VII. Age, Sex and Civil Condition — Kolar District || South India | Mysore | 1931 | TABLE VII. Age, Sex and Civil Condition — Bangalore District || South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age."
+generaltable,General Table,,4,sect:4,South India | Mysore | 1911 | TABLE XV. Part A. Occupation or Means of Livelihood || South India | Mysore | 1931 | TABLE XV.-Part A. Occupation or Means of Livelihood. || South India | Mysore | 1911 | TABLE XV. - Part A. Occupation or Means of Livelihood.
+cvsingleyearagereturns,C. V - Single year age returns,C. V—Single year age returns | C. V-Single year age returns | C-V. Single Year Age Returns,4,sect:5,South India | Mysore | 1951 | C. V - Single year age returns || South India | Madras | 1931 | C-V. Single Year Age Returns || Rajputana | Rajasthan | 1961 | C. V - Single Year Age Returns
+subsidiaryliteracybycivilcondition,SUBSIDIARY Literacy by Civil Condition,,4,sect:4,South India | Mysore | 1901 | SUBSIDIARY Literacy by Civil Condition || All-India | India | 1911 | SUBSIDIARY Literacy by Civil Condition
+deathsstatisticsofmysore,Deaths Statistics of the Mysore,,4,title:4,South India | Mysore | 1901 | Statement giving the Births and Deaths Statistics of the Mysore State 
+ettumanurtalukkottayamtaluk,Ettumanur Taluk / Kottayam Taluk,,4,tag:4,"South India | Ettumanur Taluk / Kottayam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition. || South India | Ettumanur Taluk / Kottayam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+kshatriya,Kshatriya,,3,row:3,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age. || All-India | India | 1931 | Comparison with 1921 || All-India | India | 1911 | TABLE No. 5."
+osmanabad,Osmanabad,OSMANABAD,3,row:3,"South India | Hyderabad | 1911 | TABLE XVIII. EUROPEANS, ARMENIANS AND ANGLO-INDIANS BY RACE AND AGE. || All-India | India | 1951 | TABLE C-IV Age and Civil Condition || South India | Hyderabad | 1921 | SEX PROPORTIONS IN THE STATE, CITY AND DISTRICTS PER 1,000 PERSONS, 19"
+increase,Increase,INCREASE,3,sect:2;row:1;colg:1,South India | Hyderabad | 1901 | The undermentioned denominations are responsible for the gross increas || Rajputana | Rajputana Agency | 1891 | Abstract No. 26. Proportion of sexes at various age periods compared w || South India | Hyderabad | 1901 | Christian population increase and decrease by denomination
+hunsur,Hunsur,,3,row:3,"South India | Mysore | 1881 | Towns of 7,000 to 10,000 || South India | Mysore | 1901 | Statement showing Age distribution of the Population of the several Ta || South India | Mysore | 1901 | APPENDIX F. Statement showing Age distribution of the Population of th"
+protestantunsectarianorsectnotspecified,Protestant (Unsectarian or Sect not Specified),Protestant (Unsectarian or sect not specified) | PROTESTANT (UNSECTARIAN OR SECT NOT SPECIFIED.),3,row:2;sect:1,South India | Travancore | 1921 | TABLE XV. Territorial Distribution of the Christian Population by Sect || South India | Travancore | 1921 | TABLE XV. TERRITORIAL DISTRIBUTION OF THE CHRISTIAN POPULATION BY SECT
+bezwada,Bezwáda,Bezwada | Bezwada.,3,row:2;sect:1,"South India | Kistna District | 1881 | Table No. 10, showing the Distribution of the Population in each Town  || South India | Kistna District | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses and || South India | Madras | 1931 | Table VII - Age, Sex and Civil Condition (Part II - Cities)"
+ceylon,Ceylon,,3,row:3,South India | Mysore | 1901 | SUBSIDIARY TABLE V. Detailed Distribution of Population by Birth-place || South India | Cochin | 1921 | TABLE XI.-(cont.) BIRTH PLACE. || South India | Mysore | 1921 | Density of population
+midland,Midland,,3,row:3,"South India | Travancore | 1931 | Number married per 1,000 of each sex at different age periods by natur || South India | Travancore | 1931 | Average death-rates for the decade in the natural divisions"
+darji,Darji,,3,colg:2;sect:1,"South India | Mysore | 1881 | FINAL CENSUS Distribution of the People || West India | Bombay | 1901 | HINDUS AND JAINS. || ? | Western India States Agency | ? | SUBSIDIARY TABLE V. The distribution by civil condition of 1,000 of ea"
+wahabis,Wahabis,,3,colg:3,South India | Mysore | 1881 | Distribution of the People || South India | Mysore | 1881 | FINAL CENSUS FORM III B. Statement showing the Distribution of the Pop
+nativechristians,Native Christians,,3,colg:3,"South India | Mysore | 1901 | APPENDIX C. Statement showing the distribution of 1,000 of each Sex in || South India | Mysore | 1901 | APPENDIX B. Statement showing the distribution of 100 in each Civil Co"
+conjeeveram,Conjeeveram.,Conjeeveram,3,sect:3,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part II. - Cities || South India | Madras | 1931 | Table VII - Age, Sex and Civil Condition (Part II - Cities) || South India | Madras | 1911 | TABLE VII. Age, sex and civil condition. Part II. - Cities"
+mysorealltotal,Mysore · All / Total,Mysore · All / Total · DISTRICT,3,sect:3,"South India | Kolar District | 1911 | TABLE VII. Age, Sex and Civil Condition — Kolar District || South India | Mysore | 1931 | TABLE VII. Age, Sex and Civil Condition — Bangalore District || South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age."
+mysoreanimist,Mysore · Animist,Mysore · Animist · DISTRICT,3,sect:3,"South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age || South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age. || South India | Mysore | 1901 | Table VII - Age, Sex and Civil Condition - Animistic (Part A, Central "
+kadurmusalman,Kadur · Musalman,Kadur District. Musalman. | KADUR DISTRICT. Musalman.,3,sect:3,"South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age. || South India | Mysore | 1931 | TABLE VII. Age, Sex & Civil Condition. || South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age."
+firsttable,First Table,,3,sect:3,South India | Mysore | 1881 | FINAL CENSUS Statement showing the Distribution || Northwest Frontier | North-West Frontier Province | 1921 | CHAPTER V-AGE. || South India | Mysore | 1901 | Literacy by Mother-tongue
+brahmoconcld,BRAHMO-concld.,BRAHMO - concld.,3,sect:3,"South India | Mysore | 1881 | and Religion, arranged by Provinces-continued. || South India | Mysore | 1881 | Distribution of the Population by Age, Sex"
+tablexvpartaoccupationormeansoflivelihood,TABLE XV. - Part A. Occupation or Means of Livelihood.,TABLE XV - Part A. Occupation or Means of Livelihood.,3,sect:3,South India | Mysore | 1931 | TABLE XV. - Part A. Occupation or Means of Livelihood. || South India | Mysore | 1931 | TABLE XV - Part A. Occupation or Means of Livelihood.
+taluqsofkistna,Taluqs of the Kistna,,3,title:3,"South India | Kistna District | 1881 | Table No. 6, showing the Number of Persons following the Occupations i || South India | Kistna District | 1871 | Table No. 6, showing the Number of Persons following the Occupations i"
+northarcotandsalem,North Arcot And Salem,,3,tag:3,"South India | North Arcot And Salem | 1911 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States- || South India | North Arcot And Salem | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+ganjamagency,Ganjam Agency,,3,tag:3,"South India | Ganjam Agency | 1901 | Age, Sex and Civil Condition-GANJAM AGENCY. || South India | Ganjam Agency | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
+sexandcivilconditiontovala,Sex and Civil Condition.-Tovala,Sex and Civil Condition - Tovala,3,title:3,"South India | Tovala Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-Tovala Taluk-(Contd.) || South India | Tovala Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-Tovala Taluk.-(Contd.) || South India | Tovala Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - Tovala Taluk — Travancore"
+vilavankodtalukneyyattinkarataluk,Vilavankod Taluk / Neyyattinkara Taluk,,3,tag:3,"South India | Vilavankod Taluk / Neyyattinkara Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition. || South India | Vilavankod Taluk / Neyyattinkara Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+muvattupuzhataluktodupuzhataluk,Muvattupuzha Taluk / Todupuzha Taluk,,3,tag:3,"South India | Muvattupuzha Taluk / Todupuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(27) Muvattupuzha Taluk.-Cld. || South India | Muvattupuzha Taluk / Todupuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition. || South India | Muvattupuzha Taluk / Todupuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+sexandcivilconditionparti,Sex and Civil Condition - Part I -,Sex and Civil Condition. Part I -,3,title:3,"South India | Travancore | 1931 | TABLE VII - Age, Sex and Civil Condition - Part I - State - (concluded || ? | State Summary | 1931 | TABLE VII - Age, Sex and Civil Condition. Part I - State Summary — Gwa"
+sada,Sáda,Sada,2,row:2,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age. || South India | Mysore | 1931 | Civil Condition by Age"
+padukotaterritory,Padukota Territory,,2,row:2,South India | Madras | 1881 | FINAL CENSUS TABLE-No. VII. Statement showing for each Religion the Ag
+kumbara,Kumbára,Kumbara,2,row:2,South India | Mysore | 1891 | SUPPLEMENTARY TABLE E. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age
+channapatna,Channapatna,,2,row:2,"South India | Mysore | 1881 | Towns of 7,000 to 10,000 || South India | Mysore | 1931 | Appendix F to Chapter IV, Section I - Age - contd."
+sidlaghatta,Sidlaghatta,,2,row:2,"South India | Mysore | 1881 | Towns of 7,000 to 10,000 || South India | Mysore | 1931 | Appendix F to Chapter IV, Section I - Age - contd."
+kamsala,Kamsala,,2,row:2,"South India | Madras | 1891 | Number of females who are married out of 10,000 aged between 0 and 9. || All-India | India | 1911 | DISTRIBUTION OF 1,000 MALES OF EACH AGE BY CIVIL CONDITION."
+rajputanacentralindiacochinandtranvancore,"Rajputana, Central India, Cochin, and Tranvancore","Rajputana, Central India, Cochin, and Tranvan-core",2,row:2,"South India | Mysore | 1881 | Distribution of the Population by Civil Condition, Age,"
+lingayatmysorestateincludingcandmstnbangalorefemale,"Lingayat - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Female","Lingayat ... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Female",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+mahrattamysorestateincludingcandmstnbangaloremale,"Mahratta - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Male","Mahratta... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Male",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+mahrattacivilandmilitarystationbangalorefemale,"Mahratta - Civil and Military Station, Bangalore - Female","Mahratta... Civil and Military Station, Bangalore... Female",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+medacivilandmilitarystationbangaloremale,"Meda - Civil and Military Station, Bangalore - Male","Meda ... Civil and Military Station, Bangalore... Male",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+mudalimysorestateincludingcandmstnbangalorefemale,"Mudali - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Female","Mudali ... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Female",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+kumbaramysorestateincludingcandmstnbangaloremale,"Kumbara - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Male","Kumbara... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Male",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+kumbaracivilandmilitarystationbangalorefemale,"Kumbara - Civil and Military Station, Bangalore - Female","Kumbara... Civil and Military Station, Bangalore... Female",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+banajigamysorestateincludingcandmstnbangalore,"Banajiga - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE","Banajiga MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+bedacivilandmilitarystationbangalore,"Beda - Civil and Military Station, Bangalore","Beda Civil and Military Station, Bangalore",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+devangamysorestateincludingcandmstnbangalore,"Devanga - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE","Devanga MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+ganigacivilandmilitarystationbangalore,"Ganiga - Civil and Military Station, Bangalore","Ganiga Civil and Military Station, Bangalore",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+easterndivisionmale,Eastern Division - Male,,2,row:2,South India | Mysore | 1921 | TABLE XIV. Civil Condition by Age.
+westerndivisionfemale,Western Division - Female,,2,row:2,South India | Mysore | 1921 | TABLE XIV. Civil Condition by Age.
+mysorestateincludingcandmstnbangalore,"MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",,2,row:2,South India | Mysore | 1921 | TABLE XIV. Civil Condition by Age for || South India | Mysore | 1921 | TABLE XIV. Civil Condition by Age.
+vaisyacivilandmilitarystationbangaloremale,"Vaisya - Civil and Military Station, Bangalore - Male",,2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+voddamysorestateincludingcandmstnbangalorefemale,"Vodda - MYSORE STATE INCLUDING C. AND M. STN., BANGALORE. - Female","Vodda - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Female",2,row:2,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age. || South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+mughal,Mughal,,2,row:2,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age. || North India | Jammu and Kashmir | 1931 | CIVIL CONDITION BY AGE
+reformed,Reformed,,2,row:2,South India | Travancore | 1921 | TABLE XV. Territorial Distribution of the Christian Population by Sect || All-India | India | 1911 | IV. - Races and sects of Christians. (Actual numbers.)
+seacoastdivision,Sea-Coast Division,SEA-COAST DIVISION,2,row:1;colg:1,"South India | Travancore | 1921 | VARIATION OF POPULATION PER CENT. || South India | Travancore | 1921 | SUBSIDIARY TABLE III.-Number of females per 1,000 males at different a"
+tuticorin,Tuticorin,Tuticorin.,2,row:1;sect:1,"South India | Madras | 1881 | Table No. 150, showing the Percentage of Increase or Decrease of Popul || South India | Madras | 1931 | Table VII - Age, Sex and Civil Condition (Part II - Cities)"
+nuzvid,Núzvíd,Nuzvid,2,row:2,"South India | Kistna District | 1881 | Table No. 10, showing the Distribution of the Population in each Town  || South India | Kistna District | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses and"
+kambam,Kambam,,2,row:2,"South India | Kurnool | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an || South India | Kurnool District | 1881 | Table No. 12, showing the Distribution of the Population of each Town "
+harpanahalli,Harpanahalli,,2,row:2,"South India | Bellary | 1881 | BELLARY DISTRICT || South India | Bellary District | 1881 | Table No. 9, showing the Distribution of the Population in each Town i"
+deductforbirthplaceoutsidemysore,Deduct for Birth-place outside Mysore,,2,row:2,South India | Mysore | 1901 | Proportion of Females among Mysore-born || South India | Mysore | 1901 | Proportion of Females among Mysore-born by three Censuses
+mysoreprovince,Mysore Province,,2,row:2,"South India | Mysore | 1901 | distribution of 1,000 persons of each sex under the age of 15 || South India | Mysore | 1901 | SUBSIDIARY TABLE XV. Distribution by Civil Condition of 10,000 of each"
+goa,Goa,,2,row:2,South India | Mysore | 1901 | SUBSIDIARY TABLE V. Detailed Distribution of Population by Birth-place || South India | Cochin | 1921 | TABLE XI.-(cont.) BIRTH PLACE.
+nagar,Nagar,,2,row:2,"South India | Mysore | 1901 | Appendix F to Chapter IV, Section I-Age-contd. || ? | digitized tables | ? | TABLE VIII - CIVIL CONDITION BY"
+heggaddevankote,Heggaddevankote,,2,row:2,South India | Mysore | 1901 | Statement showing Age distribution of the Population of the several Ta || South India | Mysore | 1901 | APPENDIX F. Statement showing Age distribution of the Population of th
+tnarsipur,T. Narsipur,,2,row:2,South India | Mysore | 1901 | Statement showing Age distribution of the Population of the several Ta || South India | Mysore | 1901 | APPENDIX F. Statement showing Age distribution of the Population of th
+mandya,Mandya,,2,row:2,South India | Mysore | 1901 | Statement showing Age distribution of the Population of the several Ta || South India | Mysore | 1901 | APPENDIX F. Statement showing Age distribution of the Population of th
+yelandur,Yelandur,,2,row:2,South India | Mysore | 1901 | Statement showing Age distribution of the Population of the several Ta || South India | Mysore | 1901 | APPENDIX F. Statement showing Age distribution of the Population of th
+nelamangala,Nelamangala,,2,row:2,South India | Mysore | 1901 | Statement showing Age distribution of the Population of the several Ta || South India | Mysore | 1901 | APPENDIX F. Statement showing Age distribution of the Population of th
+advancedhindus,Advanced Hindus,,2,row:2,"South India | Travancore | 1931 | CHAPTER VI - CIVIL CONDITION: PART II - STATISTICAL || South India | Travancore | 1931 | Number per 1,000 of the population of each sex"
+husbandyoungerthanwife,Husband younger than wife,,2,row:2,South India | Travancore | 1931 | SUBSIDIARY TABLE VIII Average size of family correlated with the age o
+cfrenchandportuguesesettlements,(c) FRENCH AND PORTUGUESE SETTLEMENTS,(c) French and Portuguese Settlements,2,row:2,South India | Cochin | 1921 | TABLE XI.-(cont.) BIRTH PLACE. || All-India | India | 1931 | Table I.—Birthplace.
+hajam,Hajam,,2,colg:1;sect:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People || ? | digitized tables | ? | SUBSIDIARY TABLE V-contd.
+jamkhanadavaru,Jamkhanadavaru,,2,colg:2,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+kanayannur,Kanayannur,,2,colg:2,South India | Cochin | 1891 | TABLE VII - Ages by Religions || South India | Cochin | 1921 | TABLE VII. Ages by Religions. PART (A): - Total Population.
+talappilli,Talappilli,,2,colg:2,South India | Cochin | 1891 | TABLE VII - Ages by Religions || South India | Cochin | 1921 | TABLE VII. Ages by Religions. PART (A): - Total Population.
+percentageofvariationincreasedecrease,Percentage of variation Increase (+) Decrease (-),,2,colg:2,South India | Hyderabad | 1901 | SUBSIDIARY TABLE I. General distribution of population by Religion.
+ebuddhist,E-BUDDHIST,E. Buddhist,2,colg:1;sect:1,South India | Travancore | 1901 | TABLE VI. The Population by Religion. || South India | Travancore | 1901 | TABLE VIII. Education. PART I.-GENERAL TABLE.
+birthplaceunspecified,"BIRTH-PLACE, UNSPECIFIED","BIRTH-PLACE, UNSPECIFIED.",2,colg:2;sect:2,South India | Mysore | 1881 | Distribution of the Population by Birth-place - concluded.
+commercial,Commercial,,2,colg:2,South India | Cochin | 1941 | (vi) Age at birth of first child according to m/l of husband-(cont.) || All-India | India | 1931 | Statement showing details of persons of Indian origin enumerated in va
+native,Native,,2,colg:1;sect:1,South India | Cochin | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (actual numbers.) || North India | Punjab | 1901 | TABLE VIII.-Education. PART II.-DISTRICT TABLES.
+nonagriculturalpopulation,NON AGRICULTURAL POPULATION,,2,colg:2,South India | Mysore | 1951 | Age Pyramids DISTRIBUTION BY AGE OF 10000 OF THE POPULATION OF EACH SE
+chingleputothers,Chingleput - Others,,2,sect:2,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I. - Districts and State || South India | Madras | 1911 | TABLE VII. Age, sex and civil condition. Part I. - Districts and State"
+tinnevellyothers,Tinnevelly - Others,,2,sect:2,"South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I. - Districts and Sta || South India | Madras | 1911 | TABLE VII. Age, sex and civil condition. Part I. - Districts and State"
+kalkulamalltotal,Kalkulam · All / Total,,2,sect:2,"South India | Eraniel Taluk / Kalkulam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (4) Kalkulam Taluk || South India | Tovala Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+bangalorehindu,Bangalore · Hindu,BANGALORE DISTRICT. - Hindu.,2,sect:2,"South India | Mysore | 1931 | TABLE VII. Age, Sex and Civil Condition — Bangalore District || South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age."
+chitaldrugalltotal,Chitaldrug · All / Total,,2,sect:2,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age || South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+chitaldrugchristian,Chitaldrug · Christian,CHITALDRUG DISTRICT. Christian.,2,sect:2,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age || South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+hassanmusalman,Hassan · Musalman,HASSAN DISTRICT. Musalman.,2,sect:2,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age || South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+tumkurchristian,Tumkur · Christian,TUMKUR DISTRICT - Christian,2,sect:2,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age. || South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age.
+kadurjain,Kadur · Jain,KADUR DISTRICT. Jain.,2,sect:2,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age. || South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age.
+sandurmusalman,Sandur · Musalman,SANDUR - MUSALMAN,2,sect:2,"South India | Madras | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State || South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+town,Town,,2,sect:2,South India | Mysore | 1891 | TABLE XVII. Occupation by Age. Part A. Town and Country. || South India | Mysore | 1911 | TABLE XVII. Occupation by Age. Part A. Town and Country.
+kolarbrahmanmales,Kolar District-Brahman Males,,2,tag:2;sect:1,South India | Kolar District-Brahman Males | 1901 | II - Statement showing unadjusted and adjusted returns by single Age-p || South India | Kolar District-Brahman Males | 1901 | II.-Statement showing unadjusted and adjusted returns by single Age-pe
+tableveducationchristiansmale,TABLE V. Education-CHRISTIANS (MALE).,TABLE V. Education - CHRISTIANS (MALE).,2,sect:2,South India | Madras | 1911 | TABLE V. Education-CHRISTIANS (MALE). || South India | Madras | 1911 | TABLE V. Education - CHRISTIANS (MALE).
+tableveducationmusalmansfemale,TABLE V. Education - MUSALMANS (FEMALE).,TABLE V. Education—MUSALMANS (FEMALE).,2,sect:2,South India | Madras | 1911 | TABLE V. Education - MUSALMANS (FEMALE). || South India | Madras | 1911 | TABLE V. Education—MUSALMANS (FEMALE).
+distributionofpeople,Distribution of the People,,2,sect:2,South India | Mysore | 1881 | Distribution of the People
+iiiotherhindumiscellaneous,III. Other Hindu Miscellaneous.,,2,sect:2,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+subsidiarytablevdistributionbycivilconditionofpersonsofeachmainageperiodforeachsex,"SUBSIDIARY TABLE V. Distribution by Civil Condition of 10,000 persons of each main Age-period for each sex.",,2,sect:2,"South India | Hyderabad | 1901 | SUBSIDIARY TABLE V. Distribution by Civil Condition of 10,000 persons "
+salemmusalman,SALEM - MUSALMAN,,2,sect:2,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States- || South India | North Arcot And Salem | 1911 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+malabarhindu,MALABAR. HINDU,,2,sect:2,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States- || South India | Malabar And Anjengo | 1911 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+godavariallreligions,GODAVARI. ALL RELIGIONS.,GODAVARI. - ALL RELIGIONS.,2,sect:2,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States- || South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.-Districts and State"
+godavarichristian,GODAVARI. CHRISTIAN.,GODAVARI. - CHRISTIAN.,2,sect:2,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States- || South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.-Districts and State"
+cuddapahallreligions,CUDDAPAH. - ALL RELIGIONS.,CUDDAPAH. ALL RELIGIONS,2,sect:2,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.—Districts and States— || South India | Nellore And Cuddapah | 1911 | TABLE VII. Age, Sex and Civil Condition. Part I.-Districts and States-"
+cuddapahchristian,CUDDAPAH. - CHRISTIAN.,CUDDAPAH. CHRISTIAN,2,sect:2,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.—Districts and States— || South India | Nellore And Cuddapah | 1911 | TABLE VII. Age, Sex and Civil Condition. Part I.-Districts and States-"
+bellaryallreligions,BELLARY. - ALL RELIGIONS.,BELLARY - ALL RELIGIONS,2,sect:2,"South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.—Districts and State || South India | Kurnool And Bellary | 1911 | TABLE VII. Age, sex and civil condition. Part I. Districts and States-"
+shimogahindu,SHIMOGA DISTRICT - Hindu.,SHIMOGA DISTRICT. Hindu.,2,sect:2,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age. || South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age.
+shimogajain,SHIMOGA DISTRICT - Jain.,SHIMOGA DISTRICT. Jain.,2,sect:2,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age. || South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age.
+civilandmilitarystationbangalorechristian,"CIVIL AND MILITARY STATION, BANGALORE - Christian.","CIVIL AND MILITARY STATION, BANGALORE. Christian.",2,sect:2,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age. || South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age.
+bangalorechristian,BANGALORE DISTRICT. - Christian.,Bangalore District - Christian,2,sect:2,"South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age. || South India | Mysore | 1931 | TABLE VII. Age, Sex & Civil Condition."
+hassanallreligions,Hassan District. All religions.,HASSAN DISTRICT. All Religions.,2,sect:2,"South India | Mysore | 1931 | TABLE VII. Age, Sex & Civil Condition. || South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age."
+nagercoil,Nagercoil.,,2,sect:2,"South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition.—Towns. || South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition. - Towns."
+tableixeducationbyreligionandagepartbhindus,TABLE IX. Education by Religion and Age. Part (B)—HINDUS.,TABLE IX. Education by Religion and Age. Part (B)-HINDUS.,2,sect:2,South India | Travancore | 1891 | TABLE IX. Education by Religion and Age. Part (B)—HINDUS. || South India | Travancore | 1891 | TABLE IX. Education by Religion and Age. Part (B)-HINDUS.
+iisizeoffamilybyageofmotheratbirthoffirstchildmalayalibrahmansforfertilewomenonly,(ii) Size of family by age of mother at birth of first child - Malayali Brahmans (for fertile women only),,2,sect:2,South India | Cochin | 1941 | Fertility enquiry
+iisizeoffamilybyageofmotheratbirthoffirstchildindianchristiansfertilewomenagedandover,(ii) Size of family by age of mother at birth of first child - Indian Christians (fertile women aged 45 and over),,2,sect:2,South India | Cochin | 1941 | Fertility enquiry
+subsidiarytableiiinumberoffemalespermalesatdifferentageperiodsbyreligionsandnaturaldivisions,"SUBSIDIARY TABLE III.—NUMBER OF FEMALES PER 1,000 MALES AT DIFFERENT AGE PERIODS BY RELIGIONS AND NATURAL DIVISIONS.","SUBSIDIARY TABLE III. Number of Females per 1,000 Males at different age periods by religions and natural divisions.",2,sect:2,"South India | Hyderabad | 1921 | SUBSIDIARY TABLE III.—NUMBER OF FEMALES PER 1,000 MALES AT DIFFERENT A || South India | Cochin | 1921 | SUBSIDIARY TABLE II (cont.)"
+tableviianimisticagesexandcivilcondition,"TABLE VII. ANIMISTIC Age, Sex and Civil condition.","TABLE VII. ANIMISTIC. Age, Sex and Civil Condition.",2,sect:2,"South India | Cochin | 1911 | TABLE VII. ANIMISTIC Age, Sex and Civil condition. || South India | Cochin | 1911 | TABLE VII. ANIMISTIC. Age, Sex and Civil Condition."
+tableviiagesexandcivilconditionallreligionscontinued,"TABLE VII - Age, Sex, and Civil Condition - All Religions - continued.","TABLE VII-Age, Sex, and Civil Condition-All Religions-continued.",2,sect:2,"South India | Mysore | ? | TABLE VII - Age, Sex, and Civil Condition - All Religions - continued. || South India | Chitaldrug District | 1901 | TABLE VII-Age, Sex, and Civil Condition-All Religions-continued."
+tableviiagesexandcivilconditionanimistic,"TABLE VII--Age, Sex, and Civil Condition--Animistic.","TABLE VII. AGE, SEX AND CIVIL CONDITION. ANIMISTIC.",2,sect:2,"South India | Mysore | 1901 | TABLE VII--Age, Sex, and Civil Condition--Animistic. || Northeast India | Assam | 1901 | TABLE VII. AGE, SEX AND CIVIL CONDITION. ANIMISTIC."
+comparisonwith,Comparison with 1891,Comparison with 1872.,2,sect:2,South India | Bangalore | 1901 | Comparison with 1891 || West India | Bombay | 1881 | Comparison with 1872.
+actualnumbersafflicted,Actual numbers afflicted,,2,sect:2,South India | Travancore | 1931 | INFIRMITIES BY SEX
+centraldivisioncontdothers,Central Division-(contd.) - Others,,2,sect:2,South India | Travancore | 1931 | TABLE XIII-Literacy by Religion and Age-Part II-Administrative Divisio
+northerndivisionchristian,Northern Division - Christian,,2,sect:2,South India | Travancore | 1931 | TABLE XIII-Literacy by Religion and Age-Part II-Administrative Divisio
+northerndivisionothers,Northern Division - Others,,2,sect:2,South India | Travancore | 1931 | TABLE XIII-Literacy by Religion and Age-Part II-Administrative Divisio
+bangalorerural,Bangalore District Rural,BANGALORE DISTRICT RURAL,2,tag:2;sect:1,South India | Bangalore District Rural | 1951 | C. V-Single year age returns-contd.
+hassanurban,Hassan District Urban,HASSAN DISTRICT URBAN,2,tag:2;sect:1,South India | Hassan District Urban | 1951 | C. V—Single year age returns—contd.
+ganjamandvizagapatam,Ganjam and Vizagapatam,,2,tag:2,South India | Ganjam and Vizagapatam | 1891 | TABLE VII. Age by Religion. Part (J)—ANIMISTIC. || South India | Ganjam and Vizagapatam | 1911 | TABLE VII. Age by Religion. Part (J)—ANIMISTIC.
+conditionandmainageperiodsineach,Condition and Main Age periods in each,,2,title:2,"South India | Mysore | 1901 | APPENDIX A. Statement showing the distribution of 1,000 of each sex by"
+showingpopulationofeach,SHOWING THE POPULATION OF EACH,,2,title:2,South India | Cochin | 1911 | DIAGRAM No. 2. SHOWING THE POPULATION OF EACH TALUK AT EACH OF THE FIV
+tiibyprovincesandstateshyderabad,T II.--BY PROVINCES AND STATES--HYDERABAD,,2,title:2,"South India | Hyderabad | 1901 | TABLE VII. Age, Sex and Civil Condition. PART II.--BY PROVINCES AND ST"
+sexandcivilconditionganjam,Sex and Civil Condition-GANJAM,,2,title:2,"South India | Ganjam Agency | 1901 | Age, Sex and Civil Condition-GANJAM AGENCY."
+sexandcivilconditionbellary,Sex and Civil Condition-BELLARY,,2,title:2,"South India | Bellary District | 1901 | TABLE VII. Age, Sex and Civil Condition-BELLARY DISTRICT."
+sexandcivilconditionnellore,Sex and Civil Condition-NELLORE,,2,title:2,"South India | Nellore District | 1901 | TABLE VII. Age, Sex and Civil Condition-NELLORE DISTRICT."
+sexandcivilconditionnortharcot,Sex and Civil Condition-NORTH ARCOT,,2,title:2,"South India | Madras | 1901 | TABLE VII. Age, Sex and Civil Condition-NORTH ARCOT DISTRICT."
+sexandcivilconditiontrichinopoly,Sex and Civil Condition-TRICHINOPOLY,,2,title:2,"South India | Trichinopoly District | 1901 | Age, Sex and Civil Condition-TRICHINOPOLY DISTRICT."
+nilgiri,Nilgiri District,,2,tag:2,"South India | Nilgiri District | 1901 | TABLE VII. Age, Sex and Civil Condition-NILGIRI DISTRICT."
+sexandcivilconditionmadura,Sex and Civil Condition-MADURA,,2,title:2,"South India | Madras | 1901 | Age, Sex and Civil Condition-MADURA DISTRICT."
+sexandcivilconditionpudukkottai,Sex and Civil Condition-PUDUKKOTTAI,,2,title:2,"South India | Pudukkottai State | 1901 | Age, Sex and Civil Condition-PUDUKKOTTAI STATE."
+nelloreandcuddapah,Nellore And Cuddapah,,2,tag:2,"South India | Nellore And Cuddapah | 1911 | TABLE VII. Age, Sex and Civil Condition. Part I.-Districts and States-"
+conditionjainpartachitaldrug,Condition - Jain. Part A. - Chitaldrug,,2,title:2,"South India | Chitaldrug District | 1901 | TABLE VII. Age, Sex and Civil Condition - Jain. Part A. - Chitaldrug D"
+bangalorecorporaton,Bangalore Corporaton,,2,tag:2,South India | Bangalore Corporaton | 1951 | C. V—Single year age returns—contd.
+agastisvaramtalukeranieltaluk,Agastisvaram Taluk / Eraniel Taluk,,2,tag:2,"South India | Agastisvaram Taluk / Eraniel Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition. || South India | Agastisvaram Taluk / Eraniel Taluk | 1901 | TABLE VII. Age, Sex and Civil Conditon.-(2) Agastisvaram Taluk.-(Concl"
+chirayinkiltaluk,Chirayinkil Taluk,,2,tag:2,"South India | Chirayinkil Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(9) Chirayinkil Taluk.-(Contd"
+kottarakaratalukpattanapuramtaluk,Kottarakara Taluk / Pattanapuram Taluk,,2,tag:2,"South India | Kottarakara Taluk / Pattanapuram Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(10) Kottarakara Taluk.-(Conc || South India | Kottarakara Taluk / Pattanapuram Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition."
+mavelikaratalukchengannurtaluk,Mavelikara Taluk / Chengannur Taluk,,2,tag:2,"South India | Mavelikara Taluk / Chengannur Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition. || South India | Mavelikara Taluk / Chengannur Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(17) Mavelikara Taluk.-(Concl"
+kunnattur,Kunnattur,,2,title:2,"South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition.-(14) Kunnattur Taluk.-(Contd. || South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition.—(14) Kunnattur Taluk—(Contd.)"
+sexandreligionmusalmansmysore,Sex and Religion-Musalmans. Mysore,,2,title:2,"South India | Mysore | 1901 | SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalman"
+kodagacoorgs,Kodaga (Coorgs),,1,row:1,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+lingayatgaudumaneandc,"Lingáyat, (Gaudumané, and c.)",,1,row:1,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+koracha,Koracha,,1,row:1,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+uriya,Uriya,,1,row:1,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+aravattuvakkalu,Aravattu Vakkalu,,1,row:1,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+brihachcharana,Brihachcharana,,1,row:1,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+dravida,Drávida,,1,row:1,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+halekannadiga,Halékannadiga,,1,row:1,"South India | Tumkur | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+mahabubnagar,Mahabubnagar,,1,row:1,South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts
+malerueasterndivisionmale,Maleru | Eastern Division | Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age
+soligaeasterndivisionmale,Soliga | Eastern Division | Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age
+warangaldivision,Warangal Division,,1,row:1,"South India | Hyderabad | 1911 | TABLE XVIII. EUROPEANS, ARMENIANS AND ANGLO-INDIANS BY RACE AND AGE."
+gulbargadivision,Gulbarga Division,,1,row:1,"South India | Hyderabad | 1911 | TABLE XVIII. EUROPEANS, ARMENIANS AND ANGLO-INDIANS BY RACE AND AGE."
+sravaka,S'rávaka,,1,row:1,South India | Mysore | 1891 | SUPPLEMENTARY TABLE E.
+panchalabadagi,Pánchála. { Badagi,,1,row:1,South India | Mysore | 1891 | SUPPLEMENTARY TABLE E.
+darzi,Darzi,,1,row:1,South India | Mysore | 1891 | SUPPLEMENTARY TABLE E.
+neyige,Néyigé,,1,row:1,South India | Mysore | 1891 | SUPPLEMENTARY TABLE E.
+panchalajalagara,Pánchála.-Jálagára,,1,row:1,South India | Mysore | 1891 | SUPPLEMENTARY TABLE E.
+telanganafemale,Telangana Female,,1,row:1,South India | Hyderabad | 1931 | CHAPTER VI.—CIVIL CONDITION
+davangeri,Davangeri,,1,row:1,"South India | Mysore | 1881 | Towns of 7,000 to 10,000"
+kalingi,Kálingi,,1,row:1,"South India | Madras | 1891 | Number of females who are married out of 10,000 aged between 0 and 9."
+nagavasula,Nágavásula,,1,row:1,"South India | Madras | 1891 | Number of females who are married out of 10,000 aged between 0 and 9."
+segidi,Segidi,,1,row:1,"South India | Madras | 1891 | Number of females who are married out of 10,000 aged between 0 and 9."
+yata,Yáta,,1,row:1,"South India | Madras | 1891 | Number of females who are married out of 10,000 aged between 0 and 9."
+dofeudatorystates,Do. Feudatory States,,1,row:1,South India | Mysore | 1881 | Form Distribution of the Popula
+kunchitigamysorestateincludingcandmstnbangaloremale,"Kunchitiga - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kunchitigaeasterndivisionfemale,Kunchitiga - Eastern Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kunchitigacivilandmilitarystationbangaloremale,"Kunchitiga - Civil and Military Station, Bangalore - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kurubamysorestateincludingcandmstnbangalorefemale,"Kuruba - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Female",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kurubawesterndivisionmale,Kuruba - Western Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kurubacivilandmilitarystationbangalorefemale,"Kuruba - Civil and Military Station, Bangalore - Female",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+lambanireturnedashindueasterndivisionmale,Lambani (returned as Hindu) - Eastern Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+lambanireturnedashinduwesterndivisionfemale,Lambani (returned as Hindu) - Western Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+lingayateasterndivisionmale,Lingayat - Eastern Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+lingayatwesterndivisionfemale,Lingayat - Western Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+madigaeasterndivisionmale,Madiga - Eastern Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+madigawesterndivisionfemale,Madiga - Western Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+mahrattaeasterndivisionmale,Mahratta - Eastern Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+mahrattawesterndivisionfemale,Mahratta - Western Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+medawesterndivisionmale,Meda - Western Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+mudalieasterndivisionfemale,Mudali - Eastern Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+gollamysorestateincludingcandmstnbangaloremale,"Golla - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+gollaeasterndivisionfemale,Golla - Eastern Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+gollacivilandmilitarystationbangaloremale,"Golla - Civil and Military Station, Bangalore - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+holeyamysorestateincludingcandmstnbangalorefemale,"Holeya - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Female",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+holeyawesterndivisionmale,Holeya - Western Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+holeyacivilandmilitarystationbangalorefemale,"Holeya - Civil and Military Station, Bangalore - Female",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+idigaeasterndivisionmale,Idiga - Eastern Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+idigawesterndivisionfemale,Idiga - Western Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+jogimysorestateincludingcandmstnbangaloremale,"Jogi - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+jogieasterndivisionfemale,Jogi - Eastern Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+jogicivilandmilitarystationbangaloremale,"Jogi - Civil and Military Station, Bangalore - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+komatimysorestateincludingcandmstnbangalorefemale,"Komati - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Female",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+komatiwesterndivisionmale,Komati - Western Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+komaticivilandmilitarystationbangalorefemale,"Komati - Civil and Military Station, Bangalore - Female",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+korachareturnedashindueasterndivisionmale,Koracha (returned as Hindu). - Eastern Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+korachareturnedashinduwesterndivisionfemale,Koracha (returned as Hindu). - Western Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kshattriyamysorestateincludingcandmstnbangaloremale,"Kshattriya - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE. - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kshattriyaeasterndivisionfemale,Kshattriya - Eastern Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kshattriyacivilandmilitarystationbangaloremale,"Kshattriya - Civil and Military Station, Bangalore - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+kumbaraeasterndivisionfemale,Kumbara - Eastern Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+agasaeasterndivision,Agasa - Eastern Division,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+banajigawesterndivision,Banajiga - Western Division,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+bestamysorestateincludingcandmstnbangalore,"Besta - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+bestacivilandmilitarystationbangalore,"Besta - Civil and Military Station, Bangalore",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+brahmanwesterndivision,Brahman - Western Division,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+darziwesterndivision,Darzi - Western Division,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+ganigaeasterndivision,Ganiga - Eastern Division,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+brahmofemale,Brahmo Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age
+vaisyawesterndivisionmale,Vaisya - Western Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+voddaeasterndivisionfemale,Vodda - Eastern Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+arabmysorestateincludingcandmstnbangaloremale,"Arab - MYSORE STATE INCLUDING C. AND M. STN., BANGALORE. - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+arabeasterndivisionfemale,Arab - Eastern Division - Female,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+baluchimysorestateincludingcandmstnbangaloremale,"Baluchi - MYSORE STATE INCLUDING C. AND M. STN., BANGALORE. - Male",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+dayaremysorestateincludingcandmstnbangalorefemale,"Dayare - MYSORE STATE INCLUDING C. AND M. STN., BANGALORE. - Female",,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+dayarewesterndivisionmale,Dayare - Western Division - Male,,1,row:1,South India | Mysore | 1931 | TABLE XIV. Civil Condition by Age.
+adikarnatakacivilandmilitarystationbangalore,"Adikarnataka. Civil and Military Station, Bangalore",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+gangakulamysorestateincludingcandmstnbangalore,"Gangakula. MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+idigacivilandmilitarystationbangalore,"Idiga Civil and Military Station, Bangalore",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+kshatriyamysorestateincludingcandmstnbangalore,"Kshatriya... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+vodda,Vodda,,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+banajaratribal,Banajara... (Tribal),,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+korachatribal,Koracha ... (Tribal),,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+koramatribal,Korama ... (Tribal),,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+meda,Meda,,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age
+satani,Satani,,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age
+kurubatotal,Kuruba (Total),,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+sheik,Sheik,,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+kunchatigamysorestateincludingcandmstnbangaloremale,"Kunchatiga. MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+kunchatigacivilandmilitarystationbangalorefemale,"Kunchatiga. Civil and Military Station, Bangalore... Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+nagarthacivilandmilitarystationbangaloremale,"Nagartha... Civil and Military Station, Bangalore... Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+nayindamysorestateincludingcandmstnbangalorefemale,"Nayinda ... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+neygimysorestateincludingcandmstnbangaloremale,"Neygi ... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+neygicivilandmilitarystationbangalorefemale,"Neygi ... Civil and Military Station, Bangalore... Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+satanicivilandmilitarystationbangaloremale,"Satani ... Civil and Military Station, Bangalore... Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+tigalamysorestateincludingcandmstnbangalorefemale,"Tigala ... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+upparamysorestateincludingcandmstnbangaloremale,"Uppara ... MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+vakkaligamysorestateincludingcandmstnbangalorefemale,"Vakkaliga - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+viswakarmamysorestateincludingcandmstnbangaloremale,"Viswakarma - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+viswakarmacivilandmilitarystationbangalorefemale,"Viswakarma - Civil and Military Station, Bangalore - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+yadavacivilandmilitarystationbangaloremale,"Yadava - Civil and Military Station, Bangalore - Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+kurubahindumysorestateincludingcandmstnbangalorefemale,"Kuruba (Hindu) - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+kurubatribalmysorestateincludingcandmstnbangaloremale,"Kuruba (Tribal) - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+kurubatotalmysorestateincludingcandmstnbangalorefemale,"Kuruba (Total) - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+labbaimysorestateincludingcandmstnbangaloremale,"Labbai - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+labbaicivilandmilitarystationbangalorefemale,"Labbai - Civil and Military Station, Bangalore... - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+mughalcivilandmilitarystationbangaloremale,"Mughal - Civil and Military Station, Bangalore... - Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+pathanmysorestateincludingcandmstnbangalorefemale,"Pathan - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+pinjarimysorestateincludingcandmstnbangaloremale,"Pinjari - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+pinjaricivilandmilitarystationbangalorefemale,"Pinjari - Civil and Military Station, Bangalore... - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+saiyadcivilandmilitarystationbangaloremale,"Saiyad - Civil and Military Station, Bangalore... - Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+sheikmysorestateincludingcandmstnbangalorefemale,"Sheik - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+indianchristianmysorestateincludingcandmstnbangaloremale,"Indian Christian - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE - Male",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+indianchristiancivilandmilitarystationbangalorefemale,"Indian Christian - Civil and Military Station, Bangalore... - Female",,1,row:1,South India | Mysore | 1931 | TABLE VIII. Civil Condition by Age.
+syrianromosyrian,Syrian Romo-Syrian,,1,row:1,South India | Travancore | 1921 | TABLE XV. Territorial Distribution of the Christian Population by Sect
+travancoremale,Travancore Male,,1,row:1,South India | Travancore | 1911 | STATEMENT SHOWING THE PROPORTION OF UNMARRIED PERSONS IN THE SEVERAL A
+unitedstatesofamericafemale,United States of America Female,,1,row:1,South India | Travancore | 1911 | STATEMENT SHOWING THE PROPORTION OF UNMARRIED PERSONS IN THE SEVERAL A
+gulburga,Gulburga,,1,row:1,"South India | Hyderabad | 1901 | Percentage of district population under each age period, &c."
+mountainousdivision,Mountainous Division,,1,row:1,South India | Travancore | 1921 | VARIATION OF POPULATION PER CENT.
+mysoreprovinceallages,Mysore Province (All Ages),,1,row:1,South India | Mysore | 1891 | Mysore compared with countries abroad.
+wardi,Ward I,,1,row:1,South India | Hyderabad | 1911 | PROVINCIAL TABLE I. AREA AND POPULATION OF TALUKAS.
+wardiv,Ward IV,,1,row:1,South India | Hyderabad | 1911 | PROVINCIAL TABLE I. AREA AND POPULATION OF TALUKAS.
+wardviberunii,Ward VI (Berun. II),,1,row:1,South India | Hyderabad | 1911 | PROVINCIAL TABLE I. AREA AND POPULATION OF TALUKAS.
+wardviiichada,Ward VIII (Chad. A),,1,row:1,South India | Hyderabad | 1911 | PROVINCIAL TABLE I. AREA AND POPULATION OF TALUKAS.
+wardxichadd,Ward XI (Chad. D),,1,row:1,South India | Hyderabad | 1911 | PROVINCIAL TABLE I. AREA AND POPULATION OF TALUKAS.
+residencybazars,Residency Bazars,,1,row:1,South India | Hyderabad | 1911 | PROVINCIAL TABLE I. AREA AND POPULATION OF TALUKAS.
+gopalpur,Gopálpúr,,1,row:1,"South India | Madras | 1881 | Table No. 150, showing the Percentage of Increase or Decrease of Popul"
+tranquebarporayar,Tranquebar (Porayar),,1,row:1,"South India | Madras | 1881 | Table No. 150, showing the Percentage of Increase or Decrease of Popul"
+tellicherry,Tellicherry,,1,row:1,"South India | Madras | 1881 | Table No. 150, showing the Percentage of Increase or Decrease of Popul"
+goomsur,Goomsur,,1,row:1,"South India | Madras | 1881 | Table No. 3, showing the Area, Towns and Villages, Houses, and the Pop"
+jalantra,Jalantra,,1,row:1,"South India | Madras | 1881 | Table No. 3, showing the Area, Towns and Villages, Houses, and the Pop"
+pratapagiri,Pratapagiri,,1,row:1,"South India | Madras | 1881 | Table No. 3, showing the Area, Towns and Villages, Houses, and the Pop"
+sompet,Sompet,,1,row:1,"South India | Madras | 1881 | Table No. 3, showing the Area, Towns and Villages, Houses, and the Pop"
+uglam,Uglam,,1,row:1,"South India | Madras | 1881 | Table No. 3, showing the Area, Towns and Villages, Houses, and the Pop"
+jaggayapet,Jaggayapét,,1,row:1,"South India | Kistna District | 1881 | Table No. 10, showing the Distribution of the Population in each Town "
+mylaveram,Mylaveram,,1,row:1,"South India | Kistna District | 1881 | Table No. 10, showing the Distribution of the Population in each Town "
+gudivada,Gudivada,,1,row:1,"South India | Kistna District | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses and"
+palnad,Palnad,,1,row:1,"South India | Kistna District | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses and"
+vinukonda,Vinukonda,,1,row:1,"South India | Kistna District | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses and"
+chamarlakota,Chamarlakota,,1,row:1,"South India | Madras | 1881 | Table No. 10, showing the Distribution of the Population in each Town "
+palakolla,Palakolla,,1,row:1,"South India | Madras | 1881 | Table No. 10, showing the Distribution of the Population in each Town "
+samavarapeta,Samavarapeta,,1,row:1,"South India | Madras | 1881 | Table No. 10, showing the Distribution of the Population in each Town "
+koilkuntla,Koilkuntla,,1,row:1,"South India | Kurnool | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an"
+pattikonda,Pattikonda,,1,row:1,"South India | Kurnool | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an"
+banaganpalle,Banaganpalle,,1,row:1,"South India | Kurnool | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an"
+kadiri,Kadiri,,1,row:1,"South India | Cuddapah District | 1881 | Table No. 10, showing the Distribution of the Population of each Town "
+pulivendala,Pulivendala,,1,row:1,"South India | Cuddapah District | 1881 | Table No. 10, showing the Distribution of the Population of each Town "
+vayalpad,Vayalpad,,1,row:1,"South India | Cuddapah District | 1881 | Table No. 10, showing the Distribution of the Population of each Town "
+kudligi,Kudligi,,1,row:1,South India | Bellary | 1881 | BELLARY DISTRICT
+kottur,Kottur,,1,row:1,"South India | Bellary District | 1881 | Table No. 9, showing the Distribution of the Population in each Town i"
+yemiganur,Yemiganur,,1,row:1,"South India | Bellary District | 1881 | Table No. 9, showing the Distribution of the Population in each Town i"
+madaksira,Madaksira,,1,row:1,"South India | Madras | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an"
+chilambaram,Chilambaram,,1,row:1,"South India | Tanjore District | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an"
+tiruvannamalai,Tiruvannamalai,,1,row:1,"South India | Tanjore District | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an"
+vriddhachalam,Vriddhachalam,,1,row:1,"South India | Tanjore District | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an"
+perambalur,Perambalur,,1,row:1,"South India | Madras | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses and"
+mannargudi,Mannargudi,,1,row:1,"South India | Tanjore District | 1881 | Table No. 10, showing the Distribution of the Population of each Town "
+tiruvadi,Tiruvadi,,1,row:1,"South India | Tanjore District | 1881 | Table No. 10, showing the Distribution of the Population of each Town "
+vallamvadakusetti,Vallam Vadakusetti,,1,row:1,"South India | Tanjore District | 1881 | Table No. 10, showing the Distribution of the Population of each Town "
+dindigul,Dindigul,,1,row:1,"South India | Madras | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses and"
+pulney,Pulney,,1,row:1,"South India | Madras | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses and"
+brahmanspriests,Bráhmans (Priests),,1,row:1,South India | Malabar District | 1881 | MALABAR DISTRICT.
+vellalarsagriculturists,Vellálars (Agriculturists),,1,row:1,South India | Malabar District | 1881 | MALABAR DISTRICT.
+kanakkanwriters,Kanakkan (Writers),,1,row:1,South India | Malabar District | 1881 | MALABAR DISTRICT.
+kushavanpotters,Kushavan (Potters),,1,row:1,South India | Malabar District | 1881 | MALABAR DISTRICT.
+ambattanbarbers,Ambattan (Barbers),,1,row:1,South India | Malabar District | 1881 | MALABAR DISTRICT.
+military,Military,,1,row:1,"South India | Hyderabad | 1931 | Table I. AREA, HOUSES AND POPULATION"
+meanforstate,Mean for the State,,1,row:1,South India | Cochin | 1901 | MAP To show the Proportion of the sexes in the Various Taluks COCHIN S
+dojacobite,Do. (Jacobite),,1,row:1,South India | Cochin | 1911 | SUBSIDIARY TABLE IV. Races and Sects of Christians (actual numbers.)
+maidan,Maidan,,1,row:1,South India | Mysore | 1901 | APPENDIX A Distribution of Population of 1901 in three ways.
+mysorecitym,Mysore City - M,,1,row:1,South India | Mysore | 1931 | APPENDIX G. Statement showing the distribution by Civil Condition of 1
+mysorem,Mysore District - M,,1,row:1,South India | Mysore | 1931 | APPENDIX G. Statement showing the distribution by Civil Condition of 1
+bangalorecitym,Bangalore City - M,,1,row:1,South India | Mysore | 1931 | APPENDIX G. Statement showing the distribution by Civil Condition of 1
+bangalorem,Bangalore District - M,,1,row:1,South India | Mysore | 1931 | APPENDIX G. Statement showing the distribution by Civil Condition of 1
+kolargoldfieldsm,Kolar Gold Fields - M,,1,row:1,South India | Mysore | 1931 | APPENDIX G. Statement showing the distribution by Civil Condition of 1
+kolarm,Kolar District - M,,1,row:1,South India | Mysore | 1931 | APPENDIX G. Statement showing the distribution by Civil Condition of 1
+tumkurm,Tumkur District - M,,1,row:1,South India | Mysore | 1931 | APPENDIX G. Statement showing the distribution by Civil Condition of 1
+shimogado,Shimoga do,,1,row:1,South India | Mysore | 1901 | Statement showing Age at
+iiiserviceofnativeandforeignstates,III. Service of Native and Foreign States,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY Literary by Civil Condition
+vipersonalhouseholdandsanitaryservices,VI. Personal Household and Sanitary services,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY Literary by Civil Condition
+ixbuildings,IX. Buildings,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY Literary by Civil Condition
+xiitextilefabricsanddress,XII. Textile Fabrics and Dress,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY Literary by Civil Condition
+xvwoodcaneandleavesetc,"XV. Wood, cane and leaves, etc",,1,row:1,South India | Mysore | 1901 | SUBSIDIARY Literary by Civil Condition
+xviiicommerce,XVIII. Commerce,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY Literary by Civil Condition
+xxisport,XXI. Sport,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY Literary by Civil Condition
+awithinprovince,A.-Districts within the Province,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V. Detailed Distribution of Population by Birth-place
+vindiaunspecified,v. India Unspecified,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V. Detailed Distribution of Population by Birth-place
+china,China,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V. Detailed Distribution of Population by Birth-place
+java,Java,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V. Detailed Distribution of Population by Birth-place
+asiaunspecified,"Asia, Unspecified",,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V. Detailed Distribution of Population by Birth-place
+malta,Malta,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V. Detailed Distribution of Population by Birth-place
+mauritius,Mauritius,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V.—concluded Detailed Distribution of Population by B
+chili,Chili,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V.—concluded Detailed Distribution of Population by B
+hbornatsea,H.-Born at Sea,,1,row:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V.—concluded Detailed Distribution of Population by B
+yedahalli,Yedahalli,,1,row:1,"South India | Mysore | 1901 | Appendix F to Chapter IV, Section I-Age-contd."
+kumsi,Kumsi,,1,row:1,"South India | Mysore | 1901 | Appendix F to Chapter IV, Section I-Age-contd."
+sorab,Sorab,,1,row:1,"South India | Mysore | 1901 | Appendix F to Chapter IV, Section I-Age-contd."
+closepet,Closepet,,1,row:1,"South India | Mysore | 1931 | Appendix F to Chapter IV, Section I - Age - contd."
+mulbagal,Mulbagal,,1,row:1,"South India | Mysore | 1931 | Appendix F to Chapter IV, Section I - Age - contd."
+gudibanda,Gudibanda,,1,row:1,"South India | Mysore | 1931 | Appendix F to Chapter IV, Section I - Age - contd."
+bowringpete,Bowringpete,,1,row:1,"South India | Mysore | 1931 | Appendix F to Chapter IV, Section I - Age - contd."
+sira,Sira,,1,row:1,"South India | Mysore | 1931 | Appendix F to Chapter IV, Section I - Age - contd."
+huliyar,Huliyar,,1,row:1,"South India | Mysore | 1931 | Appendix F to Chapter IV, Section I - Age - contd."
+southkanara,South Kanara,,1,row:1,South India | Travancore | 1931 | CHAPTER I-DISTRIBUTION AND MOVEMENT OF POPULATION
+asyrianchristian,(a) Syrian Christian,,1,row:1,"South India | Travancore | 1931 | Distribution of 1,000 of each sex by civil condition in each main reli"
+ampalavasi,Ampalavasi,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+brahmanmalayalanambutiriandpotti,"Brahman, Malayala (Nambutiri and Potti)",,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+ghetti,Ghetti,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+kanikkaranincludingmalavelan,Kanikkaran (including Malavelan),,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+keralamuthali,Keralamuthali,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+kudumi,Kudumi,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+malapulayan,Malapulayan,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+mannan,Mannan,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+muthuvan,Muthuvan,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+paliyan,Paliyan,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+parayansambavarhindu,Parayan (Sambavar) Hindu,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+pulayancheramarchristian,Pulayan (Cheramar) Christian,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+thantapulayan,Thantapulayan,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+vaniyanvanigavaisyan,Vaniyan (Vanigavaisyan),,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+velan,Velan,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+veluthanadanayar,Veluthanadanayar,,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+virasaivarpantaramonly,Virasaivar (Pantaram only),,1,row:1,South India | Travancore | 1931 | TABLE VIII - Civil Condition
+bkathiawar,(b) Kathiawar,,1,row:1,South India | Cochin | 1921 | TABLE XI.-(cont.) BIRTH PLACE.
+turkeyinasia,Turkey in Asia,,1,row:1,South India | Cochin | 1921 | TABLE XI.-(cont.) BIRTH PLACE.
+eborninaustralasia,E.-Born in Australasia,,1,row:1,South India | Cochin | 1921 | TABLE XI.-(cont.) BIRTH PLACE.
+domattancherymunicipal,do - Mattanchery (Municipal),,1,row:1,South India | Cochin | 1921 | TABLE V. TOWNS ARRANGED TERRITORIALLY WITH POPULATION BY RELIGION.
+mukundapuramirinjalakudanonmunicipal,Mukundapuram - Irinjalakuda (Non-Municipal),,1,row:1,South India | Cochin | 1921 | TABLE V. TOWNS ARRANGED TERRITORIALLY WITH POPULATION BY RELIGION.
+chitturchitturtattamangalammunicipal,Chittur - Chittur-Tattamangalam (Municipal),,1,row:1,South India | Cochin | 1921 | TABLE V. TOWNS ARRANGED TERRITORIALLY WITH POPULATION BY RELIGION.
+americanarcotmission,American Arcot Mission,,1,row:1,South India | Madras | 1911 | South Indian United Church
+eastcoastcentral,East Coast (Central),,1,row:1,"South India | Madras | 1911 | Number per 10,000 of the population (1911)."
+professionalcolleges,Professional Colleges,,1,row:1,South India | Travancore | 1911 | DEPARTMENTAL STATISTICS.
+trainingandotherschools,Training and other Schools,,1,row:1,South India | Travancore | 1911 | DEPARTMENTAL STATISTICS.
+youths,Youths,,1,row:1,"South India | Cochin | 1891 | Table No. 38, showing the distribution of the population to the five r"
+bettadakurubaru,Bettada Kurubaru,,1,colg:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+jadara,Jadara,,1,colg:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+birthplacegreece,"BIRTH-PLACE, GREECE","Birth-Place, Greece.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place (continued/concluded)
+birthplaceholland,"BIRTH-PLACE, HOLLAND","Birth-Place, Holland.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place (continued/concluded)
+birthplaceitaly,"BIRTH-PLACE, ITALY","Birth-Place, Italy.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place (continued/concluded)
+birthplacestraitssettlements,"BIRTH-PLACE, STRAITS SETTLEMENTS","Birth-Place, Straits Settlements.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place (continued/concluded)
+birthplaceswitzerland,"BIRTH-PLACE, SWITZERLAND","Birth-Place, Switzerland | Birth-Place, Switzerland.",1,sect:2;colg:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place (continued/concluded)
+birthplaceturkeyinasia,"BIRTH-PLACE, TURKEY IN ASIA","Birth-Place, Turkey In Asia.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place (continued/concluded)
+birthplaceyarkand,"BIRTH-PLACE, YARKAND","Birth-Place, Yarkand.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place (continued/concluded)
+distributionbytaluqchittur,Distribution by Taluq. Chittur,,1,colg:1,South India | Cochin | 1891 | TABLE VII - Ages by Religions
+distributionbytaluqkotungallur,Distribution by Taluq. Kotungallur,,1,colg:1,South India | Cochin | 1891 | TABLE VII - Ages by Religions
+distributionbytaluqtrichur,Distribution by Taluq. Trichur,,1,colg:1,South India | Cochin | 1891 | TABLE VII - Ages by Religions
+pyallschools,PYALL SCHOOLS,,1,colg:1,South India | Madras | 1871 | TABLE XXX. - Statement showing the Mission Schools within the Municipa
+highstandardschools,HIGH STANDARD SCHOOLS,,1,colg:1,South India | Madras | 1871 | TABLE XXX. - Statement showing the Mission Schools within the Municipa
+schoolsunderacommittee,SCHOOLS UNDER A COMMITTEE,,1,colg:1,South India | Madras | 1871 | TABLE XXIX.—Statistics of school management.
+populationbothsexesineachdivision,POPULATION (BOTH SEXES) IN EACH DIVISION,,1,colg:1,South India | Madras | 1911 | TABLE VIII. Territorial distribution of the Christian Population by Se
+tototalpopulation,To Total Population,,1,colg:1,South India | Mysore | 1881 | FINAL CENSUS FORM IV. Statement of the Relative Proportions of the Sex
+ofchristianmalestototalchristianpopulation,Of Christian Males to Total Christian Population,,1,colg:1,South India | Mysore | 1881 | FINAL CENSUS FORM IV. Statement of the Relative Proportions of the Sex
+malayali,Malayali,,1,colg:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+kalluvaddaru,Kallu Vaddaru,,1,colg:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+halepaika,Halepaika,,1,colg:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+ganigaru,Ganigaru,,1,colg:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+pindari,Pindari,,1,colg:1,South India | Mysore | 1881 | Distribution of the People
+reliefgiven,Relief Given,,1,colg:1;sect:1,South India | Hyderabad | 1901 | Relief Given
+populationafflicted,Population afflicted,,1,colg:1,"South India | Hyderabad | 1901 | SUBSIDIARY TABLE VII. Proportion of afflicted Females to 1,000 Males u"
+birthplacejavaandbatavia,"BIRTH-PLACE, JAVA AND BATAVIA","BIRTH-PLACE, JAVA AND BATAVIA.",1,colg:1;sect:1,South India | Mysore | 1881 | tion by Birth-place-continued.
+birthplacemalacca,"BIRTH-PLACE, MALACCA","BIRTH-PLACE, MALACCA.",1,colg:1;sect:1,South India | Mysore | 1881 | tion by Birth-place-continued.
+birthplacepersia,"BIRTH-PLACE, PERSIA","BIRTH-PLACE, PERSIA.",1,colg:1;sect:1,South India | Mysore | 1881 | tion by Birth-place-continued.
+birthplacenorthamerica,"BIRTH-PLACE, NORTH AMERICA","BIRTH-PLACE, NORTH AMERICA.",1,colg:1;sect:1,South India | Mysore | 1881 | tion by Birth-place-continued.
+birthplacewestindies,"BIRTH-PLACE, WEST INDIES","BIRTH-PLACE, WEST INDIES.",1,colg:1;sect:1,South India | Mysore | 1881 | tion by Birth-place-continued.
+birthplacebrazil,"BIRTH-PLACE, BRAZIL","BIRTH-PLACE, BRAZIL.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacedemerara,"BIRTH-PLACE, DEMERARA","BIRTH-PLACE, DEMERARA.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacemorocco,"BIRTH-PLACE, MOROCCO","BIRTH-PLACE, MOROCCO.",1,colg:1;sect:1,South India | Mysore | 1881 | tion by Birth-place - continued.
+birthplacezululand,"BIRTH-PLACE, ZULU-LAND","BIRTH-PLACE, ZULU-LAND.",1,colg:1;sect:1,South India | Mysore | 1881 | tion by Birth-place - continued.
+birthplaceportugalandazoresinmadras,"BIRTH-PLACE, PORTUGAL AND AZORES (2 IN MADRAS)","BIRTH-PLACE, PORTUGAL AND AZORES (2 IN MADRAS).",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacerussia,"BIRTH-PLACE, RUSSIA","BIRTH-PLACE, RUSSIA.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplaceafricaunspecified,"BIRTH-PLACE, AFRICA - UNSPECIFIED","BIRTH-PLACE, AFRICA - UNSPECIFIED.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacemadagascar,"BIRTH-PLACE, MADAGASCAR","BIRTH-PLACE, MADAGASCAR.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacenewsouthwales,"BIRTH-PLACE, NEW SOUTH WALES","BIRTH-PLACE, NEW SOUTH WALES.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place - continued.
+birthplacetasmania,"BIRTH-PLACE, TASMANIA","BIRTH-PLACE, TASMANIA.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Population by Birth-place - continued.
+birthplaceanam,"BIRTH-PLACE, ANAM","BIRTH-PLACE, ANAM.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplaceasiaunspecified,"BIRTH-PLACE, ASIA-UNSPECIFIED","BIRTH-PLACE, ASIA-UNSPECIFIED.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacebukhara,"BIRTH-PLACE, BUKHARA","BIRTH-PLACE, BUKHARA.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplaceceylon,"BIRTH-PLACE, CEYLON","BIRTH-PLACE, CEYLON.",1,colg:1;sect:1,South India | Mysore | 1881 | Distribution of the Popula
+firstcolumn,First Column,,1,colg:1,"South India | Travancore | 1921 | SUBSIDIARY TABLE I - Age distribution of 100,000 of each sex by annual"
+minorprotestantdenominationsundertheseareincluded,MINOR PROTESTANT DENOMINATIONS. UNDER THESE ARE INCLUDED,MINOR PROTESTANT DENOMINATIONS. UNDER THESE ARE INCLUDED.,1,colg:1;sect:1,South India | Travancore | 1921 | TABLE XV. TERRITORIAL DISTRIBUTION OF THE CHRISTIAN POPULATION BY SECT
+increasepercent,Increase per cent,,1,colg:1,South India | Hyderabad | 1891 | STATEMENT No. 93
+averagesofhomogeneousdivisionseasterndivision,Averages of homogeneous divisions. Eastern Division,,1,colg:1,"South India | Mysore | 1891 | Average number of Females per 1,000 Males of the same age."
+are,ÁRÉ,,1,colg:1,South India | Travancore | 1891 | TABLE X. Parent Tongue.
+patnul,PATNÚL,,1,colg:1,South India | Travancore | 1891 | TABLE X. Parent Tongue.
+singhalese,SINGHALESE,,1,colg:1,South India | Travancore | 1891 | TABLE X. Parent Tongue-continued.
+professional,Professional,,1,colg:1,South India | Cochin | 1941 | (vi) Age at birth of first child according to m/l of husband-(cont.)
+irula,IRULA,,1,colg:1,South India | Madras | 1881 | TABLE X. Parent Tongue-continued.
+notstatedtotalnotstated,(4) NOT STATED. TOTAL NOT STATED,,1,colg:1,South India | Madras | 1891 | TABLE VIII. Civil Condition by Religion and Age. Part (C)—MUSALMANS—co
+percentageofdifferenceofpopulationinand,Percentage of the Difference of Population in 1871 and 1881,,1,colg:1,"South India | Madras | 1881 | Table No. 5, showing the Percentage of (1) Increase or Decrease in Hou"
+excessordeficitincolumncomparedwithcolumn,Excess (+) or Deficit (-) in column 3 compared with column 2,,1,colg:1,"South India | Madras | 1881 | Table No. 10, showing the Percentage of Increase of Population in 1881"
+townsandvillages,Towns and Villages,,1,colg:1,"South India | Madras | 1881 | Table No. 3, showing the Area, Towns and Villages, Houses, and the Pop"
+logarithmsofprobabilityoflivingoneyearafteranyagexpx,Logarithms of the probability of living one year after any age (x). λpx,,1,colg:1,South India | Madras | 1881 | Table of the several values of λpx on which the NATIVE LIFE-TABLE FOR 
+raceordenominationdata,Race or Denomination_data,,1,colg:1,South India | Hyderabad | 1931 | Table XIX. PART A.—EUROPEAN & ALLIED RACES BY RACE & AGE.
+ratiopertototalpopulation,"RATIO PER 10,000 TO THE TOTAL POPULATION",,1,colg:1,South India | Hyderabad | 1891 | STATEMENT
+areasquaremiles,Area square miles,,1,colg:1,South India | Mysore | 1901 | APPENDIX A Distribution of Population of 1901 in three ways.
+afflicted,Afflicted,,1,colg:1,"South India | Mysore | 1901 | Examining the returns by Religions, the proportion per 100,000 of popu"
+ratioofdeathsperofpopulationbycensus,"Ratio of Deaths per 1,000 of Population by 1891 Census",,1,colg:1,South India | Bangalore | 1901 | Statement showing the number of Births and Deaths registered in the Ci
+noofdeaths,No. of Deaths,,1,colg:1,South India | Mysore | 1901 | Statement showing the number of Births and Deaths registered from 1st 
+bangaloreincludingcity,Bangalore District including City,,1,colg:1,South India | Mysore | 1901 | Statement giving the Births and Deaths Statistics of the Mysore State 
+statetotalallreligions,State Total. All Religions,,1,colg:1,"South India | State Total, Kanayannur, Mukundapuram, Trichur, Talappilli, Chittur | 1891 | TABLE VIII. Civil Condition by Religion and Age."
+statetotalchristian,State Total. Christian,,1,colg:1,"South India | State Total, Kanayannur, Mukundapuram, Trichur, Talappilli, Chittur | 1891 | TABLE VIII. Civil Condition by Religion and Age."
+kanayannurchristian,Kanayannur. Christian,,1,colg:1,"South India | State Total, Kanayannur, Mukundapuram, Trichur, Talappilli, Chittur | 1891 | TABLE VIII. Civil Condition by Religion and Age."
+trichurchristian,Trichur. Christian,,1,colg:1,"South India | State Total, Kanayannur, Mukundapuram, Trichur, Talappilli, Chittur | 1891 | TABLE VIII. Civil Condition by Religion and Age."
+recordedfigures,Recorded figures,,1,colg:1,South India | Travancore | 1921 | Proportion per mille of the population of 1921 distributed in certain 
+percentageofstillborntoquickbornchildren,Percentage of still-born to quick-born children,,1,colg:1,South India | Travancore | 1931 | Proportion of sterile marriages to 100 fertile marriages
+armeniansallages,ARMENIANS. All ages,,1,colg:1,"South India | Madras | 1911 | TABLE XVIII. Europeans, Armenians and Anglo-Indians by age. Part II.-C"
+aided,AIDED,,1,colg:1,South India | Travancore | 1911 | DEPARTMENTAL STATISTICS.
+proportionpermille,Proportion per mille,,1,colg:1,"South India | Cochin | 1891 | Table No. 34, showing the ages of the population in quinquennial perio"
+tableecontinuedsupplementarytabl,TABLE E.—(Continued.) SUPPLEMENTARY TABL,,1,sect:1,"South India | Bangalore | 1891 | TABLE E. Caste, &c., by Civil condition and Age."
+distributionbycivilconditionof,"Distribution by Civil Condition of 10,00",,1,sect:1,South India | Hyderabad | 1901 | TABLE VII (new pages) — Natural Divisions and Districts
+nedumangadanimist,Nedumangad · Animist,,1,sect:1,"South India | Nedumangad Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (8) Nedumangad Taluk — Nedum"
+eanimistictrivandrumtaluk,E - Animistic (Trivandrum Taluk),,1,sect:1,"South India | Pattanapuram Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (11) Pattanapuram Taluk"
+kalkulammusalman,Kalkulam · Musalman,,1,sect:1,"South India | Eraniel Taluk / Kalkulam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (4) Kalkulam Taluk"
+gnotstatedkottarakarataluk,G-NOT STATED. (10) Kottarakara Taluk.,,1,sect:1,"South India | Kottarakara Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - (10) Kottarakara Taluk"
+kartikapallialltotal,Kartikapalli · All / Total,,1,sect:1,"South India | Karunagapalli Taluk / Kartikappalli Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition - standalone pages 102-103"
+fatheist,F-Atheist.,,1,sect:1,"South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition - (19) Tiruvalla Taluk"
+agastisvaramhindu,Agastisvaram · Hindu,,1,sect:1,"South India | Tovala Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+agastisvaramchristianagastisvaramtalukconcldd,Agastisvaram · Christian · Agastisvaram Taluk.-(Concld.) D,,1,sect:1,"South India | Tovala Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+eranielmusalman,Eraniel · Musalman,,1,sect:1,"South India | Tovala Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+pattanapuramanimist,Pattanapuram · Animist,,1,sect:1,"South India | Shencottah Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+kottayamhindu,Kottayam · Hindu,,1,sect:1,"South India | Ettumanur Taluk / Kottayam Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+todupuzhaalltotal,Todupuzha · All / Total,,1,sect:1,"South India | Muvattupuzha Taluk / Todupuzha Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+tablexivcivilconditionbyageselec,TABLE XIV. Civil Condition by Age. Selec,,1,sect:1,South India | Mysore | 1921 | TABLE XIV. Civil Condition by Age
+westernalltotal,Western · All / Total,,1,sect:1,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age
+westernchristian,Western · Christian,,1,sect:1,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age
+hassanalltotal,Hassan · All / Total,,1,sect:1,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age
+tablexvpartaoccupationormeansof,TABLE XV. Part A. Occupation or Means of,,1,sect:1,South India | Mysore | 1911 | TABLE XV. Part A. Occupation or Means of Livelihood
+tumkuralltotal,Tumkur · All / Total,,1,sect:1,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+mysorealltotalcity,Mysore · All / Total · CITY,,1,sect:1,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+mysorechristiancity,Mysore · Christian · CITY,,1,sect:1,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+kaduralltotal,Kadur · All / Total,,1,sect:1,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+shimogaalltotalcivilandmilitarystationbangal,"Shimoga · All / Total · CIVIL AND MILITARY STATION, BANGAL",,1,sect:1,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+shimogamusalmanshimoga,Shimoga · Musalman · SHIMOGA DISTRICT,,1,sect:1,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+shimogachristiancivilandmilitarystationbangal,"Shimoga · Christian · CIVIL AND MILITARY STATION, BANGAL",,1,sect:1,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+serialnogroup,Serial No. 13 - Group 1,Serial No. 13 - Group 2 | Serial No. 13 - Group 3 | Serial No. 14 - Group 1,1,sect:22,South India | Hyderabad | 1911 | TABLE XIV. CIVIL CONDITION BY AGE FOR SELECTED CASTES.
+ivilcondition,Ivil Condition,,1,sect:1,South India | Madras | 1911 | TABLE VIII. Civil Condition by Religion and Age. Part (H) - JEWS
+madrascontothers,MADRAS-cont. - OTHERS,,1,sect:1,"South India | Madras | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
+westgodavaricontothers,WEST GODAVARI-cont. - OTHERS.,,1,sect:1,"South India | Ganjam Agency | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
+anantapurcontothers,ANANTAPUR-cont. OTHERS,,1,sect:1,"South India | Ganjam Agency | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
+coimbatorecontothers,COIMBATORE-cont. OTHERS.,,1,sect:1,"South India | Ganjam Agency | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
+maduracontothers,MADURA-cont. OTHERS,,1,sect:1,"South India | Ganjam Agency | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
+tinnevellycontothers,TINNEVELLY-cont. OTHERS.,,1,sect:1,"South India | Ganjam Agency | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
+sandurjain,Sandur · Jain,,1,sect:1,"South India | Madras | 1931 | Table VII - Age, Sex and Civil Condition (Part I - Districts and State"
+anantapurothers,Anantapur Others,,1,sect:1,South India | Madras | 1931 | Table XIII - Literacy by Religion and Age (Part I - Districts and Stat
+tableviiiagesexandcivilconditiongroupsubgroupa,"TABLE VIII. AGE, SEX and CIVIL CONDITION · Group 1 Subgroup A","TABLE VIII. AGE, SEX and CIVIL CONDITION · Group 2 Subgroup A | TABLE VIII. AGE, SEX and CIVIL CONDITION · Group 3 Subgroup A | TABLE VIII. AGE, SEX and CIVIL CONDITION · Group 4 Subgroup A",1,sect:9,"South India | Hyderabad | 1931 | TABLE VIII. Age, Sex and Civil Condition for Selected Castes, Races an"
+tablexivcivilconditionbyageforse,TABLE XIV. Civil Condition by Age for Se,,1,sect:1,South India | Travancore | 1911 | TABLE XIV. Civil Condition by Age for Selected Castes and Races.
+finalcensustablenoviistatementshreligionothers,"FINAL CENSUS TABLE-No. VII. Statement sh · Religion, Others",,1,sect:1,South India | Madras | 1891 | FINAL CENSUS TABLE-No. VII. Statement showing for each Religion the Ag
+kadurjew,Kadur · Jew,,1,sect:1,South India | Bangalore City | 1901 | Table VIII - Education (Part A) — Mysore District
+subsidiarytableiicontdagedistribu,SUBSIDIARY TABLE II.-contd. Age distribu,,1,sect:1,"South India | Mysore | 1901 | SUBSIDIARY TABLE II. Age distribution of 10,000 of each Sex."
+appendixdcontdiistatementshowingu,APPENDIX D-contd. II-Statement showing u,,1,sect:1,"South India | Bangalore, Kolar, Tumkur and Chitaldrug Taluks | 1901 | APPENDIX D. II - Statement showing unadjusted and adjusted returns by "
+iistatementshowingunadjustedanda,II. - Statement showing unadjusted and a,,1,sect:1,South India | Shimoga District | 1901 | II - Statement showing unadjusted and adjusted returns by single Age-p
+tablevcontdtribesorracescontdpr,TABLE V-contd. Tribes or Races-contd. Pr,,1,sect:1,South India | Mysore | 1901 | TABLE V. Tribes or Races.
+tableviicontinuedagesbyreligion,TABLE VII. - Continued. Ages by Religion,,1,sect:1,South India | Cochin | 1891 | TABLE VII - Ages by Religions
+coimbatoreothers,Coimbatore. Others.,,1,sect:1,"South India | Madras | 1911 | TABLE VII. Age, sex and civil condition. Part I. - Districts and State"
+neyyattinkaraalltotalneyyattinkaratalukatotalpopul,Neyyattinkara · All / Total · Neyyattinkara Taluk. A-TOTAL POPUL,,1,sect:1,"South India | Vilavankod Taluk / Neyyattinkara Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+hothers,H - Others.,H—Others.,1,sect:2,"South India | Travancore | 1901 | TABLE VII. Age, Sex and Civil Condition (half-page merge)"
+tablexxxstatementshowingmissionschoolswithinmunicipallimitsofmadrasandtheirstandardofinstruction,TABLE XXX. - Statement showing the Mission Schools within the Municipal limits of Madras and their standard of instruction.,,1,sect:1,South India | Madras | 1871 | TABLE XXX. - Statement showing the Mission Schools within the Municipa
+tableccontinued,TABLE C-(Continued),,1,sect:1,"South India | Mysore | 1901 | TABLE C-(Continued) Distribution, Literate by Caste."
+tableiiiagesexandcivilconditionalldivisionscontinued,"TABLE III. Age, Sex and Civil Condition (All divisions)—continued.",,1,sect:1,"South India | Madras | 1911 | TABLE III. Age, Sex and Civil Condition (All divisions)—continued."
+tableiiiagesexandcivilconditionallreligionsalldivisions,"TABLE III. Age, Sex and Civil Condition—All Religions (All divisions).",,1,sect:1,"South India | Madras | 1911 | TABLE III. Age, Sex and Civil Condition—All Religions (All divisions)."
+btelugucastes,(b) Telugu Castes.,,1,sect:1,"South India | Madras | 1911 | TABLE VII. Caste, Tribe or Race."
+nextstatementisacompletelistoforganisedindustriesusingpowerinmadrasandcarriedoninworkshopsemployingmorethantwentyhands,The next statement is a complete list of the organised industries using power in Madras and carried on in workshops employing more than twenty hands :—,,1,sect:1,South India | Madras | 1911 | The next statement is a complete list of the organised industries usin
+subsidiarytableixreporteddeathsfromcertaindiseasespermille,SUBSIDIARY TABLE IX.—Reported deaths from certain diseases per mille.,,1,sect:1,South India | Hyderabad | ? | SUBSIDIARY TABLE VII.—Reported birth rate by sex in natural Divisions.
+finalcensusformiiibstatementshowingdistributionofpopulationaccordingtoreligionmuhammadans,FINAL CENSUS FORM III B. Statement showing the Distribution of the Population according to Religion.—(MUHAMMADANS.),,1,sect:1,South India | Mysore | 1881 | FINAL CENSUS FORM III B. Statement showing the Distribution of the Pop
+middlesection,Middle Section,,1,sect:1,"South India | Mysore | 1881 | FINAL CENSUS
+Distribution of the People by Castes"
+formviiibytribesmuhammadans,FORM VIII. by Tribes.—(MUHAMMADANS.),,1,sect:1,South India | Mysore | 1881 | FORM VIII. by Tribes.—(MUHAMMADANS.)
+finalcensusformxiiistatementshowingdistributionofpopulationaccordingtoeducation,FINAL CENSUS FORM XIII. Statement showing the Distribution of the Population according to Education.,,1,sect:1,South India | Mysore | 1881 | FINAL CENSUS FORM XIII. Statement showing the Distribution of the Popu
+iiiotherhinducastesagriculturalkadugollarukalluvaddarumannuvaddaru,III. Other Hindu Castes Agricultural. Kadu Gollaru. Kallu Vaddaru. Mannu Vaddaru.,,1,sect:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+iiiotherhinducastesartizans,III. Other Hindu Castes - Artizans.,,1,sect:1,South India | Mysore | 1881 | FINAL CENSUS Distribution of the People
+formviiiconcludedbycasteshindus,FORM VIII—Concluded. by Castes:—(Hindus.),,1,sect:1,South India | Mysore | 1881 | FORM VIII—Concluded. by Castes:—(Hindus.)
+tableii,TABLE II,,1,sect:1,"South India | Hyderabad | 1901 | TABLE II. 10,000 of population."
+subsidiarytableiidistributionbycivilconditionandmainageperiodsofpersonsofeachsex,"SUBSIDIARY TABLE II. Distribution by Civil Condition and main Age-periods of 10,000 persons of each sex.",,1,sect:1,South India | Hyderabad | 1901 | SUBSIDIARY TABLE II. Distribution by Civil Condition and main Age-peri
+subsidiaryagedistributionofpersons,"SUBSIDIARY Age distribution of 10,000 persons",,1,sect:1,"South India | Hyderabad | 1901 | SUBSIDIARY Age distribution of 10,000 persons"
+tableviiofeachsexfornaturaldivisionsand,TABLE VII. of each sex for Natural Divisions and Districts.,,1,sect:1,South India | Hyderabad | 1901 | TABLE VII. of each sex for Natural Divisions and Districts.
+proportionbetweenthesesamegroupsatthreeearliercensusesisshownbelow,The proportion between these same groups at three earlier Censuses is shown below.,,1,sect:1,South India | Mysore | 1931 | The proportion between these same groups at three earlier Censuses is 
+fzoroastrian,F. Zoroastrian,,1,sect:1,South India | Travancore | 1901 | TABLE VIII. Education. PART I.-GENERAL TABLE.
+distributionoftownsandvillagesaccordingtonumberofinhabitants,"Distribution of 1,000 towns and villages according to number of inhabitants.",,1,sect:1,"South India | Madras | 1891 | Distribution of 1,000 towns and villages according to number of inhabi"
+statementbnumberofpersonsofeachageinofeachsex,"STATEMENT B. - Number of Persons of each Age in 10,000 of each Sex (1881).",,1,sect:1,"South India | Madras | 1881 | STATEMENT B. - Number of Persons of each Age in 10,000 of each Sex (18"
+statementshowingnumberofpersonsateachageoutofofeachsexandcivilcondition,"Statement showing the number of persons at each age out of 10,000 of each sex and Civil Condition.",,1,sect:1,"South India | Madras | 1881 | Statement showing the number of persons at each age out of 10,000 of e"
+statementshowingnumberofinsanepersonsineachandstate,Statement showing the number of insane persons in each District and State.,,1,sect:1,South India | Madras | 1891 | Statement showing the number of insane persons in each District and St
+statementshowingnumberofpupilsliteratesandilliteratesinofeachsexinand,"Statement showing the number of pupils, literates and illiterates in 10,000 of each sex in 1881 and 1891.",,1,sect:1,"South India | Madras | 1891 | Statement showing the number of pupils, literates and illiterates in 1"
+comparisonwithothercountries,Comparison with other countries.,,1,sect:1,South India | Madras | 1891 | DEAF-MUTES.
+statementshowingnumberoflepersineachandstate,Statement showing the number of lepers in each District and State.,,1,sect:1,South India | Madras | 1891 | Statement showing the number of lepers in each District and State.
+birthplaceaustria,"BIRTH-PLACE, AUSTRIA.",,1,sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacedenmark,"BIRTH-PLACE, DENMARK.",,1,sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacenovascotia,"BIRTH-PLACE, NOVA SCOTIA.",,1,sect:1,South India | Mysore | 1881 | tion by Birth-place-continued.
+birthplacebritishguiana,"BIRTH-PLACE, BRITISH GUIANA.",,1,sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacejamaica,"BIRTH-PLACE, JAMAICA.",,1,sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacealgiers,"BIRTH-PLACE, ALGIERS.",,1,sect:1,South India | Mysore | 1881 | Distribution of the Popula
+birthplacecapecolonycontd,"BIRTH-PLACE, CAPE COLONY - contd.",,1,sect:1,South India | Mysore | 1881 | Distribution of the Popula
+orstateageandsex,"or State, Age and Sex.",,1,sect:1,"South India | Mysore | 1881 | Form XIII. Religion, Age and Sex. / or State, Age and Sex."
+formxivreligionageandsex,"Form XIV. Religion, Age and Sex.",,1,sect:1,"South India | Mysore | 1881 | Form XIV. Religion, Age and Sex."
+coimbatoreallreligions,COIMBATORE - ALL RELIGIONS,,1,sect:1,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+coimbatorechristian,COIMBATORE - CHRISTIAN,,1,sect:1,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+tinnevellyconcludedmusalman,TINNEVELLY-concluded. MUSALMAN.,,1,sect:1,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+nilgirisallreligions,NILGIRIS. ALL RELIGIONS.,,1,sect:1,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+nilgirischristian,NILGIRIS. CHRISTIAN.,,1,sect:1,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+banganapallechristian,BANGANAPALLE - CHRISTIAN,,1,sect:1,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+pudukkottaiallreligions,PUDUKKOTTAI - ALL RELIGIONS,,1,sect:1,"South India | Madras | 1921 | Age, sex and civil condition. Part I.—Districts and States—continued."
+pudukkottaichristian,PUDUKKOTTAI - CHRISTIAN,,1,sect:1,"South India | Madras | 1921 | Age, sex and civil condition. Part I.—Districts and States—continued."
+vizagapatamconcludedanimistic,VIZAGAPATAM-concluded. ANIMISTIC.,,1,sect:1,"South India | Madras | 1921 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+ganjamhindu,GANJAM. - HINDU.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.—Districts and State
+ganjamanimistic,GANJAM. - ANIMISTIC.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.—Districts and State
+vizagapatammusalman,VIZAGAPATAM. - MUSALMAN.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.—Districts and State
+kistnahindu,KISTNA. - HINDU.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.-Districts and State
+kistnaanimistic,KISTNA. - ANIMISTIC.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.-Districts and State
+gunturmusalman,GUNTUR. - MUSALMAN.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.-Districts and State
+bellaryjain,BELLARY. - JAIN,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.—Districts and State
+anantapurmusalman,ANANTAPUR. - MUSALMAN.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.—Districts and State
+madrasallreligions,MADRAS. - ALL RELIGIONS.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.—Districts and State
+madraschristian,MADRAS. - CHRISTIAN.,,1,sect:1,South India | Madras | 1921 | TABLE VIII. Education by religion and age. Part I.—Districts and State
+minachiltalukatotalpopulation,(26) Minachil Taluk. A-TOTAL POPULATION.,,1,sect:1,"South India | Changanachery Taluk / Minachil Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition."
+fparsi,F-PARSI.,,1,sect:1,"South India | Trivandrum Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(7) Trivandrum Taluk.-(Concld"
+easterndivisionhindu,EASTERN DIVISION. Hindu.,,1,sect:1,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age.
+easterndivisionjain,EASTERN DIVISION. Jain.,,1,sect:1,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age.
+bangalorecitymusalman,BANGALORE CITY. Musalman.,,1,sect:1,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age.
+bangalorecityanimist,BANGALORE CITY. Animist.,,1,sect:1,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age.
+kolargoldfieldsmusalman,KOLAR GOLD FIELDS. - Musalman.,,1,sect:1,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age.
+kolargoldfieldsanimist,KOLAR GOLD FIELDS. - Animist.,,1,sect:1,South India | Mysore | 1921 | TABLE VIII. Education by Religion and Age.
+kolargoldfieldscityallreligions,Kolar Gold Fields (City) - All religions,,1,sect:1,"South India | Mysore | 1931 | TABLE VII. Age, Sex & Civil Condition."
+literacyamongnativechristiansbysect,(3) Literacy among Native Christians by Sect.,,1,sect:1,South India | Mysore | 1911 | TABLE VIII.-Education by Religion and Age.
+mysorecityallreligions,MYSORE CITY - All Religions,,1,sect:1,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age.
+mysorecitychristian,MYSORE CITY - Christian,,1,sect:1,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age.
+mysoreallreligions,MYSORE DISTRICT - All Religions,,1,sect:1,South India | Mysore | 1931 | TABLE VIII. Education by Religion and Age.
+chitaldrugallreligions,Chitaldrug District. All religions.,,1,sect:1,"South India | Mysore | 1931 | TABLE VII. Age, Sex & Civil Condition."
+kadurconcldchristian,Kadur District - concld. Christian.,,1,sect:1,"South India | Mysore | 1931 | TABLE VII. Age, Sex & Civil Condition."
+iiainfirmperandbfemaleinfirmpermaleatcertainageperiods,"ii.—(a) Infirm per 100,000 and (b) Female infirm per 1,000 male at certain age periods.",,1,sect:1,South India | Madras | 1931 | INCIDENCE RATIOS
+chitaldrugtribal,CHITALDRUG DISTRICT. Tribal.,,1,sect:1,South India | Mysore | 1931 | TABLE XIII. Literacy by Religion and Age.
+chaptervisex,CHAPTER VI.—SEX,,1,sect:1,"South India | Travancore | 1921 | SUBSIDIARY TABLE III.-Number of females per 1,000 males at different a"
+subsidiarytableivmigrationbetweentravancoreandotherpartsofindia,SUBSIDIARY TABLE IV.---Migration between Travancore and other parts of India.,,1,sect:1,South India | Travancore | 1921 | SUBSIDIARY TABLE IV.---Migration between Travancore and other parts of
+northerndivisionadministrativehindu,Northern Division (Administrative). - Hindu,,1,sect:1,South India | Travancore | 1921 | TABLE VIII. Education by Religion and Age. Part II.-Division.-(Continu
+northerndivisionadministrativeanimist,Northern Division (Administrative). - Animist,,1,sect:1,South India | Travancore | 1921 | TABLE VIII. Education by Religion and Age. Part II.-Division.-(Continu
+highrangedivisionadministrativehindu,High Range Division (Administrative). - Hindu,,1,sect:1,South India | Travancore | 1921 | TABLE VIII. Education by Religion and Age. Part II.-Division.-(Continu
+highrangedivisionadministrativeanimist,High Range Division (Administrative). - Animist,,1,sect:1,South India | Travancore | 1921 | TABLE VIII. Education by Religion and Age. Part II.-Division.-(Continu
+diagramhindu,Diagram 24. Hindu,,1,sect:1,"South India | Travancore | 1921 | Diagrams 23 to 26 showing the proportion of the unmarried, married and"
+censusstatistics,Census Statistics,,1,sect:1,South India | Hyderabad | 1891 | Census Statistics
+diagramillustratingcivilconditionsbysexandageperiodsandshowingtotalpopulationunderallconditionsateachageperiod,DIAGRAM illustrating The Civil Conditions by Sex and Age periods and Showing the Total Population under all conditions at each age-period.,,1,sect:1,South India | Mysore | 1891 | DIAGRAM illustrating The Civil Conditions by Sex and Age periods and S
+tableviiagebyreligionpartdchristians,TABLE VII. Age by Religion. Part (D)—CHRISTIANS.,,1,sect:1,South India | Travancore | 1891 | TABLE VII. Age by Religion. Part (D)—CHRISTIANS.
+tableixeducationbyreligionandagepartdchristians,TABLE IX. Education by Religion and Age. Part (D)—CHRISTIANS.,,1,sect:1,South India | Travancore | 1891 | TABLE IX. Education by Religion and Age. Part (D)—CHRISTIANS.
+bottomtableandovercontnotstated,"Bottom Table (25 and over cont., Not stated)",,1,sect:1,South India | Travancore | 1891 | TABLE IX. Education by Religion and Age. Part (D)-CHRISTIANS-continued
+educationbyreligionandageparthnone,Education by Religion and Age. Part (H)—NONE,,1,sect:1,South India | Travancore | 1891 | TABLE IX. Education by Religion and Age. Part (G)—JEWS.
+dnonasiaticlanguages,(D) NON-ASIATIC LANGUAGES.,,1,sect:1,South India | Travancore | 1891 | TABLE X. Parent Tongue-continued.
+tablevireligioncontinued,TABLE VI. Religion-continued.,,1,sect:1,South India | Madras | 1901 | TABLE VI. Religion-continued.
+malayalibrahmans,Malayali Brahmans,,1,sect:1,South India | Cochin | 1941 | (iii) Age of mother at birth of first child and number of children bor
+ivageofmotheratbirthoffirstchildandnumberofchildrensurvivingmalayalibrahmans,(iv) Age of mother at birth of first child and number of children surviving - Malayali Brahmans,,1,sect:1,South India | Cochin | 1941 | (iii) Age of mother at birth of first child and number of children bor
+medakhindu,Medak - Hindu,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+medakanimist,Medak - Animist,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+nizamabadmusalman,Nizamabad - Musalman,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+atrafibaldaallreligions,Atraf-i-balda. All Religions.,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+atrafibaldachristian,Atraf-i-balda. Christian.,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+warangalhindu,Warangal. Hindu.,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+warangalanimist,Warangal. Animist.,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+gulbargamusalman,Gulbarga - Musalman,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+osmanabadallreligions,Osmanabad - All Religions,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+osmanabadchristian,Osmanabad - Christian,,1,sect:1,South India | Hyderabad | 1911 | TABLE VIII. EDUCATION BY RELIGION AND AGE.
+tableviiagebyreligionpartfjains,TABLE VII. Age by Religion. Part (F)-JAINS.,,1,sect:1,South India | Madras | 1891 | TABLE VII. Age by Religion. Part (F)-JAINS.
+tableviiagebyreligionparthjews,TABLE VII. Age by Religion. Part (H)—JEWS.,,1,sect:1,South India | Madras | 1891 | TABLE VII. Age by Religion. Part (H)—JEWS.
+tableviiicivilconditionbyreligionandagepartgparsis,TABLE VIII. Civil Condition by Religion and Age. Part (G)—PARSIS.,,1,sect:1,South India | Madras | 1891 | TABLE VIII. Civil Condition by Religion and Age. Part (G)—PARSIS.
+tableixeducationbyreligionandagepartfjains,TABLE IX. Education by Religion and Age. Part (F)—JAINS.,,1,sect:1,South India | Madras | 1891 | TABLE IX. Education by Religion and Age. Part (F)—JAINS.
+amadraslanguagescont,(A) MADRAS LANGUAGES-cont.,,1,sect:1,South India | Madras | 1881 | TABLE X. Parent Tongue-continued.
+tableviiagebyreligionpartibrahmos,TABLE VII. Age by Religion. Part (I) - BRAHMOS.,,1,sect:1,South India | Madras | 1911 | TABLE VII. Age by Religion. Part (I) - BRAHMOS.
+percentofpopulation,Per cent. of Population.,,1,sect:1,South India | Hyderabad | 1921 | Per cent. of Population.
+subsidiarytableiiiadistributionbymainageperiodsandcivilconditionofofeachsexofcivilizedanimist,"SUBSIDIARY TABLE III-A.—DISTRIBUTION BY MAIN AGE-PERIODS AND CIVIL CONDITION OF 10,000 OF EACH SEX OF CIVILIZED ANIMIST.",,1,sect:1,South India | Hyderabad | 1921 | SUBSIDIARY TABLE III.—DISTRIBUTION BY MAIN AGE-PERIODS AND CIVIL CONDI
+britishterritoryhindu,BRITISH TERRITORY. HINDU.,,1,sect:1,South India | Madras | 1931 | TABLE XIII Literacy by Religion and Age (Provincial Summary)-cont.
+britishterritoryjain,BRITISH TERRITORY. JAIN.,,1,sect:1,South India | Madras | 1931 | TABLE XIII Literacy by Religion and Age (Provincial Summary)-cont.
+statesmuslim,STATES. MUSLIM.,,1,sect:1,South India | Madras | 1931 | TABLE XIII Literacy by Religion and Age (Provincial Summary)-cont.
+vizagapatamagencycontmuslim,VIZAGAPATAM AGENCY-cont. MUSLIM,,1,sect:1,South India | Madras | 1931 | TABLE XIII Literacy by Religion and Age (Part I-Districts and States)-
+vizagapatamplainsallreligions,VIZAGAPATAM PLAINS. ALL RELIGIONS,,1,sect:1,South India | Madras | 1931 | TABLE XIII Literacy by Religion and Age (Part I-Districts and States)-
+vizagapatamplainschristian,VIZAGAPATAM PLAINS. CHRISTIAN,,1,sect:1,South India | Madras | 1931 | TABLE XIII Literacy by Religion and Age (Part I-Districts and States)-
+eastgodavariagencyhindu,EAST GODAVARI AGENCY. HINDU,,1,sect:1,South India | Madras | 1931 | TABLE XIII Literacy by Religion and Age (Part I-Districts and States)-
+eastgodavariagencytribal,EAST GODAVARI AGENCY. TRIBAL,,1,sect:1,South India | Madras | 1931 | TABLE XIII Literacy by Religion and Age (Part I-Districts and States)-
+tablenoshowingpercentageofincreaseofpopulationininsixnonfamineascomparedwithcensusofandwhatitoughttobein,"Table No. 10, showing the Percentage of Increase of Population in 1881 in six Non-Famine Districts as compared with (1) the Census of 1871, and (2) what it ought to be in 1881.",,1,sect:1,"South India | Madras | 1881 | Table No. 10, showing the Percentage of Increase of Population in 1881"
+tablenoshowingpercentageofincreaseordecreaseonanddensityforganjam,"Table No. 4, showing the Percentage of Increase or Decrease on 1871 and the Density for the Ganjam District.",,1,sect:1,"South India | Madras | 1881 | Table No. 4, showing the Percentage of Increase or Decrease on 1871 an"
+tablenoshowingnumberofpersonsfollowingoccupationsinseveralclassesineachoftaluqsofkistnacontinued,"Table No. 6, showing the Number of Persons following the Occupations in the several Classes in each of the Taluqs of the Kistna District—(Continued).",,1,sect:1,"South India | Kistna District | 1881 | Table No. 6, showing the Number of Persons following the Occupations i"
+tablenoshowingagesofpeopleinkistnaindecennialperiods,"Table No. 4, showing the Ages of the People in the Kistna District in decennial periods.",,1,sect:1,"South India | Kistna District | 1881 | Table No. 4, showing the Ages of the People in the Kistna District in "
+tablenoshowingdistributionofpopulationofeachtownincuddapahaccordingtoreligion,"Table No. 10, showing the Distribution of the Population of each Town in the Cuddapah District according to Religion.",,1,sect:1,"South India | Cuddapah District | 1881 | Table No. 10, showing the Distribution of the Population of each Town "
+tablenoshowingagesofpeopleinbellaryindecennialperiods,"Table No. 4, showing the Ages of the People in the Bellary District in decennial periods.",,1,sect:1,"South India | Bellary District | 1881 | Table No. 4, showing the Ages of the People in the Bellary District in"
+tablenoshowingnumberofpersonsprofessingeachcasteinofkurnoolundereighteenmajorheadsadoptedincensus,"Table No. 7, showing the Number of Persons professing each Caste in the District of Kurnool under the eighteen major heads adopted in the Census.",,1,sect:1,"South India | Kurnool | 1878 | Table No. 6, comparing the Proportions under Ten Years of Age in the s"
+tablenoshowingagesofpeopleintanjoreindecennialperiods,"Table No. 4, showing the Ages of the People in the Tanjore District in decennial periods.",,1,sect:1,"South India | Tanjore District | 1881 | Table No. 4, showing the Ages of the People in the Tanjore District in"
+tablenoshowingnumberofpersonsfollowingoccupationsinseveralclassesineachoftaluqsofsoutharcot,"Table No. 6, showing the Number of Persons following the Occupations in the several Classes in each of the Taluqs of the South Arcot District.",,1,sect:1,"South India | South Arcot District | 1881 | Table No. 6, showing the Number of Persons following the Occupations i"
+tablenoshowingagesofpeopleinchingleputindecennialperiods,"Table No. 4, showing the Ages of the People in the Chingleput District in decennial periods.",,1,sect:1,South India | Madras | 1881 | CHINGLEPUT DISTRICT.
+tablenoshowingnumberofpersonsfollowingoccupationsinseveralclassesineachtaluqintrichinopolypart,"Table No. 6, showing the number of Persons following the Occupations in the several Classes in each Taluq in the Trichinopoly District. (Part 1)","Table No. 6, showing the number of Persons following the Occupations in the several Classes in each Taluq in the Trichinopoly District. (Part 2)",1,sect:2,"South India | Trichinopoly District | 1881 | Table No. 5, showing the number of Persons professing each Caste in th"
+tablenoshowingagesofpeopleinsalemindecennialperiods,"Table No. 4, showing the Ages of the People in the Salem District in decennial periods.",,1,sect:1,"South India | Madras | 1881 | Table No. 4, showing the Ages of the People in the Salem District in d"
+proportionspermilleinthreeageperiods,Proportions per mille in three Age-periods,,1,sect:1,South India | Malabar District | 1881 | MALABAR DISTRICT.
+tablenoshowingagesofpeopleinpudukotaterritoryindecennialperiods,"Table No. 3, showing the Ages of the People in the Pudukota Territory in decennial periods.",,1,sect:1,South India | Madras | 1881 | PUDUKOTA TERRITORY.
+tableviiiagesexandcivilconditionforselectedcastesracesandtribes,"TABLE VIII. AGE, SEX and CIVIL CONDITION FOR SELECTED CASTES, RACES and TRIBES.",,1,sect:1,"South India | Hyderabad | 1931 | TABLE VIII. AGE, SEX & CIVIL CONDITION FOR SELECTED CASTES, RACES & TR"
+marriedageperiodssecondpart,(2) Married. Age-Periods. (Second Part),,1,sect:1,South India | Mysore | 1891 | TABLE VIII. PART I-Bramho.-Continued.
+tableixpartibramho,TABLE IX. PART I.-Bramho.,,1,sect:1,South India | Bangalore | 1891 | TABLE IX. PART I.-Bramho.
+showingnumberinineachwhoareliterateandnumberofthesewhoarealsoliterateinenglish,"SHOWING THE NUMBER IN 10,000 IN EACH DISTRICT WHO ARE LITERATE AND THE NUMBER OF THESE WHO ARE ALSO LITERATE IN ENGLISH.",,1,sect:1,"South India | Madras | 1901 | SHOWING THE NUMBER IN 10,000 IN EACH DISTRICT WHO ARE LITERATE AND THE"
+subsidiarytableagedistributionofofeachsexbyreligion,"SUBSIDIARY TABLE 3.—Age distribution of 10,000 of each sex by Religion.",,1,sect:1,"South India | Madras | 1901 | SUBSIDIARY TABLE 3.—Age distribution of 10,000 of each sex by Religion"
+tableviijewagesexandcivilcondition,"TABLE VII. JEW. Age, Sex and Civil condition.",,1,sect:1,"South India | Cochin | 1911 | TABLE VII. JEW. Age, Sex and Civil condition."
+subsidiarytableixreporteddeathsfromcertaindiseasespermilleofpopulationcochinstaterighthalf,SUBSIDIARY TABLE IX. Reported deaths from certain diseases per mille of the population. Cochin State (Right Half),,1,sect:1,South India | Cochin | 1911 | SUBSIDIARY TABLE VIII Reported death rate by sex and natural divisions
+nagercoilmusalman,NAGERCOIL - MUSALMAN,,1,sect:1,"South India | Travancore | 1911 | TABLE VII. Age, Sex and Civil Condition.—TOWNS."
+trivandrumhindu,TRIVANDRUM - HINDU,,1,sect:1,"South India | Travancore | 1911 | TABLE VII. Age, Sex and Civil Condition.—TOWNS."
+trivandrumconcludedchristian,TRIVANDRUM.—(Concluded.) - CHRISTIAN,,1,sect:1,"South India | Travancore | 1911 | TABLE VII. Age, Sex and Civil Condition.—TOWNS."
+shencottahhindu,SHENCOTTAH. - HINDU,,1,sect:1,"South India | Travancore | 1911 | TABLE VII. Age, Sex and Civil Condition.—TOWNS."
+quilonallreligions,QUILON. - ALL RELIGIONS,,1,sect:1,"South India | Travancore | 1911 | TABLE VII. Age, Sex and Civil Condition.—TOWNS."
+educationamongnativechristiansbysect,Education among Native Christians by Sect.,,1,sect:1,South India | Travancore | 1911 | TABLE VIII. Education.-Part I. State and Divisions.
+finalcensustablenoviistatementshowingforeachreligionagesofpopulationofmadraspresidencyhinduscontinued,FINAL CENSUS TABLE No. VII. Statement showing for each Religion the Ages of the Population of the Madras Presidency - Hindus - (Continued).,,1,sect:1,South India | Madras | 1881 | FINAL CENSUS TABLE No. VII. Statement showing for each Religion the Ag
+finalcensustablenoviistatementshowingforeachreligionagesofpopulationofmadraspresidencyjainscontinued,FINAL CENSUS TABLE-No. VII. Statement showing for each Religion the Ages of the Population of the Madras Presidency-Jains-(Continued).,,1,sect:1,South India | Madras | 1891 | FINAL CENSUS TABLE-No. VII. Statement showing for each Religion the Ag
+tableviiagesexandcivilconditionhindu,"TABLE VII-Age, Sex and Civil Condition-Hindu.",,1,sect:1,"South India | Mysore | 1901 | TABLE VII-Age, Sex and Civil Condition-Hindu."
+tableviiagesexandcivilconditionmusalmanconcluded,"TABLE VII - Age, Sex, and Civil Condition - Musalman - concluded.",,1,sect:1,"South India | Kadur District | 1901 | TABLE VII - Age, Sex, and Civil Condition - Musalman - concluded."
+tableviiagesexandcivilconditionjainpartachitaldrug,"TABLE VII. Age, Sex and Civil Condition - Jain. Part A. - Chitaldrug District.",,1,sect:1,"South India | Chitaldrug District | 1901 | TABLE VII. Age, Sex and Civil Condition - Jain. Part A. - Chitaldrug D"
+tableviiagesexandcivilconditionanimisticcontinued,"TABLE VII - Age, Sex and Civil Condition - Animistic - continued.",,1,sect:1,"South India | Hassan District | 1901 | TABLE VII - Age, Sex and Civil Condition - Animistic - continued."
+karnaticorkannada,Karnatic or Kannada.,,1,sect:1,South India | Hyderabad | 1891 | STATEMENT No. 221. Sex proportion in each race by age.
+dependents,Dependents,,1,sect:1,South India | Mysore | 1901 | 
+proportionswhichnumberofoccupiedhousesinruralandurbanareasineasternandwesterndivisionsbeartototalnumberofhousesmarkedforcensuspurposesareshowninfollowingstatementinwhichfiguresrepresentpercentages,The proportions which the number of occupied houses in rural and urban areas in the Eastern and Western Divisions bear to the total number of houses marked for Census purposes are shown in the following statement in which the figures represent percentages :—,,1,sect:1,South India | Mysore | 1901 | Number occupied at the time of the Census
+proportionoffemalesamongmysoreborn,Proportion of Females among Mysore-born,,1,sect:1,South India | Mysore | 1901 | Proportion of Females among Mysore-born
+distributionofwidowsbyageatwhichtheywerewidowed,"Distribution of 1,000 widows by age at which they were widowed.",,1,sect:1,"South India | Mysore | 1901 | Distribution of 1,000 widows by age at which they were widowed."
+statementshowingageat,Statement showing Age at,,1,sect:1,South India | Mysore | 1901 | Statement showing Age at
+apercentageofliteratesinpopulationofeachsexineachreligion,A. Percentage of literates in the population of each sex in each religion.,,1,sect:1,South India | Mysore | 1901 | Literacy in Civil and Military Station contrasted with that of the Cit
+civilconditionsofliteratesandilliterates,Civil Conditions of the Literates and Illiterates,,1,sect:1,South India | Mysore | 1901 | Industrial Condition of the Literates
+firstblock,First Block,,1,sect:1,"South India | Mysore | 1901 | TABLE IX. excluding Civil and Military Station, Bangalore."
+examiningreturnsbyreligionsproportionperofpopulationineachreligionstandsasfollows,"Examining the returns by Religions, the proportion per 100,000 of population in each Religion stands as follows :-",,1,sect:1,"South India | Mysore | 1901 | Examining the returns by Religions, the proportion per 100,000 of popu"
+followingstatementwhichcontainsagedistributioninthreemainageperiodsofdeafmutesfrombirthatthreecensusesshowsthatandwererespectivelynumbersthatwerebornduringthreesuccessivedecades,"The following Statement, which contains the age distribution in three main age-periods of deaf-mutes from birth, at the three Censuses, shows that 469, 645 and 664 were, respectively, the numbers that were born during the three successive decades:-",,1,sect:1,"South India | Mysore | 1901 | Distributed by Religions, the number of deaf-mutes to every 100,000 of"
+stateincludingcivilandmilitarystationofbangalore,State including Civil and Military Station of Bangalore,,1,sect:1,South India | Mysore | 1901 | CHAPTER III. RELIGION.
+statementshowingnumberofdeathsanddeathratefromdifferentcausesduringpasttenyearstoincivilandmilitarystationofbangalorepopulation,"Statement showing the number of Deaths and Death-rate from different causes during the past ten years 1891-92 to 1900-01 in the Civil and Military Station of Bangalore.—(Population 100,081).",,1,sect:1,South India | Mysore | 1901 | Statement showing the number of Deaths and Death-rate from different c
+subsidiarytablevconcludeddetaileddistributionofpopulationbybirthplace,SUBSIDIARY TABLE V.—concluded Detailed Distribution of Population by Birth-place.,,1,sect:1,South India | Mysore | 1901 | SUBSIDIARY TABLE V.—concluded Detailed Distribution of Population by B
+appendixftochapterivsectioniagecontd,"Appendix F to Chapter IV, Section I-Age-contd.",,1,sect:1,"South India | Mysore | 1901 | Appendix F to Chapter IV, Section I-Age-contd."
+subsidiarytableiicontdeducationbyagesexandreligionhinduscontdmysorestateexcludingcivilandmilitarystationbangalore,"SUBSIDIARY TABLE II.-contd. Education by Age, Sex and Religion - Hindus - contd. Mysore State excluding Civil and Military Station, Bangalore.",,1,sect:1,"South India | Mysore | 1901 | SUBSIDIARY TABLE II.-contd. Education by Age, Sex and Religion - Hindu"
+subsidiarytableiicontdsecondpart,(Subsidiary Table II-contd.) (Second Part),,1,sect:1,"South India | Mysore | 1901 | SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalman"
+secondtableblock,Second Table Block,,1,sect:1,"South India | Mysore | 1901 | SUBSIDIARY TABLE II.-contd. Education by Age, Sex and Religion-Jains. "
+chartshewingnoliterateinenglishandotherlanguagesinmalesofeachcaste,CHART SHEWING No. LITERATE IN ENGLISH and OTHER LANGUAGES IN 1000 MALES OF EACH CASTE,,1,sect:1,South India | Mysore | 1901 | CHART SHEWING No. LITERATE IN ENGLISH & OTHER LANGUAGES IN 1000 MALES 
+tableixcontinuededucationbyreligionandagepartbhindus,TABLE IX. - Continued. Education by Religion and Age. PART (B). - Hindus.,,1,sect:1,South India | Cochin | 1891 | TABLE IX. - Continued. Education by Religion and Age. PART (B). - Hind
+optionaltableacivilconditionbycasteandage,OPTIONAL TABLE A. Civil Condition by Caste and Age.,,1,sect:1,South India | Cochin | 1891 | OPTIONAL TABLE A. Civil Condition by Caste and Age.
+tableviiicontinuedcivilconditionbyreligionandagestatetotal,TABLE VIII. - Continued. Civil Condition by Religion and Age. - State Total.,,1,sect:1,South India | Cochin | 1891 | TABLE VIII. - Continued. Civil Condition by Religion and Age. - State 
+tableviiicontinuedcivilconditionbyreligionandagecochintaluk,TABLE VIII. - Continued. Civil Condition by Religion and Age. - Cochin Taluk.,,1,sect:1,South India | Cochin | 1891 | TABLE VIII. - Continued. Civil Condition by Religion and Age. - Cochin
+tableviiicivilconditionbyreligionandagetrichurtaluq,TABLE VIII. Civil Condition by Religion and Age. - Trichur Taluq.,,1,sect:1,South India | Cochin | 1891 | TABLE VIII. Civil Condition by Religion and Age. - Trichur Taluq.
+tableviiicontinuedcivilconditionbyreligionandagechitturtaluq,TABLE VIII. - Continued. Civil Condition by Religion and Age. -- Chittur Taluq.,,1,sect:1,South India | Cochin | 1891 | TABLE VIII. - Continued. Civil Condition by Religion and Age. -- Chitt
+durationofmarriageinyears,Duration of marriage in years,,1,sect:1,South India | Travancore | 1931 | PROPORTION OF STERILE TO FERTILE MARRIAGES
+childmarriageamongsyrianchristians,CHILD MARRIAGE AMONG SYRIAN CHRISTIANS,,1,sect:1,South India | Travancore | 1931 | CHILD MARRIAGE AMONG SYRIAN CHRISTIANS
+diagram,Diagram 55,,1,sect:1,South India | Travancore | 1931 | Diagram 55 - showing the number of males and females afflicted with in
+diagramshowingnumberofmalesandfemalesafflictedwithleprosyperofeachsexateachdecennialageperiodatlastthreecensuses,"Diagram 58 - showing the number of males and females afflicted with leprosy per 100,000 of each sex at each decennial age-period at the last three censuses.",,1,sect:1,South India | Travancore | 1931 | Diagram 58 - showing the number of males and females afflicted with le
+expectationoflifeinyears,Expectation of life in years,,1,sect:1,South India | Travancore | 1931 | Mortality rates per cent
+centraldivisionallreligions,Central Division - ALL RELIGIONS,,1,sect:1,"South India | Travancore | 1931 | TABLE VII-Age, Sex and Civil Condition-Part II-Administrative Division"
+subsidiarytableiicontdistributionofinfirmbyageperofeachsexcont,"SUBSIDIARY TABLE II-(cont) Distribution of the infirm by Age per 10,000 of each sex-(cont)",,1,sect:1,"South India | Cochin | 1921 | SUBSIDIARY TABLE II-(cont) Distribution of the infirm by Age per 10,00"
+tableviicontjewagesexandcivilcondition,"TABLE VII.—(cont.) JEW. Age, Sex and Civil condition.",,1,sect:1,"South India | Cochin | 1921 | TABLE VII.—(cont.) JEW. Age, Sex and Civil condition."
+subsidiarytableagedistributionofofeachsexbyannualperiods,"SUBSIDIARY TABLE 1. Age distribution of 100,000 of each sex by annual periods.",,1,sect:1,"South India | Cochin | 1921 | SUBSIDIARY TABLE 1. Age distribution of 100,000 of each sex by annual "
+distributionofpopulationbyageandsexinmysoreandothercountriesinthousands,Distribution of population by age and sex in Mysore and other countries (in thousands),,1,sect:1,South India | Mysore | 1951 | Distribution of population by age and sex in Mysore and other countrie
+iiitownsclassifiedbypopulation,III.—Towns classified by population.,,1,sect:1,South India | Cochin | 1931 | III.—Towns classified by population.
+viiproportionofliteracyatcertainages,VII.-Proportion of Literacy at certain ages.,,1,sect:1,South India | Cochin | 1931 | VII.-Proportion of Literacy at certain ages.
+advancedinliteracy,Advanced in Literacy,,1,sect:1,South India | Cochin | 1931 | XIII.-Statement showing the number and literacy of children of school-
+subsidiarytablexidistributionbymainageperiodsofofeachcivilcondition,"SUBSIDIARY TABLE XI. Distribution by main age periods of 10,000 of each civil condition.",,1,sect:1,"South India | Cochin | 1901 | THE RESULTS OF THE CENSUS OF COCHIN, 1901."
+subsidiarytablexdistributionbycivilconditionandmainageperiodsofofeachsex,"SUBSIDIARY TABLE X. Distribution by civil condition and main age periods of 10,000 of each sex.",,1,sect:1,"South India | Cochin | 1901 | SUBSIDIARY TABLE IX. Distribution of 10,000 of each sex by age and civ"
+subsidiarytableiiagedistributionofofeachsexinand,"SUBSIDIARY TABLE II. Age distribution of 10,000 of each sex in 1901 and 1891.",,1,sect:1,"South India | Cochin | 1901 | SUBSIDIARY TABLE II. Age distribution of 10,000 of each sex in 1901 an"
+chapteriimovementofpopulation,CHAPTER II - MOVEMENT OF POPULATION,,1,sect:1,South India | Madras | 1911 | CHAPTER II - MOVEMENT OF POPULATION
+nelloremusalman,NELLORE. MUSALMAN,,1,sect:1,"South India | Nellore And Cuddapah | 1911 | TABLE VII. Age, Sex and Civil Condition. Part I.-Districts and States-"
+cuddapahothers,CUDDAPAH. OTHERS,,1,sect:1,"South India | Nellore And Cuddapah | 1911 | TABLE VII. Age, Sex and Civil Condition. Part I.-Districts and States-"
+kurnoolothers,KURNOOL - OTHERS,,1,sect:1,"South India | Kurnool And Bellary | 1911 | TABLE VII. Age, sex and civil condition. Part I. Districts and States-"
+northarcotallreligions,NORTH ARCOT - ALL RELIGIONS,,1,sect:1,"South India | North Arcot And Salem | 1911 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+northarcotchristian,NORTH ARCOT - CHRISTIAN,,1,sect:1,"South India | North Arcot And Salem | 1911 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+salemhindu,SALEM - HINDU,,1,sect:1,"South India | North Arcot And Salem | 1911 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+anjengohindu,ANJENGO. HINDU,,1,sect:1,"South India | Malabar And Anjengo | 1911 | TABLE VII. Age, sex and civil condition. Part I.-Districts and States-"
+toptabletotalandeuropeanandalliedraces,Top Table (TOTAL and EUROPEAN AND ALLIED RACES),,1,sect:1,"South India | Madras | 1911 | TABLE XVIII. Europeans, Armenians and Anglo-Indians by age. Part II.-C"
+porojaandgadabagadaba,Poroja and Gadaba (Gadaba),,1,sect:1,South India | Madras | 1921 | CHAPTER IX. - LANGUAGE
+subsidiarytablesbysexandincertainageperiodsandcivilcondition,SUBSIDIARY TABLES. by sex and in certain age periods and civil condition.,,1,sect:1,South India | Travancore | 1911 | SUBSIDIARY TABLES. by sex and in certain age periods and civil conditi
+sexdistributionperoftotalliteratesineachsect,Sex distribution per 100 of the total literates in each sect.,,1,sect:1,South India | Travancore | 1911 | Education among Indian Christians by Sect.
+distributionofmuhammadansbydivisions,Distribution of Muhammadans by Divisions.,,1,sect:1,South India | Travancore | 1911 | Distribution of Muhammadans by Divisions.
+marginalabstractgivessexdistributionperoftotalliteratesineachsect,The marginal abstract gives the sex distribution per 100 of the total literates in each sect.,,1,sect:1,South India | Travancore | 1911 | LITERACY IN THE VERNACULARS.
+forperiodto,for period 1901-1902 to 1910-1911.,,1,sect:1,South India | Travancore | 1911 | for period 1901-1902 to 1910-1911.
+tablenocomparingpercentagesinabovetablewiththoseforothercountries,"Table No. 39, comparing the percentages in the above Table with those for other Countries.",,1,sect:1,"South India | Cochin | 1891 | Table No. 38, showing the distribution of the population to the five r"
+byagegroupscontdtablecii,by Age Groups-(Contd.) TABLE C-II,,1,sect:1,South India | Hyderabad | 1951 | by Age Groups-(Contd.) TABLE C-II
+inhyderabad,IN HYDERABAD,,1,title:1,"South India | Hyderabad | 1921 | BIRTH & DEATH RATES, BOTH SEXES, IN HYDERABAD STATE, 1911-1920."
+brahminsofshimoga,Brahmins of Shimoga District,,1,tag:1,"South India | Brahmins of Shimoga District | 1901 | SUBSIDIARY TABLE I.-contd. Unadjusted Age return for 100,000 of each S"
+mandyarural,Mandya District Rural,,1,tag:1,South India | Mandya District Rural | 1951 | C. V—Single year age returns—contd.
+kartikapallitaluk,Kartikápalli Taluk,,1,tag:1,"South India | Kartikápalli Taluk | 1901 | TABLE VII. Age, Sex and Civil Condition.-(16) Kartikápalli Taluk.-(Con"
+intravancoreandenumeratedoutside,IN TRAVANCORE AND ENUMERATED OUTSIDE THE,,1,title:1,South India | Travancore | 1921 | STATEMENT SHOWING THE NUMBER OF PERSONS BORN IN TRAVANCORE AND ENUMERA
+populationineachtowninkistna,Population in each Town in the Kistna,,1,title:1,"South India | Kistna District | 1881 | Table No. 10, showing the Distribution of the Population in each Town "
+populationforkurnool,Population for the Kurnool,,1,title:1,"South India | Kurnool | 1881 | Table No. 1, showing the Area, Towns and Villages, Occupied Houses, an"
+densityofpopulationforbellary,Density of the Population for the Bellary,,1,title:1,"South India | Bellary | 1881 | Table No. 2, showing the Increase or Decrease in Population as compare"
+populationofeachtowninkurnool,Population of each Town in the Kurnool,,1,title:1,"South India | Kurnool District | 1881 | Table No. 12, showing the Distribution of the Population of each Town "
+populationofeachtownintanjore,Population of each Town in the Tanjore,,1,title:1,"South India | Tanjore District | 1881 | Table No. 10, showing the Distribution of the Population of each Town "
+taluqsofnilgiri,Taluqs of the Nilgiri,,1,title:1,"South India | Madras | 1881 | Table No. 6, showing the Number of Persons following the Occupations i"
+varioustalukscochin,Various Taluks COCHIN,,1,title:1,South India | Cochin | 1901 | MAP To show the Proportion of the sexes in the Various Taluks COCHIN S
+sexeastern,Sex. Eastern,,1,title:1,"South India | Mysore | 1901 | SUBSIDIARY TABLE I. Unadjusted Age return of 100,000 of each Sex. East"
+icivilconditionbyreligionandage,I. Civil Condition by Religion and Age. -,,1,title:1,South India | Cochin | 1891 | TABLE VIII. Civil Condition by Religion and Age. - State Total.
+rytableivmigrationbetweencochin,RY TABLE IV. Migration between the Cochin,,1,title:1,South India | Cochin | 1921 | SUBSIDIARY TABLE IV. Migration between the Cochin State and other part

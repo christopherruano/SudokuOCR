@@ -1,0 +1,833 @@
+key,kind,hist_name,hist_parent,modern,confidence,note
+lowerchindwin,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa
+akyab,district,Akyab District,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,high,Akyab=Sittwe; north (Maungdaw/Buthidaung) now separate districts
+burmese,not_place,,,,high,race
+pegu,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago
+race,not_place,,,,high,heading
+chinese,not_place,,,,high,race
+rangoontown,district,Rangoon Town District,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,Rangoon=Yangon city core; split across GADM Yangon districts; Rangoon Town District (municipality+cantonment+port)
+prome,district,Prome District,Burma,MMR/Bago/Pyay,high,Prome=Pyay
+itempopulation,not_place,,,,high,heading
+katha,district,Katha District,Burma,MMR/Sagaing/Katha,high,
+lowerburma,division,Lower Burma,Burma,,high,administrative half of Burma (pre-1886 province)
+mainheadpopulation,not_place,,,,high,heading
+thongwa,district,Thongwa District,Burma,MMR/Ayeyarwady/Pharpon;MMR/Ayeyarwady/Maubin,medium,"Thongwa District 1895-1903, split into Pyapon+Maubin; 1921 towns-table row may be Thongwa town (Yangon-S)"
+salween,district,Salween District,Burma,MMR/Kayin/Hpa-an,medium,Salween (Papun) now Kayin State; GADM Hpa-an assumed
+tavoy,district,Tavoy District,Burma,MMR/Tanintharyi/Dawei,high,Tavoy=Dawei
+rangoonmunicipality,town,Rangoon Town,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,high,Rangoon Municipality
+ywathit,sub_district,Ywathit Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+tagundaing,unsure,,,,low,common village name appearing in tables of Sandoway District / Tharrawaddy District; different places
+hmawbi,sub_district,Hmawbi Township,Burma,MMR/Yangon/Yangon-N,high,
+letpangon,unsure,,,,low,common village name appearing in tables of Hanthawaddy District / Tharrawaddy District / Katha District; different places
+southernshanstates,agency,Southern Shan States,Burma,,high,group of Shan states under Superintendent; now southern Shan State
+toungoo,district,Toungoo District,Burma,MMR/Bago/Taungoo,high,Toungoo=Taungoo
+thayetmyo,district,Thayetmyo District,Burma,MMR/Magway/Thayetmyo,high,
+upperchindwin,district,Upper Chindwin District,Burma,MMR/Sagaing/Mawleik;MMR/Sagaing/Kalemyo;MMR/Sagaing/Tamu;MMR/Sagaing/Hkamti,medium,Upper Chindwin HQ Mawlaik; now split
+meiktila,district,Meiktila District,Burma,MMR/Mandalay/Meiktila,high,
+myingyan,district,Myingyan District,Burma,MMR/Mandalay/Myingyan,high,
+paungdemunicipality,town,Paungde Town,Burma,MMR/Bago/Pyay,high,Paungde in Prome District
+secularistrationalistandagnostic,not_place,,,,high,religion
+yeu,district,Ye-U District,Burma,MMR/Sagaing/Shwebo,high,Ye-U District merged into Shwebo 1895
+thazi,unsure,,,,low,common village name appearing in tables of Sagaing District / Akyab District; different places
+toungooconcldburmesefemales,district,Toungoo District,Burma,MMR/Bago/Taungoo,high,Toungoo=Taungoo; subset (race/religion/sex)
+pakokkuallracesfemales,district,Pakokku District,Burma,MMR/Magway/Pakokku,high,subset (race/religion/sex)
+pakokkuburmesefemales,district,Pakokku District,Burma,MMR/Magway/Pakokku,high,subset (race/religion/sex)
+peguallracesfemales,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; subset (race/religion/sex)
+peguburmesefemales,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; subset (race/religion/sex)
+inseinallracesfemales,district,Insein District,Burma,MMR/Yangon/Yangon-N,medium,Insein District (from Hanthawaddy 1912) now N Yangon; subset (race/religion/sex)
+inseinburmesefemales,district,Insein District,Burma,MMR/Yangon/Yangon-N,medium,Insein District (from Hanthawaddy 1912) now N Yangon; subset (race/religion/sex)
+inseinindianhindusfemales,district,Insein District,Burma,MMR/Yangon/Yangon-N,medium,Insein District (from Hanthawaddy 1912) now N Yangon; subset (race/religion/sex)
+merguiallracesfemales,district,Mergui District,Burma,MMR/Tanintharyi/Mergui;MMR/Tanintharyi/Kawthoung,high,Mergui=Myeik; Kawthoung split off; subset (race/religion/sex)
+merguiotherindigenousracesfemales,district,Mergui District,Burma,MMR/Tanintharyi/Mergui;MMR/Tanintharyi/Kawthoung,high,Mergui=Myeik; Kawthoung split off; subset (race/religion/sex)
+pyinmanaallracesfemales,town,Pyinmana Town,Burma,MMR/Naypyitaw/Naypyitaw,high,"subset; Pyinmana in Yamethin Dist., now Naypyitaw"
+pyinmanaburmesefemales,town,Pyinmana Town,Burma,MMR/Naypyitaw/Naypyitaw,high,"subset; Pyinmana in Yamethin Dist., now Naypyitaw"
+thatonallracesfemales,district,Thaton District,Burma,MMR/Mon/Thaton;MMR/Kayin/Hpa-an,medium,Thaton incl. Pa-an area; subset (race/religion/sex)
+thatonburmesefemales,district,Thaton District,Burma,MMR/Mon/Thaton;MMR/Kayin/Hpa-an,medium,Thaton incl. Pa-an area; subset (race/religion/sex)
+ywathitke,unsure,,,,low,common village name appearing in tables of Akyab District / Kyaukpyu District; different places
+byaingdaung,unsure,,,,low,common village name appearing in tables of Akyab District / Hanthawaddy District; different places
+laungchaung,sub_district,Laungchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyeinchaung,sub_district,Kyeinchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+aungtha,unsure,,,,low,common village name appearing in tables of Akyab District / Sagaing District; different places
+letpandaw,unsure,,,,low,common village name appearing in tables of Akyab District / Sagaing District; different places
+kyauktan,sub_district,Kyauktan Township,Burma,MMR/Yangon/Yangon-S,low,Kyauktan Township (Yangon S); also a village in Sandoway 1921 table
+kyatchaung,unsure,,,,low,common village name appearing in tables of Kyaukpyu District / Tharrawaddy District; different places
+yeozin,sub_district,Yeozin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+pogaung,unsure,,,,low,common village name appearing in tables of Hanthawaddy District / Tharrawaddy District; different places
+gonnyindan,unsure,,,,low,common village name appearing in tables of Hanthawaddy District / Tharrawaddy District; different places
+shans,not_place,,,,high,race
+kachins,not_place,,,,high,race
+delta,natural_division,Delta,Burma,,high,1931 natural division
+north,natural_division,North,Burma,,medium,1931 natural division
+minbu,district,Minbu District,Burma,MMR/Magway/Minbu,high,
+mandalay,district,Mandalay District,Burma,MMR/Mandalay/Mandalay,high,
+rubymines,district,Ruby Mines District,Burma,MMR/Mandalay/Pyin-Oo-Lwin;MMR/Shan/Kyaukme,medium,Mogok now Pyin-Oo-Lwin; Momeik/Mabein to N Shan
+akyabmunicipality,town,Akyab Town,Burma,MMR/Rakhine/Sittwe,high,Akyab=Sittwe town
+kyaukpyumunicipality,town,Kyaukpyu Town,Burma,MMR/Rakhine/Kyaunkpyu,high,
+rangooncantonment,town,Rangoon Cantonment,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,high,
+pegumunicipality,town,Pegu Town,Burma,MMR/Bago/Pegu,high,
+gyobingaukmunicipality,town,Gyobingauk Town,Burma,MMR/Bago/Thayarwady,high,
+shwedaungtown,town,Shwedaung Town,Burma,MMR/Bago/Pyay,high,
+basseinport,city_section,Bassein Port,Burma,MMR/Ayeyarwady/Bassein,medium,port section of Bassein town
+myaungmyamunicipality,town,Myaungmya Town,Burma,MMR/Ayeyarwady/Myoungmya,high,
+maubinmunicipality,town,Maubin Town,Burma,MMR/Ayeyarwady/Maubin,high,
+henzadamunicipality,town,Henzada Town,Burma,MMR/Ayeyarwady/Hinthada,high,
+okpotown,town,Okpo Town,Burma,MMR/Bago/Thayarwady,medium,Okpo in Tharrawaddy District
+kyanginmunicipality,town,Kyangin Town,Burma,MMR/Ayeyarwady/Hinthada,high,Kyangin in Henzada District
+toungoomunicipality,town,Toungoo Town,Burma,MMR/Bago/Taungoo,high,
+kyaiktomunicipality,town,Kyaikto Town,Burma,MMR/Mon/Thaton,high,Kyaikto in Thaton District; now Mon State Thaton district
+moulmeinmunicipality,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,Moulmein=Mawlamyine
+kawkareiktown,town,Kawkareik Town,Burma,MMR/Kayin/Kawkareik,high,Kawkareik in Amherst District
+merguimunicipality,town,Mergui Town,Burma,MMR/Tanintharyi/Mergui,high,Mergui=Myeik
+thayetmyocantonment,town,Thayetmyo Cantonment,Burma,MMR/Magway/Thayetmyo,high,
+pakokkumunicipality,town,Pakokku Town,Burma,MMR/Magway/Pakokku,high,
+salinmunicipality,town,Salin Town,Burma,MMR/Magway/Minbu,high,Salin in Minbu District
+yenangyaungtown,town,Yenangyaung Town,Burma,MMR/Magway/MagweMinbu,high,Yenangyaung in Magwe District
+nyaunggon,unsure,,,,low,common village name appearing in tables of Katha District / Lower Chindwin District; different places
+aungchantha,unsure,,,,low,common village name appearing in tables of Sagaing District / Lower Chindwin District; different places
+villagetracts,not_place,,,,high,heading
+netvariationinperiodincreaseordecrease,not_place,,,,high,heading
+item,not_place,,,,high,heading
+intermediateadjustment,not_place,,,,high,heading
+minbyaconcld,sub_district,Minbya Township,Burma,MMR/Rakhine/Sittwe,high,
+myohaung,sub_district,Myohaung Township,Burma,MMR/Rakhine/Sittwe,high,Myohaung=Mrauk-U
+ramreeconcluded,sub_district,Ramree Township,Burma,MMR/Rakhine/Kyaunkpyu,high,
+hlaing,sub_district,Hlaing Township,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-N,low,Hanthawaddy township; modern Hlaing is W Yangon
+pegutableshowingpopulationpopulationbyreligionandeducationandcbyvillagesandcircles,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; table-title string
+yamethinconcludedmahomedan,district,Yamethin District,Burma,MMR/Mandalay/Yamethin;MMR/Naypyitaw/Naypyitaw,high,Pyinmana part now Naypyitaw; subset (race/religion/sex)
+myingyanallreligions,district,Myingyan District,Burma,MMR/Mandalay/Myingyan,high,subset (race/religion/sex)
+myingyanhindu,district,Myingyan District,Burma,MMR/Mandalay/Myingyan,high,subset (race/religion/sex)
+northernshanstatesallreligions,agency,Northern Shan States,Burma,,high,subset (religion)
+shweboconcludedmahomedan,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,subset (race/religion/sex)
+sagaingallreligions,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (race/religion/sex)
+sagainghindu,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (race/religion/sex)
+sagaingchristian,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (race/religion/sex)
+kaniconcld,sub_district,Kani Township,Burma,MMR/Sagaing/Monywa,high,
+myebontownship,sub_district,Myebon Township,Burma,MMR/Rakhine/Kyaunkpyu,high,
+thayetmyominbu,aggregate,,Burma,,high,Thayetmyo District + Minbu District
+salweenthaton,aggregate,,Burma,,high,Salween District + Thaton District
+kyauksemeiktila,aggregate,,Burma,,high,Kyaukse District + Meiktila District
+lowerchindwinupperchindwin,aggregate,,Burma,,high,Lower Chindwin District + Upper Chindwin District
+adjustment,not_place,,,,high,heading
+aunggyinywa,sub_district,Aunggyinywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+thanngaywa,sub_district,Thanngaywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+pauksein,sub_district,Pauksein Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+ywaseikywa,sub_district,Ywaseikywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+konleywa,sub_district,Konleywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+dontinywa,sub_district,Dontinywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+thayabaung,sub_district,Thayabaung Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+modaungnorth,sub_district,Modaung North Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+pauktawchaungywa,sub_district,Pauktawchaungywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+sinbyugon,sub_district,Sinbyugon Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+letpantha,sub_district,Letpantha Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+yezin,sub_district,Yezin Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+singyun,sub_district,Singyun Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+sadeywa,sub_district,Sadeywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+ainghlywa,sub_district,ainghlywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+kyauktaingywa,sub_district,kyauktaingywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+malegyin,sub_district,malegyin Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+payatu,sub_district,payatu Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+shwedwingon,sub_district,shwedwingôn Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+tamabin,sub_district,tamabin Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+uyin,sub_district,u-yin Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+ywathitywa,sub_district,ywathitywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+gwadawywa,sub_district,Gwadawywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+panywa,sub_district,Panywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+ehlaywa,sub_district,Ehlaywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+thangonywa,sub_district,Thangônywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+myintha,sub_district,Myintha Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+sigan,sub_district,Sigan Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+pyapon,town,Pyapon Town,Burma,MMR/Ayeyarwady/Pharpon,high,1921 towns table
+yenangyaung,town,Yenangyaung Town,Burma,MMR/Magway/MagweMinbu,high,1921 towns table
+kyaiklat,town,Kyaiklat Town,Burma,MMR/Ayeyarwady/Pharpon,high,1921 towns table; Kyaiklat in Pyapon District
+maymyomunicipalityallracesfemales,town,Maymyo Town,Burma,MMR/Mandalay/Pyin-Oo-Lwin,high,subset; Maymyo=Pyin Oo Lwin
+maymyomunicipalityburmesefemales,town,Maymyo Town,Burma,MMR/Mandalay/Pyin-Oo-Lwin,high,subset; Maymyo=Pyin Oo Lwin
+maymyomunicipalityindianhindusfemales,town,Maymyo Town,Burma,MMR/Mandalay/Pyin-Oo-Lwin,high,subset; Maymyo=Pyin Oo Lwin
+syriamallracesfemales,town,Syriam Town,Burma,MMR/Yangon/Yangon-S,high,subset; Syriam=Thanlyin
+syriamburmesefemales,town,Syriam Town,Burma,MMR/Yangon/Yangon-S,high,subset; Syriam=Thanlyin
+syriamindianhindusfemales,town,Syriam Town,Burma,MMR/Yangon/Yangon-S,high,subset; Syriam=Thanlyin
+sagaingallracesfemales,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (race/religion/sex)
+sagaingburmesefemales,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (race/religion/sex)
+paungdeallracesfemales,town,Paungde Town,Burma,MMR/Bago/Pyay,high,subset
+paungdeburmesefemales,town,Paungde Town,Burma,MMR/Bago/Pyay,high,subset
+mandalaycantonmentallracesfemales,town,Mandalay Cantonment,Burma,MMR/Mandalay/Mandalay,high,subset
+mandalaycantonmentburmesefemales,town,Mandalay Cantonment,Burma,MMR/Mandalay/Mandalay,high,subset
+chaukallracesfemales,town,Chauk Town,Burma,MMR/Magway/MagweMinbu,high,subset; Chauk in Magwe District
+chaukburmesefemales,town,Chauk Town,Burma,MMR/Magway/MagweMinbu,high,subset; Chauk in Magwe District
+namtupanghaiallracesfemales,town,Namtu-Panghai Town,Burma,MMR/Shan/Kyaukme,medium,"subset; Namtu mining town, Hsipaw State (now Kyaukme district)"
+allanmyoallracesfemales,town,Allanmyo Town,Burma,MMR/Magway/Thayetmyo,high,subset; Allanmyo in Thayetmyo District
+allanmyoburmesefemales,town,Allanmyo Town,Burma,MMR/Magway/Thayetmyo,high,subset; Allanmyo in Thayetmyo District
+pyaponallracesfemales,town,Pyapon Town,Burma,MMR/Ayeyarwady/Pharpon,high,subset; 1921 towns table
+pyaponburmesefemales,town,Pyapon Town,Burma,MMR/Ayeyarwady/Pharpon,high,subset; 1921 towns table
+letpadanallracesfemales,town,Letpadan Town,Burma,MMR/Bago/Thayarwady,high,subset; 1921 towns table
+letpadanburmesefemales,town,Letpadan Town,Burma,MMR/Bago/Thayarwady,high,subset; 1921 towns table
+shweboallracesfemales,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,subset (race/religion/sex)
+shweboburmesefemales,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,subset (race/religion/sex)
+yenangyaungallracesfemales,town,Yenangyaung Town,Burma,MMR/Magway/MagweMinbu,high,subset
+yenangyaungburmesefemales,town,Yenangyaung Town,Burma,MMR/Magway/MagweMinbu,high,subset
+monywaallracesfemales,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa; subset (race/religion/sex)
+monywaburmesefemales,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa; subset (race/religion/sex)
+kyaiklatallracesfemales,town,Kyaiklat Town,Burma,MMR/Ayeyarwady/Pharpon,high,subset
+kyaiklatburmesefemales,town,Kyaiklat Town,Burma,MMR/Ayeyarwady/Pharpon,high,subset
+thongwaallracesfemales,town,Thongwa Town,Burma,MMR/Yangon/Yangon-S,medium,subset; 1921 towns table; Thongwa in Hanthawaddy
+thongwaburmesefemales,town,Thongwa Town,Burma,MMR/Yangon/Yangon-S,medium,subset; 1921 towns table; Thongwa in Hanthawaddy
+shanhsipawstatefemales,princely_state,Hsipaw State,Northern Shan States,MMR/Shan/Kyaukme,medium,subset (Shan race); Hsipaw now Kyaukme district
+shansouthhsenwifemales,princely_state,South Hsenwi State,Northern Shan States,MMR/Shan/Lasho,low,subset; South Hsenwi (Mongyai) now Lashio district
+shannorthhsenwifemales,princely_state,North Hsenwi State,Northern Shan States,MMR/Shan/Lasho;MMR/Shan/Muse;MMR/Shan/Kunlong;MMR/Shan/Lauking,medium,subset; North Hsenwi now split among NE Shan districts
+shansouthernshanstatesfemales,agency,Southern Shan States,Burma,,high,"subset (Shan race, females)"
+shankengtungstatefemales,princely_state,Kengtung State,Southern Shan States,MMR/Shan/Kengtung;MMR/Shan/Tarchilaik;MMR/Shan/Mongphat,medium,subset; Kengtung State now eastern Shan districts
+shannortheasternsubdivisionfemales,division,North-Eastern Subdivision,Shan States,,low,"subset (race); Shan States administrative subdivision, exact extent unknown"
+shansoutheasternsubdivisionfemales,division,South-Eastern Subdivision,Shan States,,low,"subset (race); Shan States administrative subdivision, exact extent unknown"
+shankarennifemales,princely_state,Karenni States,Burma,MMR/Kayah/Loikaw;MMR/Kayah/Bawlake,medium,subset; Karenni States (group)=Kayah State
+taungthuyawnghwestatefemales,princely_state,Yawnghwe State,Southern Shan States,MMR/Shan/Taunggye,high,subset (Taungthu race); Yawnghwe=Nyaungshwe
+taungthucentralsubdivisionfemales,division,Central Subdivision,Shan States,,low,"subset (race); Shan States administrative subdivision, exact extent unknown"
+taungthuwesternsubdivisionfemales,division,Western Subdivision,Shan States,,low,"subset (race); Shan States administrative subdivision, exact extent unknown"
+taungthuthatonfemales,district,Thaton District,Burma,MMR/Mon/Thaton;MMR/Kayin/Hpa-an,medium,Thaton incl. Pa-an area; subset (Taungthu race)
+mandalaymunicipalityallracesfemales,town,Mandalay Town,Burma,MMR/Mandalay/Mandalay,high,subset
+mandalaymunicipalityburmesefemales,town,Mandalay Town,Burma,MMR/Mandalay/Mandalay,high,subset
+mandalaymunicipalityindianhindusfemales,town,Mandalay Town,Burma,MMR/Mandalay/Mandalay,high,subset
+mandalaymunicipalityindianmuslimsfemales,town,Mandalay Town,Burma,MMR/Mandalay/Mandalay,high,subset
+mandalaymunicipalityindoburmanracesfemales,town,Mandalay Town,Burma,MMR/Mandalay/Mandalay,high,subset
+moulmeinallracesfemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,subset; Moulmein=Mawlamyine
+moulmeinburmesefemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,subset
+moulmeinotherindigenousracesfemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,subset
+moulmeinindianhindusfemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,subset
+moulmeinindianmuslimsfemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,subset
+moulmeinindoburmanracesfemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,subset
+moulmeinchinesefemales,town,Moulmein Town,Burma,MMR/Mon/Mawlamyine,high,subset
+basseinallracesfemales,district,Bassein District,Burma,MMR/Ayeyarwady/Bassein,high,Bassein=Pathein; subset (race/religion/sex)
+basseinburmesefemales,district,Bassein District,Burma,MMR/Ayeyarwady/Bassein,high,Bassein=Pathein; subset (race/religion/sex)
+indianhindusfemales,not_place,,,,high,race/sex
+indianmuslimsfemales,not_place,,,,high,race/sex
+burmesefemales,not_place,,,,high,race/sex
+myaukswe,sub_district,Myaukswè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+yapweywa,sub_district,Yapweywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+shaukpongyun,sub_district,Shaukpôngyun Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+poyinywa,sub_district,Poyinywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+maunggan,sub_district,Maunggan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+sino,sub_district,Sin-o Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+gongyunauk,sub_district,Gôngyunauk Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+bawdaw,sub_district,Bawdaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyeinza,sub_district,Kyeinza Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+letpyat,sub_district,Letpyat Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+payagyingahon,sub_district,Payagyingahôn Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyetchaungngacha,sub_district,Kyetchaungngacha Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+sabaung,sub_district,Sabaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+ngachaing,sub_district,Ngachaing Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+atetsenge,sub_district,Atetsengè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pyabongyingalon,sub_district,Pyabôngyingalôn Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+thazichin,sub_district,Thazichin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+settha,sub_district,Settha Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+shinbyu,sub_district,Shinbyu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pogaungdaung,sub_district,Pogaungdaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+linkeywa,sub_district,Linkeywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pogaungwa,sub_district,Pogaungwa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+nanyagon,sub_district,Nanyagon Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+myawchaungpyinshi,sub_district,Myawchaung pyinshi Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+theindaungywa,sub_district,Theindaungywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pyahinyin,sub_district,Pyahinyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+ywetnyodaung,sub_district,Ywetnyodaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+lemyo,sub_district,Lemyo Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyanyobyin,sub_district,Kyanyobyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+yechaungpinla,sub_district,Yechaungpinla Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+shaukponchaung,sub_district,Shaukponchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+laungyon,sub_district,Laungyon Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+sitchaungbya,sub_district,Sitchaungbya Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+ulabyetaungywa,sub_district,Ulabyetaungywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kondanywa,sub_district,Kondanywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kanetpe,sub_district,Kanetpe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kala,sub_district,Kala Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyaukseik,sub_district,Kyaukseik Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+winbaing,sub_district,Winbaing Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+awyama,sub_district,Awyama Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+dabaingshe,sub_district,Dabaingshe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+ayin,sub_district,Ayin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pawuntaung,sub_district,Pawuntaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+thinbaungdan,sub_district,Thinbaungdan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+sinthechaung,sub_district,Sinthechaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+peinnedawmyo,sub_district,Peinnèdawmyo Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+luke,sub_district,Lukè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+dippetkyidan,sub_district,Dippetkyidan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kinka,sub_district,Kinka Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+thalon,sub_district,Thalôn Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+taroktaungboat,sub_district,Tarôktaung (boat),Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,boat population row in Akyab District table (below township)
+thedaw,sub_district,Thèdaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+namahat,sub_district,Namahat Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+thetle,sub_district,Thetlè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+myalebaw,sub_district,Myalèbaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyetwe,sub_district,Kyetwè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kamaungdawboat,sub_district,Kamaungdaw (boat),Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,boat population row in Akyab District table (below township)
+yetkondaing,sub_district,Yetkôndaing Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+obauk,sub_district,Ôbauk Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+satkotchaunng,sub_district,Satkotchaunng Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+ngasanbaw,sub_district,Ngasanbaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+yemyatchaung,sub_district,Yemyatchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+paikseiknebugan,sub_district,Paikseiknebugan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+thaungdayawest,sub_district,Thaungdaya West Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyaukchaung,sub_district,Kyaukchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+legwazon,sub_district,Legwazôn Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+lamudaing,sub_district,Lamudaing Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+legwinnge,sub_district,Lègwinngè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyauklangyi,sub_district,Kyauklangyi Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+paingdaung,sub_district,Paingdaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+yezawchaung,sub_district,Yezawchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kinbunchaung,sub_district,Kinbunchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pethadoatet,sub_district,Pethado atet Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pethado,sub_district,Pethado Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kayugyaung,sub_district,Kayugyaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+migyaungyethauk,sub_district,Migyaungyethauk Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+myinbu,sub_district,Myinbu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+taungna,sub_district,Taungna Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+chyitthauk,sub_district,Chyitthauk Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+nyaungchon,sub_district,Nyaungchôn Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kywelangyaung,sub_district,Kywelangyaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+ngabyaukse,sub_district,Ngabyauksè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+wunti,sub_district,Wunti Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+myingattaw,sub_district,Myingattaw Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+gwazon,sub_district,Gwazôn Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+yinchaung,sub_district,Yinchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+letmaseik,sub_district,Letmaseik Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+awyattha,sub_district,Awyattha Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+dewa,sub_district,Dewa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+dokkanchaung,sub_district,Dôkkanchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pyeinchaung,sub_district,Pyeinchaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pyaungzeik,sub_district,Pyaungzeik Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+aukponza,sub_district,Aukpônza Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+miyatpyin,sub_district,Miyatpyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kanzaukyakaing,sub_district,Kanzaukyakaing Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kingyaung,sub_district,Kingyaung Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+nozoywa,sub_district,Nozoywa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyauku,sub_district,Kyauku Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kauknyinsa,sub_district,Kauknyinsa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyungyi,sub_district,Kyungyi Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+nagaywe,sub_district,Nagaywe Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+chaungwa,sub_district,Chaungwa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pandu,sub_district,Pandu Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+thanshinbyin,sub_district,Thanshinbyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+maungswe,sub_district,Maungswè Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+mahati,sub_district,Mahati Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+paungdok,sub_district,Paungdôk Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+malunze,sub_district,Malunze Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+pabeyet,sub_district,Pabèyet Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+thukobon,sub_district,Thukobôn Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+odin,sub_district,Odin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+mokkya,sub_district,Môkkya Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+okponbyin,sub_district,Ôkpônbyin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kyagan,sub_district,Kyagan Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+thityin,sub_district,Thityin Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+awa,sub_district,Awa Village,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,village/village-tract row in Akyab District table (below township)
+kalabon,sub_district,Kalabôn Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+kyauktaungbyin,sub_district,kyauktaungbyin Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+petkya,sub_district,petkya Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+satpyetindaing,sub_district,satpyetindaing Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+sitpya,sub_district,sitpya Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+wunbaikhleseik,sub_district,wunbaikhleseik Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+yantheitgyiywa,sub_district,yantheitgyiywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+awadaung,sub_district,Awadaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+letpanmyauk,sub_district,Letpan myauk Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+mayutchaing,sub_district,Mayutchaing Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+chaungnge,sub_district,Chaungngè Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+wunbuseywa,sub_district,Wunbusèywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+kamaungkyidaungchinywa,sub_district,Kamaungkyidaungchinywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+tayaungywa,sub_district,Tayaungywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+thinbawzeik,sub_district,Thinbawzeik Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+ngapyawgyi,sub_district,Ngapyawgyi Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+thawka,sub_district,Thawka Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+pyitmakwin,sub_district,Pyitmakwin Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+kanchaung,sub_district,Kanchaung Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+kyaukgaung,sub_district,Kyaukgaung Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+kaingdaw,sub_district,Kaingdaw Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+pyunhmaw,sub_district,Pyunhmaw Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+chaungwaboat,sub_district,Chaungwa (boat),Burma,MMR/Rakhine/Thandwe,medium,boat population row in Sandoway District table (below township)
+dodangyi,sub_district,Dodangyi Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+sizongon,sub_district,Sizôngôn Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+sachetkyi,sub_district,Sachetkyi Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+wetto,sub_district,Wetto Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+chaunggyauk,sub_district,Chaunggyauk Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+tainggyochinywa,sub_district,Tainggyochinywa Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+kywechaing,sub_district,Kywèchaing Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+bein,sub_district,Be-in Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+sanda,sub_district,Sanda Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+aukkalabyin,sub_district,Aukkalabyin Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+kanyingon,sub_district,Kanyingôn Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+nangyaung,sub_district,Nangyaung Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+taungbauk,sub_district,Taungbauk Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+myatkwin,sub_district,Myatkwin Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+thayakwin,sub_district,Thayakwin Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+powagon,sub_district,Powagôn Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+mayu,sub_district,Mayu Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+abe,sub_district,Abè Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+myabyin,sub_district,Myabyin Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+wadaung,sub_district,Wadaung Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+zibyugon,sub_district,Zibyugôn Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+sabagyi,sub_district,Sabagyi Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+thanbeyaboat,sub_district,Thanbèya (boat),Burma,MMR/Rakhine/Thandwe,medium,boat population row in Sandoway District table (below township)
+thayetpinkwin,sub_district,Thayetpinkwin Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+kyiganye,sub_district,Kyiganyè Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+mawyonboat,sub_district,Mawyôn (boat),Burma,MMR/Rakhine/Thandwe,medium,boat population row in Sandoway District table (below township)
+kwinwaing,sub_district,Kwinwaing Village,Burma,MMR/Rakhine/Thandwe,medium,village/village-tract row in Sandoway District table (below township)
+maubyinboat,sub_district,Ma-ubyin (boat),Burma,MMR/Rakhine/Kyaunkpyu,medium,boat population row in Kyaukpyu District table (below township)
+tabyu,sub_district,Tabyu Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+chaungshe,sub_district,Chaungshe Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+ngalekya,sub_district,Ngalekya Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+laungsat,sub_district,Laungsat Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+gelaung,sub_district,Gelaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+myauku,sub_district,Myauk-u Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+ywahaungwe,sub_district,Ywahaungwe Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+wetmidoywa,sub_district,Wetmidoywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+natlahaywa,sub_district,Natlahaywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+taungshaukywa,sub_district,Taungshaukywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+paikayweywa,sub_district,Paikayweywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+mekantaung,sub_district,Mekantaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+tandinywa,sub_district,Tandinywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+ngayoktaung,sub_district,Ngayoktaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+pymnuhywa,sub_district,Pymnuhywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+yebeinaukywa,sub_district,Yebeinaukywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+sintheywaywa,sub_district,Sintheywaywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+nwalaboywa,sub_district,Nwalaboywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+nyaungchaungwa,sub_district,Nyaungchaungwa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+palaungwa,sub_district,Palaungwa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+thitmaunghnama,sub_district,Thitmaunghnama Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+kamaungseik,sub_district,Kamaungseik Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+ngakyidaung,sub_district,Ngakyidaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+sindo,sub_district,Sindo Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+pyaungchaung,sub_district,Pyaungchaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+myokanbaywa,sub_district,Myôkanbaywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+lonwaywa,sub_district,Lônwaywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+kyaungpyukwin,sub_district,Kyaungpyukwin Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+lonchaungywa,sub_district,Lônchaungywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+thinchaung,sub_district,Thinchaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+yatthagyi,sub_district,Yatthagyi Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+myetnigyungrant,sub_district,Myetnigyun (grant) Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+yebokywa,sub_district,Yebôkywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+wechaung,sub_district,Wechaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+minteywa,sub_district,Minteywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+chaungbok,sub_district,Chaungbôk Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+awabyin,sub_district,Awabyin Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+thayetpinbyin,sub_district,Thayetpinbyin Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+petchaung,sub_district,Petchaung Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+pyathigyun,sub_district,Pyâthigyun Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+letkwadwe,sub_district,Letkwadwe Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+kanbwedalaik,sub_district,Kanbwedalaik Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+laungchaungywa,sub_district,Laungchaungywa Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+sappadwe,sub_district,Sappadwe Village,Burma,MMR/Rakhine/Kyaunkpyu,medium,village/village-tract row in Kyaukpyu District table (below township)
+payon,sub_district,Payôn Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+kyweluaing,sub_district,Kywèluaing Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+sabozu,sub_district,Sabozu Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+kalaukkali,sub_district,Kalaukkali Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+kayazu,sub_district,Kayazu Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+pyamut,sub_district,Pyamut Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+peinnegan,sub_district,Peinnègan Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+didaingriverboat,sub_district,Didaing river (boat),Burma,MMR/Yangon/Yangon-S,medium,"boat population row in Kungyangon Township, Hanthawaddy District table (below township)"
+tawkayanashe,sub_district,Tawkayan ashe Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+tawkuashe,sub_district,Tawku ashe Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+ngaoasu,sub_district,Nga-o asu Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+ngayoasu,sub_district,Ngayoasu Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+seikkyi,sub_district,Seikkyi Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+tawpalwe,sub_district,Tawpalwè Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+tawgyaung,sub_district,Tawgyaung Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+mankaleik,sub_district,Mankaleik Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+sukala,sub_district,Sukala Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+wagauksu,sub_district,Wagauksu Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+konbyat,sub_district,Kônbyat Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+eindapuragon,sub_district,Eindapuragôn Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+taikkyi,sub_district,Taikkyi Village,Burma,MMR/Yangon/Yangon-S,medium,"village/village-tract row in Kungyangon Township, Hanthawaddy District table (below township)"
+nganeuasu,sub_district,Nganeuasu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+tagwa,sub_district,Tagwa Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kanthonzinpayangokto,sub_district,Kanthônzin-payangôkto Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+gyogyakwin,sub_district,Gyogyakwin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+taikkyirailwaystation,sub_district,Taikkyi Railway station Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+nyaunglebin,sub_district,Nyaunglèbin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+singu,sub_district,Singu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kyibinin,sub_district,Kyibinin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kyaikmandaw,sub_district,Kyaikmandaw Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+udothanatchaung,sub_district,Udothanatchaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+thewashanzu,sub_district,Thèwashanzu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+ngasanyeasu,sub_district,Ngasanyeasu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+thanatchaungrailwaystation,sub_district,Thanatchaung Railway station Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kangalegon,sub_district,Kangalegôn Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+dunkaikpinlan,sub_district,Dunkaikpinlan Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kyontakin,sub_district,Kyôntakin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+hlelangusabyu,sub_district,Hlèlangusabyu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+intaya,sub_district,Intaya Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kyaunggon,sub_district,Kyaunggôn Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+aingkalaung,sub_district,Aingkalaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+nandawgon,sub_district,Nandawgôn Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kunnakyaiksitpinwe,sub_district,Kùnnakyaiksitpinwè Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+alabok,sub_district,Alabôk Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kinpadi,sub_district,Kinpadi Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kywebok,sub_district,Kywebok Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+thaminkwin,sub_district,Thaminkwin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+tayaungbinshanzu,sub_district,Tayaungbinshanzu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+thaikwachaung,sub_district,Thaikwachaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+chaungzauk,sub_district,Chaungzauk Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+migyaung,sub_district,Migyaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+danushanzu,sub_district,Danushanzu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+ngabyemain,sub_district,Ngabyema-in Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+kywebonsakan,sub_district,Kywebonsakan Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+ngasokwin,sub_district,Ngasokwin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+thanbangyawauk,sub_district,Thanbangyawauk Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+panibin,sub_district,Panibin Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+taungbohla,sub_district,Taungbohla Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+pataya,sub_district,Pataya Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+sainggaung,sub_district,Sainggaung Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+gyogya,sub_district,Gyogya Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+thitkaungyi,sub_district,Thitkaungyi Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+thitkaungzu,sub_district,Thitkaungzu Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+wunkaik,sub_district,Wunkaik Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+mininkangon,sub_district,Mininkangon Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+mondaing,sub_district,Mondaing Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+padaukkon,sub_district,Padaukkon Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+titan,sub_district,Titan Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+paukongale,sub_district,Paukongale Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+gwaywa,sub_district,Gwaywa Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+paingkyon,sub_district,Paingkyon Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+makyetgale,sub_district,Makyetgale Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+thabyuatwin,sub_district,Thabyu atwin Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+thamechaung,sub_district,Thamechaung Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+kanbyaung,sub_district,Kanbyaung Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+aton,sub_district,Aton Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+kabauk,sub_district,Kabauk Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+nyaungbingan,sub_district,Nyaungbingan Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+kyaungdaik,sub_district,Kyaungdaik Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+pagan,sub_district,Pagan Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+paukpin,sub_district,Paukpin Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+maungma,sub_district,Maungma Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+kadatpya,sub_district,Kadatpya Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+awabye,sub_district,Awabye Village,Burma,MMR/Bago/Pegu,medium,village/village-tract row in Pegu District table (below township)
+thabyu,sub_district,Thabyu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+seywa,sub_district,Seywa Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+kyaungzukyaunggon,sub_district,Kyaungzu-kyaunggôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+byetkyi,sub_district,Byetkyi Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+shangon,sub_district,Shangôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+thayagonywama,sub_district,Thayagôn ywama Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+thayagonkyaungzu,sub_district,Thayagôn kyaungzu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+pebindan,sub_district,Pebindan Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+oktwinlugalezu,sub_district,Oktwin lugalezu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+oktwinthaingchon,sub_district,Oktwin thaingchôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+tayegwinyogon,sub_district,Tayegwin yôgôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+tayegwinngalanasu,sub_district,Tayegwin ngalanasu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+tagundaingzu,sub_district,Tagundaingzu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+thindaukankyaungzu,sub_district,Thindaukankyaungzu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+thindaukanchaungnazu,sub_district,Thindaukanchaungnazu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+gonmingwinaungthaasu,sub_district,Gônmingwinaungthaasu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+gonmingwinshwehmataasu,sub_district,Gônmingwinshwehmataasu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+pyindaungdwin,sub_district,Pyindaungdwin Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+pyindaungdwinanauksu,sub_district,Pyindaungdwin anauksu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+pyindaungdwinthitchaung,sub_district,Pyindaungdwin thitchaung Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+tahnapoauksu,sub_district,Tahnapo auksu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+kyettawkwinashezu,sub_district,Kyettawkwin ashezu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+kanthayataungzu,sub_district,Kanthayataungzu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+tahnabogyi,sub_district,Tahnabogyi Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+okpogyiaing,sub_district,Okpogyiaing Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+hmanlakagon,sub_district,Hmanlakagôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+kondangyi,sub_district,Kôndangyi Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+alayet,sub_district,Alayet Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+aiktaha,sub_district,Aiktaha Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+atanaw,sub_district,Atanaw Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+bilinwest,sub_district,Bilin West Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+zibwe,sub_district,Zibwè Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+inponnyainthayaw,sub_district,Inpônnya-Inthayaw Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+thingangon,sub_district,Thingangôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+alegon,sub_district,Alègôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+yele,sub_district,Yelè Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+zayatgyi,sub_district,Zayatgyi Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+udogyi,sub_district,Udogyi Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+udogale,sub_district,Udogale Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+nwegwe,sub_district,Nwègwe Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+aukkywethat,sub_district,Aukkywèthat Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+thindawyoeast,sub_district,Thindawyo East Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+aletgonminmyaung,sub_district,Aletgônminmyaung Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+pushwegyaw,sub_district,Pushwegyaw Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+zeinza,sub_district,Zeinza Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+oktwinyewe,sub_district,Oktwinyewe Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+alapoktontu,sub_district,Alapôktôntu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+katuin,sub_district,Katuin Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+ainggyaikin,sub_district,Ainggyaikin Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+lahatwelwegale,sub_district,Lahatwèlwegale Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+sinzu,sub_district,Sinzu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+minlan,sub_district,Minlan Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+kyungoneast,sub_district,Kyungôn East Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+thindawgan,sub_district,Thindawgan Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+kawpyinkwin,sub_district,Kawpyinkwin Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+taungboshe,sub_district,Taungboshe Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+nganokasu,sub_district,Nganôkasu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+kyandawzu,sub_district,Kyandawzu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+gonminin,sub_district,Gônminin Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+aukthonzu,sub_district,Aukthônzu Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+magyikwin,sub_district,Magyikwin Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+tazinaing,sub_district,Tazinaing Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+gwedaukkon,sub_district,Gwedaukkôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+kyungon,sub_district,Kyungôn Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+bogyigonkaren,sub_district,Bogyigôn (Karen) Village,Burma,MMR/Bago/Thayarwady,medium,village/village-tract row in Tharrawaddy District table (below township)
+pakokkuhilltracts,district,Pakokku Hill Tracts,Burma,MMR/Chin/Mindat,medium,"Pakokku Hill Tracts=Mindat/Kanpetlet/Matupi, now Chin State"
+upperburmadry,natural_division,"Upper Burma, Dry",Burma,,high,
+lowerburmasubdeltaic,natural_division,"Lower Burma, Sub-deltaic",Burma,,high,
+rangooncity,town,Rangoon Town,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,high,Rangoon City
+burmawhole,province,Burma,,,high,Burma whole province
+mandalaymunicipality,town,Mandalay Town,Burma,MMR/Mandalay/Mandalay,high,
+mandalayshore,city_section,Mandalay Shore,Burma,MMR/Mandalay/Mandalay,medium,riverside section of Mandalay town (1901)
+maymyocantonment,town,Maymyo Cantonment,Burma,MMR/Mandalay/Pyin-Oo-Lwin,high,Maymyo=Pyin Oo Lwin
+bhamocantonment,town,Bhamo Cantonment,Burma,MMR/Kachin/Bhamo,high,
+shwebocantonment,town,Shwebo Cantonment,Burma,MMR/Sagaing/Shwebo,high,
+monywamunicipality,town,Monywa Town,Burma,MMR/Sagaing/Monywa,high,
+meiktilatown,town,Meiktila Town,Burma,MMR/Mandalay/Meiktila,high,
+yamethinmunicipality,town,Yamethin Town,Burma,MMR/Mandalay/Yamethin,high,Yamethin town
+myingyanmunicipality,town,Myingyan Town,Burma,MMR/Mandalay/Myingyan,high,
+shwedaung,town,Shwedaung Town,Burma,MMR/Bago/Pyay,high,towns of Lower Burma statement
+yandoon,town,Yandoon Town,Burma,MMR/Ayeyarwady/Maubin,high,Yandoon (Nyaungdon) in Maubin District
+natworshipperssingle,not_place,,,,high,religion/civil condition
+natworshipperswidowed,not_place,,,,high,religion/civil condition
+summarytotal,not_place,,,,high,heading
+ledawtha,sub_district,Lèdawtha Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+naunggon,sub_district,Naunggôn Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+gyongyongya,sub_district,Gyôngyôngya Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+lepyinywa,sub_district,Lepyinywa Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+budalet,sub_district,Budalet Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+kyaungon,sub_district,Kyaungôn Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+shwemaunggon,sub_district,Shwemaunggôn Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+peinnegon,sub_district,Peinnègôn Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+kyaukaik,sub_district,Kyaukaik Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+keinton,sub_district,Kèinton Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+thapangaing,sub_district,Thapangaing Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+kyaukpaukchaung,sub_district,Kyaukpaukchaung Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+moyu,sub_district,Moyu Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+taunglonnyo,sub_district,Taunglônnyo Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+lebyin,sub_district,Lebyin Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+aunggon,sub_district,Aunggôn Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+nalaung,sub_district,Nalaung Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+upperkyanchaung,sub_district,Upper Kyanchaung Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+nankin,sub_district,Nankin Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+sinhaung,sub_district,Sinhaung Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+tonbon,sub_district,Tônbôn Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+chaungbya,sub_district,Chaungbya Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+naba,sub_district,Naba Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+nanmakyaing,sub_district,Nanmakyaing Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+petsut,sub_district,Petsut Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+hwehinlat,sub_district,Hwehinlat Village,Burma,MMR/Sagaing/Katha,medium,village/village-tract row in Katha District table (below township)
+einya,sub_district,Einya Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+thabeikle,sub_district,Thabeiklè Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+ondaw,sub_district,Ondaw Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+minswehnit,sub_district,Minswèhnit Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+tanegyigon,sub_district,Tanegyigôn Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+danbinywanorth,sub_district,Danbinywa North Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+tonbo,sub_district,Tônbo Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+nagabonorth,sub_district,Nagabo North Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+letyetkon,sub_district,Letyetkôn Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+mukadwin,sub_district,Mukadwin Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+nwamya,sub_district,Nwamya Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+mayogon,sub_district,Mayogôn Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+wegyi,sub_district,Wègyi Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+mayaganwithmilitarypolicepost,sub_district,Mayagan with military police post Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+inbin,sub_district,Inbin Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+daingnat,sub_district,Daingnat Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+tetkaung,sub_district,Tetkaung Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+ontabin,sub_district,Ôntabin Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+penwe,sub_district,Pènwè Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+labazaw,sub_district,Labazaw Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+tane,sub_district,Tanè Village,Burma,MMR/Sagaing/Shwebo,medium,village/village-tract row in Ye-U District table (below township)
+thungedaw,sub_district,Thungèdaw Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+kaingbyin,sub_district,Kaingbyin Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+nyaungbinwun,sub_district,Nyaungbinwun Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+tabayingwe,sub_district,Tabayingwe Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+mauthadun,sub_district,Ma-uthadun Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+maubinkondan,sub_district,Ma-ubinkondan Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+sinmye,sub_district,Sinmye Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+kyatpyin,sub_district,Kyatpyin Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+kabo,sub_district,Kabo Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+myinzaing,sub_district,Myinzaing Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+buyauk,sub_district,Buyauk Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+theppan,sub_district,Theppan Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+eswaywa,sub_district,Eswaywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+gwesaung,sub_district,Gwesaung Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+sappyagyin,sub_district,Sappyagyin Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+htisaung,sub_district,Htisaung Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+inma,sub_district,Inma Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+yegyaweast,sub_district,Yegyaw East Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+tagingyi,sub_district,Tagingyi Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+legan,sub_district,Lègan Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+indaingtha,sub_district,Indaingtha Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+kyetyin,sub_district,Kyetyin Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+shwegu,sub_district,Shwegu Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+nanu,sub_district,Nan-u Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+pauktawashe,sub_district,Pauktaw ashe Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+kyaukpyewgon,sub_district,Kyaukpyewgon Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+shabinywa,sub_district,Shabinywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+memathaw,sub_district,Memathaw Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+sinywa,sub_district,Sinywa Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+shwebontha,sub_district,Shwebontha Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+thaunggyi,sub_district,Thaunggyi Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+chaungzonywa,sub_district,Chaungzonywa† Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+ngabet,sub_district,Ngabet Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+shwele,sub_district,Shwele Village,Burma,MMR/Sagaing/Sagaing,medium,village/village-tract row in Sagaing District table (below township)
+nyaunggan,sub_district,Nyaunggan Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+okaing,sub_district,Okaing Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+kyetyogon,sub_district,Kyetyogon Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+kado,sub_district,Kado Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+bashu,sub_district,Bashu Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+wunton,sub_district,Wunton Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+siba,sub_district,Siba Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+tethlaing,sub_district,Tethlaing Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+hnontan,sub_district,Hnontan Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+kungyan,sub_district,Kungyan Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+hnawpinyo,sub_district,Hnawpinyo Village,Burma,MMR/Sagaing/Monywa,medium,village/village-tract row in Lower Chindwin District table (below township)
+wholeprovincelessakyab,aggregate,,Burma,,high,Burma excluding Akyab District
+ofallages,not_place,,,,high,heading
+racepopulation,not_place,,,,high,heading
+arakanhilltracts,district,Arakan Hill Tracts,Burma,MMR/Chin/Mindat,low,"N. Arakan/Arakan Hill Tracts=Paletwa area, now Chin State; GADM Mindat district assumed"
+tharrawaddyburmese,district,Tharrawaddy District,Burma,MMR/Bago/Thayarwady,high,Tharrawaddy=Thayarwady; subset (race/religion/sex)
+hanthawaddyburmese,district,Hanthawaddy District,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,medium,Hanthawaddy rural Rangoon; now Yangon North+South; subset (race/religion/sex)
+desatcircleno,sub_district,Desat Circle,Burma,MMR/Bago/Pegu,low,circle in Pegu District
+tharrawaddytableshowingpopu,district,Tharrawaddy District,Burma,MMR/Bago/Thayarwady,high,Tharrawaddy=Thayarwady; table-title string
+thanngaywacircleno,sub_district,Thanngaywa Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+konletokcircleno,sub_district,Konletok Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+sinbyugoncircleno,sub_district,Sinbyugon Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+sigaungcircleno,sub_district,Sigaung Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+magyicircleno,sub_district,Magyi Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+inseinallraces,district,Insein District,Burma,MMR/Yangon/Yangon-N,medium,Insein District (from Hanthawaddy 1912) now N Yangon; subset (race/religion/sex)
+inseinindianhindus,district,Insein District,Burma,MMR/Yangon/Yangon-N,medium,Insein District (from Hanthawaddy 1912) now N Yangon; subset (race/religion/sex)
+myaungmyaallraces,district,Myaungmya District,Burma,MMR/Ayeyarwady/Myoungmya,high,subset (race/religion/sex)
+myaungmyaotherindigenousraces,district,Myaungmya District,Burma,MMR/Ayeyarwady/Myoungmya,high,subset (race/religion/sex)
+myaungmyaconcldindianmuslims,district,Myaungmya District,Burma,MMR/Ayeyarwady/Myoungmya,high,subset (race/religion/sex)
+maubinburmese,district,Maubin District,Burma,MMR/Ayeyarwady/Maubin,high,subset (race/religion/sex)
+toungooallraces,district,Toungoo District,Burma,MMR/Bago/Taungoo,high,Toungoo=Taungoo; subset (race/religion/sex)
+toungoootherindigenousraces,district,Toungoo District,Burma,MMR/Bago/Taungoo,high,Toungoo=Taungoo; subset (race/religion/sex)
+thayetmyoburmese,district,Thayetmyo District,Burma,MMR/Magway/Thayetmyo,high,subset (race/religion/sex)
+minbuburmese,district,Minbu District,Burma,MMR/Magway/Minbu,high,subset (race/religion/sex)
+magweburmese,district,Magwe District,Burma,MMR/Magway/MagweMinbu,medium,GADM MagweMinbu has variant Magwe; subset (race/religion/sex)
+pakokkuburmese,district,Pakokku District,Burma,MMR/Magway/Pakokku,high,subset (race/religion/sex)
+mandalayallraces,district,Mandalay District,Burma,MMR/Mandalay/Mandalay,high,subset (race/religion/sex)
+shweboburmese,district,Shwebo District,Burma,MMR/Sagaing/Shwebo,high,subset (race/religion/sex)
+sagaingburmese,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,subset (race/religion/sex)
+bhamootherindigenousraces,district,Bhamo District,Burma,MMR/Kachin/Bhamo,high,subset (race/religion/sex)
+myitkyinaotherindigenousraces,district,Myitkyina District,Burma,MMR/Kachin/Myitkyina;MMR/Kachin/Putao,high,Putao split off; subset (race/religion/sex)
+kyaukseburmese,district,Kyaukse District,Burma,MMR/Mandalay/Kyaukse,high,subset (race/religion/sex)
+meiktilaburmese,district,Meiktila District,Burma,MMR/Mandalay/Meiktila,high,subset (race/religion/sex)
+myingyanallraces,district,Myingyan District,Burma,MMR/Mandalay/Myingyan,high,subset (race/religion/sex)
+yamethinallraces,district,Yamethin District,Burma,MMR/Mandalay/Yamethin;MMR/Naypyitaw/Naypyitaw,high,Pyinmana part now Naypyitaw; subset (race/religion/sex)
+birthplaceofinmatesofinstitutions,not_place,,,,high,heading
+rangoontownallraces,district,Rangoon Town District,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,Rangoon=Yangon city core; split across GADM Yangon districts; subset (race/religion/sex)
+rangoontownchinese,district,Rangoon Town District,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,Rangoon=Yangon city core; split across GADM Yangon districts; subset (race/religion/sex)
+chinhillstableshowingpopulationbysexagecivilconditioneducationandinfirmities,district,Chin Hills District,Burma,MMR/Chin/Palam,medium,Chin Hills (Falam/Haka/Tiddim); GADM Palam=Falam; table-title string
+myaukpyincircleno,sub_district,Myaukpyin Circle,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,revenue circle in Akyab District table (below township)
+urittaungconcld,sub_district,Urittaung Township,Burma,MMR/Rakhine/Sittwe,medium,Akyab township
+rathedaungtown,town,Rathedaung Town,Burma,MMR/Rakhine/Sittwe,medium,"Akyab District, now Sittwe district"
+detailedpopulation,not_place,,,,high,heading
+kalaboncircleno,sub_district,Kalabon Circle,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,revenue circle in Akyab District table (below township)
+tizwecircleno,sub_district,Tizwe Circle,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,revenue circle in Akyab District table (below township)
+aungseikcircleno,sub_district,Aungseik Circle,Burma,MMR/Rakhine/Sittwe;MMR/Rakhine/Maungtaw;MMR/Rakhine/Buthidaung,low,revenue circle in Akyab District table (below township)
+myomaashecircleno,sub_district,Myomaashe Circle,Burma,MMR/Rakhine/Kyaunkpyu,medium,revenue circle in Kyaukpyu District table (below township)
+myomataungcircleno,sub_district,Myomataung Circle,Burma,MMR/Rakhine/Kyaunkpyu,medium,revenue circle in Kyaukpyu District table (below township)
+maicircleno,sub_district,Mai Circle,Burma,MMR/Rakhine/Thandwe,medium,revenue circle in Sandoway District table (below township)
+antownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,An Township,Burma,MMR/Rakhine/Kyaunkpyu,low,title fragment; may be truncated 'Myebon'; either way Kyaukpyu District
+southerntownship,sub_district,Southern Township,Burma,MMR/Rakhine/Thandwe,medium,Sandoway District (table verified in DB)
+pandawbyincircleno,sub_district,Pandawbyin Circle,Burma,MMR/Rakhine/Kyaunkpyu,medium,revenue circle in Kyaukpyu District table (below township)
+sawacircleno,sub_district,Sawa Circle,Burma,MMR/Rakhine/Thandwe,medium,revenue circle in Sandoway District table (below township)
+ramreetownshipdetailed,sub_district,Ramree Township,Burma,MMR/Rakhine/Kyaunkpyu,high,
+chedubatownshipdetailed,sub_district,Cheduba Township,Burma,MMR/Rakhine/Kyaunkpyu,high,
+sandowaytowntableshowingpopulationbysexagecivilconditioneducationandinfirmities,town,Sandoway Town,Burma,MMR/Rakhine/Thandwe,high,table-title string
+myebon,sub_district,Myebon Township,Burma,MMR/Rakhine/Kyaunkpyu,high,
+northerntownshipcontd,sub_district,Northern Township,Burma,MMR/Rakhine/Thandwe,medium,Sandoway District township
+ingyincircleno,sub_district,Ingyin Circle,Burma,MMR/Rakhine/Kyaunkpyu,medium,revenue circle in Kyaukpyu District table (below township)
+rangoontownincludingmunicipalitycantonmentandporttableshowingpopulationbysexagecivilconditioneducationandinfirmities,district,Rangoon Town District,Burma,MMR/Yangon/Yangon-W;MMR/Yangon/Yangon-E,medium,Rangoon=Yangon city core; split across GADM Yangon districts; table-title string
+hmawbitownshipsummary,sub_district,Hmawbi Township,Burma,MMR/Yangon/Yangon-N,high,
+tuntetownshipdetailed,sub_district,Twante Township,Burma,MMR/Yangon/Yangon-S,high,Tunte=Twante
+kungyangon,sub_district,Kungyangon Township,Burma,MMR/Yangon/Yangon-S,high,
+mahlaingcircleno,sub_district,Mahlaing Circle,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,revenue circle in Hanthawaddy District table (below township)
+pegutowntableshowingpopulationbysexagecivilconditioneducationandinfirmities,town,Pegu Town,Burma,MMR/Bago/Pegu,high,table-title string
+danokcircleno,sub_district,Danok Circle,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,revenue circle in Hanthawaddy District table (below township)
+tanmanaingcircleno,sub_district,Tanmanaing Circle,Burma,MMR/Yangon/Yangon-S,medium,"revenue circle in Kungyangon Township, Hanthawaddy District table (below township)"
+returnofpopulationofhanthawaddybyorstatesofbirth,district,Hanthawaddy District,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,medium,Hanthawaddy rural Rangoon; now Yangon North+South; table-title string
+payagaletownshipdetailed,sub_district,Payagale Township,Burma,MMR/Bago/Pegu,medium,
+tuntecirclenocontinued,sub_district,Twante Circle,Burma,MMR/Yangon/Yangon-S,medium,circle in Twante Township
+tantabincirclenoconcld,sub_district,Tantabin Circle No. 9-concld Village,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,low,village/village-tract row in Hanthawaddy District table (below township)
+tuntetownship,sub_district,Twante Township,Burma,MMR/Yangon/Yangon-S,high,Tunte=Twante
+pegutown,town,Pegu Town,Burma,MMR/Bago/Pegu,high,section header
+paunglin,sub_district,Paunglin Township,Burma,MMR/Bago/Pegu,medium,
+sanywetownshipsummary,sub_district,Sanywe Township,Burma,MMR/Bago/Thayarwady,medium,
+minhlatownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Minhla Township,Burma,MMR/Bago/Thayarwady,high,table-title string
+paunglintownshipconcldtathicircleno,sub_district,Tathi Circle,Burma,MMR/Bago/Pegu,medium,circle in Paunglin Township
+gyobingauktownshipconcldshabindacirclenoconcld,sub_district,Shabinda Circle,Burma,MMR/Bago/Thayarwady,medium,circle in Gyobingauk Township
+yitkangyicircleno,sub_district,Yitkangyi Circle,Burma,MMR/Bago/Pegu,medium,revenue circle in Pegu District table (below township)
+gyobingauktownship,sub_district,Gyobingauk Township,Burma,MMR/Bago/Thayarwady,high,
+returnofpopulationofpegubyorstatesofbirth,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; table-title string
+pagandaung,sub_district,Pagandaung,Burma,MMR/Bago/Pegu,medium,section in Pegu District table
+teindawcircleno,sub_district,Teindaw Circle,Burma,MMR/Bago/Thayarwady,medium,revenue circle in Tharrawaddy District table (below township)
+payagalecirclenoconcld,sub_district,Payagale Circle,Burma,MMR/Bago/Pegu,medium,
+peguconcludedanimist,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; subset (race/religion/sex)
+peguconcludedmahomedan,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; subset (race/religion/sex)
+promeallreligions,district,Prome District,Burma,MMR/Bago/Pyay,high,Prome=Pyay; subset (race/religion/sex)
+promeanimist,district,Prome District,Burma,MMR/Bago/Pyay,high,Prome=Pyay; subset (race/religion/sex)
+promemahomedan,district,Prome District,Burma,MMR/Bago/Pyay,high,Prome=Pyay; subset (race/religion/sex)
+basseinbuddhist,district,Bassein District,Burma,MMR/Ayeyarwady/Bassein,high,Bassein=Pathein; subset (race/religion/sex)
+northernshanstatesbuddhist,agency,Northern Shan States,Burma,,high,subset (religion)
+northernshanstateshindu,agency,Northern Shan States,Burma,,high,subset (religion)
+southernshanstatesallreligions,agency,Southern Shan States,Burma,,high,subset (religion)
+southernshanstatesanimist,agency,Southern Shan States,Burma,,high,subset (religion)
+lowerchindwinallreligions,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa; subset (race/religion/sex)
+upperchindwinallreligions,district,Upper Chindwin District,Burma,MMR/Sagaing/Mawleik;MMR/Sagaing/Kalemyo;MMR/Sagaing/Tamu;MMR/Sagaing/Hkamti,medium,Upper Chindwin HQ Mawlaik; now split; subset (race/religion/sex)
+upperchindwinanimist,district,Upper Chindwin District,Burma,MMR/Sagaing/Mawleik;MMR/Sagaing/Kalemyo;MMR/Sagaing/Tamu;MMR/Sagaing/Hkamti,medium,Upper Chindwin HQ Mawlaik; now split; subset (race/religion/sex)
+kyaukseallreligions,district,Kyaukse District,Burma,MMR/Mandalay/Kyaukse,high,subset (race/religion/sex)
+distributionoverageperiodsofeverytwentythousandofpopulation,not_place,,,,high,heading
+percentageofunmarriedmarriedandwidowedtototalpopulation,not_place,,,,high,heading
+populationwithvariationsinceconcluded,not_place,,,,high,heading
+territoriallywithpopulationbyreligionconcluded,not_place,,,,high,heading
+differencesbetweentotalpopulation,not_place,,,,high,heading
+comparativestatementshowingrelativedistributionofpopulationbysexandageasexconcluded,not_place,,,,high,heading
+ratioofpopulationateachageperiodofyearstoofpopulationofeachsex,not_place,,,,high,heading
+victoria,country,,,,medium,Victoria (Australian colony) in 1891 comparative age statement
+imperialtablesreligionandagepartfchristiansaunmarriedconcluded,not_place,,,,high,heading
+avaconcluded,sub_district,Ava Township,Burma,MMR/Sagaing/Sagaing;MMR/Mandalay/Mandalay,low,Ava (Inwa) township of Sagaing Dist.; Inwa now Mandalay Region
+returnofpopulationofkathabyorstatesofbirth,district,Katha District,Burma,MMR/Sagaing/Katha,high,table-title string
+manletownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Manle Township,Burma,MMR/Sagaing/Katha,low,table-title string; context suggests Katha District
+returnofpopulationofrubyminesbyorstatesofbirth,district,Ruby Mines District,Burma,MMR/Mandalay/Pyin-Oo-Lwin;MMR/Shan/Kyaukme,medium,Mogok now Pyin-Oo-Lwin; Momeik/Mabein to N Shan; table-title string
+yeutowntableshowingpopulationbysexagecivilconditioneducationandinfirmities,town,Ye-U Town,Burma,MMR/Sagaing/Shwebo,high,table-title string
+mayagantownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Mayagan Township,Burma,MMR/Sagaing/Shwebo,medium,Ye-U District
+kanbaukcircleno,sub_district,Kanbauk Circle,Burma,MMR/Sagaing/Shwebo,medium,revenue circle in Ye-U District table (below township)
+seinnancircleno,sub_district,Seinnan Circle,Burma,MMR/Sagaing/Shwebo,medium,revenue circle in Ye-U District table (below township)
+nwamyacircleno,sub_district,Nwamya Circle,Burma,MMR/Sagaing/Shwebo,medium,revenue circle in Ye-U District table (below township)
+returnofpopulationoflowerchindwinbyorstatesofbirth,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa; table-title string
+myothatownshiptableshowingpopulationbysexagecivilconditioneducationandinfirmities,sub_district,Myotha Township,Burma,MMR/Sagaing/Sagaing;MMR/Mandalay/Myingyan,low,Sagaing Dist. 1891; Myotha now Myingyan district
+ava,sub_district,Ava Township,Burma,MMR/Sagaing/Sagaing;MMR/Mandalay/Mandalay,low,Ava (Inwa) township of Sagaing Dist.; Inwa now Mandalay Region
+sinshincircleno,sub_district,Sinshin Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+kawthandicircleno,sub_district,Kawthandi Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+kungaingcircleno,sub_district,Kungaing Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+kangyicircleno,sub_district,Kangyi Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+pyidawthacircleno,sub_district,Pyidawtha Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+maungdaungcircleno,sub_district,Maungdaung Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+tabayingwecircleno,sub_district,Tabayingwe Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+sinmyecircleno,sub_district,Sinmye Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+kyatpyincircleno,sub_district,Kyatpyin Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+kabocircleno,sub_district,Kabo Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+theppancircleno,sub_district,Theppan Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+gonnyinseikcircleno,sub_district,Gonnyinseik Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+tagyicircleno,sub_district,Tagyi Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+kyetyincircleno,sub_district,Kyetyin Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+sagaingtableshowingpopulationpopulationbyreligionandeducationandcbyvillagesandcircles,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,high,table-title string
+pasadawcircleno,sub_district,Pasadaw Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+shwebonthaandgaungwecircleno,sub_district,Shwebonthaandgaungwe Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+shwelecircleno,sub_district,Shwele Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+myothacircleno,sub_district,Myotha Circle,Burma,MMR/Sagaing/Sagaing,medium,revenue circle in Sagaing District table (below township)
+minocircleno,sub_district,Mino Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+twincircleno,sub_district,Twin Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+paunggadacircleno,sub_district,Paunggada Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+letpadaungcircleno,sub_district,Letpadaung Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+easternpagyitownship,sub_district,Eastern Pagyi Township,Burma,MMR/Sagaing/Monywa,medium,
+nyaunggancircleno,sub_district,Nyaunggan Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+bashucircleno,sub_district,Bashu Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+kinsancircleno,sub_district,Kinsan Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+saluncircleno,sub_district,Salun Circle,Burma,MMR/Sagaing/Monywa,medium,revenue circle in Lower Chindwin District table (below township)
+centralbasin,natural_division,Central Basin,Burma,,high,
+northernhill,natural_division,Northern Hill Districts,Burma,,high,
+speciallyadministeredterritories,aggregate,,Burma,,medium,Specially Administered Territories (Shan/Chin/Kachin hill areas)
+subsidiarytableiagedistributionofofeachsexbyannualageperiodsbuddhistonly,not_place,,,,high,heading
+subsidiarytableicagedistributionofbuddhistsofeachsexcalculatedbymrhardyfromcensustablesof,not_place,,,,high,heading
+kawatownship,sub_district,Kawa Township,Burma,MMR/Bago/Pegu,high,
+mandalayincludingmandalaycity,district,Mandalay District,Burma,MMR/Mandalay/Mandalay,high,incl. Mandalay City
+returnofpopulationofkyaukpyu,district,Kyaukpyu District,Burma,MMR/Rakhine/Kyaunkpyu,high,Kyaukpyu=Kyaukphyu; table-title string
+returnofpopulationofhanthawaddy,district,Hanthawaddy District,Burma,MMR/Yangon/Yangon-N;MMR/Yangon/Yangon-S,medium,Hanthawaddy rural Rangoon; now Yangon North+South; table-title string
+returnofpopulationofpegu,district,Pegu District,Burma,MMR/Bago/Pegu,high,Pegu=Bago; table-title string
+returnofpopulationofkatha,district,Katha District,Burma,MMR/Sagaing/Katha,high,table-title string
+returnofpopulationofrubymines,district,Ruby Mines District,Burma,MMR/Mandalay/Pyin-Oo-Lwin;MMR/Shan/Kyaukme,medium,Mogok now Pyin-Oo-Lwin; Momeik/Mabein to N Shan; table-title string
+populationoflowerchindwin,district,Lower Chindwin District,Burma,MMR/Sagaing/Monywa,high,Lower Chindwin=Monywa; table-title string
+subsidiarytableiibirthmarksby,not_place,,,,high,heading
+bagaing,district,Sagaing District,Burma,MMR/Sagaing/Sagaing,medium,OCR of 'Sagaing' in title

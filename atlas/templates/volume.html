@@ -1,0 +1,48 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Census — volume contents</title>
+<style>
+ *{box-sizing:border-box} body{font:14px/1.5 system-ui,sans-serif;margin:0;color:#1a1a1a;background:#fbfdff}
+ __NAVCSS__
+ main{max-width:1100px;margin:0 auto;padding:12px 16px 40px}
+ h1{font-size:21px;margin:6px 0 2px} .muted{color:#678;font-size:12px} a{color:#1a5fa0}
+ table{border-collapse:collapse;width:100%;font-size:13px} th,td{text-align:left;padding:3px 6px;border-bottom:1px solid #eef2f5;vertical-align:top}
+ th{font-size:12px;color:#567} td.pg{white-space:nowrap;color:#345;font-variant-numeric:tabular-nums;width:70px}
+ tr.gap td{background:#fff6e5;color:#7a5a12;font-size:12px} tr.unpub td{color:#777}
+ .pill{display:inline-block;font-size:11px;border-radius:9px;padding:0 7px;margin-left:4px;background:#eef2f6;color:#345}
+ .pill.age{background:#dff0e4;color:#14532d} .pill.unpub{background:#f5e9e9;color:#7a2d2d}
+ .bar{display:flex;height:12px;border-radius:4px;overflow:hidden;margin:8px 0;background:#eee} .bar i{display:block;height:100%}
+ .filters{margin:8px 0;font-size:13px} .filters label{margin-right:12px}
+ .yrs a{display:inline-block;margin:0 6px 6px 0;padding:2px 9px;border:1px solid #c9d6e0;border-radius:6px;text-decoration:none}
+ .vol{background:#fff;border:1px solid #dde5ec;border-radius:8px;padding:8px 12px;margin:6px 0;display:block;text-decoration:none;color:inherit}
+ .vol:hover{border-color:#1f3a52}
+</style></head><body>
+__NAV__
+<main id=main><p class=muted>Loading…</p></main>
+<script>
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+const d=new URLSearchParams(location.search).get('d');
+fetch('data/volumes.json').then(r=>r.json()).then(V=>{
+ const m=document.getElementById('main');
+ if(!d||!V.vols[d]){ // index: every volume, census order
+  const by={};for(const [k,v] of Object.entries(V.vols))(by[v.y||'?']=by[v.y||'?']||[]).push([k,v]);
+  const ys=Object.keys(by).sort();
+  let h=`<h1>Census volumes, in order</h1><p class=muted>Every source volume in the corpus, by census year then province. Open one to see its tables in printed page order, with gaps where pages were not captured. ${Object.keys(V.vols).length} volumes · ${V.ntables} tables.</p><div class=yrs>`+ys.map(y=>`<a href="#y${y}">${y} <span class=muted>(${by[y].length})</span></a>`).join('')+`</div>`;
+  for(const y of ys){h+=`<h2 id="y${y}">${y}</h2>`;
+   by[y].sort((a,b)=>(a[1].r+a[1].s).localeCompare(b[1].r+b[1].s)).forEach(([k,v])=>{
+    h+=`<a class=vol href="volume.html?d=${k}"><b>${esc(v.s)}</b> <span class=muted>${esc(v.r||'')}</span><br><span class=muted>${v.n} tables (${v.na} with ages)${v.np?' · '+v.np+' published':''}${v.gap?' · <span style="color:#a06a00">'+v.gap+' pages not captured inside table runs</span>':''}</span></a>`})}
+  m.innerHTML=h;return}
+ const v=V.vols[d];document.title='Census — '+v.s;
+ let h=`<div class=muted><a href="volume.html">All volumes</a> › ${esc(v.y)}</div><h1>${esc(v.s)}</h1><div class=muted>${esc(v.title||'')}</div>
+  <div class=muted>${esc(v.r||'')} · ${v.n} tables · ${v.na} with an age breakdown${v.jstor?` · <a href="${v.jstor}">source PDF on JSTOR</a>`:''}${v.npages?' · '+v.npages+' scanned pages':''}</div>`;
+ if(v.gap)h+=`<p style="color:#7a5a12;font-size:13px">⚠ ${v.gap} pages inside this volume's table runs were not captured as tables (shown as amber rows below). They exist in the source PDF; we hold the scans and they are queued for re-extraction.</p>`;
+ h+=`<div class=filters><label><input type=checkbox id=fa> only tables with an age breakdown</label><label><input type=checkbox id=fp checked> show gaps</label></div><table id=tb><tr><th>Page</th><th>Table</th><th>Place</th></tr><tr><td colspan=3 class=muted style="font-size:11.5px">Rows are in the order the pages appear in the source PDF. “p.” is the printed page number; where it was not read, the PDF page is shown.</td></tr>`;
+ v.items.forEach(it=>{
+  if(it.gap){h+=`<tr class=gap><td class=pg>p. ${esc(it.gap)}</td><td colspan=2>pages not captured (${it.n} page${it.n>1?'s':''})${it.tn?' — inside Table '+esc(it.tn):''}</td></tr>`;return}
+  const t=V.tables[it.i];
+  h+=`<tr class="${t.p?'':'unpub'}" data-a="${t.a?1:0}"><td class=pg>${t.pg?'p. '+esc(t.pg):'<span title="PDF page; printed page number not read">PDF '+esc(it.o)+'</span>'}</td><td>${t.p?`<a href="tables/${encodeURI(t.p)}.html">${esc(t.t||'(untitled)')}</a>`:esc(t.t||'(untitled)')+'<span class="pill unpub">not yet published</span>'}${t.a?'<span class="pill age">age</span>':''}</td><td>${(t.pl||[]).map(k=>`<a href="place.html?k=${encodeURIComponent(k)}">${esc(V.pn[k]||k)}</a>`).join(', ')||esc(t.g||'')}</td></tr>`});
+ h+='</table>';m.innerHTML=h;
+ const apply=()=>{const a=document.getElementById('fa').checked,g=document.getElementById('fp').checked;
+  document.querySelectorAll('#tb tr').forEach((tr,i)=>{if(!i)return;if(tr.classList.contains('gap'))tr.style.display=g?'':'none';else tr.style.display=(a&&tr.dataset.a!=='1')?'none':''})};
+ document.getElementById('fa').onchange=apply;document.getElementById('fp').onchange=apply;
+});
+</script></body></html>

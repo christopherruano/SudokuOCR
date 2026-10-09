@@ -1,0 +1,342 @@
+key,kind,hist_name,hist_parent,modern,confidence,note
+rajputanaagency,agency,Rajputana Agency,,,high,
+ajmermerwara,province,Ajmer-Merwara,,,high,British province (Chief Commissionership)
+northwestfrontierprovince,province,North-West Frontier Province,,,high,
+rajasthan,province,Rajasthan,,,medium,post-1949 state formed from Rajputana states
+baluchistan,province,Baluchistan,,,high,Chief Commissioner's province incl. agency territories
+ajmer,district,Ajmer District,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,
+kishangarh,princely_state,Kishangarh State,Rajputana Agency,IND/Rajasthan/Ajmer,high,now in Ajmer district
+shahpura,princely_state,Shahpura State,Rajputana Agency,IND/Rajasthan/Bhilwara,high,Shahpura (Rajputana) now Bhilwara district
+meywar,princely_state,Udaipur (Mewar) State,Rajputana Agency,IND/Rajasthan/Udaipur;IND/Rajasthan/Rajsamand;IND/Rajasthan/Chittaurgarh;IND/Rajasthan/Bhilwara,high,Meywar=Mewar=Udaipur State
+marwar,princely_state,Jodhpur (Marwar) State,Rajputana Agency,IND/Rajasthan/Jodhpur;IND/Rajasthan/Barmer;IND/Rajasthan/Jalor;IND/Rajasthan/Pali;IND/Rajasthan/Nagaur,high,Marwar=Jodhpur State
+jeypore,princely_state,Jaipur State,Rajputana Agency,IND/Rajasthan/Jaipur;IND/Rajasthan/Dausa;IND/Rajasthan/Sikar;IND/Rajasthan/Jhunjhunun;IND/Rajasthan/SawaiMadhopur;IND/Rajasthan/Tonk,high,Jeypore=Jaipur (Rajputana)
+population,not_place,,,,high,heading
+kotah,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kotah=Kota; split Kota+Baran
+bikanir,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner
+tonk,princely_state,Tonk State,Rajputana Agency,IND/Rajasthan/Tonk;IND/Rajasthan/Baran;IND/Rajasthan/Jhalawar;IND/Rajasthan/Chittaurgarh;IND/MadhyaPradesh/Vidisha,medium,"Tonk + detached parganas (Chhabra, Pirawa, Nimbahera, Sironj)"
+rajputana,agency,Rajputana Agency,,,high,Rajputana
+karauli,princely_state,Karauli State,Rajputana Agency,IND/Rajasthan/Karauli,high,Kerowli=Karauli
+jhallawar,princely_state,Jhalawar State,Rajputana Agency,IND/Rajasthan/Jhalawar,high,Jhallawar=Jhalawar
+merwara,district,Merwara District,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,"Merwara (Beawar, Todgarh) merged into Ajmer district"
+sirohi,princely_state,Sirohi State,Rajputana Agency,IND/Rajasthan/Sirohi,high,
+erinpura,town,Erinpura Cantonment,Rajputana Agency,IND/Rajasthan/Pali,low,Erinpura cantonment on Jodhpur-Sirohi border near Jawai; district uncertain (Pali/Sirohi)
+confucian,not_place,,,,high,religion
+dungarpur,princely_state,Dungarpur State,Rajputana Agency,IND/Rajasthan/Dungarpur,high,
+hazara,district,Hazara District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Abbottabad;PAK/Khyber-Pakhtunkhwa/Mansehra;PAK/Khyber-Pakhtunkhwa/Haripur;PAK/Khyber-Pakhtunkhwa/Battagram;PAK/Khyber-Pakhtunkhwa/Kohistan,high,"split into Abbottabad, Mansehra, Haripur, Battagram, Kohistan (Torghar not in GADM)"
+kherwara,town,Kherwara Cantonment,Rajputana Agency,IND/Rajasthan/Udaipur,high,"Mewar Bhil Corps HQ, Mewar"
+kotra,town,Kotra,Rajputana Agency,IND/Rajasthan/Udaipur,medium,"Mewar Bhil Corps outpost, Mewar"
+abusanitarium,town,Abu,Rajputana Agency,IND/Rajasthan/Sirohi,high,"Mount Abu sanitarium, in Sirohi"
+lawa,princely_state,Lawa Estate,Rajputana Agency,IND/Rajasthan/Tonk,medium,petty Thakurate of Lawa; now Tonk district
+banswara,princely_state,Banswara State,Rajputana Agency,IND/Rajasthan/Banswara,high,
+jhalawar,princely_state,Jhalawar State,Rajputana Agency,IND/Rajasthan/Jhalawar,high,Jhallawar=Jhalawar
+infant,not_place,,,,high,age band
+tableedu,not_place,,,,high,heading fragment
+gwaliorstate,princely_state,Gwalior State,Central India Agency,IND/MadhyaPradesh/Gwalior;IND/MadhyaPradesh/Bhind;IND/MadhyaPradesh/Morena;IND/MadhyaPradesh/Sheopur;IND/MadhyaPradesh/Shivpuri;IND/MadhyaPradesh/Guna;IND/MadhyaPradesh/Ashoknagar;IND/MadhyaPradesh/Ujjain;IND/MadhyaPradesh/Shajapur;IND/MadhyaPradesh/AgarMalwa;IND/MadhyaPradesh/Mandsaur;IND/MadhyaPradesh/Neemuch;IND/MadhyaPradesh/Vidisha,medium,main successor districts; scattered territory
+child,not_place,,,,high,age band
+youth,not_place,,,,high,age band
+middleaged,not_place,,,,high,age band
+kota,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kota=Kotah
+sirohiandabu,aggregate,Sirohi State and Abu,Rajputana Agency,IND/Rajasthan/Sirohi,high,Sirohi + Abu
+southerndivision,natural_division,Southern Division,Rajputana Agency,,medium,Rajputana census natural/administrative division
+jaipur,princely_state,Jaipur State,Rajputana Agency,IND/Rajasthan/Jaipur;IND/Rajasthan/Dausa;IND/Rajasthan/Sikar;IND/Rajasthan/Jhunjhunun;IND/Rajasthan/SawaiMadhopur;IND/Rajasthan/Tonk,high,Jaipur State; Tonk dist. partly ex-Jaipur
+mewar,princely_state,Udaipur (Mewar) State,Rajputana Agency,IND/Rajasthan/Udaipur;IND/Rajasthan/Rajsamand;IND/Rajasthan/Chittaurgarh;IND/Rajasthan/Bhilwara,high,Mewar=Udaipur State; main successor districts
+oneyear,not_place,,,,high,age band
+twoyears,not_place,,,,high,age band
+threeyears,not_place,,,,high,age band
+fouryears,not_place,,,,high,age band
+subsidiarytableidistributionofofeachsexbyageandcivilcondition,not_place,,,,high,table title
+peshawar,district,Peshawar District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Peshawar;PAK/Khyber-Pakhtunkhwa/Charsadda;PAK/Khyber-Pakhtunkhwa/Nowshera;PAK/Khyber-Pakhtunkhwa/Mardan;PAK/Khyber-Pakhtunkhwa/Swabi,high,"Mardan split 1937; later Charsadda, Nowshera, Swabi"
+kohat,district,Kohat District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Kohat;PAK/Khyber-Pakhtunkhwa/Hangu;PAK/Khyber-Pakhtunkhwa/Karak,high,"split Kohat, Hangu, Karak"
+bannu,district,Bannu District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Bannu;PAK/Khyber-Pakhtunkhwa/LakkiMarwat,high,split Bannu + Lakki Marwat
+deraismailkhan,district,Dera Ismail Khan District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/DeraIsmailKhan;PAK/Khyber-Pakhtunkhwa/Tank,high,split D.I.Khan + Tank
+tablexlanguage,not_place,,,,high,table title
+atallages,not_place,,,,high,age band
+stateor,not_place,,,,high,heading fragment
+kushalgarh,princely_state,Kushalgarh Chiefship,Rajputana Agency,IND/Rajasthan/Banswara,high,chiefship under Banswara; now Banswara district
+jesalmir,princely_state,Jaisalmer State,Rajputana Agency,IND/Rajasthan/Jaisalmer,high,Jesalmir/Jesulmir=Jaisalmer
+jaisalmer,princely_state,Jaisalmer State,Rajputana Agency,IND/Rajasthan/Jaisalmer,high,Jesalmir/Jesulmir=Jaisalmer
+subsidiarytableiidistributionbycivilconditionandmainageperiodsofofeachsex,not_place,,,,high,table title
+transindus,natural_division,Trans-Indus Districts,North-West Frontier Province,,high,NWFP natural division
+marwarandmalani,princely_state,Jodhpur (Marwar) State,Rajputana Agency,IND/Rajasthan/Jodhpur;IND/Rajasthan/Barmer;IND/Rajasthan/Jalor;IND/Rajasthan/Pali;IND/Rajasthan/Nagaur,high,Marwar incl. Malani pargana (now Barmer)
+easternrajputanastates,agency,Eastern Rajputana States Agency,Rajputana Agency,,high,political agency
+westernrajputanastates,agency,Western Rajputana States Agency,Rajputana Agency,,high,political agency
+ajmercity,town,Ajmer City,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,
+additionalsmoothingfromcurves,not_place,,,,high,statistical heading
+education,not_place,,,,high,heading
+djain,not_place,,,,high,religion
+table,not_place,,,,high,heading
+jesulmir,princely_state,Jaisalmer State,Rajputana Agency,IND/Rajasthan/Jaisalmer,high,Jesalmir/Jesulmir=Jaisalmer
+kerowli,princely_state,Karauli State,Rajputana Agency,IND/Rajasthan/Karauli,high,Kerowli=Karauli
+tonkinrajputana,princely_state,Tonk State,Rajputana Agency,IND/Rajasthan/Tonk;IND/Rajasthan/Baran;IND/Rajasthan/Jhalawar;IND/Rajasthan/Chittaurgarh;IND/MadhyaPradesh/Vidisha,medium,"Tonk + detached parganas (Chhabra, Pirawa, Nimbahera, Sironj)"
+harowteeandtonk,agency,Haraoti and Tonk Agency,Rajputana Agency,,medium,"Harowtee=Haraoti (Bundi, Kotah) + Tonk political agency"
+ulwur,princely_state,Alwar State,Rajputana Agency,IND/Rajasthan/Alwar,high,Ulwur=Alwar
+bickaneer,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner
+urdu,not_place,,,,high,language
+subsidiarytableiiagedistributionofofeachsex,not_place,,,,high,table title
+subsidiaryeducationbyageajmer,province,Ajmer-Merwara,,,high,British province (Chief Commissionership); truncated title; subset
+artiibyprovincesandstatesrajputana,agency,Rajputana Agency,,,high,title fragment; subset
+bborninotherasiaticcountries,not_place,,,,high,birthplace heading
+subsidiarytableixreporteddeathratebysexandageindecadeandinselectedyearspermillelivingatsameageaccordingtocensusof,not_place,,,,high,table title
+nwfptotal,province,North-West Frontier Province,,,high,districts only; subset
+peshawarmunicipality,town,Peshawar Municipality,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Peshawar,high,
+peshawarcitymunicipality,town,Peshawar City,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Peshawar,high,
+andkushalgarh,aggregate,Banswara and Kushalgarh,Rajputana Agency,IND/Rajasthan/Banswara,low,"fragment of ""Banswara and Kushalgarh"""
+kishengarh,princely_state,Kishangarh State,Rajputana Agency,IND/Rajasthan/Ajmer,high,now in Ajmer district
+baptists,not_place,,,,high,religious sect
+wesleyans,not_place,,,,high,religious sect
+actuals,not_place,,,,high,statistical heading
+smoothingintermediate,not_place,,,,high,statistical heading
+smoothingfinal,not_place,,,,high,statistical heading
+rajasthanstate,province,Rajasthan,,,medium,post-1949 state; 1941 figures for constituent states
+tableviiagesexandcivilconditiontableviiagesexandcivilcond,not_place,,,,high,table title
+viiieducationtown,not_place,,,,high,heading
+tableviipartiagesbyreligionssikhs,not_place,,,,high,table title
+subsidiarytableiactualrecordedagesoffemalesofajmer,district,Ajmer District,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,table title; subset
+tableiv,not_place,,,,high,heading
+classificationoftowns,not_place,,,,high,heading
+kotahcontdsikh,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kotah=Kota; split Kota+Baran; subset
+kushalgarhallreligions,princely_state,Kushalgarh Chiefship,Rajputana Agency,IND/Rajasthan/Banswara,high,chiefship under Banswara; now Banswara district
+kishangarhcontdsikh,princely_state,Kishangarh State,Rajputana Agency,IND/Rajasthan/Ajmer,high,now in Ajmer district; subset
+kotahallreligions,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kotah=Kota; split Kota+Baran
+bikanerallreligions,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner
+nasirabadtown,town,Nasirabad Cantonment,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,
+edu,not_place,,,,high,heading fragment
+deductimmigrants,not_place,,,,high,calculation row
+addemigrants,not_place,,,,high,calculation row
+centralprovincesstates,aggregate,Central Provinces States,Central Provinces,,medium,group of CP feudatory states (Chhattisgarh/Orissa)
+afghanistan,country,,,,high,Afghanistan
+nepal,country,,,,high,Nepal
+cbornineurope,not_place,,,,high,birthplace heading (continent)
+cantonment,not_place,,,,high,generic unit word
+peshawarandkohatkurrambannuandderaismailkhanhazarapeshawarkohatbannuandderaismailkhan,aggregate,,,,high,several NWFP districts/agencies
+bannuderaismailkhan,aggregate,Bannu and Dera Ismail Khan Districts,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Bannu;PAK/Khyber-Pakhtunkhwa/LakkiMarwat;PAK/Khyber-Pakhtunkhwa/DeraIsmailKhan;PAK/Khyber-Pakhtunkhwa/Tank,high,
+hazarapeshawar,aggregate,Hazara and Peshawar Districts,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Abbottabad;PAK/Khyber-Pakhtunkhwa/Mansehra;PAK/Khyber-Pakhtunkhwa/Haripur;PAK/Khyber-Pakhtunkhwa/Battagram;PAK/Khyber-Pakhtunkhwa/Kohistan;PAK/Khyber-Pakhtunkhwa/Peshawar;PAK/Khyber-Pakhtunkhwa/Charsadda;PAK/Khyber-Pakhtunkhwa/Nowshera;PAK/Khyber-Pakhtunkhwa/Mardan;PAK/Khyber-Pakhtunkhwa/Swabi,high,
+estimatedpopulationnotedbelowisexcludedfromthistable,not_place,,,,high,note
+erinpur,town,Erinpura Cantonment,Rajputana Agency,IND/Rajasthan/Pali,low,Erinpur=Erinpura; district uncertain (Pali/Sirohi)
+jesuemir,princely_state,Jaisalmer State,Rajputana Agency,IND/Rajasthan/Jaisalmer,medium,OCR of Jesulmir=Jaisalmer
+banswaraandkushalgarh,aggregate,Banswara State and Kushalgarh,Rajputana Agency,IND/Rajasthan/Banswara,high,
+marwaraandmalani,princely_state,Jodhpur (Marwar) State,Rajputana Agency,IND/Rajasthan/Jodhpur;IND/Rajasthan/Barmer;IND/Rajasthan/Jalor;IND/Rajasthan/Pali;IND/Rajasthan/Nagaur,high,Marwar incl. Malani pargana (now Barmer)
+kishengurh,princely_state,Kishangarh State,Rajputana Agency,IND/Rajasthan/Ajmer,high,now in Ajmer district
+oodeypore,princely_state,Udaipur (Mewar) State,Rajputana Agency,IND/Rajasthan/Udaipur;IND/Rajasthan/Rajsamand;IND/Rajasthan/Chittaurgarh;IND/Rajasthan/Bhilwara,high,Oodeypore=Udaipur (Mewar)
+ajmertehsil,sub_district,Ajmer Tahsil,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,
+kekrisubdivision,sub_district,Kekri Subdivision,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,
+beawartehsil,sub_district,Beawar Tahsil,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,Merwara
+todgarhtehsil,sub_district,Todgarh Tahsil,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,Merwara; Ajmer district in GADM era
+ajmermerwaraajmer,district,Ajmer District,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,
+remarks,not_place,,,,high,heading
+infancyto,not_place,,,,high,age band
+childhoodto,not_place,,,,high,age band
+youthto,not_place,,,,high,age band
+middleageto,not_place,,,,high,age band
+decliningyearsandover,not_place,,,,high,age band
+ajmermerwaraexcludingajmercity,province,Ajmer-Merwara,,,high,British province (Chief Commissionership); subset
+rajputanamales,agency,Rajputana Agency,,,high,subset
+rajputanafemales,agency,Rajputana Agency,,,high,subset
+ajmermerwaramales,province,Ajmer-Merwara,,,high,British province (Chief Commissionership); subset
+ajmermerwarafemales,province,Ajmer-Merwara,,,high,British province (Chief Commissionership); subset
+ajmerstate,province,Ajmer State,,,high,Part C state 1950-56 = former Ajmer-Merwara; now Ajmer district
+subsidiarydistributionbycivilconditi,not_place,,,,high,table title
+groupsinrajasthanandajmer,aggregate,Rajasthan and Ajmer,,,high,heading; two states
+subregiondivision,not_place,,,,high,heading
+tableviiagesexandcivilconditionreligionarya,not_place,,,,high,table title
+tableviiagesexandcivilconditionbeawartow,town,Beawar Town,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,"Beawar (Nayanagar), Merwara; table heading; subset"
+educationajmer,district,Ajmer District,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,subset
+nasirabad,town,Nasirabad Cantonment,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,
+educationtown,not_place,,,,high,heading
+viiieducationcity,not_place,,,,high,heading
+tableviiparteagesbyreligionschristians,not_place,,,,high,table title
+tableviipartdjainrajputanaagency,agency,Rajputana Agency,,,high,table title; subset
+tableviiparthagesbyreligionsparsis,not_place,,,,high,table title
+tableviipartdagesbyreligionstotaljainpopulation,not_place,,,,high,table title
+tableviipartaagesbyreligionsrajputanaagency,agency,Rajputana Agency,,,high,table title; subset
+tableviipartcagesbyreligionstotalmussulmans,not_place,,,,high,table title
+tableviipartgagesbyreligionsjews,not_place,,,,high,table title
+tableviipartcmussulmansrajputanaagency,agency,Rajputana Agency,,,high,table title; subset
+statementnoratioperofallagesanimisticbhils,not_place,,,,high,table title
+statementnoratioperofallageshindusandaryas,not_place,,,,high,table title
+tableviiiparthtotalparsipopulationunmarried,not_place,,,,high,table title
+tableviiiparthtotalparsipopulationmarried,not_place,,,,high,table title
+tableviiiparthtotalparsipopulationwidowed,not_place,,,,high,table title
+tableixpartaeducationbyreligionandagetotalpopulationallreligions,not_place,,,,high,table title
+comparativestatementshewingtotalpopulationaswellasbysexesofstatesincludingpettythakurateoflawa,not_place,,,,high,table title
+finalcensusformviiastatementshowingdistributionofhindupopulationbyage,not_place,,,,high,table title
+finalcensusformviibstatementshewingdistributionofmussulmanpopulationbyage,not_place,,,,high,table title
+finalcensusformviicstatementshowingdistributionofchristianpopulationbyage,not_place,,,,high,table title
+finalcensusformviidstatementshowingdistributionofjainpopulationbyage,not_place,,,,high,table title
+finalcensusformvstatementshewingcivilconditionofeuropeanbritishsubjectsresidinginrajputana,agency,Rajputana Agency,,,high,table title; subset
+finalcensusformviistatementshewingdistributionofeuropeanbritishsubjectsaccordingtoage,not_place,,,,high,table title
+finalcensusformviiistatementshewingdistributionofeuropeanbritishsubjectsbyraceandsect,not_place,,,,high,table title
+subsidiarytableshowsagedistributionofofeachsexinmainreligions,not_place,,,,high,text heading
+diagramshowingnumberofblindperpersonsofeachageperiod,not_place,,,,high,diagram title
+diagramshowingnumberofdeafmutesperpersonsofeachageperiod,not_place,,,,high,diagram title
+tableviiagesexandcivilconditionpartiibycitiesallreligions,not_place,,,,high,table title
+marginalstatement,not_place,,,,high,heading
+subsidiarytableiiiagedistributionofeachsexbyreligion,not_place,,,,high,table title
+civilconditiontop,not_place,,,,high,heading
+civilconditionbottom,not_place,,,,high,heading
+tablevicivilconditionforreligions,not_place,,,,high,table title
+subsidiarytableiiieducationbyagesexandgeneralpopulation,not_place,,,,high,table title
+subsidiarytableivenglisheducationbyagesexand,not_place,,,,high,table title
+educationbyageandajmer,not_place,,,,high,truncated title
+tableisexgeneralpopulationmerwara,district,Merwara District,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,"Merwara (Beawar, Todgarh) merged into Ajmer district; table heading; subset"
+educationbyageajmer,not_place,,,,high,truncated title
+tableiisexandreligionmerwarareligionjain,district,Merwara District,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,"Merwara (Beawar, Todgarh) merged into Ajmer district; table heading; subset"
+tableiisexandreligionreligionchristianmerwara,district,Merwara District,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,"Merwara (Beawar, Todgarh) merged into Ajmer district; table heading; subset"
+tableiiaofeachsexineachprovinceajmermerwara,province,Ajmer-Merwara,,,high,British province (Chief Commissionership); table title; subset
+tableiibdivisionsrajputanaandajmermerwaracombineddivisioneasterndivision,not_place,,,,high,table title
+subsidiarytableiagedistributionofofeachsexinprovinceandnaturaldivisionsrajputana,agency,Rajputana Agency,,,high,table title; subset
+subsidiarytableiiagedistributionofofeachsexinnaturaldivisions,not_place,,,,high,table title
+subsidiarytableiagedistributionofofeachsexbyannualperiodsrajputanaandajmermerwara,aggregate,Rajputana and Ajmer-Merwara,,,high,table title
+educationbyageandsexandbyprovincenaturaldivisionstateor,not_place,,,,high,table title
+ajmermerwaracorrespondingfiguresforthisprovinceare,province,Ajmer-Merwara,,,high,British province (Chief Commissionership); text heading; subset
+subsidiarytableiiieducationbymainreligionsexandprovincenaturaldivisionstateor,not_place,,,,high,table title
+subsidiarytableiiaagedistributionofofeachsexineachprovince,not_place,,,,high,table title
+subsidiarytableiibagedistributionofofeachsexinnaturaldivisions,not_place,,,,high,table title
+subsidiarytableixreporteddeathratebyageandsexindecadeandinselectedyearspermillelivingatsameageaccordingtocensusof,not_place,,,,high,table title
+jodhpur,princely_state,Jodhpur (Marwar) State,Rajputana Agency,IND/Rajasthan/Jodhpur;IND/Rajasthan/Barmer;IND/Rajasthan/Jalor;IND/Rajasthan/Pali;IND/Rajasthan/Nagaur,medium,section in books-published table; state vs town ambiguous
+rajputanamewar,princely_state,Udaipur (Mewar) State,Rajputana Agency,IND/Rajasthan/Udaipur;IND/Rajasthan/Rajsamand;IND/Rajasthan/Chittaurgarh;IND/Rajasthan/Bhilwara,high,Mewar=Udaipur State; main successor districts
+tableviiagesexandcivilconditionreligionchristian,not_place,,,,high,table title
+tableviiagesexandcivilconditionnasirabadtown,town,Nasirabad Cantonment,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,table heading; subset
+viiieducation,not_place,,,,high,table title
+educationmerwarareligionchristian,district,Merwara District,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,"Merwara (Beawar, Todgarh) merged into Ajmer district; subset"
+educationreligionhindu,not_place,,,,high,heading
+educationmerwara,district,Merwara District,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,"Merwara (Beawar, Todgarh) merged into Ajmer district; subset"
+viiicationmerwara,district,Merwara District,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,"Merwara (Beawar, Todgarh) merged into Ajmer district; OCR Education; subset"
+tableeduajmerpopulation,district,Ajmer District,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,subset
+tableedunasirabad,town,Nasirabad Cantonment,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,subset
+viiieducationajmer,district,Ajmer District,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,subset
+viiieducationajmerreligionhindu,district,Ajmer District,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,subset
+viiieducationajmerreligionarya,district,Ajmer District,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,subset
+tableviiagesexandcivilconditionajmermerwara,province,Ajmer-Merwara,,,high,British province (Chief Commissionership); table title; subset
+tableviiagesexandcivilconditionmerwara,district,Merwara District,Ajmer-Merwara,IND/Rajasthan/Ajmer,medium,"Merwara (Beawar, Todgarh) merged into Ajmer district; table title; subset"
+bundicontdhindu,princely_state,Bundi State,Rajputana Agency,IND/Rajasthan/Bundi,high,subset
+dholpurallreligions,princely_state,Dholpur State,Rajputana Agency,IND/Rajasthan/Dhaulpur,high,
+bikanercontdhindu,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner; subset
+bundiallreligions,princely_state,Bundi State,Rajputana Agency,IND/Rajasthan/Bundi,high,
+lawaestateallreligions,princely_state,Lawa Estate,Rajputana Agency,IND/Rajasthan/Tonk,medium,petty Thakurate of Lawa; now Tonk district
+lawaestatehindu,princely_state,Lawa Estate,Rajputana Agency,IND/Rajasthan/Tonk,medium,petty Thakurate of Lawa; now Tonk district; subset
+lawaestatejain,princely_state,Lawa Estate,Rajputana Agency,IND/Rajasthan/Tonk,medium,petty Thakurate of Lawa; now Tonk district; subset
+lawaestatemusalman,princely_state,Lawa Estate,Rajputana Agency,IND/Rajasthan/Tonk,medium,petty Thakurate of Lawa; now Tonk district; subset
+marwarallreligions,princely_state,Jodhpur (Marwar) State,Rajputana Agency,IND/Rajasthan/Jodhpur;IND/Rajasthan/Barmer;IND/Rajasthan/Jalor;IND/Rajasthan/Pali;IND/Rajasthan/Nagaur,high,Marwar=Jodhpur State
+marwaranimist,princely_state,Jodhpur (Marwar) State,Rajputana Agency,IND/Rajasthan/Jodhpur;IND/Rajasthan/Barmer;IND/Rajasthan/Jalor;IND/Rajasthan/Pali;IND/Rajasthan/Nagaur,high,Marwar=Jodhpur State; subset
+marwarchristian,princely_state,Jodhpur (Marwar) State,Rajputana Agency,IND/Rajasthan/Jodhpur;IND/Rajasthan/Barmer;IND/Rajasthan/Jalor;IND/Rajasthan/Pali;IND/Rajasthan/Nagaur,high,Marwar=Jodhpur State; subset
+bharatpurcontdhindu,princely_state,Bharatpur State,Rajputana Agency,IND/Rajasthan/Bharatpur,high,subset
+jaisalmercontdjain,princely_state,Jaisalmer State,Rajputana Agency,IND/Rajasthan/Jaisalmer,high,Jesalmir/Jesulmir=Jaisalmer; subset
+jaisalmercontdmusalman,princely_state,Jaisalmer State,Rajputana Agency,IND/Rajasthan/Jaisalmer,high,Jesalmir/Jesulmir=Jaisalmer; subset
+jhalawarchristian,princely_state,Jhalawar State,Rajputana Agency,IND/Rajasthan/Jhalawar,high,Jhallawar=Jhalawar; subset
+jhalawarhindu,princely_state,Jhalawar State,Rajputana Agency,IND/Rajasthan/Jhalawar,high,Jhallawar=Jhalawar; subset
+jhalawarjain,princely_state,Jhalawar State,Rajputana Agency,IND/Rajasthan/Jhalawar,high,Jhallawar=Jhalawar; subset
+mewarcontdjain,princely_state,Udaipur (Mewar) State,Rajputana Agency,IND/Rajasthan/Udaipur;IND/Rajasthan/Rajsamand;IND/Rajasthan/Chittaurgarh;IND/Rajasthan/Bhilwara,high,Mewar=Udaipur State; main successor districts; subset
+dholpurcontdhindu,princely_state,Dholpur State,Rajputana Agency,IND/Rajasthan/Dhaulpur,high,subset
+bharatpurcontdsikh,princely_state,Bharatpur State,Rajputana Agency,IND/Rajasthan/Bharatpur,high,subset
+bikaneranimist,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner; subset
+bikanerchristian,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner; subset
+bikanerhindu,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner; subset
+bikanerjain,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner; subset
+bikanermusalman,princely_state,Bikaner State,Rajputana Agency,IND/Rajasthan/Bikaner;IND/Rajasthan/Churu;IND/Rajasthan/Ganganagar;IND/Rajasthan/Hanumangarh,high,Bikanir/Bickaneer=Bikaner; subset
+dungarpurcontdchristian,princely_state,Dungarpur State,Rajputana Agency,IND/Rajasthan/Dungarpur,high,subset
+dungarpurcontdhindu,princely_state,Dungarpur State,Rajputana Agency,IND/Rajasthan/Dungarpur,high,subset
+dungarpurcontdjain,princely_state,Dungarpur State,Rajputana Agency,IND/Rajasthan/Dungarpur,high,subset
+dungarpurcontdmusalman,princely_state,Dungarpur State,Rajputana Agency,IND/Rajasthan/Dungarpur,high,subset
+dungarpurcontdsikh,princely_state,Dungarpur State,Rajputana Agency,IND/Rajasthan/Dungarpur,high,subset
+jaipuranimist,princely_state,Jaipur State,Rajputana Agency,IND/Rajasthan/Jaipur;IND/Rajasthan/Dausa;IND/Rajasthan/Sikar;IND/Rajasthan/Jhunjhunun;IND/Rajasthan/SawaiMadhopur;IND/Rajasthan/Tonk,high,Jaipur State; Tonk dist. partly ex-Jaipur; subset
+jaipurchristian,princely_state,Jaipur State,Rajputana Agency,IND/Rajasthan/Jaipur;IND/Rajasthan/Dausa;IND/Rajasthan/Sikar;IND/Rajasthan/Jhunjhunun;IND/Rajasthan/SawaiMadhopur;IND/Rajasthan/Tonk,high,Jaipur State; Tonk dist. partly ex-Jaipur; subset
+jaipurcontdhindu,princely_state,Jaipur State,Rajputana Agency,IND/Rajasthan/Jaipur;IND/Rajasthan/Dausa;IND/Rajasthan/Sikar;IND/Rajasthan/Jhunjhunun;IND/Rajasthan/SawaiMadhopur;IND/Rajasthan/Tonk,high,Jaipur State; Tonk dist. partly ex-Jaipur; subset
+jaipurcontdjain,princely_state,Jaipur State,Rajputana Agency,IND/Rajasthan/Jaipur;IND/Rajasthan/Dausa;IND/Rajasthan/Sikar;IND/Rajasthan/Jhunjhunun;IND/Rajasthan/SawaiMadhopur;IND/Rajasthan/Tonk,high,Jaipur State; Tonk dist. partly ex-Jaipur; subset
+jaipurcontdmusalman,princely_state,Jaipur State,Rajputana Agency,IND/Rajasthan/Jaipur;IND/Rajasthan/Dausa;IND/Rajasthan/Sikar;IND/Rajasthan/Jhunjhunun;IND/Rajasthan/SawaiMadhopur;IND/Rajasthan/Tonk,high,Jaipur State; Tonk dist. partly ex-Jaipur; subset
+jaipurcontdsikh,princely_state,Jaipur State,Rajputana Agency,IND/Rajasthan/Jaipur;IND/Rajasthan/Dausa;IND/Rajasthan/Sikar;IND/Rajasthan/Jhunjhunun;IND/Rajasthan/SawaiMadhopur;IND/Rajasthan/Tonk,high,Jaipur State; Tonk dist. partly ex-Jaipur; subset
+jaisalmeranimist,princely_state,Jaisalmer State,Rajputana Agency,IND/Rajasthan/Jaisalmer,high,Jesalmir/Jesulmir=Jaisalmer; subset
+jaisalmerjain,princely_state,Jaisalmer State,Rajputana Agency,IND/Rajasthan/Jaisalmer,high,Jesalmir/Jesulmir=Jaisalmer; subset
+kishangarhcontdchristian,princely_state,Kishangarh State,Rajputana Agency,IND/Rajasthan/Ajmer,high,now in Ajmer district; subset
+kishangarhcontdhindu,princely_state,Kishangarh State,Rajputana Agency,IND/Rajasthan/Ajmer,high,now in Ajmer district; subset
+kishangarhcontdjain,princely_state,Kishangarh State,Rajputana Agency,IND/Rajasthan/Ajmer,high,now in Ajmer district; subset
+kishangarhcontdmusalman,princely_state,Kishangarh State,Rajputana Agency,IND/Rajasthan/Ajmer,high,now in Ajmer district; subset
+kotahanimist,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kotah=Kota; split Kota+Baran; subset
+kotahchristian,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kotah=Kota; split Kota+Baran; subset
+kotahcontdhindu,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kotah=Kota; split Kota+Baran; subset
+kotahcontdjain,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kotah=Kota; split Kota+Baran; subset
+kotahcontdmusalman,princely_state,Kotah State,Rajputana Agency,IND/Rajasthan/Kota;IND/Rajasthan/Baran,high,Kotah=Kota; split Kota+Baran; subset
+kushalgarhanimist,princely_state,Kushalgarh Chiefship,Rajputana Agency,IND/Rajasthan/Banswara,high,chiefship under Banswara; now Banswara district; subset
+kushalgarhchristian,princely_state,Kushalgarh Chiefship,Rajputana Agency,IND/Rajasthan/Banswara,high,chiefship under Banswara; now Banswara district; subset
+kushalgarhhindu,princely_state,Kushalgarh Chiefship,Rajputana Agency,IND/Rajasthan/Banswara,high,chiefship under Banswara; now Banswara district; subset
+tablevireligionsrajputana,agency,Rajputana Agency,,,high,title fragment; subset
+cmussalmanpopulationrajputana,agency,Rajputana Agency,,,high,title fragment; subset
+ipartechristianpopulationrajputana,agency,Rajputana Agency,,,high,title fragment; subset
+beawartown,town,Beawar Town,Ajmer-Merwara,IND/Rajasthan/Ajmer,high,"Beawar (Nayanagar), Merwara"
+tableviipartdjainrajputana,agency,Rajputana Agency,,,high,title fragment; subset
+viipartcmussulmansrajputana,agency,Rajputana Agency,,,high,title fragment; subset
+jodhpore,princely_state,Jodhpur (Marwar) State,Rajputana Agency,IND/Rajasthan/Jodhpur;IND/Rajasthan/Barmer;IND/Rajasthan/Jalor;IND/Rajasthan/Pali;IND/Rajasthan/Nagaur,medium,Jodhpore=Jodhpur State
+tableivnatural,not_place,,,,high,title fragment
+iagesineachmainreligionandnatural,not_place,,,,high,title fragment
+nwfp,province,North-West Frontier Province,,,high,
+actualenumeratedpopulation,not_place,,,,high,calculation row
+afeudatorystates,not_place,,,,high,birthplace heading
+cindiaunspecified,not_place,,,,high,birthplace heading
+iwithinbritishdominions,not_place,,,,high,birthplace heading
+iioutsidebritishdominions,not_place,,,,high,birthplace heading
+elsewhere,not_place,,,,high,birthplace heading
+iunitedkingdomandireland,country,,,,high,United Kingdom and Ireland
+iicontinentaleurope,not_place,,,,high,birthplace heading (region)
+dborninafrica,not_place,,,,high,birthplace heading (continent)
+iafricaunspecified,not_place,,,,high,birthplace heading (continent)
+settled,not_place,,,,high,category (settled districts)
+populationtransborderposts,not_place,,,,high,category
+provinceonly,province,North-West Frontier Province,,,high,districts only; subset
+differencepercent,not_place,,,,high,statistic
+percent,not_place,,,,high,statistic
+municipality,not_place,,,,high,generic unit word
+populationin,not_place,,,,high,calculation row
+addbirthsin,not_place,,,,high,calculation row
+deductdeathsin,not_place,,,,high,calculation row
+quettapishin,district,Quetta-Pishin District,Baluchistan,PAK/Balochistan/Quetta;PAK/Balochistan/Pishin;PAK/Balochistan/QillaAbdullah,high,"split Quetta, Pishin, Qilla Abdullah"
+thalchotiali,district,Thal-Chotiali District,Baluchistan,PAK/Balochistan/Sibi;PAK/Balochistan/Loralai;PAK/Balochistan/Ziarat;PAK/Balochistan/Barkhan,medium,later Sibi + Loralai districts; approximate
+zhob,district,Zhob District,Baluchistan,PAK/Balochistan/Zhob;PAK/Balochistan/QillaSaifullah,medium,split Zhob + Qilla Saifullah
+bolan,agency,Bolan Pass Agency,Baluchistan,PAK/Balochistan/Bolan,low,Bolan Pass area; now Kachhi(Bolan)/Mastung; approximate
+imperialtablevii,not_place,,,,high,heading
+percentageofdeathswhichoccurredineachageperiodduringpastdecade,not_place,,,,high,heading
+proportionoffemalespermales,not_place,,,,high,heading
+kharan,princely_state,Kharan State,Baluchistan,PAK/Balochistan/Kharan,high,
+decreasepercent,not_place,,,,high,statistic
+distributionofofeachsexbydecennialperiodsinprovince,not_place,,,,high,table title
+incidencebyageperiodsofpercentageofaverageannualproportionpermilleofdeathstopopulationfordecadecalculatedonpopulationrecordedin,not_place,,,,high,table title
+distributionofofeachsexbyyearperiodsinprovince,not_place,,,,high,table title
+subsidiarytableiionlynumberoffemalespermalesatdifferentageperiodsbyreligionsateachoflastthreecensuses,not_place,,,,high,table title
+bannumuslims,district,Bannu District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Bannu;PAK/Khyber-Pakhtunkhwa/LakkiMarwat,high,split Bannu + Lakki Marwat; subset
+bannuhindus,district,Bannu District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Bannu;PAK/Khyber-Pakhtunkhwa/LakkiMarwat,high,split Bannu + Lakki Marwat; subset
+bannusikhs,district,Bannu District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Bannu;PAK/Khyber-Pakhtunkhwa/LakkiMarwat,high,split Bannu + Lakki Marwat; subset
+bannuchristians,district,Bannu District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Bannu;PAK/Khyber-Pakhtunkhwa/LakkiMarwat,high,split Bannu + Lakki Marwat; subset
+deraismailkhanallreligions,district,Dera Ismail Khan District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/DeraIsmailKhan;PAK/Khyber-Pakhtunkhwa/Tank,high,split D.I.Khan + Tank
+deraismailkhanmuslims,district,Dera Ismail Khan District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/DeraIsmailKhan;PAK/Khyber-Pakhtunkhwa/Tank,high,split D.I.Khan + Tank; subset
+hazaraconcluded,district,Hazara District,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Abbottabad;PAK/Khyber-Pakhtunkhwa/Mansehra;PAK/Khyber-Pakhtunkhwa/Haripur;PAK/Khyber-Pakhtunkhwa/Battagram;PAK/Khyber-Pakhtunkhwa/Kohistan,high,"split into Abbottabad, Mansehra, Haripur, Battagram, Kohistan"
+christia,not_place,,,,high,religion (truncated)
+subsidiarytableiiitownsclassifiedbypopulation,not_place,,,,high,table title
+immigrationfromothercountries,not_place,,,,high,heading
+subsidiarytableivmigrationbetweennorthwestfrontierprovinceandotherpartsofindia,province,North-West Frontier Province,,,high,table title; subset
+firstcolumnages,not_place,,,,high,heading
+secondcolumnages,not_place,,,,high,heading
+thirdcolumnages,not_place,,,,high,heading
+subsidiarytableiiinumberoffemalespermalesatdifferentageperiodsbyreligionsandnaturaldivisionscensus,not_place,,,,high,table title
+subsidiarytableiibritishonlynumberoffemalespermalesatdifferentageperiodsbyreligionsateachoflastthreecensuses,not_place,,,,high,table title
+firstfiveyearsoflife,not_place,,,,high,heading
+deathsduringpastdecades,not_place,,,,high,heading
+vitalstatisticsstatement,not_place,,,,high,heading
+oflivelihoodandstates,not_place,,,,high,title fragment
+subsidiarytableiiishowingnumberofpersonsliterateinmorethanonelanguage,not_place,,,,high,table title
+subsidiarytableiishowingbyreligionagedistributionofofeachsex,not_place,,,,high,table title
+tableviiagesexandcivilconditionpartchristians,not_place,,,,high,table title
+tableviiagesexandcivilconditionpartothers,not_place,,,,high,table title
+populationofhindusbothsexesinofprovincebyageperiodsinandwithpercentageofdecreaseforeachageperiod,not_place,,,,high,table title
+actualnumberofhindusinpeshawarandkohatinandwithpercentageofdecreaseinformeryear,aggregate,Peshawar and Kohat Districts,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Peshawar;PAK/Khyber-Pakhtunkhwa/Charsadda;PAK/Khyber-Pakhtunkhwa/Nowshera;PAK/Khyber-Pakhtunkhwa/Mardan;PAK/Khyber-Pakhtunkhwa/Swabi;PAK/Khyber-Pakhtunkhwa/Kohat;PAK/Khyber-Pakhtunkhwa/Hangu;PAK/Khyber-Pakhtunkhwa/Karak,medium,table title; subset
+actualnumberofhindusinbannuandderaismailkhaninandrespectivelywithpercentageofvariationinperiod,aggregate,Bannu and Dera Ismail Khan Districts,North-West Frontier Province,PAK/Khyber-Pakhtunkhwa/Bannu;PAK/Khyber-Pakhtunkhwa/LakkiMarwat;PAK/Khyber-Pakhtunkhwa/DeraIsmailKhan;PAK/Khyber-Pakhtunkhwa/Tank,medium,table title; subset
+mohammadanstotal,not_place,,,,high,religion heading
+proportionofsexesamongmohammadansatcertainageperiods,not_place,,,,high,table title
+mohammadanmales,not_place,,,,high,religion heading
+mohammadanfemales,not_place,,,,high,religion heading
+subsidiarytableiiinumberafflictedperpersonsofeachageperiodandnumberoffemalesafflictedpermalesinnorthwestfrontierprovince,province,North-West Frontier Province,,,high,table title; subset
+koal,not_place,,,,high,tribe
+sonthal,not_place,,,,high,tribe
+andamanese,not_place,,,,high,tribe
+shompen,not_place,,,,high,tribe
+formviiagesofpopulationbyreligions,not_place,,,,high,table title
+tablexiiinfirmitiespartiidistributionbylocality,not_place,,,,high,table title
+estimatedpopulationexcludedfromthistable,not_place,,,,high,note
