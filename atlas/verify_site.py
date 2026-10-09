@@ -17,7 +17,7 @@ Checks (each prints PASS/FAIL with counts; exit code 1 on any FAIL):
   browser    each page type renders in headless Chrome with no JavaScript errors and
              shows its key elements.
 """
-import csv, json, os, re, sys, sqlite3, random, subprocess, collections, urllib.request, concurrent.futures as cf
+import csv, json, os, re, sys, sqlite3, random, subprocess, collections, urllib.request, urllib.parse, concurrent.futures as cf
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
 SITE = os.path.join(ROOT, "census_site")
@@ -37,11 +37,16 @@ def report(name, ok, detail):
 def get(path, timeout=30):
     url = path if path.startswith("http") else f"{BASE}/{path.lstrip('/')}"
     req = urllib.request.Request(url, headers={"User-Agent": "census-verify/1.0"})
-    for attempt in range(3):
+    for attempt in range(5):
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.status, r.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
+            loc = e.headers.get("Location") if e.code in (301, 302, 307, 308) else None
+            if loc:                                    # Cloudflare 308s /x.html -> /x; urllib (py3.9) won't follow it
+                req = urllib.request.Request(urllib.parse.urljoin(url, loc), headers=req.headers)
+                url = req.full_url
+                continue
             return e.code, ""
         except Exception:
             if attempt == 2:
