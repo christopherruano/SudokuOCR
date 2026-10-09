@@ -39,6 +39,32 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
+JUNK_ALIAS = re.compile(r"(?i)\s[-–—·/|]\s|,|\(|\)|\.\s*-|\b(males?|females?|persons|total|hindus?|musalmans?|muslims?|"
+                        r"muhammadans?|mahomedans?|christians?|jains?|sikhs?|parsis?|buddhists?|animists?|others?|"
+                        r"all religions|urban|rural|continued|contd|concluded|brahmins?|table|part)\b")
+
+
+TITLE_WORDS = re.compile(r"(?i)\b(in|of|each|the|and|by|sex|condition|population|classes|showing|statement|age|ages)\b")
+
+
+def clean_aliases(labels, name):
+    """Keep strings that are spellings of the place; drop row labels that carry a qualifier
+    (caste/religion/sex/age band/title text), e.g. 'Nowgong - Dom', 'Nowgong 0-10',
+    'Sex and Civil Condition-CUDDAPAH'. Case variants collapse to one."""
+    cand = {}
+    for a in labels:
+        a = re.sub(r"\s+", " ", a.strip().strip(".:-"))
+        if (not a or JUNK_ALIAS.search(a) or re.search(r"\d", a) or TITLE_WORDS.search(a)
+                or len(a.split()) > 3 or len(a) > 40):
+            continue
+        key = a.lower()
+        if key not in cand or (a.istitle() and not cand[key].istitle()):
+            cand[key] = a if not a.isupper() else a.title()
+    keys = sorted(cand, key=len)
+    keep = [k for k in keys if not any(k != j and k.startswith(j + " ") for j in keys)]
+    return sorted(cand[k] for k in keep if k != name.lower())
+
+
 def build_registry():
     g = list(csv.DictReader(open(os.path.join(OUT, "gazetteer.csv"))))
     by_name = collections.defaultdict(list)
@@ -68,7 +94,7 @@ def build_registry():
                     mods[r["modern"]] += int(r["n_tables"])
             conf = collections.Counter(r["confidence"] for r in crs if r["modern"]).most_common(1)
             places[pid] = dict(id=pid, name=name, kind=kind, parent=parent,
-                               aliases=sorted({r["label"] for r in crs} - {name})[:12],
+                               aliases=clean_aliases({r["label"] for r in crs} | {v.strip() for r in crs for v in r["variants"].split(" | ") if v.strip()}, name)[:12],
                                modern=mods.most_common(1)[0][0] if mods else "",
                                confidence=conf[0][0] if conf else "",
                                note=next((r["note"] for r in crs if r["note"]), ""),

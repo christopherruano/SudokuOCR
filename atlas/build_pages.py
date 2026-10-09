@@ -78,7 +78,7 @@ def build_search():
                     "m": m or "", "e": e or "", "s": s or "", "a": t["a"], "x": " · ".join(x)[:200],
                     "v": (V["vols"].get(t["d"], {}).get("s") or "")[:40], "d": t["d"], "pg": t["pg"]})
     pidx = {r["p"]: i for i, r in enumerate(idx)}
-    places_small = [[pid, p["n"], p["c"], p.get("p", ""), " ".join(p.get("al", [])),
+    places_small = [[pid, p["n"], p["c"], p.get("p", ""), " ".join(p.get("al", []) + [p.get("mod", "")]),
                      sum(v[0] for v in p.get("cy", {}).values()), sum(v[1] for v in p.get("cy", {}).values()),
                      ",".join(sorted(p.get("cy", {}))),
                      sorted({pidx[P["tables"][i]["p"]] for i, how in p["t"] if how != "birthplace" and P["tables"][i]["p"] in pidx})]

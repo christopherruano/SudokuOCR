@@ -28,7 +28,7 @@ __NAV__
   <span>Tagged as <select id=fe></select></span><span>Status <select id=fs></select></span>
   <span class=clear id=clr>✕ clear</span><span id=cnt></span>
  </div>
- <div class=muted style="margin-top:6px">Searches table titles, the place each table is tagged to, <b>and every district/town/state that appears inside it</b> (rows, sections, column groups), under all recorded spellings.</div>
+ <div class=muted style="margin-top:6px">Searches table titles, the place each table is tagged to, <b>and every district/town/state that appears inside it</b> (rows, sections, column groups), under all recorded spellings — and by modern district name (e.g. <i>Kanpur</i> finds Cawnpore).</div>
 </div>
 <div id=placehits></div>
 <div id=res></div>
@@ -58,7 +58,7 @@ function run(){
  out.sort((a,b)=>(+a.y||0)-(+b.y||0));
  let ph='';
  if(words.length){const hits=phits.slice(0,6);
-  ph=hits.map(p=>`<div class=ph>📍 <a href="place.html?k=${encodeURIComponent(p[0])}">${esc(p[1])}</a> <span class=muted>${esc(p[2].replace('_',' '))}${p[3]?' · '+esc(p[3]):''}</span><br>
+  ph=hits.map(p=>`<div class=ph>📍 <a href="place.html?k=${encodeURIComponent(p[0])}">${esc(p[1])}</a> <span class=muted>${esc(p[2].replace('_',' '))}${p[3]?' · '+esc(p[3]):''}${p[4]?' · also: '+esc(p[4]).slice(0,160):''}</span><br>
    ${p[5]} tables in the corpus (${p[6]} with an age breakdown), census years ${esc(p[7].split(',').join(', '))}.
    <a href="place.html?k=${encodeURIComponent(p[0])}">See the complete inventory →</a> <span class=muted>— it lists every table that mentions ${esc(p[1])}, including ones where it is only a row inside a provincial table. If it is not listed there, it is not in the corpus.</span></div>`).join('')}
  $('placehits').innerHTML=ph;
