@@ -23,6 +23,7 @@ CLASSES = {"district": "District", "sub_district": "Sub-district (taluk/tahsil/p
            "province": "Province / presidency", "division": "Division", "agency": "Agency",
            "natural_division": "Census natural division"}
 COUNTRIES = {"IND": "India", "PAK": "Pakistan", "BGD": "Bangladesh", "MMR": "Myanmar"}
+COMPARATIVE = re.compile(r"(?i)variation|compar|previous|preceding|since|increase|decrease|last (two|three)|each census|census of|in 1[89]\d\d")
 AGE_TITLE = re.compile(r"(?i)\bage\b|ages\b|table\s+vii\b|civil condition")
 
 
@@ -71,8 +72,16 @@ def main():
             doc_pdf.setdefault(t["doc"], q["pdf"])
         t["pg"] = q.get("pg") or ""
         t["seq"] = q["pdf_page"] if q.get("pdf_page") is not None else 99999
-        y = t["year"] or (docs.get(t["doc"], {}).get("year")) or (vols_meta.get(doc_pdf.get(t["doc"], ""), {}).get("year"))
-        t["cy"] = census_year(y)
+        # census year: the source volume's (volume years agree with their printed titles 313/315);
+        # the catalogue's table year is kept only for comparative tables whose title names that
+        # earlier census. 481 catalogue years were later than their own volume (impossible).
+        vy = census_year((vols_meta.get(q.get("pdf", ""), {}) or {}).get("year") or docs.get(t["doc"], {}).get("year"))
+        ty = census_year(t["year"])
+        if vy and ty and ty < vy and re.search(str(ty), t["title"] or "") and COMPARATIVE.search(t["title"] or ""):
+            t["cy"] = ty
+        else:
+            t["cy"] = vy or ty
+        t["ry"] = ty
     for d, f in doc_pdf.items():                        # volumes known only from page_number_status
         if d not in docs:
             vm = vols_meta.get(f, {})
@@ -123,6 +132,7 @@ def main():
     tix = {tid: i for i, tid in enumerate(tid_list)}
     T = [{"p": tabs[t]["page"], "t": (tabs[t]["title"] or "")[:120], "y": tabs[t]["cy"], "d": tabs[t]["doc"],
           "pg": tabs[t]["pg"], "o": f"{tabs[t]['seq']:05d}", "g": tabs[t]["canonical_name"] or "",
+          "ry": tabs[t]["ry"] if tabs[t]["ry"] != tabs[t]["cy"] else "",
           "a": 1 if is_age(t) else 0} for t in tid_list]
 
     # ---- places.json ----

@@ -116,34 +116,77 @@ states its province could cover.
 
 Each census year has its own map of historical districts and princely states.
 
-- **Composition** comes from the 1941 Census of India district map (India State Stories,
-  FLAME University; CC0; `mapdata/historical_districts/`). It covers present-day India.
-  The digitization places units correctly relative to one another, but its lines are
-  positionally coarse: the median centroid displacement against GADM is about 15 km, in
-  no consistent direction. So it is used for composition only.
-- **Lines** come from GADM 4.1 sub-districts (tehsils, upazilas, townships). Each takes
-  the identity of the 1941 unit covering most of it.
-- **Small units:** the 77 units smaller than any modern sub-district are drawn straight
-  from the 1941 polygon, clipped to land.
-- **Ownership in year Y** is decided once per 1941 record:
-  - a princely state is always itself;
-  - a British district is itself, except before a dated split or rename in
-    `district_changes.csv` (e.g. Guntur in Kistna until 1904);
-  - districts of a princely state may fold into their state when it was tabulated as
-    one unit (e.g. Hyderabad in 1881).
-- **Name matching** requires the same unit type (Benares State ≠ Benares District) and
-  overlap with the unit's mapped area, so homonyms in other provinces cannot match.
-- **Outside the 1941 map** (Pakistan, Bangladesh, Burma), outlines are unions of GADM
-  units assigned through the crosswalk. `unit_periods.csv` holds dated start and end
-  years (Attock 1904, Lyallpur 1904, Sheikhupura 1919, Wun→Yeotmal 1905, …). Unassigned
-  modern districts join the nearest unit in the same country.
-- **Source fixes:** `map1941_fixes.csv` corrects source rows that carry a province name
-  instead of the state's (Tehri Garhwal, Rampur, Benares State), each identified by
-  location and area.
-- **Checked against** the 1909 Imperial Gazetteer sheets for Madras (north and south),
-  the Punjab and the United Provinces (Wikimedia Commons). The units and their
-  arrangement agree. Limitation: changes that never crossed a 1941 line are invisible
-  (e.g. Basim, abolished 1905, has no polygon of its own and shows within Akola).
+### Sources
+
+- **1941 Census of India district map.** India State Stories, FLAME University; CC0;
+  `mapdata/historical_districts/`. It covers present-day India and supplies the 1941
+  unit for every place.
+- **India State and District Evolution Database, 1872–2025** (Jolad et al.; Harvard
+  Dataverse doi:10.7910/DVN/D1AGUR; CC BY 4.0; `mapdata/district_evolution/`). Its 3,220
+  links give each unit's predecessor at every census step 1872→1941. It is the primary
+  source for which period unit a 1941 unit lay in during each census (`evolution.py`).
+  It confirms all 16 of our hand-compiled changes (`district_changes.csv`, now only a
+  fallback).
+- **GADM 4.1 sub-districts** (tehsils/taluks, upazilas, townships) supply the line
+  geometry.
+
+### Construction
+
+1. **Tehsil identity.** Each GADM sub-district takes the identity of the 1941 unit
+   covering most of it, or, preferentially, of an overlapping 1941 unit whose name it
+   bears (204 tehsils: Gurgaon tehsil → Gurgaon, not Delhi).
+2. **Direct drawing.** 64 units smaller than any tehsil are drawn straight from the
+   1941 polygon.
+3. **Lineage.** In year Y, each 1941 unit belongs to its predecessor in the evolution
+   database.
+   - With several predecessors (e.g. Amraoti + Ellichpur → 1941 Amraoti), each tehsil
+     goes to the predecessor evidenced by a historical taluk located on it
+     (`build_subdiv.py`), else to the one whose mapped area covers it most.
+   - Period spellings (Jullunder, Ryepoor, Godavery) are matched to registry places by
+     name, recorded spellings, the modern GADM name, or closest spelling (≥85).
+   - A matched place must lie within 150 km of the polygon, which keeps homonyms apart:
+     Nilgiri State (Orissa) and Nilgiri District, Patna State and Patna District,
+     Bilaspur State and Bilaspur District, the two Partabgarhs.
+   - The 1941 map's unit types are trusted. The database's types may be overridden
+     where it mis-types a unit (Tehri Garhwal as a "British district" in 1921–31;
+     Patna District as a state in 1931).
+4. **Carve-out.** A British district the database lists in year Y that has no 1941
+   polygon gets back the tehsils inside its own mapped area, taken only from districts
+   that do not themselves contain them. This restores Narsinghpur (merged into
+   Hoshangabad in 1932) and Basim (abolished 1905).
+5. **Reviewed tehsil overrides** (`tehsil_overrides.csv`) cover units no source
+   separates (Merwara = Beawar tehsil until 1911).
+6. **Source fixes** (`map1941_fixes.csv`) correct source rows named after their province
+   instead of the state (Tehri Garhwal, Rampur, Benares State; the latter dated from
+   1911).
+7. **Outside present-day India** (Pakistan, Bangladesh, Burma), outlines are unions of
+   GADM units assigned through the crosswalk. `unit_periods.csv` holds dated start and
+   end years (Attock 1904, Lyallpur 1904, Sheikhupura 1919, Mianwali 1901, Khulna 1882,
+   Wun→Yeotmal 1905, …). Unassigned modern districts join the nearest unit in the same
+   country.
+
+### Accuracy
+
+- **1941 map position.** Measured on 83 control districts (same name as a modern
+  district, area within 0.7–1.4×), the 1941 digitization is displaced from GADM by a
+  median 14.4 km. A leave-one-out rubber-sheet (inverse-distance displacement field)
+  only reduces this to 11.9 km, so the error is local, and part of it is real boundary
+  change. The polygons are therefore not shifted.
+- **Border tehsils.** 886 of 2,337 tehsils have less than 75% of their area in their
+  assigned 1941 unit (212 below 50%). Border tehsils are the main residual uncertainty,
+  mitigated by the name rule.
+- **Regression tests.** `test_history.py` asserts 67 documented facts (creations,
+  abolitions, renames, homonym locations) and passes.
+- **Visual comparison** with the 1909 Imperial Gazetteer sheets (Madras N/S, Punjab,
+  United Provinces): the units and their arrangement agree.
+
+### Better sources not used
+
+- No public district-level boundary file covers all of British India for 1872–1941;
+  see `out/boundary_sources_report.md`.
+- The recommended upgrade for the paper is to trace the 1909 and 1931 Imperial
+  Gazetteer atlases (DSAL, full resolution) and carry them across years with the
+  evolution database.
 
 ## Atlas fill rule
 

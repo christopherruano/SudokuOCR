@@ -1,5 +1,5 @@
-row,name,evidence
-227,Tehri Garhwal State,"source names it 'United Province'; location 78.5E 30.6N and area 12,808 km2 match Tehri Garhwal (Imperial Gazetteer: 4,180 sq mi)"
-252,Rampur State,"source names it 'United Province'; location 79.2E 28.8N (Rampur town) and area 2,563 km2 match Rampur (945 sq mi)"
-332,Benares State,"source names it 'United Province'; location 82.4E 25.3N (Bhadohi pargana) matches Benares State (created 1911)"
-405,Chhattisgarh feudatory state (unidentified),"source names it 'Central Province and Berar'; at 83.2E 22.3N, likely Udaipur (Dharamjaigarh) but area does not fit well; left unidentified"
+row,name,first_census,before_that_part_of,evidence
+227,Tehri Garhwal State,,,"source names it 'United Province'; location 78.5E 30.6N and area 12,808 km2 match Tehri Garhwal (Imperial Gazetteer: 4,180 sq mi)"
+252,Rampur State,,,"source names it 'United Province'; location 79.2E 28.8N (Rampur town) and area 2,563 km2 match Rampur (945 sq mi)"
+332,Benares State,1911,benares-district,source names it 'United Province'; location 82.4E 25.3N (Bhadohi pargana) matches Benares State (created 1911)
+405,Chhattisgarh feudatory state (unidentified),,,"source names it 'Central Province and Berar'; at 83.2E 22.3N, likely Udaipur (Dharamjaigarh) but area does not fit well; left unidentified"
