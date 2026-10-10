@@ -126,7 +126,7 @@ def add_home_cards(s):
     return s.replace("</nav>", "</nav>" + html_, 1)
 
 
-CTX_CSS = ("<style id=ctxcss>.ctx{background:#eef4f9;border-bottom:1px solid #d5e1ea;padding:6px 16px;font-size:12.5px;"
+CTX_CSS = ("<style id=ctxcss>header .pill{background:#dbe8f3!important;color:#1f3a52!important}.ctx{background:#eef4f9;border-bottom:1px solid #d5e1ea;padding:6px 16px;font-size:12.5px;"
            "display:flex;flex-wrap:wrap;gap:4px 16px}.ctx a{color:#1a5fa0}</style>")
 
 

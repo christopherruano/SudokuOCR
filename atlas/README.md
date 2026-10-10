@@ -78,6 +78,30 @@ Ranking when several figures exist for a place-year:
 
 then Table VII over other tables, then the largest population.
 
+### Whole-population rules (added after historical review)
+
+- **Single-religion slices are rejected** ("Musalman", "Jain", "Others", …) unless labelled
+  all religions or total. 504 figures were removed by this rule.
+- **Cities/towns tables never count as district figures.** Madras 1921/1931 Table VII
+  Part II is cities, so "Tanjore" there is Tanjore town. The rule applies to rows,
+  sections and column groups.
+- **District size limits:** a district figure needs at least 30,000 people (the smallest
+  real district, Simla 1901, had 40,351) and at most 6,000,000 (catches provincial
+  tables carrying a district tag).
+- **Relative test:** when a district has several figures in a year, any covering less
+  than 40% of its largest is a subset and is dropped.
+- `modern_overrides.csv` holds reviewed corrections to the modern mapping, with sources
+  (Karachi, Delhi). 
+
+`demography_check.py` compares province medians of the verified district figures with
+the provincial sex ratios printed in the census reports. All province-years agree
+within 60 except Burma 1901 (3 districts: Akyab, Hanthawaddy, Sagaing). That gap is
+historically expected, from heavy male immigration to Lower Burma and the female
+surplus in Upper Burma.
+
+An audit of all 399 mapped districts found every modern successor inside the modern
+states its province could cover.
+
 ## Coverage ladder (atlas "What age data exists")
 
 1. self-checked district age structure;

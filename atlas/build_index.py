@@ -27,7 +27,11 @@ AGE_FAMILIES = {"age_civil_condition", "age_sex_population", "age_distribution",
 SUBPOP = re.compile(r"(?i)insan|blind|deaf|leper|infirm|literat|educat|caste|tribe|race|occupation|livelihood|"
                     r"selected|urban|rural|town|city|europe|anglo|married females|widows|christian|jain|sikh|parsi|"
                     r"buddhist|musalman|muslim|muhammadan|mahomedan|hindu\b|animist|zoroast|jew")
-ALLREL = re.compile(r"(?i)all religions|all races|total|all castes|all classes|population")
+ALLREL = re.compile(r"(?i)all religions|all races|all castes|all classes|\btotal\b")
+RELIGION_SLICE = re.compile(r"(?i)\b(hindus?|musalmans?|muslims?|muhammadans?|mahomedans?|christians?|jains?|sikhs?|parsis?|"
+                            r"buddhists?|animists?|animistic|tribal|zoroastrians?|jews?|aryas?|brahmos?|others?|minor religions)\b")
+DISTRICT_CEILING = 6_000_000   # the largest districts (e.g. Mymensingh, 1931) held under ~5 million
+DISTRICT_FLOOR = 30000   # a whole district: the smallest (e.g. Simla, 1901: 40,351) exceed this
 BOUNDS = {"child": (10, 45), "old": (0.5, 20), "sexratio": (600, 1300)}
 BIRTH = re.compile(r"(?i)birth|born|immigra|emigra|migra|nativity|where enumerated")
 STRIP_PARENT = re.compile(r"(?i)\b(state|presidency|province|agency|residency|the)\b")
@@ -62,7 +66,8 @@ def clean_aliases(labels, name):
             cand[key] = a if not a.isupper() else a.title()
     keys = sorted(cand, key=len)
     keep = [k for k in keys if not any(k != j and k.startswith(j + " ") for j in keys)]
-    return sorted(cand[k] for k in keep if k != name.lower())
+    bare = re.sub(r"(?i)\s*\b(district|state|taluk|taluka|tahsil|division|agency|town|city|pargana|prant|township)\b\s*", " ", name).strip().lower()
+    return sorted(cand[k] for k in keep if k not in (name.lower(), bare))
 
 
 def build_registry():
@@ -101,6 +106,12 @@ def build_registry():
                                n_strings=len(crs))
             for r in crs:
                 key2pid[r["key"]] = pid
+    # reviewed corrections to the curated modern mapping (justified, versioned)
+    mo = os.path.join(HERE, "modern_overrides.csv")
+    if os.path.exists(mo):
+        for r in csv.DictReader(open(mo)):
+            if r["place_id"] in places:
+                places[r["place_id"]].update(modern=r["modern"], note=r["justification"][:200], confidence="high")
     # parent links: hist_parent text -> a province/state/agency place id
     index = {}
     for p in places.values():
@@ -136,11 +147,22 @@ def main():
     links = collections.defaultdict(dict)          # tid -> pid -> (how, src)
     PRI = {"tag": 0, "title": 1, "rows": 2, "colg": 3, "sect": 4}
 
+    TOWNS = re.compile(r"(?i)\btowns?\b|municipal|\bcities\b|\bcity\b|cantonment")
+    town_of = {}
+    for p in places.values():
+        if p["kind"] == "town":
+            town_of.setdefault(norm(re.sub(r"(?i)\b(town|city|municipality)\b", "", p["name"])), p["id"])
+
     def link(tid, s, how):
         pid = resolve(s)
         if not pid:
             return
         t = tables.get(tid)
+        if how in ("rows", "sect", "colg") and t and TOWNS.search(t["title"] or "") and places[pid]["kind"] == "district":
+            # in a table of towns, "Sylhet" is Sylhet town, not Sylhet District
+            pid = town_of.get(norm(re.sub(r"(?i)\bdistrict\b", "", places[pid]["name"])))
+            if not pid:
+                return
         if t and BIRTH.search(t["title"] or "") and how != "tag":
             how = "birthplace"
         cur = links[tid].get(pid)
@@ -186,6 +208,8 @@ def main():
                 pid = resolve(d["column_group_std"])
             if not pid:
                 pid = resolve(tables.get(tid, {}).get("canonical_name"))
+        if pid and places[pid]["kind"] == "district" and TOWNS.search(tables.get(tid, {}).get("title") or ""):
+            pid = None      # a cities/towns table: the "Madura" here is Madura city, not the district
         if pid:
             groups[(tid, pid)].append(d)
     log(f"grouped {len(groups)} table-place groups")
@@ -250,8 +274,17 @@ def main():
             m = am.best_metrics(fs)
             if not m:
                 continue
-            if (SUBPOP.search(m["slice"]) or SUBPOP.search(title)) and not (ALLREL.search(m["slice"]) or ALLREL.search(title)):
-                rej["sub-population slice"] += 1
+            if RELIGION_SLICE.search(m["slice"]) and not ALLREL.search(m["slice"]):
+                rej["single-religion slice"] += 1
+                continue
+            if SUBPOP.search(title) and not ALLREL.search(title) and not ALLREL.search(m["slice"]):
+                rej["sub-population table"] += 1
+                continue
+            if places[pid]["kind"] == "district" and m.get("unit") == "count" and m["total"] < DISTRICT_FLOOR:
+                rej["too small to be the whole district (a town/subset row)"] += 1
+                continue
+            if places[pid]["kind"] == "district" and m.get("unit") == "count" and m["total"] > DISTRICT_CEILING:
+                rej["too large for a district (a provincial table with a wrong tag)"] += 1
                 continue
             out = [k for k, (lo, hi) in BOUNDS.items() if m.get(k) is not None and not lo <= m[k] <= hi]
             if out:

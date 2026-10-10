@@ -92,10 +92,15 @@ def main():
     metrics = collections.defaultdict(list)        # (pid, cy) -> checked figures only (atlas, verified class)
     allmetrics = collections.defaultdict(list)     # (pid, cy) -> every figure, incl. not checkable (place pages)
     age_tp = set()
-    for r in csv.DictReader(open(os.path.join(OUT, "place_metrics.csv"))):
-        t = tabs.get(r["table_id"])
-        if not t:
-            continue
+    raw = [r for r in csv.DictReader(open(os.path.join(OUT, "place_metrics.csv"))) if r["table_id"] in tabs]
+    biggest = collections.defaultdict(float)
+    for r in raw:
+        biggest[(r["place_id"], tabs[r["table_id"]]["cy"])] = max(biggest[(r["place_id"], tabs[r["table_id"]]["cy"])], float(r["total"] or 0))
+    for r in raw:
+        t = tabs[r["table_id"]]
+        tot = float(r["total"] or 0)
+        if tot and tot < 0.4 * biggest[(r["place_id"], t["cy"])]:
+            continue        # a subset (a town or one religion) of a population printed elsewhere in full
         age_tp.add((r["table_id"], r["place_id"]))
         allmetrics[(r["place_id"], t["cy"])].append(r)
         if "= printed total" in r["check"] or "sums to base" in r["check"]:

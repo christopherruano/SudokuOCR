@@ -28,6 +28,7 @@ __NAV__
  <div class=mapbox>
   <div class=ctl><label>Census</label><span id=years></span></div>
   <div class=ctl><label>Show</label><span id=layers></span></div>
+  <div id=empty hidden style="position:absolute;left:50%;top:45%;transform:translate(-50%,-50%);max-width:420px;background:#fff;border:1px solid #d9c690;border-radius:8px;padding:12px 14px;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:2"></div>
   <svg id=map viewBox="__VB__"></svg>
   <div class=legend id=legend></div>
   <div id=tip></div>
@@ -70,6 +71,9 @@ function draw(){
     if(sel===u.gid)cls+=' sel';
     out+=`<path class="${cls}" data-g="${u.gid}" d="${u.d}" fill="${fill}"/>`}
   svg.innerHTML=out;
+  const any=layer==='coverage'||Object.values(D.units).some(u=>u[year]&&u[year].m&&u[year].m[layer]!=null);
+  document.getElementById('empty').hidden=any;
+  document.getElementById('empty').innerHTML=`No self-checked figures for “${LAYERS[layer]}” in ${year==='all'?'any year':year}: the age tables exist but their pages are only partly captured. See <a href="#" onclick="document.querySelector('#layers button[data-k=coverage]').click();return false">what age data exists</a> or the <a href="data/reextraction_targets.csv">re-extraction list</a>.`;
   const lg=document.getElementById('legend');
   if(layer==='coverage')lg.innerHTML=COV.map(c=>`<i style="background:${c[1]}"></i>${c[2]}`).join('');
   else lg.innerHTML=`${LAYERS[layer]} — <i style="background:${ramp(0)}"></i>${lo==null?'':lo.toFixed(1)} <i style="background:${ramp(.5)}"></i> <i style="background:${ramp(1)}"></i>${hi==null?'':hi.toFixed(1)}`+
