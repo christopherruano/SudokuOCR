@@ -321,9 +321,99 @@ def main():
                       key=lambda k: (places[k]["kind"] != "district", -len(links.get(k, []))))[:4]
             for g, pids in gid_places.items()}
     used = {p for v in hist.values() for p in v} | set(gid_prov.values())
-    json.dump({"units": units, "hist": hist, "summary": summary, "years": YEARS, "default_year": "1901",
+    # ---- historical districts per census year, reconstructed from modern successors ----
+    # each modern district is assigned, per year, to the historical district (or state) that
+    # covered it and appears in that year's tables; otherwise to its overall primary unit.
+    yr_links = collections.defaultdict(lambda: collections.Counter())
+    for pid in places:
+        for tid, how in links.get(pid, []):
+            if how != "birthplace" and tabs[tid]["cy"]:
+                yr_links[pid][tabs[tid]["cy"]] += 1
+    periods = {r["place_id"]: r for r in csv.DictReader(open(os.path.join(HERE, "unit_periods.csv")))}
+    first_year = {pid: min(c) for pid, c in yr_links.items() if c}
+
+    def existed(pid, y):
+        """a unit can stand for an area in year y unless the dated table (unit_periods.csv)
+        says it was created later. (First appearance in our tables is not used: the early
+        censuses are too sparsely digitized for absence to mean non-existence.)"""
+        if y == "all" or pid not in periods:
+            return True
+        r = periods[pid]
+        if r["first_census_as_own_unit"] and int(y) < int(r["first_census_as_own_unit"]):
+            return False
+        if r["last_census_as_own_unit"] and int(y) > int(r["last_census_as_own_unit"]):
+            return False
+        return True
+
+    hy, groups = {}, collections.defaultdict(set)
+    for y in YEARS + ["all"]:
+        hy[y] = {}
+        for g, pids in gid_places.items():
+            loc = [p for p in pids if places[p]["kind"] in LOCAL_KINDS]
+            if not loc:
+                continue
+            present = [p for p in loc if (y == "all" or yr_links[p][y] or (p in periods and periods[p]["first_census_as_own_unit"]))
+                       and existed(p, y)]
+            cands = present or [p for p in loc if existed(p, y)]
+            if not cands:
+                continue        # no unit covering it existed yet: left for the neighbour fill
+            pid = min(cands, key=lambda k: (places[k]["kind"] != "district", -(yr_links[k][y] if y != "all" else sum(yr_links[k].values())), k))
+            hy[y][g] = pid
+        inv = collections.defaultdict(list)
+        for g, pid in hy[y].items():
+            inv[pid].append(g)
+        hy[y] = {pid: "|".join(sorted(gs)) for pid, gs in inv.items()}
+        for key in hy[y].values():
+            groups[key] = set(key.split("|"))
+    # candidates for the polygon-based outlines: every district/state in that year's tables,
+    # including small states inside a modern district (e.g. Pataudi in Gurgaon), with its own
+    # modern-successor area
+    hcand = {}
+    for y in YEARS + ["all"]:
+        hcand[y] = dict(hy[y])
+        for pid in places:
+            if pid in hcand[y] or places[pid]["kind"] not in LOCAL_KINDS or not places[pid]["modern"] or pid not in P:
+                continue
+            if y != "all" and not (yr_links[pid][y] or (pid in periods and periods[pid]["first_census_as_own_unit"])):
+                continue
+            if not existed(pid, y):
+                continue
+            gs = sorted({code2gid[m.strip()] for m in places[pid]["modern"].split(";") if m.strip() in code2gid})
+            if gs:
+                hcand[y][pid] = "|".join(gs)
+    # per historical unit x year: coverage class + indicators (same ladder as the modern view)
+    hu = {}
+    for y in YEARS + ["all"]:
+        hu[y] = {}
+        ys = [y] if y != "all" else YEARS
+        for pid in hcand[y]:
+            own = [tid for tid, how in links.get(pid, []) if how != "birthplace" and tabs[tid]["cy"] in ys]
+            na = sum(1 for tid in own if is_age(tid, pid))
+            rec = {"nt": len(own), "na": na}
+            mrows = [m for yy in ys for m in metrics.get((pid, yy), [])]
+            lvl = "district"
+            pv = places[pid]["parent_id"]
+            if not mrows and pv:
+                mrows = [m for yy in ys for m in metrics.get((pv, yy), [])]
+                lvl = "province"
+            rec["c"] = ("district_verified" if lvl == "district" and mrows else "district_age" if na
+                        else "district_other" if own else "province" if mrows else "none")
+            if mrows:
+                b = pick(mrows)
+                rec["m"] = {k: round(float(b[k]), 1) for k in ("child", "old", "sexratio") if b[k] != ""}
+                rec["lvl"] = lvl
+                rec["src"] = f'{tabs[b["table_id"]]["cy"]} · {(tabs[b["table_id"]]["title"] or "")[:60]}'
+                rec["chk"] = b["check"][:70]
+                rec["tp"] = tabs[b["table_id"]]["page"]
+            hu[y][pid] = rec
+    json.dump({k: sorted(v) for k, v in groups.items()}, open(os.path.join(OUT, "hist_groups.json"), "w"))
+    hist_places = {pid for y in hy for pid in hy[y]}
+    used |= hist_places
+    used |= {p for y in hcand for p in hcand[y]}
+    json.dump({"units": units, "hist": hist, "hy": hy, "hcand": hcand, "hu": hu, "summary": summary, "years": YEARS, "default_year": "1901",
                "countries": COUNTRIES,
-               "places": {pid: {"n": places[pid]["name"], "p": places[pid]["parent"],
+               "places": {pid: {"n": places[pid]["name"], "p": places[pid]["parent"], "k": places[pid]["kind"],
+                                "mod": places[pid]["modern"],
                                 "tier": {"high": "A", "medium": "B", "low": "C"}.get(places[pid]["confidence"], "")}
                           for pid in used if pid in places}},
               open(os.path.join(SITE, "data", "atlas.json"), "w"), separators=(",", ":"))

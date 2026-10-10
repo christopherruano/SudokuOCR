@@ -106,6 +106,53 @@ def build_registry():
                                n_strings=len(crs))
             for r in crs:
                 key2pid[r["key"]] = pid
+    # merge spelling variants that the curation filed as separate places: same kind, same
+    # parent, same first modern district, names equal after removing unit words or >=90 similar
+    from rapidfuzz import fuzz as _fz
+    def _core(n):
+        return re.sub(r"[^a-z]", "", re.sub(r"(?i)\b(district|state|taluk|taluka|taluq|tahsil|tehsil|township|pargana|"
+                                           r"subdivision|town|city|division|prant|thana|circle|section)\b", "", n).lower())
+    UNITW = re.compile(r"(?i)\b(district|state|taluk|taluka|taluq|tahsil|tehsil|township|pargana|subdivision|town|city|"
+                       r"division|prant|thana|circle|section|ward|village|agency|zone|cantonment|municipality)\b")
+    NOMERGE = re.compile(r"(?i)\b(east|west|north|south|eastern|western|northern|southern|upper|lower|central|middle|inner|outer|"
+                         r"[ivxlc]+|\d+(st|nd|rd|th)?)\b|village|\d")
+
+    def _mergeable(x, y):
+        """spelling variants only: same unit words, no direction/number words, never villages"""
+        if NOMERGE.search(x) or NOMERGE.search(y):
+            return False
+        return {w.lower() for w in UNITW.findall(x)} == {w.lower() for w in UNITW.findall(y)}
+
+    buckets = collections.defaultdict(list)
+    for p in places.values():
+        buckets[(p["kind"], p["parent"], (p["modern"] or "").split(";")[0])].append(p["id"])
+    merged_into = {}
+    for ids in buckets.values():
+        ids.sort(key=lambda i: -places[i]["n_strings"])
+        for i, a in enumerate(ids):
+            if a in merged_into:
+                continue
+            for b in ids[i + 1:]:
+                if b in merged_into:
+                    continue
+                na, nb = places[a]["name"], places[b]["name"]
+                if not _mergeable(na, nb):
+                    continue
+                ca, cb = _core(na), _core(nb)
+                if ca and cb and (ca == cb or (min(len(ca), len(cb)) >= 6 and len(na.split()) == len(nb.split())
+                                               and _fz.ratio(ca, cb) >= 90)):
+                    merged_into[b] = a
+    with open(os.path.join(OUT, "merged_variants.csv"), "w", newline="") as fh:
+        w = csv.writer(fh); w.writerow(["kept", "merged", "kind", "parent"])
+        for b, a in sorted(merged_into.items(), key=lambda kv: places[kv[1]]["name"]):
+            w.writerow([places[a]["name"], places[b]["name"], places[a]["kind"], places[a]["parent"]])
+    for b, a in merged_into.items():
+        places[a]["aliases"] = sorted(set(places[a]["aliases"]) | set(places[b]["aliases"]) | {places[b]["name"]})[:12]
+        places[a]["n_strings"] += places[b]["n_strings"]
+        for k, v in list(key2pid.items()):
+            if v == b:
+                key2pid[k] = a
+        del places[b]
     # reviewed corrections to the curated modern mapping (justified, versioned)
     mo = os.path.join(HERE, "modern_overrides.csv")
     if os.path.exists(mo):

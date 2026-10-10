@@ -41,8 +41,10 @@ def write(name, s):
 def main():
     geo = json.load(open(os.path.join(HERE, "out", "districts_svg.json")))
     atlas = open(os.path.join(SITE, "data", "atlas.json")).read()
+    hgeo = open(os.path.join(SITE, "data", "hist_geo.json")).read()
     write("atlas.html", page("atlas.html", "atlas.html", VB=geo["viewBox"],
-                             GEO=json.dumps(geo, separators=(",", ":")), DATA=atlas))
+                             GEO=json.dumps({k: v for k, v in geo.items() if k != "proj"}, separators=(",", ":")),
+                             DATA=atlas, HGEO=hgeo))
     write("place.html", page("place.html", "places.html"))
     write("places.html", page("places.html", "places.html"))
     write("volume.html", page("volume.html", "volume.html"))

@@ -168,7 +168,6 @@ sialkot-district,Sialkot District,district,Punjab,punjab,Sealkote | Siálkot,PAK
 gujranwala-district,Gujranwala District,district,Punjab,punjab,Goojranwala | Gujranwala* | Gujránwála,PAK/Punjab/Gujranwala1;PAK/Punjab/Gujranwala2;PAK/Punjab/Hafizabad,medium,subset: Khatri males (1911); Hafizabad split; part to Sheikhupura 1919,16
 multan-district,Multan District,district,Punjab,punjab,Multán,PAK/Punjab/Multan;PAK/Punjab/Khanewal;PAK/Punjab/Lodhran;PAK/Punjab/Vehari,medium,subset: Khatri males (1911); Multan split Multan/Khanewal/Lodhran/Vehari,3
 muzaffargarh-district,Muzaffargarh District,district,Punjab,punjab,Mozuffergurh,PAK/Punjab/Muzaffargarh;PAK/Punjab/Layyah,high,subset: Khatri males (1911); ,4
-murtizapur-taluk,Murtizapur Taluk,sub_district,Berar,berar,,IND/Maharashtra/Akola,high,taluk of Akola district,1
 berar,Berar,province,,,,,,Hyderabad Assigned Districts,6
 north-and-north-west-india,North and North-West India,natural_division,India,,,,,regional grouping in 1921 labour table,1
 eastern-provinces,Eastern Provinces,natural_division,India,,,,,regional grouping in 1921 labour table,1
@@ -249,7 +248,7 @@ madras,Madras,province,,,,,,birthplace column,5
 coorg,Coorg,province,,,,,,birthplace column; Chief Commissioner's province,2
 bengal,Bengal,province,British India,,,,,birthplace column,13
 upper-burma,Upper Burma,province,Burma,burma,,,,birthplace column,2
-ajmer-merwara,Ajmer-Merwara,province,,,,,,birthplace column; Ajmere,9
+ajmer-merwara,Ajmer-Merwara,province,,,Ajmere | Ajmere-Merwara,,,birthplace column; Ajmere,10
 rajputana-agency,Rajputana Agency,agency,,,Rajputána,,,birthplace column,16
 assam,Assam,province,,,,,,birthplace column,29
 baroda-state,Baroda State,princely_state,Baroda Residency,,,IND/Gujarat/Vadodara;IND/Gujarat/Mahesana;IND/Gujarat/Amreli;IND/Gujarat/Navsari,medium,birthplace column; Baroda state scattered across Gujarat,13
@@ -1606,7 +1605,7 @@ darwha-taluk,Darwha Taluk,sub_district,Berar,berar,""" Darwha | Taluk Darwha | �
 kelapur-taluk,Kelapur Taluk,sub_district,Berar,berar,""" Kelapur | Taluk Kelapur | „ Kelapur",IND/Maharashtra/Yavatmal,high,,4
 mangrul-taluk,Mangrul Taluk,sub_district,Berar,berar,""" Mangrul | Taluk Mangrul | „ Mangrul",IND/Maharashtra/Washim,high,,4
 pusad-taluk,Pusad Taluk,sub_district,Berar,berar,""" Pusad | Taluk Pusad | „ Pusad",IND/Maharashtra/Yavatmal,high,,4
-murtazapur-taluk,Murtazapur Taluk,sub_district,Berar,berar,""" Murtazapur | Taluk Murtazapur | „ Murtazapur",IND/Maharashtra/Akola,high,now Akola district,4
+murtazapur-taluk,Murtazapur Taluk,sub_district,Berar,berar,""" Murtazapur | Murtizapur Taluk | Taluk Murtazapur | „ Murtazapur",IND/Maharashtra/Akola,high,now Akola district,5
 west-central-india,West (Central India),natural_division,Central India Agency,central-india-agency,West,,,,2
 east-central-india,East (Central India),natural_division,Central India Agency,central-india-agency,East,,,,1
 jaora-state,Jaora State,princely_state,Malwa Agency,malwa-agency,,IND/MadhyaPradesh/Ratlam,high,subset,5
@@ -2422,7 +2421,6 @@ bolan-pass-agency,Bolan Pass Agency,agency,Baluchistan,baluchistan,Bolan,PAK/Bal
 kharan-state,Kharan State,princely_state,Baluchistan,baluchistan,,PAK/Balochistan/Kharan,high,,1
 madras-presidency,Madras Presidency,province,British India,,Madras,,,mostly the presidency (table tag); occasionally Madras City (=Chennai),6
 kolar-district,Kolar District,district,Mysore State,mysore-state,,IND/Karnataka/Kolar;IND/Karnataka/Chikballapura,high,split Kolar+Chikballapur,10
-ajmere-merwara,Ajmere-Merwara,province,,,Ajmere,,,1876 enumeration in 1881 table,1
 bombay-presidency,Bombay Presidency,province,,,Bombay | Bombay- British Territory | Presidency Proper,,,British territory,9
 chitaldrug-district,Chitaldrug District,district,Mysore State,mysore-state,Chitaldroog,IND/Karnataka/Chitradurga;IND/Karnataka/Davanagere,high,Chitaldrug=Chitradurga; part to Davanagere,13
 bellary-district,Bellary District,district,Madras,madras,,IND/Karnataka/Bellary;IND/Karnataka/Davanagere;IND/AndhraPradesh/Kurnool;IND/AndhraPradesh/Anantapur,high,Adoni/Alur/Rayadrug to Andhra 1953; Harpanahalli later Davanagere,11
@@ -2490,7 +2488,7 @@ magadi-taluk,Magadi Taluk,sub_district,Mysore State,mysore-state,,IND/Karnataka/
 talapilli-taluk,Talapilli Taluk,sub_district,Cochin State,cochin-state,,IND/Kerala/Thrissur,high,,2
 kodungallur-cranganore-taluk,Kodungallur (Cranganore) Taluk,sub_district,Cochin State,cochin-state,Kotungallur,IND/Kerala/Thrissur,high,,1
 vellore,Vellore,town,Madras,madras,,IND/TamilNadu/Vellore,high,North Arcot District town. Cities table,1
-nilgiri-district,Nilgiri District,district,Madras,madras,Nilgiris,IND/TamilNadu/TheNilgiris,high,subset,10
+nilgiri-district,Nilgiri District,district,Madras,madras,Nilgiris | Nilgiris District,IND/TamilNadu/TheNilgiris,high,subset,11
 pattanapuram-taluk,Pattanapuram Taluk,sub_district,Travancore State,travancore-state,,IND/Kerala/Kollam,high,subset,6
 bangalore-district,Bangalore District,district,Mysore State,mysore-state,,IND/Karnataka/Bangalore;IND/Karnataka/BangaloreRural;IND/Karnataka/Ramanagara,high,subset,15
 tumkur-district,Tumkur District,district,Mysore State,mysore-state,Tumkúr,IND/Karnataka/Tumkur,high,subset,11
@@ -2571,7 +2569,7 @@ telangana,Telangana,natural_division,Hyderabad State,hyderabad-state,,,,,1
 laccadive-islands,Laccadive Islands,sub_district,Madras,madras,,IND/Lakshadweep/Lakshadweep,high,birthplace; attached to Malabar/S. Canara,1
 east-coast,East Coast,natural_division,Madras,madras,,,,,1
 kanayannur-taluk,Kanayannur Taluk,sub_district,Cochin State,cochin-state,Kanayannur. Mussalman,IND/Kerala/Ernakulam,high,subset,5
-kartikappalli-taluk,Kartikappalli Taluk,sub_district,Travancore State,travancore-state,Kartikapalli | Kartikápalli,IND/Kerala/Alappuzha,high,subset,5
+kartikappalli-taluk,Kartikappalli Taluk,sub_district,Travancore State,travancore-state,Kartikapalli | Kartikapalli Taluk | Kartikápalli | Kartikápalli Taluk,IND/Kerala/Alappuzha,high,subset,7
 mavelikara-taluk,Mavelikara Taluk,sub_district,Travancore State,travancore-state,,IND/Kerala/Alappuzha,high,subset,3
 chingleput-district,Chingleput District,district,Madras,madras,,IND/TamilNadu/Kancheepuram;IND/TamilNadu/Thiruvallur,high,subset,5
 tanjore-district,Tanjore District,district,Madras,madras,,IND/TamilNadu/Thanjavur;IND/TamilNadu/Thiruvarur;IND/TamilNadu/Nagappattinam,high,subset; Tanjore=Thanjavur,7
@@ -2637,7 +2635,7 @@ french-rocks-taluk,French Rocks Taluk,sub_district,Mysore,mysore-state,French-Ro
 krishnarajpete-taluk,Krishnarajpete Taluk,sub_district,Mysore,mysore-state,,IND/Karnataka/Mandya,high,,1
 hoskote-taluk,Hoskote Taluk,sub_district,Mysore,mysore-state,,IND/Karnataka/BangaloreRural,high,,1
 west-coast,West Coast,natural_division,Madras,madras,,,,,1
-talappilly-taluk,Talappilly Taluk,sub_district,Cochin State,cochin-state,Thalappilli,IND/Kerala/Thrissur,high,subset,4
+talappilly-taluk,Talappilly Taluk,sub_district,Cochin State,cochin-state,Talappilli Taluk | Thalappilli,IND/Kerala/Thrissur,high,subset,5
 ramnad-district,Ramnad District,district,Madras,madras,,IND/TamilNadu/Ramanathapuram;IND/TamilNadu/Sivaganga;IND/TamilNadu/Virudunagar,high,subset; Ramnad=Ramanathapuram; split,1
 gulbarga-city,Gulbarga City,town,Hyderabad State,hyderabad-state,,IND/Karnataka/Gulbarga,high,,1
 aurangabad-division,Aurangabad Division,division,Hyderabad State,hyderabad-state,,IND/Maharashtra/Aurangabad;IND/Maharashtra/Jalna;IND/Maharashtra/Bid;IND/Maharashtra/Parbhani;IND/Maharashtra/Hingoli;IND/Maharashtra/Nanded,medium,"Aurangabad, Bhir, Parbhani, Nander districts",1
@@ -2700,7 +2698,6 @@ south,South,natural_division,Madras,madras,,,,Madras natural division (1901 subs
 chittur-taluk,Chittur Taluk,sub_district,Cochin State,cochin-state,,IND/Kerala/Palakkad,high,subset,6
 east-godavari-district,East Godavari District,district,Madras,madras,,IND/AndhraPradesh/EastGodavari,high,subset; plains portion,1
 palamcottah,Palamcottah,town,Madras,madras,,IND/TamilNadu/Tirunelveli,high,Palayamkottai,1
-nilgiris-district,Nilgiris District,district,Madras,madras,,IND/TamilNadu/TheNilgiris,high,subset,1
 changanachery-taluk,Changanachery Taluk,sub_district,Travancore State,travancore-state,,IND/Kerala/Kottayam,high,subset,3
 aurangabad-district,Aurangabad District,district,Hyderabad State,hyderabad-state,,IND/Maharashtra/Aurangabad;IND/Maharashtra/Jalna,high,Jalna split 1981,1
 parbhani-district,Parbhani District,district,Hyderabad State,hyderabad-state,,IND/Maharashtra/Parbhani;IND/Maharashtra/Hingoli,high,Hingoli split 1999,1
@@ -2728,7 +2725,6 @@ tirumakudal-narsipur-taluk,Tirumakudal-Narsipur Taluk,sub_district,Mysore State,
 mandya-taluk,Mandya Taluk,sub_district,Mysore State,mysore-state,,IND/Karnataka/Mandya,high,,1
 yelandur-taluk,Yelandur Taluk,sub_district,Mysore State,mysore-state,,IND/Karnataka/Chamrajnagar,high,,1
 nelamangala-taluk,Nelamangala Taluk,sub_district,Mysore State,mysore-state,,IND/Karnataka/BangaloreRural,high,,1
-talappilli-taluk,Talappilli Taluk,sub_district,Cochin State,cochin-state,,IND/Kerala/Thrissur,high,,1
 bangalore-city-corporation,Bangalore City Corporation,town,Mysore State,mysore-state,Bangalore Corporaton,IND/Karnataka/Bangalore,high,1951 Corporation,1
 warangal-division,Warangal Division,division,Hyderabad State,hyderabad-state,,,,,1
 gulbarga-division,Gulbarga Division,division,Hyderabad State,hyderabad-state,,,,,1
@@ -2789,7 +2785,6 @@ irinjalakuda,Irinjalakuda,town,Cochin State,cochin-state,,IND/Kerala/Thrissur,hi
 chittur-tattamangalam,Chittur-Tattamangalam,town,Cochin State,cochin-state,,IND/Kerala/Palakkad,high,,1
 east-coast-central,East Coast Central,natural_division,Madras,madras,,,,,1
 cranganore-taluk,Cranganore Taluk,sub_district,Cochin State,cochin-state,,IND/Kerala/Thrissur,high,Kotungallur=Kodungallur,1
-kartikapalli-taluk,Kartikapalli Taluk,sub_district,Travancore State,travancore-state,Kartikápalli Taluk,IND/Kerala/Alappuzha,high,religion/section subset,2
 west-godavari-district,West Godavari District,district,Madras,madras,,IND/AndhraPradesh/WestGodavari,high,,1
 quilon,Quilon,town,Travancore State,travancore-state,,IND/Kerala/Kollam,high,Quilon=Kollam,1
 middle-and-lower-colaba-section,Middle and Lower Colaba Section,city_section,Bombay,bombay,,IND/Maharashtra/MumbaiCity,high,Bombay City section; subset (sex),6

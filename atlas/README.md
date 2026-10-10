@@ -17,6 +17,8 @@ script; no output is hand-edited.
 | 7 | `build_site_data.py` | `census_site/data/{places,volumes,atlas}.json` and CSV downloads |
 | 8 | `build_pages.py` | the atlas, place, places, volume and search pages, plus navigation patched into every page (idempotent) |
 | 9 | `build_targets.py` | `census_site/data/reextraction_targets.csv`: district-years with partial age tables |
+| 10 | `build_hist_geometry.py` | per-year historical outlines (`census_site/data/hist_geo.json`); run after step 7, before step 8 |
+| 11 | `build_subdiv.py` | subdivision view (`census_site/data/subdiv.json`): historical taluks on GADM level 3 |
 
 `position.py` places every table at a PDF and PDF page via `page_number_status.csv`
 (10,657 of 10,665 site tables); the printed page comes from `provenance.csv`.
@@ -109,6 +111,39 @@ states its province could cover.
 3. district tables without an age breakdown;
 4. province/state-level only;
 5. nothing in the corpus.
+
+## Historical boundaries (atlas "Historical districts" view)
+
+Each census year has its own map of historical districts and princely states.
+
+- **Composition** comes from the 1941 Census of India district map (India State Stories,
+  FLAME University; CC0; `mapdata/historical_districts/`). It covers present-day India.
+  The digitization places units correctly relative to one another, but its lines are
+  positionally coarse: the median centroid displacement against GADM is about 15 km, in
+  no consistent direction. So it is used for composition only.
+- **Lines** come from GADM 4.1 sub-districts (tehsils, upazilas, townships). Each takes
+  the identity of the 1941 unit covering most of it.
+- **Small units:** the 77 units smaller than any modern sub-district are drawn straight
+  from the 1941 polygon, clipped to land.
+- **Ownership in year Y** is decided once per 1941 record:
+  - a princely state is always itself;
+  - a British district is itself, except before a dated split or rename in
+    `district_changes.csv` (e.g. Guntur in Kistna until 1904);
+  - districts of a princely state may fold into their state when it was tabulated as
+    one unit (e.g. Hyderabad in 1881).
+- **Name matching** requires the same unit type (Benares State ≠ Benares District) and
+  overlap with the unit's mapped area, so homonyms in other provinces cannot match.
+- **Outside the 1941 map** (Pakistan, Bangladesh, Burma), outlines are unions of GADM
+  units assigned through the crosswalk. `unit_periods.csv` holds dated start and end
+  years (Attock 1904, Lyallpur 1904, Sheikhupura 1919, Wun→Yeotmal 1905, …). Unassigned
+  modern districts join the nearest unit in the same country.
+- **Source fixes:** `map1941_fixes.csv` corrects source rows that carry a province name
+  instead of the state's (Tehri Garhwal, Rampur, Benares State), each identified by
+  location and area.
+- **Checked against** the 1909 Imperial Gazetteer sheets for Madras (north and south),
+  the Punjab and the United Provinces (Wikimedia Commons). The units and their
+  arrangement agree. Limitation: changes that never crossed a 1941 line are invisible
+  (e.g. Basim, abolished 1905, has no polygon of its own and shows within Akola).
 
 ## Atlas fill rule
 

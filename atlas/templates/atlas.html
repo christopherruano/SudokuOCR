@@ -6,30 +6,38 @@
  .wrap{display:flex;gap:14px;padding:10px 16px;flex-wrap:wrap}
  .mapbox{flex:1 1 560px;min-width:0;position:relative}
  .side{flex:0 1 360px;min-width:280px}
- svg{width:100%;height:auto;max-height:calc(100vh - 150px);display:block;background:#f4f8fb;border:1px solid #dde5ec;border-radius:8px}
+ svg.map{width:100%;height:auto;max-height:calc(100vh - 170px);display:block;background:#f4f8fb;border:1px solid #dde5ec;border-radius:8px}
  path.u{stroke:#fff;stroke-width:.35;cursor:pointer}
- path.u:hover,path.u.sel{stroke:#102030;stroke-width:1.4}
- path.u.prov{stroke:#c8d2da}
+ path.h{stroke:#33475b;stroke-width:.7;cursor:pointer;stroke-linejoin:round}
+ path.u:hover,path.u.sel,path.h:hover,path.h.sel{stroke:#0b1520;stroke-width:1.8}
+ path.prov{stroke-dasharray:2 1.5}
  .ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 8px}
  .ctl button{border:1px solid #b9c7d3;background:#fff;border-radius:6px;padding:3px 9px;cursor:pointer;font:inherit;font-size:13px}
  .ctl button.on{background:#1f3a52;color:#fff;border-color:#1f3a52}
- .ctl label{font-size:12px;color:#567;margin-right:2px}
+ .ctl label{font-size:12px;color:#567;margin-right:2px;min-width:52px}
  .legend{font-size:12px;color:#345;margin:6px 0} .legend i{display:inline-block;width:14px;height:11px;vertical-align:middle;margin:0 4px 0 10px;border:1px solid #ccd}
  .card{background:#fff;border:1px solid #dde5ec;border-radius:8px;padding:12px 14px;margin-bottom:10px}
  .card h3{margin:0 0 4px;font-size:16px} .muted{color:#678;font-size:12px}
  .card a{color:#1a5fa0}
  .stat{font-size:22px;font-weight:600;color:#1f3a52}
- #tip{position:absolute;pointer-events:none;background:rgba(20,30,40,.92);color:#fff;padding:6px 9px;border-radius:6px;font-size:12px;display:none;max-width:280px}
+ #tip{position:absolute;pointer-events:none;background:rgba(20,30,40,.92);color:#fff;padding:6px 9px;border-radius:6px;font-size:12px;display:none;max-width:300px;z-index:3}
  table.cov{border-collapse:collapse;font-size:12px;width:100%} table.cov td,table.cov th{border-bottom:1px solid #eef;padding:2px 4px;text-align:left}
  .note{font-size:12px;color:#456;background:#f2f6f9;border-radius:6px;padding:8px 10px}
+ .btn{display:inline-block;margin-top:8px;border:1px solid #1f3a52;color:#1f3a52;background:#fff;border-radius:6px;padding:3px 10px;cursor:pointer;font:inherit;font-size:13px}
+ #sub{display:none;margin:4px 16px 24px;background:#fff;border:1px solid #dde5ec;border-radius:10px;padding:12px 14px}
+ #sub h3{margin:0 0 2px} #subsvg{width:100%;height:auto;max-height:70vh;background:#f7fafc;border-radius:8px}
+ #subsvg path{stroke:#fff;stroke-width:.25;cursor:pointer} #subsvg path:hover{stroke:#0b1520;stroke-width:.7}
+ #subsvg text{font:600 2.4px system-ui;fill:#1d2b38;pointer-events:none;text-anchor:middle}
+ .sublist{columns:3 220px;font-size:12.5px;margin-top:8px} .sublist a{color:#1a5fa0}
 </style></head><body>
 __NAV__
 <div class=wrap>
  <div class=mapbox>
   <div class=ctl><label>Census</label><span id=years></span></div>
   <div class=ctl><label>Show</label><span id=layers></span></div>
+  <div class=ctl><label>Borders</label><span id=borders></span></div>
   <div id=empty hidden style="position:absolute;left:50%;top:45%;transform:translate(-50%,-50%);max-width:420px;background:#fff;border:1px solid #d9c690;border-radius:8px;padding:12px 14px;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,.08);z-index:2"></div>
-  <svg id=map viewBox="__VB__"></svg>
+  <svg id=map class=map viewBox="__VB__"></svg>
   <div class=legend id=legend></div>
   <div id=tip></div>
  </div>
@@ -37,78 +45,146 @@ __NAV__
   <div class=card id=summary></div>
   <div class=card id=detail><span class=muted>Hover or click a district on the map.</span></div>
   <div class="card note">
-   <b>How to read this map.</b> Each modern district (GADM 4.1) shows what the digitized census holds for the
-   historical district or state that covered it — whether that district had its own table or only appears as a row
-   inside a provincial one. <b>Self-checked</b> means its age bands add up to the printed total (or to 1,000/10,000 for
-   proportional tables), so the figure is internally verified. On the indicator layers, districts without a local
-   figure show their province's value <b>pale with a grey outline</b>: a regional value, not a local one. Scales are
-   fixed across years so colours are comparable. Historical→modern links: <a href="data/district_concordance.csv">crosswalk CSV</a>;
-   figures: <a href="data/district_age_indicators.csv">indicators CSV</a>; districts whose age tables are only partly
-   captured: <a href="data/reextraction_targets.csv">re-extraction list</a>.
+   <b>How to read this map.</b> With <b>historical</b> borders, each colored shape is a district or princely state
+   as tabulated in that census, and it carries that unit's own figures — whether it had its own table or only appears as a
+   row inside a provincial one.
+   Within present-day India each outline follows the <b>1941 Census of India district map</b> (digitized by India State
+   Stories, FLAME University): modern sub-districts (GADM 4.1) are assigned to the 1941 unit covering most of them, so the
+   lines are drawn accurately while the composition is the 1941 map's; units smaller than a sub-district are drawn straight
+   from the 1941 map (±15 km). Earlier years regroup the 1941 units using dated splits and renames
+   (e.g. Guntur inside Kistna before 1904). Outside India (Pakistan, Bangladesh, Burma) outlines are <b>reconstructed from
+   modern successor districts</b>. Boundary changes that never crossed a 1941 line are not visible.
+   <b>Modern</b> borders show the same information on today's districts. <b>Self-checked</b> means the age bands add up to
+   the printed total (or to 1,000/10,000 for proportional tables). On the indicator layers, units without a local figure
+   show their province's value <b>pale with a dashed outline</b>. Scales are fixed across years.
+   Click a district, then <b>Show subdivisions</b> for its taluks/tahsils/townships.
+   Data: <a href="data/district_concordance.csv">crosswalk</a> · <a href="data/district_age_indicators.csv">indicators</a> ·
+   <a href="data/reextraction_targets.csv">re-extraction list</a>.
   </div>
  </div>
 </div>
+<div id=sub></div>
 <script>
 const G=__GEO__;
 const D=__DATA__;
+const H=__HGEO__;
 const svg=document.getElementById('map'),tip=document.getElementById('tip');
-let year=D.default_year, layer='coverage', sel=null;
+let year=D.default_year, layer='coverage', mode='hist', sel=null;
 const LAYERS={coverage:'What age data exists',child:'% aged 0–9',old:'% aged 60+',sexratio:'Females per 1,000 males'};
-const COV=[['district_verified','#0b5a2c','District age structure, self-checked'],['district_age','#3f9a5c','District appears in age tables'],
-           ['district_other','#a8d5b2','District tables, no age breakdown'],['province','#ece7c9','Province/state-level only'],['none','#e9edf1','Nothing in the corpus']];
-function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function ramp(t){const a=[237,248,251],b=[0,88,124];t=Math.max(0,Math.min(1,t));return 'rgb('+a.map((v,i)=>Math.round(v+(b[i]-v)*t)).join(',')+')'}
-function yv(u){return (D.units[u.gid]||{})[year]||null}
-// one fixed scale per indicator so colours compare across census years
+const COV=[['district_verified','#0b5a2c','Age structure, self-checked'],['district_age','#3f9a5c','Appears in age tables'],
+           ['district_other','#a8d5b2','Tables, no age breakdown'],['province','#ece7c9','Province/state-level only'],['none','#e9edf1','Nothing in the corpus']];
 const RANGE={child:[18,34],old:[2,9],sexratio:[800,1100]};
-function metricRange(){return RANGE[layer]}
+const U=Object.fromEntries(G.units.map(u=>[u.gid,u]));
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function nice(s){return String(s||'').replace(/([a-z])([A-Z])/g,'$1 $2')}
+function ramp(t){const a=[237,248,251],b=[0,88,124];t=Math.max(0,Math.min(1,t));return 'rgb('+a.map((v,i)=>Math.round(v+(b[i]-v)*t)).join(',')+')'}
+function fillFor(r){if(layer==='coverage'){const c=r?r.c:'none';return [(COV.find(x=>x[0]===c)||COV[4])[1],false]}
+  if(r&&r.m&&r.m[layer]!=null){const [lo,hi]=RANGE[layer];const f=ramp((r.m[layer]-lo)/(hi-lo));return r.lvl==='province'?[f.replace('rgb','rgba').replace(')',',.45)'),true]:[f,false]}
+  return ['#e9edf1',false]}
+function histUnits(){return D.hy[year]||{}}            // pid -> "gid|gid"
 function draw(){
-  const [lo,hi]=layer==='coverage'?[0,1]:metricRange();
   let out='';
-  for(const u of G.units){const r=yv(u);let fill='#e9edf1',cls='u';
-    if(layer==='coverage'){const c=r?r.c:'none';fill=(COV.find(x=>x[0]===c)||COV[3])[1]}
-    else if(r&&r.m&&r.m[layer]!=null){fill=ramp((r.m[layer]-lo)/((hi-lo)||1));if(r.lvl==='province'){cls+=' prov';fill=fill.replace('rgb','rgba').replace(')',',.45)')}}
-    if(sel===u.gid)cls+=' sel';
-    out+=`<path class="${cls}" data-g="${u.gid}" d="${u.d}" fill="${fill}"/>`}
+  if(mode==='modern'){
+    for(const u of G.units){const r=(D.units[u.gid]||{})[year];const [f,pv]=fillFor(r);
+      out+=`<path class="u${pv?' prov':''}${sel===u.gid?' sel':''}" data-g="${u.gid}" d="${u.d}" fill="${f}"/>`}
+  }else{
+    const hu=D.hu[year]||{},covered=new Set();
+    for(const key of Object.values(D.hmod[year]||{}))key.split('|').forEach(g=>covered.add(g));
+    for(const u of G.units)if(!covered.has(u.gid)){const r=(D.units[u.gid]||{})[year];const [f,pv]=fillFor(r);
+      out+=`<path class="u${pv?' prov':''}" data-g="${u.gid}" d="${u.d}" fill="${f}" opacity=".85"/>`}
+    // small units drawn directly from the 1941 map go last, on top
+    const order=Object.entries(histUnits()).sort((a,b)=>((H[a[1]]||{}).ov||0)-((H[b[1]]||{}).ov||0));
+    for(const [pid,key] of order){const h=H[key];if(!h)continue;const [f,pv]=fillFor(hu[pid]);
+      out+=`<path class="h${pv?' prov':''}${sel===pid?' sel':''}" data-p="${pid}" d="${h.d}" fill="${f}"/>`}
+  }
   svg.innerHTML=out;
-  const any=layer==='coverage'||Object.values(D.units).some(u=>u[year]&&u[year].m&&u[year].m[layer]!=null);
-  document.getElementById('empty').hidden=any;
-  document.getElementById('empty').innerHTML=`No self-checked figures for “${LAYERS[layer]}” in ${year==='all'?'any year':year}: the age tables exist but their pages are only partly captured. See <a href="#" onclick="document.querySelector('#layers button[data-k=coverage]').click();return false">what age data exists</a> or the <a href="data/reextraction_targets.csv">re-extraction list</a>.`;
+  const src=mode==='modern'?Object.values(D.units).map(u=>u[year]):Object.values(D.hu[year]||{});
+  const any=layer==='coverage'||src.some(r=>r&&r.m&&r.m[layer]!=null);
+  const em=document.getElementById('empty');em.hidden=any;
+  em.innerHTML=`No self-checked figures for “${LAYERS[layer]}” in ${year==='all'?'any year':year}: the age tables exist but their pages are only partly captured. See <a href="#" onclick="document.querySelector('#layers button[data-k=coverage]').click();return false">what age data exists</a> or the <a href="data/reextraction_targets.csv">re-extraction list</a>.`;
   const lg=document.getElementById('legend');
   if(layer==='coverage')lg.innerHTML=COV.map(c=>`<i style="background:${c[1]}"></i>${c[2]}`).join('');
-  else lg.innerHTML=`${LAYERS[layer]} — <i style="background:${ramp(0)}"></i>${lo==null?'':lo.toFixed(1)} <i style="background:${ramp(.5)}"></i> <i style="background:${ramp(1)}"></i>${hi==null?'':hi.toFixed(1)}`+
-     ` &nbsp; <i style="background:${ramp(.5).replace('rgb','rgba').replace(')',',.45)')};border-color:#c8d2da"></i>provincial value (no district table)`;
+  else{const [lo,hi]=RANGE[layer];lg.innerHTML=`${LAYERS[layer]} — <i style="background:${ramp(0)}"></i>${lo} <i style="background:${ramp(.5)}"></i> <i style="background:${ramp(1)}"></i>${hi}`+
+     ` &nbsp; <i style="background:${ramp(.5).replace('rgb','rgba').replace(')',',.45)')};border-style:dashed"></i>provincial value (no local figure)`}
   summary();}
 function summary(){const s=D.summary[year]||{};
   document.getElementById('summary').innerHTML=`<div class=muted>${year==='all'?'All census years':'Census of '+year}</div>
   <div><span class=stat>${s.hist_ver||0}</span> historical districts/states with a self-checked age structure</div>
-  <div class=muted>${s.hist_age||0} appear in some age table · ${s.hist_any||0} in any table.
+  <div class=muted>${s.hist_age||0} appear in some age table · ${s.hist_any||0} in any table · ${Object.keys(histUnits()).length} historical units drawn.
   Modern districts: ${s.modern_ver||0} with a local age structure, ${s.modern_age||0} more with local age tables,
   ${s.modern_prov||0} covered only by provincial tables (of ${G.units.length}).</div>`}
-function detail(gid){const u=G.units.find(x=>x.gid===gid);if(!u)return;const r=yv(u);const e=D.units[gid]||{};
-  let h=`<h3>${esc(u.name.replace(/([a-z])([A-Z])/g,'$1 $2'))}</h3><div class=muted>modern district · ${esc(u.admin1.replace(/([a-z])([A-Z])/g,'$1 $2'))}, ${esc(D.countries[u.country]||u.country)}</div>`;
-  const hs=(D.hist[gid]||[]);
-  if(hs.length){h+=`<div style="margin-top:8px"><b>Historical unit${hs.length>1?'s':''}:</b> `+hs.map(k=>`<a href="place.html?k=${encodeURIComponent(k)}">${esc(D.places[k].n)}</a> <span class=muted>(${esc(D.places[k].p||'')}${D.places[k].tier?' · tier '+D.places[k].tier:''})</span>`).join(', ')+'</div>'}
-  if(e.prov){h+=`<div class=muted style="margin-top:4px">province/state: <a href="place.html?k=${encodeURIComponent(e.prov)}">${esc((D.places[e.prov]||{}).n||e.prov)}</a>${e.prov_how==='nearest'?' (assigned by nearest matched district)':''}</div>`}
-  if(r){h+=`<div style="margin-top:8px">${year==='all'?'All years':year}: <b>${r.na||0}</b> district-level age tables, <b>${r.nt||0}</b> district-level tables in total.</div>`;
-    if(r.m){h+='<table class=cov>'+Object.keys(LAYERS).filter(k=>k!=='coverage'&&r.m[k]!=null).map(k=>`<tr><td>${LAYERS[k]}</td><td><b>${r.m[k].toFixed(1)}</b></td><td class=muted>${r.lvl==='province'?'provincial':'district'}</td></tr>`).join('')+'</table>'+
-      `<div class=muted>from ${r.tp?`<a href="tables/${encodeURI(r.tp)}.html">${esc(r.src||'')}</a>`:esc(r.src||'')}<br>check: ${esc(r.chk||'')}</div>`}}
-  else h+=`<div style="margin-top:8px" class=muted>No tables in the corpus for this area in ${year}.</div>`;
-  const yrs=Object.keys(e).filter(k=>/^\d{4}$/.test(k)&&e[k].na>0);
-  if(yrs.length)h+=`<div class=muted style="margin-top:6px">district age data in: ${yrs.join(', ')}</div>`;
-  if(hs.length)h+=`<div style="margin-top:8px"><a href="place.html?k=${encodeURIComponent(hs[0])}">→ everything we have for ${esc(D.places[hs[0]].n)}</a></div>`;
+function figTable(r){if(!r||!r.m)return '';return '<table class=cov>'+['child','old','sexratio'].filter(k=>r.m[k]!=null).map(k=>`<tr><td>${LAYERS[k]}</td><td><b>${r.m[k].toFixed(1)}</b></td><td class=muted>${r.lvl==='province'?'provincial':'local'}</td></tr>`).join('')+'</table>'+
+  `<div class=muted>from ${r.tp?`<a href="tables/${encodeURI(r.tp)}.html">${esc(r.src||'')}</a>`:esc(r.src||'')}<br>check: ${esc(r.chk||'')}</div>`}
+function pname(pid){const k=histUnits()[pid];return (D.places[pid]||{}).n||(H[k]||{}).n||pid.replace(/^map1941:/,'')}
+function detailHist(pid){const p=D.places[pid]||{n:pname(pid),k:'princely state (1941 map)',p:''},r=(D.hu[year]||{})[pid],key=histUnits()[pid]||'';
+  const gids=((D.hmod[year]||{})[pid]||'').split('|').filter(Boolean),src=(H[key]||{}).src||'';
+  let h=`<h3>${esc(p.n)}</h3><div class=muted>${esc((p.k||'').replace('_',' '))}${p.p?' · '+esc(p.p):''} · as tabulated in ${year==='all'?'the census':year}</div>`;
+  h+=`<div class=muted style="margin-top:4px">today: ${gids.map(g=>U[g]?esc(nice(U[g].name))+' ('+esc(nice(U[g].admin1))+')':'').join(', ')}${p.tier?' · match tier '+p.tier:''}</div>`;
+  h+=`<div class=muted>outline: ${src==='census map 1941'?'1941 Census of India district map, drawn on modern sub-district lines'+(year!=='1941'&&year!=='all'?' (regrouped to '+year+' units)':''):src==='census map 1941 (direct)'?'1941 Census of India district map, drawn directly (smaller than a modern sub-district; position ±15 km)':src==='mixed'?'1941 census map + modern districts beyond its coverage':'reconstructed from modern districts (outside the 1941 map)'}</div>`;
+  if(r){h+=`<div style="margin-top:8px">${year==='all'?'All years':year}: <b>${r.na||0}</b> age tables, <b>${r.nt||0}</b> tables in total.</div>`+figTable(r)}
+  if(!pid.startsWith('map1941:'))h+=`<div><a href="place.html?k=${encodeURIComponent(pid)}">→ everything we have for ${esc(p.n)}</a></div>`;
+  else h+=`<div class=muted>Shown from the 1941 census map; no table in the corpus names it.</div>`;
+  h+=`<button class=btn onclick="showSub('${pid}')">Show subdivisions ▾</button>`;
   document.getElementById('detail').innerHTML=h}
-svg.addEventListener('mousemove',ev=>{const g=ev.target.dataset&&ev.target.dataset.g;if(!g){tip.style.display='none';return}
-  const u=G.units.find(x=>x.gid===g),r=yv(u),hs=D.hist[g]||[];const b=svg.parentElement.getBoundingClientRect();
-  tip.innerHTML=`<b>${esc(u.name.replace(/([a-z])([A-Z])/g,'$1 $2'))}</b>`+(hs.length?`<br>historical: ${hs.map(k=>esc(D.places[k].n)).join(', ')}`:'')+
-   (r?`<br>${r.na||0} district age tables${r.m&&layer!=='coverage'&&r.m[layer]!=null?' · '+LAYERS[layer]+': '+r.m[layer].toFixed(1)+(r.lvl==='province'?' (provincial)':''):''}`:'<br>no data this year');
-  tip.style.display='block';tip.style.left=(ev.clientX-b.left+14)+'px';tip.style.top=(ev.clientY-b.top+14)+'px'});
+function detailModern(gid){const u=U[gid];if(!u)return;const r=(D.units[gid]||{})[year];const e=D.units[gid]||{};
+  let h=`<h3>${esc(nice(u.name))}</h3><div class=muted>modern district · ${esc(nice(u.admin1))}, ${esc(D.countries[u.country]||u.country)}</div>`;
+  const hs=(D.hist[gid]||[]);
+  if(hs.length)h+=`<div style="margin-top:8px"><b>Historical unit${hs.length>1?'s':''}:</b> `+hs.map(k=>`<a href="place.html?k=${encodeURIComponent(k)}">${esc(D.places[k].n)}</a> <span class=muted>(${esc(D.places[k].p||'')}${D.places[k].tier?' · tier '+D.places[k].tier:''})</span>`).join(', ')+'</div>';
+  if(e.prov)h+=`<div class=muted style="margin-top:4px">province/state: <a href="place.html?k=${encodeURIComponent(e.prov)}">${esc((D.places[e.prov]||{}).n||e.prov)}</a>${e.prov_how==='nearest'?' (assigned by nearest matched district)':''}</div>`;
+  if(r){h+=`<div style="margin-top:8px">${year==='all'?'All years':year}: <b>${r.na||0}</b> district-level age tables, <b>${r.nt||0}</b> district-level tables in total.</div>`+figTable(r)}
+  else h+=`<div style="margin-top:8px" class=muted>No tables in the corpus for this area in ${year}.</div>`;
+  if(hs.length)h+=`<div style="margin-top:8px"><a href="place.html?k=${encodeURIComponent(hs[0])}">→ everything we have for ${esc(D.places[hs[0]].n)}</a></div>`;
+  h+=`<button class=btn onclick="showSub(null,'${gid}')">Show subdivisions ▾</button>`;
+  document.getElementById('detail').innerHTML=h}
+// ---- subdivision view (lazy-loaded) ----
+let SUB=null;
+async function showSub(pid,gid){const box=document.getElementById('sub');box.style.display='block';box.innerHTML='<p class=muted>Loading subdivisions…</p>';
+  if(!SUB)SUB=await (await fetch('data/subdiv.json')).json();
+  const gids=pid?((D.hmod[year]||{})[pid]||'').split('|').filter(Boolean):[gid];
+  const title=pid?(D.places[pid]||{}).n:nice(U[gid].name);
+  const units=gids.flatMap(g=>SUB.l2[g]||[]);
+  const ys=year==='all'?D.years:[year];
+  const stat=pl=>{const p=SUB.pl[pl];let n=0,a=0;ys.forEach(y=>{const v=(p.cy||{})[y];if(v){n+=v[0];a+=v[1]}});return [n,a]};
+  // a subdivision belongs here if this unit is among its ancestors; others (e.g. a Cochin State
+  // taluk inside modern Ernakulam, which Travancore also covered) are shown as context only
+  // .a = the subdivision's recorded district/state ancestors (provinces excluded)
+  const mine=x=>!pid||!(SUB.pl[x].a||[]).length||(SUB.pl[x].a||[]).includes(pid);
+  let paths='',labels='',located=new Set(),other=new Set();
+  for(const [g3,name,d] of units){const all=SUB.match[g3]||[],pls=all.filter(mine);all.filter(x=>!mine(x)).forEach(x=>other.add(x));pls.forEach(x=>located.add(x));
+    let n=0,a=0;pls.forEach(x=>{const [nn,aa]=stat(x);n+=nn;a+=aa});
+    const f=a?'#3f9a5c':n?'#a8d5b2':pls.length?'#e3ece6':all.length?'#d9dee3':'#e9edf1';
+    paths+=`<path d="${d}" fill="${f}" data-s="${g3}" data-mine="${pls.length?1:0}"><title>${esc(name||'(unnamed)')}${pls.length?' — '+pls.map(x=>SUB.pl[x].n).join(', ')+`: ${n} tables (${a} with ages) in ${year==='all'?'all years':year}`:all.length?' — '+all.map(x=>SUB.pl[x].n+' ('+SUB.pl[x].pn+')').join(', '):' — no historical subdivision matched'}</title></path>`}
+  const un=gids.flatMap(g=>SUB.un[g]||[]).filter(mine);
+  box.innerHTML=`<h3>Subdivisions of ${esc(title)}</h3><div class=muted>Modern sub-district units (GADM 4.1 level 3) inside its area. Historical taluks/tahsils/townships/towns are placed on a unit only when the unit lies in the right district <i>and</i> the names match; ${located.size} located here${un.length?', '+un.length+' listed below without a location':''}. Pakistan has no finer GADM level than the district.</div>
+   <div class=legend><i style="background:#3f9a5c"></i>age tables ${year==='all'?'':'in '+year} <i style="background:#a8d5b2"></i>tables, no ages <i style="background:#e3ece6"></i>matched, nothing this year <i style="background:#d9dee3"></i>belongs to a neighbouring unit <i style="background:#e9edf1"></i>no historical subdivision matched</div>
+   ${units.length?`<svg id=subsvg>${paths}<g id=sublbl></g></svg>`:'<p class=muted>No level-3 geometry for this area.</p>'}
+   <div class=sublist>${[...located].sort((a,b)=>SUB.pl[a].n.localeCompare(SUB.pl[b].n)).map(x=>{const [n,a]=stat(x);return `<div><a href="place.html?k=${encodeURIComponent(x)}">${esc(SUB.pl[x].n)}</a> <span class=muted>${n} tables${a?', '+a+' with ages':''}</span></div>`}).join('')}
+   ${un.map(x=>{const [n,a]=stat(x);return `<div><a href="place.html?k=${encodeURIComponent(x)}">${esc(SUB.pl[x].n)}</a> <span class=muted>(not located) ${n} tables</span></div>`}).join('')}</div>
+   ${other.size?`<div class=muted style="margin-top:6px">Also inside this area but belonging to a neighbouring unit: ${[...other].map(x=>`<a href="place.html?k=${encodeURIComponent(x)}">${esc(SUB.pl[x].n)}</a> (${esc(SUB.pl[x].pn)})`).join(', ')}</div>`:''}`;
+  const s=document.getElementById('subsvg');
+  if(s){const bb=s.getBBox();s.setAttribute('viewBox',`${bb.x-1} ${bb.y-1} ${bb.width+2} ${bb.height+2}`);
+    const k=Math.max(bb.width,bb.height)/60;let lb='';
+    s.querySelectorAll('path').forEach(p=>{const g3=p.dataset.s,pls=(SUB.match[g3]||[]).filter(mine);if(!pls.length)return;const b=p.getBBox();
+      lb+=`<text x="${b.x+b.width/2}" y="${b.y+b.height/2}" style="font-size:${k.toFixed(2)}px">${esc(SUB.pl[pls[0]].n.replace(/ (Taluk|Tahsil|Township|Subdivision|Thana|Town|Pargana)$/,''))}</text>`;
+      p.style.cursor='pointer';p.onclick=()=>location.href='place.html?k='+encodeURIComponent(pls[0])});
+    document.getElementById('sublbl').innerHTML=lb}
+  box.scrollIntoView({behavior:'smooth',block:'start'})}
+// ---- interaction ----
+function hit(ev){const t=ev.target;return t.dataset?{p:t.dataset.p,g:t.dataset.g}:{}}
+svg.addEventListener('mousemove',ev=>{const {p,g}=hit(ev);if(!p&&!g){tip.style.display='none';return}
+  const b=svg.parentElement.getBoundingClientRect();let h='';
+  if(p){const pl=D.places[p]||{n:pname(p),p:'not separately in this census’s tables'},r=(D.hu[year]||{})[p];h=`<b>${esc(pl.n)}</b><br><span style="opacity:.8">${esc(pl.p||'')}</span>`+
+     (r?`<br>${r.na||0} age tables · ${r.nt||0} tables${r.m&&layer!=='coverage'&&r.m[layer]!=null?'<br>'+LAYERS[layer]+': '+r.m[layer].toFixed(1)+(r.lvl==='province'?' (provincial)':''):''}`:'')}
+  else{const u=U[g],r=(D.units[g]||{})[year],hs=D.hist[g]||[];h=`<b>${esc(nice(u.name))}</b>`+(hs.length?`<br>historical: ${hs.map(k=>esc(D.places[k].n)).join(', ')}`:'')+
+     (r?`<br>${r.na||0} district age tables${r.m&&layer!=='coverage'&&r.m[layer]!=null?' · '+LAYERS[layer]+': '+r.m[layer].toFixed(1)+(r.lvl==='province'?' (provincial)':''):''}`:'<br>no data this year')}
+  tip.innerHTML=h;tip.style.display='block';tip.style.left=(ev.clientX-b.left+14)+'px';tip.style.top=(ev.clientY-b.top+14)+'px'});
 svg.addEventListener('mouseleave',()=>tip.style.display='none');
-svg.addEventListener('click',ev=>{const g=ev.target.dataset&&ev.target.dataset.g;if(!g)return;sel=g;draw();detail(g)});
+svg.addEventListener('click',ev=>{const {p,g}=hit(ev);if(p){sel=p;draw();detailHist(p)}else if(g){sel=g;draw();detailModern(g)}});
 function buttons(id,items,cur,cb){document.getElementById(id).innerHTML=items.map(([k,l])=>`<button data-k="${k}" class="${k==cur?'on':''}">${l}</button>`).join('');
   document.getElementById(id).onclick=e=>{const k=e.target.dataset.k;if(!k)return;cb(k);[...e.currentTarget.children].forEach(b=>b.classList.toggle('on',b.dataset.k==k))}}
-const q=new URLSearchParams(location.search);if(q.get('y'))year=q.get('y');if(q.get('l'))layer=q.get('l');
-buttons('years',[['all','All'],...D.years.map(y=>[y,y])],year,k=>{year=k;draw();if(sel)detail(sel)});
+const q=new URLSearchParams(location.search);if(q.get('y'))year=q.get('y');if(q.get('l'))layer=q.get('l');if(q.get('b'))mode=q.get('b');
+buttons('years',[['all','All'],...D.years.map(y=>[y,y])],year,k=>{year=k;draw();if(sel)(mode==='hist'?(D.hu[year]||{})[sel]&&detailHist(sel):detailModern(sel))});
 buttons('layers',Object.entries(LAYERS),layer,k=>{layer=k;draw()});
+buttons('borders',[['hist','Historical districts (reconstructed)'],['modern','Modern districts']],mode,k=>{mode=k;sel=null;draw();document.getElementById('detail').innerHTML='<span class=muted>Hover or click a district on the map.</span>'});
 draw();
 </script></body></html>
