@@ -311,8 +311,10 @@ def main():
     for g in units:
         if g in gid_prov:
             units[g]["prov"] = gid_prov[g]; units[g]["prov_how"] = how_prov[g]
+    # the district itself first, then states/smaller units inside it (e.g. Gurgaon before Pataudi State)
     hist = {g: sorted({pid for pid in pids if places[pid]["kind"] in LOCAL_KINDS} or set(pids),
-                      key=lambda k: -len(links.get(k, [])))[:4] for g, pids in gid_places.items()}
+                      key=lambda k: (places[k]["kind"] != "district", -len(links.get(k, []))))[:4]
+            for g, pids in gid_places.items()}
     used = {p for v in hist.values() for p in v} | set(gid_prov.values())
     json.dump({"units": units, "hist": hist, "summary": summary, "years": YEARS, "default_year": "1901",
                "countries": COUNTRIES,
