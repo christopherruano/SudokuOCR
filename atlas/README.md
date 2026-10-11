@@ -269,16 +269,24 @@ in `atlas/`; every decision is in `out/column_fix_log.csv`.
    are taken off the site (`out/withdrawn_wrong_scan.csv`). Each old address shows a
    notice explaining why.
 
-10. **Outcome** (`out/column_fix_log.csv`):
+10. **Outcome** (`out/column_fix_log.csv`; 2,380 tables corrected):
 
     | check verdict | corrected | kept as before, with a page note | withdrawn |
     |---|---|---|---|
-    | Persons/Total missing | 1,302 | 304 | |
-    | columns invented | 276 | 176 | |
-    | columns missing | 171 | 172 | |
-    | columns mislabelled | 141 | 40 | |
-    | columns shifted | 12 | 16 | |
-    | wrong scan | 19 (relinked) | | 358 |
+    | Persons/Total missing | 1,536 | 70 |  |
+    | columns invented | 377 | 75 |  |
+    | columns missing | 261 | 82 |  |
+    | columns mislabelled | 167 | 14 |  |
+    | columns shifted | 20 | 8 |  |
+    | wrong scan | 19 (relinked) |  | 358 |
+
+    A second pass recovered tables the first could not correct:
+    - **Three-way vote:** a third independent reading (Gemini 3.7 Flash), with each cell
+      decided by majority, for tables where Flash and Pro disagreed.
+    - **Targeted Persons reading:** each added cell is still verified as Males + Females.
+    - **Column withholding:** only the columns whose printed totals do not add up are left
+      blank, instead of rejecting the table.
+    - **Retries** of failed second readings.
 
     A table is "kept as before" if its corrected reading did not pass every gate, or if
     no second reading could be obtained. It keeps its original data with a visible note

@@ -20,15 +20,27 @@ def load(name):
 def main():
     flags = collections.defaultdict(list)
     counts = {}
-    for r in load("column_count_check.csv"):
-        counts[r["page"]] = r
-        if r["verdict"]:
-            flags[r["page"]].append(f"{r['verdict']}: printed {r['printed_per_page']} per page, digitized {r['digitized']}")
-    for r in load("column_consistency.csv"):
-        flags[r["page"]] += r["issues"].split(" || ")
-    for r in load("column_audit_detail.csv"):
-        if r["reason"].split(" ")[0] in ("frozen", "duplicate", "dead") and r["level"] == "col":
-            flags[r["page"]].append(f"{r['reason'].split(' (')[0]} column: {r['column_or_row'][-60:]}")
+    fixlog = os.path.join(OUT, "column_fix_log.csv")
+    if os.path.exists(fixlog):     # after the correction pass: review only what is still uncorrected
+        for r in csv.DictReader(open(fixlog)):
+            if r["decision"] in ("accept", "withdrawn"):
+                continue
+            g = r["failed_gates"]
+            why = ("no second reading could be obtained" if r["decision"] in ("held", "error") else
+                   "Persons column could not be verified as Males + Females" if r["check_verdict"] == "persons_only_missing" else
+                   "the independent readings disagree on more than 10% of cells" if "two_readings_agree" in g else
+                   "the column check still fails on the new reading" if "check" in g else
+                   "printed totals do not add up" if "sums" in g else g)
+            flags[r["page"]].append(f"{r['check_verdict'].replace('_', ' ')}: not corrected because {why}")
+    else:                          # before it: every detector flag
+        for r in load("column_count_check.csv"):
+            if r["verdict"]:
+                flags[r["page"]].append(f"{r['verdict']}: printed {r['printed_per_page']} per page, digitized {r['digitized']}")
+        for r in load("column_consistency.csv"):
+            flags[r["page"]] += r["issues"].split(" || ")
+        for r in load("column_audit_detail.csv"):
+            if r["reason"].split(" ")[0] in ("frozen", "duplicate", "dead") and r["level"] == "col":
+                flags[r["page"]].append(f"{r['reason'].split(' (')[0]} column: {r['column_or_row'][-60:]}")
     con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
     tid_of = {hashlib.md5(t.encode()).hexdigest()[:7]: t for (t,) in con.execute("select table_id from tables")}
     meta = {t: (fam, title) for t, fam, title in con.execute("select table_id, table_family, title from tables")}

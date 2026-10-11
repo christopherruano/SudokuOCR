@@ -78,6 +78,12 @@ def main(dry=False):
             # only individually verified Persons cells enter; the old M/F are kept unchanged, so the
             # whole-reading gates are irrelevant here
             facts, persons_added = persons_merge(ORIG[tid], d["read"], tid, t["measure_class"])
+            ppath = os.path.join(HERE, "out", "reread_persons", page + ".json")
+            pread = (json.load(open(ppath)).get("read") if os.path.exists(ppath) else None)
+            if pread:                         # targeted Persons-only reading: add any further verified cells
+                facts2, n2 = persons_merge(facts, pread, tid, t["measure_class"], all_persons=True)
+                if n2:
+                    facts, persons_added = facts2, persons_added + n2
             d["gates"] = {"persons_verified": persons_added > 0}
             d["decision"] = "accept" if persons_added > 0 else "reject"
         voted = None
@@ -88,7 +94,12 @@ def main(dry=False):
             if not prd.get("read"):
                 d = dict(d, decision="held")          # no second reading yet
             else:
-                cells, vst = V_.vote(d["read"], prd["read"])
+                tp = os.path.join(HERE, "out", "reread_third", page + ".json")
+                trd = json.load(open(tp)) if os.path.exists(tp) else {}
+                if trd.get("read"):          # a third independent reading: majority of three per cell
+                    cells, vst = V_.vote3(d["read"], prd["read"], trd["read"]); vst["readings"] = 3
+                else:
+                    cells, vst = V_.vote(d["read"], prd["read"])
                 cov = (vst.get("agreed", 0) + vst.get("resolved", 0) - vst.get("withheld_by_arithmetic", 0)) / max(1, vst["flash_cells"])
                 skip = set(V_.WITHHELD)
                 vread = read_from_cells(cells)
@@ -96,7 +107,19 @@ def main(dry=False):
                 # values actually published, skipping columns that have a withheld (blank) cell
                 gates, stats = R.regate(d, ORIG[tid], t["measure_class"])
                 gates["sums"] = not R.sum_failures(vread, skip)
-                gates["two_readings_agree"] = cov >= 0.9
+                cols_withheld = 0
+                if not gates["sums"]:
+                    # withhold only the columns whose printed totals do not add up; publish the rest
+                    badc = R.sum_failure_cols(vread, skip)
+                    before = sum(1 for c in cells)
+                    cells = [c for c in cells if (DASH.sub("-", c[0] or ""), DASH.sub("-", c[2] or ""), DASH.sub("-", c[3] or "")) not in
+                             {(DASH.sub("-", a or ""), DASH.sub("-", b or ""), DASH.sub("-", c_ or "")) for a, b, c_ in badc}]
+                    vread = read_from_cells(cells)
+                    cols_withheld = len(badc)
+                    cov = cov * (len(cells) / max(1, before))
+                    gates["sums"] = not R.sum_failures(vread, skip) and cov >= 0.7
+                    vst = dict(vst, columns_withheld_by_totals=cols_withheld)
+                gates["two_readings_agree"] = cov >= (0.9 if not cols_withheld else 0.7)
                 # with every published cell confirmed by two independent readings, agreement with
                 # the OLD reading is no longer a digit-safety test (and the old reading is what was
                 # broken); it is kept in the log only
@@ -139,8 +162,12 @@ def main(dry=False):
             how = ""
             if voted:
                 wh = voted.get("withheld", 0) + voted.get("withheld_by_arithmetic", 0) + voted.get("unmatched", 0)
-                how = ("; every published cell was read identically by two independent models (Gemini 3.8 Flash and "
-                       "3.1 Pro) or settled by the table's printed totals" + (f"; {wh} cells on which they disagreed are left blank" if wh else ""))
+                how = (("; every published cell was given by at least two of three independent readings (Gemini 3.8 Flash, "
+                        "3.1 Pro and 3.7 Flash) or settled by the table's printed totals") if voted.get("readings") == 3 else
+                       "; every published cell was read identically by two independent models (Gemini 3.8 Flash and "
+                       "3.1 Pro) or settled by the table's printed totals" + (f"; {wh} cells on which they disagreed are left blank" if wh else "")
+                       + (f"; {voted['columns_withheld_by_totals']} columns whose printed totals did not add up are left blank"
+                          if voted.get("columns_withheld_by_totals") else ""))
             notes[tid] = f"Re-read after automated column check ({TAG}): {what}{how}."
         elif d.get("decision") == "held":
             if verdict == "wrong_scan" or d.get("relinked"):
@@ -282,25 +309,35 @@ def read_from_cells(cells):
     return out
 
 
-def persons_merge(old, read, tid, measure):
+def persons_merge(old, read, tid, measure, all_persons=False):
     """Persons-only fix that never changes a previously read number: keep every old fact and add
     a Persons cell only where it is verified -- count tables: new Persons == old Males + old
     Females (within 0.5); other tables: the re-read's Males and Females for that row/column
     equal the old ones exactly (so the row/column alignment of the new Persons is proven)."""
     n = lambda x: re.sub(r"[^a-z0-9]", "", (x or "").lower())
     key = lambda f: (n(f["row_label_std"]), n((f["column_group_std"] or "").split(" / ")[-1]))
+    def sx(f):
+        return f.get("sex") if f.get("sex") in ("Male", "Female", "All") else \
+            R.sex_of(f.get("sub_column_std"), f.get("column_group_std"), f.get("section"), f.get("row_label_std"))
+    def key2(f):           # the sex word removed from the key, wherever it sits
+        strip = lambda x: re.sub(r"(?i)\b(fe)?males?\b|\bpersons\b|both sexes|\btotal\b", "", x or "")
+        return (n(strip(f.get("section"))), n(strip(f["row_label_std"])), n(strip((f["column_group_std"] or "").split(" / ")[-1])))
     oldk = collections.defaultdict(dict)
     for f in old:
-        if f["sex"] in ("Male", "Female") and f["value"] is not None:
-            oldk[key(f)].setdefault(f["sex"], f)
+        if sx(f) in ("Male", "Female") and f["value"] is not None:
+            oldk[key(f)].setdefault(sx(f), f); oldk[("2",) + key2(f)].setdefault(sx(f), f)
     newk = collections.defaultdict(dict)
     for f in R.to_facts(read, tid, {}, ""):
-        newk[key(f)].setdefault(f["sex"], f)
+        if all_persons:      # a Persons-only reading: every column is a Persons/Total column ("P", "Total")
+            f["sex"] = "All"
+        newk[key(f)].setdefault(f["sex"], f); newk[("2",) + key2(f)].setdefault(f["sex"], f)
     added = []
     for k, d in newk.items():
         if "All" not in d or k not in oldk or not {"Male", "Female"} <= set(oldk[k]):
             continue
-        if any(f["sex"] == "All" for f in old if key(f) == k):
+        if any(sx(f) == "All" and (key(f) == k or ("2",) + key2(f) == k) for f in old):
+            continue
+        if k[0] == "2" and any(a.get("sex") == "All" and (("2",) + key2(a)) == k for a in added):
             continue
         P, M, F = float(d["All"]["value"]), float(oldk[k]["Male"]["value"]), float(oldk[k]["Female"]["value"])
         if measure == "count":
@@ -308,7 +345,11 @@ def persons_merge(old, read, tid, measure):
         else:
             ok = ("Male" in d and "Female" in d and float(d["Male"]["value"]) == M and float(d["Female"]["value"]) == F)
         if ok:
-            f = dict(oldk[k]["Male"]); f.update(sub_column_std=d["All"]["sub_column_std"] or "persons", sex="All", value=P)
+            f = dict(oldk[k]["Male"])        # table metadata from the existing cell, labels from the Persons cell read
+            if k[0] == "2":
+                f.update(section=d["All"]["section"], row_label_std=d["All"]["row_label_std"],
+                         column_group_std=d["All"]["column_group_std"])
+            f.update(sub_column_std=d["All"]["sub_column_std"] or "persons", sex="All", value=P)
             added.append(f)
     return [dict(f) for f in old] + added, len(added)
 

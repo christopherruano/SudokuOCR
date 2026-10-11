@@ -29,6 +29,7 @@ MODEL = "gemini-3.8-flash"
 FIX = {"persons_only_missing", "columns_mislabelled", "columns_missing", "columns_invented", "columns_shifted"}
 MAX_PAGES = 6
 SECOND = False          # independent second reading (no column re-check; cells are voted)
+PERSONS_ONLY = False    # targeted reading of the Persons/Total columns only
 FACING = {"columns_invented", "columns_mislabelled", "columns_missing", "columns_shifted"}   # offer facing pages
 
 READ_PROMPT = """Transcribe the census table "{title}" ({year}, {place}) from the scanned page(s) below, exactly as printed.
@@ -194,7 +195,26 @@ def one_digit_off(a, b):
     return len(x) == len(y) and sum(c1 != c2 for c1, c2 in zip(x, y)) == 1
 
 
+def sum_failure_cols(read, skip=()):
+    """(section, group, sub) of the columns sum_failures() reports"""
+    out = set()
+    for sec in read["sections"]:
+        one = {"sections": [sec]}
+        for col in sec["columns"]:
+            k = (sec["name"], col["group"], col["sub"])
+            if k in skip:
+                continue
+            others = set(skip) | {(sec["name"], c["group"], c["sub"]) for c in sec["columns"] if c is not col}
+            if _sum_failures(one, others):
+                out.add(k)
+    return out
+
+
 def sum_failures(read, skip=()):
+    return _sum_failures(read, skip)
+
+
+def _sum_failures(read, skip=()):
     """columns whose printed Total row disagrees with the sum of the rows above it by what looks
     like one misread digit. Rows that are themselves subtotals are skipped; a column only counts
     when its bands sum to the total in no other reading of the rows (e.g. with subtotals)."""
@@ -318,7 +338,11 @@ def reread_one(client, it, check, relink):
                 "them as a facing page. Use them only if they continue this same table.")
     parts, labels = page_parts(it, extra)
     rows = list(dict.fromkeys(it["row_labels"]))[:200]
-    parts.append(types.Part.from_text(text=READ_PROMPT.format(
+    prompt = READ_PROMPT
+    if PERSONS_ONLY:
+        prompt = READ_PROMPT + ("\n\nIMPORTANT: transcribe ONLY the printed Persons / Total / Both-sexes value columns "
+                                "(with their headers and the row labels). Skip every Males and Females column.")
+    parts.append(types.Part.from_text(text=prompt.format(
         title=it["title"], year=it["year"], place=it["place"], pages_note=note,
         diagnosis=(check.get("note") or "")[:400] + (" Problem columns: " + "; ".join(check.get("problem_columns") or [])[:300] if check.get("problem_columns") else ""),
         printed=(check.get("printed_columns") or "")[:400], rows=json.dumps(rows, ensure_ascii=False)[:6000])))
@@ -484,9 +508,12 @@ if __name__ == "__main__":
     ap.add_argument("--model", default=None, help="model for an independent second reading")
     ap.add_argument("--outdir", default=None)
     ap.add_argument("--pages-file", default=None, help="restrict to these page ids")
+    ap.add_argument("--persons-only", action="store_true")
     a = ap.parse_args()
     if a.model:
         MODEL = a.model; SECOND = True
+    if a.persons_only:
+        PERSONS_ONLY = True; SECOND = True
     if a.outdir:
         OUTD = a.outdir; os.makedirs(OUTD, exist_ok=True)
     if a.pages_file:

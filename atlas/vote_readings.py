@@ -162,3 +162,44 @@ def _pmf_guard(out, st):
                         drop.add(d[k])
     st["withheld_by_arithmetic"] = len(drop)
     return [c for i, c in enumerate(out) if i not in drop]
+
+
+def _match(fr, other):
+    """index of each cell of reading fr -> the matching cell of `other` (label, then position)"""
+    fc, oc = cells_of(fr), cells_of(other)
+    oidx = _index(oc)
+    opos = {(c["si"], c["ri"], c["ci"]): c for c in oc}
+    shape = {si: _same_shape(fr, other, si) for si in range(len(fr["sections"]))}
+    used = collections.Counter(); m = {}
+    for i, c in enumerate(fc):
+        lst = oidx.get(c["key"], [])
+        k = used[c["key"]]; used[c["key"]] += 1
+        if k < len(lst):
+            m[i] = lst[k]
+        elif shape.get(c["si"]) and (c["si"], c["ri"], c["ci"]) in opos:
+            m[i] = opos[(c["si"], c["ri"], c["ci"])]
+    return fc, m
+
+
+def vote3(fr, pr, tr):
+    """majority of three independent readings per cell (Flash layout): a value is published when
+    at least two readings give it; otherwise the printed totals decide, else it is withheld"""
+    WITHHELD.clear()
+    fc, mp = _match(fr, pr)
+    _, mt = _match(fr, tr)
+    out, st = [], collections.Counter(flash_cells=len(fc))
+    for i, c in enumerate(fc):
+        vals = [c["value"]] + [m[i]["value"] for m in (mp, mt) if i in m]
+        cnt = collections.Counter(vals)
+        v, n = cnt.most_common(1)[0]
+        if n >= 2:
+            st["agreed"] += 1; out.append(dict(c, value=v))
+        else:
+            fits = [x for x in set(vals) if _fits(fr, c, x)]
+            if len(fits) == 1:
+                st["resolved"] += 1; out.append(dict(c, value=fits[0]))
+            else:
+                st["withheld"] += 1; WITHHELD.append((c["sec"], c["group"], c["sub"]))
+    keep = _pmf_guard(out, st)
+    WITHHELD.extend((c["sec"], c["group"], c["sub"]) for c in out if c not in keep)
+    return [(c["sec"], c["row"], c["group"], c["sub"], c["value"], (c["si"], c["ri"])) for c in keep], dict(st)
