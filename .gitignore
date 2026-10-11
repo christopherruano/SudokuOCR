@@ -66,3 +66,9 @@ atlas/out/metrics_raw.pkl
 mapdata/gadm_l3/
 mapdata/historical_districts/
 mapdata/district_evolution/
+
+# column check (2026-10): large generated files, kept on disk + Expansion drive; regenerate with atlas/apply_column_fixes.py
+atlas/out/native_scans/
+atlas/out/column_fix_original_facts.jsonl
+export_final/sendout_final/sendout_v1/corrected_facts.csv
+export_final/sendout_final/sendout_v1/added_pages/

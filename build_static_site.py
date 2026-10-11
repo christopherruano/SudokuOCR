@@ -21,6 +21,8 @@ SV1 = os.path.dirname(os.path.abspath(ce.DB))   # sendout_v1 dir
 for sub in ("", "tables", "img", "data"):
     os.makedirs(os.path.join(OUT, sub), exist_ok=True)
 DISTRICTISH = {"district", "sub_district", "urban", "division"}
+_fb = os.path.join(SV1, "page_images_fallback.json")
+FALLBACK = json.load(open(_fb)) if os.path.exists(_fb) else {}
 
 
 def esc(s):
@@ -179,8 +181,16 @@ def main():
             locs = []
             for p in parts:
                 loc = ce.resolve_img(p.strip())
+                if not loc:   # export/ now lives on the Expansion drive; else reuse the scan already on the site
+                    _alt = p.strip().replace(ROOT, "/Volumes/Expansion/SudokuOCR")
+                    _jpg = os.path.join(OUT, "img", os.path.splitext(os.path.basename(p.strip()))[0] + ".jpg")
+                    loc = _alt if os.path.exists(_alt) else (_jpg if os.path.exists(_jpg) else None)
                 if loc and os.path.basename(loc) not in [os.path.basename(x) for x in locs]:
                     locs.append(loc)
+            if not locs:   # scans recorded for the published page (page_images_fallback.json), already on the site
+                for jb in FALLBACK.get(pg.rsplit("_", 1)[1], []):
+                    if os.path.exists(os.path.join(OUT, "img", jb)):
+                        locs.append(os.path.join(OUT, "img", jb))
             imgs_html = []
             for n, loc in enumerate(locs, 1):
                 # compress scans to JPEG (grayscale, downscale) so the deploy stays small + fast

@@ -211,6 +211,87 @@ province of the nearest mapped district in the same modern state, and are marked
   - 111 have no cell data anywhere in the archive. They are listed as "not yet
     published" and need the cluster copy of `unified_facts.csv`.
 
+## Column-structure audit and correction (October 2026)
+
+Digit accuracy had been verified, but column structure had not. A column can be dropped,
+invented, shifted or given the wrong header (e.g. printed Married/Unmarried/Widowed stored
+as persons/males/females). Every published table was therefore checked column by column
+against its scan, and the faulty ones were re-read under strict gates. All scripts are
+in `atlas/`; every decision is in `out/column_fix_log.csv`.
+
+1. **Detection** (`gemini_column_check.py`): Gemini 3.8 Flash compares each table's digitized
+   columns, with their first values, to the scan. It uses the page image embedded in the
+   source PDF (about 1,400 × 2,300 px) and gives one of eight verdicts.
+2. **Calibration.** On 177 tables, the detector was compared with independent Claude
+   reviewers who read the scans (`out/column_review_sample.jsonl`). Agreement was 95%
+   (κ 0.93); it caught 97% of the tables the reviewers said needed fixing.
+3. **Confirmation.** A blind, stratified sample of 190 tables (about 25 per verdict) was
+   reviewed by Claude. The verdicts confirmed were: ok 98%, Persons-only 96%, mislabelled
+   96%, wrong scan 100%, missing 84%, invented 60%, shifted 12%. A weak verdict only sends a
+   table to re-reading; it never changes data by itself.
+4. **Corpus estimate** (5,177 tables, reweighted by those confirmation rates):
+
+   | status | share |
+   |---|---|
+   | columns correct | 45% |
+   | only the printed Persons/Total column missing | 32% |
+   | other column problems | 16% |
+   | linked scan does not contain the table | 7% |
+
+5. **Re-reading** (`reread_columns.py`): flagged tables are re-transcribed from the PDF
+   page images with the diagnosis and the existing row labels. Facing pages are offered
+   when the table continues onto them. Wrong-scan tables use the correct page, found among
+   the neighbouring pages (`find_right_scan.py`).
+6. **Persons-only fixes** (`apply_column_fixes.py`): no existing value is changed. A
+   Persons cell is added only where it equals the existing Males + Females (count tables),
+   or where the re-read's Males and Females equal the existing ones exactly.
+7. **Structural fixes** (`vote_readings.py`): a second, independent reading by Gemini 3.1
+   Pro. A cell is published only if:
+   - both readings give the same value; or
+   - they disagree and the table's printed totals decide between them.
+
+   Cells where Persons ≠ Males + Females by one digit are withheld. Any other unresolved
+   cell is left blank and counted in the table's note. A table is accepted only if:
+   - an independent column check of the new reading passes;
+   - its numbers overlap the previous reading (label-free);
+   - Persons = Males + Females holds;
+   - its own printed totals hold;
+   - at least 90% of its cells are confirmed by both readings.
+8. **Measured accuracy.** Claude reviewers checked 1,138 random cells from 96 re-read tables
+   against the scans:
+   - single reading: 97.0% correct;
+   - cells both models read identically: 100% (228/228);
+   - published cells after voting and arithmetic: 99.7% (337/338).
+
+   The one residual error is a misread shared by both models and consistent with the
+   printed totals.
+9. **Withdrawn tables.** Wrong-scan tables whose data could not be found on a nearby page
+   are taken off the site (`out/withdrawn_wrong_scan.csv`). Each old address shows a
+   notice explaining why.
+
+10. **Outcome** (`out/column_fix_log.csv`):
+
+    | check verdict | corrected | kept as before, with a page note | withdrawn |
+    |---|---|---|---|
+    | Persons/Total missing | 1,302 | 304 | |
+    | columns invented | 276 | 176 | |
+    | columns missing | 171 | 172 | |
+    | columns mislabelled | 141 | 40 | |
+    | columns shifted | 12 | 16 | |
+    | wrong scan | 19 (relinked) | | 358 |
+
+    A table is "kept as before" if its corrected reading did not pass every gate, or if
+    no second reading could be obtained. It keeps its original data with a visible note
+    and remains a target for a later pass.
+11. **Found along the way, not changed here:** 257 tables (`out/duplicated_sections_preexisting.csv`)
+    have a section whose non-zero cells repeat another section's. That is a possible copy
+    error in the original reading, listed for review.
+
+Originals are never overwritten. Corrections go to the overlay files in `sendout_v1/`
+(`corrected_facts.csv`, `corrected_tables.json`, `column_fix_overlay.json`), and the
+pre-correction facts of every changed table are kept in
+`out/column_fix_original_facts.jsonl`.
+
 ## Worked example (checked against the scan by hand)
 
 Gurgaon District, 1901, Punjab Table VII Part II (scan `census_site/img/25363739_p50.jpg`).

@@ -126,6 +126,18 @@ def main():
     else:
         print(f"  (subsumed {len(subsumed):,} member pages into assembled multi-page tables)")
     ng, _ = load(con, "geo", os.path.join(V1, "geo_reference.csv"))
+    # column-check fixes (atlas/apply_column_fixes.py): added/relinked scans and review notes
+    ov = os.path.join(V1, "column_fix_overlay.json")
+    if os.path.exists(ov):
+        ov = _json.load(open(ov))
+        for tid, im in ov.get("images", {}).items():
+            con.execute("UPDATE tables SET member_images=? WHERE table_id=?", (im, tid))
+        for tid, note in ov.get("notes", {}).items():
+            old = (con.execute("SELECT review_note FROM tables WHERE table_id=?", (tid,)).fetchone() or [""])[0] or ""
+            con.execute("UPDATE tables SET review_note=? WHERE table_id=?", ((old + " | " if old else "") + note, tid))
+        for tid, n in (_json.load(open(cpath)).get("counts", {}) if os.path.exists(cpath) else {}).items():
+            con.execute("UPDATE tables SET n_facts=? WHERE table_id=?", (n, tid))
+        print(f"  (column-fix overlay: {len(ov.get('images', {}))} scan sets, {len(ov.get('notes', {}))} notes)")
 
     for c in ("canonical_topic", "subject", "measure_class", "additive", "age_aggregate",
               "broad_region", "entity_type", "canonical_name", "year", "measure_unit", "status",

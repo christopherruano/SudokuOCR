@@ -41,7 +41,7 @@ fetch('data/places.json').then(r=>r.json()).then(P=>{
  if(p.al&&p.al.length)h+=`<div>also spelled</div><div>${p.al.map(esc).join(' · ')}</div>`;
  if(p.mod)h+=`<div>modern equivalent</div><div>${esc(p.mod)} <span class=pill>tier ${esc(p.tier)}</span> <span class=muted>${esc(p.ev||'')}</span> · <a href="atlas.html?y=${years[0]||'all'}">see on map</a></div>`;
  if(p.sib&&p.sib.length)h+=`<div>same territory, other names</div><div>${p.sib.map(c=>`<a href="place.html?k=${encodeURIComponent(c)}">${esc(P.places[c].n)}</a> <span class=muted>(${Object.keys(P.places[c].cy||{}).sort().join(', ')})</span>`).join(' · ')}</div>`;
- if(p.kids&&p.kids.length)h+=`<div>contains</div><div>${p.kids.map(c=>`<a href="place.html?k=${encodeURIComponent(c)}">${esc(P.places[c].n)}</a>`).join(', ')}</div>`;
+ if(p.kids&&p.kids.length)h+=`<div>contains</div><div>${p.kids.filter(c=>P.places[c]).map(c=>`<a href="place.html?k=${encodeURIComponent(c)}">${esc(P.places[c].n)}</a>`).join(', ')}</div>`;
  h+=`</div>`;
  h+=`<div class=complete><b>This is the complete inventory for ${esc(p.n)}.</b> ${own.length} table${own.length==1?'':'s'} in the corpus
    refer to it directly (${ageN} with an age breakdown), from ${new Set(own.map(r=>r.d)).size} census volume${new Set(own.map(r=>r.d)).size==1?'':'s'}${years.length?', census years '+years.join(', '):''}.

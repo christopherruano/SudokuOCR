@@ -98,6 +98,8 @@ def check_data(P, V, A, S):
     bad = [k for k, p in P["places"].items()
            if sum(v[0] for v in p.get("cy", {}).values()) > len([1 for i, h in p["t"] if h != "birthplace"])]
     report("data/place year counts <= listed tables", not bad, f"{len(P['places']) - len(bad)}/{len(P['places'])} consistent")
+    orphan_kids = [(k, c) for k, v in P["places"].items() for c in v.get("kids", []) if c not in P["places"]]
+    report("data/every listed sub-place exists", not orphan_kids, f"{len(orphan_kids)} missing" + (f", e.g. {orphan_kids[:2]}" if orphan_kids else ""))
     # every volume item index valid, every table in exactly one volume
     seen = collections.Counter()
     for d, v in V["vols"].items():

@@ -9,6 +9,8 @@ probs = collections.Counter(); rows = []; sizes = []
 img_ok = {}
 for f in sorted(glob.glob(os.path.join(SITE, "tables", "*.html"))):
     s = open(f, errors="replace").read()
+    if "<title>Table Withdrawn</title>" in s or "<title>Moved</title>" in s:
+        continue   # withdrawal notices and forwarding stubs carry no scan or matrix by design
     name = os.path.basename(f)
     issues = []
     imgs = re.findall(r'<img[^>]+src="\.\./img/([^"]+)"', s)

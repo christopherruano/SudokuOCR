@@ -159,6 +159,8 @@ def main():
                   "t": [[tix[tid], how] for tid, how in sorted(own, key=lambda x: (tabs[x[0]]["cy"], tabs[x[0]]["doc"], tabs[x[0]]["seq"]))]}
         regs = collections.Counter(tabs[tid]["broad_region"] for tid, _ in own if tabs[tid]["broad_region"])
         P[pid]["r"] = regs.most_common(1)[0][0] if regs else ""
+    for v in P.values():           # a child with no tables and no children of its own is not emitted
+        v["kids"] = [k for k in v["kids"] if k in P]
     def strength(check):
         return 3 if "= printed total" in check else 2 if "sums to base" in check else 1
 
