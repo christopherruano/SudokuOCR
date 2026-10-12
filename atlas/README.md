@@ -320,7 +320,22 @@ in `atlas/`; every decision is in `out/column_fix_log.csv`.
     `out/frozen_exceptions.csv`. The rest were removed in 36 tables (1,896 cells), with a
     reviewed value restored only where Persons = Males + Females confirms it.
     `verify_site.py` now fails if any published table has an unreviewed frozen row or
-    copied column.
+    copied column. Exceptions confirmed by eye outside the reviewer batches are kept in
+    `out/frozen_exceptions_manual.csv`, which is merged in on every run.
+14. **Right pages found in the source volumes** (`find_pages.py`, `verify_found_pages.py`).
+    The search covered the 451 tables still withdrawn or noted. It took each table's
+    distinct numbers (three or more significant digits) and matched them against every page
+    within ±12 pages of its linked scan in the same PDF. Pages were read from the PDF text
+    layer, or with local OCR where a page has none. A greedy cover then picked the pages
+    holding most of the table's numbers.
+    - 85 tables had at least 60% of their numbers found on a set of pages.
+    - Gemini 3.8 Flash ran the column check against those pages.
+    - Tables that checked "ok" (24), or "ok except an undigitized Persons column" (23),
+      were relinked to the found pages, with a page note.
+
+    This brought back 40 withdrawn tables, leaving 318 withdrawn, and replaced the
+    "use with care" note on 7 others. The remaining 38 are on the right page but their
+    columns still disagree with the scan, so they stay as they were.
 
 Originals are never overwritten. Corrections go to the overlay files in `sendout_v1/`
 (`corrected_facts.csv`, `corrected_tables.json`, `column_fix_overlay.json`), and the

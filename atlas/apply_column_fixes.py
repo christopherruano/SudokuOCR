@@ -222,6 +222,24 @@ def main(dry=False):
                 withdrawn.append(tid)
                 log.append({"page": page, "table_id": tid, "check_verdict": "wrong_scan", "decision": "withdrawn"})
 
+    # ---- right pages located on the drive (find_pages.py) and confirmed by the column check ----
+    fpc = os.path.join(HERE, "out", "found_pages_check.jsonl")
+    fpp = {json.loads(l)["table_id"]: json.loads(l) for l in open(os.path.join(HERE, "out", "found_pages.jsonl"))} \
+        if os.path.exists(fpc) else {}
+    for l in (open(fpc) if fpc and os.path.exists(fpc) else []):
+        d = json.loads(l); tid = d["table_id"]; r = fpp.get(tid)
+        if not r or d["verdict"] not in ("ok", "persons_only_missing") or d.get("confidence") == "low" or tid in accepted:
+            continue
+        was = "withdrawn" if tid in withdrawn else "noted"
+        withdrawn = [t for t in withdrawn if t != tid]
+        images[tid] = ";".join(add_page(r["pdf"], p) for p in r["found_pages"])
+        notes[tid] = (f"Scan relinked ({TAG}): the page(s) this table was read from were located in the source volume "
+                      f"(pages {', '.join(map(str, r['found_pages']))}; {r['coverage']:.0%} of its numbers found there) "
+                      "and its columns were confirmed against them"
+                      + ("; the printed Persons column was not digitized" if d["verdict"] == "persons_only_missing" else "") + ".")
+        log.append({"page": "", "table_id": tid, "check_verdict": d["verdict"], "decision": "relinked_" + was,
+                    "relink": json.dumps({"pdf": os.path.basename(r["pdf"]), "pages": r["found_pages"]})})
+
     # ---- frozen rows / copied and serial-number columns (reviewed) ----
     FZ = frozen_fixes(con)
     fact_by_tid = collections.defaultdict(list)
@@ -556,6 +574,9 @@ def frozen_fixes(con):
             fixes[t]["drop_cols"].add(n((g_ or "") + (s_ or ""))); fixes[t]["serial"] = True
     with open(os.path.join(HERE, "out", "frozen_exceptions.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=["page", "kind", "label", "note"]); w.writeheader(); w.writerows(exc)
+        man = os.path.join(HERE, "out", "frozen_exceptions_manual.csv")   # confirmed by eye against the scan
+        if os.path.exists(man):
+            w.writerows(csv.DictReader(open(man)))
     return fixes
 
 
@@ -619,7 +640,7 @@ def patch_db(con, accepted, new_facts, images, notes, cleared=()):
         con.execute("update tables set member_images=? where table_id=?", (im, tid))
     for tid, note in notes.items():
         old = con.execute("select review_note from tables where table_id=?", (tid,)).fetchone()[0] or ""
-        old = re.sub(r"\s*(Re-read after automated column check|Corrected after automated column check|Automated column check) \(" + re.escape(TAG) + r"\)[^|]*", "", old).strip(" |")
+        old = re.sub(r"\s*(Re-read after automated column check|Corrected after automated column check|Automated column check|Scan relinked) \(" + re.escape(TAG) + r"\)[^|]*", "", old).strip(" |")
         con.execute("update tables set review_note=? where table_id=?", ((old + " | " if old else "") + note, tid))
     con.commit()
 
