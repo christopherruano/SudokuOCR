@@ -1,0 +1,6643 @@
+[
+ {
+  "page": "1921_Jammu_and_Kashmir_TABLE_VII._AGE_SEX_AND_CIVIL_CONDITION_cc0558f",
+  "title": "TABLE VII. AGE, SEX AND CIVIL CONDITION BY RELIGION. Part II\u2014District Tables.",
+  "year": 1921,
+  "place": "Jammu and Kashmir",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/dcb12b8e29bbba21f748259c1fde8ca951115f73.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Christian | Population | Persons",
+   "Christian | Population | Males",
+   "Christian | Population | Females",
+   "Christian | Unmarried | Persons",
+   "Christian | Unmarried | Males",
+   "Christian | Unmarried | Females",
+   "Christian | Married | Persons",
+   "Christian | Married | Males",
+   "Christian | Married | Females",
+   "Christian | Widowed | Persons",
+   "Christian | Widowed | Males",
+   "All Religions | Population | Persons",
+   "All Religions | Population | Males",
+   "All Religions | Population | Females",
+   "All Religions | Unmarried | Persons",
+   "All Religions | Unmarried | Males",
+   "All Religions | Unmarried | Females",
+   "All Religions | Married | Persons",
+   "All Religions | Married | Males",
+   "All Religions | Married | Females",
+   "All Religions | Widowed | Persons",
+   "All Religions | Widowed | Males",
+   "Hindu | Population | Persons",
+   "Hindu | Population | Males",
+   "Hindu | Population | Females",
+   "Hindu | Unmarried | Persons",
+   "Hindu | Unmarried | Males",
+   "Hindu | Unmarried | Females",
+   "Hindu | Married | Persons",
+   "Hindu | Married | Males",
+   "Hindu | Married | Females",
+   "Hindu | Widowed | Persons",
+   "Hindu | Widowed | Males",
+   "Sikh | Population | Persons",
+   "Sikh | Population | Males",
+   "Sikh | Population | Females",
+   "Sikh | Unmarried | Persons",
+   "Sikh | Unmarried | Males",
+   "Sikh | Unmarried | Females",
+   "Sikh | Married | Persons",
+   "Sikh | Married | Males",
+   "Sikh | Married | Females",
+   "Sikh | Widowed | Persons",
+   "Sikh | Widowed | Males",
+   "Budh | Population | Persons",
+   "Budh | Population | Males",
+   "Budh | Population | Females",
+   "Budh | Unmarried | Persons",
+   "Budh | Unmarried | Males",
+   "Budh | Unmarried | Females",
+   "Budh | Married | Persons",
+   "Budh | Married | Males",
+   "Budh | Married | Females",
+   "Budh | Widowed | Persons",
+   "Budh | Widowed | Males",
+   "Musalman | Population | Persons",
+   "Musalman | Population | Males",
+   "Musalman | Population | Females",
+   "Musalman | Unmarried | Persons",
+   "Musalman | Unmarried | Males",
+   "Musalman | Unmarried | Females",
+   "Musalman | Married | Persons",
+   "Musalman | Married | Males",
+   "Musalman | Married | Females",
+   "Musalman | Widowed | Persons",
+   "Musalman | Widowed | Males"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.5.0",
+    "section": "Christian",
+    "row": "15-20",
+    "column": "Population | Persons",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "3.5.7",
+    "section": "Sikh",
+    "row": "15-20",
+    "column": "Married | Males",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "5.4.9",
+    "section": "Musalman",
+    "row": "10-15",
+    "column": "Widowed | Persons",
+    "readings": [
+     50.0
+    ]
+   },
+   {
+    "id": "0.5.1",
+    "section": "Christian",
+    "row": "15-20",
+    "column": "Population | Males",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "1.4.2",
+    "section": "All Religions",
+    "row": "10-15",
+    "column": "Population | Females",
+    "readings": [
+     10369.0
+    ]
+   },
+   {
+    "id": "3.1.4",
+    "section": "Sikh",
+    "row": "0-1",
+    "column": "Unmarried | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "1.4.9",
+    "section": "All Religions",
+    "row": "10-15",
+    "column": "Widowed | Persons",
+    "readings": [
+     239.0
+    ]
+   },
+   {
+    "id": "2.1.3",
+    "section": "Hindu",
+    "row": "0-1",
+    "column": "Unmarried | Persons",
+    "readings": [
+     3916.0
+    ]
+   },
+   {
+    "id": "3.8.1",
+    "section": "Sikh",
+    "row": "40-50",
+    "column": "Population | Males",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "2.7.7",
+    "section": "Hindu",
+    "row": "30-40",
+    "column": "Married | Males",
+    "readings": [
+     7584.0
+    ]
+   },
+   {
+    "id": "2.0.3",
+    "section": "Hindu",
+    "row": "Total",
+    "column": "Unmarried | Persons",
+    "readings": [
+     53169.0
+    ]
+   },
+   {
+    "id": "4.9.8",
+    "section": "Budh",
+    "row": "50-60",
+    "column": "Married | Females",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "3.4.5",
+    "section": "Sikh",
+    "row": "10-15",
+    "column": "Unmarried | Females",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "3.10.2",
+    "section": "Sikh",
+    "row": "60 and over",
+    "column": "Population | Females",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.0.2",
+    "section": "Christian",
+    "row": "Total",
+    "column": "Population | Females",
+    "readings": [
+     67.0
+    ]
+   },
+   {
+    "id": "0.3.0",
+    "section": "Christian",
+    "row": "5-10",
+    "column": "Population | Persons",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "1.5.5",
+    "section": "All Religions",
+    "row": "15-20",
+    "column": "Unmarried | Females",
+    "readings": [
+     972.0
+    ]
+   },
+   {
+    "id": "3.4.8",
+    "section": "Sikh",
+    "row": "10-15",
+    "column": "Married | Females",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "4.5.5",
+    "section": "Budh",
+    "row": "15-20",
+    "column": "Unmarried | Females",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.5.8",
+    "section": "Christian",
+    "row": "15-20",
+    "column": "Married | Females",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "3.0.0",
+    "section": "Sikh",
+    "row": "Total",
+    "column": "Population | Persons",
+    "readings": [
+     332.0
+    ]
+   },
+   {
+    "id": "4.10.0",
+    "section": "Budh",
+    "row": "60 and over",
+    "column": "Population | Persons",
+    "readings": [
+     35.0
+    ]
+   },
+   {
+    "id": "1.8.4",
+    "section": "All Religions",
+    "row": "40-50",
+    "column": "Unmarried | Males",
+    "readings": [
+     1133.0
+    ]
+   },
+   {
+    "id": "5.7.2",
+    "section": "Musalman",
+    "row": "30-40",
+    "column": "Population | Females",
+    "readings": [
+     5075.0
+    ]
+   },
+   {
+    "id": "2.1.2",
+    "section": "Hindu",
+    "row": "0-1",
+    "column": "Population | Females",
+    "readings": [
+     1933.0
+    ]
+   },
+   {
+    "id": "1.5.9",
+    "section": "All Religions",
+    "row": "15-20",
+    "column": "Widowed | Persons",
+    "readings": [
+     557.0
+    ]
+   },
+   {
+    "id": "3.8.8",
+    "section": "Sikh",
+    "row": "40-50",
+    "column": "Married | Females",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "2.2.6",
+    "section": "Hindu",
+    "row": "1-5",
+    "column": "Married | Persons",
+    "readings": [
+     40.0
+    ]
+   },
+   {
+    "id": "4.8.7",
+    "section": "Budh",
+    "row": "40-50",
+    "column": "Married | Males",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "2.7.10",
+    "section": "Hindu",
+    "row": "30-40",
+    "column": "Widowed | Males",
+    "readings": [
+     836.0
+    ]
+   },
+   {
+    "id": "4.5.2",
+    "section": "Budh",
+    "row": "15-20",
+    "column": "Population | Females",
+    "readings": [
+     26.0
+    ]
+   },
+   {
+    "id": "5.9.5",
+    "section": "Musalman",
+    "row": "50-60",
+    "column": "Unmarried | Females",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "2.3.4",
+    "section": "Hindu",
+    "row": "5-10",
+    "column": "Unmarried | Males",
+    "readings": [
+     8321.0
+    ]
+   },
+   {
+    "id": "4.2.0",
+    "section": "Budh",
+    "row": "1-5",
+    "column": "Population | Persons",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "2.10.3",
+    "section": "Hindu",
+    "row": "60 and over",
+    "column": "Unmarried | Persons",
+    "readings": [
+     717.0
+    ]
+   },
+   {
+    "id": "1.5.0",
+    "section": "All Religions",
+    "row": "15-20",
+    "column": "Population | Persons",
+    "readings": [
+     18519.0
+    ]
+   },
+   {
+    "id": "4.9.9",
+    "section": "Budh",
+    "row": "50-60",
+    "column": "Widowed | Persons",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "3.6.9",
+    "section": "Sikh",
+    "row": "20-30",
+    "column": "Widowed | Persons",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "4.10.7",
+    "section": "Budh",
+    "row": "60 and over",
+    "column": "Married | Males",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "0.3.1",
+    "section": "Christian",
+    "row": "5-10",
+    "column": "Population | Males",
+    "readings": [
+     10.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1931_Lashkar_City_TABLE_VII_-_Age_Sex_and_Civil_Condition_1af1d18",
+  "title": "TABLE VII - Age, Sex and Civil Condition. Part III - Cities \u2014 Odisha",
+  "year": 1931,
+  "place": "Lashkar City",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d0de0a641c1df1fa5f6a735122dfbfdbfc539c2e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/336038f576bd865086ed21717e5f62e4f562e325.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a63193ca0fd5c7306fd57050dd6255dc3000aa06.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/9c1410c40110f03c0871377a4a30184a38c6861a.jpg"
+  ],
+  "n_images_total": 4,
+  "reading_columns": [
+   "Lashkar City | POPULATION | Persons",
+   "Lashkar City | POPULATION | Males",
+   "Lashkar City | POPULATION | Females",
+   "Lashkar City | UNMARRIED | Persons",
+   "Lashkar City | UNMARRIED | Males",
+   "Lashkar City | UNMARRIED | Females",
+   "Lashkar City | MARRIED | Persons",
+   "Lashkar City | MARRIED | Males",
+   "Lashkar City | MARRIED | Females",
+   "Lashkar City | WIDOWED | Persons",
+   "Lashkar City | WIDOWED | Males",
+   "Lashkar City | WIDOWED | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.96.7",
+    "section": "Lashkar City",
+    "row": "30-35",
+    "column": "MARRIED | Males",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.18.9",
+    "section": "Lashkar City",
+    "row": "60-65",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     1143.0
+    ]
+   },
+   {
+    "id": "0.15.3",
+    "section": "Lashkar City",
+    "row": "45-50",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     97.0
+    ]
+   },
+   {
+    "id": "0.43.7",
+    "section": "Lashkar City",
+    "row": "0-1",
+    "column": "MARRIED | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.9.1",
+    "section": "Lashkar City",
+    "row": "15-20",
+    "column": "POPULATION | Males",
+    "readings": [
+     4729.0
+    ]
+   },
+   {
+    "id": "0.56.9",
+    "section": "Lashkar City",
+    "row": "40-45",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     251.0
+    ]
+   },
+   {
+    "id": "0.39.8",
+    "section": "Lashkar City",
+    "row": "60-65",
+    "column": "MARRIED | Females",
+    "readings": [
+     101.0
+    ]
+   },
+   {
+    "id": "0.51.8",
+    "section": "Lashkar City",
+    "row": "15-20",
+    "column": "MARRIED | Females",
+    "readings": [
+     855.0
+    ]
+   },
+   {
+    "id": "0.18.1",
+    "section": "Lashkar City",
+    "row": "60-65",
+    "column": "POPULATION | Males",
+    "readings": [
+     950.0
+    ]
+   },
+   {
+    "id": "0.111.0",
+    "section": "Lashkar City",
+    "row": "Total 0-5",
+    "column": "POPULATION | Persons",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "0.11.9",
+    "section": "Lashkar City",
+    "row": "25-30",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     806.0
+    ]
+   },
+   {
+    "id": "0.13.7",
+    "section": "Lashkar City",
+    "row": "35-40",
+    "column": "MARRIED | Males",
+    "readings": [
+     2660.0
+    ]
+   },
+   {
+    "id": "0.26.3",
+    "section": "Lashkar City",
+    "row": "4-5",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     1339.0
+    ]
+   },
+   {
+    "id": "0.43.4",
+    "section": "Lashkar City",
+    "row": "0-1",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     292.0
+    ]
+   },
+   {
+    "id": "0.48.5",
+    "section": "Lashkar City",
+    "row": "Total 0-5",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     1483.0
+    ]
+   },
+   {
+    "id": "0.66.4",
+    "section": "Lashkar City",
+    "row": "2-3",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.111.5",
+    "section": "Lashkar City",
+    "row": "Total 0-5",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     17.0
+    ]
+   },
+   {
+    "id": "0.60.9",
+    "section": "Lashkar City",
+    "row": "60-65",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     232.0
+    ]
+   },
+   {
+    "id": "0.101.11",
+    "section": "Lashkar City",
+    "row": "55-60",
+    "column": "WIDOWED | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.14.7",
+    "section": "Lashkar City",
+    "row": "40-45",
+    "column": "MARRIED | Males",
+    "readings": [
+     2226.0
+    ]
+   },
+   {
+    "id": "0.15.7",
+    "section": "Lashkar City",
+    "row": "45-50",
+    "column": "MARRIED | Males",
+    "readings": [
+     1669.0
+    ]
+   },
+   {
+    "id": "0.95.6",
+    "section": "Lashkar City",
+    "row": "25-30",
+    "column": "MARRIED | Persons",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.100.1",
+    "section": "Lashkar City",
+    "row": "50-55",
+    "column": "POPULATION | Males",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.116.2",
+    "section": "Lashkar City",
+    "row": "25-30",
+    "column": "POPULATION | Females",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.18.0",
+    "section": "Lashkar City",
+    "row": "60-65",
+    "column": "POPULATION | Persons",
+    "readings": [
+     1936.0
+    ]
+   },
+   {
+    "id": "0.113.5",
+    "section": "Lashkar City",
+    "row": "10-15",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.91.1",
+    "section": "Lashkar City",
+    "row": "5-10",
+    "column": "POPULATION | Males",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.3.11",
+    "section": "Lashkar City",
+    "row": "2-3",
+    "column": "WIDOWED | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.74.11",
+    "section": "Lashkar City",
+    "row": "25-30",
+    "column": "WIDOWED | Females",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.86.2",
+    "section": "Lashkar City",
+    "row": "1-2",
+    "column": "POPULATION | Females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.10.2",
+    "section": "Lashkar City",
+    "row": "20-25",
+    "column": "POPULATION | Females",
+    "readings": [
+     4467.0
+    ]
+   },
+   {
+    "id": "0.35.4",
+    "section": "Lashkar City",
+    "row": "40-45",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     100.0
+    ]
+   },
+   {
+    "id": "0.15.1",
+    "section": "Lashkar City",
+    "row": "45-50",
+    "column": "POPULATION | Males",
+    "readings": [
+     2337.0
+    ]
+   },
+   {
+    "id": "0.101.0",
+    "section": "Lashkar City",
+    "row": "55-60",
+    "column": "POPULATION | Persons",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.42.3",
+    "section": "Lashkar City",
+    "row": "Muslim",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     8564.0
+    ]
+   },
+   {
+    "id": "0.14.2",
+    "section": "Lashkar City",
+    "row": "40-45",
+    "column": "POPULATION | Females",
+    "readings": [
+     2190.0
+    ]
+   },
+   {
+    "id": "0.105.10",
+    "section": "Lashkar City",
+    "row": "Others",
+    "column": "WIDOWED | Males",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.84.4",
+    "section": "Lashkar City",
+    "row": "Christian",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     48.0
+    ]
+   },
+   {
+    "id": "0.4.0",
+    "section": "Lashkar City",
+    "row": "3-4",
+    "column": "POPULATION | Persons",
+    "readings": [
+     1959.0
+    ]
+   },
+   {
+    "id": "0.17.1",
+    "section": "Lashkar City",
+    "row": "55-60",
+    "column": "POPULATION | Males",
+    "readings": [
+     1227.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1931_Bhopal_TABLE_VIII._-_CIVIL_CONDITION_BY_AGE_FOR_659ad7d",
+  "title": "TABLE VIII. - CIVIL CONDITION BY AGE FOR SELECTED CASTES - continued.",
+  "year": 1931,
+  "place": "Bhopal",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/3ac27ac0ecf58336bccc736d2a9c9ca8280e500f.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "INDORE (concluded) |  | POPULATION DEALT WITH",
+   "INDORE (concluded) | UNMARRIED | Total",
+   "INDORE (concluded) | UNMARRIED | 0-6",
+   "INDORE (concluded) | UNMARRIED | 7-13",
+   "INDORE (concluded) | UNMARRIED | 14-16",
+   "INDORE (concluded) | UNMARRIED | 17-23",
+   "INDORE (concluded) | UNMARRIED | 24-43",
+   "INDORE (concluded) | UNMARRIED | 44 and over",
+   "INDORE (concluded) | MARRIED | Total",
+   "INDORE (concluded) | MARRIED | 0-6",
+   "INDORE (concluded) | MARRIED | 7-13",
+   "INDORE (concluded) | MARRIED | 14-16",
+   "INDORE (concluded) | MARRIED | 17-23",
+   "INDORE (concluded) | MARRIED | 24-43",
+   "INDORE (concluded) | MARRIED | 44 and over",
+   "INDORE (concluded) | WIDOWED | Total",
+   "INDORE (concluded) | WIDOWED | 0-6",
+   "INDORE (concluded) | WIDOWED | 7-13",
+   "INDORE (concluded) | WIDOWED | 14-16",
+   "INDORE (concluded) | WIDOWED | 17-23",
+   "INDORE (concluded) | WIDOWED | 24-43",
+   "INDORE (concluded) | WIDOWED | 44 and over"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.10.11",
+    "section": "INDORE (concluded)",
+    "row": "17. Teli",
+    "column": "MARRIED | 14-16",
+    "readings": [
+     262.0
+    ]
+   },
+   {
+    "id": "0.37.18",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "WIDOWED | 14-16",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.0.6",
+    "section": "INDORE (concluded)",
+    "row": "12. Dhangar",
+    "column": "UNMARRIED | 24-43",
+    "readings": [
+     49.0
+    ]
+   },
+   {
+    "id": "0.4.5",
+    "section": "INDORE (concluded)",
+    "row": "14. Kurmi",
+    "column": "UNMARRIED | 17-23",
+    "readings": [
+     296.0
+    ]
+   },
+   {
+    "id": "0.24.1",
+    "section": "INDORE (concluded)",
+    "row": "24. Chamar",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     12720.0
+    ]
+   },
+   {
+    "id": "0.2.21",
+    "section": "INDORE (concluded)",
+    "row": "13. Gujar",
+    "column": "WIDOWED | 44 and over",
+    "readings": [
+     1110.0
+    ]
+   },
+   {
+    "id": "0.5.16",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "WIDOWED | 0-6",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.28.7",
+    "section": "INDORE (concluded)",
+    "row": "26. Bhil (Hindu and Tribal)",
+    "column": "UNMARRIED | 44 and over",
+    "readings": [
+     58.0
+    ]
+   },
+   {
+    "id": "0.29.12",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "MARRIED | 17-23",
+    "readings": [
+     4080.0
+    ]
+   },
+   {
+    "id": "0.41.20",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "WIDOWED | 24-43",
+    "readings": [
+     475.0
+    ]
+   },
+   {
+    "id": "0.9.14",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "MARRIED | 44 and over",
+    "readings": [
+     301.0
+    ]
+   },
+   {
+    "id": "0.31.14",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "MARRIED | 44 and over",
+    "readings": [
+     1808.0
+    ]
+   },
+   {
+    "id": "0.32.14",
+    "section": "INDORE (concluded)",
+    "row": "28. Korku (Hindu and Tribal)",
+    "column": "MARRIED | 44 and over",
+    "readings": [
+     550.0
+    ]
+   },
+   {
+    "id": "0.14.1",
+    "section": "INDORE (concluded)",
+    "row": "19. Sondhia",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     5919.0
+    ]
+   },
+   {
+    "id": "0.26.1",
+    "section": "INDORE (concluded)",
+    "row": "25. Bhangi",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     1954.0
+    ]
+   },
+   {
+    "id": "0.16.19",
+    "section": "INDORE (concluded)",
+    "row": "20. Jat",
+    "column": "WIDOWED | 17-23",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "0.17.15",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "WIDOWED | Total",
+    "readings": [
+     1105.0
+    ]
+   },
+   {
+    "id": "0.30.17",
+    "section": "INDORE (concluded)",
+    "row": "27. Bhilala (Hindu and Tribal)",
+    "column": "WIDOWED | 7-13",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.6.1",
+    "section": "INDORE (concluded)",
+    "row": "15. Mali",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     4342.0
+    ]
+   },
+   {
+    "id": "0.20.13",
+    "section": "INDORE (concluded)",
+    "row": "22. Balai",
+    "column": "MARRIED | 24-43",
+    "readings": [
+     13254.0
+    ]
+   },
+   {
+    "id": "0.3.12",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "MARRIED | 17-23",
+    "readings": [
+     2905.0
+    ]
+   },
+   {
+    "id": "0.31.12",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "MARRIED | 17-23",
+    "readings": [
+     3745.0
+    ]
+   },
+   {
+    "id": "0.27.21",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "WIDOWED | 44 and over",
+    "readings": [
+     317.0
+    ]
+   },
+   {
+    "id": "0.12.11",
+    "section": "INDORE (concluded)",
+    "row": "18. Banjara (Hindu)",
+    "column": "MARRIED | 14-16",
+    "readings": [
+     169.0
+    ]
+   },
+   {
+    "id": "0.14.2",
+    "section": "INDORE (concluded)",
+    "row": "19. Sondhia",
+    "column": "UNMARRIED | 0-6",
+    "readings": [
+     2054.0
+    ]
+   },
+   {
+    "id": "0.4.9",
+    "section": "INDORE (concluded)",
+    "row": "14. Kurmi",
+    "column": "MARRIED | 0-6",
+    "readings": [
+     496.0
+    ]
+   },
+   {
+    "id": "0.16.3",
+    "section": "INDORE (concluded)",
+    "row": "20. Jat",
+    "column": "UNMARRIED | 7-13",
+    "readings": [
+     947.0
+    ]
+   },
+   {
+    "id": "0.9.1",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     2118.0
+    ]
+   },
+   {
+    "id": "0.15.17",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "WIDOWED | 7-13",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "0.5.5",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "UNMARRIED | 17-23",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.41.21",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "WIDOWED | 44 and over",
+    "readings": [
+     1089.0
+    ]
+   },
+   {
+    "id": "0.10.10",
+    "section": "INDORE (concluded)",
+    "row": "17. Teli",
+    "column": "MARRIED | 7-13",
+    "readings": [
+     146.0
+    ]
+   },
+   {
+    "id": "0.32.7",
+    "section": "INDORE (concluded)",
+    "row": "28. Korku (Hindu and Tribal)",
+    "column": "UNMARRIED | 44 and over",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.7.5",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "UNMARRIED | 17-23",
+    "readings": [
+     100.0
+    ]
+   },
+   {
+    "id": "0.41.4",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "UNMARRIED | 14-16",
+    "readings": [
+     172.0
+    ]
+   },
+   {
+    "id": "0.24.8",
+    "section": "INDORE (concluded)",
+    "row": "24. Chamar",
+    "column": "MARRIED | Total",
+    "readings": [
+     16571.0
+    ]
+   },
+   {
+    "id": "0.5.13",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "MARRIED | 24-43",
+    "readings": [
+     4826.0
+    ]
+   },
+   {
+    "id": "0.9.2",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "UNMARRIED | 0-6",
+    "readings": [
+     1345.0
+    ]
+   },
+   {
+    "id": "0.1.11",
+    "section": "INDORE (concluded)",
+    "row": "Females",
+    "column": "MARRIED | 14-16",
+    "readings": [
+     160.0
+    ]
+   },
+   {
+    "id": "0.6.15",
+    "section": "INDORE (concluded)",
+    "row": "15. Mali",
+    "column": "WIDOWED | Total",
+    "readings": [
+     691.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1931_Cochin_CHAPTER_VI.-CIVIL_CONDITION_ddeb4a6",
+  "title": "CHAPTER VI.-CIVIL CONDITION",
+  "year": 1931,
+  "place": "Cochin",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/09bedd28fc3c6760d0245255340641b963f1a547.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/86967b2fb11a2900fbb1231150d5a6708f1e385b.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "Civil Condition by Age-groups | Age-groups | 0-5",
+   "Civil Condition by Age-groups | Age-groups | 5-10",
+   "Civil Condition by Age-groups | Age-groups | 10-15",
+   "Civil Condition by Age-groups | Age-groups | 15-20",
+   "Civil Condition by Age-groups | Age-groups | 20-40",
+   "Civil Condition by Age-groups | Age-groups | 40-60",
+   "Civil Condition by Age-groups | Age-groups | 60 and over",
+   "Civil Condition by Community | Males per 1,000 | Unmarried",
+   "Civil Condition by Community | Males per 1,000 | Married",
+   "Civil Condition by Community | Males per 1,000 | Widowed",
+   "Civil Condition by Community | Females per 1,000 | Unmarried",
+   "Civil Condition by Community | Females per 1,000 | Married",
+   "Civil Condition by Community | Females per 1,000 | Widowed"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.3.0",
+    "section": "Civil Condition by Community",
+    "row": "Nayar 1921",
+    "column": "Males per 1,000 | Unmarried",
+    "readings": [
+     630.0,
+     639.0
+    ]
+   },
+   {
+    "id": "0.3.1",
+    "section": "Civil Condition by Age-groups",
+    "row": "Unmarried Females Hindu",
+    "column": "Age-groups | 5-10",
+    "readings": [
+     971.0,
+     991.0
+    ]
+   }
+  ],
+  "n_disputed": 2
+ },
+ {
+  "page": "1951_Uttar_Pradesh_SUBSIDIARY_TABLE_6.13_Middle_aged_person_95f0b4e",
+  "title": "SUBSIDIARY TABLE 6.13 Middle aged persons aged 35-54 per 10,000 persons",
+  "year": 1951,
+  "place": "Uttar Pradesh",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/51fd44720bb80ca01a8449531f378782fa8ee6e2.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "SUBSIDIARY TABLE 6.13 Middle aged person | General Population / 1951 | Persons",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | General Population / 1951 | Males",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | General Population / 1951 | Females",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | General Population / 1941 | Persons",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | General Population / 1941 | Males",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | General Population / 1941 | Females",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | Rural Population | Males",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | Urban Population | Females",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | Agricultural Classes | Males",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | Agricultural Classes | Females",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | Non-agricultural Classes | Males",
+   "SUBSIDIARY TABLE 6.13 Middle aged person | Non-agricultural Classes | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.18.8",
+    "section": "SUBSIDIARY TABLE 6.13 Middle aged persons aged 35-54 per 10,",
+    "row": "Central Uttar Pradesh Plain Division",
+    "column": "Agricultural Classes | Males",
+    "readings": [
+     1163.0,
+     1165.0,
+     1272.0
+    ]
+   }
+  ],
+  "n_disputed": 1
+ },
+ {
+  "page": "1901_India_Races_Tribes_and_Castes_f3dc508",
+  "title": "Races, Tribes and Castes",
+  "year": 1901,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/7ab8fa24a12873d5fad5c13efa3f4afd5ba94c0c.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/6f7b4a695569510a3df11dae140cf74107cfcf39.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/c5a9d0ab51aed45fec83202305568ffba4c906b1.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/0ebb4725e5169306bbf6e689a30649ec8f0b0569.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/b8f79d1e32a95486553ed08729962391025b8836.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/e827af3863d8189faa5676e736dcc136389d60c1.jpg"
+  ],
+  "n_images_total": 6,
+  "reading_columns": [
+   "Brahmans | Females | Adults",
+   "Brahmans | Females | Children",
+   "Brahmans | Females | Total",
+   "Brahmans | Sub-Divisions | Ojha or Maithil",
+   "Brahmans | Sub-Divisions | Kanojia",
+   "Brahmans | Sub-Divisions | Tailang",
+   "Brahmans | Sub-Divisions | Dakshani",
+   "Brahmans | Sub-Divisions | Sanyasi",
+   "Brahmans | Sub-Divisions | Others",
+   "Brahmans | Males | Adults",
+   "Brahmans | Males | Children",
+   "Vaisyas | Females | Adults",
+   "Vaisyas | Females | Children",
+   "Vaisyas | Females | Total",
+   "Vaisyas | Sub-Divisions | Agarwala",
+   "Vaisyas | Sub-Divisions | Bania",
+   "Vaisyas | Sub-Divisions | Mahesri",
+   "Vaisyas | Sub-Divisions | Gurao",
+   "Vaisyas | Sub-Divisions | Others",
+   "Vaisyas | Males | Adults",
+   "Vaisyas | Males | Children"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.36.3",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Sub-Divisions | Ojha or Maithil",
+    "readings": [
+     400.0
+    ]
+   },
+   {
+    "id": "0.34.5",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Tailang",
+    "readings": [
+     466.0,
+     8043.0
+    ]
+   },
+   {
+    "id": "0.36.1",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Females | Children",
+    "readings": [
+     319131.0
+    ]
+   },
+   {
+    "id": "1.34.3",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Agarwala",
+    "readings": [
+     356.0,
+     10310.0
+    ]
+   },
+   {
+    "id": "1.36.2",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Females | Total",
+    "readings": [
+     179781.0
+    ]
+   },
+   {
+    "id": "1.36.8",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Males | Adults",
+    "readings": [
+     30520.0
+    ]
+   },
+   {
+    "id": "0.34.2",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Females | Total",
+    "readings": [
+     172382.0,
+     1494087.0
+    ]
+   },
+   {
+    "id": "1.36.9",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Males | Children",
+    "readings": [
+     13443.0
+    ]
+   },
+   {
+    "id": "1.34.0",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Females | Adults",
+    "readings": [
+     2305.0,
+     55525.0
+    ]
+   },
+   {
+    "id": "0.36.2",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Females | Total",
+    "readings": [
+     1666469.0
+    ]
+   },
+   {
+    "id": "1.35.8",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Males | Adults",
+    "readings": [
+     1414.0
+    ]
+   },
+   {
+    "id": "1.34.7",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Others",
+    "readings": [
+     1517.0,
+     5707.0
+    ]
+   },
+   {
+    "id": "0.34.1",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Females | Children",
+    "readings": [
+     29117.0,
+     290014.0
+    ]
+   },
+   {
+    "id": "1.35.3",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Agarwala",
+    "readings": [
+     356.0
+    ]
+   },
+   {
+    "id": "0.35.2",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Females | Total",
+    "readings": [
+     172382.0
+    ]
+   },
+   {
+    "id": "1.34.6",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Gurao",
+    "readings": [
+     188.0,
+     5944.0
+    ]
+   },
+   {
+    "id": "0.34.8",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Others",
+    "readings": [
+     3952.0,
+     134186.0
+    ]
+   },
+   {
+    "id": "0.36.7",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Sub-Divisions | Sanyasi",
+    "readings": [
+     12258.0
+    ]
+   },
+   {
+    "id": "1.36.0",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Females | Adults",
+    "readings": [
+     57830.0
+    ]
+   },
+   {
+    "id": "0.34.10",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Males | Children",
+    "readings": [
+     856.0,
+     42687.0
+    ]
+   },
+   {
+    "id": "0.36.0",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Females | Adults",
+    "readings": [
+     511407.0
+    ]
+   },
+   {
+    "id": "0.34.0",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Females | Adults",
+    "readings": [
+     55869.0,
+     455538.0
+    ]
+   },
+   {
+    "id": "0.36.10",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Males | Children",
+    "readings": [
+     43543.0
+    ]
+   },
+   {
+    "id": "1.36.4",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Sub-Divisions | Bania",
+    "readings": [
+     55968.0
+    ]
+   },
+   {
+    "id": "1.34.2",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Females | Total",
+    "readings": [
+     7161.0,
+     172620.0
+    ]
+   },
+   {
+    "id": "1.36.1",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Females | Children",
+    "readings": [
+     27771.0
+    ]
+   },
+   {
+    "id": "0.35.6",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Dakshani",
+    "readings": [
+     244.0
+    ]
+   },
+   {
+    "id": "0.34.4",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Kanojia",
+    "readings": [
+     449.0,
+     69345.0
+    ]
+   },
+   {
+    "id": "0.35.10",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Males | Children",
+    "readings": [
+     856.0
+    ]
+   },
+   {
+    "id": "1.36.5",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Sub-Divisions | Mahesri",
+    "readings": [
+     3645.0
+    ]
+   },
+   {
+    "id": "0.36.6",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Sub-Divisions | Dakshani",
+    "readings": [
+     45727.0
+    ]
+   },
+   {
+    "id": "0.35.8",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Others",
+    "readings": [
+     3952.0
+    ]
+   },
+   {
+    "id": "0.35.7",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Sanyasi",
+    "readings": [
+     46.0
+    ]
+   },
+   {
+    "id": "1.35.9",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Males | Children",
+    "readings": [
+     810.0
+    ]
+   },
+   {
+    "id": "0.34.6",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Dakshani",
+    "readings": [
+     244.0,
+     45483.0
+    ]
+   },
+   {
+    "id": "1.34.5",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Mahesri",
+    "readings": [
+     39.0,
+     3606.0
+    ]
+   },
+   {
+    "id": "0.34.3",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Ojha or Maithil",
+    "readings": [
+     60.0,
+     340.0
+    ]
+   },
+   {
+    "id": "1.34.4",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Bania",
+    "readings": [
+     2192.0,
+     53776.0
+    ]
+   },
+   {
+    "id": "1.35.0",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Females | Adults",
+    "readings": [
+     2305.0
+    ]
+   },
+   {
+    "id": "0.36.4",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Sub-Divisions | Kanojia",
+    "readings": [
+     69794.0
+    ]
+   },
+   {
+    "id": "1.36.6",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Sub-Divisions | Gurao",
+    "readings": [
+     6132.0
+    ]
+   },
+   {
+    "id": "1.35.7",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Others",
+    "readings": [
+     1517.0
+    ]
+   },
+   {
+    "id": "0.34.7",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Sub-Divisions | Sanyasi",
+    "readings": [
+     46.0,
+     12212.0
+    ]
+   },
+   {
+    "id": "1.35.2",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Females | Total",
+    "readings": [
+     7161.0
+    ]
+   },
+   {
+    "id": "0.35.5",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Tailang",
+    "readings": [
+     466.0
+    ]
+   },
+   {
+    "id": "1.34.8",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Males | Adults",
+    "readings": [
+     1414.0,
+     29106.0
+    ]
+   },
+   {
+    "id": "1.34.1",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Females | Children",
+    "readings": [
+     1202.0,
+     26569.0
+    ]
+   },
+   {
+    "id": "1.34.9",
+    "section": "Vaisyas",
+    "row": "Row 26",
+    "column": "Males | Children",
+    "readings": [
+     810.0,
+     12633.0
+    ]
+   },
+   {
+    "id": "0.36.9",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Males | Adults",
+    "readings": [
+     102893.0
+    ]
+   },
+   {
+    "id": "1.35.4",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Bania",
+    "readings": [
+     2192.0
+    ]
+   },
+   {
+    "id": "1.35.5",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Mahesri",
+    "readings": [
+     39.0
+    ]
+   },
+   {
+    "id": "0.36.5",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Sub-Divisions | Tailang",
+    "readings": [
+     8509.0
+    ]
+   },
+   {
+    "id": "1.35.1",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Females | Children",
+    "readings": [
+     1202.0
+    ]
+   },
+   {
+    "id": "1.36.7",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Sub-Divisions | Others",
+    "readings": [
+     7224.0
+    ]
+   },
+   {
+    "id": "0.35.3",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Ojha or Maithil",
+    "readings": [
+     60.0
+    ]
+   },
+   {
+    "id": "0.34.9",
+    "section": "Brahmans",
+    "row": "Row 26",
+    "column": "Males | Adults",
+    "readings": [
+     1888.0,
+     101005.0
+    ]
+   },
+   {
+    "id": "0.35.4",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Kanojia",
+    "readings": [
+     449.0
+    ]
+   },
+   {
+    "id": "0.35.1",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Females | Children",
+    "readings": [
+     29117.0
+    ]
+   },
+   {
+    "id": "1.36.3",
+    "section": "Vaisyas",
+    "row": "Total",
+    "column": "Sub-Divisions | Agarwala",
+    "readings": [
+     10666.0
+    ]
+   },
+   {
+    "id": "0.35.9",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Males | Adults",
+    "readings": [
+     1888.0
+    ]
+   },
+   {
+    "id": "0.36.8",
+    "section": "Brahmans",
+    "row": "Total",
+    "column": "Sub-Divisions | Others",
+    "readings": [
+     138138.0
+    ]
+   },
+   {
+    "id": "0.35.0",
+    "section": "Brahmans",
+    "row": "Row 27",
+    "column": "Females | Adults",
+    "readings": [
+     55869.0
+    ]
+   },
+   {
+    "id": "0.6.4",
+    "section": "Brahmans",
+    "row": "Row 6",
+    "column": "Sub-Divisions | Kanojia",
+    "readings": [
+     17413.0,
+     17418.0
+    ]
+   },
+   {
+    "id": "1.35.6",
+    "section": "Vaisyas",
+    "row": "Row 27",
+    "column": "Sub-Divisions | Gurao",
+    "readings": [
+     188.0
+    ]
+   }
+  ],
+  "n_disputed": 64
+ },
+ {
+  "page": "1901_Berar_TABLE_VII_-_Age_sex_and_civil_condition_b6b7661",
+  "title": "TABLE VII - Age, sex and civil condition, Part B (8) - Jew by Districts",
+  "year": 1901,
+  "place": "Berar",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/32771aab1c255d12faf0cb0a3083d00cb1f0aa07.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/8a07093219c834e4acaa31bca1dac32014870104.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL UNMARRIED | Total",
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL UNMARRIED | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL UNMARRIED | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 0-5 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 0-5 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 5-10 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 5-10 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 10-15 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 10-15 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 15-20 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 15-20 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 20-40 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 20-40 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 40-60 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 40-60 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 60 and over | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | UNMARRIED / AGE PERIOD / 60 and over | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL MARRIED | Total",
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL MARRIED | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL MARRIED | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 0-5 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 0-5 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 5-10 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 5-10 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 10-15 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 10-15 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 15-20 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 15-20 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 20-40 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 20-40 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 40-60 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 40-60 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 60 and over | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | MARRIED / AGE PERIOD / 60 and over | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL WIDOWED | Total",
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL WIDOWED | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | TOTAL WIDOWED | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 0-5 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 0-5 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 5-10 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 5-10 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 10-15 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 10-15 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 15-20 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 15-20 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 20-40 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 20-40 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 40-60 | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 40-60 | Females",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 60 and over | Males",
+   "TABLE VII.\u2014Age, sex and civil condition, | WIDOWED / AGE PERIOD / 60 and over | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 15-20"
+   },
+   {
+    "id": 1,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 15-20"
+   },
+   {
+    "id": 2,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 15-20"
+   },
+   {
+    "id": 3,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 15-20"
+   },
+   {
+    "id": 4,
+    "section": "Jew",
+    "row": "Wun",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 15-20"
+   },
+   {
+    "id": 5,
+    "section": "Jew",
+    "row": "Basim",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 15-20"
+   },
+   {
+    "id": 6,
+    "section": "Jew",
+    "row": "Total Berar",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 15-20"
+   },
+   {
+    "id": 7,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 20-40"
+   },
+   {
+    "id": 8,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 20-40"
+   },
+   {
+    "id": 9,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 20-40"
+   },
+   {
+    "id": 10,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 20-40"
+   },
+   {
+    "id": 11,
+    "section": "Jew",
+    "row": "Wun",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 20-40"
+   },
+   {
+    "id": 12,
+    "section": "Jew",
+    "row": "Basim",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 20-40"
+   },
+   {
+    "id": 13,
+    "section": "Jew",
+    "row": "Total Berar",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 20-40"
+   },
+   {
+    "id": 14,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 40-60"
+   },
+   {
+    "id": 15,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 40-60"
+   },
+   {
+    "id": 16,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 40-60"
+   },
+   {
+    "id": 17,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 40-60"
+   },
+   {
+    "id": 18,
+    "section": "Jew",
+    "row": "Wun",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 40-60"
+   },
+   {
+    "id": 19,
+    "section": "Jew",
+    "row": "Basim",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 40-60"
+   },
+   {
+    "id": 20,
+    "section": "Jew",
+    "row": "Total Berar",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 40-60"
+   },
+   {
+    "id": 21,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 60 and over"
+   },
+   {
+    "id": 22,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 60 and over"
+   },
+   {
+    "id": 23,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 60 and over"
+   },
+   {
+    "id": 24,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 60 and over"
+   },
+   {
+    "id": 25,
+    "section": "Jew",
+    "row": "Wun",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 60 and over"
+   },
+   {
+    "id": 26,
+    "section": "Jew",
+    "row": "Basim",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 60 and over"
+   },
+   {
+    "id": 27,
+    "section": "Jew",
+    "row": "Total Berar",
+    "column_group": "MARRIED-(contd.) AGE PERIOD. 60 and over"
+   },
+   {
+    "id": 28,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "MARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 29,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "MARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 30,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "MARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 31,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "MARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 32,
+    "section": "Jew",
+    "row": "Wun",
+    "column_group": "MARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 33,
+    "section": "Jew",
+    "row": "Basim",
+    "column_group": "MARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 34,
+    "section": "Jew",
+    "row": "Total Berar",
+    "column_group": "MARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 35,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "MARRIED. AGE PERIOD. 10-15"
+   },
+   {
+    "id": 36,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "MARRIED. AGE PERIOD. 10-15"
+   },
+   {
+    "id": 37,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "MARRIED. AGE PERIOD. 10-15"
+   },
+   {
+    "id": 38,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "MARRIED. AGE PERIOD. 10-15"
+   },
+   {
+    "id": 39,
+    "section": "Jew",
+    "row": "Wun",
+    "column_group": "MARRIED. AGE PERIOD. 10-15"
+   },
+   {
+    "id": 40,
+    "section": "Jew",
+    "row": "Basim",
+    "column_group": "MARRIED. AGE PERIOD. 10-15"
+   },
+   {
+    "id": 41,
+    "section": "Jew",
+    "row": "Total Berar",
+    "column_group": "MARRIED. AGE PERIOD. 10-15"
+   },
+   {
+    "id": 42,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "MARRIED. AGE PERIOD. 5-10"
+   },
+   {
+    "id": 43,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "MARRIED. AGE PERIOD. 5-10"
+   },
+   {
+    "id": 44,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "MARRIED. AGE PERIOD. 5-10"
+   },
+   {
+    "id": 45,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "MARRIED. AGE PERIOD. 5-10"
+   },
+   {
+    "id": 46,
+    "section": "Jew",
+    "row": "Wun",
+    "column_group": "MARRIED. AGE PERIOD. 5-10"
+   },
+   {
+    "id": 47,
+    "section": "Jew",
+    "row": "Basim",
+    "column_group": "MARRIED. AGE PERIOD. 5-10"
+   },
+   {
+    "id": 48,
+    "section": "Jew",
+    "row": "Total Berar",
+    "column_group": "MARRIED. AGE PERIOD. 5-10"
+   },
+   {
+    "id": 49,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "MARRIED. TOTAL MARRIED"
+   },
+   {
+    "id": 50,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "MARRIED. TOTAL MARRIED"
+   },
+   {
+    "id": 51,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "MARRIED. TOTAL MARRIED"
+   },
+   {
+    "id": 52,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "MARRIED. TOTAL MARRIED"
+   },
+   {
+    "id": 53,
+    "section": "Jew",
+    "row": "Wun",
+    "column_group": "MARRIED. TOTAL MARRIED"
+   },
+   {
+    "id": 54,
+    "section": "Jew",
+    "row": "Basim",
+    "column_group": "MARRIED. TOTAL MARRIED"
+   },
+   {
+    "id": 55,
+    "section": "Jew",
+    "row": "Total Berar",
+    "column_group": "MARRIED. TOTAL MARRIED"
+   },
+   {
+    "id": 56,
+    "section": "Jew",
+    "row": "Amraoti",
+    "column_group": "UNMARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 57,
+    "section": "Jew",
+    "row": "Akola",
+    "column_group": "UNMARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 58,
+    "section": "Jew",
+    "row": "Ellichpur",
+    "column_group": "UNMARRIED. AGE PERIOD. 0-5"
+   },
+   {
+    "id": 59,
+    "section": "Jew",
+    "row": "Buldana",
+    "column_group": "UNMARRIED. AGE PERIOD. 0-5"
+   }
+  ]
+ },
+ {
+  "page": "1931_Punjab_Table_VII_-_Age_Sex_and_Civil_Condition_07bee4d",
+  "title": "Table VII - Age, Sex and Civil Condition (by Religion). Part B - Details for Districts and",
+  "year": 1931,
+  "place": "Punjab",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/23e345cb395193c138a25d5a5176ca404f3706c9.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/7d590dfb033d18fb7282019bf651084ab05e9fe6.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/685399e8dda10a301d86b22094e61398df6c69d0.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/2758d624311283bb83cd564e435af7703e774f52.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/901fc06bba66344dd0bb47cb449ee32d31bedde2.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/780f79d410331109a64d10224eff2d65bf554e0b.jpg"
+  ],
+  "n_images_total": 7,
+  "reading_columns": [
+   "LUDHIANA DISTRICT | POPULATION | Persons",
+   "LUDHIANA DISTRICT | POPULATION | Males",
+   "LUDHIANA DISTRICT | POPULATION | Females",
+   "LUDHIANA DISTRICT | UNMARRIED | Persons",
+   "LUDHIANA DISTRICT | UNMARRIED | Males",
+   "LUDHIANA DISTRICT | UNMARRIED | Females",
+   "LUDHIANA DISTRICT | MARRIED | Persons",
+   "LUDHIANA DISTRICT | MARRIED | Males",
+   "LUDHIANA DISTRICT | MARRIED | Females",
+   "LUDHIANA DISTRICT | WIDOWED | Persons",
+   "LUDHIANA DISTRICT | WIDOWED | Males",
+   "LUDHIANA DISTRICT | WIDOWED | Females",
+   "FEROZEPORE DISTRICT | POPULATION | Persons",
+   "FEROZEPORE DISTRICT | POPULATION | Males",
+   "FEROZEPORE DISTRICT | POPULATION | Females",
+   "FEROZEPORE DISTRICT | UNMARRIED | Persons",
+   "FEROZEPORE DISTRICT | UNMARRIED | Males",
+   "FEROZEPORE DISTRICT | UNMARRIED | Females",
+   "FEROZEPORE DISTRICT | MARRIED | Persons",
+   "FEROZEPORE DISTRICT | MARRIED | Males",
+   "FEROZEPORE DISTRICT | MARRIED | Females",
+   "FEROZEPORE DISTRICT | WIDOWED | Persons",
+   "FEROZEPORE DISTRICT | WIDOWED | Males",
+   "FEROZEPORE DISTRICT | WIDOWED | Females",
+   "LAHORE DISTRICT | POPULATION | Persons",
+   "LAHORE DISTRICT | POPULATION | Males",
+   "LAHORE DISTRICT | POPULATION | Females",
+   "LAHORE DISTRICT | UNMARRIED | Persons",
+   "LAHORE DISTRICT | UNMARRIED | Males",
+   "LAHORE DISTRICT | UNMARRIED | Females",
+   "LAHORE DISTRICT | MARRIED | Persons",
+   "LAHORE DISTRICT | MARRIED | Males",
+   "LAHORE DISTRICT | MARRIED | Females",
+   "LAHORE DISTRICT | WIDOWED | Persons",
+   "LAHORE DISTRICT | WIDOWED | Males",
+   "LAHORE DISTRICT | WIDOWED | Females",
+   "GURDASPUR DISTRICT | POPULATION | Persons",
+   "GURDASPUR DISTRICT | POPULATION | Males",
+   "GURDASPUR DISTRICT | POPULATION | Females",
+   "GURDASPUR DISTRICT | UNMARRIED | Persons",
+   "GURDASPUR DISTRICT | UNMARRIED | Males",
+   "GURDASPUR DISTRICT | UNMARRIED | Females",
+   "GURDASPUR DISTRICT | MARRIED | Persons",
+   "GURDASPUR DISTRICT | MARRIED | Males",
+   "GURDASPUR DISTRICT | MARRIED | Females",
+   "GURDASPUR DISTRICT | WIDOWED | Persons",
+   "GURDASPUR DISTRICT | WIDOWED | Males",
+   "GURDASPUR DISTRICT | WIDOWED | Females",
+   "GUJRAT DISTRICT | POPULATION | Persons",
+   "GUJRAT DISTRICT | POPULATION | Males",
+   "GUJRAT DISTRICT | POPULATION | Females",
+   "GUJRAT DISTRICT | UNMARRIED | Persons",
+   "GUJRAT DISTRICT | UNMARRIED | Males",
+   "GUJRAT DISTRICT | UNMARRIED | Females",
+   "GUJRAT DISTRICT | MARRIED | Persons",
+   "GUJRAT DISTRICT | MARRIED | Males",
+   "GUJRAT DISTRICT | MARRIED | Females",
+   "GUJRAT DISTRICT | WIDOWED | Persons",
+   "GUJRAT DISTRICT | WIDOWED | Males",
+   "GUJRAT DISTRICT | WIDOWED | Females",
+   "SIALKOT DISTRICT | POPULATION | Persons",
+   "SIALKOT DISTRICT | POPULATION | Males",
+   "SIALKOT DISTRICT | POPULATION | Females",
+   "SIALKOT DISTRICT | UNMARRIED | Persons",
+   "SIALKOT DISTRICT | UNMARRIED | Males",
+   "SIALKOT DISTRICT | UNMARRIED | Females",
+   "SIALKOT DISTRICT | MARRIED | Persons",
+   "SIALKOT DISTRICT | MARRIED | Males",
+   "SIALKOT DISTRICT | MARRIED | Females",
+   "SIALKOT DISTRICT | WIDOWED | Persons",
+   "SIALKOT DISTRICT | WIDOWED | Males",
+   "SIALKOT DISTRICT | WIDOWED | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "3.42.3",
+    "section": "GURDASPUR DISTRICT",
+    "row": "40-50",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     1314.0
+    ]
+   },
+   {
+    "id": "5.1.8",
+    "section": "SIALKOT DISTRICT",
+    "row": "0-1",
+    "column": "MARRIED | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.59.7",
+    "section": "LUDHIANA DISTRICT",
+    "row": "60 and over",
+    "column": "MARRIED | Males",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "1.60.6",
+    "section": "FEROZEPORE DISTRICT",
+    "row": "MUSLIM",
+    "column": "MARRIED | Persons",
+    "readings": [
+     203194.0
+    ]
+   },
+   {
+    "id": "0.15.0",
+    "section": "LUDHIANA DISTRICT",
+    "row": "HINDU",
+    "column": "POPULATION | Persons",
+    "readings": [
+     102441.0
+    ]
+   },
+   {
+    "id": "5.26.0",
+    "section": "SIALKOT DISTRICT",
+    "row": "30-40",
+    "column": "POPULATION | Persons",
+    "readings": [
+     26595.0
+    ]
+   },
+   {
+    "id": "3.84.0",
+    "section": "GURDASPUR DISTRICT",
+    "row": "15-20",
+    "column": "POPULATION | Persons",
+    "readings": [
+     4695.0
+    ]
+   },
+   {
+    "id": "4.78.5",
+    "section": "GUJRAT DISTRICT",
+    "row": "2-3",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     43.0
+    ]
+   },
+   {
+    "id": "5.18.8",
+    "section": "SIALKOT DISTRICT",
+    "row": "2-3",
+    "column": "MARRIED | Females",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "2.85.8",
+    "section": "LAHORE DISTRICT",
+    "row": "20-30",
+    "column": "MARRIED | Females",
+    "readings": [
+     3706.0
+    ]
+   },
+   {
+    "id": "0.14.0",
+    "section": "LUDHIANA DISTRICT",
+    "row": "60 and over",
+    "column": "POPULATION | Persons",
+    "readings": [
+     39543.0
+    ]
+   },
+   {
+    "id": "4.74.4",
+    "section": "GUJRAT DISTRICT",
+    "row": "60 and over",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     831.0
+    ]
+   },
+   {
+    "id": "3.8.2",
+    "section": "GURDASPUR DISTRICT",
+    "row": "10-15",
+    "column": "POPULATION | Females",
+    "readings": [
+     56401.0
+    ]
+   },
+   {
+    "id": "0.71.6",
+    "section": "LUDHIANA DISTRICT",
+    "row": "30-40",
+    "column": "MARRIED | Persons",
+    "readings": [
+     23348.0
+    ]
+   },
+   {
+    "id": "0.11.3",
+    "section": "LUDHIANA DISTRICT",
+    "row": "30-40",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     10289.0
+    ]
+   },
+   {
+    "id": "4.13.3",
+    "section": "GUJRAT DISTRICT",
+    "row": "50-60",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     1858.0
+    ]
+   },
+   {
+    "id": "1.83.3",
+    "section": "FEROZEPORE DISTRICT",
+    "row": "10-15",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     687.0
+    ]
+   },
+   {
+    "id": "2.79.5",
+    "section": "LAHORE DISTRICT",
+    "row": "3-4",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     879.0
+    ]
+   },
+   {
+    "id": "1.56.11",
+    "section": "FEROZEPORE DISTRICT",
+    "row": "30-40",
+    "column": "WIDOWED | Females",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "3.32.5",
+    "section": "GURDASPUR DISTRICT",
+    "row": "1-2",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     2421.0
+    ]
+   },
+   {
+    "id": "2.86.2",
+    "section": "LAHORE DISTRICT",
+    "row": "30-40",
+    "column": "POPULATION | Females",
+    "readings": [
+     2976.0
+    ]
+   },
+   {
+    "id": "1.84.9",
+    "section": "FEROZEPORE DISTRICT",
+    "row": "15-20",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.0.7",
+    "section": "LUDHIANA DISTRICT",
+    "row": "All Religions",
+    "column": "MARRIED | Males",
+    "readings": [
+     143355.0
+    ]
+   },
+   {
+    "id": "3.54.3",
+    "section": "GURDASPUR DISTRICT",
+    "row": "15-20",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "1.3.11",
+    "section": "FEROZEPORE DISTRICT",
+    "row": "2-3",
+    "column": "WIDOWED | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "4.44.11",
+    "section": "GUJRAT DISTRICT",
+    "row": "60 and over",
+    "column": "WIDOWED | Females",
+    "readings": [
+     942.0
+    ]
+   },
+   {
+    "id": "5.66.4",
+    "section": "SIALKOT DISTRICT",
+    "row": "Total 0-5",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     51359.0
+    ]
+   },
+   {
+    "id": "1.64.7",
+    "section": "FEROZEPORE DISTRICT",
+    "row": "3-4",
+    "column": "MARRIED | Males",
+    "readings": [
+     26.0
+    ]
+   },
+   {
+    "id": "5.10.1",
+    "section": "SIALKOT DISTRICT",
+    "row": "20-30",
+    "column": "POPULATION | Males",
+    "readings": [
+     91473.0
+    ]
+   },
+   {
+    "id": "5.69.4",
+    "section": "SIALKOT DISTRICT",
+    "row": "15-20",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     21527.0
+    ]
+   },
+   {
+    "id": "2.1.4",
+    "section": "LAHORE DISTRICT",
+    "row": "0-1",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     25845.0
+    ]
+   },
+   {
+    "id": "0.83.3",
+    "section": "LUDHIANA DISTRICT",
+    "row": "10-15",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     296.0
+    ]
+   },
+   {
+    "id": "5.39.8",
+    "section": "SIALKOT DISTRICT",
+    "row": "15-20",
+    "column": "MARRIED | Females",
+    "readings": [
+     2276.0
+    ]
+   },
+   {
+    "id": "5.88.2",
+    "section": "SIALKOT DISTRICT",
+    "row": "50-60",
+    "column": "POPULATION | Females",
+    "readings": [
+     1516.0
+    ]
+   },
+   {
+    "id": "5.18.5",
+    "section": "SIALKOT DISTRICT",
+    "row": "2-3",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     3145.0
+    ]
+   },
+   {
+    "id": "0.76.1",
+    "section": "LUDHIANA DISTRICT",
+    "row": "0-1",
+    "column": "POPULATION | Males",
+    "readings": [
+     39.0
+    ]
+   },
+   {
+    "id": "1.66.11",
+    "section": "FEROZEPORE DISTRICT",
+    "row": "Total 0-5",
+    "column": "WIDOWED | Females",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "4.10.0",
+    "section": "GUJRAT DISTRICT",
+    "row": "20-30",
+    "column": "POPULATION | Persons",
+    "readings": [
+     150105.0
+    ]
+   },
+   {
+    "id": "5.40.8",
+    "section": "SIALKOT DISTRICT",
+    "row": "20-30",
+    "column": "MARRIED | Females",
+    "readings": [
+     6146.0
+    ]
+   },
+   {
+    "id": "5.55.5",
+    "section": "SIALKOT DISTRICT",
+    "row": "20-30",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     19.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1911_Bengal_TABLE_XV._OCCUPATION_OR_MEANS_OF_LIVELIH_7635537",
+  "title": "TABLE XV.\u2014OCCUPATION OR MEANS OF LIVELIHOOD",
+  "year": 1911,
+  "place": "Bengal",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25393782_p85.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE XV.\u2014OCCUPATION OR MEANS OF LIVELIH | CALCUTTA WITH SUBURBS. / TOTAL NUMBER OF WORKERS AND DEPENDANTS. | persons",
+   "TABLE XV.\u2014OCCUPATION OR MEANS OF LIVELIH | CALCUTTA WITH SUBURBS. / ACTUAL WORKERS. / Total | male",
+   "TABLE XV.\u2014OCCUPATION OR MEANS OF LIVELIH | CALCUTTA WITH SUBURBS. / ACTUAL WORKERS. / Total | female",
+   "TABLE XV.\u2014OCCUPATION OR MEANS OF LIVELIH | CALCUTTA WITH SUBURBS. / ACTUAL WORKERS. / Partially agriculturists | male",
+   "TABLE XV.\u2014OCCUPATION OR MEANS OF LIVELIH | CALCUTTA WITH SUBURBS. / ACTUAL WORKERS. / Partially agriculturists | female",
+   "TABLE XV.\u2014OCCUPATION OR MEANS OF LIVELIH | CALCUTTA WITH SUBURBS. / DEPENDANTS | both sexes"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "1. 2",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 1,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "1. 2",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 2,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "127 Hardware, cooking utensils, porcelain, crockery, glassware, bottles, articles for gardening, the cellar, etc. 3,608",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 3,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "127 Hardware, cooking utensils, porcelain, crockery, glassware, bottles, articles for gardening, the cellar, etc. 3,608",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 4,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "128 36.-TRADE IN BUILDING MATERIALS (STONES, BRICKS, PLASTER, CEMENT, BAND, TILEY, THATCH, ETC.) 764",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 5,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "128 36.-TRADE IN BUILDING MATERIALS (STONES, BRICKS, PLASTER, CEMENT, BAND, TILEY, THATCH, ETC.) 764",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 6,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "129 37.-TRADE IN MEANS OF TRANSPORT (DEALERS AND BIRKERS OF ELEPHANTS, CAMELS, HORSES, CATTLE, LASSES, MULES, ETC., SELLERS [NOT BARERS] OF CARRIAGE, SADDLERY, ETC.) 1,290",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 7,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "129 37.-TRADE IN MEANS OF TRANSPORT (DEALERS AND BIRKERS OF ELEPHANTS, CAMELS, HORSES, CATTLE, LASSES, MULES, ETC., SELLERS [NOT BARERS] OF CARRIAGE, SADDLERY, ETC.) 1,290",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 8,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "130 38.-TRADE IN FUEL (DEALERS IN PINEWOOD, CHARCOAL, COAL, COW-DUNG, ETC.) 4,839",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 9,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "130 38.-TRADE IN FUEL (DEALERS IN PINEWOOD, CHARCOAL, COAL, COW-DUNG, ETC.) 4,839",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 10,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "39.-TRADE IN ARTICLES OF LUXURY, AND THOSE PERTAINING TO LETTERS AND THE ARTS AND SCIENCES 12,172",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 11,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "39.-TRADE IN ARTICLES OF LUXURY, AND THOSE PERTAINING TO LETTERS AND THE ARTS AND SCIENCES 12,172",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 12,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "131 Dealers in previous stones, jewellery (real and imitation), clocks, optical instruments, etc. 3,373",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 13,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "131 Dealers in previous stones, jewellery (real and imitation), clocks, optical instruments, etc. 3,373",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 14,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "132 Dealers in common barrels, brash breakers, taps, small articles, toys, hunting and fishing tackle, flowers, 2,821",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 15,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "132 Dealers in common barrels, brash breakers, taps, small articles, toys, hunting and fishing tackle, flowers, 2,821",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 16,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "133 Publishers, bookadiers, stationers, dealers in muse, pictures, musical instruments and cinemas 6,978",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 17,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "133 Publishers, bookadiers, stationers, dealers in muse, pictures, musical instruments and cinemas 6,978",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 18,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "134 40.-TRADE IN REFUSE MATTER (DEALERS IN BAGS, BEARLE REFUSE, ETC.) 136",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 19,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "41.-TRADE OF OTHER SORTS 19,697",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 20,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "41.-TRADE OF OTHER SORTS 19,697",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 21,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "135 Shop-keepers, otherwise unspecified 14,737",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 22,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "135 Shop-keepers, otherwise unspecified 14,737",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 23,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "136 Fisherian traders, pedlars, backers, etc. 3,768",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 24,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "136 Fisherian traders, pedlars, backers, etc. 3,768",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 25,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "137 Conjunctors, arrests, forging-rollers, reciters, exhibitors of celebrities and wild animals 321",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 26,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "138 Other traders (including farmers of pounds, tolls and markets) 271",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 27,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "138 Other traders (including farmers of pounds, tolls and markets) 271",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 28,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "C.-PUBLIC ADMINISTRATION AND LIBERAL ARTS 123,124",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 29,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "C.-PUBLIC ADMINISTRATION AND LIBERAL ARTS 123,124",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 30,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "VI.-PUBLIC FORCE 10,798",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 31,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "VI.-PUBLIC FORCE 10,798",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 32,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "42.-ARMY 4,948",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 33,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "42.-ARMY 4,948",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 34,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "139 Army (Imperial) 4,819",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 35,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "139 Army (Imperial) 4,819",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 36,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "140 Army (Native States) 28",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 37,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "44.-POLICE 5,852",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 38,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "44.-POLICE 5,852",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 39,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "142 Police 5,850",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 40,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "142 Police 5,850",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 41,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "VII.-PUBLIC ADMINISTRATION 34,680",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 42,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "VII.-PUBLIC ADMINISTRATION 34,680",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 43,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "45.-PUBLIC ADMINISTRATION 34,680",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 44,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "45.-PUBLIC ADMINISTRATION 34,680",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 45,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "144 Service of the State 26,657",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 46,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "144 Service of the State 26,657",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 47,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "145 Service of Native and Foreign States 61",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 48,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "146 Municipal and other local (not village) service 7,971",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 49,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "146 Municipal and other local (not village) service 7,971",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 50,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "VIII.-PROFESSIONS AND LIBERAL ARTS 56,075",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 51,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "VIII.-PROFESSIONS AND LIBERAL ARTS 56,075",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 52,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "46.-RELIGION 15,548",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 53,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "46.-RELIGION 15,548",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 54,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "148 Prints, minisers, etc. 11,057",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 55,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "148 Prints, minisers, etc. 11,057",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 56,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "149 Religious nomineries, inmates of monasteries, etc. 3,188",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 57,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "149 Religious nomineries, inmates of monasteries, etc. 3,188",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Partially agriculturists"
+   },
+   {
+    "id": 58,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "150 Catechism, readers, church and mission service 725",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   },
+   {
+    "id": 59,
+    "section": "TABLE XV.\u2014OCCUPATION OR MEANS OF",
+    "row": "151 Temple, burial or burning ground service, pilgrim conductors, circumstances 578",
+    "column_group": "CALCUTTA WITH SUBURBS. ACTUAL WORKERS. Total"
+   }
+  ]
+ },
+ {
+  "page": "1951_Madhya_Pradesh_Table_C-II_-_Livelihood_Classes_by_Age_G_cf19629",
+  "title": "Table C-II - Livelihood Classes by Age Groups",
+  "year": 1951,
+  "place": "Madhya Pradesh",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/c360002ba0f113717b988bd4ecafb2e583df7009.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/52ed9508c47d524ebef22f2e78279b653e477cf8.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/dbdd0479da45c8d54657027d50530d784b32eea5.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/c28c9518f01f39a2e865778136b52eeb752fd58e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d5fba386b148c946a41cc0780775e11267e91635.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/350bc3a6127278d555969aee9c89dfc833f156d5.jpg"
+  ],
+  "n_images_total": 8,
+  "reading_columns": [
+   "Wardha - TOTAL | Sample Population | Persons",
+   "Wardha - TOTAL | Sample Population | Males",
+   "Wardha - TOTAL | Sample Population | Females",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Males",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Females",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Females",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Males",
+   "Wardha - TOTAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Females",
+   "Wardha - RURAL | Sample Population | Persons",
+   "Wardha - RURAL | Sample Population | Males",
+   "Wardha - RURAL | Sample Population | Females",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Males",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Females",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Females",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Males",
+   "Wardha - RURAL | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Females",
+   "Wardha - URBAN | Sample Population | Persons",
+   "Wardha - URBAN | Sample Population | Males",
+   "Wardha - URBAN | Sample Population | Females",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Males",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Females",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Females",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Males",
+   "Wardha - URBAN | LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Females",
+   "Nagpur - TOTAL | Sample Population | Persons",
+   "Nagpur - TOTAL | Sample Population | Males",
+   "Nagpur - TOTAL | Sample Population | Females",
+   "Nagpur - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Nagpur - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Nagpur - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Nagpur - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Nagpur - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Nagpur - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Nagpur - RURAL | Sample Population | Persons",
+   "Nagpur - RURAL | Sample Population | Males",
+   "Nagpur - RURAL | Sample Population | Females",
+   "Nagpur - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Nagpur - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Nagpur - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Nagpur - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Nagpur - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Nagpur - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Nagpur - URBAN | Sample Population | Persons",
+   "Nagpur - URBAN | Sample Population | Males",
+   "Nagpur - URBAN | Sample Population | Females",
+   "Nagpur - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Nagpur - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Nagpur - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Nagpur - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Nagpur - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Nagpur - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Amravati - TOTAL | Sample Population | Persons",
+   "Amravati - TOTAL | Sample Population | Males",
+   "Amravati - TOTAL | Sample Population | Females",
+   "Amravati - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Amravati - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Amravati - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Amravati - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Amravati - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Amravati - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Amravati - RURAL | Sample Population | Persons",
+   "Amravati - RURAL | Sample Population | Males",
+   "Amravati - RURAL | Sample Population | Females",
+   "Amravati - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Amravati - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Amravati - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Amravati - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Amravati - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Amravati - RURAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Amravati - URBAN | Sample Population | Persons",
+   "Amravati - URBAN | Sample Population | Males",
+   "Amravati - URBAN | Sample Population | Females",
+   "Amravati - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Amravati - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Amravati - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Amravati - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Amravati - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Amravati - URBAN | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Akola - TOTAL | Sample Population | Persons",
+   "Akola - TOTAL | Sample Population | Males",
+   "Akola - TOTAL | Sample Population | Females",
+   "Akola - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Akola - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Akola - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Akola - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Akola - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Akola - TOTAL | LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.10.13",
+    "section": "Wardha - TOTAL",
+    "row": "75 and over",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "7.1.0",
+    "section": "Amravati - RURAL",
+    "row": "Below 1",
+    "column": "Sample Population | Persons",
+    "readings": [
+     2458.0
+    ]
+   },
+   {
+    "id": "9.4.9",
+    "section": "Akola - TOTAL",
+    "row": "15-24",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Males",
+    "readings": [
+     190.0
+    ]
+   },
+   {
+    "id": "2.7.3",
+    "section": "Wardha - URBAN",
+    "row": "45-54",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+    "readings": [
+     45.0
+    ]
+   },
+   {
+    "id": "6.8.4",
+    "section": "Amravati - TOTAL",
+    "row": "55-64",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+    "readings": [
+     652.0
+    ]
+   },
+   {
+    "id": "9.7.6",
+    "section": "Akola - TOTAL",
+    "row": "45-54",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+    "readings": [
+     244.0
+    ]
+   },
+   {
+    "id": "5.8.1",
+    "section": "Nagpur - URBAN",
+    "row": "55-64",
+    "column": "Sample Population | Males",
+    "readings": [
+     1261.0
+    ]
+   },
+   {
+    "id": "9.1.18",
+    "section": "Akola - TOTAL",
+    "row": "Below 1",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Females",
+    "readings": [
+     132.0
+    ]
+   },
+   {
+    "id": "5.1.5",
+    "section": "Nagpur - URBAN",
+    "row": "Below 1",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "4.7.1",
+    "section": "Nagpur - RURAL",
+    "row": "45-54",
+    "column": "Sample Population | Males",
+    "readings": [
+     3087.0
+    ]
+   },
+   {
+    "id": "11.0.12",
+    "section": "Akola - URBAN",
+    "row": "Total",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+    "readings": [
+     1939.0
+    ]
+   },
+   {
+    "id": "8.3.8",
+    "section": "Amravati - URBAN",
+    "row": "5-14",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+    "readings": [
+     504.0
+    ]
+   },
+   {
+    "id": "0.3.2",
+    "section": "Wardha - TOTAL",
+    "row": "5-14",
+    "column": "Sample Population | Females",
+    "readings": [
+     6138.0
+    ]
+   },
+   {
+    "id": "6.6.1",
+    "section": "Amravati - TOTAL",
+    "row": "35-44",
+    "column": "Sample Population | Males",
+    "readings": [
+     6844.0
+    ]
+   },
+   {
+    "id": "1.9.15",
+    "section": "Wardha - RURAL",
+    "row": "65-74",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.11.8",
+    "section": "Wardha - TOTAL",
+    "row": "Age not stated",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "7.0.8",
+    "section": "Amravati - RURAL",
+    "row": "Total",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+    "readings": [
+     15988.0
+    ]
+   },
+   {
+    "id": "2.3.0",
+    "section": "Wardha - URBAN",
+    "row": "5-14",
+    "column": "Sample Population | Persons",
+    "readings": [
+     2841.0
+    ]
+   },
+   {
+    "id": "10.7.2",
+    "section": "Akola - RURAL",
+    "row": "45-54",
+    "column": "Sample Population | Females",
+    "readings": [
+     3132.0
+    ]
+   },
+   {
+    "id": "11.9.12",
+    "section": "Akola - URBAN",
+    "row": "65-74",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+    "readings": [
+     43.0
+    ]
+   },
+   {
+    "id": "5.3.4",
+    "section": "Nagpur - URBAN",
+    "row": "5-14",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+    "readings": [
+     323.0
+    ]
+   },
+   {
+    "id": "10.1.15",
+    "section": "Akola - RURAL",
+    "row": "Below 1",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "8.9.8",
+    "section": "Amravati - URBAN",
+    "row": "65-74",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+    "readings": [
+     60.0
+    ]
+   },
+   {
+    "id": "10.11.1",
+    "section": "Akola - RURAL",
+    "row": "Age not stated",
+    "column": "Sample Population | Males",
+    "readings": [
+     63.0
+    ]
+   },
+   {
+    "id": "9.8.15",
+    "section": "Akola - TOTAL",
+    "row": "55-64",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "10.9.5",
+    "section": "Akola - RURAL",
+    "row": "65-74",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+    "readings": [
+     57.0
+    ]
+   },
+   {
+    "id": "2.9.15",
+    "section": "Wardha - URBAN",
+    "row": "65-74",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "4.8.8",
+    "section": "Nagpur - RURAL",
+    "row": "55-64",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+    "readings": [
+     494.0
+    ]
+   },
+   {
+    "id": "10.6.11",
+    "section": "Akola - RURAL",
+    "row": "35-44",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+    "readings": [
+     216.0
+    ]
+   },
+   {
+    "id": "1.2.11",
+    "section": "Wardha - RURAL",
+    "row": "1-4",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+    "readings": [
+     179.0
+    ]
+   },
+   {
+    "id": "10.0.2",
+    "section": "Akola - RURAL",
+    "row": "Total",
+    "column": "Sample Population | Females",
+    "readings": [
+     37210.0
+    ]
+   },
+   {
+    "id": "1.10.0",
+    "section": "Wardha - RURAL",
+    "row": "75 and over",
+    "column": "Sample Population | Persons",
+    "readings": [
+     442.0
+    ]
+   },
+   {
+    "id": "8.5.3",
+    "section": "Amravati - URBAN",
+    "row": "25-34",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+    "readings": [
+     213.0
+    ]
+   },
+   {
+    "id": "9.7.0",
+    "section": "Akola - TOTAL",
+    "row": "45-54",
+    "column": "Sample Population | Persons",
+    "readings": [
+     8227.0
+    ]
+   },
+   {
+    "id": "3.5.5",
+    "section": "Nagpur - TOTAL",
+    "row": "25-34",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+    "readings": [
+     244.0
+    ]
+   },
+   {
+    "id": "0.4.14",
+    "section": "Wardha - TOTAL",
+    "row": "15-24",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+    "readings": [
+     268.0
+    ]
+   },
+   {
+    "id": "10.0.13",
+    "section": "Akola - RURAL",
+    "row": "Total",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+    "readings": [
+     842.0
+    ]
+   },
+   {
+    "id": "11.4.14",
+    "section": "Akola - URBAN",
+    "row": "15-24",
+    "column": "LIVELIHOOD CLASSES / Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+    "readings": [
+     336.0
+    ]
+   },
+   {
+    "id": "9.4.6",
+    "section": "Akola - TOTAL",
+    "row": "15-24",
+    "column": "LIVELIHOOD CLASSES / Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+    "readings": [
+     568.0
+    ]
+   },
+   {
+    "id": "6.11.2",
+    "section": "Amravati - TOTAL",
+    "row": "Age not stated",
+    "column": "Sample Population | Females",
+    "readings": [
+     193.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1881_Central_Provinces_and_Berar_TABLE_No._VI_-_Statement_showing_the__31a6492",
+  "title": "TABLE No. VI - Statement showing the Civil Condition and Age of the Population",
+  "year": 1881,
+  "place": "Central Provinces and Berar",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e40a0eb3fbae108b2d381909881b68fc9cada798.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/807dd1d0f68a5891967cc759b532d2704f51bf6e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/da1f52c252131dbc17edc468580dcdd1e4d91f94.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f3b5d7073ea22db2735af6b85da5d3a61304941c.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e41f881a7cd6d06b48d6924e659b390a084a6796.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/be0fb22048e8cec05636404aa5e7ffc6773dcde0.jpg"
+  ],
+  "n_images_total": 9,
+  "reading_columns": [
+   "Brahmo Religion | Married / 0-9 | Males",
+   "Brahmo Religion | Married / 0-9 | Females",
+   "Brahmo Religion | Married / 10-14 | Males",
+   "Brahmo Religion | Married / 10-14 | Females",
+   "Brahmo Religion | Married / 15-19 | Males",
+   "Brahmo Religion | Married / 15-19 | Females",
+   "Brahmo Religion | Married / 20-24 | Males",
+   "Brahmo Religion | Married / 20-24 | Females",
+   "Brahmo Religion | Married / 25-29 | Males",
+   "Brahmo Religion | Married / 25-29 | Females",
+   "Brahmo Religion | Married / 30-39 | Males",
+   "Brahmo Religion | Married / 30-39 | Females",
+   "Brahmo Religion | Married / 40-49 | Males",
+   "Brahmo Religion | Married / 40-49 | Females",
+   "Brahmo Religion | Married / 50-59 | Males",
+   "Brahmo Religion | Married / 50-59 | Females",
+   "Brahmo Religion | Married / 60 and Upwards | Males",
+   "Brahmo Religion | Married / 60 and Upwards | Females",
+   "Brahmo Religion | Married / Age Unspecified | Males",
+   "Brahmo Religion | Married / Age Unspecified | Females",
+   "Brahmo Religion | Married / Total | Males",
+   "Brahmo Religion | Married / Total | Females",
+   "Mahomedan Religion | Married / 0-9 | Males",
+   "Mahomedan Religion | Married / 0-9 | Females",
+   "Mahomedan Religion | Married / 10-14 | Males",
+   "Mahomedan Religion | Married / 10-14 | Females",
+   "Mahomedan Religion | Married / 15-19 | Males",
+   "Mahomedan Religion | Married / 15-19 | Females",
+   "Mahomedan Religion | Married / 20-24 | Males",
+   "Mahomedan Religion | Married / 20-24 | Females",
+   "Mahomedan Religion | Married / 25-29 | Males",
+   "Mahomedan Religion | Married / 25-29 | Females",
+   "Mahomedan Religion | Married / 30-39 | Males",
+   "Mahomedan Religion | Married / 30-39 | Females",
+   "Mahomedan Religion | Married / 40-49 | Males",
+   "Mahomedan Religion | Married / 40-49 | Females",
+   "Mahomedan Religion | Married / 50-59 | Males",
+   "Mahomedan Religion | Married / 50-59 | Females",
+   "Mahomedan Religion | Married / 60 and Upwards | Males",
+   "Mahomedan Religion | Married / 60 and Upwards | Females",
+   "Mahomedan Religion | Married / Age Unspecified | Males",
+   "Mahomedan Religion | Married / Age Unspecified | Females",
+   "Mahomedan Religion | Married / Total | Males",
+   "Mahomedan Religion | Married / Total | Females",
+   "Christian Religion | Single / 0-9 | Males",
+   "Christian Religion | Single / 0-9 | Females",
+   "Christian Religion | Single / 10-14 | Males",
+   "Christian Religion | Single / 10-14 | Females",
+   "Christian Religion | Single / 15-19 | Males",
+   "Christian Religion | Single / 15-19 | Females",
+   "Christian Religion | Single / 20-24 | Males",
+   "Christian Religion | Single / 20-24 | Females",
+   "Christian Religion | Single / 25-29 | Males",
+   "Christian Religion | Single / 25-29 | Females",
+   "Christian Religion | Single / 30-39 | Males",
+   "Christian Religion | Single / 30-39 | Females",
+   "Christian Religion | Single / 40-49 | Males",
+   "Christian Religion | Single / 40-49 | Females",
+   "Christian Religion | Single / 50-59 | Males",
+   "Christian Religion | Single / 50-59 | Females",
+   "Christian Religion | Single / 60 and Upwards | Males",
+   "Christian Religion | Single / 60 and Upwards | Females",
+   "Christian Religion | Single / Age Unspecified | Males",
+   "Christian Religion | Single / Age Unspecified | Females",
+   "Christian Religion | Single / Total | Males",
+   "Christian Religion | Single / Total | Females",
+   "Christian Religion | Married / 0-9 | Males",
+   "Christian Religion | Married / 0-9 | Females",
+   "Christian Religion | Married / 10-14 | Males",
+   "Christian Religion | Married / 10-14 | Females",
+   "Christian Religion | Married / 15-19 | Males",
+   "Christian Religion | Married / 15-19 | Females",
+   "Christian Religion | Married / 20-24 | Males",
+   "Christian Religion | Married / 20-24 | Females",
+   "Christian Religion | Married / 25-29 | Males",
+   "Christian Religion | Married / 25-29 | Females",
+   "Christian Religion | Married / 30-39 | Males",
+   "Christian Religion | Married / 30-39 | Females",
+   "Christian Religion | Married / 40-49 | Males",
+   "Christian Religion | Married / 40-49 | Females",
+   "Christian Religion | Married / 50-59 | Males",
+   "Christian Religion | Married / 50-59 | Females",
+   "Christian Religion | Married / 60 and Upwards | Males",
+   "Christian Religion | Married / 60 and Upwards | Females",
+   "Christian Religion | Married / Age Unspecified | Males",
+   "Christian Religion | Married / Age Unspecified | Females",
+   "Christian Religion | Married / Total | Males",
+   "Christian Religion | Married / Total | Females",
+   "Budhist Religion | Single / 0-9 | Males",
+   "Budhist Religion | Single / 0-9 | Females",
+   "Budhist Religion | Single / 10-14 | Males",
+   "Budhist Religion | Single / 10-14 | Females",
+   "Budhist Religion | Single / 15-19 | Males",
+   "Budhist Religion | Single / 15-19 | Females",
+   "Budhist Religion | Single / 20-24 | Males",
+   "Budhist Religion | Single / 20-24 | Females",
+   "Budhist Religion | Single / 25-29 | Males",
+   "Budhist Religion | Single / 25-29 | Females",
+   "Budhist Religion | Single / 30-39 | Males",
+   "Budhist Religion | Single / 30-39 | Females",
+   "Budhist Religion | Single / 40-49 | Males",
+   "Budhist Religion | Single / 40-49 | Females",
+   "Budhist Religion | Single / 50-59 | Males",
+   "Budhist Religion | Single / 50-59 | Females",
+   "Budhist Religion | Single / 60 and Upwards | Males",
+   "Budhist Religion | Single / 60 and Upwards | Females",
+   "Budhist Religion | Single / Age Unspecified | Males",
+   "Budhist Religion | Single / Age Unspecified | Females",
+   "Budhist Religion | Single / Total | Males",
+   "Budhist Religion | Single / Total | Females",
+   "Budhist Religion | Married / 0-9 | Males",
+   "Budhist Religion | Married / 0-9 | Females",
+   "Budhist Religion | Married / 10-14 | Males",
+   "Budhist Religion | Married / 10-14 | Females",
+   "Budhist Religion | Married / 15-19 | Males",
+   "Budhist Religion | Married / 15-19 | Females",
+   "Budhist Religion | Married / 20-24 | Males",
+   "Budhist Religion | Married / 20-24 | Females",
+   "Budhist Religion | Married / 25-29 | Males",
+   "Budhist Religion | Married / 25-29 | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "2.10.35",
+    "section": "Christian Religion",
+    "row": "Mandl\u00e1",
+    "column": "Married / 40-49 | Females",
+    "readings": [
+     1.0,
+     3.0
+    ]
+   },
+   {
+    "id": "2.21.28",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / 20-24 | Males",
+    "readings": [
+     45.0
+    ]
+   },
+   {
+    "id": "2.21.31",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / 25-29 | Females",
+    "readings": [
+     68.0
+    ]
+   },
+   {
+    "id": "2.5.32",
+    "section": "Christian Religion",
+    "row": "Total N\u00e1gpur Division",
+    "column": "Married / 30-39 | Males",
+    "readings": [
+     283.0,
+     5323.0
+    ]
+   },
+   {
+    "id": "2.18.26",
+    "section": "Christian Religion",
+    "row": "R\u00e1ipur",
+    "column": "Married / 15-19 | Males",
+    "readings": [
+     5.0,
+     25.0
+    ]
+   },
+   {
+    "id": "2.21.8",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Single / 25-29 | Males",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "2.9.31",
+    "section": "Christian Religion",
+    "row": "Seoni",
+    "column": "Married / 25-29 | Females",
+    "readings": [
+     3.0,
+     7.0
+    ]
+   },
+   {
+    "id": "2.2.13",
+    "section": "Christian Religion",
+    "row": "Ch\u00e1nd\u00e1",
+    "column": "Single / 40-49 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.21.32",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / 30-39 | Males",
+    "readings": [
+     54.0
+    ]
+   },
+   {
+    "id": "3.5.2",
+    "section": "Budhist Religion",
+    "row": "Total N\u00e1gpur Division",
+    "column": "Single / 10-14 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.5.13",
+    "section": "Christian Religion",
+    "row": "Total N\u00e1gpur Division",
+    "column": "Single / 40-49 | Females",
+    "readings": [
+     9.0,
+     12.0
+    ]
+   },
+   {
+    "id": "2.7.24",
+    "section": "Christian Religion",
+    "row": "Saugor",
+    "column": "Married / 10-14 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.0.6",
+    "section": "Christian Religion",
+    "row": "N\u00e1gpur",
+    "column": "Single / 20-24 | Males",
+    "readings": [
+     40.0,
+     502.0
+    ]
+   },
+   {
+    "id": "2.22.30",
+    "section": "Christian Religion",
+    "row": "Grand Total Central Provinces",
+    "column": "Married / 25-29 | Males",
+    "readings": [
+     1.0,
+     338.0
+    ]
+   },
+   {
+    "id": "2.20.33",
+    "section": "Christian Religion",
+    "row": "Sambalpur",
+    "column": "Married / 30-39 | Females",
+    "readings": [
+     8.0,
+     11.0
+    ]
+   },
+   {
+    "id": "2.4.29",
+    "section": "Christian Religion",
+    "row": "B\u00e1l\u00e1gh\u00e1t",
+    "column": "Married / 20-24 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.21.7",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Single / 20-24 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "2.6.25",
+    "section": "Christian Religion",
+    "row": "Jubbulpore",
+    "column": "Married / 10-14 | Females",
+    "readings": [
+     3.0,
+     8.0
+    ]
+   },
+   {
+    "id": "2.17.22",
+    "section": "Christian Religion",
+    "row": "Total Nerbudda Division",
+    "column": "Married / 0-9 | Males",
+    "readings": [
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "2.15.39",
+    "section": "Christian Religion",
+    "row": "Chhindw\u00e1r\u00e1",
+    "column": "Married / 60 and Upwards | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.20.30",
+    "section": "Christian Religion",
+    "row": "Sambalpur",
+    "column": "Married / 25-29 | Males",
+    "readings": [
+     2.0,
+     3.0
+    ]
+   },
+   {
+    "id": "2.21.20",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Single / Total | Males",
+    "readings": [
+     270.0
+    ]
+   },
+   {
+    "id": "2.21.33",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / 30-39 | Females",
+    "readings": [
+     56.0
+    ]
+   },
+   {
+    "id": "2.3.37",
+    "section": "Christian Religion",
+    "row": "Wardh\u00e1",
+    "column": "Married / 50-59 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.10.29",
+    "section": "Christian Religion",
+    "row": "Mandl\u00e1",
+    "column": "Married / 20-24 | Females",
+    "readings": [
+     2.0,
+     7.0
+    ]
+   },
+   {
+    "id": "2.21.6",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Single / 20-24 | Males",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "1.12.8",
+    "section": "Mahomedan Religion",
+    "row": "Hoshang\u00e1b\u00e1d",
+    "column": "Married / 25-29 | Males",
+    "readings": [
+     838.0,
+     888.0
+    ]
+   },
+   {
+    "id": "2.4.30",
+    "section": "Christian Religion",
+    "row": "B\u00e1l\u00e1gh\u00e1t",
+    "column": "Married / 25-29 | Males",
+    "readings": [
+     1.0,
+     3.0
+    ]
+   },
+   {
+    "id": "2.21.1",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Single / 0-9 | Females",
+    "readings": [
+     173.0
+    ]
+   },
+   {
+    "id": "2.14.33",
+    "section": "Christian Religion",
+    "row": "Bet\u00fal",
+    "column": "Married / 30-39 | Females",
+    "readings": [
+     1.0,
+     5.0
+    ]
+   },
+   {
+    "id": "3.22.32",
+    "section": "Budhist Religion",
+    "row": "Grand Total Central Provinces",
+    "column": "Married / 30-39 | Males",
+    "readings": [
+     2.0,
+     700.0
+    ]
+   },
+   {
+    "id": "2.14.39",
+    "section": "Christian Religion",
+    "row": "Bet\u00fal",
+    "column": "Married / 60 and Upwards | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.5.3",
+    "section": "Christian Religion",
+    "row": "Total N\u00e1gpur Division",
+    "column": "Single / 10-14 | Females",
+    "readings": [
+     195.0,
+     257.0
+    ]
+   },
+   {
+    "id": "2.20.27",
+    "section": "Christian Religion",
+    "row": "Sambalpur",
+    "column": "Married / 15-19 | Females",
+    "readings": [
+     2.0,
+     3.0
+    ]
+   },
+   {
+    "id": "3.6.29",
+    "section": "Budhist Religion",
+    "row": "Jubbulpore",
+    "column": "Married / 20-24 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "2.21.24",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / 10-14 | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "2.10.33",
+    "section": "Christian Religion",
+    "row": "Mandl\u00e1",
+    "column": "Married / 30-39 | Females",
+    "readings": [
+     2.0,
+     9.0
+    ]
+   },
+   {
+    "id": "2.2.25",
+    "section": "Christian Religion",
+    "row": "Ch\u00e1nd\u00e1",
+    "column": "Married / 10-14 | Females",
+    "readings": [
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "3.3.32",
+    "section": "Budhist Religion",
+    "row": "Wardh\u00e1",
+    "column": "Married / 30-39 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.17.17",
+    "section": "Christian Religion",
+    "row": "Total Nerbudda Division",
+    "column": "Single / 60 and Upwards | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "2.11.25",
+    "section": "Christian Religion",
+    "row": "Total Jubbulpore Division",
+    "column": "Married / 10-14 | Females",
+    "readings": [
+     4.0,
+     9.0
+    ]
+   },
+   {
+    "id": "2.10.30",
+    "section": "Christian Religion",
+    "row": "Mandl\u00e1",
+    "column": "Married / 25-29 | Males",
+    "readings": [
+     3.0,
+     7.0
+    ]
+   },
+   {
+    "id": "2.1.11",
+    "section": "Christian Religion",
+    "row": "Bhand\u00e1r\u00e1",
+    "column": "Single / 30-39 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "3.0.8",
+    "section": "Budhist Religion",
+    "row": "N\u00e1gpur",
+    "column": "Single / 25-29 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.20.26",
+    "section": "Christian Religion",
+    "row": "Sambalpur",
+    "column": "Married / 15-19 | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "1.5.20",
+    "section": "Mahomedan Religion",
+    "row": "Total N\u00e1gpur Division",
+    "column": "Married / Total | Males",
+    "readings": [
+     18605.0,
+     18805.0
+    ]
+   },
+   {
+    "id": "2.8.31",
+    "section": "Christian Religion",
+    "row": "Damoh",
+    "column": "Married / 25-29 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "2.0.11",
+    "section": "Christian Religion",
+    "row": "N\u00e1gpur",
+    "column": "Single / 30-39 | Females",
+    "readings": [
+     22.0,
+     24.0
+    ]
+   },
+   {
+    "id": "2.21.11",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Single / 30-39 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "2.4.32",
+    "section": "Christian Religion",
+    "row": "B\u00e1l\u00e1gh\u00e1t",
+    "column": "Married / 30-39 | Males",
+    "readings": [
+     2.0,
+     3.0
+    ]
+   },
+   {
+    "id": "2.20.28",
+    "section": "Christian Religion",
+    "row": "Sambalpur",
+    "column": "Married / 20-24 | Males",
+    "readings": [
+     2.0,
+     6.0
+    ]
+   },
+   {
+    "id": "2.20.34",
+    "section": "Christian Religion",
+    "row": "Sambalpur",
+    "column": "Married / 40-49 | Males",
+    "readings": [
+     2.0,
+     11.0
+    ]
+   },
+   {
+    "id": "2.1.13",
+    "section": "Christian Religion",
+    "row": "Bhand\u00e1r\u00e1",
+    "column": "Single / 40-49 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.21.2",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Single / 10-14 | Males",
+    "readings": [
+     46.0
+    ]
+   },
+   {
+    "id": "2.21.43",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / Total | Females",
+    "readings": [
+     198.0
+    ]
+   },
+   {
+    "id": "2.18.27",
+    "section": "Christian Religion",
+    "row": "R\u00e1ipur",
+    "column": "Married / 15-19 | Females",
+    "readings": [
+     17.0,
+     25.0
+    ]
+   },
+   {
+    "id": "2.4.34",
+    "section": "Christian Religion",
+    "row": "B\u00e1l\u00e1gh\u00e1t",
+    "column": "Married / 40-49 | Males",
+    "readings": [
+     2.0,
+     3.0
+    ]
+   },
+   {
+    "id": "2.14.32",
+    "section": "Christian Religion",
+    "row": "Bet\u00fal",
+    "column": "Married / 30-39 | Males",
+    "readings": [
+     3.0,
+     5.0
+    ]
+   },
+   {
+    "id": "3.22.8",
+    "section": "Budhist Religion",
+    "row": "Grand Total Central Provinces",
+    "column": "Single / 25-29 | Males",
+    "readings": [
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "2.18.31",
+    "section": "Christian Religion",
+    "row": "R\u00e1ipur",
+    "column": "Married / 25-29 | Females",
+    "readings": [
+     34.0,
+     60.0
+    ]
+   },
+   {
+    "id": "2.18.25",
+    "section": "Christian Religion",
+    "row": "R\u00e1ipur",
+    "column": "Married / 10-14 | Females",
+    "readings": [
+     2.0,
+     5.0
+    ]
+   },
+   {
+    "id": "2.22.3",
+    "section": "Christian Religion",
+    "row": "Grand Total Central Provinces",
+    "column": "Single / 10-14 | Females",
+    "readings": [
+     439.0,
+     499.0
+    ]
+   },
+   {
+    "id": "2.21.42",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / Total | Males",
+    "readings": [
+     216.0
+    ]
+   },
+   {
+    "id": "2.0.13",
+    "section": "Christian Religion",
+    "row": "N\u00e1gpur",
+    "column": "Single / 40-49 | Females",
+    "readings": [
+     9.0,
+     12.0
+    ]
+   },
+   {
+    "id": "2.18.37",
+    "section": "Christian Religion",
+    "row": "R\u00e1ipur",
+    "column": "Married / 50-59 | Females",
+    "readings": [
+     8.0,
+     11.0
+    ]
+   },
+   {
+    "id": "2.0.12",
+    "section": "Christian Religion",
+    "row": "N\u00e1gpur",
+    "column": "Single / 40-49 | Males",
+    "readings": [
+     9.0,
+     24.0
+    ]
+   },
+   {
+    "id": "2.9.32",
+    "section": "Christian Religion",
+    "row": "Seoni",
+    "column": "Married / 30-39 | Males",
+    "readings": [
+     5.0,
+     7.0
+    ]
+   },
+   {
+    "id": "2.21.9",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Single / 25-29 | Females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "2.14.22",
+    "section": "Christian Religion",
+    "row": "Bet\u00fal",
+    "column": "Married / 0-9 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.18.32",
+    "section": "Christian Religion",
+    "row": "R\u00e1ipur",
+    "column": "Married / 30-39 | Males",
+    "readings": [
+     44.0,
+     60.0
+    ]
+   },
+   {
+    "id": "2.5.8",
+    "section": "Christian Religion",
+    "row": "Total N\u00e1gpur Division",
+    "column": "Single / 25-29 | Males",
+    "readings": [
+     24.0,
+     351.0
+    ]
+   },
+   {
+    "id": "2.21.27",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / 15-19 | Females",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "2.12.40",
+    "section": "Christian Religion",
+    "row": "Hoshang\u00e1b\u00e1d",
+    "column": "Married / Age Unspecified | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.17.19",
+    "section": "Christian Religion",
+    "row": "Total Nerbudda Division",
+    "column": "Single / Age Unspecified | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.15.28",
+    "section": "Christian Religion",
+    "row": "Chhindw\u00e1r\u00e1",
+    "column": "Married / 20-24 | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "1.22.8",
+    "section": "Mahomedan Religion",
+    "row": "Grand Total Central Provinces",
+    "column": "Married / 25-29 | Males",
+    "readings": [
+     338.0,
+     10048.0
+    ]
+   },
+   {
+    "id": "1.13.0",
+    "section": "Mahomedan Religion",
+    "row": "Narsinghpur",
+    "column": "Married / 0-9 | Males",
+    "readings": [
+     22.0,
+     23.0
+    ]
+   },
+   {
+    "id": "2.5.10",
+    "section": "Christian Religion",
+    "row": "Total N\u00e1gpur Division",
+    "column": "Single / 30-39 | Males",
+    "readings": [
+     22.0,
+     141.0
+    ]
+   },
+   {
+    "id": "3.6.28",
+    "section": "Budhist Religion",
+    "row": "Jubbulpore",
+    "column": "Married / 20-24 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.21.35",
+    "section": "Christian Religion",
+    "row": "Total Chhatt\u00edsgarh Division",
+    "column": "Married / 40-49 | Females",
+    "readings": [
+     14.0
+    ]
+   }
+  ],
+  "n_disputed": 170
+ },
+ {
+  "page": "1891_Central_Provinces_and_Berar_TABLE_VII._-_The_Population_by_Civil__f6a04b6",
+  "title": "TABLE VII. - The Population by Civil Con-",
+  "year": 1891,
+  "place": "Central Provinces and Berar",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/21c8cb29d6c0a8d5ac9c00a7e04f783a0fc7a43d.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE VII. - The Population by Civil Con | 15-20. | Persons.",
+   "TABLE VII. - The Population by Civil Con | 15-20. | Males.",
+   "TABLE VII. - The Population by Civil Con | 15-20. | Females.",
+   "TABLE VII. - The Population by Civil Con | 20-40. | Persons.",
+   "TABLE VII. - The Population by Civil Con | 20-40. | Males.",
+   "TABLE VII. - The Population by Civil Con | 20-40. | Females."
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.37.5",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "36 Sonpur",
+    "column": "20-40. | Females.",
+    "readings": [
+     5952.0
+    ]
+   },
+   {
+    "id": "0.6.2",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "6 Jubbulpore Division",
+    "column": "15-20. | Females.",
+    "readings": [
+     5500.0
+    ]
+   },
+   {
+    "id": "0.34.3",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "33 Sarangarh",
+    "column": "20-40. | Persons.",
+    "readings": [
+     2820.0
+    ]
+   },
+   {
+    "id": "0.32.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "31 Sakti",
+    "column": "15-20. | Males.",
+    "readings": [
+     32.0
+    ]
+   },
+   {
+    "id": "0.29.0",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "28 Khairagarh",
+    "column": "15-20. | Persons.",
+    "readings": [
+     290.0
+    ]
+   },
+   {
+    "id": "0.10.4",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "10 Betul",
+    "column": "20-40. | Males.",
+    "readings": [
+     3027.0
+    ]
+   },
+   {
+    "id": "0.40.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "39 Feudatory States",
+    "column": "15-20. | Males.",
+    "readings": [
+     1757.0
+    ]
+   },
+   {
+    "id": "0.16.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "16 Bhandara",
+    "column": "15-20. | Males.",
+    "readings": [
+     320.0
+    ]
+   },
+   {
+    "id": "0.13.3",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "13 Wardha",
+    "column": "20-40. | Persons.",
+    "readings": [
+     11784.0
+    ]
+   },
+   {
+    "id": "0.31.2",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "30 Kawardha",
+    "column": "15-20. | Females.",
+    "readings": [
+     61.0
+    ]
+   },
+   {
+    "id": "0.20.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "20 Bilaspur",
+    "column": "15-20. | Males.",
+    "readings": [
+     1513.0
+    ]
+   },
+   {
+    "id": "0.34.0",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "33 Sarangarh",
+    "column": "15-20. | Persons.",
+    "readings": [
+     214.0
+    ]
+   },
+   {
+    "id": "0.4.5",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "4 Mandla",
+    "column": "20-40. | Females.",
+    "readings": [
+     7147.0
+    ]
+   },
+   {
+    "id": "0.3.0",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "3 Jubbulpore",
+    "column": "15-20. | Persons.",
+    "readings": [
+     2978.0
+    ]
+   },
+   {
+    "id": "0.21.0",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "21 Sambalpur",
+    "column": "15-20. | Persons.",
+    "readings": [
+     2404.0
+    ]
+   },
+   {
+    "id": "0.1.4",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "1 Saugor",
+    "column": "20-40. | Males.",
+    "readings": [
+     7540.0
+    ]
+   },
+   {
+    "id": "0.35.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "34 Bamra",
+    "column": "15-20. | Males.",
+    "readings": [
+     31.0
+    ]
+   },
+   {
+    "id": "0.19.3",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "19 Raipur",
+    "column": "20-40. | Persons.",
+    "readings": [
+     44276.0
+    ]
+   },
+   {
+    "id": "0.5.5",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "5 Seoni",
+    "column": "20-40. | Females.",
+    "readings": [
+     8629.0
+    ]
+   },
+   {
+    "id": "0.21.5",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "21 Sambalpur",
+    "column": "20-40. | Females.",
+    "readings": [
+     20524.0
+    ]
+   },
+   {
+    "id": "0.32.5",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "31 Sakti",
+    "column": "20-40. | Females.",
+    "readings": [
+     634.0
+    ]
+   },
+   {
+    "id": "0.21.2",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "21 Sambalpur",
+    "column": "15-20. | Females.",
+    "readings": [
+     1835.0
+    ]
+   },
+   {
+    "id": "0.12.2",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "12 Narbudda Division",
+    "column": "15-20. | Females.",
+    "readings": [
+     5098.0
+    ]
+   },
+   {
+    "id": "0.5.3",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "5 Seoni",
+    "column": "20-40. | Persons.",
+    "readings": [
+     12568.0
+    ]
+   },
+   {
+    "id": "0.4.2",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "4 Mandla",
+    "column": "15-20. | Females.",
+    "readings": [
+     555.0
+    ]
+   },
+   {
+    "id": "0.29.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "28 Khairagarh",
+    "column": "15-20. | Males.",
+    "readings": [
+     147.0
+    ]
+   },
+   {
+    "id": "0.18.4",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "18 Nagpur Division",
+    "column": "20-40. | Males.",
+    "readings": [
+     21635.0
+    ]
+   },
+   {
+    "id": "0.15.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "15 Chanda",
+    "column": "15-20. | Males.",
+    "readings": [
+     463.0
+    ]
+   },
+   {
+    "id": "0.36.4",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "35 Rairakhol",
+    "column": "20-40. | Males.",
+    "readings": [
+     308.0
+    ]
+   },
+   {
+    "id": "0.26.5",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "25 Bastar",
+    "column": "20-40. | Females.",
+    "readings": [
+     8680.0
+    ]
+   },
+   {
+    "id": "0.39.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "38 Kalahandi",
+    "column": "15-20. | Males.",
+    "readings": [
+     239.0
+    ]
+   },
+   {
+    "id": "0.33.1",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "32 Raigarh",
+    "column": "15-20. | Males.",
+    "readings": [
+     103.0
+    ]
+   },
+   {
+    "id": "0.23.3",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "23 British Districts",
+    "column": "20-40. | Persons.",
+    "readings": [
+     365339.0
+    ]
+   },
+   {
+    "id": "0.34.4",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "33 Sarangarh",
+    "column": "20-40. | Males.",
+    "readings": [
+     818.0
+    ]
+   },
+   {
+    "id": "0.39.4",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "38 Kalahandi",
+    "column": "20-40. | Males.",
+    "readings": [
+     2925.0
+    ]
+   },
+   {
+    "id": "0.26.0",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "25 Bastar",
+    "column": "15-20. | Persons.",
+    "readings": [
+     1003.0
+    ]
+   },
+   {
+    "id": "0.14.2",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "14 Nagpur",
+    "column": "15-20. | Females.",
+    "readings": [
+     966.0
+    ]
+   },
+   {
+    "id": "0.39.5",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "38 Kalahandi",
+    "column": "20-40. | Females.",
+    "readings": [
+     7166.0
+    ]
+   },
+   {
+    "id": "0.25.4",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "24 Makrai",
+    "column": "20-40. | Males.",
+    "readings": [
+     251.0
+    ]
+   },
+   {
+    "id": "0.41.4",
+    "section": "TABLE VII. - The Population by Civil Con-",
+    "row": "40 Central Provinces",
+    "column": "20-40. | Males.",
+    "readings": [
+     138154.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "None_digitized_tables_TABLE_No._VII_Showing_the_Ages_of_the_Po_232aeab",
+  "title": "TABLE No. VII Showing the Ages of the Population SIKH",
+  "year": null,
+  "place": "digitized tables",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/9215263c7e41f6a38520ba90b1be4fd38a5d4faa.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE No. VII Showing the Ages of the Po | Under 1 | Males",
+   "TABLE No. VII Showing the Ages of the Po | Under 1 | Females",
+   "TABLE No. VII Showing the Ages of the Po | 1- | Males",
+   "TABLE No. VII Showing the Ages of the Po | 1- | Females",
+   "TABLE No. VII Showing the Ages of the Po | 2- | Males",
+   "TABLE No. VII Showing the Ages of the Po | 2- | Females",
+   "TABLE No. VII Showing the Ages of the Po | 3- | Males",
+   "TABLE No. VII Showing the Ages of the Po | 3- | Females",
+   "TABLE No. VII Showing the Ages of the Po | 4- | Males",
+   "TABLE No. VII Showing the Ages of the Po | 4- | Females",
+   "TABLE No. VII Showing the Ages of the Po | 5-9 | Males",
+   "TABLE No. VII Showing the Ages of the Po | 5-9 | Females",
+   "TABLE No. VII Showing the Ages of the Po | 10-14 | Males",
+   "TABLE No. VII Showing the Ages of the Po | 10-14 | Females",
+   "TABLE No. VII Showing the Ages of the Po | 15-19 | Males",
+   "TABLE No. VII Showing the Ages of the Po | 15-19 | Females",
+   "TABLE No. VII Showing the Ages of the Po | 20-24 | Males",
+   "TABLE No. VII Showing the Ages of the Po | 20-24 | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.14.9",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nahan",
+    "column": "4- | Females",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.14.6",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nahan",
+    "column": "3- | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.1.17",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nabha",
+    "column": "20-24 | Females",
+    "readings": [
+     3154.0,
+     3164.0
+    ]
+   },
+   {
+    "id": "0.2.6",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Kapurthala",
+    "column": "3- | Males",
+    "readings": [
+     243.0,
+     323.0
+    ]
+   },
+   {
+    "id": "0.13.0",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Chamba",
+    "column": "Under 1 | Males",
+    "readings": [
+     1.0,
+     5.0
+    ]
+   },
+   {
+    "id": "0.14.5",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nahan",
+    "column": "2- | Females",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.14.3",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nahan",
+    "column": "1- | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.0.2",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Patiala",
+    "column": "1- | Males",
+    "readings": [
+     5434.0,
+     5484.0
+    ]
+   },
+   {
+    "id": "0.19.16",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "20-24 | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.24.4",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Mailog",
+    "column": "2- | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.5.8",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Maler Kotla",
+    "column": "4- | Males",
+    "readings": [
+     355.0,
+     366.0
+    ]
+   },
+   {
+    "id": "0.4.1",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Faridkot",
+    "column": "Under 1 | Females",
+    "readings": [
+     800.0,
+     809.0
+    ]
+   },
+   {
+    "id": "0.19.15",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "15-19 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.14.8",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nahan",
+    "column": "4- | Males",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.19.9",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "4- | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.22.10",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Bhajji",
+    "column": "5-9 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.5.6",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Maler Kotla",
+    "column": "3- | Males",
+    "readings": [
+     302.0,
+     392.0
+    ]
+   },
+   {
+    "id": "0.37.3",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Total of Hill States",
+    "column": "1- | Females",
+    "readings": [
+     8.0,
+     15.0
+    ]
+   },
+   {
+    "id": "0.13.4",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Chamba",
+    "column": "2- | Males",
+    "readings": [
+     1.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.22.12",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Bhajji",
+    "column": "10-14 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.20.17",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Baghal",
+    "column": "20-24 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.37.2",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Total of Hill States",
+    "column": "1- | Males",
+    "readings": [
+     8.0,
+     11.0
+    ]
+   },
+   {
+    "id": "0.31.2",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Kunhiar",
+    "column": "1- | Males",
+    "readings": [
+     4.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.24.17",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Mailog",
+    "column": "20-24 | Females",
+    "readings": [
+     3.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.19.17",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "20-24 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.13.14",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Chamba",
+    "column": "15-19 | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.26.11",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Balsan",
+    "column": "5-9 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.19.10",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "5-9 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.22.14",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Bhajji",
+    "column": "15-19 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.19.3",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "1- | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.4.8",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Faridkot",
+    "column": "4- | Males",
+    "readings": [
+     652.0,
+     682.0
+    ]
+   },
+   {
+    "id": "0.5.7",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Maler Kotla",
+    "column": "3- | Females",
+    "readings": [
+     257.0,
+     267.0
+    ]
+   },
+   {
+    "id": "0.4.12",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Faridkot",
+    "column": "10-14 | Males",
+    "readings": [
+     2622.0,
+     2822.0
+    ]
+   },
+   {
+    "id": "0.3.16",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Jind",
+    "column": "20-24 | Males",
+    "readings": [
+     316.0,
+     346.0
+    ]
+   },
+   {
+    "id": "0.14.0",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nahan",
+    "column": "Under 1 | Males",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.30.17",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Sangri",
+    "column": "20-24 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.19.14",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "15-19 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.19.13",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "10-14 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.14.1",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nahan",
+    "column": "Under 1 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.26.13",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Balsan",
+    "column": "10-14 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.13.15",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Chamba",
+    "column": "15-19 | Females",
+    "readings": [
+     6.0,
+     7.0
+    ]
+   },
+   {
+    "id": "0.13.2",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Chamba",
+    "column": "1- | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.22.16",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Bhajji",
+    "column": "20-24 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.13.8",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Chamba",
+    "column": "4- | Males",
+    "readings": [
+     1.0,
+     5.0
+    ]
+   },
+   {
+    "id": "0.22.15",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Bhajji",
+    "column": "15-19 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.14.4",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nahan",
+    "column": "2- | Males",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.19.11",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "5-9 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.20.14",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Baghal",
+    "column": "15-19 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.19.12",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Keonthal",
+    "column": "10-14 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.24.2",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Mailog",
+    "column": "1- | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.1.1",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Nabha",
+    "column": "Under 1 | Females",
+    "readings": [
+     1450.0,
+     1480.0
+    ]
+   },
+   {
+    "id": "0.13.6",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Chamba",
+    "column": "3- | Males",
+    "readings": [
+     1.0,
+     3.0
+    ]
+   },
+   {
+    "id": "0.31.9",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Kunhiar",
+    "column": "4- | Females",
+    "readings": [
+     3.0,
+     5.0
+    ]
+   },
+   {
+    "id": "0.4.9",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Faridkot",
+    "column": "4- | Females",
+    "readings": [
+     505.0,
+     508.0
+    ]
+   },
+   {
+    "id": "0.5.12",
+    "section": "TABLE No. VII Showing the Ages of the Population SIKH",
+    "row": "Maler Kotla",
+    "column": "10-14 | Males",
+    "readings": [
+     1582.0,
+     1882.0
+    ]
+   }
+  ],
+  "n_disputed": 55
+ },
+ {
+  "page": "1891_Travancore_TABLE_VIII._Age_Sex_and_Civil_Condition_bc1de0e",
+  "title": "TABLE VIII. Age, Sex and Civil Condition (continuation stitch)",
+  "year": 1891,
+  "place": "Travancore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/10bc64383443601e1983e825bd972751eb05ca25.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/80dbe4eeafeb4eacc7f2f6cb24a22af8fd06cb62.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/c5f5da40aead781d79716c686322db9b3090fac4.jpg"
+  ],
+  "n_images_total": 3,
+  "reading_columns": [
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | TOTAL UNMARRIED | Total",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | TOTAL UNMARRIED | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | TOTAL UNMARRIED | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 0-4 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 0-4 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 5-9 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 5-9 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 10-14 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 10-14 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 15-19 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 15-19 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 20-24 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 20-24 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 25-29 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED. | AGE PERIOD / 25-29 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 30-34 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 30-34 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 35-39 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 35-39 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 40-44 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 40-44 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 45-49 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 45-49 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 50-54 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 50-54 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 55-59 | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 55-59 | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 60 and over | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / 60 and over | Females",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / Not stated | Males",
+   "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014co | AGE PERIOD\u2014cont. / Not stated | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | TOTAL WIDOWED | Total",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | TOTAL WIDOWED | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | TOTAL WIDOWED | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 0-4 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 0-4 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 5-9 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 5-9 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 10-14 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 10-14 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 15-19 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 15-19 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 20-24 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 20-24 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 25-29 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD / 25-29 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 30-34 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 30-34 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 35-39 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 35-39 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 40-44 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 40-44 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 45-49 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 45-49 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 50-54 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 50-54 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 55-59 | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 55-59 | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 60 and over | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / 60 and over | Females",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / Not stated | Males",
+   "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WI | AGE PERIOD\u2014cont. / Not stated | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | TOTAL UNMARRIED | Total",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | TOTAL UNMARRIED | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | TOTAL UNMARRIED | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 0-4 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 0-4 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 5-9 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 5-9 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 10-14 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 10-14 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 15-19 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 15-19 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 20-24 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 20-24 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 25-29 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED. | AGE PERIOD / 25-29 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 30-34 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 30-34 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 35-39 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 35-39 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 40-44 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 40-44 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 45-49 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 45-49 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 50-54 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 50-54 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 55-59 | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 55-59 | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 60 and over | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / 60 and over | Females",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / Not stated | Males",
+   "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont. | AGE PERIOD\u2014cont. / Not stated | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | TOTAL MARRIED | Total",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | TOTAL MARRIED | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | TOTAL MARRIED | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 0-4 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 0-4 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 5-9 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 5-9 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 10-14 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 10-14 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 15-19 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 15-19 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 20-24 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 20-24 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 25-29 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED. | AGE PERIOD / 25-29 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 30-34 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 30-34 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 35-39 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 35-39 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 40-44 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 40-44 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 45-49 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 45-49 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 50-54 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 50-54 | Females",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 55-59 | Males",
+   "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014c | AGE PERIOD\u2014cont. / 55-59 | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.1.9",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Females",
+    "readings": [
+     459.0,
+     5824.0
+    ]
+   },
+   {
+    "id": "1.0.1",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 30-34 | Females",
+    "readings": [
+     8594.0,
+     80159.0
+    ]
+   },
+   {
+    "id": "5.3.13",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD\u2014cont. / 60 and over | Females",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "10.5.11",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "Total",
+    "column": "AGE PERIOD / 20-24 | Males",
+    "readings": [
+     59.0
+    ]
+   },
+   {
+    "id": "1.0.9",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Females",
+    "readings": [
+     3782.0,
+     20694.0
+    ]
+   },
+   {
+    "id": "4.0.9",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD / 15-19 | Males",
+    "readings": [
+     77135.0
+    ]
+   },
+   {
+    "id": "2.3.14",
+    "section": "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WIDOWED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 25-29 | Females",
+    "readings": [
+     314.0
+    ]
+   },
+   {
+    "id": "4.0.0",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "TRAVANCORE",
+    "column": "TOTAL UNMARRIED | Total",
+    "readings": [
+     921429.0
+    ]
+   },
+   {
+    "id": "10.4.10",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "SANDUR",
+    "column": "AGE PERIOD / 15-19 | Females",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "10.5.12",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "Total",
+    "column": "AGE PERIOD / 20-24 | Females",
+    "readings": [
+     240.0
+    ]
+   },
+   {
+    "id": "3.1.1",
+    "section": "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WIDOWED\u2014cont.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD\u2014cont. / 30-34 | Females",
+    "readings": [
+     2723.0
+    ]
+   },
+   {
+    "id": "9.2.2",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD\u2014cont. / 35-39 | Males",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "1.0.3",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 35-39 | Females",
+    "readings": [
+     6866.0,
+     65590.0
+    ]
+   },
+   {
+    "id": "1.2.9",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Females",
+    "readings": [
+     79.0,
+     3277.0
+    ]
+   },
+   {
+    "id": "3.5.10",
+    "section": "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WIDOWED\u2014cont.",
+    "row": "Total",
+    "column": "AGE PERIOD\u2014cont. / 55-59 | Males",
+    "readings": [
+     7140.0
+    ]
+   },
+   {
+    "id": "11.3.13",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED\u2014cont.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD\u2014cont. / 60 and over | Females",
+    "readings": [
+     221.0
+    ]
+   },
+   {
+    "id": "1.2.0",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD\u2014cont. / 30-34 | Males",
+    "readings": [
+     1801.0,
+     11802.0
+    ]
+   },
+   {
+    "id": "9.0.13",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 60 and over | Females",
+    "readings": [
+     238.0
+    ]
+   },
+   {
+    "id": "0.2.8",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD / 10-14 | Females",
+    "readings": [
+     1982.0,
+     14204.0
+    ]
+   },
+   {
+    "id": "2.1.8",
+    "section": "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WIDOWED.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD / 10-14 | Females",
+    "readings": [
+     33.0
+    ]
+   },
+   {
+    "id": "4.3.5",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 5-9 | Males",
+    "readings": [
+     1714.0
+    ]
+   },
+   {
+    "id": "6.5.14",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED.",
+    "row": "Total",
+    "column": "AGE PERIOD / 25-29 | Females",
+    "readings": [
+     115603.0
+    ]
+   },
+   {
+    "id": "5.1.12",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD\u2014cont. / 60 and over | Males",
+    "readings": [
+     312.0
+    ]
+   },
+   {
+    "id": "8.4.5",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED.",
+    "row": "SANDUR",
+    "column": "AGE PERIOD / 5-9 | Males",
+    "readings": [
+     151.0
+    ]
+   },
+   {
+    "id": "0.0.13",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD / 25-29 | Males",
+    "readings": [
+     28021.0,
+     89302.0
+    ]
+   },
+   {
+    "id": "4.3.3",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 0-4 | Males",
+    "readings": [
+     1799.0
+    ]
+   },
+   {
+    "id": "1.5.9",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "Total",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Females",
+    "readings": [
+     4345.0,
+     30059.0
+    ]
+   },
+   {
+    "id": "4.2.13",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD / 25-29 | Males",
+    "readings": [
+     4464.0
+    ]
+   },
+   {
+    "id": "10.5.0",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "Total",
+    "column": "TOTAL WIDOWED | Total",
+    "readings": [
+     15920.0
+    ]
+   },
+   {
+    "id": "3.5.9",
+    "section": "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WIDOWED\u2014cont.",
+    "row": "Total",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Females",
+    "readings": [
+     37226.0
+    ]
+   },
+   {
+    "id": "1.3.4",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD\u2014cont. / 40-44 | Males",
+    "readings": [
+     133.0,
+     1330.0
+    ]
+   },
+   {
+    "id": "7.4.6",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014cont.",
+    "row": "SANDUR",
+    "column": "AGE PERIOD\u2014cont. / 45-49 | Males",
+    "readings": [
+     135.0
+    ]
+   },
+   {
+    "id": "10.2.11",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD / 20-24 | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "6.5.4",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED.",
+    "row": "Total",
+    "column": "AGE PERIOD / 0-4 | Females",
+    "readings": [
+     319.0
+    ]
+   },
+   {
+    "id": "0.3.3",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 0-4 | Males",
+    "readings": [
+     6.0,
+     2278.0
+    ]
+   },
+   {
+    "id": "9.2.4",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD\u2014cont. / 40-44 | Males",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.0.11",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD / 20-24 | Males",
+    "readings": [
+     52803.0,
+     54057.0
+    ]
+   },
+   {
+    "id": "7.5.4",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014cont.",
+    "row": "Total",
+    "column": "AGE PERIOD\u2014cont. / 40-44 | Males",
+    "readings": [
+     77443.0
+    ]
+   },
+   {
+    "id": "7.1.10",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014cont.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD\u2014cont. / 55-59 | Males",
+    "readings": [
+     4000.0
+    ]
+   },
+   {
+    "id": "1.0.12",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 60 and over | Males",
+    "readings": [
+     3373.0,
+     38840.0
+    ]
+   },
+   {
+    "id": "4.2.8",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD / 10-14 | Females",
+    "readings": [
+     13167.0
+    ]
+   },
+   {
+    "id": "0.3.10",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 15-19 | Females",
+    "readings": [
+     142.0,
+     922.0
+    ]
+   },
+   {
+    "id": "1.3.5",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD\u2014cont. / 40-44 | Females",
+    "readings": [
+     22.0,
+     595.0
+    ]
+   },
+   {
+    "id": "11.0.13",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 60 and over | Females",
+    "readings": [
+     2496.0
+    ]
+   },
+   {
+    "id": "0.4.13",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED.",
+    "row": "SANDUR",
+    "column": "AGE PERIOD / 25-29 | Males",
+    "readings": [
+     170.0,
+     370.0
+    ]
+   },
+   {
+    "id": "5.1.3",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD\u2014cont. / 35-39 | Females",
+    "readings": [
+     444.0
+    ]
+   },
+   {
+    "id": "10.2.14",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD / 25-29 | Females",
+    "readings": [
+     32.0
+    ]
+   },
+   {
+    "id": "4.5.0",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "Total",
+    "column": "TOTAL UNMARRIED | Total",
+    "readings": [
+     1334905.0
+    ]
+   },
+   {
+    "id": "9.3.4",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD\u2014cont. / 40-44 | Males",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.1.7",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD / 10-14 | Males",
+    "readings": [
+     683.0,
+     45198.0
+    ]
+   },
+   {
+    "id": "3.1.12",
+    "section": "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WIDOWED\u2014cont.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD\u2014cont. / 60 and over | Males",
+    "readings": [
+     3581.0
+    ]
+   },
+   {
+    "id": "8.1.12",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD / 20-24 | Females",
+    "readings": [
+     195.0
+    ]
+   },
+   {
+    "id": "4.1.8",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD / 10-14 | Females",
+    "readings": [
+     22923.0
+    ]
+   },
+   {
+    "id": "5.2.1",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD\u2014cont. / 30-34 | Females",
+    "readings": [
+     319.0
+    ]
+   },
+   {
+    "id": "7.4.1",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED\u2014cont.",
+    "row": "SANDUR",
+    "column": "AGE PERIOD\u2014cont. / 30-34 | Females",
+    "readings": [
+     265.0
+    ]
+   },
+   {
+    "id": "9.0.9",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Females",
+    "readings": [
+     218.0
+    ]
+   },
+   {
+    "id": "1.4.8",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "SANDUR",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Males",
+    "readings": [
+     12.0,
+     157.0
+    ]
+   },
+   {
+    "id": "5.3.9",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Females",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "4.2.5",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD / 5-9 | Males",
+    "readings": [
+     22655.0
+    ]
+   },
+   {
+    "id": "4.3.10",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 15-19 | Females",
+    "readings": [
+     100.0
+    ]
+   },
+   {
+    "id": "6.3.6",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 5-9 | Females",
+    "readings": [
+     152.0
+    ]
+   },
+   {
+    "id": "9.0.4",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 40-44 | Males",
+    "readings": [
+     192.0
+    ]
+   },
+   {
+    "id": "6.1.9",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD / 15-19 | Males",
+    "readings": [
+     3200.0
+    ]
+   },
+   {
+    "id": "9.2.9",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD\u2014cont. / 50-54 | Females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "5.5.4",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED\u2014cont.",
+    "row": "Total",
+    "column": "AGE PERIOD\u2014cont. / 40-44 | Males",
+    "readings": [
+     5092.0
+    ]
+   },
+   {
+    "id": "4.3.6",
+    "section": "Part (B)\u2014HINDUS. (1) UNMARRIED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 5-9 | Females",
+    "readings": [
+     1518.0
+    ]
+   },
+   {
+    "id": "10.3.10",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD / 15-19 | Females",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "1.1.2",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD\u2014cont. / 35-39 | Males",
+    "readings": [
+     901.0,
+     23288.0
+    ]
+   },
+   {
+    "id": "6.1.13",
+    "section": "Part (B)\u2014HINDUS\u2014continued. (2) MARRIED.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD / 25-29 | Males",
+    "readings": [
+     18896.0
+    ]
+   },
+   {
+    "id": "8.2.13",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD / 25-29 | Males",
+    "readings": [
+     83.0
+    ]
+   },
+   {
+    "id": "10.5.5",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "Total",
+    "column": "AGE PERIOD / 5-9 | Males",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.4.9",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED.",
+    "row": "SANDUR",
+    "column": "AGE PERIOD / 15-19 | Males",
+    "readings": [
+     59.0,
+     461.0
+    ]
+   },
+   {
+    "id": "11.1.11",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED\u2014cont.",
+    "row": "COCHIN",
+    "column": "AGE PERIOD\u2014cont. / 55-59 | Females",
+    "readings": [
+     190.0
+    ]
+   },
+   {
+    "id": "10.4.14",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED.",
+    "row": "SANDUR",
+    "column": "AGE PERIOD / 25-29 | Females",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "1.0.5",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 40-44 | Females",
+    "readings": [
+     5817.0,
+     45674.0
+    ]
+   },
+   {
+    "id": "2.0.12",
+    "section": "Part (A)\u2014ALL RELIGIONS\u2014continued. (3) WIDOWED.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD / 20-24 | Females",
+    "readings": [
+     1953.0
+    ]
+   },
+   {
+    "id": "9.0.3",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "TRAVANCORE",
+    "column": "AGE PERIOD\u2014cont. / 35-39 | Females",
+    "readings": [
+     436.0
+    ]
+   },
+   {
+    "id": "11.3.6",
+    "section": "Part (C)\u2014MUSALMANS\u2014continued. (3) WIDOWED\u2014cont.",
+    "row": "BANGANAPALLE",
+    "column": "AGE PERIOD\u2014cont. / 45-49 | Males",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "9.5.2",
+    "section": "Part (C) MUSALMANS. (1) UNMARRIED\u2014cont.",
+    "row": "Total",
+    "column": "AGE PERIOD\u2014cont. / 35-39 | Males",
+    "readings": [
+     435.0
+    ]
+   },
+   {
+    "id": "1.2.14",
+    "section": "Part (A)\u2014ALL RELIGIONS. (1) UNMARRIED\u2014cont.",
+    "row": "PUDUKOTA",
+    "column": "AGE PERIOD\u2014cont. / Not stated | Males",
+    "readings": [
+     2.0
+    ]
+   }
+  ],
+  "n_disputed": 1022
+ },
+ {
+  "page": "1891_Bengal_STATEMENT_III._The_number_and_proportion_7c2f9c4",
+  "title": "STATEMENT III. The number and proportions of single, married and widowed for 1881 and 1891, compared by sub-provinces.",
+  "year": 1891,
+  "place": "Bengal",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d2738a551a797d372ae70775c2d395b0c0fefd37.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "STATEMENT III. The number and proportion | SINGLE / Males | 1891",
+   "STATEMENT III. The number and proportion | SINGLE / Males | 1881",
+   "STATEMENT III. The number and proportion | SINGLE / Females | 1891",
+   "STATEMENT III. The number and proportion | SINGLE / Females | 1881",
+   "STATEMENT III. The number and proportion | MARRIED / Males | 1891",
+   "STATEMENT III. The number and proportion | MARRIED / Males | 1881",
+   "STATEMENT III. The number and proportion | MARRIED / Females | 1891",
+   "STATEMENT III. The number and proportion | MARRIED / Females | 1881",
+   "STATEMENT III. The number and proportion | WIDOWED / Males | 1891",
+   "STATEMENT III. The number and proportion | WIDOWED / Males | 1881",
+   "STATEMENT III. The number and proportion | WIDOWED / Females | 1891",
+   "STATEMENT III. The number and proportion | WIDOWED / Females | 1881"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.2.5",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Orissa",
+    "column": "MARRIED / Males | 1881",
+    "readings": [
+     856384.0,
+     858384.0
+    ]
+   },
+   {
+    "id": "0.2.0",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Orissa",
+    "column": "SINGLE / Males | 1891",
+    "readings": [
+     1033807.0,
+     1083807.0
+    ]
+   },
+   {
+    "id": "0.5.0",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Total",
+    "column": "SINGLE / Males | 1891",
+    "readings": [
+     17736541.0,
+     17786541.0
+    ]
+   },
+   {
+    "id": "0.3.1",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Chutia Nagpur",
+    "column": "SINGLE / Males | 1881",
+    "readings": [
+     1018560.0,
+     1018860.0
+    ]
+   },
+   {
+    "id": "0.4.5",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Feudatory States",
+    "column": "MARRIED / Males | 1881",
+    "readings": [
+     616725.0,
+     618725.0
+    ]
+   },
+   {
+    "id": "0.3.0",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Chutia Nagpur",
+    "column": "SINGLE / Males | 1891",
+    "readings": [
+     1159596.0,
+     1189596.0
+    ]
+   },
+   {
+    "id": "0.3.4",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Chutia Nagpur",
+    "column": "MARRIED / Males | 1891",
+    "readings": [
+     1038805.0,
+     1058805.0
+    ]
+   },
+   {
+    "id": "0.5.1",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Total",
+    "column": "SINGLE / Males | 1881",
+    "readings": [
+     16105015.0,
+     16106015.0
+    ]
+   },
+   {
+    "id": "0.5.7",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Total",
+    "column": "MARRIED / Females | 1881",
+    "readings": [
+     17046323.0,
+     17048323.0
+    ]
+   },
+   {
+    "id": "0.3.7",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Chutia Nagpur",
+    "column": "MARRIED / Females | 1881",
+    "readings": [
+     963392.0,
+     986302.0
+    ]
+   },
+   {
+    "id": "0.4.0",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Feudatory States",
+    "column": "SINGLE / Males | 1891",
+    "readings": [
+     825141.0,
+     855141.0
+    ]
+   },
+   {
+    "id": "0.3.3",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Chutia Nagpur",
+    "column": "SINGLE / Females | 1881",
+    "readings": [
+     794349.0,
+     794849.0
+    ]
+   },
+   {
+    "id": "0.4.7",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Feudatory States",
+    "column": "MARRIED / Females | 1881",
+    "readings": [
+     603644.0,
+     663644.0
+    ]
+   },
+   {
+    "id": "0.0.9",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Bengal Proper",
+    "column": "WIDOWED / Males | 1881",
+    "readings": [
+     692402.0,
+     692403.0
+    ]
+   },
+   {
+    "id": "0.5.4",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Total",
+    "column": "MARRIED / Males | 1891",
+    "readings": [
+     17523889.0,
+     17823889.0
+    ]
+   },
+   {
+    "id": "0.4.4",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Feudatory States",
+    "column": "MARRIED / Males | 1891",
+    "readings": [
+     635851.0,
+     680851.0
+    ]
+   },
+   {
+    "id": "0.5.11",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Total",
+    "column": "WIDOWED / Females | 1881",
+    "readings": [
+     7401619.0,
+     7401629.0
+    ]
+   },
+   {
+    "id": "0.2.4",
+    "section": "STATEMENT III. The number and proportions of single, married",
+    "row": "Orissa",
+    "column": "MARRIED / Males | 1891",
+    "readings": [
+     878589.0,
+     878599.0
+    ]
+   }
+  ],
+  "n_disputed": 18
+ }
+]

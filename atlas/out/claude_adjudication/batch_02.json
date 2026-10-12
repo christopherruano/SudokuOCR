@@ -1,0 +1,6026 @@
+[
+ {
+  "page": "1951_India_C-III_-_Age_and_Civil_Condition_Centra_591076f",
+  "title": "C-III - Age and Civil Condition \u2014 Central India",
+  "year": 1951,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/8361dafb22569183e80e629954937785f065c86b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/94a723e5ed6b157b4c8928d91f839959898ef58f.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d07b86e7d5560fc943dc4a918443530936d50e94.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/97324b624c52cfcfdebc3a49b1bb6ffcf01c086a.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/5e12ff31ec28fd86cdb487fa9edecadee3e0b9c9.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/014b2048076ceadbc4b8a3b041894e94b5c79fe4.jpg"
+  ],
+  "n_images_total": 11,
+  "reading_columns": [
+   "C-III - Age and Civil Condition | Sample Population / Total | Males",
+   "C-III - Age and Civil Condition | Sample Population / Total | Females",
+   "C-III - Age and Civil Condition | Sample Population / Un-married | Males",
+   "C-III - Age and Civil Condition | Sample Population / Un-married | Females",
+   "C-III - Age and Civil Condition | Sample Population / Married | Males",
+   "C-III - Age and Civil Condition | Sample Population / Married | Females",
+   "C-III - Age and Civil Condition | Sample Population / Widowed or divorced | Males",
+   "C-III - Age and Civil Condition | Sample Population / Widowed or divorced | Females",
+   "C-III - Age and Civil Condition | Age 0 / Total | Males",
+   "C-III - Age and Civil Condition | Age 0 / Total | Females",
+   "C-III - Age and Civil Condition | Age 1-4 / Total | Males",
+   "C-III - Age and Civil Condition | Age 1-4 / Total | Females",
+   "C-III - Age and Civil Condition | Age 5-14 / Total | Males",
+   "C-III - Age and Civil Condition | Age 5-14 / Total | Females",
+   "C-III - Age and Civil Condition | Age 5-14 / Un-married | Males",
+   "C-III - Age and Civil Condition | Age 5-14 / Un-married | Females",
+   "C-III - Age and Civil Condition | Age 5-14 / Married | Males",
+   "C-III - Age and Civil Condition | Age 5-14 / Married | Females",
+   "C-III - Age and Civil Condition | Age 5-14 / Widowed or divorced | Males",
+   "C-III - Age and Civil Condition | Age 5-14 / Widowed or divorced | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.46.14",
+    "section": "C-III - Age and Civil Condition",
+    "row": "5.1 North Madras and Orissa Coastal",
+    "column": "Age 5-14 / Un-married | Males",
+    "readings": [
+     31856.0
+    ]
+   },
+   {
+    "id": "0.4.3",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Hyderabad",
+    "column": "Sample Population / Un-married | Females",
+    "readings": [
+     63768.0
+    ]
+   },
+   {
+    "id": "0.39.18",
+    "section": "C-III - Age and Civil Condition",
+    "row": "3.3 North-East Plateau",
+    "column": "Age 5-14 / Widowed or divorced | Males",
+    "readings": [
+     86.0
+    ]
+   },
+   {
+    "id": "0.31.2",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Northern Plains Region",
+    "column": "Sample Population / Un-married | Males",
+    "readings": [
+     521759.0
+    ]
+   },
+   {
+    "id": "0.20.17",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Ajmer",
+    "column": "Age 5-14 / Married | Females",
+    "readings": [
+     273.0
+    ]
+   },
+   {
+    "id": "0.4.16",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Hyderabad",
+    "column": "Age 5-14 / Married | Males",
+    "readings": [
+     991.0
+    ]
+   },
+   {
+    "id": "0.31.16",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Northern Plains Region",
+    "column": "Age 5-14 / Married | Males",
+    "readings": [
+     10291.0
+    ]
+   },
+   {
+    "id": "0.37.18",
+    "section": "C-III - Age and Civil Condition",
+    "row": "3.1 North-West Hills",
+    "column": "Age 5-14 / Widowed or divorced | Males",
+    "readings": [
+     31.0
+    ]
+   },
+   {
+    "id": "0.9.1",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Rajasthan",
+    "column": "Sample Population / Total | Females",
+    "readings": [
+     120931.0
+    ]
+   },
+   {
+    "id": "0.39.19",
+    "section": "C-III - Age and Civil Condition",
+    "row": "3.3 North-East Plateau",
+    "column": "Age 5-14 / Widowed or divorced | Females",
+    "readings": [
+     128.0
+    ]
+   },
+   {
+    "id": "0.24.4",
+    "section": "C-III - Age and Civil Condition",
+    "row": "South India",
+    "column": "Sample Population / Married | Males",
+    "readings": [
+     309832.0
+    ]
+   },
+   {
+    "id": "0.31.19",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Northern Plains Region",
+    "column": "Age 5-14 / Widowed or divorced | Females",
+    "readings": [
+     417.0
+    ]
+   },
+   {
+    "id": "0.29.5",
+    "section": "C-III - Age and Civil Condition",
+    "row": "1.1 Western Himalayan",
+    "column": "Sample Population / Married | Females",
+    "readings": [
+     6080.0
+    ]
+   },
+   {
+    "id": "0.4.17",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Hyderabad",
+    "column": "Age 5-14 / Married | Females",
+    "readings": [
+     7035.0
+    ]
+   },
+   {
+    "id": "0.18.3",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Patiala and East Punjab States Union",
+    "column": "Sample Population / Un-married | Females",
+    "readings": [
+     10666.0
+    ]
+   },
+   {
+    "id": "0.34.8",
+    "section": "C-III - Age and Civil Condition",
+    "row": "2.3 Trans-Gangetic Plains",
+    "column": "Age 0 / Total | Males",
+    "readings": [
+     12322.0
+    ]
+   },
+   {
+    "id": "0.18.1",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Patiala and East Punjab States Union",
+    "column": "Sample Population / Total | Females",
+    "readings": [
+     23327.0
+    ]
+   },
+   {
+    "id": "0.45.7",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Eastern Ghats and Coastal Region",
+    "column": "Sample Population / Widowed or divorced | Females",
+    "readings": [
+     72934.0
+    ]
+   },
+   {
+    "id": "0.39.16",
+    "section": "C-III - Age and Civil Condition",
+    "row": "3.3 North-East Plateau",
+    "column": "Age 5-14 / Married | Males",
+    "readings": [
+     2123.0
+    ]
+   },
+   {
+    "id": "0.10.19",
+    "section": "C-III - Age and Civil Condition",
+    "row": "2.34 East Rajasthan Plain",
+    "column": "Age 5-14 / Widowed or divorced | Females",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.15.14",
+    "section": "C-III - Age and Civil Condition",
+    "row": "1.13 Himalayan Punjab",
+    "column": "Age 5-14 / Un-married | Males",
+    "readings": [
+     560.0
+    ]
+   },
+   {
+    "id": "0.9.3",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Rajasthan",
+    "column": "Sample Population / Un-married | Females",
+    "readings": [
+     41436.0
+    ]
+   },
+   {
+    "id": "0.37.19",
+    "section": "C-III - Age and Civil Condition",
+    "row": "3.1 North-West Hills",
+    "column": "Age 5-14 / Widowed or divorced | Females",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.29.2",
+    "section": "C-III - Age and Civil Condition",
+    "row": "1.1 Western Himalayan",
+    "column": "Sample Population / Un-married | Males",
+    "readings": [
+     10117.0
+    ]
+   },
+   {
+    "id": "0.33.6",
+    "section": "C-III - Age and Civil Condition",
+    "row": "2.2 Upper Gangetic Plains",
+    "column": "Sample Population / Widowed or divorced | Males",
+    "readings": [
+     21328.0
+    ]
+   },
+   {
+    "id": "0.12.11",
+    "section": "C-III - Age and Civil Condition",
+    "row": "3.11 Rajasthan Hills",
+    "column": "Age 1-4 / Total | Females",
+    "readings": [
+     932.0
+    ]
+   },
+   {
+    "id": "0.30.14",
+    "section": "C-III - Age and Civil Condition",
+    "row": "1.2 Eastern Himalayan",
+    "column": "Age 5-14 / Un-married | Males",
+    "readings": [
+     6753.0
+    ]
+   },
+   {
+    "id": "0.8.7",
+    "section": "C-III - Age and Civil Condition",
+    "row": "23 Bhopal",
+    "column": "Sample Population / Widowed or divorced | Females",
+    "readings": [
+     785.0
+    ]
+   },
+   {
+    "id": "0.43.6",
+    "section": "C-III - Age and Civil Condition",
+    "row": "4.1 Gujrat Kathiawar",
+    "column": "Sample Population / Widowed or divorced | Males",
+    "readings": [
+     9381.0
+    ]
+   },
+   {
+    "id": "0.19.5",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Delhi",
+    "column": "Sample Population / Married | Females",
+    "readings": [
+     17302.0
+    ]
+   },
+   {
+    "id": "0.32.13",
+    "section": "C-III - Age and Civil Condition",
+    "row": "2.1 Lower Gangetic Plains",
+    "column": "Age 5-14 / Total | Females",
+    "readings": [
+     81014.0
+    ]
+   },
+   {
+    "id": "0.42.1",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Western Ghats and Coastal Region",
+    "column": "Sample Population / Total | Females",
+    "readings": [
+     463807.0
+    ]
+   },
+   {
+    "id": "0.11.10",
+    "section": "C-III - Age and Civil Condition",
+    "row": "2.41 Rajasthan Dry Area",
+    "column": "Age 1-4 / Total | Males",
+    "readings": [
+     4702.0
+    ]
+   },
+   {
+    "id": "0.17.14",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Himachal Pradesh and Bilaspur",
+    "column": "Age 5-14 / Un-married | Males",
+    "readings": [
+     317.0
+    ]
+   },
+   {
+    "id": "0.7.14",
+    "section": "C-III - Age and Civil Condition",
+    "row": "22 Vindhya Pradesh",
+    "column": "Age 5-14 / Un-married | Males",
+    "readings": [
+     3232.0
+    ]
+   },
+   {
+    "id": "0.4.13",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Hyderabad",
+    "column": "Age 5-14 / Total | Females",
+    "readings": [
+     44549.0
+    ]
+   },
+   {
+    "id": "0.11.12",
+    "section": "C-III - Age and Civil Condition",
+    "row": "2.41 Rajasthan Dry Area",
+    "column": "Age 5-14 / Total | Males",
+    "readings": [
+     9936.0
+    ]
+   },
+   {
+    "id": "0.42.19",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Western Ghats and Coastal Region",
+    "column": "Age 5-14 / Widowed or divorced | Females",
+    "readings": [
+     75.0
+    ]
+   },
+   {
+    "id": "0.24.8",
+    "section": "C-III - Age and Civil Condition",
+    "row": "South India",
+    "column": "Age 0 / Total | Males",
+    "readings": [
+     18615.0
+    ]
+   },
+   {
+    "id": "0.14.7",
+    "section": "C-III - Age and Civil Condition",
+    "row": "Punjab",
+    "column": "Sample Population / Widowed or divorced | Females",
+    "readings": [
+     4898.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1901_Travancore_TABLE_VII._Age_Sex_and_Civil_Condition_36445d1",
+  "title": "TABLE VII. Age, Sex and Civil Condition (half-page merge)",
+  "year": 1901,
+  "place": "Travancore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/94d627453e10a9f0571895084440a4cb1adec8a1.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/df219f94290402a7598c5540cd077eecff4fa8bc.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/260745613a1d228bea65a223b464b37d506f6b5f.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e18b6e3b5ee37b6181fc0d325a4bc670a92bfeb5.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d991906728d26d4f6cec92a9973f80b15b3e9aed.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/988976c9073fbb1e18fe869f3ab3bf31f5646565.jpg"
+  ],
+  "n_images_total": 18,
+  "reading_columns": [
+   "E.\u2014Animistic | Population | Persons",
+   "E.\u2014Animistic | Population | Males",
+   "E.\u2014Animistic | Population | Females",
+   "E.\u2014Animistic | Unmarried | Persons",
+   "E.\u2014Animistic | Unmarried | Males",
+   "E.\u2014Animistic | Unmarried | Females",
+   "E.\u2014Animistic | Married | Persons",
+   "E.\u2014Animistic | Married | Males",
+   "E.\u2014Animistic | Married | Females",
+   "E.\u2014Animistic | Widowed | Persons",
+   "E.\u2014Animistic | Widowed | Males",
+   "E.\u2014Animistic | Widowed | Females",
+   "F.\u2014Buddhist | Population | Persons",
+   "F.\u2014Buddhist | Population | Males",
+   "F.\u2014Buddhist | Population | Females",
+   "F.\u2014Buddhist | Unmarried | Persons",
+   "F.\u2014Buddhist | Unmarried | Males",
+   "F.\u2014Buddhist | Unmarried | Females",
+   "F.\u2014Buddhist | Married | Persons",
+   "F.\u2014Buddhist | Married | Males",
+   "F.\u2014Buddhist | Married | Females",
+   "F.\u2014Buddhist | Widowed | Persons",
+   "F.\u2014Buddhist | Widowed | Males",
+   "F.\u2014Buddhist | Widowed | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "0",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 1,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "0-1",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 2,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "0-1",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 3,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "0-1",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 4,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "0",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 5,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "0-1",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 6,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "1",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 7,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "1-2",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 8,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "1-2",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 9,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "1-2",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 10,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "1",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 11,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "1-2",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 12,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "2",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 13,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "2-3",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 14,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "2-3",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 15,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "2-3",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 16,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "2",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 17,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "2-3",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 18,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "3",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 19,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "3-4",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 20,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "3-4",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 21,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "3-4",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 22,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "3",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 23,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "3-4",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 24,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "4",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 25,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "4-5",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 26,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "4-5",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 27,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "4-5",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 28,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "4",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 29,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "4-5",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 30,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "Total 0-5",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 31,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "Total 0-5",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 32,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "Total 0-5",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 33,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "Total 0-5",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 34,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "5-10",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 35,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "5-10",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 36,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "5-10",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 37,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "5-10",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 38,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "10-15",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 39,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "10-15",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 40,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "10-15",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 41,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "10-15",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 42,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "15-20",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 43,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "15-20",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 44,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "15-20",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 45,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "15-20",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 46,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "20-25",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 47,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "20-25",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 48,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "20-25",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 49,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "20-25",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 50,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "25-30",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 51,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "25-30",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 52,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "25-30",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 53,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "25-30",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 54,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "30-35",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 55,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "30-35",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 56,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "30-35",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 57,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "30-35",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 58,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "35-40",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 59,
+    "section": "All / Total \u00b7 Total Population",
+    "row": "35-40",
+    "column_group": "POPULATION"
+   }
+  ]
+ },
+ {
+  "page": "1911_India_Part_E-Religion_Christian.-Single._67b33ce",
+  "title": "Part E-Religion Christian.-Single.",
+  "year": 1911,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/75a4af5836048d15a448c4de9cf6e9795f72910c.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Part E-Religion Christian.-Single. | 20 to 24 years. | Males.",
+   "Part E-Religion Christian.-Single. | 20 to 24 years. | Females.",
+   "Part E-Religion Christian.-Single. | 25 to 29 years. | Males.",
+   "Part E-Religion Christian.-Single. | 25 to 29 years. | Females.",
+   "Part E-Religion Christian.-Single. | 30 to 34 years. | Males.",
+   "Part E-Religion Christian.-Single. | 30 to 34 years. | Females.",
+   "Part E-Religion Christian.-Single. | 35 to 39 years. | Males.",
+   "Part E-Religion Christian.-Single. | 35 to 39 years. | Females.",
+   "Part E-Religion Christian.-Single. | 40 to 44 years. | Males.",
+   "Part E-Religion Christian.-Single. | 40 to 44 years. | Females.",
+   "Part E-Religion Christian.-Single. | 45 to 49 years. | Males.",
+   "Part E-Religion Christian.-Single. | 45 to 49 years. | Females.",
+   "Part E-Religion Christian.-Single. | 50 to 54 years. | Males.",
+   "Part E-Religion Christian.-Single. | 50 to 54 years. | Females.",
+   "Part E-Religion Christian.-Single. | 55 to 59 years. | Males.",
+   "Part E-Religion Christian.-Single. | 55 to 59 years. | Females.",
+   "Part E-Religion Christian.-Single. | 60 years and over. | Males.",
+   "Part E-Religion Christian.-Single. | 60 years and over. | Females."
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.14.5",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "15",
+    "column": "30 to 34 years. | Females.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.12.16",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "13",
+    "column": "60 years and over. | Males.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.25.1",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "26",
+    "column": "20 to 24 years. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.43.5",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "44",
+    "column": "30 to 34 years. | Females.",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.6.7",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "7",
+    "column": "35 to 39 years. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.16.4",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "17",
+    "column": "30 to 34 years. | Males.",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "0.40.2",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "41",
+    "column": "25 to 29 years. | Males.",
+    "readings": [
+     138.0
+    ]
+   },
+   {
+    "id": "0.48.4",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "49",
+    "column": "30 to 34 years. | Males.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.28.2",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "29",
+    "column": "25 to 29 years. | Males.",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.12.5",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "13",
+    "column": "30 to 34 years. | Females.",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.29.16",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "30",
+    "column": "60 years and over. | Males.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.14.4",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "15",
+    "column": "30 to 34 years. | Males.",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.8.0",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "9",
+    "column": "20 to 24 years. | Males.",
+    "readings": [
+     68.0
+    ]
+   },
+   {
+    "id": "0.45.6",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "46",
+    "column": "35 to 39 years. | Males.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.4.13",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "5",
+    "column": "50 to 54 years. | Females.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.11.0",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "12",
+    "column": "20 to 24 years. | Males.",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.12.12",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "13",
+    "column": "50 to 54 years. | Males.",
+    "readings": [
+     76.0
+    ]
+   },
+   {
+    "id": "0.30.6",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "31",
+    "column": "35 to 39 years. | Males.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.19.0",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "20",
+    "column": "20 to 24 years. | Males.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.23.4",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "24",
+    "column": "30 to 34 years. | Males.",
+    "readings": [
+     59.0
+    ]
+   },
+   {
+    "id": "0.29.6",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "30",
+    "column": "35 to 39 years. | Males.",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.1.12",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "2",
+    "column": "50 to 54 years. | Males.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.3.2",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "4",
+    "column": "25 to 29 years. | Males.",
+    "readings": [
+     813.0
+    ]
+   },
+   {
+    "id": "0.49.4",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "50",
+    "column": "30 to 34 years. | Males.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.24.9",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "25",
+    "column": "40 to 44 years. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.0.16",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "1",
+    "column": "60 years and over. | Males.",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.5.2",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "6",
+    "column": "25 to 29 years. | Males.",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.35.1",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "36",
+    "column": "20 to 24 years. | Females.",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.43.7",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "44",
+    "column": "35 to 39 years. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.31.16",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "32",
+    "column": "60 years and over. | Males.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.22.9",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "23",
+    "column": "40 to 44 years. | Females.",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.18.13",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "19",
+    "column": "50 to 54 years. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.10.6",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "11",
+    "column": "35 to 39 years. | Males.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.44.2",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "45",
+    "column": "25 to 29 years. | Males.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.4.1",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "5",
+    "column": "20 to 24 years. | Females.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.12.13",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "13",
+    "column": "50 to 54 years. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.27.17",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "28",
+    "column": "60 years and over. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.8.15",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "9",
+    "column": "55 to 59 years. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.1.17",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "2",
+    "column": "60 years and over. | Females.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.39.4",
+    "section": "Part E-Religion Christian.-Single.",
+    "row": "40",
+    "column": "30 to 34 years. | Males.",
+    "readings": [
+     2.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1951_Punjab_TABLE_C-IV_Age_and_Literacy_af592bf",
+  "title": "TABLE C-IV Age and Literacy",
+  "year": 1951,
+  "place": "Punjab",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/5dbf1c1113bbc3fe407e93f4011f96f54cbfc4e7.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/1acdb4a2c45958a815b1c06eff8ca4a844c0f815.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/07e54f16302cb532b0c35894519df10ab7cd6678.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/24cac0997a9e95f4161a27b1259014d4e604f62b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/fa7f5e2b28d22cc185661beaace0dc454fe8ff40.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/86a60d91768eef1e63f76eaa67f880c6c4af31e7.jpg"
+  ],
+  "n_images_total": 6,
+  "reading_columns": [
+   "TABLE C-IV | Age, 5-9 / Total | Males",
+   "TABLE C-IV | Age, 5-9 / Total | Females",
+   "TABLE C-IV | Age, 5-9 / Literate | Males",
+   "TABLE C-IV | Age, 5-9 / Literate | Females",
+   "TABLE C-IV | Age, 5-9 / Illiterate | Males",
+   "TABLE C-IV | Age, 5-9 / Illiterate | Females",
+   "TABLE C-IV | Age, 10-14 / Total | Males",
+   "TABLE C-IV | Age, 10-14 / Total | Females",
+   "TABLE C-IV | Age, 10-14 / Literate | Males",
+   "TABLE C-IV | Age, 10-14 / Literate | Females",
+   "TABLE C-IV | Age, 10-14 / Illiterate | Males",
+   "TABLE C-IV | Age, 10-14 / Illiterate | Females",
+   "TABLE C-IV | Age, 15-24 / Total | Males",
+   "TABLE C-IV | Age, 15-24 / Total | Females",
+   "TABLE C-IV | Age, 35-44 / Total | Males",
+   "TABLE C-IV | Age, 35-44 / Total | Females",
+   "TABLE C-IV | Age, 35-44 / Literate | Males",
+   "TABLE C-IV | Age, 35-44 / Literate | Females",
+   "TABLE C-IV | Age, 35-44 / Illiterate | Males",
+   "TABLE C-IV | Age, 35-44 / Illiterate | Females",
+   "TABLE C-IV | Age, 45-54 / Total | Males",
+   "TABLE C-IV | Age, 45-54 / Total | Females",
+   "TABLE C-IV | Age, 45-54 / Literate | Males",
+   "TABLE C-IV | Age, 45-54 / Literate | Females",
+   "TABLE C-IV | Age, 45-54 / Illiterate | Males",
+   "TABLE C-IV | Age, 45-54 / Illiterate | Females",
+   "TABLE C-IV | Age, 55-64 / Total | Males",
+   "TABLE C-IV | Age, 55-64 / Total | Females",
+   "TABLE C-IV | Age 75, and over / Total | Males",
+   "TABLE C-IV | Age 75, and over / Total | Females",
+   "TABLE C-IV | Age 75, and over / Literate | Males",
+   "TABLE C-IV | Age 75, and over / Literate | Females",
+   "TABLE C-IV | Age 75, and over / Illiterate | Males",
+   "TABLE C-IV | Age 75, and over / Illiterate | Females",
+   "TABLE C-IV | Age not stated / Total | Persons",
+   "TABLE C-IV | Age not stated / Total | Males",
+   "TABLE C-IV | Age not stated / Total | Females",
+   "TABLE C-IV | Age not stated / Literate | Males",
+   "TABLE C-IV | Age not stated / Literate | Females",
+   "TABLE C-IV | Age not stated / Illiterate | Males",
+   "TABLE C-IV | Age not stated / Illiterate | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age 75, and over - Illiterate"
+   },
+   {
+    "id": 1,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age 75, and over - Illiterate"
+   },
+   {
+    "id": 2,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age 75, and over - Literate"
+   },
+   {
+    "id": 3,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age 75, and over - Literate"
+   },
+   {
+    "id": 4,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age 75, and over - Total"
+   },
+   {
+    "id": 5,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age 75, and over - Total"
+   },
+   {
+    "id": 6,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age not stated - Illiterate"
+   },
+   {
+    "id": 7,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age not stated - Illiterate"
+   },
+   {
+    "id": 8,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age not stated - Literate"
+   },
+   {
+    "id": 9,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age not stated - Literate"
+   },
+   {
+    "id": 10,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age not stated - Total"
+   },
+   {
+    "id": 11,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age not stated - Total"
+   },
+   {
+    "id": 12,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age, 10-14 Illiterate"
+   },
+   {
+    "id": 13,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 10-14 Illiterate"
+   },
+   {
+    "id": 14,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age, 10-14 Literate"
+   },
+   {
+    "id": 15,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 10-14 Literate"
+   },
+   {
+    "id": 16,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age, 10-14 Total"
+   },
+   {
+    "id": 17,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 10-14 Total"
+   },
+   {
+    "id": 18,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age, 15-24 Total"
+   },
+   {
+    "id": 19,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 15-24 Total"
+   },
+   {
+    "id": 20,
+    "section": "Literacy - Contd. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age, 35-44 Illiterate"
+   },
+   {
+    "id": 21,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 35-44 Illiterate"
+   },
+   {
+    "id": 22,
+    "section": "Literacy - Contd. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age, 35-44 Literate"
+   },
+   {
+    "id": 23,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 35-44 Literate"
+   },
+   {
+    "id": 24,
+    "section": "Literacy - Contd. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age, 35-44 Total"
+   },
+   {
+    "id": 25,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 35-44 Total"
+   },
+   {
+    "id": 26,
+    "section": "Literacy - Contd. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age, 45-54 Illiterate"
+   },
+   {
+    "id": 27,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 45-54 Illiterate"
+   },
+   {
+    "id": 28,
+    "section": "Literacy - Contd. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age, 45-54 Literate"
+   },
+   {
+    "id": 29,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 45-54 Literate"
+   },
+   {
+    "id": 30,
+    "section": "Literacy - Contd. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age, 45-54 Total"
+   },
+   {
+    "id": 31,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 45-54 Total"
+   },
+   {
+    "id": 32,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age, 5-9 Illiterate"
+   },
+   {
+    "id": 33,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 5-9 Illiterate"
+   },
+   {
+    "id": 34,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age, 5-9 Literate"
+   },
+   {
+    "id": 35,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 5-9 Literate"
+   },
+   {
+    "id": 36,
+    "section": "Table C-Iv",
+    "row": "Row 1",
+    "column_group": "Age, 5-9 Total"
+   },
+   {
+    "id": 37,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 5-9 Total"
+   },
+   {
+    "id": 38,
+    "section": "Literacy - Contd. TABLE C-IV",
+    "row": "Row 1",
+    "column_group": "Age, 55-64 Total"
+   },
+   {
+    "id": 39,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 1",
+    "column_group": "Age, 55-64 Total"
+   },
+   {
+    "id": 40,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age 75, and over - Illiterate"
+   },
+   {
+    "id": 41,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 2",
+    "column_group": "Age 75, and over - Illiterate"
+   },
+   {
+    "id": 42,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age 75, and over - Literate"
+   },
+   {
+    "id": 43,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 2",
+    "column_group": "Age 75, and over - Literate"
+   },
+   {
+    "id": 44,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age 75, and over - Total"
+   },
+   {
+    "id": 45,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 2",
+    "column_group": "Age 75, and over - Total"
+   },
+   {
+    "id": 46,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age not stated - Illiterate"
+   },
+   {
+    "id": 47,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 2",
+    "column_group": "Age not stated - Illiterate"
+   },
+   {
+    "id": 48,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age not stated - Literate"
+   },
+   {
+    "id": 49,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 2",
+    "column_group": "Age not stated - Literate"
+   },
+   {
+    "id": 50,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age not stated - Total"
+   },
+   {
+    "id": 51,
+    "section": "Literacy - Concld. TABLE C-IV",
+    "row": "Row 2",
+    "column_group": "Age not stated - Total"
+   },
+   {
+    "id": 52,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age, 10-14 Illiterate"
+   },
+   {
+    "id": 53,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 2",
+    "column_group": "Age, 10-14 Illiterate"
+   },
+   {
+    "id": 54,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age, 10-14 Literate"
+   },
+   {
+    "id": 55,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 2",
+    "column_group": "Age, 10-14 Literate"
+   },
+   {
+    "id": 56,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age, 10-14 Total"
+   },
+   {
+    "id": 57,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 2",
+    "column_group": "Age, 10-14 Total"
+   },
+   {
+    "id": 58,
+    "section": "Table C-Iv",
+    "row": "Row 2",
+    "column_group": "Age, 15-24 Total"
+   },
+   {
+    "id": 59,
+    "section": "TABLE C-IV Literacy",
+    "row": "Row 2",
+    "column_group": "Age, 15-24 Total"
+   }
+  ]
+ },
+ {
+  "page": "1911_India_TABLE_VIII._CIVIL_CONDITION_BY_AGE_FOR_S_ba9e66b",
+  "title": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND TRIBES.",
+  "year": 1911,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/933224781fe9fb9fa1c2ac9c89793b7c2ef67fa7.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S |  | Population dealt with",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | UNMARRIED | Total",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | UNMARRIED | 0-6",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | UNMARRIED | 7-13",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | UNMARRIED | 14-16",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | UNMARRIED | 17-23",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | UNMARRIED | 24-43",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | UNMARRIED | 44 and over",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | MARRIED | Total",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | MARRIED | 0-6",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | MARRIED | 7-13",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | MARRIED | 14-16",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | MARRIED | 17-23",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | MARRIED | 24-43",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | MARRIED | 44 and over",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | WIDOWED | Total",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | WIDOWED | 0-6",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | WIDOWED | 7-13",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | WIDOWED | 14-16",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | WIDOWED | 17-23",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | WIDOWED | 24-43",
+   "TABLE VIII. CIVIL CONDITION BY AGE FOR S | WIDOWED | 44 and over"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.24.19",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "CHAMAR Hindu Cuttack Male",
+    "column": "WIDOWED | 17-23",
+    "readings": [
+     101.0
+    ]
+   },
+   {
+    "id": "0.47.11",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KHANDAIT Hindu Orissa Female",
+    "column": "MARRIED | 14-16",
+    "readings": [
+     19832.0
+    ]
+   },
+   {
+    "id": "0.37.11",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "GOALA [AHIR, GOPA, YADAVA] Hindu C. N. Plateau Female",
+    "column": "MARRIED | 14-16",
+    "readings": [
+     11664.0
+    ]
+   },
+   {
+    "id": "0.35.13",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "GOALA [AHIR, GOPA, YADAVA] Hindu South Bihar Female",
+    "column": "MARRIED | 24-43",
+    "readings": [
+     146851.0
+    ]
+   },
+   {
+    "id": "0.5.18",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BABHAN [BHUMIHAR BRAHMAN] Hindu. South Bihar Female",
+    "column": "WIDOWED | 14-16",
+    "readings": [
+     356.0
+    ]
+   },
+   {
+    "id": "0.40.0",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KAYASTH Hindu Total Male",
+    "column": " | Population dealt with",
+    "readings": [
+     161988.0
+    ]
+   },
+   {
+    "id": "0.26.17",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "CHAMAR Hindu C. N. Plateau Male",
+    "column": "WIDOWED | 7-13",
+    "readings": [
+     93.0
+    ]
+   },
+   {
+    "id": "0.5.3",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BABHAN [BHUMIHAR BRAHMAN] Hindu. South Bihar Female",
+    "column": "UNMARRIED | 7-13",
+    "readings": [
+     23898.0
+    ]
+   },
+   {
+    "id": "0.10.16",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu North Bihar Male",
+    "column": "WIDOWED | 0-6",
+    "readings": [
+     81.0
+    ]
+   },
+   {
+    "id": "0.38.9",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KARAN Hindu Orissa Male",
+    "column": "MARRIED | 0-6",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.18.5",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "CHAMAR Hindu Total Male",
+    "column": "UNMARRIED | 17-23",
+    "readings": [
+     8465.0
+    ]
+   },
+   {
+    "id": "0.0.4",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BABHAN [BHUMIHAR BRAHMAN] Hindu. Total Male",
+    "column": "UNMARRIED | 14-16",
+    "readings": [
+     17885.0
+    ]
+   },
+   {
+    "id": "0.8.1",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu Total Male",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     485604.0
+    ]
+   },
+   {
+    "id": "0.1.12",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BABHAN [BHUMIHAR BRAHMAN] Hindu. Total Female",
+    "column": "MARRIED | 17-23",
+    "readings": [
+     40002.0
+    ]
+   },
+   {
+    "id": "0.8.15",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu Total Male",
+    "column": "WIDOWED | Total",
+    "readings": [
+     74760.0
+    ]
+   },
+   {
+    "id": "0.38.7",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KARAN Hindu Orissa Male",
+    "column": "UNMARRIED | 44 and over",
+    "readings": [
+     138.0
+    ]
+   },
+   {
+    "id": "0.2.5",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BABHAN [BHUMIHAR BRAHMAN] Hindu. North Bihar Male",
+    "column": "UNMARRIED | 17-23",
+    "readings": [
+     9809.0
+    ]
+   },
+   {
+    "id": "0.42.11",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KAYASTH Hindu North Bihar Male",
+    "column": "MARRIED | 14-16",
+    "readings": [
+     1138.0
+    ]
+   },
+   {
+    "id": "0.34.20",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "GOALA [AHIR, GOPA, YADAVA] Hindu South Bihar Male",
+    "column": "WIDOWED | 24-43",
+    "readings": [
+     16720.0
+    ]
+   },
+   {
+    "id": "0.22.15",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "CHAMAR Hindu South Bihar Male",
+    "column": "WIDOWED | Total",
+    "readings": [
+     5945.0
+    ]
+   },
+   {
+    "id": "0.35.11",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "GOALA [AHIR, GOPA, YADAVA] Hindu South Bihar Female",
+    "column": "MARRIED | 14-16",
+    "readings": [
+     30730.0
+    ]
+   },
+   {
+    "id": "0.8.17",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu Total Male",
+    "column": "WIDOWED | 7-13",
+    "readings": [
+     377.0
+    ]
+   },
+   {
+    "id": "0.2.3",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BABHAN [BHUMIHAR BRAHMAN] Hindu. North Bihar Male",
+    "column": "UNMARRIED | 7-13",
+    "readings": [
+     31883.0
+    ]
+   },
+   {
+    "id": "0.34.15",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "GOALA [AHIR, GOPA, YADAVA] Hindu South Bihar Male",
+    "column": "WIDOWED | Total",
+    "readings": [
+     48453.0
+    ]
+   },
+   {
+    "id": "0.45.10",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KAYASTH Hindu South Bihar Female",
+    "column": "MARRIED | 7-13",
+    "readings": [
+     1346.0
+    ]
+   },
+   {
+    "id": "0.42.9",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KAYASTH Hindu North Bihar Male",
+    "column": "MARRIED | 0-6",
+    "readings": [
+     260.0
+    ]
+   },
+   {
+    "id": "0.23.5",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "CHAMAR Hindu South Bihar Female",
+    "column": "UNMARRIED | 17-23",
+    "readings": [
+     618.0
+    ]
+   },
+   {
+    "id": "0.24.14",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "CHAMAR Hindu Cuttack Male",
+    "column": "MARRIED | 44 and over",
+    "readings": [
+     393.0
+    ]
+   },
+   {
+    "id": "0.21.0",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "CHAMAR Hindu North Bihar Female",
+    "column": " | Population dealt with",
+    "readings": [
+     373077.0
+    ]
+   },
+   {
+    "id": "0.35.12",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "GOALA [AHIR, GOPA, YADAVA] Hindu South Bihar Female",
+    "column": "MARRIED | 17-23",
+    "readings": [
+     62758.0
+    ]
+   },
+   {
+    "id": "0.13.20",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu South Bihar Female",
+    "column": "WIDOWED | 24-43",
+    "readings": [
+     20564.0
+    ]
+   },
+   {
+    "id": "0.12.14",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu South Bihar Male",
+    "column": "MARRIED | 44 and over",
+    "readings": [
+     27214.0
+    ]
+   },
+   {
+    "id": "0.31.10",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "GOALA [AHIR, GOPA, YADAVA] Hindu Total Female",
+    "column": "MARRIED | 7-13",
+    "readings": [
+     143391.0
+    ]
+   },
+   {
+    "id": "0.17.2",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu C. N. Plateau Female",
+    "column": "UNMARRIED | 0-6",
+    "readings": [
+     35165.0
+    ]
+   },
+   {
+    "id": "0.9.4",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu Total Female",
+    "column": "UNMARRIED | 14-16",
+    "readings": [
+     7278.0
+    ]
+   },
+   {
+    "id": "0.44.21",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KAYASTH Hindu South Bihar Male",
+    "column": "WIDOWED | 44 and over",
+    "readings": [
+     3903.0
+    ]
+   },
+   {
+    "id": "0.1.10",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BABHAN [BHUMIHAR BRAHMAN] Hindu. Total Female",
+    "column": "MARRIED | 7-13",
+    "readings": [
+     12804.0
+    ]
+   },
+   {
+    "id": "0.11.1",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "BRAHMAN Hindu North Bihar Female",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     124390.0
+    ]
+   },
+   {
+    "id": "0.29.17",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "GAURA Hindu Orissa Female",
+    "column": "WIDOWED | 7-13",
+    "readings": [
+     134.0
+    ]
+   },
+   {
+    "id": "0.41.3",
+    "section": "TABLE VIII. CIVIL CONDITION BY AGE FOR SELECTED CASTES AND T",
+    "row": "KAYASTH Hindu Total Female",
+    "column": "UNMARRIED | 7-13",
+    "readings": [
+     20677.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1931_Surat_TABLE_VI_RELIGION_9cc493b",
+  "title": "TABLE VI RELIGION",
+  "year": 1931,
+  "place": "Surat",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/c454a351f15b630b4dc18866b325ca9a27197b8c.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE VI RELIGION |  | Persons",
+   "TABLE VI RELIGION |  | Males",
+   "TABLE VI RELIGION |  | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "TABLE VI RELIGION",
+    "row": "Arya",
+    "column_group": "Population"
+   },
+   {
+    "id": 1,
+    "section": "TABLE VI RELIGION",
+    "row": "Brahmo",
+    "column_group": "Population"
+   },
+   {
+    "id": 2,
+    "section": "TABLE VI RELIGION",
+    "row": "Buddhist",
+    "column_group": "Population"
+   },
+   {
+    "id": 3,
+    "section": "TABLE VI RELIGION",
+    "row": "Jew",
+    "column_group": "Population"
+   },
+   {
+    "id": 4,
+    "section": "TABLE VI RELIGION",
+    "row": "Total",
+    "column_group": "Population"
+   }
+  ]
+ },
+ {
+  "page": "1891_Burma_KYAUKPYU_DISTRICT._Table_showing_Populat_fe3cc5a",
+  "title": "KYAUKPYU DISTRICT.\u2014Table showing Population, Population by Religion and Education, &c., by Villages and Circles.",
+  "year": 1891,
+  "place": "Burma",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/0ff4d89e389b5bce939c3981ecf013ef4087eda3.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat |  | Number of occupied houses.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | POPULATION | Both sexes.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | POPULATION | Male.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | POPULATION | Females.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat |  | Boat population.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | POPULATION BY RELIGION | Buddhists.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | POPULATION BY RELIGION | N\u00e0t-worshippers.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | POPULATION BY RELIGION | Mahomedans.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | POPULATION BY RELIGION | Hindus.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | POPULATION BY RELIGION | Christians.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | PARENT-TONGUE | Name of prevailing parent-tongue.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | PARENT-TONGUE | Number of persons using it.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | EDUCATION / Literate. | M.",
+   "KYAUKPYU DISTRICT.\u2014Table showing Populat | EDUCATION / Literate. | F."
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "Pyinpyumaw Circle No. 19.",
+    "row": "Pyinpyumaw",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 1,
+    "section": "Pyinpyumaw Circle No. 19.",
+    "row": "Pyinpyumaw",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 2,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Pandawbyin",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 3,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Pandawbyin",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 4,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Pandawbyin East",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 5,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Pandawbyin East",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 6,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Kabaingchaung",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 7,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Kabaingchaung",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 8,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Atwinpyinywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 9,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Atwinpyinywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 10,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Kadoseik",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 11,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Kadoseik",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 12,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Kywed\u00e8ywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 13,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Kywed\u00e8ywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 14,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Nabetohwaing",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 15,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Nabetohwaing",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 16,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Lamanchaung",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 17,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Lamanchaung",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 18,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Ngapumeywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 19,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Ngapumeywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 20,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Aungzichaung",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 21,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Aungzichaung",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 22,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "P\u00e9tmyadaing anauk",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 23,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "P\u00e9tmyadaing anauk",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 24,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Petmyadaing ashe",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 25,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Petmyadaing ashe",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 26,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Chaungshe",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 27,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Chaungshe",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 28,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Myunpyinywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 29,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Myunpyinywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 30,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Laungg\u00f4ktaung",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 31,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Laungg\u00f4ktaung",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 32,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Ngangyun",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 33,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Ngangyun",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 34,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Kyaukng\u00f4nywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 35,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Kyaukng\u00f4nywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 36,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Total",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 37,
+    "section": "Pandawbyin Circle No. 20.",
+    "row": "Total",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 38,
+    "section": "Mayasein Circle No. 21.",
+    "row": "\u00d4ngyaingywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 39,
+    "section": "Mayasein Circle No. 21.",
+    "row": "\u00d4ngyaingywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 40,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Myaungchaung",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 41,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Myaungchaung",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 42,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Wakutchaung",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 43,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Wakutchaung",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 44,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Ywamaywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 45,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Ywamaywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 46,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Kanyindaw",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 47,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Kanyindaw",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 48,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Dodanywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 49,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Dodanywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 50,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Wadawpyein",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 51,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Wadawpyein",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 52,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Sing\u00f4ndaing",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 53,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Sing\u00f4ndaing",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 54,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Lawt\u00e8ywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 55,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Lawt\u00e8ywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 56,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Minganywa",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 57,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Minganywa",
+    "column_group": "EDUCATION"
+   },
+   {
+    "id": 58,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Mauktingyi",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 59,
+    "section": "Mayasein Circle No. 21.",
+    "row": "Mauktingyi",
+    "column_group": "EDUCATION"
+   }
+  ]
+ },
+ {
+  "page": "1891_Baroda_TABLE_IX._Education_by_Religion_and_Age._38f30b5",
+  "title": "TABLE IX. Education by Religion and Age.",
+  "year": 1891,
+  "place": "Baroda",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/5a2da407f3908b4a5d1c146f3c27aa84aa60e328.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE IX. Education by Religion and Age. | 0-9 / Total | Males",
+   "TABLE IX. Education by Religion and Age. | 0-9 / Total | Females",
+   "TABLE IX. Education by Religion and Age. | 0-9 / Learning | Males",
+   "TABLE IX. Education by Religion and Age. | 0-9 / Learning | Females",
+   "TABLE IX. Education by Religion and Age. | 0-9 / Literate | Males",
+   "TABLE IX. Education by Religion and Age. | 0-9 / Literate | Females",
+   "TABLE IX. Education by Religion and Age. | 0-9 / Illiterate | Males",
+   "TABLE IX. Education by Religion and Age. | 0-9 / Illiterate | Females",
+   "TABLE IX. Education by Religion and Age. | 10-14 / Total | Males",
+   "TABLE IX. Education by Religion and Age. | 10-14 / Total | Females",
+   "TABLE IX. Education by Religion and Age. | 10-14 / Learning | Males",
+   "TABLE IX. Education by Religion and Age. | 10-14 / Learning | Females",
+   "TABLE IX. Education by Religion and Age. | 10-14 / Literate | Males",
+   "TABLE IX. Education by Religion and Age. | 10-14 / Literate | Females",
+   "TABLE IX. Education by Religion and Age. | 10-14 / Illiterate | Males",
+   "TABLE IX. Education by Religion and Age. | 10-14 / Illiterate | Females",
+   "TABLE IX. Education by Religion and Age. | 25-39 / Total | Males",
+   "TABLE IX. Education by Religion and Age. | 25-39 / Total | Females",
+   "TABLE IX. Education by Religion and Age. | 25-39 / Learning | Males",
+   "TABLE IX. Education by Religion and Age. | 25-39 / Learning | Females",
+   "TABLE IX. Education by Religion and Age. | 25-39 / Literate | Males",
+   "TABLE IX. Education by Religion and Age. | 25-39 / Literate | Females",
+   "TABLE IX. Education by Religion and Age. | 25-39 / Illiterate | Males",
+   "TABLE IX. Education by Religion and Age. | 25-39 / Illiterate | Females",
+   "TABLE IX. Education by Religion and Age. | 40 and over / Total | Males",
+   "TABLE IX. Education by Religion and Age. | 40 and over / Total | Females",
+   "TABLE IX. Education by Religion and Age. | 40 and over / Learning | Males",
+   "TABLE IX. Education by Religion and Age. | 40 and over / Learning | Females",
+   "TABLE IX. Education by Religion and Age. | 40 and over / Literate | Males",
+   "TABLE IX. Education by Religion and Age. | 40 and over / Literate | Females",
+   "TABLE IX. Education by Religion and Age. | 40 and over / Illiterate | Males",
+   "TABLE IX. Education by Religion and Age. | 40 and over / Illiterate | Females",
+   "TABLE IX. Education by Religion and Age. | Total 25 and over / Total | Males",
+   "TABLE IX. Education by Religion and Age. | Total 25 and over / Total | Females",
+   "TABLE IX. Education by Religion and Age. | Total 25 and over / Learning | Males",
+   "TABLE IX. Education by Religion and Age. | Total 25 and over / Learning | Females",
+   "TABLE IX. Education by Religion and Age. | Total 25 and over / Literate | Males",
+   "TABLE IX. Education by Religion and Age. | Total 25 and over / Literate | Females",
+   "TABLE IX. Education by Religion and Age. | Total 25 and over / Illiterate | Males",
+   "TABLE IX. Education by Religion and Age. | Total 25 and over / Illiterate | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.1.30",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 2",
+    "column": "40 and over / Illiterate | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.3.32",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 4",
+    "column": "Total 25 and over / Total | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.1.38",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 2",
+    "column": "Total 25 and over / Illiterate | Males",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.3.16",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 4",
+    "column": "25-39 / Total | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.9.32",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 10",
+    "column": "Total 25 and over / Total | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.1.22",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 2",
+    "column": "25-39 / Illiterate | Males",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.3.22",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 4",
+    "column": "25-39 / Illiterate | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.9.22",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 10",
+    "column": "25-39 / Illiterate | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.9.38",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 10",
+    "column": "Total 25 and over / Illiterate | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.1.24",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 2",
+    "column": "40 and over / Total | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.1.32",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 2",
+    "column": "Total 25 and over / Total | Males",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.9.16",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 10",
+    "column": "25-39 / Total | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.3.38",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 4",
+    "column": "Total 25 and over / Illiterate | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.1.16",
+    "section": "TABLE IX. Education by Religion and Age. Sikh.",
+    "row": "Row 2",
+    "column": "25-39 / Total | Males",
+    "readings": [
+     5.0
+    ]
+   }
+  ],
+  "n_disputed": 14
+ },
+ {
+  "page": "1911_Assam_TABLE_XV_-_OCCUPATION_OR_MEANS_OF_LIVELI_7156b41",
+  "title": "TABLE XV - OCCUPATION OR MEANS OF LIVELIHOOD. PART A - GENERAL TABLE - DETAILS FOR DISTRIC",
+  "year": 1911,
+  "place": "Assam",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/549e158d3136128ac691346156d364a3e6c6d677.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/5eb1e0bd3a685e13cc27db04013b27fc4a623cd0.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 77.\u2014Excavators, plinth builders and well sinkers | Total workers and dependants",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 77.\u2014Excavators, plinth builders and well sinkers / Actual workers / Total | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 77.\u2014Excavators, plinth builders and well sinkers / Actual workers / Total | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 77.\u2014Excavators, plinth builders and well sinkers / Actual workers / Partially agriculturist | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 77.\u2014Excavators, plinth builders and well sinkers / Actual workers / Partially agriculturist | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 77.\u2014Excavators, plinth builders and well sinkers / Dependants | Both sexes",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 78.\u2014Stone and marble workers, masons and bricklayers | Total workers and dependants",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 78.\u2014Stone and marble workers, masons and bricklayers / Actual workers / Total | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 78.\u2014Stone and marble workers, masons and bricklayers / Actual workers / Total | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 78.\u2014Stone and marble workers, masons and bricklayers / Actual workers / Partially agriculturist | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 78.\u2014Stone and marble workers, masons and bricklayers / Actual workers / Partially agriculturist | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 78.\u2014Stone and marble workers, masons and bricklayers / Dependants | Both sexes",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 79.\u2014Others (thatchers, building contractors, house painters, tillers, plumbers, locksmiths, etc.) | Total workers and dependants",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 79.\u2014Others (thatchers, building contractors, house painters, tillers, plumbers, locksmiths, etc.) / Actual workers / Total | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 79.\u2014Others (thatchers, building contractors, house painters, tillers, plumbers, locksmiths, etc.) / Actual workers / Total | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 79.\u2014Others (thatchers, building contractors, house painters, tillers, plumbers, locksmiths, etc.) / Actual workers / Partially agriculturist | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 79.\u2014Others (thatchers, building contractors, house painters, tillers, plumbers, locksmiths, etc.) / Actual workers / Partially agriculturist | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 79.\u2014Others (thatchers, building contractors, house painters, tillers, plumbers, locksmiths, etc.) / Dependants | Both sexes",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 | Total workers and dependants",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Total | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Total | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Partially agriculturist | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Partially agriculturist | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BU | 16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 83.\u2014Gas works, electric light and ice factories | Total workers and dependants",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 83.\u2014Gas works, electric light and ice factories / Actual workers / Total | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 83.\u2014Gas works, electric light and ice factories / Actual workers / Total | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 83.\u2014Gas works, electric light and ice factories / Actual workers / Partially agriculturist | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 83.\u2014Gas works, electric light and ice factories / Actual workers / Partially agriculturist | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 83.\u2014Gas works, electric light and ice factories / Dependants | Both sexes",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 | Total workers and dependants",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PR | 18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 84.\u2014Printers, lithographers, engravers, etc. | Total workers and dependants",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 84.\u2014Printers, lithographers, engravers, etc. / Actual workers / Total | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 84.\u2014Printers, lithographers, engravers, etc. / Actual workers / Total | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 84.\u2014Printers, lithographers, engravers, etc. / Actual workers / Partially agriculturist | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 84.\u2014Printers, lithographers, engravers, etc. / Actual workers / Partially agriculturist | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 84.\u2014Printers, lithographers, engravers, etc. / Dependants | Both sexes",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. | Total workers and dependants",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. / Actual workers / Total | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. / Actual workers / Total | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. / Actual workers / Partially agriculturist | Males",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. / Actual workers / Partially agriculturist | Females",
+   "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014IN | 89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. / Dependants | Both sexes"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "2.7.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Lushai Hills",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     36.0
+    ]
+   },
+   {
+    "id": "1.12.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Nowgong",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "2.15.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Garo Hills",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "2.12.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Nowgong",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     301.0
+    ]
+   },
+   {
+    "id": "2.0.5",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "ASSAM",
+    "column": "83.\u2014Gas works, electric light and ice factories / Dependants | Both sexes",
+    "readings": [
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "2.9.8",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Goalpara",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Females",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "3.12.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014INDUSTRIES OF LUXURY A",
+    "row": "Nowgong",
+    "column": "89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     29.0,
+     99.0
+    ]
+   },
+   {
+    "id": "1.8.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "ASSAM VALLEY DISTRICTS",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+    "readings": [
+     189.0
+    ]
+   },
+   {
+    "id": "2.2.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "SURMA VALLEY AND HILL DISTRICTS",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     5224.0
+    ]
+   },
+   {
+    "id": "1.15.0",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Garo Hills",
+    "column": "79.\u2014Others (thatchers, building contractors, house painters, tillers, plumbers, locksmiths, etc.) | Total workers and dependants",
+    "readings": [
+     4.0,
+     7.0
+    ]
+   },
+   {
+    "id": "2.5.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Khasi and Jaintia Hills",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     661.0
+    ]
+   },
+   {
+    "id": "2.2.8",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "SURMA VALLEY AND HILL DISTRICTS",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Females",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "0.12.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Nowgong",
+    "column": "78.\u2014Stone and marble workers, masons and bricklayers / Actual workers / Total | Males",
+    "readings": [
+     39.0,
+     59.0
+    ]
+   },
+   {
+    "id": "2.8.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "ASSAM VALLEY DISTRICTS",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     464.0
+    ]
+   },
+   {
+    "id": "0.14.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Lakhimpur",
+    "column": "78.\u2014Stone and marble workers, masons and bricklayers / Actual workers / Total | Males",
+    "readings": [
+     178.0,
+     198.0
+    ]
+   },
+   {
+    "id": "1.14.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Lakhimpur",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "1.4.6",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Sylhet",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 | Total workers and dependants",
+    "readings": [
+     125.0
+    ]
+   },
+   {
+    "id": "2.10.10",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Kamrup",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.9.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Goalpara",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     872.0
+    ]
+   },
+   {
+    "id": "1.5.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Khasi and Jaintia Hills",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Total | Males",
+    "readings": [
+     26.0
+    ]
+   },
+   {
+    "id": "2.3.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Cachar",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     29.0
+    ]
+   },
+   {
+    "id": "1.2.6",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "SURMA VALLEY AND HILL DISTRICTS",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 | Total workers and dependants",
+    "readings": [
+     160.0
+    ]
+   },
+   {
+    "id": "2.1.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "(1) British Territory",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     10181.0
+    ]
+   },
+   {
+    "id": "2.0.0",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "ASSAM",
+    "column": "83.\u2014Gas works, electric light and ice factories | Total workers and dependants",
+    "readings": [
+     4.0,
+     7.0
+    ]
+   },
+   {
+    "id": "2.14.8",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Lakhimpur",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Females",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "1.4.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Sylhet",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+    "readings": [
+     61.0
+    ]
+   },
+   {
+    "id": "1.8.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "ASSAM VALLEY DISTRICTS",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.8.5",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "ASSAM VALLEY DISTRICTS",
+    "column": "77.\u2014Excavators, plinth builders and well sinkers / Dependants | Both sexes",
+    "readings": [
+     3.0,
+     13.0
+    ]
+   },
+   {
+    "id": "1.14.5",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Lakhimpur",
+    "column": "79.\u2014Others (thatchers, building contractors, house painters, tillers, plumbers, locksmiths, etc.) / Dependants | Both sexes",
+    "readings": [
+     211.0,
+     214.0
+    ]
+   },
+   {
+    "id": "2.1.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "(1) British Territory",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     1019.0
+    ]
+   },
+   {
+    "id": "2.6.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Naga Hills",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.11.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Darrang",
+    "column": "78.\u2014Stone and marble workers, masons and bricklayers / Actual workers / Total | Males",
+    "readings": [
+     64.0,
+     84.0
+    ]
+   },
+   {
+    "id": "2.13.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Sibsagar",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     125.0
+    ]
+   },
+   {
+    "id": "2.12.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Nowgong",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+    "readings": [
+     213.0
+    ]
+   },
+   {
+    "id": "2.2.6",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "SURMA VALLEY AND HILL DISTRICTS",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 | Total workers and dependants",
+    "readings": [
+     8673.0
+    ]
+   },
+   {
+    "id": "1.11.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Darrang",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "2.2.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "SURMA VALLEY AND HILL DISTRICTS",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+    "readings": [
+     3433.0
+    ]
+   },
+   {
+    "id": "2.0.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "ASSAM",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+    "readings": [
+     6900.0
+    ]
+   },
+   {
+    "id": "2.4.8",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Sylhet",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Females",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "3.10.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014INDUSTRIES OF LUXURY A",
+    "row": "Kamrup",
+    "column": "89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. / Actual workers / Total | Males",
+    "readings": [
+     1103.0,
+     1105.0
+    ]
+   },
+   {
+    "id": "1.1.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "(1) British Territory",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "1.0.8",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "ASSAM",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Total | Females",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "2.12.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Nowgong",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     100.0
+    ]
+   },
+   {
+    "id": "2.0.6",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "ASSAM",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 | Total workers and dependants",
+    "readings": [
+     17736.0
+    ]
+   },
+   {
+    "id": "2.9.1",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Goalpara",
+    "column": "83.\u2014Gas works, electric light and ice factories / Actual workers / Total | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "2.1.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "(1) British Territory",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+    "readings": [
+     6680.0
+    ]
+   },
+   {
+    "id": "2.16.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "(2) Manipur State",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "1.14.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Lakhimpur",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.3.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Cachar",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+    "readings": [
+     356.0
+    ]
+   },
+   {
+    "id": "2.12.10",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Nowgong",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Females",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "2.5.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Khasi and Jaintia Hills",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+    "readings": [
+     634.0
+    ]
+   },
+   {
+    "id": "2.11.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Darrang",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     73.0
+    ]
+   },
+   {
+    "id": "2.4.6",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Sylhet",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 | Total workers and dependants",
+    "readings": [
+     6815.0
+    ]
+   },
+   {
+    "id": "1.9.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Goalpara",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "1.16.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "(2) Manipur State",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "1.11.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Darrang",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Total | Males",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "2.15.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Garo Hills",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Males",
+    "readings": [
+     24.0
+    ]
+   },
+   {
+    "id": "2.11.8",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Darrang",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Females",
+    "readings": [
+     37.0
+    ]
+   },
+   {
+    "id": "2.0.1",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "ASSAM",
+    "column": "83.\u2014Gas works, electric light and ice factories / Actual workers / Total | Males",
+    "readings": [
+     3.0,
+     5.0
+    ]
+   },
+   {
+    "id": "3.14.8",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 18.\u2014INDUSTRIES OF LUXURY A",
+    "row": "Lakhimpur",
+    "column": "89.\u2014Workers in precious stones and metals, enamellers, imitation jewellery makers, gilders, etc. / Actual workers / Total | Females",
+    "readings": [
+     14.0,
+     16.0
+    ]
+   },
+   {
+    "id": "1.16.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "(2) Manipur State",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Total | Males",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "2.13.0",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Sibsagar",
+    "column": "83.\u2014Gas works, electric light and ice factories | Total workers and dependants",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "2.9.0",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Goalpara",
+    "column": "83.\u2014Gas works, electric light and ice factories | Total workers and dependants",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "2.4.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Sylhet",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     4269.0
+    ]
+   },
+   {
+    "id": "2.15.6",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Garo Hills",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 | Total workers and dependants",
+    "readings": [
+     44.0
+    ]
+   },
+   {
+    "id": "1.13.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Sibsagar",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Total | Males",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "2.14.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Lakhimpur",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     385.0
+    ]
+   },
+   {
+    "id": "1.1.7",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "(1) British Territory",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Actual workers / Total | Males",
+    "readings": [
+     344.0
+    ]
+   },
+   {
+    "id": "1.14.6",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Lakhimpur",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 | Total workers and dependants",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.13.0",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Sibsagar",
+    "column": "77.\u2014Excavators, plinth builders and well sinkers | Total workers and dependants",
+    "readings": [
+     5.0,
+     15.0
+    ]
+   },
+   {
+    "id": "0.8.0",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "ASSAM VALLEY DISTRICTS",
+    "column": "77.\u2014Excavators, plinth builders and well sinkers | Total workers and dependants",
+    "readings": [
+     140.0,
+     150.0
+    ]
+   },
+   {
+    "id": "1.13.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Sibsagar",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "1.12.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Nowgong",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 / Dependants | Both sexes",
+    "readings": [
+     17.0
+    ]
+   },
+   {
+    "id": "1.11.6",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Darrang",
+    "column": "16.\u2014CONSTRUCTION OF MEANS OF TRANSPORT / TOTAL OF ORDER 16 | Total workers and dependants",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "2.8.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "ASSAM VALLEY DISTRICTS",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Dependants | Both sexes",
+    "readings": [
+     4957.0
+    ]
+   },
+   {
+    "id": "2.10.9",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Kamrup",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Males",
+    "readings": [
+     90.0
+    ]
+   },
+   {
+    "id": "0.14.11",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 15.\u2014BUILDING INDUSTRIES (G",
+    "row": "Lakhimpur",
+    "column": "78.\u2014Stone and marble workers, masons and bricklayers / Dependants | Both sexes",
+    "readings": [
+     177.0,
+     197.0
+    ]
+   },
+   {
+    "id": "2.8.0",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "ASSAM VALLEY DISTRICTS",
+    "column": "83.\u2014Gas works, electric light and ice factories | Total workers and dependants",
+    "readings": [
+     3.0,
+     4.0
+    ]
+   },
+   {
+    "id": "2.1.10",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "(1) British Territory",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Partially agriculturist | Females",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "2.10.8",
+    "section": "CLASS B: SUB-CLASS III.\u2014INDUSTRY. 17.\u2014PRODUCTION AND TRANSMI",
+    "row": "Kamrup",
+    "column": "18.\u2014INDUSTRIES OF LUXURY AND THOSE PERTAINING TO LITERATURE AND THE ARTS AND SCIENCES / TOTAL OF ORDER 18 / Actual workers / Total | Females",
+    "readings": [
+     53.0
+    ]
+   }
+  ],
+  "n_disputed": 187
+ },
+ {
+  "page": "1891_Burma_THARRAWADDY_DISTRICT._d5e60e2",
+  "title": "THARRAWADDY DISTRICT.",
+  "year": 1891,
+  "place": "Burma",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a752618f47224f81c786288849237b5e41ae2185.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "THARRAWADDY DISTRICT. |  | Number of occupied houses",
+   "THARRAWADDY DISTRICT. | POPULATION | Both sexes",
+   "THARRAWADDY DISTRICT. | POPULATION | Male",
+   "THARRAWADDY DISTRICT. | POPULATION | Female",
+   "THARRAWADDY DISTRICT. | POPULATION | Boat population",
+   "THARRAWADDY DISTRICT. | POPULATION BY RELIGION | Buddhists",
+   "THARRAWADDY DISTRICT. | POPULATION BY RELIGION | N\u00e1t-worshippers",
+   "THARRAWADDY DISTRICT. | POPULATION BY RELIGION | Mahomedans",
+   "THARRAWADDY DISTRICT. | POPULATION BY RELIGION | Hindus",
+   "THARRAWADDY DISTRICT. | POPULATION BY RELIGION | Christians",
+   "THARRAWADDY DISTRICT. | PARENT-TONGUE | Number of persons using it",
+   "THARRAWADDY DISTRICT. | EDUCATION / Literate | M.",
+   "THARRAWADDY DISTRICT. | EDUCATION / Literate | F."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.43.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Zeinza",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.0.1",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Hmanlakag\u00f4n",
+    "column": "POPULATION | Both sexes",
+    "readings": [
+     417.0
+    ]
+   },
+   {
+    "id": "0.33.8",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Nw\u00e8gwe",
+    "column": "POPULATION BY RELIGION | Hindus",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.30.7",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Aukthitcha",
+    "column": "POPULATION BY RELIGION | Mahomedans",
+    "readings": [
+     6.0,
+     7.0
+    ]
+   },
+   {
+    "id": "0.25.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Nyaungnig\u00f4n",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     1.0,
+     3.0
+    ]
+   },
+   {
+    "id": "0.19.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Thakutk\u00f4n",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     3.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.0.3",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Hmanlakag\u00f4n",
+    "column": "POPULATION | Female",
+    "readings": [
+     204.0
+    ]
+   },
+   {
+    "id": "0.22.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Thayeti\u00e8bin",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     4.0,
+     5.0
+    ]
+   },
+   {
+    "id": "0.0.11",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Hmanlakag\u00f4n",
+    "column": "EDUCATION / Literate | M.",
+    "readings": [
+     127.0
+    ]
+   },
+   {
+    "id": "0.33.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Nw\u00e8gwe",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     1.0,
+     4.0
+    ]
+   },
+   {
+    "id": "0.27.4",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Pogaung",
+    "column": "POPULATION | Boat population",
+    "readings": [
+     80.0
+    ]
+   },
+   {
+    "id": "0.0.2",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Hmanlakag\u00f4n",
+    "column": "POPULATION | Male",
+    "readings": [
+     213.0
+    ]
+   },
+   {
+    "id": "0.35.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Aukkyw\u00e8that",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     4.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.0.0",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Hmanlakag\u00f4n",
+    "column": " | Number of occupied houses",
+    "readings": [
+     85.0
+    ]
+   },
+   {
+    "id": "0.26.8",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Zayatgyi",
+    "column": "POPULATION BY RELIGION | Hindus",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.46.7",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Ywagyig\u00f4n",
+    "column": "POPULATION BY RELIGION | Mahomedans",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.46.8",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Ywagyig\u00f4n",
+    "column": "POPULATION BY RELIGION | Hindus",
+    "readings": [
+     2.0,
+     59.0
+    ]
+   },
+   {
+    "id": "0.23.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Nyaung waing",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     1.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.0.5",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Hmanlakag\u00f4n",
+    "column": "POPULATION BY RELIGION | Buddhists",
+    "readings": [
+     417.0
+    ]
+   },
+   {
+    "id": "0.32.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "G\u00f4nminmyaung auk",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.0.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Hmanlakag\u00f4n",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.0.10",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Hmanlakag\u00f4n",
+    "column": "PARENT-TONGUE | Number of persons using it",
+    "readings": [
+     417.0
+    ]
+   },
+   {
+    "id": "0.20.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Letpang\u00f4n",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     6.0,
+     41.0
+    ]
+   },
+   {
+    "id": "0.34.12",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Inywa",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     4.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.30.8",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "Aukthitcha",
+    "column": "POPULATION BY RELIGION | Hindus",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.32.8",
+    "section": "THARRAWADDY DISTRICT.",
+    "row": "G\u00f4nminmyaung auk",
+    "column": "POPULATION BY RELIGION | Hindus",
+    "readings": [
+     3.0
+    ]
+   }
+  ],
+  "n_disputed": 26
+ },
+ {
+  "page": "1901_Berar_MARRIED-_contd._and_WIDOWED._bad914b",
+  "title": "MARRIED-(contd.) and WIDOWED.",
+  "year": 1901,
+  "place": "Berar",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/4702f1ceb6cbc3f2b7d192842d82fbe098a19166.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "MARRIED-(contd.) and WIDOWED. | MARRIED-(contd.) / AGE PERIOD. / 15-20. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | MARRIED-(contd.) / AGE PERIOD. / 15-20. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | MARRIED-(contd.) / AGE PERIOD. / 20-40. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | MARRIED-(contd.) / AGE PERIOD. / 20-40. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | MARRIED-(contd.) / AGE PERIOD. / 40-60. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | MARRIED-(contd.) / AGE PERIOD. / 40-60. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | MARRIED-(contd.) / AGE PERIOD. / 60 and over. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | MARRIED-(contd.) / AGE PERIOD. / 60 and over. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | TOTAL WIDOWED. | Total.",
+   "MARRIED-(contd.) and WIDOWED. | TOTAL WIDOWED. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | TOTAL WIDOWED. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 0-5. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 0-5. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 5-10. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 5-10. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 10-15. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 10-15. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 15-20. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 15-20. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 20-40. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 20-40. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 40-60. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 40-60. | Females.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 60 and over. | Males.",
+   "MARRIED-(contd.) and WIDOWED. | WIDOWED. / AGE PERIOD. / 60 and over. | Females."
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "MARRIED-(contd.) - 15-20"
+   },
+   {
+    "id": 1,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "MARRIED-(contd.) - 20-40"
+   },
+   {
+    "id": 2,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "MARRIED-(contd.) - 40-60"
+   },
+   {
+    "id": 3,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "MARRIED-(contd.) - 60 and over"
+   },
+   {
+    "id": 4,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "WIDOWED. - TOTAL WIDOWED"
+   },
+   {
+    "id": 5,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "WIDOWED. - 0-5"
+   },
+   {
+    "id": 6,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "WIDOWED. - 5-10"
+   },
+   {
+    "id": 7,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "WIDOWED. - 10-15"
+   },
+   {
+    "id": 8,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "WIDOWED. - 15-20"
+   },
+   {
+    "id": 9,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "WIDOWED. - 20-40"
+   },
+   {
+    "id": 10,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "WIDOWED. - 40-60"
+   },
+   {
+    "id": 11,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Amraoti",
+    "column_group": "WIDOWED. - 60 and over"
+   },
+   {
+    "id": 12,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "MARRIED-(contd.) - 15-20"
+   },
+   {
+    "id": 13,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "MARRIED-(contd.) - 20-40"
+   },
+   {
+    "id": 14,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "MARRIED-(contd.) - 40-60"
+   },
+   {
+    "id": 15,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "MARRIED-(contd.) - 60 and over"
+   },
+   {
+    "id": 16,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "WIDOWED. - TOTAL WIDOWED"
+   },
+   {
+    "id": 17,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "WIDOWED. - 0-5"
+   },
+   {
+    "id": 18,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "WIDOWED. - 5-10"
+   },
+   {
+    "id": 19,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "WIDOWED. - 10-15"
+   },
+   {
+    "id": 20,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "WIDOWED. - 15-20"
+   },
+   {
+    "id": 21,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "WIDOWED. - 20-40"
+   },
+   {
+    "id": 22,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "WIDOWED. - 40-60"
+   },
+   {
+    "id": 23,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Akola",
+    "column_group": "WIDOWED. - 60 and over"
+   },
+   {
+    "id": 24,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "MARRIED-(contd.) - 15-20"
+   },
+   {
+    "id": 25,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "MARRIED-(contd.) - 20-40"
+   },
+   {
+    "id": 26,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "MARRIED-(contd.) - 40-60"
+   },
+   {
+    "id": 27,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "MARRIED-(contd.) - 60 and over"
+   },
+   {
+    "id": 28,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "WIDOWED. - TOTAL WIDOWED"
+   },
+   {
+    "id": 29,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "WIDOWED. - 0-5"
+   },
+   {
+    "id": 30,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "WIDOWED. - 5-10"
+   },
+   {
+    "id": 31,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "WIDOWED. - 10-15"
+   },
+   {
+    "id": 32,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "WIDOWED. - 15-20"
+   },
+   {
+    "id": 33,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "WIDOWED. - 20-40"
+   },
+   {
+    "id": 34,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "WIDOWED. - 40-60"
+   },
+   {
+    "id": 35,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Ellichpur",
+    "column_group": "WIDOWED. - 60 and over"
+   },
+   {
+    "id": 36,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "MARRIED-(contd.) - 15-20"
+   },
+   {
+    "id": 37,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "MARRIED-(contd.) - 20-40"
+   },
+   {
+    "id": 38,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "MARRIED-(contd.) - 40-60"
+   },
+   {
+    "id": 39,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "MARRIED-(contd.) - 60 and over"
+   },
+   {
+    "id": 40,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "WIDOWED. - TOTAL WIDOWED"
+   },
+   {
+    "id": 41,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "WIDOWED. - 0-5"
+   },
+   {
+    "id": 42,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "WIDOWED. - 5-10"
+   },
+   {
+    "id": 43,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "WIDOWED. - 10-15"
+   },
+   {
+    "id": 44,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "WIDOWED. - 15-20"
+   },
+   {
+    "id": 45,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "WIDOWED. - 20-40"
+   },
+   {
+    "id": 46,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "WIDOWED. - 40-60"
+   },
+   {
+    "id": 47,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Buldana",
+    "column_group": "WIDOWED. - 60 and over"
+   },
+   {
+    "id": 48,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "MARRIED-(contd.) - 15-20"
+   },
+   {
+    "id": 49,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "MARRIED-(contd.) - 20-40"
+   },
+   {
+    "id": 50,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "MARRIED-(contd.) - 40-60"
+   },
+   {
+    "id": 51,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "MARRIED-(contd.) - 60 and over"
+   },
+   {
+    "id": 52,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "WIDOWED. - TOTAL WIDOWED"
+   },
+   {
+    "id": 53,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "WIDOWED. - 0-5"
+   },
+   {
+    "id": 54,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "WIDOWED. - 5-10"
+   },
+   {
+    "id": 55,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "WIDOWED. - 10-15"
+   },
+   {
+    "id": 56,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "WIDOWED. - 15-20"
+   },
+   {
+    "id": 57,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "WIDOWED. - 20-40"
+   },
+   {
+    "id": 58,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "WIDOWED. - 40-60"
+   },
+   {
+    "id": 59,
+    "section": "MARRIED-(contd.) and WIDOWED.",
+    "row": "Wun",
+    "column_group": "WIDOWED. - 60 and over"
+   }
+  ]
+ },
+ {
+  "page": "1901_Western_Division_SUBSIDIARY_TABLE_II-contd._Education_by_93441e0",
+  "title": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld.",
+  "year": 1901,
+  "place": "Western Division",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25366884_p420.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 / Literate | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 / Literate | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 / Literate | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 / Illiterate | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 / Illiterate | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 / Illiterate | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Kannada | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Kannada | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Kannada | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Telugu | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Telugu | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Telugu | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Tamil | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Tamil | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Tamil | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Hindustani | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Hindustani | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Hindustani | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Maratti | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Maratti | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Maratti | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Sanskrit | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Sanskrit | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Sanskrit | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / English | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / English | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / English | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Other Languages | P",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Other Languages | M",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in / Other Languages | F",
+   "SUBSIDIARY TABLE II-contd. Education by  | Females to 1,000 males | Literate",
+   "SUBSIDIARY TABLE II-contd. Education by  | Females to 1,000 males | Illiterate",
+   "SUBSIDIARY TABLE II-contd. Education by  | Females to 1,000 males | Literate in English"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Literate"
+   },
+   {
+    "id": 1,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Illiterate"
+   },
+   {
+    "id": 2,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Kannada"
+   },
+   {
+    "id": 3,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Telugu"
+   },
+   {
+    "id": 4,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Tamil"
+   },
+   {
+    "id": 5,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Hindustani"
+   },
+   {
+    "id": 6,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Maratti"
+   },
+   {
+    "id": 7,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Sanskrit"
+   },
+   {
+    "id": 8,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "English"
+   },
+   {
+    "id": 9,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "0-10",
+    "column_group": "Other Languages"
+   },
+   {
+    "id": 10,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Literate"
+   },
+   {
+    "id": 11,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Illiterate"
+   },
+   {
+    "id": 12,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Kannada"
+   },
+   {
+    "id": 13,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Telugu"
+   },
+   {
+    "id": 14,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Tamil"
+   },
+   {
+    "id": 15,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Hindustani"
+   },
+   {
+    "id": 16,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Maratti"
+   },
+   {
+    "id": 17,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Sanskrit"
+   },
+   {
+    "id": 18,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "English"
+   },
+   {
+    "id": 19,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "10-15",
+    "column_group": "Other Languages"
+   },
+   {
+    "id": 20,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Literate"
+   },
+   {
+    "id": 21,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Illiterate"
+   },
+   {
+    "id": 22,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Kannada"
+   },
+   {
+    "id": 23,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Telugu"
+   },
+   {
+    "id": 24,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Tamil"
+   },
+   {
+    "id": 25,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Hindustani"
+   },
+   {
+    "id": 26,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Maratti"
+   },
+   {
+    "id": 27,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Sanskrit"
+   },
+   {
+    "id": 28,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "English"
+   },
+   {
+    "id": 29,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "15-20",
+    "column_group": "Other Languages"
+   },
+   {
+    "id": 30,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Literate"
+   },
+   {
+    "id": 31,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Illiterate"
+   },
+   {
+    "id": 32,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Kannada"
+   },
+   {
+    "id": 33,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Telugu"
+   },
+   {
+    "id": 34,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Tamil"
+   },
+   {
+    "id": 35,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Hindustani"
+   },
+   {
+    "id": 36,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Maratti"
+   },
+   {
+    "id": 37,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Sanskrit"
+   },
+   {
+    "id": 38,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "English"
+   },
+   {
+    "id": 39,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "20 and over",
+    "column_group": "Other Languages"
+   },
+   {
+    "id": 40,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Literate"
+   },
+   {
+    "id": 41,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Illiterate"
+   },
+   {
+    "id": 42,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Kannada"
+   },
+   {
+    "id": 43,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Telugu"
+   },
+   {
+    "id": 44,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Tamil"
+   },
+   {
+    "id": 45,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Hindustani"
+   },
+   {
+    "id": 46,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Maratti"
+   },
+   {
+    "id": 47,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Sanskrit"
+   },
+   {
+    "id": 48,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "English"
+   },
+   {
+    "id": 49,
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans-concld. Western Division.",
+    "row": "Total",
+    "column_group": "Other Languages"
+   }
+  ]
+ },
+ {
+  "page": "1891_Cochin_TABLE_IX_-_Education_by_Religion_and_Age_53a4c53",
+  "title": "TABLE IX - Education by Religion and Age",
+  "year": 1891,
+  "place": "Cochin",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e30981092f0d9108850f89ca5deb307000d4c5e1.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/1e975ff572312a7399096e3f35b93c4d9c15638f.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/7d6f0a954d0f32a0c067e84cca5e1162cb1b3f7b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/0fe04cbbabbc04e7ba6186954f88ffe434000c81.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/59bbb43ccd944162c019ab1c758f8eed0463189e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a6eff644671540d21b10e7783a995c358f4b79fb.jpg"
+  ],
+  "n_images_total": 12,
+  "reading_columns": [
+   "PART (A):-All Religions | 10.14 (cont) / Not Stated | Males",
+   "PART (A):-All Religions | 10.14 (cont) / Not Stated | Females",
+   "PART (A):-All Religions | Age Period / 15-24 / Total | Males",
+   "PART (A):-All Religions | Age Period / 15-24 / Total | Females",
+   "PART (A):-All Religions | Age Period / 15-24 / Learning | Males",
+   "PART (A):-All Religions | Age Period / 15-24 / Learning | Females",
+   "PART (A):-All Religions | Age Period / 15-24 / Literate | Males",
+   "PART (A):-All Religions | Age Period / 15-24 / Literate | Females",
+   "PART (A):-All Religions | Age Period / 15-24 / Illiterate | Males",
+   "PART (A):-All Religions | Age Period / 15-24 / Illiterate | Females",
+   "PART (A):-All Religions | Age Period / 15-24 / Not stat. | Males",
+   "PART (A):-All Religions | Age Period / 15-24 / Not stat. | Females",
+   "PART (A):-All Religions | 25 and over / Total | Males",
+   "PART (A):-All Religions | 25 and over / Total | Females",
+   "PART (A):-All Religions | 25 and over / Learning | Males",
+   "PART (A):-All Religions | 25 and over / Learning | Females",
+   "PART (A):-All Religions | 25 and over / Literate | Males",
+   "PART (A):-All Religions | 25 and over / Literate | Females",
+   "PART (A):-All Religions | 25 and over / Illiterate | Males",
+   "PART (A):-All Religions | 25 and over / Illiterate | Females",
+   "PART (A):-All Religions | 25 and over / Not Stated | Males",
+   "PART (A):-All Religions | 25 and over / Not Stated | Females",
+   "PART (A):-All Religions | Not Stated / Total | Males",
+   "PART (A):-All Religions | Not Stated / Total | Females",
+   "PART (A):-All Religions | Not Stated / Learning | Males",
+   "PART (A):-All Religions | Not Stated / Learning | Females",
+   "PART (A):-All Religions | Not Stated / Literate | Males",
+   "PART (A):-All Religions | Not Stated / Literate | Females",
+   "PART (A):-All Religions | Not Stated / Illiterate | Males",
+   "PART (A):-All Religions | Not Stated / Illiterate | Females",
+   "PART (A):-All Religions | Not Stated / Not Stated | Males",
+   "PART (A):-All Religions | Not Stated / Not Stated | Females",
+   "PART (B):-Hindus | Total Hindus | Total",
+   "PART (B):-Hindus | Total Hindus | Males",
+   "PART (B):-Hindus | Total Hindus | Females",
+   "PART (B):-Hindus | Total by Education / Learning | Males",
+   "PART (B):-Hindus | Total by Education / Learning | Females",
+   "PART (B):-Hindus | Total by Education / Literate | Males",
+   "PART (B):-Hindus | Total by Education / Literate | Females",
+   "PART (B):-Hindus | Total by Education / Illiterate | Males",
+   "PART (B):-Hindus | Total by Education / Illiterate | Females",
+   "PART (B):-Hindus | Total by Education / Not Stated | Males",
+   "PART (B):-Hindus | Total by Education / Not Stated | Females",
+   "PART (B):-Hindus | Age-Period / 0-9 / Total | Males",
+   "PART (B):-Hindus | Age-Period / 0-9 / Total | Females",
+   "PART (B):-Hindus | Age-Period / 0-9 / Learning | Males",
+   "PART (B):-Hindus | Age-Period / 0-9 / Learning | Females",
+   "PART (B):-Hindus | Age-Period / 0-9 / Literate | Males",
+   "PART (B):-Hindus | Age-Period / 0-9 / Literate | Females",
+   "PART (B):-Hindus | Age-Period / 0-9 / Illiterate | Males",
+   "PART (B):-Hindus | Age-Period / 0-9 / Illiterate | Females",
+   "PART (B):-Hindus | Age-Period / 0-9 / Not Stated | Males",
+   "PART (B):-Hindus | Age-Period / 0-9 / Not Stated | Females",
+   "PART (B):-Hindus | Age-Period / 10-14 / Total | Males",
+   "PART (B):-Hindus | Age-Period / 10-14 / Total | Females",
+   "PART (B):-Hindus | Age-Period / 10-14 / Learning | Males",
+   "PART (B):-Hindus | Age-Period / 10-14 / Learning | Females",
+   "PART (B):-Hindus | Age-Period / 10-14 / Literate | Males",
+   "PART (B):-Hindus | Age-Period / 10-14 / Literate | Females",
+   "PART (B):-Hindus | Age-Period / 10-14 / Illiterate | Males",
+   "PART (B):-Hindus | Age-Period / 10-14 / Illiterate | Females",
+   "PART (B):-Hindus | Age-Period / 10-14 / Not Stated | Males",
+   "PART (B):-Hindus | Age-Period / 10-14 / Not Stated | Females",
+   "PART (B):-Hindus | Age-Period / 15-24 / Total | Males",
+   "PART (B):-Hindus | Age-Period / 15-24 / Total | Females",
+   "PART (B):-Hindus | Age-Period / 15-24 / Learning | Males",
+   "PART (B):-Hindus | Age-Period / 15-24 / Learning | Females",
+   "PART (B):-Hindus | Age-Period / 15-24 / Literate | Males",
+   "PART (B):-Hindus | Age-Period / 15-24 / Literate | Females",
+   "PART (B):-Hindus | Age-Period / 15-24 / Illiterate | Males",
+   "PART (B):-Hindus | Age-Period / 15-24 / Illiterate | Females",
+   "PART (B):-Hindus | Age-Period / 15-24 / Not Stated | Males",
+   "PART (B):-Hindus | Age-Period / 15-24 / Not Stated | Females",
+   "PART (B):-Hindus | 25 and over / Total | Males",
+   "PART (B):-Hindus | 25 and over / Total | Females",
+   "PART (B):-Hindus | 25 and over / Learning | Males",
+   "PART (B):-Hindus | 25 and over / Learning | Females",
+   "PART (C):-Musalmans | Total Musalmans | Total",
+   "PART (C):-Musalmans | Total Musalmans | Males",
+   "PART (C):-Musalmans | Total Musalmans | Females",
+   "PART (C):-Musalmans | Total by Education / Learning | Males",
+   "PART (C):-Musalmans | Total by Education / Learning | Females",
+   "PART (C):-Musalmans | Total by Education / Literate | Males",
+   "PART (C):-Musalmans | Total by Education / Literate | Females",
+   "PART (C):-Musalmans | Total by Education / Illiterate | Males",
+   "PART (C):-Musalmans | Total by Education / Illiterate | Females",
+   "PART (C):-Musalmans | Total by Education / Not Stated | Males",
+   "PART (C):-Musalmans | Total by Education / Not Stated | Females",
+   "PART (C):-Musalmans | Age-Period / 0-9 / Total | Males",
+   "PART (C):-Musalmans | Age-Period / 0-9 / Total | Females",
+   "PART (C):-Musalmans | Age-Period / 0-9 / Learning | Males",
+   "PART (C):-Musalmans | Age-Period / 0-9 / Learning | Females",
+   "PART (C):-Musalmans | Age-Period / 0-9 / Literate | Males",
+   "PART (C):-Musalmans | Age-Period / 0-9 / Literate | Females",
+   "PART (C):-Musalmans | Age-Period / 0-9 / Illiterate | Males",
+   "PART (C):-Musalmans | Age-Period / 0-9 / Illiterate | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.5.17",
+    "section": "PART (B):-Hindus",
+    "row": "6. Talappilli",
+    "column": "Age-Period / 0-9 / Illiterate | Males",
+    "readings": [
+     1779.0,
+     11716.0
+    ]
+   },
+   {
+    "id": "1.0.18",
+    "section": "PART (B):-Hindus",
+    "row": "1. Kanayannur",
+    "column": "Age-Period / 0-9 / Illiterate | Females",
+    "readings": [
+     662.0,
+     7885.0
+    ]
+   },
+   {
+    "id": "1.5.15",
+    "section": "PART (B):-Hindus",
+    "row": "6. Talappilli",
+    "column": "Age-Period / 0-9 / Literate | Males",
+    "readings": [
+     1.0,
+     129.0
+    ]
+   },
+   {
+    "id": "1.3.18",
+    "section": "PART (B):-Hindus",
+    "row": "4. Mukundapuram",
+    "column": "Age-Period / 0-9 / Illiterate | Females",
+    "readings": [
+     1149.0,
+     13799.0
+    ]
+   },
+   {
+    "id": "1.6.17",
+    "section": "PART (B):-Hindus",
+    "row": "7. Chittur",
+    "column": "Age-Period / 0-9 / Illiterate | Males",
+    "readings": [
+     753.0,
+     7538.0
+    ]
+   },
+   {
+    "id": "1.7.15",
+    "section": "PART (B):-Hindus",
+    "row": "Total",
+    "column": "Age-Period / 0-9 / Literate | Males",
+    "readings": [
+     36.0,
+     403.0
+    ]
+   },
+   {
+    "id": "1.7.17",
+    "section": "PART (B):-Hindus",
+    "row": "Total",
+    "column": "Age-Period / 0-9 / Illiterate | Males",
+    "readings": [
+     6499.0,
+     58669.0
+    ]
+   },
+   {
+    "id": "0.6.19",
+    "section": "PART (A):-All Religions",
+    "row": "7. Chittur",
+    "column": "25 and over / Illiterate | Females",
+    "readings": [
+     17338.0,
+     17388.0
+    ]
+   },
+   {
+    "id": "1.0.17",
+    "section": "PART (B):-Hindus",
+    "row": "1. Kanayannur",
+    "column": "Age-Period / 0-9 / Illiterate | Males",
+    "readings": [
+     646.0,
+     7319.0
+    ]
+   },
+   {
+    "id": "0.3.18",
+    "section": "PART (A):-All Religions",
+    "row": "4. Mukundapuram",
+    "column": "25 and over / Illiterate | Males",
+    "readings": [
+     19355.0,
+     19385.0
+    ]
+   },
+   {
+    "id": "1.4.15",
+    "section": "PART (B):-Hindus",
+    "row": "5. Trichur",
+    "column": "Age-Period / 0-9 / Literate | Males",
+    "readings": [
+     4.0,
+     155.0
+    ]
+   },
+   {
+    "id": "1.4.18",
+    "section": "PART (B):-Hindus",
+    "row": "5. Trichur",
+    "column": "Age-Period / 0-9 / Illiterate | Females",
+    "readings": [
+     697.0,
+     12258.0
+    ]
+   },
+   {
+    "id": "1.3.16",
+    "section": "PART (B):-Hindus",
+    "row": "4. Mukundapuram",
+    "column": "Age-Period / 0-9 / Literate | Females",
+    "readings": [
+     1.0,
+     27.0
+    ]
+   },
+   {
+    "id": "1.7.18",
+    "section": "PART (B):-Hindus",
+    "row": "Total",
+    "column": "Age-Period / 0-9 / Illiterate | Females",
+    "readings": [
+     6779.0,
+     65480.0
+    ]
+   },
+   {
+    "id": "1.2.17",
+    "section": "PART (B):-Hindus",
+    "row": "3. Kotungallur",
+    "column": "Age-Period / 0-9 / Illiterate | Males",
+    "readings": [
+     1036.0,
+     2869.0
+    ]
+   },
+   {
+    "id": "1.1.17",
+    "section": "PART (B):-Hindus",
+    "row": "2. Cochin",
+    "column": "Age-Period / 0-9 / Illiterate | Males",
+    "readings": [
+     637.0,
+     5873.0
+    ]
+   },
+   {
+    "id": "1.1.18",
+    "section": "PART (B):-Hindus",
+    "row": "2. Cochin",
+    "column": "Age-Period / 0-9 / Illiterate | Females",
+    "readings": [
+     688.0,
+     6437.0
+    ]
+   },
+   {
+    "id": "0.5.18",
+    "section": "PART (A):-All Religions",
+    "row": "6. Talappilli",
+    "column": "25 and over / Illiterate | Males",
+    "readings": [
+     18316.0,
+     18346.0
+    ]
+   },
+   {
+    "id": "1.6.18",
+    "section": "PART (B):-Hindus",
+    "row": "7. Chittur",
+    "column": "Age-Period / 0-9 / Illiterate | Females",
+    "readings": [
+     804.0,
+     8693.0
+    ]
+   },
+   {
+    "id": "1.3.17",
+    "section": "PART (B):-Hindus",
+    "row": "4. Mukundapuram",
+    "column": "Age-Period / 0-9 / Illiterate | Males",
+    "readings": [
+     1062.0,
+     12271.0
+    ]
+   },
+   {
+    "id": "1.5.18",
+    "section": "PART (B):-Hindus",
+    "row": "6. Talappilli",
+    "column": "Age-Period / 0-9 / Illiterate | Females",
+    "readings": [
+     1778.0,
+     13447.0
+    ]
+   },
+   {
+    "id": "1.2.18",
+    "section": "PART (B):-Hindus",
+    "row": "3. Kotungallur",
+    "column": "Age-Period / 0-9 / Illiterate | Females",
+    "readings": [
+     1001.0,
+     2961.0
+    ]
+   },
+   {
+    "id": "1.4.17",
+    "section": "PART (B):-Hindus",
+    "row": "5. Trichur",
+    "column": "Age-Period / 0-9 / Illiterate | Males",
+    "readings": [
+     586.0,
+     11083.0
+    ]
+   },
+   {
+    "id": "1.3.15",
+    "section": "PART (B):-Hindus",
+    "row": "4. Mukundapuram",
+    "column": "Age-Period / 0-9 / Literate | Males",
+    "readings": [
+     2.0,
+     119.0
+    ]
+   },
+   {
+    "id": "1.4.16",
+    "section": "PART (B):-Hindus",
+    "row": "5. Trichur",
+    "column": "Age-Period / 0-9 / Literate | Females",
+    "readings": [
+     11.0,
+     48.0
+    ]
+   },
+   {
+    "id": "0.7.18",
+    "section": "PART (A):-All Religions",
+    "row": "Total",
+    "column": "25 and over / Illiterate | Males",
+    "readings": [
+     93036.0,
+     93066.0
+    ]
+   },
+   {
+    "id": "1.7.16",
+    "section": "PART (B):-Hindus",
+    "row": "Total",
+    "column": "Age-Period / 0-9 / Literate | Females",
+    "readings": [
+     25.0,
+     98.0
+    ]
+   }
+  ],
+  "n_disputed": 27
+ },
+ {
+  "page": "1881_Punjab_Abstract_No._9_showing_the_proportion_o_5be5543",
+  "title": "Abstract No. 9, showing the proportion of Rural to Total Population for each Religion in each Division.",
+  "year": 1881,
+  "place": "Punjab",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25057656_p48.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Abstract No. 9, showing the proportion o | ALL RELIGIONS | Persons",
+   "Abstract No. 9, showing the proportion o | ALL RELIGIONS | Males",
+   "Abstract No. 9, showing the proportion o | ALL RELIGIONS | Females",
+   "Abstract No. 9, showing the proportion o | MUSSULMANS | Persons",
+   "Abstract No. 9, showing the proportion o | MUSSULMANS | Males",
+   "Abstract No. 9, showing the proportion o | MUSSULMANS | Females",
+   "Abstract No. 9, showing the proportion o | HINDUS | Persons",
+   "Abstract No. 9, showing the proportion o | HINDUS | Males",
+   "Abstract No. 9, showing the proportion o | HINDUS | Females",
+   "Abstract No. 9, showing the proportion o | SIKHS | Persons",
+   "Abstract No. 9, showing the proportion o | SIKHS | Males",
+   "Abstract No. 9, showing the proportion o | SIKHS | Females",
+   "Abstract No. 9, showing the proportion o | JAINS | Persons",
+   "Abstract No. 9, showing the proportion o | JAINS | Males",
+   "Abstract No. 9, showing the proportion o | JAINS | Females",
+   "Abstract No. 9, showing the proportion o | BUDDHISTS | Persons",
+   "Abstract No. 9, showing the proportion o | BUDDHISTS | Males",
+   "Abstract No. 9, showing the proportion o | BUDDHISTS | Females",
+   "Abstract No. 9, showing the proportion o | CHRISTIANS | Persons",
+   "Abstract No. 9, showing the proportion o | CHRISTIANS | Males",
+   "Abstract No. 9, showing the proportion o | CHRISTIANS | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.6.8",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Rawalpindi",
+    "column": "HINDUS | Females",
+    "readings": [
+     6606.0,
+     7270.0
+    ]
+   },
+   {
+    "id": "0.8.10",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Derajat",
+    "column": "SIKHS | Males",
+    "readings": [
+     9432.0,
+     9459.0
+    ]
+   },
+   {
+    "id": "0.15.5",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Native States",
+    "column": "MUSSULMANS | Females",
+    "readings": [
+     8287.0,
+     8293.0
+    ]
+   },
+   {
+    "id": "0.2.10",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "SIKHS | Males",
+    "readings": [
+     9137.0,
+     9318.0
+    ]
+   },
+   {
+    "id": "0.4.14",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Amritsar",
+    "column": "JAINS | Females",
+    "readings": [
+     295.0,
+     540.0
+    ]
+   },
+   {
+    "id": "0.7.2",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "ALL RELIGIONS | Females",
+    "readings": [
+     9004.0,
+     9005.0
+    ]
+   },
+   {
+    "id": "0.13.5",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Bahawalpur",
+    "column": "MUSSULMANS | Females",
+    "readings": [
+     9301.0,
+     9307.0
+    ]
+   },
+   {
+    "id": "0.8.11",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Derajat",
+    "column": "SIKHS | Females",
+    "readings": [
+     9359.0,
+     9396.0
+    ]
+   },
+   {
+    "id": "0.9.3",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Peshawar",
+    "column": "MUSSULMANS | Persons",
+    "readings": [
+     8783.0,
+     8867.0
+    ]
+   },
+   {
+    "id": "0.3.13",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "JAINS | Males",
+    "readings": [
+     656.0,
+     1514.0
+    ]
+   },
+   {
+    "id": "0.1.3",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hissar",
+    "column": "MUSSULMANS | Persons",
+    "readings": [
+     7587.0,
+     7987.0
+    ]
+   },
+   {
+    "id": "0.16.11",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Province",
+    "column": "SIKHS | Females",
+    "readings": [
+     9301.0,
+     9361.0
+    ]
+   },
+   {
+    "id": "0.4.18",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Amritsar",
+    "column": "CHRISTIANS | Persons",
+    "readings": [
+     1182.0
+    ]
+   },
+   {
+    "id": "0.1.10",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hissar",
+    "column": "SIKHS | Males",
+    "readings": [
+     9135.0,
+     9155.0
+    ]
+   },
+   {
+    "id": "0.7.7",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "HINDUS | Males",
+    "readings": [
+     7350.0,
+     7476.0
+    ]
+   },
+   {
+    "id": "0.14.10",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "SIKHS | Males",
+    "readings": [
+     8802.0,
+     9802.0
+    ]
+   },
+   {
+    "id": "0.1.5",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hissar",
+    "column": "MUSSULMANS | Females",
+    "readings": [
+     7176.0,
+     7776.0
+    ]
+   },
+   {
+    "id": "0.6.12",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Rawalpindi",
+    "column": "JAINS | Persons",
+    "readings": [
+     1136.0,
+     3240.0
+    ]
+   },
+   {
+    "id": "0.3.20",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "CHRISTIANS | Females",
+    "readings": [
+     1648.0,
+     1736.0
+    ]
+   },
+   {
+    "id": "0.3.14",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "JAINS | Females",
+    "readings": [
+     1275.0,
+     1791.0
+    ]
+   },
+   {
+    "id": "0.2.13",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "JAINS | Males",
+    "readings": [
+     3056.0,
+     3154.0
+    ]
+   },
+   {
+    "id": "0.8.2",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Derajat",
+    "column": "ALL RELIGIONS | Females",
+    "readings": [
+     9022.0,
+     9036.0
+    ]
+   },
+   {
+    "id": "0.9.18",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Peshawar",
+    "column": "CHRISTIANS | Persons",
+    "readings": [
+     444.0
+    ]
+   },
+   {
+    "id": "0.3.19",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "CHRISTIANS | Males",
+    "readings": [
+     950.0,
+     968.0
+    ]
+   },
+   {
+    "id": "0.3.15",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "BUDDHISTS | Persons",
+    "readings": [
+     10000.0
+    ]
+   },
+   {
+    "id": "0.6.7",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Rawalpindi",
+    "column": "HINDUS | Males",
+    "readings": [
+     6759.0,
+     7259.0
+    ]
+   },
+   {
+    "id": "0.7.11",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "SIKHS | Females",
+    "readings": [
+     8906.0,
+     8907.0
+    ]
+   },
+   {
+    "id": "0.2.9",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "SIKHS | Persons",
+    "readings": [
+     9163.0,
+     9303.0
+    ]
+   },
+   {
+    "id": "0.9.19",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Peshawar",
+    "column": "CHRISTIANS | Males",
+    "readings": [
+     477.0
+    ]
+   },
+   {
+    "id": "0.2.5",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "MUSSULMANS | Females",
+    "readings": [
+     7873.0,
+     8103.0
+    ]
+   },
+   {
+    "id": "0.2.20",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "CHRISTIANS | Females",
+    "readings": [
+     1434.0,
+     1736.0
+    ]
+   },
+   {
+    "id": "0.1.7",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hissar",
+    "column": "HINDUS | Males",
+    "readings": [
+     8608.0,
+     8668.0
+    ]
+   },
+   {
+    "id": "0.7.8",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "HINDUS | Females",
+    "readings": [
+     7330.0,
+     7509.0
+    ]
+   },
+   {
+    "id": "0.7.1",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "ALL RELIGIONS | Males",
+    "readings": [
+     9004.0,
+     9005.0
+    ]
+   },
+   {
+    "id": "0.14.5",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "MUSSULMANS | Females",
+    "readings": [
+     8586.0,
+     9750.0
+    ]
+   },
+   {
+    "id": "0.4.20",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Amritsar",
+    "column": "CHRISTIANS | Females",
+    "readings": [
+     1648.0
+    ]
+   },
+   {
+    "id": "0.3.3",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "MUSSULMANS | Persons",
+    "readings": [
+     8267.0,
+     8467.0
+    ]
+   },
+   {
+    "id": "0.9.4",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Peshawar",
+    "column": "MUSSULMANS | Males",
+    "readings": [
+     8783.0,
+     8787.0
+    ]
+   },
+   {
+    "id": "0.7.14",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "JAINS | Females",
+    "readings": [
+     932.0
+    ]
+   },
+   {
+    "id": "0.14.3",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "MUSSULMANS | Persons",
+    "readings": [
+     8559.0,
+     9743.0
+    ]
+   },
+   {
+    "id": "0.15.6",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Native States",
+    "column": "HINDUS | Persons",
+    "readings": [
+     9039.0,
+     9059.0
+    ]
+   },
+   {
+    "id": "0.4.5",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Amritsar",
+    "column": "MUSSULMANS | Females",
+    "readings": [
+     8273.0,
+     8773.0
+    ]
+   },
+   {
+    "id": "0.2.11",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "SIKHS | Females",
+    "readings": [
+     9198.0,
+     9286.0
+    ]
+   },
+   {
+    "id": "0.3.18",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "CHRISTIANS | Persons",
+    "readings": [
+     1153.0,
+     1182.0
+    ]
+   },
+   {
+    "id": "0.2.18",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "CHRISTIANS | Persons",
+    "readings": [
+     980.0,
+     1153.0
+    ]
+   },
+   {
+    "id": "0.9.20",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Peshawar",
+    "column": "CHRISTIANS | Females",
+    "readings": [
+     225.0
+    ]
+   },
+   {
+    "id": "0.9.5",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Peshawar",
+    "column": "MUSSULMANS | Females",
+    "readings": [
+     8906.0,
+     8966.0
+    ]
+   },
+   {
+    "id": "0.14.9",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "SIKHS | Persons",
+    "readings": [
+     8822.0,
+     9822.0
+    ]
+   },
+   {
+    "id": "0.4.4",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Amritsar",
+    "column": "MUSSULMANS | Males",
+    "readings": [
+     8127.0,
+     8727.0
+    ]
+   },
+   {
+    "id": "0.2.12",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "JAINS | Persons",
+    "readings": [
+     3007.0,
+     3057.0
+    ]
+   },
+   {
+    "id": "0.4.19",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Amritsar",
+    "column": "CHRISTIANS | Males",
+    "readings": [
+     968.0
+    ]
+   },
+   {
+    "id": "0.2.19",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "CHRISTIANS | Males",
+    "readings": [
+     799.0,
+     950.0
+    ]
+   },
+   {
+    "id": "0.12.2",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "States of E. Plains",
+    "column": "ALL RELIGIONS | Females",
+    "readings": [
+     8517.0,
+     8547.0
+    ]
+   },
+   {
+    "id": "0.2.3",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Ambala",
+    "column": "MUSSULMANS | Persons",
+    "readings": [
+     7867.0,
+     7967.0
+    ]
+   },
+   {
+    "id": "0.3.17",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "BUDDHISTS | Females",
+    "readings": [
+     10000.0
+    ]
+   },
+   {
+    "id": "0.1.9",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hissar",
+    "column": "SIKHS | Persons",
+    "readings": [
+     9118.0,
+     9181.0
+    ]
+   },
+   {
+    "id": "0.3.12",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "JAINS | Persons",
+    "readings": [
+     933.0,
+     1637.0
+    ]
+   },
+   {
+    "id": "0.14.6",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "HINDUS | Persons",
+    "readings": [
+     9709.0,
+     9759.0
+    ]
+   },
+   {
+    "id": "0.16.7",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Province",
+    "column": "HINDUS | Males",
+    "readings": [
+     8582.0,
+     8591.0
+    ]
+   },
+   {
+    "id": "0.9.1",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Peshawar",
+    "column": "ALL RELIGIONS | Males",
+    "readings": [
+     8419.0,
+     8425.0
+    ]
+   },
+   {
+    "id": "0.6.13",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Rawalpindi",
+    "column": "JAINS | Males",
+    "readings": [
+     1290.0,
+     3471.0
+    ]
+   },
+   {
+    "id": "0.14.7",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "HINDUS | Males",
+    "readings": [
+     9681.0,
+     9738.0
+    ]
+   },
+   {
+    "id": "0.16.12",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Province",
+    "column": "JAINS | Persons",
+    "readings": [
+     4332.0,
+     4452.0
+    ]
+   },
+   {
+    "id": "0.7.12",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "JAINS | Persons",
+    "readings": [
+     1136.0
+    ]
+   },
+   {
+    "id": "0.16.6",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Province",
+    "column": "HINDUS | Persons",
+    "readings": [
+     8622.0,
+     8623.0
+    ]
+   },
+   {
+    "id": "0.14.13",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "JAINS | Males",
+    "readings": [
+     1656.0,
+     1686.0
+    ]
+   },
+   {
+    "id": "0.15.7",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Native States",
+    "column": "HINDUS | Males",
+    "readings": [
+     9041.0,
+     9078.0
+    ]
+   },
+   {
+    "id": "0.7.19",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "CHRISTIANS | Males",
+    "readings": [
+     1190.0,
+     1390.0
+    ]
+   },
+   {
+    "id": "0.3.16",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Jalandhar",
+    "column": "BUDDHISTS | Males",
+    "readings": [
+     10000.0
+    ]
+   },
+   {
+    "id": "0.4.13",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Amritsar",
+    "column": "JAINS | Males",
+    "readings": [
+     626.0
+    ]
+   },
+   {
+    "id": "0.14.4",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "MUSSULMANS | Males",
+    "readings": [
+     8533.0,
+     9738.0
+    ]
+   },
+   {
+    "id": "0.8.1",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Derajat",
+    "column": "ALL RELIGIONS | Males",
+    "readings": [
+     8919.0,
+     8925.0
+    ]
+   },
+   {
+    "id": "0.14.8",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hill States",
+    "column": "HINDUS | Females",
+    "readings": [
+     9743.0,
+     9783.0
+    ]
+   },
+   {
+    "id": "0.10.11",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "British Territory",
+    "column": "SIKHS | Females",
+    "readings": [
+     9102.0,
+     9302.0
+    ]
+   },
+   {
+    "id": "0.1.11",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Hissar",
+    "column": "SIKHS | Females",
+    "readings": [
+     9095.0,
+     9205.0
+    ]
+   },
+   {
+    "id": "0.7.13",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Multan",
+    "column": "JAINS | Males",
+    "readings": [
+     1290.0
+    ]
+   },
+   {
+    "id": "0.15.9",
+    "section": "Abstract No. 9, showing the proportion of Rural to Total Pop",
+    "row": "Native States",
+    "column": "SIKHS | Persons",
+    "readings": [
+     9385.0,
+     9423.0
+    ]
+   }
+  ],
+  "n_disputed": 77
+ },
+ {
+  "page": "1951_Madhya_Bharat_and_Bhopal_6.9_-_Infants_per_10_000_Persons_702a03d",
+  "title": "6.9 - Infants per 10,000 Persons",
+  "year": 1951,
+  "place": "Madhya Bharat and Bhopal",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/b6d8df332b853bd2959150f33325aff8bef1d9ee.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "6.9\u2014Infants per 10,000 Persons | General Population / 1951 | Persons",
+   "6.9\u2014Infants per 10,000 Persons | General Population / 1951 | Males",
+   "6.9\u2014Infants per 10,000 Persons | General Population / 1951 | Females",
+   "6.9\u2014Infants per 10,000 Persons | General Population / 1941 | Persons",
+   "6.9\u2014Infants per 10,000 Persons | Rural Population | Males",
+   "6.9\u2014Infants per 10,000 Persons | Rural Population | Females",
+   "6.9\u2014Infants per 10,000 Persons | Urban Population | Males",
+   "6.9\u2014Infants per 10,000 Persons | Urban Population | Females",
+   "6.9\u2014Infants per 10,000 Persons | Agricultural Classes | Males",
+   "6.9\u2014Infants per 10,000 Persons | Agricultural Classes | Females",
+   "6.9\u2014Infants per 10,000 Persons | Non-agricultural Classes | Males",
+   "6.9\u2014Infants per 10,000 Persons | Non-agricultural Classes | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "MADHYA BHARAT STATE",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 1,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "MADHYA BHARAT STATE",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 2,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "MADHYA BHARAT STATE",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 3,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "MADHYA BHARAT STATE",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 4,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "MADHYA BHARAT STATE",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 5,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2.35 Madhya Bharat Lowland Division",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 6,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2.35 Madhya Bharat Lowland Division",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 7,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2.35 Madhya Bharat Lowland Division",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 8,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2.35 Madhya Bharat Lowland Division",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 9,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2.35 Madhya Bharat Lowland Division",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 10,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "1. Bhind District",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 11,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "1. Bhind District",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 12,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "1. Bhind District",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 13,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "1. Bhind District",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 14,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "1. Bhind District",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 15,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2. Gird ,,",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 16,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2. Gird ,,",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 17,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2. Gird ,,",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 18,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2. Gird ,,",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 19,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "2. Gird ,,",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 20,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3. Morena ,,",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 21,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3. Morena ,,",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 22,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3. Morena ,,",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 23,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3. Morena ,,",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 24,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3. Morena ,,",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 25,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3.13 Madhya Bharat Plateau Division",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 26,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3.13 Madhya Bharat Plateau Division",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 27,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3.13 Madhya Bharat Plateau Division",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 28,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3.13 Madhya Bharat Plateau Division",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 29,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "3.13 Madhya Bharat Plateau Division",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 30,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "4. Shivpuri District",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 31,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "4. Shivpuri District",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 32,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "4. Shivpuri District",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 33,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "4. Shivpuri District",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 34,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "4. Shivpuri District",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 35,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "5. Goona ,,",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 36,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "5. Goona ,,",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 37,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "5. Goona ,,",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 38,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "5. Goona ,,",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 39,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "5. Goona ,,",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 40,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "6. Bhilsa ,,",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 41,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "6. Bhilsa ,,",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 42,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "6. Bhilsa ,,",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 43,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "6. Bhilsa ,,",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 44,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "6. Bhilsa ,,",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 45,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "7. Rajgarh ,,",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 46,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "7. Rajgarh ,,",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 47,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "7. Rajgarh ,,",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 48,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "7. Rajgarh ,,",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 49,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "7. Rajgarh ,,",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 50,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "8. Shajapur ,,",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 51,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "8. Shajapur ,,",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 52,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "8. Shajapur ,,",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 53,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "8. Shajapur ,,",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 54,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "8. Shajapur ,,",
+    "column_group": "Non-agricultural Classes"
+   },
+   {
+    "id": 55,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "9. Ujjain ,,",
+    "column_group": "General Population. 1951"
+   },
+   {
+    "id": 56,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "9. Ujjain ,,",
+    "column_group": "Rural Population"
+   },
+   {
+    "id": 57,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "9. Ujjain ,,",
+    "column_group": "Urban Population"
+   },
+   {
+    "id": 58,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "9. Ujjain ,,",
+    "column_group": "Agricultural Classes"
+   },
+   {
+    "id": 59,
+    "section": "6.9 - Infants per 10,000 Persons",
+    "row": "9. Ujjain ,,",
+    "column_group": "Non-agricultural Classes"
+   }
+  ]
+ }
+]

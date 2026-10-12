@@ -1,0 +1,4984 @@
+[
+ {
+  "page": "1951_Hyderabad_TABLE_C-III_Age_and_Civil_Condition_0b94383",
+  "title": "TABLE C-III Age and Civil Condition",
+  "year": 1951,
+  "place": "Hyderabad",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/dd8debfea8f877bf820887f1323813477571b034.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/16ac50c4206d72c546ca94875299349be434ba1b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/033e8d288154e5d9f7c4ef0d5891670eebb85dd7.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d309121fe73ce1e0e458b5f534e16d14c6699b0b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/ffbed3788157243b6b8fbc9a1ad385d0f4144c2b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d7aa68f5bcc0b3956e7a2ba70cc532d9dc78adb1.jpg"
+  ],
+  "n_images_total": 7,
+  "reading_columns": [
+   "RURAL (Contd.) | 35-44 / MARRIED | Males",
+   "RURAL (Contd.) | 35-44 / MARRIED | Females",
+   "RURAL (Contd.) | 35-44 / WIDOWED OR DIVORCED | Males",
+   "RURAL (Contd.) | 35-44 / WIDOWED OR DIVORCED | Females",
+   "RURAL (Contd.) | AGE 45-54 / TOTAL | Males",
+   "RURAL (Contd.) | AGE 45-54 / TOTAL | Females",
+   "RURAL (Contd.) | AGE 45-54 / UNMARRIED | Males",
+   "RURAL (Contd.) | AGE 45-54 / UNMARRIED | Females",
+   "RURAL (Contd.) | AGE 45-54 / MARRIED | Males",
+   "RURAL (Contd.) | AGE 45-54 / MARRIED | Females",
+   "RURAL (Contd.) | AGE 45-54 / WIDOWED OR DIVORCED | Males",
+   "RURAL (Contd.) | AGE 45-54 / WIDOWED OR DIVORCED | Females",
+   "RURAL (Contd.) | AGE 55-64 / TOTAL | Males",
+   "RURAL (Contd.) | AGE 55-64 / TOTAL | Females",
+   "RURAL (Contd.) | AGE 55-64 / UNMARRIED | Males",
+   "RURAL (Contd.) | AGE 55-64 / UNMARRIED | Females",
+   "URBAN | SAMPLE POPULATION / TOTAL | Males",
+   "URBAN | SAMPLE POPULATION / TOTAL | Females",
+   "URBAN | SAMPLE POPULATION / UNMARRIED | Males",
+   "URBAN | SAMPLE POPULATION / UNMARRIED | Females",
+   "URBAN | SAMPLE POPULATION / MARRIED | Males",
+   "URBAN | SAMPLE POPULATION / MARRIED | Females",
+   "URBAN | SAMPLE POPULATION / WIDOWED OR DIVORCED | Males",
+   "URBAN | SAMPLE POPULATION / WIDOWED OR DIVORCED | Females",
+   "URBAN | AGE 0 / TOTAL | Males",
+   "URBAN | AGE 0 / TOTAL | Females",
+   "URBAN | AGE 1-4 / TOTAL | Males",
+   "URBAN | AGE 1-4 / TOTAL | Females",
+   "URBAN | AGE 5-14 / TOTAL | Males",
+   "URBAN | AGE 5-14 / TOTAL | Females",
+   "URBAN | AGE 5-14 / UNMARRIED | Males",
+   "URBAN | AGE 5-14 / UNMARRIED | Females",
+   "URBAN | AGE 5-14 / MARRIED | Males",
+   "URBAN | AGE 5-14 / MARRIED | Females",
+   "URBAN | AGE 5-14 / WIDOWED OR DIVORCED | Males",
+   "URBAN | AGE 5-14 / WIDOWED OR DIVORCED | Females",
+   "URBAN | AGE 15-24 / TOTAL | Males",
+   "URBAN | AGE 15-24 / TOTAL | Females",
+   "URBAN | AGE 15-24 / UNMARRIED | Males",
+   "URBAN | AGE 15-24 / UNMARRIED | Females",
+   "URBAN | AGE 15-24 / MARRIED | Males",
+   "URBAN | AGE 15-24 / MARRIED | Females",
+   "URBAN | AGE 15-24 / WIDOWED OR DIVORCED | Males",
+   "URBAN | AGE 15-24 / WIDOWED OR DIVORCED | Females",
+   "URBAN | AGE 25-34 / TOTAL | Males",
+   "URBAN | AGE 25-34 / TOTAL | Females",
+   "URBAN | AGE 25-34 / UNMARRIED | Males",
+   "URBAN | AGE 25-34 / UNMARRIED | Females",
+   "URBAN | AGE 25-34 / MARRIED | Males",
+   "URBAN | AGE 25-34 / MARRIED | Females",
+   "URBAN | AGE 25-34 / WIDOWED OR DIVORCED | Males",
+   "URBAN | AGE 25-34 / WIDOWED OR DIVORCED | Females",
+   "URBAN | AGE 35-44 / TOTAL | Males",
+   "URBAN | AGE 35-44 / TOTAL | Females",
+   "URBAN | AGE 35-44 / UNMARRIED | Males",
+   "URBAN | AGE 35-44 / UNMARRIED | Females",
+   "URBAN | AGE 35-44 / MARRIED | Males",
+   "URBAN | AGE 35-44 / MARRIED | Females",
+   "URBAN | AGE 35-44 / WIDOWED OR DIVORCED | Males",
+   "URBAN | AGE 35-44 / WIDOWED OR DIVORCED | Females",
+   "URBAN | AGE 45-54 / TOTAL | Males",
+   "URBAN | AGE 45-54 / TOTAL | Females",
+   "URBAN | AGE 45-54 / UNMARRIED | Males",
+   "URBAN | AGE 45-54 / UNMARRIED | Females",
+   "URBAN | AGE 45-54 / MARRIED | Males",
+   "URBAN | AGE 45-54 / MARRIED | Females",
+   "URBAN | AGE 45-54 / WIDOWED OR DIVORCED | Males",
+   "URBAN | AGE 45-54 / WIDOWED OR DIVORCED | Females",
+   "URBAN | AGE 55-64 / TOTAL | Males",
+   "URBAN | AGE 55-64 / TOTAL | Females",
+   "URBAN | AGE 55-64 / UNMARRIED | Males",
+   "URBAN | AGE 55-64 / UNMARRIED | Females",
+   "URBAN | AGE 55-64 / MARRIED | Males",
+   "URBAN | AGE 55-64 / MARRIED | Females",
+   "URBAN | AGE 55-64 / WIDOWED OR DIVORCED | Males",
+   "URBAN | AGE 55-64 / WIDOWED OR DIVORCED | Females",
+   "URBAN | AGE 65-74 / TOTAL | Males",
+   "URBAN | AGE 65-74 / TOTAL | Females",
+   "URBAN | AGE 65-74 / UNMARRIED | Males",
+   "URBAN | AGE 65-74 / UNMARRIED | Females",
+   "URBAN | AGE 65-74 / MARRIED | Males",
+   "URBAN | AGE 65-74 / MARRIED | Females",
+   "URBAN | AGE 65-74 / WIDOWED OR DIVORCE | Males",
+   "URBAN | AGE 65-74 / WIDOWED OR DIVORCE | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.8.40",
+    "section": "URBAN",
+    "row": "South Hyderabad Division",
+    "column": "AGE 35-44 / MARRIED | Males",
+    "readings": [
+     14577.0,
+     14677.0
+    ]
+   },
+   {
+    "id": "1.7.58",
+    "section": "URBAN",
+    "row": "Osmanabad",
+    "column": "AGE 55-64 / WIDOWED OR DIVORCED | Males",
+    "readings": [
+     63.0,
+     68.0
+    ]
+   },
+   {
+    "id": "1.15.40",
+    "section": "URBAN",
+    "row": "Medak",
+    "column": "AGE 35-44 / MARRIED | Males",
+    "readings": [
+     156.0,
+     456.0
+    ]
+   },
+   {
+    "id": "1.16.40",
+    "section": "URBAN",
+    "row": "Karimnagar",
+    "column": "AGE 35-44 / MARRIED | Males",
+    "readings": [
+     53.0,
+     653.0
+    ]
+   },
+   {
+    "id": "0.9.0",
+    "section": "RURAL (Contd.)",
+    "row": "Row 10",
+    "column": "35-44 / MARRIED | Males",
+    "readings": [
+     2021.0,
+     2024.0
+    ]
+   },
+   {
+    "id": "1.7.50",
+    "section": "URBAN",
+    "row": "Osmanabad",
+    "column": "AGE 45-54 / WIDOWED OR DIVORCED | Males",
+    "readings": [
+     38.0,
+     40.0
+    ]
+   },
+   {
+    "id": "1.13.27",
+    "section": "URBAN",
+    "row": "Adilabad",
+    "column": "AGE 15-24 / WIDOWED OR DIVORCED | Females",
+    "readings": [
+     53.0,
+     58.0
+    ]
+   },
+   {
+    "id": "0.6.14",
+    "section": "RURAL (Contd.)",
+    "row": "Row 7",
+    "column": "AGE 55-64 / UNMARRIED | Males",
+    "readings": [
+     20.0,
+     29.0
+    ]
+   },
+   {
+    "id": "1.18.49",
+    "section": "URBAN",
+    "row": "Nalgonda",
+    "column": "AGE 45-54 / MARRIED | Females",
+    "readings": [
+     243.0,
+     248.0
+    ]
+   },
+   {
+    "id": "1.7.46",
+    "section": "URBAN",
+    "row": "Osmanabad",
+    "column": "AGE 45-54 / UNMARRIED | Males",
+    "readings": [
+     2.0
+    ]
+   }
+  ],
+  "n_disputed": 10
+ },
+ {
+  "page": "1901_Bombay_Table_LANGUAGES_30c6a0b",
+  "title": "Table LANGUAGES",
+  "year": 1901,
+  "place": "Bombay",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/027053f9e23e462d6f4fe2607cf8a3a2ae81b210.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Total. | Persons.",
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Total. | Males.",
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Total. | Females.",
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Proper. | Persons.",
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Proper. | Males.",
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Proper. | Females.",
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Kachchhi. | Persons.",
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Kachchhi. | Males.",
+   "LANGUAGES | GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. / Sindhi. / Kachchhi. | Females.",
+   "LANGUAGES | GROUP B.- / ASSAMESE. | Persons.",
+   "LANGUAGES | GROUP B.- / ASSAMESE. | Males.",
+   "LANGUAGES | GROUP B.- / ASSAMESE. | Females.",
+   "LANGUAGES | GROUP B.- / EASTERN HINDI. / Awadhi. | Persons.",
+   "LANGUAGES | GROUP B.- / EASTERN HINDI. / Awadhi. | Males.",
+   "LANGUAGES | GROUP B.- / EASTERN HINDI. / Awadhi. | Females."
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "Table LANGUAGES",
+    "row": "Upper Colaba",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 1,
+    "section": "Table LANGUAGES",
+    "row": "Upper Colaba",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 2,
+    "section": "Table LANGUAGES",
+    "row": "Upper Colaba",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 3,
+    "section": "Table LANGUAGES",
+    "row": "Upper Colaba",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 4,
+    "section": "Table LANGUAGES",
+    "row": "Upper Colaba",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 5,
+    "section": "Table LANGUAGES",
+    "row": "Lower Colaba",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 6,
+    "section": "Table LANGUAGES",
+    "row": "Lower Colaba",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 7,
+    "section": "Table LANGUAGES",
+    "row": "Lower Colaba",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 8,
+    "section": "Table LANGUAGES",
+    "row": "Lower Colaba",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 9,
+    "section": "Table LANGUAGES",
+    "row": "Lower Colaba",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 10,
+    "section": "Table LANGUAGES",
+    "row": "Fort, South",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 11,
+    "section": "Table LANGUAGES",
+    "row": "Fort, South",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 12,
+    "section": "Table LANGUAGES",
+    "row": "Fort, South",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 13,
+    "section": "Table LANGUAGES",
+    "row": "Fort, South",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 14,
+    "section": "Table LANGUAGES",
+    "row": "Fort, South",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 15,
+    "section": "Table LANGUAGES",
+    "row": "Fort, North",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 16,
+    "section": "Table LANGUAGES",
+    "row": "Fort, North",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 17,
+    "section": "Table LANGUAGES",
+    "row": "Fort, North",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 18,
+    "section": "Table LANGUAGES",
+    "row": "Fort, North",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 19,
+    "section": "Table LANGUAGES",
+    "row": "Fort, North",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 20,
+    "section": "Table LANGUAGES",
+    "row": "Esplanade",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 21,
+    "section": "Table LANGUAGES",
+    "row": "Esplanade",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 22,
+    "section": "Table LANGUAGES",
+    "row": "Esplanade",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 23,
+    "section": "Table LANGUAGES",
+    "row": "Esplanade",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 24,
+    "section": "Table LANGUAGES",
+    "row": "Esplanade",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 25,
+    "section": "Table LANGUAGES",
+    "row": "Chakla",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 26,
+    "section": "Table LANGUAGES",
+    "row": "Chakla",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 27,
+    "section": "Table LANGUAGES",
+    "row": "Chakla",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 28,
+    "section": "Table LANGUAGES",
+    "row": "Chakla",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 29,
+    "section": "Table LANGUAGES",
+    "row": "Chakla",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 30,
+    "section": "Table LANGUAGES",
+    "row": "Mandvi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 31,
+    "section": "Table LANGUAGES",
+    "row": "Mandvi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 32,
+    "section": "Table LANGUAGES",
+    "row": "Mandvi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 33,
+    "section": "Table LANGUAGES",
+    "row": "Mandvi",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 34,
+    "section": "Table LANGUAGES",
+    "row": "Mandvi",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 35,
+    "section": "Table LANGUAGES",
+    "row": "Umarkhadi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 36,
+    "section": "Table LANGUAGES",
+    "row": "Umarkhadi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 37,
+    "section": "Table LANGUAGES",
+    "row": "Umarkhadi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 38,
+    "section": "Table LANGUAGES",
+    "row": "Umarkhadi",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 39,
+    "section": "Table LANGUAGES",
+    "row": "Umarkhadi",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 40,
+    "section": "Table LANGUAGES",
+    "row": "Dongri",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 41,
+    "section": "Table LANGUAGES",
+    "row": "Dongri",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 42,
+    "section": "Table LANGUAGES",
+    "row": "Dongri",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 43,
+    "section": "Table LANGUAGES",
+    "row": "Dongri",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 44,
+    "section": "Table LANGUAGES",
+    "row": "Dongri",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 45,
+    "section": "Table LANGUAGES",
+    "row": "Market",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 46,
+    "section": "Table LANGUAGES",
+    "row": "Market",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 47,
+    "section": "Table LANGUAGES",
+    "row": "Market",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 48,
+    "section": "Table LANGUAGES",
+    "row": "Market",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 49,
+    "section": "Table LANGUAGES",
+    "row": "Market",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 50,
+    "section": "Table LANGUAGES",
+    "row": "Dhobi Talao",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 51,
+    "section": "Table LANGUAGES",
+    "row": "Dhobi Talao",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 52,
+    "section": "Table LANGUAGES",
+    "row": "Dhobi Talao",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 53,
+    "section": "Table LANGUAGES",
+    "row": "Dhobi Talao",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 54,
+    "section": "Table LANGUAGES",
+    "row": "Dhobi Talao",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   },
+   {
+    "id": 55,
+    "section": "Table LANGUAGES",
+    "row": "Fanaswadi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Total"
+   },
+   {
+    "id": 56,
+    "section": "Table LANGUAGES",
+    "row": "Fanaswadi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Proper"
+   },
+   {
+    "id": 57,
+    "section": "Table LANGUAGES",
+    "row": "Fanaswadi",
+    "column_group": "GROUP A.-LANGUAGES SPOKEN WITHIN BOMBAY PRESIDENCY. Sindhi. Kachchhi"
+   },
+   {
+    "id": 58,
+    "section": "Table LANGUAGES",
+    "row": "Fanaswadi",
+    "column_group": "GROUP B.- ASSAMESE"
+   },
+   {
+    "id": 59,
+    "section": "Table LANGUAGES",
+    "row": "Fanaswadi",
+    "column_group": "GROUP B.- EASTERN HINDI. Awadhi"
+   }
+  ]
+ },
+ {
+  "page": "1891_Bangalore_TABLE_E._Caste_c._by_Civil_condition_71936ab",
+  "title": "TABLE E. Caste, &c., by Civil condition and Age.",
+  "year": 1891,
+  "place": "Bangalore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/3a7b1027f02bb74b3c84d7a991104bdce0d3fcc5.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/1fbccfb3916ced62021aea21d3a44e577d266d6d.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/2a0b20624c2b9e0579ef5006db4a2c3cabfc4700.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/4c3c8e46458eb43c28ae64916932e4162067bddb.jpg"
+  ],
+  "n_images_total": 4,
+  "reading_columns": [
+   "TABLE E. Caste, &c., by Civil condition  | 0 to 9 | Total",
+   "TABLE E. Caste, &c., by Civil condition  | 0 to 9 | Single",
+   "TABLE E. Caste, &c., by Civil condition  | 0 to 9 | Married",
+   "TABLE E. Caste, &c., by Civil condition  | 0 to 9 | Widowed",
+   "TABLE E. Caste, &c., by Civil condition  | 0 to 9 | Civil condition not stated",
+   "TABLE E. Caste, &c., by Civil condition  | 10 to 14 | Total",
+   "TABLE E. Caste, &c., by Civil condition  | 10 to 14 | Single",
+   "TABLE E. Caste, &c., by Civil condition  | 10 to 14 | Married",
+   "TABLE E. Caste, &c., by Civil condition  | 10 to 14 | Widowed",
+   "TABLE E. Caste, &c., by Civil condition  | 10 to 14 | Civil condition not stated",
+   "TABLE E. Caste, &c., by Civil condition  | 15 to 39 | Total",
+   "TABLE E. Caste, &c., by Civil condition  | 15 to 39 | Single",
+   "TABLE E. Caste, &c., by Civil condition  | 15 to 39 | Married",
+   "TABLE E. Caste, &c., by Civil condition  | 15 to 39 | Widowed",
+   "TABLE E. Caste, &c., by Civil condition  | 15 to 39 | Civil condition not stated",
+   "TABLE E. Caste, &c., by Civil condition  | 40 and over | Total",
+   "TABLE E. Caste, &c., by Civil condition  | 40 and over | Single",
+   "TABLE E. Caste, &c., by Civil condition  | 40 and over | Married",
+   "TABLE E. Caste, &c., by Civil condition  | 40 and over | Widowed",
+   "TABLE E. Caste, &c., by Civil condition  | 40 and over | Civil condition not stated",
+   "TABLE E. Caste, &c., by Civil condition  | Age not stated | Total",
+   "TABLE E. Caste, &c., by Civil condition  | Age not stated | Single",
+   "TABLE E. Caste, &c., by Civil condition  | Age not stated | Married",
+   "TABLE E. Caste, &c., by Civil condition  | Age not stated | Widowed",
+   "TABLE E. Caste, &c., by Civil condition  | Age not stated | Civil condition not stated"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.19.18",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Korama",
+    "column": "40 and over | Widowed",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.12.3",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Tigala",
+    "column": "0 to 9 | Widowed",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.23.13",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 4",
+    "column": "15 to 39 | Widowed",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.5.13",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "R\u00e1jp\u00fat",
+    "column": "15 to 39 | Widowed",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "0.17.5",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "I'raliga",
+    "column": "10 to 14 | Total",
+    "readings": [
+     46.0
+    ]
+   },
+   {
+    "id": "0.15.15",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Tulu",
+    "column": "40 and over | Total",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.7.13",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "R\u00e1ch\u00e9v\u00e1r and Ranag\u00e1ra",
+    "column": "15 to 39 | Widowed",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.36.2",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Hal\u00e9 Kannadiga",
+    "column": "0 to 9 | Married",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.30.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Brihachcharana",
+    "column": "10 to 14 | Single",
+    "readings": [
+     60.0
+    ]
+   },
+   {
+    "id": "0.18.15",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Koracha",
+    "column": "40 and over | Total",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "0.35.10",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Gaudu",
+    "column": "15 to 39 | Total",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.15.1",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Tulu",
+    "column": "0 to 9 | Single",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.8.15",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 1",
+    "column": "40 and over | Total",
+    "readings": [
+     198.0
+    ]
+   },
+   {
+    "id": "0.15.12",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Tulu",
+    "column": "15 to 39 | Married",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.10.13",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "N\u00e1yar",
+    "column": "15 to 39 | Widowed",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.33.17",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Dr\u00e1vida",
+    "column": "40 and over | Married",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.28.0",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Babb\u00faru Kamm\u00e9",
+    "column": "0 to 9 | Total",
+    "readings": [
+     1160.0
+    ]
+   },
+   {
+    "id": "0.13.11",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Vakkaliga",
+    "column": "15 to 39 | Single",
+    "readings": [
+     95.0
+    ]
+   },
+   {
+    "id": "0.19.15",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Korama",
+    "column": "40 and over | Total",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.29.2",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Badagan\u00e1du",
+    "column": "0 to 9 | Married",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.16.4",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 2(a)",
+    "column": "0 to 9 | Civil condition not stated",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.31.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Br\u00e1mhan.-Chitp\u00e1van",
+    "column": "10 to 14 | Single",
+    "readings": [
+     213.0
+    ]
+   },
+   {
+    "id": "0.19.1",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Korama",
+    "column": "0 to 9 | Single",
+    "readings": [
+     2147.0
+    ]
+   },
+   {
+    "id": "0.16.10",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 2(a)",
+    "column": "15 to 39 | Total",
+    "readings": [
+     2680.0
+    ]
+   },
+   {
+    "id": "0.24.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Class A",
+    "column": "10 to 14 | Single",
+    "readings": [
+     67985.0
+    ]
+   },
+   {
+    "id": "0.23.18",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 4",
+    "column": "40 and over | Widowed",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.5.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "R\u00e1jp\u00fat",
+    "column": "10 to 14 | Single",
+    "readings": [
+     379.0
+    ]
+   },
+   {
+    "id": "0.19.10",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Korama",
+    "column": "15 to 39 | Total",
+    "readings": [
+     43.0
+    ]
+   },
+   {
+    "id": "0.15.13",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Tulu",
+    "column": "15 to 39 | Widowed",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.3.5",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "R\u00e1jpind\u00e9",
+    "column": "10 to 14 | Total",
+    "readings": [
+     67.0
+    ]
+   },
+   {
+    "id": "0.16.5",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 2(a)",
+    "column": "10 to 14 | Total",
+    "readings": [
+     62751.0
+    ]
+   },
+   {
+    "id": "0.16.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 2(a)",
+    "column": "10 to 14 | Single",
+    "readings": [
+     60968.0
+    ]
+   },
+   {
+    "id": "0.16.18",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 2(a)",
+    "column": "40 and over | Widowed",
+    "readings": [
+     223.0
+    ]
+   },
+   {
+    "id": "0.16.13",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 2(a)",
+    "column": "15 to 39 | Widowed",
+    "readings": [
+     351.0
+    ]
+   },
+   {
+    "id": "0.18.11",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Koracha",
+    "column": "15 to 39 | Single",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.28.7",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Babb\u00faru Kamm\u00e9",
+    "column": "10 to 14 | Married",
+    "readings": [
+     49.0
+    ]
+   },
+   {
+    "id": "0.30.18",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Brihachcharana",
+    "column": "40 and over | Widowed",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.25.12",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "A'ruv\u00e9lu",
+    "column": "15 to 39 | Married",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "0.6.11",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Mar\u00e1ta",
+    "column": "15 to 39 | Single",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.13.1",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Vakkaliga",
+    "column": "0 to 9 | Single",
+    "readings": [
+     176260.0
+    ]
+   },
+   {
+    "id": "0.12.10",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Tigala",
+    "column": "15 to 39 | Total",
+    "readings": [
+     685.0
+    ]
+   },
+   {
+    "id": "0.27.0",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Aravattu Vakkalu",
+    "column": "0 to 9 | Total",
+    "readings": [
+     700.0
+    ]
+   },
+   {
+    "id": "0.27.7",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Aravattu Vakkalu",
+    "column": "10 to 14 | Married",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.26.1",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "A'ruv\u00e9lu Niy\u00f3gi",
+    "column": "0 to 9 | Single",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.37.0",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Hav\u00edka",
+    "column": "0 to 9 | Total",
+    "readings": [
+     335.0
+    ]
+   },
+   {
+    "id": "0.25.18",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "A'ruv\u00e9lu",
+    "column": "40 and over | Widowed",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.5.7",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "R\u00e1jp\u00fat",
+    "column": "10 to 14 | Married",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.18.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Koracha",
+    "column": "10 to 14 | Single",
+    "readings": [
+     483.0
+    ]
+   },
+   {
+    "id": "0.24.19",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Class A",
+    "column": "40 and over | Civil condition not stated",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.21.1",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Lamb\u00e1ni",
+    "column": "0 to 9 | Single",
+    "readings": [
+     6507.0
+    ]
+   },
+   {
+    "id": "0.13.17",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Vakkaliga",
+    "column": "40 and over | Married",
+    "readings": [
+     876.0
+    ]
+   },
+   {
+    "id": "0.13.8",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Vakkaliga",
+    "column": "10 to 14 | Widowed",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "0.6.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Mar\u00e1ta",
+    "column": "10 to 14 | Single",
+    "readings": [
+     2482.0
+    ]
+   },
+   {
+    "id": "0.37.5",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Hav\u00edka",
+    "column": "10 to 14 | Total",
+    "readings": [
+     170.0
+    ]
+   },
+   {
+    "id": "0.12.5",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Tigala",
+    "column": "10 to 14 | Total",
+    "readings": [
+     3020.0
+    ]
+   },
+   {
+    "id": "0.25.2",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "A'ruv\u00e9lu",
+    "column": "0 to 9 | Married",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.14.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Vakkaliga, S\u00e1da",
+    "column": "10 to 14 | Single",
+    "readings": [
+     46.0
+    ]
+   },
+   {
+    "id": "0.10.12",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "N\u00e1yar",
+    "column": "15 to 39 | Married",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "0.7.15",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "R\u00e1ch\u00e9v\u00e1r and Ranag\u00e1ra",
+    "column": "40 and over | Total",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.28.5",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Babb\u00faru Kamm\u00e9",
+    "column": "10 to 14 | Total",
+    "readings": [
+     303.0
+    ]
+   },
+   {
+    "id": "0.18.10",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Koracha",
+    "column": "15 to 39 | Total",
+    "readings": [
+     42.0
+    ]
+   },
+   {
+    "id": "0.22.1",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Uriya",
+    "column": "0 to 9 | Single",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.24.7",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Class A",
+    "column": "10 to 14 | Married",
+    "readings": [
+     1937.0
+    ]
+   },
+   {
+    "id": "0.23.17",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 4",
+    "column": "40 and over | Married",
+    "readings": [
+     48.0
+    ]
+   },
+   {
+    "id": "0.16.19",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 2(a)",
+    "column": "40 and over | Civil condition not stated",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.16.15",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 2(a)",
+    "column": "40 and over | Total",
+    "readings": [
+     1455.0
+    ]
+   },
+   {
+    "id": "0.9.10",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Ling\u00e1yet, (Gandaman\u00e9, &c.)",
+    "column": "15 to 39 | Total",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.8.7",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Group 1",
+    "column": "10 to 14 | Married",
+    "readings": [
+     138.0
+    ]
+   },
+   {
+    "id": "0.9.15",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Ling\u00e1yet, (Gandaman\u00e9, &c.)",
+    "column": "40 and over | Total",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.18.5",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Koracha",
+    "column": "10 to 14 | Total",
+    "readings": [
+     483.0
+    ]
+   },
+   {
+    "id": "0.13.10",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Vakkaliga",
+    "column": "15 to 39 | Total",
+    "readings": [
+     1960.0
+    ]
+   },
+   {
+    "id": "0.22.15",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Uriya",
+    "column": "40 and over | Total",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.21.6",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Lamb\u00e1ni",
+    "column": "10 to 14 | Single",
+    "readings": [
+     2094.0
+    ]
+   },
+   {
+    "id": "0.29.17",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Badagan\u00e1du",
+    "column": "40 and over | Married",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.6.17",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Mar\u00e1ta",
+    "column": "40 and over | Married",
+    "readings": [
+     102.0
+    ]
+   },
+   {
+    "id": "0.24.3",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Total Class A",
+    "column": "0 to 9 | Widowed",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.32.0",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "D\u00e9s'ast'h",
+    "column": "0 to 9 | Total",
+    "readings": [
+     2197.0
+    ]
+   },
+   {
+    "id": "0.32.7",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "D\u00e9s'ast'h",
+    "column": "10 to 14 | Married",
+    "readings": [
+     121.0
+    ]
+   },
+   {
+    "id": "0.5.0",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "R\u00e1jp\u00fat",
+    "column": "0 to 9 | Total",
+    "readings": [
+     1099.0
+    ]
+   },
+   {
+    "id": "0.13.0",
+    "section": "TABLE E. Caste, &c., by Civil condition and Age. Station, Ba",
+    "row": "Vakkaliga",
+    "column": "0 to 9 | Total",
+    "readings": [
+     176444.0
+    ]
+   }
+  ],
+  "n_disputed": 355
+ },
+ {
+  "page": "1891_Baroda_TABLE_No._IV._Yearly_numbers_of_people_b_bedd04d",
+  "title": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+  "year": 1891,
+  "place": "Baroda",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/075637355e62e73c8b8023578c1046914ad05427.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE No. IV. Yearly numbers of people b |  | Males.",
+   "TABLE No. IV. Yearly numbers of people b |  | Females.",
+   "TABLE No. IV. Yearly numbers of people b |  | Total."
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "10",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 1,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "11",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 2,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "12",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 3,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "13",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 4,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "14",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 5,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "15",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 6,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "16",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 7,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "17",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 8,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "18",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 9,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "19",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   },
+   {
+    "id": 10,
+    "section": "TABLE No. IV. Yearly numbers of people by sexes from the age of 10.",
+    "row": "20",
+    "column_group": "Yearly numbers of people by sexes from the age of 10"
+   }
+  ]
+ },
+ {
+  "page": "1891_India_TABLE_XVII.-A._Occupations_by_Age._62ad536",
+  "title": "TABLE XVII.-A. Occupations by Age.",
+  "year": 1891,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/9e2096ed856aa07894f5e0bae1f2e878bcb65063.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE XVII.-A. Occupations by Age. | TOWN / MALES | 5-14",
+   "TABLE XVII.-A. Occupations by Age. | TOWN / MALES | 15 and over",
+   "TABLE XVII.-A. Occupations by Age. | TOWN / FEMALES | Total",
+   "TABLE XVII.-A. Occupations by Age. | TOWN / FEMALES | 0-4",
+   "TABLE XVII.-A. Occupations by Age. | TOWN / FEMALES | 5-14",
+   "TABLE XVII.-A. Occupations by Age. | TOWN / FEMALES | 15 and over",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / TOTAL | Total",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / TOTAL | 0-4",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / TOTAL | 5-14",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / TOTAL | 15 and over",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / MALES | Total",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / MALES | 0-4",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / MALES | 5-14",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / MALES | 15 and over",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / FEMALES | Total",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / FEMALES | 0-4",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / FEMALES | 5-14",
+   "TABLE XVII.-A. Occupations by Age. | COUNTRY / FEMALES | 15 and over"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.16.10",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 15",
+    "column": "COUNTRY / MALES | Total",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.12.6",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 2",
+    "column": "COUNTRY / TOTAL | Total",
+    "readings": [
+     69.0
+    ]
+   },
+   {
+    "id": "0.21.1",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Grand Total 1",
+    "column": "TOWN / MALES | 15 and over",
+    "readings": [
+     4868.0
+    ]
+   },
+   {
+    "id": "0.21.11",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Grand Total 1",
+    "column": "COUNTRY / MALES | 0-4",
+    "readings": [
+     1843.0
+    ]
+   },
+   {
+    "id": "0.2.0",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 3",
+    "column": "TOWN / MALES | 5-14",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.7.13",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 7",
+    "column": "COUNTRY / MALES | 15 and over",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.10.14",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 10",
+    "column": "COUNTRY / FEMALES | Total",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.22.12",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Grand Total 2",
+    "column": "COUNTRY / MALES | 5-14",
+    "readings": [
+     20188.0
+    ]
+   },
+   {
+    "id": "0.6.3",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 1",
+    "column": "TOWN / FEMALES | 0-4",
+    "readings": [
+     103.0
+    ]
+   },
+   {
+    "id": "0.20.5",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 3",
+    "column": "TOWN / FEMALES | 15 and over",
+    "readings": [
+     1389.0
+    ]
+   },
+   {
+    "id": "0.6.13",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 1",
+    "column": "COUNTRY / MALES | 15 and over",
+    "readings": [
+     53.0
+    ]
+   },
+   {
+    "id": "0.20.2",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 3",
+    "column": "TOWN / FEMALES | Total",
+    "readings": [
+     1799.0
+    ]
+   },
+   {
+    "id": "0.20.8",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 3",
+    "column": "COUNTRY / TOTAL | 5-14",
+    "readings": [
+     49.0
+    ]
+   },
+   {
+    "id": "0.14.10",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 13",
+    "column": "COUNTRY / MALES | Total",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.12.16",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 2",
+    "column": "COUNTRY / FEMALES | 5-14",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.3.8",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 4",
+    "column": "COUNTRY / TOTAL | 5-14",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.21.12",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Grand Total 1",
+    "column": "COUNTRY / MALES | 5-14",
+    "readings": [
+     3694.0
+    ]
+   },
+   {
+    "id": "0.8.5",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 8",
+    "column": "TOWN / FEMALES | 15 and over",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "0.0.14",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 1",
+    "column": "COUNTRY / FEMALES | Total",
+    "readings": [
+     43.0
+    ]
+   },
+   {
+    "id": "0.22.0",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Grand Total 2",
+    "column": "TOWN / MALES | 5-14",
+    "readings": [
+     5545.0
+    ]
+   },
+   {
+    "id": "0.12.3",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 2",
+    "column": "TOWN / FEMALES | 0-4",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.20.15",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 3",
+    "column": "COUNTRY / FEMALES | 0-4",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.7.17",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 7",
+    "column": "COUNTRY / FEMALES | 15 and over",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.22.11",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Grand Total 2",
+    "column": "COUNTRY / MALES | 0-4",
+    "readings": [
+     10874.0
+    ]
+   },
+   {
+    "id": "0.20.11",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 3",
+    "column": "COUNTRY / MALES | 0-4",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "0.16.5",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 15",
+    "column": "TOWN / FEMALES | 15 and over",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.4.5",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 5",
+    "column": "TOWN / FEMALES | 15 and over",
+    "readings": [
+     26.0
+    ]
+   },
+   {
+    "id": "0.12.0",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 2",
+    "column": "TOWN / MALES | 5-14",
+    "readings": [
+     66.0
+    ]
+   },
+   {
+    "id": "0.10.7",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 10",
+    "column": "COUNTRY / TOTAL | 0-4",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.21.8",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Grand Total 1",
+    "column": "COUNTRY / TOTAL | 5-14",
+    "readings": [
+     6794.0
+    ]
+   },
+   {
+    "id": "0.12.7",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 2",
+    "column": "COUNTRY / TOTAL | 0-4",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.18.7",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 17",
+    "column": "COUNTRY / TOTAL | 0-4",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.15.11",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 14",
+    "column": "COUNTRY / MALES | 0-4",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.3.12",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 4",
+    "column": "COUNTRY / MALES | 5-14",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.0.1",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 1",
+    "column": "TOWN / MALES | 15 and over",
+    "readings": [
+     412.0
+    ]
+   },
+   {
+    "id": "0.13.5",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 12",
+    "column": "TOWN / FEMALES | 15 and over",
+    "readings": [
+     503.0
+    ]
+   },
+   {
+    "id": "0.4.14",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 5",
+    "column": "COUNTRY / FEMALES | Total",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.20.7",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Total 3",
+    "column": "COUNTRY / TOTAL | 0-4",
+    "readings": [
+     29.0
+    ]
+   },
+   {
+    "id": "0.21.10",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Grand Total 1",
+    "column": "COUNTRY / MALES | Total",
+    "readings": [
+     14077.0
+    ]
+   },
+   {
+    "id": "0.3.3",
+    "section": "TABLE XVII.-A. Occupations by Age.",
+    "row": "Occupation 4",
+    "column": "TOWN / FEMALES | 0-4",
+    "readings": [
+     9.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1891_Bombay_Table_IX._Education_by_Religion_and_Age._df403af",
+  "title": "Table IX. Education by Religion and Age. Part (D).-",
+  "year": 1891,
+  "place": "Bombay",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/770f58da3a09dd5ffd0b5860729d2dae22b2e5c2.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Table IX. Education by Religion and Age. | Total Population | Total",
+   "Table IX. Education by Religion and Age. | Total Population | Males",
+   "Table IX. Education by Religion and Age. | Total Population | Females",
+   "Table IX. Education by Religion and Age. | Total by Education / Learning | Males",
+   "Table IX. Education by Religion and Age. | Total by Education / Learning | Females",
+   "Table IX. Education by Religion and Age. | Total by Education / Literate | Males",
+   "Table IX. Education by Religion and Age. | Total by Education / Literate | Females",
+   "Table IX. Education by Religion and Age. | Total by Education / Illiterate | Males",
+   "Table IX. Education by Religion and Age. | Total by Education / Illiterate | Females",
+   "Table IX. Education by Religion and Age. | 0-14 / Total | Males",
+   "Table IX. Education by Religion and Age. | 0-14 / Total | Females",
+   "Table IX. Education by Religion and Age. | 0-14 / Learning | Males",
+   "Table IX. Education by Religion and Age. | 0-14 / Learning | Females",
+   "Table IX. Education by Religion and Age. | 0-14 / Literate | Males",
+   "Table IX. Education by Religion and Age. | 0-14 / Literate | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.16.7",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Shol\u00e1pur",
+    "column": "Total by Education / Illiterate | Males",
+    "readings": [
+     203.0
+    ]
+   },
+   {
+    "id": "0.23.9",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Presidency Proper",
+    "column": "0-14 / Total | Males",
+    "readings": [
+     24718.0
+    ]
+   },
+   {
+    "id": "0.26.11",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Shik\u00e1rpur",
+    "column": "0-14 / Learning | Males",
+    "readings": [
+     38.0
+    ]
+   },
+   {
+    "id": "0.18.0",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Deccan",
+    "column": "Total Population | Total",
+    "readings": [
+     24436.0
+    ]
+   },
+   {
+    "id": "0.7.1",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Th\u00e1na",
+    "column": "Total Population | Males",
+    "readings": [
+     22008.0
+    ]
+   },
+   {
+    "id": "0.6.10",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Gujar\u00e1t",
+    "column": "0-14 / Total | Females",
+    "readings": [
+     783.0
+    ]
+   },
+   {
+    "id": "0.30.6",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total British Territory",
+    "column": "Total by Education / Literate | Females",
+    "readings": [
+     10476.0
+    ]
+   },
+   {
+    "id": "0.18.10",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Deccan",
+    "column": "0-14 / Total | Females",
+    "readings": [
+     3505.0
+    ]
+   },
+   {
+    "id": "0.5.14",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Surat",
+    "column": "0-14 / Literate | Females",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.22.13",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Karn\u00e1tak",
+    "column": "0-14 / Literate | Males",
+    "readings": [
+     83.0
+    ]
+   },
+   {
+    "id": "0.12.2",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Kh\u00e1ndesh",
+    "column": "Total Population | Females",
+    "readings": [
+     488.0
+    ]
+   },
+   {
+    "id": "0.6.7",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Gujar\u00e1t",
+    "column": "Total by Education / Illiterate | Males",
+    "readings": [
+     1308.0
+    ]
+   },
+   {
+    "id": "0.3.2",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Panch Mah\u00e1ls",
+    "column": "Total Population | Females",
+    "readings": [
+     17.0
+    ]
+   },
+   {
+    "id": "0.33.7",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Aden",
+    "column": "Total by Education / Illiterate | Males",
+    "readings": [
+     390.0
+    ]
+   },
+   {
+    "id": "0.10.9",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "K\u00e1nara",
+    "column": "0-14 / Total | Males",
+    "readings": [
+     2981.0
+    ]
+   },
+   {
+    "id": "0.33.14",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Aden",
+    "column": "0-14 / Literate | Females",
+    "readings": [
+     37.0
+    ]
+   },
+   {
+    "id": "0.21.4",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Bij\u00e1pur",
+    "column": "Total by Education / Learning | Females",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.31.5",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Feudatories",
+    "column": "Total by Education / Literate | Males",
+    "readings": [
+     1191.0
+    ]
+   },
+   {
+    "id": "0.29.9",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Sind",
+    "column": "0-14 / Total | Males",
+    "readings": [
+     920.0
+    ]
+   },
+   {
+    "id": "0.31.14",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Feudatories",
+    "column": "0-14 / Literate | Females",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.4.8",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Broach",
+    "column": "Total by Education / Illiterate | Females",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.27.5",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Thar and P\u00e1rkar",
+    "column": "Total by Education / Literate | Males",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.2.9",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Kaira",
+    "column": "0-14 / Total | Males",
+    "readings": [
+     507.0
+    ]
+   },
+   {
+    "id": "0.4.6",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Broach",
+    "column": "Total by Education / Literate | Females",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.9.9",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Ratn\u00e1giri",
+    "column": "0-14 / Total | Males",
+    "readings": [
+     867.0
+    ]
+   },
+   {
+    "id": "0.20.6",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Dh\u00e1rw\u00e1r",
+    "column": "Total by Education / Literate | Females",
+    "readings": [
+     397.0
+    ]
+   },
+   {
+    "id": "0.0.14",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Bombay City",
+    "column": "0-14 / Literate | Females",
+    "readings": [
+     713.0
+    ]
+   },
+   {
+    "id": "0.31.13",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Feudatories",
+    "column": "0-14 / Literate | Males",
+    "readings": [
+     34.0
+    ]
+   },
+   {
+    "id": "0.23.7",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Presidency Proper",
+    "column": "Total by Education / Illiterate | Males",
+    "readings": [
+     51454.0
+    ]
+   },
+   {
+    "id": "0.26.6",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Shik\u00e1rpur",
+    "column": "Total by Education / Literate | Females",
+    "readings": [
+     117.0
+    ]
+   },
+   {
+    "id": "0.7.2",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Th\u00e1na",
+    "column": "Total Population | Females",
+    "readings": [
+     20287.0
+    ]
+   },
+   {
+    "id": "0.12.0",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Kh\u00e1ndesh",
+    "column": "Total Population | Total",
+    "readings": [
+     1174.0
+    ]
+   },
+   {
+    "id": "0.21.1",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Bij\u00e1pur",
+    "column": "Total Population | Males",
+    "readings": [
+     431.0
+    ]
+   },
+   {
+    "id": "0.8.11",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Kol\u00e1ba",
+    "column": "0-14 / Learning | Males",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.1.6",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Ahmedabad",
+    "column": "Total by Education / Literate | Females",
+    "readings": [
+     258.0
+    ]
+   },
+   {
+    "id": "0.13.2",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "N\u00e1sik",
+    "column": "Total Population | Females",
+    "readings": [
+     955.0
+    ]
+   },
+   {
+    "id": "0.4.7",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Broach",
+    "column": "Total by Education / Illiterate | Males",
+    "readings": [
+     33.0
+    ]
+   },
+   {
+    "id": "0.4.12",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Broach",
+    "column": "0-14 / Learning | Females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.17.14",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "S\u00e1t\u00e1ra",
+    "column": "0-14 / Literate | Females",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.11.10",
+    "section": "Table IX. Education by Religion and Age. Part (D).-",
+    "row": "Total Konkan",
+    "column": "0-14 / Total | Females",
+    "readings": [
+     12327.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1931_AMBER-_Contd.__Table_VII_-_Age_Sex_and_Civil_Condition_da23fca",
+  "title": "Table VII - Age, Sex and Civil Condition. Part II - By Nizamats and Thikanas",
+  "year": 1931,
+  "place": "AMBER-(Contd.)",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/8ec735af4a64d4ea0a603377a9d657b671089e0d.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/fd4e9217b0352112daae2363664c3059b7584199.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/1a164ce15473e884435af2f2db111d00ff7c9619.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/796c22aebd9d9558ebd3cb60ab20f203202d0b4c.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/cfc66bf305478d0b4666a08a59a094a039f47222.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/445a7fc71c59b41ccaf75d37155a309e13dd66b0.jpg"
+  ],
+  "n_images_total": 16,
+  "reading_columns": [
+   "AMBER (Contd.) | POPULATION | Persons",
+   "AMBER (Contd.) | POPULATION | Males",
+   "AMBER (Contd.) | POPULATION | Females",
+   "AMBER (Contd.) | UNMARRIED | Persons",
+   "AMBER (Contd.) | UNMARRIED | Males",
+   "AMBER (Contd.) | UNMARRIED | Females",
+   "AMBER (Contd.) | MARRIED | Persons",
+   "AMBER (Contd.) | MARRIED | Males",
+   "AMBER (Contd.) | MARRIED | Females",
+   "AMBER (Contd.) | WIDOWED | Persons",
+   "AMBER (Contd.) | WIDOWED | Males",
+   "AMBER (Contd.) | WIDOWED | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.19.5",
+    "section": "AMBER (Contd.)",
+    "row": "40-50",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.12.0",
+    "section": "AMBER (Contd.)",
+    "row": "0-1",
+    "column": "POPULATION | Persons",
+    "readings": [
+     173.0
+    ]
+   },
+   {
+    "id": "0.16.7",
+    "section": "AMBER (Contd.)",
+    "row": "15-20",
+    "column": "MARRIED | Males",
+    "readings": [
+     175.0
+    ]
+   },
+   {
+    "id": "0.5.3",
+    "section": "AMBER (Contd.)",
+    "row": "15-20",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.24.2",
+    "section": "AMBER (Contd.)",
+    "row": "1-5",
+    "column": "POPULATION | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.9.10",
+    "section": "AMBER (Contd.)",
+    "row": "50-60",
+    "column": "WIDOWED | Males",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.13.3",
+    "section": "AMBER (Contd.)",
+    "row": "1-5",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     848.0
+    ]
+   },
+   {
+    "id": "0.16.4",
+    "section": "AMBER (Contd.)",
+    "row": "15-20",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     165.0
+    ]
+   },
+   {
+    "id": "0.10.3",
+    "section": "AMBER (Contd.)",
+    "row": "60 and over",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.14.6",
+    "section": "AMBER (Contd.)",
+    "row": "5-10",
+    "column": "MARRIED | Persons",
+    "readings": [
+     127.0
+    ]
+   },
+   {
+    "id": "0.11.1",
+    "section": "AMBER (Contd.)",
+    "row": "MUSLIM",
+    "column": "POPULATION | Males",
+    "readings": [
+     4007.0
+    ]
+   },
+   {
+    "id": "0.14.8",
+    "section": "AMBER (Contd.)",
+    "row": "5-10",
+    "column": "MARRIED | Females",
+    "readings": [
+     103.0
+    ]
+   },
+   {
+    "id": "0.5.4",
+    "section": "AMBER (Contd.)",
+    "row": "15-20",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     24.0
+    ]
+   },
+   {
+    "id": "0.15.6",
+    "section": "AMBER (Contd.)",
+    "row": "10-15",
+    "column": "MARRIED | Persons",
+    "readings": [
+     233.0
+    ]
+   },
+   {
+    "id": "0.24.3",
+    "section": "AMBER (Contd.)",
+    "row": "1-5",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.0.9",
+    "section": "AMBER (Contd.)",
+    "row": "JAIN",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     190.0
+    ]
+   },
+   {
+    "id": "0.9.11",
+    "section": "AMBER (Contd.)",
+    "row": "50-60",
+    "column": "WIDOWED | Females",
+    "readings": [
+     30.0
+    ]
+   },
+   {
+    "id": "0.19.3",
+    "section": "AMBER (Contd.)",
+    "row": "40-50",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.11.8",
+    "section": "AMBER (Contd.)",
+    "row": "MUSLIM",
+    "column": "MARRIED | Females",
+    "readings": [
+     1962.0
+    ]
+   },
+   {
+    "id": "0.17.0",
+    "section": "AMBER (Contd.)",
+    "row": "20-30",
+    "column": "POPULATION | Persons",
+    "readings": [
+     1304.0
+    ]
+   },
+   {
+    "id": "0.11.0",
+    "section": "AMBER (Contd.)",
+    "row": "MUSLIM",
+    "column": "POPULATION | Persons",
+    "readings": [
+     7555.0
+    ]
+   },
+   {
+    "id": "0.9.8",
+    "section": "AMBER (Contd.)",
+    "row": "50-60",
+    "column": "MARRIED | Females",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.8.6",
+    "section": "AMBER (Contd.)",
+    "row": "40-50",
+    "column": "MARRIED | Persons",
+    "readings": [
+     71.0
+    ]
+   },
+   {
+    "id": "0.18.7",
+    "section": "AMBER (Contd.)",
+    "row": "30-40",
+    "column": "MARRIED | Males",
+    "readings": [
+     456.0
+    ]
+   },
+   {
+    "id": "0.31.11",
+    "section": "AMBER (Contd.)",
+    "row": "50-60",
+    "column": "WIDOWED | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.12.6",
+    "section": "AMBER (Contd.)",
+    "row": "0-1",
+    "column": "MARRIED | Persons",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.28.3",
+    "section": "AMBER (Contd.)",
+    "row": "20-30",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.15.9",
+    "section": "AMBER (Contd.)",
+    "row": "10-15",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.7.1",
+    "section": "AMBER (Contd.)",
+    "row": "30-40",
+    "column": "POPULATION | Males",
+    "readings": [
+     82.0
+    ]
+   },
+   {
+    "id": "0.8.9",
+    "section": "AMBER (Contd.)",
+    "row": "40-50",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     45.0
+    ]
+   },
+   {
+    "id": "0.12.11",
+    "section": "AMBER (Contd.)",
+    "row": "0-1",
+    "column": "WIDOWED | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.11.11",
+    "section": "AMBER (Contd.)",
+    "row": "MUSLIM",
+    "column": "WIDOWED | Females",
+    "readings": [
+     551.0
+    ]
+   },
+   {
+    "id": "0.10.9",
+    "section": "AMBER (Contd.)",
+    "row": "60 and over",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     39.0
+    ]
+   },
+   {
+    "id": "0.5.1",
+    "section": "AMBER (Contd.)",
+    "row": "15-20",
+    "column": "POPULATION | Males",
+    "readings": [
+     40.0
+    ]
+   },
+   {
+    "id": "0.23.3",
+    "section": "AMBER (Contd.)",
+    "row": "0-1",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.2.8",
+    "section": "AMBER (Contd.)",
+    "row": "1-5",
+    "column": "MARRIED | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.26.1",
+    "section": "AMBER (Contd.)",
+    "row": "10-15",
+    "column": "POPULATION | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.16.11",
+    "section": "AMBER (Contd.)",
+    "row": "15-20",
+    "column": "WIDOWED | Females",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.18.3",
+    "section": "AMBER (Contd.)",
+    "row": "30-40",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     34.0
+    ]
+   },
+   {
+    "id": "0.6.0",
+    "section": "AMBER (Contd.)",
+    "row": "20-30",
+    "column": "POPULATION | Persons",
+    "readings": [
+     149.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1901_Mysore_SUBSIDIARY_TABLE_II-contd._Education_by_cc05c59",
+  "title": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religion-Musalmans. Mysore State excluding Civil and Military Station, Bangalore.",
+  "year": 1901,
+  "place": "Mysore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25366884_p418.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Illiterate | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Illiterate | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Illiterate | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in Kannada | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in Kannada | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Number in 1,000 Literate in Kannada | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Telugu | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Telugu | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Telugu | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Tamil | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Tamil | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Tamil | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Hindustani | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Hindustani | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Hindustani | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Maratti | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Maratti | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Maratti | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Sanskrit | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Sanskrit | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Sanskrit | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | English | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | English | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | English | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Other Languages | Persons",
+   "SUBSIDIARY TABLE II-contd. Education by  | Other Languages | Males",
+   "SUBSIDIARY TABLE II-contd. Education by  | Other Languages | Females",
+   "SUBSIDIARY TABLE II-contd. Education by  | Females to 1,000 males | Literate",
+   "SUBSIDIARY TABLE II-contd. Education by  | Females to 1,000 males | Illiterate",
+   "SUBSIDIARY TABLE II-contd. Education by  | Females to 1,000 males | Literate in English"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.2.29",
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religio",
+    "row": "15-20",
+    "column": "Other Languages | Females",
+    "readings": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "0.3.29",
+    "section": "SUBSIDIARY TABLE II-contd. Education by Age, Sex and Religio",
+    "row": "20 and over",
+    "column": "Other Languages | Females",
+    "readings": [
+     0.0,
+     1.0,
+     2.0
+    ]
+   }
+  ],
+  "n_disputed": 2
+ },
+ {
+  "page": "1881_Punjab_Abstract_No._15_showing_Density_of_Tota_725ae63",
+  "title": "Abstract No. 15, showing Density of Total, Rural, and Agricultural Population on Cultivated and Culturable Areas, together with Statistics of Rainfall, Cultivation, and Irrigation for Districts, arranged in order of Density.",
+  "year": 1881,
+  "place": "Punjab",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/087ceae8aca189ce74960989cf2ed9e30efa274e.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Abstract No. 15, showing Density of Tota | DENSITY PER SQUARE MILE OF Cultivated Area | Total Population",
+   "Abstract No. 15, showing Density of Tota | DENSITY PER SQUARE MILE OF Cultivated Area | Rural Population",
+   "Abstract No. 15, showing Density of Tota | DENSITY PER SQUARE MILE OF Cultivated Area | Agricultural Population",
+   "Abstract No. 15, showing Density of Tota | DENSITY PER SQUARE MILE OF Cultivated Area | Male Adult Agriculturists",
+   "Abstract No. 15, showing Density of Tota | Culturable Area | Total Population",
+   "Abstract No. 15, showing Density of Tota | Culturable Area | Rural Population",
+   "Abstract No. 15, showing Density of Tota | Culturable Area | Agricultural Population",
+   "Abstract No. 15, showing Density of Tota | Culturable Area | Male Adult Agriculturists",
+   "Abstract No. 15, showing Density of Tota |  | Rainfall in inches",
+   "Abstract No. 15, showing Density of Tota | PERCENTAGES OF AREA | Dry on Cultivated",
+   "Abstract No. 15, showing Density of Tota | PERCENTAGES OF AREA | Cultivated on Culturable",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 11 Rainfall",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 12 Dry on Cultivated",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 13 Cultivated on Culturable",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 3 Total Population",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 4 Rural Population",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 5 Agricultural Population",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 6 Male Adult Agriculturists",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 7 Total Population",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 8 Rural Population",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 9 Agricultural Population",
+   "Abstract No. 15, showing Density of Tota | SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 10 Male Adult Agriculturists"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.30.11",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Lahore Division",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 11 Rainfall",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.34.21",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Pesh\u00e1war",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 10 Male Adult Agriculturists",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.42.13",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Sirsa",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 13 Cultivated on Culturable",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "0.13.17",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Amb\u00e1la Division",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 6 Male Adult Agriculturists",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.36.6",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Dera Ismail Khan",
+    "column": "Culturable Area | Agricultural Population",
+    "readings": [
+     34.0
+    ]
+   },
+   {
+    "id": "0.14.17",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Gujrat",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 6 Male Adult Agriculturists",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.36.15",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Dera Ismail Khan",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 4 Rural Population",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "0.21.17",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "R\u00e1walpindi",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 6 Male Adult Agriculturists",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "0.31.15",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Mult\u00e1n",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 4 Rural Population",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "0.26.21",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Total British Territory",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 10 Male Adult Agriculturists",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "0.17.2",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Delhi",
+    "column": "DENSITY PER SQUARE MILE OF Cultivated Area | Agricultural Population",
+    "readings": [
+     314.0
+    ]
+   },
+   {
+    "id": "0.12.7",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Gujr\u00e1nw\u00e1la",
+    "column": "Culturable Area | Male Adult Agriculturists",
+    "readings": [
+     40.0
+    ]
+   },
+   {
+    "id": "0.16.9",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Gurd\u00e1spur",
+    "column": "PERCENTAGES OF AREA | Dry on Cultivated",
+    "readings": [
+     40.0
+    ]
+   },
+   {
+    "id": "0.32.3",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Gurgaon",
+    "column": "DENSITY PER SQUARE MILE OF Cultivated Area | Male Adult Agriculturists",
+    "readings": [
+     68.0
+    ]
+   },
+   {
+    "id": "0.21.6",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "R\u00e1walpindi",
+    "column": "Culturable Area | Agricultural Population",
+    "readings": [
+     234.0
+    ]
+   },
+   {
+    "id": "0.34.20",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Pesh\u00e1war",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 9 Agricultural Population",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.0.10",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Simla",
+    "column": "PERCENTAGES OF AREA | Cultivated on Culturable",
+    "readings": [
+     83.0
+    ]
+   },
+   {
+    "id": "0.33.13",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Bannu",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 13 Cultivated on Culturable",
+    "readings": [
+     26.0
+    ]
+   },
+   {
+    "id": "0.35.19",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Rohtak",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 8 Rural Population",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.40.20",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Hissar Division",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 9 Agricultural Population",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "0.13.20",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Amb\u00e1la Division",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 9 Agricultural Population",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.4.21",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Jalandhar Division",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 10 Male Adult Agriculturists",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.34.5",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Pesh\u00e1war",
+    "column": "Culturable Area | Rural Population",
+    "readings": [
+     246.0
+    ]
+   },
+   {
+    "id": "0.21.11",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "R\u00e1walpindi",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 11 Rainfall",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.27.7",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Pesh\u00e1war Division",
+    "column": "Culturable Area | Male Adult Agriculturists",
+    "readings": [
+     60.0
+    ]
+   },
+   {
+    "id": "0.18.11",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Karn\u00e1l",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 11 Rainfall",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "0.30.18",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Lahore Division",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 7 Total Population",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.8.15",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Amb\u00e1la",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 4 Rural Population",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.15.10",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Jhang",
+    "column": "PERCENTAGES OF AREA | Cultivated on Culturable",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.17.14",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Delhi",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 3 Total Population",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "0.35.11",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Rohtak",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 11 Rainfall",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.2.12",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Montgomery",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 12 Dry on Cultivated",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "0.33.11",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Bannu",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 11 Rainfall",
+    "readings": [
+     26.0
+    ]
+   },
+   {
+    "id": "0.21.0",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "R\u00e1walpindi",
+    "column": "DENSITY PER SQUARE MILE OF Cultivated Area | Total Population",
+    "readings": [
+     541.0
+    ]
+   },
+   {
+    "id": "0.28.11",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Jhelam",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 11 Rainfall",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.38.4",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Deraj\u00e1t Division",
+    "column": "Culturable Area | Total Population",
+    "readings": [
+     98.0
+    ]
+   },
+   {
+    "id": "0.7.4",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Koh\u00e1t",
+    "column": "Culturable Area | Total Population",
+    "readings": [
+     385.0
+    ]
+   },
+   {
+    "id": "0.38.10",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Deraj\u00e1t Division",
+    "column": "PERCENTAGES OF AREA | Cultivated on Culturable",
+    "readings": [
+     32.0
+    ]
+   },
+   {
+    "id": "0.35.20",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Rohtak",
+    "column": "SERIAL ORDER OF MAGNITUDE IN RESPECT OF | Col. 9 Agricultural Population",
+    "readings": [
+     17.0
+    ]
+   },
+   {
+    "id": "0.25.8",
+    "section": "Abstract No. 15, showing Density of Total, Rural, and Agricu",
+    "row": "Sh\u00e1hpur",
+    "column": " | Rainfall in inches",
+    "readings": [
+     13.6
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1891_Akyab_District_AKYAB_DISTRICT_-_Table_showing_Populatio_9b8f3dd",
+  "title": "AKYAB DISTRICT - Table showing Population, Population by Religion and Education, &c., by V",
+  "year": 1891,
+  "place": "Akyab District",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/1f835f54c53f058c045d6d2ce8a330608fb9bb63.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/0f1b7f79453504e6dafea3d23628902efe5936b8.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "AKYAB DISTRICT. - Table showing Populati |  | Number of occupied houses.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION | Both sexes.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION | Male.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION | Female.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION | Boat population.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION BY RELIGION | Buddhists.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION BY RELIGION | N\u00e0t-worshippers.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION BY RELIGION | Mahomedans.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION BY RELIGION | Hindus.",
+   "AKYAB DISTRICT. - Table showing Populati | POPULATION BY RELIGION | Christians.",
+   "AKYAB DISTRICT. - Table showing Populati | MOTHER-TONGUE | Number of persons using it.",
+   "AKYAB DISTRICT. - Table showing Populati | EDUCATION / Literate | M.",
+   "AKYAB DISTRICT. - Table showing Populati | EDUCATION / Literate | F."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.37.0",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Laing",
+    "column": " | Number of occupied houses.",
+    "readings": [
+     31.0
+    ]
+   },
+   {
+    "id": "0.69.10",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": "MOTHER-TONGUE | Number of persons using it.",
+    "readings": [
+     98.0,
+     115.0
+    ]
+   },
+   {
+    "id": "0.69.12",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.37.11",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Laing",
+    "column": "EDUCATION / Literate | M.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.63.7",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Nagaya",
+    "column": "POPULATION BY RELIGION | Mahomedans.",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.69.0",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": " | Number of occupied houses.",
+    "readings": [
+     22.0,
+     25.0
+    ]
+   },
+   {
+    "id": "0.69.11",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": "EDUCATION / Literate | M.",
+    "readings": [
+     14.0,
+     20.0
+    ]
+   },
+   {
+    "id": "0.69.1",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": "POPULATION | Both sexes.",
+    "readings": [
+     100.0,
+     123.0
+    ]
+   },
+   {
+    "id": "0.37.10",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Laing",
+    "column": "MOTHER-TONGUE | Number of persons using it.",
+    "readings": [
+     103.0
+    ]
+   },
+   {
+    "id": "0.69.2",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": "POPULATION | Male.",
+    "readings": [
+     62.0,
+     63.0
+    ]
+   },
+   {
+    "id": "0.37.6",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Laing",
+    "column": "POPULATION BY RELIGION | N\u00e0t-worshippers.",
+    "readings": [
+     103.0
+    ]
+   },
+   {
+    "id": "0.37.3",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Laing",
+    "column": "POPULATION | Female.",
+    "readings": [
+     53.0
+    ]
+   },
+   {
+    "id": "0.69.3",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": "POPULATION | Female.",
+    "readings": [
+     37.0,
+     61.0
+    ]
+   },
+   {
+    "id": "0.37.5",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Laing",
+    "column": "POPULATION BY RELIGION | Buddhists.",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.69.6",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": "POPULATION BY RELIGION | N\u00e0t-worshippers.",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.37.2",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Laing",
+    "column": "POPULATION | Male.",
+    "readings": [
+     56.0
+    ]
+   },
+   {
+    "id": "0.37.1",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Laing",
+    "column": "POPULATION | Both sexes.",
+    "readings": [
+     109.0
+    ]
+   },
+   {
+    "id": "0.69.5",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Taungbwemyo",
+    "column": "POPULATION BY RELIGION | Buddhists.",
+    "readings": [
+     7.0,
+     115.0
+    ]
+   },
+   {
+    "id": "0.6.5",
+    "section": "AKYAB DISTRICT. - Table showing Population, Population by Re",
+    "row": "Apaukwaywagyi",
+    "column": "POPULATION BY RELIGION | Buddhists.",
+    "readings": [
+     4.0
+    ]
+   }
+  ],
+  "n_disputed": 19
+ },
+ {
+  "page": "1931_India_Table_I._Birthplace._1bac537",
+  "title": "Table I.\u2014Birthplace.",
+  "year": 1931,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/5d0a8c3275a34a459708fce7c4fa358e7703e48a.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Table I.\u2014Birthplace. | Total | Persons",
+   "Table I.\u2014Birthplace. | Total | Males",
+   "Table I.\u2014Birthplace. | Total | Females",
+   "Table I.\u2014Birthplace. | Port of Aden | Persons",
+   "Table I.\u2014Birthplace. | Port of Aden | Males",
+   "Table I.\u2014Birthplace. | Port of Aden | Females",
+   "Table I.\u2014Birthplace. | Port of Bombay | Persons",
+   "Table I.\u2014Birthplace. | Port of Bombay | Males",
+   "Table I.\u2014Birthplace. | Port of Bombay | Females",
+   "Table I.\u2014Birthplace. | Port of Calcutta | Persons",
+   "Table I.\u2014Birthplace. | Port of Calcutta | Males",
+   "Table I.\u2014Birthplace. | Port of Calcutta | Females",
+   "Table I.\u2014Birthplace. | Port of Karachi | Persons",
+   "Table I.\u2014Birthplace. | Port of Karachi | Males",
+   "Table I.\u2014Birthplace. | Port of Karachi | Females",
+   "Table I.\u2014Birthplace. | Port of Rangoon | Persons",
+   "Table I.\u2014Birthplace. | Port of Rangoon | Males",
+   "Table I.\u2014Birthplace. | Port of Rangoon | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.27.3",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "B.-Born in other Asiatic countries",
+    "column": "Port of Aden | Persons",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.27.1",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "B.-Born in other Asiatic countries",
+    "column": "Total | Males",
+    "readings": [
+     37.0
+    ]
+   },
+   {
+    "id": "0.3.1",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "1. Assam",
+    "column": "Total | Males",
+    "readings": [
+     2927.0
+    ]
+   },
+   {
+    "id": "0.25.9",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "(c) French and Portuguese Settlements",
+    "column": "Port of Calcutta | Persons",
+    "readings": [
+     123.0
+    ]
+   },
+   {
+    "id": "0.2.2",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "(a) Provinces",
+    "column": "Total | Females",
+    "readings": [
+     73.0
+    ]
+   },
+   {
+    "id": "0.8.9",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "5. Burma",
+    "column": "Port of Calcutta | Persons",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.4.9",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "2. Bengal",
+    "column": "Port of Calcutta | Persons",
+    "readings": [
+     5972.0
+    ]
+   },
+   {
+    "id": "0.4.0",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "2. Bengal",
+    "column": "Total | Persons",
+    "readings": [
+     6805.0
+    ]
+   },
+   {
+    "id": "0.6.12",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "4. Bombay",
+    "column": "Port of Karachi | Persons",
+    "readings": [
+     30.0
+    ]
+   },
+   {
+    "id": "0.15.1",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "(b) States and Agencies",
+    "column": "Total | Males",
+    "readings": [
+     57.0
+    ]
+   },
+   {
+    "id": "0.9.3",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "6. Central Provinces and Beear",
+    "column": "Port of Aden | Persons",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.16.1",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "12. Baroda State",
+    "column": "Total | Males",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.1.4",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "A.-Born in India",
+    "column": "Port of Aden | Males",
+    "readings": [
+     1208.0
+    ]
+   },
+   {
+    "id": "0.6.6",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "4. Bombay",
+    "column": "Port of Bombay | Persons",
+    "readings": [
+     66.0
+    ]
+   },
+   {
+    "id": "0.8.2",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "5. Burma",
+    "column": "Total | Females",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.18.7",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "14. Bombay States",
+    "column": "Port of Bombay | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.0.16",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "Total",
+    "column": "Port of Rangoon | Males",
+    "readings": [
+     771.0
+    ]
+   },
+   {
+    "id": "0.16.0",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "12. Baroda State",
+    "column": "Total | Persons",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.21.1",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "17. Madras States Agency (Cochin State)",
+    "column": "Total | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.6.10",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "4. Bombay",
+    "column": "Port of Calcutta | Males",
+    "readings": [
+     79.0
+    ]
+   },
+   {
+    "id": "0.13.9",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "10. Punjab",
+    "column": "Port of Calcutta | Persons",
+    "readings": [
+     72.0
+    ]
+   },
+   {
+    "id": "0.18.6",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "14. Bombay States",
+    "column": "Port of Bombay | Persons",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.29.1",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "21 Ceylon",
+    "column": "Total | Males",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.20.0",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "16. Hyderabad State",
+    "column": "Total | Persons",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.11.11",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "8. Madras",
+    "column": "Port of Calcutta | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.32.9",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "23 Afghanistan",
+    "column": "Port of Calcutta | Persons",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.15.5",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "(b) States and Agencies",
+    "column": "Port of Aden | Females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.15.13",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "(b) States and Agencies",
+    "column": "Port of Karachi | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.6.5",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "4. Bombay",
+    "column": "Port of Aden | Females",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.33.9",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "24 Arabia",
+    "column": "Port of Calcutta | Persons",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.3.10",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "1. Assam",
+    "column": "Port of Calcutta | Males",
+    "readings": [
+     2830.0
+    ]
+   },
+   {
+    "id": "0.34.0",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "25. China",
+    "column": "Total | Persons",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.15.2",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "(b) States and Agencies",
+    "column": "Total | Females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.21.10",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "17. Madras States Agency (Cochin State)",
+    "column": "Port of Calcutta | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.23.1",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "19. Punjab States .. (including agency)",
+    "column": "Total | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.0.12",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "Total",
+    "column": "Port of Karachi | Persons",
+    "readings": [
+     141.0
+    ]
+   },
+   {
+    "id": "0.27.4",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "B.-Born in other Asiatic countries",
+    "column": "Port of Aden | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.16.10",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "12. Baroda State",
+    "column": "Port of Calcutta | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.33.10",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "24 Arabia",
+    "column": "Port of Calcutta | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.25.0",
+    "section": "Table I.\u2014Birthplace.",
+    "row": "(c) French and Portuguese Settlements",
+    "column": "Total | Persons",
+    "readings": [
+     440.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1931_Rajputana_Agency_TABLE_VIII._Civil_Condition_by_Age_for_S_1cb7d0f",
+  "title": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+  "year": 1931,
+  "place": "Rajputana Agency",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/6f88cc963f52952b90fe37ffd6e287f9c268a74e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/export_final/sendout_final/sendout_v1/added_pages/saoa.crl.25797134_p239.png"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE VIII. Civil Condition by Age for S |  | POPULATION DEALT WITH",
+   "TABLE VIII. Civil Condition by Age for S | Unmarried | Total",
+   "TABLE VIII. Civil Condition by Age for S | Unmarried | 0-6",
+   "TABLE VIII. Civil Condition by Age for S | Unmarried | 7-13",
+   "TABLE VIII. Civil Condition by Age for S | Unmarried | 14-16",
+   "TABLE VIII. Civil Condition by Age for S | Unmarried | 17-23",
+   "TABLE VIII. Civil Condition by Age for S | Unmarried | 24-43",
+   "TABLE VIII. Civil Condition by Age for S | Unmarried | 44 & over",
+   "TABLE VIII. Civil Condition by Age for S | Married | Total",
+   "TABLE VIII. Civil Condition by Age for S | Married | 0-6",
+   "TABLE VIII. Civil Condition by Age for S | Married | 7-13",
+   "TABLE VIII. Civil Condition by Age for S | Married | 14-16",
+   "TABLE VIII. Civil Condition by Age for S | Married | 17-23",
+   "TABLE VIII. Civil Condition by Age for S | Married | 24-43",
+   "TABLE VIII. Civil Condition by Age for S | Married | 44 & over",
+   "TABLE VIII. Civil Condition by Age for S | Widowed | Total",
+   "TABLE VIII. Civil Condition by Age for S | Widowed | 0-6",
+   "TABLE VIII. Civil Condition by Age for S | Widowed | 7-13",
+   "TABLE VIII. Civil Condition by Age for S | Widowed | 14-16",
+   "TABLE VIII. Civil Condition by Age for S | Widowed | 17-23",
+   "TABLE VIII. Civil Condition by Age for S | Widowed | 24-43",
+   "TABLE VIII. Civil Condition by Age for S | Widowed | 44 & over"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.6.18",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "7. Grassia",
+    "column": "Widowed | 14-16",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.10.21",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "11. Khanzada",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     219.0
+    ]
+   },
+   {
+    "id": "0.7.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "8. Gujar",
+    "column": "Married | 0-6",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.12.17",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "13. Meo",
+    "column": "Widowed | 7-13",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.5.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "6. Chamar",
+    "column": "Married | 17-23",
+    "readings": [
+     3540.0
+    ]
+   },
+   {
+    "id": "0.14.20",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "15. Oswal",
+    "column": "Widowed | 24-43",
+    "readings": [
+     1300.0
+    ]
+   },
+   {
+    "id": "0.11.10",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "12. Kumhar",
+    "column": "Married | 7-13",
+    "readings": [
+     899.0
+    ]
+   },
+   {
+    "id": "0.5.8",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "6. Chamar",
+    "column": "Married | Total",
+    "readings": [
+     20518.0
+    ]
+   },
+   {
+    "id": "0.7.8",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "8. Gujar",
+    "column": "Married | Total",
+    "readings": [
+     8943.0
+    ]
+   },
+   {
+    "id": "0.0.14",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "1. Agarwal",
+    "column": "Married | 44 & over",
+    "readings": [
+     4699.0
+    ]
+   },
+   {
+    "id": "0.9.8",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "10. Khati",
+    "column": "Married | Total",
+    "readings": [
+     12005.0
+    ]
+   },
+   {
+    "id": "0.13.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "14. Mina",
+    "column": "Married | 0-6",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.8.10",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "9. Jat",
+    "column": "Married | 7-13",
+    "readings": [
+     1077.0
+    ]
+   },
+   {
+    "id": "0.2.13",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "3. Bhangi",
+    "column": "Married | 24-43",
+    "readings": [
+     2892.0
+    ]
+   },
+   {
+    "id": "0.10.11",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "11. Khanzada",
+    "column": "Married | 14-16",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "0.13.16",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "14. Mina",
+    "column": "Widowed | 0-6",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.7.11",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "8. Gujar",
+    "column": "Married | 14-16",
+    "readings": [
+     990.0
+    ]
+   },
+   {
+    "id": "0.9.14",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "10. Khati",
+    "column": "Married | 44 & over",
+    "readings": [
+     3144.0
+    ]
+   },
+   {
+    "id": "0.16.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "17. Rebari",
+    "column": "Married | 17-23",
+    "readings": [
+     3343.0
+    ]
+   },
+   {
+    "id": "0.0.6",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "1. Agarwal",
+    "column": "Unmarried | 24-43",
+    "readings": [
+     2231.0,
+     2236.0
+    ]
+   },
+   {
+    "id": "0.0.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "1. Agarwal",
+    "column": "Married | 0-6",
+    "readings": [
+     38.0
+    ]
+   },
+   {
+    "id": "0.2.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "3. Bhangi",
+    "column": "Married | 0-6",
+    "readings": [
+     30.0
+    ]
+   },
+   {
+    "id": "0.14.10",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "15. Oswal",
+    "column": "Married | 7-13",
+    "readings": [
+     878.0
+    ]
+   },
+   {
+    "id": "0.1.15",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "2. Ahir",
+    "column": "Widowed | Total",
+    "readings": [
+     4017.0
+    ]
+   },
+   {
+    "id": "0.7.3",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "8. Gujar",
+    "column": "Unmarried | 7-13",
+    "readings": [
+     4103.0,
+     4108.0
+    ]
+   },
+   {
+    "id": "0.4.21",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "5. Brahman",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     3507.0
+    ]
+   },
+   {
+    "id": "0.9.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "10. Khati",
+    "column": "Married | 0-6",
+    "readings": [
+     36.0
+    ]
+   },
+   {
+    "id": "0.2.15",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "3. Bhangi",
+    "column": "Widowed | Total",
+    "readings": [
+     685.0
+    ]
+   },
+   {
+    "id": "0.2.17",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "3. Bhangi",
+    "column": "Widowed | 7-13",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.0.11",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "1. Agarwal",
+    "column": "Married | 14-16",
+    "readings": [
+     950.0
+    ]
+   },
+   {
+    "id": "0.17.8",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "18. Sondhia",
+    "column": "Married | Total",
+    "readings": [
+     6860.0
+    ]
+   },
+   {
+    "id": "0.0.21",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "1. Agarwal",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     3063.0
+    ]
+   },
+   {
+    "id": "0.4.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "5. Brahman",
+    "column": "Married | 0-6",
+    "readings": [
+     182.0
+    ]
+   },
+   {
+    "id": "0.1.14",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "2. Ahir",
+    "column": "Married | 44 & over",
+    "readings": [
+     3699.0
+    ]
+   },
+   {
+    "id": "0.7.18",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "8. Gujar",
+    "column": "Widowed | 14-16",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.16.16",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "17. Rebari",
+    "column": "Widowed | 0-6",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.13.21",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "14. Mina",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     1346.0
+    ]
+   },
+   {
+    "id": "0.2.20",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "3. Bhangi",
+    "column": "Widowed | 24-43",
+    "readings": [
+     212.0
+    ]
+   },
+   {
+    "id": "0.8.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "9. Jat",
+    "column": "Married | 0-6",
+    "readings": [
+     71.0
+    ]
+   },
+   {
+    "id": "0.14.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "15. Oswal",
+    "column": "Married | 17-23",
+    "readings": [
+     2865.0
+    ]
+   },
+   {
+    "id": "0.15.8",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "16. Rajput",
+    "column": "Married | Total",
+    "readings": [
+     25155.0
+    ]
+   },
+   {
+    "id": "0.16.18",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "17. Rebari",
+    "column": "Widowed | 14-16",
+    "readings": [
+     71.0
+    ]
+   },
+   {
+    "id": "0.12.20",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "13. Meo",
+    "column": "Widowed | 24-43",
+    "readings": [
+     1814.0
+    ]
+   },
+   {
+    "id": "0.1.20",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "2. Ahir",
+    "column": "Widowed | 24-43",
+    "readings": [
+     1294.0
+    ]
+   },
+   {
+    "id": "0.12.10",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "13. Meo",
+    "column": "Married | 7-13",
+    "readings": [
+     210.0
+    ]
+   },
+   {
+    "id": "0.12.19",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "13. Meo",
+    "column": "Widowed | 17-23",
+    "readings": [
+     191.0
+    ]
+   },
+   {
+    "id": "0.9.15",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "10. Khati",
+    "column": "Widowed | Total",
+    "readings": [
+     2028.0
+    ]
+   },
+   {
+    "id": "0.11.13",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "12. Kumhar",
+    "column": "Married | 24-43",
+    "readings": [
+     11691.0
+    ]
+   },
+   {
+    "id": "0.15.19",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "16. Rajput",
+    "column": "Widowed | 17-23",
+    "readings": [
+     102.0
+    ]
+   },
+   {
+    "id": "0.13.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "14. Mina",
+    "column": "Married | 17-23",
+    "readings": [
+     1498.0
+    ]
+   },
+   {
+    "id": "0.16.20",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "17. Rebari",
+    "column": "Widowed | 24-43",
+    "readings": [
+     1004.0
+    ]
+   },
+   {
+    "id": "0.11.15",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "12. Kumhar",
+    "column": "Widowed | Total",
+    "readings": [
+     3046.0
+    ]
+   },
+   {
+    "id": "0.9.21",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "10. Khati",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     1348.0
+    ]
+   },
+   {
+    "id": "0.17.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "18. Sondhia",
+    "column": "Married | 0-6",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.8.13",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "9. Jat",
+    "column": "Married | 24-43",
+    "readings": [
+     24145.0
+    ]
+   },
+   {
+    "id": "0.9.19",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "10. Khati",
+    "column": "Widowed | 17-23",
+    "readings": [
+     52.0
+    ]
+   },
+   {
+    "id": "0.7.19",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "8. Gujar",
+    "column": "Widowed | 17-23",
+    "readings": [
+     90.0
+    ]
+   },
+   {
+    "id": "0.15.20",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "16. Rajput",
+    "column": "Widowed | 24-43",
+    "readings": [
+     1428.0
+    ]
+   },
+   {
+    "id": "0.12.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "13. Meo",
+    "column": "Married | 17-23",
+    "readings": [
+     3393.0
+    ]
+   },
+   {
+    "id": "0.5.21",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "6. Chamar",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     1827.0
+    ]
+   },
+   {
+    "id": "0.9.18",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "10. Khati",
+    "column": "Widowed | 14-16",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.1.21",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "2. Ahir",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     2671.0
+    ]
+   },
+   {
+    "id": "0.16.11",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "17. Rebari",
+    "column": "Married | 14-16",
+    "readings": [
+     1434.0
+    ]
+   },
+   {
+    "id": "0.16.13",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "17. Rebari",
+    "column": "Married | 24-43",
+    "readings": [
+     10203.0
+    ]
+   },
+   {
+    "id": "0.14.19",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "15. Oswal",
+    "column": "Widowed | 17-23",
+    "readings": [
+     220.0
+    ]
+   },
+   {
+    "id": "0.6.11",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "7. Grassia",
+    "column": "Married | 14-16",
+    "readings": [
+     131.0
+    ]
+   },
+   {
+    "id": "0.8.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "9. Jat",
+    "column": "Married | 17-23",
+    "readings": [
+     8613.0
+    ]
+   },
+   {
+    "id": "0.0.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "1. Agarwal",
+    "column": "Married | 17-23",
+    "readings": [
+     3588.0
+    ]
+   },
+   {
+    "id": "0.5.17",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "6. Chamar",
+    "column": "Widowed | 7-13",
+    "readings": [
+     36.0
+    ]
+   },
+   {
+    "id": "0.9.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "10. Khati",
+    "column": "Married | 17-23",
+    "readings": [
+     1769.0
+    ]
+   },
+   {
+    "id": "0.2.21",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "3. Bhangi",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     405.0
+    ]
+   },
+   {
+    "id": "0.7.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "8. Gujar",
+    "column": "Married | 17-23",
+    "readings": [
+     1271.0
+    ]
+   },
+   {
+    "id": "0.10.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "11. Khanzada",
+    "column": "Married | 17-23",
+    "readings": [
+     175.0
+    ]
+   },
+   {
+    "id": "0.2.18",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "3. Bhangi",
+    "column": "Widowed | 14-16",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.3.15",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "4. Bhil",
+    "column": "Widowed | Total",
+    "readings": [
+     2179.0
+    ]
+   },
+   {
+    "id": "0.3.12",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "4. Bhil",
+    "column": "Married | 17-23",
+    "readings": [
+     4360.0
+    ]
+   },
+   {
+    "id": "0.15.13",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "16. Rajput",
+    "column": "Married | 24-43",
+    "readings": [
+     13456.0
+    ]
+   },
+   {
+    "id": "0.7.10",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "8. Gujar",
+    "column": "Married | 7-13",
+    "readings": [
+     246.0
+    ]
+   },
+   {
+    "id": "0.14.9",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "15. Oswal",
+    "column": "Married | 0-6",
+    "readings": [
+     79.0
+    ]
+   },
+   {
+    "id": "0.6.20",
+    "section": "TABLE VIII. Civil Condition by Age for Selected Castes.",
+    "row": "7. Grassia",
+    "column": "Widowed | 24-43",
+    "readings": [
+     69.0
+    ]
+   }
+  ],
+  "n_disputed": 248
+ },
+ {
+  "page": "1901_Ajmer-Merwara_POPULATION_other_structured_pages_70ebd70",
+  "title": "POPULATION (other structured pages)",
+  "year": 1901,
+  "place": "Ajmer-Merwara",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/aff4413eb6220fe19435df072ccfff07ae25617b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d48e89e53fa8f42e1e5bd2b23777d54ea31fd6b5.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "POPULATION | TOTAL | Total",
+   "POPULATION | TOTAL | Male",
+   "POPULATION | TOTAL | Female",
+   "POPULATION | LITERATE | Total",
+   "POPULATION | LITERATE | Male",
+   "POPULATION | LITERATE | Female",
+   "POPULATION | ILLITERATE | Total",
+   "POPULATION | ILLITERATE | Male",
+   "POPULATION | ILLITERATE | Female",
+   "POPULATION | TOTAL | Males",
+   "POPULATION | TOTAL | Females",
+   "POPULATION | LITERATE | Males",
+   "POPULATION | LITERATE | Females",
+   "POPULATION | ILLITERATE | Males",
+   "POPULATION | ILLITERATE | Females"
+  ],
+  "task": "disputes",
+  "cells": [],
+  "n_disputed": 0
+ },
+ {
+  "page": "1911_Calcutta_SUBSIDIARY_TABLE_II.-VARIATION_IN_THE_NU_97b5d23",
+  "title": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+  "year": 1911,
+  "place": "Calcutta",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f9e8f1e41663a55d01e1e19f06bc3ad2cec65ad1.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | 1911 | Total",
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | 1911 | Male",
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | 1911 | Female",
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | 1901 | Total",
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | 1901 | Male",
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | 1901 | Female",
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | TOTAL VARIATION- Increase (+) Decrease (-) | Total",
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | TOTAL VARIATION- Increase (+) Decrease (-) | Male",
+   "SUBSIDIARY TABLE II.-VARIATION IN THE NU | TOTAL VARIATION- Increase (+) Decrease (-) | Female"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA WITH SUBURBS",
+    "column_group": "1911"
+   },
+   {
+    "id": 1,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA WITH SUBURBS",
+    "column_group": "1901"
+   },
+   {
+    "id": 2,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA WITH SUBURBS",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 3,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA",
+    "column_group": "1911"
+   },
+   {
+    "id": 4,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA",
+    "column_group": "1901"
+   },
+   {
+    "id": 5,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 6,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA (Municipal Area)",
+    "column_group": "1911"
+   },
+   {
+    "id": 7,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA (Municipal Area)",
+    "column_group": "1901"
+   },
+   {
+    "id": 8,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "CALCUTTA (Municipal Area)",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 9,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 1, Shampukur",
+    "column_group": "1911"
+   },
+   {
+    "id": 10,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 1, Shampukur",
+    "column_group": "1901"
+   },
+   {
+    "id": 11,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 1, Shampukur",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 12,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 2, Kumartoli",
+    "column_group": "1911"
+   },
+   {
+    "id": 13,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 2, Kumartoli",
+    "column_group": "1901"
+   },
+   {
+    "id": 14,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 2, Kumartoli",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 15,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 3, Bartala",
+    "column_group": "1911"
+   },
+   {
+    "id": 16,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 3, Bartala",
+    "column_group": "1901"
+   },
+   {
+    "id": 17,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 3, Bartala",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 18,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 4, Sukea Street",
+    "column_group": "1911"
+   },
+   {
+    "id": 19,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 4, Sukea Street",
+    "column_group": "1901"
+   },
+   {
+    "id": 20,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 4, Sukea Street",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 21,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 5, Jorabagan",
+    "column_group": "1911"
+   },
+   {
+    "id": 22,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 5, Jorabagan",
+    "column_group": "1901"
+   },
+   {
+    "id": 23,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 5, Jorabagan",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 24,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 6, Jorasanko",
+    "column_group": "1911"
+   },
+   {
+    "id": 25,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 6, Jorasanko",
+    "column_group": "1901"
+   },
+   {
+    "id": 26,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 6, Jorasanko",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 27,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 7, Barabazar",
+    "column_group": "1911"
+   },
+   {
+    "id": 28,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 7, Barabazar",
+    "column_group": "1901"
+   },
+   {
+    "id": 29,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 7, Barabazar",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 30,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 8, Kalutola",
+    "column_group": "1911"
+   },
+   {
+    "id": 31,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 8, Kalutola",
+    "column_group": "1901"
+   },
+   {
+    "id": 32,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 8, Kalutola",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 33,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 9, Muchipara",
+    "column_group": "1911"
+   },
+   {
+    "id": 34,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 9, Muchipara",
+    "column_group": "1901"
+   },
+   {
+    "id": 35,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 9, Muchipara",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 36,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 10, Bowbazar",
+    "column_group": "1911"
+   },
+   {
+    "id": 37,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 10, Bowbazar",
+    "column_group": "1901"
+   },
+   {
+    "id": 38,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 10, Bowbazar",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 39,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 11, Paddapukur",
+    "column_group": "1911"
+   },
+   {
+    "id": 40,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 11, Paddapukur",
+    "column_group": "1901"
+   },
+   {
+    "id": 41,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 11, Paddapukur",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 42,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 12, Waterloo Street",
+    "column_group": "1911"
+   },
+   {
+    "id": 43,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 12, Waterloo Street",
+    "column_group": "1901"
+   },
+   {
+    "id": 44,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 12, Waterloo Street",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 45,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 13, Fenwick Bazar",
+    "column_group": "1911"
+   },
+   {
+    "id": 46,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 13, Fenwick Bazar",
+    "column_group": "1901"
+   },
+   {
+    "id": 47,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 13, Fenwick Bazar",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 48,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 14, Taltola",
+    "column_group": "1911"
+   },
+   {
+    "id": 49,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 14, Taltola",
+    "column_group": "1901"
+   },
+   {
+    "id": 50,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 14, Taltola",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 51,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 15, Collinga",
+    "column_group": "1911"
+   },
+   {
+    "id": 52,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 15, Collinga",
+    "column_group": "1901"
+   },
+   {
+    "id": 53,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 15, Collinga",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 54,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 16, Park Street",
+    "column_group": "1911"
+   },
+   {
+    "id": 55,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 16, Park Street",
+    "column_group": "1901"
+   },
+   {
+    "id": 56,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 16, Park Street",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   },
+   {
+    "id": 57,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 17, Baman Bustee (Victoria Terrace)",
+    "column_group": "1911"
+   },
+   {
+    "id": 58,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 17, Baman Bustee (Victoria Terrace)",
+    "column_group": "1901"
+   },
+   {
+    "id": 59,
+    "section": "SUBSIDIARY TABLE II.-VARIATION IN THE NUMBER OF EUROPEANS AND ALLIED RACES SINCE 1901.",
+    "row": "Ward No. 17, Baman Bustee (Victoria Terrace)",
+    "column_group": "TOTAL VARIATION- Increase (+) Decrease (-)"
+   }
+  ]
+ },
+ {
+  "page": "1891_Burma_YE-U_DISTRICT._940e8a0",
+  "title": "YE-U DISTRICT.",
+  "year": 1891,
+  "place": "Burma",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/72d4b89633a469a28a21b8027234e12451c77b89.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "YE-U DISTRICT. |  | Number of occupied houses",
+   "YE-U DISTRICT. | Population | Both sexes",
+   "YE-U DISTRICT. | Population | Male",
+   "YE-U DISTRICT. | Population | Female",
+   "YE-U DISTRICT. |  | Boat population",
+   "YE-U DISTRICT. | Population by Religion | Buddhists",
+   "YE-U DISTRICT. | Population by Religion | N\u00e0t-worshippers",
+   "YE-U DISTRICT. | Population by Religion | Mahomedans",
+   "YE-U DISTRICT. | Population by Religion | Hindus",
+   "YE-U DISTRICT. | Population by Religion | Christians",
+   "YE-U DISTRICT. | Parent-tongue | Number of persons using it",
+   "YE-U DISTRICT. | Education / Literate | M",
+   "YE-U DISTRICT. | Education / Literate | F"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.11.2",
+    "section": "YE-U DISTRICT.",
+    "row": "Danbinywa South",
+    "column": "Population | Male",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.11.1",
+    "section": "YE-U DISTRICT.",
+    "row": "Danbinywa South",
+    "column": "Population | Both sexes",
+    "readings": [
+     44.0
+    ]
+   },
+   {
+    "id": "0.28.9",
+    "section": "YE-U DISTRICT.",
+    "row": "Mayagan with military police post",
+    "column": "Population by Religion | Christians",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.11.5",
+    "section": "YE-U DISTRICT.",
+    "row": "Danbinywa South",
+    "column": "Population by Religion | Buddhists",
+    "readings": [
+     44.0
+    ]
+   },
+   {
+    "id": "0.11.0",
+    "section": "YE-U DISTRICT.",
+    "row": "Danbinywa South",
+    "column": " | Number of occupied houses",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.11.10",
+    "section": "YE-U DISTRICT.",
+    "row": "Danbinywa South",
+    "column": "Parent-tongue | Number of persons using it",
+    "readings": [
+     44.0
+    ]
+   },
+   {
+    "id": "0.45.9",
+    "section": "YE-U DISTRICT.",
+    "row": "Total",
+    "column": "Population by Religion | Christians",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.11.11",
+    "section": "YE-U DISTRICT.",
+    "row": "Danbinywa South",
+    "column": "Education / Literate | M",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.3.1",
+    "section": "YE-U DISTRICT.",
+    "row": "Gaungsu South",
+    "column": "Population | Both sexes",
+    "readings": [
+     34.0,
+     43.0
+    ]
+   },
+   {
+    "id": "0.11.3",
+    "section": "YE-U DISTRICT.",
+    "row": "Danbinywa South",
+    "column": "Population | Female",
+    "readings": [
+     26.0
+    ]
+   }
+  ],
+  "n_disputed": 10
+ }
+]

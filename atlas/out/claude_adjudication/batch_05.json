@@ -1,0 +1,7142 @@
+[
+ {
+  "page": "1891_Tharrawaddy_District_Table_showing_Population_Population_by_413332f",
+  "title": "Table showing Population, Population by Religion and Education, &c., by Villages and Circles.",
+  "year": 1891,
+  "place": "Tharrawaddy District",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/559d33966113eb2b66cc2e33efe9aa3e34ff4fda.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Table showing Population, Population by  |  | Number of occupied houses",
+   "Table showing Population, Population by  | POPULATION | Both sexes",
+   "Table showing Population, Population by  | POPULATION | Male",
+   "Table showing Population, Population by  | POPULATION | Female",
+   "Table showing Population, Population by  |  | Boat population",
+   "Table showing Population, Population by  | POPULATION BY RELIGION | Buddhists",
+   "Table showing Population, Population by  | POPULATION BY RELIGION | Nat-worshippers",
+   "Table showing Population, Population by  | POPULATION BY RELIGION | Mahomedans",
+   "Table showing Population, Population by  | POPULATION BY RELIGION | Hindus",
+   "Table showing Population, Population by  | POPULATION BY RELIGION | Christians",
+   "Table showing Population, Population by  | PARENT-TONGUE | Number of persons using it",
+   "Table showing Population, Population by  | EDUCATION / Literate | M.",
+   "Table showing Population, Population by  | EDUCATION / Literate | F."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.35.8",
+    "section": "Table showing Population, Population by Religion and Educati",
+    "row": "Thinbang\u00f4n",
+    "column": "POPULATION BY RELIGION | Hindus",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.29.12",
+    "section": "Table showing Population, Population by Religion and Educati",
+    "row": "Tayawg\u00f4n",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     1.0
+    ]
+   }
+  ],
+  "n_disputed": 2
+ },
+ {
+  "page": "1931_Travancore_SUBSIDIARY_TABLE_X_Reported_deaths_from_d3d982e",
+  "title": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+  "year": 1931,
+  "place": "Travancore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/fbf447861c2face80a135ffa70b5dee311f7e83f.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "SUBSIDIARY TABLE X Reported deaths from  | State / Actual number of deaths | Total",
+   "SUBSIDIARY TABLE X Reported deaths from  | State / Actual number of deaths | Males",
+   "SUBSIDIARY TABLE X Reported deaths from  | State / Actual number of deaths | Females",
+   "SUBSIDIARY TABLE X Reported deaths from  | State / Ratio per mille of each sex | Males",
+   "SUBSIDIARY TABLE X Reported deaths from  | State / Ratio per mille of each sex | Females",
+   "SUBSIDIARY TABLE X Reported deaths from  | Actual number of deaths in Natural Divisions / Lowland | Males",
+   "SUBSIDIARY TABLE X Reported deaths from  | Actual number of deaths in Natural Divisions / Lowland | Females",
+   "SUBSIDIARY TABLE X Reported deaths from  | Actual number of deaths in Natural Divisions / Midland | Males",
+   "SUBSIDIARY TABLE X Reported deaths from  | Actual number of deaths in Natural Divisions / Midland | Females",
+   "SUBSIDIARY TABLE X Reported deaths from  | Actual number of deaths in Natural Divisions / Highland | Males",
+   "SUBSIDIARY TABLE X Reported deaths from  | Actual number of deaths in Natural Divisions / Highland | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1920-1921",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 1,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1920-1921",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 2,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1920-1921",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 3,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1920-1921",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 4,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1920-1921",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 5,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1921-1922",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 6,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1921-1922",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 7,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1921-1922",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 8,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1921-1922",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 9,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1921-1922",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 10,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1922-1923",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 11,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1922-1923",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 12,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1922-1923",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 13,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1922-1923",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 14,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1922-1923",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 15,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1923-1924",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 16,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1923-1924",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 17,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1923-1924",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 18,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1923-1924",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 19,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1923-1924",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 20,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1924-1925",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 21,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1924-1925",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 22,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1924-1925",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 23,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1924-1925",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 24,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1924-1925",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 25,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1925-1926",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 26,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1925-1926",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 27,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1925-1926",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 28,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1925-1926",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 29,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1925-1926",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 30,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1926-1927",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 31,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1926-1927",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 32,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1926-1927",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 33,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1926-1927",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 34,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1926-1927",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 35,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1927-1928",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 36,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1927-1928",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 37,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1927-1928",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 38,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1927-1928",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 39,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1927-1928",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 40,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1928-1929",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 41,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1928-1929",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 42,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1928-1929",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 43,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1928-1929",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 44,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1928-1929",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 45,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1929-1930",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 46,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1929-1930",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 47,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1929-1930",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 48,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1929-1930",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 49,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Small-pox 1929-1930",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 50,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1920-1921",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 51,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1920-1921",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 52,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1920-1921",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 53,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1920-1921",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 54,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1920-1921",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   },
+   {
+    "id": 55,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1921-1922",
+    "column_group": "State - Actual number of deaths"
+   },
+   {
+    "id": 56,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1921-1922",
+    "column_group": "State - Ratio per mille of each sex"
+   },
+   {
+    "id": 57,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1921-1922",
+    "column_group": "Actual number of deaths in Natural Divisions - Lowland"
+   },
+   {
+    "id": 58,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1921-1922",
+    "column_group": "Actual number of deaths in Natural Divisions - Midland"
+   },
+   {
+    "id": 59,
+    "section": "SUBSIDIARY TABLE X Reported deaths from certain diseases per mille of each sex",
+    "row": "Fever 1921-1922",
+    "column_group": "Actual number of deaths in Natural Divisions - Highland"
+   }
+  ]
+ },
+ {
+  "page": "1911_Bombay_SUBSIDIARY_TABLE_V_-_Distribution_by_Civ_f6a2bc4",
+  "title": "SUBSIDIARY TABLE V - Distribution by Civil Condition of 1,000 of each sex at certain ages",
+  "year": 1911,
+  "place": "Bombay",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/3dfb92aa0b8166fc42524a146705bdbd7f844cab.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/c63cdf4410202c10a74e01179b7d2945052baa6f.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/91801d8a60855ace288c260858b94c2d2b59bef6.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/376c38d78e46fb6f42565c740fe56ea42bd5fe0e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/bf01c6f429bfd5865b66c60ec136e7c9faf343e1.jpg"
+  ],
+  "n_images_total": 5,
+  "reading_columns": [
+   "Distribution of 1,000 Males of each age  | All ages | Unmarried",
+   "Distribution of 1,000 Males of each age  | All ages | Married",
+   "Distribution of 1,000 Males of each age  | All ages | Widowed",
+   "Distribution of 1,000 Males of each age  | 0-5 | Unmarried",
+   "Distribution of 1,000 Males of each age  | 0-5 | Married",
+   "Distribution of 1,000 Males of each age  | 0-5 | Widowed",
+   "Distribution of 1,000 Males of each age  | 5-12 | Unmarried",
+   "Distribution of 1,000 Males of each age  | 5-12 | Married",
+   "Distribution of 1,000 Males of each age  | 5-12 | Widowed",
+   "Distribution of 1,000 Males of each age  | 12-20 | Unmarried",
+   "Distribution of 1,000 Males of each age  | 12-20 | Married",
+   "Distribution of 1,000 Males of each age  | 12-20 | Widowed",
+   "Distribution of 1,000 Males of each age  | 20-40 | Unmarried",
+   "Distribution of 1,000 Males of each age  | 20-40 | Married",
+   "Distribution of 1,000 Males of each age  | 20-40 | Widowed",
+   "Distribution of 1,000 Males of each age  | 40 and over | Unmarried",
+   "Distribution of 1,000 Males of each age  | 40 and over | Married",
+   "Distribution of 1,000 Males of each age  | 40 and over | Widowed",
+   "Distribution of 1,000 Females of each ag | All ages | Unmarried",
+   "Distribution of 1,000 Females of each ag | All ages | Married",
+   "Distribution of 1,000 Females of each ag | All ages | Widowed",
+   "Distribution of 1,000 Females of each ag | 0-5 | Unmarried",
+   "Distribution of 1,000 Females of each ag | 0-5 | Married",
+   "Distribution of 1,000 Females of each ag | 0-5 | Widowed",
+   "Distribution of 1,000 Females of each ag | 5-12 | Unmarried",
+   "Distribution of 1,000 Females of each ag | 5-12 | Married",
+   "Distribution of 1,000 Females of each ag | 5-12 | Widowed",
+   "Distribution of 1,000 Females of each ag | 12-20 | Unmarried",
+   "Distribution of 1,000 Females of each ag | 12-20 | Married",
+   "Distribution of 1,000 Females of each ag | 12-20 | Widowed",
+   "Distribution of 1,000 Females of each ag | 20-40 | Unmarried",
+   "Distribution of 1,000 Females of each ag | 20-40 | Married",
+   "Distribution of 1,000 Females of each ag | 20-40 | Widowed",
+   "Distribution of 1,000 Females of each ag | 40 and over | Unmarried",
+   "Distribution of 1,000 Females of each ag | 40 and over | Married",
+   "Distribution of 1,000 Females of each ag | 40 and over | Widowed"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.50.3",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Teli, Ga'niger or Gha'nchi Surat, Kha'ndesh East and Ratna'giri",
+    "column": "0-5 | Unmarried",
+    "readings": [
+     936.0,
+     986.0
+    ]
+   },
+   {
+    "id": "1.8.9",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Bhil (Sind)",
+    "column": "12-20 | Unmarried",
+    "readings": [
+     466.0,
+     480.0
+    ]
+   },
+   {
+    "id": "0.46.3",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Sa'li Ahmadnagar, and Dha'rwa'r",
+    "column": "0-5 | Unmarried",
+    "readings": [
+     981.0,
+     983.0
+    ]
+   },
+   {
+    "id": "0.6.8",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Bharva'd, Dhangar or Kurub",
+    "column": "5-12 | Widowed",
+    "readings": [
+     6.0,
+     9.0
+    ]
+   },
+   {
+    "id": "1.33.10",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Loha'na' (Sind)",
+    "column": "12-20 | Married",
+    "readings": [
+     621.0,
+     631.0
+    ]
+   },
+   {
+    "id": "1.41.8",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Pancha'l Dha'rwa'r",
+    "column": "5-12 | Widowed",
+    "readings": [
+     5.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.51.3",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Tha'kur Thana",
+    "column": "0-5 | Unmarried",
+    "readings": [
+     693.0,
+     993.0
+    ]
+   },
+   {
+    "id": "0.10.13",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Bra'hman Audich",
+    "column": "20-40 | Married",
+    "readings": [
+     665.0,
+     695.0
+    ]
+   },
+   {
+    "id": "1.40.17",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Na'ikda' Surat",
+    "column": "40 and over | Widowed",
+    "readings": [
+     330.0,
+     369.0
+    ]
+   },
+   {
+    "id": "0.38.3",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Ma'ng or Madig",
+    "column": "0-5 | Unmarried",
+    "readings": [
+     0.89,
+     989.0
+    ]
+   },
+   {
+    "id": "0.21.12",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Dubla' or Talavia' Surat",
+    "column": "20-40 | Unmarried",
+    "readings": [
+     58.0,
+     59.0
+    ]
+   },
+   {
+    "id": "1.34.6",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Loha'r, Luha'r or Kamma'r",
+    "column": "5-12 | Unmarried",
+    "readings": [
+     628.0,
+     688.0
+    ]
+   },
+   {
+    "id": "0.64.15",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Surat and Thana",
+    "column": "40 and over | Unmarried",
+    "readings": [
+     36.0,
+     38.0
+    ]
+   },
+   {
+    "id": "0.31.16",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Linga'yat",
+    "column": "40 and over | Married",
+    "readings": [
+     735.0,
+     736.0
+    ]
+   },
+   {
+    "id": "0.52.6",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Vaddar or Od Dharwar",
+    "column": "5-12 | Unmarried",
+    "readings": [
+     932.0,
+     982.0
+    ]
+   },
+   {
+    "id": "1.12.1",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Bra'hman Deshasth",
+    "column": "All ages | Married",
+    "readings": [
+     457.0,
+     467.0
+    ]
+   },
+   {
+    "id": "0.20.9",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Dhodia' Surat",
+    "column": "12-20 | Unmarried",
+    "readings": [
+     665.0,
+     865.0
+    ]
+   },
+   {
+    "id": "1.20.0",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Dhodia' Surat",
+    "column": "All ages | Unmarried",
+    "readings": [
+     414.0,
+     444.0
+    ]
+   },
+   {
+    "id": "0.44.16",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Ra'jput (Sind) Hydera'ba'd, Kara'chi, Sukkur, Thar and Pa'rkar, Upper Sind Frontier",
+    "column": "40 and over | Married",
+    "readings": [
+     633.0,
+     639.0
+    ]
+   },
+   {
+    "id": "0.36.9",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Dhed (Sind)",
+    "column": "12-20 | Unmarried",
+    "readings": [
+     912.0,
+     913.0
+    ]
+   },
+   {
+    "id": "0.24.6",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Halepa'ik K\u00e1nara",
+    "column": "5-12 | Unmarried",
+    "readings": [
+     897.0,
+     997.0
+    ]
+   },
+   {
+    "id": "1.38.15",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Ma'ng or Madig",
+    "column": "40 and over | Unmarried",
+    "readings": [
+     162.0,
+     182.0
+    ]
+   },
+   {
+    "id": "0.60.0",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Other Musalma'ns Nasik, Thana and Sholapur",
+    "column": "All ages | Unmarried",
+    "readings": [
+     470.0,
+     479.0
+    ]
+   },
+   {
+    "id": "0.41.16",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Pancha'l Dha'rwa'r",
+    "column": "40 and over | Married",
+    "readings": [
+     661.0,
+     664.0
+    ]
+   },
+   {
+    "id": "1.8.10",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Bhil (Sind)",
+    "column": "12-20 | Married",
+    "readings": [
+     520.0,
+     526.0
+    ]
+   },
+   {
+    "id": "0.51.9",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Tha'kur Thana",
+    "column": "12-20 | Unmarried",
+    "readings": [
+     709.0,
+     790.0
+    ]
+   },
+   {
+    "id": "1.45.16",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Ra'moshi Poona and Sa'ta'ra",
+    "column": "40 and over | Married",
+    "readings": [
+     395.0,
+     405.0
+    ]
+   },
+   {
+    "id": "0.50.6",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Teli, Ga'niger or Gha'nchi Surat, Kha'ndesh East and Ratna'giri",
+    "column": "5-12 | Unmarried",
+    "readings": [
+     853.0,
+     856.0
+    ]
+   },
+   {
+    "id": "0.6.7",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Bharva'd, Dhangar or Kurub",
+    "column": "5-12 | Married",
+    "readings": [
+     106.0,
+     109.0
+    ]
+   },
+   {
+    "id": "0.2.10",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Berad or Bedar",
+    "column": "12-20 | Married",
+    "readings": [
+     300.0,
+     399.0
+    ]
+   },
+   {
+    "id": "0.31.15",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Linga'yat",
+    "column": "40 and over | Unmarried",
+    "readings": [
+     18.0,
+     19.0
+    ]
+   },
+   {
+    "id": "0.60.2",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Other Musalma'ns Nasik, Thana and Sholapur",
+    "column": "All ages | Widowed",
+    "readings": [
+     57.0,
+     67.0
+    ]
+   },
+   {
+    "id": "1.29.16",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Kumbha'r",
+    "column": "40 and over | Married",
+    "readings": [
+     381.0,
+     391.0
+    ]
+   },
+   {
+    "id": "0.40.15",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Na'ikda' Surat",
+    "column": "40 and over | Unmarried",
+    "readings": [
+     10.0,
+     16.0
+    ]
+   },
+   {
+    "id": "0.10.12",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Bra'hman Audich",
+    "column": "20-40 | Unmarried",
+    "readings": [
+     204.0,
+     264.0
+    ]
+   },
+   {
+    "id": "0.46.6",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Sa'li Ahmadnagar, and Dha'rwa'r",
+    "column": "5-12 | Unmarried",
+    "readings": [
+     923.0,
+     926.0
+    ]
+   },
+   {
+    "id": "1.45.17",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Ra'moshi Poona and Sa'ta'ra",
+    "column": "40 and over | Widowed",
+    "readings": [
+     589.0,
+     599.0
+    ]
+   },
+   {
+    "id": "0.46.14",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Sa'li Ahmadnagar, and Dha'rwa'r",
+    "column": "20-40 | Widowed",
+    "readings": [
+     72.0,
+     73.0
+    ]
+   },
+   {
+    "id": "1.20.1",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Dhodia' Surat",
+    "column": "All ages | Married",
+    "readings": [
+     460.0,
+     490.0
+    ]
+   },
+   {
+    "id": "0.29.7",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Kumbha'r",
+    "column": "5-12 | Married",
+    "readings": [
+     101.0,
+     161.0
+    ]
+   },
+   {
+    "id": "0.48.1",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Sona'r (Sind) Hydera'ba'd, Kara'chi, Sukkur, Thar and Pa'rkar",
+    "column": "All ages | Married",
+    "readings": [
+     367.0,
+     387.0
+    ]
+   },
+   {
+    "id": "0.21.13",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Dubla' or Talavia' Surat",
+    "column": "20-40 | Married",
+    "readings": [
+     600.0,
+     899.0
+    ]
+   },
+   {
+    "id": "1.20.2",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Dhodia' Surat",
+    "column": "All ages | Widowed",
+    "readings": [
+     93.0,
+     96.0
+    ]
+   },
+   {
+    "id": "1.41.1",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Pancha'l Dha'rwa'r",
+    "column": "All ages | Married",
+    "readings": [
+     458.0,
+     459.0
+    ]
+   },
+   {
+    "id": "0.9.15",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Bhoi",
+    "column": "40 and over | Unmarried",
+    "readings": [
+     15.0,
+     16.0
+    ]
+   },
+   {
+    "id": "1.34.7",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Loha'r, Luha'r or Kamma'r",
+    "column": "5-12 | Married",
+    "readings": [
+     302.0,
+     362.0
+    ]
+   },
+   {
+    "id": "1.21.0",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Dubla' or Talavia' Surat",
+    "column": "All ages | Unmarried",
+    "readings": [
+     391.0,
+     394.0
+    ]
+   },
+   {
+    "id": "0.56.9",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Va'ni Osva'l Ahmadnagar and Bombay City",
+    "column": "12-20 | Unmarried",
+    "readings": [
+     621.0,
+     821.0
+    ]
+   },
+   {
+    "id": "1.18.6",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Darji, Shimpi, Sai or Mira'i ... Ahmad\u00e1b\u00e1d, S\u00e1t\u00e1ra, Dh\u00e1rw\u00e1r",
+    "column": "5-12 | Unmarried",
+    "readings": [
+     700.0,
+     706.0
+    ]
+   },
+   {
+    "id": "0.46.13",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Sa'li Ahmadnagar, and Dha'rwa'r",
+    "column": "20-40 | Married",
+    "readings": [
+     835.0,
+     836.0
+    ]
+   },
+   {
+    "id": "1.16.7",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Chaturth S\u00e1t\u00e1ra and Belgaum",
+    "column": "5-12 | Married",
+    "readings": [
+     406.0,
+     466.0
+    ]
+   },
+   {
+    "id": "0.23.1",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Haja'm, Nha'vi, or Na'dig Kh\u00e1ndesh East and S\u00e1t\u00e1ra",
+    "column": "All ages | Married",
+    "readings": [
+     510.0,
+     519.0
+    ]
+   },
+   {
+    "id": "0.31.7",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Linga'yat",
+    "column": "5-12 | Married",
+    "readings": [
+     83.0,
+     89.0
+    ]
+   },
+   {
+    "id": "1.45.12",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Ra'moshi Poona and Sa'ta'ra",
+    "column": "20-40 | Unmarried",
+    "readings": [
+     12.0,
+     13.0
+    ]
+   },
+   {
+    "id": "0.2.11",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Berad or Bedar",
+    "column": "12-20 | Widowed",
+    "readings": [
+     22.0,
+     23.0
+    ]
+   },
+   {
+    "id": "1.41.7",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Pancha'l Dha'rwa'r",
+    "column": "5-12 | Married",
+    "readings": [
+     240.0,
+     246.0
+    ]
+   },
+   {
+    "id": "1.8.13",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Bhil (Sind)",
+    "column": "20-40 | Married",
+    "readings": [
+     888.0,
+     889.0
+    ]
+   },
+   {
+    "id": "1.33.9",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Loha'na' (Sind)",
+    "column": "12-20 | Unmarried",
+    "readings": [
+     356.0,
+     366.0
+    ]
+   },
+   {
+    "id": "1.8.11",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Bhil (Sind)",
+    "column": "12-20 | Widowed",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.2.9",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Berad or Bedar",
+    "column": "12-20 | Unmarried",
+    "readings": [
+     578.0,
+     678.0
+    ]
+   },
+   {
+    "id": "1.15.3",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Cha'mbha'r, Mochi, Machiga'r or Sochi Ahmad\u00e1b\u00e1d and Poona",
+    "column": "0-5 | Unmarried",
+    "readings": [
+     955.0,
+     956.0
+    ]
+   },
+   {
+    "id": "0.31.1",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Linga'yat",
+    "column": "All ages | Married",
+    "readings": [
+     466.0,
+     496.0
+    ]
+   },
+   {
+    "id": "1.30.9",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Kunbi",
+    "column": "12-20 | Unmarried",
+    "readings": [
+     70.0,
+     79.0
+    ]
+   },
+   {
+    "id": "1.16.6",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Chaturth S\u00e1t\u00e1ra and Belgaum",
+    "column": "5-12 | Unmarried",
+    "readings": [
+     511.0,
+     571.0
+    ]
+   },
+   {
+    "id": "1.12.2",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Bra'hman Deshasth",
+    "column": "All ages | Widowed",
+    "readings": [
+     251.0,
+     254.0
+    ]
+   },
+   {
+    "id": "0.41.14",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Pancha'l Dha'rwa'r",
+    "column": "20-40 | Widowed",
+    "readings": [
+     50.0,
+     80.0
+    ]
+   },
+   {
+    "id": "0.51.16",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Tha'kur Thana",
+    "column": "40 and over | Married",
+    "readings": [
+     702.0,
+     792.0
+    ]
+   },
+   {
+    "id": "1.12.0",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Bra'hman Deshasth",
+    "column": "All ages | Unmarried",
+    "readings": [
+     280.0,
+     289.0
+    ]
+   },
+   {
+    "id": "0.3.12",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Bhanda'ri",
+    "column": "20-40 | Unmarried",
+    "readings": [
+     108.0,
+     168.0
+    ]
+   },
+   {
+    "id": "0.44.17",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Ra'jput (Sind) Hydera'ba'd, Kara'chi, Sukkur, Thar and Pa'rkar, Upper Sind Frontier",
+    "column": "40 and over | Widowed",
+    "readings": [
+     230.0,
+     236.0
+    ]
+   },
+   {
+    "id": "0.21.16",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Dubla' or Talavia' Surat",
+    "column": "40 and over | Married",
+    "readings": [
+     806.0,
+     826.0
+    ]
+   },
+   {
+    "id": "0.52.10",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Vaddar or Od Dharwar",
+    "column": "12-20 | Married",
+    "readings": [
+     118.0,
+     119.0
+    ]
+   },
+   {
+    "id": "0.3.13",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Bhanda'ri",
+    "column": "20-40 | Married",
+    "readings": [
+     806.0,
+     866.0
+    ]
+   },
+   {
+    "id": "1.8.15",
+    "section": "Distribution of 1,000 Females of each age by civil condition",
+    "row": "Bhil (Sind)",
+    "column": "40 and over | Unmarried",
+    "readings": [
+     8.0,
+     9.0
+    ]
+   },
+   {
+    "id": "0.64.16",
+    "section": "Distribution of 1,000 Males of each age by civil condition",
+    "row": "Surat and Thana",
+    "column": "40 and over | Married",
+    "readings": [
+     796.0,
+     799.0
+    ]
+   }
+  ],
+  "n_disputed": 75
+ },
+ {
+  "page": "1901_India_TABLE_XIII._CASTE_TRIBE_RACE_OR_NATIO_0a43796",
+  "title": "TABLE XIII. CASTE, TRIBE, RACE, OR NATIONALITY.",
+  "year": 1901,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25394109_p137.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "HINDU.\u2014(contd.) | Nalgonda | Males",
+   "HINDU.\u2014(contd.) | Nalgonda | Females",
+   "HINDU.\u2014(contd.) | Aurangabad | Males",
+   "HINDU.\u2014(contd.) | Aurangabad | Females",
+   "HINDU.\u2014(contd.) | Bhir | Males",
+   "HINDU.\u2014(contd.) | Bhir | Females",
+   "HINDU.\u2014(contd.) | Nander | Males",
+   "HINDU.\u2014(contd.) | Nander | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.8.3",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Dasri",
+    "column": "Aurangabad | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.19.3",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Hatkar",
+    "column": "Aurangabad | Females",
+    "readings": [
+     1187.0
+    ]
+   },
+   {
+    "id": "0.18.2",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Gurav",
+    "column": "Aurangabad | Males",
+    "readings": [
+     523.0
+    ]
+   },
+   {
+    "id": "0.36.6",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Mang",
+    "column": "Nander | Males",
+    "readings": [
+     23013.0
+    ]
+   },
+   {
+    "id": "0.30.6",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Lingayet",
+    "column": "Nander | Males",
+    "readings": [
+     25874.0
+    ]
+   },
+   {
+    "id": "0.10.1",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Dhangar",
+    "column": "Nalgonda | Females",
+    "readings": [
+     1216.0
+    ]
+   },
+   {
+    "id": "0.2.7",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Bogam",
+    "column": "Nander | Females",
+    "readings": [
+     375.0
+    ]
+   },
+   {
+    "id": "0.12.4",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Dhor",
+    "column": "Bhir | Males",
+    "readings": [
+     825.0
+    ]
+   },
+   {
+    "id": "0.35.1",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Mali",
+    "column": "Nalgonda | Females",
+    "readings": [
+     173.0
+    ]
+   },
+   {
+    "id": "0.26.1",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Kumbhar",
+    "column": "Nalgonda | Females",
+    "readings": [
+     380.0
+    ]
+   },
+   {
+    "id": "0.0.7",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Bedar",
+    "column": "Nander | Females",
+    "readings": [
+     675.0
+    ]
+   },
+   {
+    "id": "0.37.0",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Mangala",
+    "column": "Nalgonda | Males",
+    "readings": [
+     6061.0
+    ]
+   },
+   {
+    "id": "0.31.0",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Lohar",
+    "column": "Nalgonda | Males",
+    "readings": [
+     1547.0
+    ]
+   },
+   {
+    "id": "0.28.2",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Kurma",
+    "column": "Aurangabad | Males",
+    "readings": [
+     168.0
+    ]
+   },
+   {
+    "id": "0.31.4",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Lohar",
+    "column": "Bhir | Males",
+    "readings": [
+     1522.0
+    ]
+   },
+   {
+    "id": "0.24.0",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Koli",
+    "column": "Nalgonda | Males",
+    "readings": [
+     93.0
+    ]
+   },
+   {
+    "id": "0.14.6",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Golla",
+    "column": "Nander | Males",
+    "readings": [
+     7009.0
+    ]
+   },
+   {
+    "id": "0.3.6",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Brahman",
+    "column": "Nander | Males",
+    "readings": [
+     7020.0
+    ]
+   },
+   {
+    "id": "0.37.1",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Mangala",
+    "column": "Nalgonda | Females",
+    "readings": [
+     5526.0
+    ]
+   },
+   {
+    "id": "0.19.4",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Hatkar",
+    "column": "Bhir | Males",
+    "readings": [
+     2090.0
+    ]
+   },
+   {
+    "id": "0.9.5",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Dewang or Koshti",
+    "column": "Bhir | Females",
+    "readings": [
+     2241.0
+    ]
+   },
+   {
+    "id": "0.0.0",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Bedar",
+    "column": "Nalgonda | Males",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "0.23.1",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Kasur",
+    "column": "Nalgonda | Females",
+    "readings": [
+     173.0
+    ]
+   },
+   {
+    "id": "0.15.3",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Gosain",
+    "column": "Aurangabad | Females",
+    "readings": [
+     1753.0
+    ]
+   },
+   {
+    "id": "0.31.2",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Lohar",
+    "column": "Aurangabad | Males",
+    "readings": [
+     2211.0
+    ]
+   },
+   {
+    "id": "0.25.3",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Komati",
+    "column": "Aurangabad | Females",
+    "readings": [
+     520.0
+    ]
+   },
+   {
+    "id": "0.8.4",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Dasri",
+    "column": "Bhir | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.21.7",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Kalal",
+    "column": "Nander | Females",
+    "readings": [
+     1500.0
+    ]
+   },
+   {
+    "id": "0.24.1",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Koli",
+    "column": "Nalgonda | Females",
+    "readings": [
+     80.0
+    ]
+   },
+   {
+    "id": "0.33.6",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Mahar",
+    "column": "Nander | Males",
+    "readings": [
+     38169.0
+    ]
+   },
+   {
+    "id": "0.18.7",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Gurav",
+    "column": "Nander | Females",
+    "readings": [
+     762.0
+    ]
+   },
+   {
+    "id": "0.6.3",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Chambhar",
+    "column": "Aurangabad | Females",
+    "readings": [
+     6300.0
+    ]
+   },
+   {
+    "id": "0.3.0",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Brahman",
+    "column": "Nalgonda | Males",
+    "readings": [
+     5654.0
+    ]
+   },
+   {
+    "id": "0.23.2",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Kasur",
+    "column": "Aurangabad | Males",
+    "readings": [
+     1341.0
+    ]
+   },
+   {
+    "id": "0.28.3",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Kurma",
+    "column": "Aurangabad | Females",
+    "readings": [
+     138.0
+    ]
+   },
+   {
+    "id": "0.38.6",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Maratha",
+    "column": "Nander | Males",
+    "readings": [
+     77459.0
+    ]
+   },
+   {
+    "id": "0.1.6",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Bhoi",
+    "column": "Nander | Males",
+    "readings": [
+     5164.0
+    ]
+   },
+   {
+    "id": "0.26.6",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Kumbhar",
+    "column": "Nander | Males",
+    "readings": [
+     3024.0
+    ]
+   },
+   {
+    "id": "0.7.1",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Darzi or Simpi",
+    "column": "Nalgonda | Females",
+    "readings": [
+     2339.0
+    ]
+   },
+   {
+    "id": "0.5.0",
+    "section": "HINDU.\u2014(contd.)",
+    "row": "Chakala",
+    "column": "Nalgonda | Males",
+    "readings": [
+     18299.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1901_2nd_Nagpada_Table_VII._Age_Sex_and_Civil_Condition_598ab62",
+  "title": "Table VII. Age, Sex and Civil Condition \u2014 Sind Nagpur",
+  "year": 1901,
+  "place": "2nd Nagpada",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a5116adcf6b032e9fe63c2b81c24305719749a08.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/974033871185b8952f60a8f7d16f749907c57cd9.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "2nd Nagpada. MUSALMAN. | Population | Persons",
+   "2nd Nagpada. MUSALMAN. | Population | Males",
+   "2nd Nagpada. MUSALMAN. | Population | Females",
+   "2nd Nagpada. MUSALMAN. | Unmarried | Persons",
+   "2nd Nagpada. MUSALMAN. | Unmarried | Males",
+   "2nd Nagpada. MUSALMAN. | Unmarried | Females",
+   "2nd Nagpada. MUSALMAN. | Married | Persons",
+   "2nd Nagpada. MUSALMAN. | Married | Males",
+   "2nd Nagpada. MUSALMAN. | Married | Females",
+   "2nd Nagpada. MUSALMAN. | Widowed | Persons",
+   "2nd Nagpada. MUSALMAN. | Widowed | Males",
+   "2nd Nagpada. MUSALMAN. | Widowed | Females",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Population | Persons",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Population | Males",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Population | Females",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Unmarried | Persons",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Unmarried | Males",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Unmarried | Females",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Married | Persons",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Married | Males",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Married | Females",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Widowed | Persons",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Widowed | Males",
+   "2nd Nagpada. ZOROASTRIAN (PARSI). | Widowed | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "Hindu",
+    "row": "0-1",
+    "column_group": "Married"
+   },
+   {
+    "id": 1,
+    "section": "Hindu",
+    "row": "0-1",
+    "column_group": "Population"
+   },
+   {
+    "id": 2,
+    "section": "Hindu",
+    "row": "0-1",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 3,
+    "section": "Hindu",
+    "row": "0-1",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 4,
+    "section": "Hindu",
+    "row": "1-2",
+    "column_group": "Married"
+   },
+   {
+    "id": 5,
+    "section": "Hindu",
+    "row": "1-2",
+    "column_group": "Population"
+   },
+   {
+    "id": 6,
+    "section": "Hindu",
+    "row": "1-2",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 7,
+    "section": "Hindu",
+    "row": "1-2",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 8,
+    "section": "Hindu",
+    "row": "2-3",
+    "column_group": "Married"
+   },
+   {
+    "id": 9,
+    "section": "Hindu",
+    "row": "2-3",
+    "column_group": "Population"
+   },
+   {
+    "id": 10,
+    "section": "Hindu",
+    "row": "2-3",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 11,
+    "section": "Hindu",
+    "row": "2-3",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 12,
+    "section": "Hindu",
+    "row": "3-4",
+    "column_group": "Married"
+   },
+   {
+    "id": 13,
+    "section": "Hindu",
+    "row": "3-4",
+    "column_group": "Population"
+   },
+   {
+    "id": 14,
+    "section": "Hindu",
+    "row": "3-4",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 15,
+    "section": "Hindu",
+    "row": "3-4",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 16,
+    "section": "Hindu",
+    "row": "4-5",
+    "column_group": "Married"
+   },
+   {
+    "id": 17,
+    "section": "Hindu",
+    "row": "4-5",
+    "column_group": "Population"
+   },
+   {
+    "id": 18,
+    "section": "Hindu",
+    "row": "4-5",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 19,
+    "section": "Hindu",
+    "row": "4-5",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 20,
+    "section": "Hindu",
+    "row": "Total 0-5",
+    "column_group": "Married"
+   },
+   {
+    "id": 21,
+    "section": "Hindu",
+    "row": "Total 0-5",
+    "column_group": "Population"
+   },
+   {
+    "id": 22,
+    "section": "Hindu",
+    "row": "Total 0-5",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 23,
+    "section": "Hindu",
+    "row": "Total 0-5",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 24,
+    "section": "Hindu",
+    "row": "5-10",
+    "column_group": "Married"
+   },
+   {
+    "id": 25,
+    "section": "Hindu",
+    "row": "5-10",
+    "column_group": "Population"
+   },
+   {
+    "id": 26,
+    "section": "Hindu",
+    "row": "5-10",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 27,
+    "section": "Hindu",
+    "row": "5-10",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 28,
+    "section": "Hindu",
+    "row": "10-15",
+    "column_group": "Married"
+   },
+   {
+    "id": 29,
+    "section": "Hindu",
+    "row": "10-15",
+    "column_group": "Population"
+   },
+   {
+    "id": 30,
+    "section": "Hindu",
+    "row": "10-15",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 31,
+    "section": "Hindu",
+    "row": "10-15",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 32,
+    "section": "Hindu",
+    "row": "15-20",
+    "column_group": "Married"
+   },
+   {
+    "id": 33,
+    "section": "Hindu",
+    "row": "15-20",
+    "column_group": "Population"
+   },
+   {
+    "id": 34,
+    "section": "Hindu",
+    "row": "15-20",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 35,
+    "section": "Hindu",
+    "row": "15-20",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 36,
+    "section": "Hindu",
+    "row": "20-25",
+    "column_group": "Married"
+   },
+   {
+    "id": 37,
+    "section": "Hindu",
+    "row": "20-25",
+    "column_group": "Population"
+   },
+   {
+    "id": 38,
+    "section": "Hindu",
+    "row": "20-25",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 39,
+    "section": "Hindu",
+    "row": "20-25",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 40,
+    "section": "Hindu",
+    "row": "25-30",
+    "column_group": "Married"
+   },
+   {
+    "id": 41,
+    "section": "Hindu",
+    "row": "25-30",
+    "column_group": "Population"
+   },
+   {
+    "id": 42,
+    "section": "Hindu",
+    "row": "25-30",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 43,
+    "section": "Hindu",
+    "row": "25-30",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 44,
+    "section": "Hindu",
+    "row": "30-35",
+    "column_group": "Married"
+   },
+   {
+    "id": 45,
+    "section": "Hindu",
+    "row": "30-35",
+    "column_group": "Population"
+   },
+   {
+    "id": 46,
+    "section": "Hindu",
+    "row": "30-35",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 47,
+    "section": "Hindu",
+    "row": "30-35",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 48,
+    "section": "Hindu",
+    "row": "35-40",
+    "column_group": "Married"
+   },
+   {
+    "id": 49,
+    "section": "Hindu",
+    "row": "35-40",
+    "column_group": "Population"
+   },
+   {
+    "id": 50,
+    "section": "Hindu",
+    "row": "35-40",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 51,
+    "section": "Hindu",
+    "row": "35-40",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 52,
+    "section": "Hindu",
+    "row": "40-45",
+    "column_group": "Married"
+   },
+   {
+    "id": 53,
+    "section": "Hindu",
+    "row": "40-45",
+    "column_group": "Population"
+   },
+   {
+    "id": 54,
+    "section": "Hindu",
+    "row": "40-45",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 55,
+    "section": "Hindu",
+    "row": "40-45",
+    "column_group": "Widowed"
+   },
+   {
+    "id": 56,
+    "section": "Hindu",
+    "row": "45-50",
+    "column_group": "Married"
+   },
+   {
+    "id": 57,
+    "section": "Hindu",
+    "row": "45-50",
+    "column_group": "Population"
+   },
+   {
+    "id": 58,
+    "section": "Hindu",
+    "row": "45-50",
+    "column_group": "Unmarried"
+   },
+   {
+    "id": 59,
+    "section": "Hindu",
+    "row": "45-50",
+    "column_group": "Widowed"
+   }
+  ]
+ },
+ {
+  "page": "None_Anwlah_TABLE_NO._VIII._-_continued._SHOWING_D_edf20c8",
+  "title": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION ACCORDING TO AGE, SEX, AND RELIGION, FOR THE TOWNS IN THE N.-W. P. WITH MORE THAN 10,000 INHABITANTS.",
+  "year": null,
+  "place": "Anwlah",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/5df1a399ae65770d156103c673d6ed0c3e62d907.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE NO. VIII. - (continued.) SHOWING D |  | HINDOOS.",
+   "TABLE NO. VIII. - (continued.) SHOWING D |  | MAHOMEDANS.",
+   "TABLE NO. VIII. - (continued.) SHOWING D |  | TOTAL,",
+   "TABLE NO. VIII. - (continued.) SHOWING D | HINDOOS. | Males.",
+   "TABLE NO. VIII. - (continued.) SHOWING D | HINDOOS. | Females.",
+   "TABLE NO. VIII. - (continued.) SHOWING D | MAHOMEDANS. | Males.",
+   "TABLE NO. VIII. - (continued.) SHOWING D | MAHOMEDANS. | Females.",
+   "TABLE NO. VIII. - (continued.) SHOWING D | TOTAL, | Males.",
+   "TABLE NO. VIII. - (continued.) SHOWING D | TOTAL, | Females."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.3.2",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "1 to 2 ,",
+    "column": "MAHOMEDANS. | Males.",
+    "readings": [
+     43.0,
+     45.0
+    ]
+   },
+   {
+    "id": "0.3.2",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Total number of Houses,",
+    "column": " | TOTAL,",
+    "readings": [
+     2272.0
+    ]
+   },
+   {
+    "id": "0.1.0",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Number of Houses built with skilled labour,",
+    "column": " | HINDOOS.",
+    "readings": [
+     284.0
+    ]
+   },
+   {
+    "id": "0.2.1",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Ditto, ditto, unskilled labour,",
+    "column": " | MAHOMEDANS.",
+    "readings": [
+     791.0
+    ]
+   },
+   {
+    "id": "0.3.0",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Total number of Houses,",
+    "column": " | HINDOOS.",
+    "readings": [
+     1232.0
+    ]
+   },
+   {
+    "id": "0.1.2",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Number of Houses built with skilled labour,",
+    "column": " | TOTAL,",
+    "readings": [
+     533.0
+    ]
+   },
+   {
+    "id": "0.1.1",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Number of Houses built with skilled labour,",
+    "column": " | MAHOMEDANS.",
+    "readings": [
+     249.0
+    ]
+   },
+   {
+    "id": "0.0.1",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Number of Enclosures,",
+    "column": " | MAHOMEDANS.",
+    "readings": [
+     604.0
+    ]
+   },
+   {
+    "id": "0.2.2",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Ditto, ditto, unskilled labour,",
+    "column": " | TOTAL,",
+    "readings": [
+     1739.0
+    ]
+   },
+   {
+    "id": "0.2.0",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Ditto, ditto, unskilled labour,",
+    "column": " | HINDOOS.",
+    "readings": [
+     948.0
+    ]
+   },
+   {
+    "id": "0.0.0",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Number of Enclosures,",
+    "column": " | HINDOOS.",
+    "readings": [
+     657.0
+    ]
+   },
+   {
+    "id": "0.0.2",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Number of Enclosures,",
+    "column": " | TOTAL,",
+    "readings": [
+     1261.0
+    ]
+   },
+   {
+    "id": "0.3.1",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "Total number of Houses,",
+    "column": " | MAHOMEDANS.",
+    "readings": [
+     1040.0
+    ]
+   },
+   {
+    "id": "1.3.4",
+    "section": "TABLE NO. VIII. - (continued.) SHOWING DETAILS OF POPULATION",
+    "row": "1 to 2 ,",
+    "column": "TOTAL, | Males.",
+    "readings": [
+     112.0,
+     114.0
+    ]
+   }
+  ],
+  "n_disputed": 14
+ },
+ {
+  "page": "None_main_provinces_SUBSIDIARY_TABLE_IX._Reported_deaths_fro_fa2b951",
+  "title": "SUBSIDIARY TABLE IX. Reported deaths from certain diseases per mille of each sex in the main provinces.",
+  "year": null,
+  "place": "main provinces",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/afb030620e75255b80c036fc852913c3e9dbef05.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "ASSAM | Actual number of deaths in | 1901",
+   "ASSAM | Actual number of deaths in | 1902",
+   "ASSAM | Actual number of deaths in | 1903",
+   "ASSAM | Actual number of deaths in | 1904",
+   "ASSAM | Actual number of deaths in | 1905",
+   "ASSAM | Actual number of deaths in | 1906",
+   "ASSAM | Actual number of deaths in | 1907",
+   "ASSAM | Actual number of deaths in | 1908",
+   "ASSAM | Actual number of deaths in | 1909",
+   "ASSAM | Actual number of deaths in | 1910",
+   "ASSAM |  | TOTAL",
+   "ASSAM |  | Average annual rate per mille",
+   "BENGAL | Actual number of deaths in | 1901",
+   "BENGAL | Actual number of deaths in | 1902",
+   "BENGAL | Actual number of deaths in | 1903",
+   "BENGAL | Actual number of deaths in | 1904",
+   "BENGAL | Actual number of deaths in | 1905",
+   "BENGAL | Actual number of deaths in | 1906",
+   "BENGAL | Actual number of deaths in | 1907",
+   "BENGAL | Actual number of deaths in | 1908",
+   "BENGAL | Actual number of deaths in | 1909",
+   "BENGAL | Actual number of deaths in | 1910",
+   "BENGAL |  | TOTAL",
+   "BENGAL |  | Average annual rate per mille",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1901",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1902",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1903",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1904",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1905",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1906",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1907",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1908",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1909",
+   "BIHAR AND ORISSA | Actual number of deaths in | 1910",
+   "BIHAR AND ORISSA |  | TOTAL",
+   "BIHAR AND ORISSA |  | Average annual rate per mille",
+   "BOMBAY | Actual number of deaths in | 1901",
+   "BOMBAY | Actual number of deaths in | 1902",
+   "BOMBAY | Actual number of deaths in | 1903",
+   "BOMBAY | Actual number of deaths in | 1904",
+   "BOMBAY | Actual number of deaths in | 1905",
+   "BOMBAY | Actual number of deaths in | 1906",
+   "BOMBAY | Actual number of deaths in | 1907",
+   "BOMBAY | Actual number of deaths in | 1908",
+   "BOMBAY | Actual number of deaths in | 1909",
+   "BOMBAY | Actual number of deaths in | 1910",
+   "BOMBAY |  | TOTAL",
+   "BOMBAY |  | Average annual rate per mille",
+   "BURMA | Actual number of deaths in | 1901",
+   "BURMA | Actual number of deaths in | 1902",
+   "BURMA | Actual number of deaths in | 1903",
+   "BURMA | Actual number of deaths in | 1904",
+   "BURMA | Actual number of deaths in | 1905",
+   "BURMA | Actual number of deaths in | 1906",
+   "BURMA | Actual number of deaths in | 1907",
+   "BURMA | Actual number of deaths in | 1908",
+   "BURMA | Actual number of deaths in | 1909",
+   "BURMA | Actual number of deaths in | 1910",
+   "BURMA |  | TOTAL",
+   "BURMA |  | Average annual rate per mille",
+   "C. P. AND BERAR | Actual number of deaths in | 1901",
+   "C. P. AND BERAR | Actual number of deaths in | 1902",
+   "C. P. AND BERAR | Actual number of deaths in | 1903",
+   "C. P. AND BERAR | Actual number of deaths in | 1904",
+   "C. P. AND BERAR | Actual number of deaths in | 1905",
+   "C. P. AND BERAR | Actual number of deaths in | 1906",
+   "C. P. AND BERAR | Actual number of deaths in | 1907",
+   "C. P. AND BERAR | Actual number of deaths in | 1908",
+   "C. P. AND BERAR | Actual number of deaths in | 1909",
+   "C. P. AND BERAR | Actual number of deaths in | 1910",
+   "C. P. AND BERAR |  | TOTAL",
+   "C. P. AND BERAR |  | Average annual rate per mille",
+   "MADRAS | Actual number of deaths in | 1901",
+   "MADRAS | Actual number of deaths in | 1902",
+   "MADRAS | Actual number of deaths in | 1903",
+   "MADRAS | Actual number of deaths in | 1904",
+   "MADRAS | Actual number of deaths in | 1905",
+   "MADRAS | Actual number of deaths in | 1906",
+   "MADRAS | Actual number of deaths in | 1907",
+   "MADRAS | Actual number of deaths in | 1908",
+   "MADRAS | Actual number of deaths in | 1909",
+   "MADRAS | Actual number of deaths in | 1910",
+   "MADRAS |  | TOTAL",
+   "MADRAS |  | Average annual rate per mille",
+   "PUNJAB | Actual number of deaths in | 1901",
+   "PUNJAB | Actual number of deaths in | 1902",
+   "PUNJAB | Actual number of deaths in | 1903",
+   "PUNJAB | Actual number of deaths in | 1904",
+   "PUNJAB | Actual number of deaths in | 1905",
+   "PUNJAB | Actual number of deaths in | 1906",
+   "PUNJAB | Actual number of deaths in | 1907",
+   "PUNJAB | Actual number of deaths in | 1908",
+   "PUNJAB | Actual number of deaths in | 1909",
+   "PUNJAB | Actual number of deaths in | 1910",
+   "PUNJAB |  | TOTAL",
+   "PUNJAB |  | Average annual rate per mille",
+   "UNITED PROVINCES | Actual number of deaths in | 1901",
+   "UNITED PROVINCES | Actual number of deaths in | 1902",
+   "UNITED PROVINCES | Actual number of deaths in | 1903",
+   "UNITED PROVINCES | Actual number of deaths in | 1904",
+   "UNITED PROVINCES | Actual number of deaths in | 1905",
+   "UNITED PROVINCES | Actual number of deaths in | 1906",
+   "UNITED PROVINCES | Actual number of deaths in | 1907",
+   "UNITED PROVINCES | Actual number of deaths in | 1908",
+   "UNITED PROVINCES | Actual number of deaths in | 1909",
+   "UNITED PROVINCES | Actual number of deaths in | 1910",
+   "UNITED PROVINCES |  | TOTAL",
+   "UNITED PROVINCES |  | Average annual rate per mille"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.5.5",
+    "section": "BENGAL",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1906",
+    "readings": [
+     5963.0,
+     5968.0
+    ]
+   },
+   {
+    "id": "1.1.10",
+    "section": "BENGAL",
+    "row": "Fever",
+    "column": " | TOTAL",
+    "readings": [
+     4712530.0,
+     4712580.0
+    ]
+   },
+   {
+    "id": "0.0.1",
+    "section": "ASSAM",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     41732.0,
+     41782.0
+    ]
+   },
+   {
+    "id": "4.1.6",
+    "section": "BURMA",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1907",
+    "readings": [
+     34758.0,
+     34768.0
+    ]
+   },
+   {
+    "id": "2.3.7",
+    "section": "BIHAR AND ORISSA",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     88232.0,
+     88282.0
+    ]
+   },
+   {
+    "id": "1.3.3",
+    "section": "BENGAL",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1904",
+    "readings": [
+     48083.0,
+     48088.0
+    ]
+   },
+   {
+    "id": "1.4.6",
+    "section": "BENGAL",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1907",
+    "readings": [
+     8328.0,
+     8828.0
+    ]
+   },
+   {
+    "id": "2.0.9",
+    "section": "BIHAR AND ORISSA",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1910",
+    "readings": [
+     373725.0,
+     378725.0
+    ]
+   },
+   {
+    "id": "1.5.1",
+    "section": "BENGAL",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     14543.0,
+     14548.0
+    ]
+   },
+   {
+    "id": "3.0.3",
+    "section": "BOMBAY",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1904",
+    "readings": [
+     129334.0,
+     129934.0
+    ]
+   },
+   {
+    "id": "1.1.8",
+    "section": "BENGAL",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     429732.0,
+     452782.0
+    ]
+   },
+   {
+    "id": "3.2.9",
+    "section": "BOMBAY",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1910",
+    "readings": [
+     2133.0,
+     2193.0
+    ]
+   },
+   {
+    "id": "5.0.9",
+    "section": "C. P. AND BERAR",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1910",
+    "readings": [
+     132699.0,
+     162109.0
+    ]
+   },
+   {
+    "id": "2.1.9",
+    "section": "BIHAR AND ORISSA",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1910",
+    "readings": [
+     343982.0,
+     348982.0
+    ]
+   },
+   {
+    "id": "5.5.2",
+    "section": "C. P. AND BERAR",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     970.0,
+     979.0
+    ]
+   },
+   {
+    "id": "8.6.3",
+    "section": "UNITED PROVINCES",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1904",
+    "readings": [
+     179032.0,
+     179082.0
+    ]
+   },
+   {
+    "id": "1.5.0",
+    "section": "BENGAL",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1901",
+    "readings": [
+     8904.0,
+     8964.0
+    ]
+   },
+   {
+    "id": "1.3.5",
+    "section": "BENGAL",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1906",
+    "readings": [
+     62829.0,
+     63629.0
+    ]
+   },
+   {
+    "id": "6.3.7",
+    "section": "MADRAS",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     68236.0,
+     68286.0
+    ]
+   },
+   {
+    "id": "2.4.9",
+    "section": "BIHAR AND ORISSA",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1910",
+    "readings": [
+     2863.0,
+     2868.0
+    ]
+   },
+   {
+    "id": "6.6.0",
+    "section": "MADRAS",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1901",
+    "readings": [
+     3035.0,
+     8035.0
+    ]
+   },
+   {
+    "id": "0.2.0",
+    "section": "ASSAM",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1901",
+    "readings": [
+     8044.0,
+     8944.0
+    ]
+   },
+   {
+    "id": "0.0.8",
+    "section": "ASSAM",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     53974.0,
+     58974.0
+    ]
+   },
+   {
+    "id": "1.4.8",
+    "section": "BENGAL",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     20502.0,
+     20592.0
+    ]
+   },
+   {
+    "id": "6.2.7",
+    "section": "MADRAS",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     73684.0,
+     78684.0
+    ]
+   },
+   {
+    "id": "5.5.0",
+    "section": "C. P. AND BERAR",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1901",
+    "readings": [
+     2836.0,
+     2838.0
+    ]
+   },
+   {
+    "id": "6.4.9",
+    "section": "MADRAS",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1910",
+    "readings": [
+     9730.0,
+     9780.0
+    ]
+   },
+   {
+    "id": "1.6.6",
+    "section": "BENGAL",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1907",
+    "readings": [
+     2689.0,
+     2699.0
+    ]
+   },
+   {
+    "id": "0.3.3",
+    "section": "ASSAM",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1904",
+    "readings": [
+     2731.0,
+     2751.0
+    ]
+   },
+   {
+    "id": "0.2.9",
+    "section": "ASSAM",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1910",
+    "readings": [
+     17130.0,
+     17180.0
+    ]
+   },
+   {
+    "id": "2.6.1",
+    "section": "BIHAR AND ORISSA",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     25360.0,
+     25869.0
+    ]
+   },
+   {
+    "id": "8.5.7",
+    "section": "UNITED PROVINCES",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     27091.0,
+     27691.0
+    ]
+   },
+   {
+    "id": "1.1.5",
+    "section": "BENGAL",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1906",
+    "readings": [
+     468702.0,
+     468709.0
+    ]
+   },
+   {
+    "id": "5.6.5",
+    "section": "C. P. AND BERAR",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1906",
+    "readings": [
+     9513.0,
+     9518.0
+    ]
+   },
+   {
+    "id": "8.2.7",
+    "section": "UNITED PROVINCES",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     43366.0,
+     43868.0
+    ]
+   },
+   {
+    "id": "8.1.8",
+    "section": "UNITED PROVINCES",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     801916.0,
+     891916.0
+    ]
+   },
+   {
+    "id": "8.1.1",
+    "section": "UNITED PROVINCES",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     569343.0,
+     569348.0
+    ]
+   },
+   {
+    "id": "4.3.7",
+    "section": "BURMA",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     4861.0,
+     4891.0
+    ]
+   },
+   {
+    "id": "1.3.10",
+    "section": "BENGAL",
+    "row": "Cholera",
+    "column": " | TOTAL",
+    "readings": [
+     534229.0,
+     539784.0
+    ]
+   },
+   {
+    "id": "2.2.5",
+    "section": "BIHAR AND ORISSA",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1906",
+    "readings": [
+     63553.0,
+     68558.0
+    ]
+   },
+   {
+    "id": "3.5.0",
+    "section": "BOMBAY",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1901",
+    "readings": [
+     2532.0,
+     2582.0
+    ]
+   },
+   {
+    "id": "0.5.1",
+    "section": "ASSAM",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     3204.0,
+     3264.0
+    ]
+   },
+   {
+    "id": "2.0.4",
+    "section": "BIHAR AND ORISSA",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1905",
+    "readings": [
+     406870.0,
+     408870.0
+    ]
+   },
+   {
+    "id": "2.0.5",
+    "section": "BIHAR AND ORISSA",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1906",
+    "readings": [
+     370096.0,
+     379096.0
+    ]
+   },
+   {
+    "id": "3.2.1",
+    "section": "BOMBAY",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     1917.0
+    ]
+   },
+   {
+    "id": "0.5.2",
+    "section": "ASSAM",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     541.0,
+     641.0
+    ]
+   },
+   {
+    "id": "4.3.11",
+    "section": "BURMA",
+    "row": "Cholera",
+    "column": " | Average annual rate per mille",
+    "readings": [
+     0.6,
+     0.7
+    ]
+   },
+   {
+    "id": "8.5.8",
+    "section": "UNITED PROVINCES",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     2723.0,
+     2725.0
+    ]
+   },
+   {
+    "id": "1.0.7",
+    "section": "BENGAL",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     496936.0,
+     499986.0
+    ]
+   },
+   {
+    "id": "4.3.0",
+    "section": "BURMA",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1901",
+    "readings": [
+     1366.0,
+     1386.0
+    ]
+   },
+   {
+    "id": "5.5.1",
+    "section": "C. P. AND BERAR",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     2183.0,
+     2188.0
+    ]
+   },
+   {
+    "id": "8.2.10",
+    "section": "UNITED PROVINCES",
+    "row": "Cholera",
+    "column": " | TOTAL",
+    "readings": [
+     323499.0,
+     329499.0
+    ]
+   },
+   {
+    "id": "3.3.8",
+    "section": "BOMBAY",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     13059.0,
+     13959.0
+    ]
+   },
+   {
+    "id": "6.3.10",
+    "section": "MADRAS",
+    "row": "Cholera",
+    "column": " | TOTAL",
+    "readings": [
+     294964.0,
+     294994.0
+    ]
+   },
+   {
+    "id": "4.2.8",
+    "section": "BURMA",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     6613.0,
+     6618.0
+    ]
+   },
+   {
+    "id": "2.6.0",
+    "section": "BIHAR AND ORISSA",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1901",
+    "readings": [
+     70388.0,
+     70888.0
+    ]
+   },
+   {
+    "id": "1.6.7",
+    "section": "BENGAL",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     1480.0,
+     1486.0
+    ]
+   },
+   {
+    "id": "2.2.2",
+    "section": "BIHAR AND ORISSA",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     56831.0,
+     56891.0
+    ]
+   },
+   {
+    "id": "1.2.1",
+    "section": "BENGAL",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     49286.0,
+     49296.0
+    ]
+   },
+   {
+    "id": "6.5.7",
+    "section": "MADRAS",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     10964.0,
+     10984.0
+    ]
+   },
+   {
+    "id": "3.3.1",
+    "section": "BOMBAY",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     1323.0
+    ]
+   },
+   {
+    "id": "4.5.2",
+    "section": "BURMA",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     850.0,
+     856.0
+    ]
+   },
+   {
+    "id": "7.3.2",
+    "section": "PUNJAB",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     6106.0,
+     7410.0
+    ]
+   },
+   {
+    "id": "6.4.5",
+    "section": "MADRAS",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1906",
+    "readings": [
+     15069.0,
+     15089.0
+    ]
+   },
+   {
+    "id": "1.0.2",
+    "section": "BENGAL",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     517633.0,
+     517683.0
+    ]
+   },
+   {
+    "id": "3.1.0",
+    "section": "BOMBAY",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1901",
+    "readings": [
+     139606.0,
+     139666.0
+    ]
+   },
+   {
+    "id": "6.7.7",
+    "section": "MADRAS",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     1069.0,
+     1669.0
+    ]
+   },
+   {
+    "id": "2.5.2",
+    "section": "BIHAR AND ORISSA",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     8511.0,
+     8571.0
+    ]
+   },
+   {
+    "id": "5.0.2",
+    "section": "C. P. AND BERAR",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     95397.0,
+     95897.0
+    ]
+   },
+   {
+    "id": "3.0.8",
+    "section": "BOMBAY",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     110886.0,
+     110896.0
+    ]
+   },
+   {
+    "id": "5.5.6",
+    "section": "C. P. AND BERAR",
+    "row": "Small pox",
+    "column": "Actual number of deaths in | 1907",
+    "readings": [
+     1784.0,
+     1824.0
+    ]
+   },
+   {
+    "id": "1.2.7",
+    "section": "BENGAL",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1908",
+    "readings": [
+     66649.0,
+     68649.0
+    ]
+   },
+   {
+    "id": "2.1.1",
+    "section": "BIHAR AND ORISSA",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     302024.0,
+     362024.0
+    ]
+   },
+   {
+    "id": "2.0.1",
+    "section": "BIHAR AND ORISSA",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1902",
+    "readings": [
+     336344.0,
+     396344.0
+    ]
+   },
+   {
+    "id": "5.0.10",
+    "section": "C. P. AND BERAR",
+    "row": "Fever",
+    "column": " | TOTAL",
+    "readings": [
+     1032158.0,
+     1062168.0
+    ]
+   },
+   {
+    "id": "8.7.4",
+    "section": "UNITED PROVINCES",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1905",
+    "readings": [
+     210325.0,
+     210925.0
+    ]
+   },
+   {
+    "id": "7.6.5",
+    "section": "PUNJAB",
+    "row": "Plague",
+    "column": "Actual number of deaths in | 1906",
+    "readings": [
+     43836.0,
+     43838.0
+    ]
+   },
+   {
+    "id": "4.0.8",
+    "section": "BURMA",
+    "row": "Fever",
+    "column": "Actual number of deaths in | 1909",
+    "readings": [
+     44575.0,
+     44576.0
+    ]
+   },
+   {
+    "id": "7.2.10",
+    "section": "PUNJAB",
+    "row": "Cholera",
+    "column": " | TOTAL",
+    "readings": [
+     22390.0,
+     22500.0
+    ]
+   },
+   {
+    "id": "8.2.2",
+    "section": "UNITED PROVINCES",
+    "row": "Cholera",
+    "column": "Actual number of deaths in | 1903",
+    "readings": [
+     23752.0,
+     29752.0
+    ]
+   }
+  ],
+  "n_disputed": 107
+ },
+ {
+  "page": "1901_India_Statement_showing_the_distribution_by_Ci_4884f51",
+  "title": "Statement showing the distribution by Civil Condition of 10,000 persons of each of the pri",
+  "year": 1901,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/39bab5d290abf8f7fe47b10a3ecd7a286b71e387.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/7af36043fbc5182bec8427128086f61896393277.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/66a3ae8b1ede6841d165d633265aec74c5b87235.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/29eb5e491df6914c0af9f919c15a2125b27b4cde.jpg"
+  ],
+  "n_images_total": 4,
+  "reading_columns": [
+   "Statement showing the distribution by Ci | MALES / All ages | Unmarried",
+   "Statement showing the distribution by Ci | MALES / All ages | Married",
+   "Statement showing the distribution by Ci | MALES / All ages | Widowed",
+   "Statement showing the distribution by Ci | FEMALES / All ages | Unmarried",
+   "Statement showing the distribution by Ci | FEMALES / All ages | Married",
+   "Statement showing the distribution by Ci | FEMALES / All ages | Widowed",
+   "Statement showing the distribution by Ci | FEMALES / 0-9 | Unmarried",
+   "Statement showing the distribution by Ci | FEMALES / 0-9 | Married",
+   "Statement showing the distribution by Ci | FEMALES / 0-9 | Widowed",
+   "Statement showing the distribution by Ci | FEMALES / 10-14 | Unmarried",
+   "Statement showing the distribution by Ci | FEMALES / 10-14 | Married",
+   "Statement showing the distribution by Ci | FEMALES / 10-14 | Widowed",
+   "Statement showing the distribution by Ci | FEMALES / 15-39 | Unmarried",
+   "Statement showing the distribution by Ci | FEMALES / 15-39 | Married",
+   "Statement showing the distribution by Ci | FEMALES / 15-39 | Widowed",
+   "Statement showing the distribution by Ci | FEMALES / 40 and over | Unmarried",
+   "Statement showing the distribution by Ci | FEMALES / 40 and over | Married",
+   "Statement showing the distribution by Ci | FEMALES / 40 and over | Widowed"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.90.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Segidi",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     3761.0,
+     6173.0
+    ]
+   },
+   {
+    "id": "0.96.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "M\u00e1diga",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     558.0,
+     1258.0,
+     8184.0
+    ]
+   },
+   {
+    "id": "0.80.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Palle",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     46.0,
+     1563.0,
+     3291.0
+    ]
+   },
+   {
+    "id": "0.47.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Ambattan",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     576.0,
+     1171.0,
+     8253.0
+    ]
+   },
+   {
+    "id": "0.83.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "V\u00e1da",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     60.0,
+     1185.0,
+     3548.0
+    ]
+   },
+   {
+    "id": "0.69.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "T\u00e9li",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     55.0,
+     1406.0,
+     8394.0
+    ]
+   },
+   {
+    "id": "0.107.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "D\u00e1sari",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     3543.0,
+     6319.0
+    ]
+   },
+   {
+    "id": "0.108.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Path\u00e1n",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     94.0,
+     3425.0,
+     6481.0
+    ]
+   },
+   {
+    "id": "0.74.12",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Uppiliyan",
+    "column": "FEMALES / 15-39 | Unmarried",
+    "readings": [
+     20.0,
+     517.0,
+     8473.0
+    ]
+   },
+   {
+    "id": "0.76.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Besta",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     365.0,
+     1912.0,
+     7723.0
+    ]
+   },
+   {
+    "id": "0.80.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Palle",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     353.0,
+     1563.0,
+     8084.0
+    ]
+   },
+   {
+    "id": "0.104.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "K\u00e1r\u00e1lan",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     58.0,
+     4281.0,
+     5661.0
+    ]
+   },
+   {
+    "id": "0.69.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "T\u00e9li",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     200.0,
+     1406.0,
+     8394.0
+    ]
+   },
+   {
+    "id": "0.84.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Billava",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     231.0,
+     890.0,
+     8393.0
+    ]
+   },
+   {
+    "id": "0.72.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Kusavan",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     103.0,
+     1196.0,
+     8350.0
+    ]
+   },
+   {
+    "id": "0.98.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "\u00c9kari",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     639.0,
+     2463.0,
+     6898.0
+    ]
+   },
+   {
+    "id": "0.74.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Uppiliyan",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     68.0,
+     1010.0,
+     3759.0
+    ]
+   },
+   {
+    "id": "0.68.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "G\u00e1ndla",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     49.0,
+     2133.0,
+     2846.0
+    ]
+   },
+   {
+    "id": "0.111.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Native Christian",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     124.0,
+     888.0,
+     3916.0
+    ]
+   },
+   {
+    "id": "0.19.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Holua",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     99.0,
+     2081.0,
+     7820.0
+    ]
+   },
+   {
+    "id": "0.68.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "G\u00e1ndla",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     49.0,
+     2133.0,
+     7541.0
+    ]
+   },
+   {
+    "id": "0.110.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Sheik",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     60.0,
+     3236.0,
+     6704.0
+    ]
+   },
+   {
+    "id": "0.77.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "B\u00f3ya",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     229.0,
+     1522.0,
+     8035.0
+    ]
+   },
+   {
+    "id": "0.48.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Mangala",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     241.0,
+     1782.0,
+     7977.0
+    ]
+   },
+   {
+    "id": "0.40.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Labbai",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     622.0,
+     1274.0,
+     8104.0
+    ]
+   },
+   {
+    "id": "0.82.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Sembadavan",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     61.0,
+     1005.0,
+     8389.0
+    ]
+   },
+   {
+    "id": "0.7.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "J\u00e1tapu",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     4886.0,
+     4896.0
+    ]
+   },
+   {
+    "id": "0.85.9",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Gamalla",
+    "column": "FEMALES / 10-14 | Unmarried",
+    "readings": [
+     5609.0,
+     5638.0,
+     5681.0
+    ]
+   },
+   {
+    "id": "0.65.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Golla",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     43.0,
+     1747.0,
+     2853.0
+    ]
+   },
+   {
+    "id": "0.86.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Halepaik",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     54.0,
+     2823.0,
+     7123.0
+    ]
+   },
+   {
+    "id": "0.90.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Segidi",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     66.0,
+     3761.0,
+     6173.0
+    ]
+   },
+   {
+    "id": "0.87.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "I'diga",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     283.0,
+     1535.0,
+     8182.0
+    ]
+   },
+   {
+    "id": "0.100.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Muttiriyan",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     51.0,
+     1190.0,
+     8311.0
+    ]
+   },
+   {
+    "id": "0.107.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "D\u00e1sari",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     138.0,
+     1229.0,
+     3543.0
+    ]
+   },
+   {
+    "id": "0.106.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "\u00c1ndi",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     71.0,
+     1281.0,
+     3608.0
+    ]
+   },
+   {
+    "id": "0.56.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Patn\u00fal",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     166.0,
+     1261.0,
+     8573.0
+    ]
+   },
+   {
+    "id": "0.74.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Uppiliyan",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     68.0,
+     1010.0,
+     8473.0
+    ]
+   },
+   {
+    "id": "0.85.11",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Gamalla",
+    "column": "FEMALES / 10-14 | Widowed",
+    "readings": [
+     119.0,
+     148.0,
+     243.0
+    ]
+   },
+   {
+    "id": "0.78.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Kevuto",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     72.0,
+     1057.0,
+     8373.0
+    ]
+   },
+   {
+    "id": "0.40.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Labbai",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     73.0,
+     1274.0,
+     3383.0
+    ]
+   },
+   {
+    "id": "0.84.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Billava",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     231.0,
+     3028.0,
+     6741.0
+    ]
+   },
+   {
+    "id": "0.109.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Saiyad",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     78.0,
+     1219.0,
+     8281.0
+    ]
+   },
+   {
+    "id": "0.101.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Odde",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     438.0,
+     879.0,
+     8683.0
+    ]
+   },
+   {
+    "id": "0.59.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "S\u00e9dan",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     3910.0,
+     6047.0
+    ]
+   },
+   {
+    "id": "0.83.12",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "V\u00e1da",
+    "column": "FEMALES / 15-39 | Unmarried",
+    "readings": [
+     176.0,
+     386.0,
+     8429.0
+    ]
+   },
+   {
+    "id": "0.88.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "I'ndra",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     30.0,
+     3202.0,
+     6768.0
+    ]
+   },
+   {
+    "id": "0.93.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Tiyyan",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     569.0,
+     1105.0,
+     3467.0
+    ]
+   },
+   {
+    "id": "0.107.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "D\u00e1sari",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     138.0,
+     3543.0,
+     6319.0
+    ]
+   },
+   {
+    "id": "0.36.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Balija",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     2767.0,
+     7075.0
+    ]
+   },
+   {
+    "id": "0.59.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "S\u00e9dan",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     43.0,
+     3910.0,
+     6047.0
+    ]
+   },
+   {
+    "id": "0.100.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Muttiriyan",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     3872.0,
+     6077.0
+    ]
+   },
+   {
+    "id": "0.82.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Sembadavan",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     606.0,
+     1005.0,
+     8389.0
+    ]
+   },
+   {
+    "id": "0.84.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Billava",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     717.0,
+     890.0,
+     8393.0
+    ]
+   },
+   {
+    "id": "0.63.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Vann\u00e1n",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     164.0,
+     966.0,
+     3769.0
+    ]
+   },
+   {
+    "id": "0.85.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Gamalla",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     237.0,
+     1390.0,
+     8197.0
+    ]
+   },
+   {
+    "id": "0.109.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Saiyad",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     3468.0,
+     6454.0
+    ]
+   },
+   {
+    "id": "0.50.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "\u00c1s\u00e1ri",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     691.0,
+     1207.0,
+     6842.0
+    ]
+   },
+   {
+    "id": "0.84.12",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Billava",
+    "column": "FEMALES / 15-39 | Unmarried",
+    "readings": [
+     78.0,
+     717.0,
+     8393.0
+    ]
+   },
+   {
+    "id": "0.85.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Gamalla",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     3409.0,
+     6550.0
+    ]
+   },
+   {
+    "id": "0.65.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Golla",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     43.0,
+     1747.0,
+     7998.0
+    ]
+   },
+   {
+    "id": "0.93.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Tiyyan",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     1105.0,
+     3467.0,
+     5428.0
+    ]
+   },
+   {
+    "id": "0.14.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Y\u00e1n\u00e1di",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     116.0,
+     328.0,
+     9116.0
+    ]
+   },
+   {
+    "id": "0.18.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "D\u00e9sasta",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     9.0,
+     2285.0,
+     2409.0
+    ]
+   },
+   {
+    "id": "0.18.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "D\u00e9sasta",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     2409.0,
+     7582.0
+    ]
+   },
+   {
+    "id": "0.58.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "S\u00e1liyan",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     827.0,
+     989.0,
+     3773.0
+    ]
+   },
+   {
+    "id": "0.104.13",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "K\u00e1r\u00e1lan",
+    "column": "FEMALES / 15-39 | Married",
+    "readings": [
+     558.0,
+     830.0,
+     8612.0
+    ]
+   },
+   {
+    "id": "0.82.12",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Sembadavan",
+    "column": "FEMALES / 15-39 | Unmarried",
+    "readings": [
+     49.0,
+     608.0,
+     8389.0
+    ]
+   },
+   {
+    "id": "0.49.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Kollan",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     3510.0,
+     5603.0
+    ]
+   },
+   {
+    "id": "0.85.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Gamalla",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     41.0,
+     1566.0,
+     3409.0
+    ]
+   },
+   {
+    "id": "0.78.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Kevuto",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     72.0,
+     3921.0,
+     6007.0
+    ]
+   },
+   {
+    "id": "0.90.12",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Segidi",
+    "column": "FEMALES / 15-39 | Unmarried",
+    "readings": [
+     370.0,
+     474.0,
+     8181.0
+    ]
+   },
+   {
+    "id": "0.107.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "D\u00e1sari",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     138.0,
+     1229.0,
+     8162.0
+    ]
+   },
+   {
+    "id": "0.111.14",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Native Christian",
+    "column": "FEMALES / 15-39 | Widowed",
+    "readings": [
+     124.0,
+     888.0,
+     8091.0
+    ]
+   },
+   {
+    "id": "0.74.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Uppiliyan",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     3759.0,
+     6173.0
+    ]
+   },
+   {
+    "id": "0.94.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Y\u00e1ta",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     80.0,
+     4257.0,
+     5663.0
+    ]
+   },
+   {
+    "id": "0.80.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Palle",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     46.0,
+     3291.0,
+     6663.0
+    ]
+   },
+   {
+    "id": "0.72.15",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Kusavan",
+    "column": "FEMALES / 40 and over | Unmarried",
+    "readings": [
+     103.0,
+     1196.0,
+     3760.0
+    ]
+   },
+   {
+    "id": "0.101.17",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Odde",
+    "column": "FEMALES / 40 and over | Widowed",
+    "readings": [
+     4201.0,
+     5734.0
+    ]
+   },
+   {
+    "id": "0.112.16",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "Ling\u00e1yat",
+    "column": "FEMALES / 40 and over | Married",
+    "readings": [
+     106.0,
+     2500.0,
+     7394.0
+    ]
+   },
+   {
+    "id": "0.69.12",
+    "section": "Statement showing the distribution by Civil Condition of 10,",
+    "row": "T\u00e9li",
+    "column": "FEMALES / 15-39 | Unmarried",
+    "readings": [
+     200.0,
+     328.0,
+     8394.0
+    ]
+   }
+  ],
+  "n_disputed": 320
+ },
+ {
+  "page": "1901_Travancore_TABLE_VII._Age_Sex_and_Civil_Condition._f91075a",
+  "title": "TABLE VII. Age, Sex and Civil Condition. PART II.-BY PROVINCES AND STATES-BARODA STATE.",
+  "year": 1901,
+  "place": "Travancore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d5001f5f05b452ebb311a4b8ad3519b432bb8f54.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/de9da8731458ac9fc6f13c7c53465ad64d1e8188.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "(a) All religions. | POPULATION | Persons",
+   "(a) All religions. | POPULATION | Males",
+   "(a) All religions. | POPULATION | Females",
+   "(a) All religions. | UNMARRIED | Persons",
+   "(a) All religions. | UNMARRIED | Males",
+   "(a) All religions. | UNMARRIED | Females",
+   "(a) All religions. | MARRIED | Persons",
+   "(a) All religions. | MARRIED | Males",
+   "(a) All religions. | MARRIED | Females",
+   "(a) All religions. | WIDOWED | Persons",
+   "(a) All religions. | WIDOWED | Males",
+   "(a) All religions. | WIDOWED | Females",
+   "(b) Hindu. | POPULATION | Persons",
+   "(b) Hindu. | POPULATION | Males",
+   "(b) Hindu. | POPULATION | Females",
+   "(b) Hindu. | UNMARRIED | Persons",
+   "(b) Hindu. | UNMARRIED | Males",
+   "(b) Hindu. | UNMARRIED | Females",
+   "(b) Hindu. | MARRIED | Persons",
+   "(b) Hindu. | MARRIED | Males",
+   "(b) Hindu. | MARRIED | Females",
+   "(b) Hindu. | WIDOWED | Persons",
+   "(b) Hindu. | WIDOWED | Males",
+   "(b) Hindu. | WIDOWED | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "All / Total",
+    "row": "0-1",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 1,
+    "section": "All / Total",
+    "row": "0-1",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 2,
+    "section": "All / Total",
+    "row": "0-1",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 3,
+    "section": "All / Total",
+    "row": "0-1",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 4,
+    "section": "All / Total",
+    "row": "1-2",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 5,
+    "section": "All / Total",
+    "row": "1-2",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 6,
+    "section": "All / Total",
+    "row": "1-2",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 7,
+    "section": "All / Total",
+    "row": "1-2",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 8,
+    "section": "All / Total",
+    "row": "2-3",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 9,
+    "section": "All / Total",
+    "row": "2-3",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 10,
+    "section": "All / Total",
+    "row": "2-3",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 11,
+    "section": "All / Total",
+    "row": "2-3",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 12,
+    "section": "All / Total",
+    "row": "3-4",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 13,
+    "section": "All / Total",
+    "row": "3-4",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 14,
+    "section": "All / Total",
+    "row": "3-4",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 15,
+    "section": "All / Total",
+    "row": "3-4",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 16,
+    "section": "All / Total",
+    "row": "4-5",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 17,
+    "section": "All / Total",
+    "row": "4-5",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 18,
+    "section": "All / Total",
+    "row": "4-5",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 19,
+    "section": "All / Total",
+    "row": "4-5",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 20,
+    "section": "All / Total",
+    "row": "Total 0-5",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 21,
+    "section": "All / Total",
+    "row": "Total 0-5",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 22,
+    "section": "All / Total",
+    "row": "Total 0-5",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 23,
+    "section": "All / Total",
+    "row": "Total 0-5",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 24,
+    "section": "All / Total",
+    "row": "5-10",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 25,
+    "section": "All / Total",
+    "row": "5-10",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 26,
+    "section": "All / Total",
+    "row": "5-10",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 27,
+    "section": "All / Total",
+    "row": "5-10",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 28,
+    "section": "All / Total",
+    "row": "10-15",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 29,
+    "section": "All / Total",
+    "row": "10-15",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 30,
+    "section": "All / Total",
+    "row": "10-15",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 31,
+    "section": "All / Total",
+    "row": "10-15",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 32,
+    "section": "All / Total",
+    "row": "15-20",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 33,
+    "section": "All / Total",
+    "row": "15-20",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 34,
+    "section": "All / Total",
+    "row": "15-20",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 35,
+    "section": "All / Total",
+    "row": "15-20",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 36,
+    "section": "All / Total",
+    "row": "20-25",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 37,
+    "section": "All / Total",
+    "row": "20-25",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 38,
+    "section": "All / Total",
+    "row": "20-25",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 39,
+    "section": "All / Total",
+    "row": "20-25",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 40,
+    "section": "All / Total",
+    "row": "25-30",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 41,
+    "section": "All / Total",
+    "row": "25-30",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 42,
+    "section": "All / Total",
+    "row": "25-30",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 43,
+    "section": "All / Total",
+    "row": "25-30",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 44,
+    "section": "All / Total",
+    "row": "30-35",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 45,
+    "section": "All / Total",
+    "row": "30-35",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 46,
+    "section": "All / Total",
+    "row": "30-35",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 47,
+    "section": "All / Total",
+    "row": "30-35",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 48,
+    "section": "All / Total",
+    "row": "35-40",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 49,
+    "section": "All / Total",
+    "row": "35-40",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 50,
+    "section": "All / Total",
+    "row": "35-40",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 51,
+    "section": "All / Total",
+    "row": "35-40",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 52,
+    "section": "All / Total",
+    "row": "40-45",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 53,
+    "section": "All / Total",
+    "row": "40-45",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 54,
+    "section": "All / Total",
+    "row": "40-45",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 55,
+    "section": "All / Total",
+    "row": "40-45",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 56,
+    "section": "All / Total",
+    "row": "45-50",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 57,
+    "section": "All / Total",
+    "row": "45-50",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 58,
+    "section": "All / Total",
+    "row": "45-50",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 59,
+    "section": "All / Total",
+    "row": "45-50",
+    "column_group": "WIDOWED"
+   }
+  ]
+ },
+ {
+  "page": "1891_Pegu_District_PEGU_DISTRICT._e61684e",
+  "title": "PEGU DISTRICT.",
+  "year": 1891,
+  "place": "Pegu District",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/0f785cc5bf82426aee3736ac4c200c97f926da8d.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "PEGU DISTRICT. |  | Number of occupied houses",
+   "PEGU DISTRICT. | POPULATION | Both sexes",
+   "PEGU DISTRICT. | POPULATION | Male",
+   "PEGU DISTRICT. | POPULATION | Female",
+   "PEGU DISTRICT. | POPULATION BY RELIGION | Boat population",
+   "PEGU DISTRICT. | POPULATION BY RELIGION | Buddhists",
+   "PEGU DISTRICT. | POPULATION BY RELIGION | N\u00e1t-worshippers",
+   "PEGU DISTRICT. | POPULATION BY RELIGION | Mahomedans",
+   "PEGU DISTRICT. | POPULATION BY RELIGION | Hindus",
+   "PEGU DISTRICT. | POPULATION BY RELIGION | Christians",
+   "PEGU DISTRICT. | PARENT-TONGUE | Number of persons using it",
+   "PEGU DISTRICT. | EDUCATION / Literate | M.",
+   "PEGU DISTRICT. | EDUCATION / Literate | F."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.26.3",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": "POPULATION | Female",
+    "readings": [
+     149.0
+    ]
+   },
+   {
+    "id": "0.33.1",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "POPULATION | Both sexes",
+    "readings": [
+     583.0
+    ]
+   },
+   {
+    "id": "0.33.11",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "EDUCATION / Literate | M.",
+    "readings": [
+     310.0
+    ]
+   },
+   {
+    "id": "0.20.10",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": "PARENT-TONGUE | Number of persons using it",
+    "readings": [
+     475.0
+    ]
+   },
+   {
+    "id": "0.26.1",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": "POPULATION | Both sexes",
+    "readings": [
+     369.0
+    ]
+   },
+   {
+    "id": "0.8.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Paingkyon",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "0.26.11",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": "EDUCATION / Literate | M.",
+    "readings": [
+     70.0
+    ]
+   },
+   {
+    "id": "0.26.0",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": " | Number of occupied houses",
+    "readings": [
+     58.0
+    ]
+   },
+   {
+    "id": "0.26.8",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": "POPULATION BY RELIGION | Hindus",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "0.40.12",
+    "section": "PEGU DISTRICT.",
+    "row": "Lahagyi",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.33.10",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "PARENT-TONGUE | Number of persons using it",
+    "readings": [
+     348.0
+    ]
+   },
+   {
+    "id": "0.20.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.33.2",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "POPULATION | Male",
+    "readings": [
+     440.0
+    ]
+   },
+   {
+    "id": "0.20.0",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": " | Number of occupied houses",
+    "readings": [
+     103.0
+    ]
+   },
+   {
+    "id": "0.17.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Nyaungbin",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.26.2",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": "POPULATION | Male",
+    "readings": [
+     220.0
+    ]
+   },
+   {
+    "id": "0.33.0",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": " | Number of occupied houses",
+    "readings": [
+     102.0
+    ]
+   },
+   {
+    "id": "0.10.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Makyetgyi",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.20.5",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": "POPULATION BY RELIGION | Buddhists",
+    "readings": [
+     596.0
+    ]
+   },
+   {
+    "id": "0.9.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Total",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     32.0
+    ]
+   },
+   {
+    "id": "0.33.7",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "POPULATION BY RELIGION | Mahomedans",
+    "readings": [
+     32.0
+    ]
+   },
+   {
+    "id": "0.20.3",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": "POPULATION | Female",
+    "readings": [
+     276.0
+    ]
+   },
+   {
+    "id": "0.0.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Kamun",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.33.8",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "POPULATION BY RELIGION | Hindus",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.12.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Thabyu apyin",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.29.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Total",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     45.0
+    ]
+   },
+   {
+    "id": "0.20.2",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": "POPULATION | Male",
+    "readings": [
+     322.0
+    ]
+   },
+   {
+    "id": "0.33.5",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "POPULATION BY RELIGION | Buddhists",
+    "readings": [
+     529.0
+    ]
+   },
+   {
+    "id": "0.20.12",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.26.10",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": "PARENT-TONGUE | Number of persons using it",
+    "readings": [
+     208.0
+    ]
+   },
+   {
+    "id": "0.26.5",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": "POPULATION BY RELIGION | Buddhists",
+    "readings": [
+     349.0
+    ]
+   },
+   {
+    "id": "0.20.1",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": "POPULATION | Both sexes",
+    "readings": [
+     598.0
+    ]
+   },
+   {
+    "id": "0.33.12",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.20.11",
+    "section": "PEGU DISTRICT.",
+    "row": "Aton",
+    "column": "EDUCATION / Literate | M.",
+    "readings": [
+     195.0
+    ]
+   },
+   {
+    "id": "0.33.3",
+    "section": "PEGU DISTRICT.",
+    "row": "Shwehla",
+    "column": "POPULATION | Female",
+    "readings": [
+     143.0
+    ]
+   },
+   {
+    "id": "0.26.12",
+    "section": "PEGU DISTRICT.",
+    "row": "Kyaungdaik",
+    "column": "EDUCATION / Literate | F.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.16.6",
+    "section": "PEGU DISTRICT.",
+    "row": "Thamechaung",
+    "column": "POPULATION BY RELIGION | N\u00e1t-worshippers",
+    "readings": [
+     2.0
+    ]
+   }
+  ],
+  "n_disputed": 37
+ },
+ {
+  "page": "1891_India_No._223_-_Distribution_of_a_total_popula_fe6776a",
+  "title": "No. 223 - Distribution of a total population occupation (continued run)",
+  "year": 1891,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a51d718b4619589e21f678991499ebd398519c19.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/6bc37c89907073822d43b0b6ec968c9484c649f8.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "No. 223. | of 1,000 persons of each by age. / Rural, | 0-4",
+   "No. 223. | of 1,000 persons of each by age. / Rural, | 5-14",
+   "No. 223. | of 1,000 persons of each by age. / Rural, | 15 and over.",
+   "No. 223. | Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population.",
+   "No. 223. | Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+   "No. 223. | Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+   "No. 223. | Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+   "No. 223. | Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each class.",
+   "No. 223. | Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+   "No. 223. | Urban and Rural percentages of each occupation under each age. / 0-4 | Urban.",
+   "No. 223. | Urban and Rural percentages of each occupation under each age. / 0-4 | Rural.",
+   "No. 223. | Urban and Rural percentages of each occupation under each age. / 5-14 | Urban.",
+   "No. 223. | Urban and Rural percentages of each occupation under each age. / 5-14 | Rural.",
+   "No. 223. | Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+   "No. 223. | Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+   "No. 223. | Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+   "No. 223. | Urban and Rural percentages of each occupation under each age. / All ages. | Rural."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.37.10",
+    "section": "No. 223.",
+    "row": "Row 38",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0-4 | Rural.",
+    "readings": [
+     97.0,
+     98.0
+    ]
+   },
+   {
+    "id": "0.39.2",
+    "section": "No. 223.",
+    "row": "Row 40",
+    "column": "of 1,000 persons of each by age. / Rural, | 15 and over.",
+    "readings": [
+     447.0
+    ]
+   },
+   {
+    "id": "0.34.8",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     14.0,
+     813.0,
+     10000.0
+    ]
+   },
+   {
+    "id": "0.45.5",
+    "section": "No. 223.",
+    "row": "Row 46",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     8.0,
+     4694.0,
+     8945.0
+    ]
+   },
+   {
+    "id": "0.47.0",
+    "section": "No. 223.",
+    "row": "Row 48",
+    "column": "of 1,000 persons of each by age. / Rural, | 0-4",
+    "readings": [
+     119.0,
+     137.0
+    ]
+   },
+   {
+    "id": "0.37.1",
+    "section": "No. 223.",
+    "row": "Row 38",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     295.0,
+     440.0,
+     462.0
+    ]
+   },
+   {
+    "id": "0.49.11",
+    "section": "No. 223.",
+    "row": "Row 50",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5-14 | Urban.",
+    "readings": [
+     2.0,
+     81.0
+    ]
+   },
+   {
+    "id": "0.36.8",
+    "section": "No. 223.",
+    "row": "Row 37",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     9.0,
+     813.0,
+     3085.0
+    ]
+   },
+   {
+    "id": "0.38.0",
+    "section": "No. 223.",
+    "row": "Row 39",
+    "column": "of 1,000 persons of each by age. / Rural, | 0-4",
+    "readings": [
+     113.0,
+     141.0
+    ]
+   },
+   {
+    "id": "0.35.3",
+    "section": "No. 223.",
+    "row": "Row 36",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population.",
+    "readings": [
+     2.0,
+     5.0,
+     20.0
+    ]
+   },
+   {
+    "id": "0.35.5",
+    "section": "No. 223.",
+    "row": "Row 36",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     339.0,
+     760.0,
+     3142.0
+    ]
+   },
+   {
+    "id": "0.5.14",
+    "section": "No. 223.",
+    "row": "Row 6",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     50.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.47.2",
+    "section": "No. 223.",
+    "row": "Row 48",
+    "column": "of 1,000 persons of each by age. / Rural, | 15 and over.",
+    "readings": [
+     601.0,
+     743.0,
+     1000.0
+    ]
+   },
+   {
+    "id": "0.35.1",
+    "section": "No. 223.",
+    "row": "Row 36",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     278.0,
+     359.0,
+     462.0
+    ]
+   },
+   {
+    "id": "0.46.2",
+    "section": "No. 223.",
+    "row": "Row 47",
+    "column": "of 1,000 persons of each by age. / Rural, | 15 and over.",
+    "readings": [
+     514.0,
+     558.0,
+     743.0
+    ]
+   },
+   {
+    "id": "0.34.9",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0-4 | Urban.",
+    "readings": [
+     2.0,
+     24.0,
+     34.0
+    ]
+   },
+   {
+    "id": "0.37.4",
+    "section": "No. 223.",
+    "row": "Row 38",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     129.0,
+     174.0
+    ]
+   },
+   {
+    "id": "0.34.13",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+    "readings": [
+     3.0,
+     30.0,
+     42.0
+    ]
+   },
+   {
+    "id": "0.46.5",
+    "section": "No. 223.",
+    "row": "Row 47",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     15.0,
+     4676.0,
+     8945.0
+    ]
+   },
+   {
+    "id": "0.49.6",
+    "section": "No. 223.",
+    "row": "Row 50",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     264.0
+    ]
+   },
+   {
+    "id": "0.34.10",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0-4 | Rural.",
+    "readings": [
+     66.0,
+     76.0,
+     98.0
+    ]
+   },
+   {
+    "id": "0.49.4",
+    "section": "No. 223.",
+    "row": "Row 50",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     15.0,
+     366.0
+    ]
+   },
+   {
+    "id": "0.34.16",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     62.0,
+     72.0,
+     98.0
+    ]
+   },
+   {
+    "id": "0.39.4",
+    "section": "No. 223.",
+    "row": "Row 40",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     174.0
+    ]
+   },
+   {
+    "id": "0.45.1",
+    "section": "No. 223.",
+    "row": "Row 46",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     243.0,
+     279.0,
+     342.0
+    ]
+   },
+   {
+    "id": "0.45.2",
+    "section": "No. 223.",
+    "row": "Row 46",
+    "column": "of 1,000 persons of each by age. / Rural, | 15 and over.",
+    "readings": [
+     514.0,
+     558.0,
+     622.0
+    ]
+   },
+   {
+    "id": "0.46.6",
+    "section": "No. 223.",
+    "row": "Row 47",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     160.0,
+     264.0
+    ]
+   },
+   {
+    "id": "0.44.14",
+    "section": "No. 223.",
+    "row": "Row 45",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     92.0,
+     94.0,
+     98.0
+    ]
+   },
+   {
+    "id": "0.38.10",
+    "section": "No. 223.",
+    "row": "Row 39",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0-4 | Rural.",
+    "readings": [
+     3.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.48.5",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     1.0,
+     4694.0
+    ]
+   },
+   {
+    "id": "0.48.0",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "of 1,000 persons of each by age. / Rural, | 0-4",
+    "readings": [
+     163.0
+    ]
+   },
+   {
+    "id": "0.48.14",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     60.0,
+     98.0
+    ]
+   },
+   {
+    "id": "0.46.4",
+    "section": "No. 223.",
+    "row": "Row 47",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     15.0,
+     192.0,
+     366.0
+    ]
+   },
+   {
+    "id": "0.44.1",
+    "section": "No. 223.",
+    "row": "Row 45",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     243.0,
+     262.0,
+     279.0
+    ]
+   },
+   {
+    "id": "0.48.1",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     279.0
+    ]
+   },
+   {
+    "id": "0.39.15",
+    "section": "No. 223.",
+    "row": "Row 40",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+    "readings": [
+     3.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.44.8",
+    "section": "No. 223.",
+    "row": "Row 45",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     1.0,
+     6.0,
+     6056.0
+    ]
+   },
+   {
+    "id": "0.44.12",
+    "section": "No. 223.",
+    "row": "Row 45",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5-14 | Rural.",
+    "readings": [
+     90.0,
+     92.0,
+     98.0
+    ]
+   },
+   {
+    "id": "0.48.2",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "of 1,000 persons of each by age. / Rural, | 15 and over.",
+    "readings": [
+     558.0,
+     1000.0
+    ]
+   },
+   {
+    "id": "0.34.4",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     14.0,
+     31.0,
+     10000.0
+    ]
+   },
+   {
+    "id": "0.48.11",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5-14 | Urban.",
+    "readings": [
+     2.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.48.7",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each class.",
+    "readings": [
+     317.0
+    ]
+   },
+   {
+    "id": "0.33.16",
+    "section": "No. 223.",
+    "row": "Row 34",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     15.0,
+     62.0,
+     72.0
+    ]
+   },
+   {
+    "id": "0.48.10",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0-4 | Rural.",
+    "readings": [
+     98.0
+    ]
+   },
+   {
+    "id": "0.33.7",
+    "section": "No. 223.",
+    "row": "Row 34",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each class.",
+    "readings": [
+     1.0,
+     16.0,
+     10000.0
+    ]
+   },
+   {
+    "id": "0.39.11",
+    "section": "No. 223.",
+    "row": "Row 40",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5-14 | Urban.",
+    "readings": [
+     2.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.33.6",
+    "section": "No. 223.",
+    "row": "Row 34",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     1.0,
+     416.0
+    ]
+   },
+   {
+    "id": "0.35.7",
+    "section": "No. 223.",
+    "row": "Row 36",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each class.",
+    "readings": [
+     1.0,
+     43.0,
+     162.0
+    ]
+   },
+   {
+    "id": "0.39.8",
+    "section": "No. 223.",
+    "row": "Row 40",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     3921.0
+    ]
+   },
+   {
+    "id": "0.44.5",
+    "section": "No. 223.",
+    "row": "Row 45",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     4.0,
+     18.0,
+     4694.0
+    ]
+   },
+   {
+    "id": "0.39.7",
+    "section": "No. 223.",
+    "row": "Row 40",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each class.",
+    "readings": [
+     206.0
+    ]
+   },
+   {
+    "id": "0.47.10",
+    "section": "No. 223.",
+    "row": "Row 48",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0-4 | Rural.",
+    "readings": [
+     27.0,
+     96.0
+    ]
+   },
+   {
+    "id": "0.35.0",
+    "section": "No. 223.",
+    "row": "Row 36",
+    "column": "of 1,000 persons of each by age. / Rural, | 0-4",
+    "readings": [
+     110.0,
+     125.0,
+     150.0
+    ]
+   },
+   {
+    "id": "0.48.15",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+    "readings": [
+     2.0,
+     54.0
+    ]
+   },
+   {
+    "id": "0.36.1",
+    "section": "No. 223.",
+    "row": "Row 37",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     295.0,
+     359.0,
+     462.0
+    ]
+   },
+   {
+    "id": "0.34.11",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5-14 | Urban.",
+    "readings": [
+     2.0,
+     26.0,
+     28.0
+    ]
+   },
+   {
+    "id": "0.49.15",
+    "section": "No. 223.",
+    "row": "Row 50",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+    "readings": [
+     2.0,
+     69.0
+    ]
+   },
+   {
+    "id": "0.49.9",
+    "section": "No. 223.",
+    "row": "Row 50",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0-4 | Urban.",
+    "readings": [
+     2.0,
+     74.0
+    ]
+   },
+   {
+    "id": "0.45.0",
+    "section": "No. 223.",
+    "row": "Row 46",
+    "column": "of 1,000 persons of each by age. / Rural, | 0-4",
+    "readings": [
+     135.0,
+     144.0,
+     163.0
+    ]
+   },
+   {
+    "id": "0.33.0",
+    "section": "No. 223.",
+    "row": "Row 34",
+    "column": "of 1,000 persons of each by age. / Rural, | 0-4",
+    "readings": [
+     117.0,
+     142.0,
+     150.0
+    ]
+   },
+   {
+    "id": "0.38.14",
+    "section": "No. 223.",
+    "row": "Row 39",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     97.0,
+     99.0
+    ]
+   },
+   {
+    "id": "0.48.4",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     192.0
+    ]
+   },
+   {
+    "id": "0.44.0",
+    "section": "No. 223.",
+    "row": "Row 45",
+    "column": "of 1,000 persons of each by age. / Rural, | 0-4",
+    "readings": [
+     135.0,
+     137.0,
+     163.0
+    ]
+   },
+   {
+    "id": "0.37.3",
+    "section": "No. 223.",
+    "row": "Row 38",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population.",
+    "readings": [
+     20.0,
+     27.0
+    ]
+   },
+   {
+    "id": "0.34.14",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     58.0,
+     70.0,
+     97.0
+    ]
+   },
+   {
+    "id": "0.49.1",
+    "section": "No. 223.",
+    "row": "Row 50",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     180.0,
+     342.0
+    ]
+   },
+   {
+    "id": "0.49.7",
+    "section": "No. 223.",
+    "row": "Row 50",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each class.",
+    "readings": [
+     2.0,
+     523.0
+    ]
+   },
+   {
+    "id": "0.38.13",
+    "section": "No. 223.",
+    "row": "Row 39",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+    "readings": [
+     1.0,
+     3.0
+    ]
+   },
+   {
+    "id": "0.48.12",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5-14 | Rural.",
+    "readings": [
+     98.0
+    ]
+   },
+   {
+    "id": "0.36.6",
+    "section": "No. 223.",
+    "row": "Row 37",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     22.0,
+     82.0
+    ]
+   },
+   {
+    "id": "0.33.13",
+    "section": "No. 223.",
+    "row": "Row 34",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+    "readings": [
+     30.0,
+     42.0,
+     86.0
+    ]
+   },
+   {
+    "id": "0.38.1",
+    "section": "No. 223.",
+    "row": "Row 39",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     295.0,
+     440.0
+    ]
+   },
+   {
+    "id": "0.37.9",
+    "section": "No. 223.",
+    "row": "Row 38",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0-4 | Urban.",
+    "readings": [
+     2.0,
+     3.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.44.2",
+    "section": "No. 223.",
+    "row": "Row 45",
+    "column": "of 1,000 persons of each by age. / Rural, | 15 and over.",
+    "readings": [
+     558.0,
+     601.0,
+     622.0
+    ]
+   },
+   {
+    "id": "0.47.13",
+    "section": "No. 223.",
+    "row": "Row 48",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+    "readings": [
+     6.0,
+     40.0,
+     66.0
+    ]
+   },
+   {
+    "id": "0.44.13",
+    "section": "No. 223.",
+    "row": "Row 45",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+    "readings": [
+     2.0,
+     6.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.34.6",
+    "section": "No. 223.",
+    "row": "Row 35",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     22.0,
+     416.0
+    ]
+   },
+   {
+    "id": "0.48.16",
+    "section": "No. 223.",
+    "row": "Row 49",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     46.0,
+     98.0
+    ]
+   },
+   {
+    "id": "0.46.1",
+    "section": "No. 223.",
+    "row": "Row 47",
+    "column": "of 1,000 persons of each by age. / Rural, | 5-14",
+    "readings": [
+     138.0,
+     279.0,
+     342.0
+    ]
+   },
+   {
+    "id": "0.39.12",
+    "section": "No. 223.",
+    "row": "Row 40",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5-14 | Rural.",
+    "readings": [
+     98.0
+    ]
+   }
+  ],
+  "n_disputed": 168
+ },
+ {
+  "page": "1931_India_Marital_condition_of_selected_castes_et_c53ef76",
+  "title": "Marital condition of selected castes, etc. tribes, races and Muslim social groups by sexes at age-groups.",
+  "year": 1931,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e99c6772ef45348189ab72e201e194bbf57a2874.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Marital condition of selected castes, et | Married | All ages.",
+   "Marital condition of selected castes, et | Married | 0-6",
+   "Marital condition of selected castes, et | Married | 7-13",
+   "Marital condition of selected castes, et | Married | 14-16",
+   "Marital condition of selected castes, et | Married | 17-23",
+   "Marital condition of selected castes, et | Married | 24-43",
+   "Marital condition of selected castes, et | Married | 44 & over",
+   "Marital condition of selected castes, et | Widowed | All ages.",
+   "Marital condition of selected castes, et | Widowed | 0-6",
+   "Marital condition of selected castes, et | Widowed | 7-13",
+   "Marital condition of selected castes, et | Widowed | 14-16",
+   "Marital condition of selected castes, et | Widowed | 17-23",
+   "Marital condition of selected castes, et | Widowed | 24-43",
+   "Marital condition of selected castes, et | Widowed | 44 & over"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.87.12",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 88",
+    "column": "Widowed | 24-43",
+    "readings": [
+     54.0
+    ]
+   },
+   {
+    "id": "0.85.7",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 86",
+    "column": "Widowed | All ages.",
+    "readings": [
+     1.0,
+     11415.0
+    ]
+   },
+   {
+    "id": "0.34.12",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 35",
+    "column": "Widowed | 24-43",
+    "readings": [
+     4.0,
+     20.0
+    ]
+   },
+   {
+    "id": "0.70.7",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 71",
+    "column": "Widowed | All ages.",
+    "readings": [
+     920.0
+    ]
+   },
+   {
+    "id": "0.69.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 70",
+    "column": "Married | All ages.",
+    "readings": [
+     177.0,
+     2254.0
+    ]
+   },
+   {
+    "id": "0.93.3",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 94",
+    "column": "Married | 14-16",
+    "readings": [
+     2.0,
+     1411.0
+    ]
+   },
+   {
+    "id": "0.84.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 85",
+    "column": "Married | All ages.",
+    "readings": [
+     4.0,
+     60255.0
+    ]
+   },
+   {
+    "id": "0.62.1",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 63",
+    "column": "Married | 0-6",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.30.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 31",
+    "column": "Married | 24-43",
+    "readings": [
+     4.0,
+     1376.0
+    ]
+   },
+   {
+    "id": "0.19.13",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 20",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.62.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 63",
+    "column": "Married | 24-43",
+    "readings": [
+     2.0,
+     168.0
+    ]
+   },
+   {
+    "id": "0.76.2",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 77",
+    "column": "Married | 7-13",
+    "readings": [
+     1.0,
+     1039.0
+    ]
+   },
+   {
+    "id": "0.68.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 69",
+    "column": "Married | 44 & over",
+    "readings": [
+     7.0,
+     79.0
+    ]
+   },
+   {
+    "id": "0.47.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 48",
+    "column": "Married | 44 & over",
+    "readings": [
+     2.0,
+     304.0
+    ]
+   },
+   {
+    "id": "0.78.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 79",
+    "column": "Married | 44 & over",
+    "readings": [
+     4.0,
+     387.0
+    ]
+   },
+   {
+    "id": "0.25.13",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 26",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.40.2",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 41",
+    "column": "Married | 7-13",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.31.3",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 32",
+    "column": "Married | 14-16",
+    "readings": [
+     94.0
+    ]
+   },
+   {
+    "id": "0.58.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 59",
+    "column": "Married | 24-43",
+    "readings": [
+     44.0,
+     103.0
+    ]
+   },
+   {
+    "id": "0.38.2",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 39",
+    "column": "Married | 7-13",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.47.9",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 48",
+    "column": "Widowed | 7-13",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.20.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 21",
+    "column": "Married | All ages.",
+    "readings": [
+     9.0,
+     12.0
+    ]
+   },
+   {
+    "id": "0.76.7",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 77",
+    "column": "Widowed | All ages.",
+    "readings": [
+     7.0,
+     11415.0
+    ]
+   },
+   {
+    "id": "0.54.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 55",
+    "column": "Married | 44 & over",
+    "readings": [
+     46.0
+    ]
+   },
+   {
+    "id": "0.16.3",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 17",
+    "column": "Married | 14-16",
+    "readings": [
+     14.0,
+     37.0
+    ]
+   },
+   {
+    "id": "0.24.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 25",
+    "column": "Married | All ages.",
+    "readings": [
+     3.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.65.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 66",
+    "column": "Married | All ages.",
+    "readings": [
+     6.0,
+     56.0
+    ]
+   },
+   {
+    "id": "0.79.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 80",
+    "column": "Married | All ages.",
+    "readings": [
+     8.0,
+     1816.0
+    ]
+   },
+   {
+    "id": "0.10.13",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 11",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.68.7",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 69",
+    "column": "Widowed | All ages.",
+    "readings": [
+     7.0,
+     55.0
+    ]
+   },
+   {
+    "id": "0.34.4",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 35",
+    "column": "Married | 17-23",
+    "readings": [
+     15.0,
+     231.0
+    ]
+   },
+   {
+    "id": "0.52.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 53",
+    "column": "Married | All ages.",
+    "readings": [
+     2712.0,
+     3686.0
+    ]
+   },
+   {
+    "id": "0.50.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 51",
+    "column": "Married | 24-43",
+    "readings": [
+     10.0,
+     856.0
+    ]
+   },
+   {
+    "id": "0.55.13",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 56",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "0.38.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 39",
+    "column": "Married | 24-43",
+    "readings": [
+     48.0,
+     89.0
+    ]
+   },
+   {
+    "id": "0.52.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 53",
+    "column": "Married | 24-43",
+    "readings": [
+     1610.0,
+     2183.0
+    ]
+   },
+   {
+    "id": "0.41.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 42",
+    "column": "Married | All ages.",
+    "readings": [
+     154.0,
+     246.0
+    ]
+   },
+   {
+    "id": "0.31.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 32",
+    "column": "Married | 44 & over",
+    "readings": [
+     3.0,
+     321.0
+    ]
+   },
+   {
+    "id": "0.37.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 38",
+    "column": "Married | 24-43",
+    "readings": [
+     2.0,
+     76.0
+    ]
+   },
+   {
+    "id": "0.90.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 91",
+    "column": "Married | 44 & over",
+    "readings": [
+     4.0,
+     13.0
+    ]
+   },
+   {
+    "id": "0.12.4",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 13",
+    "column": "Married | 17-23",
+    "readings": [
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "0.93.4",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 94",
+    "column": "Married | 17-23",
+    "readings": [
+     15.0,
+     3041.0
+    ]
+   },
+   {
+    "id": "0.15.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 16",
+    "column": "Married | 24-43",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.23.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 24",
+    "column": "Married | 44 & over",
+    "readings": [
+     6.0,
+     22.0
+    ]
+   },
+   {
+    "id": "0.88.2",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 89",
+    "column": "Married | 7-13",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.90.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 91",
+    "column": "Married | 24-43",
+    "readings": [
+     22.0,
+     67.0
+    ]
+   },
+   {
+    "id": "0.88.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 89",
+    "column": "Married | All ages.",
+    "readings": [
+     61.0,
+     164.0
+    ]
+   },
+   {
+    "id": "0.73.7",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 74",
+    "column": "Widowed | All ages.",
+    "readings": [
+     3.0,
+     114.0
+    ]
+   },
+   {
+    "id": "0.49.13",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 50",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     478.0
+    ]
+   },
+   {
+    "id": "0.46.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 47",
+    "column": "Married | 24-43",
+    "readings": [
+     22.0,
+     856.0
+    ]
+   },
+   {
+    "id": "0.90.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 91",
+    "column": "Married | All ages.",
+    "readings": [
+     61.0,
+     103.0
+    ]
+   },
+   {
+    "id": "0.83.1",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 84",
+    "column": "Married | 0-6",
+    "readings": [
+     4.0,
+     64.0
+    ]
+   },
+   {
+    "id": "0.31.10",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 32",
+    "column": "Widowed | 14-16",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.48.9",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 49",
+    "column": "Widowed | 7-13",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.74.4",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 75",
+    "column": "Married | 17-23",
+    "readings": [
+     201.0
+    ]
+   },
+   {
+    "id": "0.82.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 83",
+    "column": "Married | All ages.",
+    "readings": [
+     1293.0,
+     26975.0
+    ]
+   },
+   {
+    "id": "0.52.4",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 53",
+    "column": "Married | 17-23",
+    "readings": [
+     254.0,
+     358.0
+    ]
+   },
+   {
+    "id": "0.67.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 68",
+    "column": "Married | All ages.",
+    "readings": [
+     9.0,
+     55.0
+    ]
+   },
+   {
+    "id": "0.55.4",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 56",
+    "column": "Married | 17-23",
+    "readings": [
+     26.0
+    ]
+   },
+   {
+    "id": "0.71.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 72",
+    "column": "Married | All ages.",
+    "readings": [
+     2.0,
+     24.0
+    ]
+   },
+   {
+    "id": "0.59.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 60",
+    "column": "Married | All ages.",
+    "readings": [
+     6.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.89.7",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 90",
+    "column": "Widowed | All ages.",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.47.2",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 48",
+    "column": "Married | 7-13",
+    "readings": [
+     70.0
+    ]
+   },
+   {
+    "id": "0.82.13",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 83",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     75.0,
+     759.0
+    ]
+   },
+   {
+    "id": "0.53.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 54",
+    "column": "Married | All ages.",
+    "readings": [
+     2073.0,
+     2617.0
+    ]
+   },
+   {
+    "id": "0.41.3",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 42",
+    "column": "Married | 14-16",
+    "readings": [
+     2.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.73.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 74",
+    "column": "Married | All ages.",
+    "readings": [
+     56.0,
+     1293.0
+    ]
+   },
+   {
+    "id": "0.75.10",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 76",
+    "column": "Widowed | 14-16",
+    "readings": [
+     1.0,
+     4.0
+    ]
+   },
+   {
+    "id": "0.49.2",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 50",
+    "column": "Married | 7-13",
+    "readings": [
+     47.0
+    ]
+   },
+   {
+    "id": "0.36.13",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 37",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     1.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.87.13",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 88",
+    "column": "Widowed | 44 & over",
+    "readings": [
+     110.0
+    ]
+   },
+   {
+    "id": "0.22.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 23",
+    "column": "Married | 44 & over",
+    "readings": [
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "0.37.11",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 38",
+    "column": "Widowed | 17-23",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.47.7",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 48",
+    "column": "Widowed | All ages.",
+    "readings": [
+     3.0,
+     201.0
+    ]
+   },
+   {
+    "id": "0.21.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 22",
+    "column": "Married | All ages.",
+    "readings": [
+     7.0,
+     13.0
+    ]
+   },
+   {
+    "id": "0.60.0",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 61",
+    "column": "Married | All ages.",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.34.5",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 35",
+    "column": "Married | 24-43",
+    "readings": [
+     48.0,
+     1376.0
+    ]
+   },
+   {
+    "id": "0.48.3",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 49",
+    "column": "Married | 14-16",
+    "readings": [
+     72.0
+    ]
+   },
+   {
+    "id": "0.38.6",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 39",
+    "column": "Married | 44 & over",
+    "readings": [
+     29.0,
+     72.0
+    ]
+   },
+   {
+    "id": "0.69.1",
+    "section": "Marital condition of selected castes, etc. tribes, races and",
+    "row": "Row 70",
+    "column": "Married | 0-6",
+    "readings": [
+     1.0
+    ]
+   }
+  ],
+  "n_disputed": 605
+ },
+ {
+  "page": "1881_Madras_Table_No._55_showing_the_Proportion_of_356dc94",
+  "title": "Table No. 55, showing the Proportion of Persons in the Age Periods mentioned in Column 1 according to (1) the Life Table, (2) the Census of 1871, and (3) the Census of 1881 - \"Famine\" and \"Non-Famine\" Tracts being separately given.",
+  "year": 1881,
+  "place": "Madras",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/fba4bee80db48adff6f3ac0b38cd5666f44774fd.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Table No. 55, showing the Proportion of  | Life Table | Males",
+   "Table No. 55, showing the Proportion of  | Life Table | Females",
+   "Table No. 55, showing the Proportion of  | Life Table | Both Sexes",
+   "Table No. 55, showing the Proportion of  | 1871 | Males",
+   "Table No. 55, showing the Proportion of  | 1871 | Females",
+   "Table No. 55, showing the Proportion of  | 1871 | Both Sexes",
+   "Table No. 55, showing the Proportion of  | 1881 / Non-Famine | Males",
+   "Table No. 55, showing the Proportion of  | 1881 / Non-Famine | Females",
+   "Table No. 55, showing the Proportion of  | 1881 / Non-Famine | Both Sexes",
+   "Table No. 55, showing the Proportion of  | 1881 / Famine | Males",
+   "Table No. 55, showing the Proportion of  | 1881 / Famine | Females",
+   "Table No. 55, showing the Proportion of  | 1881 / Famine | Both Sexes",
+   "Table No. 55, showing the Proportion of  | 1881 / Total | Males",
+   "Table No. 55, showing the Proportion of  | 1881 / Total | Females",
+   "Table No. 55, showing the Proportion of  | 1881 / Total | Both Sexes"
+  ],
+  "task": "disputes",
+  "cells": [],
+  "n_disputed": 0
+ },
+ {
+  "page": "1901_Pattanapuram_Taluk_TABLE_VII._Age_Sex_and_Civil_Condition_47fa294",
+  "title": "TABLE VII. Age, Sex and Civil Condition (half-page merge)",
+  "year": 1901,
+  "place": "Pattanapuram Taluk",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/9bc2fe99feeccd9d7d53588b121d30b58760f26a.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/c2d6fe4a6d3c8a030cd89f49efcef942a2be473a.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/7db445507738fb57e3c6534a9b2e027ea491def2.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/6731f5ecf5b90af31c7c435a5766dee08895151c.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/06f2a5060301e44a2fb2e5322bc908571967c31a.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a6559e16e912fa9fc14d625ec5516c00e36792f7.jpg"
+  ],
+  "n_images_total": 7,
+  "reading_columns": [
+   "D\u2014CHRISTIAN | POPULATION | Persons",
+   "D\u2014CHRISTIAN | POPULATION | Males",
+   "D\u2014CHRISTIAN | POPULATION | Females",
+   "D\u2014CHRISTIAN | UNMARRIED | Persons",
+   "D\u2014CHRISTIAN | UNMARRIED | Males",
+   "D\u2014CHRISTIAN | UNMARRIED | Females",
+   "D\u2014CHRISTIAN | MARRIED | Persons",
+   "D\u2014CHRISTIAN | MARRIED | Males",
+   "D\u2014CHRISTIAN | MARRIED | Females",
+   "D\u2014CHRISTIAN | WIDOWED | Persons",
+   "D\u2014CHRISTIAN | WIDOWED | Males",
+   "D\u2014CHRISTIAN | WIDOWED | Females",
+   "E\u2014ANIMISTIC | POPULATION | Persons",
+   "E\u2014ANIMISTIC | POPULATION | Males",
+   "E\u2014ANIMISTIC | POPULATION | Females",
+   "E\u2014ANIMISTIC | UNMARRIED | Persons",
+   "E\u2014ANIMISTIC | UNMARRIED | Males",
+   "E\u2014ANIMISTIC | UNMARRIED | Females",
+   "E\u2014ANIMISTIC | MARRIED | Persons",
+   "E\u2014ANIMISTIC | MARRIED | Males",
+   "E\u2014ANIMISTIC | MARRIED | Females",
+   "E\u2014ANIMISTIC | WIDOWED | Persons",
+   "E\u2014ANIMISTIC | WIDOWED | Males",
+   "E\u2014ANIMISTIC | WIDOWED | Females",
+   "H\u2014PARSI | POPULATION | Persons",
+   "H\u2014PARSI | POPULATION | Males",
+   "H\u2014PARSI | POPULATION | Females",
+   "H\u2014PARSI | UNMARRIED | Persons",
+   "H\u2014PARSI | UNMARRIED | Males",
+   "H\u2014PARSI | UNMARRIED | Females",
+   "H\u2014PARSI | MARRIED | Persons",
+   "H\u2014PARSI | MARRIED | Males",
+   "H\u2014PARSI | MARRIED | Females",
+   "H\u2014PARSI | WIDOWED | Persons",
+   "H\u2014PARSI | WIDOWED | Males",
+   "H\u2014PARSI | WIDOWED | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "All / Total",
+    "row": "0",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 1,
+    "section": "All / Total",
+    "row": "0-5",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 2,
+    "section": "All / Total",
+    "row": "0",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 3,
+    "section": "All / Total",
+    "row": "0-5",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 4,
+    "section": "All / Total",
+    "row": "1",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 5,
+    "section": "All / Total",
+    "row": "1",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 6,
+    "section": "All / Total",
+    "row": "2",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 7,
+    "section": "All / Total",
+    "row": "2",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 8,
+    "section": "All / Total",
+    "row": "3",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 9,
+    "section": "All / Total",
+    "row": "3",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 10,
+    "section": "All / Total",
+    "row": "4",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 11,
+    "section": "All / Total",
+    "row": "4",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 12,
+    "section": "All / Total",
+    "row": "5-10",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 13,
+    "section": "All / Total",
+    "row": "5-10",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 14,
+    "section": "All / Total",
+    "row": "10-15",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 15,
+    "section": "All / Total",
+    "row": "10-15",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 16,
+    "section": "All / Total",
+    "row": "15-20",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 17,
+    "section": "All / Total",
+    "row": "15-20",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 18,
+    "section": "All / Total",
+    "row": "20-25",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 19,
+    "section": "All / Total",
+    "row": "20-25",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 20,
+    "section": "All / Total",
+    "row": "25-30",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 21,
+    "section": "All / Total",
+    "row": "25-30",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 22,
+    "section": "All / Total",
+    "row": "30-35",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 23,
+    "section": "All / Total",
+    "row": "30-35",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 24,
+    "section": "All / Total",
+    "row": "35-40",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 25,
+    "section": "All / Total",
+    "row": "35-40",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 26,
+    "section": "All / Total",
+    "row": "40-45",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 27,
+    "section": "All / Total",
+    "row": "40-45",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 28,
+    "section": "All / Total",
+    "row": "45-50",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 29,
+    "section": "All / Total",
+    "row": "45-50",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 30,
+    "section": "All / Total",
+    "row": "50-55",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 31,
+    "section": "All / Total",
+    "row": "50-55",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 32,
+    "section": "All / Total",
+    "row": "55-60",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 33,
+    "section": "All / Total",
+    "row": "55-60",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 34,
+    "section": "All / Total",
+    "row": "60-65",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 35,
+    "section": "All / Total",
+    "row": "60-65",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 36,
+    "section": "All / Total",
+    "row": "Total",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 37,
+    "section": "All / Total",
+    "row": "Total",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 38,
+    "section": "Hindu",
+    "row": "0-1",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 39,
+    "section": "Hindu",
+    "row": "0-1",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 40,
+    "section": "Hindu",
+    "row": "0-1",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 41,
+    "section": "Hindu",
+    "row": "0-1",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 42,
+    "section": "Hindu",
+    "row": "1-2",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 43,
+    "section": "Hindu",
+    "row": "1-2",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 44,
+    "section": "Hindu",
+    "row": "1-2",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 45,
+    "section": "Hindu",
+    "row": "1-2",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 46,
+    "section": "Hindu",
+    "row": "2-3",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 47,
+    "section": "Hindu",
+    "row": "2-3",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 48,
+    "section": "Hindu",
+    "row": "2-3",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 49,
+    "section": "Hindu",
+    "row": "2-3",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 50,
+    "section": "Hindu",
+    "row": "3-4",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 51,
+    "section": "Hindu",
+    "row": "3-4",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 52,
+    "section": "Hindu",
+    "row": "3-4",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 53,
+    "section": "Hindu",
+    "row": "3-4",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 54,
+    "section": "Hindu",
+    "row": "4-5",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 55,
+    "section": "Hindu",
+    "row": "4-5",
+    "column_group": "POPULATION"
+   },
+   {
+    "id": 56,
+    "section": "Hindu",
+    "row": "4-5",
+    "column_group": "UNMARRIED"
+   },
+   {
+    "id": 57,
+    "section": "Hindu",
+    "row": "4-5",
+    "column_group": "WIDOWED"
+   },
+   {
+    "id": 58,
+    "section": "Hindu",
+    "row": "Total 0-5",
+    "column_group": "MARRIED"
+   },
+   {
+    "id": 59,
+    "section": "Hindu",
+    "row": "Total 0-5",
+    "column_group": "POPULATION"
+   }
+  ]
+ },
+ {
+  "page": "1951_Madhya_Pradesh_Table_155_Middle-Aged_persons_aged_35_5_ff17e0b",
+  "title": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+  "year": 1951,
+  "place": "Madhya Pradesh",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/7355ebc0601f9149aa9f478a64442c4311023742.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Table 155 Middle-Aged persons (aged 35\u20145 | General population / 1951 | Persons",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | General population / 1951 | Males",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | General population / 1951 | Females",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | General population / 1941 | Persons",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | Rural population | Males",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | Rural population | Females",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | Urban population | Males",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | Urban population | Females",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | Agricultural population | Males",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | Agricultural population | Females",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | Non-agricultural population | Males",
+   "Table 155 Middle-Aged persons (aged 35\u20145 | Non-agricultural population | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Madhya Pradesh",
+    "column_group": "General population 1951"
+   },
+   {
+    "id": 1,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Madhya Pradesh",
+    "column_group": "Rural population"
+   },
+   {
+    "id": 2,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Madhya Pradesh",
+    "column_group": "Urban population"
+   },
+   {
+    "id": 3,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Madhya Pradesh",
+    "column_group": "Agricultural population"
+   },
+   {
+    "id": 4,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Madhya Pradesh",
+    "column_group": "Non-agricultural population"
+   },
+   {
+    "id": 5,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "North-West Madhya Pradesh Division",
+    "column_group": "General population 1951"
+   },
+   {
+    "id": 6,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "North-West Madhya Pradesh Division",
+    "column_group": "Rural population"
+   },
+   {
+    "id": 7,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "North-West Madhya Pradesh Division",
+    "column_group": "Urban population"
+   },
+   {
+    "id": 8,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "North-West Madhya Pradesh Division",
+    "column_group": "Agricultural population"
+   },
+   {
+    "id": 9,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "North-West Madhya Pradesh Division",
+    "column_group": "Non-agricultural population"
+   },
+   {
+    "id": 10,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Nerbudda Valley",
+    "column_group": "General population 1951"
+   },
+   {
+    "id": 11,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Nerbudda Valley",
+    "column_group": "Rural population"
+   },
+   {
+    "id": 12,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Nerbudda Valley",
+    "column_group": "Urban population"
+   },
+   {
+    "id": 13,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Nerbudda Valley",
+    "column_group": "Agricultural population"
+   },
+   {
+    "id": 14,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Nerbudda Valley",
+    "column_group": "Non-agricultural population"
+   },
+   {
+    "id": 15,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Plateau",
+    "column_group": "General population 1951"
+   },
+   {
+    "id": 16,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Plateau",
+    "column_group": "Rural population"
+   },
+   {
+    "id": 17,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Plateau",
+    "column_group": "Urban population"
+   },
+   {
+    "id": 18,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Plateau",
+    "column_group": "Agricultural population"
+   },
+   {
+    "id": 19,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Plateau",
+    "column_group": "Non-agricultural population"
+   },
+   {
+    "id": 20,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Madhya Pradesh Division",
+    "column_group": "General population 1951"
+   },
+   {
+    "id": 21,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Madhya Pradesh Division",
+    "column_group": "Rural population"
+   },
+   {
+    "id": 22,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Madhya Pradesh Division",
+    "column_group": "Urban population"
+   },
+   {
+    "id": 23,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Madhya Pradesh Division",
+    "column_group": "Agricultural population"
+   },
+   {
+    "id": 24,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Madhya Pradesh Division",
+    "column_group": "Non-agricultural population"
+   },
+   {
+    "id": 25,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Chhattisgarh Plain",
+    "column_group": "General population 1951"
+   },
+   {
+    "id": 26,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Chhattisgarh Plain",
+    "column_group": "Rural population"
+   },
+   {
+    "id": 27,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Chhattisgarh Plain",
+    "column_group": "Urban population"
+   },
+   {
+    "id": 28,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Chhattisgarh Plain",
+    "column_group": "Agricultural population"
+   },
+   {
+    "id": 29,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "Chhattisgarh Plain",
+    "column_group": "Non-agricultural population"
+   },
+   {
+    "id": 30,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Maratha Plain",
+    "column_group": "General population 1951"
+   },
+   {
+    "id": 31,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Maratha Plain",
+    "column_group": "Rural population"
+   },
+   {
+    "id": 32,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Maratha Plain",
+    "column_group": "Urban population"
+   },
+   {
+    "id": 33,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Maratha Plain",
+    "column_group": "Agricultural population"
+   },
+   {
+    "id": 34,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "East Maratha Plain",
+    "column_group": "Non-agricultural population"
+   },
+   {
+    "id": 35,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "South-West Madhya Pradesh Division",
+    "column_group": "General population 1951"
+   },
+   {
+    "id": 36,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "South-West Madhya Pradesh Division",
+    "column_group": "Rural population"
+   },
+   {
+    "id": 37,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "South-West Madhya Pradesh Division",
+    "column_group": "Urban population"
+   },
+   {
+    "id": 38,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "South-West Madhya Pradesh Division",
+    "column_group": "Agricultural population"
+   },
+   {
+    "id": 39,
+    "section": "Table 155 Middle-Aged persons (aged 35\u201454) per 10,000 persons.",
+    "row": "South-West Madhya Pradesh Division",
+    "column_group": "Non-agricultural population"
+   }
+  ]
+ }
+]

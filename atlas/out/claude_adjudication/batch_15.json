@@ -1,0 +1,5901 @@
+[
+ {
+  "page": "1891_Bombay_Table_VII._Ages_by_Religions_0f9767f",
+  "title": "Table VII. Ages by Religions",
+  "year": 1891,
+  "place": "Bombay",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/854293d31537623071314ef5504f2f318ee86648.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/92fbd549739cf815a5854a3d60e0d01e95c94d0c.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/14354b300fa4c53c028f5809a38bd1a43a311b0b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/119ed1d11721bbe62a8707c22b5a983509534a9a.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/3d4a9b9a031df0f584b342c926a5e0dae182229d.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/cd63f045a746834d05b0a56b04b722e5cf2b105b.jpg"
+  ],
+  "n_images_total": 11,
+  "reading_columns": [
+   "Part (A).-Total Population | Total Population | Total",
+   "Part (A).-Total Population | Total Population | Males",
+   "Part (A).-Total Population | Total Population | Females",
+   "Part (A).-Total Population | Under 1 Year | Males",
+   "Part (A).-Total Population | Under 1 Year | Females",
+   "Part (A).-Total Population | 1 Year | Males",
+   "Part (A).-Total Population | 1 Year | Females",
+   "Part (A).-Total Population | 2 Years | Males",
+   "Part (A).-Total Population | 2 Years | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.6.7",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Gujar\u00e1t",
+    "column": "2 Years | Males",
+    "readings": [
+     41868.0
+    ]
+   },
+   {
+    "id": "0.27.1",
+    "section": "Part (A).-Total Population",
+    "row": "Thar and P\u00e1rkar",
+    "column": "Total Population | Males",
+    "readings": [
+     165225.0
+    ]
+   },
+   {
+    "id": "0.29.1",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Sind",
+    "column": "Total Population | Males",
+    "readings": [
+     1568590.0
+    ]
+   },
+   {
+    "id": "0.27.3",
+    "section": "Part (A).-Total Population",
+    "row": "Thar and P\u00e1rkar",
+    "column": "Under 1 Year | Males",
+    "readings": [
+     5595.0
+    ]
+   },
+   {
+    "id": "0.9.1",
+    "section": "Part (A).-Total Population",
+    "row": "Ratn\u00e1giri",
+    "column": "Total Population | Males",
+    "readings": [
+     513616.0
+    ]
+   },
+   {
+    "id": "0.26.6",
+    "section": "Part (A).-Total Population",
+    "row": "Shik\u00e1rpur",
+    "column": "1 Year | Females",
+    "readings": [
+     5990.0
+    ]
+   },
+   {
+    "id": "0.21.3",
+    "section": "Part (A).-Total Population",
+    "row": "Bij\u00e1pur",
+    "column": "Under 1 Year | Males",
+    "readings": [
+     15938.0
+    ]
+   },
+   {
+    "id": "0.26.1",
+    "section": "Part (A).-Total Population",
+    "row": "Shik\u00e1rpur",
+    "column": "Total Population | Males",
+    "readings": [
+     493872.0
+    ]
+   },
+   {
+    "id": "0.26.5",
+    "section": "Part (A).-Total Population",
+    "row": "Shik\u00e1rpur",
+    "column": "1 Year | Males",
+    "readings": [
+     5665.0
+    ]
+   },
+   {
+    "id": "0.9.8",
+    "section": "Part (A).-Total Population",
+    "row": "Ratn\u00e1giri",
+    "column": "2 Years | Females",
+    "readings": [
+     20088.0
+    ]
+   },
+   {
+    "id": "0.28.7",
+    "section": "Part (A).-Total Population",
+    "row": "Upper Sind Frontier",
+    "column": "2 Years | Males",
+    "readings": [
+     3020.0
+    ]
+   },
+   {
+    "id": "0.31.1",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Feudatories",
+    "column": "Total Population | Males",
+    "readings": [
+     4109546.0
+    ]
+   },
+   {
+    "id": "0.30.0",
+    "section": "Part (A).-Total Population",
+    "row": "Total, British Territory",
+    "column": "Total Population | Total",
+    "readings": [
+     18857044.0
+    ]
+   },
+   {
+    "id": "0.24.5",
+    "section": "Part (A).-Total Population",
+    "row": "Kar\u00e1chi",
+    "column": "1 Year | Males",
+    "readings": [
+     2545.0
+    ]
+   },
+   {
+    "id": "0.31.7",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Feudatories",
+    "column": "2 Years | Males",
+    "readings": [
+     123475.0
+    ]
+   },
+   {
+    "id": "0.14.8",
+    "section": "Part (A).-Total Population",
+    "row": "Ahmednagar",
+    "column": "2 Years | Females",
+    "readings": [
+     16020.0
+    ]
+   },
+   {
+    "id": "0.29.4",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Sind",
+    "column": "Under 1 Year | Females",
+    "readings": [
+     56097.0
+    ]
+   },
+   {
+    "id": "0.18.0",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Deccan",
+    "column": "Total Population | Total",
+    "readings": [
+     6237666.0
+    ]
+   },
+   {
+    "id": "0.15.0",
+    "section": "Part (A).-Total Population",
+    "row": "Poona",
+    "column": "Total Population | Total",
+    "readings": [
+     1067800.0
+    ]
+   },
+   {
+    "id": "0.23.3",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Presidency Proper",
+    "column": "Under 1 Year | Males",
+    "readings": [
+     279813.0
+    ]
+   },
+   {
+    "id": "0.31.8",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Feudatories",
+    "column": "2 Years | Females",
+    "readings": [
+     132950.0
+    ]
+   },
+   {
+    "id": "0.20.1",
+    "section": "Part (A).-Total Population",
+    "row": "Dh\u00e1rw\u00e1r",
+    "column": "Total Population | Males",
+    "readings": [
+     528071.0
+    ]
+   },
+   {
+    "id": "0.28.1",
+    "section": "Part (A).-Total Population",
+    "row": "Upper Sind Frontier",
+    "column": "Total Population | Males",
+    "readings": [
+     96273.0
+    ]
+   },
+   {
+    "id": "0.9.4",
+    "section": "Part (A).-Total Population",
+    "row": "Ratn\u00e1giri",
+    "column": "Under 1 Year | Females",
+    "readings": [
+     17599.0
+    ]
+   },
+   {
+    "id": "0.20.2",
+    "section": "Part (A).-Total Population",
+    "row": "Dh\u00e1rw\u00e1r",
+    "column": "Total Population | Females",
+    "readings": [
+     523243.0
+    ]
+   },
+   {
+    "id": "0.9.3",
+    "section": "Part (A).-Total Population",
+    "row": "Ratn\u00e1giri",
+    "column": "Under 1 Year | Males",
+    "readings": [
+     17320.0
+    ]
+   },
+   {
+    "id": "0.12.5",
+    "section": "Part (A).-Total Population",
+    "row": "Kh\u00e1ndesh",
+    "column": "1 Year | Males",
+    "readings": [
+     11085.0
+    ]
+   },
+   {
+    "id": "0.21.8",
+    "section": "Part (A).-Total Population",
+    "row": "Bij\u00e1pur",
+    "column": "2 Years | Females",
+    "readings": [
+     14383.0
+    ]
+   },
+   {
+    "id": "0.25.5",
+    "section": "Part (A).-Total Population",
+    "row": "Hyderabad",
+    "column": "1 Year | Males",
+    "readings": [
+     6261.0
+    ]
+   },
+   {
+    "id": "0.23.8",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Presidency Proper",
+    "column": "2 Years | Females",
+    "readings": [
+     265253.0
+    ]
+   },
+   {
+    "id": "0.17.5",
+    "section": "Part (A).-Total Population",
+    "row": "S\u00e1t\u00e1ra",
+    "column": "1 Year | Males",
+    "readings": [
+     11811.0
+    ]
+   },
+   {
+    "id": "0.33.7",
+    "section": "Part (A).-Total Population",
+    "row": "Aden",
+    "column": "2 Years | Males",
+    "readings": [
+     311.0
+    ]
+   },
+   {
+    "id": "0.23.6",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Presidency Proper",
+    "column": "1 Year | Females",
+    "readings": [
+     147633.0
+    ]
+   },
+   {
+    "id": "0.2.7",
+    "section": "Part (A).-Total Population",
+    "row": "Kaira",
+    "column": "2 Years | Males",
+    "readings": [
+     11885.0
+    ]
+   },
+   {
+    "id": "0.1.2",
+    "section": "Part (A).-Total Population",
+    "row": "Ahmedabad",
+    "column": "Total Population | Females",
+    "readings": [
+     448149.0
+    ]
+   },
+   {
+    "id": "0.1.7",
+    "section": "Part (A).-Total Population",
+    "row": "Ahmedabad",
+    "column": "2 Years | Males",
+    "readings": [
+     12112.0
+    ]
+   },
+   {
+    "id": "0.22.7",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Karnatak",
+    "column": "2 Years | Males",
+    "readings": [
+     49098.0
+    ]
+   },
+   {
+    "id": "0.6.2",
+    "section": "Part (A).-Total Population",
+    "row": "Total, Gujar\u00e1t",
+    "column": "Total Population | Females",
+    "readings": [
+     1505334.0
+    ]
+   },
+   {
+    "id": "0.21.1",
+    "section": "Part (A).-Total Population",
+    "row": "Bij\u00e1pur",
+    "column": "Total Population | Males",
+    "readings": [
+     398104.0
+    ]
+   },
+   {
+    "id": "0.27.6",
+    "section": "Part (A).-Total Population",
+    "row": "Thar and P\u00e1rkar",
+    "column": "1 Year | Females",
+    "readings": [
+     1270.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1901_Native_States_Native_States_05219ef",
+  "title": "Native States",
+  "year": 1901,
+  "place": "Native States",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/24fb1d5ab6f5ae2574dec8b64d6d087c59233dc8.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Native States | 25-29 | Males",
+   "Native States | 25-29 | Females",
+   "Native States | 30-34 | Males",
+   "Native States | 30-34 | Females",
+   "Native States | 35-39 | Males",
+   "Native States | 35-39 | Females",
+   "Native States | 40-44 | Males",
+   "Native States | 40-44 | Females",
+   "Native States | 45-49 | Males",
+   "Native States | 45-49 | Females",
+   "Native States | 50-54 | Males",
+   "Native States | 50-54 | Females",
+   "Native States | 55-59 | Males",
+   "Native States | 55-59 | Females",
+   "Native States | 60 and upwards | Males",
+   "Native States | 60 and upwards | Females",
+   "Native States | Age unspecified | Males",
+   "Native States | Age unspecified | Females",
+   "Native States | TOTAL ALL AGES | Males",
+   "Native States | TOTAL ALL AGES | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.22.4",
+    "section": "Native States",
+    "row": "22 Bhajji",
+    "column": "35-39 | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.17.0",
+    "section": "Native States",
+    "row": "17 N\u00e1lagarh",
+    "column": "25-29 | Males",
+    "readings": [
+     425.0
+    ]
+   },
+   {
+    "id": "0.3.15",
+    "section": "Native States",
+    "row": "4 J\u00ednd",
+    "column": "60 and upwards | Females",
+    "readings": [
+     997.0
+    ]
+   },
+   {
+    "id": "0.24.12",
+    "section": "Native States",
+    "row": "24 M\u00e1ilog",
+    "column": "55-59 | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.19.6",
+    "section": "Native States",
+    "row": "19 Keonthal",
+    "column": "40-44 | Males",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "0.7.10",
+    "section": "Native States",
+    "row": "8 Duj\u00e1na",
+    "column": "50-54 | Males",
+    "readings": [
+     126.0
+    ]
+   },
+   {
+    "id": "0.24.4",
+    "section": "Native States",
+    "row": "24 M\u00e1ilog",
+    "column": "35-39 | Males",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.22.5",
+    "section": "Native States",
+    "row": "22 Bhajji",
+    "column": "35-39 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.18.14",
+    "section": "Native States",
+    "row": "18 Suket",
+    "column": "60 and upwards | Males",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "0.15.6",
+    "section": "Native States",
+    "row": "15 Bil\u00e1spur",
+    "column": "40-44 | Males",
+    "readings": [
+     39.0
+    ]
+   },
+   {
+    "id": "0.38.1",
+    "section": "Native States",
+    "row": "Total of Native States",
+    "column": "25-29 | Females",
+    "readings": [
+     45415.0
+    ]
+   },
+   {
+    "id": "0.9.1",
+    "section": "Native States",
+    "row": "10 Loh\u00e1ru",
+    "column": "25-29 | Females",
+    "readings": [
+     47.0
+    ]
+   },
+   {
+    "id": "0.17.14",
+    "section": "Native States",
+    "row": "17 N\u00e1lagarh",
+    "column": "60 and upwards | Males",
+    "readings": [
+     224.0
+    ]
+   },
+   {
+    "id": "0.18.9",
+    "section": "Native States",
+    "row": "18 Suket",
+    "column": "45-49 | Females",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.26.19",
+    "section": "Native States",
+    "row": "26 Balsan",
+    "column": "TOTAL ALL AGES | Females",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.14.19",
+    "section": "Native States",
+    "row": "14 N\u00e1han",
+    "column": "TOTAL ALL AGES | Females",
+    "readings": [
+     1605.0
+    ]
+   },
+   {
+    "id": "0.37.2",
+    "section": "Native States",
+    "row": "Total of Hill States",
+    "column": "30-34 | Males",
+    "readings": [
+     1429.0
+    ]
+   },
+   {
+    "id": "0.29.6",
+    "section": "Native States",
+    "row": "29 Tarhoch",
+    "column": "40-44 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.37.10",
+    "section": "Native States",
+    "row": "Total of Hill States",
+    "column": "50-54 | Males",
+    "readings": [
+     779.0
+    ]
+   },
+   {
+    "id": "0.10.13",
+    "section": "Native States",
+    "row": "Total of Eastern Plains",
+    "column": "55-59 | Females",
+    "readings": [
+     4621.0
+    ]
+   },
+   {
+    "id": "0.4.13",
+    "section": "Native States",
+    "row": "5 Far\u00eddkot",
+    "column": "55-59 | Females",
+    "readings": [
+     180.0
+    ]
+   },
+   {
+    "id": "0.25.19",
+    "section": "Native States",
+    "row": "25 Bagh\u00e1t",
+    "column": "TOTAL ALL AGES | Females",
+    "readings": [
+     84.0
+    ]
+   },
+   {
+    "id": "0.2.10",
+    "section": "Native States",
+    "row": "3 Kapurthala",
+    "column": "50-54 | Males",
+    "readings": [
+     3415.0
+    ]
+   },
+   {
+    "id": "0.18.3",
+    "section": "Native States",
+    "row": "18 Suket",
+    "column": "30-34 | Females",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.9.0",
+    "section": "Native States",
+    "row": "10 Loh\u00e1ru",
+    "column": "25-29 | Males",
+    "readings": [
+     60.0
+    ]
+   },
+   {
+    "id": "0.12.5",
+    "section": "Native States",
+    "row": "12 Mandi",
+    "column": "35-39 | Females",
+    "readings": [
+     41.0
+    ]
+   },
+   {
+    "id": "0.0.8",
+    "section": "Native States",
+    "row": "1 Pati\u00e1la",
+    "column": "45-49 | Males",
+    "readings": [
+     6532.0
+    ]
+   },
+   {
+    "id": "0.37.18",
+    "section": "Native States",
+    "row": "Total of Hill States",
+    "column": "TOTAL ALL AGES | Males",
+    "readings": [
+     14193.0
+    ]
+   },
+   {
+    "id": "0.12.8",
+    "section": "Native States",
+    "row": "12 Mandi",
+    "column": "45-49 | Males",
+    "readings": [
+     42.0
+    ]
+   },
+   {
+    "id": "0.28.14",
+    "section": "Native States",
+    "row": "28 Dh\u00e1mi",
+    "column": "60 and upwards | Males",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.18.4",
+    "section": "Native States",
+    "row": "18 Suket",
+    "column": "35-39 | Males",
+    "readings": [
+     44.0
+    ]
+   },
+   {
+    "id": "0.2.5",
+    "section": "Native States",
+    "row": "3 Kapurthala",
+    "column": "35-39 | Females",
+    "readings": [
+     3984.0
+    ]
+   },
+   {
+    "id": "0.6.10",
+    "section": "Native States",
+    "row": "7 Kalsia",
+    "column": "50-54 | Males",
+    "readings": [
+     531.0
+    ]
+   },
+   {
+    "id": "0.5.13",
+    "section": "Native States",
+    "row": "6 Maler Kotla",
+    "column": "55-59 | Females",
+    "readings": [
+     119.0
+    ]
+   },
+   {
+    "id": "0.9.19",
+    "section": "Native States",
+    "row": "10 Loh\u00e1ru",
+    "column": "TOTAL ALL AGES | Females",
+    "readings": [
+     768.0
+    ]
+   },
+   {
+    "id": "0.5.11",
+    "section": "Native States",
+    "row": "6 Maler Kotla",
+    "column": "50-54 | Females",
+    "readings": [
+     707.0
+    ]
+   },
+   {
+    "id": "0.31.4",
+    "section": "Native States",
+    "row": "31 Kunhi\u00e1r",
+    "column": "35-39 | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.10.3",
+    "section": "Native States",
+    "row": "Total of Eastern Plains",
+    "column": "30-34 | Females",
+    "readings": [
+     24054.0
+    ]
+   },
+   {
+    "id": "0.16.6",
+    "section": "Native States",
+    "row": "16 Bash\u00e1hr",
+    "column": "40-44 | Males",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.21.19",
+    "section": "Native States",
+    "row": "21 Jubbal",
+    "column": "TOTAL ALL AGES | Females",
+    "readings": [
+     15.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1891_Prome_District_PROME_DISTRICT._SHWELE_TOWNSHIP._Table_s_85339d4",
+  "title": "PROME DISTRICT. SHWELE TOWNSHIP.\u2014Table showing Population by Sex, Age, Civil Condition, Education, and Infirmities.",
+  "year": 1891,
+  "place": "Prome District",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/38bc7669b0a2aba1790c8b2a9d573e0487814a6c.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Population, Area, and Occupation |  | Occupied houses",
+   "Population, Area, and Occupation | POPULATION | Both sexes",
+   "Population, Area, and Occupation | POPULATION | Male",
+   "Population, Area, and Occupation | POPULATION | Female",
+   "Population, Area, and Occupation |  | Area of township in square miles",
+   "Population, Area, and Occupation |  | Density per square mile",
+   "Population, Area, and Occupation | OCCUPATION | Agriculturists",
+   "Population, Area, and Occupation | OCCUPATION | Non-agriculturists",
+   "Population, Area, and Occupation |  | Area in acres under cultivation",
+   "Population by Sex, Age, Civil Condition, | BUDDHISTS | Male",
+   "Population by Sex, Age, Civil Condition, | BUDDHISTS | Female",
+   "Population by Sex, Age, Civil Condition, | NAT-WORSHIPPERS | Male",
+   "Population by Sex, Age, Civil Condition, | NAT-WORSHIPPERS | Female",
+   "Population by Sex, Age, Civil Condition, | HINDUS | Male",
+   "Population by Sex, Age, Civil Condition, | HINDUS | Female",
+   "Population by Sex, Age, Civil Condition, | MAHOMEDANS | Male",
+   "Population by Sex, Age, Civil Condition, | MAHOMEDANS | Female",
+   "Population by Sex, Age, Civil Condition, | CHRISTIANS | Male",
+   "Population by Sex, Age, Civil Condition, | CHRISTIANS | Female",
+   "Population by Sex, Age, Civil Condition, | OTHERS | Male",
+   "Population by Sex, Age, Civil Condition, | OTHERS | Female"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.18.6",
+    "section": "Population by Sex, Age, Civil Condition, Education, and Infi",
+    "row": "Single",
+    "column": "MAHOMEDANS | Male",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "1.19.9",
+    "section": "Population by Sex, Age, Civil Condition, Education, and Infi",
+    "row": "Married",
+    "column": "CHRISTIANS | Female",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "1.23.6",
+    "section": "Population by Sex, Age, Civil Condition, Education, and Infi",
+    "row": "Illiterate",
+    "column": "MAHOMEDANS | Male",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "1.20.6",
+    "section": "Population by Sex, Age, Civil Condition, Education, and Infi",
+    "row": "Widowed",
+    "column": "MAHOMEDANS | Male",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "1.17.6",
+    "section": "Population by Sex, Age, Civil Condition, Education, and Infi",
+    "row": "Total of all ages",
+    "column": "MAHOMEDANS | Male",
+    "readings": [
+     4.0
+    ]
+   }
+  ],
+  "n_disputed": 5
+ },
+ {
+  "page": "1911_Mysore_TABLE_XIV._Civil_Condition_by_Age_a59d7c1",
+  "title": "TABLE XIV. Civil Condition by Age",
+  "year": 1911,
+  "place": "Mysore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f47e67674a7507e296ac26116316d97dd501e4a6.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/de1f95ca775c333247238485157f1206c5ac9cb4.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e4a6bf0f04f79420e1030b1323c177a1b5ad5057.jpg"
+  ],
+  "n_images_total": 3,
+  "reading_columns": [
+   "TABLE XIV. Civil Condition by Age |  | Population dealt with",
+   "TABLE XIV. Civil Condition by Age | Unmarried | Total",
+   "TABLE XIV. Civil Condition by Age | Unmarried | 0-5",
+   "TABLE XIV. Civil Condition by Age | Unmarried | 5-12",
+   "TABLE XIV. Civil Condition by Age | Unmarried | 12-15",
+   "TABLE XIV. Civil Condition by Age | Unmarried | 15-20",
+   "TABLE XIV. Civil Condition by Age | Unmarried | 20-40",
+   "TABLE XIV. Civil Condition by Age | Unmarried | 40 and over"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.9.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Western Division",
+    "column": " | Population dealt with",
+    "readings": [
+     17495.0
+    ]
+   },
+   {
+    "id": "0.28.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - Western Division",
+    "column": " | Population dealt with",
+    "readings": [
+     83.0
+    ]
+   },
+   {
+    "id": "0.36.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | Total",
+    "readings": [
+     542.0
+    ]
+   },
+   {
+    "id": "0.36.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     50.0
+    ]
+   },
+   {
+    "id": "0.48.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.9.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Western Division",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     3226.0
+    ]
+   },
+   {
+    "id": "0.51.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - Western Division",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.44.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rawat - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.42.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Civil and Military Station, Bangalore",
+    "column": "Unmarried | Total",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.32.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pinjari (Returned as Hindu) - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.50.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - Eastern Division",
+    "column": " | Population dealt with",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.1.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Neygi - concld. - Western Division",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     1862.0
+    ]
+   },
+   {
+    "id": "0.15.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Eastern Division",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     44.0
+    ]
+   },
+   {
+    "id": "0.13.6",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 20-40",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.26.5",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - Eastern Division",
+    "column": "Unmarried | 15-20",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.24.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     92.0
+    ]
+   },
+   {
+    "id": "0.17.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Western Division",
+    "column": " | Population dealt with",
+    "readings": [
+     66.0
+    ]
+   },
+   {
+    "id": "0.48.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": " | Population dealt with",
+    "readings": [
+     24.0
+    ]
+   },
+   {
+    "id": "0.17.6",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Western Division",
+    "column": "Unmarried | 20-40",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.7.6",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Eastern Division",
+    "column": "Unmarried | 20-40",
+    "readings": [
+     202.0
+    ]
+   },
+   {
+    "id": "0.20.7",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Paniya - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 40 and over",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.15.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Eastern Division",
+    "column": " | Population dealt with",
+    "readings": [
+     219.0
+    ]
+   },
+   {
+    "id": "0.5.6",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 20-40",
+    "readings": [
+     316.0
+    ]
+   },
+   {
+    "id": "0.48.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | Total",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.28.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - Western Division",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.15.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Eastern Division",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "0.22.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Paniya - Eastern Division",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.44.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rawat - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | Total",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.15.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Eastern Division",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.28.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - Western Division",
+    "column": "Unmarried | Total",
+    "readings": [
+     36.0
+    ]
+   },
+   {
+    "id": "0.11.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Civil and Military Station, Bangalore",
+    "column": " | Population dealt with",
+    "readings": [
+     524.0
+    ]
+   },
+   {
+    "id": "0.40.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Western Division",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.48.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.22.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Paniya - Eastern Division",
+    "column": " | Population dealt with",
+    "readings": [
+     90.0
+    ]
+   },
+   {
+    "id": "0.30.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - Civil and Military Station, Bangalore",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.48.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.20.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Paniya - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | Total",
+    "readings": [
+     33.0
+    ]
+   },
+   {
+    "id": "0.15.5",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Eastern Division",
+    "column": "Unmarried | 15-20",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.40.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Western Division",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.11.5",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Civil and Military Station, Bangalore",
+    "column": "Unmarried | 15-20",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.9.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Western Division",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     979.0
+    ]
+   },
+   {
+    "id": "0.30.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - Civil and Military Station, Bangalore",
+    "column": " | Population dealt with",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.9.6",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Western Division",
+    "column": "Unmarried | 20-40",
+    "readings": [
+     112.0
+    ]
+   },
+   {
+    "id": "0.32.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pinjari (Returned as Hindu) - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | Total",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.18.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Civil and Military Station, Bangalore",
+    "column": "Unmarried | Total",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.17.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Western Division",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.36.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     186.0
+    ]
+   },
+   {
+    "id": "0.40.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Western Division",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     54.0
+    ]
+   },
+   {
+    "id": "0.17.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Western Division",
+    "column": "Unmarried | Total",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.40.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Western Division",
+    "column": "Unmarried | Total",
+    "readings": [
+     89.0
+    ]
+   },
+   {
+    "id": "0.9.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Western Division",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     2078.0
+    ]
+   },
+   {
+    "id": "0.5.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": " | Population dealt with",
+    "readings": [
+     62308.0
+    ]
+   },
+   {
+    "id": "0.20.5",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Paniya - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 15-20",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.17.5",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - Western Division",
+    "column": "Unmarried | 15-20",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.5.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     7734.0
+    ]
+   },
+   {
+    "id": "0.13.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": " | Population dealt with",
+    "readings": [
+     291.0
+    ]
+   },
+   {
+    "id": "0.46.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rawat - Civil and Military Station, Bangalore",
+    "column": "Unmarried | Total",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.46.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rawat - Civil and Military Station, Bangalore",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.34.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pinjari (Returned as Hindu) - Eastern Division",
+    "column": " | Population dealt with",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.13.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     50.0
+    ]
+   },
+   {
+    "id": "0.13.5",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 15-20",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.13.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pandaram - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.50.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - Eastern Division",
+    "column": "Unmarried | Total",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.38.5",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Eastern Division",
+    "column": "Unmarried | 15-20",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.44.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rawat - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.38.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Eastern Division",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     161.0
+    ]
+   },
+   {
+    "id": "0.42.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Civil and Military Station, Bangalore",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.7.2",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Eastern Division",
+    "column": "Unmarried | 0-5",
+    "readings": [
+     5588.0
+    ]
+   },
+   {
+    "id": "0.26.0",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - Eastern Division",
+    "column": " | Population dealt with",
+    "readings": [
+     489.0
+    ]
+   },
+   {
+    "id": "0.5.7",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 40 and over",
+    "readings": [
+     87.0
+    ]
+   },
+   {
+    "id": "0.50.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - Eastern Division",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.24.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | Total",
+    "readings": [
+     230.0
+    ]
+   },
+   {
+    "id": "0.24.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Pille - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     95.0
+    ]
+   },
+   {
+    "id": "0.7.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Eastern Division",
+    "column": "Unmarried | Total",
+    "readings": [
+     16096.0
+    ]
+   },
+   {
+    "id": "0.1.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Neygi - concld. - Western Division",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     2947.0
+    ]
+   },
+   {
+    "id": "0.9.7",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - Western Division",
+    "column": "Unmarried | 40 and over",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.5.4",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Panchala - MYSORE STATE, INCLUDING C. AND M. STN., BANGALORE",
+    "column": "Unmarried | 12-15",
+    "readings": [
+     2687.0
+    ]
+   },
+   {
+    "id": "0.38.3",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Eastern Division",
+    "column": "Unmarried | 5-12",
+    "readings": [
+     232.0
+    ]
+   },
+   {
+    "id": "0.38.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Rachewar - Eastern Division",
+    "column": "Unmarried | Total",
+    "readings": [
+     450.0
+    ]
+   },
+   {
+    "id": "0.51.1",
+    "section": "TABLE XIV. Civil Condition by Age",
+    "row": "Saniyar - Western Division",
+    "column": "Unmarried | Total",
+    "readings": [
+     2.0
+    ]
+   }
+  ],
+  "n_disputed": 157
+ },
+ {
+  "page": "1921_Sandoway_District_Sandoway_District_Census_3a26294",
+  "title": "Sandoway District Census",
+  "year": 1921,
+  "place": "Sandoway District",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/768a2167db81b090b2ade17dea21f40b9938d507.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "SANDOWAY DISTRICT |  | Number of occupied houses",
+   "SANDOWAY DISTRICT | Population | Both sexes",
+   "SANDOWAY DISTRICT | Population | Male",
+   "SANDOWAY DISTRICT | Population | Female",
+   "SANDOWAY DISTRICT |  | Boat population",
+   "SANDOWAY DISTRICT | Population by Religion | Buddhists",
+   "SANDOWAY DISTRICT | Population by Religion | N\u00e1t-worshippers",
+   "SANDOWAY DISTRICT | Population by Religion | Mahomedans",
+   "SANDOWAY DISTRICT | Population by Religion | Hindus",
+   "SANDOWAY DISTRICT | Population by Religion | Christians",
+   "SANDOWAY DISTRICT | Parent-tongue | Number of persons using it",
+   "SANDOWAY DISTRICT | Education / Literate | M.",
+   "SANDOWAY DISTRICT | Education / Literate | F."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.28.6",
+    "section": "SANDOWAY DISTRICT",
+    "row": "Lintha",
+    "column": "Population by Religion | N\u00e1t-worshippers",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.13.9",
+    "section": "SANDOWAY DISTRICT",
+    "row": "G\u00f4nminmyaung",
+    "column": "Population by Religion | Christians",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.31.12",
+    "section": "SANDOWAY DISTRICT",
+    "row": "Zibyug\u00f4n",
+    "column": "Education / Literate | F.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.5.12",
+    "section": "SANDOWAY DISTRICT",
+    "row": "Shanywa",
+    "column": "Education / Literate | F.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.13.6",
+    "section": "SANDOWAY DISTRICT",
+    "row": "G\u00f4nminmyaung",
+    "column": "Population by Religion | N\u00e1t-worshippers",
+    "readings": [
+     51.0
+    ]
+   },
+   {
+    "id": "0.14.6",
+    "section": "SANDOWAY DISTRICT",
+    "row": "Sanwa",
+    "column": "Population by Religion | N\u00e1t-worshippers",
+    "readings": [
+     44.0
+    ]
+   },
+   {
+    "id": "0.15.6",
+    "section": "SANDOWAY DISTRICT",
+    "row": "Kyagaik",
+    "column": "Population by Religion | N\u00e1t-worshippers",
+    "readings": [
+     2.0,
+     44.0,
+     51.0
+    ]
+   }
+  ],
+  "n_disputed": 7
+ },
+ {
+  "page": "1921_Punjab_TABLE_V-concluded._sex_at_certain_ages_f_276b75c",
+  "title": "TABLE V-concluded. sex at certain ages for selected castes. AND AGE BY CIVIL CONDITION.",
+  "year": 1921,
+  "place": "Punjab",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/7af78d6fd8dd1a274418328f69c8089424113369.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE V-concluded. sex at certain ages f | 40 and over | Unmarried",
+   "TABLE V-concluded. sex at certain ages f | 40 and over | Married",
+   "TABLE V-concluded. sex at certain ages f | 40 and over | Widowed",
+   "TABLE V-concluded. sex at certain ages f | All ages | Unmarried",
+   "TABLE V-concluded. sex at certain ages f | All ages | Married",
+   "TABLE V-concluded. sex at certain ages f | All ages | Widowed",
+   "TABLE V-concluded. sex at certain ages f | 0-4 (inclusive.) | Unmarried",
+   "TABLE V-concluded. sex at certain ages f | 0-4 (inclusive.) | Married",
+   "TABLE V-concluded. sex at certain ages f | 0-4 (inclusive.) | Widowed",
+   "TABLE V-concluded. sex at certain ages f | 5-11 (inclusive) | Unmarried",
+   "TABLE V-concluded. sex at certain ages f | 5-11 (inclusive) | Married",
+   "TABLE V-concluded. sex at certain ages f | 5-11 (inclusive) | Widowed",
+   "TABLE V-concluded. sex at certain ages f | 12-19 (inclusive) | Unmarried",
+   "TABLE V-concluded. sex at certain ages f | 12-19 (inclusive) | Married",
+   "TABLE V-concluded. sex at certain ages f | 12-19 (inclusive) | Widowed",
+   "TABLE V-concluded. sex at certain ages f | 20-39 (inclusive) | Unmarried",
+   "TABLE V-concluded. sex at certain ages f | 20-39 (inclusive) | Married",
+   "TABLE V-concluded. sex at certain ages f | 20-39 (inclusive) | Widowed"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.14.9",
+    "section": "TABLE V-concluded. sex at certain ages for selected castes. ",
+    "row": "Row 15",
+    "column": "5-11 (inclusive) | Unmarried",
+    "readings": [
+     940.0,
+     949.0
+    ]
+   },
+   {
+    "id": "0.17.20",
+    "section": "TABLE V-concluded. sex at certain ages for selected castes. ",
+    "row": "Row 18",
+    "column": "40 and over | Widowed",
+    "readings": [
+     409.0,
+     469.0
+    ]
+   },
+   {
+    "id": "0.34.12",
+    "section": "TABLE V-concluded. sex at certain ages for selected castes. ",
+    "row": "Row 35",
+    "column": "12-19 (inclusive) | Unmarried",
+    "readings": [
+     160.0,
+     169.0
+    ]
+   },
+   {
+    "id": "0.14.10",
+    "section": "TABLE V-concluded. sex at certain ages for selected castes. ",
+    "row": "Row 15",
+    "column": "5-11 (inclusive) | Married",
+    "readings": [
+     50.0,
+     59.0
+    ]
+   }
+  ],
+  "n_disputed": 4
+ },
+ {
+  "page": "1891_Madras_TABLE_VIII._Civil_Condition_by_Religion_33dc265",
+  "title": "TABLE VIII. Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014continued.",
+  "year": 1891,
+  "place": "Madras",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/ef832312df50293d4114b4fb16d8b4378380954d.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Civil Condition by Religion and Age. Par | TOTAL NOT STATED | Total",
+   "Civil Condition by Religion and Age. Par | TOTAL NOT STATED | Males",
+   "Civil Condition by Religion and Age. Par | TOTAL NOT STATED | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 0\u20134 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 0\u20134 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 5\u20139 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 5\u20139 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 10\u201314 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 10\u201314 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 15\u201319 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 15\u201319 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 20\u201324 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 20\u201324 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 25\u201329 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 25\u201329 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 30\u201334 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 30\u201334 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 35\u201339 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 35\u201339 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 40\u201344 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 40\u201344 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 45\u201349 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 45\u201349 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 50\u201354 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 50\u201354 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 55\u201359 | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 55\u201359 | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 60 and over | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / 60 and over | Females",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / Not stated | Males",
+   "Civil Condition by Religion and Age. Par | AGE PERIOD / Not stated | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.2.30",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "3. GODAYARI ... ...",
+    "column": "AGE PERIOD / Not stated | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.2.14",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "3. GODAYARI ... ...",
+    "column": "AGE PERIOD / 25\u201329 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.11.8",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "12. NORTH ARCOT ... ...",
+    "column": "AGE PERIOD / 10\u201314 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.17.25",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "18. TRICHINOPOLY ... ...",
+    "column": "AGE PERIOD / 55\u201359 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.11.16",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "12. NORTH ARCOT ... ...",
+    "column": "AGE PERIOD / 30\u201334 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.18.30",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "19. MADURA ... ...",
+    "column": "AGE PERIOD / Not stated | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.16.30",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "17. TANDORE ... ...",
+    "column": "AGE PERIOD / Not stated | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.12.16",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "13. SALEM ... ...",
+    "column": "AGE PERIOD / 30\u201334 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.10.14",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "11. CHINOLAPOT ... ...",
+    "column": "AGE PERIOD / 25\u201329 | Females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.14.11",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "15. NILGIRIS ... ...",
+    "column": "AGE PERIOD / 20\u201324 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.4.28",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "5. NELLORE ... ...",
+    "column": "AGE PERIOD / 60 and over | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.13.21",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "14. COIMBATORE ... ...",
+    "column": "AGE PERIOD / 45\u201349 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.17.24",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "18. TRICHINOPOLY ... ...",
+    "column": "AGE PERIOD / 50\u201354 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.11.11",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "12. NORTH ARCOT ... ...",
+    "column": "AGE PERIOD / 20\u201324 | Males",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.14.20",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "15. NILGIRIS ... ...",
+    "column": "AGE PERIOD / 40\u201344 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.4.25",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "5. NELLORE ... ...",
+    "column": "AGE PERIOD / 55\u201359 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.11.19",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "12. NORTH ARCOT ... ...",
+    "column": "AGE PERIOD / 40\u201344 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.1.12",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "2. VIZAGAYATAM ... ...",
+    "column": "AGE PERIOD / 20\u201324 | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.17.19",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "18. TRICHINOPOLY ... ...",
+    "column": "AGE PERIOD / 40\u201344 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.5.16",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "6. CUDDAPAH ... ...",
+    "column": "AGE PERIOD / 30\u201334 | Females",
+    "readings": [
+     2.0,
+     5.0
+    ]
+   },
+   {
+    "id": "0.17.23",
+    "section": "Civil Condition by Religion and Age. Part (C)\u2014MUSALMANS\u2014cont",
+    "row": "18. TRICHINOPOLY ... ...",
+    "column": "AGE PERIOD / 50\u201354 | Males",
+    "readings": [
+     1.0
+    ]
+   }
+  ],
+  "n_disputed": 21
+ },
+ {
+  "page": "None_Naj_b_b_d._District_Bijnour_TABLE_NO._VIII._continued._SHOWING_DE_d28df76",
+  "title": "TABLE NO. VIII. (continued.) SHOWING DETAILS OF POPULATION ACCORDING TO AGE, SEX, AND RELIGION, FOR THE TOWNS IN THE N.-W. P. WITH MORE THAN 10,000 INHABITANTS.",
+  "year": null,
+  "place": "Naj\u00edb\u00e1b\u00e1d., District Bijnour",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/ecf2b9407cc56535a970aabaecf28324c70694d9.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Enclosures and Houses |  | HINDOOS.",
+   "Enclosures and Houses |  | MAHOMEDANS.",
+   "Enclosures and Houses |  | CHRISTIANS AND OTHERS.",
+   "Enclosures and Houses |  | TOTAL.",
+   "Population according to Age, Sex, and Re | HINDOOS. | Males.",
+   "Population according to Age, Sex, and Re | HINDOOS. | Females.",
+   "Population according to Age, Sex, and Re | MAHOMEDANS. | Males.",
+   "Population according to Age, Sex, and Re | MAHOMEDANS. | Females.",
+   "Population according to Age, Sex, and Re | CHRISTIANS AND OTHERS. | Males.",
+   "Population according to Age, Sex, and Re | CHRISTIANS AND OTHERS. | Females.",
+   "Population according to Age, Sex, and Re | TOTAL. | Males.",
+   "Population according to Age, Sex, and Re | TOTAL. | Females."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.22.0",
+    "section": "Population according to Age, Sex, and Religion",
+    "row": "Above 60 ditto,",
+    "column": "HINDOOS. | Males.",
+    "readings": [
+     150.0,
+     159.0
+    ]
+   }
+  ],
+  "n_disputed": 1
+ },
+ {
+  "page": "1891_Bangalore_SUPPLEMENTARY_TABLE_C._Literate_by_Caste_01e0285",
+  "title": "SUPPLEMENTARY TABLE C. Literate by Caste.",
+  "year": 1891,
+  "place": "Bangalore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/9d70c7fd3cf8d6ccc4e4099b573eed0036afb5d1.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d33d34f09a00ebf2df1060b8838d5cc1676ead71.jpg"
+  ],
+  "n_images_total": 2,
+  "reading_columns": [
+   "TABLE C. Literate by Caste. | Bangalore / Males | Total",
+   "TABLE C. Literate by Caste. | Bangalore / Males / Literate | Total",
+   "TABLE C. Literate by Caste. | Bangalore / Males / Literate | Knowing English",
+   "TABLE C. Literate by Caste. | Bangalore / Females | Total",
+   "TABLE C. Literate by Caste. | Bangalore / Females / Literate | Total",
+   "TABLE C. Literate by Caste. | Bangalore / Females / Literate | Knowing English",
+   "TABLE C. Literate by Caste. | Kolar / Males | Total",
+   "TABLE C. Literate by Caste. | Kolar / Males / Literate | Total",
+   "TABLE C. Literate by Caste. | Kolar / Males / Literate | Knowing English",
+   "TABLE C. Literate by Caste. | Kolar / Females | Total",
+   "TABLE C. Literate by Caste. | Kolar / Females / Literate | Total",
+   "TABLE C. Literate by Caste. | Kolar / Females / Literate | Knowing English",
+   "TABLE C-(Concluded). | Bangalore / Females | Total",
+   "TABLE C-(Concluded). | Bangalore / Females / Literate | Total",
+   "TABLE C-(Concluded). | Bangalore / Females / Literate | Knowing English",
+   "TABLE C-(Concluded). | Total strength including Civil and Military Station, Bangalore / Males | Total",
+   "TABLE C-(Concluded). | Total strength including Civil and Military Station, Bangalore / Males / Literate | Total",
+   "TABLE C-(Concluded). | Total strength including Civil and Military Station, Bangalore / Males / Literate | Knowing English",
+   "TABLE C-(Concluded). | Total strength including Civil and Military Station, Bangalore / Females | Total",
+   "TABLE C-(Concluded). | Total strength including Civil and Military Station, Bangalore / Females / Literate | Total",
+   "TABLE C-(Concluded). | Total strength including Civil and Military Station, Bangalore / Females / Literate | Knowing English"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.39.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "17",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     41.0
+    ]
+   },
+   {
+    "id": "0.4.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "2",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.36.1",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 15",
+    "column": "Bangalore / Males / Literate | Total",
+    "readings": [
+     45.0
+    ]
+   },
+   {
+    "id": "0.21.9",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "8",
+    "column": "Kolar / Females | Total",
+    "readings": [
+     11632.0
+    ]
+   },
+   {
+    "id": "0.10.6",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Subtotal 3",
+    "column": "Kolar / Males | Total",
+    "readings": [
+     5097.0
+    ]
+   },
+   {
+    "id": "0.36.3",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 15",
+    "column": "Bangalore / Females | Total",
+    "readings": [
+     170.0,
+     508.0
+    ]
+   },
+   {
+    "id": "0.6.0",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Subtotal 2",
+    "column": "Bangalore / Males | Total",
+    "readings": [
+     4998.0
+    ]
+   },
+   {
+    "id": "1.36.1",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 39",
+    "column": "Bangalore / Females / Literate | Total",
+    "readings": [
+     431.0
+    ]
+   },
+   {
+    "id": "0.13.0",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Subtotal 4",
+    "column": "Bangalore / Males | Total",
+    "readings": [
+     125800.0
+    ]
+   },
+   {
+    "id": "1.23.6",
+    "section": "TABLE C-(Concluded).",
+    "row": "30",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females | Total",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "1.33.5",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 36",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males / Literate | Knowing English",
+    "readings": [
+     107.0
+    ]
+   },
+   {
+    "id": "0.24.8",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 9",
+    "column": "Kolar / Males / Literate | Knowing English",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.6.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Subtotal 2",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.23.0",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "9",
+    "column": "Bangalore / Males | Total",
+    "readings": [
+     606.0
+    ]
+   },
+   {
+    "id": "1.11.6",
+    "section": "TABLE C-(Concluded).",
+    "row": "24",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females | Total",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "1.39.1",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 42",
+    "column": "Bangalore / Females / Literate | Total",
+    "readings": [
+     21.0,
+     33.0
+    ]
+   },
+   {
+    "id": "0.0.2",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "1",
+    "column": "Bangalore / Males / Literate | Knowing English",
+    "readings": [
+     60.0
+    ]
+   },
+   {
+    "id": "1.43.7",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 46",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females / Literate | Total",
+    "readings": [
+     68.0
+    ]
+   },
+   {
+    "id": "0.29.9",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "12",
+    "column": "Kolar / Females | Total",
+    "readings": [
+     14496.0
+    ]
+   },
+   {
+    "id": "1.19.4",
+    "section": "TABLE C-(Concluded).",
+    "row": "28",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males / Literate | Total",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "1.21.3",
+    "section": "TABLE C-(Concluded).",
+    "row": "29",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males | Total",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.32.3",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 13",
+    "column": "Bangalore / Females | Total",
+    "readings": [
+     14.0,
+     426.0
+    ]
+   },
+   {
+    "id": "1.8.3",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 22",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males | Total",
+    "readings": [
+     4318.0,
+     173795.0
+    ]
+   },
+   {
+    "id": "1.33.7",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 36",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females / Literate | Total",
+    "readings": [
+     3.0,
+     343.0
+    ]
+   },
+   {
+    "id": "1.43.5",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 46",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males / Literate | Knowing English",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "1.30.4",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 33",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males / Literate | Total",
+    "readings": [
+     350.0,
+     545.0
+    ]
+   },
+   {
+    "id": "1.13.8",
+    "section": "TABLE C-(Concluded).",
+    "row": "25",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females / Literate | Knowing English",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "1.0.3",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 18",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males | Total",
+    "readings": [
+     1217.0,
+     54821.0
+    ]
+   },
+   {
+    "id": "0.11.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "4",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     2448.0
+    ]
+   },
+   {
+    "id": "1.2.4",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 19",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males / Literate | Total",
+    "readings": [
+     1.0,
+     1493.0
+    ]
+   },
+   {
+    "id": "0.9.0",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 3",
+    "column": "Bangalore / Males | Total",
+    "readings": [
+     51.0,
+     1893.0
+    ]
+   },
+   {
+    "id": "0.21.4",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "8",
+    "column": "Bangalore / Females / Literate | Total",
+    "readings": [
+     452.0
+    ]
+   },
+   {
+    "id": "1.1.6",
+    "section": "TABLE C-(Concluded).",
+    "row": "19",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females | Total",
+    "readings": [
+     1926.0
+    ]
+   },
+   {
+    "id": "0.21.8",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "8",
+    "column": "Kolar / Males / Literate | Knowing English",
+    "readings": [
+     425.0
+    ]
+   },
+   {
+    "id": "0.39.1",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "17",
+    "column": "Bangalore / Males / Literate | Total",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.19.6",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "7",
+    "column": "Kolar / Males | Total",
+    "readings": [
+     2221.0
+    ]
+   },
+   {
+    "id": "1.30.1",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 33",
+    "column": "Bangalore / Females / Literate | Total",
+    "readings": [
+     32.0
+    ]
+   },
+   {
+    "id": "1.3.6",
+    "section": "TABLE C-(Concluded).",
+    "row": "20",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females | Total",
+    "readings": [
+     539.0
+    ]
+   },
+   {
+    "id": "0.0.4",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "1",
+    "column": "Bangalore / Females / Literate | Total",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "0.7.1",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Total 2",
+    "column": "Bangalore / Males / Literate | Total",
+    "readings": [
+     95.0
+    ]
+   },
+   {
+    "id": "0.17.3",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "6",
+    "column": "Bangalore / Females | Total",
+    "readings": [
+     115.0
+    ]
+   },
+   {
+    "id": "0.9.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 3",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     2.0,
+     391.0
+    ]
+   },
+   {
+    "id": "1.2.7",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 19",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females / Literate | Total",
+    "readings": [
+     47.0
+    ]
+   },
+   {
+    "id": "0.20.2",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 7",
+    "column": "Bangalore / Males / Literate | Knowing English",
+    "readings": [
+     1.0,
+     212.0
+    ]
+   },
+   {
+    "id": "0.29.4",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "12",
+    "column": "Bangalore / Females / Literate | Total",
+    "readings": [
+     472.0
+    ]
+   },
+   {
+    "id": "1.14.6",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 25",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females | Total",
+    "readings": [
+     2.0,
+     1283.0
+    ]
+   },
+   {
+    "id": "0.39.3",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "17",
+    "column": "Bangalore / Females | Total",
+    "readings": [
+     194.0
+    ]
+   },
+   {
+    "id": "1.20.3",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 28",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males | Total",
+    "readings": [
+     1.0,
+     17.0
+    ]
+   },
+   {
+    "id": "0.15.9",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 5",
+    "column": "Kolar / Females | Total",
+    "readings": [
+     198.0,
+     1635.0
+    ]
+   },
+   {
+    "id": "1.9.6",
+    "section": "TABLE C-(Concluded).",
+    "row": "23",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females | Total",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "1.19.0",
+    "section": "TABLE C-(Concluded).",
+    "row": "28",
+    "column": "Bangalore / Females | Total",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "1.40.3",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 43",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males | Total",
+    "readings": [
+     151.0,
+     14427.0
+    ]
+   },
+   {
+    "id": "0.11.0",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "4",
+    "column": "Bangalore / Males | Total",
+    "readings": [
+     105619.0
+    ]
+   },
+   {
+    "id": "0.29.10",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "12",
+    "column": "Kolar / Females / Literate | Total",
+    "readings": [
+     204.0
+    ]
+   },
+   {
+    "id": "0.3.2",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Total 1",
+    "column": "Bangalore / Males / Literate | Knowing English",
+    "readings": [
+     24.0
+    ]
+   },
+   {
+    "id": "1.44.2",
+    "section": "TABLE C-(Concluded).",
+    "row": "Total",
+    "column": "Bangalore / Females / Literate | Knowing English",
+    "readings": [
+     2033.0
+    ]
+   },
+   {
+    "id": "1.41.6",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 44",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females | Total",
+    "readings": [
+     981.0,
+     139357.0
+    ]
+   },
+   {
+    "id": "1.27.3",
+    "section": "TABLE C-(Concluded).",
+    "row": "32",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males | Total",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.3.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Total 1",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     223.0
+    ]
+   },
+   {
+    "id": "0.29.8",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "12",
+    "column": "Kolar / Males / Literate | Knowing English",
+    "readings": [
+     429.0
+    ]
+   },
+   {
+    "id": "0.16.9",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Subtotal 5",
+    "column": "Kolar / Females | Total",
+    "readings": [
+     46.0
+    ]
+   },
+   {
+    "id": "1.33.4",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 36",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males / Literate | Total",
+    "readings": [
+     43.0,
+     2644.0
+    ]
+   },
+   {
+    "id": "0.40.9",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 17",
+    "column": "Kolar / Females | Total",
+    "readings": [
+     35.0,
+     46.0
+    ]
+   },
+   {
+    "id": "1.2.6",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 19",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females | Total",
+    "readings": [
+     610.0,
+     108276.0
+    ]
+   },
+   {
+    "id": "0.32.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 13",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.22.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 8",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     9.0,
+     10.0
+    ]
+   },
+   {
+    "id": "1.39.7",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 42",
+    "column": "Total strength including Civil and Military Station, Bangalore / Females / Literate | Total",
+    "readings": [
+     45.0,
+     1125.0
+    ]
+   },
+   {
+    "id": "0.4.4",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "2",
+    "column": "Bangalore / Females / Literate | Total",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.14.3",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "5",
+    "column": "Bangalore / Females | Total",
+    "readings": [
+     508.0
+    ]
+   },
+   {
+    "id": "0.24.3",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 9",
+    "column": "Bangalore / Females | Total",
+    "readings": [
+     333.0
+    ]
+   },
+   {
+    "id": "0.21.5",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "8",
+    "column": "Bangalore / Females / Literate | Knowing English",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.5.1",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 2",
+    "column": "Bangalore / Males / Literate | Total",
+    "readings": [
+     1.0,
+     1285.0
+    ]
+   },
+   {
+    "id": "1.33.2",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 36",
+    "column": "Bangalore / Females / Literate | Knowing English",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "1.37.0",
+    "section": "TABLE C-(Concluded).",
+    "row": "Row 40",
+    "column": "Bangalore / Females | Total",
+    "readings": [
+     11170.0
+    ]
+   },
+   {
+    "id": "0.2.6",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Subtotal 1",
+    "column": "Kolar / Males | Total",
+    "readings": [
+     928.0
+    ]
+   },
+   {
+    "id": "0.1.1",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Row 1",
+    "column": "Bangalore / Males / Literate | Total",
+    "readings": [
+     1.0,
+     695.0
+    ]
+   },
+   {
+    "id": "1.9.3",
+    "section": "TABLE C-(Concluded).",
+    "row": "23",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males | Total",
+    "readings": [
+     16.0
+    ]
+   },
+   {
+    "id": "0.2.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "Subtotal 1",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     391.0
+    ]
+   },
+   {
+    "id": "0.29.7",
+    "section": "TABLE C. Literate by Caste.",
+    "row": "12",
+    "column": "Kolar / Males / Literate | Total",
+    "readings": [
+     7519.0
+    ]
+   },
+   {
+    "id": "1.27.4",
+    "section": "TABLE C-(Concluded).",
+    "row": "32",
+    "column": "Total strength including Civil and Military Station, Bangalore / Males / Literate | Total",
+    "readings": [
+     2.0
+    ]
+   }
+  ],
+  "n_disputed": 513
+ },
+ {
+  "page": "1901_Ajmer_district_SUBSIDIARY_TABLE_I._The_actual_recorded_6fe2224",
+  "title": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 females of the Ajmer district.",
+  "year": 1901,
+  "place": "Ajmer district",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/28a3954211407a8df1a4822d08bdb1455875256e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/export_final/sendout_final/sendout_v1/added_pages/saoa.crl.25352840_p74.png",
+   "/Users/chrisruano/Research/SudokuOCR/export_final/sendout_final/sendout_v1/added_pages/saoa.crl.25352840_p72.png"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "SUBSIDIARY TABLE I. The actual recorded  |  | Actuals.",
+   "SUBSIDIARY TABLE I. The actual recorded  |  | Smoothing (Intermediate.)",
+   "SUBSIDIARY TABLE I. The actual recorded  |  | Smoothing (Final.)",
+   "SUBSIDIARY TABLE I. The actual recorded  |  | Additional smoothing from curves."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.82.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "82",
+    "column": " | Actuals.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.91.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "91",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.89.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "89",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.11.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "11",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2669.0
+    ]
+   },
+   {
+    "id": "0.37.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "37",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     1476.0
+    ]
+   },
+   {
+    "id": "0.24.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "24",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2225.0
+    ]
+   },
+   {
+    "id": "0.93.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "93",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.27.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "27",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2050.0
+    ]
+   },
+   {
+    "id": "0.38.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "38",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     1375.0
+    ]
+   },
+   {
+    "id": "0.29.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "29",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2008.0
+    ]
+   },
+   {
+    "id": "0.92.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "92",
+    "column": " | Actuals.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.38.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "38",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     1601.0
+    ]
+   },
+   {
+    "id": "0.22.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "22",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2250.0
+    ]
+   },
+   {
+    "id": "0.83.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "83",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.100.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "100",
+    "column": " | Actuals.",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.81.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "81",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     30.0
+    ]
+   },
+   {
+    "id": "0.37.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "37",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     1440.0
+    ]
+   },
+   {
+    "id": "0.32.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "32",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     1750.0
+    ]
+   },
+   {
+    "id": "0.82.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "82",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "0.17.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "17",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2450.0
+    ]
+   },
+   {
+    "id": "0.32.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "32",
+    "column": " | Actuals.",
+    "readings": [
+     1158.0
+    ]
+   },
+   {
+    "id": "0.94.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "94",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.37.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "37",
+    "column": " | Actuals.",
+    "readings": [
+     191.0
+    ]
+   },
+   {
+    "id": "0.85.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "85",
+    "column": " | Actuals.",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.14.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "14",
+    "column": " | Actuals.",
+    "readings": [
+     1582.0
+    ]
+   },
+   {
+    "id": "0.90.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "90",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.97.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "97",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.9.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "9",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2580.0
+    ]
+   },
+   {
+    "id": "0.88.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "88",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.5.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "5",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2327.0
+    ]
+   },
+   {
+    "id": "0.12.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "12",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2580.0
+    ]
+   },
+   {
+    "id": "0.91.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "91",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.97.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "97",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.100.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "100",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.36.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "36",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     1185.0
+    ]
+   },
+   {
+    "id": "0.11.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "11",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     2588.0
+    ]
+   },
+   {
+    "id": "0.99.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "99",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.100.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "100",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.19.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "19",
+    "column": " | Actuals.",
+    "readings": [
+     770.0
+    ]
+   },
+   {
+    "id": "0.84.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "84",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.85.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "85",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.10.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "10",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2780.0
+    ]
+   },
+   {
+    "id": "0.9.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "9",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2502.0
+    ]
+   },
+   {
+    "id": "0.98.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "98",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.15.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "15",
+    "column": " | Actuals.",
+    "readings": [
+     5196.0
+    ]
+   },
+   {
+    "id": "0.16.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "16",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2385.0
+    ]
+   },
+   {
+    "id": "0.6.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "6",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2455.0
+    ]
+   },
+   {
+    "id": "0.34.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "34",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     1584.0
+    ]
+   },
+   {
+    "id": "0.20.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "20",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2330.0
+    ]
+   },
+   {
+    "id": "0.26.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "26",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2068.0
+    ]
+   },
+   {
+    "id": "0.28.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "28",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     1981.0
+    ]
+   },
+   {
+    "id": "0.83.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "83",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     17.0
+    ]
+   },
+   {
+    "id": "0.21.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "21",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     2272.0
+    ]
+   },
+   {
+    "id": "0.9.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "9",
+    "column": " | Actuals.",
+    "readings": [
+     2182.0
+    ]
+   },
+   {
+    "id": "0.83.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "83",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "0.21.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "21",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2182.0
+    ]
+   },
+   {
+    "id": "0.16.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "16",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2490.0
+    ]
+   },
+   {
+    "id": "0.97.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "97",
+    "column": " | Actuals.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.28.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "28",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2000.0
+    ]
+   },
+   {
+    "id": "0.18.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "18",
+    "column": " | Actuals.",
+    "readings": [
+     2295.0
+    ]
+   },
+   {
+    "id": "0.98.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "98",
+    "column": " | Actuals.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.38.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "38",
+    "column": " | Actuals.",
+    "readings": [
+     347.0
+    ]
+   },
+   {
+    "id": "0.7.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "7",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     2484.0
+    ]
+   },
+   {
+    "id": "0.95.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "95",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.17.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "17",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     2459.0
+    ]
+   },
+   {
+    "id": "0.11.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "11",
+    "column": " | Actuals.",
+    "readings": [
+     1454.0
+    ]
+   },
+   {
+    "id": "0.27.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "27",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     1885.0
+    ]
+   },
+   {
+    "id": "0.11.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "11",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2600.0
+    ]
+   },
+   {
+    "id": "0.86.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "86",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.37.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "37",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     1176.0
+    ]
+   },
+   {
+    "id": "0.79.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "79",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "0.15.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "15",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     2550.0
+    ]
+   },
+   {
+    "id": "0.100.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "100",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.101.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "Total",
+    "column": " | Actuals.",
+    "readings": [
+     100000.0
+    ]
+   },
+   {
+    "id": "0.79.1",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "79",
+    "column": " | Smoothing (Intermediate.)",
+    "readings": [
+     32.0
+    ]
+   },
+   {
+    "id": "0.13.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "13",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     2578.0
+    ]
+   },
+   {
+    "id": "0.35.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "35",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     1580.0
+    ]
+   },
+   {
+    "id": "0.20.0",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "20",
+    "column": " | Actuals.",
+    "readings": [
+     7138.0
+    ]
+   },
+   {
+    "id": "0.26.3",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "26",
+    "column": " | Additional smoothing from curves.",
+    "readings": [
+     2100.0
+    ]
+   },
+   {
+    "id": "0.9.2",
+    "section": "SUBSIDIARY TABLE I. The actual recorded ages of 1,00,000 fem",
+    "row": "9",
+    "column": " | Smoothing (Final.)",
+    "readings": [
+     2564.0
+    ]
+   }
+  ],
+  "n_disputed": 242
+ },
+ {
+  "page": "1901_Mysore_SUBSIDIARY_TABLE_XI.-contd._Distribution_451c299",
+  "title": "SUBSIDIARY TABLE XI.-contd. Distribution by Civil Condition and Main Age Periods of 10,000 of each sex at the last three Censuses.-Mussalmans",
+  "year": 1901,
+  "place": "Mysore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/3af4c849ada7e676e37a3e216a0bcce3dcb23ed5.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Males | Unmarried | 1901",
+   "Males | Unmarried | 1891",
+   "Males | Unmarried | 1881",
+   "Males | Married | 1901",
+   "Males | Married | 1891",
+   "Males | Married | 1881",
+   "Males | Widowed | 1901",
+   "Males | Widowed | 1891",
+   "Males | Widowed | 1881",
+   "Females | Unmarried | 1901",
+   "Females | Unmarried | 1891",
+   "Females | Unmarried | 1881",
+   "Females | Married | 1901",
+   "Females | Married | 1891",
+   "Females | Married | 1881",
+   "Females | Widowed | 1901",
+   "Females | Widowed | 1891",
+   "Females | Widowed | 1881"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.2.3",
+    "section": "Females",
+    "row": "15-40",
+    "column": "Married | 1901",
+    "readings": [
+     2913.0,
+     2983.0
+    ]
+   },
+   {
+    "id": "1.1.7",
+    "section": "Females",
+    "row": "10-15",
+    "column": "Widowed | 1891",
+    "readings": [
+     1.0,
+     4.0
+    ]
+   },
+   {
+    "id": "1.1.3",
+    "section": "Females",
+    "row": "10-15",
+    "column": "Married | 1901",
+    "readings": [
+     222.0,
+     292.0
+    ]
+   },
+   {
+    "id": "1.1.8",
+    "section": "Females",
+    "row": "10-15",
+    "column": "Widowed | 1881",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "1.1.6",
+    "section": "Females",
+    "row": "10-15",
+    "column": "Widowed | 1901",
+    "readings": [
+     1.0,
+     8.0
+    ]
+   }
+  ],
+  "n_disputed": 5
+ },
+ {
+  "page": "1891_Cochin_TABLE_VIII._Civil_Condition_by_Religion_63d0821",
+  "title": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+  "year": 1891,
+  "place": "Cochin",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/ebecc8c908a8add5a5e6d0f5cd17469a8f79c873.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Total. | Total.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Total. | Males.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Total. | Females.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Unmarried. | Total.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Unmarried. | Males.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Unmarried. | Females.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Married. | Total.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Married. | Males.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Married. | Females.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Widowed. | Total.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Widowed. | Males.",
+   "TABLE VIII. Civil Condition by Religion  | All Religions. / Widowed. | Females.",
+   "TABLE VIII. Civil Condition by Religion  | Hindu. / Total. | Males.",
+   "TABLE VIII. Civil Condition by Religion  | Hindu. / Total. | Females.",
+   "TABLE VIII. Civil Condition by Religion  | Hindu. / Unmarried. | Males.",
+   "TABLE VIII. Civil Condition by Religion  | Hindu. / Unmarried. | Females.",
+   "TABLE VIII. Civil Condition by Religion  | Hindu. / Married. | Males.",
+   "TABLE VIII. Civil Condition by Religion  | Hindu. / Married. | Females.",
+   "TABLE VIII. Civil Condition by Religion  | Hindu. / Widowed. | Males.",
+   "TABLE VIII. Civil Condition by Religion  | Hindu. / Widowed. | Females."
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "0-4",
+    "column_group": "All Religions. - Total"
+   },
+   {
+    "id": 1,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "0-4",
+    "column_group": "All Religions. - Unmarried"
+   },
+   {
+    "id": 2,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "0-4",
+    "column_group": "All Religions. - Married"
+   },
+   {
+    "id": 3,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "0-4",
+    "column_group": "All Religions. - Widowed"
+   },
+   {
+    "id": 4,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "0-4",
+    "column_group": "Hindu. - Total"
+   },
+   {
+    "id": 5,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "0-4",
+    "column_group": "Hindu. - Unmarried"
+   },
+   {
+    "id": 6,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "0-4",
+    "column_group": "Hindu. - Married"
+   },
+   {
+    "id": 7,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "0-4",
+    "column_group": "Hindu. - Widowed"
+   },
+   {
+    "id": 8,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "5-9",
+    "column_group": "All Religions. - Total"
+   },
+   {
+    "id": 9,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "5-9",
+    "column_group": "All Religions. - Unmarried"
+   },
+   {
+    "id": 10,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "5-9",
+    "column_group": "All Religions. - Married"
+   },
+   {
+    "id": 11,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "5-9",
+    "column_group": "All Religions. - Widowed"
+   },
+   {
+    "id": 12,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "5-9",
+    "column_group": "Hindu. - Total"
+   },
+   {
+    "id": 13,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "5-9",
+    "column_group": "Hindu. - Unmarried"
+   },
+   {
+    "id": 14,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "5-9",
+    "column_group": "Hindu. - Married"
+   },
+   {
+    "id": 15,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "5-9",
+    "column_group": "Hindu. - Widowed"
+   },
+   {
+    "id": 16,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "10-14",
+    "column_group": "All Religions. - Total"
+   },
+   {
+    "id": 17,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "10-14",
+    "column_group": "All Religions. - Unmarried"
+   },
+   {
+    "id": 18,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "10-14",
+    "column_group": "All Religions. - Married"
+   },
+   {
+    "id": 19,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "10-14",
+    "column_group": "All Religions. - Widowed"
+   },
+   {
+    "id": 20,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "10-14",
+    "column_group": "Hindu. - Total"
+   },
+   {
+    "id": 21,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "10-14",
+    "column_group": "Hindu. - Unmarried"
+   },
+   {
+    "id": 22,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "10-14",
+    "column_group": "Hindu. - Married"
+   },
+   {
+    "id": 23,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "10-14",
+    "column_group": "Hindu. - Widowed"
+   },
+   {
+    "id": 24,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "15-19",
+    "column_group": "All Religions. - Total"
+   },
+   {
+    "id": 25,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "15-19",
+    "column_group": "All Religions. - Unmarried"
+   },
+   {
+    "id": 26,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "15-19",
+    "column_group": "All Religions. - Married"
+   },
+   {
+    "id": 27,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "15-19",
+    "column_group": "All Religions. - Widowed"
+   },
+   {
+    "id": 28,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "15-19",
+    "column_group": "Hindu. - Total"
+   },
+   {
+    "id": 29,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "15-19",
+    "column_group": "Hindu. - Unmarried"
+   },
+   {
+    "id": 30,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "15-19",
+    "column_group": "Hindu. - Married"
+   },
+   {
+    "id": 31,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "15-19",
+    "column_group": "Hindu. - Widowed"
+   },
+   {
+    "id": 32,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "20-24",
+    "column_group": "All Religions. - Total"
+   },
+   {
+    "id": 33,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "20-24",
+    "column_group": "All Religions. - Unmarried"
+   },
+   {
+    "id": 34,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "20-24",
+    "column_group": "All Religions. - Married"
+   },
+   {
+    "id": 35,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "20-24",
+    "column_group": "All Religions. - Widowed"
+   },
+   {
+    "id": 36,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "20-24",
+    "column_group": "Hindu. - Total"
+   },
+   {
+    "id": 37,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "20-24",
+    "column_group": "Hindu. - Unmarried"
+   },
+   {
+    "id": 38,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "20-24",
+    "column_group": "Hindu. - Married"
+   },
+   {
+    "id": 39,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "20-24",
+    "column_group": "Hindu. - Widowed"
+   },
+   {
+    "id": 40,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "25-29",
+    "column_group": "All Religions. - Total"
+   },
+   {
+    "id": 41,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "25-29",
+    "column_group": "All Religions. - Unmarried"
+   },
+   {
+    "id": 42,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "25-29",
+    "column_group": "All Religions. - Married"
+   },
+   {
+    "id": 43,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "25-29",
+    "column_group": "All Religions. - Widowed"
+   },
+   {
+    "id": 44,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "25-29",
+    "column_group": "Hindu. - Total"
+   },
+   {
+    "id": 45,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "25-29",
+    "column_group": "Hindu. - Unmarried"
+   },
+   {
+    "id": 46,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "25-29",
+    "column_group": "Hindu. - Married"
+   },
+   {
+    "id": 47,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "25-29",
+    "column_group": "Hindu. - Widowed"
+   },
+   {
+    "id": 48,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "30-34",
+    "column_group": "All Religions. - Total"
+   },
+   {
+    "id": 49,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "30-34",
+    "column_group": "All Religions. - Unmarried"
+   },
+   {
+    "id": 50,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "30-34",
+    "column_group": "All Religions. - Married"
+   },
+   {
+    "id": 51,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "30-34",
+    "column_group": "All Religions. - Widowed"
+   },
+   {
+    "id": 52,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "30-34",
+    "column_group": "Hindu. - Total"
+   },
+   {
+    "id": 53,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "30-34",
+    "column_group": "Hindu. - Unmarried"
+   },
+   {
+    "id": 54,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "30-34",
+    "column_group": "Hindu. - Married"
+   },
+   {
+    "id": 55,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "30-34",
+    "column_group": "Hindu. - Widowed"
+   },
+   {
+    "id": 56,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "35-39",
+    "column_group": "All Religions. - Total"
+   },
+   {
+    "id": 57,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "35-39",
+    "column_group": "All Religions. - Unmarried"
+   },
+   {
+    "id": 58,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "35-39",
+    "column_group": "All Religions. - Married"
+   },
+   {
+    "id": 59,
+    "section": "TABLE VIII. Civil Condition by Religion and Age. - Kotungallur Taluq.",
+    "row": "35-39",
+    "column_group": "All Religions. - Widowed"
+   }
+  ]
+ },
+ {
+  "page": "1891_Hyderabad_No._223._Continued._Occupations_by_age_717193a",
+  "title": "No. 223.\u2014Continued. Occupations by age, &c.",
+  "year": 1891,
+  "place": "Hyderabad",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25352821_p276.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "No. 223.\u2014Continued. | of 1,000 persons of each by age. / Rural | 0\u20144",
+   "No. 223.\u2014Continued. | of 1,000 persons of each by age. / Rural | 5\u201414",
+   "No. 223.\u2014Continued. | of 1,000 persons of each by age. / Rural | 15 and over.",
+   "No. 223.\u2014Continued. | Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population.",
+   "No. 223.\u2014Continued. | Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+   "No. 223.\u2014Continued. | Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+   "No. 223.\u2014Continued. | Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+   "No. 223.\u2014Continued. | Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each class.",
+   "No. 223.\u2014Continued. | Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+   "No. 223.\u2014Continued. | Urban and Rural percentages of each occupation under each age. / 0\u20144. | Urban.",
+   "No. 223.\u2014Continued. | Urban and Rural percentages of each occupation under each age. / 0\u20144. | Rural.",
+   "No. 223.\u2014Continued. | Urban and Rural percentages of each occupation under each age. / 5\u201414 | Urban.",
+   "No. 223.\u2014Continued. | Urban and Rural percentages of each occupation under each age. / 5\u201414 | Rural.",
+   "No. 223.\u2014Continued. | Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+   "No. 223.\u2014Continued. | Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+   "No. 223.\u2014Continued. | Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+   "No. 223.\u2014Continued. | Urban and Rural percentages of each occupation under each age. / All ages. | Rural."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.43.9",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_44",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Urban.",
+    "readings": [
+     7.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.33.14",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_34",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     35.0,
+     82.0,
+     93.0
+    ]
+   },
+   {
+    "id": "0.30.13",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_31",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+    "readings": [
+     1.0,
+     17.0,
+     22.0
+    ]
+   },
+   {
+    "id": "0.37.5",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_38",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     6548.0,
+     8564.0,
+     10000.0
+    ]
+   },
+   {
+    "id": "0.30.14",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_31",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     78.0,
+     83.0,
+     99.0
+    ]
+   },
+   {
+    "id": "0.34.5",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_35",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     11.0,
+     718.0
+    ]
+   },
+   {
+    "id": "0.38.4",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_39",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     1.0,
+     13.0,
+     342.0
+    ]
+   },
+   {
+    "id": "0.21.2",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_22",
+    "column": "of 1,000 persons of each by age. / Rural | 15 and over.",
+    "readings": [
+     585.0,
+     626.0,
+     639.0
+    ]
+   },
+   {
+    "id": "0.19.13",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_20",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+    "readings": [
+     37.0,
+     41.0,
+     73.0
+    ]
+   },
+   {
+    "id": "0.31.14",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_32",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     63.0,
+     78.0,
+     99.0
+    ]
+   },
+   {
+    "id": "0.43.16",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_44",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     21.0,
+     93.0
+    ]
+   },
+   {
+    "id": "0.29.4",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_30",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     1.0,
+     25.0
+    ]
+   },
+   {
+    "id": "0.19.12",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_20",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5\u201414 | Rural.",
+    "readings": [
+     33.0,
+     61.0,
+     66.0
+    ]
+   },
+   {
+    "id": "0.22.2",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_23",
+    "column": "of 1,000 persons of each by age. / Rural | 15 and over.",
+    "readings": [
+     626.0,
+     639.0,
+     679.0
+    ]
+   },
+   {
+    "id": "0.28.12",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_29",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5\u201414 | Rural.",
+    "readings": [
+     68.0,
+     89.0,
+     94.0
+    ]
+   },
+   {
+    "id": "0.41.4",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_42",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     1.0,
+     5.0,
+     14.0
+    ]
+   },
+   {
+    "id": "0.33.13",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_34",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Urban.",
+    "readings": [
+     7.0,
+     18.0,
+     65.0
+    ]
+   },
+   {
+    "id": "0.20.8",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_21",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     38.0,
+     42.0,
+     3817.0
+    ]
+   },
+   {
+    "id": "0.28.16",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_29",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     70.0,
+     84.0,
+     85.0
+    ]
+   },
+   {
+    "id": "0.34.11",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_35",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5\u201414 | Urban.",
+    "readings": [
+     5.0,
+     30.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.22.16",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_23",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     17.0,
+     76.0,
+     82.0
+    ]
+   },
+   {
+    "id": "0.38.8",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_39",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     324.0,
+     1888.0,
+     10000.0
+    ]
+   },
+   {
+    "id": "0.21.12",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_22",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5\u201414 | Rural.",
+    "readings": [
+     33.0,
+     77.0,
+     82.0
+    ]
+   },
+   {
+    "id": "0.31.12",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_32",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5\u201414 | Rural.",
+    "readings": [
+     65.0,
+     82.0,
+     99.0
+    ]
+   },
+   {
+    "id": "0.40.10",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_41",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Rural.",
+    "readings": [
+     68.0,
+     95.0,
+     96.0
+    ]
+   },
+   {
+    "id": "0.28.0",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_29",
+    "column": "of 1,000 persons of each by age. / Rural | 0\u20144",
+    "readings": [
+     134.0,
+     170.0,
+     201.0
+    ]
+   },
+   {
+    "id": "0.22.6",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_23",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     28.0,
+     73.0
+    ]
+   },
+   {
+    "id": "0.37.15",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_38",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+    "readings": [
+     15.0,
+     16.0,
+     80.0
+    ]
+   },
+   {
+    "id": "0.28.5",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_29",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     24.0,
+     734.0,
+     1436.0
+    ]
+   },
+   {
+    "id": "0.20.5",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_21",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     136.0,
+     402.0,
+     5528.0
+    ]
+   },
+   {
+    "id": "0.28.1",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_29",
+    "column": "of 1,000 persons of each by age. / Rural | 5\u201414",
+    "readings": [
+     220.0,
+     228.0,
+     243.0
+    ]
+   },
+   {
+    "id": "0.29.0",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_30",
+    "column": "of 1,000 persons of each by age. / Rural | 0\u20144",
+    "readings": [
+     134.0,
+     201.0
+    ]
+   },
+   {
+    "id": "0.40.1",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_41",
+    "column": "of 1,000 persons of each by age. / Rural | 5\u201414",
+    "readings": [
+     129.0,
+     131.0,
+     227.0
+    ]
+   },
+   {
+    "id": "0.20.4",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_21",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     7.0,
+     23.0,
+     313.0
+    ]
+   },
+   {
+    "id": "0.38.0",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_39",
+    "column": "of 1,000 persons of each by age. / Rural | 0\u20144",
+    "readings": [
+     138.0,
+     171.0,
+     229.0
+    ]
+   },
+   {
+    "id": "0.29.9",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_30",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Urban.",
+    "readings": [
+     11.0,
+     14.0
+    ]
+   },
+   {
+    "id": "0.44.2",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_45",
+    "column": "of 1,000 persons of each by age. / Rural | 15 and over.",
+    "readings": [
+     636.0
+    ]
+   },
+   {
+    "id": "0.16.0",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_17",
+    "column": "of 1,000 persons of each by age. / Rural | 0\u20144",
+    "readings": [
+     80.0,
+     381.0
+    ]
+   },
+   {
+    "id": "0.23.14",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_24",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     18.0,
+     76.0,
+     82.0
+    ]
+   },
+   {
+    "id": "0.44.4",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_45",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "0.23.0",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_24",
+    "column": "of 1,000 persons of each by age. / Rural | 0\u20144",
+    "readings": [
+     115.0,
+     142.0,
+     167.0
+    ]
+   },
+   {
+    "id": "0.37.8",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_38",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     324.0,
+     9338.0,
+     10000.0
+    ]
+   },
+   {
+    "id": "0.32.16",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_33",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     37.0,
+     94.0,
+     99.0
+    ]
+   },
+   {
+    "id": "0.28.6",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_29",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     3.0,
+     4.0
+    ]
+   },
+   {
+    "id": "0.19.0",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_20",
+    "column": "of 1,000 persons of each by age. / Rural | 0\u20144",
+    "readings": [
+     119.0,
+     163.0,
+     180.0
+    ]
+   },
+   {
+    "id": "0.37.1",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_38",
+    "column": "of 1,000 persons of each by age. / Rural | 5\u201414",
+    "readings": [
+     146.0,
+     242.0,
+     243.0
+    ]
+   },
+   {
+    "id": "0.23.2",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_24",
+    "column": "of 1,000 persons of each by age. / Rural | 15 and over.",
+    "readings": [
+     609.0,
+     639.0,
+     679.0
+    ]
+   },
+   {
+    "id": "0.39.16",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_40",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     20.0,
+     61.0,
+     95.0
+    ]
+   },
+   {
+    "id": "0.32.2",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_33",
+    "column": "of 1,000 persons of each by age. / Rural | 15 and over.",
+    "readings": [
+     555.0,
+     583.0,
+     731.0
+    ]
+   },
+   {
+    "id": "0.18.2",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_19",
+    "column": "of 1,000 persons of each by age. / Rural | 15 and over.",
+    "readings": [
+     476.0,
+     581.0,
+     637.0
+    ]
+   },
+   {
+    "id": "0.29.1",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_30",
+    "column": "of 1,000 persons of each by age. / Rural | 5\u201414",
+    "readings": [
+     228.0,
+     243.0
+    ]
+   },
+   {
+    "id": "0.30.9",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_31",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Urban.",
+    "readings": [
+     14.0,
+     17.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.38.10",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_39",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Rural.",
+    "readings": [
+     33.0,
+     86.0,
+     96.0
+    ]
+   },
+   {
+    "id": "0.21.9",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_22",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Urban.",
+    "readings": [
+     16.0,
+     21.0,
+     58.0
+    ]
+   },
+   {
+    "id": "0.18.0",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_19",
+    "column": "of 1,000 persons of each by age. / Rural | 0\u20144",
+    "readings": [
+     119.0,
+     180.0,
+     381.0
+    ]
+   },
+   {
+    "id": "0.25.15",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_26",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+    "readings": [
+     5.0,
+     24.0,
+     49.0
+    ]
+   },
+   {
+    "id": "0.44.6",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_45",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.41.6",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_42",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population.",
+    "readings": [
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "0.19.10",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_20",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Rural.",
+    "readings": [
+     42.0,
+     54.0,
+     75.0
+    ]
+   },
+   {
+    "id": "0.34.4",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_35",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each class.",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.27.14",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_28",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     16.0,
+     48.0,
+     70.0
+    ]
+   },
+   {
+    "id": "0.44.15",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_45",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.31.15",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_32",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+    "readings": [
+     1.0,
+     20.0,
+     37.0
+    ]
+   },
+   {
+    "id": "0.18.1",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_19",
+    "column": "of 1,000 persons of each by age. / Rural | 5\u201414",
+    "readings": [
+     143.0,
+     239.0,
+     244.0
+    ]
+   },
+   {
+    "id": "0.36.2",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_37",
+    "column": "of 1,000 persons of each by age. / Rural | 15 and over.",
+    "readings": [
+     500.0,
+     586.0,
+     587.0
+    ]
+   },
+   {
+    "id": "0.25.14",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_26",
+    "column": "Urban and Rural percentages of each occupation under each age. / 15 and over. | Rural.",
+    "readings": [
+     48.0,
+     76.0,
+     95.0
+    ]
+   },
+   {
+    "id": "0.41.1",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_42",
+    "column": "of 1,000 persons of each by age. / Rural | 5\u201414",
+    "readings": [
+     131.0,
+     227.0,
+     500.0
+    ]
+   },
+   {
+    "id": "0.16.1",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_17",
+    "column": "of 1,000 persons of each by age. / Rural | 5\u201414",
+    "readings": [
+     143.0,
+     237.0
+    ]
+   },
+   {
+    "id": "0.29.11",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_30",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5\u201414 | Urban.",
+    "readings": [
+     6.0,
+     12.0
+    ]
+   },
+   {
+    "id": "0.33.9",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_34",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Urban.",
+    "readings": [
+     5.0,
+     9.0,
+     60.0
+    ]
+   },
+   {
+    "id": "0.25.16",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_26",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     51.0,
+     76.0,
+     95.0
+    ]
+   },
+   {
+    "id": "0.25.9",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_26",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Urban.",
+    "readings": [
+     4.0,
+     21.0,
+     50.0
+    ]
+   },
+   {
+    "id": "0.41.11",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_42",
+    "column": "Urban and Rural percentages of each occupation under each age. / 5\u201414 | Urban.",
+    "readings": [
+     6.0,
+     51.0,
+     60.0
+    ]
+   },
+   {
+    "id": "0.24.15",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_25",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Urban.",
+    "readings": [
+     5.0,
+     24.0,
+     83.0
+    ]
+   },
+   {
+    "id": "0.37.10",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_38",
+    "column": "Urban and Rural percentages of each occupation under each age. / 0\u20144. | Rural.",
+    "readings": [
+     33.0,
+     86.0,
+     87.0
+    ]
+   },
+   {
+    "id": "0.29.5",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_30",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Urban. | Ratio per 10,000 of each occupation to the total Urban population of each order.",
+    "readings": [
+     24.0,
+     734.0
+    ]
+   },
+   {
+    "id": "0.40.16",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_41",
+    "column": "Urban and Rural percentages of each occupation under each age. / All ages. | Rural.",
+    "readings": [
+     61.0,
+     94.0,
+     95.0
+    ]
+   },
+   {
+    "id": "0.31.8",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_32",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     60.0,
+     815.0,
+     5409.0
+    ]
+   },
+   {
+    "id": "0.39.8",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_40",
+    "column": "Distribution of total population of 10,000 persons by occupation. / Rural. | Ratio per 10,000 of each occupation to the total Rural population of each order.",
+    "readings": [
+     324.0,
+     1888.0,
+     2212.0
+    ]
+   },
+   {
+    "id": "0.33.2",
+    "section": "No. 223.\u2014Continued.",
+    "row": "row_34",
+    "column": "of 1,000 persons of each by age. / Rural | 15 and over.",
+    "readings": [
+     583.0,
+     653.0,
+     731.0
+    ]
+   }
+  ],
+  "n_disputed": 411
+ },
+ {
+  "page": "1951_Punjab_TABLE_C-III_Civil_Condition_Age_and_Civ_e66ae50",
+  "title": "TABLE C-III Civil Condition (Age and Civil Condition)",
+  "year": 1951,
+  "place": "Punjab",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/ecd14dbc732b260610752a52823bda6ec2ab235e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/de1ba73f0f9752aef8c85bbc4fca9e5e1c809569.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/29c5f52bcc63824619095611d674cbe23d55c2f7.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a4f4e1a7c33469d2125d0f0d85115b4cb4121462.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/386ff45e0e25b28632838419b3e10e6416341812.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/3b6680e8eb1f59f0ea093c30fb18255838dff902.jpg"
+  ],
+  "n_images_total": 8,
+  "reading_columns": [
+   "Civil Condition | Age, 0 / Total | Males",
+   "Civil Condition | Age, 0 / Total | Females",
+   "Civil Condition | Age, 1\u20144 / Total | Males",
+   "Civil Condition | Age, 1\u20144 / Total | Females",
+   "Civil Condition | Age, 5\u201414 / Total | Males",
+   "Civil Condition | Age, 5\u201414 / Total | Females",
+   "Civil Condition | Age, 5\u201414 / Unmarried | Males",
+   "Civil Condition | Age, 5\u201414 / Unmarried | Females",
+   "Civil Condition | Age, 5\u201414 / Married | Males",
+   "Civil Condition | Age, 5\u201414 / Married | Females",
+   "Civil Condition | Age, 5\u201414 / Widowed or divorced | Males",
+   "Civil Condition | Age, 5\u201414 / Widowed or divorced | Females",
+   "Civil Condition | Age, 25\u201434 / Total | Males",
+   "Civil Condition | Age, 25\u201434 / Total | Females",
+   "Civil Condition | Age, 25\u201434 / Unmarried | Males",
+   "Civil Condition | Age, 25\u201434 / Unmarried | Females",
+   "Civil Condition | Age, 25\u201434 / Married | Males",
+   "Civil Condition | Age, 25\u201434 / Married | Females",
+   "Civil Condition | Age, 25\u201434 / Widowed or divorced | Males",
+   "Civil Condition | Age, 25\u201434 / Widowed or divorced | Females",
+   "Civil Condition | Age, 35\u201444 / Total | Males",
+   "Civil Condition | Age, 35\u201444 / Total | Females",
+   "Civil Condition | Age, 35\u201444 / Unmarried | Males",
+   "Civil Condition | Age, 35\u201444 / Unmarried | Females",
+   "Civil Condition | Age, 45\u201454 [Contd] / Married | Males",
+   "Civil Condition | Age, 45\u201454 [Contd] / Married | Females",
+   "Civil Condition | Age, 45\u201454 [Contd] / Widowed or divorced | Males",
+   "Civil Condition | Age, 45\u201454 [Contd] / Widowed or divorced | Females",
+   "Civil Condition | Age, 55\u201464 / Total | Males",
+   "Civil Condition | Age, 55\u201464 / Total | Females",
+   "Civil Condition | Age, 55\u201464 / Unmarried | Males",
+   "Civil Condition | Age, 55\u201464 / Unmarried | Females",
+   "Civil Condition | Age, 55\u201464 / Married | Males",
+   "Civil Condition | Age, 55\u201464 / Married | Females",
+   "Civil Condition | Age, 55\u201464 / Widowed or divorced | Males",
+   "Civil Condition | Age, 55\u201464 / Widowed or divorced | Females",
+   "Civil Condition | Age, 75 and over / Total | Males",
+   "Civil Condition | Age, 75 and over / Total | Females",
+   "Civil Condition | Age, 75 and over / Unmarried | Males",
+   "Civil Condition | Age, 75 and over / Unmarried | Females",
+   "Civil Condition | Age, 75 and over / Maried | Males",
+   "Civil Condition | Age, 75 and over / Maried | Females",
+   "Civil Condition | Age, 75 and over / Widowed or divorced | Males",
+   "Civil Condition | Age, 75 and over / Widowed or divorced | Females",
+   "Civil Condition | (Fly-Leaf) / Age not stated / Total | Males",
+   "Civil Condition | (Fly-Leaf) / Age not stated / Total | Females",
+   "Civil Condition | (Fly-Leaf) / Age not stated / Unmarried | Males",
+   "Civil Condition | (Fly-Leaf) / Age not stated / Unmarried | Females",
+   "Civil Condition | (Fly-Leaf) / Age not stated / Married | Males",
+   "Civil Condition | (Fly-Leaf) / Age not stated / Married | Females",
+   "Civil Condition | (Fly-Leaf) / Age not stated / Widowed or divorced | Males",
+   "Civil Condition | (Fly-Leaf) / Age not stated / Widowed or divorced | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.51.21",
+    "section": "Civil Condition",
+    "row": "Row 22",
+    "column": "Age, 35\u201444 / Total | Females",
+    "readings": [
+     2837.0,
+     20790.0,
+     24607.0
+    ]
+   },
+   {
+    "id": "0.30.13",
+    "section": "Civil Condition",
+    "row": "Row 1",
+    "column": "Age, 25\u201434 / Total | Females",
+    "readings": [
+     4610.0,
+     65200.0
+    ]
+   },
+   {
+    "id": "0.55.17",
+    "section": "Civil Condition",
+    "row": "Row 26",
+    "column": "Age, 25\u201434 / Married | Females",
+    "readings": [
+     1423.0,
+     15488.0,
+     27466.0
+    ]
+   },
+   {
+    "id": "0.59.15",
+    "section": "Civil Condition",
+    "row": "Row 30",
+    "column": "Age, 25\u201434 / Unmarried | Females",
+    "readings": [
+     8.0,
+     82.0,
+     1040.0
+    ]
+   },
+   {
+    "id": "0.58.18",
+    "section": "Civil Condition",
+    "row": "Row 29",
+    "column": "Age, 25\u201434 / Widowed or divorced | Males",
+    "readings": [
+     12.0,
+     47.0,
+     598.0
+    ]
+   },
+   {
+    "id": "0.9.40",
+    "section": "Civil Condition",
+    "row": "Block 4 Total",
+    "column": "Age, 75 and over / Maried | Males",
+    "readings": [
+     3.0,
+     4.0
+    ]
+   },
+   {
+    "id": "0.52.16",
+    "section": "Civil Condition",
+    "row": "Row 23",
+    "column": "Age, 25\u201434 / Married | Males",
+    "readings": [
+     1908.0,
+     23816.0,
+     23914.0
+    ]
+   },
+   {
+    "id": "0.55.9",
+    "section": "Civil Condition",
+    "row": "Row 26",
+    "column": "Age, 5\u201414 / Married | Females",
+    "readings": [
+     107.0,
+     2004.0,
+     2829.0
+    ]
+   },
+   {
+    "id": "0.41.8",
+    "section": "Civil Condition",
+    "row": "Row 12",
+    "column": "Age, 5\u201414 / Married | Males",
+    "readings": [
+     15.0,
+     19.0,
+     615.0
+    ]
+   },
+   {
+    "id": "0.56.11",
+    "section": "Civil Condition",
+    "row": "Row 27",
+    "column": "Age, 5\u201414 / Widowed or divorced | Females",
+    "readings": [
+     2.0,
+     4.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.51.9",
+    "section": "Civil Condition",
+    "row": "Row 22",
+    "column": "Age, 5\u201414 / Married | Females",
+    "readings": [
+     161.0,
+     3257.0,
+     5868.0
+    ]
+   },
+   {
+    "id": "0.56.18",
+    "section": "Civil Condition",
+    "row": "Row 27",
+    "column": "Age, 25\u201434 / Widowed or divorced | Males",
+    "readings": [
+     101.0,
+     131.0,
+     297.0
+    ]
+   },
+   {
+    "id": "0.42.17",
+    "section": "Civil Condition",
+    "row": "Row 13",
+    "column": "Age, 25\u201434 / Married | Females",
+    "readings": [
+     4771.0,
+     5024.0,
+     5679.0
+    ]
+   },
+   {
+    "id": "0.50.13",
+    "section": "Civil Condition",
+    "row": "Row 21",
+    "column": "Age, 25\u201434 / Total | Females",
+    "readings": [
+     177.0,
+     3248.0,
+     5124.0
+    ]
+   },
+   {
+    "id": "0.43.10",
+    "section": "Civil Condition",
+    "row": "Row 14",
+    "column": "Age, 5\u201414 / Widowed or divorced | Males",
+    "readings": [
+     2.0,
+     7.0
+    ]
+   },
+   {
+    "id": "0.47.15",
+    "section": "Civil Condition",
+    "row": "Row 18",
+    "column": "Age, 25\u201434 / Unmarried | Females",
+    "readings": [
+     4.0,
+     123.0,
+     127.0
+    ]
+   },
+   {
+    "id": "0.45.10",
+    "section": "Civil Condition",
+    "row": "Row 16",
+    "column": "Age, 5\u201414 / Widowed or divorced | Males",
+    "readings": [
+     4.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.11.41",
+    "section": "Civil Condition",
+    "row": "Block 4 Sub 2",
+    "column": "Age, 75 and over / Maried | Females",
+    "readings": [
+     2.0,
+     3.0
+    ]
+   },
+   {
+    "id": "0.58.20",
+    "section": "Civil Condition",
+    "row": "Row 29",
+    "column": "Age, 35\u201444 / Total | Males",
+    "readings": [
+     222.0,
+     1864.0,
+     14998.0
+    ]
+   },
+   {
+    "id": "0.44.1",
+    "section": "Civil Condition",
+    "row": "Row 15",
+    "column": "Age, 0 / Total | Females",
+    "readings": [
+     378.0,
+     508.0,
+     1661.0
+    ]
+   },
+   {
+    "id": "0.59.1",
+    "section": "Civil Condition",
+    "row": "Row 30",
+    "column": "Age, 0 / Total | Females",
+    "readings": [
+     180.0,
+     1036.0,
+     10570.0
+    ]
+   },
+   {
+    "id": "0.47.16",
+    "section": "Civil Condition",
+    "row": "Row 18",
+    "column": "Age, 25\u201434 / Married | Males",
+    "readings": [
+     351.0,
+     2284.0,
+     3129.0
+    ]
+   },
+   {
+    "id": "0.11.40",
+    "section": "Civil Condition",
+    "row": "Block 4 Sub 2",
+    "column": "Age, 75 and over / Maried | Males",
+    "readings": [
+     3.0,
+     4.0
+    ]
+   },
+   {
+    "id": "0.49.3",
+    "section": "Civil Condition",
+    "row": "Row 20",
+    "column": "Age, 1\u20144 / Total | Females",
+    "readings": [
+     943.0,
+     3195.0,
+     23404.0
+    ]
+   },
+   {
+    "id": "0.50.0",
+    "section": "Civil Condition",
+    "row": "Row 21",
+    "column": "Age, 0 / Total | Males",
+    "readings": [
+     202.0,
+     1883.0,
+     2077.0
+    ]
+   },
+   {
+    "id": "0.52.23",
+    "section": "Civil Condition",
+    "row": "Row 23",
+    "column": "Age, 35\u201444 / Unmarried | Females",
+    "readings": [
+     11.0,
+     168.0,
+     593.0
+    ]
+   },
+   {
+    "id": "0.58.5",
+    "section": "Civil Condition",
+    "row": "Row 29",
+    "column": "Age, 5\u201414 / Total | Females",
+    "readings": [
+     378.0,
+     3489.0,
+     30081.0
+    ]
+   },
+   {
+    "id": "0.36.1",
+    "section": "Civil Condition",
+    "row": "Row 7",
+    "column": "Age, 0 / Total | Females",
+    "readings": [
+     1661.0,
+     2314.0
+    ]
+   },
+   {
+    "id": "0.59.2",
+    "section": "Civil Condition",
+    "row": "Row 30",
+    "column": "Age, 1\u20144 / Total | Males",
+    "readings": [
+     848.0,
+     3246.0,
+     29644.0
+    ]
+   },
+   {
+    "id": "0.46.2",
+    "section": "Civil Condition",
+    "row": "Row 17",
+    "column": "Age, 1\u20144 / Total | Males",
+    "readings": [
+     1631.0,
+     3599.0,
+     4965.0
+    ]
+   },
+   {
+    "id": "0.49.4",
+    "section": "Civil Condition",
+    "row": "Row 20",
+    "column": "Age, 5\u201414 / Total | Males",
+    "readings": [
+     1240.0,
+     6699.0,
+     51345.0
+    ]
+   },
+   {
+    "id": "0.44.19",
+    "section": "Civil Condition",
+    "row": "Row 15",
+    "column": "Age, 25\u201434 / Widowed or divorced | Females",
+    "readings": [
+     40.0,
+     59.0,
+     180.0
+    ]
+   },
+   {
+    "id": "0.37.20",
+    "section": "Civil Condition",
+    "row": "Row 8",
+    "column": "Age, 35\u201444 / Total | Males",
+    "readings": [
+     2863.0,
+     3643.0
+    ]
+   },
+   {
+    "id": "0.48.22",
+    "section": "Civil Condition",
+    "row": "Row 19",
+    "column": "Age, 35\u201444 / Unmarried | Males",
+    "readings": [
+     312.0,
+     372.0,
+     2637.0
+    ]
+   },
+   {
+    "id": "0.32.18",
+    "section": "Civil Condition",
+    "row": "Row 3",
+    "column": "Age, 25\u201434 / Widowed or divorced | Males",
+    "readings": [
+     13.0,
+     81.0
+    ]
+   },
+   {
+    "id": "0.47.12",
+    "section": "Civil Condition",
+    "row": "Row 18",
+    "column": "Age, 25\u201434 / Total | Males",
+    "readings": [
+     410.0,
+     2746.0,
+     4007.0
+    ]
+   },
+   {
+    "id": "0.33.19",
+    "section": "Civil Condition",
+    "row": "Row 4",
+    "column": "Age, 25\u201434 / Widowed or divorced | Females",
+    "readings": [
+     325.0,
+     2553.0
+    ]
+   },
+   {
+    "id": "0.37.11",
+    "section": "Civil Condition",
+    "row": "Row 8",
+    "column": "Age, 5\u201414 / Widowed or divorced | Females",
+    "readings": [
+     2.0,
+     13.0
+    ]
+   },
+   {
+    "id": "0.55.16",
+    "section": "Civil Condition",
+    "row": "Row 26",
+    "column": "Age, 25\u201434 / Married | Males",
+    "readings": [
+     2284.0,
+     14888.0,
+     23816.0
+    ]
+   },
+   {
+    "id": "0.47.3",
+    "section": "Civil Condition",
+    "row": "Row 18",
+    "column": "Age, 1\u20144 / Total | Females",
+    "readings": [
+     331.0,
+     1608.0,
+     3859.0
+    ]
+   },
+   {
+    "id": "0.47.2",
+    "section": "Civil Condition",
+    "row": "Row 18",
+    "column": "Age, 1\u20144 / Total | Males",
+    "readings": [
+     548.0,
+     1695.0,
+     3895.0
+    ]
+   },
+   {
+    "id": "0.31.5",
+    "section": "Civil Condition",
+    "row": "Row 2",
+    "column": "Age, 5\u201414 / Total | Females",
+    "readings": [
+     6890.0,
+     9390.0
+    ]
+   },
+   {
+    "id": "0.45.3",
+    "section": "Civil Condition",
+    "row": "Row 16",
+    "column": "Age, 1\u20144 / Total | Females",
+    "readings": [
+     3526.0,
+     4088.0,
+     6150.0
+    ]
+   },
+   {
+    "id": "0.52.0",
+    "section": "Civil Condition",
+    "row": "Row 23",
+    "column": "Age, 0 / Total | Males",
+    "readings": [
+     543.0,
+     9276.0,
+     9549.0
+    ]
+   },
+   {
+    "id": "0.44.23",
+    "section": "Civil Condition",
+    "row": "Row 15",
+    "column": "Age, 35\u201444 / Unmarried | Females",
+    "readings": [
+     11.0,
+     70.0,
+     254.0
+    ]
+   },
+   {
+    "id": "0.51.10",
+    "section": "Civil Condition",
+    "row": "Row 22",
+    "column": "Age, 5\u201414 / Widowed or divorced | Males",
+    "readings": [
+     2.0,
+     61.0,
+     235.0
+    ]
+   },
+   {
+    "id": "0.49.6",
+    "section": "Civil Condition",
+    "row": "Row 20",
+    "column": "Age, 5\u201414 / Unmarried | Males",
+    "readings": [
+     1211.0,
+     6608.0,
+     49156.0
+    ]
+   },
+   {
+    "id": "0.30.19",
+    "section": "Civil Condition",
+    "row": "Row 1",
+    "column": "Age, 25\u201434 / Widowed or divorced | Females",
+    "readings": [
+     206.0,
+     3054.0
+    ]
+   },
+   {
+    "id": "0.55.3",
+    "section": "Civil Condition",
+    "row": "Row 26",
+    "column": "Age, 1\u20144 / Total | Females",
+    "readings": [
+     1608.0,
+     14790.0,
+     28554.0
+    ]
+   },
+   {
+    "id": "0.31.15",
+    "section": "Civil Condition",
+    "row": "Row 2",
+    "column": "Age, 25\u201434 / Unmarried | Females",
+    "readings": [
+     38.0,
+     128.0
+    ]
+   },
+   {
+    "id": "0.45.20",
+    "section": "Civil Condition",
+    "row": "Row 16",
+    "column": "Age, 35\u201444 / Total | Males",
+    "readings": [
+     2704.0,
+     2863.0,
+     5584.0
+    ]
+   },
+   {
+    "id": "0.51.13",
+    "section": "Civil Condition",
+    "row": "Row 22",
+    "column": "Age, 25\u201434 / Total | Females",
+    "readings": [
+     4012.0,
+     30051.0,
+     35149.0
+    ]
+   },
+   {
+    "id": "0.56.6",
+    "section": "Civil Condition",
+    "row": "Row 27",
+    "column": "Age, 5\u201414 / Unmarried | Males",
+    "readings": [
+     6297.0,
+     7269.0,
+     10563.0
+    ]
+   },
+   {
+    "id": "0.37.19",
+    "section": "Civil Condition",
+    "row": "Row 8",
+    "column": "Age, 25\u201434 / Widowed or divorced | Females",
+    "readings": [
+     129.0,
+     166.0
+    ]
+   },
+   {
+    "id": "0.31.16",
+    "section": "Civil Condition",
+    "row": "Row 2",
+    "column": "Age, 25\u201434 / Married | Males",
+    "readings": [
+     3944.0,
+     4147.0
+    ]
+   },
+   {
+    "id": "0.42.23",
+    "section": "Civil Condition",
+    "row": "Row 13",
+    "column": "Age, 35\u201444 / Unmarried | Females",
+    "readings": [
+     57.0,
+     108.0,
+     116.0
+    ]
+   },
+   {
+    "id": "0.41.2",
+    "section": "Civil Condition",
+    "row": "Row 12",
+    "column": "Age, 1\u20144 / Total | Males",
+    "readings": [
+     815.0,
+     1744.0,
+     6064.0
+    ]
+   },
+   {
+    "id": "0.56.14",
+    "section": "Civil Condition",
+    "row": "Row 27",
+    "column": "Age, 25\u201434 / Unmarried | Males",
+    "readings": [
+     630.0,
+     736.0,
+     1349.0
+    ]
+   },
+   {
+    "id": "0.46.1",
+    "section": "Civil Condition",
+    "row": "Row 17",
+    "column": "Age, 0 / Total | Females",
+    "readings": [
+     419.0,
+     1003.0,
+     1457.0
+    ]
+   },
+   {
+    "id": "0.37.17",
+    "section": "Civil Condition",
+    "row": "Row 8",
+    "column": "Age, 25\u201434 / Married | Females",
+    "readings": [
+     3630.0,
+     3832.0
+    ]
+   },
+   {
+    "id": "0.38.6",
+    "section": "Civil Condition",
+    "row": "Row 9",
+    "column": "Age, 5\u201414 / Unmarried | Males",
+    "readings": [
+     594.0,
+     1897.0
+    ]
+   },
+   {
+    "id": "0.42.15",
+    "section": "Civil Condition",
+    "row": "Row 13",
+    "column": "Age, 25\u201434 / Unmarried | Females",
+    "readings": [
+     168.0,
+     229.0,
+     241.0
+    ]
+   },
+   {
+    "id": "0.43.5",
+    "section": "Civil Condition",
+    "row": "Row 14",
+    "column": "Age, 5\u201414 / Total | Females",
+    "readings": [
+     581.0,
+     7069.0,
+     9030.0
+    ]
+   },
+   {
+    "id": "0.51.11",
+    "section": "Civil Condition",
+    "row": "Row 22",
+    "column": "Age, 5\u201414 / Widowed or divorced | Females",
+    "readings": [
+     2.0,
+     16.0,
+     51.0
+    ]
+   },
+   {
+    "id": "0.41.9",
+    "section": "Civil Condition",
+    "row": "Row 12",
+    "column": "Age, 5\u201414 / Married | Females",
+    "readings": [
+     35.0,
+     47.0,
+     683.0
+    ]
+   },
+   {
+    "id": "0.53.13",
+    "section": "Civil Condition",
+    "row": "Row 24",
+    "column": "Age, 25\u201434 / Total | Females",
+    "readings": [
+     3248.0,
+     5126.0,
+     6187.0
+    ]
+   },
+   {
+    "id": "0.34.19",
+    "section": "Civil Condition",
+    "row": "Row 5",
+    "column": "Age, 25\u201434 / Widowed or divorced | Females",
+    "readings": [
+     213.0,
+     314.0
+    ]
+   },
+   {
+    "id": "0.35.9",
+    "section": "Civil Condition",
+    "row": "Row 6",
+    "column": "Age, 5\u201414 / Married | Females",
+    "readings": [
+     10.0,
+     50.0
+    ]
+   },
+   {
+    "id": "0.52.4",
+    "section": "Civil Condition",
+    "row": "Row 23",
+    "column": "Age, 5\u201414 / Total | Males",
+    "readings": [
+     3192.0,
+     51345.0,
+     60992.0
+    ]
+   },
+   {
+    "id": "0.50.19",
+    "section": "Civil Condition",
+    "row": "Row 21",
+    "column": "Age, 25\u201434 / Widowed or divorced | Females",
+    "readings": [
+     9.0,
+     150.0,
+     185.0
+    ]
+   },
+   {
+    "id": "0.58.6",
+    "section": "Civil Condition",
+    "row": "Row 29",
+    "column": "Age, 5\u201414 / Unmarried | Males",
+    "readings": [
+     661.0,
+     3685.0,
+     34635.0
+    ]
+   },
+   {
+    "id": "0.30.20",
+    "section": "Civil Condition",
+    "row": "Row 1",
+    "column": "Age, 35\u201444 / Total | Males",
+    "readings": [
+     4494.0,
+     55122.0
+    ]
+   },
+   {
+    "id": "0.57.8",
+    "section": "Civil Condition",
+    "row": "Row 28",
+    "column": "Age, 5\u201414 / Married | Males",
+    "readings": [
+     89.0,
+     91.0,
+     911.0
+    ]
+   },
+   {
+    "id": "0.54.8",
+    "section": "Civil Condition",
+    "row": "Row 25",
+    "column": "Age, 5\u201414 / Married | Males",
+    "readings": [
+     108.0,
+     911.0,
+     1591.0
+    ]
+   },
+   {
+    "id": "0.46.19",
+    "section": "Civil Condition",
+    "row": "Row 17",
+    "column": "Age, 25\u201434 / Widowed or divorced | Females",
+    "readings": [
+     51.0,
+     139.0,
+     220.0
+    ]
+   },
+   {
+    "id": "0.57.23",
+    "section": "Civil Condition",
+    "row": "Row 28",
+    "column": "Age, 35\u201444 / Unmarried | Females",
+    "readings": [
+     55.0,
+     68.0,
+     244.0
+    ]
+   },
+   {
+    "id": "0.35.15",
+    "section": "Civil Condition",
+    "row": "Row 6",
+    "column": "Age, 25\u201434 / Unmarried | Females",
+    "readings": [
+     3.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.32.21",
+    "section": "Civil Condition",
+    "row": "Row 3",
+    "column": "Age, 35\u201444 / Total | Females",
+    "readings": [
+     92.0,
+     535.0
+    ]
+   },
+   {
+    "id": "0.51.18",
+    "section": "Civil Condition",
+    "row": "Row 22",
+    "column": "Age, 25\u201434 / Widowed or divorced | Males",
+    "readings": [
+     150.0,
+     1570.0,
+     1573.0
+    ]
+   },
+   {
+    "id": "0.53.23",
+    "section": "Civil Condition",
+    "row": "Row 24",
+    "column": "Age, 35\u201444 / Unmarried | Females",
+    "readings": [
+     16.0,
+     108.0,
+     140.0
+    ]
+   }
+  ],
+  "n_disputed": 653
+ },
+ {
+  "page": "1881_Madras_Table_No._4_showing_the_Ages_of_the_Peo_86a2f1d",
+  "title": "Table No. 4, showing the Ages of the People in the North Arcot District in decennial periods.",
+  "year": 1881,
+  "place": "Madras",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d0407ab36f9059781f9709f3242bf048a344870c.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Table No. 4, showing the Ages of the Peo |  | Males",
+   "Table No. 4, showing the Ages of the Peo |  | Females",
+   "Table No. 4, showing the Ages of the Peo |  | Total",
+   "The proportion per mille under three per |  | North Arcot",
+   "The proportion per mille under three per |  | Presidency",
+   "Table No. 5, comparing the Proportion (p |  | North Arcot",
+   "Table No. 5, comparing the Proportion (p |  | Non-Famine",
+   "Table No. 5, comparing the Proportion (p |  | Famine",
+   "Table No. 5, comparing the Proportion (p |  | Total"
+  ],
+  "task": "disputes",
+  "cells": [],
+  "n_disputed": 0
+ }
+]

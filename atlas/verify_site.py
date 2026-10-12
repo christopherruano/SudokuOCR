@@ -89,6 +89,34 @@ def check_links(P, V, search_pages):
     report("links/static hrefs on top pages", not miss, f"{len(hrefs) - len(miss)}/{len(hrefs)} resolve" + (f"; missing {miss[:5]}" if miss else ""))
 
 
+def check_frozen():
+    """no published table may contain a frozen row, a frozen column or a column copying its neighbour,
+    unless a reviewer confirmed the print repeats the value (out/frozen_exceptions.csv)"""
+    import csv as _csv, sys as _sys
+    _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import column_audit
+    out, det = column_audit.main()
+    ex = {(r["page"], r["label"]) for r in _csv.DictReader(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out", "frozen_exceptions.csv")))}
+    bad = []
+    tdir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "census_site", "tables")
+    def published(page):           # withdrawal notices and forwarding stubs carry no data
+        try:
+            head = open(os.path.join(tdir, page + ".html"), errors="ignore").read(1200)
+        except OSError:
+            return False
+        return "<title>Table Withdrawn</title>" not in head and "<title>Moved</title>" not in head
+    for page, level, label, reason in det:
+        if not published(page):
+            continue
+        kind = reason.split(" ")[0]
+        if level == "row" or kind in ("frozen", "duplicate"):
+            lab = label.split(" | ")[-1] if level == "row" else label
+            if (page, lab) not in ex and (page, label) not in ex:
+                bad.append((page, label, reason))
+    report("data/no frozen rows or copied columns (except reviewed)", not bad,
+           f"{len(bad)} unreviewed" + (f", e.g. {bad[:2]}" if bad else ""))
+
+
 def check_data(P, V, A, S):
     tp = collections.defaultdict(set)
     for r in csv.DictReader(open(os.path.join(HERE, "out", "table_places.csv"))):
@@ -219,6 +247,8 @@ def main():
     S = [x["p"] for x in json.loads(re.search(r"const IDX=(\[.*?\]);\n", body, re.S).group(1))]
     check_links(P, V, S)
     check_data(P, V, A, S)
+    if "localhost" in BASE or not BASE.startswith("http"):     # corpus check on the local build (needs the DB)
+        check_frozen()
     check_figures()
     check_browser()
     print(f"\n{'ALL CHECKS PASSED' if not FAILS else f'{len(FAILS)} CHECK(S) FAILED: ' + ', '.join(FAILS)}")

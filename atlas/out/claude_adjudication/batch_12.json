@@ -1,0 +1,5438 @@
+[
+ {
+  "page": "1921_Madras_TABLE_VII._Age_sex_and_civil_condition._4d503f0",
+  "title": "TABLE VII. Age, sex and civil condition. Part I. - Districts and States \u2014 Madras",
+  "year": 1921,
+  "place": "Madras",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/128033979e5a5ec80ad5b19f8e2843239c0e28a2.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/bf1c999372d00a99652125a2878bbbf9030da04b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/0cecea01e451f2a51325d9d7931ef2befc3f7adc.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/9ed9a197d98a32b78718b66a0e6eed3cb846e441.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a51a711f9f24d846a5e52150fabd218d6476a7fc.jpg"
+  ],
+  "n_images_total": 5,
+  "reading_columns": [
+   "TABLE VII. Age, sex and civil condition. | POPULATION | Persons",
+   "TABLE VII. Age, sex and civil condition. | POPULATION | Males",
+   "TABLE VII. Age, sex and civil condition. | POPULATION | Females",
+   "TABLE VII. Age, sex and civil condition. | UNMARRIED | Persons",
+   "TABLE VII. Age, sex and civil condition. | UNMARRIED | Males",
+   "TABLE VII. Age, sex and civil condition. | UNMARRIED | Females",
+   "TABLE VII. Age, sex and civil condition. | MARRIED | Persons",
+   "TABLE VII. Age, sex and civil condition. | MARRIED | Males",
+   "TABLE VII. Age, sex and civil condition. | MARRIED | Females",
+   "TABLE VII. Age, sex and civil condition. | WIDOWED | Persons",
+   "TABLE VII. Age, sex and civil condition. | WIDOWED | Males",
+   "TABLE VII. Age, sex and civil condition. | WIDOWED | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.279.9",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "10-15",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.11.3",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "Total",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     25724.0
+    ]
+   },
+   {
+    "id": "0.51.4",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "30-40",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     6192.0
+    ]
+   },
+   {
+    "id": "0.225.1",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "15-20",
+    "column": "POPULATION | Males",
+    "readings": [
+     155.0
+    ]
+   },
+   {
+    "id": "0.287.0",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "0-1",
+    "column": "POPULATION | Persons",
+    "readings": [
+     56997.0
+    ]
+   },
+   {
+    "id": "0.268.11",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "10-15",
+    "column": "WIDOWED | Females",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.134.5",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "1-5",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     81516.0
+    ]
+   },
+   {
+    "id": "0.175.1",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "60 and over",
+    "column": "POPULATION | Males",
+    "readings": [
+     41.0
+    ]
+   },
+   {
+    "id": "0.196.10",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "50-60",
+    "column": "WIDOWED | Males",
+    "readings": [
+     8172.0
+    ]
+   },
+   {
+    "id": "0.244.1",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "1-5",
+    "column": "POPULATION | Males",
+    "readings": [
+     98336.0
+    ]
+   },
+   {
+    "id": "0.302.10",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "15-20",
+    "column": "WIDOWED | Males",
+    "readings": [
+     195.0
+    ]
+   },
+   {
+    "id": "0.117.4",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "30-40",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "0.170.7",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "15-20",
+    "column": "MARRIED | Males",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.14.10",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "5-10",
+    "column": "WIDOWED | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.149.10",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "20-30",
+    "column": "WIDOWED | Males",
+    "readings": [
+     47.0
+    ]
+   },
+   {
+    "id": "0.196.0",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "50-60",
+    "column": "POPULATION | Persons",
+    "readings": [
+     89322.0
+    ]
+   },
+   {
+    "id": "0.174.0",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "50-60",
+    "column": "POPULATION | Persons",
+    "readings": [
+     121.0
+    ]
+   },
+   {
+    "id": "0.80.3",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "5-10",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     45231.0
+    ]
+   },
+   {
+    "id": "0.98.11",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "60 and over",
+    "column": "WIDOWED | Females",
+    "readings": [
+     923.0
+    ]
+   },
+   {
+    "id": "0.179.3",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "5-10",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     177882.0
+    ]
+   },
+   {
+    "id": "0.118.1",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "40-50",
+    "column": "POPULATION | Males",
+    "readings": [
+     119.0
+    ]
+   },
+   {
+    "id": "0.216.8",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "30-40",
+    "column": "MARRIED | Females",
+    "readings": [
+     350.0
+    ]
+   },
+   {
+    "id": "0.190.11",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "5-10",
+    "column": "WIDOWED | Females",
+    "readings": [
+     158.0
+    ]
+   },
+   {
+    "id": "0.101.9",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "1-5",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.303.5",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "20-30",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     7642.0
+    ]
+   },
+   {
+    "id": "0.274.10",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "60 and over",
+    "column": "WIDOWED | Males",
+    "readings": [
+     210.0
+    ]
+   },
+   {
+    "id": "0.241.4",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "60 and over",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     1199.0
+    ]
+   },
+   {
+    "id": "0.253.4",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "Total",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     33829.0
+    ]
+   },
+   {
+    "id": "0.26.6",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "10-15",
+    "column": "MARRIED | Persons",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.238.4",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "30-40",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     7116.0
+    ]
+   },
+   {
+    "id": "0.55.11",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "Total",
+    "column": "WIDOWED | Females",
+    "readings": [
+     7748.0
+    ]
+   },
+   {
+    "id": "0.11.5",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "Total",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     10867.0
+    ]
+   },
+   {
+    "id": "0.216.7",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "30-40",
+    "column": "MARRIED | Males",
+    "readings": [
+     437.0
+    ]
+   },
+   {
+    "id": "0.83.11",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "20-30",
+    "column": "WIDOWED | Females",
+    "readings": [
+     3075.0
+    ]
+   },
+   {
+    "id": "0.17.8",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "20-30",
+    "column": "MARRIED | Females",
+    "readings": [
+     4482.0
+    ]
+   },
+   {
+    "id": "0.300.6",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "5-10",
+    "column": "MARRIED | Persons",
+    "readings": [
+     3069.0
+    ]
+   },
+   {
+    "id": "0.264.5",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "Total",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     8437.0
+    ]
+   },
+   {
+    "id": "0.293.9",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "30-40",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     38942.0
+    ]
+   },
+   {
+    "id": "0.10.4",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "60 and over",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     108.0
+    ]
+   },
+   {
+    "id": "0.102.8",
+    "section": "TABLE VII. Age, sex and civil condition. Part I.-Districts a",
+    "row": "5-10",
+    "column": "MARRIED | Females",
+    "readings": [
+     14.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1901_Gwalior_TABLE_VII._Age_Sex_and_Civil_Condition_38c3164",
+  "title": "TABLE VII. Age, Sex and Civil Condition (continuation stitch)",
+  "year": 1901,
+  "place": "Gwalior",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/89e2aa129ec999a868aa1cb38f49694501f3f9a9.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/96a6f5709d389a11e06f90309be6eaf37bb5ac3f.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a60993d2a7cf58addb4013c3aa3fe892f786c9b6.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/2f4cff51fa037f51495842e35c77702f210b0a7b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/ecd3b1826740454c3cfd2d6829d9da60a0c6e7e9.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/50738d5ceaf31ce8def5debe105fb72e096fcb08.jpg"
+  ],
+  "n_images_total": 7,
+  "reading_columns": [
+   "All Religions - Total Widowed | Total Widowed | Persons",
+   "All Religions - Total Widowed | Total Widowed | Males",
+   "All Religions - Total Widowed | Total Widowed | Females",
+   "All Religions - Total Widowed | Age Periods / 0-1 | Males",
+   "All Religions - Total Widowed | Age Periods / 0-1 | Females",
+   "All Religions - Total Widowed | Age Periods / 1-2 | Males",
+   "All Religions - Total Widowed | Age Periods / 1-2 | Females",
+   "All Religions - Total Widowed | Age Periods / 2-3 | Males",
+   "All Religions - Total Widowed | Age Periods / 2-3 | Females",
+   "All Religions - Total Widowed | Age Periods / 3-4 | Males",
+   "All Religions - Total Widowed | Age Periods / 3-4 | Females",
+   "All Religions - Total Widowed | Age Periods / 4-5 | Males",
+   "All Religions - Total Widowed | Age Periods / 4-5 | Females",
+   "All Religions - Total Widowed | Age Periods / Total 0-5 | Males",
+   "All Religions - Total Widowed | Age Periods / Total 0-5 | Females",
+   "All Religions - Total Widowed | Age Periods / 5-10 | Males",
+   "All Religions - Total Widowed | Age Periods / 5-10 | Females",
+   "All Religions - Total Widowed | Age Periods / 10-15 | Males",
+   "All Religions - Total Widowed | Age Periods / 10-15 | Females",
+   "All Religions - Total Married | Total Married | Persons",
+   "All Religions - Total Married | Total Married | Males",
+   "All Religions - Total Married | Total Married | Females",
+   "All Religions - Total Married | Age Periods / 0-1 | Males",
+   "All Religions - Total Married | Age Periods / 0-1 | Females",
+   "All Religions - Total Married | Age Periods / 1-2 | Males",
+   "All Religions - Total Married | Age Periods / 1-2 | Females",
+   "All Religions - Total Married | Age Periods / 2-3 | Males",
+   "All Religions - Total Married | Age Periods / 2-3 | Females",
+   "All Religions - Total Married | Age Periods / 3-4 | Males",
+   "All Religions - Total Married | Age Periods / 3-4 | Females",
+   "All Religions - Total Married | Age Periods / 4-5 | Males",
+   "All Religions - Total Married | Age Periods / 4-5 | Females",
+   "All Religions - Total Married | Age Periods / Total 0-5 | Males",
+   "All Religions - Total Married | Age Periods / Total 0-5 | Females",
+   "All Religions - Total Married | Age Periods / 5-10 | Males",
+   "All Religions - Total Married | Age Periods / 5-10 | Females",
+   "All Religions - Total Married | Age Periods / 10-15 | Males",
+   "All Religions - Total Married | Age Periods / 10-15 | Females",
+   "All Religions - Total Unmarried | Total Unmarried | Persons",
+   "All Religions - Total Unmarried | Total Unmarried | Males",
+   "All Religions - Total Unmarried | Total Unmarried | Females",
+   "All Religions - Total Unmarried | Age Periods / 0-1 | Males",
+   "All Religions - Total Unmarried | Age Periods / 0-1 | Females",
+   "All Religions - Total Unmarried | Age Periods / 1-2 | Males",
+   "All Religions - Total Unmarried | Age Periods / 1-2 | Females",
+   "All Religions - Total Unmarried | Age Periods / 2-3 | Males",
+   "All Religions - Total Unmarried | Age Periods / 2-3 | Females",
+   "All Religions - Total Unmarried | Age Periods / 3-4 | Males",
+   "All Religions - Total Unmarried | Age Periods / 3-4 | Females",
+   "All Religions - Total Unmarried | Age Periods / 4-5 | Males",
+   "All Religions - Total Unmarried | Age Periods / 4-5 | Females",
+   "All Religions - Total Unmarried | Age Periods / Total 0-5 | Males",
+   "All Religions - Total Unmarried | Age Periods / Total 0-5 | Females",
+   "All Religions - Total Unmarried | Age Periods / 5-10 | Males",
+   "All Religions - Total Unmarried | Age Periods / 5-10 | Females",
+   "All Religions - Total Unmarried | Age Periods / 10-15 | Males",
+   "All Religions - Total Unmarried | Age Periods / 10-15 | Females",
+   "Hindus - Total Population | Total Population | Persons",
+   "Hindus - Total Population | Total Population | Males",
+   "Hindus - Total Population | Total Population | Females",
+   "Hindus - Total Population | Age Periods / 0-1 | Males",
+   "Hindus - Total Population | Age Periods / 0-1 | Females",
+   "Hindus - Total Population | Age Periods / 1-2 | Males",
+   "Hindus - Total Population | Age Periods / 1-2 | Females",
+   "Hindus - Total Population | Age Periods / 2-3 | Males",
+   "Hindus - Total Population | Age Periods / 2-3 | Females",
+   "Hindus - Total Population | Age Periods / 3-4 | Males",
+   "Hindus - Total Population | Age Periods / 3-4 | Females",
+   "Hindus - Total Population | Age Periods / 4-5 | Males",
+   "Hindus - Total Population | Age Periods / 4-5 | Females",
+   "Hindus - Total Population | Age Periods / Total 0-5 | Males",
+   "Hindus - Total Population | Age Periods / Total 0-5 | Females",
+   "Hindus - Total Population | Age Periods / 5-10 | Males",
+   "Hindus - Total Population | Age Periods / 5-10 | Females",
+   "Hindus - Total Population | Age Periods / 10-15 | Males",
+   "Hindus - Total Population | Age Periods / 10-15 | Females",
+   "Hindus - Total Unmarried | Total Unmarried | Persons",
+   "Hindus - Total Unmarried | Total Unmarried | Males",
+   "Hindus - Total Unmarried | Total Unmarried | Females",
+   "Hindus - Total Unmarried | Age Periods / 0-1 | Males",
+   "Hindus - Total Unmarried | Age Periods / 0-1 | Females",
+   "Hindus - Total Unmarried | Age Periods / 1-2 | Males",
+   "Hindus - Total Unmarried | Age Periods / 1-2 | Females",
+   "Hindus - Total Unmarried | Age Periods / 2-3 | Males",
+   "Hindus - Total Unmarried | Age Periods / 2-3 | Females",
+   "Hindus - Total Unmarried | Age Periods / 3-4 | Males",
+   "Hindus - Total Unmarried | Age Periods / 3-4 | Females",
+   "Hindus - Total Unmarried | Age Periods / 4-5 | Males",
+   "Hindus - Total Unmarried | Age Periods / 4-5 | Females",
+   "Hindus - Total Unmarried | Age Periods / Total 0-5 | Males",
+   "Hindus - Total Unmarried | Age Periods / Total 0-5 | Females",
+   "Hindus - Total Unmarried | Age Periods / 5-10 | Males",
+   "Hindus - Total Unmarried | Age Periods / 5-10 | Females",
+   "Hindus - Total Unmarried | Age Periods / 10-15 | Males",
+   "Hindus - Total Unmarried | Age Periods / 10-15 | Females",
+   "Jains - Total Widowed | Total Widowed | Persons",
+   "Jains - Total Widowed | Total Widowed | Males",
+   "Jains - Total Widowed | Total Widowed | Females",
+   "Jains - Total Widowed | Age Periods / 0-1 | Males",
+   "Jains - Total Widowed | Age Periods / 0-1 | Females",
+   "Jains - Total Widowed | Age Periods / 1-2 | Males",
+   "Jains - Total Widowed | Age Periods / 1-2 | Females",
+   "Jains - Total Widowed | Age Periods / 2-3 | Males",
+   "Jains - Total Widowed | Age Periods / 2-3 | Females",
+   "Jains - Total Widowed | Age Periods / 3-4 | Males",
+   "Jains - Total Widowed | Age Periods / 3-4 | Females",
+   "Jains - Total Widowed | Age Periods / 4-5 | Males",
+   "Jains - Total Widowed | Age Periods / 4-5 | Females",
+   "Jains - Total Widowed | Age Periods / Total 0-5 | Males",
+   "Jains - Total Widowed | Age Periods / Total 0-5 | Females",
+   "Jains - Total Widowed | Age Periods / 5-10 | Males",
+   "Jains - Total Widowed | Age Periods / 5-10 | Females",
+   "Jains - Total Widowed | Age Periods / 10-15 | Males",
+   "Jains - Total Widowed | Age Periods / 10-15 | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "5.7.12",
+    "section": "Jains - Total Widowed",
+    "row": "Total Gwalior Prant",
+    "column": "Age Periods / 4-5 | Females",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "2.0.5",
+    "section": "All Religions - Total Unmarried",
+    "row": "Gwalior Prant-Gwalior",
+    "column": "Age Periods / 1-2 | Males",
+    "readings": [
+     2903.0
+    ]
+   },
+   {
+    "id": "1.5.18",
+    "section": "All Religions - Total Married",
+    "row": "Bhind",
+    "column": "Age Periods / 10-15 | Females",
+    "readings": [
+     7177.0
+    ]
+   },
+   {
+    "id": "2.3.14",
+    "section": "All Religions - Total Unmarried",
+    "row": "Sabalgarh",
+    "column": "Age Periods / Total 0-5 | Females",
+    "readings": [
+     6340.0
+    ]
+   },
+   {
+    "id": "0.15.16",
+    "section": "All Religions - Total Widowed",
+    "row": "Malwa Prant-Nimach",
+    "column": "Age Periods / 5-10 | Females",
+    "readings": [
+     74.0
+    ]
+   },
+   {
+    "id": "4.10.18",
+    "section": "Hindus - Total Unmarried",
+    "row": "Bajrangarh",
+    "column": "Age Periods / 10-15 | Females",
+    "readings": [
+     2493.0
+    ]
+   },
+   {
+    "id": "4.11.14",
+    "section": "Hindus - Total Unmarried",
+    "row": "Bhilsa",
+    "column": "Age Periods / Total 0-5 | Females",
+    "readings": [
+     5204.0
+    ]
+   },
+   {
+    "id": "1.15.0",
+    "section": "All Religions - Total Married",
+    "row": "Malwa Prant-Nimach",
+    "column": "Total Married | Persons",
+    "readings": [
+     44075.0
+    ]
+   },
+   {
+    "id": "2.11.11",
+    "section": "All Religions - Total Unmarried",
+    "row": "Bhilsa",
+    "column": "Age Periods / 4-5 | Males",
+    "readings": [
+     1174.0
+    ]
+   },
+   {
+    "id": "1.9.1",
+    "section": "All Religions - Total Married",
+    "row": "Pichhor",
+    "column": "Total Married | Males",
+    "readings": [
+     57533.0
+    ]
+   },
+   {
+    "id": "5.7.0",
+    "section": "Jains - Total Widowed",
+    "row": "Total Gwalior Prant",
+    "column": "Total Widowed | Persons",
+    "readings": [
+     2803.0
+    ]
+   },
+   {
+    "id": "5.0.15",
+    "section": "Jains - Total Widowed",
+    "row": "Gwalior Prant-Gwalior",
+    "column": "Age Periods / 5-10 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "3.5.8",
+    "section": "Hindus - Total Population",
+    "row": "Bhind",
+    "column": "Age Periods / 2-3 | Females",
+    "readings": [
+     1910.0
+    ]
+   },
+   {
+    "id": "4.17.10",
+    "section": "Hindus - Total Unmarried",
+    "row": "Mandsaur",
+    "column": "Age Periods / 3-4 | Females",
+    "readings": [
+     625.0
+    ]
+   },
+   {
+    "id": "3.8.11",
+    "section": "Hindus - Total Population",
+    "row": "Isagarh Prant-Isagarh",
+    "column": "Age Periods / 4-5 | Males",
+    "readings": [
+     1554.0
+    ]
+   },
+   {
+    "id": "1.17.17",
+    "section": "All Religions - Total Married",
+    "row": "Mandsaur",
+    "column": "Age Periods / 10-15 | Males",
+    "readings": [
+     1029.0
+    ]
+   },
+   {
+    "id": "2.19.6",
+    "section": "All Religions - Total Unmarried",
+    "row": "Shajapur",
+    "column": "Age Periods / 1-2 | Females",
+    "readings": [
+     845.0
+    ]
+   },
+   {
+    "id": "0.6.13",
+    "section": "All Religions - Total Widowed",
+    "row": "Bhander",
+    "column": "Age Periods / Total 0-5 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "4.0.4",
+    "section": "Hindus - Total Unmarried",
+    "row": "Gwalior Prant-Gwalior",
+    "column": "Age Periods / 0-1 | Females",
+    "readings": [
+     2061.0
+    ]
+   },
+   {
+    "id": "4.9.14",
+    "section": "Hindus - Total Unmarried",
+    "row": "Pichhor",
+    "column": "Age Periods / Total 0-5 | Females",
+    "readings": [
+     1765.0
+    ]
+   },
+   {
+    "id": "4.13.6",
+    "section": "Hindus - Total Unmarried",
+    "row": "Sheopur",
+    "column": "Age Periods / 1-2 | Females",
+    "readings": [
+     79.0
+    ]
+   },
+   {
+    "id": "2.15.16",
+    "section": "All Religions - Total Unmarried",
+    "row": "Malwa Prant-Nimach",
+    "column": "Age Periods / 5-10 | Females",
+    "readings": [
+     4844.0
+    ]
+   },
+   {
+    "id": "2.10.11",
+    "section": "All Religions - Total Unmarried",
+    "row": "Bajrangarh",
+    "column": "Age Periods / 4-5 | Males",
+    "readings": [
+     1298.0
+    ]
+   },
+   {
+    "id": "1.9.17",
+    "section": "All Religions - Total Married",
+    "row": "Pichhor",
+    "column": "Age Periods / 10-15 | Males",
+    "readings": [
+     9899.0
+    ]
+   },
+   {
+    "id": "3.20.18",
+    "section": "Hindus - Total Population",
+    "row": "Amjhera",
+    "column": "Age Periods / 10-15 | Females",
+    "readings": [
+     2866.0
+    ]
+   },
+   {
+    "id": "2.20.18",
+    "section": "All Religions - Total Unmarried",
+    "row": "Amjhera",
+    "column": "Age Periods / 10-15 | Females",
+    "readings": [
+     1936.0
+    ]
+   },
+   {
+    "id": "4.4.14",
+    "section": "Hindus - Total Unmarried",
+    "row": "Tawarghar",
+    "column": "Age Periods / Total 0-5 | Females",
+    "readings": [
+     8965.0
+    ]
+   },
+   {
+    "id": "2.15.7",
+    "section": "All Religions - Total Unmarried",
+    "row": "Malwa Prant-Nimach",
+    "column": "Age Periods / 2-3 | Males",
+    "readings": [
+     1183.0
+    ]
+   },
+   {
+    "id": "2.20.3",
+    "section": "All Religions - Total Unmarried",
+    "row": "Amjhera",
+    "column": "Age Periods / 0-1 | Males",
+    "readings": [
+     711.0
+    ]
+   },
+   {
+    "id": "0.12.12",
+    "section": "All Religions - Total Widowed",
+    "row": "Narwar",
+    "column": "Age Periods / 4-5 | Females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "3.11.17",
+    "section": "Hindus - Total Population",
+    "row": "Bhilsa",
+    "column": "Age Periods / 10-15 | Males",
+    "readings": [
+     6877.0
+    ]
+   },
+   {
+    "id": "1.17.5",
+    "section": "All Religions - Total Married",
+    "row": "Mandsaur",
+    "column": "Age Periods / 1-2 | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "4.11.9",
+    "section": "Hindus - Total Unmarried",
+    "row": "Bhilsa",
+    "column": "Age Periods / 3-4 | Males",
+    "readings": [
+     1030.0
+    ]
+   },
+   {
+    "id": "4.22.11",
+    "section": "Hindus - Total Unmarried",
+    "row": "Total",
+    "column": "Age Periods / 4-5 | Males",
+    "readings": [
+     27550.0
+    ]
+   },
+   {
+    "id": "4.16.8",
+    "section": "Hindus - Total Unmarried",
+    "row": "Ujjain",
+    "column": "Age Periods / 2-3 | Females",
+    "readings": [
+     1500.0
+    ]
+   },
+   {
+    "id": "1.15.14",
+    "section": "All Religions - Total Married",
+    "row": "Malwa Prant-Nimach",
+    "column": "Age Periods / Total 0-5 | Females",
+    "readings": [
+     163.0
+    ]
+   },
+   {
+    "id": "3.9.9",
+    "section": "Hindus - Total Population",
+    "row": "Pichhor",
+    "column": "Age Periods / 3-4 | Males",
+    "readings": [
+     1107.0
+    ]
+   },
+   {
+    "id": "3.11.7",
+    "section": "Hindus - Total Population",
+    "row": "Bhilsa",
+    "column": "Age Periods / 2-3 | Males",
+    "readings": [
+     1288.0
+    ]
+   },
+   {
+    "id": "2.15.14",
+    "section": "All Religions - Total Unmarried",
+    "row": "Malwa Prant-Nimach",
+    "column": "Age Periods / Total 0-5 | Females",
+    "readings": [
+     2482.0
+    ]
+   },
+   {
+    "id": "1.14.16",
+    "section": "All Religions - Total Married",
+    "row": "Total Isagarh Prant",
+    "column": "Age Periods / 5-10 | Females",
+    "readings": [
+     3022.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1911_Mysore_Number_of_unmarried_girls_per_mille_aged_0088b89",
+  "title": "Number of unmarried girls per mille aged",
+  "year": 1911,
+  "place": "Mysore",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d8ec111857e84733b9023d686f365f2e9a30ac68.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "Number of unmarried girls per mille aged | Number of unmarried girls per mille aged | 5-10",
+   "Number of unmarried girls per mille aged | Number of unmarried girls per mille aged | 10-15",
+   "Number unmarried per 10,000 aged 0-10 | Number unmarried per 10,000 aged 0-10 | Male",
+   "Number unmarried per 10,000 aged 0-10 | Number unmarried per 10,000 aged 0-10 | Female"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.2.1",
+    "section": "Number of unmarried girls per mille aged",
+    "row": "Christian",
+    "column": "Number of unmarried girls per mille aged | 10-15",
+    "readings": [
+     933.0,
+     983.0
+    ]
+   }
+  ],
+  "n_disputed": 1
+ },
+ {
+  "page": "1951_Madhya_Pradesh_Table_C-II_-_Livelihood_Classes_by_Age_G_0b5031e",
+  "title": "Table C-II - Livelihood Classes by Age Groups",
+  "year": 1951,
+  "place": "Madhya Pradesh",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/85d9576c20cd5dbdaf2476a208d21f06e42c46e7.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d2b4d685a8160a4369e0163cb2aebe87e959118b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/2d85c9dd23327cd2d19fdb9c1e033a65abc18926.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/9d45d745921e0dd46d6b63014ebd6c7136e79fb3.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/dcfb397e4a4cd1166b1799e0011a7806042fe7b0.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/6e7873d7a9394aa94a9d88a76964c54f933ffe07.jpg"
+  ],
+  "n_images_total": 6,
+  "reading_columns": [
+   "Bilaspur | Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Males",
+   "Bilaspur | Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Females",
+   "Bilaspur | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+   "Bilaspur | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+   "Bilaspur | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+   "Bilaspur | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+   "Bilaspur | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+   "Bilaspur | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Females",
+   "Bilaspur | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Males",
+   "Bilaspur | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Females",
+   "Durg | Sample Population | Persons",
+   "Durg | Sample Population | Males",
+   "Durg | Sample Population | Females",
+   "Durg | Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Durg | Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Durg | Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Durg | Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Durg | Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Durg | Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Durg | Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Males",
+   "Durg | Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Females",
+   "Durg | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+   "Durg | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+   "Durg | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+   "Durg | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+   "Durg | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+   "Durg | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Females",
+   "Durg | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Males",
+   "Durg | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Females",
+   "Bastar | Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Males",
+   "Bastar | Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Females",
+   "Bastar | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+   "Bastar | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+   "Bastar | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+   "Bastar | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+   "Bastar | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+   "Bastar | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Females",
+   "Bastar | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Males",
+   "Bastar | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Females",
+   "Raigarh | Sample Population | Persons",
+   "Raigarh | Sample Population | Males",
+   "Raigarh | Sample Population | Females",
+   "Raigarh | Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Males",
+   "Raigarh | Agricultural Classes / I.\u2014Cultivators of land wholly or mainly owned and their dependants | Females",
+   "Raigarh | Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Males",
+   "Raigarh | Agricultural Classes / II.\u2014Cultivators of land wholly or mainly unowned and their dependants | Females",
+   "Raigarh | Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Males",
+   "Raigarh | Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+   "Raigarh | Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Males",
+   "Raigarh | Agricultural Classes / IV.\u2014Non-cultivating owners of land ; agricultural rent receivers and their dependants | Females",
+   "Raigarh | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Males",
+   "Raigarh | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / V.\u2014Production other than cultivation | Females",
+   "Raigarh | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+   "Raigarh | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Females",
+   "Raigarh | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+   "Raigarh | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Females",
+   "Raigarh | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Males",
+   "Raigarh | Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VIII.\u2014Other services and miscellaneous sources | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "1.11.8",
+    "section": "Durg",
+    "row": "Age not stated",
+    "column": "Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+    "readings": [
+     13.0,
+     16.0
+    ]
+   },
+   {
+    "id": "1.35.8",
+    "section": "Durg",
+    "row": "Age not stated",
+    "column": "Agricultural Classes / III.\u2014Cultivating labourers and their dependants | Females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "3.22.13",
+    "section": "Raigarh",
+    "row": "75 and over",
+    "column": "Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VI.\u2014Commerce | Males",
+    "readings": [
+     1.0,
+     23.0
+    ]
+   },
+   {
+    "id": "3.32.15",
+    "section": "Raigarh",
+    "row": "55-64",
+    "column": "Non-Agricultural Classes / Persons (including their dependants) who derive their principal means of livelihood from\u2014 / VII.\u2014Transport | Males",
+    "readings": [
+     1.0,
+     3.0
+    ]
+   }
+  ],
+  "n_disputed": 4
+ },
+ {
+  "page": "1911_Madras_TABLE_III._Age_Sex_and_Civil_Condition_8b99818",
+  "title": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+  "year": 1911,
+  "place": "Madras",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/db0f3d311a0e65a76e71225519d572fd9b29b682.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / POPULATION | Total",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / POPULATION | Males",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / POPULATION | Females",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / UNMARRIED | Total",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / UNMARRIED | Males",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / UNMARRIED | Females",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / MARRIED | Total",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / MARRIED | Males",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / MARRIED | Females",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / WIDOWED | Total",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / WIDOWED | Males",
+   "TABLE III. Age, Sex and Civil Condition  | HINDUS / WIDOWED | Females",
+   "TABLE III. Age, Sex and Civil Condition  | MUSALMANS / POPULATION | Total",
+   "TABLE III. Age, Sex and Civil Condition  | MUSALMANS / POPULATION | Males",
+   "TABLE III. Age, Sex and Civil Condition  | MUSALMANS / POPULATION | Females",
+   "TABLE III. Age, Sex and Civil Condition  | MUSALMANS / UNMARRIED | Total",
+   "TABLE III. Age, Sex and Civil Condition  | MUSALMANS / UNMARRIED | Males",
+   "TABLE III. Age, Sex and Civil Condition  | MUSALMANS / UNMARRIED | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "0-1",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 1,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "0-1",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 2,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "0-1",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 3,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "0-1",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 4,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "0-1",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 5,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "0-1",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 6,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "1-2",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 7,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "1-2",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 8,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "1-2",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 9,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "1-2",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 10,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "1-2",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 11,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "1-2",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 12,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "2-3",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 13,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "2-3",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 14,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "2-3",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 15,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "2-3",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 16,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "2-3",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 17,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "2-3",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 18,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "3-4",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 19,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "3-4",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 20,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "3-4",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 21,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "3-4",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 22,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "3-4",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 23,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "3-4",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 24,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "4-5",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 25,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "4-5",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 26,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "4-5",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 27,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "4-5",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 28,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "4-5",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 29,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "4-5",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 30,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "5-10",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 31,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "5-10",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 32,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "5-10",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 33,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "5-10",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 34,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "5-10",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 35,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "5-10",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 36,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "10-15",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 37,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "10-15",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 38,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "10-15",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 39,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "10-15",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 40,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "10-15",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 41,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "10-15",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 42,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "15-20",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 43,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "15-20",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 44,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "15-20",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 45,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "15-20",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 46,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "15-20",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 47,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "15-20",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 48,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "20-25",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 49,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "20-25",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 50,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "20-25",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 51,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "20-25",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 52,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "20-25",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 53,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "20-25",
+    "column_group": "MUSALMANS. UNMARRIED"
+   },
+   {
+    "id": 54,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "25-30",
+    "column_group": "HINDUS. POPULATION"
+   },
+   {
+    "id": 55,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "25-30",
+    "column_group": "HINDUS. UNMARRIED"
+   },
+   {
+    "id": 56,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "25-30",
+    "column_group": "HINDUS. MARRIED"
+   },
+   {
+    "id": 57,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "25-30",
+    "column_group": "HINDUS. WIDOWED"
+   },
+   {
+    "id": 58,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "25-30",
+    "column_group": "MUSALMANS. POPULATION"
+   },
+   {
+    "id": 59,
+    "section": "TABLE III. Age, Sex and Civil Condition (All divisions).",
+    "row": "25-30",
+    "column_group": "MUSALMANS. UNMARRIED"
+   }
+  ]
+ },
+ {
+  "page": "1881_Bombay_THE_POPULATION_ARRANGED_BY_CASTE_bf3d779",
+  "title": "THE POPULATION ARRANGED BY CASTE",
+  "year": 1881,
+  "place": "Bombay",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25318665_p207.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "THE POPULATION ARRANGED BY CASTE | Total of all Sections | males",
+   "THE POPULATION ARRANGED BY CASTE | Total of all Sections | females",
+   "THE POPULATION ARRANGED BY CASTE | COLABA / Upper | males",
+   "THE POPULATION ARRANGED BY CASTE | COLABA / Upper | females",
+   "THE POPULATION ARRANGED BY CASTE | COLABA / Middle and Lower | males",
+   "THE POPULATION ARRANGED BY CASTE | COLABA / Middle and Lower | females",
+   "THE POPULATION ARRANGED BY CASTE | Fort Southern | males",
+   "THE POPULATION ARRANGED BY CASTE | Fort Southern | females",
+   "THE POPULATION ARRANGED BY CASTE | Fort Northern | males",
+   "THE POPULATION ARRANGED BY CASTE | Fort Northern | females",
+   "THE POPULATION ARRANGED BY CASTE | Esplanade | males",
+   "THE POPULATION ARRANGED BY CASTE | Esplanade | females",
+   "THE POPULATION ARRANGED BY CASTE | Market | males",
+   "THE POPULATION ARRANGED BY CASTE | Market | females",
+   "THE POPULATION ARRANGED BY CASTE | Mandvee | males",
+   "THE POPULATION ARRANGED BY CASTE | Mandvee | females",
+   "THE POPULATION ARRANGED BY CASTE | Chukla | males",
+   "THE POPULATION ARRANGED BY CASTE | Chukla | females",
+   "THE POPULATION ARRANGED BY CASTE | Oomburkharee | males",
+   "THE POPULATION ARRANGED BY CASTE | Oomburkharee | females",
+   "THE POPULATION ARRANGED BY CASTE | Dongree | males",
+   "THE POPULATION ARRANGED BY CASTE | Dongree | females",
+   "THE POPULATION ARRANGED BY CASTE | Dhobeetalao | males",
+   "THE POPULATION ARRANGED BY CASTE | Dhobeetalao | females",
+   "THE POPULATION ARRANGED BY CASTE | Phunuswaree | males",
+   "THE POPULATION ARRANGED BY CASTE | Phunuswaree | females",
+   "THE POPULATION ARRANGED BY CASTE | Bhooleshwur | males",
+   "THE POPULATION ARRANGED BY CASTE | Bhooleshwur | females",
+   "THE POPULATION ARRANGED BY CASTE | Kharatalao | males",
+   "THE POPULATION ARRANGED BY CASTE | Kharatalao | females",
+   "THE POPULATION ARRANGED BY CASTE | Koombarwara | males",
+   "THE POPULATION ARRANGED BY CASTE | Koombarwara | females",
+   "THE POPULATION ARRANGED BY CASTE | Girgaum | males",
+   "THE POPULATION ARRANGED BY CASTE | Girgaum | females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.7.27",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Kh\u00e1tri",
+    "column": "Bhooleshwur | females",
+    "readings": [
+     469.0
+    ]
+   },
+   {
+    "id": "0.27.33",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "M\u00e1r\u00e1tha",
+    "column": "Girgaum | females",
+    "readings": [
+     201.0
+    ]
+   },
+   {
+    "id": "0.16.29",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "L\u00e1d",
+    "column": "Kharatalao | females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.21.13",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "M\u00e1chi",
+    "column": "Market | females",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.14.25",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Kunbi (Mar\u00e1thi)",
+    "column": "Phunuswaree | females",
+    "readings": [
+     857.0
+    ]
+   },
+   {
+    "id": "0.3.14",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "K\u00e1m\u00e1ti",
+    "column": "Mandvee | males",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "0.19.29",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Loh\u00e1na",
+    "column": "Kharatalao | females",
+    "readings": [
+     170.0
+    ]
+   },
+   {
+    "id": "0.20.1",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Loh\u00e1r",
+    "column": "Total of all Sections | females",
+    "readings": [
+     1435.0
+    ]
+   },
+   {
+    "id": "0.3.18",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "K\u00e1m\u00e1ti",
+    "column": "Oomburkharee | males",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.11.27",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "K\u00e1yasth",
+    "column": "Bhooleshwur | females",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.6.17",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "K\u00e1s\u00e1r",
+    "column": "Chukla | females",
+    "readings": [
+     87.0
+    ]
+   },
+   {
+    "id": "0.28.25",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mochi",
+    "column": "Phunuswaree | females",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.0.5",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Haj\u00e1m",
+    "column": "COLABA / Middle and Lower | females",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.22.17",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "M\u00e1li (Phul, Haldi, Jire and c.)",
+    "column": "Chukla | females",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.15.9",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Kunbi (Gujar\u00e1ti)",
+    "column": "Fort Northern | females",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.27.27",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "M\u00e1r\u00e1tha",
+    "column": "Bhooleshwur | females",
+    "readings": [
+     810.0
+    ]
+   },
+   {
+    "id": "0.19.24",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Loh\u00e1na",
+    "column": "Phunuswaree | males",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.15.15",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Kunbi (Gujar\u00e1ti)",
+    "column": "Mandvee | females",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.16.26",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "L\u00e1d",
+    "column": "Bhooleshwur | males",
+    "readings": [
+     264.0
+    ]
+   },
+   {
+    "id": "0.24.6",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mn\u00e1r (Somas and Parwari)",
+    "column": "Fort Southern | males",
+    "readings": [
+     106.0
+    ]
+   },
+   {
+    "id": "0.29.0",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mult\u00e1ni (W\u00e1ni)",
+    "column": "Total of all Sections | males",
+    "readings": [
+     368.0
+    ]
+   },
+   {
+    "id": "0.15.29",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Kunbi (Gujar\u00e1ti)",
+    "column": "Kharatalao | females",
+    "readings": [
+     22.0
+    ]
+   },
+   {
+    "id": "0.0.13",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Haj\u00e1m",
+    "column": "Market | females",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.28.14",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mochi",
+    "column": "Mandvee | males",
+    "readings": [
+     133.0
+    ]
+   },
+   {
+    "id": "0.24.32",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mn\u00e1r (Somas and Parwari)",
+    "column": "Girgaum | males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.28.0",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mochi",
+    "column": "Total of all Sections | males",
+    "readings": [
+     3411.0
+    ]
+   },
+   {
+    "id": "0.28.29",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mochi",
+    "column": "Kharatalao | females",
+    "readings": [
+     303.0
+    ]
+   },
+   {
+    "id": "0.12.22",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Kumbh\u00e1r",
+    "column": "Dhobeetalao | males",
+    "readings": [
+     100.0
+    ]
+   },
+   {
+    "id": "0.24.30",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mn\u00e1r (Somas and Parwari)",
+    "column": "Koombarwara | males",
+    "readings": [
+     21.0
+    ]
+   },
+   {
+    "id": "0.27.9",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "M\u00e1r\u00e1tha",
+    "column": "Fort Northern | females",
+    "readings": [
+     322.0
+    ]
+   },
+   {
+    "id": "0.22.21",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "M\u00e1li (Phul, Haldi, Jire and c.)",
+    "column": "Dongree | females",
+    "readings": [
+     135.0
+    ]
+   },
+   {
+    "id": "0.3.10",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "K\u00e1m\u00e1ti",
+    "column": "Esplanade | males",
+    "readings": [
+     36.0
+    ]
+   },
+   {
+    "id": "0.27.7",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "M\u00e1r\u00e1tha",
+    "column": "Fort Southern | females",
+    "readings": [
+     63.0
+    ]
+   },
+   {
+    "id": "0.5.1",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Khar\u00e1di",
+    "column": "Total of all Sections | females",
+    "readings": [
+     95.0
+    ]
+   },
+   {
+    "id": "0.21.1",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "M\u00e1chi",
+    "column": "Total of all Sections | females",
+    "readings": [
+     48.0
+    ]
+   },
+   {
+    "id": "0.6.16",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "K\u00e1s\u00e1r",
+    "column": "Chukla | males",
+    "readings": [
+     123.0
+    ]
+   },
+   {
+    "id": "0.20.12",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Loh\u00e1r",
+    "column": "Market | males",
+    "readings": [
+     250.0
+    ]
+   },
+   {
+    "id": "0.12.23",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Kumbh\u00e1r",
+    "column": "Dhobeetalao | females",
+    "readings": [
+     53.0
+    ]
+   },
+   {
+    "id": "0.14.8",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Kunbi (Mar\u00e1thi)",
+    "column": "Fort Northern | males",
+    "readings": [
+     433.0
+    ]
+   },
+   {
+    "id": "0.24.29",
+    "section": "THE POPULATION ARRANGED BY CASTE",
+    "row": "Mn\u00e1r (Somas and Parwari)",
+    "column": "Kharatalao | females",
+    "readings": [
+     17.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1901_Burma_IMPERIAL_TABLE_VII_-_Age_Sex_and_Civil_f168424",
+  "title": "IMPERIAL TABLE VII - Age, Sex and Civil Condition. PART A / PART B (Provincial Summary and",
+  "year": 1901,
+  "place": "Burma",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/656e86700557db3210d640f8c59c585f3eb80936.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/b78b27f588fbebfd633fafdce3a690ae02cdb187.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/8860c6209e6ebe5e712fe6886a899b397454c84d.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/372f0806db147848db08ecb7004e0586beb89e5e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/4ba8283e28ffa6746c3d003bf256dfba58d34581.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/34794d608c7ddf70de8b2c4a6d554f8b1008c953.jpg"
+  ],
+  "n_images_total": 6,
+  "reading_columns": [
+   "Mandalay City - concluded | POPULATION | Persons",
+   "Mandalay City - concluded | POPULATION | Males",
+   "Mandalay City - concluded | POPULATION | Females",
+   "Mandalay City - concluded | UNMARRIED | Persons",
+   "Mandalay City - concluded | UNMARRIED | Males",
+   "Mandalay City - concluded | UNMARRIED | Females",
+   "Mandalay City - concluded | MARRIED | Persons",
+   "Mandalay City - concluded | MARRIED | Males",
+   "Mandalay City - concluded | MARRIED | Females",
+   "Mandalay City - concluded | WIDOWED | Persons",
+   "Mandalay City - concluded | WIDOWED | Males",
+   "Mandalay City - concluded | WIDOWED | Females",
+   "Bhamo | POPULATION | Persons",
+   "Bhamo | POPULATION | Males",
+   "Bhamo | POPULATION | Females",
+   "Bhamo | UNMARRIED | Persons",
+   "Bhamo | UNMARRIED | Males",
+   "Bhamo | UNMARRIED | Females",
+   "Bhamo | MARRIED | Persons",
+   "Bhamo | MARRIED | Males",
+   "Bhamo | MARRIED | Females",
+   "Bhamo | WIDOWED | Persons",
+   "Bhamo | WIDOWED | Males",
+   "Bhamo | WIDOWED | Females",
+   "Myitkyina | POPULATION | Persons",
+   "Myitkyina | POPULATION | Males",
+   "Myitkyina | POPULATION | Females",
+   "Myitkyina | UNMARRIED | Persons",
+   "Myitkyina | UNMARRIED | Males",
+   "Myitkyina | UNMARRIED | Females",
+   "Myitkyina | MARRIED | Persons",
+   "Myitkyina | MARRIED | Males",
+   "Myitkyina | MARRIED | Females",
+   "Myitkyina | WIDOWED | Persons",
+   "Myitkyina | WIDOWED | Males",
+   "Myitkyina | WIDOWED | Females",
+   "Mahomedan | POPULATION | Persons",
+   "Mahomedan | POPULATION | Males",
+   "Mahomedan | POPULATION | Females",
+   "Mahomedan | UNMARRIED | Persons",
+   "Mahomedan | UNMARRIED | Males",
+   "Mahomedan | UNMARRIED | Females",
+   "Mahomedan | MARRIED | Persons",
+   "Mahomedan | MARRIED | Males",
+   "Mahomedan | MARRIED | Females",
+   "Mahomedan | WIDOWED | Persons",
+   "Mahomedan | WIDOWED | Males",
+   "Mahomedan | WIDOWED | Females",
+   "Christian | POPULATION | Persons",
+   "Christian | POPULATION | Males",
+   "Christian | POPULATION | Females",
+   "Christian | UNMARRIED | Persons",
+   "Christian | UNMARRIED | Males",
+   "Christian | UNMARRIED | Females",
+   "Christian | MARRIED | Persons",
+   "Christian | MARRIED | Males",
+   "Christian | MARRIED | Females",
+   "Christian | WIDOWED | Persons",
+   "Christian | WIDOWED | Males",
+   "Christian | WIDOWED | Females",
+   "Sikh | POPULATION | Persons",
+   "Sikh | POPULATION | Males",
+   "Sikh | POPULATION | Females",
+   "Sikh | UNMARRIED | Persons",
+   "Sikh | UNMARRIED | Males",
+   "Sikh | UNMARRIED | Females",
+   "Sikh | MARRIED | Persons",
+   "Sikh | MARRIED | Males",
+   "Sikh | MARRIED | Females",
+   "Sikh | WIDOWED | Persons",
+   "Sikh | WIDOWED | Males",
+   "Sikh | WIDOWED | Females",
+   "Agnostic | POPULATION | Persons",
+   "Agnostic | POPULATION | Males",
+   "Agnostic | POPULATION | Females",
+   "Agnostic | UNMARRIED | Persons",
+   "Agnostic | UNMARRIED | Males",
+   "Agnostic | UNMARRIED | Females",
+   "Agnostic | MARRIED | Persons",
+   "Agnostic | MARRIED | Males",
+   "Agnostic | MARRIED | Females",
+   "Agnostic | WIDOWED | Persons",
+   "Agnostic | WIDOWED | Males",
+   "Agnostic | WIDOWED | Females",
+   "Akyab | POPULATION | Persons",
+   "Akyab | POPULATION | Males",
+   "Akyab | POPULATION | Females",
+   "Akyab | UNMARRIED | Persons",
+   "Akyab | UNMARRIED | Males",
+   "Akyab | UNMARRIED | Females",
+   "Akyab | MARRIED | Persons",
+   "Akyab | MARRIED | Males",
+   "Akyab | MARRIED | Females",
+   "Akyab | WIDOWED | Persons",
+   "Akyab | WIDOWED | Males",
+   "Akyab | WIDOWED | Females",
+   "Northern Arakan | POPULATION | Persons",
+   "Northern Arakan | POPULATION | Males",
+   "Northern Arakan | POPULATION | Females",
+   "Northern Arakan | UNMARRIED | Persons",
+   "Northern Arakan | UNMARRIED | Males",
+   "Northern Arakan | UNMARRIED | Females",
+   "Northern Arakan | MARRIED | Persons",
+   "Northern Arakan | MARRIED | Males",
+   "Northern Arakan | MARRIED | Females",
+   "Northern Arakan | WIDOWED | Persons",
+   "Northern Arakan | WIDOWED | Males",
+   "Northern Arakan | WIDOWED | Females",
+   "Myitkyina - concluded | POPULATION | Persons",
+   "Myitkyina - concluded | POPULATION | Males",
+   "Myitkyina - concluded | POPULATION | Females",
+   "Myitkyina - concluded | UNMARRIED | Persons",
+   "Myitkyina - concluded | UNMARRIED | Males",
+   "Myitkyina - concluded | UNMARRIED | Females",
+   "Myitkyina - concluded | MARRIED | Persons",
+   "Myitkyina - concluded | MARRIED | Males",
+   "Myitkyina - concluded | MARRIED | Females",
+   "Myitkyina - concluded | WIDOWED | Persons",
+   "Myitkyina - concluded | WIDOWED | Males",
+   "Myitkyina - concluded | WIDOWED | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "15.21.5",
+    "section": "Magwe",
+    "row": "20-40",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     17.0
+    ]
+   },
+   {
+    "id": "12.3.1",
+    "section": "Salween",
+    "row": "10-15",
+    "column": "POPULATION | Males",
+    "readings": [
+     2370.0
+    ]
+   },
+   {
+    "id": "1.33.5",
+    "section": "Bhamo",
+    "row": "0-5",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     64.0
+    ]
+   },
+   {
+    "id": "7.15.11",
+    "section": "Akyab",
+    "row": "60 and over",
+    "column": "WIDOWED | Females",
+    "readings": [
+     5789.0
+    ]
+   },
+   {
+    "id": "13.10.1",
+    "section": "Thaton",
+    "row": "5-10",
+    "column": "POPULATION | Males",
+    "readings": [
+     28155.0
+    ]
+   },
+   {
+    "id": "9.15.1",
+    "section": "Myitkyina - concluded",
+    "row": "60 and over",
+    "column": "POPULATION | Males",
+    "readings": [
+     1007.0
+    ]
+   },
+   {
+    "id": "1.22.7",
+    "section": "Bhamo",
+    "row": "40-60",
+    "column": "MARRIED | Males",
+    "readings": [
+     3900.0
+    ]
+   },
+   {
+    "id": "7.23.3",
+    "section": "Akyab",
+    "row": "60 and over",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     245.0
+    ]
+   },
+   {
+    "id": "4.5.3",
+    "section": "Christian",
+    "row": "Total 0-5",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     1792.0
+    ]
+   },
+   {
+    "id": "4.20.0",
+    "section": "Christian",
+    "row": "Total",
+    "column": "POPULATION | Persons",
+    "readings": [
+     10397.0
+    ]
+   },
+   {
+    "id": "16.18.4",
+    "section": "Mandalay (City included)",
+    "row": "5-10",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "4.13.7",
+    "section": "Christian",
+    "row": "40-45",
+    "column": "MARRIED | Males",
+    "readings": [
+     325.0
+    ]
+   },
+   {
+    "id": "1.20.1",
+    "section": "Bhamo",
+    "row": "15-20",
+    "column": "POPULATION | Males",
+    "readings": [
+     2274.0
+    ]
+   },
+   {
+    "id": "3.8.11",
+    "section": "Mahomedan",
+    "row": "15-20",
+    "column": "WIDOWED | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "15.6.2",
+    "section": "Magwe",
+    "row": "40-60",
+    "column": "POPULATION | Females",
+    "readings": [
+     24577.0
+    ]
+   },
+   {
+    "id": "0.7.6",
+    "section": "Mandalay City - concluded",
+    "row": "60 and over",
+    "column": "MARRIED | Persons",
+    "readings": [
+     43.0
+    ]
+   },
+   {
+    "id": "15.4.11",
+    "section": "Magwe",
+    "row": "15-20",
+    "column": "WIDOWED | Females",
+    "readings": [
+     126.0
+    ]
+   },
+   {
+    "id": "1.3.0",
+    "section": "Bhamo",
+    "row": "10-15",
+    "column": "POPULATION | Persons",
+    "readings": [
+     12044.0
+    ]
+   },
+   {
+    "id": "5.13.10",
+    "section": "Sikh",
+    "row": "40-45",
+    "column": "WIDOWED | Males",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "12.20.0",
+    "section": "Salween",
+    "row": "15-20",
+    "column": "POPULATION | Persons",
+    "readings": [
+     2154.0
+    ]
+   },
+   {
+    "id": "10.24.4",
+    "section": "Katha",
+    "row": "Hindu",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     629.0
+    ]
+   },
+   {
+    "id": "4.11.2",
+    "section": "Christian",
+    "row": "30-35",
+    "column": "POPULATION | Females",
+    "readings": [
+     296.0
+    ]
+   },
+   {
+    "id": "1.32.0",
+    "section": "Bhamo",
+    "row": "Mahomedan",
+    "column": "POPULATION | Persons",
+    "readings": [
+     2242.0
+    ]
+   },
+   {
+    "id": "7.10.3",
+    "section": "Akyab",
+    "row": "5-10",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     37998.0
+    ]
+   },
+   {
+    "id": "7.22.11",
+    "section": "Akyab",
+    "row": "40-60",
+    "column": "WIDOWED | Females",
+    "readings": [
+     508.0
+    ]
+   },
+   {
+    "id": "8.23.6",
+    "section": "Northern Arakan",
+    "row": "60 and over",
+    "column": "MARRIED | Persons",
+    "readings": [
+     725.0
+    ]
+   },
+   {
+    "id": "9.31.11",
+    "section": "Myitkyina - concluded",
+    "row": "60 and over",
+    "column": "WIDOWED | Females",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "8.22.8",
+    "section": "Northern Arakan",
+    "row": "40-60",
+    "column": "MARRIED | Females",
+    "readings": [
+     1239.0
+    ]
+   },
+   {
+    "id": "13.21.8",
+    "section": "Thaton",
+    "row": "20-40",
+    "column": "MARRIED | Females",
+    "readings": [
+     536.0
+    ]
+   },
+   {
+    "id": "15.4.10",
+    "section": "Magwe",
+    "row": "15-20",
+    "column": "WIDOWED | Males",
+    "readings": [
+     23.0
+    ]
+   },
+   {
+    "id": "11.4.1",
+    "section": "Toungoo - concluded",
+    "row": "15-20",
+    "column": "POPULATION | Males",
+    "readings": [
+     1529.0
+    ]
+   },
+   {
+    "id": "10.31.4",
+    "section": "Katha",
+    "row": "60 and over",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "3.4.1",
+    "section": "Mahomedan",
+    "row": "4-5",
+    "column": "POPULATION | Males",
+    "readings": [
+     42.0
+    ]
+   },
+   {
+    "id": "1.10.2",
+    "section": "Bhamo",
+    "row": "5-10",
+    "column": "POPULATION | Females",
+    "readings": [
+     3318.0
+    ]
+   },
+   {
+    "id": "1.31.10",
+    "section": "Bhamo",
+    "row": "60 and over",
+    "column": "WIDOWED | Males",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "16.6.9",
+    "section": "Mandalay (City included)",
+    "row": "40-60",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     14381.0
+    ]
+   },
+   {
+    "id": "10.7.4",
+    "section": "Katha",
+    "row": "60 and over",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     443.0
+    ]
+   },
+   {
+    "id": "13.6.7",
+    "section": "Thaton",
+    "row": "40-60",
+    "column": "MARRIED | Males",
+    "readings": [
+     22950.0
+    ]
+   },
+   {
+    "id": "7.23.10",
+    "section": "Akyab",
+    "row": "60 and over",
+    "column": "WIDOWED | Males",
+    "readings": [
+     205.0
+    ]
+   },
+   {
+    "id": "15.5.3",
+    "section": "Magwe",
+    "row": "20-40",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     23755.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1911_Assam_TABLE_XIV_-_CIVIL_CONDITION_BY_AGE_FOR_S_cf560b6",
+  "title": "TABLE XIV - CIVIL CONDITION BY AGE FOR SELECTED CASTES (second run)",
+  "year": 1911,
+  "place": "Assam",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f1b9f2155d60bb1ffe2174e9d9abae8f0fd7f88a.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/c77ed82b56da7b1e3649097682afe9664c76b95d.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/bc50a80a82a96775d6c6cbaa0057189122ba368a.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d5541c7ac22add5706186c939864c67ab56884ba.jpg"
+  ],
+  "n_images_total": 4,
+  "reading_columns": [
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | Population dealt with | Population dealt with",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | UNMARRIED | Total",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | UNMARRIED | 0-5",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | UNMARRIED | 5-12",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | UNMARRIED | 12-15",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | UNMARRIED | 15-20",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | UNMARRIED | 20-40",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | UNMARRIED | 40 and over",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | MARRIED | Total",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | MARRIED | 0-5",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | MARRIED | 5-12",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | MARRIED | 12-15",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | MARRIED | 15-20",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | MARRIED | 20-40",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | MARRIED | 40 and over",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | WIDOWED | Total",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | WIDOWED | 0-5",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | WIDOWED | 5-12",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | WIDOWED | 12-15",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | WIDOWED | 15-20",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | WIDOWED | 20-40",
+   "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SE | WIDOWED | 40 and over"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "0.80.7",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MUNDA (Animist)",
+    "column": "UNMARRIED | 40 and over",
+    "readings": [
+     143.0
+    ]
+   },
+   {
+    "id": "0.36.0",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "KACHARI (do.)",
+    "column": "Population dealt with | Population dealt with",
+    "readings": [
+     28487.0
+    ]
+   },
+   {
+    "id": "0.30.5",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "GOALA (Hindu)",
+    "column": "UNMARRIED | 15-20",
+    "readings": [
+     1048.0
+    ]
+   },
+   {
+    "id": "0.23.12",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "CHUTIYA (Animist)",
+    "column": "MARRIED | 15-20",
+    "readings": [
+     11.0
+    ]
+   },
+   {
+    "id": "0.43.16",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "KACHARI (Animist)",
+    "column": "WIDOWED | 0-5",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.23.2",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "CHUTIYA (Animist)",
+    "column": "UNMARRIED | 0-5",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.82.6",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "NAMASUDRA (Hindu) - Total - Male",
+    "column": "UNMARRIED | 20-40",
+    "readings": [
+     9185.0
+    ]
+   },
+   {
+    "id": "0.41.15",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "KACHARI (do.)",
+    "column": "WIDOWED | Total",
+    "readings": [
+     1969.0
+    ]
+   },
+   {
+    "id": "0.81.19",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MUNDA (Animist)",
+    "column": "WIDOWED | 15-20",
+    "readings": [
+     989.0
+    ]
+   },
+   {
+    "id": "0.67.5",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MIKIR (do.)",
+    "column": "UNMARRIED | 15-20",
+    "readings": [
+     2348.0
+    ]
+   },
+   {
+    "id": "0.92.8",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "NAPIT (do.) - Kamrup - Male",
+    "column": "MARRIED | Total",
+    "readings": [
+     1123.0
+    ]
+   },
+   {
+    "id": "0.28.5",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "GARO (Animist)",
+    "column": "UNMARRIED | 15-20",
+    "readings": [
+     3779.0
+    ]
+   },
+   {
+    "id": "0.61.18",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MALO (Hindu)",
+    "column": "WIDOWED | 12-15",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.72.11",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MUCHI (Hindu)",
+    "column": "MARRIED | 12-15",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.62.8",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MECH (do.)",
+    "column": "MARRIED | Total",
+    "readings": [
+     10335.0
+    ]
+   },
+   {
+    "id": "0.73.6",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MUCHI (Hindu)",
+    "column": "UNMARRIED | 20-40",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.4.13",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "BARUI (do.)",
+    "column": "MARRIED | 20-40",
+    "readings": [
+     2836.0
+    ]
+   },
+   {
+    "id": "0.59.21",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "LUSHAI SAILO (do.)",
+    "column": "WIDOWED | 40 and over",
+    "readings": [
+     43.0
+    ]
+   },
+   {
+    "id": "0.31.11",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "GOALA (Hindu)",
+    "column": "MARRIED | 12-15",
+    "readings": [
+     365.0
+    ]
+   },
+   {
+    "id": "0.104.15",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "ORAON (Animist) - Brahmaputra Valley - Male",
+    "column": "WIDOWED | Total",
+    "readings": [
+     337.0
+    ]
+   },
+   {
+    "id": "0.88.1",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "NAPIT (do.) - Total - Male",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     6795.0
+    ]
+   },
+   {
+    "id": "0.41.4",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "KACHARI (do.)",
+    "column": "UNMARRIED | 12-15",
+    "readings": [
+     646.0
+    ]
+   },
+   {
+    "id": "0.34.5",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "JOGI or JUGI (Hindu)",
+    "column": "UNMARRIED | 15-20",
+    "readings": [
+     5082.0
+    ]
+   },
+   {
+    "id": "0.38.12",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "KACHARI (do.)",
+    "column": "MARRIED | 15-20",
+    "readings": [
+     128.0
+    ]
+   },
+   {
+    "id": "0.33.20",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "INDIAN CHRISTIAN",
+    "column": "WIDOWED | 20-40",
+    "readings": [
+     1187.0
+    ]
+   },
+   {
+    "id": "0.103.3",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "ORAON (Animist) - Cachar - Female",
+    "column": "UNMARRIED | 5-12",
+    "readings": [
+     28.0
+    ]
+   },
+   {
+    "id": "0.14.14",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "BHUIYA (Animist)",
+    "column": "MARRIED | 40 and over",
+    "readings": [
+     146.0
+    ]
+   },
+   {
+    "id": "0.95.4",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "ORAON (do.) - Total - Female",
+    "column": "UNMARRIED | 12-15",
+    "readings": [
+     273.0
+    ]
+   },
+   {
+    "id": "0.71.6",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MIRI (Animist)",
+    "column": "UNMARRIED | 20-40",
+    "readings": [
+     425.0
+    ]
+   },
+   {
+    "id": "0.17.13",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "BRAHMAN (Hindu)",
+    "column": "MARRIED | 20-40",
+    "readings": [
+     13164.0
+    ]
+   },
+   {
+    "id": "0.106.1",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "PATNI (Hindu) - Surma Valley - Male",
+    "column": "UNMARRIED | Total",
+    "readings": [
+     30215.0
+    ]
+   },
+   {
+    "id": "0.72.2",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MUCHI (Hindu)",
+    "column": "UNMARRIED | 0-5",
+    "readings": [
+     353.0
+    ]
+   },
+   {
+    "id": "0.8.14",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "BHUIYA (do.)",
+    "column": "MARRIED | 40 and over",
+    "readings": [
+     4683.0
+    ]
+   },
+   {
+    "id": "0.10.14",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "BHUIYA (do.)",
+    "column": "MARRIED | 40 and over",
+    "readings": [
+     1298.0
+    ]
+   },
+   {
+    "id": "0.85.13",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "NAMASUDRA (Hindu) - Surma Valley - Female",
+    "column": "MARRIED | 20-40",
+    "readings": [
+     18230.0
+    ]
+   },
+   {
+    "id": "0.96.13",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "ORAON (do.) - Cachar - Male",
+    "column": "MARRIED | 20-40",
+    "readings": [
+     282.0
+    ]
+   },
+   {
+    "id": "0.62.3",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MECH (do.)",
+    "column": "UNMARRIED | 5-12",
+    "readings": [
+     8193.0
+    ]
+   },
+   {
+    "id": "0.81.11",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "MUNDA (Animist)",
+    "column": "MARRIED | 12-15",
+    "readings": [
+     308.0
+    ]
+   },
+   {
+    "id": "0.94.12",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "ORAON (do.) - Total - Male",
+    "column": "MARRIED | 15-20",
+    "readings": [
+     66.0
+    ]
+   },
+   {
+    "id": "0.18.17",
+    "section": "TABLE XIV.\u2014CIVIL CONDITION BY AGE FOR SELECTED CASTES.",
+    "row": "CHAMAR (do.)",
+    "column": "WIDOWED | 5-12",
+    "readings": [
+     3.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1891_India_IMPERIAL_TABLES._PART_F.-CHRISTIANS-cont_c7f3627",
+  "title": "IMPERIAL TABLES. PART F.-CHRISTIANS-continued. (2) MARRIED-concluded.",
+  "year": 1891,
+  "place": "India",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25318683_p108.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "(2) MARRIED-concluded. | 20-24 | Male.",
+   "(2) MARRIED-concluded. | 20-24 | Female.",
+   "(2) MARRIED-concluded. | 25-29 | Male.",
+   "(2) MARRIED-concluded. | 25-29 | Female.",
+   "(2) MARRIED-concluded. | 30-34 | Male.",
+   "(2) MARRIED-concluded. | 30-34 | Female.",
+   "(2) MARRIED-concluded. | 35-39 | Male.",
+   "(2) MARRIED-concluded. | 35-39 | Female.",
+   "(2) MARRIED-concluded. | 40-44 | Male.",
+   "(2) MARRIED-concluded. | 40-44 | Female.",
+   "(2) MARRIED-concluded. | 45-49 | Male.",
+   "(2) MARRIED-concluded. | 45-49 | Female.",
+   "(2) MARRIED-concluded. | 50-54 | Male.",
+   "(2) MARRIED-concluded. | 50-54 | Female.",
+   "(2) MARRIED-concluded. | 55-59 | Male.",
+   "(2) MARRIED-concluded. | 55-59 | Female.",
+   "(2) MARRIED-concluded. | 60 AND OVER. | Male.",
+   "(2) MARRIED-concluded. | 60 AND OVER. | Female."
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.24.15",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "55-59 | Female.",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.30.13",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 26",
+    "column": "50-54 | Female.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.48.16",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "60 AND OVER. | Male.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.9.2",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Subtotal 2",
+    "column": "25-29 | Male.",
+    "readings": [
+     29.0,
+     1018.0,
+     1021.0
+    ]
+   },
+   {
+    "id": "0.33.12",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 28",
+    "column": "50-54 | Male.",
+    "readings": [
+     1.0,
+     2.0
+    ]
+   },
+   {
+    "id": "0.24.0",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "20-24 | Male.",
+    "readings": [
+     1.0,
+     64.0
+    ]
+   },
+   {
+    "id": "0.48.1",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "20-24 | Female.",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "0.49.13",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "50-54 | Female.",
+    "readings": [
+     1025.0
+    ]
+   },
+   {
+    "id": "0.31.9",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 27",
+    "column": "40-44 | Female.",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.30.8",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 26",
+    "column": "40-44 | Male.",
+    "readings": [
+     19.0
+    ]
+   },
+   {
+    "id": "0.29.5",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 25",
+    "column": "30-34 | Female.",
+    "readings": [
+     8.0,
+     11.0,
+     100.0
+    ]
+   },
+   {
+    "id": "0.39.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 33",
+    "column": "55-59 | Male.",
+    "readings": [
+     1.0,
+     5.0
+    ]
+   },
+   {
+    "id": "0.30.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 26",
+    "column": "55-59 | Male.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.13.15",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 12",
+    "column": "55-59 | Female.",
+    "readings": [
+     38.0
+    ]
+   },
+   {
+    "id": "0.24.8",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "40-44 | Male.",
+    "readings": [
+     1.0,
+     75.0
+    ]
+   },
+   {
+    "id": "0.49.9",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "40-44 | Female.",
+    "readings": [
+     1776.0
+    ]
+   },
+   {
+    "id": "0.24.5",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "30-34 | Female.",
+    "readings": [
+     71.0
+    ]
+   },
+   {
+    "id": "0.46.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 36",
+    "column": "55-59 | Male.",
+    "readings": [
+     25.0
+    ]
+   },
+   {
+    "id": "0.35.13",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 30",
+    "column": "50-54 | Female.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.25.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 22",
+    "column": "55-59 | Male.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.24.11",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "45-49 | Female.",
+    "readings": [
+     14.0
+    ]
+   },
+   {
+    "id": "0.5.2",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 5",
+    "column": "25-29 | Male.",
+    "readings": [
+     141.0,
+     145.0,
+     530.0
+    ]
+   },
+   {
+    "id": "0.36.1",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 31",
+    "column": "20-24 | Female.",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.48.10",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "45-49 | Male.",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.49.8",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "40-44 | Male.",
+    "readings": [
+     2746.0
+    ]
+   },
+   {
+    "id": "0.25.9",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 22",
+    "column": "40-44 | Female.",
+    "readings": [
+     1.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.39.9",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 33",
+    "column": "40-44 | Female.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.39.13",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 33",
+    "column": "50-54 | Female.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.11.3",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 10",
+    "column": "25-29 | Female.",
+    "readings": [
+     498.0,
+     1041.0,
+     1044.0
+    ]
+   },
+   {
+    "id": "0.31.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 27",
+    "column": "55-59 | Male.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.34.13",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 29",
+    "column": "50-54 | Female.",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.39.11",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 33",
+    "column": "45-49 | Female.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.25.7",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 22",
+    "column": "35-39 | Female.",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.31.15",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 27",
+    "column": "55-59 | Female.",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.46.13",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 36",
+    "column": "50-54 | Female.",
+    "readings": [
+     29.0
+    ]
+   },
+   {
+    "id": "0.31.7",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 27",
+    "column": "35-39 | Female.",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.24.9",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "40-44 | Female.",
+    "readings": [
+     1.0,
+     23.0
+    ]
+   },
+   {
+    "id": "0.46.15",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 36",
+    "column": "55-59 | Female.",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.31.11",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 27",
+    "column": "45-49 | Female.",
+    "readings": [
+     1.0,
+     8.0
+    ]
+   },
+   {
+    "id": "0.49.6",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "35-39 | Male.",
+    "readings": [
+     3435.0
+    ]
+   },
+   {
+    "id": "0.31.10",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 27",
+    "column": "45-49 | Male.",
+    "readings": [
+     10.0
+    ]
+   },
+   {
+    "id": "0.49.1",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "20-24 | Female.",
+    "readings": [
+     3887.0
+    ]
+   },
+   {
+    "id": "0.46.17",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 36",
+    "column": "60 AND OVER. | Female.",
+    "readings": [
+     26.0
+    ]
+   },
+   {
+    "id": "0.31.13",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 27",
+    "column": "50-54 | Female.",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.49.12",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "50-54 | Male.",
+    "readings": [
+     1609.0
+    ]
+   },
+   {
+    "id": "0.48.6",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "35-39 | Male.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.20.2",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 18",
+    "column": "25-29 | Male.",
+    "readings": [
+     96.0
+    ]
+   },
+   {
+    "id": "0.49.17",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "60 AND OVER. | Female.",
+    "readings": [
+     598.0
+    ]
+   },
+   {
+    "id": "0.48.2",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "25-29 | Male.",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.31.5",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 27",
+    "column": "30-34 | Female.",
+    "readings": [
+     1.0,
+     4.0,
+     11.0
+    ]
+   },
+   {
+    "id": "0.20.8",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 18",
+    "column": "40-44 | Male.",
+    "readings": [
+     78.0
+    ]
+   },
+   {
+    "id": "0.28.11",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 24",
+    "column": "45-49 | Female.",
+    "readings": [
+     5.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.37.11",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Subtotal 7",
+    "column": "45-49 | Female.",
+    "readings": [
+     2.0,
+     3.0
+    ]
+   },
+   {
+    "id": "0.49.0",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "20-24 | Male.",
+    "readings": [
+     1961.0
+    ]
+   },
+   {
+    "id": "0.49.7",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "35-39 | Female.",
+    "readings": [
+     2171.0
+    ]
+   },
+   {
+    "id": "0.20.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 18",
+    "column": "55-59 | Male.",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.48.3",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "25-29 | Female.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.24.17",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "60 AND OVER. | Female.",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.30.15",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 26",
+    "column": "55-59 | Female.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.46.8",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 36",
+    "column": "40-44 | Male.",
+    "readings": [
+     199.0
+    ]
+   },
+   {
+    "id": "0.25.5",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 22",
+    "column": "30-34 | Female.",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.30.9",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 26",
+    "column": "40-44 | Female.",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "0.30.17",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 26",
+    "column": "60 AND OVER. | Female.",
+    "readings": [
+     5.0
+    ]
+   },
+   {
+    "id": "0.49.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "55-59 | Male.",
+    "readings": [
+     903.0
+    ]
+   },
+   {
+    "id": "0.24.7",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "35-39 | Female.",
+    "readings": [
+     38.0
+    ]
+   },
+   {
+    "id": "0.46.11",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 36",
+    "column": "45-49 | Female.",
+    "readings": [
+     47.0
+    ]
+   },
+   {
+    "id": "0.24.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 21",
+    "column": "55-59 | Male.",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.25.3",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 22",
+    "column": "25-29 | Female.",
+    "readings": [
+     1.0,
+     10.0
+    ]
+   },
+   {
+    "id": "0.49.2",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "25-29 | Male.",
+    "readings": [
+     4327.0
+    ]
+   },
+   {
+    "id": "0.38.14",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 32",
+    "column": "55-59 | Male.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.36.5",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 31",
+    "column": "30-34 | Female.",
+    "readings": [
+     1.0,
+     4.0,
+     6.0
+    ]
+   },
+   {
+    "id": "0.48.4",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "30-34 | Male.",
+    "readings": [
+     8.0
+    ]
+   },
+   {
+    "id": "0.48.5",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "30-34 | Female.",
+    "readings": [
+     2.0
+    ]
+   },
+   {
+    "id": "0.20.17",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 18",
+    "column": "60 AND OVER. | Female.",
+    "readings": [
+     9.0
+    ]
+   },
+   {
+    "id": "0.39.0",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 33",
+    "column": "20-24 | Male.",
+    "readings": [
+     52.0
+    ]
+   },
+   {
+    "id": "0.34.7",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 29",
+    "column": "35-39 | Female.",
+    "readings": [
+     4.0,
+     26.0
+    ]
+   },
+   {
+    "id": "0.40.16",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 34",
+    "column": "60 AND OVER. | Male.",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "0.48.0",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 37",
+    "column": "20-24 | Male.",
+    "readings": [
+     13.0
+    ]
+   },
+   {
+    "id": "0.34.16",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 29",
+    "column": "60 AND OVER. | Male.",
+    "readings": [
+     17.0
+    ]
+   },
+   {
+    "id": "0.49.3",
+    "section": "(2) MARRIED-concluded.",
+    "row": "Row 38",
+    "column": "25-29 | Female.",
+    "readings": [
+     4647.0
+    ]
+   }
+  ],
+  "n_disputed": 109
+ },
+ {
+  "page": "1891_Assam_PROVINCIAL_TABLE_V._SHOWING_CIVIL_CONDIT_1f8e2c3",
+  "title": "PROVINCIAL TABLE V. SHOWING CIVIL CONDITION AND AGE FOR BRAHMOS. UNMARRIED, MARRIED, AND WIDOWED.",
+  "year": 1891,
+  "place": "Assam",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f2972ff2adeb53531d483548c320367ce913eed5.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL BRAHMO | Total",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL BRAHMO | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL BRAHMO | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL UNMARRIED | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL UNMARRIED | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | UNMARRIED AGE PERIODS / 0\u201314 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | UNMARRIED AGE PERIODS / 0\u201314 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | UNMARRIED AGE PERIODS / 15\u201324 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | UNMARRIED AGE PERIODS / 15\u201324 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | UNMARRIED AGE PERIODS / 25\u201339 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | UNMARRIED AGE PERIODS / 25\u201339 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | UNMARRIED AGE PERIODS / 40 & over | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | UNMARRIED AGE PERIODS / 40 & over | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL MARRIED | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL MARRIED | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | MARRIED AGE PERIODS / 0\u201314 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | MARRIED AGE PERIODS / 0\u201314 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | MARRIED AGE PERIODS / 15\u201324 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | MARRIED AGE PERIODS / 15\u201324 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | MARRIED AGE PERIODS / 25\u201339 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | MARRIED AGE PERIODS / 25\u201339 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | MARRIED AGE PERIODS / 40 & over | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | MARRIED AGE PERIODS / 40 & over | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL WIDOWED | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | TOTAL WIDOWED | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | WIDOWED AGE PERIODS / 0\u201314 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | WIDOWED AGE PERIODS / 0\u201314 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | WIDOWED AGE PERIODS / 15\u201324 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | WIDOWED AGE PERIODS / 15\u201324 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | WIDOWED AGE PERIODS / 25\u201339 | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | WIDOWED AGE PERIODS / 25\u201339 | Females",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | WIDOWED AGE PERIODS / 40 & over | Males",
+   "PROVINCIAL TABLE V. SHOWING CIVIL CONDIT | WIDOWED AGE PERIODS / 40 & over | Females"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.0.17",
+    "section": "PROVINCIAL TABLE V. SHOWING CIVIL CONDITION AND AGE FOR BRAH",
+    "row": "Cachar Plains",
+    "column": "MARRIED AGE PERIODS / 15\u201324 | Males",
+    "readings": [
+     1.0
+    ]
+   }
+  ],
+  "n_disputed": 1
+ },
+ {
+  "page": "1931_Punjab_Table_VIII_-_By_Age_for_Selected_Castes_03bc42b",
+  "title": "Table VIII - By Age for Selected Castes",
+  "year": 1931,
+  "place": "Punjab",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/ec076aef3cb05242e10224196ea535defd849791.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/5f7b3d1b96ba0c80b666c3660dbf036a417d5611.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/872fcd02dff3c9af52eff2f3d334cfefc4104718.jpg"
+  ],
+  "n_images_total": 3,
+  "reading_columns": [
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE |  | Population dealt with",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Unmarried | Total",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Unmarried | 0-6",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Unmarried | 7-13",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Unmarried | 14-16",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Unmarried | 17-23",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Unmarried | 24-43",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Unmarried | 44 and over",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Married | Total",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Married | 0-6",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Married | 7-13",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Married | 14-16",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Married | 17-23",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Married | 24-43",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Married | 44 and over",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Widowed | Total",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Widowed | 0-6",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Widowed | 7-13",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Widowed | 14-16",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Widowed | 17-23",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Widowed | 24-43",
+   "TABLE VIII-CIVIL CONDITION BY AGE FOR SE | Widowed | 44 and over"
+  ],
+  "task": "disputes",
+  "cells": [
+   {
+    "id": "0.83.21",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "168",
+    "column": "Widowed | 44 and over",
+    "readings": [
+     3826.0,
+     11457.0
+    ]
+   },
+   {
+    "id": "0.7.2",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "92",
+    "column": "Unmarried | 0-6",
+    "readings": [
+     10134.0,
+     19772.0
+    ]
+   },
+   {
+    "id": "0.68.1",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "153",
+    "column": "Unmarried | Total",
+    "readings": [
+     117989.0
+    ]
+   },
+   {
+    "id": "0.66.14",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "151",
+    "column": "Married | 44 and over",
+    "readings": [
+     19442.0,
+     32227.0
+    ]
+   },
+   {
+    "id": "0.56.1",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "141",
+    "column": "Unmarried | Total",
+    "readings": [
+     519215.0
+    ]
+   },
+   {
+    "id": "0.11.12",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "96",
+    "column": "Married | 17-23",
+    "readings": [
+     5005.0,
+     20872.0
+    ]
+   },
+   {
+    "id": "0.24.10",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "109",
+    "column": "Married | 7-13",
+    "readings": [
+     38.0,
+     815.0
+    ]
+   },
+   {
+    "id": "0.54.15",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "139",
+    "column": "Widowed | Total",
+    "readings": [
+     1665.0,
+     3432.0
+    ]
+   },
+   {
+    "id": "0.5.13",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "90",
+    "column": "Married | 24-43",
+    "readings": [
+     5081.0,
+     10568.0
+    ]
+   },
+   {
+    "id": "0.75.4",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "160",
+    "column": "Unmarried | 14-16",
+    "readings": [
+     578.0,
+     2328.0
+    ]
+   },
+   {
+    "id": "0.42.4",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "127",
+    "column": "Unmarried | 14-16",
+    "readings": [
+     7149.0,
+     21170.0
+    ]
+   },
+   {
+    "id": "0.40.11",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "125",
+    "column": "Married | 14-16",
+    "readings": [
+     69.0,
+     269.0
+    ]
+   },
+   {
+    "id": "0.9.8",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "94",
+    "column": "Married | Total",
+    "readings": [
+     251.0,
+     38776.0
+    ]
+   },
+   {
+    "id": "0.39.20",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "124",
+    "column": "Widowed | 24-43",
+    "readings": [
+     138.0,
+     1821.0
+    ]
+   },
+   {
+    "id": "0.74.20",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "159",
+    "column": "Widowed | 24-43",
+    "readings": [
+     65.0,
+     382.0
+    ]
+   },
+   {
+    "id": "0.5.19",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "90",
+    "column": "Widowed | 17-23",
+    "readings": [
+     11.0,
+     65.0
+    ]
+   },
+   {
+    "id": "0.56.8",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "141",
+    "column": "Married | Total",
+    "readings": [
+     6898.0,
+     341330.0
+    ]
+   },
+   {
+    "id": "0.52.4",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "137",
+    "column": "Unmarried | 14-16",
+    "readings": [
+     19390.0,
+     47687.0
+    ]
+   },
+   {
+    "id": "0.47.7",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "132",
+    "column": "Unmarried | 44 and over",
+    "readings": [
+     299.0,
+     1360.0
+    ]
+   },
+   {
+    "id": "0.61.3",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "146",
+    "column": "Unmarried | 7-13",
+    "readings": [
+     4653.0,
+     6830.0
+    ]
+   },
+   {
+    "id": "0.32.21",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "117",
+    "column": "Widowed | 44 and over",
+    "readings": [
+     108.0,
+     132.0
+    ]
+   },
+   {
+    "id": "0.65.3",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "150",
+    "column": "Unmarried | 7-13",
+    "readings": [
+     2068.0,
+     2918.0
+    ]
+   },
+   {
+    "id": "0.83.6",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "168",
+    "column": "Unmarried | 24-43",
+    "readings": [
+     781.0,
+     2214.0
+    ]
+   },
+   {
+    "id": "0.10.1",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "95",
+    "column": "Unmarried | Total",
+    "readings": [
+     144374.0
+    ]
+   },
+   {
+    "id": "0.3.1",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "88",
+    "column": "Unmarried | Total",
+    "readings": [
+     7158.0
+    ]
+   },
+   {
+    "id": "0.55.3",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "140",
+    "column": "Unmarried | 7-13",
+    "readings": [
+     3173.0,
+     5313.0
+    ]
+   },
+   {
+    "id": "0.59.12",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "144",
+    "column": "Married | 17-23",
+    "readings": [
+     2873.0,
+     7772.0
+    ]
+   },
+   {
+    "id": "0.18.10",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "103",
+    "column": "Married | 7-13",
+    "readings": [
+     134.0,
+     1034.0
+    ]
+   },
+   {
+    "id": "0.42.16",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "127",
+    "column": "Widowed | 0-6",
+    "readings": [
+     2.0,
+     10254.0
+    ]
+   },
+   {
+    "id": "0.20.0",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "105",
+    "column": " | Population dealt with",
+    "readings": [
+     39902.0
+    ]
+   },
+   {
+    "id": "0.66.19",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "151",
+    "column": "Widowed | 17-23",
+    "readings": [
+     24.0,
+     317.0
+    ]
+   },
+   {
+    "id": "0.52.8",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "137",
+    "column": "Married | Total",
+    "readings": [
+     6010.0,
+     127903.0
+    ]
+   },
+   {
+    "id": "0.74.12",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "159",
+    "column": "Married | 17-23",
+    "readings": [
+     255.0,
+     932.0
+    ]
+   },
+   {
+    "id": "0.18.5",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "103",
+    "column": "Unmarried | 17-23",
+    "readings": [
+     12813.0,
+     13421.0
+    ]
+   },
+   {
+    "id": "0.49.6",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "134",
+    "column": "Unmarried | 24-43",
+    "readings": [
+     600.0,
+     878.0
+    ]
+   },
+   {
+    "id": "0.6.7",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "91",
+    "column": "Unmarried | 44 and over",
+    "readings": [
+     418.0,
+     1649.0
+    ]
+   },
+   {
+    "id": "0.57.8",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "142",
+    "column": "Married | Total",
+    "readings": [
+     1354.0,
+     346145.0
+    ]
+   },
+   {
+    "id": "0.8.5",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "93",
+    "column": "Unmarried | 17-23",
+    "readings": [
+     6472.0,
+     9605.0
+    ]
+   },
+   {
+    "id": "0.83.7",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "168",
+    "column": "Unmarried | 44 and over",
+    "readings": [
+     305.0,
+     784.0
+    ]
+   },
+   {
+    "id": "0.10.5",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "95",
+    "column": "Unmarried | 17-23",
+    "readings": [
+     16146.0,
+     22690.0
+    ]
+   },
+   {
+    "id": "0.56.13",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "141",
+    "column": "Married | 24-43",
+    "readings": [
+     36248.0,
+     188735.0
+    ]
+   },
+   {
+    "id": "0.50.3",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "135",
+    "column": "Unmarried | 7-13",
+    "readings": [
+     209.0,
+     416.0
+    ]
+   },
+   {
+    "id": "0.26.17",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "111",
+    "column": "Widowed | 7-13",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "0.59.7",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "144",
+    "column": "Unmarried | 44 and over",
+    "readings": [
+     57.0,
+     160.0
+    ]
+   },
+   {
+    "id": "0.1.17",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "86",
+    "column": "Widowed | 7-13",
+    "readings": [
+     10.0,
+     53.0
+    ]
+   },
+   {
+    "id": "0.1.15",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "86",
+    "column": "Widowed | Total",
+    "readings": [
+     20421.0,
+     29270.0
+    ]
+   },
+   {
+    "id": "0.83.13",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "168",
+    "column": "Married | 24-43",
+    "readings": [
+     16506.0,
+     33631.0
+    ]
+   },
+   {
+    "id": "0.33.10",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "118",
+    "column": "Married | 7-13",
+    "readings": [
+     36.0
+    ]
+   },
+   {
+    "id": "0.51.3",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "136",
+    "column": "Unmarried | 7-13",
+    "readings": [
+     272.0,
+     285.0
+    ]
+   },
+   {
+    "id": "0.55.6",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "140",
+    "column": "Unmarried | 24-43",
+    "readings": [
+     109.0,
+     261.0
+    ]
+   },
+   {
+    "id": "0.73.8",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "158",
+    "column": "Married | Total",
+    "readings": [
+     26.0,
+     5331.0
+    ]
+   },
+   {
+    "id": "0.25.5",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "110",
+    "column": "Unmarried | 17-23",
+    "readings": [
+     1455.0,
+     3520.0
+    ]
+   },
+   {
+    "id": "0.80.2",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "165",
+    "column": "Unmarried | 0-6",
+    "readings": [
+     38789.0,
+     102389.0
+    ]
+   },
+   {
+    "id": "0.65.5",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "150",
+    "column": "Unmarried | 17-23",
+    "readings": [
+     140.0,
+     364.0
+    ]
+   },
+   {
+    "id": "0.73.14",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "158",
+    "column": "Married | 44 and over",
+    "readings": [
+     881.0,
+     2537.0
+    ]
+   },
+   {
+    "id": "0.78.18",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "163",
+    "column": "Widowed | 14-16",
+    "readings": [
+     8.0,
+     36.0
+    ]
+   },
+   {
+    "id": "0.63.12",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "148",
+    "column": "Married | 17-23",
+    "readings": [
+     1509.0,
+     3685.0
+    ]
+   },
+   {
+    "id": "0.26.16",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "111",
+    "column": "Widowed | 0-6",
+    "readings": [
+     1.0,
+     12436.0
+    ]
+   },
+   {
+    "id": "0.60.6",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "145",
+    "column": "Unmarried | 24-43",
+    "readings": [
+     1878.0,
+     2271.0
+    ]
+   },
+   {
+    "id": "0.68.7",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "153",
+    "column": "Unmarried | 44 and over",
+    "readings": [
+     1574.0,
+     9922.0
+    ]
+   },
+   {
+    "id": "0.66.17",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "151",
+    "column": "Widowed | 7-13",
+    "readings": [
+     3.0,
+     13.0
+    ]
+   },
+   {
+    "id": "0.29.17",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "114",
+    "column": "Widowed | 7-13",
+    "readings": [
+     1.0,
+     24.0
+    ]
+   },
+   {
+    "id": "0.36.7",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "121",
+    "column": "Unmarried | 44 and over",
+    "readings": [
+     1285.0,
+     9206.0
+    ]
+   },
+   {
+    "id": "0.77.9",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "162",
+    "column": "Married | 0-6",
+    "readings": [
+     120.0,
+     34792.0
+    ]
+   },
+   {
+    "id": "0.11.17",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "96",
+    "column": "Widowed | 7-13",
+    "readings": [
+     6.0,
+     40.0
+    ]
+   },
+   {
+    "id": "0.60.4",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "145",
+    "column": "Unmarried | 14-16",
+    "readings": [
+     2396.0,
+     6526.0
+    ]
+   },
+   {
+    "id": "0.20.2",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "105",
+    "column": "Unmarried | 0-6",
+    "readings": [
+     6865.0,
+     19746.0
+    ]
+   },
+   {
+    "id": "0.30.19",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "115",
+    "column": "Widowed | 17-23",
+    "readings": [
+     61.0,
+     465.0
+    ]
+   },
+   {
+    "id": "0.20.5",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "105",
+    "column": "Unmarried | 17-23",
+    "readings": [
+     2195.0,
+     2230.0
+    ]
+   },
+   {
+    "id": "0.38.7",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "123",
+    "column": "Unmarried | 44 and over",
+    "readings": [
+     814.0,
+     2315.0
+    ]
+   },
+   {
+    "id": "0.43.4",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "128",
+    "column": "Unmarried | 14-16",
+    "readings": [
+     3708.0,
+     16611.0
+    ]
+   },
+   {
+    "id": "0.16.21",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "101",
+    "column": "Widowed | 44 and over",
+    "readings": [
+     381.0,
+     926.0
+    ]
+   },
+   {
+    "id": "0.6.10",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "91",
+    "column": "Married | 7-13",
+    "readings": [
+     18.0,
+     344.0
+    ]
+   },
+   {
+    "id": "0.60.17",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "145",
+    "column": "Widowed | 7-13",
+    "readings": [
+     7.0
+    ]
+   },
+   {
+    "id": "0.60.10",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "145",
+    "column": "Married | 7-13",
+    "readings": [
+     8.0,
+     277.0
+    ]
+   },
+   {
+    "id": "0.38.0",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "123",
+    "column": " | Population dealt with",
+    "readings": [
+     55634.0
+    ]
+   },
+   {
+    "id": "0.30.4",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "115",
+    "column": "Unmarried | 14-16",
+    "readings": [
+     7688.0,
+     22052.0
+    ]
+   },
+   {
+    "id": "0.55.5",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "140",
+    "column": "Unmarried | 17-23",
+    "readings": [
+     261.0,
+     623.0
+    ]
+   },
+   {
+    "id": "0.12.13",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "97",
+    "column": "Married | 24-43",
+    "readings": [
+     1205.0,
+     5504.0
+    ]
+   },
+   {
+    "id": "0.47.3",
+    "section": "TABLE VIII-CIVIL CONDITION BY AGE FOR SELECTED CASTES",
+    "row": "132",
+    "column": "Unmarried | 7-13",
+    "readings": [
+     23770.0,
+     33753.0
+    ]
+   }
+  ],
+  "n_disputed": 1763
+ },
+ {
+  "page": "1921_Cochin_SUBSIDIARY_TABLE_I._Distribution_by_Civi_66e347c",
+  "title": "SUBSIDIARY TABLE I. Distribution by Civil condition of 1,000 of each sex, religion and main age period at each of the last three Censuses.",
+  "year": 1921,
+  "place": "Cochin",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/963a4368bff530c658deb7aec48da395cf806709.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/export_final/sendout_final/sendout_v1/added_pages/saoa.crl.25430172_p54.png"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "ALL RELIGIONS | UNMARRIED | 1921",
+   "ALL RELIGIONS | UNMARRIED | 1911",
+   "ALL RELIGIONS | UNMARRIED | 1901",
+   "ALL RELIGIONS | MARRIED | 1921",
+   "ALL RELIGIONS | MARRIED | 1911",
+   "ALL RELIGIONS | MARRIED | 1901",
+   "ALL RELIGIONS | WIDOWED | 1921",
+   "ALL RELIGIONS | WIDOWED | 1911",
+   "ALL RELIGIONS | WIDOWED | 1901",
+   "HINDU | UNMARRIED | 1921",
+   "HINDU | UNMARRIED | 1911",
+   "HINDU | UNMARRIED | 1901",
+   "HINDU | MARRIED | 1921",
+   "HINDU | MARRIED | 1911",
+   "HINDU | MARRIED | 1901",
+   "HINDU | WIDOWED | 1921",
+   "HINDU | WIDOWED | 1911",
+   "HINDU | WIDOWED | 1901",
+   "MUSALMAN | UNMARRIED | 1921",
+   "MUSALMAN | UNMARRIED | 1911",
+   "MUSALMAN | UNMARRIED | 1901",
+   "MUSALMAN | MARRIED | 1921",
+   "MUSALMAN | MARRIED | 1911",
+   "MUSALMAN | MARRIED | 1901",
+   "MUSALMAN | WIDOWED | 1921",
+   "MUSALMAN | WIDOWED | 1911",
+   "MUSALMAN | WIDOWED | 1901",
+   "CHRISTIAN | UNMARRIED | 1921",
+   "CHRISTIAN | UNMARRIED | 1911",
+   "CHRISTIAN | UNMARRIED | 1901",
+   "CHRISTIAN | MARRIED | 1921",
+   "CHRISTIAN | MARRIED | 1911",
+   "CHRISTIAN | MARRIED | 1901",
+   "CHRISTIAN | WIDOWED | 1921",
+   "CHRISTIAN | WIDOWED | 1911",
+   "CHRISTIAN | WIDOWED | 1901",
+   "JAIN | UNMARRIED | 1921",
+   "JAIN | UNMARRIED | 1911",
+   "JAIN | UNMARRIED | 1901",
+   "JAIN | MARRIED | 1921",
+   "JAIN | MARRIED | 1911",
+   "JAIN | MARRIED | 1901",
+   "JAIN | WIDOWED | 1921",
+   "JAIN | WIDOWED | 1911",
+   "JAIN | WIDOWED | 1901",
+   "JEW | UNMARRIED | 1921",
+   "JEW | UNMARRIED | 1911",
+   "JEW | UNMARRIED | 1901",
+   "JEW | MARRIED | 1921",
+   "JEW | MARRIED | 1911",
+   "JEW | MARRIED | 1901",
+   "JEW | WIDOWED | 1921",
+   "JEW | WIDOWED | 1911",
+   "JEW | WIDOWED | 1901",
+   "ANIMIST | UNMARRIED | 1921",
+   "ANIMIST | UNMARRIED | 1911",
+   "ANIMIST | UNMARRIED | 1901",
+   "ANIMIST | MARRIED | 1921",
+   "ANIMIST | MARRIED | 1911",
+   "ANIMIST | MARRIED | 1901",
+   "ANIMIST | WIDOWED | 1921",
+   "ANIMIST | WIDOWED | 1911",
+   "ANIMIST | WIDOWED | 1901"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "1.2.0",
+    "section": "HINDU",
+    "row": "Males 10-15",
+    "column": "UNMARRIED | 1921",
+    "readings": [
+     997.0
+    ]
+   },
+   {
+    "id": "6.9.1",
+    "section": "ANIMIST",
+    "row": "Females 5-10",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     1000.0
+    ]
+   },
+   {
+    "id": "5.14.5",
+    "section": "JEW",
+    "row": "Females 60 and over",
+    "column": "MARRIED | 1901",
+    "readings": [
+     135.0
+    ]
+   },
+   {
+    "id": "2.17.1",
+    "section": "MUSALMAN",
+    "row": "Females ALL AGES",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     460.0
+    ]
+   },
+   {
+    "id": "4.4.5",
+    "section": "JAIN",
+    "row": "Males 20-40",
+    "column": "MARRIED | 1901",
+    "readings": [
+     500.0
+    ]
+   },
+   {
+    "id": "3.4.1",
+    "section": "CHRISTIAN",
+    "row": "Males 20-40",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     152.0
+    ]
+   },
+   {
+    "id": "0.14.7",
+    "section": "ALL RELIGIONS",
+    "row": "Females 40-60",
+    "column": "WIDOWED | 1911",
+    "readings": [
+     510.0
+    ]
+   },
+   {
+    "id": "3.11.1",
+    "section": "CHRISTIAN",
+    "row": "Females 10-15",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     921.0
+    ]
+   },
+   {
+    "id": "5.0.2",
+    "section": "JEW",
+    "row": "Males 0-5",
+    "column": "UNMARRIED | 1901",
+    "readings": [
+     1000.0
+    ]
+   },
+   {
+    "id": "3.6.1",
+    "section": "CHRISTIAN",
+    "row": "Males 60 and over",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     18.0
+    ]
+   },
+   {
+    "id": "0.13.1",
+    "section": "ALL RELIGIONS",
+    "row": "Females 20-40",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     47.0
+    ]
+   },
+   {
+    "id": "2.6.7",
+    "section": "MUSALMAN",
+    "row": "Males 60 and over",
+    "column": "WIDOWED | 1911",
+    "readings": [
+     236.0
+    ]
+   },
+   {
+    "id": "6.12.5",
+    "section": "ANIMIST",
+    "row": "Females 20-40",
+    "column": "MARRIED | 1901",
+    "readings": [
+     821.0
+    ]
+   },
+   {
+    "id": "3.5.2",
+    "section": "CHRISTIAN",
+    "row": "Males 40-60",
+    "column": "UNMARRIED | 1901",
+    "readings": [
+     20.0
+    ]
+   },
+   {
+    "id": "2.16.5",
+    "section": "MUSALMAN",
+    "row": "Females Not stated",
+    "column": "MARRIED | 1901",
+    "readings": [
+     393.0
+    ]
+   },
+   {
+    "id": "0.1.1",
+    "section": "ALL RELIGIONS",
+    "row": "Males 5-10",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     1000.0
+    ]
+   },
+   {
+    "id": "1.16.2",
+    "section": "HINDU",
+    "row": "Females Not stated",
+    "column": "UNMARRIED | 1901",
+    "readings": [
+     289.0
+    ]
+   },
+   {
+    "id": "2.3.7",
+    "section": "MUSALMAN",
+    "row": "Males 15-20",
+    "column": "WIDOWED | 1911",
+    "readings": [
+     4.0
+    ]
+   },
+   {
+    "id": "4.14.6",
+    "section": "JAIN",
+    "row": "Females 60 and over",
+    "column": "WIDOWED | 1921",
+    "readings": [
+     1000.0
+    ]
+   },
+   {
+    "id": "0.5.6",
+    "section": "ALL RELIGIONS",
+    "row": "Males 40-60",
+    "column": "WIDOWED | 1921",
+    "readings": [
+     112.0
+    ]
+   },
+   {
+    "id": "6.10.4",
+    "section": "ANIMIST",
+    "row": "Females 10-15",
+    "column": "MARRIED | 1911",
+    "readings": [
+     82.0
+    ]
+   },
+   {
+    "id": "4.5.7",
+    "section": "JAIN",
+    "row": "Males 40-60",
+    "column": "WIDOWED | 1911",
+    "readings": [
+     125.0
+    ]
+   },
+   {
+    "id": "1.6.1",
+    "section": "HINDU",
+    "row": "Males 60 and over",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     15.0
+    ]
+   },
+   {
+    "id": "0.12.4",
+    "section": "ALL RELIGIONS",
+    "row": "Females 15-20",
+    "column": "MARRIED | 1911",
+    "readings": [
+     574.0
+    ]
+   },
+   {
+    "id": "4.15.3",
+    "section": "JAIN",
+    "row": "Females ALL AGES",
+    "column": "MARRIED | 1921",
+    "readings": [
+     512.0
+    ]
+   },
+   {
+    "id": "2.11.4",
+    "section": "MUSALMAN",
+    "row": "Females 10-15",
+    "column": "MARRIED | 1911",
+    "readings": [
+     73.0
+    ]
+   },
+   {
+    "id": "3.8.4",
+    "section": "CHRISTIAN",
+    "row": "Males ALL AGES",
+    "column": "MARRIED | 1911",
+    "readings": [
+     411.0
+    ]
+   },
+   {
+    "id": "5.0.1",
+    "section": "JEW",
+    "row": "Males 0-5",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     1000.0
+    ]
+   },
+   {
+    "id": "6.1.2",
+    "section": "ANIMIST",
+    "row": "Males 5-10",
+    "column": "UNMARRIED | 1901",
+    "readings": [
+     1000.0
+    ]
+   },
+   {
+    "id": "3.12.3",
+    "section": "CHRISTIAN",
+    "row": "Females 15-20",
+    "column": "MARRIED | 1921",
+    "readings": [
+     509.0
+    ]
+   },
+   {
+    "id": "2.4.7",
+    "section": "MUSALMAN",
+    "row": "Males 20-40",
+    "column": "WIDOWED | 1911",
+    "readings": [
+     27.0
+    ]
+   },
+   {
+    "id": "1.15.6",
+    "section": "HINDU",
+    "row": "Females 60 and over",
+    "column": "WIDOWED | 1921",
+    "readings": [
+     850.0
+    ]
+   },
+   {
+    "id": "1.6.7",
+    "section": "HINDU",
+    "row": "Males 60 and over",
+    "column": "WIDOWED | 1911",
+    "readings": [
+     301.0
+    ]
+   },
+   {
+    "id": "0.10.2",
+    "section": "ALL RELIGIONS",
+    "row": "Females 5-10",
+    "column": "UNMARRIED | 1901",
+    "readings": [
+     993.0
+    ]
+   },
+   {
+    "id": "1.4.6",
+    "section": "HINDU",
+    "row": "Males 20-40",
+    "column": "WIDOWED | 1921",
+    "readings": [
+     44.0
+    ]
+   },
+   {
+    "id": "2.11.2",
+    "section": "MUSALMAN",
+    "row": "Females 10-15",
+    "column": "UNMARRIED | 1901",
+    "readings": [
+     947.0
+    ]
+   },
+   {
+    "id": "6.13.6",
+    "section": "ANIMIST",
+    "row": "Females 40-60",
+    "column": "WIDOWED | 1921",
+    "readings": [
+     321.0
+    ]
+   },
+   {
+    "id": "1.15.0",
+    "section": "HINDU",
+    "row": "Females 60 and over",
+    "column": "UNMARRIED | 1921",
+    "readings": [
+     12.0
+    ]
+   },
+   {
+    "id": "0.5.1",
+    "section": "ALL RELIGIONS",
+    "row": "Males 40-60",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     24.0
+    ]
+   },
+   {
+    "id": "0.14.1",
+    "section": "ALL RELIGIONS",
+    "row": "Females 40-60",
+    "column": "UNMARRIED | 1911",
+    "readings": [
+     11.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "None_Rajputana_Agency_15._The_distribution_of_the_people_by_Ca_694b4d6",
+  "title": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans) is shewn below, excluding the figures for the Jodhpore State, which it was not possible for the Durbar to collect. For this reason the grand total will not tally with the total population of Rajputana as given in Statement No. 1.",
+  "year": null,
+  "place": "Rajputana Agency",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/6bc453e9f63e2b938fcf43a2da40e6f7f59731b2.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "15. The distribution of the people by Ca |  | Males",
+   "15. The distribution of the people by Ca |  | Females",
+   "15. The distribution of the people by Ca |  | Total"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "Age Distribution (Top Section)",
+    "row": "I. Brahmin",
+    "column_group": "Population"
+   },
+   {
+    "id": 1,
+    "section": "Age Distribution (Top Section)",
+    "row": "II. Rajput",
+    "column_group": "Population"
+   },
+   {
+    "id": 2,
+    "section": "Age Distribution (Top Section)",
+    "row": "Mahajun",
+    "column_group": "Population"
+   },
+   {
+    "id": 3,
+    "section": "Age Distribution (Top Section)",
+    "row": "Kaeth",
+    "column_group": "Population"
+   },
+   {
+    "id": 4,
+    "section": "Age Distribution (Top Section)",
+    "row": "Gujar",
+    "column_group": "Population"
+   },
+   {
+    "id": 5,
+    "section": "Age Distribution (Top Section)",
+    "row": "Jat",
+    "column_group": "Population"
+   },
+   {
+    "id": 6,
+    "section": "Age Distribution (Top Section)",
+    "row": "Ahir",
+    "column_group": "Population"
+   },
+   {
+    "id": 7,
+    "section": "Age Distribution (Top Section)",
+    "row": "Mina",
+    "column_group": "Population"
+   },
+   {
+    "id": 8,
+    "section": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans)",
+    "row": "I. Brahmin",
+    "column_group": "Population"
+   },
+   {
+    "id": 9,
+    "section": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans)",
+    "row": "II. Rajput",
+    "column_group": "Population"
+   },
+   {
+    "id": 10,
+    "section": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans)",
+    "row": "Mahajun",
+    "column_group": "Population"
+   },
+   {
+    "id": 11,
+    "section": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans)",
+    "row": "Kaeth",
+    "column_group": "Population"
+   },
+   {
+    "id": 12,
+    "section": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans)",
+    "row": "Gujar",
+    "column_group": "Population"
+   },
+   {
+    "id": 13,
+    "section": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans)",
+    "row": "Jat",
+    "column_group": "Population"
+   },
+   {
+    "id": 14,
+    "section": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans)",
+    "row": "Ahir",
+    "column_group": "Population"
+   },
+   {
+    "id": 15,
+    "section": "15. The distribution of the people by Castes (Hindus) and Tribes (Mahomedans)",
+    "row": "Mina",
+    "column_group": "Population"
+   }
+  ]
+ },
+ {
+  "page": "1911_Kolar_District_TABLE_VII._Age_Sex_and_Civil_Condition_74d38af",
+  "title": "TABLE VII. Age, Sex and Civil Condition \u2014 Kolar District",
+  "year": 1911,
+  "place": "Kolar District",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/3014633f80fc5daec3e1072df438133fff0f343b.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/68de1552a4d1a0abbc372008fb56e59a8c2a4402.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/02d9ae8c74ff2419c730ce8d438bfaffd5d7d06e.jpg"
+  ],
+  "n_images_total": 3,
+  "reading_columns": [
+   "Hindu | POPULATION | Persons",
+   "Hindu | POPULATION | Males",
+   "Hindu | POPULATION | Females",
+   "Hindu | UNMARRIED | Persons",
+   "Hindu | UNMARRIED | Males",
+   "Hindu | UNMARRIED | Females",
+   "Hindu | MARRIED | Persons",
+   "Hindu | MARRIED | Males",
+   "Hindu | MARRIED | Females",
+   "Hindu | WIDOWED | Persons",
+   "Hindu | WIDOWED | Males",
+   "Hindu | WIDOWED | Females",
+   "Musalman | POPULATION | Persons",
+   "Musalman | POPULATION | Males",
+   "Musalman | POPULATION | Females",
+   "Musalman | UNMARRIED | Persons",
+   "Musalman | UNMARRIED | Males",
+   "Musalman | UNMARRIED | Females",
+   "Musalman | MARRIED | Persons",
+   "Musalman | MARRIED | Males",
+   "Musalman | MARRIED | Females",
+   "Musalman | WIDOWED | Persons",
+   "Musalman | WIDOWED | Males",
+   "Musalman | WIDOWED | Females",
+   "Christian | POPULATION | Persons",
+   "Christian | POPULATION | Males",
+   "Christian | POPULATION | Females",
+   "Christian | UNMARRIED | Persons",
+   "Christian | UNMARRIED | Males",
+   "Christian | UNMARRIED | Females",
+   "Christian | MARRIED | Persons",
+   "Christian | MARRIED | Males",
+   "Christian | MARRIED | Females",
+   "Christian | WIDOWED | Persons",
+   "Christian | WIDOWED | Males",
+   "Christian | WIDOWED | Females",
+   "Jain | POPULATION | Persons",
+   "Jain | POPULATION | Males",
+   "Jain | POPULATION | Females",
+   "Jain | UNMARRIED | Persons",
+   "Jain | UNMARRIED | Males",
+   "Jain | UNMARRIED | Females",
+   "Jain | MARRIED | Persons",
+   "Jain | MARRIED | Males",
+   "Jain | MARRIED | Females",
+   "Jain | WIDOWED | Persons",
+   "Jain | WIDOWED | Males",
+   "Jain | WIDOWED | Females",
+   "Animistic | POPULATION | Persons",
+   "Animistic | POPULATION | Males",
+   "Animistic | POPULATION | Females",
+   "Animistic | UNMARRIED | Persons",
+   "Animistic | UNMARRIED | Males",
+   "Animistic | UNMARRIED | Females",
+   "Animistic | MARRIED | Persons",
+   "Animistic | MARRIED | Males",
+   "Animistic | MARRIED | Females",
+   "Animistic | WIDOWED | Persons",
+   "Animistic | WIDOWED | Males",
+   "Animistic | WIDOWED | Females"
+  ],
+  "task": "spotcheck",
+  "cells": [
+   {
+    "id": "2.4.0",
+    "section": "Christian",
+    "row": "15-20",
+    "column": "POPULATION | Persons",
+    "readings": [
+     336.0
+    ]
+   },
+   {
+    "id": "3.1.0",
+    "section": "Jain",
+    "row": "0-5",
+    "column": "POPULATION | Persons",
+    "readings": [
+     179.0
+    ]
+   },
+   {
+    "id": "2.5.2",
+    "section": "Christian",
+    "row": "20-40",
+    "column": "POPULATION | Females",
+    "readings": [
+     540.0
+    ]
+   },
+   {
+    "id": "3.2.3",
+    "section": "Jain",
+    "row": "5-10",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     199.0
+    ]
+   },
+   {
+    "id": "0.1.11",
+    "section": "Hindu",
+    "row": "0-5",
+    "column": "WIDOWED | Females",
+    "readings": [
+     1.0
+    ]
+   },
+   {
+    "id": "1.4.5",
+    "section": "Musalman",
+    "row": "15-20",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     273.0
+    ]
+   },
+   {
+    "id": "4.1.1",
+    "section": "Animistic",
+    "row": "0-5",
+    "column": "POPULATION | Males",
+    "readings": [
+     433.0
+    ]
+   },
+   {
+    "id": "4.6.2",
+    "section": "Animistic",
+    "row": "40-60",
+    "column": "POPULATION | Females",
+    "readings": [
+     622.0
+    ]
+   },
+   {
+    "id": "4.6.10",
+    "section": "Animistic",
+    "row": "40-60",
+    "column": "WIDOWED | Males",
+    "readings": [
+     88.0
+    ]
+   },
+   {
+    "id": "0.4.3",
+    "section": "Hindu",
+    "row": "15-20",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     29254.0
+    ]
+   },
+   {
+    "id": "4.0.9",
+    "section": "Animistic",
+    "row": "All ages",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     760.0
+    ]
+   },
+   {
+    "id": "0.5.3",
+    "section": "Hindu",
+    "row": "20-40",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     30548.0
+    ]
+   },
+   {
+    "id": "3.3.1",
+    "section": "Jain",
+    "row": "10-15",
+    "column": "POPULATION | Males",
+    "readings": [
+     97.0
+    ]
+   },
+   {
+    "id": "3.7.3",
+    "section": "Jain",
+    "row": "60 and over",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     6.0
+    ]
+   },
+   {
+    "id": "2.4.8",
+    "section": "Christian",
+    "row": "15-20",
+    "column": "MARRIED | Females",
+    "readings": [
+     90.0
+    ]
+   },
+   {
+    "id": "4.4.1",
+    "section": "Animistic",
+    "row": "15-20",
+    "column": "POPULATION | Males",
+    "readings": [
+     294.0
+    ]
+   },
+   {
+    "id": "2.0.6",
+    "section": "Christian",
+    "row": "All ages",
+    "column": "MARRIED | Persons",
+    "readings": [
+     1287.0
+    ]
+   },
+   {
+    "id": "3.3.8",
+    "section": "Jain",
+    "row": "10-15",
+    "column": "MARRIED | Females",
+    "readings": [
+     34.0
+    ]
+   },
+   {
+    "id": "3.6.7",
+    "section": "Jain",
+    "row": "40-60",
+    "column": "MARRIED | Males",
+    "readings": [
+     137.0
+    ]
+   },
+   {
+    "id": "3.7.6",
+    "section": "Jain",
+    "row": "60 and over",
+    "column": "MARRIED | Persons",
+    "readings": [
+     45.0
+    ]
+   },
+   {
+    "id": "2.7.9",
+    "section": "Christian",
+    "row": "60 and over",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     66.0
+    ]
+   },
+   {
+    "id": "4.5.5",
+    "section": "Animistic",
+    "row": "20-40",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     30.0
+    ]
+   },
+   {
+    "id": "1.7.7",
+    "section": "Musalman",
+    "row": "60 and over",
+    "column": "MARRIED | Males",
+    "readings": [
+     1328.0
+    ]
+   },
+   {
+    "id": "1.4.6",
+    "section": "Musalman",
+    "row": "15-20",
+    "column": "MARRIED | Persons",
+    "readings": [
+     1863.0
+    ]
+   },
+   {
+    "id": "2.7.11",
+    "section": "Christian",
+    "row": "60 and over",
+    "column": "WIDOWED | Females",
+    "readings": [
+     46.0
+    ]
+   },
+   {
+    "id": "2.0.3",
+    "section": "Christian",
+    "row": "All ages",
+    "column": "UNMARRIED | Persons",
+    "readings": [
+     1712.0
+    ]
+   },
+   {
+    "id": "4.6.7",
+    "section": "Animistic",
+    "row": "40-60",
+    "column": "MARRIED | Males",
+    "readings": [
+     602.0
+    ]
+   },
+   {
+    "id": "3.2.0",
+    "section": "Jain",
+    "row": "5-10",
+    "column": "POPULATION | Persons",
+    "readings": [
+     199.0
+    ]
+   },
+   {
+    "id": "3.3.0",
+    "section": "Jain",
+    "row": "10-15",
+    "column": "POPULATION | Persons",
+    "readings": [
+     200.0
+    ]
+   },
+   {
+    "id": "4.1.5",
+    "section": "Animistic",
+    "row": "0-5",
+    "column": "UNMARRIED | Females",
+    "readings": [
+     494.0
+    ]
+   },
+   {
+    "id": "1.3.8",
+    "section": "Musalman",
+    "row": "10-15",
+    "column": "MARRIED | Females",
+    "readings": [
+     420.0
+    ]
+   },
+   {
+    "id": "1.2.1",
+    "section": "Musalman",
+    "row": "5-10",
+    "column": "POPULATION | Males",
+    "readings": [
+     3598.0
+    ]
+   },
+   {
+    "id": "0.6.9",
+    "section": "Hindu",
+    "row": "40-60",
+    "column": "WIDOWED | Persons",
+    "readings": [
+     38473.0
+    ]
+   },
+   {
+    "id": "2.5.4",
+    "section": "Christian",
+    "row": "20-40",
+    "column": "UNMARRIED | Males",
+    "readings": [
+     126.0
+    ]
+   },
+   {
+    "id": "1.0.11",
+    "section": "Musalman",
+    "row": "All ages",
+    "column": "WIDOWED | Females",
+    "readings": [
+     3075.0
+    ]
+   },
+   {
+    "id": "2.4.7",
+    "section": "Christian",
+    "row": "15-20",
+    "column": "MARRIED | Males",
+    "readings": [
+     3.0
+    ]
+   },
+   {
+    "id": "0.7.2",
+    "section": "Hindu",
+    "row": "60 and over",
+    "column": "POPULATION | Females",
+    "readings": [
+     25734.0
+    ]
+   },
+   {
+    "id": "0.3.7",
+    "section": "Hindu",
+    "row": "10-15",
+    "column": "MARRIED | Males",
+    "readings": [
+     171.0
+    ]
+   },
+   {
+    "id": "2.1.2",
+    "section": "Christian",
+    "row": "0-5",
+    "column": "POPULATION | Females",
+    "readings": [
+     226.0
+    ]
+   },
+   {
+    "id": "2.0.11",
+    "section": "Christian",
+    "row": "All ages",
+    "column": "WIDOWED | Females",
+    "readings": [
+     203.0
+    ]
+   }
+  ]
+ },
+ {
+  "page": "1891_Rajputana_Agency_IMPERIAL_TABLE_VII.-PART_F._Ages_by_Reli_d70472c",
+  "title": "IMPERIAL TABLE VII.-PART F. Ages by Religions (Animistic).",
+  "year": 1891,
+  "place": "Rajputana Agency",
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/c23bf8bf5220318a15643497ade7ebb135274808.jpg"
+  ],
+  "n_images_total": 1,
+  "reading_columns": [
+   "IMPERIAL TABLE VII.-PART F. Ages by Reli | Total Population | Persons",
+   "IMPERIAL TABLE VII.-PART F. Ages by Reli | Total Population | Males",
+   "IMPERIAL TABLE VII.-PART F. Ages by Reli | Total Population | Females",
+   "IMPERIAL TABLE VII.-PART F. Ages by Reli | Unenumerated Population | Persons",
+   "IMPERIAL TABLE VII.-PART F. Ages by Reli | Unenumerated Population | Males",
+   "IMPERIAL TABLE VII.-PART F. Ages by Reli | Unenumerated Population | Females"
+  ],
+  "task": "persons",
+  "persons_rows": [
+   {
+    "id": 0,
+    "section": "IMPERIAL TABLE VII.-PART F. Ages by Religions (Animistic).",
+    "row": "Males",
+    "column_group": "Total Population"
+   },
+   {
+    "id": 1,
+    "section": "IMPERIAL TABLE VII.-PART F. Ages by Religions (Animistic).",
+    "row": "Males",
+    "column_group": "Unenumerated Population"
+   },
+   {
+    "id": 2,
+    "section": "IMPERIAL TABLE VII.-PART F. Ages by Religions (Animistic).",
+    "row": "Females",
+    "column_group": "Total Population"
+   },
+   {
+    "id": 3,
+    "section": "IMPERIAL TABLE VII.-PART F. Ages by Religions (Animistic).",
+    "row": "Females",
+    "column_group": "Unenumerated Population"
+   }
+  ]
+ }
+]

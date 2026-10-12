@@ -295,6 +295,33 @@ in `atlas/`; every decision is in `out/column_fix_log.csv`.
     have a section whose non-zero cells repeat another section's. That is a possible copy
     error in the original reading, listed for review.
 
+12. **Third pass: review by reading the scans** (`out/claude_adjudication/`). Claude reviewers read
+    the scans for every table still uncorrected (242 packets): disputed cells, Persons values, and
+    40-cell spot-checks of large single-reading tables. Two independent auditors then re-read a
+    blind sample of 188 items:
+
+    | reviewer decision | auditors agree | rule applied |
+    |---|---|---|
+    | Persons values | 30/30 | kept, each also equal to Males + Females |
+    | disputed cells | 67/70 | kept only if it equals a machine reading and the printed totals confirm it |
+    | spot-checked tables (fresh cells) | 77/79 | both errors in one table, which was rejected; the others accepted, noted as a single reading with a spot-check |
+    | "no Persons column printed" | 0/8 | discarded; those flags stay |
+
+    Six reviewer verdicts were set aside as unreliable before applying anything (the scans
+    had dropped from the reviewer's context, a sample was not checked cell by cell, or the
+    scan was of another place).
+13. **Frozen rows and copied columns.** Every published table is checked for:
+    - a row repeating one value;
+    - a column repeating one value;
+    - a column copying its neighbour;
+    - a serial-number column stored as data.
+
+    Each flag was reviewed against the scan. 32 are printed that way and are listed in
+    `out/frozen_exceptions.csv`. The rest were removed in 36 tables (1,896 cells), with a
+    reviewed value restored only where Persons = Males + Females confirms it.
+    `verify_site.py` now fails if any published table has an unreviewed frozen row or
+    copied column.
+
 Originals are never overwritten. Corrections go to the overlay files in `sendout_v1/`
 (`corrected_facts.csv`, `corrected_tables.json`, `column_fix_overlay.json`), and the
 pre-correction facts of every changed table are kept in
