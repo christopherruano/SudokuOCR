@@ -333,9 +333,12 @@ in `atlas/`; every decision is in `out/column_fix_log.csv`.
     - Tables that checked "ok" (24), or "ok except an undigitized Persons column" (23),
       were relinked to the found pages, with a page note.
 
-    This brought back 40 withdrawn tables, leaving 318 withdrawn, and replaced the
-    "use with care" note on 7 others. The remaining 38 are on the right page but their
-    columns still disagree with the scan, so they stay as they were.
+    This brought back 40 withdrawn tables and replaced the "use with care" note on 7 others.
+    The other 34 tables whose columns disagree with the found pages were re-read there
+    (`reread_found.py`). Each got three independent readings (Gemini 3.8 Flash, 3.1 Pro and
+    3.7 Flash), decided by the same majority vote and gates as every other re-read. 25 passed,
+    which leaves 302 tables withdrawn. Earlier readings of those tables, made on the wrong
+    page, are kept in `out/reread_superseded/`.
 
 Originals are never overwritten. Corrections go to the overlay files in `sendout_v1/`
 (`corrected_facts.csv`, `corrected_tables.json`, `column_fix_overlay.json`), and the

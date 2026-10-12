@@ -133,7 +133,7 @@ def main(dry=False):
                          decision="accept" if all(gates.values()) else "reject")
                 voted = vst
         adj_note = None
-        if not SAFE_ONLY and d.get("decision") != "accept" and page in ADJ and verdict != "wrong_scan":
+        if not SAFE_ONLY and d.get("decision") != "accept" and page in ADJ and verdict != "wrong_scan" and not d.get("found_pages"):
             res_adj = adjudicate(d, ADJ[page], verdict, tid, t, page)
             if res_adj:
                 kind_, payload, adj_note, adj_kind = res_adj
@@ -159,7 +159,9 @@ def main(dry=False):
             extra = d.get("extra_pages") or []
             srcs = (t["member_images"] or t["source_image"] or "").split("|")
             srcs = [s for s in srcs if s.strip()]
-            if d.get("relink"):
+            if d.get("found_pages"):          # read on the pages located in the source volume
+                srcs = [add_page(d["found_pages"]["pdf"], p) for p in d["found_pages"]["pages"]]
+            elif d.get("relink"):
                 srcs = [add_page(d["relink"]["pdf"], d["relink"]["pdf_page"])]
             else:
                 first = re.search(r"([0-9a-f]{40})", srcs[0]) if srcs else None
@@ -174,7 +176,7 @@ def main(dry=False):
                     "columns_missing": "missing columns added",
                     "columns_invented": "columns not printed on the page removed",
                     "columns_shifted": "column alignment corrected"}.get(verdict, "re-read from the correct page")
-            if d.get("relink"):
+            if d.get("relink") or d.get("found_pages"):
                 what = "linked to the correct scan page and re-read"
             elif extra:
                 what += "; facing page attached"
@@ -193,13 +195,13 @@ def main(dry=False):
         elif d.get("decision") == "cleared":
             cleared.append(tid)          # reviewer found the flag was a false alarm: no note
         elif d.get("decision") == "held":
-            if verdict == "wrong_scan" or d.get("relinked"):
+            if verdict == "wrong_scan" or d.get("relinked") or V.get(page, {}).get("verdict") == "wrong_scan":
                 withdrawn.append(tid)
             else:
                 notes[tid] = (f"Automated column check ({TAG}) found a column problem ({verdict.replace('_', ' ')}); "
                               "a corrected reading is being verified. Use with care.")
         else:
-            if verdict == "wrong_scan" or d.get("relinked"):
+            if verdict == "wrong_scan" or d.get("relinked") or V.get(page, {}).get("verdict") == "wrong_scan":
                 withdrawn.append(tid)
             else:
                 failed = [k for k, v in (d.get("gates") or {}).items() if not v]
