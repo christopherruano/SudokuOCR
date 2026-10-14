@@ -35,13 +35,34 @@ def item(con, r):
                 columns=[f"{k}  [first: {'; '.join(v)}]" for k, v in list(cols.items())[:120]])
 
 
+def current_checks():
+    """table_id -> the latest column check made on the table's current found pages"""
+    fp = {json.loads(l)["table_id"]: json.loads(l) for l in open(os.path.join(HERE, "out", "found_pages.jsonl"))}
+    out = {}
+    for l in (open(OUT) if os.path.exists(OUT) else []):
+        d = json.loads(l); r = fp.get(d["table_id"])
+        if r and [int(os.path.basename(i).rsplit("_p", 1)[1].split(".")[0]) for i in d["found_images"]] == r["found_pages"]:
+            out[d["table_id"]] = d
+    return out
+
+
 def main():
     from google import genai
     con = sqlite3.connect(f"file:{g.DB}?mode=ro", uri=True)
     rs = [json.loads(l) for l in open(os.path.join(HERE, "out", "found_pages.jsonl"))]
-    rs = [r for r in rs if r["coverage"] >= 0.6 and r["found_pages"]]
-    done = {json.loads(l)["table_id"] for l in open(OUT)} if os.path.exists(OUT) else set()
-    items = [item(con, r) for r in rs if r["table_id"] not in done]
+    # local matches need 60% of the table's numbers on the pages; model matches need 10 of 12 sampled
+    # cells read back exactly from the pages (confirm_values.py)
+    conf = {}
+    cp = os.path.join(HERE, "out", "confirm_values.jsonl")
+    for l in (open(cp) if os.path.exists(cp) else []):
+        d = json.loads(l)
+        if d["kind"] == "found" and d["confirmed"] is not None:
+            conf[(d["table_id"], tuple(d["pages"]))] = d["confirmed"]
+    rs = [r for r in rs if r["found_pages"] and (r["coverage"] >= 0.6 if r.get("method") != "model"
+                                                 else conf.get((r["table_id"], tuple(r["found_pages"])), 0) >= 10)]
+    key = lambda d: (d["table_id"], tuple(os.path.basename(i) for i in d["found_images"]))
+    done = {key(json.loads(l)) for l in open(OUT)} if os.path.exists(OUT) else set()
+    items = [it for it in (item(con, r) for r in rs) if key(dict(it, found_images=it["imgs"])) not in done]
     print(f"{len(items)} tables to check on their found pages", flush=True)
     client = genai.Client(api_key=g.env_key())
     c = collections.Counter()

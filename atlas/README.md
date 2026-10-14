@@ -339,6 +339,24 @@ in `atlas/`; every decision is in `out/column_fix_log.csv`.
     3.7 Flash), decided by the same majority vote and gates as every other re-read. 25 passed,
     which leaves 302 tables withdrawn. Earlier readings of those tables, made on the wrong
     page, are kept in `out/reread_superseded/`.
+15. **Model page search for the remaining withdrawn tables** (`find_pages_model.py`,
+    `confirm_values.py`). Gemini 3.8 Flash was shown the 24 pages around each withdrawn
+    table's linked scan and asked which pages hold its data. It named pages for 266 of the
+    277 tables searched.
+
+    A model match was accepted only if it passed a value test. For 12 of the table's cells,
+    spread over its columns, the model was given the row and column but not the value. It
+    had to read the number printed there, and at least 10 of the 12 had to equal the
+    digitized value. 121 tables passed.
+
+    The test also explains many withdrawals. These tables were linked to several pages, and
+    the right page was among them but listed after a stray page from elsewhere in the
+    volume. The column check had judged the stray page.
+
+    The 121 then went through the column check on their found pages. 87 were relinked:
+    44 matched fully, and 43 matched except for an undigitized Persons column. The rest
+    were re-read three times and voted on as above, and 33 passed. That leaves 187 tables
+    withdrawn.
 
 Originals are never overwritten. Corrections go to the overlay files in `sendout_v1/`
 (`corrected_facts.csv`, `corrected_tables.json`, `column_fix_overlay.json`), and the

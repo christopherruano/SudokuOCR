@@ -228,16 +228,19 @@ def main(dry=False):
     fpc = os.path.join(HERE, "out", "found_pages_check.jsonl")
     fpp = {json.loads(l)["table_id"]: json.loads(l) for l in open(os.path.join(HERE, "out", "found_pages.jsonl"))} \
         if os.path.exists(fpc) else {}
-    for l in (open(fpc) if fpc and os.path.exists(fpc) else []):
-        d = json.loads(l); tid = d["table_id"]; r = fpp.get(tid)
+    from verify_found_pages import current_checks
+    for d in (current_checks().values() if fpp else []):
+        tid = d["table_id"]; r = fpp.get(tid)
         if not r or d["verdict"] not in ("ok", "persons_only_missing") or d.get("confidence") == "low" or tid in accepted:
             continue
         was = "withdrawn" if tid in withdrawn else "noted"
         withdrawn = [t for t in withdrawn if t != tid]
         images[tid] = ";".join(add_page(r["pdf"], p) for p in r["found_pages"])
         notes[tid] = (f"Scan relinked ({TAG}): the page(s) this table was read from were located in the source volume "
-                      f"(pages {', '.join(map(str, r['found_pages']))}; {r['coverage']:.0%} of its numbers found there) "
-                      "and its columns were confirmed against them"
+                      f"(pages {', '.join(map(str, r['found_pages']))}; "
+                      + ("identified by a model reading the neighbouring pages) " if r.get("method") == "model" else
+                         f"{r['coverage']:.0%} of its numbers found there) ")
+                      + "and its columns were confirmed against them"
                       + ("; the printed Persons column was not digitized" if d["verdict"] == "persons_only_missing" else "") + ".")
         log.append({"page": "", "table_id": tid, "check_verdict": d["verdict"], "decision": "relinked_" + was,
                     "relink": json.dumps({"pdf": os.path.basename(r["pdf"]), "pages": r["found_pages"]})})
