@@ -376,15 +376,11 @@ asm_376c95cc161e69f8_0053,gwalior-state,21.059,4.289,,0,"per-10,000 distribution
 asm_376c95cc161e69f8_0054,gwalior-state,24.35,2.82,,0,"per-10,000 distributions sum to base; mean of 2 sexes",All / Total / All Religions / 1901
 asm_53b98cdf8e9af2f2_0080,punjab,27.713,4.51,761.835,1378570,"open-ended bands, no printed total",Details For · All / Total / All Religions / POPULATION
 asm_53b98cdf8e9af2f2_0080,sialkot-district,29.603,5.611,846.107,979611,"open-ended bands, no printed total",Sialkot District. / Population
-asm_53b98cdf8e9af2f2_0081,punjab,29.021,3.476,856.888,591375,"open-ended bands, no printed total",All / Total · ALL RELIGIONS / All Religions / POPULATION
-asm_210be2a99d999321_0107,travancore-state,27.229,5.907,855.696,22418213,"bands = printed total (22,418,213/22,418,213)",All / Total / POPULATION
 asm_c9638947915b71be_0131,ajmer-merwara,17.807,,899.851,476912,"bands = printed total (476,912/476,912)",Population
 asm_8f886c379ba02fef_0140,gwalior-state,21.191,3.689,,0,"per-10,000 distributions sum to base; mean of 2 sexes",All / Total / All Religions / 1901
 asm_1e17a9869c8b038e_0165,sitamau-state,29.075,3.449,966.714,243430,"bands = printed total (243,430/243,430)",All / Total · DHAR / POPULATION
 asm_3a2c54895cb6263e_0169,bangalore-district,25.655,7.083,984.506,759522,"bands = printed total (759,522/759,522)",Bangalore · All / Total / POPULATION
 asm_3a2c54895cb6263e_0169,mysore-district,25.033,6.247,1018.638,1270765,"bands = printed total (1,270,765/1,270,765)",Mysore · All / Total / Population
-asm_7c37bc7afa561e63_0182,madras-presidency,28.781,4.679,977.057,1655115,"bands = printed total (1,655,115/1,655,115)",All / Total · CHINGLEPUT / Population
-asm_7c37bc7afa561e63_0184,sandur-state,26.033,4.241,932.973,13583,"bands = printed total (13,583/13,583)",Sandur · All / Total / Population
 asm_79b54ce5b46cc321_0220,punjab,27.742,6.512,813.459,4008017,"open-ended bands, no printed total",All / Total / All Religions / POPULATION
 asm_70e90b3ae3df5794_0227,nander-district,26.56,5.649,997.938,704549,"bands = printed total (704,549/704,549)",All / Total · All Religions / All Religions / POPULATION
 asm_cdb022e4f9a60242_0232,baroda-state,29.988,3.789,930.013,144559,"open-ended bands, no printed total",10. Rest of the Eastern Kathiawar Agency / Population
@@ -416,7 +412,6 @@ asm_b99c15a375176ed9_0256,kashmir-province,35.295,4.64,,0,"per-10,000 distributi
 asm_b99c15a375176ed9_0256,jammu-and-kashmir-state,27.106,6.491,,0,"per-10,000 distributions sum to base; mean of 2 sexes",Submontane And Semi-Mountainous Tract. / 1911
 asm_b99c15a375176ed9_0256,frontier-districts,23.04,18.97,,0,"per-10,000 distributions sum to base; mean of 2 sexes",Frontier Districts. / 1891
 asm_26f52db17eb1479a_0259,madras-presidency,25.829,6.129,1066.271,2231874,"bands = printed total (2,231,874/2,231,874)",All / Total · VIZAGAPATAM / POPULATION
-asm_26f52db17eb1479a_0260,madras-presidency,24.194,5.99,1083.156,2326265,"bands = printed total (2,326,265/2,326,265)",All / Total · TANJORE / POPULATION
 asm_355383f89353377c_0266,burma,26.247,5.931,953.03,10610256,"bands = printed total (10,610,256/10,610,256)",All / Total / All Religions / POPULATION
 asm_ad9ecbbaca5f73f6_0271,bombay-presidency,26.73,3.965,,0,"per-10,000 distributions sum to base; mean of 2 sexes",(C) Gujarat. / 1881
 asm_ad9ecbbaca5f73f6_0271,bombay-city,21.675,2.23,,0,"per-10,000 distributions sum to base; mean of 2 sexes",(B) Bombay. / 1881
@@ -1132,6 +1127,11 @@ digitized_tables/89a67e7533eda6aa_t0007_TABLEVIL-A.-.-AGE-SEX-AND-OrvIn-CoxDrrro
 digitized_tables/89a67e7533eda6aa_t0007_TABLEVIL-A.-.-AGE-SEX-AND-OrvIn-CoxDrrron.-AJMER-MERWARA.-O-i-M-.-AJMER-N-POPULA/2c46761cb58484b14abc6cd4afa2cd4a091bf80b_oneshot,ajmer-district,25.156,4.074,883.919,380384,"open-ended bands, no printed total",AJMER / POPULATION
 digitized_tables/89a67e7533eda6aa_t0007_TABLEVIL-A.-.-AGE-SEX-AND-OrvIn-CoxDrrron.-AJMER-MERWARA.-O-i-M-.-AJMER-N-POPULA/2c46761cb58484b14abc6cd4afa2cd4a091bf80b_oneshot,merwara-district,28.635,4.433,882.356,121011,"open-ended bands, no printed total",MERWARA / POPULATION
 digitized_tables/6d8c200b9ae1049d_t0014_i-a-n-j-ABIE-X-Vi..-e-i-s-Ago-Sex-and-Civil-Conditio-COIMBATORE-DIS-FRICT.-VZ-L-/312d954d1065d516e25985631cb9bace432d5eb1_oneshot,trichinopoly-district,27.547,6.311,1064.432,1444770,"bands = printed total (1,444,770/1,444,770)",ALL RELIGIONS. / All Religions / POPULATION
+asm_210be2a99d999321_0107,travancore-state,27.229,5.907,855.696,22418213,"bands = printed total (22,418,213/22,418,213)",All / Total / POPULATION
+asm_7c37bc7afa561e63_0182,madras-presidency,28.781,4.679,977.057,1655115,"bands = printed total (1,655,115/1,655,115)",All / Total · CHINGLEPUT / Population
+asm_7c37bc7afa561e63_0184,sandur-state,26.033,4.241,932.973,13583,"bands = printed total (13,583/13,583)",Sandur · All / Total / Population
+asm_26f52db17eb1479a_0260,madras-presidency,24.194,5.99,1083.156,2326265,"bands = printed total (2,326,265/2,326,265)",All / Total · TANJORE / POPULATION
+asm_53b98cdf8e9af2f2_0081,punjab,29.021,3.476,856.888,591375,"open-ended bands, no printed total",All / Total · ALL RELIGIONS / All Religions / POPULATION
 digitized_tables/36009a94d71a3d62_t0016_1a-U-OHAPTER-WAAGE-SSE-TABBER-o-y-Population-enumerated-at-each-age-dut-of-a-tot/8d16e4ed26323de40ef85b313189e6ee2c72b2da_oneshot,bengal,30.578,3.647,,0,"distribution per 100,000 sums to base; merged across 2 pages of one printed table",Bengal. / MALES
 digitized_tables/36009a94d71a3d62_t0016_1a-U-OHAPTER-WAAGE-SSE-TABBER-o-y-Population-enumerated-at-each-age-dut-of-a-tot/8d16e4ed26323de40ef85b313189e6ee2c72b2da_oneshot,bombay-presidency,29.165,3.349,,0,"distribution per 100,000 sums to base; merged across 2 pages of one printed table",Bombay. / MALES
 digitized_tables/36009a94d71a3d62_t0016_1a-U-OHAPTER-WAAGE-SSE-TABBER-o-y-Population-enumerated-at-each-age-dut-of-a-tot/8d16e4ed26323de40ef85b313189e6ee2c72b2da_oneshot,burma,27.999,4.807,,0,"distribution per 100,000 sums to base; merged across 2 pages of one printed table",Burma. / MALES

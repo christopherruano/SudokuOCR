@@ -229,6 +229,9 @@ def main(dry=False):
     fpp = {json.loads(l)["table_id"]: json.loads(l) for l in open(os.path.join(HERE, "out", "found_pages.jsonl"))} \
         if os.path.exists(fpc) else {}
     from verify_found_pages import current_checks
+    pfound = {}                                  # table_id -> Persons-only reading on the found pages
+    for f_ in glob.glob(os.path.join(HERE, "out", "reread_persons_found", "*.json")):
+        q_ = json.load(open(f_)); pfound[q_.get("table_id")] = q_
     for d in (current_checks().values() if fpp else []):
         tid = d["table_id"]; r = fpp.get(tid)
         if not r or d["verdict"] not in ("ok", "persons_only_missing") or d.get("confidence") == "low" or tid in accepted:
@@ -236,12 +239,25 @@ def main(dry=False):
         was = "withdrawn" if tid in withdrawn else "noted"
         withdrawn = [t for t in withdrawn if t != tid]
         images[tid] = ";".join(add_page(r["pdf"], p) for p in r["found_pages"])
+        n_p = 0
+        if d["verdict"] == "persons_only_missing":   # Persons read from the found pages, each verified as M + F
+            pr = pfound.get(tid, {})
+            if pr.get("read") and (pr.get("found_pages") or {}).get("pages") == r["found_pages"]:
+                t_ = dict(con.execute("select * from tables where table_id=?", (tid,)).fetchone())
+                base = ORIG.get(tid) or [dict(x) for x in con.execute("select * from facts where table_id=?", (tid,))]
+                ORIG[tid] = base
+                facts, n_p = persons_merge(base, pr["read"], tid, t_["measure_class"], all_persons=True)
+                if n_p:
+                    for k, fr in enumerate(facts):
+                        fr["fact_id"] = f"Q{hashlib.md5(tid.encode()).hexdigest()[:8]}{k:06d}"
+                    new_facts = [f for f in new_facts if f["table_id"] != tid] + facts; accepted[tid] = len(facts)
         notes[tid] = (f"Scan relinked ({TAG}): the page(s) this table was read from were located in the source volume "
                       f"(pages {', '.join(map(str, r['found_pages']))}; "
                       + ("identified by a model reading the neighbouring pages) " if r.get("method") == "model" else
                          f"{r['coverage']:.0%} of its numbers found there) ")
                       + "and its columns were confirmed against them"
-                      + ("; the printed Persons column was not digitized" if d["verdict"] == "persons_only_missing" else "") + ".")
+                      + (f"; {n_p} printed Persons cells were read from them and added, each equal to Males + Females"
+                         if n_p else "; the printed Persons column was not digitized" if d["verdict"] == "persons_only_missing" else "") + ".")
         log.append({"page": "", "table_id": tid, "check_verdict": d["verdict"], "decision": "relinked_" + was,
                     "relink": json.dumps({"pdf": os.path.basename(r["pdf"]), "pages": r["found_pages"]})})
 

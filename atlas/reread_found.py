@@ -6,7 +6,8 @@ credits key only) go through
 apply_column_fixes.py's vote and gates like every other re-read. Earlier re-reads of these tables (made
 on the wrong page) are moved to out/reread_superseded/.
 
-  python3 atlas/reread_found.py
+  python3 atlas/reread_found.py             (structural re-reads)
+  python3 atlas/reread_found.py --persons   (Persons-only reading of relinked tables, out/reread_persons_found/)
 """
 import os, sys, json, glob, shutil, sqlite3, hashlib, collections
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -25,7 +26,8 @@ def main():
     from google import genai
     con = sqlite3.connect(f"file:{g.DB}?mode=ro", uri=True); con.row_factory = sqlite3.Row
     fp = {json.loads(l)["table_id"]: json.loads(l) for l in open(os.path.join(OUT, "found_pages.jsonl"))}
-    chk = [d for d in current_checks().values() if d["verdict"] in STRUCT]
+    persons = "--persons" in sys.argv       # targeted Persons-only reading of relinked tables lacking Persons
+    chk = [d for d in current_checks().values() if d["verdict"] in ({"persons_only_missing"} if persons else STRUCT)]
     page_of = {}
     for f in glob.glob(os.path.join(HERE, "..", "census_site", "tables", "*.html")):
         page_of[os.path.basename(f)[:-5].rsplit("_", 1)[1]] = os.path.basename(f)[:-5]
@@ -39,6 +41,24 @@ def main():
         it["row_labels"] = [f["row_label_std"] for f in old]
         t = dict(con.execute("select * from tables where table_id=?", (tid,)).fetchone())
         jobs.append((it, d, old, {k: t.get(k, "") for k in DENORM}, t["status"], t["measure_class"]))
+    if persons:
+        R.PERSONS_ONLY = R.SECOND = True; R.MODEL = "gemini-3.8-flash"; R.OUTD = os.path.join(OUT, "reread_persons_found")
+        os.makedirs(R.OUTD, exist_ok=True)
+        client = genai.Client(api_key=g.env_key()); c = collections.Counter()
+
+        def pjob(j):
+            it, d, old, dn, st, ms = j
+            path = os.path.join(R.OUTD, it["page"] + ".json")
+            if os.path.exists(path) and json.load(open(path)).get("found_pages", {}).get("pages") == fp[it["table_id"]]["found_pages"]:
+                return json.load(open(path))
+            res = R.process(client, it, d, None, old, dn, st, ms)
+            res["found_pages"] = {"pdf": fp[it["table_id"]]["pdf"], "pages": fp[it["table_id"]]["found_pages"]}
+            R._dump(res, path); return res
+        with ThreadPoolExecutor(16) as ex:
+            for fu in as_completed([ex.submit(pjob, j) for j in jobs]):
+                c["read" if fu.result().get("read") else "error"] += 1
+        print(len(jobs), "Persons-only readings:", dict(c), "\nREREAD_FOUND_DONE", flush=True)
+        return
     sup = os.path.join(OUT, "reread_superseded"); os.makedirs(sup, exist_ok=True)
     for it, *_ in jobs:                      # earlier readings were made on the wrong page
         for sub in ("reread", "reread_pro", "reread_third", "reread_persons"):
