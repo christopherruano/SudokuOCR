@@ -1,0 +1,35 @@
+{
+ "correct_after_final_review": [
+  295,
+  12,
+  163,
+  199,
+  378
+ ],
+ "right_number_ambiguous_label": [
+  205,
+  228,
+  64,
+  395,
+  183,
+  185,
+  232,
+  331
+ ],
+ "error_confirmed": [
+  399,
+  314
+ ],
+ "not_resolvable": [
+  9,
+  202,
+  1,
+  13,
+  43,
+  192,
+  241,
+  247,
+  321
+ ],
+ "note": "Cells re-reviewed with full cell descriptions (review_final_*.jsonl). All other cells as scored by audit_cells.py score (two agreeing readers or first reviewer)."
+}

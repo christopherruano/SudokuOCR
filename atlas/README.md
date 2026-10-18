@@ -358,6 +358,28 @@ in `atlas/`; every decision is in `out/column_fix_log.csv`.
     were re-read three times and voted on as above, and 33 passed. That leaves 187 tables
     withdrawn.
 
+16. **Blind cell-level accuracy audit** (`audit_cells.py`, `out/audit/`). 400 cells were drawn
+    uniformly at random from all 2,085,340 published cells, with a fixed seed, and the sample was
+    saved before any reading. Gemini 3.8 Flash and 3.1 Pro each read every cell from the
+    published scan, given its row and column but never the digitized value. Where the two
+    readers disagreed, or a two-reader value disagreed with ours, blind Claude reviewers read
+    the scan. 24 cells were reviewed a second time with the cell's full description (sex,
+    religion, block).
+
+    | outcome | cells |
+    |---|---|
+    | digitized value equals the printed cell | 371 |
+    | value equals a printed cell, but the stored labels do not say which (sex, religion or district missing) | 8 |
+    | digitized value differs from the print | 12 |
+    | cannot be checked (cell on an unattached facing page, or row labels too generic to place) | 9 |
+
+    On the 391 checkable cells, the number is right in **379 (96.9%, 95% CI 94.7-98.2%)**. The
+    number and its labels are both unambiguous and right in 371 (94.9%, CI 92.2-96.7%). Original
+    and corrected tables do not differ measurably. The errors are mostly single-digit misreads
+    (e.g. 380,292 for 350,292) and a few cells shifted by one row or column. The audit also
+    found missing labels (cells with no sex or district marker where the print has several
+    candidates) and tables whose published scans lack a facing page.
+
 Originals are never overwritten. Corrections go to the overlay files in `sendout_v1/`
 (`corrected_facts.csv`, `corrected_tables.json`, `column_fix_overlay.json`), and the
 pre-correction facts of every changed table are kept in
