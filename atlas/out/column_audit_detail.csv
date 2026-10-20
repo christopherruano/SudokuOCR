@@ -86,10 +86,9 @@ None_digitized_tables_SUBSIDIARY_TABLE_III.-Age_Distribution_o_ec77d41,col,Other
 1921_Cochin_TABLE_V._TOWNS_ARRANGED_TERRITORIALLY_WI_cc6ee90,col,TABLE V. TOWNS ARRANGED TERRITORIALLY WITH POPULATION BY RELIGION. | CHRISTIAN | Persons,ungrounded (0.11 vs best columns 0.80)
 1901_Bombay_Table_VIII-Education_by_Sections-Upper_C_0b1a930,col,Lower Colaba. HINDU. | POPULATION | females,ungrounded (0.00 vs best columns 1.00)
 1891_Bombay_Table_VIII._Civil_Condition_by_Religion_ad62f38,col,Hindu. MARRIED. | 25 - 29 | males,ungrounded (0.13 vs best columns 0.59)
-1891_Bombay_Table_VIII._Civil_Condition_by_Religion_ad62f38,col,RIED. | 25 - 29 | males,ungrounded (0.13 vs best columns 0.59)
 1891_Bombay_Table_VIII._Civil_Condition_by_Religion_ad62f38,col,RIED. | 50 - 54 | females,ungrounded (0.03 vs best columns 0.59)
 1891_Bombay_Table_VIII._Civil_Condition_by_Religion_ad62f38,col,RIED. | 60 and Over | males,ungrounded (0.07 vs best columns 0.59)
-1891_Bombay_Table_VIII._Civil_Condition_by_Religion_ad62f38,col,RIED. | 60 and Over | females,ungrounded (0.07 vs best columns 0.59)
+1891_Bombay_Table_VIII._Civil_Condition_by_Religion_ad62f38,col,RIED. | 60 and Over | females,ungrounded (0.14 vs best columns 0.59)
 1931_Mysore_TABLE_VIII._Education_by_Religion_and_Ag_f83ad5b,col,MYSORE CITY - Hindu | English | females,ungrounded (0.00 vs best columns 0.80)
 1931_Mysore_TABLE_VIII._Education_by_Religion_and_Ag_f83ad5b,col,TUMKUR DISTRICT - Christian | Illiterate | Persons,ungrounded (0.00 vs best columns 0.80)
 1931_Bengal_STATEMENT_No._IV-22._Monthly_figures_of_a165003,col,RAINFALL IN INCHES (see note 1). | Monthly average | Stand-ard devia-tion,ungrounded (0.09 vs best columns 0.54)
@@ -129,7 +128,7 @@ None_digitized_tables_SUBSIDIARY_TABLE_VIII._Reported_death-ra_d0ac729,row,BURMA
 1891_Pegu_District_PEGU_DISTRICT_-_Table_showing_Population_3fe2c2b,row,THARRAWADDY DISTRICT.-Table showing Popu | Kyudawgyi-in,frozen (value 13 in 4/5)
 1901_Eastern_Division_Table_VII_-_Age_Sex_and_Civil_Condition_2b08bff,table,,most columns ungrounded (median 0.06) though the page OCR found 149 multi-digit numbers
 1911_Assam_TABLE_V._Distribution_of_1_000_females_o_3664c2f,col,"TABLE V. Distribution of 1,000 females of each age by civil condition. | 0-5 | Unmarried",frozen (value 999 in 4/5 cells)
-1881_Mysore_Distribution_of_the_Population_by_Civil_0d92ceb,col,HINDU. MARRIED. | 30-39 | females,ungrounded (0.11 vs best columns 0.68)
+1881_Mysore_Distribution_of_the_Population_by_Civil_0d92ceb,col,HINDU. MARRIED. | 30-39 | females,ungrounded (0.11 vs best columns 0.72)
 1911_Bombay_TABLE_VII-continued._AGE_SEX_AND_CIVIL_b7738f8,col,Pálanpur Agency | UNMARRIED | females,ungrounded (0.14 vs best columns 0.50)
 1911_Bombay_TABLE_VII-continued._AGE_SEX_AND_CIVIL_b7738f8,col,Kolhápur | POPULATION | males,ungrounded (0.12 vs best columns 0.50)
 1911_Bombay_TABLE_VII-continued._AGE_SEX_AND_CIVIL_b7738f8,col,Southern Maráthá Jágírs | UNMARRIED | males,ungrounded (0.14 vs best columns 0.50)
@@ -221,7 +220,7 @@ None_Mysore_State_Including_Civil_and_Military_Station_Bangalore_TABLE_36f8e62,c
 1931_Travancore_TABLE_VII-Age_Sex_and_Civil_Condition-P_d297b42,table,,most columns ungrounded (median 0.21) though the page OCR found 353 multi-digit numbers
 1911_Ajmer-Merwara_SUBSIDIARY_TABLE_X.-Number_of_books_publ_5c9348f,table,,most columns ungrounded (median 0.33) though the page OCR found 39 multi-digit numbers
 1891_Baroda_TABLE_No._XXX._Average_number_of_females_578352a,col,"TABLE No. XXX. Average number of females per 1,000 males of the same age and civil condition. | 15-24 | Widowed",ungrounded (0.00 vs best columns 0.60)
-None_Native_States_Nat._States._AGE_RELIGION_4012bf7,table,,most columns ungrounded (median 0.11) though the page OCR found 138 multi-digit numbers
+None_Native_States_Nat._States._AGE_RELIGION_4012bf7,table,,most columns ungrounded (median 0.13) though the page OCR found 138 multi-digit numbers
 1891_Assam_TABLE_VII._PART_B.-HINDU._11477b0,table,,most columns ungrounded (median 0.00) though the page OCR found 123 multi-digit numbers
 1911_Bengal_CIVIL_CONDITION._9b65915,table,,most columns ungrounded (median 0.17) though the page OCR found 55 multi-digit numbers
 1891_Bengal_STATEMENT_III._The_number_and_proportion_ba58280,table,,most columns ungrounded (median 0.00) though the page OCR found 114 multi-digit numbers
@@ -249,6 +248,7 @@ None_State_TABLE_VII._Age_Sex_and_Civil_Condition._f813777,table,,most columns u
 1921_Cochin_SUBSIDIARY_TABLE_I._General_distribution_520394e,col,"CHRISTIAN | Proportion per 10,000 of population in | 1891",ungrounded (0.14 vs best columns 0.71)
 1921_Cochin_SUBSIDIARY_TABLE_I._General_distribution_520394e,col,CHRISTIAN | Variation per cent. (Increase + Decrease -) | 1901-1911,ungrounded (0.14 vs best columns 0.71)
 1921_Cochin_SUBSIDIARY_TABLE_I._General_distribution_520394e,col,CHRISTIAN | Net variation 1891-1921 | per cent,ungrounded (0.14 vs best columns 0.71)
+1921_Cochin_SUBSIDIARY_TABLE_I._General_distribution_520394e,table,,most columns ungrounded (median 0.33) though the page OCR found 228 multi-digit numbers
 1931_Gwalior_SUBSIDIARY_TABLE_II.-_contd._Age_Distri_1e33f4b,col,Hindu | 1931 | males,ungrounded (0.12 vs best columns 0.75)
 1931_Gwalior_SUBSIDIARY_TABLE_II.-_contd._Age_Distri_1e33f4b,col,Hindu | 1931 | females,ungrounded (0.12 vs best columns 0.75)
 1931_Gwalior_SUBSIDIARY_TABLE_II.-_contd._Age_Distri_1e33f4b,col,Hindu | 1921 | males,ungrounded (0.12 vs best columns 0.75)
@@ -287,14 +287,14 @@ None_Central_Provinces_and_Berar_TABLE_VII.-The_Population_by_Civil_Co_00b76cd,c
 1881_Bombay_Table_No._3._POPULATION_OF_BOMBAY_BY_AGE_6fda6fe,col,Table No. 3. POPULATION OF BOMBAY BY AGE AND SEX. | 2 to 3 years,ungrounded (0.00 vs best columns 0.67)
 1881_Bombay_Table_No._3._POPULATION_OF_BOMBAY_BY_AGE_6fda6fe,col,Table No. 3. POPULATION OF BOMBAY BY AGE AND SEX. | 5 to 6 years,ungrounded (0.00 vs best columns 0.67)
 1881_Bombay_Table_No._3._POPULATION_OF_BOMBAY_BY_AGE_6fda6fe,table,,most columns ungrounded (median 0.33) though the page OCR found 41 multi-digit numbers
-1891_Bombay_Table_IX._Education_by_Religion_and_Age._51ef97e,col,Table IX. Education by Religion and Age. | Illiterate | males,ungrounded (0.14 vs best columns 0.55)
+1891_Bombay_Table_IX._Education_by_Religion_and_Age._51ef97e,col,Table IX. Education by Religion and Age. | Illiterate | males,ungrounded (0.05 vs best columns 0.55)
 1891_Bombay_Table_IX._Education_by_Religion_and_Age._51ef97e,col,Table IX. Education by Religion and Age. | Illiterate | females,ungrounded (0.10 vs best columns 0.55)
 1901_Tumkur_District_Tumkur_District._a7f3919,table,,most columns ungrounded (median 0.00) though the page OCR found 143 multi-digit numbers
 1911_Surat_TABLE_VII-continued._AGE_SEX_AND_CIVIL_aee1373,table,,most columns ungrounded (median 0.30) though the page OCR found 135 multi-digit numbers
 1931_Bengal_STATEMENT_No._VII-7._Number_of_pupils_in_1f5c663,col,STATEMENT No. VII-7. Number of pupils in deaf and dumb schools in Bengal in February 1931 by sex and age-group. | Total | M.,ungrounded (0.00 vs best columns 0.67)
 1911_Madras_TABLE_V._Education-HINDUS_FEMALE_._9729841,table,,most columns ungrounded (median 0.07) though the page OCR found 138 multi-digit numbers
 1891_Tharrawaddy_District_THARRAWADDY_DISTRICT.-Table_showing_Popu_47db02e,row,"THARRAWADDY DISTRICT.-Table showing Population, Population by Religion and Education, &c., by Villages and Circles. | Shabawle camp",frozen (value 13 in 6/6)
-1911_Calcutta_and_Suburbs_SUBSIDIARY_TABLE_I.-VARIATIONS_IN_THE_PR_2cf00da,table,,most columns ungrounded (median 0.18) though the page OCR found 265 multi-digit numbers
+1911_Calcutta_and_Suburbs_SUBSIDIARY_TABLE_I.-VARIATIONS_IN_THE_PR_2cf00da,table,,most columns ungrounded (median 0.20) though the page OCR found 265 multi-digit numbers
 1901_India_dition_and_Age_Part_A_2_._All_Religion_6302613,table,,most columns ungrounded (median 0.30) though the page OCR found 147 multi-digit numbers
 1901_Eastern_Division_-_Males_APPENDIX_D._II_-_Statement_showing_unadj_8759849,row,APPENDIX D. II-Statement showing unadjusted and adjusted returns by single Age-periods. Eastern Division-Males. | Infant,frozen (value 2864 in 5/5)
 1901_Mysore_APPENDIX_C._Statement_showing_the_distri_df7c5a6,table,,most columns ungrounded (median 0.00) though the page OCR found 58 multi-digit numbers
@@ -319,7 +319,6 @@ None_Central_India_Agency_TABLE_VII.-Ages_by_Religions.-Part_B_._9c83c1c,table,,
 1931_Bhopal_APPENDIX_TO_TABLE_XIII._-_LITERACY_IN_VE_d756ef9,col,RATLAM. ALL RELIGIONS | LITERATE IN URDU | males,ungrounded (0.00 vs best columns 0.75)
 1931_Bhopal_APPENDIX_TO_TABLE_XIII._-_LITERACY_IN_VE_d756ef9,col,RATLAM. ALL RELIGIONS | LITERATE IN OTHER VERNACULARS | males,ungrounded (0.00 vs best columns 0.75)
 1931_Bhopal_APPENDIX_TO_TABLE_XIII._-_LITERACY_IN_VE_d756ef9,col,RATLAM. HINDU | LITERATE IN HINDI | males,ungrounded (0.00 vs best columns 0.75)
-1931_Bhopal_APPENDIX_TO_TABLE_XIII._-_LITERACY_IN_VE_d756ef9,col,RATLAM. CHRISTIAN | LITERATE IN OTHER VERNACULARS | females,ungrounded (0.00 vs best columns 0.75)
 1931_Bhopal_APPENDIX_TO_TABLE_XIII._-_LITERACY_IN_VE_d756ef9,col,SITAMAU. ALL RELIGIONS | POPULATION | males,ungrounded (0.00 vs best columns 0.75)
 1931_Bhopal_APPENDIX_TO_TABLE_XIII._-_LITERACY_IN_VE_d756ef9,table,,most columns ungrounded (median 0.33) though the page OCR found 199 multi-digit numbers
 1901_Assam_TABLE_VII._PART_H._ANIMISTIC_concluded._23e4e78,table,,most columns ungrounded (median 0.00) though the page OCR found 120 multi-digit numbers
@@ -329,9 +328,9 @@ None_Central_India_Agency_TABLE_VII.-Ages_by_Religions.-Part_B_._9c83c1c,table,,
 1931_North-West_Frontier_Province_TABLE_XV_Part_II_-_Bilingualism_2928a5a,col,Group 4 | Urdu | males,ungrounded (0.05 vs best columns 0.67)
 1931_North-West_Frontier_Province_TABLE_XV_Part_II_-_Bilingualism_2928a5a,table,,most columns ungrounded (median 0.32) though the page OCR found 158 multi-digit numbers
 1951_Mysore_TABLE_CIII._Age_Sex_and_Civil_Condition_0160a62,table,,most columns ungrounded (median 0.08) though the page OCR found 303 multi-digit numbers
-1921_North-West_Frontier_Province_SUBSIDIARY_TABLE_II.-_Age-distributi_5ae963a,col,HAZARA. | 1911 | males,ungrounded (0.12 vs best columns 0.62)
-1921_North-West_Frontier_Province_SUBSIDIARY_TABLE_II.-_Age-distributi_5ae963a,col,TRANS-INDUS DISTRICTS. | 1921 | females,ungrounded (0.12 vs best columns 0.62)
-1921_North-West_Frontier_Province_SUBSIDIARY_TABLE_II.-_Age-distributi_5ae963a,col,TRANS-INDUS DISTRICTS. | 1891 | males,ungrounded (0.12 vs best columns 0.62)
+1921_North-West_Frontier_Province_SUBSIDIARY_TABLE_II.-_Age-distributi_5ae963a,col,HAZARA. | 1911 | males,ungrounded (0.12 vs best columns 0.63)
+1921_North-West_Frontier_Province_SUBSIDIARY_TABLE_II.-_Age-distributi_5ae963a,col,TRANS-INDUS DISTRICTS. | 1921 | females,ungrounded (0.12 vs best columns 0.63)
+1921_North-West_Frontier_Province_SUBSIDIARY_TABLE_II.-_Age-distributi_5ae963a,col,TRANS-INDUS DISTRICTS. | 1891 | males,ungrounded (0.12 vs best columns 0.63)
 1901_India_TABLE_VII._Age_Sex_and_Civil_Condition._6d8cb26,col,A.-All Religions. | WIDOWED | females,ungrounded (0.10 vs best columns 0.80)
 1901_India_TABLE_VII._Age_Sex_and_Civil_Condition._6d8cb26,col,B.-Hindu. | WIDOWED | females,ungrounded (0.10 vs best columns 0.80)
 1931_Assam_TABLE_IX._INFIRMITIES._2fefed4,table,,most columns ungrounded (median 0.00) though the page OCR found 10 multi-digit numbers
@@ -667,15 +666,14 @@ None_Bombay_TABLE_VII-continued._AGE_SEX_AND_CIVIL_e5bf3ac,col,8 Khandesh East. 
 1901_Madras_TABLE_VII._Age_Sex_and_Civil_Condition-_abe83e6,col,CHRISTIAN. | UNMARRIED | females,ungrounded (0.00 vs best columns 0.58)
 1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,WEST BENGAL. | 1901 | males,ungrounded (0.12 vs best columns 0.50)
 1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,WEST BENGAL. | 1881 | females,ungrounded (0.00 vs best columns 0.50)
-1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,CENTRAL BENGAL. | 1901 | females,ungrounded (0.12 vs best columns 0.50)
 1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,NORTH BENGAL. | 1901 | females,ungrounded (0.12 vs best columns 0.50)
 1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,NORTH BENGAL. | 1891 | females,ungrounded (0.12 vs best columns 0.50)
 1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,EAST BENGAL. | 1881 | females,ungrounded (0.12 vs best columns 0.50)
+1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,NORTH BIHAR. | 1911 | females,ungrounded (0.12 vs best columns 0.50)
 1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,NORTH BIHAR. | 1881 | males,ungrounded (0.12 vs best columns 0.50)
 1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,SOUTH BIHAR. | 1891 | females,ungrounded (0.12 vs best columns 0.50)
 1911_Bengal_Bihar_And_Orissa_SUBSIDIARY_TABLE_II.-AGE_DISTRIBUTION_OF_3868ccb,col,SOUTH BIHAR. | 1881 | males,ungrounded (0.12 vs best columns 0.50)
 None_digitized_tables_III._-_AGE_DISTRIBUTION_OF_10_000_OF_EAC_d451421,col,Musalman. | 1901 | females,ungrounded (0.12 vs best columns 0.50)
-None_digitized_tables_III._-_AGE_DISTRIBUTION_OF_10_000_OF_EAC_d451421,col,Musalman. | 1891 | females,ungrounded (0.12 vs best columns 0.50)
 None_digitized_tables_III._-_AGE_DISTRIBUTION_OF_10_000_OF_EAC_d451421,col,Christian. | 1911 | females,ungrounded (0.12 vs best columns 0.50)
 1931_Punjab_TABLE_VII.-AGE_SEX_AND_CIVIL_CONDITION._2693e2f,col,ALL RELIGIONS | WIDOWED | females,ungrounded (0.00 vs best columns 0.78)
 1931_Punjab_TABLE_VII.-AGE_SEX_AND_CIVIL_CONDITION._2693e2f,col,HINDU | WIDOWED | females,ungrounded (0.00 vs best columns 0.78)
@@ -706,7 +704,7 @@ None_digitized_tables_III._-_AGE_DISTRIBUTION_OF_10_000_OF_EAC_d451421,col,Chris
 1901_Central_India_Agency_IMPERIAL_TABLE_VII_CONTINUED_._AGE_SEX_acabdea,table,,most columns ungrounded (median 0.20) though the page OCR found 74 multi-digit numbers
 1911_Central_India_Agency_TABLE_VII._Ages_by_Religions._Part_A_._ef7b4ad,table,,most columns ungrounded (median 0.00) though the page OCR found 186 multi-digit numbers
 1931_Travancore_Number_per_mille_of_unmarried_b7e769e,table,,most columns ungrounded (median 0.00) though the page OCR found 74 multi-digit numbers
-1921_Ajmer-Merwara_TABLE_XVII-B.-SHOWING_POPULATION_FOLLOWI_1ea5d57,table,,most columns ungrounded (median 0.00) though the page OCR found 28 multi-digit numbers
+1921_Ajmer-Merwara_TABLE_XVII-B.-SHOWING_POPULATION_FOLLOWI_1ea5d57,table,,most columns ungrounded (median 0.33) though the page OCR found 28 multi-digit numbers
 1931_Travancore_SUBSIDIARY_TABLE_V_Proportion_of_childre_aa18c87,col,"SUBSIDIARY TABLE V A | Proportion of persons over 60, per 100 aged 15-40 - 1921 | males",frozen (value 10 in 10/12 cells)
 1931_Travancore_SUBSIDIARY_TABLE_V_Proportion_of_childre_aa18c87,col,"SUBSIDIARY TABLE V A | Proportion of persons over 60, per 100 aged 15-40 - 1911 | males",frozen (value 10 in 10/12 cells)
 1921_Mysore_TABLE_VII._Age_Sex_Civil_Condition._09a2a54,col,Christian. | WIDOWED | males,ungrounded (0.00 vs best columns 0.71)
@@ -743,7 +741,6 @@ None_digitized_tables_III._-_AGE_DISTRIBUTION_OF_10_000_OF_EAC_d451421,col,Chris
 1931_Bhopal_TABLE_VIII._-_CIVIL_CONDITION_BY_AGE_FOR_869006a,table,,most columns ungrounded (median 0.00) though the page OCR found 93 multi-digit numbers
 1961_Bengal_CLASSIFIED_BY_SEX_AND_BROAD_AGE-GROUPS-_40dd048,col,Section 1 | X Non-workers | females,ungrounded (0.00 vs best columns 1.00)
 1961_Bengal_CLASSIFIED_BY_SEX_AND_BROAD_AGE-GROUPS-_40dd048,col,Section 2 | X Non-workers | females,ungrounded (0.00 vs best columns 1.00)
-1961_Bengal_CLASSIFIED_BY_SEX_AND_BROAD_AGE-GROUPS-_40dd048,col,Section 7 | X Non-workers | females,ungrounded (0.00 vs best columns 1.00)
 1961_Bengal_CLASSIFIED_BY_SEX_AND_BROAD_AGE-GROUPS-_40dd048,col,Section 8 | X Non-workers | males,ungrounded (0.00 vs best columns 1.00)
 1931_Bombay_SUBSIDIARY_TABLE_IV._Proportion_of_femal_4b18574,col,KONKAN. | All Religions | Widowed,ungrounded (0.14 vs best columns 0.86)
 1901_Shimoga_District_Shimoga_District._52a1466,table,,most columns ungrounded (median 0.08) though the page OCR found 105 multi-digit numbers
@@ -859,7 +856,7 @@ None_Delhi_Province_Figures_for_persons_who_returned_as_divo_216c0dd,table,,most
 1911_Bombay_TABLE_VII-continued._AGE_SEX_AND_CIVIL_f4d56bd,col,Cities-Bombay. A.-All Religions. | WIDOWED | females,ungrounded (0.12 vs best columns 0.60)
 1901_Berar_SUBSIDIARY_TABLE_III._Showing_the_number_46a4a00,table,,most columns ungrounded (median 0.00) though the page OCR found 95 multi-digit numbers
 None_Chitaldurg_SUPPLEMENTARY_TABLE_C._Caste_c._by_Ci_4b87a25,table,,most columns ungrounded (median 0.30) though the page OCR found 16 multi-digit numbers
-1901_Ajmer-Merwara_SUBSIDIARY_TABLE_III._Age_distribution_o_0c8f503,table,,most columns ungrounded (median 0.25) though the page OCR found 92 multi-digit numbers
+1901_Ajmer-Merwara_SUBSIDIARY_TABLE_III._Age_distribution_o_0c8f503,table,,most columns ungrounded (median 0.21) though the page OCR found 92 multi-digit numbers
 1901_Jammu_and_Kashmir_Subsidiary_Table_VI._Proportion_of_the_s_b8537fb,table,,most columns ungrounded (median 0.00) though the page OCR found 64 multi-digit numbers
 1881_Assam_Conjugal_Conditions_discussed_according_e851def,table,,most columns ungrounded (median 0.17) though the page OCR found 73 multi-digit numbers
 1901_Kolar_Gold_Fields_Kolar_Gold_Fields._da98303,table,,most columns ungrounded (median 0.19) though the page OCR found 65 multi-digit numbers
@@ -945,10 +942,11 @@ None_Chitaldurg_SUPPLEMENTARY_TABLE_E._Caste_c._by_Ci_28dd3fa,table,,most column
 1911_Bombay_Table_IX._Education_by_Religion_and_Age._0051995,col,Animistic. | Illiterate | males,ungrounded (0.05 vs best columns 0.52)
 1911_Bombay_Table_IX._Education_by_Religion_and_Age._0051995,col,Animistic. | Illiterate | females,ungrounded (0.10 vs best columns 0.52)
 1931_Gulbarga_City_TABLE_XIII._Literacy_by_Religion_and_Age_a2c4d5d,table,,most columns ungrounded (median 0.00) though the page OCR found 81 multi-digit numbers
-1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,I.-THE SUBMONTANE AND SEMI-MOUNTAINOUS TRACT. | 0-10 | Unmarried,ungrounded (0.00 vs best columns 0.80)
-1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,II.-THE OUTER HILLS. | 0-10 | Widowed,ungrounded (0.00 vs best columns 0.80)
-1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,III.-THE JHELUM VALLEY (KASHMIR PROVINCE). | 15-40 | Married,ungrounded (0.00 vs best columns 0.80)
-1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,III.-THE JHELUM VALLEY (KASHMIR PROVINCE). | 40 and over | Unmarried,ungrounded (0.00 vs best columns 0.80)
+1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,KASHMIR STATE. | 15-40 | Widowed,ungrounded (0.00 vs best columns 0.75)
+1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,I.-THE SUBMONTANE AND SEMI-MOUNTAINOUS TRACT. | 0-10 | Unmarried,ungrounded (0.00 vs best columns 0.75)
+1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,II.-THE OUTER HILLS. | 0-10 | Widowed,ungrounded (0.00 vs best columns 0.75)
+1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,III.-THE JHELUM VALLEY (KASHMIR PROVINCE). | 15-40 | Married,ungrounded (0.00 vs best columns 0.75)
+1921_Jammu_and_Kashmir_SUBSIDIARY_TABLE_IV.-PROPORTION_OF_THE_S_eca312e,col,III.-THE JHELUM VALLEY (KASHMIR PROVINCE). | 40 and over | Unmarried,ungrounded (0.00 vs best columns 0.75)
 1931_Northern_Division_TABLE_VII-Age_Sex_and_Civil_Condition-P_a2335a5,table,,most columns ungrounded (median 0.13) though the page OCR found 273 multi-digit numbers
 1901_Kolar_District-Brahman_Males_II_-_Statement_showing_unadjusted_an_2aea8d7,row,Kolar District-Brahman Males | 0,frozen (value 2916 in 5/5)
 None_Shahpur_District_AGE_CIVIL_CONDITION_BY_RELIGION_._PART_f61281c,col,ALL RELIGIONS | POPULATION | females,ungrounded (0.09 vs best columns 0.50)

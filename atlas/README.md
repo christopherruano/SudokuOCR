@@ -380,6 +380,52 @@ in `atlas/`; every decision is in `out/column_fix_log.csv`.
     found missing labels (cells with no sex or district marker where the print has several
     candidates) and tables whose published scans lack a facing page.
 
+17. **Second, independent reading of every original table** (`second_reading.py`,
+    `adjudicate_cells.py`, `out/second_reading/`). The 2,353 published tables still carrying their
+    first transcription (868,041 cells) were read again by Gemini 3.8 Flash and Gemini 3.1 Pro.
+    Each model was given the table's scans and its exact layout (sections, columns, row labels)
+    and filled in every cell without seeing the published values. 2,347 tables got both readings;
+    the rest repeatedly returned cut-off output from Pro and keep their published values. Of the
+    801,437 cells read by both models, both match the published value in 90.8%. In 26,845 cells
+    the two readers agree on a different value.
+
+    Two models agreeing with each other is not, on its own, evidence that the published value is
+    wrong. Claude reviewers checked a calibration sample of 100 such cells blind against the scan
+    (`review/`), shown both values in random order:
+
+    | stratum | new value printed | published value printed | neither or unreadable |
+    |---|---|---|---|
+    | printed totals hold with the new value, not the published one | 19 | 0 | 1 |
+    | printed totals hold with the published value, not the new one | 6 | 11 | 3 |
+    | no printed totals decide | 37 | 18 | 5 |
+
+    Correction rule, chosen from that sample:
+    - **Change by the totals:** change the cell when the table's totals (Total row or column,
+      a 100/1,000/10,000 base, Persons = Males + Females) hold with the new value and not the
+      published one.
+    - **Change by agreement:** where no totals decide, change the cell only when three further
+      checks also give the new value: a third model (Gemini 3.7 Flash, blind, reading that one
+      cell), and Gemini 3.1 Pro shown both candidates unlabelled. On the calibration sample this
+      combination was right in 22 of 27 cells (81%), against 19% for keeping the published value.
+    - **Never change** a cell where the totals hold with the published value.
+    - **Leave whole tables alone** where the readers differ on more than 20% of cells (70 tables;
+      the layout was probably read differently).
+
+    Result: **7,205 cells changed** (352 by the totals, 6,853 by agreement) in 929 tables.
+
+    Where the fixes are kept, and how many were held back:
+    - **Fix overlay:** `sendout_v1/cell_fixes.csv` holds fact_id, old value, new value and
+      evidence. Every changed table's review note says how many cells were corrected.
+    - **Excluded by hand:** 4 accepted fixes were held back (`excluded_fixes.txt`). Three would
+      have made a Travancore column look frozen. The fourth, Rewa (Bhopal 1931), the earlier
+      Claude-reviewed audit shows was printed 5,280, confirmed by the page's own sum.
+    - **Disputed but unchanged:** the 19,636 cells an independent reading questions but that
+      were not changed are listed with both values in `sendout_v1/disputed_cells.csv`.
+
+    On the 400-cell audit sample (item 16), the second reading changed 3 cells. Two were audit
+    errors and are now right; the third was the excluded Rewa cell. So the measured rate on the
+    audited sample rises from 379 to 381 of 391 cells.
+
 Originals are never overwritten. Corrections go to the overlay files in `sendout_v1/`
 (`corrected_facts.csv`, `corrected_tables.json`, `column_fix_overlay.json`), and the
 pre-correction facts of every changed table are kept in

@@ -315,7 +315,7 @@ def call(client, **kw):
             m = str(e)
             if "429" in m or "RESOURCE_EXHAUSTED" in m:
                 with _cool_lock:
-                    _cool["until"] = max(_cool["until"], time.time() + 45)
+                    _cool["until"] = max(_cool["until"], time.time() + 45); _cool["n429"] = _cool.get("n429", 0) + 1
             else:
                 time.sleep(min(30, 2 ** attempt))
             last = m

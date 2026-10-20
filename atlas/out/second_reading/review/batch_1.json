@@ -1,0 +1,1157 @@
+[
+ {
+  "n": 2,
+  "title": "SEX AND AGE CONSTITUTION.",
+  "year": 1921,
+  "place": "North-West Frontier Province",
+  "section": "Proportion per 10,000.",
+  "row": "40-50",
+  "row_position": "5 of 8 in this section",
+  "column": "males",
+  "column_position": "1 of 2",
+  "row_labels_in_section": [
+   "0-10",
+   "10-20",
+   "20-30",
+   "30-40",
+   "40-50",
+   "50-60",
+   "60-70",
+   "70 and over"
+  ],
+  "columns_in_section": [
+   "males",
+   "females"
+  ],
+  "candidates": [
+   "810",
+   "910"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25430163_p120.jpg"
+  ]
+ },
+ {
+  "n": 6,
+  "title": "Table VIII. Civil Condition by Religion and Age.",
+  "year": 1911,
+  "place": "India",
+  "section": "Total Population. MARRIED.",
+  "row": "Row 17",
+  "row_position": "20 of 34 in this section",
+  "column": "45 - 49 / females",
+  "column_position": "10 of 16",
+  "row_labels_in_section": [
+   "Row 14",
+   "Row 15",
+   "Row 16",
+   "Subtotal 3",
+   "Row 17",
+   "Row 18",
+   "Row 19",
+   "Subtotal 4",
+   "Total 1"
+  ],
+  "columns_in_section": [
+   "25 - 29 / males",
+   "25 - 29 / females",
+   "30 - 34 / males",
+   "30 - 34 / females",
+   "35 - 39 / males",
+   "35 - 39 / females",
+   "40 - 44 / males",
+   "40 - 44 / females",
+   "45 - 49 / males",
+   "45 - 49 / females",
+   "50 - 54 / males",
+   "50 - 54 / females",
+   "55 - 59 / males",
+   "55 - 59 / females",
+   "60 and over / males",
+   "60 and over / females"
+  ],
+  "candidates": [
+   "7799",
+   "7709"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/68a3d70d078055030a6bd60bbeb63ebd16c3030d.jpg"
+  ]
+ },
+ {
+  "n": 10,
+  "title": "TABLE XV. Occupations. V.-Agriculture (concld) VI.-Personal, Household and Sanitary Services.",
+  "year": 1911,
+  "place": "Baroda",
+  "section": "TABLE XV. Occupations.",
+  "row": "Row 30",
+  "row_position": "30 of 33 in this section",
+  "column": "Navsari Division / actual_workers_total_males",
+  "column_position": "6 of 20",
+  "row_labels_in_section": [
+   "Row 26",
+   "Total 6",
+   "Row 28",
+   "Row 29",
+   "Row 30",
+   "Row 31",
+   "Total 7",
+   "Total"
+  ],
+  "columns_in_section": [
+   "Kadi Division / actual_workers_total_males",
+   "Kadi Division / actual_workers_total_females",
+   "Kadi Division / actual_workers_partially_agriculturists_males",
+   "Kadi Division / actual_workers_partially_agriculturists_females",
+   "Kadi Division / dependents_both_sexes",
+   "Navsari Division / actual_workers_total_males",
+   "Navsari Division / actual_workers_total_females",
+   "Navsari Division / actual_workers_partially_agriculturists_males",
+   "Navsari Division / actual_workers_partially_agriculturists_females",
+   "Navsari Division / dependents_both_sexes",
+   "Baroda Division excluding city / actual_workers_total_males",
+   "Baroda Division excluding city / actual_workers_total_females",
+   "Baroda Division excluding city / actual_workers_partially_agriculturists_males",
+   "Baroda Division excluding city / actual_workers_partially_agriculturists_females",
+   "Baroda Division excluding city / dependents_both_sexes",
+   "Baroda city including cantonment / actual_workers_total_males",
+   "Baroda city including cantonment / actual_workers_total_females",
+   "Baroda city including cantonment / actual_workers_partially_agriculturists_males",
+   "Baroda city including cantonment / actual_workers_partially_agriculturists_females",
+   "Baroda city including cantonment / dependents_both_sexes"
+  ],
+  "candidates": [
+   "285",
+   "283"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f5804891faf3351647535473dc3683b579f16ec7.jpg"
+  ]
+ },
+ {
+  "n": 14,
+  "title": "TABLE XV - Part A. Occupation or Means of Livelihood.",
+  "year": 1931,
+  "place": "Mysore",
+  "section": "TABLE XV - Part A. Occupation or Means of Livelihood.",
+  "row": "96",
+  "row_position": "3 of 37 in this section",
+  "column": "Chitaldrug District - Actual Workers - Total / males",
+  "column_position": "5 of 15",
+  "row_labels_in_section": [
+   "94",
+   "95",
+   "96",
+   "97",
+   "98",
+   "99",
+   "100"
+  ],
+  "columns_in_section": [
+   "Workers - Partially agriculturist / males",
+   "Workers - Partially agriculturist / females",
+   "Dependants / persons",
+   "Chitaldrug District - Total Workers and Dependants / persons",
+   "Chitaldrug District - Actual Workers - Total / males",
+   "Chitaldrug District - Actual Workers - Total / females",
+   "Chitaldrug District - Actual Workers - Partially agriculturist / males",
+   "Chitaldrug District - Actual Workers - Partially agriculturist / females",
+   "Chitaldrug District - Dependants / persons",
+   "Western Division - Total Workers and Dependants / persons",
+   "Western Division - Actual Workers - Total / males",
+   "Western Division - Actual Workers - Total / females",
+   "Western Division - Actual Workers - Partially agriculturist / males",
+   "Western Division - Actual Workers - Partially agriculturist / females",
+   "Western Division - Dependants / persons"
+  ],
+  "candidates": [
+   "309",
+   "809"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/d14a62a20833f43eb8b3cb8bcac78722585024ad.jpg"
+  ]
+ },
+ {
+  "n": 18,
+  "title": "TALE C-III Age and",
+  "year": null,
+  "place": "Punjab",
+  "section": "TALE C-III Age and",
+  "row": "Urban",
+  "row_position": "3 of 12 in this section",
+  "column": "Widowed or divorced / males",
+  "column_position": "7 of 8",
+  "row_labels_in_section": [
+   "PUNJAB POPULATION SUB-ZONE. TOTAL",
+   "Rural",
+   "Urban",
+   "PUNJAB. TOTAL",
+   "1.13 HIMALAYAN PUNJAB DIVISION. TOTAL",
+   "Simla. Total",
+   "Kangra. Total"
+  ],
+  "columns_in_section": [
+   "Total / males",
+   "Total / females",
+   "Unmarried / males",
+   "Unmarried / females",
+   "Married / males",
+   "Married / females",
+   "Widowed or divorced / males",
+   "Widowed or divorced / females"
+  ],
+  "candidates": [
+   "32",
+   "1178"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/8039ac94e2dc00796ee4df3fdbd0c34d4ccd3bf4.jpg"
+  ]
+ },
+ {
+  "n": 22,
+  "title": "TABLE XVII. Occupations by Age. Part (A) - Native States - continued.",
+  "year": 1901,
+  "place": "Travancore",
+  "section": "TOWN.",
+  "row": "40. Manure preparers and sellers",
+  "row_position": "17 of 24 in this section",
+  "column": "TOTAL / 5-14",
+  "column_position": "3 of 15",
+  "row_labels_in_section": [
+   "36. Betel-vine and areca-nut growers",
+   "37. Cardamom and pepper growers",
+   "38. Market gardeners (vegetable growers)",
+   "39. Gardeners, seedsmen, and c",
+   "40. Manure preparers and sellers",
+   "41. Forest officers",
+   "42. Forest rangers, guards, peons",
+   "Total Sub-order 12",
+   "43. Agents and managers of landed estates (not planters)"
+  ],
+  "columns_in_section": [
+   "TOTAL / Total",
+   "TOTAL / 0-4",
+   "TOTAL / 5-14",
+   "TOTAL / 15 and over",
+   "TOTAL / Not stated",
+   "MALES / Total",
+   "MALES / 0-4",
+   "MALES / 5-14",
+   "MALES / 15 and over",
+   "MALES / Not stated",
+   "FEMALES / Total",
+   "FEMALES / 0-4",
+   "FEMALES / 5-14",
+   "FEMALES / 15 and over",
+   "FEMALES / Not stated"
+  ],
+  "candidates": [
+   "0",
+   "1"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/fc39d3151219f699069e92540aa13e792f9b8a71.jpg"
+  ]
+ },
+ {
+  "n": 26,
+  "title": "COMPARATIVE TABLE VIII.\u2014AGE\u2014DISTRIBUTION for 10,000 persons. NATURAL DIVISIONS.",
+  "year": 1891,
+  "place": "Bengal, Bihar, Orissa, Chutia Nagpur",
+  "section": "MUSALMANS. / ANIMISTICS.",
+  "row": "5-9",
+  "row_position": "7 of 19 in this section",
+  "column": "CHUTIA NAGPUR / males",
+  "column_position": "13 of 14",
+  "row_labels_in_section": [
+   "2",
+   "3",
+   "4",
+   "Total under 5",
+   "5-9",
+   "10-14",
+   "15-19",
+   "20-24",
+   "25-29"
+  ],
+  "columns_in_section": [
+   "NORTHERN BENGAL / males",
+   "NORTHERN BENGAL / females",
+   "EASTERN BENGAL / males",
+   "EASTERN BENGAL / females",
+   "WESTERN BENGAL / males",
+   "WESTERN BENGAL / females",
+   "NORTH BIHAR / males",
+   "NORTH BIHAR / females",
+   "SOUTH BIHAR / males",
+   "SOUTH BIHAR / females",
+   "ORISSA / males",
+   "ORISSA / females",
+   "CHUTIA NAGPUR / males",
+   "CHUTIA NAGPUR / females"
+  ],
+  "candidates": [
+   "1855",
+   "1865"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/98ad2c7ee36c6a75bca969bf708d14d5e7540cbc.jpg"
+  ]
+ },
+ {
+  "n": 30,
+  "title": "SUBSIDIARY TABLE VI. Proportion who are married and widowed at certain ages.",
+  "year": 1921,
+  "place": "India",
+  "section": "Hindu.",
+  "row": "Punjab",
+  "row_position": "13 of 23 in this section",
+  "column": "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Females / 1921",
+  "column_position": "16 of 20",
+  "row_labels_in_section": [
+   "Coorg",
+   "Madras",
+   "N.-W. F. Province",
+   "Delhi",
+   "Punjab",
+   "United Provinces",
+   "Baroda State",
+   "Central India (Agency)",
+   "Gwalior State"
+  ],
+  "columns_in_section": [
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Males / 1921",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Males / 1911",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Males / 1901",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Males / 1891",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Males / 1881",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Females / 1921",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Females / 1911",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Females / 1901",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Females / 1891",
+   "NUMBER PER 1,000 AGED 0-10 WHO ARE MARRIED. Females / 1881",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Males / 1921",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Males / 1911",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Males / 1901",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Males / 1891",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Males / 1881",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Females / 1921",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Females / 1911",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Females / 1901",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Females / 1891",
+   "NUMBER PER 1,000 AGED 15-40 WHO ARE WIDOWED. Females / 1881"
+  ],
+  "candidates": [
+   "98",
+   "0"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25394120_p220.jpg"
+  ]
+ },
+ {
+  "n": 34,
+  "title": "SUBSIDIARY TABLE I. Distribution of the infirm by age per 10,000 of each sex.",
+  "year": 1921,
+  "place": "India",
+  "section": "Distribution of the infirm by age per 10,000 of each sex.",
+  "row": "35-40",
+  "row_position": "9 of 14 in this section",
+  "column": "LEPERS - Females / 1921",
+  "column_position": "36 of 40",
+  "row_labels_in_section": [
+   "15-20",
+   "20-25",
+   "25-30",
+   "30-35",
+   "35-40",
+   "40-45",
+   "45-50",
+   "50-55",
+   "55-60"
+  ],
+  "columns_in_section": [
+   "INSANE - Males / 1921",
+   "INSANE - Males / 1911",
+   "INSANE - Males / 1901",
+   "INSANE - Males / 1891",
+   "INSANE - Males / 1881",
+   "INSANE - Females / 1921",
+   "INSANE - Females / 1911",
+   "INSANE - Females / 1901",
+   "INSANE - Females / 1891",
+   "INSANE - Females / 1881",
+   "DEAF-MUTES - Males / 1921",
+   "DEAF-MUTES - Males / 1911",
+   "DEAF-MUTES - Males / 1901",
+   "DEAF-MUTES - Males / 1891",
+   "DEAF-MUTES - Males / 1881",
+   "DEAF-MUTES - Females / 1921",
+   "DEAF-MUTES - Females / 1911",
+   "DEAF-MUTES - Females / 1901",
+   "DEAF-MUTES - Females / 1891",
+   "DEAF-MUTES - Females / 1881",
+   "BLIND - Males / 1921",
+   "BLIND - Males / 1911",
+   "BLIND - Males / 1901",
+   "BLIND - Males / 1891",
+   "BLIND - Males / 1881",
+   "BLIND - Females / 1921",
+   "BLIND - Females / 1911",
+   "BLIND - Females / 1901",
+   "BLIND - Females / 1891",
+   "BLIND - Females / 1881",
+   "LEPERS - Males / 1921",
+   "LEPERS - Males / 1911",
+   "LEPERS - Males / 1901",
+   "LEPERS - Males / 1891",
+   "LEPERS - Males / 1881",
+   "LEPERS - Females / 1921",
+   "LEPERS - Females / 1911",
+   "LEPERS - Females / 1901",
+   "LEPERS - Females / 1891",
+   "LEPERS - Females / 1881"
+  ],
+  "candidates": [
+   "999",
+   "990"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/0c141d4cdcc46e57df56171d9ffb1aa48bb73b7b.jpg"
+  ]
+ },
+ {
+  "n": 38,
+  "title": "TABLE C-III Civil Condition (Age and Civil Condition)",
+  "year": 1951,
+  "place": "Punjab",
+  "section": "Civil Condition - Concld. TABLE C-III",
+  "row": "Block 10 Total",
+  "row_position": "4 of 12 in this section",
+  "column": "Age Not Stated Total / males",
+  "column_position": "3 of 8",
+  "row_labels_in_section": [
+   "Block 10 Total",
+   "Block 10 Sub 1",
+   "Block 10 Sub 2",
+   "Block 10 Total",
+   "Block 10 Sub 1",
+   "Block 10 Sub 2",
+   "Block 10 Total",
+   "Block 10 Sub 1"
+  ],
+  "columns_in_section": [
+   "Age Not Stated Married / males",
+   "Age Not Stated Married / females",
+   "Age Not Stated Total / males",
+   "Age Not Stated Total / females",
+   "Age Not Stated Unmarried / males",
+   "Age Not Stated Unmarried / females",
+   "Age Not Stated Widowed Or Divorced / males",
+   "Age Not Stated Widowed Or Divorced / females"
+  ],
+  "candidates": [
+   "259",
+   "16"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/ecd14dbc732b260610752a52823bda6ec2ab235e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/de1ba73f0f9752aef8c85bbc4fca9e5e1c809569.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/29c5f52bcc63824619095611d674cbe23d55c2f7.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a4f4e1a7c33469d2125d0f0d85115b4cb4121462.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/386ff45e0e25b28632838419b3e10e6416341812.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/3b6680e8eb1f59f0ea093c30fb18255838dff902.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/fe9c6fe0a27831ead98864c0a36f770b99f85b49.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/624269b2428c9e0d892bb8af46f79dc462bc6e17.jpg"
+  ]
+ },
+ {
+  "n": 42,
+  "title": "CHAPTER IV--AGE SUBSIDIARY TABLE X--contd.",
+  "year": 1931,
+  "place": "Bombay",
+  "section": "FEVERS.",
+  "row": "Poona",
+  "row_position": "7 of 19 in this section",
+  "column": "1929 / females",
+  "column_position": "8 of 10",
+  "row_labels_in_section": [
+   "Ahmednagar",
+   "Khandesh, East",
+   "Khandesh, West",
+   "Nasik",
+   "Poona",
+   "Satara",
+   "Sholapur",
+   "Belgaum",
+   "Bijapur"
+  ],
+  "columns_in_section": [
+   "1926 / males",
+   "1926 / females",
+   "1927 / males",
+   "1927 / females",
+   "1928 / males",
+   "1928 / females",
+   "1929 / males",
+   "1929 / females",
+   "1930 / males",
+   "1930 / females"
+  ],
+  "candidates": [
+   "302.5",
+   "392.5"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/25793239_p201.jpg"
+  ]
+ },
+ {
+  "n": 46,
+  "title": "SUBSIDIARY TABLE I. Age distribution of 10,000 of each sex in India and the main provinces.",
+  "year": 1921,
+  "place": "Punjab",
+  "section": "BOMBAY.",
+  "row": "25-30",
+  "row_position": "12 of 22 in this section",
+  "column": "1891 / females",
+  "column_position": "8 of 10",
+  "row_labels_in_section": [
+   "5-10",
+   "10-15",
+   "15-20",
+   "20-25",
+   "25-30",
+   "30-35",
+   "35-40",
+   "40-45",
+   "45-50"
+  ],
+  "columns_in_section": [
+   "1921 / males",
+   "1921 / females",
+   "1911 / males",
+   "1911 / females",
+   "1901 / males",
+   "1901 / females",
+   "1891 / males",
+   "1891 / females",
+   "1881 / males",
+   "1881 / females"
+  ],
+  "candidates": [
+   "952",
+   "932"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/23e9c8bd8b480e27c5a41036e73adf0ee402ddfa.jpg"
+  ]
+ },
+ {
+  "n": 50,
+  "title": "Part (B).- / Part (C).-",
+  "year": 1891,
+  "place": "Bombay",
+  "section": "Part (C).-",
+  "row": "Row 23",
+  "row_position": "24 of 30 in this section",
+  "column": "30 - 34 / females",
+  "column_position": "8 of 8",
+  "row_labels_in_section": [
+   "Total 1",
+   "Row 20",
+   "Row 21",
+   "Row 22",
+   "Row 23",
+   "Row 24",
+   "Total 2",
+   "Total 3",
+   "Total 4"
+  ],
+  "columns_in_section": [
+   "15 - 19 / males",
+   "15 - 19 / females",
+   "20 - 24 / males",
+   "20 - 24 / females",
+   "25 - 29 / males",
+   "25 - 29 / females",
+   "30 - 34 / males",
+   "30 - 34 / females"
+  ],
+  "candidates": [
+   "6845",
+   "6851"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a62f02c348dc264f330748b72e51c18b9d307aa8.jpg"
+  ]
+ },
+ {
+  "n": 54,
+  "title": "by Religion.\u2014(B. District figures)\u2014(continued).",
+  "year": 1911,
+  "place": "United Provinces",
+  "section": "by Religion.\u2014(B. District figures)\u2014(continued).",
+  "row": "4",
+  "row_position": "8 of 66 in this section",
+  "column": "60 and over / females",
+  "column_position": "12 of 13",
+  "row_labels_in_section": [
+   "Total 4",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "Total 5",
+   "6",
+   "7"
+  ],
+  "columns_in_section": [
+   "15\u201420 / males",
+   "15\u201420 / females",
+   "20\u201430 / males",
+   "20\u201430 / females",
+   "30\u201440 / males",
+   "30\u201440 / females",
+   "40\u201450 / males",
+   "40\u201450 / females",
+   "50\u201460 / males",
+   "50\u201460 / females",
+   "60 and over / males",
+   "60 and over / females",
+   "Serial num-ber"
+  ],
+  "candidates": [
+   "8694",
+   "8094"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/840f8d6666c95f5e02e72e30fce6083db3395f60.jpg"
+  ]
+ },
+ {
+  "n": 58,
+  "title": "TABLE No. VII.-continued. Showing the Ages of the Population (Kabirpanthi Religion)-continued.",
+  "year": 1891,
+  "place": "Central Provinces and Berar",
+  "section": "TABLE No. VII.-continued. Showing the Ages of the Population (Kabirpanthi Religion)-continued.",
+  "row": "Jubbulpore",
+  "row_position": "7 of 25 in this section",
+  "column": "Total all ages / females",
+  "column_position": "16 of 22",
+  "row_labels_in_section": [
+   "Chanda",
+   "Wardha",
+   "Balaghat",
+   "Total Nagpur Division",
+   "Jubbulpore",
+   "Saugor",
+   "Damoh",
+   "Seoni",
+   "Mandla"
+  ],
+  "columns_in_section": [
+   "35-39 / males",
+   "35-39 / females",
+   "40-44 / males",
+   "40-44 / females",
+   "45-49 / males",
+   "45-49 / females",
+   "50-54 / males",
+   "50-54 / females",
+   "55-59 / males",
+   "55-59 / females",
+   "60 and Upwards / males",
+   "60 and Upwards / females",
+   "Age Unspecified / males",
+   "Age Unspecified / females",
+   "Total all ages / males",
+   "Total all ages / females",
+   "5 last birthday / males",
+   "5 last birthday / females",
+   "6-11 / males",
+   "6-11 / females",
+   "12-19 / males",
+   "12-19 / females"
+  ],
+  "candidates": [
+   "5863",
+   "5803"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/ed5cd48077d116f87d8e48764d477a5da4e881d4.jpg"
+  ]
+ },
+ {
+  "n": 62,
+  "title": "No. 17. BY AGES AND SECTIONS.",
+  "year": 1872,
+  "place": "Bombay",
+  "section": "No. 17. BY AGES AND SECTIONS.",
+  "row": "Mahaluxmee. - Males",
+  "row_position": "39 of 68 in this section",
+  "column": "55 to 60 Years / males",
+  "column_position": "11 of 28",
+  "row_labels_in_section": [
+   "Chaopatee. - Males",
+   "Chaopatee. - Females",
+   "Walkeshwur. - Males",
+   "Walkeshwur. - Females",
+   "Mahaluxmee. - Males",
+   "Mahaluxmee. - Females",
+   "Mazagon. - Males",
+   "Mazagon. - Females",
+   "Tarwaree. - Males"
+  ],
+  "columns_in_section": [
+   "10 to 12 Years / males",
+   "12 to 15 Years / males",
+   "15 to 20 Years / males",
+   "20 to 25 Years / males",
+   "25 to 30 Years / males",
+   "30 to 35 Years / males",
+   "35 to 40 Years / males",
+   "40 to 45 Years / males",
+   "45 to 50 Years / males",
+   "50 to 55 Years / males",
+   "55 to 60 Years / males",
+   "60 to 70 Years / males",
+   "70 to 80 Years / males",
+   "Over 80 Years / males",
+   "10 to 12 Years / females",
+   "12 to 15 Years / females",
+   "15 to 20 Years / females",
+   "20 to 25 Years / females",
+   "25 to 30 Years / females",
+   "30 to 35 Years / females",
+   "35 to 40 Years / females",
+   "40 to 45 Years / females",
+   "45 to 50 Years / females",
+   "50 to 55 Years / females",
+   "55 to 60 Years / females",
+   "60 to 70 Years / females",
+   "70 to 80 Years / females",
+   "Over 80 Years / females"
+  ],
+  "candidates": [
+   "1",
+   "0"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/b00d9a0ffd5427c29bb1c78b37f9fc1c2674abd8.jpg"
+  ]
+ },
+ {
+  "n": 66,
+  "title": "Table VII. - Part D. - Jain - Rajputana Agency.",
+  "year": null,
+  "place": "Rajputana Agency",
+  "section": "Table VII. - Part D. - Jain - Rajputana Agency.",
+  "row": "KISHANGARH",
+  "row_position": "11 of 26 in this section",
+  "column": "40-44 / females",
+  "column_position": "12 of 20",
+  "row_labels_in_section": [
+   "SIROHI AND ABU",
+   "JESUEMIR",
+   "BIKANIR",
+   "JEYPORE",
+   "KISHANGARH",
+   "LAWA",
+   "BHARATPUR",
+   "KEROWLI",
+   "DHOLPUR"
+  ],
+  "columns_in_section": [
+   "15-19 / males",
+   "15-19 / females",
+   "20-24 / males",
+   "20-24 / females",
+   "25-29 / males",
+   "25-29 / females",
+   "30-34 / males",
+   "30-34 / females",
+   "35-39 / males",
+   "35-39 / females",
+   "40-44 / males",
+   "40-44 / females",
+   "45-49 / males",
+   "45-49 / females",
+   "50-54 / males",
+   "50-54 / females",
+   "55-59 / males",
+   "55-59 / females",
+   "60 AND OVER / males",
+   "60 AND OVER / females"
+  ],
+  "candidates": [
+   "260",
+   "200"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/87564684c50cf0604221ab0ab8f706a937ba8c52.jpg"
+  ]
+ },
+ {
+  "n": 70,
+  "title": "TABLE E. Caste, &c., by Civil condition and Age.",
+  "year": 1891,
+  "place": "Tumkur",
+  "section": "Supplementary Table E",
+  "row": "Mar\u00e1ta",
+  "row_position": "7 of 35 in this section",
+  "column": "All Ages / Widowed",
+  "column_position": "4 of 5",
+  "row_labels_in_section": [
+   "Kum\u00e1rapatt\u00e1",
+   "R\u00e1japind\u00e9",
+   "Kodaga (Coorgs)",
+   "R\u00e1jp\u00fat",
+   "Mar\u00e1ta",
+   "R\u00e1ch\u00e9v\u00e1r and Ranagara",
+   "Ling\u00e1yat, (Gauduman\u00e9, and c.)",
+   "N\u00e1yar",
+   "Pill\u00e8"
+  ],
+  "columns_in_section": [
+   "All Ages / Total",
+   "All Ages / Single",
+   "All Ages / Married",
+   "All Ages / Widowed",
+   "All Ages / Civil condition not stated"
+  ],
+  "candidates": [
+   "82",
+   "301"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/596152b6442c70e70590f02e729665320e626656.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/742c6afaf3654f4b34905da3d28c05bd79709939.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/40ec4a4773c63dd3c9042c4241d34ab713f06f8e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/593f1f6d97df0406bb59e395ac28be26016c30bf.jpg"
+  ]
+ },
+ {
+  "n": 74,
+  "title": "TABLE No. VI - Statement showing the Civil Condition and Age of the Population",
+  "year": 1881,
+  "place": "Central Provinces and Berar",
+  "section": "Christian \u00b7 TABLE No. VI.\u2014continued. Statement",
+  "row": "Balaghat",
+  "row_position": "5 of 23 in this section",
+  "column": "40 - 49 / females",
+  "column_position": "2 of 2",
+  "row_labels_in_section": [
+   "Nagpur",
+   "Bhandara",
+   "Chanda",
+   "Wardha",
+   "Balaghat",
+   "Total Nagpur Division",
+   "Jubbulpore",
+   "Saugor",
+   "Damoh"
+  ],
+  "columns_in_section": [
+   "40 - 49 / males",
+   "40 - 49 / females"
+  ],
+  "candidates": [
+   "0",
+   "3"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e40a0eb3fbae108b2d381909881b68fc9cada798.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/807dd1d0f68a5891967cc759b532d2704f51bf6e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/da1f52c252131dbc17edc468580dcdd1e4d91f94.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f3b5d7073ea22db2735af6b85da5d3a61304941c.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e41f881a7cd6d06b48d6924e659b390a084a6796.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/be0fb22048e8cec05636404aa5e7ffc6773dcde0.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a9437a89d23149ce46605cb35d8c8c7516177a1d.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f7cfb2addb0a944f54be30ef1ea4e99f4754a4d9.jpg"
+  ]
+ },
+ {
+  "n": 78,
+  "title": "TABLE No. VI - Statement showing the Civil Condition and Age of the Population",
+  "year": 1881,
+  "place": "Central Provinces and Berar",
+  "section": "Married.",
+  "row": "Bil\u00e1spur",
+  "row_position": "20 of 23 in this section",
+  "column": "25\u201429 / females",
+  "column_position": "2 of 2",
+  "row_labels_in_section": [
+   "Chhindw\u00e1r\u00e1",
+   "Nim\u00e1r",
+   "Total Nerbudda Division",
+   "R\u00e1ipur",
+   "Bil\u00e1spur",
+   "Sambalpur",
+   "Total Chhattisgarh Division",
+   "Grand Total Central Provinces"
+  ],
+  "columns_in_section": [
+   "25\u201429 / males",
+   "25\u201429 / females"
+  ],
+  "candidates": [
+   "2",
+   "0"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e40a0eb3fbae108b2d381909881b68fc9cada798.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/807dd1d0f68a5891967cc759b532d2704f51bf6e.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/da1f52c252131dbc17edc468580dcdd1e4d91f94.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f3b5d7073ea22db2735af6b85da5d3a61304941c.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/e41f881a7cd6d06b48d6924e659b390a084a6796.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/be0fb22048e8cec05636404aa5e7ffc6773dcde0.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/a9437a89d23149ce46605cb35d8c8c7516177a1d.jpg",
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f7cfb2addb0a944f54be30ef1ea4e99f4754a4d9.jpg"
+  ]
+ },
+ {
+  "n": 82,
+  "title": "FINAL CENSUS TABLE - No. VII. Statement showing for each Religion the Ages of the Population of the Madras Presidency - CHRISTIANS.",
+  "year": 1881,
+  "place": "Madras",
+  "section": "FINAL CENSUS TABLE - No. VII. Statement showing for each Religion the Ages of the Population of the Madras Presidency - CHRISTIANS.",
+  "row": "11. South Arcot",
+  "row_position": "11 of 29 in this section",
+  "column": "5--9 / males",
+  "column_position": "11 of 20",
+  "row_labels_in_section": [
+   "7. Kurnool",
+   "8. Bellary",
+   "9. Chingleput",
+   "10. North Arcot",
+   "11. South Arcot",
+   "12. Tanjore",
+   "13. Trichinopoly",
+   "14. Madura",
+   "15. Tinnevelly"
+  ],
+  "columns_in_section": [
+   "Under 1 / males",
+   "Under 1 / females",
+   "1- / males",
+   "1- / females",
+   "2- / males",
+   "2- / females",
+   "3- / males",
+   "3- / females",
+   "4- / males",
+   "4- / females",
+   "5--9 / males",
+   "5--9 / females",
+   "10--14 / males",
+   "10--14 / females",
+   "15- / males",
+   "15- / females",
+   "20- / males",
+   "20- / females",
+   "25- / males",
+   "25- / females"
+  ],
+  "candidates": [
+   "2809",
+   "2609"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/c6bac1c975f842cce7b106acb16860d5ff3679f5.jpg"
+  ]
+ },
+ {
+  "n": 86,
+  "title": "FOR SELECTED CASTES AND TRIBES-concluded.",
+  "year": 1911,
+  "place": "India",
+  "section": "FOR SELECTED CASTES AND TRIBES-concluded.",
+  "row": "1",
+  "row_position": "1 of 68 in this section",
+  "column": "Widowed / 15-20",
+  "column_position": "12 of 14",
+  "row_labels_in_section": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "columns_in_section": [
+   "Married / Total",
+   "Married / 0-5",
+   "Married / 5-12",
+   "Married / 12-15",
+   "Married / 15-20",
+   "Married / 20-40",
+   "Married / 40 and over",
+   "Widowed / Total",
+   "Widowed / 0-5",
+   "Widowed / 5-12",
+   "Widowed / 12-15",
+   "Widowed / 15-20",
+   "Widowed / 20-40",
+   "Widowed / 40 and over"
+  ],
+  "candidates": [
+   "23",
+   "28"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/18ced18e2622560ad93e38e925944986d8db6c91.jpg"
+  ]
+ },
+ {
+  "n": 90,
+  "title": "PROVINCIAL TABLE III.\u2014TOWNS, WITH POPULATION BY RELIGION AND AGE. PART B.\u2014HINDU\u2014continued.",
+  "year": 1911,
+  "place": "Assam",
+  "section": "PROVINCIAL TABLE III.\u2014TOWNS, WITH POPULATION BY RELIGION AND AGE. PART B.\u2014HINDU\u2014continued.",
+  "row": "Sylhet",
+  "row_position": "2 of 19 in this section",
+  "column": "50-54 / females",
+  "column_position": "16 of 20",
+  "row_labels_in_section": [
+   "Silchar",
+   "Sylhet",
+   "Habiganj",
+   "Sunamganj",
+   "Maulvi Bazar",
+   "Karimganj"
+  ],
+  "columns_in_section": [
+   "15-19 / males",
+   "15-19 / females",
+   "20-24 / males",
+   "20-24 / females",
+   "25-29 / males",
+   "25-29 / females",
+   "30-34 / males",
+   "30-34 / females",
+   "35-39 / males",
+   "35-39 / females",
+   "40-44 / males",
+   "40-44 / females",
+   "45-49 / males",
+   "45-49 / females",
+   "50-54 / males",
+   "50-54 / females",
+   "55-59 / males",
+   "55-59 / females",
+   "60 and over / males",
+   "60 and over / females"
+  ],
+  "candidates": [
+   "136",
+   "138"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/census_site/img/8babe7184f4bd37eab7ac90dd6bc1e9eba9dcc61.jpg"
+  ]
+ },
+ {
+  "n": 94,
+  "title": "Table VII.\u2014Ages by Religions.",
+  "year": 1891,
+  "place": "Berar",
+  "section": "Table VII.\u2014Ages by Religions.",
+  "row": "\u201e WUN",
+  "row_position": "5 of 29 in this section",
+  "column": "55-59 / females",
+  "column_position": "18 of 20",
+  "row_labels_in_section": [
+   "DISTRICT AMRAOTI",
+   "\u201e AKOLA",
+   "\u201e ELLICHPUR",
+   "\u201e BULDANA",
+   "\u201e WUN",
+   "\u201e BASIM",
+   "Total",
+   "AMRAOTI DISTRICT. Taluk Amraoti",
+   "\u201e Chandur"
+  ],
+  "columns_in_section": [
+   "15-19 / males",
+   "15-19 / females",
+   "20-24 / males",
+   "20-24 / females",
+   "25-29 / males",
+   "25-29 / females",
+   "30-34 / males",
+   "30-34 / females",
+   "35-39 / males",
+   "35-39 / females",
+   "40-44 / males",
+   "40-44 / females",
+   "45-49 / males",
+   "45-49 / females",
+   "50-54 / males",
+   "50-54 / females",
+   "55-59 / males",
+   "55-59 / females",
+   "60 AND OVER / males",
+   "60 AND OVER / females"
+  ],
+  "candidates": [
+   "0",
+   "13"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/7f298973423a5b7f0da1eeba00e1796afba8cf26.jpg"
+  ]
+ },
+ {
+  "n": 98,
+  "title": "Males and Females of different Ages in different Castes Vaccinated, Not Vaccinated, and Small-pox",
+  "year": 1871,
+  "place": "Parell Section",
+  "section": "Vaccinated",
+  "row": "Native Christian and Goanese",
+  "row_position": "11 of 15 in this section",
+  "column": "MALES / 40 to 50 years",
+  "column_position": "13 of 19",
+  "row_labels_in_section": [
+   "Mahomedan",
+   "Negro-African",
+   "Parsee",
+   "Jew",
+   "Native Christian and Goanese",
+   "Eurasian",
+   "European",
+   "Chinese",
+   "Total of all Castes"
+  ],
+  "columns_in_section": [
+   "MALES / 1 to 30 days",
+   "MALES / 1 to 6 months",
+   "MALES / 7 to 12 months",
+   "MALES / 1 to 2 years",
+   "MALES / 2 to 3 years",
+   "MALES / 3 to 4 years",
+   "MALES / 4 to 5 years",
+   "MALES / 5 to 6 years",
+   "MALES / 6 to 12 years",
+   "MALES / 12 to 20 years",
+   "MALES / 20 to 30 years",
+   "MALES / 30 to 40 years",
+   "MALES / 40 to 50 years",
+   "MALES / 50 to 60 years",
+   "MALES / 60 to 70 years",
+   "MALES / 70 to 80 years",
+   "MALES / 80 to 90 years",
+   "MALES / 90 years and upwards",
+   "Males of all Ages of all Castes in Parell Section"
+  ],
+  "candidates": [
+   "8",
+   "11"
+  ],
+  "images": [
+   "/Users/chrisruano/Research/SudokuOCR/atlas/out/native_scans/f2eee0609699797863bcef2eb24d4b03aea08a61.jpg"
+  ]
+ }
+]

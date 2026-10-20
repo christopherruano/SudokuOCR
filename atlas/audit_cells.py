@@ -20,7 +20,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import gemini_column_check as g
 
-AD = os.path.join(HERE, "out", "audit"); os.makedirs(AD, exist_ok=True)
+AD = os.path.join(HERE, "out", os.environ.get("AUDIT", "audit")); os.makedirs(AD, exist_ok=True)   # AUDIT=audit2 for a re-audit
+SEED = int(os.environ.get("AUDIT_SEED", 20261017))
 SITE = os.path.join(HERE, "..", "census_site")
 ADDED = os.path.join(HERE, "..", "export_final/sendout_final/sendout_v1/added_pages")
 MODELS = ["gemini-3.8-flash", "gemini-3.1-pro-preview"]
@@ -59,7 +60,7 @@ def sample(n):
         for fid, sec, r, gr, s, v in con.execute("select fact_id, section, row_label_std, column_group_std, sub_column_std, value "
                                                  "from facts where table_id=? and value is not null", (t,)):
             rows.append((t, fid, sec, r, gr, s, v))
-    rnd = random.Random(20261017)
+    rnd = random.Random(SEED)
     pick = rnd.sample(rows, n)
     with open(os.path.join(AD, "sample.jsonl"), "w") as f:
         for k, (t, fid, sec, r, gr, s, v) in enumerate(pick, 1):

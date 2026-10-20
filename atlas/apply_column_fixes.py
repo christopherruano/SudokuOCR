@@ -664,6 +664,8 @@ def patch_db(con, accepted, new_facts, images, notes, cleared=()):
         old = re.sub(r"\s*(Re-read after automated column check|Corrected after automated column check|Automated column check|Scan relinked) \(" + re.escape(TAG) + r"\)[^|]*", "", old).strip(" |")
         con.execute("update tables set review_note=? where table_id=?", ((old + " | " if old else "") + note, tid))
     con.commit()
+    import second_reading      # cell fixes from the second reading (sendout_v1/cell_fixes.csv; idempotent)
+    second_reading.apply_fixes(con)
 
 
 if __name__ == "__main__":

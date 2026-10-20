@@ -1,0 +1,25 @@
+{"n": 4, "printed": "5219", "choice": 0, "confidence": "high", "note": "Page header says INDORE (not Bhopal); 5219+6287+1310=12816 pop dealt with"}
+{"n": 8, "printed": "256", "choice": 0, "confidence": "high", "note": "300+191+297+303+256=1347 = 0-4 females"}
+{"n": 12, "printed": null, "choice": "cannot", "confidence": "low", "note": "First digit lost in scan (only \"?59\"/\"?58\" visible, last digit looks like 9); Hindus 1911 = 557 suggests ~558 but not readable"}
+{"n": 16, "printed": "2", "choice": 1, "confidence": "high", "note": "Not Vacc row: 2,1,3,1,1,2 sums to total 10"}
+{"n": 20, "printed": "26.6", "choice": 1, "confidence": "medium", "note": "Eastern Division (III-contd) page: Jain F mean age 26.6 years; printed column order Hindu..Others differs from listed order; the other page (Bangalore) has Jain F 25.7"}
+{"n": 24, "printed": "2", "choice": 1, "confidence": "high", "note": "Nat-worshipper F column 1,2,3,5,2,5,2,1 sums to total 21"}
+{"n": 28, "printed": "57", "choice": 1, "confidence": "high", "note": "Reads 57; consistent with total 33 and females 5"}
+{"n": 32, "printed": "5.5", "choice": 0, "confidence": "medium", "note": "Second digit open like 5, contrasts with clear 8 in Kurmi row below"}
+{"n": 36, "printed": "746", "choice": 1, "confidence": "high", "note": "Reads 746 (pen mark on last digit); row total 9783 and column total 10203 both imply 746"}
+{"n": 40, "printed": null, "choice": "cannot", "confidence": "low", "note": "Rows unlabeled; I count 49 printed rows (incl. subtotals) vs 46 stated, so row 26 is ambiguous. In my count row 26 is \"...\" (0), neighbors row 25=1, row 27=1, row 28=2 in 30-34 Male"}
+{"n": 44, "printed": "75326", "choice": 0, "confidence": "high", "note": "28059+6953+40314=75326"}
+{"n": 48, "printed": "789", "choice": 0, "confidence": "high", "note": "Last digit 9 (matches 9 glyph in 911); column sums to 10000 with 789"}
+{"n": 52, "printed": "693", "choice": 0, "confidence": "high", "note": "Last digit reads 3; column sums to 10000 with 896,603,693"}
+{"n": 56, "printed": "1290", "choice": 1, "confidence": "high", "note": "Kunbi (Marathi) Males under Dhobeetalao = 1290; 5075 is the adjacent Dongree column"}
+{"n": 60, "printed": "1", "choice": 0, "confidence": "medium", "note": "On the 1921 continuation page (p.288) Bhandara 5-10 Female = 1; on the 1931 page (p.287) it is 2. Which year the cell means is unclear"}
+{"n": 64, "printed": "895", "choice": 0, "confidence": "high", "note": "Faint middle digit looks like 9; district sum to Burdwan Div total 4763 requires 895"}
+{"n": 68, "printed": "885", "choice": 0, "confidence": "high", "note": "Jind 35-39 Males = 885; Eastern Plains column sums to 17302"}
+{"n": 72, "printed": "2", "choice": 0, "confidence": "high", "note": "Christian F col sums to 53 with 3- = 2"}
+{"n": 76, "printed": "2", "choice": 1, "confidence": "high", "note": "Colaba Upper Females 2-3 yrs = 2 (1-2 yrs also 2)"}
+{"n": 80, "printed": "0", "choice": 0, "confidence": "medium", "note": "Counted 35 rows (incl. totals) matching stated 35; row 31 is a dots row (0). 72 belongs to row 32 (178 total)"}
+{"n": 84, "printed": "0", "choice": 1, "confidence": "high", "note": "Mahim Females row, 60 to 70 Years column shows dots; the 1 is in Wurlee Males"}
+{"n": 88, "printed": "536", "choice": 0, "confidence": "high", "note": "Row 10-14 (7th) = 536; 530 is the next row (15-); column sums to 4059"}
+{"n": 92, "printed": "3", "choice": 0, "confidence": "medium", "note": "Bilin East (pop 318) last column = 3, education males 80; rows are tightly spaced on a rotated page"}
+{"n": 96, "printed": "10", "choice": 1, "confidence": "high", "note": "989+10+1=1000"}
+{"n": 100, "printed": "21", "choice": 0, "confidence": "high", "note": "Prome Municipality Christian M 15- = 21; column sums to 221"}

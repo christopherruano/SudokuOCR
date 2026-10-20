@@ -1,0 +1,25 @@
+{"n": 1, "printed": "15", "choice": 1, "confidence": "high", "note": "Col 18 (serial order re Col.4 rural pop on cultivated) Delhi row reads 15; 10 appears in Col.6/Col.8 columns"}
+{"n": 5, "printed": "0", "choice": 1, "confidence": "medium", "note": "Row 35 by count falls on a dots-only row (either the lone ... row or the 1,000 row); 5-14 Urban printed ...; 7 belongs to the 147 row below. Row counting slightly ambiguous"}
+{"n": 9, "printed": "0", "choice": 1, "confidence": "high", "note": "Bohras row 14 (p.183): 1 under 5 children, 1 under 8, total 2; col 9 is .."}
+{"n": 13, "printed": "0", "choice": 1, "confidence": "medium", "note": "Block after Total 1 has 5 printed rows (digitization lists 4); 45-49 females reads 25, ..., 1, ..., ... ; 2nd row (Row 21) is ...; 1 is on 3rd row"}
+{"n": 17, "printed": "18", "choice": 0, "confidence": "high", "note": "UP 5-10 decade avg females reads 18 (males also 18)"}
+{"n": 21, "printed": "1", "choice": 1, "confidence": "low", "note": "Section names Christian but not civil condition. Christian SINGLE page (p.22) Balaghat 20-24 males = 1; Christian MARRIED page (p.23) shows ... (0). Chose single page as start of Christian section; ambiguous"}
+{"n": 69, "printed": "0", "choice": 0, "confidence": "medium", "note": "Married pages: Christian, Budhist, Brahmo all show ... for Mandla 20-24 males (Budhist 2 is Jubbulpore row); Mahomedan married would be large. Religion not specified"}
+{"n": 25, "printed": "1098", "choice": 0, "confidence": "medium", "note": "Third digit smudged but looks 9; column sums to 10,000 with 1097-1098 (1068 would leave 29 short)"}
+{"n": 29, "printed": "24", "choice": 0, "confidence": "high", "note": "Jews males 15-20 married 1941 = 24; unmarried 976 + 24 = 1000"}
+{"n": 33, "printed": "169", "choice": 1, "confidence": "low", "note": "Low-res scan; last digit has rounded top and descending tail, more like 9 than 5, but uncertain"}
+{"n": 37, "printed": null, "choice": "cannot", "confidence": "low", "note": "Page has two Hindu sections: MARRIED Hindu 10-15 females 1931 = 461 (clear); WIDOWED Hindu 10-15 females 1931 = 11 (clear). Section label does not say which; both candidates are printed values"}
+{"n": 41, "printed": "44", "choice": 0, "confidence": "low", "note": "Both values printed: 44 = Total row 25-29 males on last page (p.43, small religion); 5306 = Animistic Total (p.35). Total row is mid-page in print, so cannot tell which page this merged row came from; chose last page since row is last in section"}
+{"n": 45, "printed": "30", "choice": 0, "confidence": "medium", "note": "Parsi row 8 (between 31 row and total 510) 5-9 males; second digit closed oval, unlike the 36 in 15-19 males on same row"}
+{"n": 49, "printed": "5681", "choice": 1, "confidence": "medium", "note": "Page has 15 total rows (3 top + 12 italic/bold subtotals); in page order the 14th is 5,681 in 3-4 males, the 15th is 416. Assumes Total N numbering follows page order"}
+{"n": 53, "printed": "0", "choice": 1, "confidence": "high", "note": "Bilin Township age 2- Mahomedan female is ...; the 1 is on the 3- row"}
+{"n": 57, "printed": "268661", "choice": 1, "confidence": "medium", "note": "4th digit glyph blurry (6 vs 8) but Single+Married+Widowed = 99904+116245+52512 = 268661"}
+{"n": 61, "printed": "2", "choice": 1, "confidence": "medium", "note": "Age 51 on several pages; 1-row Right Half section matches p.270 (Santal Parganas) where a rule line cuts through the last row 25/51: females 461 459 2. Singhbhum p.282 age 51 females urban = 45"}
+{"n": 65, "printed": null, "choice": "cannot", "confidence": "low", "note": "Two All Ages pages for Tumkur: p.124 (bold, likely males) Koracha married = 244 (total 487=200+244+43); p.128 (italic, likely females) Koracha married = 253 (485=178+253+54). Section label does not identify which page"}
+{"n": 73, "printed": "1", "choice": 1, "confidence": "high", "note": "Mahaluxmee males, 50-55 column reads 1 (followed by ... in 55-60 onward)"}
+{"n": 77, "printed": "13154", "choice": 0, "confidence": "medium", "note": "Third digit obscured by mark; widowed total 17,285 - (30+60+201+3,840) = 13,154 (row 31 sums exactly, confirming the identity)"}
+{"n": 81, "printed": "10979", "choice": 0, "confidence": "medium", "note": "Italic last digit ambiguous 9/0 visually; sub-rows 6+561+5658+4754 = 10979 and 10979+23938+192+14 = 35123 total"}
+{"n": 85, "printed": "0", "choice": 0, "confidence": "high", "note": "Serial 73: widowed total 3, 20-40 is ..., 40 and over 3"}
+{"n": 89, "printed": "36095", "choice": 0, "confidence": "high", "note": "Coimbatore 50- females clearly 36,095"}
+{"n": 93, "printed": "16", "choice": 1, "confidence": "high", "note": "Jew Bengal under-1 males 16; column sums 1+16+139+21+3+1+3=184 = printed total"}
+{"n": 97, "printed": "76", "choice": 0, "confidence": "high", "note": "District Wun 30-34 females 76; column 266+123+56+136+76+121=778 = printed total. 2 is the Wun taluk row"}
